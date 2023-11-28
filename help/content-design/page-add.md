@@ -1,0 +1,231 @@
+---
+title: Adicionar e remover páginas
+description: Saiba como adicionar e remover páginas de conteúdo usadas em seu [!DNL Commerce] armazenamento.
+exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
+source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 0%
+
+---
+
+# Adicionar e remover páginas
+
+O processo de adicionar uma página de conteúdo ao seu armazenamento é essencialmente o mesmo para qualquer tipo de página que você queira criar. É possível incluir texto, imagens, blocos de conteúdo, variáveis e widgets. A maioria das páginas de conteúdo é projetada para leitura primeiro pelos mecanismos de pesquisa e, depois, pelas pessoas. Lembre-se das necessidades de cada um desses dois públicos-alvo diferentes ao escolher o título da página, o URL e ao compor os metadados e o conteúdo. Quando a página é concluída, ela pode ser adicionada à navegação da loja, vinculada a outras páginas, vinculada do rodapé da loja ou usada como uma nova [home page](page-home-new.md).
+
+![Grade de páginas](./assets/pages-grid.png){width="700" zoomable="yes"}
+
+## Adicionar uma página
+
+As instruções a seguir orientam você em cada etapa para criar uma página básica. Alguns recursos avançados são ignorados, mas são abordados em outros tópicos.
+
+### Etapa 1: criar a página
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+
+1. Clique em **[!UICONTROL Add New Page]**.
+
+   ![Nova página](./assets/pages-new-page.png){width="600" zoomable="yes"}
+
+1. Se não quiser publicar a página imediatamente, defina **[!UICONTROL Enable Page]** para `No`.
+
+1. Insira o **[!UICONTROL Page Title]**.
+
+   O título da página aparece na [navegação estrutural](../catalog/navigation-breadcrumb-trail.md) navegação.
+
+### Etapa 2: concluir o conteúdo
+
+Dependendo do [Configuração das ferramentas avançadas de conteúdo](../configuration-reference/general/content-management.md), adicione o conteúdo da página.
+
+#### Usar as ferramentas de conteúdo do Page Builder
+
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
+
+   ![Conteúdo com o Page Builder](../page-builder/assets/pb-page-content.png){width="600" zoomable="yes"}
+
+1. No **[!UICONTROL Content Heading]** , insira o cabeçalho que deve aparecer na parte superior da página.
+
+   Se ativado, a variável [Page Builder](../page-builder/introduction.md) O estágio e o painel são exibidos abaixo do Cabeçalho do conteúdo. Para obter mais informações, consulte [Workspace](../page-builder/workspace.md). Se _Page Builder_ não estiver ativado, o editor será aberto no modo WYSIWYG com a barra de ferramentas na parte superior.
+
+1. Preencha o conteúdo e formate o texto conforme necessário.
+
+#### Usar a barra de ferramentas do editor
+
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
+
+   ![Conteúdo](./assets/page-content-editor.png){width="600" zoomable="yes"}
+
+1. No **[!UICONTROL Content Heading]** , insira o cabeçalho que deve aparecer na parte superior da página.
+
+1. Preencha o conteúdo e formate o texto conforme necessário.
+
+   Você pode adicionar [imagens](media-storage.md), [variáveis](../systems/variables-predefined.md), e [widgets](widgets.md) conforme necessário. Para obter mais informações, consulte [Uso do Editor](editor.md).
+
+### Etapa 3: Preencher as informações de SEO
+
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]**.
+
+   ![Otimização do mecanismo de pesquisa](./assets/page-search-engine-optimization.png){width="600" zoomable="yes"}
+
+1. Aceite o padrão ou insira outro **[!UICONTROL URL Key]** que consiste em todos os caracteres em minúsculas, com hifens em vez de espaços.
+
+   A chave de URL padrão foi criada quando a página foi salva e tem como base o Cabeçalho do conteúdo.
+
+1. Insira um **[!UICONTROL Meta Title]** para a página.
+
+   O metatítulo deve conter menos de 70 caracteres e é exibido na barra de título e na guia do navegador.
+
+1. Insira sua escolha de valor alto **[!UICONTROL Meta Keywords]** que os mecanismos de pesquisa podem usar para indexar a página.
+
+   Separe várias palavras com uma vírgula. As palavras-chave meta são ignoradas por alguns mecanismos de pesquisa, mas usadas por outros.
+
+1. Para **[!UICONTROL Meta Description]**, insira uma breve descrição da página para listagens de resultados da pesquisa.
+
+   Idealmente, a descrição deve ter entre 150 e 160 caracteres de comprimento, com um limite máximo de 255.
+
+1. Clique em **[!UICONTROL Save]**.
+
+### Etapa 4: especificar o escopo da página
+
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) **[!UICONTROL Page in Websites]**.
+
+   ![Páginas em sites](./assets/page-in-websites.png){width="600" zoomable="yes"}
+
+1. No **[!UICONTROL Store View]** selecione cada exibição em que a página deverá estar disponível.
+
+   Se a instalação tiver vários sites, selecione cada site e a exibição de armazenamento onde a página deverá estar disponível.
+
+### Etapa 5: identificar a página principal (se aplicável)
+
+{{ee-feature}}
+
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) **[!UICONTROL Hierarchy]**.
+
+   ![Hierarquia](./assets/page-hierarchy.png){width="600" zoomable="yes"}
+
+1. Se esta página for secundária de outra página, marque a caixa de seleção da **[!UICONTROL Parent page]**.
+
+### Etapa 6: inserir alterações de design (opcional)
+
+1. Para alterar o layout da página, expanda ![Seletor de expansão](../assets/icon-display-expand.png) **[!UICONTROL Design]**.
+
+   ![Design](./assets/page-design.png){width="600" zoomable="yes"}
+
+1. Para alterar o layout de coluna da página, defina **[!UICONTROL Layout]** a um dos seguintes:
+
+   - `Empty`
+   - `1 column`
+   - `2 columns with left bar`
+   - `2 columns with right bar`
+   - `3 columns`
+   - `Page -- Full Width` (Exige [Page Builder](../page-builder/introduction.md))
+   - `Category -- Full Width` (Requer o Page Builder)
+   - `Product -- Full Width` (Requer o Page Builder)
+
+1. Para aplicar uma **[!UICONTROL Custom Layout Update]**, escolha o nome do arquivo na lista.
+
+   Para obter mais informações, consulte [Atualizações de layout](layout-updates.md).
+
+1. Para alterar o tema da página, defina **[!UICONTROL New Theme]** a um dos seguintes:
+
+   - `Magento Black`
+   - `Magento Luma`
+
+1. ![Magento Open Source](../assets/open-source.svg) (Somente Magento Open Source) Para agendar uma alteração de design, expanda ![Seletor de expansão](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]** e faça o seguinte:
+
+   ![Atualização de design personalizado](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
+
+   - Usar o calendário (![Ícone de calendário](../assets/icon-calendar.png)) para escolher o **[!UICONTROL From]** e **[!UICONTROL To]** datas para a alteração entrar em vigor.
+
+   - Para aplicar um tema diferente à página, selecione o nome do **[!UICONTROL New Theme]**.
+
+   - Para alterar o layout de coluna da página, escolha o **[!UICONTROL Layout]** que deseja aplicar.
+
+### Etapa 7: visualizar a página
+
+1. Clique em **[!UICONTROL Save]** seta e escolha **[!UICONTROL Save & Close]** para retornar à grade Páginas.
+
+1. Localize a página na grade e selecione **[!UICONTROL View]** no _[!UICONTROL Action]_coluna.
+
+1. Para retornar à grade, clique em **[!UICONTROL Back]** no canto superior esquerdo da janela do navegador.
+
+### Etapa 8: publicar a página
+
+1. Selecionar **[!UICONTROL Edit]** no _[!UICONTROL Action]_da grade.
+
+1. Definir **[!UICONTROL Enable Page]** para `Yes`.
+
+1. Clique em **[!UICONTROL Save]** seta e escolha **[!UICONTROL Save & Close]**.
+
+## Duplicação de uma página
+
+Qualquer página de conteúdo pode ser usada como um modelo e salva como uma duplicata. Você pode usar essa técnica que economiza tempo para criar um design consistente para páginas de conteúdo em todo o site. A página duplicada retém o Título da página do original, mas os campos Chave do URL e Status devem ser atualizados.
+
+![Salvar e duplicar](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+
+1. Na grade, localize a página que deseja duplicar e clique em **[!UICONTROL Edit]** no _[!UICONTROL Action]_coluna.
+
+1. Clique em **[!UICONTROL Save]** seta e escolha **[!UICONTROL Save & Duplicate]**.
+
+1. Ao ver as mensagens de que a página foi salva e duplicada, clique em **[!UICONTROL Back]** na barra de botões superior para retornar à grade.
+
+1. Localize a página duplicada na grade e anote o seguinte:
+
+   - O Título da página é igual ao original.
+   - Uma chave de URL exclusiva, mas temporária, é atribuída.
+   - O Status da página é `Disabled`.
+
+1. Abra a página duplicada no _Editar_ e faça o seguinte:
+
+   - Se quiser publicar a página imediatamente, defina **[!UICONTROL Enable Page]** para `Yes`.
+
+   - Atualize o **[!UICONTROL Page Title]**, conforme necessário.
+
+   - Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Search Engine Optimization]** e insira a tag exclusiva **[!UICONTROL URL Key]** que você deseja usar para a página duplicada.
+
+     ![Chave de URL temporária](./assets/page-search-engine-optimization-url-key-duplicate.png){width="600" zoomable="yes"}
+
+   - Atualize o conteúdo restante da página, conforme necessário.
+
+1. Clique em **[!UICONTROL Save]** seta e escolha **[!UICONTROL Save & Close]**.
+
+   A página duplicada na grade reflete as alterações.
+
+## Menu Salvar
+
+| Comando | Descrição |
+|--- |--- |
+| [!UICONTROL Save] | Salva a página atual e continua trabalhando. |
+| [!UICONTROL Save & New] | Salvar e fechar a página atual e iniciar uma nova página. |
+| [!UICONTROL Save & Duplicate] | Salvar e fechar a página atual e abrir uma nova cópia duplicada. |
+| [!UICONTROL Save & Close] | Salvar e fechar a página atual e retornar à grade Páginas. |
+
+{style="table-layout:auto"}
+
+## Excluir uma página
+
+Há duas maneiras de remover uma página criada. Você pode removê-lo do _[!UICONTROL Pages]_ou da_[!UICONTROL Edit]_ página.
+
+### Método 1: remover uma página da grade Páginas
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+
+1. Localize as páginas usando filtros acima da grade e marque a caixa de seleção de uma ou mais páginas a serem excluídas.
+
+1. No canto superior esquerdo da lista, defina **[!UICONTROL Actions]** para `Delete`.
+
+1. Para confirmar a ação, clique em **[!UICONTROL OK]**.
+
+### Método 2: remover uma página da página de edição
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+
+1. Localizar a página a ser excluída.
+
+1. No _[!UICONTROL Actions]_para a entidade página, clique em **[!UICONTROL Select]**e escolha **[!UICONTROL Edit]**.
+
+1. Na barra de botões, clique em **[!UICONTROL Delete Page]**.
+
+1. Para confirmar a ação, clique em **[!UICONTROL OK]**.

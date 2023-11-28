@@ -1,0 +1,147 @@
+---
+title: Relatórios de vendas
+description: A variável [!DNL Commerce] os relatórios de vendas ajudam você a rastrear pedidos, impostos, faturas, remessa, reembolsos, cupons e liquidação do PayPal.
+exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
+feature: Reporting, Orders
+source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 1%
+
+---
+
+# Relatórios de vendas
+
+A seleção de relatórios de vendas inclui Pedidos, Impostos, Faturados, Envio, Reembolsos, Cupons e Liquidação PayPal.
+
+## Filtros de relatório
+
+Você pode gerar um relatório de vendas para um site inteiro ou para uma loja. Os relatórios de vendas podem ser filtrados por intervalo de tempo, data e status.
+
+![Filtros do relatório de vendas](./assets/tax-report.png){width="600"}
+
+Para filtrar um relatório de vendas, defina as seguintes opções:
+
+| Opção | Descrição |
+|--- |--- |
+| [!UICONTROL Date Used] | Define os dados a serem usados para o relatório. |
+| [!UICONTROL Period] | O período para o qual os dados são usados: Dia/Mês/Ano. |
+| [!UICONTROL From/To] | Usado para definir dados de pesquisa por data de início e término. |
+| [!UICONTROL Order Status] | Indica o status do pedido |
+| [!UICONTROL Empty Rows] | Indica se devem ser adicionadas linhas em branco ao relatório. |
+
+## [!UICONTROL Orders Report]
+
+A variável [!UICONTROL Orders Report] inclui o número de pedidos feitos e cancelados, com totais de vendas, valores faturados, reembolsados, impostos coletados, frete cobrado e descontos.
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Orders]**.
+
+1. No **[!UICONTROL Filter]** selecione as opções do período de geração de relatório e o status do pedido usado para preencher o relatório.
+
+1. Clique em **[!UICONTROL Show Report]**.
+
+![Registros do relatório de pedidos](./assets/order-report-records.png){width="600"}
+
+## [!UICONTROL Tax Report]
+
+A variável [!UICONTROL Tax Report] inclui a regra de imposto aplicada, a alíquota do imposto, o número de pedidos e o valor do imposto cobrado.
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Tax]**.
+
+1. No **[!UICONTROL Filter]** selecione as opções do período de geração de relatório e o status do pedido usado para preencher o relatório.
+
+
+1. Clique em **[!UICONTROL Show Report]**.
+
+![Relatório de Impostos](./assets/tax-report-records.png){width="600"}
+
+## [!UICONTROL Invoice Report]
+
+A variável [!UICONTROL Invoice Report] inclui o número de pedidos e faturas durante o período de tempo, com valores faturados, pagos e não pagos.
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Invoiced]**.
+
+1. No **[!UICONTROL Filter]** selecione as opções do período de geração de relatório e o status do pedido usado para preencher o relatório.
+
+1. Clique em **[!UICONTROL Show Report]**.
+
+![Relatório de NFF](./assets/sales-invoiced.png){width="600"}
+
+## [!UICONTROL Shipping Report]
+
+A variável [!UICONTROL Shipping Report] inclui o número de pedidos da transportadora ou o método de envio usado, incluindo valores para o total de vendas e o total de entregas.
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Shipping]**.
+
+1. No **[!UICONTROL Filter]** selecione as opções do período de geração de relatório e o status do pedido usado para preencher o relatório.
+
+1. Clique em **[!UICONTROL Show Report]**.
+
+![Relatório de Entrega](./assets/shipping.png){width="600"}
+
+## [!UICONTROL Refunds Report]
+
+A variável [!UICONTROL Refunds Report] inclui o número de pedidos reembolsados e o valor total reembolsado online e offline.
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Refunds]**.
+
+1. No **[!UICONTROL Filter]** selecione as opções do período de geração de relatório e o status do pedido usado para preencher o relatório.
+
+1. Clique em **[!UICONTROL Show Report]**.
+
+![Relatório de Reembolsos](./assets/sales-refunds.png){width="600"}
+
+## [!UICONTROL Coupons Report]
+
+A variável [!UICONTROL Coupons Report] inclui cada código de cupom usado durante o intervalo de tempo especificado, a regra de preço relacionada e o número de vezes usado, com totais e subtotais para vendas e descontos.
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Coupons]**.
+
+1. No **[!UICONTROL Filter]** selecione as opções do período de geração de relatório e o status do pedido usado para preencher o relatório.
+
+1. Clique em **[!UICONTROL Show Report]**.
+
+Para obter mais informações sobre como usar o [!UICONTROL Coupons Report] para coletar dados para suas campanhas de promoção, consulte [Relatórios de cupons](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report) no _Guia de merchandising e promoções_.
+
+<!--- ![Coupons Report](./assets/sales-coupons.png) need coupon data  -->
+
+## [!UICONTROL PayPal Settlement Reports]
+
+A variável [Relatórios de liquidação do PayPal] A página inclui o tipo de evento, como uma transação de cartão de débito, as datas de início e término, o valor bruto e as taxas relacionadas. O relatório pode ser atualizado automaticamente com os dados mais atuais do PayPal. Há opções de filtro para intervalo de datas, conta de comerciante, ID de transação, ID de fatura ou ID de referência do PayPal.
+
+No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**.
+
+![Relatório de liquidação do PayPal](./assets/reports-sales-paypal-settlement.png){width="600"}
+
+Para obter mais informações sobre como usar o [!UICONTROL PayPal Settlement Reports] para recuperar informações sobre cada transação do PayPal que afeta a liquidação de fundos, consulte [Relatórios de liquidação do PayPal](../stores-purchase/paypal-settlement-reports.md) no _Guia de experiência de compras e lojas_.
+
+## [!UICONTROL Braintree Settlement Report]
+
+A variável [Braintree](../stores-purchase/braintree.md) O Relatório de Liquidação pode ser filtrado de acordo com a data de criação, quantia, status, tipo de transação, tipo de pagamento, ID da transação, ID da ordem, ID do pagamento do PayPal, tipo, ID da conta do comerciante ou ID do lote de liquidação. O relatório contém a ID da transação, a ID do pedido, a ID do pagamento do PayPal, o tipo, a data de criação, o valor, o código de liquidação, o status, o texto da resposta da liquidação, as IDs de reembolso, a ID da conta do comerciante, a ID do lote de liquidação e a moeda.
+
+No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Braintree Settlement]**.
+
+<!--- ![Braintree Settlement Report](./assets/braintree-settlement.png) need a Braintree connection to update report screen -->
+
+## Exportar relatórios
+
+1. Para exportar o relatório, selecione o tipo de arquivo: `Excel XML` ou `CSV`
+
+1. Clique em **[!UICONTROL Export]**.
+
+## Atualizar estatísticas
+
+Para reduzir o impacto no desempenho da geração de relatórios de vendas, [!DNL Commerce] O calcula e armazena as estatísticas necessárias para cada relatório. Em vez de recalcular as estatísticas sempre que um relatório for gerado, as estatísticas armazenadas serão usadas, a menos que você atualize as estatísticas. Para incluir os dados mais recentes, as estatísticas do relatório devem ser atualizadas antes de um relatório de vendas ser gerado.
+
+![Atualizar estatísticas](./assets/refresh-stats.png){width="700"}
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Statistics]_>**[!UICONTROL Refresh Statistics]**.
+
+1. Na lista, marque a caixa de seleção para cada relatório a ser atualizado.
+
+1. Defina o **[!UICONTROL Actions]** controle para uma das seguintes opções:
+
+   - `Refresh Lifetime Statistics`
+   - `Refresh Statistics for the Last Day`
+
+1. Clique em **[!UICONTROL Submit]**.

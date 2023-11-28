@@ -1,0 +1,31 @@
+---
+title: Inserir uma variável no editor
+description: Adicione variáveis predefinidas ou personalizadas ao seu conteúdo no editor WYSIWYG.
+exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
+feature: Page Content, Variables
+source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 0%
+
+---
+
+# Inserir uma variável no editor
+
+Seu armazenamento inclui muitos predefinidos [variáveis](../systems/variables-predefined.md) que pode ser incorporado ao conteúdo da página e outras comunicações. Além disso, você pode incluir seus próprios [variáveis personalizadas](../systems/variables-custom.md) que são específicos às suas necessidades.
+
+1. Abra uma página, um bloco ou um bloco dinâmico no modo de edição.
+
+1. Vá para a _[!UICONTROL Content]_e clique em qualquer elemento compatível com o editor.
+
+1. Posicione o cursor onde deseja que a variável apareça e clique no _Inserir variável_ ícone.
+
+   ![Barra de ferramentas do editor - Inserir variável](./assets/editor-toolbar-variable-button.png){width="700" zoomable="yes"}
+
+   Se você não tiver [!UICONTROL Page Builder] habilitado e preferir trabalhar com o código HTML, clique em **[!UICONTROL Show / Hide Editor]**. Posicione o ponto de inserção no texto no qual você deseja que a variável apareça. Em seguida, clique em **[!UICONTROL Insert Variable]**.
+
+1. Na lista de variáveis disponíveis, escolha a que deseja e clique em **[!UICONTROL Insert Variable]**.
+
+   ![Página Inserir variável](./assets/content-insert-variable.png){width="600" zoomable="yes"}
+
+1. Quando as edições de conteúdo estiverem concluídas, clique em **[!UICONTROL Save]**.

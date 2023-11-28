@@ -1,0 +1,102 @@
+---
+title: O URL da página de conteúdo reescreve
+description: Saiba como usar substituições de URL de página de conteúdo para redirecionar links para o URL de outra página de conteúdo na sua loja do Commerce.
+exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
+feature: Page Content, Configuration
+source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 0%
+
+---
+
+# O URL da página de conteúdo reescreve
+
+Antes de começar, verifique se você entende exatamente o que o redirecionamento deve realizar. Pense em termos de _público alvo_ / _origem_ ou _redirecionar para_ / _redirecionar de_. Embora as pessoas ainda possam navegar para a página anterior a partir de mecanismos de pesquisa ou links desatualizados, o redirecionamento faz com que sua loja alterne para o novo público-alvo.
+
+![Substituições de URL - Página CMS](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
+
+## Etapa 1. Planejar a reescrita
+
+Para evitar erros, anote a chave do URL do _redirecionar para_ página e _redirecionar de_ página.
+
+Caso não tenha certeza, abra cada página em seu armazenamento e copie o caminho da barra de endereços do navegador.
+
+### Caminho da página do CMS
+
+Redirecionar para: `new-page`
+
+Redirecionar de: `old-page`
+
+## Etapa 2. Criar a regravação
+
+{{url-rewrite-params}}
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
+
+1. Antes de continuar, faça o seguinte para verificar se o caminho da solicitação está disponível.
+
+   - No filtro de pesquisa, na parte superior da guia **[!UICONTROL Request Path]** insira a chave do URL da página que deve ser redirecionada e clique em **[!UICONTROL Search]**.
+
+   - Se houver vários registros de redirecionamento para a página, localize aquele que corresponde à exibição de loja aplicável e abra-o no modo de edição.
+
+   - No canto superior direito, clique em **[!UICONTROL Delete]**. Quando solicitado, clique em **[!UICONTROL OK]** para confirmar.
+
+1. Ao retornar para a página Regravações de URL, clique em **[!UICONTROL Add URL Rewrite]**.
+
+1. Definir **[!UICONTROL Create URL Rewrite]** para `for CMS page`.
+
+1. Encontre sua nova página de destino na grade e abra no modo de edição.
+
+   ![Adicionar regravação de URL - para página CMS](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
+
+1. Em Informações de regravação de URL, faça o seguinte:
+
+   - Se você tiver várias exibições de loja, selecione a variável **[!UICONTROL Store]** onde a regravação se aplica.
+
+   - Para **[!UICONTROL Request Path]**, insira a chave do URL da página original que o cliente solicita. Este é o _redirecionar de_ página.
+
+     >[!NOTE]
+     >
+     >O Caminho da solicitação deve ser exclusivo para o armazenamento especificado. Se já houver um redirecionamento que use o mesmo Caminho da solicitação, você receberá um erro ao tentar salvar o redirecionamento. O redirecionamento anterior precisa ser excluído para que você possa criar um.
+
+   - Definir **[!UICONTROL Redirect]** a um dos seguintes:
+
+      - `Temporary (302)`
+      - `Permanent (301)`
+
+   - Para sua referência, informe uma breve descrição da reescrita.
+
+   ![Informações de regravação de URL](./assets/url-rewrite-cms-page-information.png){width="600" zoomable="yes"}
+
+1. Antes de salvar o redirecionamento, revise o seguinte:
+
+   - O link no canto superior esquerdo exibe o nome da página de destino.
+   - O Caminho da solicitação contém o caminho para o original _redirecionar de_ página.
+
+1. Quando terminar, clique em **[!UICONTROL Save]**.
+
+   A nova regravação aparece na grade na parte superior da lista.
+
+## Etapa 3. Testar o resultado
+
+1. Vá para a home page da loja.
+
+1. Siga um destes procedimentos:
+
+   - Navegar até o original _redirecionar de_ página.
+   - Na barra de endereços do navegador, digite o nome do original _redirecionar de_ imediatamente após o URL de armazenamento e pressione **Enter**.
+
+   A nova página de destino é exibida em vez da solicitação da página original.
+
+## Descrições dos campos
+
+| Campo | Descrição |
+|--- |--- |
+| [!UICONTROL Create URL Rewrite] | Indica o tipo de reescrita. O tipo não pode ser alterado após a criação da regravação. Opções: `Custom` / `For category` / `For product` / `For CMS page` |
+| [!UICONTROL Request Path] | A página do CMS que deve ser redirecionada. O caminho da solicitação deve ser exclusivo e não pode estar sendo usado por outro redirecionamento. Se você receber uma mensagem de erro informando que o caminho da solicitação existe, exclua o redirecionamento existente e tente novamente. |
+| [!UICONTROL Target Path] | O caminho interno usado pelo sistema para apontar para o destino. O caminho de destino está esmaecido e não pode ser editado. |
+| [!UICONTROL Redirect] | Determina o tipo de redirecionamento. Opções: <br/>**[!UICONTROL No]**- Nenhum redirecionamento especificado.<br/>**[!UICONTROL Temporary (302)]** - Indica aos mecanismos de pesquisa que a regravação é por um tempo limitado. Os mecanismos de pesquisa geralmente não retêm informações de classificação de página para regravações temporárias. <br/>**[!UICONTROL Permanent (301)]**- Indica aos mecanismos de pesquisa que a regravação é permanente. Os mecanismos de pesquisa geralmente retêm informações de classificação de página para regravações permanentes. |
+| [!UICONTROL Description] | Descreve a finalidade da regravação para referência interna. |
+
+{style="table-layout:auto"}

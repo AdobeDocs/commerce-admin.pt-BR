@@ -1,0 +1,118 @@
+---
+title: Lista de produtos
+description: Saiba mais sobre o _[!UICONTROL Products]_ página no Admin, onde é possível criar produtos e editar os existentes.
+exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
+feature: Catalog Management, Products, Admin Workspace
+source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 0%
+
+---
+
+# Lista de produtos
+
+Todos os produtos no catálogo podem ser acessados no _[!UICONTROL Products]_no Admin, onde é possível criar produtos e editar os existentes. Para uma instalação em vários sites, cada site pode oferecer uma seleção diferente de produtos para venda no mesmo catálogo.
+
+A variável _[!UICONTROL Products]_A lista inclui todos os produtos no catálogo, indica os sites nos quais eles estão disponíveis e se estão habilitados para venda no momento. Em B2B para instalações do Adobe Commerce com [catálogos compartilhados](../b2b/catalog-shared.md) ativada, a grade inclui uma coluna que indica quais produtos têm preços de desconto alternativos em um catálogo compartilhado.
+
+Você pode navegar pela página da lista por página ou pesquisar por produtos específicos. Usar o padrão [controles](../getting-started/admin-grid-controls.md) para classificar e filtrar a lista, e aplicar [ações](../getting-started/admin-actions-control.md) para produtos selecionados.
+
+![Grade de produtos](./assets/products-grid.png){width="700" zoomable="yes"}
+
+## Limitar exibição do produto
+
+Para melhorar o desempenho de catálogos grandes, é recomendável limitar o número de produtos exibidos na grade. É possível limitar as grades de produtos exibidas para:
+
+- Página Produtos
+- Adicionar produtos relacionados/venda adicional/venda cruzada
+- Adicionar produtos ao produto do pacote
+- Adicionar produtos ao produto do grupo
+- Criar pedido (Administrador)
+
+Essa configuração da limitação de exibição do produto é desabilitada por padrão. Ao ativá-la, é possível limitar o número de produtos na grade a um valor específico. Se estiver ativado e o número de produtos correspondentes para a exibição de grade for maior que o limite de registros, uma coleção limitada de registros será retornada. Quando o limite é atingido, o total de registros encontrados, o número de registros selecionados e os elementos de paginação não aparecem no cabeçalho da grade.
+
+>[!NOTE]
+>
+>Se você não quiser que a grade de produtos seja limitada, use filtros com mais precisão para produzir uma coleção com menos itens do que o número especificado no _[!UICONTROL Records Limit]_campo.
+
+**_Para configurar a limitação de exibição do produto:_**
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. Expandir **[!UICONTROL Advanced]** e escolha **[!UICONTROL Admin]**.
+
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Admin Grids]** e faça o seguinte:
+
+   - Definir **[!UICONTROL Limit Number of Products in Grid]** para `Yes`.
+
+   - (Opcional) Insira um valor no campo **[!UICONTROL Records Limit]** para limitar o número de produtos na grade a um valor específico. O valor mínimo padrão é `20000`.
+
+   ![Definições da configuração de grades de administração](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
+
+1. Quando terminar, clique em **[!UICONTROL Save Config]**.
+
+## Controles de página
+
+| Controle | Descrição |
+|--- |--- |
+| [!UICONTROL Add Product] | Inicia o processo para criar um novo produto simples. Para escolher um tipo de produto específico, clique na seta para baixo. Opções: [[!UICONTROL Simple Product]](product-create-simple.md) / [[!UICONTROL Configurable Product]](product-create-configurable.md) / [[!UICONTROL Grouped Product]](product-create-grouped.md) / [[!UICONTROL Virtual Product]](product-create-virtual.md) / [[!UICONTROL Bundle Product]](product-create-bundle.md) / [[!UICONTROL Downloadable Product]](product-create-downloadable.md) / [[!UICONTROL Gift Card]](product-gift-card-create.md) |
+| [!UICONTROL Actions] | Lista todas as ações que podem ser aplicadas aos produtos selecionados na lista. Para aplicar uma ação a um produto ou grupo de produtos, marque a caixa de seleção na primeira coluna de cada produto. Opções: `Delete` / `Change Status` / `Update Attributes` / `Assign Inventory Source` / `Unassign Inventory Source` / `Transfer Inventory To Source` |
+| [!UICONTROL Filters] | Inicia uma pesquisa no catálogo com base nos filtros atuais. |
+| [!UICONTROL Default View] | Indica o layout de coluna da grade atual. Se houver exibições de colunas de grade salvas, você poderá escolher outra. |
+| [!UICONTROL Columns] | Lista todas as ações que podem ser aplicadas aos produtos selecionados na lista. Para aplicar uma ação a um produto ou grupo de produtos, marque a caixa de seleção na primeira coluna de cada produto. |
+| [!UICONTROL Search by keyword] | A caixa de pesquisa, no canto superior esquerdo, é usada para localizar produtos por palavra-chave. |
+| [!UICONTROL Edit] | Abre o produto no modo de edição. Você pode fazer a mesma coisa clicando em qualquer lugar na linha. |
+
+{style="table-layout:auto"}
+
+## Colunas padrão
+
+| Coluna | Descrição |
+|--- |--- |
+| (Caixa de seleção) | Seleciona vários registros para serem sujeitos a uma ação. A caixa de seleção na primeira coluna de cada registro selecionado está marcada. Opções: <br/>**[!UICONTROL Select All]**- Seleciona todos os registros encontrados que correspondem às configurações de filtro atuais.<br/>**[!UICONTROL Select All on This Page]** - Seleciona apenas os registros encontrados na página atual que correspondem às configurações de filtro. |
+| [!UICONTROL ID] | Um número sequencial exclusivo atribuído quando um novo produto é salvo pela primeira vez. |
+| [!UICONTROL Thumbnail] | Exibe uma miniatura da imagem principal do produto. |
+| [!UICONTROL Name] | O nome do produto. |
+| [!UICONTROL Type] | O tipo de produto. |
+| [!UICONTROL Attribute Set] | O nome do conjunto de atributos usado como modelo para o produto. |
+| [!UICONTROL SKU] | A Unidade de Manutenção de Estoque exclusiva atribuída ao produto. |
+| [!UICONTROL Price] | O preço unitário do produto. |
+| [!UICONTROL Quantity] | A quantidade em estoque. |
+| [!UICONTROL Salable Quantity] | A soma de todas as unidades disponíveis deste produto. |
+| [!UICONTROL Visibility] | Indica onde o produto está visível no catálogo. Opções: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
+| [!UICONTROL Status] | Indica o status do produto. Opções: `Enabled` e `Disabled` |
+| [!UICONTROL Websites] | Indica os sites nos quais o produto está disponível. |
+| [!UICONTROL Action] | Abre o produto no modo Editar. |
+| [!UICONTROL Shared Catalog] | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com [B2B para Adobe Commerce](./b2b/../introduction.md) somente) Indica os catálogos compartilhados que contêm preços personalizados para o produto. |
+
+{style="table-layout:auto"}
+
+## Outras colunas
+
+| Coluna | Descrição |
+|--- |--- |
+| [!UICONTROL Short Description] | Breve descrição do produto. |
+| [!UICONTROL Special Price From Date] | A primeira data da promoção de preço especial. |
+| [!UICONTROL Special Price To Date] | A última data da promoção de preço especial. |
+| [!UICONTROL Cost] | O custo real do item. |
+| [!UICONTROL Manufacturer] | O fabricante do produto. |
+| [!UICONTROL Meta Keywords] | Metapalavras-chave do produto. |
+| [!UICONTROL Color] | A cor do produto. |
+| [!UICONTROL Set Product as New from Date] | A primeira data do produto definido como uma nova promoção. |
+| [!UICONTROL Set Product as New to Date] | A última data do produto definido como uma nova promoção. |
+| [!UICONTROL Active From / To] | As datas de início e término do produto. |
+| [!UICONTROL Layout] | O layout do produto. |
+| [!UICONTROL Minimum Advertised Price] | O preço mínimo anunciado do produto. |
+| [!UICONTROL Allow Gift Message] | A mensagem de presente para clientes que compram um cartão-presente. |
+| [!UICONTROL Special Price] | Preço especial do produto. |
+| [!UICONTROL Weight] | O peso do produto. |
+| [!UICONTROL Meta Title] | Metatítulo do produto. |
+| [!UICONTROL Meta Description] | A descrição dos metadados do produto. |
+| [!UICONTROL Country of Manufacture] | O país de fabricação. |
+| [!UICONTROL New Theme] | Tema personalizado aplicado ao produto. |
+| [!UICONTROL URL Key] | A Chave de URL do produto. |
+| [!UICONTROL Tax Class] | A classe de imposto do produto. |
+| [!UICONTROL Allow Gift Message] | Exibe a disponibilidade da opção de mensagem de presente para o produto. |
+
+{style="table-layout:auto"}

@@ -1,0 +1,62 @@
+---
+title: Aprovar uma conta de empresa
+description: Saiba como aprovar solicitações de conta da empresa no Administrador.
+exl-id: c7123383-0e94-4d6c-be3c-b6ca84145a59
+feature: B2B, Companies, Configuration
+role: Admin, User
+source-git-commit: 2b86fe55f980c22839de10ecc4c9023034eb9ea1
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 0%
+
+---
+
+# Aprovar uma conta de empresa
+
+O status das solicitações recebidas da loja para criar uma empresa é `Pending Approval` até que a solicitação seja revisada pelo administrador de armazenamento e aprovada ou rejeitada. O status de uma conta de empresa pode ser definido como qualquer um dos seguintes:
+
+- [!UICONTROL Active]
+- [!UICONTROL Pending Approval]
+- [!UICONTROL Rejected]
+- [!UICONTROL Blocked]
+
+Você também pode usar a variável [Controle de ações](account-company-manage.md) para aprovar várias solicitações de empresa.
+
+![Pendente de Aprovação](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
+
+## Aprovar uma conta de empresa pendente
+
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+
+   Você pode usar o _[!UICONTROL Columns]_seletor acima da grade para exibir a **[!UICONTROL Status]**coluna.
+
+1. No _[!UICONTROL Action]_clique em **[!UICONTROL Edit]**.
+
+1. Definir **[!UICONTROL Company Status]** para `Active`.
+
+   ![Definir o status da empresa](./assets/company-status-active.png){width="700" zoomable="yes"}
+
+1. Quando for solicitada a confirmação, clique em **[!UICONTROL Change status]**.
+
+   O administrador da empresa recebe uma notificação por email informando que a empresa está ativa no momento.
+
+1. Se aplicável, defina **[!UICONTROL Sales Representative]** para uma conta de usuário Admin específica.
+
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png)  o **[!UICONTROL Account Information]** e use o **[!UICONTROL Comment]** para inserir observações sobre a conta.
+
+   Os comentários não estão visíveis na loja.
+
+1. Quando terminar, clique em **[!UICONTROL Save]**.
+
+   Um email de confirmação é enviado à empresa e ao administrador da empresa informando que a conta da empresa foi aprovada.
+
+## Status da empresa
+
+| Status | Descrição |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Active] | A empresa é aprovada e pode ser gerenciada na loja pelo administrador da empresa. |
+| [!UICONTROL Pending Approval] | Uma solicitação para criar uma conta de empresa foi enviada da loja, mas ainda não foi revisada. |
+| [!UICONTROL Rejected] | A solicitação para criar uma conta de empresa foi rejeitada pelo administrador de armazenamento. |
+| [!UICONTROL Blocked] | A conta da empresa não está mais em boa posição. O cliente pode acessar a conta na loja, mas não pode fazer compras. |
+
+{style="table-layout:auto"}

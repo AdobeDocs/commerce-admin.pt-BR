@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Security.txt]'
 description: Revise as configurações no [!UICONTROL Security] &gt; [!UICONTROL Security.txt] página do Administrador do Commerce.
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Para obter mais informações sobre a alteração dessas definições de configu
 |--- |--- |--- |
 | [!UICONTROL Enable] | Site | Quando ativado, um `security.txt` O arquivo salvo contém as informações necessárias aos pesquisadores de segurança para relatar possíveis vulnerabilidades a você. Opções:<br />**`Yes`**- Cria o `security.txt` arquivo com base nas informações inseridas na variável _Informações de contato_ e _Outras informações_ seções.<br />**`No`** - (padrão) Não cria a variável `security.txt` arquivo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Contact information]
 
@@ -36,7 +36,7 @@ Para obter mais informações sobre a alteração dessas definições de configu
 | [!UICONTROL Phone] | Site | Um número de telefone que pode ser usado para relatar problemas de segurança. |
 | [!UICONTROL Contact Page] | Site | A URL de uma página do site que lista contatos de segurança ou seus _Entre em contato_ página. Exemplos: <br/>`https://mystore.com/security-contact.html`<br/>`https://mystore.com/contact/` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Other information]
 
@@ -51,4 +51,4 @@ Para obter mais informações sobre a alteração dessas definições de configu
 | [!UICONTROL Policy] | Site | O URL da página que descreve sua política de segurança e as práticas de relatório de vulnerabilidade. Exemplo: `https://mystore.com/security-reporting.html` Padrão: `https://mystore.com/security` |
 | [!UICONTROL Signature] | Site | Um link para seu arquivo de assinatura digital. A assinatura digital deve ser gerada a partir da linha de comando e é salva no `.well-known` no servidor. Para obter mais informações, consulte [Segurança.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) no GitHub. Exemplo: `https://mystore.com/.well-known/security.txt.sig` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

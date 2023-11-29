@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
 description: Revise as configurações no [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] página do Administrador do Commerce.
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Notification Email Sender] | Exibição da loja | Identifica o [armazenar contato](../../getting-started/store-details.md#store-email-addresses) que aparece como o remetente do email de notificação do cartão-presente. Valor padrão: `General Contact` |
 | [!UICONTROL Gift Card Notification Email Template] | Exibição da loja | Determina o [modelo](../../systems/email-templates.md) que é usado para o email de notificação de cartão-presente. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Message Maximum Length] | Exibição da loja | Determina o número máximo de caracteres permitidos em uma mensagem de cartão-presente. Valor padrão: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Global | Determina se uma conta de cartão-presente é gerada quando um cliente faz um pedido ou quando o pedido é faturado. Opções: `Ordered` / `Invoiced` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Email Sender] | Exibição da loja | Identifica o [armazenar contato](../../getting-started/store-details.md#store-email-addresses) que aparece como o remetente do email do cartão-presente. Valor padrão: `General Contact` |
 | [!UICONTROL Gift Card Template] | Exibição da loja | Determina o [modelo](../../systems/email-templates.md) que é usado para o email do cartão-presente. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
@@ -75,4 +75,4 @@ ht-degree: 1%
 | [!UICONTROL Low Code Pool Threshold] | Global | Determina o número de registros no pool de códigos que aciona um alerta de que o pool precisa ser reabastecido. |
 | [!UICONTROL Generate] | Global | Clique em para gerar a lista de códigos de cartão-presente. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

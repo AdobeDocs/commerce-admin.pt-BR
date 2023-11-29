@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront]'
 description: Revise as configurações no [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront] página do Administrador do Commerce.
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Para obter mais informações sobre como usar o Google reCAPTCHA para proteger s
 | [!UICONTROL Theme] | Site | Determina o estilo da caixa do reCAPTCHA do Google. Opções: `Light Theme` (padrão) / `Dark Theme` |
 | [!UICONTROL Language Code] | Exibição de loja | A variável [código de dois caracteres](https://developers.google.com/recaptcha/docs/language) que especifica o idioma usado para mensagens e texto do Google reCAPTCHA. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
@@ -46,7 +46,7 @@ Para obter mais informações sobre como usar o Google reCAPTCHA para proteger s
 | [!UICONTROL Theme] | Global | Determina o estilo da caixa do reCAPTCHA do Google. Opções: `Light Theme` (padrão) / `Dark Theme` |
 | [!UICONTROL Language Code] | Exibição de loja | A [código de dois caracteres](https://developers.google.com/recaptcha/docs/language) que especifica o idioma usado para mensagens e texto do Google reCAPTCHA. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v3 Invisible]
 
@@ -61,7 +61,7 @@ Para obter mais informações sobre como usar o Google reCAPTCHA para proteger s
 | [!UICONTROL Theme] | Site | Determina o estilo da caixa do reCAPTCHA do Google. Opções: `Light Theme` (padrão) / `Dark Theme` |
 | [!UICONTROL Language Code] | Exibição de loja | A [código de dois caracteres](https://developers.google.com/recaptcha/docs/language) que especifica o idioma usado para mensagens e texto do Google reCAPTCHA. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
@@ -72,7 +72,7 @@ Para obter mais informações sobre como usar o Google reCAPTCHA para proteger s
 | [!UICONTROL reCAPTCHA Validation Failure Message] | Exibição de loja | A mensagem que é exibida na loja se a verificação falhar. Texto padrão: `reCAPTCHA verification failed.` |
 | [!UICONTROL reCAPTCHA Technical Failure Message] | Exibição de loja | A mensagem exibida na loja se o reCAPTCHA não retornar um resultado de verificação. Texto padrão: `Something went wrong with reCAPTCHA. Please contact the store owner.` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -103,4 +103,4 @@ Para obter mais informações sobre como usar o Google reCAPTCHA para proteger s
 | [!UICONTROL Enable for Coupon Codes] | Site | Especifica o tipo de reCAPTCHA que é usado quando os clientes inserem um [código do cupom](../../merchandising-promotions/price-rules-cart-coupon.md). Opções:<br/>**`No`**- (padrão) Não valida o envio do código do cupom.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário selecione o _Eu não sou um robô_ caixa de seleção <br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | Site | Especifica o tipo de reCAPTCHA usado quando os clientes pagam uma compra com [PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md). Opções:<br/>**`No`**- (padrão) Não valida a solicitação de redefinição de senha.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário selecione o _Eu não sou um robô_ caixa de seleção <br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

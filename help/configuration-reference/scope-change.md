@@ -2,9 +2,9 @@
 title: Escopo da configuração
 description: Saiba mais sobre como definir o escopo das configurações no Administrador do Commerce.
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
-source-git-commit: eb61d90c0a3bf5cac976fc8b79b23dc717aca3e6
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ O seletor de Exibição de loja no canto superior esquerdo de muitas páginas de
 | [!UICONTROL Default Store View] | O nome da exibição de loja padrão associada à loja pai. |
 | [!UICONTROL Stores Configuration] | Vai para a grade Lojas e é o mesmo que escolher [!UICONTROL Stores] > [!UICONTROL All Stores] na barra lateral Admin. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Marcar as caixas de seleção Usar valor do sistema](./assets/store-view-control.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ O rótulo da caixa de seleção muda de acordo com o escopo atual e sempre se re
 | [!UICONTROL Use Default] | Essa caixa de seleção aparece quando o escopo de configuração é definido como Principal `Website`, e refere-se à loja padrão atribuída ao site. |
 | [!UICONTROL Use Website] | Essa caixa de seleção aparece quando o escopo de configuração é definido para uma visualização de loja específica. Quando selecionada, ela usa a configuração do site pai associado à exibição da loja. Nesse caso, o nível da loja é ignorado porque se aplica à loja padrão associada ao site. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Definir o escopo
 
@@ -94,4 +94,4 @@ Antes de fazer uma definição de configuração que se aplique somente a uma ex
 | Idiomas | Para suportar vários idiomas, todo o conteúdo, incluindo descrições de produtos, deve ser [traduzido](../stores-purchase/store-localize.md#localize-products) para cada exibição de loja. |
 | Exibir moeda | Um modelo diferente [exibir moeda](../stores-purchase/currency-configuration.md) pode ser usado para cada exibição de loja, embora as transações sejam processadas no nível do site usando a moeda base. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

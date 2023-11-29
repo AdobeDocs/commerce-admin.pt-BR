@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
 description: Revise as configurações no [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] página do Administrador do Commerce.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 80630957dbe25d21c45f64d8027a39b7b396619d
+source-git-commit: 768c9fdc37127b408230983e39e98b11149713a7
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Inventory Check On Cart Load] | Global | Determina se uma verificação de inventário é executada ao carregar um produto no carrinho. Desativar essa verificação de inventário pode melhorar o desempenho das etapas de check-out, especialmente quando há muitos itens no carrinho. No entanto, se você ignorar a pré-validação, os clientes poderão ver _sem estoque_ erros posteriormente no processo de check-out. Opções: `Yes` / `No` |
 | [!UICONTROL Synchronize with Catalog] | Global | Quando definido como `Yes`, os dados do inventário são ajustados de acordo com as alterações do catálogo (como remoções de produtos, alterações de SKU de produtos e alterações de tipo de produto) e mantêm a consistência entre o inventário e o catálogo. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Stock Options]
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Qty Increments] | Global | Estabelece o número de produtos que compõem um incremento de quantidade. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | Global | Determina se os itens incluídos nos avisos de crédito são automaticamente devolvidos ao inventário. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Bulk Operations]
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | [!UICONTROL Run asynchronously] | Global | Determina se você executa operações em massa de forma assíncrona para ações de produtos em massa, incluindo [em massa](../../inventory-management/bulk-assignment.md) atribuir origens, cancelar atribuição de origens e [transferir inventário para origem](../../inventory-management/inventory-transfer.md). Ele coleta ações em massa até o _[!UICONTROL Asynchronous batch size]_, em seguida, executa essas ações. Esse recurso está desativado por padrão. Recomendamos analisar seu desempenho com ações em massa antes de habilitar. Opções:<br/>**`Yes`**- Executa todas as operações em massa para [!DNL Inventory Management] assíncrono. Para habilitar, você deve configurar um gerenciador de filas assíncrono.<br/>**`No`**- Padrão. Não executa operações em massa de forma assíncrona. |
 | [!UICONTROL Asynchronous batch size] | Global | Definir **[!UICONTROL Run asynchronously]** para `Yes` para inserir um valor para _[!UICONTROL Asynchronous batch size]_campo. <br/>O tamanho padrão do lote é 100. Quando os processos em massa atingem essa quantidade, eles são executados. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Inventory Indexer Settings]
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Stock/Source reindex strategy] | Global | Determina a estratégia usada para reindexação de estoque/origem. Opções: `Synchronous` / `Asynchronous` (um gerenciador de fila assíncrono deve ser configurado para o modo assíncrono) |
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 > Devido às dependências das atualizações de estoque para as atividades relacionadas ao pedido, o indexador de estoque também é acionado no salvamento do produto, independentemente da `Synchronous` ou `Asynchronous` configuração.
 
-
-{:style=&quot;table-layout:auto&quot;}
 
 ## [!UICONTROL Distance Provider for Distance Based SSA]
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Provider] | Global | Determina o provedor a ser usado para o Algoritmo de Seleção de Origem de Prioridade de Distância. Esse recurso é ativado por padrão. Opções: <br/>**`Google MAP`**- Usa os serviços da Google para calcular a distância e o tempo entre o endereço de destino da remessa e os locais de origem (endereço e coordenadas GPS). Essa opção requer uma chave de API do Google e pode gerar cobranças por meio do Google.<br/>**`Offline Calculation`** - Calcula a distância usando um banco de dados incorporado para determinar a origem mais próxima do endereço de destino da remessa. Para usar essa opção, você pode precisar de assistência ao desenvolvedor para baixar inicialmente o conteúdo do local do banco de dados para todos os países para os quais você faz o envio usando uma linha de comando. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Distance Provider]
 
@@ -111,4 +111,4 @@ ht-degree: 0%
 | [!UICONTROL Computation mode] | Global | Determina as direções e os caminhos para calcular a distância do endereço de entrega e de todas as fontes atribuídas ao estoque. Por padrão, os cálculos usam o modo de direção. Opções: <br/>**`Driving`**- Configuração padrão, solicita trajetos de direção padrão usando a rede rodoviária.<br/>**`Walking`** - Pedidos de trajetos pedestres usando caminhos e calçadas para pedestres (quando disponíveis). <br/>**`Bicycling`**- Solicitações de trajetos de bicicleta usando ciclovias e ruas preferidas (atualmente disponíveis apenas nos EUA e em algumas cidades canadenses). |
 | [!UICONTROL Value] | Global | Indica o que calcular e retornar para a distância e a hora dos locais de origem para o endereço de destino da entrega. O Algoritmo de Prioridade de Distância recomenda a origem com a distância ou o tempo mais curto para o endereço de destino da entrega, que fornece entregas mais rápidas e possivelmente mais baratas para serem atendidas. Opções: <br/>**`Distance`**- Retorna a distância entre pontos em métricas (quilômetros e metros) ou imperiais (milhas e pés).<br/>**`Time to Destination`** - Retorna o tempo necessário para viajar dos locais de origem ao endereço de entrega em horas e minutos. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Revise as configurações no [!UICONTROL Sales] &gt; [!UICONTROL Google API] página do Administrador do Commerce.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Anonymize IP] | Exibição da loja | Determina se as informações de identificação são removidas dos endereços IP exibidos no [!DNL Google Analytics] resultados. |
 | [!UICONTROL Enable Content Experiments] | Exibição da loja | Ativa [Experimentos de conteúdo do Google](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), que pode ser usada para testar até dez versões diferentes da mesma página. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Analytics - Google Tag Manager]
 
@@ -48,7 +48,7 @@ Quando **[!UICONTROL Account Type]** está definida como `Google Tag Manager`, h
 | [!UICONTROL List property for the search results page] | Exibição da loja | Identifica o [!DNL Google Tag Manager] propriedade associada à página de resultados da pesquisa. Valor padrão: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Exibição da loja | Identifica o [!DNL Google Tag Manager] propriedade associada aos rótulos para promoções internas. Valor padrão: `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google AdWords]
 
@@ -68,7 +68,7 @@ Quando **[!UICONTROL Account Type]** está definida como `Google Tag Manager`, h
 | [!UICONTROL Conversion Value] | Exibição da loja | Especifica o valor usado para um _[!UICONTROL Constant]_tipo de valor de conversão. |
 | [!UICONTROL Send Order Currency] | Exibição da loja | Ativa os valores de conversão de moeda específicos da transação no AdWords (para sites com moedas base diferentes). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google GTag]
 
@@ -88,7 +88,7 @@ Quando **[!UICONTROL Account Type]** está definida como `Google Tag Manager`, h
 | [!UICONTROL Anonymize IP] | Exibição da loja | Determina se as informações de identificação são removidas dos endereços IP exibidos nos resultados de Google Analytics. |
 | [!UICONTROL Enable Content Experiments] | Exibição da loja | Ativa [Experimentos de conteúdo do Google](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), que pode ser usada para testar até dez versões diferentes da mesma página. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google Analytics4 - Google Tag Manager]
 
@@ -108,7 +108,7 @@ Quando **[!UICONTROL Account Type]** está definida como `Google Tag Manager`, h
 | [!UICONTROL List property for the search results page] | Exibição da loja | Identifica o [!DNL Google Tag Manager] propriedade associada à página de resultados da pesquisa. Valor padrão: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Exibição da loja | Identifica o [!DNL Google Tag Manager] propriedade associada aos rótulos para promoções internas. Valor padrão: `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google AdWords]
 
@@ -128,4 +128,4 @@ Quando **[!UICONTROL Account Type]** está definida como `Google Tag Manager`, h
 | [!UICONTROL Conversion Value] | Exibição da loja | Especifica o valor usado para um _[!UICONTROL Constant]_tipo de valor de conversão. |
 | [!UICONTROL Send Order Currency] | Exibição da loja | Ativa os valores de conversão de moeda específicos da transação no AdWords (para sites com moedas base diferentes). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

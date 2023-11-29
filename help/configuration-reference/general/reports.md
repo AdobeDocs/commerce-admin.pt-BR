@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
 description: Revise as configurações no [!UICONTROL General] &gt; [!UICONTROL Reports] página do Administrador do Commerce.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 | [!UICONTROL Year-to-Date Starts] | Global | Especifica o mês e o dia em que os cálculos do acumulado do ano são baseados. |
 | [!UICONTROL Current Month Starts] | Global | Especifica o dia do mês usado nos cálculos para marcar o início do mês atual. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Options]
 
@@ -45,4 +45,4 @@ ht-degree: 1%
 | [!UICONTROL Enable "Product Added To Wishlist" Report] | Global | Habilita ou desabilita a coleção de estatísticas de produtos adicionados à lista de desejos. |
 | [!UICONTROL Enable "Share WishList" Report] | Global | Habilita ou desabilita a coleção de estatísticas de listas de desejos compartilhadas. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

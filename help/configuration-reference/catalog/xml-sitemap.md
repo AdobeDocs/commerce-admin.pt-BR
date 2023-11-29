@@ -3,10 +3,10 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
 description: Revise as configurações no [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] página do Administrador do Commerce.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 1%
+source-wordcount: '339'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | Exibição da loja | Determina a frequência com que as categorias de mapa de site são atualizadas. Opções: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Exibição da loja | Um valor entre `0.0` e `1.0` que determina a prioridade das atualizações do mapa de site da categoria em relação a outro conteúdo. Zero (`0.0`) tem a prioridade mais baixa. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Products Options]
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 | [!UICONTROL Priority] | Exibição da loja | Um valor entre `0.0` e `1.0` que determina a prioridade das atualizações do mapa de site do produto em relação a outro conteúdo. Zero (`0.0`) tem a prioridade mais baixa. |
 | [!UICONTROL Add Images into Sitemap] | Exibição da loja | Determina a extensão com que as imagens são incluídas no mapa do site. Opções: `None` / `Base Only` / `All` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CMS Pages Options]
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | Exibição da loja | Determina a frequência com que as páginas CMS do mapa de site são atualizadas. Opções: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Exibição da loja | Um valor entre `0.0` e `1.0` que determina a prioridade das atualizações do mapa de site da página do CMS em relação a outro conteúdo. Zero (`0.0`) tem a prioridade mais baixa. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Url Options]
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | Exibição da loja | Determina com que frequência os URLs de armazenamento são atualizados. Opções: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Exibição da loja | Um valor entre `0.0` e `1.0` que determina a prioridade das atualizações de URL de armazenamento em relação a outro conteúdo. Zero (`0.0`) tem a prioridade mais baixa. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Generation Settings]
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 | [!UICONTROL Error Email Sender] | Site | Identifica o contato da loja que aparece como o remetente da notificação de erro. Opções: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Error Email Template] | Site | Identifica o modelo de email usado para a notificação de erro. Modelo padrão: `Sitemap generate Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sitemap File Limits]
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 | [!UICONTROL Maximum No of URLs Per File] | Exibição da loja | Determina o número máximo de URLs que podem ser incluídos em um único mapa de site. |
 | [!UICONTROL Maximum File Size] | Exibição da loja | Determina o tamanho máximo do mapa de site gerado, em bytes. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Submission Settings]
 
@@ -103,4 +103,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable Submission to Robots.txt] | Exibição da loja | Permite que as diretivas sejam enviadas para o arquivo robots.txt. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

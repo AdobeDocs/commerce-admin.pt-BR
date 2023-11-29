@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Revise as configurações no [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] página do Administrador do Commerce.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | Site | Identifica o país onde o comerciante está registrado para realizar negócios. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Soluções recomendadas
 
@@ -86,7 +86,7 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por cheque ou ordem de pagamento. <br/><br/>**_Nota:_**Um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por cheque ou ordem de pagamento é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Enter `0` para colocá-lo no topo da lista. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
@@ -105,7 +105,7 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por transferência bancária. <br/><br/>**_Nota:_**Um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por transferência bancária é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Enter `0` para colocá-lo no topo da lista. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Payment on Account]
 
@@ -126,7 +126,7 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL Maximum Order Total] | Site | O maior valor de pedido que pode ser cobrado em uma conta de empresa. <br/><br/>**_Nota:_**Um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por conta é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Enter `0` para colocá-lo no topo da lista. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por transferência bancária. <br/><br/>**_Nota:_**Um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por transferência bancária é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Enter `0` para colocá-lo no topo da lista. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
@@ -166,7 +166,7 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL Payment from Specific Countries] | Site | Identifica os países específicos para os quais o Check-out de Subtotal Zero pode ser aplicado. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o título, como &quot;Nenhuma Informação de Pagamento é Necessária&quot;, é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Enter `0` para colocá-lo no topo da lista. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
@@ -185,7 +185,7 @@ Consulte a seção Configurações básicas de cada tópico de método de pagame
 | [!UICONTROL Order] | Representa um acordo com o PayPal que permite que o comerciante capture um ou mais valores até o total do pedido da conta do comprador do cliente, dentro de um período de tempo definido (até 29 dias). |
 | [!UICONTROL Sale] | O valor da compra é autorizado e imediatamente retirado da conta do cliente. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -208,4 +208,4 @@ Consulte a seção Configurações básicas de cada tópico de método de pagame
 | [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por OC. <br/><br/>**_Nota:_**Um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por OC é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Enter `0` para colocá-lo no topo da lista. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

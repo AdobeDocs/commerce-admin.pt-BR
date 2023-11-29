@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] página do Administrador do Commerce.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Determina se os pontos de premiação são automaticamente deduzidos do valor de um reembolso. Opções: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Exibição da loja | Especifica a página do CMS que explica seu programa de pontos de premiação. Um link para a página padrão Recompensas é exibido nos locais em sua loja onde os pontos podem ser obtidos. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Review Submission] | Site | Determina o número de pontos ganhos por um cliente que envia uma revisão aprovada para publicação. |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | Site | Limita o número de análises que podem ser usadas para ganhar pontos por cliente. Deixe em branco para sem limite. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Notification Settings]
 
@@ -76,4 +76,4 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Warning Email] | Exibição da loja | Determina o modelo do email que os clientes recebem quando o limite de aviso de expiração é atingido para um lote de pontos. Modelo padrão: `Reward Points Expiry Warning` |
 | [!UICONTROL Expiry Warning before (days)] | Global | Especifica o número de dias antes da expiração do ponto para enviar a notificação. Deixe em branco para não enviar notificações de expiração. A notificação não será enviada se o número de dias inserido for maior que o tempo de vida restante dos pontos. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

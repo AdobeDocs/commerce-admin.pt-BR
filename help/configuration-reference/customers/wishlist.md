@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
 description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Wish List] página do Administrador do Commerce.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Multiple Wish Lists] | Exibição da loja | ![Adobe Commerce](../../assets/adobe-logo.svg) (Somente Adobe Commerce) Quando definido como `Yes`, permite que os clientes criem e mantenham várias listas de desejos. Opções: `Yes` / `No` |
 | [!UICONTROL Number of Multiple Wish Lists] | Exibição da loja | ![Adobe Commerce](../../assets/adobe-logo.svg) (Somente no Adobe Commerce) Se várias listas de desejos estiverem ativadas, o determinará o número máximo de listas de desejos que os clientes podem ter associado à sua conta. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Share Options]
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 | [!UICONTROL Max Emails Allowed to be Sent] | Exibição da loja | Determina o número máximo de emails que podem ser enviados em um lote. Definir um limite máximo pode ajudar a reduzir a carga no servidor. O número máximo permitido é 10.000. Valor padrão: `10` |
 | [!UICONTROL Email Text Length Limit] | Exibição da loja | Determina o número máximo de caracteres que podem ser incluídos na mensagem. O número máximo permitido é 10.000. Valor padrão: `255` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Wish List Link]
 
@@ -58,4 +58,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Display Wish List Summary] | Site | Configura a exibição do Resumo da lista de desejos no painel da conta do cliente. Opções: `Display number of items in wish list` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

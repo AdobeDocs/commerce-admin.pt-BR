@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend]'
 description: Revise as configurações no [!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend] página do Administrador do Commerce.
 exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 0%
 | [!UICONTROL Max Products Sent in 1  Hour] | Exibição da loja | Limita o número de produtos que podem ser compartilhados por um único usuário no período de uma hora. |
 | [!UICONTROL Limit Sending By] | Exibição da loja | Determina o método usado para identificar o remetente. As opções incluem: <br/>**`IP Address`**- (Recomendado) Identifica o remetente pelo endereço IP do computador usado para enviar os emails sobre o produto.<br/>**`Cookie (unsafe)`** - Identifica o remetente por um cookie do navegador. Este método não é seguro porque o usuário pode excluir o cookie para evitar a restrição. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

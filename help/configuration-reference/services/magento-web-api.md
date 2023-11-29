@@ -3,9 +3,9 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Magento Web API]'
 description: Revise as configurações no [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] página do Administrador do Commerce.
 exl-id: 9e9857e7-6f5c-4273-9e82-c861e627827a
 feature: Configuration, Integration
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '324'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Default Response Charset] | Exibição da loja | Determina o conjunto de caracteres padrão. Se estiver vazio, UTF-8 será usado. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL GraphQl Input Limits]
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Input Limits] | Exibição da loja | Determina se os limites de entrada estão habilitados para chamadas GraphQL. Valor padrão: `No`. |
 | [!UICONTROL Maximum Page Size] | Exibição da loja | Define o número máximo de itens permitidos em um resultado de pesquisa paginado na resposta do GraphQL. Essa opção não está disponível quando _Ativar limites de entrada_ = `No`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Web Api Input Limits]
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 | [!UICONTROL Maximum Page Size] | Exibição da loja | Define o número máximo de itens permitidos em um resultado de pesquisa paginado na resposta da API da Web. Essa opção não está disponível quando _Ativar limites de entrada_ = `No`. |
 | [!UICONTROL Default Page Size] | Exibição da loja | Define o número padrão de itens em um resultado de pesquisa paginado na resposta da API da Web. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Web API Security]
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Anonymous Guest Access] | Global | Determina se os convidados podem acessar anonimamente os recursos de CMS, catálogo e armazenamento das APIs SOAP e REST. Por padrão, o acesso de convidado anônimo não é permitido. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL JWT Authentication]
 
@@ -71,4 +71,4 @@ ht-degree: 1%
 | [!UICONTROL Customer JWT Expires In] | Global | Define o tempo (em minutos) antes que um token de portador JWT do cliente expire. O token de portador JWT do cliente expira em 30 minutos se esse campo estiver vazio ou tiver um valor negativo. Valor padrão: `60` |
 | [!UICONTROL Admin User JWT Expires In] | Global | Define o período de tempo (em minutos) antes que o token de portador do JWT Admin expire. O token de portador do JWT do administrador expira em 30 minutos se esse campo estiver vazio ou tiver um valor negativo. Valor padrão: `60` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

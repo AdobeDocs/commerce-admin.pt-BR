@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
 description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Promotions] página do Administrador do Commerce.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Email Send Failure Threshold] | Global | O número de vezes que o lembrete tenta enviar notificações para um endereço de email específico e falha. Quando o valor é definido como 0, não há limite e as notificações continuam a ser enviadas apesar de todas as falhas. |
 | [!UICONTROL Reminder Email Sender] | Exibição da loja | A identidade da loja que aparece como o remetente do email. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 | [!UICONTROL Code Suffix] | Global | Um valor que é anexado ao final de todos os códigos. Se não quiser usar um sufixo, deixe o campo em branco. |
 | [!UICONTROL Dash Every X Characters] | Global | O intervalo para inserir um traço (-) em todos os códigos de cupom. Se não quiser usar um traço, deixe o campo em branco. <br/>_**Nota:**_ Os códigos de cupom que diferem somente por um traço são considerados códigos diferentes. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

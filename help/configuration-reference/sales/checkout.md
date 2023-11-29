@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: Revise as configurações no [!UICONTROL Sales] &gt; [!UICONTROL Checkout] página do Administrador do Commerce.
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Address Search] | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (Somente no Adobe Commerce) Determina se os clientes podem usar [pesquisa de endereço](../../stores-purchase/checkout-address-search.md) funcionalidade para as etapas Entrega e Revisão e Pagamentos. Quando isso estiver ativado, use Limite de número de endereços do cliente para definir o número de endereços salvos necessários para ativar essa funcionalidade durante a finalização da compra. Opções: `Yes` / `No` |
 | Limite de Número de Endereços do Cliente | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (Somente no Adobe Commerce) Quando a pesquisa de endereço está ativada, determina o número de endereços salvos necessários para ativar essa funcionalidade durante o check-out. Quando o número de endereços salvos do cliente atingir ou exceder esse número, somente o endereço padrão será renderizado no _Envio_ e _Revisão e Pagamentos_ etapas. O cliente pode usar uma função de pesquisa para alterar o endereço selecionado. O padrão é `10`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart]
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Preview Quote Lifetime (minutes)] | Exibição da loja | Determina a idade máxima da cotação em minutos quando visualizada do carrinho de compras. |
 | [!UICONTROL Enable Clear Shopping Cart] | Site | Determina se o carrinho de compras exibe a opção para que os usuários limpem o conteúdo do carrinho em uma única ação. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Cart Link]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Cart Summary] | Site | Determina o valor que aparece entre parênteses após o link Meu carrinho. Opções: `Display number of items in cart` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Mini carrinho
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Number of Items to Display Scrollbar] | Exibição da loja | Determina o número de itens que podem aparecer no minicarrinho antes que a barra de rolagem seja acionada. Padrão: `5` |
 | [!UICONTROL Maximum Number of Items to Display] | Exibição da loja | Determina o número máximo de itens que podem aparecer no minicarrinho. Padrão: `10` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment Failed Emails]
 
@@ -95,4 +95,4 @@ ht-degree: 0%
 | [!UICONTROL Send Payment Failed Copy To] | Exibição da loja | Fornece o endereço de email de qualquer pessoa para receber uma cópia de um email de Pagamento com Falha. Separe vários endereços com uma vírgula. |
 | [!UICONTROL Send Payment Failed Copy Method] | Exibição da loja | Indica o método de email usado para enviar a cópia. Opções: <br />**`Bcc`**- Envia uma cópia de cortesia às cegas incluindo o recipient no cabeçalho do mesmo email enviado ao cliente. O destinatário CCO não está visível para o cliente.<br />**`Separate Email`** - Envia a cópia como um email separado. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

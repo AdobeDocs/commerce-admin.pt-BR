@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: Revise as configurações no [!UICONTROL PayPal Payments Standard] seção no [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] página do Administrador do Commerce.
 exl-id: 846d9b6f-92b9-4610-b894-625f67f4cff8
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Enable this Solution] | Site | Determina se o PayPal Payments Pro está disponível para seus clientes como um método de pagamento. |
 | [!UICONTROL Enable PayPal Credit] | Site | Determina se o Crédito do PayPal está disponível para seus clientes como uma opção de pagamento. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Anunciar Crédito do PayPal
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Site | Determina a posição e o tamanho do [!DNL PayPal Credit] banner nas páginas do produto. Opções: (igual a para [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Site | Determina a posição e o tamanho do [!DNL PayPal Credit] banner na página do carrinho. Opções: (igual a para [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Payments Standard]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Credit Card Settings] |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | Site | Determina os cartões de crédito disponíveis para os clientes durante o check-out. Selecione cada placa suportada. Opções: `American Express` (requer um contrato extra) / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 | [!UICONTROL Billing Agreement Signup] | Site | Determina se os clientes podem entrar em um [contrato de faturamento](../../stores-purchase/paypal-billing-agreements.md) com sua loja. Opções: <br/>**`Auto`**- O cliente pode se inscrever em um contrato de faturamento durante a Finalização Expressa.<br/>**`Ask Customer`** - Pergunte ao cliente se ele deseja se inscrever em um contrato de faturamento. <br/>**`Never`**- Não é oferecida aos clientes a opção de se inscreverem em um contrato de faturamento. |
 | [!UICONTROL Skip Order Review Step] | Site | Determina se os clientes podem concluir a transação no site do PayPal ou se precisam retornar à loja e concluir a etapa Revisão do Pedido antes de enviar o pedido. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Billing Agreement Setting]
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Site | Quando ativado, exibe um resumo dos itens de linha do carrinho de compras na página de pagamentos do PayPal. Opções: `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | Site | Quando ativado, os clientes podem iniciar um contrato de faturamento no painel da conta do cliente. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | Global | Determina com que frequência os relatórios de liquidação são gerados pelo PayPal. Opções: `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | Global | Determina a hora, os minutos e o segundo em que os relatórios de liquidação são gerados. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -138,4 +138,4 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | Exibição da loja | O código de cor hexadecimal de seis caracteres para a borda de dois pixels ao redor do cabeçalho. |
 | [!UICONTROL Page Background Color] | Exibição da loja | O código de cor hexadecimal de seis caracteres para a cor de plano de fundo da página de check-out que aparece atrás do cabeçalho e do formulário de pagamento. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

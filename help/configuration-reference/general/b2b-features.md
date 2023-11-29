@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL B2B Features]'
 description: Revise as configurações no [!UICONTROL General] &gt; [!UICONTROL B2B Features] página do Administrador do Commerce.
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
-source-git-commit: 4f4ddb6da9bbf3bc07efb3b8518ee71323d43b49
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 | [[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md) | Site | Quando ativado, permite que os clientes e convidados façam pedidos rapidamente com base no SKU ou no nome do produto. Opções: `Yes` / `No` |
 | [[!UICONTROL Enable Requisition List]](../../b2b/configure-requisition-lists.md) | Site | Quando ativado, permite que os clientes criem e gerenciem listas de requisições a partir do painel de instrumentos da conta. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Recursos B2B com empresas e catálogos compartilhados ativados](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
@@ -42,7 +42,7 @@ Quando o recurso Empresa estiver ativado, campos adicionais estarão disponívei
 | [!UICONTROL Enable Shared Catalog direct products price assigning] | Site | Quando a variável _[!UICONTROL Enable Shared Catalog]_o campo está definido como `Yes`, essa opção está disponível. Quando habilitado, somente os produtos atribuídos a um catálogo compartilhado são armazenados no índice de preços. Os produtos que não estão atribuídos ao catálogo compartilhado não são exibidos na loja. Opções: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Site | Quando ativado, permite que os compradores da empresa enviem uma solicitação de cotação do carrinho de compras. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Payment Methods]
 
@@ -53,7 +53,7 @@ Quando o recurso Empresa estiver ativado, campos adicionais estarão disponívei
 | [!UICONTROL Applicable Payment Methods] | Global | Determina a seleção dos métodos de pagamento disponíveis para compradores B2B. Opções: `All Payment Methods` / `Specific Payment Methods` |
 | [!UICONTROL Payment Methods] | Global | Especifica cada método de pagamento disponível para compradores B2B. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Shipping Methods]
 
@@ -64,7 +64,7 @@ Quando o recurso Empresa estiver ativado, campos adicionais estarão disponívei
 | [!UICONTROL Applicable Shipping Methods] | Global | Determina a seleção dos métodos de envio disponíveis por padrão para compradores B2B. Opções: `All Shipping Methods` / `Specific Shipping Methods` |
 | [!UICONTROL Shipping Methods] | Global | Especifica cada método de envio disponível por padrão para compradores B2B. <br/>**_Nota:_**Também é possível limitar os métodos de envio para um [conta da empresa](../../b2b/account-companies.md). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
@@ -74,6 +74,6 @@ Quando o recurso Empresa estiver ativado, campos adicionais estarão disponívei
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md) | Site | Quando habilitado, permite que as empresas criem ordens de compra. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 

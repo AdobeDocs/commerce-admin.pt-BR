@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists]'
 description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] página do Administrador do Commerce.
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
 feature: Configuration, B2B
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Number of Requisition Lists] | Exibição da loja | Determina o número máximo de listas de requisições que podem ser mantidas por conta de cliente. O número mínimo é `2`, e o número máximo é `999`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

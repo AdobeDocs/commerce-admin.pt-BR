@@ -3,9 +3,9 @@ title: Listagens de produtos
 description: Saiba como modificar a configuração da lista de produtos, que determina quantos produtos aparecem por página e qual atributo é usado para classificar a lista.
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
-source-git-commit: 7ae9955b0283cb7bcd757e7b45fdbc4c3b2181ca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ As Configurações de paginação são exibidas nas partes superior e inferior d
 | ![Mostrar por página](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Determina quantos produtos são exibidos por página. |
 | ![Links de paginação](./assets/control-pagination.png) | Links de paginação - Links de navegação para outras páginas. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Configurar os controles de paginação
 

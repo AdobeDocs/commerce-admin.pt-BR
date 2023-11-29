@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: Revise as configurações no [!UICONTROL Sales] &gt; [!UICONTROL Quotes] página do Administrador do Commerce.
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Amount Message] | Exibição da loja | A mensagem que aparece no carrinho de compras quando um cliente tenta enviar uma solicitação de cotação, mas o valor mínimo necessário não é atendido. |
 | [!UICONTROL Default Expiration Period] | Site | Determina a duração padrão de um [citação](../../b2b/quote-price-negotiation.md) como período de tempo a partir da data em que a solicitação de cotação é enviada. Opções: `Days` / `Weeks` / `Months` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Attached Files]
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 | [!UICONTROL File formats for upload] | Global | Determina os formatos de arquivo que podem ser anexados a aspas. Valores padrão suportados: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png`, e `jpeg` |
 | [!UICONTROL Maximum file size] | Global | Determina o tamanho máximo de um arquivo anexado a uma aspa. Esta configuração pode ser substituída pela configuração do servidor. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

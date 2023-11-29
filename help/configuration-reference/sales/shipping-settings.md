@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
 description: Revise as configurações no [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] página do Administrador do Commerce.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | [!UICONTROL Street Address] | Site | O endereço do ponto de origem. |
 | [!UICONTROL Street Address Line 2] | Site | Uma linha extra para o endereço do ponto de origem, se necessário. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipping Policy Parameters]
 
@@ -40,4 +40,4 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | [!UICONTROL Apply Custom Shipping Policy] | Site | Determina se a política de envio aparece durante o check-out. Opções: `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | Exibição da loja | Contém a política de remessa como texto. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

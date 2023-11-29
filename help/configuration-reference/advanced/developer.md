@@ -4,9 +4,9 @@ description: Revise as configurações no [!UICONTROL Advanced] &gt; [!UICONTROL
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 |--- |--- |--- |
 | [!UICONTROL Workflow Type] | Global | Determina se ocorre Menos compilação no cliente ou no servidor durante o desenvolvimento. Opções: <br/>**`Client side less compilation`**- A compilação ocorre no navegador usando a biblioteca nativa less.js.<br/>**`Server side less compilation`** - A compilação ocorre no servidor usando a biblioteca PHP Less. Esse é o modo padrão para produção. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Developer Client Restrictions]
 
@@ -41,7 +41,7 @@ Para obter mais informações sobre como alterar essa configuração, consulte [
 |--- |--- |--- |
 | [!UICONTROL Allow IPs (comma separated)] | Exibição da loja | Cria uma inclui na lista de permissões de endereços IP que podem usar ferramentas de desenvolvedor em um site ativo, sem interferir nos clientes da loja. Quaisquer alterações no site ao usar uma ferramenta de desenvolvedor, como _Tradução integrada_, são visíveis somente nos endereços IP da inclui na lista de permissões. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Template Settings]
 
@@ -54,7 +54,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | [!UICONTROL Allow Symlinks] | Exibição da loja | Ativando [links simbólicos](https://en.wikipedia.org/wiki/Symbolic_link) pode expor seu site a riscos de segurança e não é recomendado para um armazenamento de produção. |
 | [!UICONTROL Minify Html] | Exibição da loja | Determina se o HTML para modelos de armazenamento é minimizado. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Debug]
 
@@ -68,7 +68,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | [!UICONTROL Enable Template Path Hints for Admin] | Global | Adiciona uma notação ao Administrador que indica o caminho para cada modelo usado na página. Opções: `Yes` / `No` |
 | [!UICONTROL Add Block Class Type to Hints] | Exibição da loja | Inclui os nomes dos blocos nas dicas de caminho do modelo. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Translate Inline]
 
@@ -81,7 +81,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | [!UICONTROL Enable for Storefront] | Exibição da loja | Ativa o tradutor em linha para a loja. O texto da interface pode ser editado para cada visualização de loja. Para usar o Conversor em linha sem interferir na loja em tempo real, adicione seu endereço IP à inclui na lista de permissões de Restrições de cliente do desenvolvedor. |
 | [!UICONTROL Enable for Admin] | Global | Ativa o tradutor em linha para o administrador. Ao contrário da loja, o Administrador não pode ser traduzido para vários idiomas. No entanto, os rótulos de campo e outros textos na interface podem ser alterados. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL JavaScript Settings]
 
@@ -99,7 +99,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | [!UICONTROL Log JS Errors to Session Storage] | Global | Se ativado, pode ser usado por testes funcionais para relatórios. Opções: `Yes` / `No` |
 | [!UICONTROL Log JS Errors to Session Storage Key] | Global | Identifica a chave usada para recuperar erros de js coletados. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CSS Settings]
 
@@ -113,7 +113,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | [!UICONTROL Minify CSS Files] | Exibição da loja | Remove caracteres desnecessários, espaços e recuo para reduzir o tamanho do código. Opções: `Yes` / `No` |
 | [!UICONTROL Use CSS critical path] | Global | A variável _Caminho crítico de CSS_ fornece CSS crítico minificado em linha no `<head>` e adia todos os estilos não críticos carregados de forma assíncrona. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Image Processing Settings]
 
@@ -123,7 +123,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 |--- |--- |--- |
 | [!UICONTROL Image Adapter] | Global | Especifica o adaptador que é usado para renderizar imagens. Depois de alterar a configuração do adaptador, limpe o cache de imagens do catálogo. Opções: `PHP GD2` / `ImageMagick` <br/><br/>**_Nota:_**O adaptador ImageMagik só oferece suporte ao tipo de arquivo ICO. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Caching Settings]
 
@@ -133,7 +133,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 |--- |--- |--- |
 | [!UICONTROL Cache User Defined Attributes] | Global | Quando ativado, armazena em cache atributos EAV (valor de atributo de entidade) definidos pelo usuário e pelo sistema. Essa opção pode aumentar o desempenho, mas também requer espaço adicional para armazenamento em cache. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Static Files Settings]
 
@@ -143,7 +143,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 |--- |--- |--- |
 | [!UICONTROL Sign Static Files] | Global | Quando ativado, adiciona uma assinatura digital ao URL de arquivos estáticos para permitir que os navegadores detectem quando uma versão mais recente do arquivo estiver disponível. Se a assinatura de um arquivo for diferente do que está armazenado no cache do navegador, a versão mais recente do arquivo será usada. Os arquivos estáticos que podem ser assinados incluem JavaScript, CSS, imagens e fontes. Opções: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Grid Settings]
 
@@ -153,4 +153,4 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 |--- |--- |--- |
 | [!UICONTROL Asynchronous Indexing|Global] | Determina quando as entidades do sistema de processamento de ordens, como ordens, NFFs, entregas e avisos de crédito, são adicionadas à grade e reindexadas. A Indexação assíncrona pode ser usada para evitar bloqueios de dados durante operações de salvamento e para reduzir o tempo de processamento. Opções: <br/>**`Disable`**- (Padrão) As entidades relacionadas à ordem são adicionadas à grade em vários momentos. conforme são salvas.<br/>**`Enable`** - As entidades relacionadas à ordem são adicionadas à grade somente durante um trabalho cron programado. O Cron deve ser configurado para ser executado uma vez a cada minuto. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

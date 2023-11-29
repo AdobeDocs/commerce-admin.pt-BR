@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Revise as configurações no [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] página do Administrador do Commerce.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3812'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Site | Determina se a Taxa única aparecerá como uma opção durante o check-out se o método não se aplicar à compra. Opções: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que a Taxa Uniforme é exibida quando listada com outros métodos de delivery durante a finalização da compra. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Free Shipping]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | Mostrar método se não aplicável | Site | Determina se o Frete gratuito aparecerá como uma opção durante o check-out se o método não se aplicar à compra. Opções: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o Frete Gratuito é exibido quando listado com outros métodos de entrega durante a finalização da compra. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Table Rates]
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Site | Determina se as Taxas de tabela aparecem como uma opção durante o check-out se o método não se aplicar à compra. Opções: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que as Taxas de tabela aparecem quando listadas com outros métodos de delivery durante a finalização da compra. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL In-Store Delivery]
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Search Radius] | Site | O raio, em km, a ser usado ao pesquisar locais de coleta. |
 | [!UICONTROL Displayed Error Message] | Exibição da loja | Uma mensagem que é exibida quando um cliente seleciona a retirada na loja, mas o método de entrega não está disponível. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Carriers]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Origin of the Shipment] | Site | (Somente UPS XML) O país ou região onde a entrega do produto é originada. |
 | [!UICONTROL Password] | Exibição da loja | A senha da sua conta de expedidor UPS. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Informações de Pacote UPS](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Site | Especifica se a taxa de manuseio é aplicada a cada pedido ou a cada pacote dentro de um pedido. |
 | [!UICONTROL Handling Fee] | Site | Define o manuseio incluído com o preço da taxa de remessa. A taxa de manuseio pode ser definida como um valor fixo ou uma porcentagem. <br/><br/>**_Nota:_**Se você digitar um valor percentual, usar o formato decimal `0.25` para 25%. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Métodos permitidos de UPS](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Site | Define o valor total mínimo que um pedido deve atingir para se qualificar para remessa gratuita. |
 | [!UICONTROL Displayed Error Message] | Exibição da loja | A mensagem de erro que é exibida quando este método de envio não está disponível por algum motivo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Países e outras configurações aplicáveis ao UPS](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Site | Especifica se as transmissões de dados entre seu armazenamento e o no-break estão registradas no sistema para depuração. A menos que haja um problema que deva ser rastreado e registrado, essa opção deve ser definida como `No`. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o UPS aparece quando listado com outros métodos de delivery durante o checkout. Enter `0` no topo da lista. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Site | Sua senha da conta do carregador USPS. |
 | [!UICONTROL Mode] | Site | Determina o modo de transmissão usado para dados enviados ao sistema USPS. As opções incluem: <br/>**`Development`**- O USPS não verifica se os dados recebidos do servidor do Commerce são enviados por SSL.<br/>**`Live`** - O USPS verifica se os dados recebidos do servidor do Commerce são enviados por uma camada de soquete seguro (SSL). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Configurações de empacotamento USPS](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Machinable] | Site | Especifica se o pacote pode ser processado por computador. Essa opção afeta o cálculo da taxa de envio. |
 | [!UICONTROL Maximum Package Weight] | Site | Define o peso máximo que um pacote pode ter, conforme especificado pela USPS. Se os produtos solicitados excederem o peso máximo do pacote, essa opção de envio não estará disponível. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Configurações da taxa de manuseio de USPS](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Site | Especifica se a taxa de manuseio é aplicada a cada pedido ou a cada pacote dentro de um pedido. |
 | [!UICONTROL Handling Fee] | Site | Define o manuseio incluído com o preço da taxa de remessa. A taxa de manuseio pode ser definida como um valor fixo ou uma porcentagem. <br/><br/>**_Nota:_**Ao digitar um valor percentual, use o formato decimal `0.25` para 25%. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Métodos permitidos pelo USPS](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Site | Define o valor mínimo da ordem que deve ser atendido para se qualificar para remessa gratuita. |
 | [!UICONTROL Displayed Error Message] | Exibição da loja | A mensagem de erro que aparece quando o USPS não está disponível por algum motivo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Países aplicáveis ao USPS](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Site | Determina se um log de transmissões de dados entre seu armazenamento e a USPS é mantido pelo sistema para depuração. A menos que haja um problema que deva ser rastreado e registrado, essa opção deve ser definida como `No`. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o USPS aparece quando listado com outros métodos de delivery durante o checkout. Enter `0` no topo da lista. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 | [!UICONTROL Sandbox Mode] | Site | Para executar transações FedEx em um ambiente de teste, defina o Modo de sandbox como `Yes`. Opções: `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | Site | O URL necessário depende da configuração do Modo de sandbox. Opções: <br/>**`Production`**- O URL para acessar os serviços Web FedEx quando a loja está ativa.<br/>**`Sandbox`** - O URL para acessar o ambiente de teste dos serviços Web FedEx. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Empacotamento FedEx](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
 
@@ -290,7 +290,7 @@ ht-degree: 0%
 | [!UICONTROL Dropoff] | Site | Na lista, selecione o método de retirada: <br/>**`Regular Pickup`**- (Padrão) Se você tiver um alto volume de remessas, pode ser econômico organizar captações regulares.<br/>**`Request Courier`** - Você deve ligar e solicitar que um mensageiro da FedEx retire os envios. <br/>**`Drop Box`**- Você deve entregar as remessas em sua caixa de entrega FedEx local.<br/>**`Business Service Center`** - Você deve entregar as remessas em seu centro de serviços empresariais FedEx local. <br/>**`Station`**- Você deve entregar as remessas em sua estação FedEx local. |
 | [!UICONTROL Maximum Package Weight] | Site | O padrão para o FedEx é 150 libras. Consulte sua transportadora para obter o peso máximo suportado. O uso do valor padrão é recomendado, a menos que você tenha acordos especiais com o FedEx. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Taxa de Manuseio de FedEx](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
 
@@ -303,7 +303,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Site | Determina como as taxas de manuseio são aplicadas. Opções: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Site | Especifica o valor cobrado como uma taxa de manuseio, com base no método usado para calcular o valor. Se o encargo for baseado em uma taxa fixa, insira o valor em formato decimal, como `4.90`. Se a taxa de manuseio for baseada em uma porcentagem do pedido, insira o valor como uma porcentagem. Por exemplo, para cobrar seis por cento do pedido, insira o valor como `.06`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Métodos de delivery FedEx](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
 
@@ -320,7 +320,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Site | Especifica o valor mínimo da ordem que é necessário para frete grátis. |
 | [!UICONTROL Displayed Error Message] | Exibição da loja | A mensagem que aparece quando o FedEx não está disponível por algum motivo. Você pode usar a mensagem padrão ou inserir outra. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Países aplicáveis à FedEx](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
 
@@ -335,7 +335,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Site | Determina quando o FedEx aparece como um método de envio durante o check-out. Opções: <br/>**`Yes`**- A opção de envio FedEx é exibida na lista de métodos de entrega, independentemente do pedido se qualificar para usá-lo.<br/>**`No`** - A opção de envio FedEx não é exibida na lista de métodos de entrega se não for aplicável ao pedido (por exemplo, se o peso do pedido exceder a quantidade máxima de peso). |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o FedEx aparece quando listado com outros métodos de delivery durante o checkout. Enter `0` no topo da lista. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL DHL]
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Site | Sua senha da conta do carregador da DHL. |
 | [!UICONTROL Account Number] | Site | Seu número de conta da DHL. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Configurações do pacote DHL](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
@@ -369,7 +369,7 @@ ht-degree: 0%
 | [!UICONTROL Weight Unit] | Exibição da loja | Determina a unidade de medida do peso usada nos cálculos de remessa. Opções: `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | Exibição da loja | Determina o tamanho do pacote. Opções: <br/>**`Regular`**- Os pacotes enviados estão em conformidade com os métodos de embalagem padrão da DHL. No [!UICONTROL Allowed Methods] selecione cada método de empacotamento usado para enviar produtos de seu armazenamento.<br/>**`Specific`** - Se os pacotes entregues tiverem dimensões personalizadas, complete o seguinte: [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Métodos permitidos pela DHL](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
@@ -385,7 +385,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping with Minimum Order Amount] | Site | Defina como um dos seguintes: <br/>**`Enable`**- Para permitir frete DHL gratuito para pedidos que satisfazem o valor mínimo.<br/>**`Disable`** - Para não oferecer frete DHL gratuito com pedido mínimo. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Site | Se você habilitar [!UICONTROL Free Shipping with Minimum Order], insira o valor do valor mínimo do pedido no campo. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Países aplicáveis da DHL](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
@@ -400,4 +400,4 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Site | Cria um arquivo de log com informações de erro. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que a DHL aparece quando listada com outros métodos de delivery durante o checkout. Para colocá-lo na parte superior da lista, digite `0`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
 description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Invitations] página do Administrador do Commerce.
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '252'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 | [!UICONTROL Allow Customers to Add Custom Message to Invitation Email] | Exibição da loja | Determina se há um campo no formulário Convite no qual o emissor do convite pode adicionar uma mensagem personalizada enviada ao convidado por email. Isso não afeta a capacidade do administrador de adicionar uma mensagem a um Convite. Opções: `Yes` / `No`. |
 | [!UICONTROL Max Invitations Allowed to be Sent at One Time] | Exibição da loja | Determina o número máximo de convites que o emissor do convite pode enviar simultaneamente. Um convite diferente é enviado para cada endereço de email que o emissor do convite inclui no formulário. Isso protege os recursos do servidor, impedindo que um grande número de convites seja enviado de uma só vez, e torna menos provável que os convites sejam enviados como spam. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email]
 
@@ -44,4 +44,4 @@ ht-degree: 1%
 | [!UICONTROL Customer Invitation Email Sender] | Exibição da loja | Determina o remetente do email que os convidados recebem quando um email de convite é enviado. Valor padrão: `General Contact` |
 | [!UICONTROL Customer Invitation Email Template] | Exibição da loja | Determina o modelo do email que os convidados recebem quando um email de convite é enviado. Modelo padrão: `Customer Invitation` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Login As Customer]'
 description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Login As Customer] página do Administrador do Commerce.
 exl-id: fe5925a2-f66f-44a1-aead-8b1abcbd9db2
 feature: Configuration, Customer Service
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 1%
 
 ---
@@ -28,4 +28,4 @@ ht-degree: 1%
 | [!UICONTROL Title for Login as Customer opt-in checkbox] | Site | Adiciona um título para a variável `Login as customer` caixa de seleção |
 | [!UICONTROL Login as Customer checkbox tooltip] | Site | Adiciona uma dica de ferramenta para o `Log in as customer` caixa de seleção |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

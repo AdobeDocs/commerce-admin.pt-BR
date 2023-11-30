@@ -5,7 +5,7 @@ breadcrumb-title: Introdução
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 14c8c656fdba7bd08451161594d1347897ff6f12
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 1%
@@ -69,7 +69,7 @@ ht-degree: 1%
    + [Relatórios de cliente](customer-reports.md)
    + [Relatórios de produto](product-reports.md)
    + [Relatórios de vendas privadas](private-sales-reports.md)
-   + [Ferramentas de Business Intelligence](business-intelligence.md)
+   + [Ferramentas de inteligência do Commerce](business-intelligence.md)
    + [Relatórios do New Relic](new-relic-reporting.md)
 + Recursos {#resources}
    + [Ecossistema](resources.md)

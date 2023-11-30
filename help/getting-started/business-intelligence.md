@@ -1,32 +1,32 @@
 ---
-title: '[!DNL Business Intelligence] ferramentas'
-description: Saiba como os comerciantes do Adobe Commerce e do Magento Open Source podem usar ferramentas de business intelligence para obter os insights usados para tomar decisões comerciais sólidas.
+title: '[!DNL Commerce Intelligence] ferramentas'
+description: Saiba como os comerciantes do Adobe Commerce e do Magento Open Source podem usar as ferramentas do Commerce Intelligence para obter os insights usados para tomar decisões comerciais sólidas.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
 
-# [!DNL Business Intelligence] ferramentas
+# [!DNL Commerce Intelligence] ferramentas
 
-Use ferramentas de business intelligence para obter o insight usado para tomar boas decisões de negócios.
+Use as ferramentas do Commerce Intelligence para obter o insight usado para tomar boas decisões de negócios.
 
-## [!DNL Business Intelligence] account
+## [!DNL Commerce Intelligence] account
 
-Quando você ativa um [!DNL Business Intelligence] por meio do Adobe, você obtém acesso a cinco painéis com aproximadamente 70 relatórios. Esses relatórios foram projetados para fornecer insights sobre seus dados e responder a perguntas como &quot;Como meus pedidos estão crescendo mês a mês?&quot;, &quot;Quem são meus clientes mais fiéis?&quot; e &quot;Minha estratégia de cupom está funcionando?&quot; Para obter informações detalhadas sobre esse conjunto de ferramentas, consulte [Guia do usuário do MBI][1].
+Quando você ativa um [!DNL Commerce Intelligence] por meio do Adobe, você obtém acesso a cinco painéis com aproximadamente 70 relatórios. Esses relatórios foram projetados para fornecer insights sobre seus dados e responder a perguntas como &quot;Como meus pedidos estão crescendo mês a mês?&quot;, &quot;Quem são meus clientes mais fiéis?&quot; e &quot;Minha estratégia de cupom está funcionando?&quot; Para obter informações detalhadas sobre esse conjunto de ferramentas, consulte [Guia do usuário do Commerce Intelligence][1].
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] está incluído na Adobe Commerce e no Magento Open Source. Esse recurso oferece acesso a um conjunto de relatórios dinâmicos com base em seus produtos, pedidos e dados do cliente, com um painel personalizado adaptado às suas necessidades comerciais. Enquanto [!DNL Advanced Reporting] usos [!DNL Business Intelligence] para o analytics, não é necessário ter uma conta Business Intelligence para usar [!DNL Advanced Reporting].
+[!DNL Advanced Reporting] está incluído na Adobe Commerce e no Magento Open Source. Esse recurso oferece acesso a um conjunto de relatórios dinâmicos com base em seus produtos, pedidos e dados do cliente, com um painel personalizado adaptado às suas necessidades comerciais. Enquanto [!DNL Advanced Reporting] usos [!DNL Commerce Intelligence] no analytics, não é necessário ter uma conta do Commerce Intelligence para usar [!DNL Advanced Reporting].
 
 Para obter informações técnicas, consulte a [[!DNL Advanced Reporting]][2]{:target=&quot;_blank&quot;} tópico na documentação do desenvolvedor.
 
 >[!NOTE]
 >
->[!DNL Business Intelligence] as contas usam relatórios integrados, em vez da [!DNL Advanced Reporting] recurso.
+>[!DNL Commerce Intelligence] as contas usam relatórios integrados, em vez da [!DNL Advanced Reporting] recurso.
 
 ![Painel de relatórios avançado](./assets/reporting-advanced.png){width="700"}
 

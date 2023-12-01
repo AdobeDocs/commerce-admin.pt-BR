@@ -3,9 +3,9 @@ title: Produto do pacote
 description: Saiba como criar um pacote de produtos que permita aos compradores criar um produto personalizado em sua loja.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ As opções são exibidas quando o cliente clica em **[!UICONTROL Customize]** o
 >[!NOTE]
 >
 >O Preço mínimo anunciado (MAP) não está disponível para produtos de pacote que usam preço dinâmico.
+
+>[!NOTE]
+>
+>O produto do pacote principal é sempre exibido automaticamente como um produto de venda adicional para todos os seus produtos secundários.
 
 Se [Compra instantânea](../stores-purchase/checkout-instant-purchase.md) estiver disponível, a variável _Compra instantânea_ é exibido abaixo do _Adicionar ao carrinho_ para cada item no pacote.
 
@@ -276,3 +280,5 @@ O status do estoque de produtos do pacote é **_não alterado automaticamente pa
 ![Caixa de seleção](../assets/checkbox.png) A quantidade pode ser um valor predefinido ou definido pelo usuário. No entanto, não atribua a variável _[!UICONTROL User Defined]_para marcar a caixa de seleção ou selecionar vários tipos de entrada.
 
 ![Caixa de seleção](../assets/checkbox.png) Os itens do pacote podem ser entregues juntos ou separadamente.
+
+![Caixa de seleção](../assets/checkbox.png) O produto do pacote principal é sempre exibido automaticamente como um produto de venda adicional para todos os seus produtos secundários.

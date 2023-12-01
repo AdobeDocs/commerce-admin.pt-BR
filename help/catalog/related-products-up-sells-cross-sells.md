@@ -3,9 +3,9 @@ title: Configurações do produto - [!UICONTROL Related Products, Up-Sells, and 
 description: Para um produto, a variável [!UICONTROL Related Products, Up-Sells, and Cross-Sells] as configurações definem blocos promocionais simples na página do produto que destacam uma seleção de produtos adicionais.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,10 @@ Para selecionar produtos de venda adicional:
    ![Produtos de venda adicional](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Add Selected Products]**.
+
+>[!NOTE]
+>
+>O produto do pacote principal é sempre exibido automaticamente como um produto de venda adicional para todos os seus produtos secundários.
 
 ## Vendas cruzadas
 

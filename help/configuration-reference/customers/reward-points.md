@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] página do Administrador do Commerce.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 <!-- [Reward Points](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
-|--- |--- |--- |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Reward Points Functionality] | Global | Ativa ou desativa pontos de premiação. Opções: `Yes` / `No`. |
 | [!UICONTROL Enable Reward Points Functionality on Storefront] | Site | Quando ativado, os clientes podem ganhar pontos por meio de suas atividades e resgatá-los no checkout. Se desativado, somente os usuários administradores podem atribuir e resgatar pontos em nome dos clientes. Opções: `Yes` / `No`. |
 | [!UICONTROL Customers May See Reward Points History] | Site | Quando ativado, os clientes podem ver um histórico detalhado com cada acúmulo, resgate e expiração dos Pontos de recompensa no painel de contas. Opções: `Yes` / `No` |
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expire in (days)] | Site | Indica a duração dos pontos de premiação em dias. Cada lote de pontos ganhos durante atividades separadas tem uma vida útil separada. Cada lote no histórico de Pontos de premiação indica o número de dias restantes antes que os pontos expirem. O histórico pode ser visualizado no painel de conta do cliente, se ativado, e no painel de Administrador. Deixe em branco para não expirar. |
 | [!UICONTROL Reward Points Expiry Calculation] | Site | Determina o método usado para determinar quando os pontos de premiação expiram. Opções: <br/>**`Static`**- Determina o tempo de vida restante dos pontos de premiação com base no número de dias definidos na configuração. Se o limite de expiração na configuração for alterado, a data de expiração dos pontos existentes não será alterada.<br/>**`Dynamic`** - Calcula o número de dias restantes sempre que o saldo de pontos de premiação aumenta. Se o limite de expiração na configuração for alterado, os cálculos de expiração de todos os pontos existentes serão atualizados adequadamente. |
 | [!UICONTROL Refund Reward Points Automatically] | Global | Determina se os pontos de premiação disponíveis são reembolsados automaticamente. Opções: `Yes` / `No` |
-| [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Determina se os pontos de premiação são automaticamente deduzidos do valor de um reembolso. Opções: `Yes` / `No`. |
+| [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Isso determina se os pontos de premiação ganhos por meio de compras são total ou parcialmente anulados no reembolso de pedido, quando esse recurso está habilitado. Somente os pontos de premiação do pedido que os ganhou são afetados quando esse pedido é reembolsado. Opções: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Exibição da loja | Especifica a página do CMS que explica seu programa de pontos de premiação. Um link para a página padrão Recompensas é exibido nos locais em sua loja onde os pontos podem ser obtidos. |
 
 {style="table-layout:auto"}
@@ -48,8 +48,8 @@ ht-degree: 0%
 <!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
-|--- |--- |--- |
-| [!UICONTROL Purchase] | Site | Determina se aparece uma mensagem no carrinho de compras mostrando os pontos de recompensa ganhos pela compra e o saldo de pontos de recompensa atual do cliente. Opções: `Yes` / `No` |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Purchase] | Site | Determina se os pontos de recompensa são ganhos pelas compras com base na configuração [Taxas de câmbio de recompensa](../../merchandising-promotions/reward-exchange-rates.md). Opções: `Yes` / `No` |
 | [!UICONTROL Registration] | Site | Especifica o número de pontos ganhos ao abrir uma conta de cliente. |
 | [!UICONTROL Newsletter Signup] | Site | Especifica o número de pontos ganhos por clientes registrados que assinam um boletim informativo. (Não há pontos disponíveis para assinaturas de convidados.) Se um cliente cancelar a assinatura e fizer a assinatura novamente, os pontos não serão ganhos na segunda assinatura. |
 | [!UICONTROL Converting Invitation to Customer] | Site | Especifica o número de pontos ganhos por um cliente que envia um convite quando o destinatário abre uma conta de cliente. |

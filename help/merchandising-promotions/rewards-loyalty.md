@@ -3,9 +3,9 @@ title: Programas de recompensa e fidelidade
 description: Saiba mais sobre o sistema de pontos de recompensa que você pode usar para impulsionar o engajamento do cliente e promover a fidelidade do cliente.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,11 @@ A configuração de Pontos de recompensa determina como os pontos de recompensa 
 
 1. Se quiser reembolsar pontos de premiação disponíveis automaticamente, defina **[!UICONTROL Refund Reward Points Automatically]** para `Yes`.
 
-1. Se quiser deduzir pontos de premiação automaticamente, defina **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** para `Yes`.
+1. Para anular pontos de premiação ganhos por meio de compras quando a ordem que obteve os pontos for total ou parcialmente reembolsada, defina **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** para `Yes`.
+
+   >[!NOTE]
+   >
+   >Somente os pontos ganhos com o pedido que está sendo reembolsado são afetados.
 
 1. Definir **[!UICONTROL Landing Page]** para a página de conteúdo que explica seu programa de pontos de premiação.
 

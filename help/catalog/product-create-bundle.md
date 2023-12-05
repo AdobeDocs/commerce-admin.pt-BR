@@ -3,9 +3,9 @@ title: Produto do pacote
 description: Saiba como criar um pacote de produtos que permita aos compradores criar um produto personalizado em sua loja.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: eca41f653aa6499743982199f067d6df86079010
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ O formulário é atualizado para refletir a alteração.
    - Para que o preço reflita as opções escolhidas pelo cliente, defina **[!UICONTROL Dynamic Price]** para `Yes` e sair **[!UICONTROL Price]** em branco.
 
    - Para cobrar um preço fixo pelo pacote, defina **[!UICONTROL Dynamic Price]** para `No` e insira o **[!UICONTROL Price]** que você deseja cobrar pelo pacote.
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Special Price] e [!UICONTROL Customer Group Price] (Nível de Preço) são sempre definidos como a porcentagem de desconto para todos os tipos de produtos agrupados.
 
 1. Como o produto ainda não está pronto para publicação, defina **[!UICONTROL Enable Product]** para `No`.
 
@@ -282,3 +286,5 @@ O status do estoque de produtos do pacote é **_não alterado automaticamente pa
 ![Caixa de seleção](../assets/checkbox.png) Os itens do pacote podem ser entregues juntos ou separadamente.
 
 ![Caixa de seleção](../assets/checkbox.png) O produto do pacote principal é sempre exibido automaticamente como um produto de venda adicional para todos os seus produtos secundários.
+
+![Caixa de seleção](../assets/checkbox.png) [!UICONTROL Special Price] e [!UICONTROL Customer Group Price] (Nível de Preço) são sempre definidos como a porcentagem de desconto para todos os tipos de produtos agrupados.

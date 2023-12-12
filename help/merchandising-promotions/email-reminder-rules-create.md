@@ -3,16 +3,16 @@ title: Criar lembretes de email
 description: Saiba como configurar uma regra de lembrete de email que use uma regra de preço de carrinho existente.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: b750accf7aab49357f04e16dc60791e704516141
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
 # Criar lembretes de email
 
-Antes de configurar uma regra de lembrete de email, você deve primeiro configurar uma regra de preço de carrinho para definir a promoção que está sendo oferecida. As condições das regras que acionam um lembrete de email podem ser baseadas nas propriedades do carrinho, nas propriedades da lista de desejos ou em ambas.
+Antes de configurar uma regra de lembrete de email, primeiro você deve [configurar uma regra de preço de carrinho](price-rules-cart-create.md) para definir a promoção oferecida. As condições das regras que acionam um lembrete de email podem ser baseadas nas propriedades do carrinho, nas propriedades da lista de desejos ou em ambas.
 
 >[!NOTE]
 >
@@ -55,7 +55,9 @@ Antes de configurar uma regra de lembrete de email, você deve primeiro configur
 
    >[!NOTE]
    >
-   >Se um cliente tiver mais de um carrinho abandonado correspondente, uma lista de desejos ou uma combinação de ambos, o lembrete de email será acionado apenas uma vez para esse cliente. Para acionar o mesmo lembrete de email novamente, use o _[!UICONTROL Repeat Schedule]_para definir o número de dias entre emails.
+   >Se um cliente tiver mais de um carrinho abandonado correspondente, uma lista de desejos ou uma combinação de ambos, o lembrete de email será acionado apenas uma vez para esse cliente. Para acionar o mesmo lembrete de email novamente, use o _[!UICONTROL Repeat Schedule]_para definir o número de dias entre emails. <br/>
+   >
+   >O mesmo lembrete de email é **_não acionado novamente_** para o mesmo cliente por **_novo_** carrinhos abandonados e listas de desejos **_após_** o _[!UICONTROL Repeat Schedule]_o período terminou.
 
    Preencha a condição para descrever o cenário que aciona o lembrete de email.
 

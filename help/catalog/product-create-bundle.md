@@ -3,9 +3,9 @@ title: Produto do pacote
 description: Saiba como criar um pacote de produtos que permita aos compradores criar um produto personalizado em sua loja.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: eca41f653aa6499743982199f067d6df86079010
+source-git-commit: e38958bb57251ccc9409b849abc1aadb82ff0a54
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 Um pacote é um _crie o seu próprio_, produto personalizável. Cada item em um pacote pode ser baseado em um dos seguintes tipos de produto:
 
 - [Produto simples](product-create-simple.md)
+- [Produto virtual](product-create-virtual.md)
+- [Produto para download](product-create-downloadable.md)
 - [Produto virtual](product-create-virtual.md)
 
 ![Produto do pacote](./assets/product-bundle.png){width="700" zoomable="yes"}

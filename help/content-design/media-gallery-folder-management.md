@@ -3,10 +3,10 @@ title: Gerenciamento de pastas da Galeria de mídia
 description: Saiba como usar pastas para organizar ativos de mídia.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 1%
 Use pastas para organizar imagens no novo [Galeria de mídia](media-gallery.md). À medida que o número de ativos de mídia aumenta, as pastas facilitam a localização e o gerenciamento de ativos existentes na galeria de mídia.
 
 ## Criar uma pasta
+
+>[!NOTE]
+>
+>Você só pode criar uma pasta no `pub/media/wysywig` e `pub/media/catalog/category` pastas.
 
 1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
@@ -30,7 +34,7 @@ Use pastas para organizar imagens no novo [Galeria de mídia](media-gallery.md).
 
 >[!WARNING]
 >
->Excluir uma pasta causa a remoção de todas as imagens dentro dessa pasta.
+>Excluir uma pasta causa a remoção de todas as imagens dentro dessa pasta. Você só pode excluir uma pasta na `pub/media/wysywig` e `pub/media/catalog/category` pastas.
 
 1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 

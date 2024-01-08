@@ -3,9 +3,9 @@ title: Produto de cartão-presente
 description: Saiba como criar um produto de cartão-presente que produz um código exclusivo para ser resgatado por um cliente destinatário durante o check-out.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,10 @@ Você pode usar o padrão `Gift Card` atributo definido ou escolha outro. Para e
    - Para definir a faixa de valores mínimos e máximos aceitáveis, informe o **[!UICONTROL Open Amount From]** e **[!UICONTROL To]** valores.
 
    Você pode criar cartões-presente com preço fixo, preço de valor em aberto ou ambos.
+
+   >[!NOTE]
+   >
+   >Um produto de cartão-presente não tem seu próprio preço no catálogo. O preço do cartão-presente é derivado do valor do cartão-presente selecionado durante a compra.
 
    ![Valores do Cartão-presente](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
@@ -152,5 +156,7 @@ Preencha as informações nas seguintes seções conforme necessário:
 - A duração de um cartão-presente pode ser ilimitada ou definida para um número especificado de dias.
 
 - O valor de um cartão-presente pode ser definido como um valor fixo ou como um valor aberto com um valor mínimo e máximo.
+
+- Um produto de cartão-presente não tem seu próprio preço no catálogo. O preço do cartão-presente é derivado do valor do cartão-presente selecionado durante a compra.
 
 - Uma conta de cartão-presente para o cliente pode ser criada quando o pedido for feito ou no momento da fatura.

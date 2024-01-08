@@ -3,9 +3,9 @@ title: Produto do pacote
 description: Saiba como criar um pacote de produtos que permita aos compradores criar um produto personalizado em sua loja.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
+source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ O formulário é atualizado para refletir a alteração.
 
 1. Para determinar o preço do pacote, siga um destes procedimentos:
 
-   - Para que o preço reflita as opções escolhidas pelo cliente, defina **[!UICONTROL Dynamic Price]** para `Yes` e sair **[!UICONTROL Price]** em branco.
+   - Para que o preço reflita as opções escolhidas pelo cliente, defina **[!UICONTROL Dynamic Price]** para `Yes` e sair **[!UICONTROL Price]** em branco. Nesse caso, um produto de pacote não tem seu próprio preço no catálogo, e o preço do produto é derivado do preço dos produtos individuais incluídos no pacote.
 
    - Para cobrar um preço fixo pelo pacote, defina **[!UICONTROL Dynamic Price]** para `No` e insira o **[!UICONTROL Price]** que você deseja cobrar pelo pacote.
 

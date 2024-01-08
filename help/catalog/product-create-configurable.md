@@ -3,9 +3,9 @@ title: Produto configurável
 description: Saiba como criar um produto configurável que forneça variações para seleção aos compradores.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -204,6 +204,10 @@ Como a imagem do produto principal já foi carregada, você pode usar essa opç�
 
 Use um dos métodos a seguir para configurar o **[!UICONTROL prices]**:
 
+>[!NOTE]
+>
+>Um produto configurável não tem seu próprio preço no catálogo. O preço do produto configurável é derivado de seu [!UICONTROL In Stock] produtos derivados.
+
 **Método 1:** Aplicar o mesmo preço a todos os SKUs
 
 1. Se o preço for o mesmo para todas as variações, selecione **[!UICONTROL Apply single price to all SKUs]**.
@@ -373,6 +377,8 @@ A variável _Status do estoque_ do produto configurável é parcialmente control
 - [Status do estoque](../inventory-management/sources-stocks.md) para um produto configurável, é uma configuração controlada semimanualmente. É diferente do status do estoque do produto simples, onde é uma representação direta da disponibilidade do produto. Para um produto configurável, o status do estoque faz parte de um cálculo de status do estoque com vários critérios.
 
 - Os produtos secundários configuráveis podem ser produtos simples ou virtuais **sem opções personalizadas**. Para tornar virtuais os produtos personalizados secundários, você deve selecionar `Тhis item has no weight` para o **[!UICONTROL Weight]** para cada uma delas.
+
+- Um produto configurável não tem seu próprio preço no catálogo. O preço do produto configurável é derivado de seu [!UICONTROL In Stock] produtos derivados.
 
 - Os atributos usados para variações de produtos devem ter um escopo global e o cliente deve ser solicitado a escolher um valor. Os atributos de variação do produto devem ser incluídos no conjunto de atributos usado como modelo para o produto configurável.
 

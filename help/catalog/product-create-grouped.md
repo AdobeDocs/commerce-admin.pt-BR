@@ -3,9 +3,9 @@ title: Produto agrupado
 description: Saiba como criar um produto agrupado que consiste em produtos simples independentes apresentados como um grupo.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Para adicionar um atributo existente ao produto, use o [controles de filtro](../
 1. Aceitar o padrão **[!UICONTROL SKU]** que se baseia no nome do produto ou insira outro.
 
    Observe que a variável **[!UICONTROL Quantity]** O campo não está disponível porque o valor é derivado dos produtos individuais que compõem o grupo.
+
+   Um produto agrupado não tem seu próprio preço no catálogo. O preço agrupado do produto é derivado do preço dos produtos individuais incluídos no grupo.
 
 1. Como o produto ainda não está pronto para publicação, defina **[!UICONTROL Enable Product]** para `No` ( ![Alternar não](../assets/toggle-no.png) ).
 
@@ -189,5 +191,7 @@ Se você tiver uma imagem diferente para cada produto no grupo, poderá definir 
 - Os produtos derivados agrupados podem ser produtos simples, para download ou virtuais **[!UICONTROL without custom options]**.
 
 - Cada item comprado aparece individualmente no carrinho de compras, não como parte do grupo.
+
+- Um produto agrupado não tem seu próprio preço no catálogo. O preço agrupado do produto é derivado do preço dos produtos individuais incluídos no grupo.
 
 - A imagem em miniatura no carrinho de compras pode ser definida para exibir a imagem do produto principal agrupado ou do produto associado.

@@ -50,7 +50,7 @@ As reservas de disponibilidade e as alterações de inventário ocorrem com base
 
 As tabelas a seguir detalham a ordem e o status do aviso de crédito com alterações de reserva informadas por [!DNL Commerce] para gerenciar o inventário.
 
-| Status do pedido | Descrição | Reserva para Quantidade Venável |
+| Status do pedido | Descrição | Reserva para Quantidade Vendável |
 |--|--|--|
 | [!UICONTROL Open] | Novo e enviado recentemente, sem processamento | A reserva é salva quando o pedido é enviado para o estoque. |
 | [!UICONTROL Canceled] | Cancelado total ou parcialmente antes do pagamento | A compensação de reserva é inserida para retornar a quantidade parcial ou total de volta à quantidade disponível em estoque. |
@@ -63,7 +63,7 @@ As tabelas a seguir detalham a ordem e o status do aviso de crédito com altera�
 | [!UICONTROL Complete] | Pago e enviado na íntegra | O valor da reserva é deduzido da quantidade do produto para a fonte selecionada quando faturado parcial ou totalmente. A compensação da reserva é inserida para atualizar a quantidade total vendável. |
 | [!UICONTROL Closed] | Reembolsado ou arquivado | Se arquivado, não há alteração nas quantidades. Se for reembolsado total ou parcialmente, a compensação da reserva será informada e convertida para adicionar novamente as quantidades do produto por origem e a quantidade comercializável por estoque. |
 
-| Status do Aviso de Crédito | Descrição | Reserva para Quantidade Venável |
+| Status do Aviso de Crédito | Descrição | Reserva para Quantidade Vendável |
 |--|--|--|
 | [!UICONTROL Open] | O reembolso é devido, não concluído | Não há alteração nas reservas. |
 | [!UICONTROL Refunded] | Concluído, fundos devolvidos | Se for reembolsado parcial ou integralmente, a compensação da reserva será informada e convertida para adicionar novamente as quantidades do produto por origem e a quantidade comercializável por estoque. |

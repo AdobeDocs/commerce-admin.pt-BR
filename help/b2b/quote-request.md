@@ -4,9 +4,9 @@ description: Saiba como os clientes associados a uma conta de empresa podem envi
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 21361104fa06425df0b44d5c7ae204ef4d9e21ac
+source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Se as cotas estiverem ativadas na variável [Configuração de recursos de venda
 1. O cliente faz logon na conta de usuário como comprador com [permissão](account-company-roles-permissions.md) para solicitar uma cotação.
 
 1. Adiciona os produtos que eles desejam incluir na cotação ao carrinho de compras.
+
+   >[!TIP]
+   > 
+   >Se você tiver uma lista de SKUs de produtos para solicitar, adicione-os ao carrinho mais rapidamente usando [Pedido rápido](quick-order.md).
 
 1. Seleciona **[!UICONTROL Request a Quote]**.
 

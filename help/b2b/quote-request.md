@@ -4,9 +4,9 @@ description: Saiba como os clientes associados a uma conta de empresa podem envi
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
+source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ Se as cotas estiverem ativadas na variável [Configuração de recursos de venda
 
 1. O cliente faz logon na conta de usuário como comprador com [permissão](account-company-roles-permissions.md) para solicitar uma cotação.
 
-1. Adiciona os produtos que eles desejam incluir na cotação ao carrinho de compras.
+1. Adiciona os produtos a serem incluídos na cotação ao carrinho.
 
    >[!TIP]
    > 
-   >Se você tiver uma lista de SKUs de produtos para solicitar, adicione-os ao carrinho mais rapidamente usando [Pedido rápido](quick-order.md).
+   >Os clientes podem adicionar uma lista de SKUs do produto ao carrinho mais rapidamente usando [Pedido rápido](quick-order.md).
 
 1. Seleciona **[!UICONTROL Request a Quote]**.
 
    ![Solicitando uma cotação do carrinho de compras](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. No **[!UICONTROL Add your comment]** insira uma breve nota que descreva a solicitação.
+1. No **[!UICONTROL Add your comment]** , o cliente digita uma breve nota para descrever a solicitação.
 
 1. Insere um **[!UICONTROL Quote Name]**.
 
@@ -51,4 +51,4 @@ Se as cotas estiverem ativadas na variável [Configuração de recursos de venda
    - Envia a cotação para o vendedor ao selecionar **[!UICONTROL Request a Quote]**.
    - [!BADGE Recurso 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponível somente para participantes do programa Beta"}**[!UICONTROL Save as Draft]**.
 
-     Se o comprador salvar a cota como uma preliminar, ela estará disponível na [!UICONTROL My Quotes] in `Draft` estado. Não estará visível para o Vendedor até que o Comprador abra a cotação preliminar e a submeta.
+     Se o comprador salvar a cota como uma preliminar, ela estará disponível em [!UICONTROL My Quotes] in `Draft` estado. Cotações de rascunho não estão visíveis para o Vendedor até que o Comprador as envie para revisão.

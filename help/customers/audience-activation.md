@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: f7b8e47aa5a8113fac768b8086ace3bf673193c5
+source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Essas notas de versão descrevem alterações de recursos e correções relacion
 
 _15 de agosto de 2023_
 
-![Correção](../assets/new.svg) - Atualização do [Painel de públicos da Real-Time CDP](#real-time-cdp-audiences-dashboard) para simplificar a filtragem.
+![Correção](../assets/fix.svg) - Atualização do [Painel de públicos da Real-Time CDP](#real-time-cdp-audiences-dashboard) para simplificar a filtragem.
 
 _27 de junho de 2023_
 
@@ -49,6 +49,22 @@ _30 de maio de 2023_
 ![Novo](../assets/new.svg) - Atualização do [Painel de públicos da Real-Time CDP](#real-time-cdp-audiences-dashboard) para incluir a capacidade de classificar, pesquisar e filtrar os públicos-alvo ativos na sua instância do Adobe Commerce.
 
 +++
+
+### 2.1.0
+
+[!BADGE Compatibilidade]{type=Informative tooltip="Compatibilidade"}
+
+_24 de janeiro de 2024_
+
+![Novo](../assets/new.svg) - Atualização do [Painel de públicos da Real-Time CDP](#real-time-cdp-audiences-dashboard) para incluir os sites que contêm os públicos e especificar quais blocos dinâmicos e regras de preço do carrinho estão configurados para usar esses públicos.
+
+### 2.0.1
+
+[!BADGE Compatibilidade]{type=Informative tooltip="Compatibilidade"}
+
+_16 de novembro de 2023_
+
+![Correção](../assets/fix.svg) - Maior estabilidade.
 
 ### 2.0.0
 
@@ -137,16 +153,20 @@ Depois de instalar o [!DNL Audience Activation] você deve fazer logon no Admini
 
 1. Clique em **Salvar configuração**.
 
-Com públicos ativados para sua instância do Adobe Commerce, você pode:
+## Onde usar os públicos-alvo da Real-Time CDP no Commerce
+
+Com o [!DNL Audience Activation] extensão ativada, é possível:
 
 - [Criar uma regra de preço de carrinho](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informado por públicos
 - [Criar um bloco dinâmico](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informado por públicos
 
 ## painel de públicos-alvo da Real-Time CDP
 
-Você pode exibir todos os públicos-alvo ativos disponíveis para personalização na sua instância do Adobe Commerce usando o **Públicos da Real-Time CDP** painel. Qualquer público-alvo [ativado](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) no destino do Adobe Commerce no Real-Time CDP aparecem neste painel.
+É possível exibir todos [ativo](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) públicos-alvo disponíveis para personalizar na instância do Adobe Commerce usando o **Públicos da Real-Time CDP** painel.
 
 Para acessar o **Públicos da Real-Time CDP** painel, vá para a página _Admin_ barra lateral e vá para **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+
+![Painel de públicos-alvo da Real-Time CDP](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 O painel contém os seguintes campos:
 
@@ -156,9 +176,12 @@ O painel contém os seguintes campos:
 | `Search` | Permite pesquisar por públicos-alvo ativos na instância do Commerce. |
 | `Name` | Nome dado ao público no Real-Time CDP. |
 | `Origin` | Indica a origem do público-alvo, como `Experience Platform`. |
+| `Websites` | Indica quais sites estão configurados para usar os públicos-alvo. |
+| `Dynamic Blocks` | Indica quais blocos dinâmicos são configurados para usar os públicos-alvo. |
+| `Cart Price Rules` | Indica quais regras de preço do carrinho estão configuradas para usar os públicos-alvo. |
 | `Last updated` | Indica quando o público-alvo foi modificado no Real-Time CDP. |
 | `Sync now` | Recupera públicos novos ou atualizados da Real-Time CDP. |
-| `Customize table` | Permite mostrar ou ocultar as `Origin` e `Last updated` colunas. |
+| `Customize table` | Permite mostrar ou ocultar as `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, e `Last updated` colunas. |
 
 {style="table-layout:auto"}
 

@@ -4,9 +4,9 @@ description: Revise as configurações no [!UICONTROL Advanced] &gt; [!UICONTROL
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
@@ -142,21 +142,22 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 {style="table-layout:auto"}
 
-## [!UICONTROL Scheduled Backup Settings]
+## [!UICONTROL Backup Settings]
 
-![Configuração avançada - Configurações de backup agendado](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
-
-Para obter mais informações sobre como alterar essas configurações, consulte [Backups do sistema](../../systems/backups.md) no _Guia de sistemas do administrador_.
+![Configuração avançada - Configurações de backup](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
+Para obter mais informações sobre como alterar essas configurações, consulte [Backups do sistema](../../systems/backups.md) no _Guia de sistemas do administrador_.
+
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Enable Scheduled Backup] | Global | Determina se é feito backup automático da instância do Commerce de acordo com uma programação regular. Opções: `Yes` / `No` |
-| [!UICONTROL Backup Type] | Global | Determina os elementos da instância do Commerce incluídos no backup. Opções: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | Global | Especifica a hora, os minutos e o segundo em que o backup agendado começa. |
-| [!UICONTROL Frequency] | Global | Determina com que frequência o backup programado ocorre. Opções: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | Global | Determina se o armazenamento é colocado em modo de manutenção durante o backup programado. Opções: `Yes` / `No` |
+| [!UICONTROL Enable Backup] | Global | Determina se a instância do Commerce permite backups. Opções: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Exibido quando _[!UICONTROL Enable Backup]_está definida como `Yes`.) Determina se é feito backup automático da instância do Commerce de acordo com uma programação regular. Opções: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Exibido quando _[!UICONTROL Enable Scheduled Backup]_está definida como `Yes`.) Determina os elementos da instância do Commerce incluídos no backup. Opções: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definida como `Yes`.) Especifica a hora, os minutos e o segundo em que o backup agendado começa. |
+| [!UICONTROL Frequency] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definida como `Yes`.) Determina com que frequência o backup programado ocorre. Opções: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definida como `Yes`.) Determina se o armazenamento é colocado em modo de manutenção durante o backup programado. Opções: `Yes` / `No` |
 
 {style="table-layout:auto"}
 

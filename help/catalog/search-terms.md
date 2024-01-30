@@ -3,9 +3,9 @@ title: Gerenciar termos de pesquisa
 description: Saiba como gerenciar os termos de pesquisa da sua loja para redirecionar clientes usando termos com ortografia incorreta ou alternativos.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 6126943f20f33d52085018ca634159918833efc9
+source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,10 @@ A Adobe Commerce oferece suporte a duas soluções diferentes de gerenciamento d
 >[!NOTE]
 >
 >O recurso padrão Pesquisar sinônimos é compatível `name` e `sku` atributos do produto **_somente_**.
+
+>[!IMPORTANT]
+>
+>O recurso de sinônimos de pesquisa usa apenas um método de pesquisa correspondente a texto completo.
 
 ![Exemplo da loja - resultados de pesquisa com sinônimos](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 

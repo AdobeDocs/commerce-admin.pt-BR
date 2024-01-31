@@ -1,11 +1,11 @@
 ---
 title: Gerenciar contas da empresa
-description: Saiba mais sobre a página Empresas e as ferramentas disponíveis na grade que ajudam a gerenciar as contas da empresa na sua loja da Adobe Commerce.
+description: Saiba como gerenciar contas da empresa para sua loja da Adobe Commerce usando a página Empresas e as ferramentas disponíveis na grade.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2493'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ A variável _[!UICONTROL Companies]_A página lista todas as contas atuais da em
 
 A variável _[!UICONTROL Actions]_o controle acima da grade pode ser usado para aplicar uma ação a vários registros da empresa. Por exemplo, em vez de aprovar cada solicitação individual de empresa, você pode selecionar várias solicitações e ativar as contas em uma única ação. As ações disponíveis dependem do tipo de [permissões](../systems/permissions.md) para a função atribuída à sua conta de usuário Administrador.
 
-Use o _[!UICONTROL Search]_função para encontrar empresas na **Empresas**grade por palavra-chave. Ele encontrará a empresa pesquisando a palavra-chave especificada no **Nome da empresa**e **Pai**colunas. Você pode filtrar por **Tipo de Empresa**para mostrar as empresas-mãe e suas empresas relacionadas, ou apenas as empresas-filho.
+Use o _[!UICONTROL Search]_função para encontrar empresas na **Empresas**grade por palavra-chave. A pesquisa indexa palavras-chave do **Nome da empresa**e **Pai**colunas. Você pode filtrar por **Tipo de Empresa**para mostrar somente empresas individuais, somente empresas principais ou somente empresas secundárias.
 
 ![Grade de Empresas](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
@@ -41,7 +41,7 @@ As ações a seguir podem ser aplicadas a um ou a vários registros.
 
 ### Ativar contas da empresa
 
-1. Defina o **[!UICONTROL Actions]** controle para `Set Active`.
+1. No **[!UICONTROL Actions]** selecione **[!UICONTROL Set Active]**.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
@@ -49,16 +49,16 @@ As ações a seguir podem ser aplicadas a um ou a vários registros.
 
 Os clientes com contas inativas não podem fazer login ou compras nas contas deles. Há dois métodos para definir uma conta de cliente como ativa ou inativa:
 
-Método 1: **Na grade de clientes**
+Método 1: **Na grade Clientes**
 
 1. No _Admin_ barra lateral, vá para [!UICONTROL **Clientes**] > [!UICONTROL **Todos os Clientes**].
 
-1. Defina o [!UICONTROL **Ações**] controle para uma das seguintes opções:
+1. No **[!UICONTROL Actions]** selecione uma das seguintes opções:
 
-   - `Active`
-   - `Inactive`
+   - **[!UICONTROL Active]**
+   - **[!UICONTROL Inactive]**
 
-1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
+1. Quando solicitado, selecione **[!UICONTROL OK]** para aplicar a alteração.
 
 Método 2: **Na página de edição da conta**
 
@@ -66,7 +66,7 @@ Método 2: **Na página de edição da conta**
 
 1. Na grade, localize o registro do cliente a ser editado.
 
-1. No _Ações_ na extremidade direita, clique em [!UICONTROL **Editar**].
+1. No _Ações_ na extremidade direita, selecione [!UICONTROL **Editar**].
 
 1. Selecione o [!UICONTROL **Informações da conta**] guia.
 
@@ -78,7 +78,7 @@ Método 2: **Na página de edição da conta**
 
 Os usuários associados a uma conta de empresa bloqueada podem fazer logon e acessar o catálogo, mas não podem fazer compras. Uma empresa com uma conta que não esteja em boa situação pode ser temporariamente bloqueada até que o problema seja resolvido.
 
-1. Defina o **[!UICONTROL Actions]** controle para `Block`.
+1. No **[!UICONTROL Actions]** selecione **[!UICONTROL Block]**.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
@@ -86,7 +86,7 @@ Os usuários associados a uma conta de empresa bloqueada podem fazer logon e ace
 
 As contas da empresa excluídas não podem ser restauradas. O status das contas de usuário associadas à empresa é definido como `Inactive` e a ID da empresa é removida dos perfis das contas de usuário. As informações sobre a atividade da empresa e as transações são retidas no sistema.
 
-1. Defina o **[!UICONTROL Actions]** controle para `Delete`.
+1. No **[!UICONTROL Actions]** selecione **[!UICONTROL Delete]**.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
@@ -94,7 +94,7 @@ As contas da empresa excluídas não podem ser restauradas. O status das contas 
 
 O crédito nas contas das empresas selecionadas é convertido na taxa atual da moeda selecionada.
 
-1. Defina o **[!UICONTROL Actions]** controle para `Convert Currency`.
+1. No **[!UICONTROL Actions]** selecione **[!UICONTROL Convert Currency]**.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
@@ -104,13 +104,13 @@ O crédito nas contas das empresas selecionadas é convertido na taxa atual da m
 
 1. Clique em **[!UICONTROL Proceed]** para concluir a conversão.
 
-### Editar uma conta de empresa
+## Editar uma conta de empresa
 
 Método 1: **Edição rápida**
 
 1. Na primeira coluna, marque a caixa de seleção da conta da empresa a ser editada.
 
-1. Defina o **[!UICONTROL Actions]** coluna para `Edit`.
+1. No **[!UICONTROL Actions]** selecione **[!UICONTROL Edit]**.
 
    Cada valor que pode ser atualizado aparece em uma caixa de texto.
 
@@ -130,7 +130,7 @@ Método 2: **Edição completa**
 
 1. Na grade, localize o registro da empresa a ser editado.
 
-1. Clique em **[!UICONTROL Edit]** no _[!UICONTROL Action]_coluna.
+1. Selecionar **[!UICONTROL Edit]** do _[!UICONTROL Action]_coluna.
 
 1. Faça as alterações necessárias nas informações da empresa.
 
@@ -191,7 +191,7 @@ As seções a seguir fornecem uma referência para as ações, opções e inform
 ### Opções de controle de ações
 
 | Opção | Descrição |
-|--- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | Define o status de todos os registros de empresa selecionados como `Active`. Os administradores da empresa recebem instruções para definir suas senhas para que possam acessar suas contas e gerenciar suas empresas na loja. |
 | [!UICONTROL Block] | Restringe as contas da empresa que não estão em boa posição, preservando a conta. Os membros da empresa podem fazer logon e acessar o catálogo, mas não podem fazer pedidos em nome da empresa. |
 | [!UICONTROL Delete] | Exclui as contas da empresa selecionadas. O status das contas de usuário associadas a uma empresa excluída é definido como `Inactive` e a ID da empresa é removida dos perfis das contas de usuário. As informações sobre a atividade da empresa e as transações são retidas no sistema. |
@@ -324,11 +324,11 @@ As seguintes colunas estão disponíveis alterando o [layout de coluna](../getti
 #### [!UICONTROL Company Credit]
 
 | Campo | Descrição |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | A moeda aceita pela loja para compras em crédito da empresa. |
 | [!UICONTROL Credit Limit] | O limite de crédito estendido para a conta da empresa. |
 | [!UICONTROL Allow to Exceed Credit Limit] | Indica se a empresa tem permissão para exceder o limite de crédito. Opções: Sim / Não |
-| [!UICONTROL Reason for Change] | Uma nota que explica por que a empresa tem permissão ou não pode exceder o limite de crédito. Este campo só estará ativo se a permissão para exceder o limite de crédito for alterada. |
+| [!UICONTROL Reason for Change] | Uma nota que explica as circunstâncias em que a empresa pode ou não exceder o limite de crédito. Este campo só estará ativo se a permissão para exceder o limite de crédito for alterada. |
 
 {style="table-layout:auto"}
 

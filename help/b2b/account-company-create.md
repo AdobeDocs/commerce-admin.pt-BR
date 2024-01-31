@@ -4,9 +4,9 @@ description: Saiba mais sobre a criação de contas da empresa no Administrador 
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1784'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ A pessoa que configura uma conta de empresa na loja recebe uma função como a [
 
       - **[!UICONTROL Company Legal Name]**
       - **[!UICONTROL VAT/TAX ID]**
-      - **[!UICONTROL Re-seller ID]**
+      - **[!UICONTROL Reseller ID]**
 
    ![Informações da Empresa](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
@@ -74,7 +74,7 @@ A pessoa que configura uma conta de empresa na loja recebe uma função como a [
 
 1. Conclui a validação se o reCAPTCHA estiver habilitado para esta função de loja.
 
-1. Quando as informações estiverem completas, clique em **[!UICONTROL Submit]**.
+1. Quando as informações estiverem completas, selecione **[!UICONTROL Submit]**.
 
    Quando a solicitação para criar uma conta da empresa é aprovada pelo comerciante, a notificação por email é enviada ao administrador da empresa.
 
@@ -86,7 +86,7 @@ A pessoa que configura uma conta de empresa na loja recebe uma função como a [
 
 O processo de criação de uma empresa pelo Administrador é essencialmente o mesmo da loja, mas com campos adicionais.
 
-![Nova Empresa](./assets/company-update.png){width="700" zoomable="yes"}
+![Adicionar uma nova empresa do Administrador](./assets/company-add-new.png){width="700" zoomable="yes"}
 
 1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -173,24 +173,24 @@ O processo de criação de uma empresa pelo Administrador é essencialmente o me
    - Para alterar o **[!UICONTROL Applicable Payment Methods]** que estiverem disponíveis para a empresa, limpe a **[!UICONTROL Use config settings]** e escolha uma das seguintes opções:
 
      | Opção | Descrição |
-     | ------ | ----------- |
+     |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
      | `B2B Payment Methods` | (Padrão) Habilita tudo [métodos de pagamento definidos como padrão](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods) para ordens B2B. |
      | `All Enabled Payment Methods` | Torna tudo [métodos de pagamento ativados](../configuration-reference/sales/payment-methods.md) disponível para contas de clientes associadas à conta da empresa. |
-     | `Selected Payment Methods` | Permite selecionar os métodos de pagamento disponíveis para contas de clientes associadas à conta da empresa. Para selecionar vários métodos de pagamento, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção. |
+     | `Selected Payment Methods` | Permite selecionar os métodos de pagamento disponíveis para contas de clientes associadas à conta da empresa. Para selecionar vários métodos de pagamento, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada opção. |
 
      {style="table-layout:auto"}
 
    - Para alterar o **[!UICONTROL Applicable Shipping Methods]** que estiverem disponíveis para a empresa, limpe a **[!UICONTROL Use config settings]** e escolha uma das seguintes opções:
 
      | Opção | Descrição |
-     | ------ | ----------- |
+     |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
      | `B2B Shipping Methods` | (Padrão) Habilita tudo [métodos de envio definidos como padrão](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) para ordens B2B. |
      | `All Enabled Shipping Methods` | Torna tudo [métodos de envio ativados](../configuration-reference/sales/delivery-methods.md) disponível para contas de clientes associadas à conta da empresa. |
-     | `Selected Shipping Methods` | Permite selecionar os métodos de entrega disponíveis para contas de clientes associadas à conta da empresa. Para selecionar vários métodos de envio, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção. |
+     | `Selected Shipping Methods` | Permite selecionar os métodos de entrega disponíveis para contas de clientes associadas à conta da empresa. Para selecionar vários métodos de envio, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada opção. |
 
      {style="table-layout:auto"}
 
-1. Quando terminar, clique em **[!UICONTROL Save]**.
+1. Quando terminar, selecione **[!UICONTROL Save]**.
 
    Quando a solicitação para criar uma conta da empresa é aprovada pelo comerciante, uma notificação por email é enviada para o endereço de email do administrador da empresa.
 
@@ -199,7 +199,7 @@ O processo de criação de uma empresa pelo Administrador é essencialmente o me
 ## Barra de botões
 
 | Botão | Descrição |
-|------- | ----------- |
+|---------------------------|------------------------------------------------------------------|
 | [!UICONTROL Back] | Retorna à página Empresas sem salvar as alterações. |
 | [!UICONTROL Reset] | Restaura os valores originais em todos os campos com alterações não salvas. |
 | [!UICONTROL Save] | Salva as alterações na empresa e mantém o perfil aberto. |
@@ -210,7 +210,7 @@ O processo de criação de uma empresa pelo Administrador é essencialmente o me
 ## Descrições dos campos
 
 | Campo | Descrição |
-|--- |--- |
+|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | O nome da empresa é inserido quando a conta da empresa é criada pela primeira vez e pode ser uma versão reduzida do nome legal completo. |
 | [!UICONTROL Status] | (Somente administrador) Indica o estado atual da conta da empresa. Opções: <br/>**[!UICONTROL Active]**- A conta da empresa foi aprovada pelo administrador de armazenamento. O administrador da empresa e os membros associados podem fazer logon na conta da loja e fazer compras.<br/>**[!UICONTROL Pending Approval]** - Uma solicitação para abrir uma conta da empresa foi enviada, mas ainda não foi aprovada pelo administrador de armazenamento. <br/>**[!UICONTROL Rejected]**- Uma solicitação para abrir uma conta da empresa foi enviada, mas não foi aprovada pelo administrador de armazenamento. As credenciais de logon iniciais usadas para enviar a solicitação estão bloqueadas.<br/>** Bloqueado **- Os membros da empresa podem fazer logon e acessar o catálogo, mas não podem fazer compras. O administrador de armazenamento pode bloquear uma conta da empresa que não esteja em boa posição. O bloqueio na conta pode ser removido pelo administrador de armazenamento a qualquer momento. |
 | [!UICONTROL Company Email] | O endereço de email associado à conta da empresa. |
@@ -221,7 +221,7 @@ O processo de criação de uma empresa pelo Administrador é essencialmente o me
 ### [!UICONTROL Account Information]
 
 | Campo | Descrição |
-|--- |--- |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Legal Name] | O nome legal completo da empresa. |
 | [!UICONTROL VAT / TAX ID] | A variável [imposto sobre o valor acrescentado](../stores-purchase/vat.md) número atribuído à empresa por algumas jurisdições para fins de relatório de imposto. Para configurar a ID de IVA/IMPOSTO do cliente para aparecer na loja, consulte [Criar novas opções de conta](../configuration-reference/customers/customer-configuration.md). <br/> **_Nota:_** O administrador da empresa e outros utilizadores da empresa não têm os seus próprios números de identificação IVA/FISCAL separados nas suas contas de clientes. |
 | [!UICONTROL Reseller ID] | O número de revenda atribuído à empresa para fins de relatório de imposto. |
@@ -232,14 +232,15 @@ O processo de criação de uma empresa pelo Administrador é essencialmente o me
 ### [!UICONTROL Company Hierarchy]
 
 | Campo | Descrição |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company ID] | O número de ID da empresa. |
 | [!UICONTROL Company Name] | O nome completo da empresa. <br/>A `current company indicator` aparece na linha da empresa que está sendo editada. |
 | [!UICONTROL Company Email] | O endereço de email associado à conta da empresa. |
 | [!UICONTROL Phone Number] | O número de telefone principal da empresa. |
+| [!UICONTROL Country] | O país onde a empresa está registrada para realizar negócios. |
 | [!UICONTROL State/Province] | O estado ou província onde a empresa está registrada para realizar negócios. |
 | [!UICONTROL City] | A cidade onde a empresa está registrada para realizar negócios. |
-| [!UICONTROL Customer Group] | (Somente administrador) Indica a [grupo de clientes](../customers/customer-groups.md) ou [catálogo compartilhado](catalog-shared.md) que é atribuído à empresa. |
+| [!UICONTROL Group/Shared Catalog] | (Somente administrador) Indica a [grupo de clientes](../customers/customer-groups.md) ou [catálogo compartilhado](catalog-shared.md) que é atribuído à empresa. |
 | [!UICONTROL Company Admin] | O nome completo do administrador da empresa. |
 | [!UICONTROL Action] | A lista de ações possíveis para essa linha de empresa. |
 
@@ -248,7 +249,7 @@ O processo de criação de uma empresa pelo Administrador é essencialmente o me
 ### [!UICONTROL Legal Address]
 
 | Campo | Descrição |
-|--- |--- |
+|------------------------------|-----------------------------------------------------------------------------|
 | [!UICONTROL Street Address] | O endereço onde a empresa está registrada para realizar negócios. |
 | [!UICONTROL City] | A cidade onde a empresa está registrada para realizar negócios. |
 | [!UICONTROL Country] | O país onde a empresa está registrada para realizar negócios. |
@@ -261,7 +262,7 @@ O processo de criação de uma empresa pelo Administrador é essencialmente o me
 ### [!UICONTROL Company Admin]
 
 | Campo | Descrição |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Determina o site ao qual o administrador da empresa pertence. |
 | [!UICONTROL Job Title] | O título do administrador da empresa que gerencia a conta da empresa. |
 | [!UICONTROL Email] | O endereço de email do administrador da empresa pode ser igual ao endereço de email da empresa. Se um endereço de email diferente for inserido, uma conta individual separada será criada para o administrador da empresa, além da conta da empresa. |
@@ -278,7 +279,7 @@ O processo de criação de uma empresa pelo Administrador é essencialmente o me
 ### [!UICONTROL Company Credit]
 
 | Campo | Descrição |
-|--- |--- |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | (Somente administrador) A moeda aceita pela loja para compras em crédito da empresa. |
 | [!UICONTROL Credit Limit] | (Somente Administrador) O limite de crédito estendido para a conta da empresa. |
 | [!UICONTROL Allow to Exceed Credit Limit] | (Somente Administrador) Indica se a empresa tem permissão para exceder o limite de crédito. Opções: `Yes` / `No` |
@@ -289,13 +290,13 @@ O processo de criação de uma empresa pelo Administrador é essencialmente o me
 ### [!UICONTROL Advanced Settings]
 
 | Campo | Descrição |
-|--- |--- |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Customer Group] | (Somente administrador) Indica a [grupo de clientes](../customers/customer-groups.md) ou [catálogo compartilhado](catalog-shared.md) que é atribuído à empresa. |
 | [!UICONTROL Allow Quotes] | (Somente Administrador) Determina se os membros da empresa podem preparar e enviar cotações negociáveis em nome da empresa. |
 | [!UICONTROL Enable Purchase Orders] | (Somente Administrador) Determina se os membros da empresa podem enviar pedidos como [ordens de compra](account-dashboard-my-purchase-orders.md) em nome da empresa. |
 | Métodos de pagamento aplicáveis | (Somente Administrador) Indica os métodos de pagamento disponíveis para compras da empresa. Opções: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
-| [!UICONTROL Payment Methods] | (Somente Administrador) Fica ativo se métodos de pagamento específicos estiverem ativados. Para disponibilizar vários métodos de pagamento para a conta da empresa, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção. |
+| [!UICONTROL Payment Methods] | (Somente Administrador) Fica ativo se métodos de pagamento específicos estiverem ativados. Para disponibilizar vários métodos de pagamento para a conta da empresa, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada opção. |
 | [!UICONTROL Applicable Shipping Methods] | (Somente Administrador) Indica os métodos de envio disponíveis para compras da empresa. Opções: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
-| [!UICONTROL Shipping Methods] | (Somente administrador) Fica ativo se métodos específicos de envio forem ativados. Para disponibilizar vários métodos de pagamento para a conta da empresa, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção. |
+| [!UICONTROL Shipping Methods] | (Somente administrador) Fica ativo se métodos específicos de envio forem ativados. Para disponibilizar vários métodos de pagamento para a conta da empresa, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada opção. |
 
 {style="table-layout:auto"}

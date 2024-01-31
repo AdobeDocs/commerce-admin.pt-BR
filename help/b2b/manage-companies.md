@@ -6,9 +6,9 @@ role: Admin
 hide: false
 hidefromtoc: false
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -17,20 +17,34 @@ ht-degree: 0%
 
 [!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponível somente para participantes do programa Beta"}
 
-O recurso de gerenciamento da Empresa simplifica as operações de negócios para empresas com estruturas organizacionais complexas. Os usuários administradores podem gerenciar empresas como um grupo, criando uma hierarquia de empresa que atribua empresas relacionadas a uma empresa principal designada. Essa atribuição permite que o administrador da empresa principal gerencie sua própria conta e as contas da empresa para todas as empresas atribuídas.
+O gerenciamento de empresas simplifica as operações de negócios para empresas com estruturas organizacionais complexas. Os usuários administradores podem criar uma hierarquia de empresa para refletir uma organização B2B, atribuindo empresas à empresa principal designada. Essa atribuição permite que o administrador da empresa principal exiba e gerencie empresas na organização.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Iniciar tarefas de gerenciamento da empresa a partir do *[!UICONTROL Companies]* exibição. No Administrador, acesse  **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Abra a página de detalhes da empresa na grade Empresas para a empresa principal selecionando o **[!UICONTROL Edit]** ação.
+![Grade de empresas gerenciadas B2B](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-![Grade de Empresas](./assets/company-detail-view.png){width="700" zoomable="yes"}
+No *[!UICONTROL Companies grid]*, o *[!UICONTROL Company Type]* indica se uma empresa é gerenciada como parte de uma organização ou como uma empresa separada.
 
-Consulte a [Gerenciar contas da empresa](account-company-manage.md) para obter mais informações sobre a grade Empresas.
+- `Parent` é uma organização comercial com uma ou mais empresas atribuídas. Uma empresa principal não pode ser atribuída como um filho de outra empresa.
 
-## [!UICONTROL Company Hierarchy]
+- `Child` é uma empresa atribuída a uma organização. Uma empresa pode ser atribuída somente a uma empresa principal.
 
-Na criação inicial da empresa, a variável [!UICONTROL Company Hierarchy] A grade fica vazia quando você a expande. Depois que uma empresa é criada, os usuários administradores com as permissões apropriadas podem usar o [!UICONTROL Company Hierarchy] para criar uma organização da empresa principal editando a empresa principal designada e atribuindo empresas relacionadas.
+- `Company` representa uma única empresa. Uma única empresa pode se tornar parte de uma organização tornando-a uma empresa principal ou atribuindo-a a uma empresa principal existente.
 
-![Grade de Hierarquia de Empresas](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+Ao editar uma empresa principal ou secundária, expanda *[!UICONTROL Company Hierarchy]* para exibir todas as empresas na organização. A `Current` indica a empresa que você está editando.
 
-Consulte [atribuir e cancelar atribuição de empresas](assign-companies.md) para obter mais informações sobre as ações disponíveis no [!UICONTROL Company Hierarchy] grade.
+![Grade de Hierarquia da empresa B2B](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+
+
+## Visualize e configure o [!UICONTROL Company Hierarchy]
+
+Na criação inicial da empresa, a variável [!UICONTROL Company Hierarchy] a grade está vazia. Também fica em branco se a empresa for uma única empresa.
+
+![Grade de Hierarquia da Empresa B2B](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+
+Para empresas-mãe, os usuários administradores com as permissões apropriadas podem realizar as seguintes tarefas:
+
+- Crie a hierarquia da empresa criando uma nova organização pai ou atualizando uma existente.
+- Gerencie uma organização existente para adicionar ou remover empresas.
+
+Para obter detalhes, consulte [Gerenciar a hierarquia da empresa](assign-companies.md).

@@ -3,7 +3,7 @@ title: Gerenciamento de ativos da Galeria de mídia
 description: Saiba como gerenciar arquivos de mídia carregados e ativos adquiridos por meio de uma integração com o Adobe Stock.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -72,6 +72,8 @@ Os ativos podem ser usados extensivamente pelo administrador, como [adicionar ou
 1. Acesse a nova Galeria de mídia em uma área que permite usar ativos de mídia.
 
 1. Selecione o ativo e clique em **[!UICONTROL Add Selected]**.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## Excluir ativos
 

@@ -4,9 +4,9 @@ description: Saiba como um vendedor pode criar uma cota para um comprador espec�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
+source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Depois de criar a cotação preliminar, adicione itens de produto, aplique desco
 
 1. Adicionar itens à cotação selecionando **[!UICONTROL Add Product By SKU]**. Insira o número e a quantidade do SKU e selecione **[!UICONTROL Add Product]**.
 
-![Vendedor adicionando itens à cotação de rascunho para comprador](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+   ![Vendedor adicionando itens à cotação de rascunho para comprador](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. Aplique descontos de item de linha aos produtos conforme necessário.
 
@@ -67,7 +67,7 @@ Depois de criar a cotação preliminar, adicione itens de produto, aplique desco
 
    - No [!UICONTROL Discount Line item] , selecione o **[!UICONTROL Discount Type]**.
 
-   ![Aplicar desconto de item de linha à cotação](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+     ![Aplicar desconto de item de linha à cotação](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - No [!UICONTROL Discount] insira o valor do tipo de desconto. Por exemplo, se você selecionou uma porcentagem de desconto, insira 10 para aplicar um desconto de 10% ao item de linha.
 
@@ -85,7 +85,7 @@ Depois de criar a cotação preliminar, adicione itens de produto, aplique desco
 
 1. Inclua informações adicionais para o comprador.
 
-   Entrada [!UICONTROL Negotiation - Comments], adicione uma nota e anexe quaisquer arquivos de suporte necessários para o comprador no [!UICONTROL Negotiation - Comments]
+   No **[!UICONTROL Negotiation - Comments]** adicione uma nota e anexe quaisquer arquivos de suporte necessários para o comprador.
 
    ![O vendedor adiciona informações para o comprador](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
@@ -95,9 +95,7 @@ Depois de criar a cotação preliminar, adicione itens de produto, aplique desco
 
    Salve a cotação como rascunho ou envie-a ao comprador.
 
-   - Se você salvar a cotação como rascunho, o status será atualizado para `Draft` e uma mensagem de confirmação será exibida:
-
-     ![Cotação preliminar de confirmação enviada ao comprador](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+   - Se você salvar a cotação como rascunho, o status será atualizado para `Draft` e uma mensagem de confirmação será exibida.
 
    - Se você enviar a cota ao comprador, o status será alterado para `Submitted`. O comprador recebe uma notificação por email para revisar a cotação. A cota é bloqueada até que o comprador a devolva para negociação adicional. O vendedor pode exibir a cotação na grade Cotação ou na grade Cliente.
 

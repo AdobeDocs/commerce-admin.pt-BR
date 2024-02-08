@@ -4,9 +4,9 @@ description: Saiba como um vendedor pode criar uma cota para um comprador espec�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: be3427f6cc2bab68b6d2b0fa0c36b83dc310e528
+source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ Depois de criar a cotação preliminar, adicione itens de produto, aplique desco
 
    Salve a cotação como rascunho ou envie-a ao comprador.
 
-   Se você enviar a cota ao comprador, o status será alterado para `Submitted`e a cota será bloqueada até que o comprador da cota, o status seja atualizado para preliminar e uma mensagem de confirmação seja exibida:
+   - Se você salvar a cotação como rascunho, o status será atualizado para `Draft` e uma mensagem de confirmação será exibida:
 
-   ![Cotação preliminar de confirmação enviada ao comprador](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+     ![Cotação preliminar de confirmação enviada ao comprador](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
 
-O comprador recebe uma notificação por email para revisar a cotação. A cota é bloqueada até que o comprador a devolva para negociação adicional. O Vendedor pode exibir a cotação na grade Cotação ou na grade Cliente.
+   - Se você enviar a cota ao comprador, o status será alterado para `Submitted`. O comprador recebe uma notificação por email para revisar a cotação. A cota é bloqueada até que o comprador a devolva para negociação adicional. O vendedor pode exibir a cotação na grade Cotação ou na grade Cliente.
 
 ## Exibir e criar cotações da Grade de Clientes
 

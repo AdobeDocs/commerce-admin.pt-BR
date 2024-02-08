@@ -2,12 +2,10 @@
 title: Disponibilidade para HIPAA no Adobe Commerce
 description: Saiba como você pode adicionar o módulo HIPAA-Ready da Adobe Commerce e obter recursos e funcionalidades adicionais que permitem cumprir suas obrigações com a HIPAA.
 feature: Security, Compliance
-hide: true
-hidefromtoc: true
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -106,7 +104,7 @@ A variável _Logs de ação_ grade de relatório (**[!UICONTROL System]** > Logs
    - ***Origem***: exibe onde a ação foi executada.\
      Valores: `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
    - ***Tipo de cliente***: exibe o tipo de cliente.\
-     Valores: Cliente | Administrador Integração do |
+     Valores: Cliente | Admin | Integração
 
 
 2. Renomear ***Nome de usuário*** para ***Identificador do cliente***

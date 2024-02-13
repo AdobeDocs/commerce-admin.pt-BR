@@ -6,9 +6,9 @@ hidefromtoc: false
 feature: Integration
 role: Admin, Leader
 exl-id: b2522d25-8255-4219-98b5-4b764430dea2
-source-git-commit: a4e4dec2dc7a6ba2c065e0fa571f3ff0aaecd847
+source-git-commit: 8278d725a7377b865c118b86a57702cd2be43238
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Antes de configurar a integração de Experience Cloud, verifique se o projeto e
      bin/magento admin:adobe-ims:status
      ```
 
-   Se o módulo não estiver ativado, [ative-o usando a Organização e as credenciais para o projeto de integração do IMS](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module). Se você não tiver as credenciais, [enviar um tíquete de suporte Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+   Se o módulo não estiver ativado, [ative-o usando a Organização e as credenciais para o projeto de integração do IMS](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module).
 
 1. Verifique se o usuário Administrador pode fazer logon no Administrador do Commerce usando sua Adobe ID.
 

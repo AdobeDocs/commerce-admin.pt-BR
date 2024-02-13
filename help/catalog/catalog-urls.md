@@ -3,9 +3,9 @@ title: URLs de catálogo e produto
 description: Saiba mais sobre os tipos de formato de URL para seus produtos de catálogo e como configurá-los.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ A chave do URL é a parte de um URL estático que descreve o produto ou categori
 
 >[!NOTE]
 >
->Caracteres especiais acentuados são substituídos automaticamente por suas versões regulares sem acentos na chave do URL. Por exemplo, `ñ` é automaticamente substituído por `n`.
+>Por padrão, caracteres especiais acentuados são substituídos automaticamente por suas versões regulares sem acentos na chave do URL. Por exemplo, `ñ` é automaticamente substituído por `n`. Esse comportamento pode ser desativado definindo o parâmetro _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_opção de configuração para `No`. Consulte [Configurar URLs de catálogo](#configure-catalog-urls).
 
 A chave do URL deve consistir em caracteres minúsculos com hifens não à direita entre esses caracteres para separar palavras. Não são permitidos hifens no início ou no final da chave de URL. Uma chave de URL bem projetada e &quot;compatível com mecanismo de pesquisa&quot; pode incluir o nome do produto e palavras-chave para melhorar a maneira como é indexada por mecanismos de pesquisa. A chave do URL pode ser configurada para criar um redirecionamento automático se a chave do URL mudar.
 

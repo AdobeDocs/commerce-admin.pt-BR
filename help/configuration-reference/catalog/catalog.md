@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Revise as configurações no [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] página do Administrador do Commerce.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 8ce1bca0a14b838c843c66e48a2c1cd895bb1340
 workflow-type: tm+mt
-source-wordcount: '3095'
+source-wordcount: '3134'
 ht-degree: 0%
 
 ---
@@ -207,13 +207,14 @@ ht-degree: 0%
 <!-- [Search Engine Optimization](https://docs.magento.com/user-guide/catalog/product-search-engine-optimization.html) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
-|--- |--- |--- |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Popular Search Terms] | Exibição da loja | Determina se _Termos de pesquisa populares_ é implementado no armazenamento. Essa configuração não se aplica a lojas que usam [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Opções: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Exibição da loja | Determina se um sufixo, como html ou htm, é aplicado aos URLs do produto. Se usado, não inclua um ponto antes do sufixo, pois ele é aplicado automaticamente. |
 | [!UICONTROL Category URL Suffix] | Exibição da loja | Determina se um sufixo, como html ou htm, é aplicado aos URLs da categoria. Se usado, não inclua um ponto antes do sufixo, pois ele é aplicado automaticamente. |
 | [!UICONTROL Use Categories Path for Product URLs] | Exibição da loja | Determina se os caminhos de categoria são incluídos nos URLs do produto. Isso pode fazer com que vários URLs apontem para a mesma página, o que pode afetar a classificação da pesquisa. Para saber mais, consulte [Meta tag canônica](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | Exibição da loja | Determina se um redirecionamento permanente é criado automaticamente sempre que uma chave de URL é alterada. Quando implementada, a caixa de seleção Criar redirecionamento personalizado para URL antigo abaixo do campo Chave do URL do produto é selecionada por padrão. Opções: `Yes` / `No` |
 | [!UICONTROL Generate "category/product" URL Rewrites] | Global | Determina se o Adobe Commerce gera dados e os salva em tabelas de regravação quando um usuário salva uma categoria que contém muitos produtos atribuídos. Opções: `Yes` / `No` <br/><br/>**_Importante:_**Salvar esses dados gerados em uma tabela de regravações de URL pode prejudicar o desempenho. Consulte [Redirecionamentos automáticos de produto](../../merchandising-promotions/url-redirect-product-automatic.md) para obter mais informações. |
+| [!UICONTROL Apply transliteration for product URL] | Exibição da loja | Determina se a transliteração é aplicada ao criar ou atualizar URLs de produtos. Opções: `Yes` / `No`. O padrão está definido como `Yes`. <br/><br/>Para certos casos de uso, você deve desativar a transliteração. Por exemplo, se você opera uma loja online em chinês, as práticas recomendadas da SEO recomendam que os URLs dos produtos correspondam ao nome do produto. Configurar a opção para `No` permite que caracteres chineses sejam usados em URLs de produtos em vez de um equivalente ASCII. |
 | [!UICONTROL Page Title Separator] | Exibição da loja | Identifica o caractere que separa o nome da categoria e a subcategoria na barra de título do navegador. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | Exibição da loja | Se houver vários URLs que apontem para a mesma página de categoria, essa opção usará uma meta tag canônica para identificar o URL da categoria que os mecanismos de pesquisa devem indexar. O URL inclui um nome completo para a categoria usando a meta tag. Isso reduz o conteúdo duplicado e melhora o SEO. Opções: `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | Exibição da loja | Se houver vários URLs que apontem para a mesma página do produto, essa opção usará uma meta tag canônica para identificar o URL do produto que os mecanismos de pesquisa devem indexar. O URL inclui um nome completo para o produto usando a meta tag. Isso reduz o conteúdo duplicado e melhora o SEO. Opções: `Yes` / `No` |

@@ -2,9 +2,9 @@
 title: '[!DNL Admin Unified Experience for Adobe Commerce] notas de versão'
 description: Revise as notas de versão para obter informações sobre a versão mais recente do [!DNL Admin Unified Experience] extensão para o Commerce.
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: b198c4864e6ad6c20633a3f5483067c55c4e997b
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,17 @@ Estas notas de versão da extensão Commerce Admin Unified Experience (`magento/
 >[!NOTE]
 >
 >Consulte [Disponibilidade do produto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) para obter informações detalhadas sobre o status do lançamento da extensão Admin Unified Experience em relação ao Adobe Commerce.
+
+## versão 1.0
+
+*13 de fevereiro de 2023*
+
+[!BADGE Compatibilidade]{type=Informative tooltip="Compatibilidade"}
+
+![Novo](../assets/new.svg) Versão de Disponibilidade Geral da extensão Admin Unified Experience para habilitar a integração com o Adobe Experience Cloud.
+
+![Novo](../assets/new.svg) Quando a extensão Admin Unified Experience é instalada e ativada em um projeto do Adobe Commerce, os administradores podem [visualize e acesse instâncias do Adobe Commerce na página inicial do Experience Cloud](admin-unified-experience-integration-overview.md).
+
 
 ## Versão 1.0 (beta)
 

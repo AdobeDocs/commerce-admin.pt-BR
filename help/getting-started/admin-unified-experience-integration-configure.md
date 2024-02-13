@@ -6,16 +6,14 @@ hidefromtoc: false
 feature: Integration
 role: Admin, Leader
 exl-id: b2522d25-8255-4219-98b5-4b764430dea2
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: a4e4dec2dc7a6ba2c065e0fa571f3ff0aaecd847
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
 
 # Configurar a integração do Experience Cloud com o administrador de comércio
-
-{{$include /help/_includes/admin-unified-experience-beta-note.md}}
 
 Comece a integração do Experience Cloud com o Administrador do Commerce configurando o aplicativo do Commerce para usar as extensões da Experiência unificada do administrador do Commerce e Eventos do Commerce.
 

@@ -3,9 +3,9 @@ title: Integração do Adobe Experience Cloud para o administrador do Commerce
 description: Saiba mais sobre a extensão Admin Unified Experience que integra o Commerce ao Experience Cloud para que os clientes possam acessar projetos do Commerce na página inicial do Experience Cloud.
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: a07c91bc2f01cd110f3e0ccd6d27fe5d37eb2fc9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Integração do Adobe Experience Cloud para o Commerce
 
 {{ee-feature}}
-
-{{$include /help/_includes/admin-unified-experience-beta-note.md}}
 
 Integre projetos do Adobe Commerce com o Experience Cloud ativando a extensão Admin Unified Experience. Quando a integração está ativa, os administradores podem acessar projetos do Commerce no Adobe Experience Cloud.
 

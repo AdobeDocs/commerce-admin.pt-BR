@@ -5,16 +5,14 @@ hide: false
 hidefromtoc: false
 feature: Integration
 exl-id: 451bf2e1-7c38-40be-a7c1-aaf0fe9f486c
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: 15569794c1e66ba5a93e46206244e2951522923e
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
 # Gerenciar a integração de Experience Cloud
-
-{{$include /help/_includes/admin-unified-experience-beta-note.md}}
 
 Após a ativação inicial, gerencie o status da integração do Experience Cloud habilitando ou desabilitando a extensão Commerce Admin Unified Experience.
 

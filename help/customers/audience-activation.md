@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
+source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,15 @@ _30 de maio de 2023_
 ![Novo](../assets/new.svg) - Atualização do [Painel de públicos da Real-Time CDP](#real-time-cdp-audiences-dashboard) para incluir a capacidade de classificar, pesquisar e filtrar os públicos-alvo ativos na sua instância do Adobe Commerce.
 
 +++
+
+### 2.2.0-beta1
+
+[!BADGE Compatibilidade]{type=Informative tooltip="Compatibilidade"}
+
+_16 de fevereiro de 2024_
+
+![Novo](../assets/new.svg) - Se você estiver participando do beta, verifique se `composer.json` O arquivo tem o seguinte no nível raiz: ` "minimum-stability": "beta"`.
+![Novo](../assets/new.svg) - (**Beta**) Adição da capacidade de criar [regras de produto relacionadas](../merchandising-promotions/product-related-rule-create.md) informados pelos públicos-alvo.
 
 ### 2.1.0
 
@@ -147,11 +156,7 @@ Depois de instalar o [!DNL Audience Activation] você deve fazer logon no Admini
 
 1. Expandir **[!UICONTROL Services]** e selecione **[!UICONTROL [!DNL Data Connection]]**.
 
-1. No [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#send-historical-order-data) siga as etapas 1: **Criar um projeto no Console do Adobe Developer** e 2: **Baixar arquivo de configuração**. O resultado é um arquivo que você copia e cola na variável **[!UICONTROL [!DNL Data Connection]]** página de configuração:
-
-   ![Configuração de administração do público-alvo do Real-Time CDP](./assets/epc-admin-config.png){width="700" zoomable="yes"}
-
-1. Clique em **Salvar configuração**.
+1. [Adicionar](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) conta de serviço e detalhes da credencial.
 
 ## Onde usar os públicos-alvo da Real-Time CDP no Commerce
 
@@ -159,6 +164,7 @@ Com o [!DNL Audience Activation] extensão ativada, é possível:
 
 - [Criar uma regra de preço de carrinho](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informado por públicos
 - [Criar um bloco dinâmico](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informado por públicos
+- [(**Beta**) Criar uma regra de produto relacionada](../merchandising-promotions/product-related-rule-create.md) informado por públicos
 
 ## painel de públicos-alvo da Real-Time CDP
 
@@ -187,11 +193,11 @@ O painel contém os seguintes campos:
 
 ## Suporte a headless
 
-Você pode ativar públicos-alvo em uma instância do Adobe Commerce headless, como AEM e PWA, para exibir regras de preço do carrinho ou blocos dinâmicos com base nos públicos-alvo.
+Você pode ativar públicos-alvo em uma instância do Adobe Commerce headless, como AEM e PWA, para exibir regras de preço do carrinho, regras de produto relacionadas ou blocos dinâmicos com base nos públicos-alvo.
 
-### Regras de preço do carrinho
+### Regras de preço do carrinho e regras de produto relacionadas
 
-Para regras de preço do carrinho, uma loja headless se comunica com o Experience Platform através do [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). A estrutura fornece uma API do lado do servidor que é implementada usando o GraphQL. As informações do público-alvo, como o segmento de um comprador, são transmitidas para o Commerce por meio de um parâmetro de cabeçalho do GraphQL chamado: `aep-segments-membership`.
+Para regras de preço do carrinho e regras de produto relacionadas, uma loja headless se comunica com o Experience Platform através do [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). A estrutura fornece uma API do lado do servidor que é implementada usando o GraphQL. As informações do público-alvo, como o segmento de um comprador, são transmitidas para o Commerce por meio de um parâmetro de cabeçalho do GraphQL chamado: `aep-segments-membership`.
 
 A arquitetura geral é a seguinte:
 
@@ -323,4 +329,35 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-Depois que os dados do forem recuperados, você poderá usá-los para criar conjuntos de relatórios [regras de preço do carrinho](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) e [blocos dinâmicos](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) no aplicativo Commerce.
+Depois que os dados do forem recuperados, você poderá usá-los para criar conjuntos de relatórios [regras de preço do carrinho](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [blocos dinâmicos](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) e  [regras de produto relacionadas](../merchandising-promotions/product-related-rule-create.md) no aplicativo Commerce.
+
+## Os públicos-alvo não são exibidos no Commerce
+
+Se os públicos-alvo do Real-Time CDP não estiverem sendo exibidos no Commerce, talvez seja devido a:
+
+- Tipo de autenticação incorreto selecionado no **Conexão de dados** página de configuração
+- Privilégios insuficientes no token gerado
+
+As duas seções a seguir descrevem como solucionar problemas em ambos os casos.
+
+### Tipo de autenticação incorreto selecionado na configuração
+
+1. Abra a instância do Commerce.
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Expandir **[!UICONTROL Services]** e selecione **[!UICONTROL [!DNL Data Connection]]**.
+1. Verifique o método de autorização de servidor para servidor especificado na **[!UICONTROL Authentication Type]** está correto. O Adobe recomenda usar **OAuth**. O JWT foi descontinuado. [Saiba mais](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+
+### Privilégios insuficientes no token gerado
+
+Esse problema pode ser causado por privilégios insuficientes de API para o token gerado. Para garantir que o token tenha os privilégios corretos:
+
+1. Identifique o administrador de sistemas do Adobe Experience Platform em sua organização.
+1. Encontre o projeto e as credenciais que você usará.
+1. Identifique o email da conta técnica. Por exemplo: `fe3c9476-1234-1234-abcd-2a51a785009a@techacct.adobe.com`.
+1. Peça ao administrador do sistema para iniciar o Adobe Experience Platform e acessar **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
+1. Usando o email da conta técnica mencionado acima, procure as credenciais que serão modificadas.
+1. Abra as credenciais e selecione **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
+1. Adicionar **Acesso total à produção**.
+1. Clique em **[!UICONTROL Save]**.
+1. [Regenerar](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) o token de acesso no Console do.
+1. Verifique se o token fornece uma resposta válida usando o [API de conexões do Target](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).

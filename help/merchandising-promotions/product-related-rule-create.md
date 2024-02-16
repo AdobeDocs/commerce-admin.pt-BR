@@ -3,9 +3,9 @@ title: Criar uma regra de produto relacionada
 description: Saiba como criar uma regra de produto relacionada que pode ser acionada para exibir produtos relacionados, vendas adicionais e vendas cruzadas.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 8f5a5fb6c277086e5f70221e4a6a5ae1b9e1abfe
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,10 @@ O processo de criação de uma regra de produto relacionada é semelhante à con
    - Para **[!UICONTROL Result Limit]**, insira o número de registros a serem exibidos na lista de resultados. O número máximo é 20.
 
    - Se a regra se aplicar a um [segmento de cliente](../customers/customer-segments.md), definir **[!UICONTROL Customer Segments]** para `Specified` e escolha o segmento do cliente na lista.
+
+   - (**Beta**) Se a regra se aplicar a um [Público-alvo do Real-Time CDP](../customers/audience-activation.md), definir **[!UICONTROL Real-Time CDP Audience]** para `Specified` e escolha o público-alvo da Real-Time CDP na lista. Esse recurso está na versão beta. Se você quiser participar do programa beta, envie uma solicitação para [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+     ![Regra de produtos relacionados - Público-alvo da Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
 
 1. No painel esquerdo, escolha **[!UICONTROL Products to Match]** e crie as condições como você faria para uma [regra de preço de catálogo](price-rules-catalog.md).
 

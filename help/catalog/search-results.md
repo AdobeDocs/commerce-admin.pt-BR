@@ -3,9 +3,9 @@ title: Resultados da pesquisa
 description: Saiba como configurar como seus produtos correspondem aos critérios de pesquisa inseridos na caixa Pesquisa rápida ou no formulário Pesquisa avançada.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,10 @@ O exemplo a seguir usa o mapeamento de palavra-chave com base no SKU. Quando um 
 ## Pesquisa ponderada
 
 Os atributos de produto ativados para pesquisa no catálogo podem receber um peso para atribuir a eles um valor mais alto nos resultados da pesquisa. Os atributos com um peso maior são retornados antes dos atributos com um peso menor. Por exemplo, se houver dois atributos no sistema, _cor_ com um peso de pesquisa de 3 e _descrição_ com um peso de pesquisa de 1. Uma pesquisa pela palavra _vermelho_ retorna uma lista de produtos com um valor de atributo de cor igual a `red` na parte superior dos resultados da pesquisa e retorna produtos com descrições que contêm a palavra _vermelho_ na parte inferior dos resultados da pesquisa. Neste exemplo, a variável `color` o atributo tem um peso definido maior que o `description` atributo.
+
+>[!IMPORTANT]
+>
+>A classificação por relevância é afetada por **_múltiplo_** critérios e relações entre eles **_simultaneamente_**. [!UICONTROL Search Weight] é apenas um desses critérios. Isso significa que, às vezes, os atributos com menor peso de pesquisa ainda podem ter mais relevância do que os atributos com maior peso de pesquisa. Outros critérios podem incluir o número de correspondências em um determinado atributo, a posição do termo de pesquisa encontrado e a estrutura geral do texto antes e depois de um termo de pesquisa.
 
 **_Para definir as propriedades de peso da pesquisa de um atributo:_**
 

@@ -4,9 +4,9 @@ description: Informações abrangentes sobre contas e segmentos de clientes para
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
+source-git-commit: 3f0d03ce1bfaa445c654949b69765092582d4643
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ Este guia destina-se à equipe de atendimento ao cliente que trabalha na Adobe C
 | [Introdução](customers-introduction.md) | Visão geral do uso dos recursos de gerenciamento de clientes no Administrador do Commerce. |
 | Ferramentas de gerenciamento de clientes | Saiba como usar o [[!UICONTROL Customers] grade](customers-all.md) e [[!UICONTROL Now Online] recurso](now-online.md) no Administrador de comércio que você pode usar para gerenciar os clientes da loja. |
 | Contas do cliente | Saiba como fornecer uma experiência ideal para clientes registrados na loja, desde [logons](login-landing-page.md) para [rejeições de senha](password-reset.md), e [fornecer assistência ao comprador](login-as-customer.md). |
-| [[!DNL Audience Activation]](audience-activation.md) | Saiba mais sobre o novo [!DNL Audience Activation] extensão que permite ativar públicos-alvo da Real-Time CDP no Adobe Commerce para criar ofertas exclusivas no carrinho. |
+| [Personalização em escala](personalize-scale.md) | Saiba mais sobre os recursos disponíveis para personalizar a experiência de compra para cada ponto de contato do cliente com base no contexto imediato e no comportamento observado anteriormente. |
+| [[!DNL Audience Activation]](audience-activation.md) | Saiba mais sobre o [!DNL Audience Activation] extensão que permite ativar públicos-alvo da Real-Time CDP no Adobe Commerce para informar ofertas exclusivas no carrinho, blocos dinâmicos e produtos relacionados. |
 | [Grupos de clientes](customer-groups.md) | Saiba como usar grupos de clientes para determinar quais descontos estão disponíveis para clientes atribuídos a um grupo e a classe de imposto associada ao grupo. |
 | [Segmentos de clientes](customer-segments.md) | Defina segmentos de clientes que você pode usar para exibir dinamicamente conteúdo e promoções para clientes específicos, com base em várias propriedades. |
 

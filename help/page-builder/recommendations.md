@@ -3,20 +3,20 @@ title: Adicionar conteúdo - Recommendations do produto
 description: Saiba mais sobre o tipo de conteúdo do Recommendations do produto, usado para adicionar uma lista de recomendações à [!DNL Page Builder] estágio.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 13d00168e1253a7d2698b898caa30d9ca2ad3800
+source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Adicionar conteúdo - Recommendations do produto
 
-Use o _Recommendations do produto_ tipo de conteúdo para adicionar um existente, ativo [unidade de recomendação](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) para o [[!DNL Page Builder] estágio](workspace.md#stage) para uma página, bloco ou bloco dinâmico CMS.
+Use o _Recommendations do produto_ tipo de conteúdo para adicionar um existente, ativo [unidade de recomendação](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) para o [[!DNL Page Builder] estágio](workspace.md#stage) para uma página, bloco ou bloco dinâmico CMS.
 
 >[!NOTE]
 >
->A variável [!DNL Page Builder] _Recommendations do produto_ o tipo de conteúdo é compatível com o Adobe Commerce 2.4.4 e posterior e está disponível no [Produto Recommendations metapackage versões 3.0.x ou posterior](https://marketplace.magento.com/magento-product-recommendations.html). Para adicionar [!DNL Page Builder] suporte para Recommendations de produto, [consulte as informações de instalação](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **Este tipo de conteúdo não está disponível para o Magento Open Source.**
+>A variável [!DNL Page Builder] _Recommendations do produto_ o tipo de conteúdo é compatível com o Adobe Commerce 2.4.4 e posterior e está disponível no [Produto Recommendations metapackage versões 3.0.x ou posterior](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Para adicionar [!DNL Page Builder] suporte para Recommendations de produto, [consulte as informações de instalação](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Este tipo de conteúdo não está disponível para o Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ Use o _Recommendations do produto_ tipo de conteúdo para adicionar um existente
 
 ## Adicionar uma unidade de recomendação existente
 
-1. Verifique se você já [criou uma unidade de recomendação](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) para o [!DNL Page Builder] tipo de página.
+1. Verifique se você já [criou uma unidade de recomendação](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) para o [!DNL Page Builder] tipo de página.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Use o _Recommendations do produto_ tipo de conteúdo para adicionar um existente
 1. Siga um destes procedimentos:
 
    - Clique em **[!UICONTROL Edit Product Recommendation]**.
-   - Passe o mouse sobre o container vazio para exibir a caixa de ferramentas e clique no _Configurações_ (![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ) ícone.
+   - Passe o mouse sobre o container vazio para exibir a caixa de ferramentas e clique no _Configurações_ (![Ícone Configurações](./assets/pb-icon-settings.png)) ícone.
 
    ![Editar recomendação do produto](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Use o _Recommendations do produto_ tipo de conteúdo para adicionar um existente
 
 ## Editar configurações de unidade de recomendação
 
-1. Passe o mouse sobre o contêiner de unidade de recomendação para exibir a caixa de ferramentas e clique no _Configurações_ (![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ) ícone.
+1. Passe o mouse sobre o contêiner de unidade de recomendação para exibir a caixa de ferramentas e clique no _Configurações_ (![Ícone Configurações](./assets/pb-icon-settings.png)) ícone.
 
    ![Caixa de ferramentas de recomendação](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ Use o _Recommendations do produto_ tipo de conteúdo para adicionar um existente
 
 ## Duplicar uma unidade de recomendação
 
-1. Passe o mouse sobre o contêiner de unidade de recomendação para exibir a caixa de ferramentas e clique no _Duplicar_ ( ![Duplicar em](./assets/pb-icon-duplicate.png){width="20"} ) na caixa de ferramentas.
+1. Passe o mouse sobre o contêiner de unidade de recomendação para exibir a caixa de ferramentas e clique no _Duplicar_ (![Ícone Duplicar](./assets/pb-icon-duplicate.png)) na caixa de ferramentas.
 
    A duplicata é exibida logo abaixo do original.
 
-1. Para mover a unidade de recomendação duplicada para uma nova posição, passe o mouse sobre o container e clique no _Mover_ ( ![Ícone Mover](./assets/pb-icon-move.png){width="20"} ) na caixa de ferramentas.
+1. Para mover a unidade de recomendação duplicada para uma nova posição, passe o mouse sobre o container e clique no _Mover_ (![Ícone Mover](./assets/pb-icon-move.png)) na caixa de ferramentas.
 
 1. Selecione e arraste a unidade de recomendação até que a diretriz vermelha apareça na nova posição.
 
@@ -106,7 +106,7 @@ Use o _Recommendations do produto_ tipo de conteúdo para adicionar um existente
 
 ## Remover uma unidade de recomendação do estágio
 
-1. Passe o mouse sobre o container de unidade de recomendação e clique no _Remover_ ( ![Ícone Remover](./assets/pb-icon-remove.png){width="20"} ) na caixa de ferramentas.
+1. Passe o mouse sobre o container de unidade de recomendação e clique no _Remover_ ( ![Ícone Remover](./assets/pb-icon-remove.png)) na caixa de ferramentas.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 

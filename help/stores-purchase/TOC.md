@@ -5,9 +5,9 @@ breadcrumb-title: Lojas e experiência de compra
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 3eb659825e6bc5db1828c2362ee68893b4d1405b
+source-git-commit: 3dad65e528716a459839ee7995b38850bf6feca8
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '314'
 ht-degree: 3%
 
 ---
@@ -71,6 +71,7 @@ ht-degree: 3%
    + [Comparar produtos](product-compare.md)
    + [Visualizado ou comparado recentemente](products-viewed-compared.md)
    + [Permitir reordenações](reorders-allow.md)
+   + [Permitir cancelamento da ordem](cancel-allow.md)
 + Pagamentos {#payments}
    + [Visão geral](payments.md)
    + Soluções de pagamento PayPal {#paypal}

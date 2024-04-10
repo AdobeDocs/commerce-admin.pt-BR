@@ -3,9 +3,9 @@ title: Criar uma conta de cliente individual
 description: Os visitantes podem criar facilmente uma conta de cliente individual para gerenciar suas compras.
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ As instruções a seguir representam a configuração padrão da conta do client
 
 Como administrador de loja, você também pode definir a variável [novas opções de conta](../customers/account-options-new.md) para enviar um email de confirmação para novos clientes registrados, o que ajuda a garantir que as contas registradas sejam válidas.
 
-{{beta-updates}}
+>[!NOTE]
+>
+>A partir da versão 2.4.7, os clientes devem inserir novamente seu email e senha para fazer logon em sua conta após a confirmação por email, independentemente do navegador.
 
 ## Criar conta da loja
 

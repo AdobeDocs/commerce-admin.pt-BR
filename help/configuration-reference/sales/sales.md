@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Revise as configurações no [!UICONTROL Sales] &gt; [!UICONTROL Sales] página do Administrador do Commerce.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 1%
 # [!UICONTROL Sales] > [!UICONTROL Sales]
 
 {{config}}
-
-{{beta-updates}}
 
 ## [!UICONTROL General]
 
@@ -157,6 +155,18 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Multicoupon Settings]
+
+{{ee-feature}}
+
+![Configurações de vários cupons](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+
+| Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
+|--- |--- |--- |
+| [!UICONTROL Maximum number of coupons per order] | Site | Determina o número máximo de cupons permitidos por pedido |
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL Order by SKU Settings]
 
 {{ee-feature}}
@@ -184,6 +194,19 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Exibição da loja | Habilita a Compra instantânea para a visualização da loja, se o método de pagamento, como Braintree, tiver o cofre ativado. Opções: `Yes` / `No` |
 | [!UICONTROL Button Text] | Exibição da loja | Especifica o texto que aparece no botão Compra Instantânea. O texto padrão é `Instant Purchase`. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Rate Limiting]
+
+![Limite de taxa](assets/sales-rate-limiting.png)<!-- zoom -->
+
+| Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
+|--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable rate limiting for placing orders] | Exibição da loja | Determina se a limitação de taxa é usada para fazer pedidos a partir da visualização de armazenamento (o padrão é `No`). Opções: `Yes` / `No`. |
+| [!UICONTROL Requests limit per authenticated customer] | Exibição da loja | O número de solicitações de compra que um cliente autenticado pode fazer durante o período. O limite padrão é `10`. |
+| [!UICONTROL Requests limit per guest] | Exibição da loja | O número de solicitações de compra que um cliente não autenticado pode fazer durante o período especificado. O valor padrão é `50`. |
+| [!UICONTROL Counter resets in a ...] | Exibição da loja | O período durante o qual um cliente autenticado/não autenticado pode fazer determinado número de solicitações de compra (o padrão é `Minute`). Opções: `Minute` / `Hour` /`Day` |
 
 {style="table-layout:auto"}
 

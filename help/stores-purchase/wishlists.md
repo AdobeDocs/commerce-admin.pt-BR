@@ -3,9 +3,9 @@ title: Listas de desejos
 description: Saiba mais sobre listas de desejos e como elas podem adicionar à experiência de compra e promover mais vendas.
 exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
 feature: Customers, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 9fd909c5ae6d8641bf402456d94facda4a33722d
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ As listas de desejos podem ser atualizadas no painel do [conta do cliente](../cu
 
 ![Exemplo de vitrine - Minha lista de desejos](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
-Quando um produto com várias opções é adicionado a uma lista de desejos, todas as opções que foram selecionadas pelo cliente são incluídas na descrição do item da lista de desejos. Por exemplo, se o cliente adicionar o mesmo par de sapatos em três cores diferentes, cada par será exibido como um item separado da lista de desejos. No entanto, se o cliente adicionar o mesmo produto à lista de desejos várias vezes, o produto aparecerá apenas uma vez, mas com uma quantidade atualizada que reflete o número de vezes que o produto foi adicionado.
+Quando um produto com várias opções é adicionado a uma lista de desejos, todas as opções que foram selecionadas pelo cliente são incluídas na descrição do item da lista de desejos. Por exemplo, se o cliente adicionar o mesmo par de sapatos em três cores diferentes, cada par será exibido como um item separado da lista de desejos. No entanto, se o cliente adicionar o mesmo produto à lista de desejos várias vezes, o produto será exibido apenas uma vez, mas com a quantidade selecionada na página do produto.
 
 ## Assistência da lista de desejos no Administrador
 

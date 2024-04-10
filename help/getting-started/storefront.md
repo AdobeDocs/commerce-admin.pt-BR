@@ -3,9 +3,9 @@ title: O que é vitrine eletrônica?
 description: Saiba mais sobre as páginas e os elementos funcionais que sua loja pode fornecer para respaldar a experiência de compra de seus clientes.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,7 @@ O processo de finalização consiste em duas etapas:
 1. Informações de envio
 
    A primeira etapa do processo de finalização da compra é para o cliente completar as informações de endereço de entrega e escolher o método de entrega. Se o cliente tiver uma conta, o endereço de entrega será inserido automaticamente, mas poderá ser alterado se necessário.
+Se um cliente convidado inserir um endereço de email reconhecido como registrado anteriormente, o prompt de logon será exibido se a variável [!UICONTROL Enable Guest Checkout Login] o campo na configuração de armazenamento está definido como `Yes` (consulte [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) no _Guia de referência de configuração_). No entanto, essa configuração pode expor as informações do cliente a usuários não autenticados.
 
    ![Exemplo de página de check-out da loja](./assets/storefront-checkout-shipping-full.png){width="700"}
 

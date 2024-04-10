@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] página do Administrador do Commerce.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Create New Account Options]
 
-{{beta-updates}}
-
 ![Criar novas opções de conta](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
 ![Criar novas opções de conta (campos de IVA)](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
@@ -59,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | Exibição da loja | Identifica o modelo de email usado para o padrão _Bem-vindo_ email. |
 | [!UICONTROL Default Welcome Email Without Password] | Exibição da loja | Um modelo alternativo de email de boas-vindas usado para novas contas de clientes criadas pelo Administrador que ainda não têm uma senha atribuída. |
 | [!UICONTROL Email Sender] | Exibição da loja | Identifica o contato de armazenamento que aparece como remetente do email de boas-vindas. |
-| [!UICONTROL Require Emails Confirmation] | Site | Determina se uma solicitação para criar uma conta requer a confirmação do cliente. Opções: `Yes` / `No` |
+| [!UICONTROL Require Emails Confirmation] | Site | Determina se uma solicitação para criar uma conta requer a confirmação do cliente. Opções: `Yes` / `No`. <br/><br/> _**Nota:**_ A partir da versão 2.4.7, os clientes devem inserir novamente seu email e senha para fazer logon em sua conta após a confirmação por email, independentemente do navegador. |
 | [!UICONTROL Confirmation Link Email] | Exibição da loja | Identifica o modelo de email usado para o email de confirmação. Modelo padrão: `New account confirmation key` |
 | [!UICONTROL Welcome Email] | Exibição da loja | Identifica o modelo de email usado para a mensagem de boas-vindas enviada depois que a conta é confirmada. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Global | Determina se o campo usado para inserir e armazenar o número da ID de IVA está visível na loja. Opções: `Yes` / `No` |

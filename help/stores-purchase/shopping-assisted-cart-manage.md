@@ -3,10 +3,10 @@ title: Gerenciar um carrinho de compras
 description: Saiba como ajudar um cliente com seu carrinho de compras diretamente do administrador.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 1%
+source-wordcount: '658'
+ht-degree: 0%
 
 ---
 
@@ -159,7 +159,7 @@ Você pode transferir itens da lista de desejos de um cliente para o carrinho e 
 
 1. Clique em **[!UICONTROL Add selections to my cart]**.
 
-1. Aplique um código de cupom, se disponível:
+1. Aplique um ou mais códigos de cupom, se disponíveis:
 
    - Para **[!UICONTROL Apply Coupon Code]**, insira um código de cupom válido.
 

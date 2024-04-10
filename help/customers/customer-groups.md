@@ -3,9 +3,9 @@ title: Grupos de clientes
 description: Use grupos de clientes para determinar quais descontos estão disponíveis para clientes atribuídos a um grupo e a classe de imposto associada ao grupo.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Os grupos de clientes determinam quais descontos estão disponíveis e a classe 
 1. Quando terminar, clique em **[!UICONTROL Apply Filters]**.
 
 ## Criar um grupo de clientes
+
+>[!NOTE]
+>
+>Usuários administradores que não têm acesso a todos os sites (atribuíram uma função com um &quot;Personalizado&quot;) [!UICONTROL Role Scope]) não pode criar, modificar ou excluir grupos de clientes.
 
 1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 

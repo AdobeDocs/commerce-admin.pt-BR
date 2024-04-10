@@ -3,10 +3,10 @@ title: Navegação em camadas
 description: Saiba como a navegação em camadas facilita a localização de produtos com base na categoria, na faixa de preço ou em qualquer outro atributo disponível.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 1%
+source-wordcount: '1303'
+ht-degree: 0%
 
 ---
 
@@ -59,6 +59,10 @@ As instruções a seguir mostram como configurar a navegação em camadas básic
    ![Propriedades da vitrine](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
 1. Repita essas etapas para cada atributo que deseja incluir na navegação em camadas.
+
+>[!NOTE]
+>
+>Quando a variável _[!UICONTROL Use in Search]_está definida como `No`, o_[!UICONTROL Use in Search Results Layered Navigation]_ não for exibida e o atributo de produto não for usado na pesquisa com qualquer [!UICONTROL Use in Layered Navigation] valor de configuração.
 
 >[!NOTE]
 >
@@ -124,15 +128,15 @@ A divisão iterativa fornece a melhor distribuição de produtos entre as faixas
 
 | Preço por 10 | Preço por 100 |
 |----------|--------|
-| $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
-| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
-| $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
-| $100.00 - $109.99 (1) | US$ 700,00 e superior (1) |
-| $120.00 - $129.99 (2) |   |
-| $150.00 - $159.99 (1) |   |
-| $180.00 - $189.99 (1) |   |
-| $420.00 - $429.99 (1) |   |
-| $440.00 - $449.99 (1) |   |
+| $ 20,00 - $ 29,99 (1) | de US$ 0,00 a US$ 99,99 (4) |
+| US$ 30,00 a US$ 39,99 (2) | US$ 100 a US$ 199,99 (5) |
+| US$ 70,00 a US$ 79,99 (1) | $ 400,00 - $ 499,99 (2) |
+| US$ 100,00 - US$ 109,99 (1) | US$ 700,00 e superior (1) |
+| $ 120,00 - $ 129,99 (2) |   |
+| $ 150,00 - $ 159,99 (1) |   |
+| $ 180,00 - $ 189,99 (1) |   |
+| $ 420,00 - $ 429,99 (1) |   |
+| $ 440,00 - $ 449,99 (1) |   |
 | US$ 710,00 e acima (1) |   |
 
 {style="table-layout:auto"}

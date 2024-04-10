@@ -3,9 +3,9 @@ title: Ordens de compra para empresas
 description: Saiba mais sobre os workflows de ordem de compra que permitem que as empresas rastreiem e controlem os gastos.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ As ordens de compra (OCs) são uma maneira comum de as empresas rastrearem e con
 Dependendo de sua função e da ordem, os usuários da empresa podem estar sujeitos a várias regras de aprovação. E dependendo de usar métodos de pagamento online ou offline, o fluxo é um pouco diferente. Os administradores da empresa podem criar pedidos automaticamente, ignorando as regras de aprovação. Como o armazenamento de detalhes de pagamento online durante o processo de aprovação é um risco de segurança, esses detalhes são adicionados após a aprovação e, em seguida, a ordem de compra é convertida em uma ordem real.
 
 ![Fluxo da ordem de compra](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Um pedido não poderá ser feito se um ou mais produtos no pedido de compra estiverem desativados no momento ou esgotados.
 
 O fluxo de trabalho da ordem de compra de uma empresa pode variar de algumas maneiras:
 

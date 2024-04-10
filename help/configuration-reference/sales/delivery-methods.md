@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
-description: Revise as configurações no [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] página do Administrador do Commerce.
+description: Revise as definições de configuração no [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] página do Administrador do Commerce.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '3812'
+source-wordcount: '3773'
 ht-degree: 0%
 
 ---
@@ -106,28 +106,25 @@ ht-degree: 0%
 
 {{ups-api}}
 
-{{beta2-updates}}
+![Configurações da conta UPS REST](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
 ![Configurações da conta UPS XML](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS XML Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS REST Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enabled for Checkout] | Site | Determina se o no-break está disponível para os clientes como um método de envio durante o checkout. Opções: `Yes` / `No` |
 | [!UICONTROL Enabled for RMA] | Site | Determina se a UPS está disponível aos clientes como um método de envio para uma RMA. Opções: `Yes` / `No` |
-| [!UICONTROL UPS Type] | Exibição da loja | Especifica o método usado para conectar ao sistema de envio da UPS. Opções: <br/>**`United Parcel Service XML`**- (Padrão) Seu armazenamento envia um arquivo XML com dados para o UPS como uma solicitação.<br/>**`United Parcel Service`** - A loja envia pares de valores-chave para a UPS como solicitação. <br/><br/>**_Nota:_**O tipo padrão United Parcel Service é programado para desativação no Commerce. Para novas configurações, você deve usar o [!UICONTROL United Parcel Service XML] tipo. |
 | _[!UICONTROL UPS Account Settings]_ |  |  |
 | [!UICONTROL Live Account] | Exibição da loja | Especifica que a conta do United Parcel Service está ativa. Opções: `Yes` / `No` |
-| [!UICONTROL Gateway URL] | Site | O URL que se conecta ao sistema UPS para recuperar taxas de envio dinâmicas. O UPS descontinuará o suporte para HTTP. Valor padrão: `https://www.ups.com/using/services/rave/qcostcgi.cgi` |
 | [!UICONTROL Title] | Exibição da loja | O nome usado para este método de envio durante o check-out. |
-| _[!UICONTROL UPS XML Account Settings]_ |  |  |
-| [!UICONTROL Access License Number] | Site | Seu número de licença de acesso à conta de despachante UPS. |
-| [!UICONTROL Gateway XML URL] | Site | Para o serviço UPS XML, exibe os seguintes URLs necessários para transmitir dados XML: URL XML do gateway, URL XML de rastreamento, URL XML de confirmação de remessa, URL XML de aceitação de remessa |
+| _[!UICONTROL UPS REST Account Settings]_ |  |  |
+| [!UICONTROL Gateway URL] | Site | Para o serviço UPS REST, exibe os seguintes URLs necessários para transmitir dados JSON: URL de gateway, URL de rastreamento, URL de envio |
 | [!UICONTROL Mode] | Site | Determina o modo de transmissão usado para os dados enviados para o sistema UPS. Opções: <br/>**`Development`**- A UPS não verifica se os dados recebidos do servidor do Commerce são enviados por SSL.<br/>**`Live`** - O no-break verifica se os dados recebidos do servidor do Commerce são enviados por uma camada de soquete seguro (SSL). |
-| ID de usuário | Site | Sua ID de usuário da conta de despachante UPS. |
-| [!UICONTROL Origin of the Shipment] | Site | (Somente UPS XML) O país ou região onde a entrega do produto é originada. |
-| [!UICONTROL Password] | Exibição da loja | A senha da sua conta de expedidor UPS. |
+| ID de usuário | Site | ID do cliente da conta do despachante da UPS. |
+| [!UICONTROL Origin of the Shipment] | Site | (Somente no-break REST) O país ou região de onde a entrega do produto é originada. |
+| [!UICONTROL Password] | Exibição da loja | Segredo do cliente da conta do despachante da UPS. |
 
 {style="table-layout:auto"}
 
@@ -138,12 +135,12 @@ ht-degree: 0%
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | _[!UICONTROL UPS Negotiated Rate Settings]_ |  |  |
-| [!UICONTROL Enable Negotiated Rates] | Site | (Somente UPS XML) Ativa/desativa taxas especiais, de acordo com seu contrato com a UPS. Opções: `Yes` / `No` |
+| [!UICONTROL Enable Negotiated Rates] | Site | (Somente UPS REST) Ativa/desativa taxas especiais, de acordo com seu contrato com a UPS. Opções: `Yes` / `No` |
 | [!UICONTROL Packages Request Type] | Site | Determina como o peso é calculado para remessas com vários pacotes. Opções: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
-| [!UICONTROL Shipper Number] | Site | (Somente UPS XML) O Número do Remetente UPS de seis caracteres é necessário para referência para usar taxas negociadas. |
-| [!UICONTROL Container] | Site | Define o tipo de contêiner usado para empacotar remessas de ordens. Opções: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
+| [!UICONTROL Shipper Number] | Site | (Somente UPS REST) O Número do Remetente UPS de seis caracteres é necessário para referência para usar taxas negociadas. |
+| [!UICONTROL Container] | Site | Define o tipo de contêiner usado para empacotar remessas. Opções: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | Site | Define a unidade de medida padrão para o peso do produto na loja. Consulte [Peso dimensional](../../stores-purchase/carriers.md#dimensional-weight) para obter informações adicionais. |
-| [!UICONTROL Tracking XML URL] | Site | (Somente no XML do UPS) O URL do UPS usado para rastrear pacotes. |
+| [!UICONTROL Tracking URL] | Site | (Somente no-break REST) O URL do no-break usado para rastrear pacotes. |
 | [!UICONTROL Destination Type] | Site | Define o tipo de destino da remessa padrão. Opções: `Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | Site | Define o peso máximo que um pacote pode ter, conforme especificado pelo UPS. Se os produtos solicitados excederem o peso máximo do pacote, essa opção de envio não estará disponível. De acordo [UPS.com](https://www.ups.com/us/en/global.page), os pacotes não podem exceder 70 kg (150 lb) Consulte a transportadora para verificar o peso máximo. |
 | [!UICONTROL Pickup Method] | Site | Define o método de coleta UPS. Opções: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |
@@ -185,8 +182,6 @@ ht-degree: 0%
 
 ### [!UICONTROL USPS]
 
-{{beta2-updates}}
-
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | Ativado para check-out | Site | Determina se o USPS estará disponível aos clientes como um método de envio durante o checkout. Opções: `Yes` / `No` |
@@ -208,7 +203,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS packaging Settings]_ |  |  |
 | [!UICONTROL Packages Request Type] | Site | Determina como o peso é calculado para remessas com vários pacotes. Opções: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
-| [!UICONTROL Container] | Site | Define o tipo de contêiner usado para empacotar remessas de ordens. Opções: `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` / Não retangular |
+| [!UICONTROL Container] | Site | Define o tipo de contêiner usado para empacotar remessas. Opções: `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` / Não retangular |
 | [!UICONTROL Size] | Site | Define a opção Size para o tamanho típico do pacote de remessa. Essa opção afeta o cálculo da taxa de envio. Opções: `Regular` / `Large` / `Oversize` |
 | [!UICONTROL Machinable] | Site | Especifica se o pacote pode ser processado por computador. Essa opção afeta o cálculo da taxa de envio. |
 | [!UICONTROL Maximum Package Weight] | Site | Define o peso máximo que um pacote pode ter, conforme especificado pela USPS. Se os produtos solicitados excederem o peso máximo do pacote, essa opção de envio não estará disponível. |
@@ -258,60 +253,56 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-{{beta2-updates}}
-
-![Configurações da conta FedEx](./assets/delivery-methods-fedex-account-settings.png)<!-- zoom -->
-
 <!-- [FedEx Account Settings](https://docs.magento.com/user-guide/shipping/fedex.html) -->
 
+#### Configurações de conta do FedEx
+
+![Configurações da conta FedEx](./assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
+
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
-|--- |--- |--- |
-| _[!UICONTROL FedEx Account Settings]_ |  |  |
+|-------|------ |-----------------------------------------------------------------------------|
 | [!UICONTROL Enabled for Checkout] | Site | Determina se o FedEx está disponível para os clientes como um método de envio durante o check-out. Opções: `Yes` / `No` |
 | [!UICONTROL Title] | Exibição da loja | O título dessa opção de envio como exibido no checkout do carrinho de compras. |
 | [!UICONTROL Account ID] | Site | A ID da sua conta FedEx. |
-| [!UICONTROL Meter Number] | Site | Seu número de medidor FedEx. |
-| [!UICONTROL Key] | Site | Sua chave de conta FedEx. |
-| [!UICONTROL Password] | Site | A senha da sua conta FedEx. |
+| [!UICONTROL Api Key] | Site | Sua chave de API da conta FedEx. |
+| [!UICONTROL Secret Key] | Site | Sua chave secreta da API da conta FedEx. |
 | [!UICONTROL Sandbox Mode] | Site | Para executar transações FedEx em um ambiente de teste, defina o Modo de sandbox como `Yes`. Opções: `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | Site | O URL necessário depende da configuração do Modo de sandbox. Opções: <br/>**`Production`**- O URL para acessar os serviços Web FedEx quando a loja está ativa.<br/>**`Sandbox`** - O URL para acessar o ambiente de teste dos serviços Web FedEx. |
 
 {style="table-layout:auto"}
 
-![Empacotamento FedEx](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
+#### Configurações de empacotamento de FedEx
 
-<!-- [FedEx Packaging](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![Empacotamento FedEx](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Packaging Settings]_ |  |  |
+| [!UICONTROL Pickup Type] | Site | Na lista, selecione o método de retirada: <br/>**`DropOff at Fedex Location`**- (Padrão) Indica que você entrega remessas em sua estação FedEx local.<br/>**`Contact Fedex to Schedule`** - Indica que você deve entrar em contato com a FedEx para solicitar uma coleta. <br/>**`Use Scheduled Pickup`**- Indica que a remessa foi retirada como parte de uma retirada regular programada.<br/>**`On Call`** - Indica que a retirada está agendada ao chamar o FedEx. <br/>**`Package Return Program`**- Indica que a remessa foi retirada pelo Programa de Devoluções de Pacotes Terrestres da FedEx.<br/>**`Regular Stop`** - Indica que a remessa foi retirada na programação de coleta regular. <br/>**`Tag`**- Indica que a retirada da remessa é específica para uma solicitação de retirada de etiqueta expressa ou de chamada em terra. Isso é aplicável somente para uma etiqueta de remessa de devolução. |
 | [!UICONTROL Packages Request Type] | Site | Determina como o peso é calculado para remessas com vários pacotes. Opções: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
 | [!UICONTROL Packaging] | Site | Na lista, selecione o tipo de contêiner que normalmente é usado para empacotar produtos solicitados da loja. |
-| [!UICONTROL Dropoff] | Site | Na lista, selecione o método de retirada: <br/>**`Regular Pickup`**- (Padrão) Se você tiver um alto volume de remessas, pode ser econômico organizar captações regulares.<br/>**`Request Courier`** - Você deve ligar e solicitar que um mensageiro da FedEx retire os envios. <br/>**`Drop Box`**- Você deve entregar as remessas em sua caixa de entrega FedEx local.<br/>**`Business Service Center`** - Você deve entregar as remessas em seu centro de serviços empresariais FedEx local. <br/>**`Station`**- Você deve entregar as remessas em sua estação FedEx local. |
+| [!UICONTROL Weight Unit] | Site | A unidade usada para peso do pacote. Opções: `Pounds` (padrão) / `Kilograms` |
 | [!UICONTROL Maximum Package Weight] | Site | O padrão para o FedEx é 150 libras. Consulte sua transportadora para obter o peso máximo suportado. O uso do valor padrão é recomendado, a menos que você tenha acordos especiais com o FedEx. |
 
 {style="table-layout:auto"}
 
-![Taxa de Manuseio de FedEx](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
+#### Configurações de taxa de manuseio de FedEx
 
-<!-- [FedEx Handling Fee](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![Taxa de Manuseio de FedEx](./assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Handling Fee Settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Site | Determina o método usado para calcular taxas de manuseio. Opções: `Fixed Fee` / `Percentage` <br/><br/>**_Nota:_**A taxa de manuseio é opcional e aparece como um custo extra que é adicionado ao custo de envio da FedEx. |
 | [!UICONTROL Handling Applied] | Site | Determina como as taxas de manuseio são aplicadas. Opções: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Site | Especifica o valor cobrado como uma taxa de manuseio, com base no método usado para calcular o valor. Se o encargo for baseado em uma taxa fixa, insira o valor em formato decimal, como `4.90`. Se a taxa de manuseio for baseada em uma porcentagem do pedido, insira o valor como uma porcentagem. Por exemplo, para cobrar seis por cento do pedido, insira o valor como `.06`. |
 
 {style="table-layout:auto"}
 
-![Métodos de delivery FedEx](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
+#### Métodos de delivery FedEx
 
-<!-- [FedEx Delivery Methods](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![Métodos de delivery FedEx](./assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| _[!UICONTROL FedEx delivery methods]_ |  |  |
 | [!UICONTROL Residential Delivery] | Site | Defina como um dos seguintes, dependendo se você vende B2C (Business-to-Consumer) ou B2B (Business-to-Business): <br/>**`Yes`**- Para entregas B2C<br/>**`No`** - Para entregas B2B |
 | [!UICONTROL Allowed Methods] | Site | Na lista, selecione os métodos de entrega que você suporta. Os métodos dependem da sua conta FedEx, da frequência e do tamanho das suas remessas e se você permite remessas internacionais. Como comerciante, você pode decidir oferecer apenas frete terrestre. |
 | [!UICONTROL Hub ID] | Site | Uma ID fornecida pelo FedEx usada com o [!DNL Smart Post] método. |
@@ -322,13 +313,12 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![Países aplicáveis à FedEx](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
+#### Configurações de país aplicáveis ao FedEx
 
-<!-- [FedEx Applicable Countries](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![Países aplicáveis à FedEx](./assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Applicable Countries]_ |  |  |
 | [!UICONTROL Ship to Applicable Countries] | Site | Indica os países para os quais seus clientes podem enviar por FedEx. Opções: <br/>**`All Allowed Countries`**- Clientes de todos os [países](../../getting-started/store-details.md#country-options) especificado na configuração da loja pode usar esse método de envio.<br/>**`Specific Countries`** - Após escolher esta opção, o [!UICONTROL Ship to Specific Countries] é exibida. Selecione cada país na lista onde este método de envio pode ser usado. |
 | [!UICONTROL Ship to Specific Countries] | Site | Indica os países específicos para os quais seus clientes podem enviar por FedEx. |
 | [!UICONTROL Debug] | Site | Determina se um log de transmissões de dados entre seu armazenamento e o FedEx é mantido pelo sistema para depuração. A menos que haja um problema que deva ser rastreado e registrado, essa opção deve ser definida como `No`. |
@@ -379,7 +369,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL DHL allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Site | Na lista, selecione cada método de entrega que você suporta. |
-| [!UICONTROL Ready Time] | Site | Especifica quando o pacote estará pronto para retirada, em horas, após o envio de um pedido. |
+| [!UICONTROL Ready Time] | Site | Especifica quando o pacote estará pronto para retirada (em horas) após o envio de um pedido. |
 | [!UICONTROL Displayed Error Message] | Exibição da loja | Essa mensagem aparece quando a DHL fica indisponível por qualquer motivo. Você pode usar a mensagem padrão ou inserir sua própria mensagem. |
 | [!UICONTROL Free Method] |  | Este método de envio é semelhante ao método de envio gratuito regular, no entanto, ele está listado nas opções de envio da DHL e é identificado como envio da DHL. Na lista, selecione o método de envio que você prefere usar para ofertas de frete gratuito. |
 | [!UICONTROL Free Shipping with Minimum Order Amount] | Site | Defina como um dos seguintes: <br/>**`Enable`**- Para permitir frete DHL gratuito para pedidos que satisfazem o valor mínimo.<br/>**`Disable`** - Para não oferecer frete DHL gratuito com pedido mínimo. |

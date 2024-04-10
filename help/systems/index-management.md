@@ -3,9 +3,9 @@ title: Gerenciamento de índice
 description: Saiba mais sobre o gerenciamento de índice, incluindo as ações que acionam a reindexação e as práticas recomendadas.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 55b0672984ce8cdb853daf024299919beaf7ce0b
+source-git-commit: 28b8e430336090666402f3f2868311ef98d9217d
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -64,12 +64,12 @@ A reindexação e o armazenamento em cache têm diferentes finalidades no Commer
    **Colunas de Gerenciamento de Índice**
 
    | Coluna | Descrição |
-   | ------ | ----------- |
+   | ------ |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    | [!UICONTROL Indexer] | O nome do indexador. |
    | [!UICONTROL Description] | Uma descrição do indexador. |
    | [!UICONTROL Mode] | Indica o modo de atualização atual de cada indexador. Opções: <br/>**[!UICONTROL Update on Save]**- O índice é definido para atualização sempre que uma alteração de entidade é salva. Essas entidades incluem produtos, categorias e clientes. Quando a ação de salvamento for concluída, uma série de etapas começará a capturar as alterações e a atualizar o índice. A página Gerenciamento de índice atualiza e libera a mensagem de reindexação em um ou dois minutos.<br/>**[!UICONTROL Update on Schedule]** - O índice está definido para ser atualizado de acordo com um agendamento [trabalho cron](cron.md). O trabalho cron inclui o intervalo de agendamento para reindexação, gravando atualizações no índice quando executado. |
    | [!UICONTROL Schedule Status] | Exibe as atualizações de status do agendamento. |
-   | [!UICONTROL Status] | Exibe uma das seguintes opções: <br/>**[!UICONTROL Ready]**— O índice está atualizado.<br/>**[!UICONTROL Scheduled]** - A reindexação está programada para ocorrer. <br/>**[!UICONTROL Running]**- A reindexação está em execução.<br/>**[!UICONTROL Reindex Required]** - Foi feita uma alteração que requer reindexação, mas os indexadores não podem ser atualizados automaticamente. Verifique se [cron](cron.md) O está disponível e configurado corretamente. |
+   | [!UICONTROL Status] | Exibe uma das seguintes opções: <br/>**[!UICONTROL Ready]**— O índice está atualizado.<br/>**[!UICONTROL Suspended]** - A reindexação está pausada. <br/>**[!UICONTROL Processing]**- A reindexação está em execução no momento.<br/>**[!UICONTROL Reindex Required]** - Foi feita uma alteração que requer reindexação, mas os indexadores não podem ser atualizados automaticamente. Verifique se [cron](cron.md) O está disponível e configurado corretamente. |
    | [!UICONTROL Updated] | Indica a data e a hora em que um índice foi atualizado pela última vez. |
 
    {style="table-layout:auto"}

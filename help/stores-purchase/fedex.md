@@ -3,9 +3,9 @@ title: FedEx
 description: Saiba como configurar o FedEx como uma transportadora de remessa para sua loja.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ A [Conta de comerciante da FedEx][1] e o registro para o FedEx Web Services Prod
 
 ## Etapa 2: Ativar o FedEx para sua loja
 
-{{beta2-updates}}
-
 1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Delivery Methods]**.
@@ -45,9 +43,8 @@ A [Conta de comerciante da FedEx][1] e o registro para o FedEx Web Services Prod
 1. Insira as seguintes informações da sua conta FedEx:
 
    - **[!UICONTROL Account ID]**
-   - **[!UICONTROL Meter Number]**
-   - **[!UICONTROL Key]**
-   - **[!UICONTROL Password]**
+   - **[!UICONTROL Api Key]**
+   - **[!UICONTROL Secret Key]**
 
 1. Se você configurou uma sandbox do FedEx e deseja trabalhar no ambiente de teste, defina **[!UICONTROL Sandbox Mode]** para `Yes`.
 
@@ -57,26 +54,24 @@ A [Conta de comerciante da FedEx][1] e o registro para o FedEx Web Services Prod
 
    ![Configurações da conta FedEx](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
 
-## Etapa 3: Descrição do pacote e taxa de manuseio
+## Etapa 3: Descrição do pacote e taxas de manuseio
 
-1. Selecione o **[!UICONTROL Packages Request Type]** à opção que melhor descreve sua preferência ao dividir uma ordem em várias entregas:
+1. Definir **[!UICONTROL Pickup Type]** ao método de retirada usado para remessas.
+
+   - `DropOff at Fedex Location` - (Padrão) Indica que você entrega remessas em sua estação FedEx local.
+   - `Contact Fedex to Schedule` - Indica que você deve entrar em contato com a FedEx para solicitar uma coleta.
+   - `Use Scheduled Pickup` - Indica que a remessa foi retirada como parte de uma retirada regular programada.
+   - `On Call` - Indica que a retirada está agendada ao chamar o FedEx.
+   - `Package Return Program` - Indica que a remessa foi retirada pelo Programa de Devoluções de Pacotes Terrestres da FedEx.
+   - `Regular Stop` - Indica que a remessa foi retirada na programação de coleta regular.
+   - `Tag` - Indica que a retirada da remessa é específica para uma solicitação de retirada de etiqueta expressa ou de chamada em terra. Isso é aplicável somente para uma etiqueta de remessa de devolução.
+
+1. Para **[!UICONTROL Packages Request Type]**, selecione o tipo de solicitação que melhor descreve sua preferência ao dividir uma ordem em várias entregas:
 
    - `Divide to equal weight (one request)`
    - `Use origin weight (few requests)`
 
-1. Selecione o tipo de **[!UICONTROL Packaging]** normalmente usado para enviar produtos de sua loja.
-
-1. Definir **[!UICONTROL Dropoff]** ao método de retirada usado para a entrega.
-
-   - `Regular Pickup` - Se você tem um alto volume de remessas, pode ser econômico para fazer acordos com a FedEx para captadores regulares.
-
-   - `Request Courier` - Você deve ligar e solicitar que um mensageiro da FedEx retire os envios.
-
-   - `Drop Box` - Você deve entregar as remessas em sua caixa de entrega FedEx próxima.
-
-   - `Business Service Center` - Você deve entregar as remessas em seu centro de serviços empresariais FedEx local.
-
-   - `Station` - Você deve entregar as remessas em sua estação FedEx local.
+1. Para **[!UICONTROL Packaging]**, selecione o tipo de embalagem FedEx que você geralmente usa para enviar produtos de sua loja.
 
 1. Definir **[!UICONTROL Weight Unit]** para a unidade de medida usada no seu local.
 

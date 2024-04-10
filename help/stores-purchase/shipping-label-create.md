@@ -3,9 +3,9 @@ title: Criar etiquetas e pacotes de remessa
 description: Saiba como empacotar itens em um pedido e criar etiquetas de remessa.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1889'
 ht-degree: 0%
 
 ---
@@ -77,8 +77,6 @@ A variável [!DNL United States Postal Service] navios, tanto a nível nacional 
 ### Configuração do FedEx
 
 A FedEx é uma empresa nacional e internacional. Lojas localizadas fora dos Estados Unidos podem criar etiquetas FedEx apenas para remessas internacionais.
-
-{{beta2-updates}}
 
 1. Continuar no **[!UICONTROL Delivery Methods]** configuração, expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL FedEx]** seção.
 

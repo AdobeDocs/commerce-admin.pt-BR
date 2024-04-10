@@ -3,9 +3,9 @@ title: Adicionar atributos a um produto
 description: Saiba como adicionar atributos aos produtos em seu catálogo.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,17 @@ Embora os atributos sejam gerenciados principalmente a partir do [Lojas](../stor
 
    - `Filterable (no results)` - A navegação em camadas inclui filtros para todos os valores de atributo disponíveis e suas contagens de produto, incluindo os produtos com zero (0) correspondências de produto. Se o valor do atributo for uma amostra, ele será exibido como um filtro, mas riscado.
 
-1. Para usar na navegação em camadas nas páginas de resultados da pesquisa, defina **[!UICONTROL Use in Search Results Navigation]** para `Yes` e insira um número no campo **[!UICONTROL Position]** campo.
+   >[!NOTE]
+   >
+   >Quando a variável _[!UICONTROL Use in Search]_está definida como `No`, o_[!UICONTROL Use in Search Results Layered Navigation]_ não for exibida e o atributo de produto não for usado na pesquisa com qualquer [!UICONTROL Use in Layered Navigation] valor de configuração.
+
+1. Para usar o atributo na navegação em camadas nas páginas de resultados da pesquisa, defina **[!UICONTROL Use in Search Results Layered Navigation]** para `Yes` e insira um número no campo **[!UICONTROL Position]** campo.
 
    O número da posição indica a posição relativa do atributo no bloco de navegação em camadas.
+
+   >[!NOTE]
+   >
+   >A variável _[!UICONTROL Position]_o campo fica esmaecido por padrão e você deve salvar o atributo antes de modificar essa configuração.
 
 1. Para usar o atributo em regras de preço, defina **[!UICONTROL Use for Promo Rule Conditions]** para `Yes`.
 

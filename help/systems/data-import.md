@@ -3,9 +3,9 @@ title: Importar dados
 description: Saiba mais sobre as diretrizes de importação de dados e como usar as operações de importação de dados.
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 1c1327dbda76283ae28f761d1e523e049e0e492f
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Se existir um atributo especificado no arquivo de importação e seu valor for d
 
 - Um arquivo não pode ser importado se todas as linhas forem inválidas.
 - Um nome de dados complexo ou de serviço não existente é especificado no arquivo de importação, como uma coluna com um `_<non-existing name>` cabeçalho.
+
+O processo de importação do Adobe Commerce pode não reconhecer corretamente os arquivos codificados em UTF-8 que usam uma BOM (marca de ordem de byte). Os arquivos que contêm uma BOM podem causar problemas ou falhas durante o processo de importação.
 
 ## Importar operações
 

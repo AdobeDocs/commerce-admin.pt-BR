@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Revise as configurações no [!UICONTROL General] &gt; [!UICONTROL General] página do Administrador do Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,6 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | Global | Quando habilitado para instalações de um único armazenamento, oculta a caixa de configuração Escopo e os rótulos de campo relacionados Opções: `Yes` / `No` <br/>**_Nota:_**O modo de armazenamento único é ignorado para armazenamentos com mais de uma visualização. |
+| [!UICONTROL Enable Single-Store Mode] | Global | Quando habilitado para instalações de um único armazenamento, oculta a caixa de configuração Escopo e os rótulos de campo relacionados Opções: `Yes` / `No` <br/>**_Nota:_**O modo de armazenamento único é ignorado para armazenamentos com mais de uma visualização.<br/> Habilitar o modo de armazenamento único copiará todos os dados específicos do catálogo e do armazenamento de produtos da exibição de armazenamento padrão para todo o escopo de exibição de armazenamento. Ele só copiará os dados do catálogo e do produto se a loja tiver apenas uma loja. Se a loja tiver uma loja desativada e uma loja ativada, ela não copiará o catálogo e os dados do produto.<br/> A ativação do modo de armazenamento único ignora as configurações específicas de armazenamento para dados específicos de conteúdo. Em vez disso, ele usa as definições de configuração definidas no escopo de nível global para garantir a consistência entre a interface de usuário do administrador e a loja. |
 
 {style="table-layout:auto"}

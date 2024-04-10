@@ -3,7 +3,7 @@ title: Serviço Postal dos Estados Unidos (USPS)
 description: Saiba como configurar o USPS como transportadora de remessa para sua loja.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -21,8 +21,6 @@ Abra um [Ferramentas da Web da USPS][1] conta. Após concluir o processo de regi
 Também é possível abrir uma [Ferramentas da Web da USPS][1] conta. Após concluir o processo de registro, você receberá sua ID de usuário e um URL para o servidor de teste USPS. Para saber mais sobre as Ferramentas da Web do USPS, consulte as [Documentação técnica][2].
 
 ## Etapa 2: Habilitar USPS para sua loja
-
-{{beta2-updates}}
 
 1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

@@ -1,42 +1,74 @@
 ---
 title: Painel de gerenciamento de dados
-description: Saiba como acessar insights sobre fluxos de dados para Serviço de catálogo, Live Search, Recommendations de produto.
+description: Saiba como acessar insights sobre fluxos de dados para [!DNL Catalog Service], [!DNL Live Search], e [!DNL Product Recommendation]s
 feature: Products, Customers, Data Import/Export
-source-git-commit: eed80afd8755d416d979c362f8c21fe97ce2d2ba
+exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
+source-git-commit: 13f47c8dccb98a721924df716ae0793db6889f3a
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
 
-
 # Painel de gerenciamento de dados
 
-O Painel de gerenciamento de dados fornece informações sobre fluxos de dados para produtos SaaS da Adobe Commerce. Usuários de [!DNL Live Search], [!DNL Product Recommendations], e [!DNL Catalog Service] O pode exibir os status de sincronização do produto e ressincronizar os dados de um único painel.
+O Painel de gerenciamento de dados oferece uma visão geral do status de sincronização para dados de produtos transferidos do banco de dados do Commerce para os serviços SaaS da Commerce. Os usuários podem monitorar convenientemente os status de sincronização de produtos e iniciar a ressincronização de dados a partir de um painel unificado. Esse recurso fornece informações valiosas sobre a disponibilidade de dados de produtos para sua loja, garantindo que eles possam ser exibidos imediatamente para seus compradores.
+
+## Público-alvo
+
+O Painel de gerenciamento de dados está disponível sem custo adicional para todos os comerciantes do Commerce que usam [[!DNL Product Recommendations]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview)ou [[!DNL Catalog Service]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) com uma licença ativa.
 
 O Painel de gerenciamento de dados está localizado em *Sistema* > Transferência de dados > *Painel de gerenciamento de dados*.
 
 ![Painel de gerenciamento de dados](assets/data-management-dashboard.png)
 
-## Configurações
+O painel contém os seguintes campos:
 
-A variável **[!UICONTROL Settings]** no lado direito da página abre a caixa de diálogo, onde é possível ressincronizar os dados do catálogo.
+| Campo | Descrição |
+|--- |--- |
+| Escopo | Site específico para os dados sincronizados. |
+| [!DNL Product Recommendations] | Exibe o status da sincronização, o número de produtos sincronizados e uma tabela do [exibível](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) produtos sincronizados para [!DNL Product Recommendations]. |
+| [!DNL Live Search] | Exibe o status da sincronização, o número de produtos sincronizados e uma tabela do [exibível](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) produtos sincronizados para [!DNL Live Search]. |
+| [!DNL Catalog Service] | Exibe o status da sincronização, o número de produtos sincronizados e uma tabela dos produtos sincronizados para [!DNL Catalog Service]. |
+| Configurações | Abre uma caixa de diálogo onde você pode [ressincronizar manualmente os dados do catálogo](#resync-catalog-data). |
+| Status de sincronização | Exibe o número de produtos que foram transferidos do banco de dados do Commerce para qualquer um dos serviços SaaS nas últimas três horas. Se você fizer atualizações pouco frequentes no catálogo, esse valor será frequentemente zero. Se uma sincronização estiver em andamento, clique em **[!UICONTROL Refresh]** para obter uma contagem atualizada. |
+| Contagem de produtos | Reflete o número total de produtos de catálogo disponíveis para o serviço. A variável [!DNL Product Recommendations] e [!DNL Live Search] painéis exibem o número total de _exibível_ produtos. [!DNL Catalog Service] O não filtra produtos por exibíveis, portanto, se você tiver ambos [!DNL Catalog Service] e [!DNL Live Search] ou [!DNL Product Recommendations] instalado, é possível que os dois painéis mostrem dois valores diferentes para a contagem de produtos. |
+| Produtos sincronizados | Fornece detalhes sobre os produtos no índice Commerce principal. Por padrão, essa tabela é classificada por &quot;Última atualização&quot;. Para encontrar um produto específico, use o **[!UICONTROL Search by SKU]** campo. Para controlar quais colunas são exibidas, clique em **[!UICONTROL Customize Table]** à direita da mesa. |
 
-A ressincronização dos dados do catálogo força o serviço a buscar novamente os dados do banco de dados do Commerce. Essa ação geralmente é usada durante a primeira integração quando a sincronização do catálogo não é executada por algumas horas.
+## Uso do painel de Gerenciamento de dados
 
-## Status de sincronização
+Ao atualizar produtos no banco de dados do Commerce, os dados do produto são transferidos para os serviços SaaS de acordo com a configuração do sistema. Quando o processo de sincronização é iniciado, **Contagem de produto** indica o número de produtos enviados para os serviços SaaS.
 
-A variável _[!UICONTROL Sync]_o painel de status informa o número de produtos que foram sincronizados nas últimas três horas. Se você fizer atualizações pouco frequentes no catálogo, esse valor será frequentemente zero. Clique em **[!UICONTROL Refresh]**para atualizar a contagem.
+>[!IMPORTANT]
+>
+>O tempo necessário para concluir a sincronização varia de acordo com o tamanho do catálogo e o volume de dados atualizados.
 
-## Contagem de produtos
+Quando o número de produtos processados corresponde ao número de produtos atualizados, indica que a sincronização está concluída.
 
-O painel de contagem de produtos reflete o número total de produtos de catálogo disponíveis para o serviço.
+### Lista de produtos sincronizados
 
-A variável [!DNL Product Recommendations] e [!DNL Live Search] painéis exibem o número total de _exibível_ produtos. [!DNL Catalog Service] O não filtra produtos por exibíveis, portanto, se você tiver ambos [!DNL Catalog Service] e [!DNL Live Search] ou [!DNL Product Recommendations] instalado, é possível que os dois painéis mostrem dois valores diferentes para a contagem de produtos.
+Para ver os detalhes de um produto sincronizado, clique no produto na tabela.
 
-## Produtos sincronizados
+![Detalhes do produto sincronizado](assets/sync-product-detail.png)
 
-A tabela Produtos Sincronizados fornece detalhes sobre os produtos do índice. Por padrão, essa tabela é classificada por &quot;Última atualização&quot;.
+### Ressincronizar dados do catálogo
 
-Para encontrar um produto específico, use o **[!UICONTROL Search by SKU]** campo .
-Para controlar quais colunas são exibidas, clique em **[!UICONTROL Customize Table]** à direita da mesa.
+Para garantir que seus serviços SaaS da Commerce estejam sempre atualizados com as informações mais recentes do produto, você deve [implementar um agendamento](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) para sincronizar dados de catálogo.
+
+Embora você possa [iniciar manualmente](#manually-resync-catalog) Uma ressincronização de dados de catálogo do banco de dados do Commerce para serviços SaaS, não é recomendada, pois pode aumentar a carga nos recursos de hardware. No entanto, a ressincronização manual do catálogo pode ser necessária nos seguintes cenários:
+
+- Sempre que alterações significativas forem feitas no catálogo de produtos, como adicionar novos produtos, atualizar detalhes do produto ou modificar categorias
+
+- Se você observar discrepâncias ou problemas de desempenho na exibição dos dados do produto em suas lojas
+
+- Após qualquer atualização ou alteração nas integrações entre o banco de dados do Commerce e os serviços SaaS
+
+- Ao implantar personalizações ou configurações que afetam o gerenciamento de dados do produto ou os processos de sincronização
+
+Seguindo essas diretrizes e ressincronizando proativamente os dados do catálogo conforme necessário, você pode manter a consistência, a precisão e a confiabilidade dos dados em todo o ecossistema do Adobe Commerce.
+
+#### Ressincronizar manualmente o catálogo
+
+Se precisar ressincronizar os dados do catálogo, clique em **[!UICONTROL Settings]** no lado direito da página para exibir uma caixa de diálogo na qual é possível iniciar uma ressincronização. A ressincronização dos dados do catálogo força o serviço a buscar novamente os dados do banco de dados do Commerce nos serviços SaaS.
+
+![Sincronizar Produtos Manualmente](assets/resync-data.png)

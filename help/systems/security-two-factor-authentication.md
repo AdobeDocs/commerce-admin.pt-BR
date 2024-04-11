@@ -1,29 +1,29 @@
 ---
 title: Autenticação de dois fatores (2FA)
-description: Saiba mais sobre o suporte à autenticação de dois fatores para garantir a segurança de seu armazenamento e seus dados.
+description: Saiba mais sobre o suporte à autenticação de dois fatores para garantir a segurança do sistema e dos dados.
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
 
 # Autenticação de dois fatores (2FA)
 
-O comércio _Admin_ para a instalação do Adobe Commerce ou Magento Open Source fornece acesso à loja, aos pedidos e aos dados do cliente. Para impedir o acesso não autorizado aos seus dados, todos os usuários que tentarem fazer logon na _Admin_ O deve concluir um processo de autenticação para verificar sua identidade.
+O COMMERCE _Admin_ para a instalação do Adobe Commerce ou Magento Open Source fornece acesso à loja, aos pedidos e aos dados do cliente. Para impedir o acesso não autorizado aos seus dados, todos os usuários que tentarem fazer logon na _Admin_ O deve concluir um processo de autenticação para verificar sua identidade.
 
 >[!NOTE]
 >
->Esta implementação da autenticação de dois fatores (2FA) aplica-se ao _Admin_ e não está disponível para contas de clientes. A autenticação de dois fatores que protege a conta do Commerce tem uma configuração separada. Para saber mais, acesse [Proteger sua conta do Commerce](../getting-started/commerce-account-secure.md).
+>Esta implementação da autenticação de dois fatores (2FA) aplica-se ao _Admin_ e não está disponível para contas de clientes. A autenticação de dois fatores que protege a conta do Commerce tem uma configuração separada. Para saber mais, acesse [Proteja sua conta do Commerce](../getting-started/commerce-account-secure.md).
 
-A autenticação de dois fatores é amplamente usada, e é comum gerar códigos de acesso para sites diferentes no mesmo aplicativo. Isso garante que somente você possa fazer logon na sua conta de usuário. Se você perder sua senha ou um bot adivinhar, a autenticação de dois fatores adicionará uma camada de proteção. Por exemplo, você pode usar o Google Authenticator para gerar códigos para o Administrador da loja, sua conta do Commerce e a conta do Google.
+A autenticação de dois fatores é amplamente usada, e é comum gerar códigos de acesso para sites diferentes no mesmo aplicativo. Essa autenticação adicional garante que somente você possa fazer logon na sua conta de usuário. Se você perder sua senha ou um bot adivinhar, a autenticação de dois fatores adicionará uma camada de proteção. Por exemplo, você pode usar o Google Authenticator para gerar códigos para o administrador da sua loja, sua conta da Commerce e a conta da Google.
 
 ![Configuração de segurança do iPhone - 2FA](./assets/google-authenticator-iphone.png){width="300"}
 
-A Adobe Commerce oferece suporte a métodos 2FA de vários provedores. Alguns exigem a instalação de um aplicativo que gera uma OTP (senha única) que os usuários inserem na entrada para verificar sua identidade. Os dispositivos de Fator de segundo universal (U2F) se assemelham a um fob de chave e geram uma chave exclusiva para verificar a identidade. Outros dispositivos verificam a identidade quando são inseridos em uma porta USB. Como administrador de armazenamento, você pode exigir um ou mais dos métodos 2FA disponíveis para verificar a identidade do usuário. Sua configuração 2FA se aplica a todos os sites e lojas associados à instalação do Adobe Commerce.
+A Adobe Commerce oferece suporte a métodos 2FA de vários provedores. Alguns exigem a instalação de um aplicativo que gera uma OTP (senha única) que os usuários inserem na entrada para verificar sua identidade. Dispositivos de segundo fator universal (U2F) se parecem com um fob de chave e geram uma chave exclusiva para verificar a identidade. Outros dispositivos verificam a identidade quando são inseridos em uma porta USB. Como administrador de armazenamento, você pode exigir um ou mais dos métodos 2FA disponíveis para verificar a identidade do usuário. Sua configuração 2FA se aplica a todos os sites e lojas associados à instalação do Adobe Commerce.
 
 Na primeira vez que um usuário fizer logon na _Admin_, eles devem configurar cada [2FA](../configuration-reference/security/2fa.md) que você precisa e verifique a identidade usando o aplicativo ou dispositivo associado. Após essa configuração inicial, o usuário deverá se autenticar com um dos métodos configurados sempre que entrar. As informações 2FA de cada usuário são registradas em seus _Admin_ conta e pode ser [redefinir](security-two-factor-authentication-manage.md) se necessário. Para saber mais sobre o processo de logon, acesse [_Admin_ Conectar](../getting-started/admin-signin.md).
 
@@ -39,7 +39,7 @@ Você pode assistir a isto [vídeo de demonstração](https://video.tv.adobe.com
 
 1. No painel esquerdo, expanda **[!UICONTROL Security]** e escolha **[!UICONTROL 2FA]**.
 
-1. No _[!UICONTROL General]_, selecione cada **[!UICONTROL Provider to use]**.
+1. No _[!UICONTROL General]_selecione os provedores a serem usados.
 
    | Provedor | Função |
    |--- |--- |
@@ -66,7 +66,9 @@ Conclua as configurações para cada método 2FA necessário.
 
 Para alterar por quanto tempo a senha ocasional (OTP) fica disponível durante a entrada, desmarque a caixa de seleção **[!UICONTROL Use system value]** caixa de seleção Em seguida, digite o número de segundos que deseja que o **[!UICONTROL OTP Window]** para ser válido.
 
-![Configuração de segurança - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+>[!NOTE]
+>
+>No Adobe Commerce 2.4.7 e versões posteriores, a configuração da janela OTP controla por quanto tempo (em segundos) o sistema aceita a senha ocasional (OTP) de um administrador após sua expiração. Esse valor deve ser inferior a 30 segundos. A configuração padrão do sistema é `1`.<br><br> Na versão 2.4.6, a configuração da janela OTP determina o número de códigos OTP passados e futuros que permanecem válidos. Um valor de `1` indica que o código OTP atual mais um código no passado e um código no futuro permanecem válidos em qualquer momento específico.
 
 ### [!DNL Duo Security]
 

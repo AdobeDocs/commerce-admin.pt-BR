@@ -3,9 +3,9 @@ title: Criar categorias
 description: É possível criar quantas subcategorias adicionais forem necessárias, de acordo com a profundidade máxima do menu definida na configuração.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
 
 1. Se desejar que a página da categoria inclua a variável _`Filter by Attribute`_seção de navegação em camadas, definir **[!UICONTROL Anchor]**para `Yes`.
 
-1. Para o **[!UICONTROL Available Product Listing Sort By]** selecione um ou mais valores disponíveis que estarão disponíveis para que os clientes classifiquem a lista.
+1. Para o **[!UICONTROL Available Product Listing Sort By]** selecione um ou mais valores disponíveis que estarão disponíveis para que os clientes classifiquem a lista. Essa configuração não se aplica à variável [!DNL Live Search] [Widget da página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
    Por padrão, todos os valores disponíveis são incluídos. Desmarque a opção **[!UICONTROL Use All]** para alterar as seleções. Por exemplo, os valores podem incluir:
 
@@ -122,7 +122,7 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
    - `Product Name`
    - `Price`
 
-1. Para definir a ordem de classificação padrão para a categoria, escolha a **[!UICONTROL Default Product Listing Sort By]** valor.
+1. Para definir a ordem de classificação padrão para a categoria, escolha a **[!UICONTROL Default Product Listing Sort By]** valor. Essa configuração não se aplica à variável [!DNL Live Search] [Widget da página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
 1. Para alterar a navegação em camadas padrão [etapa de preço](navigation-layered.md#configure-price-navigation) faça o seguinte:
 

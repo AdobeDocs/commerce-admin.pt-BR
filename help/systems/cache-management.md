@@ -3,16 +3,16 @@ title: Gerenciamento de cache
 description: Saiba como usar as ferramentas de gerenciamento de cache, que fornecem uma maneira fácil de melhorar o desempenho do seu site.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
+source-git-commit: fdf04be69754d0209772d9ceb244e3808f3b61d3
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
 
 # Gerenciamento de cache
 
-O sistema de gerenciamento de cache do Adobe Commerce e do Magento Open Source oferece uma maneira fácil de melhorar o desempenho do seu site. Sempre que um cache exigir uma atualização, um aviso será exibido na parte superior do espaço de trabalho com um link para o [!UICONTROL Cache Management] página onde você pode exibir e atualizar caches.
+O sistema de gerenciamento de cache do Adobe Commerce e do Magento Open Source oferece uma maneira fácil de melhorar o desempenho do seu site. Sempre que um cache exigir uma atualização, uma notificação será exibida com um link para a [!UICONTROL Cache Management] página para concluir a atualização.
 
 ![Salvar atributo de produto - Mensagem de atualização do cache](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
@@ -40,12 +40,12 @@ A reindexação e o armazenamento em cache têm diferentes finalidades no Commer
 - Sempre limpe o cache após instalar extensões/módulos. Você pode instalar uma ou mais extensões e, em seguida, liberar o cache.
 - Liberar o cache após instalar o Commerce. Para instalações novas, você também deve reindexar.
 - Liberar o cache após a atualização de uma versão do Open Source ou do Commerce para outra.
-- Ao liberar caches, considere o tipo de cache e programe a liberação durante horários que não sejam de pico. Por exemplo, escolha um horário em que poucos clientes possam acessar o site, como tarde da noite ou manhã cedo. A limpeza de alguns tipos de cache durante os horários de pico resulta em uma carga alta para o administrador e pode resultar em um site inativo até a conclusão.
-- Quando [reindexação](index-management.md), não é necessário executar também um cache de liberação.
+- Ao liberar caches, considere o tipo de cache e programe a liberação durante horários que não sejam de pico. Por exemplo, escolha uma hora em que poucos clientes usam o site, como tarde da noite ou manhã cedo. A limpeza dos tipos de cache durante o pico de demanda pode aumentar a carga no Administrador e fazer com que o site fique inativo até que a operação seja concluída.
+- Quando [reindexação](index-management.md), não é necessário liberar o cache.
 
 ## Recursos de função de gerenciamento de cache
 
-O acesso a ações específicas de manutenção de cache pode ser atribuído aos usuários por função, incluindo opções para exibir, alternar e liberar caches. A Adobe recomenda ativar ações de liberação somente para usuários de nível de administrador. Fornecer acesso a todos os recursos de gerenciamento de cache pode afetar o desempenho da loja.
+Você pode atribuir acesso a ações específicas de manutenção de cache para usuários por função, incluindo opções para exibir, alternar e liberar caches. A Adobe recomenda ativar ações de liberação somente para usuários de nível de administrador. Fornecer acesso a todos os recursos de gerenciamento de cache pode afetar o desempenho da loja.
 
 ![Recursos de função - gerenciamento de cache](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
@@ -80,7 +80,7 @@ Para obter informações sobre como atribuir recursos para conceder acesso a con
    - `Select All`
    - `Select Visible`
 
-1. Marque a caixa de seleção de cada cache a ser direcionado pela ação.
+1. Marque a caixa de seleção para cada cache a ser atualizado.
 
 1. Definir **[!UICONTROL Actions]** para `Refresh` e clique em **[!UICONTROL Submit]**.
 
@@ -94,7 +94,7 @@ Para obter informações sobre como atribuir recursos para conceder acesso a con
 
 ## Liberar o cache JavaScript/CSS
 
-1. Em _[!UICONTROL Additional Cache Management]_, clique em **[!UICONTROL Flush JavaScript/CSS Cache]**para limpar qualquer arquivo JavaScript e CSS que tenha sido mesclado em um único arquivo.
+1. Em _[!UICONTROL Additional Cache Management]_, limpe os arquivos JavaScript e CSS que foram mesclados em um único arquivo clicando em **[!UICONTROL Flush JavaScript/CSS Cache]**.
 
    A variável `The JavaScript/CSS cache has been cleaned` será exibida na parte superior do espaço de trabalho.
 
@@ -102,7 +102,7 @@ Para obter informações sobre como atribuir recursos para conceder acesso a con
 
 ## Liberar usando a linha de comando
 
-Os administradores de sistema e desenvolvedores com acesso ao servidor de aplicativos do Commerce também podem gerenciar a configuração de cache e cache a partir da linha de comando usando a CLI do Commerce. Consulte [Gerenciar o cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) no _Guia de configuração_.{:target=&quot;_blank&quot;}.
+Os administradores de sistema e desenvolvedores com acesso ao servidor de aplicativos do Commerce também podem gerenciar a configuração de cache e cache a partir da linha de comando usando a CLI do Commerce. Consulte [Gerenciar o cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target=&quot;_blank&quot;} no _Guia de configuração_.
 
 ## Controles
 
@@ -134,7 +134,7 @@ A variável [!UICONTROL Cache Management] Esta página lista os tipos de cache q
 
 - `%CACHE_TYPE_TAG%` define a tag exclusiva a ser usada no escopo do tipo de cache.
 
-Desenvolvedores e integradores de sistema usam esses valores para configurar e gerenciar o armazenamento em cache ao personalizar ou integrar com o Adobe Commerce, por exemplo, desenvolvendo integrações usando APIs do GraphQL. A variável `cache type id` também é usado para gerenciamento de cache a partir da linha de comando do servidor de aplicativos usando a CLI do Commerce, por exemplo ` bin/magento cache:status config` exibe o status atual do cache de Configuração.
+Desenvolvedores e integradores de sistema usam esses valores para configurar e gerenciar o armazenamento em cache ao personalizar ou integrar com o Adobe Commerce, por exemplo, desenvolvendo integrações usando APIs do GraphQL. A variável `cache type id` O também é usado para gerenciamento de cache a partir da linha de comando do servidor de aplicativos usando a Commerce CLI. Por exemplo, ` bin/magento cache:status config` exibe o status atual do cache de Configuração.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Desenvolvedores e integradores de sistema usam esses valores para configurar e g
 | `Database DDL operations` | Esquema de banco de dados. Se necessário, o Commerce limpa esse cache automaticamente, mas desenvolvedores de terceiros podem colocar quaisquer dados em qualquer segmento do cache. Limpe ou limpe esse tipo de cache depois de fazer alterações personalizadas no esquema do banco de dados. (Em outras palavras, essas são atualizações que o Commerce não cria.) Uma maneira de atualizar o esquema do banco de dados automaticamente é usando a configuração do magento:db-schema:comando upgrade. | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | Resultados da compilação de código. | `COMPILED_CONFIG` | `compiled_config` |
 | [!UICONTROL Webhooks Response Cache] | Armazena em cache respostas a solicitações de webhook. Para obter mais informações, consulte [Guia do Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) na documentação do desenvolvedor do Commerce. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
-| [!UICONTROL EAV types and attributes] | Cache de declaração de tipos de entidade para metadados relacionados a atributos EAV (por exemplo, rótulos de armazenamento, links para código PHP relacionado, renderização de atributo, configurações de pesquisa e assim por diante). Normalmente, não é necessário limpar ou liberar esse tipo de cache. | `EAV` | `eav` |
+| [!UICONTROL EAV types and attributes] | Armazena em cache a declaração de tipos de entidade para metadados relacionados a atributos de valor de atributo de entidade (EAV). Os atributos incluem rótulos de loja, links para código PHP relacionado, renderização de atributo, configurações de pesquisa e assim por diante. Normalmente, não é necessário limpar ou liberar esse tipo de cache. | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | Notificações temporárias exibidas na interface do usuário. | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | Armazena em cache os resultados dos resolvedores de consultas do GraphQL para entidades de galeria de mídia de clientes, páginas do CMS, blocos do CMS e produtos. Mantenha esse cache ativado para melhorar o desempenho do GraphQL. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | Arquivo de configuração de integração. Limpe ou limpe esse cache após alterar ou adicionar integrações. | `INTEGRATION` | `config_integration` |
@@ -169,17 +169,17 @@ Desenvolvedores e integradores de sistema usam esses valores para configurar e g
 
 ## Armazenamento em cache de página inteira
 
-O Adobe Commerce e o Magento Open Source usam o cache de página inteira no servidor para exibir rapidamente páginas de categoria, produto e CMS. O armazenamento em cache de página inteira melhora o tempo de resposta e reduz a carga no servidor. Sem o armazenamento em cache, cada página pode precisar executar blocos de código e recuperar informações do banco de dados. No entanto, com o cache de página inteira ativado, uma página totalmente gerada pode ser lida diretamente do cache.
+O Adobe Commerce e o Magento Open Source usam o cache de página inteira no servidor para exibir rapidamente as páginas de categoria, produto e CMS. O armazenamento em cache de página inteira melhora o tempo de resposta e reduz a carga no servidor. Sem o armazenamento em cache, cada página pode precisar executar blocos de código e recuperar informações do banco de dados. No entanto, com o cache de página inteira ativado, uma página totalmente gerada pode ser lida diretamente do cache.
 
 >[!NOTE]
 >
 >Recomenda-se que [Cache de verniz](https://varnish-cache.org/){:target=&quot;_blank&quot;} ser usado somente em um ambiente de produção.
 
-O conteúdo em cache pode ser usado para processar as solicitações de tipos semelhantes de visitas. Como resultado, as páginas exibidas para um visitante casual podem ser diferentes daquelas exibidas para um cliente. Para fins de armazenamento em cache, cada visita é um dos três tipos:
+O conteúdo em cache pode ser usado para processar as solicitações de tipos semelhantes de visitas. Como resultado, as páginas exibidas para um visitante casual podem ser diferentes das páginas exibidas para um cliente. Para fins de armazenamento em cache, cada visita é um dos três tipos:
 
 - `Non-sessioned` - Durante uma visita sem sessão, o comprador visualiza as páginas, mas não interage com a loja. O sistema armazena em cache o conteúdo de cada página visualizada e o envia para outros compradores não sessão.
-- `Sessioned` - Durante uma visita em sessão, os compradores que interagem com a loja — por meio de atividades como comparar produtos ou adicionar produtos ao carrinho — recebem uma ID de sessão. As páginas em cache geradas durante a sessão são usadas somente por esse comprador durante a sessão.
-- `Customer` - As sessões do cliente são criadas para aqueles que se registraram em uma conta da sua loja e loja enquanto faziam logon nas respectivas contas. Durante a sessão, os clientes podem receber ofertas especiais, promoções e preços com base no grupo de clientes atribuído.
+- `Sessioned` - Durante uma visita em sessão, os compradores que interagem com a loja recebem uma ID de sessão. As interações incluem atividades como comparar produtos ou adicionar produtos ao carrinho. As páginas em cache geradas durante a sessão são usadas somente por esse comprador durante a sessão.
+- `Customer` - As sessões de clientes são criadas para clientes que fazem logon e compram usando sua conta registrada. Durante a sessão, os clientes podem receber ofertas especiais, promoções e preços com base no grupo de clientes atribuído.
 
 Para obter informações técnicas, consulte [Configurar e usar verniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target=&quot;_blank&quot;} e [Usar Redis para a página Comércio e o cache padrão](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target=&quot;_blank&quot;} no _Guia de configuração_.
 

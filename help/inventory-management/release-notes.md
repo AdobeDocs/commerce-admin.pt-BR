@@ -3,9 +3,9 @@ title: '[!DNL Inventory Management] notas de versão'
 description: Revise as notas de versão para obter informações sobre tudo [!DNL Inventory Management] versões.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3445'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Estas notas de versão descrevem versões do [!DNL Inventory Management] e inclu
 [!DNL Inventory Management] é um projeto especial de Engenharia da Comunidade do Magento Open Source aberto aos colaboradores. Para participar e contribuir, consulte [Projeto do GitHub](https://github.com/magento/inventory) repositório e [wiki](https://github.com/magento/inventory/wiki) para começar. Para discutir o projeto, participe da [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) canal ([autoinscrição](https://opensource.magento.com/slack)).
 
 [Programação de lançamento](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} para versões compatíveis e compatíveis.
+
+## v1.2.7
+
+[!DNL Inventory Management] As notas de versão 1.2.7 estão incluídas no [notas de versão do core 2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -108,7 +112,7 @@ Estas notas de versão descrevem versões do [!DNL Inventory Management] e inclu
 
 Inventory management 1.2.4 (versão do módulo: `magento/inventory-metapackage = 1.2.4`) é compatível com a versão 2.4.4 e compatível com a versão 2.4.0 do Adobe Commerce, Adobe Commerce na infraestrutura em nuvem e a base de código Magento Open Source.
 
-![Problema corrigido](../assets/fix.svg) O Commerce agora exibe um valor preciso de quantidade disponível para todos os produtos na exibição da lista de produtos do Administrador. Anteriormente, ele exibia um valor em branco para a quantidade vendável de produtos em estoque com SKUs que continham caracteres especiais. <!--- MC-41936-->
+![Problema corrigido](../assets/fix.svg) O Commerce agora exibe um valor preciso de quantidade comercializável para todos os produtos na exibição da lista de produtos do Administrador. Anteriormente, ele exibia um valor em branco para a quantidade vendável de produtos em estoque com SKUs que continham caracteres especiais. <!--- MC-41936-->
 
 ![Problema corrigido](../assets/fix.svg) O desempenho melhorou para ações de carrinho e check-out, como adicionar produtos ao carrinho em implantações com muitas (aproximadamente 10.000) fontes de inventário. <!--- MC-42570-->
 

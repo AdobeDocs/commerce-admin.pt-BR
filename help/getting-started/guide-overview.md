@@ -1,26 +1,26 @@
 ---
 title: Guia de introdução ao Adobe Commerce
-description: Informações abrangentes para comerciantes novatos no Adobe Commerce e no Magento Open Source.
+description: Informações abrangentes para comerciantes novos no Adobe Commerce.
 seo-title: Adobe Commerce Getting Started Guide
 seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 recommendations: noCatalog
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
 # Guia de introdução ao Adobe Commerce
 
-Este guia destina-se aos comerciantes e administradores de sistema que são novos no Adobe Commerce e no Magento Open Source. Ele fornece uma visão geral da plataforma a partir de sua perspectiva e algumas informações detalhadas sobre os recursos básicos que permitem uma loja funcional.
+Este guia destina-se aos comerciantes e administradores de sistema que são novos no Adobe Commerce. Ele fornece uma visão geral da plataforma a partir de sua perspectiva e algumas informações detalhadas sobre os recursos básicos que permitem uma loja funcional.
 
 Este guia abrange:
 
 | Assunto | Descrição |
 | ------- | ----------- |
-| [Informações da versão](about-this-release.md) | Saiba mais sobre a versão atual do Adobe Commerce e do Magento Open Source. |
+| [Sobre o Commerce](about.md) | Saiba mais sobre a versão atual do Adobe Commerce. |
 | [Credenciais de login e URLs](login-urls.md) | Saiba mais sobre o [!DNL Commerce] URLs e credenciais de conta usadas para obter acesso ao Administrador e à loja. |
 | [[!DNL Commerce] contas](commerce-account-create.md) | Saiba mais sobre [!DNL Commerce] contas, que gerenciam os produtos e serviços que você adquiriu. |
 | [O administrador](admin.md) | Saiba mais sobre o [!DNL Commerce] Administrador, o local onde os comerciantes configuram produtos e promoções, gerenciam pedidos e executam outras tarefas administrativas. |
@@ -32,7 +32,7 @@ Este guia abrange:
 
 {style="table-layout:auto"}
 
-Ela não aborda os recursos mais detalhados do Adobe Commerce e do Magento Open Source.
+Ela não aborda os recursos mais detalhados do Adobe Commerce.
 
 ## Documentação adicional
 

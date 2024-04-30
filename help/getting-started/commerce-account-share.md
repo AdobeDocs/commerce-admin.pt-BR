@@ -3,9 +3,9 @@ title: Compartilhar um [!DNL Commerce] account
 description: Saiba como conceder acesso limitado ao [!DNL Commerce] conta para outro [!DNL Commerce] titulares de contas.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
+source-git-commit: 5886f0605312dc06360051188ffce983281a3ccd
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ A variável [!DNL Commerce] A equipe de suporte não tem acesso à conta e não 
 1. Antes de começar, obtenha as seguintes informações do [!DNL Commerce] conta do **novo favorecido de acesso compartilhado**:
 
    - O usuário já deve ter se registrado em uma conta em account.adobe.com e estar conectado por meio de account.magento.com.
-   - A variável `Account ID` que é exibido no canto superior esquerdo da _[!UICONTROL Magento]_, logo acima da guia **Fazer logoff**link.
+   - A variável `MAGE ID/Account ID (MAG00XXXXXXX)` é exibido no canto superior esquerdo da _[!UICONTROL Magento]_, logo acima da guia **Fazer logoff**link.
    - A variável `Email` endereço associado à conta.
 
 1. Faça logon no [[!DNL Commerce] account](commerce-account-create.md).
@@ -90,7 +90,7 @@ As instruções a seguir são escritas da perspectiva de um usuário compartilha
 
 ## Revogar acesso compartilhado
 
-1. Faça logon em sua conta do Commerce.
+1. Faça logon em sua conta da Commerce.
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Shared Access]**.
 

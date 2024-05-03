@@ -3,9 +3,9 @@ title: Preparo de conteúdo
 description: O armazenamento temporário de conteúdo oferece à sua equipe de negócios a capacidade de criar, visualizar e agendar facilmente uma grande variedade de atualizações de conteúdo para sua loja diretamente do administrador.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ O armazenamento temporário de conteúdo oferece à sua equipe de negócios a ca
 O termo _campaign_ refere-se ao registro de uma alteração agendada ou a uma coleção de alterações gerenciadas no Painel de Preparo. As alterações podem ser visualizadas em um calendário ou linha do tempo. Os termos _alteração agendada_ e _atualização programada_ são intercambiáveis e se referem a uma única alteração.
 
 Quando você agenda uma alteração de conteúdo por um período específico, o conteúdo é revertido para a versão anterior quando a alteração agendada expira. Você pode criar várias versões do mesmo conteúdo de linha de base a ser usado para atualizações futuras. Você também pode voltar atrás na linha do tempo para visualizar versões anteriores do conteúdo. Para salvar uma versão de rascunho, basta atribuir uma data na linha do tempo que está tão distante no futuro que ela nunca entra em produção.
+
+>[!NOTE]
+>
+>Os campos relacionados à Data inicial e à Data final foram removidos no ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e não podem ser modificados diretamente na regra de preço do carrinho, na regra de preço do catálogo, no produto, na categoria e na página do CMS. Você deve criar uma atualização agendada para essas ativações.
 
 ## Campanhas e objetos de preparo de conteúdo
 

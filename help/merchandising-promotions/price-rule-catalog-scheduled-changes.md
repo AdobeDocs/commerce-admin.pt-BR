@@ -3,9 +3,9 @@ title: Alterações agendadas para regras de preço de catálogo
 description: Saiba como aplicar regras de preço de catálogo conforme agendado como parte de uma campanha e agrupado com outras alterações de conteúdo.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 A caixa Alterações programadas aparece na parte superior da página quando uma nova regra de preço é salva ou atualizada. As regras de preço de catálogo podem ser aplicadas de acordo com a programação como parte de uma campanha e agrupadas com outras alterações de conteúdo. Você pode criar uma campanha com base em alterações programadas em uma regra de preço ou aplicar as alterações a uma campanha existente.
+
+>[!NOTE]
+>
+>A variável [!UICONTROL From] e [!UICONTROL To] os campos foram removidos em ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e não podem ser modificados diretamente na regra de preço de catálogo. Você deve criar uma atualização agendada para essas ativações.
 
 >[!NOTE]
 >

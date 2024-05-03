@@ -3,9 +3,9 @@ title: Controles do espaço de trabalho de página
 description: Saiba mais sobre as ferramentas do espaço de trabalho usadas para localizar e atualizar páginas de conteúdo.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ O espaço de trabalho da página inclui ferramentas que ajudam a localizar rapid
 
 | Coluna | Descrição |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | Especifica as datas de início e término quando o design selecionado é aplicado à página do produto |
+| [!UICONTROL Custom design from/to] | Especifica as datas de início e término quando o design selecionado é aplicado à página. ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source). |
 | [!UICONTROL Custom Theme] | Aplica um tema personalizado à página |
 | [!UICONTROL Custom Layout] | Determina o layout personalizado da página |
 | [!UICONTROL Meta Title] | Metatítulo da página |
@@ -111,7 +111,7 @@ A caixa Search no canto superior esquerdo da _[!UICONTROL Pages]_A grade pode se
 | [!UICONTROL Store View] | Filtrar a pesquisa com base na exibição de loja. Opções: `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filtrar a pesquisa com base no layout da página. Opções: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | Filtre a pesquisa no status da página. Opções: `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | Filtrar a pesquisa pelas datas de início e término quando o design selecionado for aplicado à página do produto |
+| [!UICONTROL Custom design from / to] | Filtre a pesquisa pelas datas inicial e final quando o design selecionado for aplicado à página. ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source). |
 | [!UICONTROL Asset] | Filtrar a pesquisa por ativos de título da página |
 | [!UICONTROL Custom Layout] | Filtre a pesquisa com base em um layout personalizado. Opções: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | Filtrar a pesquisa com base em um tema personalizado. Opções padrão: `Magento Blank` / `Magento Luma` |
@@ -199,6 +199,10 @@ Clique em _Exibir_ (![Ícone de olho](../assets/icon-view-eye.png)) e execute um
 {{ee-feature}}
 
 As alterações na página podem ser aplicadas de acordo com o agendamento e agrupadas com outras alterações de conteúdo. Você pode criar uma campanha com base em alterações agendadas em uma página ou aplicar as alterações a uma campanha existente. Para obter mais informações, consulte [Preparo de conteúdo](content-staging.md).
+
+>[!NOTE]
+>
+>A variável [!UICONTROL Custom Design Update] A guia foi removida em ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e não podem ser modificados diretamente na página. Você deve criar uma atualização agendada para essas ativações.
 
 >[!NOTE]
 >

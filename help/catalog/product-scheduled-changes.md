@@ -3,9 +3,9 @@ title: Atualizações programadas de produto
 description: Saiba como agendar alterações nas listas de produtos para dar suporte a campanhas e programas promocionais.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 1e809696ee6d623d162226628329ed53e8f71511
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 As atualizações de produtos podem ser aplicadas de acordo com o agendamento e agrupadas com outras alterações de conteúdo. Você pode usar [preparo de conteúdo](../content-design/content-staging.md) para criar uma campanha com base em alterações programadas no produto ou aplicar as alterações a uma campanha existente.
+
+>[!NOTE]
+>
+>A variável [!UICONTROL Set Product as New From] e [!UICONTROL To] campos e [!UICONTROL Schedule Design Update] As guias do foram removidas em ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e não podem ser modificados diretamente no produto. Você deve criar uma atualização agendada para essas ativações.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Alterações agendadas para regras de preço do carrinho
 description: Saiba como aplicar regras de preço do carrinho de compras conforme agendado como parte de uma campanha e agrupado com outras alterações de conteúdo.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 As regras de preço do carrinho podem ser aplicadas de acordo com a programação como parte de uma campanha e agrupadas com outras alterações de conteúdo. Você pode criar uma campanha com base em alterações programadas em uma regra de preço ou aplicar as alterações a uma campanha existente.
+
+>[!NOTE]
+>
+>A variável [!UICONTROL From] e [!UICONTROL To] os campos foram removidos em ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e não podem ser modificados diretamente na regra de preço do carrinho. Você deve criar uma atualização agendada para essas ativações.
 
 ![Regras de preço do carrinho - alterações programadas](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 

@@ -3,9 +3,9 @@ title: Alterações agendadas para categorias
 description: Saiba como agendar alterações de categoria para oferecer suporte a campanhas de marketing e promoções de loja.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 As atualizações de categoria podem ser aplicadas de acordo com o agendamento e agrupadas com outras alterações de conteúdo. Você pode criar uma campanha com base em alterações agendadas na categoria ou aplicar as alterações a uma campanha existente. Para saber mais, consulte [Preparo de conteúdo](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>A variável [!UICONTROL Schedule Design Update] A guia foi removida em ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e não podem ser modificados diretamente na categoria. Você deve criar uma atualização agendada para essas ativações.
 
 >[!NOTE]
 >

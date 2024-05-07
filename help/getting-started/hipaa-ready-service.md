@@ -3,9 +3,9 @@ title: Disponibilidade para HIPAA no Adobe Commerce
 description: Saiba como você pode adicionar o módulo HIPAA-Ready da Adobe Commerce e obter recursos e funcionalidades adicionais que permitem cumprir suas obrigações com a HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
+source-git-commit: c21c8b76e37e617885bae3492801b45093a6b5a5
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -182,7 +182,7 @@ Nenhum dos serviços SaaS oferecidos para o Adobe Commerce está disponível na 
 ### Checkout de convidado desativado por padrão
 
 - A verificação de visitantes apresenta um risco potencial para vários aspectos da HIPAA, incluindo registro, controle de acesso, higiene e linhagem de PHI e possivelmente mais.
-- O Check-out de convidado é desativado por padrão no módulo de preparação para HIPAA, mas pode ser ativado para meus comerciantes por sua conta e risco.
+- O Check-out de convidado é desativado por padrão no módulo de preparação para HIPAA, mas pode ser ativado por comerciantes por seu próprio risco.
 
 ### Recurso de informativo desativado por padrão
 
@@ -191,3 +191,7 @@ Nenhum dos serviços SaaS oferecidos para o Adobe Commerce está disponível na 
 ### Desabilitar a configuração padrão do serviço Relatório Avançado
 
 A configuração do serviço Relatórios avançados é desativada por padrão para impedir que o PHI seja usado para análise e relatórios, mas pode ser ativada pelo comerciante por sua conta e risco.
+
+### Serviço Sendgrid desativado por padrão
+
+O serviço Sendgrid está desabilitado por padrão porque o aplicativo não é compatível com HIPAA. Os comerciantes podem enviar uma solicitação de suporte para ativar o Sendgrid, mas devem reconhecer que assumirão o risco de usar o serviço.

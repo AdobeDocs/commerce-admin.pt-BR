@@ -3,9 +3,9 @@ title: Criar uma regra de preço de carrinho
 description: Saiba como criar uma regra de preço de carrinho com base nos atributos de carrinho ou produto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
+source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '3302'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ Se você estiver usando públicos-alvo da Real-Time CDP, pule para [nesta seçã
    | `Name` | Nome do público-alvo, como `Orders over $50` |
    | `Description` | Descrição do público-alvo, como `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica a origem do público-alvo, como `Experience Platform`. |
-   | `Website` | Indica qual site você vinculou à sequência de dados que contém os públicos-alvo. Você cria esse link ao conectar a instância do Commerce ao Experience Platform pelo [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) extensão. |
+   | `Website` | Indica qual site você vinculou à sequência de dados que contém os públicos-alvo. Crie esse link ao conectar a instância do Commerce ao Experience Platform pelo [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) extensão. |
 
    {style="table-layout:auto"}
 
@@ -360,6 +360,31 @@ Assista a este vídeo para saber mais sobre como criar regras de preço de carri
 ### [!UICONTROL Conditions]
 
 Especifica as condições que devem ser atendidas antes que a regra de preço do carrinho entre em ação. Se deixado em branco, a regra se aplica a todos os produtos no carrinho. As condições podem ser baseadas em qualquer combinação de carrinho e atributos de produto. No entanto, [opções personalizáveis](../catalog/settings-advanced-custom-options.md) não pode ser referenciado nas condições da regra de preço do carrinho.
+
+| Campo | Descrição |
+|--- |--- |
+| [!UICONTROL **Atributo de item do carrinho**] |  |
+| [!UICONTROL Price in cart] | Preço do produto. A regra é aplicada se o preço do produto na condição do carrinho for atendido. |
+| [!UICONTROL Quantity in cart] | Quantidade do produto. A regra é aplicada se a quantidade do produto na condição do carrinho for atendida. |
+| [!UICONTROL Row total in cart] | Total da linha de produto. A regra se aplica se a condição total da linha de produto no carrinho for atendida. |
+| [!UICONTROL **Atributo do produto**] |  |
+| [!UICONTROL Attribute Set] | Conjunto de atributos do produto. A regra se aplica se o produto atender à condição de atributo de produto. |
+| [!UICONTROL Category] | Categoria do produto. A regra se aplica se o próprio produto ou seu produto secundário atender à condição de categoria. |
+| [!UICONTROL Category (Children Only)] | Categoria de produto secundário. A regra se aplica se somente os filhos do produto atenderem à condição de categoria (o produto em si não é marcado aqui). |
+| [!UICONTROL Category (Parent Only)] | Categoria de produto principal. A regra se aplica se somente o produto atender à condição de categoria (os produtos secundários não são verificados aqui). |
+| [!UICONTROL **Atributo do carrinho**] |  |
+| [!UICONTROL Subtotal (Excl. Tax)] | Subtotal do carrinho (excluindo imposto). A regra se aplica se o carrinho de compras atender à condição de subtotal (excluindo impostos). |
+| [!UICONTROL Subtotal (Incl. Tax)] | Subtotal do carrinho (incluindo imposto). A regra se aplica se o carrinho de compras atender à condição de subtotal (incluindo imposto). |
+| [!UICONTROL Subtotal] | Subtotal do carrinho. A regra se aplica se o carrinho de compras atender a uma condição de subtotal. Marque inclui ou exclui imposto de acordo com as configurações de imposto atuais. |
+| [!UICONTROL Total Items Quantity] | Quantidade total de todos os produtos no carrinho de compras. A regra se aplica se o carrinho de compras atender a uma condição de quantidade de itens totais. |
+| [!UICONTROL Total Weight] | Peso total de todos os produtos no carrinho de compras. A regra se aplica se o carrinho de compras atender à condição de peso total. |
+| [!UICONTROL Payment Method] | Método de pagamento selecionado no check-out. A regra se aplica se a condição do método de pagamento for atendida. |
+| [!UICONTROL Shipping Method] | Método de envio selecionado no check-out. A regra se aplica se a condição do método de envio for atendida. |
+| [!UICONTROL Shipping Postcode] | Código postal do endereço para remessa. A regra se aplica se o endereço de entrega atender à condição de código postal. |
+| [!UICONTROL Shipping Region] | Região do endereço de entrega. A regra se aplica se o endereço de entrega atender à condição de região. |
+| [!UICONTROL Shipping State/Province] | Estado/província do endereço para remessa. A regra se aplica se o endereço de entrega atender à condição de estado/província. |
+| [!UICONTROL Shipping Country] | País do endereço de entrega. A regra se aplica se o endereço de entrega atender à condição do país. |
+| [!UICONTROL Customer Segment] | A regra se aplica se um cliente registrado ou convidado atender à condição do segmento do cliente. |
 
 ### [!UICONTROL Actions]
 

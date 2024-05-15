@@ -3,9 +3,9 @@ title: Extensões do Adobe
 description: Revise as informações sobre as extensões para o Adobe Commerce e o Magento Open Source lançado pelo Adobe.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: c22ad5c3220f14588131d6b29a88dab3c5347681
+source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Algumas extensões são instaladas automaticamente com o Adobe Commerce ou o Mag
 
 ### Braintree
 
-Juntos, PayPal e Gene Commerce desenvolveram a extensão Braintree oficial para lojas Commerce 2.4.x. Apresentando uma experiência de checkout aprimorada projetada para impulsionar a conversão, as atualizações incluem opções do PayLater que mostram automaticamente mensagens e botões relevantes do PayLater para os consumidores durante as compras e durante o checkout.
+PayPal e Gene Commerce desenvolveram juntos a extensão Braintree oficial para as lojas Commerce 2.4.x. Apresentando uma experiência de checkout aprimorada projetada para impulsionar a conversão, as atualizações incluem opções do PayLater que mostram automaticamente mensagens e botões relevantes do PayLater para os consumidores durante as compras e durante o checkout.
 
 Esta extensão é instalada por padrão, mas requer um [conta Braintree](https://www.braintreepayments.com/) e a configuração no Admin a ser habilitada para sua loja. Para determinar as tarifas que se aplicam ao usar o Braintree para processar suas transações, marque a opção [preços de Braintree](https://www.braintreepayments.com/braintree-pricing).
 
@@ -82,11 +82,6 @@ A variável [!DNL Catalog Service] O permite que você forneça aos clientes uma
 ### [!DNL Payment Services]
 
 [!DNL Payment services] O para Adobe Commerce e Magento Open Source é uma solução de pagamento totalmente integrada que simplifica o processo de gerenciamento de pagamentos e oferece aos clientes a oportunidade de pagar do seu jeito. Reconcilie com segurança todos os dados de pagamento e transação com o administrador do Adobe Commerce, permitindo gerenciar pedidos e pagamentos em um único local e, ao mesmo tempo, fornecer um check-out perfeito. Consulte a [[!DNL Payment Services] Guia do usuário](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) para obter mais informações.
-
-### [!DNL Quick Checkout]
-
-[!DNL Quick Checkout] O para Adobe Commerce oferece uma experiência de check-out perfeita, projetada para converter compradores convidados únicos em titulares de conta fiéis.
-Consulte a [[!DNL Quick Checkout] Guia do usuário](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) para obter mais informações.
 
 ### [!DNL Store Fulfillment]
 

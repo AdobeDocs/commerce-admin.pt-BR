@@ -7,8 +7,8 @@ breadcrumb-title: Documentação do comerciante
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 1%
+source-wordcount: '1184'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ As informações contidas na documentação do comerciante foram projetadas para
 
 O Adobe Commerce é uma plataforma de comércio B2B e B2C ágil que permite que comerciantes e marcas acelerem a receita por meio de experiências de comércio digital centradas no cliente em espaços online e físicos. É a melhor opção para organizações de médio porte e corporativas, pois oferece os modelos de implantação mais flexíveis, desde a nuvem local até a gerenciada, com SLAs garantidos. O Adobe Commerce permite integrações de APIs e extensões totalmente personalizáveis, além do conjunto mais avançado de recursos de experiência comercial de nível empresarial, desde marketing até merchandising e realização. O Adobe Commerce é construído em uma base de código aberto para oferecer flexibilidade e extensibilidade como nenhuma outra plataforma de comércio.
 
-Para obter uma lista de recursos avançados incluídos no Adobe Commerce, consulte [Recursos de comércio](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) no _Informações da versão_.
+Para obter uma lista de recursos avançados incluídos no Adobe Commerce, consulte [Recursos do Commerce](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) no _Informações da versão_.
 
 ## base de código Magento Open Source
 
@@ -119,26 +119,26 @@ Magento Open Source é a base de código para a qual o Adobe contribui oficialme
 
 >[!TIP]
 >
->Também é possível revisar [novidades na documentação dos Commerce Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) e [novidades dos guias operacionais](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
+>Também é possível revisar [novidades na documentação dos Serviços da Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) e [novidades dos guias operacionais](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
 
 | Descrição | Tipo | Data |
 | ----------- | ---- | ---- |
-| **Versão 1.4.0 B2B** - As notas de versão B2B para Adobe Commerce descrevem alterações e adições para o [Versão 1.4.0](../b2b/release-notes.md#b2b-v140). | Atualizar | 06/13/23 |
-| **Versão 1.4.0 B2B** - A [Iniciar cotação para um comprador](../b2b/sales-rep-initiates-quote.md) O tópico agora está incluído na _Guia B2B do Adobe Commerce_. Descreve como um vendedor pode criar uma cota para um comprador específico para iniciar o processo de negociação. | Novo | 06/13/23 |
-| **Versão 1.4.0 B2B** - A [Negociar uma cotação](../b2b/quote-price-negotiation.md), [Cotações Negociáveis](../b2b/quotes.md), e [Habilitar recursos B2B](../b2b/enable-basic-features.md) os tópicos são atualizados para refletir as alterações para cotações iniciadas pelo vendedor e recursos padrão. | Atualizar | 06/13/23 |
-| **2.2.0 Versão de integração do Adobe IMS** - A [Desative a integração do administrador do Commerce com o Adobe ID](../getting-started/adobe-ims-disable.md) O tópico agora está incluído na _Guia de introdução_. Ele descreve um procedimento opcional para desativar a integração do Adobe Commerce Admin com o Adobe IMS. | Novo | 06/13/23 |
-| **2.2.0 Versão de integração do Adobe IMS** - Alterações nas [Visão geral da integração do Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-integration-overview.md) e [Configurar a integração do administrador do Commerce com o Adobe ID](../getting-started/adobe-ims-config.md) tópicos para refletir a funcionalidade atualizada. | Atualizar | 06/13/23 |
-| **[!DNL Audience Activation]** - As informações novas, atualizadas e melhoradas estão incluídas no [[!DNL Audience Activation]](../customers/audience-activation.md) tópico para refletir a [!DNL Experience Platform Connector] interface de configuração e como usar a instância do Commerce headless com regras de preço do carrinho e blocos dinâmicos. | Atualizar | 06/13/23 |
-| **Descontinuação da API UPS** - Atualização do [UPS (United Parcel Service, serviço de encomendas unificado)](../stores-purchase/ups.md) tópico e o [Métodos de delivery](../configuration-reference/sales/delivery-methods.md#ups) página de referência de configuração para refletir a desativação temporária das APIs do UPS para gerar novas chaves de API. | Atualizar | 06/08/23 |
-| **Versão 2.4.6** - Atualização do [Lista de produtos](../catalog/products-list.md) e [Referência da configuração do administrador](../configuration-reference/advanced/admin.md) tópicos para incluir informações sobre as limitações de exibição do produto que podem ser usadas para melhorar o desempenho de catálogos grandes. | Atualizar | 03/14/23 |
-| **Versão 2.4.6** - Atualização do [Criar e excluir segmentos de clientes](../customers/customer-segment-create.md) e [Referência da configuração do cliente](../configuration-reference/customers/customer-configuration.md) tópicos para incluir informações sobre a validação em tempo real para segmentos. | Atualizar | 03/14/23 |
-| **Versão 2.4.6** - Atualização do [Braintree](../stores-purchase/braintree.md) e [Referência de configuração de Braintree](../configuration-reference/sales/braintree.md) para refletir as opções de pagamento atualizadas e novas compatíveis com a integração de Braintree agrupada. | Atualizar | 03/14/23 |
-| **Versão 2.4.6** - Atualização do [Configuração de moeda](../stores-purchase/currency-configuration.md) e [Configuração de moeda](../configuration-reference/general/currency-setup.md) tópicos a serem incluídos na nova [!DNL Fixer API] (APILayer). | Atualizar | 03/14/23 |
-| **Versão 2.4.6** - Atualização do [Configurar comunicações por email](../systems/email-communications.md) e [Referência de configuração do sistema](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings) tópicos para incluir a nova opção SMTP para comunicações por email. | Atualizar | 03/14/23 |
-| **Versão 2.4.6** - Atualização do [Notas de versão do Inventory management](../inventory-management/release-notes.md) com uma lista descritiva de correções incluídas na versão mais recente da extensão incluída (v1.2.6). | Atualizar | 03/14/23 |
-| **Versão 2.4.6** - Atualização do [Notas de versão B2B](../b2b/release-notes.md) com uma lista descritiva de correções incluídas na versão mais recente da extensão (v1.3.5). | Atualizar | 03/14/23 |
-| **Novo tópico** - Adição da variável [Ativação de público](../getting-started/commerce-account-transfer.md) tópico para o _Guia de gerenciamento de clientes_, que fornece informações detalhadas sobre a ativação de públicos-alvo da Real-Time CDP no Adobe Commerce. | Novo | 03/13/23 |
-| **Novo tópico** - Adição da variável [Transferir uma conta do Commerce](../getting-started/commerce-account-transfer.md) tópico para o _Guia de introdução_. | Novo | 02/27/23 |
+| **Versão 1.4.0 B2B** - As notas de versão B2B para Adobe Commerce descrevem alterações e adições para o [Versão 1.4.0](../b2b/release-notes.md#b2b-v140). | Atualizar | 13/06/23 |
+| **Versão 1.4.0 B2B** - A [Iniciar cotação para um comprador](../b2b/sales-rep-initiates-quote.md) O tópico agora está incluído na _Guia B2B do Adobe Commerce_. Descreve como um vendedor pode criar uma cota para um comprador específico para iniciar o processo de negociação. | Novo | 13/06/23 |
+| **Versão 1.4.0 B2B** - A [Negociar uma cotação](../b2b/quote-price-negotiation.md), [Cotações Negociáveis](../b2b/quotes.md), e [Habilitar recursos B2B](../b2b/enable-basic-features.md) os tópicos são atualizados para refletir as alterações para cotações iniciadas pelo vendedor e recursos padrão. | Atualizar | 13/06/23 |
+| **2.2.0 Versão de integração do Adobe IMS** - A [Desative a integração do administrador do Commerce com o Adobe ID](../getting-started/adobe-ims-disable.md) O tópico agora está incluído na _Guia de introdução_. Ele descreve um procedimento opcional para desativar a integração do Adobe Commerce Admin com o Adobe IMS. | Novo | 13/06/23 |
+| **2.2.0 Versão de integração do Adobe IMS** - Alterações nas [Visão geral da integração do Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-integration-overview.md) e [Configurar a integração do administrador do Commerce com o Adobe ID](../getting-started/adobe-ims-config.md) tópicos para refletir a funcionalidade atualizada. | Atualizar | 13/06/23 |
+| **[!DNL Audience Activation]** - As informações novas, atualizadas e melhoradas estão incluídas no [[!DNL Audience Activation]](../customers/audience-activation.md) tópico para refletir a [!DNL Experience Platform Connector] interface de configuração do usuário e como usar a instância do Commerce headless com regras de preço do carrinho e blocos dinâmicos. | Atualizar | 13/06/23 |
+| **Descontinuação da API UPS** - Atualização do [UPS (United Parcel Service, serviço de encomendas unificado)](../stores-purchase/ups.md) tópico e o [Métodos de delivery](../configuration-reference/sales/delivery-methods.md#ups) página de referência de configuração para refletir a desativação temporária das APIs do UPS para gerar novas chaves de API. | Atualizar | 08/06/23 |
+| **Versão 2.4.6** - Atualização do [Lista de produtos](../catalog/products-list.md) e [Referência da configuração do administrador](../configuration-reference/advanced/admin.md) tópicos para incluir informações sobre as limitações de exibição do produto que podem ser usadas para melhorar o desempenho de catálogos grandes. | Atualizar | 14/03/23 |
+| **Versão 2.4.6** - Atualização do [Criar e excluir segmentos de clientes](../customers/customer-segment-create.md) e [Referência da configuração do cliente](../configuration-reference/customers/customer-configuration.md) tópicos para incluir informações sobre a validação em tempo real para segmentos. | Atualizar | 14/03/23 |
+| **Versão 2.4.6** - Atualização do [Braintree](../stores-purchase/braintree.md) e [Referência de configuração de Braintree](../configuration-reference/sales/braintree.md) para refletir as opções de pagamento atualizadas e novas compatíveis com a integração de Braintree agrupada. | Atualizar | 14/03/23 |
+| **Versão 2.4.6** - Atualização do [Configuração de moeda](../stores-purchase/currency-configuration.md) e [Configuração de moeda](../configuration-reference/general/currency-setup.md) tópicos a serem incluídos na nova [!DNL Fixer API] (APILayer). | Atualizar | 14/03/23 |
+| **Versão 2.4.6** - Atualização do [Configurar comunicações por email](../systems/email-communications.md) e [Referência de configuração do sistema](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings) tópicos para incluir a nova opção SMTP para comunicações por email. | Atualizar | 14/03/23 |
+| **Versão 2.4.6** - Atualização do [Notas de versão do Inventory management](../inventory-management/release-notes.md) com uma lista descritiva de correções incluídas na versão mais recente da extensão incluída (v1.2.6). | Atualizar | 14/03/23 |
+| **Versão 2.4.6** - Atualização do [Notas de versão B2B](../b2b/release-notes.md) com uma lista descritiva de correções incluídas na versão mais recente da extensão (v1.3.5). | Atualizar | 14/03/23 |
+| **Novo tópico** - Adição da variável [Ativação de público](../getting-started/commerce-account-transfer.md) tópico para o _Guia de gerenciamento de clientes_, que fornece informações detalhadas sobre a ativação de públicos-alvo da Real-Time CDP no Adobe Commerce. | Novo | 13/03/23 |
+| **Novo tópico** - Adição da variável [Transferir uma conta do Commerce](../getting-started/commerce-account-transfer.md) tópico para o _Guia de introdução_. | Novo | 27/02/23 |
 
 {style="table-layout:auto"}
 

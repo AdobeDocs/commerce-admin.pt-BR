@@ -5,7 +5,7 @@ mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3326'
+source-wordcount: '3322'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ A investigação demonstrou que a [64% dos compradores](https://techreport.com/s
 Esta nova loja de alto desempenho já foi testada com sucesso por vários comerciantes da Adobe Commerce, como [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world), uma propriedade da HanesBrands. Os resultados falam por si. As páginas Maidenform fornecem pontuações do Google Lighthouse de forma consistente [Resultados do 100 e Core Web Vitals](https://treo.sh/sitespeed/www.maidenform.com) muito acima da média do setor.
 
 ![Resultados de velocidade do site](assets/maidenform-site.png){width=&quot;50%&quot; align=center}
-![Gráfico Core Web Vitals](assets/maidenform-site-stats.png){zoom=&quot;yes&quot;}
+![Gráfico Core Web Vitals](assets/maidenform-site-stats.png){zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
@@ -186,7 +186,7 @@ O manual inicial do Adobe Commerce permite que os clientes iniciem facilmente ca
 
 O Adobe também está adicionando painéis específicos do Commerce no Adobe Experience Platform para ajudar os profissionais de marketing a analisar seus dados do Commerce e identificar oportunidades de personalização.
 
-![Um diagrama de uma campanha de carrinho abandonada](assets/use-case-playbook.png){zoom=&quot;yes&quot;}
+![Um diagrama de uma campanha de carrinho abandonada](assets/use-case-playbook.png){zoomable="yes"}
 
 #### Ativar a personalização usando públicos da Real-time CDP do Adobe
 

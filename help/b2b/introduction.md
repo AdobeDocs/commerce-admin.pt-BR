@@ -5,7 +5,7 @@ exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Os serviços para Adobe Commerce são serviços hospedados que fornecem recursos
 
 ## Catálogos compartilhados
 
-Catálogos compartilhados são os níveis de preços que permitem definir preços personalizados por produto para diferentes empresas em um ou vários sites. Ao usar catálogos compartilhados, você pode vender produtos aplicando diferentes níveis de preço para diferentes grupos de clientes. O suporte para catálogos compartilhados está disponível somente para lojas Commerce configuradas para dar suporte a contas da Empresa.
+Catálogos compartilhados são os níveis de preços que permitem definir preços personalizados por produto para diferentes empresas em um ou vários sites. Ao usar catálogos compartilhados, você pode vender produtos aplicando diferentes níveis de preço para diferentes grupos de clientes. O suporte para catálogos compartilhados está disponível somente para lojas Commerce configuradas para dar suporte a contas da empresa.
 
 Para obter mais informações, consulte [Trabalhar com catálogos compartilhados](catalog-shared.md).
 
@@ -68,7 +68,7 @@ Use o recurso Cotações para iniciar a negociação de preços entre um comprad
 
 Compradores e vendedores usam a cota para gerenciar o processo de negociação - como adicionar itens, atualizar quantidades, solicitar e aplicar descontos - até que cheguem a um acordo. A variável _Aspas_ A grade no Admin lista cada cotação recebida e mantém um histórico da comunicação entre comprador e vendedor.
 
-O suporte para Cotações Negociáveis está disponível somente para lojas de Comércio configuradas para suportar contas da Empresa.
+O suporte para Cotações Negociáveis está disponível apenas para lojas Commerce configuradas para suportar contas da Empresa.
 
 Para obter mais informações, consulte [Cotações Negociáveis](quotes.md).
 

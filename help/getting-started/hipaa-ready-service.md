@@ -1,11 +1,11 @@
 ---
 title: Disponibilidade para HIPAA no Adobe Commerce
-description: Saiba como você pode adicionar o módulo HIPAA-Ready da Adobe Commerce e obter recursos e funcionalidades adicionais que permitem cumprir suas obrigações com a HIPAA.
+description: Saiba como adicionar a extensão HIPAA-Ready do Adobe Commerce e obter recursos e funcionalidades adicionais que permitem cumprir suas obrigações com a HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e132d66523feba579baf0bae14e1de9de4d6591
+source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,13 @@ A HIPAA (Health Insurance Portability and Accountability Act, Lei de Portabilida
 
 ## Adobe Commerce HIPAA-Ready
 
-O Adobe Commerce HIPAA-Ready tem recursos e funcionalidades adicionais que permitem aos comerciantes cumprir com suas respectivas obrigações com a HIPAA.
+A extensão Adobe Commerce HIPAA-Ready adiciona recursos e funcionalidades adicionais às instalações do Adobe Commerce, permitindo que os comerciantes cumpram com suas respectivas obrigações com a HIPAA.
 
-O Adobe Commerce HIPAA-Ready é fornecido como uma extensão do Adobe Commerce, `magento/hipaa-ee` que está disponível para projetos do Adobe Commerce na infraestrutura em nuvem ou Adobe Managed Services. O processo de instalação Adobe Commerce HIPAA-Ready desativa alguns serviços e recursos nativos para atender aos requisitos da HIPAA. Consulte [Serviços e recursos desabilitados](#disabled-services-and-features).
+A extensão HIPAA-Ready da Adobe Commerce, `magento/hipaa-ee` O está disponível para projetos do Adobe Commerce na infraestrutura em nuvem ou Adobe Managed Services. O processo de instalação Adobe Commerce HIPAA-Ready desativa alguns serviços e recursos nativos para atender aos requisitos da HIPAA. Consulte [Serviços e recursos desabilitados](#disabled-services-and-features).
+
+>[!NOTE]
+>
+>O acesso aos recursos e funcionalidades prontos para a HIPAA está disponível somente para comerciantes que compraram o complemento de assistência médica da Adobe Commerce.
 
 *Esses materiais são destinados apenas a fins informativos. O fornecimento dessas informações não confere ao destinatário nenhum direito contratual ou de outro tipo. Embora tenham sido envidados esforços para garantir a exatidão das informações à data em que foram fornecidas, não é feita qualquer declaração de que tais informações sejam exatas e completas. A Adobe não assume nenhuma obrigação de atualizar essas informações à medida que a lei ou os produtos de Adobe mudam. Além disso, este documento não deve ser distribuído a nenhuma parte além do recipient pretendido sem o consentimento por escrito da Adobe.*
 
@@ -39,15 +43,16 @@ O Adobe Commerce deve ser implantado no Adobe Commerce na infraestrutura em nuve
 
 ## Instalação
 
-Instale a versão mais recente da extensão Adobe HIPAA-Ready Services (`magento/hipaa-ee`) em uma instância que esteja executando o Adobe Commerce versão 2.4.6-p3 ou posterior. A extensão é entregue como um metapackage de compositor do [repo.magento.com](https://repo.magento.com) repositório.
+**Pré-requisito**
 
 >[!BEGINSHADEBOX]
 
-**Pré-requisito**
-
-Você deve ter acesso a [repo.magento.com](https://repo.magento.com) para instalar a extensão. Para geração de chaves e obtenção dos direitos necessários, consulte [Obter suas chaves de autenticação](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- O Adobe provisionou sua conta do Adobe Commerce para acessar a extensão HIPAA Ready.
+- Acesso a [repo.magento.com](https://repo.magento.com) para instalar a extensão. Para geração de chaves e obtenção dos direitos necessários, consulte [Obter suas chaves de autenticação](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 >[!ENDSHADEBOX]
+
+Instale a versão mais recente da extensão Adobe HIPAA-Ready Services (`magento/hipaa-ee`) em uma instância que esteja executando o Adobe Commerce versão 2.4.6-p3 ou posterior. A extensão é entregue como um metapackage de compositor do [repo.magento.com](https://repo.magento.com) repositório. O metapackage inclui a coleção de módulos que habilitam os recursos HIPAA para uma instância do Adobe Commerce.
 
 1. Na estação de trabalho local, altere para o diretório do projeto do Adobe Commerce na infraestrutura em nuvem.
 
@@ -120,7 +125,7 @@ Depois que as atualizações forem implantadas, verifique se `Hipaa*` extensão 
 
 ## Aprimoramentos de recursos para prontidão para HIPAA
 
-A variável `magento/hipaa-ee` O pacote do apresenta algumas alterações e aprimoramentos ao produto base do Commerce. As seções a seguir fornecem detalhes sobre essas alterações e como elas alteram o produto base.
+A variável `magento/hipaa-ee` A extensão do apresenta algumas alterações e aprimoramentos ao produto base do Commerce. As seções a seguir fornecem detalhes sobre essas alterações e como elas alteram o produto base.
 
 ### Logs de ação
 
@@ -210,9 +215,9 @@ Para estar em conformidade com os requisitos da HIPAA, alguns serviços e recurs
    - Construtor de aplicativos
    - Serviço de catálogo
 
-- **[Serviço SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—Este serviço está desativado por padrão porque o aplicativo não é compatível com HIPAA. Os comerciantes podem enviar uma solicitação de suporte para ativar o Sendgrid, mas devem reconhecer que assumem o risco de usar o serviço.
+- **[Serviço SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—Este serviço está desativado por padrão porque o aplicativo não é compatível com HIPAA.
 
-### Recursos desabilitados por padrão
+### Recursos desativados por padrão
 
 Os recursos a seguir são desativados por padrão no módulo de preparação para HIPAA. Os comerciantes podem ativar qualquer um desses recursos por sua conta e risco.
 

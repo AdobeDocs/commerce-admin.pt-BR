@@ -1,11 +1,11 @@
 ---
 title: Introdução a merchandising e promoções do Commerce
-description: Conheça as ferramentas do Commerce para criar promoções e oportunidades direcionadas para o engajamento do cliente.
+description: Conheça as ferramentas do Commerce para criar promoções e oportunidades direcionadas ao engajamento de clientes.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
 source-wordcount: '1094'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

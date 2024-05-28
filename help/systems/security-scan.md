@@ -4,9 +4,9 @@ description: Saiba como executar uma verificação de segurança aprimorada e mo
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 1f3173d17cc43227f7d44637f1ef0b62606cd0fd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,15 @@ A varredura de segurança aprimorada permite monitorar cada um dos sites do Adob
 - Acesse relatórios históricos de segurança que rastreiam e monitoram o progresso de seus sites.
 - Acesse o relatório de varredura que mostra verificações bem-sucedidas e falhas, com qualquer ação recomendada.
 
-A ferramenta Security scan está disponível gratuitamente no painel do [Conta do Commerce](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a ferramenta Verificação de segurança](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) no _Guia do Commerce na infraestrutura em nuvem_.
+A ferramenta Security scan está disponível gratuitamente no painel do [Conta do Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a ferramenta Verificação de segurança](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) no _Guia da infraestrutura do Commerce na nuvem_.
 
 ![Ferramenta de verificação de segurança](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Executar uma verificação de segurança
 
-1. Vá para a página inicial do Commerce e faça logon no seu [Conta do Commerce](../getting-started/commerce-account-create.md) e faça o seguinte:
+1. Na página inicial da Commerce, faça logon no [Conta do Commerce/Magento](../getting-started/commerce-account-create.md).
+
+1. Revise e aceite os termos para usar a ferramenta de verificação de segurança.
 
    - No painel esquerdo, escolha **[!UICONTROL Security Scan]**.
    - Clique em **[!UICONTROL Go to Security Scan]**.
@@ -37,13 +39,13 @@ A ferramenta Security scan está disponível gratuitamente no painel do [Conta d
 
 1. No _[!UICONTROL Monitored Websites]_clique em **[!UICONTROL +Add Site]**.
 
-   Se você tiver vários sites com domínios diferentes, será necessário configurar uma verificação separada para cada domínio.
+   Se você tiver vários sites com domínios diferentes, configure uma verificação separada para cada domínio.
 
    ![Sites Monitorados](./assets/monitored-website.png){width="600" zoomable="yes"}
 
 1. Para verificar a propriedade do domínio do site adicionando um código de confirmação, siga um destes procedimentos:
 
-   **Loja do Commerce**:
+   **vitrine da Commerce**:
 
    - Insira o **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
    - Clique em **[!UICONTROL Generate Confirmation Code]**.
@@ -102,7 +104,7 @@ A ferramenta Security scan está disponível gratuitamente no painel do [Conta d
 
         Depois que o processo de criação for concluído, as alterações serão implantadas no front da loja de PWA.
 
-1. Retorne para a _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer sua propriedade do domínio.
+1. Retorne para a _[!UICONTROL Security Scan]_na sua conta da Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
 
 1. Após uma confirmação bem-sucedida, configure o **[!UICONTROL Set Automatic Security Scan]** para um dos seguintes tipos:
 
@@ -126,6 +128,6 @@ A ferramenta Security scan está disponível gratuitamente no painel do [Conta d
 
 1. Quando terminar, clique em **[!UICONTROL Submit]**.
 
-   Depois que a propriedade do domínio for verificada, o site será exibido na lista Sites monitorados da sua conta do Commerce.
+   Após verificar a propriedade do domínio, o site é exibido na lista Sites monitorados da sua conta da Commerce.
 
 1. Se você tiver vários sites com domínios diferentes, repita esse processo para configurar uma verificação de segurança para cada um.

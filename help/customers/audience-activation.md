@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ composer require magento/audiences
 
 ### Configurar a extensão
 
-Depois de instalar o [!DNL Audience Activation] você deve fazer logon no Administrador do Commerce e concluir o seguinte:
+Depois de instalar o [!DNL Audience Activation] , você deve fazer logon no Commerce Admin e concluir o seguinte:
 
 1. No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
@@ -154,11 +154,11 @@ Depois de instalar o [!DNL Audience Activation] você deve fazer logon no Admini
 
 1. No **[!UICONTROL Datastream ID]** cole a ID do fluxo de dados que você criou ao [ativado](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce como destino no Real-Time CDP.
 
-   Essa sequência de dados envia dados do seu site do Commerce para a Real-Time CDP a fim de determinar se um comprador pertence a um público-alvo. Se você ainda não criou um fluxo de dados, [criar](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) um em Experience Platform, [adicionar](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) para o destino do Commerce no Real-Time CDP e para o [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) no Administrador.
+   Essa sequência de dados envia dados do seu site da Commerce para a Real-Time CDP a fim de determinar se um comprador pertence a um público-alvo. Se você ainda não criou um fluxo de dados, [criar](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) um em Experience Platform, [adicionar](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) para o destino do Commerce no Real-Time CDP e para o [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) no Administrador.
 
    >[!NOTE]
    >
-   >Ao especificar uma ID de fluxo de dados, você [associá-lo a um site específico](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) no [!DNL Data Connection] extensão. Se sua loja do Commerce tiver vários sites, [criar um destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) para cada site na Real-Time CDP e usar uma ID de fluxo de dados diferente para cada um.
+   >Ao especificar uma ID de fluxo de dados, você [associá-lo a um site específico](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) no [!DNL Data Connection] extensão. Se sua loja Commerce tiver vários sites, [criar um destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) para cada site na Real-Time CDP e usar uma ID de fluxo de dados diferente para cada um.
 
 1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -174,6 +174,8 @@ Com o [!DNL Audience Activation] extensão ativada, é possível:
 - [Criar um bloco dinâmico](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informado por públicos
 - [(**Beta**) Criar uma regra de produto relacionada](../merchandising-promotions/product-related-rule-create.md) informado por públicos
 
+Para obter um caso de uso completo sobre como exportar [!DNL Commerce] para o Real-Time CDP, crie um público-alvo e ative-o para [!DNL Commerce], consulte [Crie um público-alvo no Real-Time CDP usando [!DNL Commerce] dados do evento](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+
 ## painel de públicos-alvo da Real-Time CDP
 
 É possível exibir todos [ativo](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) públicos-alvo disponíveis para personalizar na instância do Adobe Commerce usando o **Públicos da Real-Time CDP** painel.
@@ -187,7 +189,7 @@ O painel contém os seguintes campos:
 | Coluna | Descrição |
 |--- |--- |
 | `Hide filters` | Permite mostrar ou ocultar os filtros que podem ser aplicados ao painel. Atualmente, o único filtro que você pode aplicar é `Last updated`. Esse filtro permite selecionar um intervalo de datas para públicos com base em quando foram atualizados pela última vez. |
-| `Search` | Permite pesquisar por públicos-alvo ativos na instância do Commerce. |
+| `Search` | Permite pesquisar públicos-alvo ativos na sua instância do Commerce. |
 | `Name` | Nome dado ao público no Real-Time CDP. |
 | `Origin` | Indica a origem do público-alvo, como `Experience Platform`. |
 | `Websites` | Indica quais sites estão configurados para usar os públicos-alvo. |
@@ -215,7 +217,7 @@ Depois que você [instalar](#install-the-extension) e [configurar](#configure-th
 
 Para capturar essas associações de segmento do SDK, consulte esta [trecho de código](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
-Após recuperá-los, você pode passar esses segmentos para o Commerce dentro do cabeçalho do GraphQL. Por exemplo:
+Depois de recuperá-lo, você pode passar esses segmentos para o Commerce no cabeçalho do GraphQL. Por exemplo:
 
 ```bash
 curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-segments-membership: urlencoded_list_of_segments' -H 'Content-Type: application/json' --data-binary '{"query":"query {\ncustomer {\nfirstname\nlastname\nemail\n}\n}"}'
@@ -306,7 +308,7 @@ Saiba mais sobre o `dynamicBlocks` consulta do GraphQL no [documentação do des
 Você pode recuperar públicos-alvo da Real-Time CDP usando o SDK móvel da Adobe Experience Platform.
 
 1. [Instalar](#install-the-extension) a extensão Audience Activation.
-1. [instalar e configurar o SDK para seu site do Commerce móvel](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [instale e configure o SDK para seu site do Commerce móvel](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
@@ -344,7 +346,7 @@ Depois que os dados do forem recuperados, você poderá usá-los para criar conj
 
 ## Os públicos-alvo não são exibidos no Commerce
 
-Se os públicos-alvo do Real-Time CDP não estiverem sendo exibidos no Commerce, talvez seja devido a:
+Se os públicos-alvo da Real-Time CDP não estiverem sendo exibidos no Commerce, talvez seja devido a:
 
 - Tipo de autenticação incorreto selecionado no **Conexão de dados** página de configuração
 - Privilégios insuficientes no token gerado

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 54f67ff2069ce92e78e6ecbe58091e018aa9f9ab
+source-git-commit: 5e1777aad33e743340c7fdf90cbdb473b6c23689
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2000'
 ht-degree: 0%
 
 ---
@@ -797,6 +797,13 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>biblioteca</td>
     <td>Biblioteca de comunicações seguras PHP - implementações de PHP puro de RSA, AES, SSH2, SFTP, X.509 etc.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/php-fig/cache.git">psr/cache</a>
+    </td>
+    <td>biblioteca</td>
+    <td>Interface comum para o armazenamento em cache de bibliotecas</td>
   </tr>
   <tr>
     <td>

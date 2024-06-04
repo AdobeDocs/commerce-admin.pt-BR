@@ -1,21 +1,21 @@
 ---
-user-guide-title: “Guia do [!DNL B2B for Adobe Commerce]”
+user-guide-title: “Guia do [!DNL Adobe Commerce B2B]”
 user-guide-description: Saiba como usar os recursos B2B integrados disponíveis para o Adobe Commerce,
-breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
+breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 3b282f7ead80bb7b01046137c9c7127f92b8726c
+source-git-commit: 496e3c7f03701ee3d5a222355ffab9cf0ebde543
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '146'
 ht-degree: 6%
 
 ---
 
 
-# Guia do [!DNL B2B for Adobe Commerce] {#b2b}
+# Guia do [!DNL Adobe Commerce B2B] {#b2b}
 
-+ [Guia do [!DNL B2B for Adobe Commerce]](guide-overview.md)
++ [Guia do [!DNL Adobe Commerce B2B]](guide-overview.md)
 + [Introdução aos recursos B2B](introduction.md)
 + [Notas de versão](release-notes.md)
 + [Instalação](install.md)
@@ -62,4 +62,5 @@ ht-degree: 6%
    + [Configurar o máximo da lista](configure-requisition-lists.md)
    + [[!UICONTROL My Requisition Lists]](account-dashboard-requisition-lists-manage.md)
 + Referência {#reference}
+   + [Alterações incompatíveis com versões anteriores](backward-incompatible-changes.md)
    + [Pacotes](packages.md)

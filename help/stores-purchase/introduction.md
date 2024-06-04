@@ -2,16 +2,16 @@
 title: Introdução a lojas e experiência de compra
 description: Saiba mais sobre os recursos usados para criar e gerenciar suas lojas online e a experiência de compra para seus clientes.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: a56509eeedbb30a1e9cacfd521ea4c18e0241d94
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
 
 # Introdução a lojas e experiência de compra
 
-A Adobe Commerce e o Magento Open Source fornecem um conjunto abrangente de recursos para construir e gerenciar suas lojas online e a experiência de compra para seus clientes. Na instância do Commerce, é possível gerenciar a hierarquia da loja de sites, lojas e visualizações. Você também pode configurar os impostos e as taxas de moeda necessários para executar lojas para vários locais, incluindo classes de imposto para produtos e grupos de clientes.
+A Adobe Commerce e o Magento Open Source fornecem um conjunto abrangente de recursos para construir e gerenciar suas lojas online e a experiência de compra para seus clientes. Na instância do Commerce, é possível gerenciar a hierarquia de lojas de sites, lojas e visualizações. Você também pode configurar os impostos e as taxas de moeda necessários para executar lojas para vários locais, incluindo classes de imposto para produtos e grupos de clientes.
 
 ## Estrutura da loja
 
@@ -25,7 +25,7 @@ O Adobe Commerce e o Magento Open Source reduzem os erros de pedido verificando 
 
 >[!TIP]
 >
->![B2B para Adobe Commerce](../assets/b2b.svg) Com a instalação e a ativação do B2B para o Adobe Commerce, você pode configurar _Pedido rápido_ para clientes associados a uma conta da empresa. Essa função reduz o processo de pedido a vários cliques quando o cliente souber o nome ou a SKU dos produtos que deseja solicitar. Você também pode configurar o suporte para Cotações Negociáveis para suas contas da empresa. Para obter mais informações sobre os recursos B2B, consulte a [Guia do usuário B2B para Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) Com a instalação e a ativação do Adobe Commerce B2B, você pode configurar _Pedido rápido_ para clientes associados a uma conta da empresa. Essa função reduz o processo de pedido a vários cliques quando o cliente souber o nome ou a SKU dos produtos que deseja solicitar. Você também pode configurar o suporte para Cotações Negociáveis para suas contas da empresa. Para obter mais informações sobre os recursos B2B, consulte a [Guia do usuário B2B do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## Assistência para compras
 

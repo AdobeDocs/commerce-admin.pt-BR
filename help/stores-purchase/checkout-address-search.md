@@ -3,9 +3,9 @@ title: Pesquisa de endereço no check-out
 description: Saiba como incluir a pesquisa de endereço no check-out na loja.
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Se o cliente não tiver um endereço de entrega padrão, a variável _Envio_ exi
 
 ## Pesquisa de endereço bloqueado por cotações
 
-![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B somente para Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com o Adobe Commerce B2B)
 
 A ativação da pesquisa de endereço também afeta o check-out de pedidos criados a partir de cotações em que o número de endereços salvos do cliente atende ou excede o limite configurado. Quando a cotação estiver concluída e o cliente prosseguir para o checkout, somente o endereço de entrega selecionado será exibido. A página também exibe uma mensagem de que o endereço de entrega está bloqueado e só pode ser alterado na cotação.
 

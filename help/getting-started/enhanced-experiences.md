@@ -3,9 +3,9 @@ title: Experiências aprimoradas da loja
 description: Conheça as várias ferramentas projetadas para ajudar a maximizar o engajamento, a retenção e a fidelidade do cliente.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: ecc1ae5a741cab915369eac619905728d1c61061
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ O Adobe Commerce e o Magento Open Source fornecem uma variedade de ferramentas p
 
 - **Regras de negócio automatizadas** - Configurar [regras de negócios automatizadas](../merchandising-promotions/price-rules-cart.md) que definem relacionamentos de produtos e usam regras de preço que acionam descontos com base em várias condições.
 
-- **B2B e B2C integrados** - Com [B2B para Adobe Commerce](../b2b/introduction.md), você pode atender clientes B2C e B2B. Por meio de um portal de fácil utilização para clientes, os clientes B2B podem configurar vários níveis de compradores com funções e permissões específicas, rastrear cotações e pedidos, definir regras de aprovação de compras e gerenciar seu crédito online.
+- **B2B e B2C integrados** - Com [Adobe Commerce B2B](../b2b/introduction.md), você pode atender clientes B2C e B2B. Por meio de um portal de fácil utilização para clientes, os clientes B2B podem configurar vários níveis de compradores com funções e permissões específicas, rastrear cotações e pedidos, definir regras de aprovação de compras e gerenciar seu crédito online.
 
 ## Momento da compra
 

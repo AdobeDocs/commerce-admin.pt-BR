@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] página do Administrador do Commerce.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Com a instalação e a habilitação do B2B para Adobe Commerce, a experiência de compra pode ser personalizada com recursos específicos da empresa. O B2B para Adobe Commerce é uma solução integrada que oferece suporte aos modelos B2B e B2C. Para obter mais informações sobre os recursos B2B, consulte a [Guia do usuário B2B para Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Com a instalação e a habilitação do Adobe Commerce B2B, a experiência de compra pode ser personalizada com recursos específicos da empresa. O Adobe Commerce B2B é uma solução integrada que oferece suporte aos modelos B2B e B2C. Para obter mais informações sobre os recursos B2B, consulte a [Guia do usuário B2B do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
 >O acesso a essas opções de configuração para recursos B2B é controlado pelo [recursos da função](../../systems/permissions-user-roles.md#role-resources). Esses recursos de função devem ser definidos para a função de usuário atribuída ao usuário administrador.
 
-Para obter mais informações sobre essas configurações, consulte [Habilitar recursos básicos B2B](../../b2b/enable-basic-features.md) no _Guia do usuário B2B para Adobe Commerce_.
+Para obter mais informações sobre essas configurações, consulte [Habilitar recursos básicos B2B](../../b2b/enable-basic-features.md) no _Guia do usuário B2B do Adobe Commerce_.
 
 ## [!UICONTROL General]
 

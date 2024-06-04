@@ -1,26 +1,26 @@
 ---
-title: Instale o [!DNL B2B for Adobe Commerce] extensão
-description: Saiba como instalar o [!DNL B2B for Adobe Commerce] metapackage.
+title: Instale o [!DNL Adobe Commerce B2B] extensão
+description: Saiba como instalar o [!DNL Adobe Commerce B2B] metapackage.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: e57aa4e8919c2de5341c4b8363197d6380bbb0f6
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
 
-# Instale o [!DNL B2B for Adobe Commerce] extensão
+# Instale o [!DNL Adobe Commerce B2B] extensão
 
-A extensão B2B para Adobe Commerce só está disponível para o Adobe Commerce v2.2.0 ou posterior. Ele é instalado após a instalação do Adobe Commerce.
+A extensão B2B do Adobe Commerce só está disponível para o Adobe Commerce v2.2.0 ou posterior. Ele é instalado após a instalação do Adobe Commerce.
 
 Instale a versão mais recente da extensão B2B que é compatível com a versão do Adobe Commerce implantada.
 
 >[!NOTE]
 >
->Essas instruções de instalação se aplicam ao Adobe Commerce implantado no local. Para instalar a extensão B2B para projetos do Commerce implantados na infraestrutura em nuvem, consulte o [Guia de infraestrutura do Commerce Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
+>Essas instruções de instalação se aplicam ao Adobe Commerce implantado no local. Para instalar a extensão B2B para projetos Commerce implantados na infraestrutura em nuvem, consulte o [Guia de infraestrutura do Commerce Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
 
 ## Requisitos
 
@@ -81,7 +81,7 @@ Após concluir a instalação, configure e inicie os consumidores de mensagens, 
 
 ## Consumidores de mensagens
 
-A extensão B2B para Adobe Commerce usa MySQL para gerenciamento de fila de mensagens. A tabela a seguir lista os consumidores de mensagem que oferecem suporte aos recursos B2B. Depois de instalar a extensão, inicie os consumidores de mensagem para os recursos B2B necessários para sua loja do Commerce.
+A extensão B2B do Adobe Commerce usa MySQL para gerenciamento de fila de mensagens. A tabela a seguir lista os consumidores de mensagem que oferecem suporte aos recursos B2B. Depois de instalar a extensão, inicie os consumidores de mensagem para os recursos B2B necessários para sua loja da Commerce.
 
 | Consumidor | Descrição |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -154,4 +154,4 @@ Você também pode configurar agendas para consumidores de mensagens no [Configu
 
 ## Habilitar recursos B2B no Administrador
 
-Depois de instalar a extensão B2B para Adobe Commerce e iniciar os consumidores de mensagem, você também deve [ativar recursos B2B no Administrador](enable-basic-features.md).
+Depois de instalar a extensão B2B do Adobe Commerce e iniciar os consumidores de mensagem, você também deve [ativar recursos B2B no Administrador](enable-basic-features.md).

@@ -3,9 +3,9 @@ title: Escopo da conta do cliente
 description: O escopo das contas do cliente pode ser limitado ao site onde a conta foi criada ou compartilhado com todos os sites e lojas na hierarquia da loja.
 exl-id: c401bee2-763e-4fad-88cd-5d5a43c46186
 feature: Customers, Configuration
-source-git-commit: 2541b2d55516e2a9c824825100c8348d81201ca9
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 O cabeçalho de cada página da loja estende um convite para que os compradores _Fazer logon ou se registrar_ para uma conta com seu armazenamento. Os clientes que abrem uma conta desfrutam de uma variedade de benefícios, incluindo:
 
 * **Criar conta de cliente** - Os visitantes podem criar uma conta de cliente para que possam usar a loja como um cliente registrado.
-* **Criar uma conta de empresa** Dependendo da configuração, um visitante da loja pode optar por criar uma conta da empresa. Para obter mais informações, consulte [B2B para Adobe Commerce](../b2b/introduction.md).
+* **Criar uma conta de empresa** Dependendo da configuração, um visitante da loja pode optar por criar uma conta da empresa. Para obter mais informações, consulte [Adobe Commerce B2B](../b2b/introduction.md).
 * **Check-out mais rápido** — os clientes registrados passam pelo checkout mais rapidamente, pois grande parte das informações já está em suas contas.
 * **Autoatendimento** — os clientes registrados podem atualizar suas informações, verificar o status dos pedidos e até mesmo fazer novos pedidos a partir de suas contas.
 

@@ -3,9 +3,9 @@ title: Fluxo de trabalho e processamento da ordem
 description: Saiba mais sobre o fluxo de trabalho do pedido, o status que se aplica a cada etapa e como mover pedidos por meio desse processo.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1718'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Somente ordens de venda que não foram faturadas têm um status de `Processing`,
 | [!UICONTROL Order Date] | A data e a hora em que o pedido foi feito. |
 | [!UICONTROL Purchased From] | Indica o site, a loja e a exibição da loja em que o pedido foi feito. |
 | [!UICONTROL Placed from IP] | Indica o endereço IP do computador do qual o pedido foi feito. |
-| [!UICONTROL Order Placed from Quote] | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B para Adobe Commerce) Indica a [citação](../b2b/quotes.md) a partir da qual o pedido foi gerado, se aplicável. O nome da cotação está vinculado à cotação. |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com o Adobe Commerce B2B) Indica a [citação](../b2b/quotes.md) a partir da qual o pedido foi gerado, se aplicável. O nome da cotação está vinculado à cotação. |
 
 {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ Somente ordens de venda que não foram faturadas têm um status de `Processing`,
 | [!UICONTROL Customer Name] | O nome do cliente ou comprador que colocou a ordem. A Nome do cliente está vinculada ao perfil do cliente. |
 | [!UICONTROL Email] | O endereço de email do cliente ou comprador. O endereço de email está vinculado para abrir uma nova mensagem de email. |
 | [!UICONTROL Customer Group] | O nome do grupo de clientes ou catálogo compartilhado ao qual o cliente está atribuído. |
-| [!UICONTROL Company Name] | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B para Adobe Commerce) O nome da empresa à qual o comprador está associado e em cujo nome o pedido é feito. O nome da empresa está vinculado à variável [perfil da empresa](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) O nome da empresa à qual o comprador está associado e em cujo nome o pedido é feito. O nome da empresa está vinculado à variável [perfil da empresa](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
@@ -220,9 +220,9 @@ No **[!UICONTROL Order Total]** faça o seguinte:
 | [!UICONTROL Total Refunded] | O valor total reembolsado da ordem, se aplicável. |
 | [!UICONTROL Total Due] | O valor total devido. |
 | [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Somente Adobe Commerce) A quantidade de crédito de armazenamento disponível que é aplicada à ordem, se aplicável. |
-| [!UICONTROL Catalog Total Price] | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B para Adobe Commerce) O preço total dos itens na cotação sem imposto, de acordo com a precificação no catálogo compartilhado ou catálogo padrão usado como a base da cotação. Se a moeda de exibição da loja for diferente da moeda base, o valor será exibido em ambas as moedas, com a loja em colchetes. |
-| [!UICONTROL Negotiated Discount] | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B para Adobe Commerce) O desconto que é o resultado de uma cotação negociada entre o comprador e o vendedor. Se a moeda de exibição da loja for diferente da moeda base, o valor será exibido em ambas as moedas, com a loja em colchetes. |
-| [!UICONTROL Subtotal] | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B para Adobe Commerce) O Preço total do catálogo menos o Desconto negociado. |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) O preço total dos itens na cotação sem imposto, de acordo com a precificação no catálogo compartilhado ou catálogo padrão usado como a base da cotação. Se a moeda de exibição da loja for diferente da moeda base, o valor será exibido em ambas as moedas, com a loja em colchetes. |
+| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) O desconto que é o resultado de uma cotação negociada entre comprador e vendedor. Se a moeda de exibição da loja for diferente da moeda base, o valor será exibido em ambas as moedas, com a loja em colchetes. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) O Preço total do catálogo menos o Desconto negociado. |
 
 {style="table-layout:auto"}
 

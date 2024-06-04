@@ -3,9 +3,9 @@ title: Emitir um memorando de crédito
 description: Saiba como gerar e imprimir um aviso de crédito para um pedido faturado.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Para que um aviso de crédito possa ser impresso, ele deve ser gerado primeiro para um [ordem faturada](invoices.md#create-an-invoice). É possível emitir reembolsos online e offline (parcial ou total) a partir de um aviso de crédito aberto, dependendo do método de pagamento.
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Somente no Adobe Commerce) Os reembolsos podem ser aplicados ao crédito da loja.
-- ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B para Adobe Commerce) Os reembolsos podem ser aplicados ao crédito da empresa.
+- ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) Os reembolsos podem ser aplicados ao crédito da empresa.
 - As compras feitas com cartão de crédito podem ser reembolsadas online ou offline.
 - Compras feitas com cheque ou ordem de pagamento devem ser reembolsadas off-line.
 
@@ -108,13 +108,13 @@ Determine o tipo de reembolso que deseja emitir para um [compra de crédito](#is
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Somente Adobe Commerce) Para reembolsar o valor para o crédito de armazenamento do cliente, selecione o **[!UICONTROL Refund to Store Credit]** caixa de seleção
 
-   - ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B para Adobe Commerce) Para reembolsar o valor para o crédito da empresa do cliente, selecione o **[!UICONTROL Refund to Company Credit]** caixa de seleção
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) Para reembolsar o valor para o crédito da empresa do cliente, selecione o **[!UICONTROL Refund to Company Credit]** caixa de seleção
 
    - Para emitir reembolso offline, clique em **[!UICONTROL Refund Offline]**.
 
    - Para emitir um reembolso online, clique em **[!UICONTROL Refund]**.
 
-   - ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B para Adobe Commerce) Se a compra foi paga com crédito da empresa, clique em **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) Se a compra foi paga com crédito da empresa, clique em **[!UICONTROL Refund to Company Credit]**.
 
    Consulte [Avisos de Crédito](credit-memos.md) para obter mais informações sobre reembolsos offline e online.
 
@@ -195,7 +195,7 @@ Determine o tipo de reembolso que deseja emitir para um [compra de crédito](#is
 | [!UICONTROL Customer Name] | O nome do cliente ou comprador que colocou a ordem. O nome do cliente está vinculado ao perfil do cliente. |
 | [!UICONTROL Email] | O endereço de email do cliente ou comprador. O endereço de email está vinculado para abrir uma nova mensagem de email. |
 | [!UICONTROL Customer Group] | O nome do grupo de clientes ou catálogo compartilhado ao qual o cliente está atribuído. |
-| [!UICONTROL Company Name] | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B para Adobe Commerce) O nome da empresa associada ao comprador e em cujo nome o pedido é feito. O nome da empresa está vinculado ao perfil da empresa. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) O nome da empresa associada ao comprador e em cujo nome o pedido é feito. O nome da empresa está vinculado ao perfil da empresa. |
 
 {style="table-layout:auto"}
 
@@ -222,7 +222,7 @@ Determine o tipo de reembolso que deseja emitir para um [compra de crédito](#is
 | Campo | Descrição |
 |--- |--- |
 | [!UICONTROL Product] | O nome do produto, SKU e opções (se aplicável). |
-| [!UICONTROL Price] | O preço de compra do item. Para B2B para Adobe Commerce, esse valor reflete qualquer desconto aplicado ao item do catálogo compartilhado, se aplicável. |
+| [!UICONTROL Price] | O preço de compra do item. Para o Adobe Commerce B2B, esse valor reflete qualquer desconto aplicado ao item do catálogo compartilhado, se aplicável. |
 | [!UICONTROL Qty] | A quantidade solicitada. |
 | [!UICONTROL Return to Stock] | Caixa de seleção que indica se o item devolvido deve ser devolvido ao estoque. |
 | [!UICONTROL Qty to Refund] | Indica o número de unidades retornadas do produto. |
@@ -254,7 +254,7 @@ Determine o tipo de reembolso que deseja emitir para um [compra de crédito](#is
 | [!UICONTROL Append Comments] | Caixa de seleção que determina se os comentários são incluídos no aviso de crédito. |
 | [!UICONTROL Email Copy of Credit Memo] | Caixa de seleção que determina se uma cópia do aviso de crédito será enviada por e-mail. |
 | [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Somente Adobe Commerce) Caixa de seleção que determina se o total deve ser reembolsado a [crédito da loja](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B para Adobe Commerce) O total de todos os itens de linha a serem reembolsados. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) O total de todos os itens de linha a serem reembolsados. |
 
 {style="table-layout:auto"}
 
@@ -266,7 +266,7 @@ O método de pagamento usado para a ordem determina os botões de restituição 
 |--- |--- |
 | **[!UICONTROL Refund]** | Se a compra original foi paga por cartão de crédito através de um gateway de pagamento, o valor do reembolso é gerenciado pelo processador de pagamento. Para gerenciar reembolsos, consulte a documentação fornecida pelo seu provedor de pagamento. |
 | **[!UICONTROL Refund Offline]** | Se a compra original foi paga em cheque ou ordem de pagamento, o reembolso é pago diretamente ao cliente, emitindo um cheque, cartão-presente ou dinheiro, se você tiver uma loja física. O aviso de crédito serve como um registro da transação offline. |
-| **[!UICONTROL Refund to Company Credit]** | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B para Adobe Commerce) Se a compra foi debitada do crédito da empresa, o reembolso é devolvido ao [Conta da Empresa](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) Se a compra foi debitada do crédito da empresa, o reembolso é devolvido ao [Conta da Empresa](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 

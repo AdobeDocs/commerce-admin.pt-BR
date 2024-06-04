@@ -4,9 +4,9 @@ description: Informações abrangentes sobre contas e segmentos de clientes para
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 3f0d03ce1bfaa445c654949b69765092582d4643
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Este guia destina-se à equipe de atendimento ao cliente que trabalha na Adobe C
 | Assunto | Descrição |
 | ------- | ----------- |
 | [Introdução](customers-introduction.md) | Visão geral do uso dos recursos de gerenciamento de clientes no Administrador do Commerce. |
-| Ferramentas de gerenciamento de clientes | Saiba como usar o [[!UICONTROL Customers] grade](customers-all.md) e [[!UICONTROL Now Online] recurso](now-online.md) no Administrador de comércio que você pode usar para gerenciar os clientes da loja. |
+| Ferramentas de gerenciamento de clientes | Saiba como usar o [[!UICONTROL Customers] grade](customers-all.md) e [[!UICONTROL Now Online] recurso](now-online.md) no Commerce Admin que você pode usar para gerenciar os clientes da loja. |
 | Contas do cliente | Saiba como fornecer uma experiência ideal para clientes registrados na loja, desde [logons](login-landing-page.md) para [rejeições de senha](password-reset.md), e [fornecer assistência ao comprador](login-as-customer.md). |
 | [Personalização em escala](personalize-scale.md) | Saiba mais sobre os recursos disponíveis para personalizar a experiência de compra para cada ponto de contato do cliente com base no contexto imediato e no comportamento observado anteriormente. |
 | [[!DNL Audience Activation]](audience-activation.md) | Saiba mais sobre o [!DNL Audience Activation] extensão que permite ativar públicos-alvo da Real-Time CDP no Adobe Commerce para informar ofertas exclusivas no carrinho, blocos dinâmicos e produtos relacionados. |
@@ -28,7 +28,7 @@ Este guia destina-se à equipe de atendimento ao cliente que trabalha na Adobe C
 
 >[!TIP]
 >
->B2B para Adobe Commerce permite que você mantenha contas da empresa vinculadas a contas de clientes de vitrine individuais. Para obter mais informações sobre o recurso de contas da empresa, consulte a [Guia do usuário B2B para Adobe Commerce](../b2b/account-companies.md).
+>O Adobe Commerce B2B permite que você mantenha contas da empresa vinculadas a contas de clientes de vitrine individuais. Para obter mais informações sobre o recurso de contas da empresa, consulte a [Guia do usuário B2B do Adobe Commerce](../b2b/account-companies.md).
 
 ## Documentação adicional
 

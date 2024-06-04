@@ -3,9 +3,9 @@ title: Escopo de preço
 description: Saiba mais sobre o escopo usado para preços de produtos, que pode ser configurado para ser aplicado no nível global ou do site.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ O âmbito de aplicação do [moeda de base](../stores-purchase/currency-configur
 
 Fatores diferentes podem afetar o preço do mesmo produto em um local e não em outro. Por exemplo, pode haver custos adicionais de distribuição para o produto e outras considerações que afetam o preço dos produtos vendidos em uma loja específica. O diagrama a seguir mostra uma instalação multissite com a moeda base definida no nível do site. As lojas e visualizações de loja associadas a cada site refletem os preços do produto definidos no nível do site.
 
-![B2B para Adobe Commerce](../assets/b2b.svg) Se estiver usando catálogos compartilhados, consulte também [Definir preço e estrutura do catálogo compartilhado](../b2b/catalog-shared-pricing-structure.md) no _Guia B2B do Adobe Commerce_.
+![Adobe Commerce B2B](../assets/b2b.svg) Se estiver usando catálogos compartilhados, consulte também [Definir preço e estrutura do catálogo compartilhado](../b2b/catalog-shared-pricing-structure.md) no _Guia B2B do Adobe Commerce_.
 
 ![Diagrama de escopo de preço](./assets/catalog-price-scope.svg){width="550"}
 
@@ -39,7 +39,7 @@ Fatores diferentes podem afetar o preço do mesmo produto em um local e não em 
 
 ## Usar escopo para configurar preços de produtos
 
-O Commerce não permite a definição de um preço de produto para cada loja. Mas você pode alterar o preço por site:
+A Commerce não permite a definição de um preço de produto para cada loja. Mas você pode alterar o preço por site:
 
 1. No _Admin_ , acesse **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

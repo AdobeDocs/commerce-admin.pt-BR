@@ -4,9 +4,9 @@ description: Informações abrangentes sobre os recursos do catálogo de produto
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
-source-git-commit: 45a13c41bdb8a08b6b99790b6a47792219ed0bcd
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Este guia abrange:
 
 >[!TIP]
 >
->O B2B para Adobe Commerce oferece a capacidade de manter catálogos compartilhados fechados com preços personalizados para diferentes empresas. Além do catálogo de produtos padrão, principal, ele fornece ao cliente acesso a dois tipos de catálogos compartilhados com estruturas de preço diferentes. Para obter mais informações sobre o recurso de catálogo compartilhado, consulte [Guia do usuário B2B para Adobe Commerce](../b2b/catalog-shared.md).
+>O Adobe Commerce B2B oferece a capacidade de manter catálogos compartilhados fechados com preços personalizados para diferentes empresas. Além do catálogo de produtos padrão, principal, ele fornece ao cliente acesso a dois tipos de catálogos compartilhados com estruturas de preço diferentes. Para obter mais informações sobre o recurso de catálogo compartilhado, consulte [Guia do usuário B2B do Adobe Commerce](../b2b/catalog-shared.md).
 
 ## Documentação disponível
 

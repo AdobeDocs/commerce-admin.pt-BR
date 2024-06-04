@@ -4,9 +4,9 @@ description: Saiba como configurar o CAPTCHA para acesso de Administrador e vár
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Os clientes podem ser solicitados a inserir um CAPTCHA sempre que fizerem logon 
       - `Payflow Pro` (consulte [correção de segurança](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _Knowledge base_ artigo)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce)
-      - `Create company` ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B somente para Adobe Commerce)
+      - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com o Adobe Commerce B2B)
 
    - Definir **[!UICONTROL Displaying Mode]** a um dos seguintes:
 

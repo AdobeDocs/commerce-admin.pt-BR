@@ -3,9 +3,9 @@ title: Preços em grupo
 description: Saiba como usar preços de grupo para definir preços para itens com desconto com base nos grupos de clientes em sua loja.
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Os preços para grupos de clientes são um componente de [preços em camadas](pr
 
 1. No _[!UICONTROL Customer Group Price]_clique em **[!UICONTROL Add]**.
 
-   Se sua loja incluir [B2B para Adobe Commerce](../b2b/introduction.md) e tem [catálogos compartilhados](../b2b/catalog-shared.md) ativada, esta seção é rotulada como _[!UICONTROL Catalog and Tier Price]_.
+   Se sua loja incluir [Adobe Commerce B2B](../b2b/introduction.md) e tem [catálogos compartilhados](../b2b/catalog-shared.md) ativada, esta seção é rotulada como _[!UICONTROL Catalog and Tier Price]_.
 
    ![Advanced Pricing](./assets/product-price-group.png){width="600" zoomable="yes"}
 

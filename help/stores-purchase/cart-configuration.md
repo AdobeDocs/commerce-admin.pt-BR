@@ -3,9 +3,9 @@ title: Configuração do carrinho
 description: Saiba mais sobre os recursos do carrinho de compras que você pode configurar para oferecer suporte à experiência de compra em sua loja.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2445'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ A página do carrinho de compras pode ser configurada para aparecer sempre que u
 
 ## Tempo de vida da cotação
 
-Com a instalação e a ativação do B2B para o Adobe Commerce, você pode adicionar suporte para o _Aspas_ recurso. Esse recurso permite que compradores autorizados iniciem o processo de negociação de preços submetendo uma solicitação do carrinho de compras. A variável _Aspas_ A grade lista cada cotação recebida e mantém um histórico da comunicação entre comprador e vendedor. Para obter mais informações sobre os recursos B2B, consulte [Cotações negociadas](../b2b/quotes.md) no _Guia do usuário B2B para Adobe Commerce_.
+Com a instalação e a ativação do Adobe Commerce B2B, você pode adicionar suporte para o _Aspas_ recurso. Esse recurso permite que compradores autorizados iniciem o processo de negociação de preços submetendo uma solicitação do carrinho de compras. A variável _Aspas_ A grade lista cada cotação recebida e mantém um histórico da comunicação entre comprador e vendedor. Para obter mais informações sobre os recursos B2B, consulte [Cotações negociadas](../b2b/quotes.md) no _Guia do usuário B2B do Adobe Commerce_.
 
 Você pode determinar por quanto tempo um preço é válido definindo o tempo de vida da cotação do carrinho na configuração. Por exemplo, se um comprador deixar um carrinho sem supervisão após vários dias, o preço das cotações de alguns itens poderá não ser mais o mesmo. Por padrão, o tempo de vida da cotação é definido como 30 dias.
 

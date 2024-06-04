@@ -3,9 +3,9 @@ title: Configurações de envio
 description: Saiba como definir as configurações de envio que definem o ponto de origem e a política de envio para sua loja.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,4 @@ As opções de entrega de vários endereços permitem que os clientes entreguem 
 
 >[!NOTE]
 >
->![B2B para Adobe Commerce](../assets/b2b.svg) (B2B para Adobe Commerce) Para pedidos com vários endereços de entrega, a variável [Pagamento por conta](../b2b/enable-basic-features.md#configure-payment-on-account) método de pagamento, mesmo se ativado, não estará disponível durante o checkout.
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Para pedidos com vários endereços de entrega, a variável [Pagamento por conta](../b2b/enable-basic-features.md#configure-payment-on-account) método de pagamento, mesmo se ativado, não estará disponível durante o checkout.

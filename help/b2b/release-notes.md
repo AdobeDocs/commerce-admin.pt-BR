@@ -1,16 +1,16 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] notas de versão'
-description: Revise as notas de versão para obter informações sobre alterações no [!DNL B2B for Adobe Commerce] versões de extensão.
+title: '[!DNL Adobe Commerce B2B] notas de versão'
+description: Revise as notas de versão para obter informações sobre alterações no [!DNL Adobe Commerce B2B] versões.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
 workflow-type: tm+mt
-source-wordcount: '6937'
+source-wordcount: '6851'
 ht-degree: 0%
 
 ---
 
-# [!DNL B2B for Adobe Commerce] notas de versão
+# [!DNL Adobe Commerce B2B] notas de versão
 
 Essas notas de versão para a extensão B2B capturam adições e correções que o Adobe adicionou durante um ciclo de lançamento, incluindo:
 
@@ -20,7 +20,7 @@ Essas notas de versão para a extensão B2B capturam adições e correções que
 
 >[!NOTE]
 >
->Consulte [Disponibilidade do produto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) para obter informações sobre versões da extensão do Commerce B2B compatíveis com versões disponíveis do Adobe Commerce.
+>Consulte [Disponibilidade do produto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) para obter informações sobre versões da extensão B2B do Commerce compatíveis com versões disponíveis do Adobe Commerce.
 
 ## B2B 1.5.0-beta
 
@@ -114,7 +114,7 @@ Esta versão inclui novos recursos e melhorias para cotações negociáveis B2B 
 
 ![Problema corrigido](../assets/fix.svg) <!--ACP2E-1429--> Nas definições de Configuração da loja para Recursos B2B, a variável **[!UICONTROL Enable Shared Catalog direct products price assigning]** O campo agora é desativado automaticamente. Na loja, ele fica oculto quando a variável **[!UICONTROL Enable Company]** configuração ou **[!UICONTROL Enable Shared Catalog]** está definida como **[!UICONTROL No]**.
 
-![Problema corrigido](../assets/fix.svg) <!--ACP2E-1683--> Ao criar uma conta de empresa na loja, o Commerce valida o endereço de email antes de processar o registro da empresa. Se o endereço de email for inválido, a operação falhará e nenhuma atualização de conta será processada. Anteriormente, uma conta de cliente era criada mesmo se a solicitação para criar uma conta de empresa falhasse devido a um endereço de email inválido.
+![Problema corrigido](../assets/fix.svg) <!--ACP2E-1683--> Ao criar uma conta de empresa na loja, o Commerce agora valida o endereço de email antes de processar o registro da empresa. Se o endereço de email for inválido, a operação falhará e nenhuma atualização de conta será processada. Anteriormente, uma conta de cliente era criada mesmo se a solicitação para criar uma conta de empresa falhasse devido a um endereço de email inválido.
 
 ![Problema corrigido](../assets/fix.svg) <!--ACP2E-1664--> As SKUs de produto que incluem aspas duplas no Catálogo compartilhado e na estrutura de preços não causam mais erros no Administrador.
 

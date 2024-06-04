@@ -3,9 +3,9 @@ title: Nível de preços
 description: Saiba como usar o preço de camada para oferecer um desconto por quantidade de uma lista de produtos ou página de produtos.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Os preços na loja têm prioridade da quantidade mais alta para a mais baixa. Se
 
 1. Se sua loja tiver vários sites, escolha a variável **[!UICONTROL Website]** aos quais se aplica a tarifação por níveis.
 
-1. Se necessário, limite a disponibilidade do tipo de preço selecionando o **[!UICONTROL Customer Group]** ou **[!UICONTROL Shared Catalog]** (![B2B para Adobe Commerce](../assets/b2b.svg) Disponível com [B2B para Adobe Commerce](./b2b/../introduction.md) somente).
+1. Se necessário, limite a disponibilidade do tipo de preço selecionando o **[!UICONTROL Customer Group]** ou **[!UICONTROL Shared Catalog]** (![Adobe Commerce B2B](../assets/b2b.svg) Disponível com [Adobe Commerce B2B](./b2b/../introduction.md) somente).
 
 1. Para **[!UICONTROL Qty]**, insira a quantidade que deve ser solicitada para receber o desconto.
 

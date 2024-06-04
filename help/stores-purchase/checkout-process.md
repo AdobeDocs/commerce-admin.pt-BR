@@ -3,9 +3,9 @@ title: Processo e opções de check-out
 description: Saiba como o processo de finalização de compra do Adobe Commerce e do Magento Open Source coleta as informações necessárias para concluir a transação e a página Finalização da compra guia o cliente em cada etapa do processo.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -66,13 +66,13 @@ Durante a segunda etapa do processo de finalização, o cliente escolhe a opçã
 
 >[!NOTE]
 >
->Embora o Commerce permita a configuração de vários códigos de cupom, um cliente pode aplicar apenas um código de cupom ao carrinho. (Consulte a [Códigos de cupom](../merchandising-promotions/price-rules-cart-coupon.md) para obter mais informações.)
+>Embora a Commerce permita configurar vários códigos de cupom, um cliente pode aplicar apenas um código de cupom ao carrinho. (Consulte a [Códigos de cupom](../merchandising-promotions/price-rules-cart-coupon.md) para obter mais informações.)
 
 ![Página de revisão e pagamento durante o check-out](./assets/storefront-checkout-step2-payment-review.png){width="700" zoomable="yes"}
 
 ### Revisar e Pagamentos - Ordem de Compra
 
-![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B somente para Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com o Adobe Commerce B2B)
 
 Quando um cliente está associado a uma empresa que ativou [ordens de compra](../b2b/purchase-order-flow.md), todas as ordens são processadas como ordens de compra. Os métodos de pagamento disponíveis são determinados pelas configurações da conta da empresa.
 

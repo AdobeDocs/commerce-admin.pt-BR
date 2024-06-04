@@ -1,12 +1,12 @@
 ---
 title: Definir preço e estrutura do catálogo compartilhado
-description: Com B2B para Adobe Commerce, saiba mais sobre como configurar os preços e a estrutura de um catálogo compartilhado.
+description: Com o Adobe Commerce B2B, saiba mais sobre como configurar os preços e a estrutura de um catálogo compartilhado.
 exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---

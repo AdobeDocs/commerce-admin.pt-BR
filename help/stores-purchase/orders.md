@@ -3,9 +3,9 @@ title: Pedidos
 description: Saiba mais sobre o espaço de trabalho Pedidos e os recursos de pesquisa usados para localizar pedidos no Administrador.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Colunas adicionais disponíveis:
 | [!UICONTROL Payment Method] | O método de pagamento a ser usado para o pedido. |
 | [!UICONTROL Total Refunded] | Qualquer valor do pedido que deve ser reembolsado ao cliente. |
 | [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Somente Adobe Commerce) Qualquer valor da ordem que deve ser reembolsado ao crédito de loja do cliente. |
-| [!UICONTROL Company Name] | ![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com B2B para Adobe Commerce) O nome da variável [empresa](../b2b/account-companies.md) quem fez a encomenda. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com o Adobe Commerce B2B) O nome da variável [empresa](../b2b/account-companies.md) quem fez a encomenda. |
 
 {style="table-layout:auto"}
 
@@ -185,7 +185,7 @@ A caixa Pesquisar no canto superior esquerdo da grade Pedidos pode ser usada par
 
 ## Solução de problemas de recursos
 
-Para obter ajuda com a solução de problemas de pedidos, consulte os seguintes artigos da Base de conhecimento de suporte do Commerce:
+Para obter ajuda com a solução de problemas de pedidos, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
 
 - [Erro de exibição de pedidos](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
 - [Erro 10415 de pedidos duplicados do PayPal](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)

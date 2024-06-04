@@ -3,9 +3,9 @@ title: Preços avançados
 description: Saiba mais sobre os controles avançados de preços disponíveis no Adobe Commerce.
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ A variável _[!UICONTROL Advanced Pricing]_as configurações definem as condiç
 
 Os dados de preços avançados são sincronizados com as páginas do produto. Por exemplo, se você atualizar uma quantidade de preço da camada, o sistema atualizará o valor na página do produto.
 
-![B2B para Adobe Commerce](../assets/b2b.svg) (Disponível com [B2B para Adobe Commerce](./b2b/../introduction.md) somente) Se estiver usando catálogos compartilhados, os dados de preços avançados serão sincronizados com as páginas do produto e os catálogos compartilhados. Por exemplo, se você atualizar uma quantidade de preço da camada, o sistema atualizará o valor no catálogo compartilhado e na página do produto. Qualquer preço personalizado indicado no catálogo compartilhado tem prioridade sobre o preço do grupo de clientes. Consulte também [Definir preço e estrutura do catálogo compartilhado](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) no _Guia B2B do Adobe Commerce_.
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com [Adobe Commerce B2B](./b2b/../introduction.md) somente) Se estiver usando catálogos compartilhados, os dados de preços avançados serão sincronizados com as páginas do produto e os catálogos compartilhados. Por exemplo, se você atualizar uma quantidade de preço da camada, o sistema atualizará o valor no catálogo compartilhado e na página do produto. Qualquer preço personalizado indicado no catálogo compartilhado tem prioridade sobre o preço do grupo de clientes. Consulte também [Definir preço e estrutura do catálogo compartilhado](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) no _Guia B2B do Adobe Commerce_.
 
 ![Advanced Pricing](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

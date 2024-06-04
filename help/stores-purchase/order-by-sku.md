@@ -3,9 +3,9 @@ title: Solicitar por SKU
 description: Saiba como configurar sua loja para aceitar pedidos feitos pelo SKU como conveniência para seus clientes.
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ _Solicitar por SKU_ é um [widget](../content-design/widgets.md) que pode ser ex
 
 1. Clique em **[!UICONTROL Save Config]**.
 
-![B2B para Adobe Commerce](../assets/b2b.svg) (B2B somente para Adobe Commerce) _**Para ativar a função Ordenar por SKU, desative a função Ordem Rápida:**_
+![Adobe Commerce B2B](../assets/b2b.svg) (somente Adobe Commerce B2B) _**Para ativar a função Ordenar por SKU, desative a função Ordem Rápida:**_
 
 1. Ir para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

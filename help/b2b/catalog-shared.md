@@ -1,18 +1,18 @@
 ---
 title: Visão geral do catálogo compartilhado
-description: Saiba mais sobre os catálogos compartilhados fornecidos por B2B para o Adobe Commerce e como você pode usá-los para manter catálogos fechados com preços personalizados para diferentes contas de empresa.
+description: Saiba mais sobre os catálogos compartilhados fornecidos pelo Adobe Commerce B2B e como você pode usá-los para manter catálogos fechados com preços personalizados para diferentes contas da empresa.
 exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
 
 # Visão geral do catálogo compartilhado
 
-B2B para Adobe Commerce oferece a capacidade de manter fechado _compartilhado_ catálogos com preços personalizados para diferentes empresas. Além do padrão, _principal_, catálogo de produtos, fornece ao cliente acesso a dois tipos de catálogos compartilhados com estruturas de preços diferentes.
+O Adobe Commerce B2B oferece a capacidade de manter fechado _compartilhado_ catálogos com preços personalizados para diferentes empresas. Além do padrão, _principal_, catálogo de produtos, fornece ao cliente acesso a dois tipos de catálogos compartilhados com estruturas de preços diferentes.
 
 Se a variável [Recurso Catálogo compartilhado](enable-basic-features.md) estiver ativado na configuração, o catálogo principal original permanecerá visível do Administrador, mas somente o catálogo público compartilhado padrão (geral) ficará visível na loja. Além disso, é possível criar catálogos personalizados que estejam visíveis somente para membros de [empresa](account-companies.md) contas.
 
@@ -56,7 +56,7 @@ A variável [controles de ações](../getting-started/admin-actions-control.md) 
 | [!UICONTROL Select] | Seleciona registros de catálogo compartilhado para aplicar uma ação. O controle no cabeçalho pode ser usado para selecionar todos ou desmarcar todos os registros de catálogo compartilhados na grade. Para selecionar um catálogo compartilhado individual, marque a caixa de seleção. |
 | [!UICONTROL ID] | Um identificador numérico exclusivo atribuído em sequência quando o catálogo é criado. |
 | [!UICONTROL Name] | O nome do catálogo compartilhado. Por padrão, o catálogo compartilhado padrão (Geral) está disponível. |
-| [!UICONTROL Type] | Identifica o tipo de catálogo compartilhado como: <br/>**[!UICONTROL Public]**- O catálogo público compartilhado padrão é criado automaticamente quando o B2B para Adobe Commerce é instalado. É atribuído inicialmente ao `General` e `Not Logged In` grupos de clientes, e é visível para convidados e clientes individuais conectados que não estão associados a uma empresa. O sistema oferece suporte a apenas um catálogo público compartilhado por vez.<br/>**[!UICONTROL Custom]** - Um catálogo compartilhado personalizado contém preços que são visíveis apenas para associados conectados das contas atribuídas da empresa. Você pode criar quantos catálogos compartilhados personalizados forem necessários. |
+| [!UICONTROL Type] | Identifica o tipo de catálogo compartilhado como: <br/>**[!UICONTROL Public]**- O catálogo público compartilhado padrão é criado automaticamente quando o Adobe Commerce B2B é instalado. É atribuído inicialmente ao `General` e `Not Logged In` grupos de clientes, e é visível para convidados e clientes individuais conectados que não estão associados a uma empresa. O sistema oferece suporte a apenas um catálogo público compartilhado por vez.<br/>**[!UICONTROL Custom]** - Um catálogo compartilhado personalizado contém preços que são visíveis apenas para associados conectados das contas atribuídas da empresa. Você pode criar quantos catálogos compartilhados personalizados forem necessários. |
 | [!UICONTROL Customer Tax Class] | A classe de imposto atribuída ao grupo de clientes correspondente. Essa coluna não aparece na grade padrão, mas pode ser adicionada alterando o layout da coluna. |
 | [!UICONTROL Created At] | A data e a hora em que o catálogo compartilhado foi criado. |
 | [!UICONTROL Created By] | O nome e o sobrenome do administrador de armazenamento que criou o catálogo compartilhado. |

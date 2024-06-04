@@ -3,9 +3,9 @@ title: Cotações Negociáveis
 description: Saiba mais sobre os fluxos de trabalho de cotação e como você pode fornecer esse serviço para as contas da sua empresa.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Durante o processo de negociação, a cota só pode ser atualizada pela pessoa q
 
 As cotas negociáveis estarão disponíveis somente se o Adobe Commerce tiver as seguintes definições de configuração:
 
-- [A extensão B2B para Adobe Commerce está instalada](install.md)
+- [A extensão B2B do Adobe Commerce está instalada](install.md)
 - [Recursos B2B configurados](enable-basic-features.md)
    - Habilitar contas da empresa
    - Ativar cotação B2B
@@ -134,7 +134,7 @@ Somente solicitações de cotação com um `Open` status pode ser recusado.
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Send] | Envia a cotação atualizada como uma resposta à consulta do comprador. Esse botão será desativado se o vendedor estiver aguardando uma resposta do comprador. |
 | [!UICONTROL Back] | Retorna para a _Aspas_ página sem salvar as alterações. |
-| [!UICONTROL Create Copy] | [!BADGE Recursos 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponível somente para participantes do programa Beta"}`<original quote name> (copy)`. Altere o nome editando o valor no campo [!UICONTROL Name] e salvando a cotação como rascunho. |
+| [!UICONTROL Create Copy] | [!BADGE Recursos 1.5.0-beta]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Disponível somente para participantes do programa Beta&quot;} Crie uma nova cotação a partir da cotação atual copiando e renomeando-a. Quando a nova cotação for aberta, o nome padrão será `<original quote name> (copy)`. Altere o nome editando o valor no campo [!UICONTROL Name] e salvando a cotação como rascunho. |
 | [!UICONTROL Print] | Envia a cotação para uma impressora ou a salva como um arquivo PDF. |
 | [!UICONTROL Create a copy] | Cria uma cópia da cotação chamada `<original quote name> (copy)` e a abre. Renomeie e atualize a nova cotação conforme necessário antes de salvá-la como rascunho ou enviá-la ao comprador. |
 | [!UICONTROL Save as Draft] | Salva quaisquer alterações feitas na cotação, mas não a envia de volta ao comprador. |

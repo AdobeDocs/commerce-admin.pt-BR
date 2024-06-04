@@ -1,15 +1,15 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] Guia'
-description: Informações abrangentes para [!DNL B2B for Adobe Commerce] administradores, incluindo instalação e configuração.
+title: '[!DNL Adobe Commerce B2B] Guia'
+description: Informações abrangentes para [!DNL Adobe Commerce B2B] administradores, incluindo instalação e configuração.
 breadcrumb-title: Visão geral do Guia
-seo-title: '[!DNL B2B for Adobe Commerce] Guide'
+seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 4eb20fc8a52330976dd6f95ea45b9b32dc6fb1c1
+source-git-commit: b30790b252bcab38c4d0372d5d5bd0d5b6f41a07
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 1%
+source-wordcount: '335'
+ht-degree: 0%
 
 ---
 
@@ -26,10 +26,10 @@ Este guia abrange:
 
 | Assunto | Descrição |
 | ------- | ----------- |
-| [Introdução](introduction.md) | Quais recursos estão disponíveis com o [!DNL B2B for Adobe Commerce]? |
-| [Notas de versão](release-notes.md) | Revise as atualizações fornecidas em cada [!DNL B2B for Adobe Commerce] versão do módulo. |
-| [Instalar](install.md) | Instale o [!DNL B2B for Adobe Commerce] extensão. |
-| [Habilitar recursos básicos B2B](enable-basic-features.md) | Depois de instalar [!DNL B2B for Adobe Commerce], você deve habilitar os recursos que deseja ativar para sua loja. |
+| [Introdução](introduction.md) | Quais recursos estão disponíveis com o [!DNL Adobe Commerce B2B]? |
+| [Notas de versão](release-notes.md) | Revise as atualizações fornecidas em cada [!DNL Adobe Commerce B2B] versão. |
+| [Instalar](install.md) | Instale o [!DNL Adobe Commerce B2B] extensão. |
+| [Habilitar recursos básicos B2B](enable-basic-features.md) | Depois de instalar [!DNL Adobe Commerce B2B], você deve habilitar os recursos que deseja ativar para sua loja. |
 | [Contas da empresa](account-companies.md) | Saiba mais sobre as contas da empresa e como elas fornecem o elemento principal para fornecer suporte a compradores B2B em sua loja. |
 | [Gerenciamento da Empresa](manage-companies.md) | Saiba como os administradores de site do Commerce B2B podem criar hierarquias de empresa para simplificar o gerenciamento de várias empresas que pertencem à mesma empresa. |
 | [Catálogos compartilhados](catalog-shared.md) | Saiba mais sobre como usar catálogos compartilhados para manter catálogos fechados com preços personalizados para diferentes empresas. |

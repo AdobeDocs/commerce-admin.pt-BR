@@ -3,9 +3,9 @@ title: Criar categorias
 description: É possível criar quantas subcategorias adicionais forem necessárias, de acordo com a profundidade máxima do menu definida na configuração.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
 
 1. Escolha o **[!UICONTROL Customer Group]** onde as permissões de categoria se aplicam.
 
-   ![B2B para Adobe Commerce](../assets/b2b.svg) ([B2B para Adobe Commerce](../b2b/introduction.md) somente) Se necessário, você pode escolher um **[!UICONTROL Shared Catalog]** em vez disso.
+   ![Adobe Commerce B2B](../assets/b2b.svg) ([Adobe Commerce B2B](../b2b/introduction.md) somente) Se necessário, você pode escolher um **[!UICONTROL Shared Catalog]** em vez disso.
 
 1. Defina as seguintes permissões conforme necessário:
 
@@ -192,7 +192,7 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
 
 1. Defina as configurações de design conforme necessário:
 
-   - ([B2B para Adobe Commerce](../b2b/introduction.md) somente) Para aplicar as configurações de design da categoria pai a esta categoria, defina **[!UICONTROL Use Parent Category Settings]** para `Yes`.
+   - ([Adobe Commerce B2B](../b2b/introduction.md) somente) Para aplicar as configurações de design da categoria pai a esta categoria, defina **[!UICONTROL Use Parent Category Settings]** para `Yes`.
 
    - Para alterar o design das páginas de categoria, escolha a **[!UICONTROL Theme]** que deseja aplicar.
 

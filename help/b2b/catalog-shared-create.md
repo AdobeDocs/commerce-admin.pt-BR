@@ -4,9 +4,9 @@ description: Saiba mais sobre como criar catálogos compartilhados e duplicar ca
 exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Para ver uma demonstração do gerenciamento de catálogo compartilhado, assista
 | Campo | Descrição |
 |--- |--- |
 | [!UICONTROL Name] | Identifica o catálogo compartilhado em todo o Administrador e nas contas de cliente em que ele está disponível. O nome do catálogo deve ser descritivo e não deve ter mais de 32 caracteres. Você não pode ter dois catálogos compartilhados com o mesmo nome. Máximo de caracteres: 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifica um catálogo com preços personalizados que está disponível somente para as empresas específicas às quais ele está atribuído.<br/>**[!UICONTROL Public]**- Identifica o catálogo compartilhado que está disponível para todos os visitantes convidados e para clientes conectados que não estão associados a uma empresa. Um catálogo público compartilhado padrão é criado quando [!DNL B2B for Adobe Commerce] está instalado, mas deve ser configurado por um administrador de armazenamento. Somente um catálogo público compartilhado pode existir por vez. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifica um catálogo com preços personalizados que está disponível somente para as empresas específicas às quais ele está atribuído.<br/>**[!UICONTROL Public]**- Identifica o catálogo compartilhado que está disponível para todos os visitantes convidados e para clientes conectados que não estão associados a uma empresa. Um catálogo público compartilhado padrão é criado quando [!DNL Adobe Commerce B2B] está instalado, mas deve ser configurado por um administrador de armazenamento. Somente um catálogo público compartilhado pode existir por vez. |
 | [!UICONTROL Customer Tax Class] | Determina a classe de imposto usada para compras feitas do catálogo. As opções incluem todas as classes de imposto disponíveis. |
 | [!UICONTROL Description] | Uma breve explicação de como o catálogo deve ser usado. |
 

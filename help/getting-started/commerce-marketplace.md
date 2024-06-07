@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Saiba mais sobre o [!DNL Commerce Marketplace], que oferece aos comerciantes uma seleção de soluções com curadoria e fornece aos desenvolvedores qualificados as ferramentas, a plataforma e o local ideal para criar um negócio próspero.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 1a5a00493e9994343c7decc763f2decdd11192c7
+source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Os desenvolvedores tradicionalmente usam o PHP para criar extensões em andament
 
 Os seguintes recursos fornecem um ponto de partida para que os novos participantes se familiarizem com os aplicativos:
 
-### Recursos de comércio:
+### Recursos do Commerce
 
 - [Configuração de eventos de E/S para o Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 - [Configuração de eventos para o Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 - [Configuração do SDK da interface do administrador](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Conversão de uma extensão em um aplicativo](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### Recursos do Construtor de aplicativos:
+### Recursos do Construtor de aplicativos
 
-- [Visão geral do Construtor de aplicativos do Commerce](https://developer.adobe.com/commerce/extensibility/app-development/)
+- [Visão geral do Construtor de aplicativos Commerce](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [Configuração da malha de API para o Construtor de aplicativos do Adobe Developer](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [Implantar aplicativos do App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD para aplicativos do App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
@@ -85,11 +85,55 @@ O processo de instalação do [!DNL Marketplace] compras é diferente para _no l
 
 ## Suporte
 
-Se precisar de ajuda com a instalação do ou com o uso de uma extensão, verifique primeiro na documentação que acompanha a extensão. Se não conseguir encontrar a resposta para sua pergunta, use as informações de contato na lista de extensões para entrar em contato diretamente com o desenvolvedor.
+Se precisar de ajuda com a instalação do ou com o uso de uma extensão, verifique primeiro na documentação que acompanha a extensão. Se não conseguir encontrar a resposta para sua pergunta, use as informações de contato na lista de extensões para entrar em contato diretamente com o desenvolvedor. Se o que você comprar no Marketplace não atender às suas necessidades, você poderá [solicitar reembolso](#refund-requests) no prazo de 25 dias a contar da data de compra. A Adobe revisa todas as solicitações de reembolso e (se aprovada) emite o reembolso apropriado. Para questões de suporte relacionadas ao Commerce Marketplace, consulte [[!DNL Marketplace] Centro de ajuda][5].
 
-Se o que você comprar no Commerce Marketplace não atender às suas necessidades, você pode solicitar um reembolso dentro de 25 dias a partir da data de compra. A Adobe revisa todas as solicitações de reembolso e, se aprovada, emite o reembolso apropriado.
+### Problemas de check-out
 
-Para questões de suporte relacionadas ao Commerce Marketplace, consulte [[!DNL Marketplace] Centro de ajuda][5].
+Os campos de endereço no perfil da conta devem ser preenchidos para fins de verificação no sistema de compras do Marketplace.
+
+1. Adicione os campos de endereço no perfil da conta do Marketplace.
+1. Salve o perfil atualizado.
+1. Continue com o check-out.
+
+### Problemas de logon
+
+Problemas de logon normalmente estão relacionados a uma incompatibilidade entre sua MAGEID e o endereço de email no banco de dados da conta. Entre em contato com o Suporte do Marketplace para obter assistência.
+
+>[!INFO]
+>
+>As compras de aplicativos e extensões não podem ser [transferido](#purchase-transfers) para uma nova conta.
+
+### Perguntas sobre código aberto
+
+A equipe de suporte do Marketplace resolve problemas relacionados à [commerce.adobe.com/](https://commercemarketplace.adobe.com/) e [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) somente sites. Faça perguntas diretas sobre o Magento Open Source para o [Fórum da comunidade](https://community.magento.com/) ou [entrar em contato com um parceiro](https://business.adobe.com/products/magento/partners.html) quem pode ajudar com o Magento Open Source.
+
+### Solicitações de reembolso
+
+Para solicitar um reembolso para uma compra no Marketplace, faça logon em sua conta e siga estas etapas:
+
+1. Clique em [!UICONTROL **Meu perfil**] > [!UICONTROL **Histórico de compras**].
+1. Localize a compra e clique em [!UICONTROL **Solicitar um reembolso**].
+1. Preencha o formulário de ordem de reembolso.
+
+O Suporte do Marketplace solicitará informações após a solicitação de reembolso ser gerada. A opção de reembolso está disponível por 25 dias após a data de compra. Consulte a [Contrato de cliente do Marketplace](https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html).
+
+### Faturas de ordem
+
+É possível baixar NFFs de ordem na [!UICONTROL **Histórico de compras**] na sua conta do Marketplace. A fatura não fornece o IVA ou o endereço do vendedor porque não é um requisito do Marketplace neste momento.
+
+Para baixar uma fatura de pedido para uma compra do Marketplace, faça logon em sua conta do Marketplace e siga estas etapas:
+
+1. Clique em [!UICONTROL **Meu perfil**] > [!UICONTROL **Histórico de compras**].
+1. Localize a compra.
+1. Clique no ícone da impressora no canto superior direito do pedido.
+
+### Transferências de compra
+
+A equipe de suporte do Marketplace não pode transferir compras para uma conta diferente. Você deve comprar todos os aplicativos e extensões na conta principal do Commerce para evitar problemas de instalação e implantação. O Adobe Commerce tem direito a um identificador exclusivo. Como o Composer é usado para instalação, somente um conjunto de [chaves de acesso](#create-an-access-key) vinculada à conta principal. A única solução disponível é [solicitar reembolso](#refund-requests) na conta do Marketplace purchasing (se permitido pela política de reembolso do Adobe Commerce).
+
+Você pode [compartilhar](commerce-account-share.md) uma instância do Commerce por meio da conta principal. O acesso compartilhado concede permissões especiais a uma conta subordinada de uma conta principal. O ponto de acesso compartilhado é gerado a partir da conta principal. A conta principal pode ser a conta qualificada da Commerce, a conta principal do comerciante ou uma conta compartilhada em uma organização.
+
+Essas permissões especiais concedem o mesmo nível de acesso ao Adobe Commerce que o principal, no entanto, ele não é transferido para o Adobe Commerce Marketplace ou para o Portal do desenvolvedor. Isso significa que a compra de uma extensão de uma conta subordinada no Marketplace não pode ser compartilhada com a conta principal. O acesso compartilhado é uma rua unidirecional (conta principal a ser subordinada). Ele não funciona quando uma conta subordinada está tentando compartilhar de volta com a conta principal.
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.paypal.com/us/home

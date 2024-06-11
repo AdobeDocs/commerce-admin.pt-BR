@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Revise as configurações no [!UICONTROL Security] &gt; [!UICONTROL 2FA] página do Administrador do Commerce.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | Global | O tempo de vida em segundos de cada OTP (one-time password - senha ocasional) gerada pelo Google Authenticator. Padrão: `30` |
+| [!UICONTROL OTP Window] | Global | Determina quanto tempo (em segundos) o sistema aceita a senha ocasional (OTP) de um administrador após a expiração. Não pode ser maior do que o tempo de vida de um único OTP (geralmente 30 segundos). Padrão: `29` |
 
 {style="table-layout:auto"}
 

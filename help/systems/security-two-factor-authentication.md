@@ -4,9 +4,9 @@ description: Saiba mais sobre o suporte à autenticação de dois fatores para g
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
+source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,11 @@ Conclua as configurações para cada método 2FA necessário.
 
 Para alterar por quanto tempo a senha ocasional (OTP) fica disponível durante a entrada, desmarque a caixa de seleção **[!UICONTROL Use system value]** caixa de seleção Em seguida, digite o número de segundos que deseja que o **[!UICONTROL OTP Window]** para ser válido.
 
+![Configuração de segurança - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+
 >[!NOTE]
 >
->No Adobe Commerce 2.4.7 e versões posteriores, a configuração da janela OTP controla por quanto tempo (em segundos) o sistema aceita a senha ocasional (OTP) de um administrador após sua expiração. Esse valor deve ser inferior a 30 segundos. A configuração padrão do sistema é `1`.<br><br> Na versão 2.4.6, a configuração da janela OTP determina o número de códigos OTP passados e futuros que permanecem válidos. Um valor de `1` indica que o código OTP atual mais um código no passado e um código no futuro permanecem válidos em qualquer momento específico.
+>No Adobe Commerce 2.4.7 e versões posteriores, a configuração da janela OTP controla por quanto tempo (em segundos) o sistema aceita a senha ocasional (OTP) de um administrador após sua expiração. Esse valor deve ser inferior a 30 segundos. A configuração padrão do sistema é `29`.<br><br> Na versão 2.4.6, a configuração da janela OTP determina o número de códigos OTP passados e futuros que permanecem válidos. Um valor de `1` indica que o código OTP atual mais um código no passado e um código no futuro permanecem válidos em qualquer momento específico.
 
 ### [!DNL Duo Security]
 

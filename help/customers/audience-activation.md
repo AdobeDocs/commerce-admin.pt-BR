@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
+source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 de maio de 2023_
 ![Novo](../assets/new.svg) - Atualização do [Painel de públicos da Real-Time CDP](#real-time-cdp-audiences-dashboard) para incluir a capacidade de classificar, pesquisar e filtrar os públicos-alvo ativos na sua instância do Adobe Commerce.
 
 +++
+
+### 2.2.0
+
+[!BADGE Compatibilidade]{type=Informative tooltip="Compatibilidade"}
+
+_12 de junho de 2024_
+
+![Novo](../assets/new.svg) - Versão do GA para [regras de produto relacionadas](../merchandising-promotions/product-related-rule-create.md) informados pelos públicos-alvo.
 
 ### 2.1.1
 
@@ -172,9 +180,11 @@ Com o [!DNL Audience Activation] extensão ativada, é possível:
 
 - [Criar uma regra de preço de carrinho](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) informado por públicos
 - [Criar um bloco dinâmico](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) informado por públicos
-- [(**Beta**) Criar uma regra de produto relacionada](../merchandising-promotions/product-related-rule-create.md) informado por públicos
+- [Criar uma regra de produto relacionada](../merchandising-promotions/product-related-rule-create.md) informado por públicos
 
-Para obter um caso de uso completo sobre como exportar [!DNL Commerce] para o Real-Time CDP, crie um público-alvo e ative-o para [!DNL Commerce], consulte [Crie um público-alvo no Real-Time CDP usando [!DNL Commerce] dados do evento](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>[!TIP]
+>
+>Para obter um caso de uso completo sobre como exportar [!DNL Commerce] para o Real-Time CDP, crie um público-alvo e ative-o para [!DNL Commerce], consulte [Crie um público-alvo no Real-Time CDP usando [!DNL Commerce] dados do evento](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## painel de públicos-alvo da Real-Time CDP
 
@@ -195,6 +205,7 @@ O painel contém os seguintes campos:
 | `Websites` | Indica quais sites estão configurados para usar os públicos-alvo. |
 | `Dynamic Blocks` | Indica quais blocos dinâmicos são configurados para usar os públicos-alvo. |
 | `Cart Price Rules` | Indica quais regras de preço do carrinho estão configuradas para usar os públicos-alvo. |
+| `Related Product Rules` | Indica quais regras de produto relacionadas são configuradas para usar os públicos. |
 | `Last updated` | Indica quando o público-alvo foi modificado no Real-Time CDP. |
 | `Sync now` | Recupera públicos novos ou atualizados da Real-Time CDP. |
 | `Customize table` | Permite mostrar ou ocultar as `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, e `Last updated` colunas. |

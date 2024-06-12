@@ -3,9 +3,9 @@ title: Criar uma regra de produto relacionada
 description: Saiba como criar uma regra de produto relacionada que pode ser acionada para exibir produtos relacionados, vendas adicionais e vendas cruzadas.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
+source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ O processo de criação de uma regra de produto relacionada é semelhante à con
 
    - Se a regra se aplicar a um [segmento de cliente](../customers/customer-segments.md), definir **[!UICONTROL Customer Segments]** para `Specified` e escolha o segmento do cliente na lista.
 
-   - (**Beta**) Se a regra se aplicar a um [Público-alvo do Real-Time CDP](../customers/audience-activation.md), definir **[!UICONTROL Real-Time CDP Audience]** para `Specified` e escolha o público-alvo da Real-Time CDP na lista. Esse recurso está na versão beta. Se você quiser participar do programa beta, envie uma solicitação para [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Se a regra se aplicar a um [Público-alvo do Real-Time CDP](../customers/audience-activation.md), definir **[!UICONTROL Real-Time CDP Audience]** para `Specified` e escolha o público-alvo da Real-Time CDP na lista. Esse recurso está na versão beta. Se você quiser participar do programa beta, envie uma solicitação para [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
      ![Regra de produtos relacionados - Público-alvo da Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
 

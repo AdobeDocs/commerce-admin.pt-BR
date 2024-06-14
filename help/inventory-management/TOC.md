@@ -4,10 +4,10 @@ user-guide-description: Saiba como usar o [!DNL Inventory Management] recursos p
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 10%
+source-wordcount: '137'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
    - [Seleção de origem e reservas](selection-reservations.md)
    - [Status da ordem e da reserva](order-status.md)
    - [Tipos de produto](product-types.md)
-- Introdução {#get-started}
+- Comece já {#get-started}
    - [Atualizações do Commerce](migrate.md)
    - [Instalar e atualizar](install-update.md)
    - [Fornecimento de comerciante](merchant-sourcing.md)
@@ -58,3 +58,5 @@ ht-degree: 10%
    - [Visão geral](shipments.md)
    - [Criar remessas](shipments-create.md)
 - [Referência da CLI](cli.md)
+- [Retornar aos Guias do comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

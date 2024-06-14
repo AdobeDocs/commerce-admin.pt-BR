@@ -3,10 +3,10 @@ title: Transferir uma conta do Commerce
 description: Saiba como transferir sua conta do Commerce para outro proprietário ou endereço de email.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: dd8ccda17b0ef83cb4b0ce130fdc9315026733b1
+source-git-commit: 59a88468dabfd1042b664f658225de2504b66b1b
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 1%
+source-wordcount: '986'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 À medida que as responsabilidades comerciais mudam, talvez seja necessário transferir a propriedade da conta existente do Commerce para um novo proprietário ou para outro endereço de email. Essa transferência requer uma alteração no email do usuário principal associado à conta.
 
-As informações a seguir descrevem o processo de transferência de uma conta do Commerce (MAGEID). Ela não inclui alterações na propriedade da conta na nuvem (projeto na nuvem). Para obter mais informações sobre o acesso aos projetos na nuvem, consulte [Gerenciar acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) no _Guia do Commerce na infraestrutura em nuvem_.
+As informações a seguir descrevem o processo de transferência de uma conta do Commerce (MAGEID). Não inclui alterações na propriedade da conta da nuvem (projeto na nuvem ou New Relic). Para obter mais informações sobre o acesso aos projetos na nuvem, consulte [Gerenciar acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) no _Guia da infraestrutura do Commerce na nuvem_.
 
 ## Identificar o tipo de transferência
 
@@ -30,7 +30,7 @@ A forma como você conclui essa transferência depende de qual dos seguintes cen
 
 >[!NOTE]
 >
->Como a Adobe Commerce continua a se integrar a outras soluções de Adobe, uma conta do Commerce (MAGEID) agora requer uma associação com um logon de Adobe. Esse Adobe ID usa o mesmo endereço de email conectado à sua conta do Commerce.
+>Como a Adobe Commerce continua a se integrar com outras soluções de Adobe, uma conta Commerce (MAGEID) agora requer uma associação com um logon de Adobe. Essa Adobe ID usa o mesmo endereço de email conectado à sua conta da Commerce.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Esse tipo de transferência requer que você primeiro crie uma Adobe ID associad
 
 1. Clique em **[!UICONTROL Continue]**.
 
-   Isso cria uma Adobe ID e a vincula à conta atual do Commerce (MAGEID). Com esse link de conta, a variável _[!UICONTROL Email]_está bloqueado contra quaisquer alterações. O endereço de email associado é gerenciado pela conta do Adobe ID.
+   Isso cria uma Adobe ID e a vincula à conta atual da Commerce (MAGEID). Com esse link de conta, a variável _[!UICONTROL Email]_está bloqueado contra quaisquer alterações. O endereço de email associado é gerenciado pela conta do Adobe ID.
 
 1. Navegue até [account.adobe.com](https://account.adobe.com/).
 

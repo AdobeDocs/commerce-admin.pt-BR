@@ -3,9 +3,9 @@ title: Relatórios de cliente
 description: Os relatórios do cliente disponíveis no Adobe Commerce e no Magento Open Source fornecem informações sobre a atividade do cliente durante um período ou intervalo de datas especificado.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,8 @@ No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Custo
 | [!UICONTROL Interval] | O intervalo total da ordem, por `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | O nome do cliente que fez os pedidos. |
 | [!UICONTROL Orders] | O número de pedidos para o intervalo especificado. |
-| [!UICONTROL Average] | Valor médio do pedido. |
-| [!UICONTROL Total] | A soma de todas as ordens do período. |
+| [!UICONTROL Average] | Valor médio do pedido. Esse valor é sempre calculado para os preços do produto **excluindo imposto** mesmo que os preços de produtos do catálogo, o subtotal do pedido e o total do pedido incluam imposto. Como resultado, o valor exibido no relatório é diferente do valor exibido nos detalhes da ordem nos casos em que os totais da ordem incluem imposto. |
+| [!UICONTROL Total] | A soma de todas as ordens do período. Esse valor é sempre calculado para os preços do produto **excluindo imposto** mesmo que os preços de produtos do catálogo, o subtotal do pedido e o total do pedido incluam imposto. Como resultado, o total exibido no relatório é diferente do valor exibido nos detalhes da ordem nos casos em que os totais da ordem incluem imposto. |
 
 {style="table-layout:auto"}
 
@@ -73,8 +73,8 @@ No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Custo
 | [!UICONTROL Interval] | O intervalo de contagem da ordem, por `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | O cliente que fez o pedido. |
 | [!UICONTROL Orders] | O número de pedidos para o intervalo especificado. |
-| [!UICONTROL Average] | Valor médio do pedido. |
-| [!UICONTROL Total] | A soma de todas as ordens do período. |
+| [!UICONTROL Average] | Valor médio do pedido. Esse valor é sempre calculado para os preços do produto **excluindo imposto** mesmo que os preços de produtos do catálogo, o subtotal do pedido e o total do pedido incluam imposto. Como resultado, o valor exibido no relatório é diferente do valor exibido nos detalhes da ordem nos casos em que os totais da ordem incluem imposto. |
+| [!UICONTROL Total] | A soma de todas as ordens do período. Esse valor é sempre calculado para os preços do produto **excluindo imposto** mesmo que os preços de produtos do catálogo, o subtotal do pedido e o total do pedido incluam imposto. Como resultado, o total exibido no relatório é diferente do valor exibido nos detalhes da ordem nos casos em que os totais da ordem incluem tarefas. |
 
 {style="table-layout:auto"}
 

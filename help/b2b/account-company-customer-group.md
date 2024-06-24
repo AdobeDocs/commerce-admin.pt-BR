@@ -4,9 +4,9 @@ description: Saiba como atribuir um grupo de clientes a uma conta de empresa em 
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: a5a8da076d6cd91eb6c3e573fec5b3fb9d2d3341
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ Atribuir um grupo de clientes a uma empresa é basicamente o mesmo que atribuir 
    >A variável [!UICONTROL Customer Group] inclui todos os catálogos compartilhados existentes, mesmo se os Catálogos compartilhados estiverem desativados na configuração.
 
    Alterar o grupo de clientes atribuído à empresa atualiza os perfis de todos os membros da empresa.
+
+   >[!NOTE]
+   >
+   >Depois de alterar o grupo de empresas, um usuário da empresa deve fazer logoff e logon na Loja para ver os novos preços no catálogo.
 
    ![Alterar grupo de clientes ou catálogo compartilhado](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 

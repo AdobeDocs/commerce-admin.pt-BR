@@ -3,9 +3,9 @@ title: Compartilhar um [!DNL Commerce] account
 description: Saiba como conceder acesso limitado ao [!DNL Commerce] conta para outro [!DNL Commerce] titulares de contas.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 1bf75814ed292a4623b934910026f9fb127058be
+source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ A variável [!DNL Commerce] A equipe de suporte não tem acesso à conta e não 
    As novas informações do usuário aparecem na variável _[!UICONTROL Manage Permissions]_da página Acesso compartilhado, e um convite por email com instruções para acessar a conta compartilhada é enviado ao novo usuário.
 
    ![Gerenciar permissões para acesso compartilhado](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Não é necessário compartilhar o acesso à _[!UICONTROL Security Tool]_- Qualquer usuário com uma ID do MAGE pode configurar a Ferramenta de verificação de segurança com sua própria conta. Eles só precisam dos privilégios necessários para fazer alterações no site e verificar a propriedade do domínio usando um dos [métodos obrigatórios](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
 
 ## Acessar uma conta compartilhada
 

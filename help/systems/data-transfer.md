@@ -3,9 +3,9 @@ title: Transferência de dados
 description: Saiba mais sobre o suporte para transferência de dados, incluindo validação de dados.
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: ae3bb3463df13c30ce34739bb6e476d3f7422671
+source-git-commit: b89d6b08d0559dc769a8c51570696f033f23c7f3
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,10 @@ Use as ferramentas de importação e exportação para gerenciar vários registr
 
 Por exemplo, você pode adicionar novos produtos ao inventário, atualizar dados de produtos e dados avançados de preços e substituir um conjunto de produtos existentes por novos produtos. As ferramentas de importação e exportação ajudam a gerenciar grandes catálogos de produtos com mais eficiência, pois você pode exportar os dados, editá-los em uma planilha e importá-los de volta para sua loja em vez de executar várias operações no Administrador.
 
-Além das ferramentas de importação e exportação, o Adobe Commerce tem processos como [Exportação de dados SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) que exportam dados do produto do servidor do Commerce para serviços SaaS. A exportação de dados SaaS é integrada aos serviços SaaS da Commerce, incluindo [Recommendations do produto](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), [Serviço de catálogo](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview), e [Indexação de preços SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/price-indexer/price-indexing).
+
+>[!NOTE]
+>
+>A Adobe Commerce também oferece suporte à exportação de dados SaaS para transferir dados do produto do servidor Commerce para os serviços SaaS. A exportação de dados SaaS é integrada aos serviços SaaS da Commerce, incluindo [Recommendations do produto](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), e [Serviço de catálogo](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Para obter detalhes, consulte [Guia de exportação de dados SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ## Validação de dados
 

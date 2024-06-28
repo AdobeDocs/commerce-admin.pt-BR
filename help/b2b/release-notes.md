@@ -3,7 +3,7 @@ title: '[!DNL Adobe Commerce B2B] notas de versão'
 description: Revise as notas de versão para obter informações sobre alterações no [!DNL Adobe Commerce B2B] versões.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 17eec4e7755ce4e83fb0533940bdce6c96ddc717
+source-git-commit: 35402eda770e59cc2862b204e6e54b55190ded13
 workflow-type: tm+mt
 source-wordcount: '6867'
 ht-degree: 0%
@@ -68,7 +68,7 @@ A versão B2B v1.5.0-beta inclui novos recursos, melhorias de qualidade e corre�
 
 [!BADGE Compatível]{type=Informative tooltip="Compatível"}
 
-![Novo](../assets/new.svg) Compatibilidade adicionada com as versões de patch de segurança 2.4.7-p1 e 2.4.6-p6 do Adobe Commerce.
+![Novo](../assets/new.svg) Adição de compatibilidade com as versões de patch de segurança do Adobe Commerce 2.4.7-p1+ e 2.4.6-p6+.
 
 
 ## B2B v1.4.2

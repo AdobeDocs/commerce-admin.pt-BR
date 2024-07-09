@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Saiba mais sobre o [!DNL Commerce Marketplace], que oferece aos comerciantes uma seleção de soluções com curadoria e fornece aos desenvolvedores qualificados as ferramentas, a plataforma e o local ideal para criar um negócio próspero.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
+source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,12 @@ Os seguintes recursos fornecem um ponto de partida para que os novos participant
 - [Configuração do SDK da interface do administrador](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Conversão de uma extensão em um aplicativo](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### Recursos do Construtor de aplicativos
+### Recursos do App Builder
 
-- [Visão geral do Construtor de aplicativos Commerce](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Configuração da malha de API para o Construtor de aplicativos do Adobe Developer](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [Implantar aplicativos do App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/)
-- [CI/CD para aplicativos do App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+- [Visão geral do Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
+- [Configuração da malha de API para o Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
+- [Implantação de aplicativos do App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/)
+- [CI/CD para aplicativos App Builder](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - Introdução ao App Builder/Developer Console
    - [Introdução ao App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
    - [Noções básicas sobre projetos e espaços de trabalho](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
@@ -85,7 +85,7 @@ O processo de instalação do [!DNL Marketplace] compras é diferente para _no l
 
 ## Suporte
 
-Se precisar de ajuda com a instalação do ou com o uso de uma extensão, verifique primeiro na documentação que acompanha a extensão. Se não conseguir encontrar a resposta para sua pergunta, use as informações de contato na lista de extensões para entrar em contato diretamente com o desenvolvedor. Se o que você comprar no Marketplace não atender às suas necessidades, você poderá [solicitar reembolso](#refund-requests) no prazo de 25 dias a contar da data de compra. A Adobe revisa todas as solicitações de reembolso e (se aprovada) emite o reembolso apropriado. Para questões de suporte relacionadas ao Commerce Marketplace, consulte [[!DNL Marketplace] Centro de ajuda][5].
+Se precisar de ajuda com a instalação do ou com o uso de uma extensão, verifique primeiro na documentação que acompanha a extensão. Se não conseguir encontrar a resposta para sua pergunta, use as informações de contato na lista de extensões para entrar em contato diretamente com o desenvolvedor. Se o que você comprar no Marketplace não atender às suas necessidades, você poderá [solicitar reembolso](#refund-requests) no prazo de 25 dias a contar da data de compra. A Adobe revisa todas as solicitações de reembolso e (se aprovada) emite o reembolso apropriado. Para problemas relacionados ao Commerce Marketplace, entre em contato com [Suporte](mailto:commercemarketplacesupport@adobe.com).
 
 ### Problemas de check-out
 
@@ -139,5 +139,4 @@ Essas permissões especiais concedem o mesmo nível de acesso ao Adobe Commerce 
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[5]: https://marketplacesupport.magento.com/hc/en-us
 [6]: https://business.adobe.com/products/magento/magento-commerce.html

@@ -1,22 +1,22 @@
 ---
 title: Lista de produtos
-description: Saiba mais sobre o _[!UICONTROL Products]_ página no Admin, onde é possível criar produtos e editar os existentes.
+description: Saiba mais sobre a página _[!UICONTROL Products]_ no Admin, onde você pode criar produtos e editar os existentes.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Lista de produtos
 
-Todos os produtos no catálogo podem ser acessados no _[!UICONTROL Products]_no Admin, onde é possível criar produtos e editar os existentes. Para uma instalação em vários sites, cada site pode oferecer uma seleção diferente de produtos para venda no mesmo catálogo.
+Todos os produtos no catálogo podem ser acessados na página _[!UICONTROL Products]_do Administrador, onde você pode criar produtos e editar os existentes. Para uma instalação em vários sites, cada site pode oferecer uma seleção diferente de produtos para venda no mesmo catálogo.
 
-A variável _[!UICONTROL Products]_A lista inclui todos os produtos no catálogo, indica os sites nos quais eles estão disponíveis e se estão habilitados para venda no momento. Nas instalações B2B do Adobe Commerce com [catálogos compartilhados](../b2b/catalog-shared.md) ativada, a grade inclui uma coluna que indica quais produtos têm preços de desconto alternativos em um catálogo compartilhado.
+A lista _[!UICONTROL Products]_inclui todos os produtos no catálogo, indica os sites em que eles estão disponíveis e se estão habilitados para venda no momento. Em instalações B2B do Adobe Commerce com [catálogos compartilhados](../b2b/catalog-shared.md) habilitados, a grade inclui uma coluna que indica quais produtos têm preços de desconto alternativos em um catálogo compartilhado.
 
-Você pode navegar pela página da lista por página ou pesquisar por produtos específicos. Usar o padrão [controles](../getting-started/admin-grid-controls.md) para classificar e filtrar a lista, e aplicar [ações](../getting-started/admin-actions-control.md) para produtos selecionados.
+Você pode navegar pela página da lista por página ou pesquisar por produtos específicos. Use os [controles](../getting-started/admin-grid-controls.md) padrão para classificar e filtrar a lista e aplicar [ações](../getting-started/admin-actions-control.md) aos produtos selecionados.
 
 ![Grade de produtos](./assets/products-grid.png){width="700" zoomable="yes"}
 
@@ -34,21 +34,21 @@ Essa configuração da limitação de exibição do produto é desabilitada por 
 
 >[!NOTE]
 >
->Se você não quiser que a grade de produtos seja limitada, use filtros com mais precisão para produzir uma coleção com menos itens do que o número especificado no _[!UICONTROL Records Limit]_campo.
+>Se não quiser que a grade de produtos seja limitada, use filtros com mais precisão para produzir uma coleção com menos itens do que o número especificado no campo _[!UICONTROL Records Limit]_.
 
 **_Para configurar a limitação de exibição do produto:_**
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Expandir **[!UICONTROL Advanced]** e escolha **[!UICONTROL Admin]**.
+1. Expanda **[!UICONTROL Advanced]** e escolha **[!UICONTROL Admin]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Admin Grids]** e faça o seguinte:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Admin Grids]** e faça o seguinte:
 
-   - Definir **[!UICONTROL Limit Number of Products in Grid]** para `Yes`.
+   - Defina **[!UICONTROL Limit Number of Products in Grid]** como `Yes`.
 
    - (Opcional) Insira um valor no campo **[!UICONTROL Records Limit]** para limitar o número de produtos na grade a um valor específico. O valor mínimo padrão é `20000`.
 
-   ![Definições da configuração de grades de administração](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
+   ![Configurações de grades de administração](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
@@ -70,7 +70,7 @@ Essa configuração da limitação de exibição do produto é desabilitada por 
 
 | Coluna | Descrição |
 |--- |--- |
-| (Caixa de seleção) | Seleciona vários registros para serem sujeitos a uma ação. A caixa de seleção na primeira coluna de cada registro selecionado está marcada. Opções: <br/>**[!UICONTROL Select All]**- Seleciona todos os registros encontrados que correspondem às configurações de filtro atuais.<br/>**[!UICONTROL Select All on This Page]** - Seleciona apenas os registros encontrados na página atual que correspondem às configurações de filtro. |
+| (Caixa de seleção) | Seleciona vários registros para serem sujeitos a uma ação. A caixa de seleção na primeira coluna de cada registro selecionado está marcada. Opções: <br/>**[!UICONTROL Select All]**- Seleciona todos os registros encontrados que correspondem às configurações de filtro atuais.<br/>**[!UICONTROL Select All on This Page]** - Seleciona somente os registros encontrados na página atual que correspondem às configurações de filtro. |
 | [!UICONTROL ID] | Um número sequencial exclusivo atribuído quando um novo produto é salvo pela primeira vez. |
 | [!UICONTROL Thumbnail] | Exibe uma miniatura da imagem principal do produto. |
 | [!UICONTROL Name] | O nome do produto. |
@@ -83,8 +83,9 @@ Essa configuração da limitação de exibição do produto é desabilitada por 
 | [!UICONTROL Visibility] | Indica onde o produto está visível no catálogo. Opções: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
 | [!UICONTROL Status] | Indica o status do produto. Opções: `Enabled` e `Disabled` |
 | [!UICONTROL Websites] | Indica os sites nos quais o produto está disponível. |
+| [!UICONTROL Remote Media URL] | Se os ativos de mídia do produto forem gerenciados usando a [Integração do AEM Assets para Commerce](../content-design/aem-assets.md), esse campo exibirá a URL para exibir o ativo do Commerce AEM no armazenamento do Gerenciamento de ativos digitais do, o repositório centralizado onde os ativos são mantidos. Esse campo é exibido somente se a integração do AEM Assets estiver habilitada. |
 | [!UICONTROL Action] | Abre o produto no modo Editar. |
-| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com [Adobe Commerce B2B](./b2b/../introduction.md) somente) Indica os catálogos compartilhados que contêm preços personalizados para o produto. |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com [Adobe Commerce B2B](./b2b/../introduction.md)) Indica os catálogos compartilhados que contêm preços personalizados para o produto. |
 
 {style="table-layout:auto"}
 

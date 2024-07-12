@@ -3,10 +3,10 @@ user-guide-title: Guia de design e conteúdo
 user-guide-description: Informações abrangentes sobre conteúdo e recursos de design para administradores de Adobe Commerce e Magento Open Source e profissionais de marketing de eCommerce.
 breadcrumb-title: Conteúdo e design
 feature: CMS, Page Content
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 4%
+source-wordcount: '232'
+ht-degree: 3%
 
 ---
 
@@ -63,6 +63,13 @@ ht-degree: 4%
       - [Usar um banco de dados de mídia](media-storage-database.md)
       - [Usar uma rede de entrega de conteúdo](media-storage-content-delivery-network.md)
       - [URLs de mídia dinâmica](catalog-urls-dynamic-media.md)
+   - Experience Manager Assets {#aem-assets}
+      - [Integração do Assets](aem-assets.md)
+      - Integração de {#onboarding}
+         - [Configurar AEM Assets](aem-assets-configure-aem.md)
+         - [Configurar Adobe Commerce](aem-assets-configure-commerce.md)
+         - [Configurar serviços de sincronização](aem-assets-setup-synchronization.md)
+      - [Usar o AEM Assets](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Integração do Adobe Stock](adobe-stock.md)
       - [Usar imagens do Adobe Stock](adobe-stock-manage.md)
@@ -79,5 +86,5 @@ ht-degree: 4%
    - [Painel de preparo](content-staging-dashboard.md)
    - [Adicionar um item de campanha](content-staging-add-item.md)
    - [Visualizar uma campanha](content-staging-preview.md)
-- [Retornar aos Guias do comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retornar aos Guias do Comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -1,24 +1,24 @@
 ---
 title: O URL da página de conteúdo reescreve
-description: Saiba como usar substituições de URL de página de conteúdo para redirecionar links para o URL de outra página de conteúdo na sua loja do Commerce.
+description: Saiba como usar substituições de URL de página de conteúdo para redirecionar links para o URL de outra página de conteúdo na loja do Commerce.
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
 # O URL da página de conteúdo reescreve
 
-Antes de começar, verifique se você entende exatamente o que o redirecionamento deve realizar. Pense em termos de _público alvo_ / _origem_ ou _redirecionar para_ / _redirecionar de_. Embora as pessoas ainda possam navegar para a página anterior a partir de mecanismos de pesquisa ou links desatualizados, o redirecionamento faz com que sua loja alterne para o novo público-alvo.
+Antes de começar, verifique se você entende exatamente o que o redirecionamento deve realizar. Pense em termos de _destino_ / _origem_ ou _redirecionar para_ / _redirecionar de_. Embora as pessoas ainda possam navegar para a página anterior a partir de mecanismos de pesquisa ou links desatualizados, o redirecionamento faz com que sua loja alterne para o novo público-alvo.
 
-![Substituições de URL - Página CMS](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
+![substituições de URL - página CMS](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## Etapa 1. Planejar a reescrita
 
-Para evitar erros, anote a chave do URL do _redirecionar para_ página e _redirecionar de_ página.
+Para evitar erros, anote a chave de URL da página _redirecionar para a página_ e a página _redirecionar da página_.
 
 Caso não tenha certeza, abra cada página em seu armazenamento e copie o caminho da barra de endereços do navegador.
 
@@ -32,11 +32,11 @@ Redirecionar de: `old-page`
 
 {{url-rewrite-params}}
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
 
 1. Antes de continuar, faça o seguinte para verificar se o caminho da solicitação está disponível.
 
-   - No filtro de pesquisa, na parte superior da guia **[!UICONTROL Request Path]** insira a chave do URL da página que deve ser redirecionada e clique em **[!UICONTROL Search]**.
+   - No filtro de pesquisa na parte superior da coluna **[!UICONTROL Request Path]**, digite a chave da URL da página que deve ser redirecionada e clique em **[!UICONTROL Search]**.
 
    - Se houver vários registros de redirecionamento para a página, localize aquele que corresponde à exibição de loja aplicável e abra-o no modo de edição.
 
@@ -44,7 +44,7 @@ Redirecionar de: `old-page`
 
 1. Ao retornar para a página Regravações de URL, clique em **[!UICONTROL Add URL Rewrite]**.
 
-1. Definir **[!UICONTROL Create URL Rewrite]** para `for CMS page`.
+1. Defina **[!UICONTROL Create URL Rewrite]** como `for CMS page`.
 
 1. Encontre sua nova página de destino na grade e abra no modo de edição.
 
@@ -52,27 +52,27 @@ Redirecionar de: `old-page`
 
 1. Em Informações de regravação de URL, faça o seguinte:
 
-   - Se você tiver várias exibições de loja, selecione a variável **[!UICONTROL Store]** onde a regravação se aplica.
+   - Se você tiver vários modos de exibição de armazenamento, selecione o **[!UICONTROL Store]** ao qual a regravação se aplica.
 
-   - Para **[!UICONTROL Request Path]**, insira a chave do URL da página original que o cliente solicita. Este é o _redirecionar de_ página.
+   - Para **[!UICONTROL Request Path]**, insira a chave da URL da página original solicitada pelo cliente. Este é o _redirecionamento da_ página.
 
      >[!NOTE]
      >
      >O Caminho da solicitação deve ser exclusivo para o armazenamento especificado. Se já houver um redirecionamento que use o mesmo Caminho da solicitação, você receberá um erro ao tentar salvar o redirecionamento. O redirecionamento anterior precisa ser excluído para que você possa criar um.
 
-   - Definir **[!UICONTROL Redirect]** a um dos seguintes:
+   - Defina **[!UICONTROL Redirect]** como um dos seguintes:
 
       - `Temporary (302)`
       - `Permanent (301)`
 
    - Para sua referência, informe uma breve descrição da reescrita.
 
-   ![Informações de regravação de URL](./assets/url-rewrite-cms-page-information.png){width="600" zoomable="yes"}
+   ![informações sobre regravação de URL](./assets/url-rewrite-cms-page-information.png){width="600" zoomable="yes"}
 
 1. Antes de salvar o redirecionamento, revise o seguinte:
 
    - O link no canto superior esquerdo exibe o nome da página de destino.
-   - O Caminho da solicitação contém o caminho para o original _redirecionar de_ página.
+   - O Caminho da Solicitação contém o caminho para o _redirecionamento original da página_.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
@@ -84,8 +84,8 @@ Redirecionar de: `old-page`
 
 1. Siga um destes procedimentos:
 
-   - Navegar até o original _redirecionar de_ página.
-   - Na barra de endereços do navegador, digite o nome do original _redirecionar de_ imediatamente após o URL de armazenamento e pressione **Enter**.
+   - Navegue até a página _original de_.
+   - Na barra de endereços do navegador, digite o nome do _redirecionamento original da página_ imediatamente após a URL de armazenamento e pressione **Enter**.
 
    A nova página de destino é exibida em vez da solicitação da página original.
 

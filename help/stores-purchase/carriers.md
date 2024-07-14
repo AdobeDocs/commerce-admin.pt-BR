@@ -5,7 +5,7 @@ exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ Se você tiver uma conta comercial com uma operadora compatível, poderá oferec
 
 >[!NOTE]
 >
->Consulte [Commerce Marketplace](../getting-started/commerce-marketplace.md) para obter serviços de envio adicionais para a instalação do Commerce.
+>Consulte [Commerce Marketplace](../getting-started/commerce-marketplace.md) para obter serviços de envio adicionais para a sua instalação do Commerce.
 
 Antes de oferecer aos clientes uma seleção de transportadoras, você deve concluir as seguintes etapas:
 
-- Configure o [configurações de envio](shipping-settings.md) para determinar o ponto de origem do seu armazenamento.
+- Defina as [configurações de envio](shipping-settings.md) para estabelecer o ponto de origem do seu armazenamento.
 
 - Defina as configurações para cada serviço de operadora que deseja oferecer.
 
-   - [**UPS**](ups.md)  - A United Parcel Service (UPS) oferece serviços de transporte nacional e internacional por terra e ar para mais de 220 países.
+   - [**UPS**](ups.md) - O United Parcel Service (UPS) oferece serviços de envio doméstico e internacional por terra e ar para mais de 220 países.
    - [**USPS**](usps.md) - O Serviço Postal dos Estados Unidos (USPS) é o serviço postal independente do governo dos Estados Unidos. O USPS oferece serviços de transporte nacional e internacional por terra e ar.
-   - [**FedEx**](fedex.md) - A FedEx oferece serviços de transporte nacional e internacional por via terrestre e aérea para mais de 220 países.
-   - [**DHL**](dhl.md) - A DHL oferece serviços internacionais integrados e soluções personalizadas voltadas para o cliente para gerenciamento e transporte de cartas, mercadorias e informações.
+   - [**FedEx**](fedex.md) - A FedEx oferece serviços de envio doméstico e internacional por terra e ar para mais de 220 países.
+   - [**DHL**](dhl.md) - A DHL oferece serviços internacionais integrados e soluções personalizadas voltadas para o cliente, para gerenciamento e transporte de cartas, mercadorias e informações.
 
 ## Peso dimensional
 

@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 source-git-commit: 6ec075d9cbce41ebc056e631b1ae7b4f2749c161
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,16 @@ Crie uma hierarquia de empresa na página Detalhes da empresa.
 
 ## Abra a página Detalhes da empresa
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Abra a página de detalhes da empresa na grade Empresas para a empresa principal selecionando o **[!UICONTROL Edit]** ação.
+1. Abra a página de detalhes da empresa na grade Empresas da empresa principal selecionando a ação **[!UICONTROL Edit]**.
 
 Consulte a [Gerenciar contas da empresa](account-company-manage.md) para obter mais informações sobre a grade Empresas.
 
 ## [!UICONTROL Company Hierarchy]
 
-Na criação inicial da empresa, a variável [!UICONTROL Company Hierarchy] A grade fica vazia quando você a expande. Depois que uma empresa é criada, os usuários administradores com as permissões apropriadas podem usar o [!UICONTROL Company Hierarchy] para criar uma organização da empresa principal editando a empresa principal designada e atribuindo empresas relacionadas.
+Na criação inicial da empresa, a grade [!UICONTROL Company Hierarchy] fica vazia quando você a expande. Depois que uma empresa é criada, os usuários administradores com as permissões apropriadas podem usar o [!UICONTROL Company Hierarchy] para criar uma organização de empresa principal editando a empresa principal designada e atribuindo empresas relacionadas.
 
 ![Grade de Hierarquia de Empresas](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-Consulte [atribuir e cancelar atribuição de empresas](assign-companies.md) para obter mais informações sobre as ações disponíveis no [!UICONTROL Company Hierarchy] grade.
+Consulte [atribuir e cancelar atribuição de empresas](assign-companies.md) para obter mais informações sobre ações disponíveis na grade [!UICONTROL Company Hierarchy].

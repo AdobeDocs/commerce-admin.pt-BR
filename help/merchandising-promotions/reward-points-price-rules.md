@@ -18,15 +18,15 @@ Os pontos de recompensa podem ser concedidos aos clientes de acordo com uma [reg
 
 >[!NOTE]
 >
->[Taxas de câmbio de recompensa](reward-exchange-rates.md) A configuração do é necessária para o resgate de pontos de recompensa por clientes e usuários administradores durante o check-out.
+>A configuração [Taxas de Câmbio de Recompensa](reward-exchange-rates.md) é necessária para o resgate de pontos de recompensa por clientes e usuários administradores durante o check-out.
 
 ## Adicionar pontos de premiação a uma regra de preço
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
 
 1. Clique em **[!UICONTROL Add New Rule]** para criar uma regra de preço do carrinho ou clique em uma regra de preço do carrinho existente para abri-la.
 
-1. Rolar para baixo, expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Actions]** defina as condições e insira o número de pontos no campo **[!UICONTROL Add Reward Points]** campo.
+1. Role para baixo, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Actions]**, defina as condições e insira o número de pontos no campo **[!UICONTROL Add Reward Points]**.
 
    ![Regra de preço do carrinho - pontos de premiação](./assets/reward-points-price-rule-actions.png){width="600" zoomable="yes"}
 

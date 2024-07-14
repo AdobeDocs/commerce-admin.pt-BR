@@ -6,46 +6,46 @@ role: Admin, Developer
 feature: System, Integration, Configuration
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # Integrações
 
-Definir uma integração no Administrador do Commerce estabelece o local das credenciais do OAuth e o URL de redirecionamento para integrações de terceiros e identifica os recursos de API disponíveis necessários para a integração. Para obter informações mais detalhadas sobre o processo de registro da integração, consulte [Autenticação baseada em OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) na documentação do desenvolvedor do Commerce.
+A definição de uma integração no Administrador do Commerce estabelece a localização das credenciais do OAuth e o URL de redirecionamento para integrações de terceiros e identifica os recursos de API disponíveis que são necessários para a integração. Para obter informações mais detalhadas sobre o processo de registro da integração, consulte [Autenticação baseada em OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) na documentação do desenvolvedor do Commerce.
 
 ![Integrações](./assets/integrations.png){width="700" zoomable="yes"}
 
 ## Fluxo de trabalho de integração
 
-1. **Autorizar a integração** - Vá para a página **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**encontre a integração relevante e autorize.
+1. **Autorizar a integração** - Vá para a página **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**, localize a integração relevante e autorize.
 1. **Verificar e estabelecer logon** - Quando solicitado, aceite o acesso solicitado. Se redirecionado a terceiros, faça logon no sistema ou crie uma conta. Após um logon bem-sucedido, você retorna à página de integração.
 1. **Receber confirmação de integração autorizada** - O sistema envia uma notificação de que a integração foi autorizada com êxito. Depois de configurar uma integração e receber as credenciais, não é mais necessário fazer chamadas para acessar ou solicitar tokens.
 
 ## Adicionar uma integração
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
 
    ![Nova integração](./assets/integration-new.png){width="600" zoomable="yes"}
 
 1. Insira as seguintes informações de integração:
 
-   - Insira o **[!UICONTROL Name]** da integração e do contato **[!UICONTROL Email]** endereço.
+   - Insira o **[!UICONTROL Name]** da integração e o endereço **[!UICONTROL Email]** do contato.
 
-   - Insira o **[!UICONTROL Callback URL]** onde as credenciais do OAuth podem ser enviadas ao usar o OAuth para troca de tokens. Usar `https://` é altamente recomendável.
+   - Insira o **[!UICONTROL Callback URL]** para onde as credenciais do OAuth podem ser enviadas ao usar o OAuth para troca de token. É altamente recomendado usar `https://`.
 
-   - Insira o **[!UICONTROL Identity Link URL]** para redirecionar os usuários para uma conta de terceiros com essas credenciais de integração do Adobe Commerce ou Magento Open Source.
+   - Digite o **[!UICONTROL Identity Link URL]** para redirecionar os usuários para uma conta de terceiros com essas credenciais de integração do Adobe Commerce ou Magento Open Source.
 
    >[!NOTE]
    >
-   > A variável `Integration not secure` o rótulo de aviso é exibido próximo a cada nome de integração no [!UICONTROL Integrations] grade como lembrete, até que os URLs HTTPS sejam salvos em [!UICONTROL Callback URL] e [!UICONTROL Identity Link URL] campos.
+   > O rótulo de aviso `Integration not secure` é exibido próximo a cada nome de integração na grade [!UICONTROL Integrations] como lembrete, até que as URLs HTTPS sejam salvas nos campos [!UICONTROL Callback URL] e [!UICONTROL Identity Link URL].
 
    - Quando solicitado, digite sua senha para confirmar sua identidade.
 
 1. No painel esquerdo, escolha **[!UICONTROL API]** e faça o seguinte:
 
-   - Definir **[!UICONTROL Resource Access]** a um dos seguintes:
+   - Defina **[!UICONTROL Resource Access]** como um dos seguintes:
 
       - `All`
       - `Custom`
@@ -58,11 +58,11 @@ Definir uma integração no Administrador do Commerce estabelece o local das cre
 
 ## Ativar uma integração
 
-Por padrão, uma integração salva é exibida na grade com uma tag `Inactive` status. Para ativá-la, conclua as seguintes etapas:
+Por padrão, uma integração salva é exibida na grade com um status `Inactive`. Para ativá-la, conclua as seguintes etapas:
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
 
-1. Encontre a integração recém-criada e clique no link **[!UICONTROL Activate]** link.
+1. Localize a integração recém-criada e clique no link **[!UICONTROL Activate]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Allow]**.
 
@@ -76,11 +76,11 @@ Por padrão, uma integração salva é exibida na grade com uma tag `Inactive` s
 
 Para gerar um novo Token de acesso de integração e Segredo do Token de acesso, a integração do Administrador foi reautorizada:
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
 
-1. Encontre a integração com o **[!UICONTROL Active]** status.
+1. Encontre a integração com o status **[!UICONTROL Active]**.
 
-1. Entrada _[!UICONTROL Activate]_clique no link **[!UICONTROL Reauthorize]**.
+1. Na coluna _[!UICONTROL Activate]_, clique em **[!UICONTROL Reauthorize]**.
 
 1. Clique em **[!UICONTROL Reauthorize]** para aprovar o acesso aos recursos da API.
 
@@ -90,24 +90,24 @@ Para gerar um novo Token de acesso de integração e Segredo do Token de acesso,
 
 Por padrão, o sistema não permite acesso de convidado anônimo ao CMS, ao catálogo e a outros recursos de armazenamento. Se precisar alterar a configuração, faça o seguinte:
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Services]** e escolha **[!UICONTROL Magento Web API]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Web API Security Setting]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Web API Security Setting]**.
 
-   ![Configuração de serviços - Configurações de segurança da API da Web](../configuration-reference/services/assets/web-api-security.png){width="600" zoomable="yes"}
+   ![Configuração de serviços - configurações de segurança da API da Web](../configuration-reference/services/assets/web-api-security.png){width="600" zoomable="yes"}
 
-1. Definir **[!UICONTROL Allow Anonymous Guest Access]** para `Yes`.
+1. Defina **[!UICONTROL Allow Anonymous Guest Access]** como `Yes`.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
-Para obter informações adicionais, consulte [Restrição do acesso a APIs anônimas da Web](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/) na documentação do desenvolvedor do Commerce.
+Para obter mais informações, consulte [Restrição de acesso a APIs da Web anônimas](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/) na documentação para desenvolvedores do Commerce.
 
 ## Excluir uma integração
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**.
 
-1. Encontre a integração existente e clique no ícone ( ). ![ícone de lixeira](../assets/icon-delete-trashcan-solid.png) ) no **[!UICONTROL Delete]** coluna.
+1. Localize a integração existente e clique no ícone ( ![ícone da lixeira](../assets/icon-delete-trashcan-solid.png) ) na coluna **[!UICONTROL Delete]**.
 
-1. Para confirmar a ação, clique em **[!UICONTROL OK]**.
+1. Para confirmar sua ação, clique em **[!UICONTROL OK]**.

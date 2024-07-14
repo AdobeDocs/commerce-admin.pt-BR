@@ -5,14 +5,14 @@ exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 # Tags de marcação
 
-Uma tag de marcação é uma diretiva que contém um trecho de código com uma referência relativa a um objeto no armazenamento, como uma variável, URL, imagem ou bloco. As tags de marcação podem ser usadas em qualquer lugar em que o editor estiver disponível e incorporado no HTML de [email](email-templates.md) e [informativo](../merchandising-promotions/newsletter-template.md) bem como outros tipos de [conteúdo](../content-design/introduction.md#content).
+Uma tag de marcação é uma diretiva que contém um trecho de código com uma referência relativa a um objeto no armazenamento, como uma variável, URL, imagem ou bloco. As marcas de marcação podem ser usadas em qualquer lugar em que o editor estiver disponível e incorporado ao HTML dos modelos de [email](email-templates.md) e [informativo](../merchandising-promotions/newsletter-template.md), bem como a outros tipos de [conteúdo](../content-design/introduction.md#content).
 
 As tags de marcação são colocadas entre chaves e duplas e podem ser geradas pela ferramenta Widget ou digitadas diretamente no conteúdo HTML. Por exemplo, em vez de codificar o caminho completo para uma página, você pode usar uma tag de marcação para representar a URL de armazenamento. As tags de marcação apresentadas nos exemplos a seguir incluem:
 
@@ -20,13 +20,13 @@ As tags de marcação são colocadas entre chaves e duplas e podem ser geradas p
 
 ## Variável personalizada
 
-A tag de marcação Variável pode ser usada para inserir um [variável personalizada](variables-custom.md) em um modelo de email, blocos, informativos e páginas de conteúdo.
+A marca de marcação Variável pode ser usada para inserir uma [variável personalizada](variables-custom.md) em um modelo de email, blocos, informativos e páginas de conteúdo.
 
 \{\{CustomVar code= &quot;my_custom_variable&quot;}}
 
 ## Armazenar URL
 
-A tag de marcação de URL de loja representa o URL de base do site e é usada como um substituto para a primeira parte de um URL completo, incluindo o nome de domínio. Há duas versões dessa tag de marcação: uma que vai diretamente para o armazenamento e a outra com uma barra (`/`) no final usado quando um caminho é adicionado.
+A tag de marcação de URL de loja representa o URL de base do site e é usada como um substituto para a primeira parte de um URL completo, incluindo o nome de domínio. Há duas versões dessa marca de marcação: Uma que vai diretamente para o armazenamento e a outra com uma barra (`/`) no final usada quando um caminho é adicionado.
 
 \{\{store url=&#39;apparel/shoes/womens&#39;}}
 
@@ -70,7 +70,7 @@ O código no próximo exemplo pode ser adicionado a uma página ou bloco para ex
 
 ### Etapa 1. Identificar o URL de destino
 
-Se possível, navegue até a página que deseja vincular e copie o URL completo da barra de endereços do seu navegador. A parte do URL necessária vem após a variável `.com/`. Caso contrário, copie a chave do URL da página CMS que você deseja usar como destino do link.
+Se possível, navegue até a página que deseja vincular e copie o URL completo da barra de endereços do seu navegador. A parte da URL necessária vem após `.com/`. Caso contrário, copie a chave do URL da página CMS que você deseja usar como destino do link.
 
 #### URL completo da página de categoria
 
@@ -88,15 +88,15 @@ Se possível, navegue até a página que deseja vincular e copie o URL completo 
 
 ### Etapa 2. Adicionar a marcação ao URL
 
-A tag Store URL representa o URL de base do site e é usada como um substituto para a parte do endereço HTTP do URL de armazenamento, incluindo o nome de domínio e `.com`. Há duas versões da tag, que podem ser usadas dependendo dos resultados que você deseja obter.
+A marca Armazenar URL representa a URL de base do seu site e é usada como um substituto para a parte do endereço HTTP da URL de armazenamento, incluindo o nome de domínio e `.com`. Há duas versões da tag, que podem ser usadas dependendo dos resultados que você deseja obter.
 
-`store direct_url` - Links diretamente para uma página.
+`store direct_url` - Vincula diretamente a uma página.
 
 `store url` - Coloca uma barra no final, para que referências adicionais possam ser anexadas como um caminho.
 
 Nos exemplos a seguir, a Chave de URL está entre aspas simples e a tag de marcação inteira está entre chaves duplas. Quando usada com uma tag de âncora, a tag de marcação é colocada dentro das aspas duplas da âncora. Para evitar confusão, é possível alternar usando aspas simples e duplas para cada conjunto aninhado de aspas.
 
-Se você estiver começando com um URL completo, exclua o endereço HTTP (`http://` ou `https://`) parte do URL, até e incluindo o `.com/`. Em seu lugar, insira a tag de marcação Armazenar URL, por meio das aspas simples de abertura.
+Se você estiver começando com uma URL completa, exclua a parte do endereço HTTP (`http://` ou `https://`) da URL, incluindo o `.com/`. Em seu lugar, insira a tag de marcação Armazenar URL, por meio das aspas simples de abertura.
 
 #### Armazenar tag de marcação de URL
 
@@ -120,10 +120,10 @@ Envolva a tag de marcação concluída em uma tag de âncora, usando a tag de ma
 
 #### Marcação na tag de âncora
 
-\&lt;a href=&quot;\{\{markup tag goes here}}&quot;>Texto do link\&lt;/a>
+\&lt;a href=&quot;\{\{a tag de marcação entra aqui}}&quot;>Texto do link\&lt;/a>
 
 Cole a tag âncora preenchida no código de qualquer página, bloco, banner ou modelo de email do CMS onde deseja que o link apareça.
 
 ### Link completo com marcação
 
-\&lt;a href=&quot;\{\{store url=&amp;#39;apparel/shoes&amp;#39;}}&quot;>Venda de sapatos\&lt;/a>
+\&lt;a href=&quot;\{\{store url=&#39;apparel/shoes&#39;}}&quot;>Venda de sapatos\&lt;/a>

@@ -1,6 +1,6 @@
 ---
 title: '[!DNL New Relic] relatório'
-description: Saiba mais sobre o [!DNL New Relic] relatórios disponíveis para contas do Adobe Commerce na infraestrutura em nuvem, que inclui o software para o serviço APM da New Relic.
+description: Saiba mais sobre os [!DNL New Relic] relatórios disponíveis para contas do Adobe Commerce na infraestrutura em nuvem, que inclui o software para o serviço de APM da New Relic.
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # [!DNL New Relic] relatórios
 
-[New Relic][1] O é um serviço de análise de software que ajuda a analisar e melhorar as interações do aplicativo. As contas do Adobe Commerce na infraestrutura em nuvem incluem o software para o [!DNL New Relic APM] serviço. Para obter mais informações, consulte [Serviços da New Relic][4] no _Guia do Commerce na infraestrutura em nuvem_.
+O [New Relic][1] é um serviço de análise de software que ajuda a analisar e melhorar as interações entre aplicativos. As contas do Adobe Commerce na infraestrutura em nuvem incluem o software para o serviço [!DNL New Relic APM]. Para obter mais informações, consulte [serviços da New Relic][4] no _Guia de Infraestrutura do Commerce na Nuvem_.
 
-## Etapa 1: Inscreva-se para um [!DNL New Relic] account
+## Etapa 1: Inscrever-se para uma conta do [!DNL New Relic]
 
-1. Vá para a [[!DNL New Relic]][1] site e cadastre-se em uma conta.
+1. Vá para o site do [[!DNL New Relic]][1] e cadastre-se para obter uma conta.
 
    Você também pode se inscrever para obter uma conta de avaliação gratuita.
 
@@ -27,18 +27,18 @@ ht-degree: 0%
 
    | Opção | Descrição |
    | ------ | ----------- |
-   | ID da Conta | Do seu [!DNL New Relic] no painel de contas, a ID da conta é o número no URL após: `/accounts` |
-   | ID do aplicativo | Do seu [!DNL New Relic] painel da conta, clique em **[!UICONTROL New Relic APM]**. No menu, escolha **[!UICONTROL Applications]**. Em seguida, escolha o aplicativo. A ID do aplicativo é o número no URL depois: `/applications/` |
-   | Novo chave de API de relíquia | Do seu [!DNL New Relic] painel da conta, clique em **[!UICONTROL Account Settings]**. No menu à esquerda, em Integrações, escolha **[!UICONTROL Data Sharing]**. Você pode criar, regenerar ou excluir sua chave de API nesta página. |
-   | Chave da API do Insights | Do seu [!DNL New Relic] painel da conta, clique em **[!UICONTROL Insights]**. No menu à esquerda, em Administração, escolha **[!UICONTROL API Keys]**. Suas chaves de API do Insights aparecem nesta página. Se necessário, clique no sinal de mais (**+**) ao lado de Insert Keys (Inserir teclas) para gerar uma chave. |
+   | ID da Conta | No painel de conta do [!DNL New Relic], a ID da conta é o número na URL após: `/accounts` |
+   | ID do aplicativo | No painel de conta do [!DNL New Relic], clique em **[!UICONTROL New Relic APM]**. No menu, escolha **[!UICONTROL Applications]**. Em seguida, escolha o aplicativo. A ID do aplicativo é o número no URL depois: `/applications/` |
+   | Novo chave de API de relíquia | No painel de conta do [!DNL New Relic], clique em **[!UICONTROL Account Settings]**. No menu à esquerda, em Integrações, escolha **[!UICONTROL Data Sharing]**. Você pode criar, regenerar ou excluir sua chave de API nesta página. |
+   | Chave da API do Insights | No painel de conta do [!DNL New Relic], clique em **[!UICONTROL Insights]**. No menu à esquerda, em Administração, escolha **[!UICONTROL API Keys]**. Suas chaves de API do Insights aparecem nesta página. Se necessário, clique no sinal de mais (**+**) ao lado de Inserir chaves para gerar uma chave. |
 
    {style="table-layout:auto"}
 
-## Etapa 2: instalar o [!DNL New Relic] agente no servidor
+## Etapa 2: instalar o agente do [!DNL New Relic] no servidor
 
-Para usar [!DNL New Relic APM Pro] para coletar e transmitir dados, o agente PHP deve estar instalado em seu servidor.
+Para usar o [!DNL New Relic APM Pro] para coletar e transmitir dados, o agente PHP deve estar instalado no servidor.
 
-1. Quando solicitado a escolher um agente da Web, clique em **PHP**.
+1. Quando solicitado a escolher um agente web, clique em **PHP**.
 
 1. Para configurar o agente PHP em seu servidor, siga as instruções.
 
@@ -46,24 +46,24 @@ Para usar [!DNL New Relic APM Pro] para coletar e transmitir dados, o agente PH
 
 1. Verifique se o cron está em execução no servidor.
 
-   Para saber mais, consulte [Configurar e executar o cron][5] na documentação do desenvolvedor.
+   Para saber mais, consulte [Configurar e executar o cron][5] na documentação do desenvolvedor.
 
 ## Etapa 3: configurar seu armazenamento
 
 >[!NOTE]
 >Essas opções de configuração não se aplicam ao Adobe Commerce na infraestrutura em nuvem.
 >
->Se você estiver no plano Pro, o New Relic já estará [pré-configurado e habilitado por padrão](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Se você estiver no plano Inicial, deverá concluir a [Etapas de configuração do New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) que fazem parte do processo de configuração.
+>Se você estiver no plano Pro, o New Relic já está [pré-configurado e habilitado por padrão](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Se você estiver no plano Inicial, conclua as [etapas de configuração do New Relic](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) que fazem parte do processo de instalação.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel de navegação esquerdo, onde **[!UICONTROL General]** for expandido, escolha **[!UICONTROL New Relic Reporting]** e faça o seguinte:
+1. No painel de navegação esquerdo, onde **[!UICONTROL General]** é expandido, escolha **[!UICONTROL New Relic Reporting]** e faça o seguinte:
 
    ![Configuração de relatórios do New Relic](./assets/new-relic-reporting-general.png){width="600"}
 
-   * Definir **[!UICONTROL Enable New Relic Integration]** para `Yes`.
+   * Defina **[!UICONTROL Enable New Relic Integration]** como `Yes`.
 
-   * No **[!UICONTROL Insights API URL]**, substitua a porcentagem (`%`) com sua ID de conta da New Relic.
+   * No **[!UICONTROL Insights API URL]**, substitua o símbolo de porcentagem (`%`) pela ID de conta da New Relic.
 
    * Insira seu **[!UICONTROL New Relic Account ID]**.
 
@@ -75,29 +75,29 @@ Para usar [!DNL New Relic APM Pro] para coletar e transmitir dados, o agente PH
 
 1. Para **[!UICONTROL New Relic Application Name]**, insira um nome para identificar a configuração para referência interna.
 
-1. (Opcional) Para **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]**, selecione `Yes` para enviar dados coletados da loja e do Administrador como aplicativos separados para a New Relic.
+1. (Opcional) Para **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]**, selecione `Yes` para enviar dados coletados para a vitrine e o Administrador como aplicativos separados para a New Relic.
 
    Esta opção requer um nome inserido para o **[!UICONTROL New Relic Application Name]**.
 
    >[!NOTE]
    >
-   >Habilitar este recurso reduz o número de falsos positivos [!DNL New Relic] O alerta e permite o monitoramento configurado e alertas estritamente para o desempenho de front-end. O New Relic recebe arquivos de dados de aplicativo separados com nomes de Nome do aplicativo anexados a `Adminhtml` e front-end. Por exemplo: `MyStore_Adminhtml`
+   >Habilitar esse recurso reduz o número de alertas [!DNL New Relic] de falso positivo e permite o monitoramento configurado e alertas estritamente para o desempenho de front-end. O New Relic recebe arquivos de dados de aplicativo separados com nomes de Nome de Aplicativo anexados a `Adminhtml` e front-end. Por exemplo: `MyStore_Adminhtml`
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
-## Etapa 4: Ativar o Cron para [!DNL New Relic] relatórios
+## Etapa 4: Habilitar o Cron para relatórios de [!DNL New Relic]
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Cron]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Cron]**.
 
    ![Configuração do New Relic Cron](./assets/new-relic-reporting-cron.png){width="600"}
 
-1. Definir **[!UICONTROL Enable Cron]** para `Yes`.
+1. Defina **[!UICONTROL Enable Cron]** como `Yes`.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
-## [!DNL New Relic] queries
+## [!DNL New Relic] consultas
 
-[!DNL New Relic Insights] Os dados do são baseados em declarações escritas em [!DNL New Relic Query Language] (NRQL) e quaisquer parâmetros personalizados que você possa incluir. Os dados podem ser retornados de consultas adhoc ou por consultas salvas no painel. Para saber mais, consulte a [Referência NRQL][6] no [!DNL New Relic] documentação.
+Os dados de [!DNL New Relic Insights] baseiam-se em instruções gravadas em [!DNL New Relic Query Language] (NRQL) e em quaisquer parâmetros personalizados que você possa incluir. Os dados podem ser retornados de consultas adhoc ou por consultas salvas no painel. Para saber mais, consulte a [NRQL Reference][6] na documentação [!DNL New Relic].
 
 ### Eventos de administração
 
@@ -105,25 +105,25 @@ Para usar [!DNL New Relic APM Pro] para coletar e transmitir dados, o agente PH
 
 Retorna o número de usuários Administradores ativos.
 
-    SELECT uniqueCount(AdminId)
-    Transação DE
-    ONDE appName=&#39;&lt;your_app_name>&#39; DESDE 15 minutos atrás
+    SELECIONAR uniqueCount(AdminId)
+    DA Transação
+    ONDE appName=&#39;&lt;nome_do_seu_aplicativo>&#39; HÁ 15 minutos
 
 #### Usuários administradores ativos no momento
 
 Retorna os nomes dos usuários administradores ativos.
 
-    SELECIONAR únicos (AdminName)
-    Transação DE
-    ONDE appName=&#39;&lt;your_app_name>&#39; DESDE 15 minutos atrás
+    SELECIONAR únicos(AdminName)
+    DA Transação
+    ONDE appName=&#39;&lt;nome_do_aplicativo>&#39; DESDE 15 minutos atrás
 
 #### Atividade Recente do Administrador
 
 Retorna o número de ações recentes de Administrador.
 
-    Contagem de SELECT (AdminId)
-    Transação DE
-    ONDE appName =&#39;&lt;your_app_name>&#39; FACET AdminName DESDE 1 dia atrás
+    SELECIONE count(AdminId)
+    FROM Transaction
+    WHERE appName =&#39;&lt;nome_do_seu_aplicativo>&#39; FACET AdminName DESDE 1 dia atrás
 
 #### Atividade mais recente de administrador
 
@@ -140,10 +140,10 @@ Retorna informações detalhadas sobre ações de administrador recentes, inclui
 
 Retorna o número de eventos de aplicativo categoria durante a período especificada.
 
-    Média de SELECT(CatalogCategoryCount)
-    DO Cron
-    ONDE CatalogCategoryCount NÃO É NULO
-    E appName = &#39;&lt;your_app_name>&#39; SÉRIE TEMPORAL 2 minutos
+    SELECT average(CatalogCategoryCount)
+    FROM Cron
+    WHERE CatalogCategoryCount IS NOT NULL
+    AND appName = &#39;&lt;your_app_name>&#39; SÉRIE HORÁRIA 2 minutos
 
 #### Contagem de catálogo atual
 
@@ -159,120 +159,120 @@ Retorna o número médio de eventos de aplicação no catálogo por categoria du
 
 Retorna o número de eventos de aplicativo por produto durante o período especificado.
 
-    Média de SELECT(CatalogProductActiveCount)
-    DO Cron
-    ONDE CatalogProductActiveCount NÃO É NULO
-    E appName = &#39;&lt;your_app_name>&#39; SÉRIE TEMPORAL 2 minutos
+    SELECT average(CatalogProductActiveCount)
+    FROM Cron
+    WHERE CatalogProductActiveCount IS NOT NULL
+    AND appName = &#39;&lt;nome_do_seu_aplicativo>&#39; TIMESERIES 2 minutos
 
 #### Contagem de produtos ativos
 
 Retorna o número médio de eventos de aplicativos ativos por produto durante o período especificado.
 
-    Média de SELECT(CatalogProductActiveCount)
-    DO Cron
-    ONDE CatalogProductActiveCount NÃO É NULO
-    E CatalogProductActiveCount > 0
-    E appName = &#39;&lt;your_app_name>&#39; DESDE 2 minutos atrás LIMITE 1
+    SELECT average(CatalogProductActiveCount)
+    FROM Cron
+    WHERE CatalogProductActiveCount IS NOT NULL
+    AND CatalogProductActiveCount > 0
+    AND appName = &#39;&lt;your_app_name>&#39; DESDE 2 minutos atrás LIMITE 1
 
 #### Produtos configuráveis
 
 Retorna o número médio de eventos de aplicativos para produtos configuráveis durante o período especificado.
 
-    Média de SELECT(CatalogProductConfigurableCount)
-    DO Cron
-    ONDE CatalogProductConfigurableCount NÃO É NULO
-    E appName = &#39;&lt;your_app_name>&#39; SÉRIE TEMPORAL 2 minutos
+    SELECT average(CatalogProductConfigurableCount)
+    FROM Cron
+    WHERE CatalogProductConfigurableCount IS NOT NULL
+    AND appName = &#39;&lt;nome_do_aplicativo>&#39; SÉRIE_TEMPORAL 2 minutos
 
 #### Contagem de produtos configurável
 
 Retorna o número médio de eventos de aplicativos por produto configurável durante o período especificado.
 
-    Média de SELECT(CatalogProductConfigurableCount)
-    DO Cron
-    ONDE CatalogProductConfigurableCount NÃO É NULO
-    E CatalogProductConfigurableCount > 0
-    E appName = &#39;&lt;your_app_name>&#39; DESDE 2 minutos atrás LIMITE 1
+    SELECT average(CatalogProductConfigurableCount)
+    FROM Cron
+    WHERE CatalogProductConfigurableCount IS NOT NULL
+    AND CatalogProductConfigurableCount > 0
+    AND appName = &#39;&lt;your_app_name>&#39; DESDE 2 minutos atrás LIMIT 1
 
 #### Contagem de produtos (todos)
 
 Retorna o número total de eventos de aplicativo para todos os produtos.
 
-    Média de SELECT(CatalogProductCount)
-    DO Cron
-    ONDE CatalogProductCount NÃO É NULO
-    E appName = &#39;&lt;your_app_name>&#39; SÉRIE TEMPORAL 2 minutos
+    SELECT average(CatalogProductCount)
+    FROM Cron
+    WHERE CatalogProductCount IS NOT NULL
+    AND appName = &#39;&lt;nome_do_seu_aplicativo>&#39; SÉRIE HORÁRIA 2 minutos
 
 #### Contagem de produtos atual (todos)
 
 Retorna o número médio de eventos de aplicativos para todos os produtos durante o período especificado.
 
-    Média de SELECT(CatalogProductCount)
-    DO Cron
-    ONDE CatalogProductCount NÃO É NULO
-    E CatalogProductCount > 0
-    E appName = &#39;&lt;your_app_name>&#39; DESDE 2 minutos atrás LIMITE 1
+    SELECT average(CatalogProductCount)
+    FROM Cron
+    WHERE CatalogProductCount IS NOT NULL
+    AND CatalogProductCount > 0
+    AND appName = &#39;&lt;nome_do_aplicativo>&#39; DESDE 2 minutos atrás LIMIT 1
 
 #### Contagem de clientes
 
 Retorna o número médio de eventos de aplicativo por cliente.
 
-    Média de SELECT (CustomerCount)
-    DO Cron
-    ONDE CustomerCount NÃO É NULO
-    E CustomerCount > 0&lt;
-    E appName = &#39;&lt;your_app_name>&#39; SÉRIE TEMPORAL 2 minutos
+    SELECT average(CustomerCount)
+    FROM Cron
+    WHERE CustomerCount NÃO É NULO
+    AND CustomerCount > 0&lt;
+    AND appName = &#39;&lt;nome_do_seu_aplicativo>&#39; TIMESERIES 2 minutos
 
 #### Contagem atual de clientes
 
 Retorna o número médio de clientes durante o período especificado.
 
-    Média de SELECT (CustomerCount)
-    DO Cron
-    ONDE CustomerCount NÃO É NULO
-    E CustomerCount > 0
-    E appName = &#39;&lt;your_app_name>&#39; DESDE 2 minutos atrás LIMITE 1
+    SELECT average(CustomerCount)
+    FROM Cron
+    WHERE CustomerCount IS NOT NULL
+    AND CustomerCount > 0
+    AND appName = &#39;&lt;your_app_name>&#39; DESDE 2 minutos atrás LIMITE 1
 
 #### Status do módulo
 
 Retorna o número médio de vezes que os módulos de aplicativos são ativados, desativados ou instalados durante o período especificado.
 
     SELECT average(ModulesDisabled), average(ModulesEnabled), average
-    (Módulos instalados)
-    DO Cron&lt;
-    ONDE appName = &#39;&lt;your_app_name>&#39; SÉRIE TEMPORAL 2 minutos
+    (ModulesInstalled)
+    FROM Cron&lt;
+    WHERE appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 minutos
 
 #### Status atual do módulo
 
 Retorna o número médio de vezes que os módulos foram habilitados, desabilitados ou instalados durante o período especificado.
 
     SELECT average(ModulesDisabled), average(ModulesEnabled), average
-    (Módulos instalados)
-    DO Cron
-    ONDE appName = &#39;&lt;your_app_name>&#39; DESDE 2 minutos atrás LIMITE 1
+    (ModulesInstalled)
+    FROM Cron
+    WHERE appName = &#39;&lt;your_app_name>&#39; DESDE 2 minutos atrás LIMITE 1
 
 #### Contagens de sites e lojas
 
 Retorna o número médio de eventos de aplicativo por site e armazenamento durante o período especificado.
 
     SELECT average(StoreViewCount), average(WebsiteCount)
-    DO Cron
-    ONDE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; SÉRIE HORÁRIA 2 minutos
+    FROM Cron
+    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 minutos
 
 #### Contagem atual de sites e lojas
 
 Retorna o número médio de eventos de aplicativo atuais durante o período especificado.
 
     SELECT average(StoreViewCount), average(WebsiteCount)
-    DO Cron
-    ONDE appName = &#39;&lt;your_app_name>&#39; DESDE 2 minutos atrás LIMITE 1
+    FROM Cron
+    WHERE appName = &#39;&lt;your_app_name>&#39; DESDE 2 minutos atrás LIMITE 1
 
 #### Cron - todos os dados do evento
 
 Retorna todos os dados do evento de aplicativo.
 
     SELECIONAR *
-    DO Cron
-    ONDE appName = &#39;&lt;your_app_name>&#39;
+    DE Cron
+    ONDE appName = &#39;&lt;nome_do_aplicativo>&#39;
 
 ### Clientes
 
@@ -280,25 +280,25 @@ Retorna todos os dados do evento de aplicativo.
 
 Retorna o número de clientes ativos durante o período especificado.
 
-    SELECIONAR uniqueCount(CustomerId)
-    Transação DE
-    ONDE appName = &#39;&lt;your_app_name>&#39; DESDE 15 minutos atrás
+    SELECIONE uniqueCount(CustomerId)
+    FROM Transação
+    ONDE appName = &#39;&lt;nome_do_aplicativo>&#39; HÁ 15 minutos
 
 #### Clientes ativos
 
 Retorna os nomes dos clientes ativos durante o período especificado.
 
     SELECIONAR únicos(NomeCliente)
-    Transação DE
-    ONDE appName=&#39;&lt;your_app_name>&#39; DESDE 15 minutos atrás
+    DA Transação
+    ONDE appName=&#39;&lt;nome_do_seu_aplicativo>&#39; DESDE 15 minutos atrás
 
 #### Principais clientes
 
 Retorna os principais clientes durante o período de tempo especificado.
 
-    Selecionar contagem(CustomerId)
-    Transação DE
-    ONDE appName = &#39;&lt;your_app_name>&#39; FACET NomeCliente DESDE 1 dia atrás
+    SELECIONE count(CustomerId)
+    FROM Transaction
+    WHERE appName = &#39;&lt;your_app_name>&#39; FACET CustomerName DESDE 1 dia atrás
 
 #### Atividade Recente do Administrador
 
@@ -330,8 +330,8 @@ Retorna o número total de itens de linha solicitados durante o período especif
 
 Retorna o número total de itens de linha solicitados durante a período especificada.
 
-    SELECT sum(lineItemCount)
-    DA Transação DESDE 1 dia atrás
+    SELECIONAR sum(lineItemCount)
+    DE Transação DESDE 1 dia atrás
 
 
 [1]: https://newrelic.com/

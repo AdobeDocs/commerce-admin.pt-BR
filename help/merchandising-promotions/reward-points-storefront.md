@@ -14,23 +14,23 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-A variável [Pontos de recompensa](rewards-loyalty.md) A seção da conta do cliente mostra o saldo atual dos pontos de premiação ganhos pelo cliente e um histórico do saldo de pontos de premiação.
+A seção [Pontos de Recompensa](rewards-loyalty.md) da conta do cliente mostra o saldo atual dos pontos de premiação ganhos pelo cliente e um histórico do saldo desses pontos de premiação.
 
-![Pontos de recompensa](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
+![Pontos de premiação](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
 
 ## Resgatar os pontos de premiação durante o check-out
 
-Se [Taxa de Câmbio de Prêmio](reward-exchange-rates.md) com `Points to Currency` for configurada, os clientes poderão usar pontos de premiação durante a finalização.
+Se a [Taxa de Câmbio de Recompensa](reward-exchange-rates.md) com a direção `Points to Currency` estiver configurada, os clientes poderão usar pontos de premiação durante o check-out.
 
 1. Depois de adicionar todos os produtos necessários ao carrinho de compras, o cliente navega até o checkout.
 
-1. Insere todas as informações de entrega necessárias e navega até o _Revisão e Pagamentos_ etapa.
+1. Insira todas as informações de remessa necessárias e navegue até a etapa _Revisão e Pagamentos_.
 
-1. No _[!UICONTROL Reward points]_, verifica o número de pontos disponíveis e o respectivo valor de moeda.
+1. Na seção _[!UICONTROL Reward points]_, verifica o número de pontos disponíveis e o respectivo valor de moeda.
 
 1. Cliques **[!UICONTROL Use reward points]**.
 
-![Pontos de recompensa no check-out](./assets/reward-points-on-checkout.png){width="700" zoomable="yes"}
+![Pontos de premiação no check-out](./assets/reward-points-on-checkout.png){width="700" zoomable="yes"}
 
 O desconto de pontos disponível é aplicado ao subtotal.
 

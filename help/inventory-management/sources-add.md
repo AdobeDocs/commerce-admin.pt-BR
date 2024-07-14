@@ -5,7 +5,7 @@ exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -14,51 +14,51 @@ ht-degree: 0%
 
 Gerencie o inventário e o atendimento de pedidos de vários locais com origens personalizadas. Crie uma origem para cada local, como depósitos, lojas tradicionais, centros de distribuição e entregadores. Atribuir origens e atualizar quantidades por produto
 
-Se estiver editando a Origem padrão, você poderá editar todas as configurações, exceto o nome e o código. Recomenda-se que os comerciantes de origem única adicionem informações correspondentes à sua localização.
+Se estiver editando o Source padrão, você poderá editar todas as configurações, exceto o nome e o código. Recomenda-se que os comerciantes de origem única adicionem informações correspondentes à sua localização.
 
 ## Adicionar uma origem de inventário
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 
 1. Clique em **[!UICONTROL Add New Source]**.
 
    ![Gerenciar fontes](assets/inventory-sources.png)
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL General]** e faça o seguinte:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL General]** e faça o seguinte:
 
-   - Para identificar a origem do inventário, informe uma **[!UICONTROL Name]**.
+   - Para identificar a origem do estoque, insira um **[!UICONTROL Name]** exclusivo.
 
-   - Insira um único **[!UICONTROL Code]**.
+   - Digite um **[!UICONTROL Code]** exclusivo.
 
      O código oferece suporte a letras maiúsculas e minúsculas, números, traços e sublinhados. O código é um identificador exclusivo usado ao atribuir para dados de estoque e importação/exportação.
 
-   - Se esta origem de inventário estiver pronta para uso, defina **[!UICONTROL Is Enabled]** para `Yes`.
+   - Se esta origem de inventário estiver pronta para uso, defina **[!UICONTROL Is Enabled]** como `Yes`.
 
-   - Insira um resumo **[!UICONTROL Description]** para obter este local para referência rápida ou detalhes adicionais.
+   - Digite um breve **[!UICONTROL Description]** para este local para referência rápida ou detalhes adicionais.
 
-   - Para **[!UICONTROL Latitude]** e **[!UICONTROL Longitude]**, insira as coordenadas do GPS (Global Positioning System) da localização da instalação.
+   - Para **[!UICONTROL Latitude]** e **[!UICONTROL Longitude]**, insira as coordenadas do GPS (Global Positioning System) do local das instalações.
 
-     Para encontrar as coordenadas do GPS com [Google Maps][1], digite o endereço na caixa de pesquisa. Clique com o botão direito do mouse no marcador no mapa e escolha **[!UICONTROL What's here?]**. As coordenadas do GPS aparecem na caixa de detalhes abaixo do endereço da rua.
+     Para localizar as coordenadas do GPS com o [Google Maps][1], digite o endereço na caixa de pesquisa. Clique com o botão direito no marcador no mapa e escolha **[!UICONTROL What's here?]**. As coordenadas do GPS aparecem na caixa de detalhes abaixo do endereço da rua.
 
      ![Opções gerais de origem](assets/inventory-source-general.png)
 
-   - Se esta origem de estoque for um local de retirada, defina **[!UICONTROL Use as Pickup Location]** para `Yes`.
+   - Se esta origem de estoque for um local de retirada, defina **[!UICONTROL Use as Pickup Location]** como `Yes`.
 
-     A Origem Padrão não pode ser usada como um local de retirada para ordens de retirada na loja.
+     O Source Padrão não pode ser usado como um local de retirada para ordens de retirada na loja.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Contact Info]** e faça o seguinte:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Contact Info]** e faça o seguinte:
 
-   - Para **[!UICONTROL Contact Name]**, digite o nome completo do contato principal no local.
+   - Para **[!UICONTROL Contact Name]**, insira o nome completo do contato principal no local.
 
-   - Insira um **[!UICONTROL Email]** endereço para entrar em contato com a localização.
+   - Digite um endereço **[!UICONTROL Email]** para contatar a localização.
 
    - Para **[!UICONTROL Phone]**, insira o código de área e o número de telefone.
 
-   - Para **[!UICONTROL Fax]**, digite o código de área e o número de telefone do fax, se disponível.
+   - Para **[!UICONTROL Fax]**, insira o código de área e o número de telefone do fax, se disponível.
 
      ![Informações de contato](assets/inventory-source-contact-info.png)
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Address Data]** e faça o seguinte:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Address Data]** e faça o seguinte:
 
    - Escolha o **[!UICONTROL Country]**.
 
@@ -66,13 +66,13 @@ Se estiver editando a Origem padrão, você poderá editar todas as configuraç�
 
    - Insira o **[!UICONTROL City]**.
 
-   - Insira o físico **[!UICONTROL Street]** endereço.
+   - Insira o endereço físico **[!UICONTROL Street]**.
 
-   - Para **[!UICONTROL Postcode]**, digite o CEP ou código postal.
+   - Para **[!UICONTROL Postcode]**, insira o CEP ou código postal.
 
-     ![Dados do endereço](assets/inventory-source-address.png)
+     ![Dados do Endereço](assets/inventory-source-address.png)
 
-1. Se você definir a origem como um local de retirada na etapa anterior, expanda ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Pickup Location]** e forneça informações descritivas sobre a localização:
+1. Se você definir a origem como um local de retirada na etapa anterior, expanda ![Seletor de expansão](../assets/icon-display-expand.png) na seção **[!UICONTROL Pickup Location]** e forneça informações descritivas sobre a localização:
 
    - Insira o **[!UICONTROL Frontend Name]** do local de retirada.
 
@@ -80,15 +80,15 @@ Se estiver editando a Origem padrão, você poderá editar todas as configuraç�
 
      ![Local de retirada](assets/inventory-pickup-location.png)
 
-   Para obter mais informações sobre como configurar notificações por email ao usar uma origem como um local de coleta, consulte [Emails de vendas](../configuration-reference/sales/sales-emails.md) no _Guia de referência de configuração_.
+   Para obter mais informações sobre como configurar notificações por email ao usar uma origem como um local de retirada, consulte [Emails de Vendas](../configuration-reference/sales/sales-emails.md) no _Guia de Referência de Configuração_.
 
 1. Para salvar seu trabalho, siga um destes procedimentos:
 
    - Para salvar seu trabalho e continuar editando, clique em **[!UICONTROL Save & Continue]**.
 
-   - Para salvar seu trabalho e retornar à página Gerenciar fontes, clique na seta para baixo (![Seta de menu](../assets/icon-menu-down-arrow-red.png)) e escolha **[!UICONTROL Save & Close]**.
+   - Para salvar seu trabalho e retornar à página Gerenciar Fontes, clique na seta para baixo (![Seta de menu](../assets/icon-menu-down-arrow-red.png)) e escolha **[!UICONTROL Save & Close]**.
 
-   - Para salvar seu trabalho no registro de origem atual e informar uma nova origem, escolha **[!UICONTROL Save & New]**.
+   - Para salvar seu trabalho no registro de origem atual e inserir uma nova origem, escolha **[!UICONTROL Save & New]**.
 
 ## Barra de botões
 
@@ -96,7 +96,7 @@ Se estiver editando a Origem padrão, você poderá editar todas as configuraç�
 |--|--|
 | [!UICONTROL Back] | Retorna à página Gerenciar fontes. |
 | [!UICONTROL Reset] | Restaura todos os campos no formulário aos seus valores no momento do último salvamento. |
-| [!UICONTROL Save & Continue] | Salva todas as alterações e mantém o formulário aberto para edição adicional. Clique na seta para baixo para ver opções adicionais:<br/>**[!UICONTROL Save & Close]**- Salva as alterações no registro atual, fecha o formulário e retorna à página Gerenciar fontes.<br/>**[!UICONTROL Save & New]** - Salva alterações, fecha o registro atual e abre um novo formulário em branco. |
+| [!UICONTROL Save & Continue] | Salva todas as alterações e mantém o formulário aberto para edição adicional. Clique na seta para baixo para ver opções adicionais:<br/>**[!UICONTROL Save & Close]**- Salva alterações no registro atual, fecha o formulário e retorna à página Gerenciar Fontes.<br/>**[!UICONTROL Save & New]** - Salva alterações, fecha o registro atual e abre um novo formulário em branco. |
 
 ## Descrições dos campos
 

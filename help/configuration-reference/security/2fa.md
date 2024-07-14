@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
-description: Revise as configurações no [!UICONTROL Security] &gt; [!UICONTROL 2FA] página do Administrador do Commerce.
+description: Revise as configurações na página [!UICONTROL Security] &gt; [!UICONTROL 2FA] do Administrador do Commerce.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
 source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{config}}
 
-Para obter mais informações sobre como alterar essas configurações, consulte [Autenticação de dois fatores (2FA)](../../systems/security-two-factor-authentication.md) no _Guia de sistemas do administrador_.
+Para obter mais informações sobre como alterar essas configurações, consulte [Autenticação de dois fatores (2FA)](../../systems/security-two-factor-authentication.md) no _Guia de Sistemas de Administração_.
 
 ## [!UICONTROL General]
 
@@ -27,7 +27,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | Global | Indica os métodos de autenticação de dois fatores necessários. Se você selecionar mais de um provedor, cada usuário deverá configurar cada método 2FA na próxima vez que fizer logon. |
-| [!UICONTROL Configuration Email URL for Web API] | Global | Para implementações personalizadas, o URL de um link alternativo de configuração de email que é enviado para o _Admin_ usuários no primeiro logon. No modelo de email, use o espaço reservado `:tfat` para indicar onde o token foi injetado. |
+| [!UICONTROL Configuration Email URL for Web API] | Global | Para implementações personalizadas, a URL para um link alternativo de configuração de email que é enviado aos usuários _Administrador_ no primeiro logon. No modelo de email, use o espaço reservado `:tfat` para indicar onde o token é inserido. |
 
 {style="table-layout:auto"}
 
@@ -43,13 +43,13 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 ## [!UICONTROL Duo Security]
 
-![Segurança Duo](./assets/2fa-duo-security.png)<!-- zoom -->
+![Dupla de Segurança](./assets/2fa-duo-security.png)<!-- zoom -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Integration Key] | Global | A chave de integração do seu [!DNL Duo Security] conta. |
-| [!UICONTROL Secret Key] | Global | A chave secreta de seu [!DNL Duo Security] conta. |
-| [!UICONTROL API Hostname] | Global | O nome do host da API do seu [!DNL Duo Security] conta. |
+| [!UICONTROL Integration Key] | Global | A chave de integração da sua conta [!DNL Duo Security]. |
+| [!UICONTROL Secret Key] | Global | A chave secreta da sua conta [!DNL Duo Security]. |
+| [!UICONTROL API Hostname] | Global | O nome de host da API da sua conta [!DNL Duo Security]. |
 
 {style="table-layout:auto"}
 
@@ -59,8 +59,8 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL API Key] | Global | A chave de API do seu [!DNL Authy] conta. |
-| [!UICONTROL OneTouch Message] | Global | A mensagem que aparece na variável [!DNL Authy] autenticador no logon. Padrão: `Login request to your Magento Admin` |
+| [!UICONTROL API Key] | Global | A chave de API da sua conta [!DNL Authy]. |
+| [!UICONTROL OneTouch Message] | Global | A mensagem que aparece no autenticador [!DNL Authy] no logon. Padrão: `Login request to your Magento Admin` |
 
 {style="table-layout:auto"}
 
@@ -70,6 +70,6 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL WebApi Challenge Domain] | Global | O domínio usado para emitir e processar [!DNL WebAuthn] desafios para implementações personalizadas de WebAPI. |
+| [!UICONTROL WebApi Challenge Domain] | Global | O domínio usado para emitir e processar desafios do [!DNL WebAuthn] para implementações WebAPI personalizadas. |
 
 {style="table-layout:auto"}

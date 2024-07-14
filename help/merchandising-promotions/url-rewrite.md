@@ -1,11 +1,11 @@
 ---
 title: Substituições de URL
-description: Saiba mais sobre substituições de URL e como usar a ferramenta de regravação de URL do Commerce para alterar URLs associados a um produto, categoria ou página de CMS.
+description: Saiba mais sobre substituições de URL e como usar a ferramenta de regravação de URL do Commerce para alterar URLs associados a um produto, categoria ou página do CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ A ferramenta de regravação de URL permite alterar qualquer URL associado a um 
 
 >[!NOTE]
 >
->Para atualizar substituições de URL para vários ou todos os produtos simultaneamente, consulte [Várias substituições de URL](url-rewrite-product.md#multiple-url-rewrites).
+>Para atualizar regravações de URL para vários ou todos os produtos simultaneamente, consulte [Várias regravações de URL](url-rewrite-product.md#multiple-url-rewrites).
 
-Os termos _reescrever_ e _redirecionar_ são frequentemente usados de forma intercambiável, mas se referem a processos ligeiramente diferentes. Uma regravação de URL altera a forma como um URL é exibido no navegador. Um redirecionamento de URL atualiza o URL armazenado no servidor. Um redirecionamento de URL pode ser temporário ou permanente. Sua loja usa regravações e redirecionamentos de URL para facilitar a alteração da chave de URL de um produto, categoria ou página e preservar os links existentes.
+Os termos _rewrite_ e _redirect_ são frequentemente usados de forma intercambiável, mas se referem a processos ligeiramente diferentes. Uma regravação de URL altera a forma como um URL é exibido no navegador. Um redirecionamento de URL atualiza o URL armazenado no servidor. Um redirecionamento de URL pode ser temporário ou permanente. Sua loja usa regravações e redirecionamentos de URL para facilitar a alteração da chave de URL de um produto, categoria ou página e preservar os links existentes.
 
-Por padrão, [redirecionamentos automáticos de URL](url-redirect-product-automatic.md) estão habilitados para sua loja e a **Criar redirecionamento permanente para o URL antigo** está marcada no campo URL key de cada produto.
+Por padrão, os [redirecionamentos automáticos de URL](url-redirect-product-automatic.md) estão habilitados para sua loja e a caixa de seleção **Criar redirecionamento permanente para URL antiga** está marcada no campo de chave de URL de cada produto.
 
 {{url-rewrite-skip}}
 
@@ -44,11 +44,11 @@ Dependendo de como você configura o site, pode haver várias versões dele no �
     https://example.com
     https://www.example.com/index.html
 
-Para especificar uma página canônica, consulte [Documentação da Google Search Central](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
+Para especificar uma página canônica, consulte a [documentação da Google Search Central](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
 
 ## Configurar substituições de URL
 
-Habilitar regravações do Apache do servidor Web faz parte da configuração inicial do Commerce. O Commerce usa regularmente substituições de URL para remover o nome do arquivo `index.php` que normalmente aparece no URL logo após a pasta raiz. Quando as Regravações do Servidor Web estão ativadas, o sistema regrava cada URL para ser omitido `index.php`. A regravação remove palavras que não transmitem nada de valor para mecanismos de pesquisa ou clientes e não tem impacto no desempenho ou na classificação do site.
+Habilitar regravações do Apache do servidor Web faz parte da configuração inicial do Commerce. O Commerce geralmente usa substituições de URL para remover o nome de arquivo `index.php` que normalmente aparece na URL logo após a pasta raiz. Quando as Regravações do Servidor Web estão habilitadas, o sistema regrava cada URL para omitir `index.php`. A regravação remove palavras que não transmitem nada de valor para mecanismos de pesquisa ou clientes e não tem impacto no desempenho ou na classificação do site.
 
 URL sem reescrita do servidor da Web
 
@@ -58,15 +58,15 @@ URL com regravação do servidor da Web
 
     http://www.yourdomain.com/magento/storeview/url-identifier
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel esquerdo, onde **[!UICONTROL General]** for expandido, escolha **[!UICONTROL Web]**.
+1. No painel esquerdo onde **[!UICONTROL General]** é expandido, escolha **[!UICONTROL Web]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Search Engine Optimization]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization]**.
 
    ![Configuração geral - Otimização do mecanismo de pesquisa da Web](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. Definir **[!UICONTROL Use Web Server Rewrites]** de acordo com sua preferência.
+1. Defina **[!UICONTROL Use Web Server Rewrites]** de acordo com sua preferência.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
@@ -93,7 +93,7 @@ URLs de categoria adicionais
     http://www.example.com/all-on-sale.html
     http://www.example.com/save-now/spring-sale
 
-![Grade de substituições de URL](./assets/url-rewrites.png){width="700" zoomable="yes"}
+![A URL reescreve a grade](./assets/url-rewrites.png){width="700" zoomable="yes"}
 
 O Commerce oferece estes tipos de reescrita de URL:
 

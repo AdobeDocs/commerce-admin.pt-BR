@@ -1,6 +1,6 @@
 ---
 title: Configurações do produto - [!UICONTROL Gift Options]
-description: Para um produto, a variável [!UICONTROL Gift Options] as configurações determinam se uma mensagem de presente pode ser incluída ou se as opções de invólucro de presente estão disponíveis durante o check-out.
+description: Para um produto, as configurações de [!UICONTROL Gift Options] determinam se uma mensagem de presente pode ser incluída ou se as opções de invólucro do presente estão disponíveis durante o check-out.
 exl-id: 21597e38-60f5-45e5-8d99-955d088c5c48
 feature: Catalog Management, Products, Gift
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configurações do produto - [!UICONTROL Gift Options]
 
-No _[!UICONTROL Gift Options]_é possível definir opções de mensagem de presente e invólucro de presente no check-out no nível do produto. Para substituir a definição de configuração padrão, desmarque a opção **[!UICONTROL Use Config Settings]**caixa de seleção
+Na seção _[!UICONTROL Gift Options]_, é possível definir opções de mensagem de presente e invólucro de presente no check-out no nível do produto. Para substituir a configuração padrão, desmarque a caixa de seleção **[!UICONTROL Use Config Settings]**.
 
 ![Opções de presente](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
@@ -20,13 +20,13 @@ No _[!UICONTROL Gift Options]_é possível definir opções de mensagem de prese
 
 1. Abra o produto no modo de edição.
 
-1. Rolar para baixo e expandir ![Seletor de expansão](../assets/icon-display-expand.png) o _[!UICONTROL Gift Options]_e faça o seguinte:
+1. Role para baixo e expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Gift Options]_e faça o seguinte:
 
-   - Para substituir a configuração padrão, desmarque a opção **[!UICONTROL Use Config Settings]** caixa de seleção
+   - Para substituir a configuração padrão, desmarque a caixa de seleção **[!UICONTROL Use Config Settings]**.
 
-   - Definir **[!UICONTROL Allow Gift Message]** conforme necessário para o produto.
+   - Defina **[!UICONTROL Allow Gift Message]** conforme necessário para o produto.
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) ([Adobe Commerce](../landing/home.md#product-editions) somente) Definir **[!UICONTROL Allow Gift Wrapping]** conforme necessário para o produto.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) ([Adobe Commerce](../landing/home.md#product-editions) somente) Defina **[!UICONTROL Allow Gift Wrapping]** conforme necessário para o produto.
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) ([Adobe Commerce](../landing/home.md#product-editions) somente) Se aplicável, insira o **[!UICONTROL Price for Gift Wrapping]**.
 
@@ -36,17 +36,17 @@ No _[!UICONTROL Gift Options]_é possível definir opções de mensagem de prese
 
 Por padrão, o Commerce permite que os clientes adicionem uma mensagem de presente personalizada a seus pedidos e produtos durante o processo de finalização.
 
-Você pode fornecer esse recurso aos clientes ativando _mensagem de presente_ para sua loja:
+Você pode fornecer este recurso aos clientes habilitando a _mensagem de presente_ para sua loja:
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Sales]** por baixo.
+1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Sales]** abaixo de.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) **[!UICONTROL Gift Options]** na página.
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) **[!UICONTROL Gift Options]** na página.
 
 1. Para **[!UICONTROL Allow Gift Messages on Order Level]**, selecione `Yes` para habilitar uma única mensagem de presente para todo o pedido.
 
-1. Para **[!UICONTROL Allow Gift Messages for Order Items]**, selecione `Yes` para permitir a adição de mensagens de presente separadamente a itens individuais no carrinho de compras do cliente.
+1. Para **[!UICONTROL Allow Gift Messages for Order Items]**, selecione `Yes` para habilitar a adição de mensagens de presente separadamente a itens individuais no carrinho de compras do cliente.
 
 1. Clique em **[!UICONTROL Save Config]**.
 

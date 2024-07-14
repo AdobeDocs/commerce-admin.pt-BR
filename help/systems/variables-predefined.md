@@ -13,35 +13,35 @@ ht-degree: 0%
 
 # Usar variáveis predefinidas
 
-[Predefinido](variables-predefined.md) facilitam a personalização [email](email-templates.md) e [informativo](../merchandising-promotions/newsletters.md) modelos e outros tipos de conteúdo. A lista de permissões [predefinido](variables-predefined.md) são exibidas quando você clica no botão Inserir variável. Como mostrado na imagem a seguir, a lista de variáveis disponíveis para um template de email específico é determinada pelos dados associados ao template. Consulte a [Referência da variável](variables-reference.md) para obter uma lista de modelos de email usados com frequência e suas variáveis associadas.
+As variáveis [Predefinidas](variables-predefined.md) facilitam a personalização dos modelos de [email](email-templates.md) e [informativo](../merchandising-promotions/newsletters.md) e de outros tipos de conteúdo. A lista de variáveis [predefinidas](variables-predefined.md) permitidas é exibida ao clicar no botão Inserir Variável. Como mostrado na imagem a seguir, a lista de variáveis disponíveis para um template de email específico é determinada pelos dados associados ao template. Consulte a [Referência de variáveis](variables-reference.md) para obter uma lista de modelos de email usados com frequência e suas variáveis associadas.
 
-![Variáveis predefinidas para o modelo de email](./assets/email-template-new-pickup-order-predefined-variables.png){width="700" zoomable="yes"}
+![Variáveis Predefinidas para o Modelo de Email](./assets/email-template-new-pickup-order-predefined-variables.png){width="700" zoomable="yes"}
 
 ## Adicionar uma variável a um modelo de email
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
 
 1. Siga um destes procedimentos:
 
    - Para adicionar a variável a um modelo existente, clique no modelo na lista para abrir o no modo de edição.
 
-   - Para usar a variável em um novo modelo, clique em **[!UICONTROL Add New Template]** e personalize o código do template padrão. Consulte [Modelos de mensagem](email-template-custom.md#message-templates).
+   - Para usar a variável em um novo modelo, clique em **[!UICONTROL Add New Template]** e personalize o código do modelo padrão. Consulte [Modelos de Mensagem](email-template-custom.md#message-templates).
 
-1. Em _[!UICONTROL Load default template]_, escolha o **[!UICONTROL Template]**que deseja personalizar.
+1. Em _[!UICONTROL Load default template]_, escolha a **[!UICONTROL Template]**que deseja personalizar.
 
 1. Para aplicar um modelo, clique em **[!UICONTROL Load Template]**.
 
-   A variável _[!UICONTROL Currently used for]_exibe o caminho de configuração do modelo. A variável_[!UICONTROL Template Subject]_ e _[!UICONTROL Template Content]_são gerados automaticamente em relação ao modelo selecionado.
+   O campo _[!UICONTROL Currently used for]_exibe o caminho de configuração do modelo. O_[!UICONTROL Template Subject]_ e o _[!UICONTROL Template Content]_são gerados automaticamente em relação ao modelo selecionado.
 
-   - **[!UICONTROL Template Subject]** - Esse texto é exibido na linha de assunto de um email.
+   - **[!UICONTROL Template Subject]** - Este texto é exibido na linha de assunto de um email.
 
-   - **[!UICONTROL Template Content]** - Esse texto é exibido no conteúdo completo do email enviado.
+   - **[!UICONTROL Template Content]** - Este texto é exibido no conteúdo completo do email enviado.
 
-   ![Conteúdo do modelo de email](./assets/email-template-content.png){width="600" zoomable="yes"}
+   ![Conteúdo do Modelo de email](./assets/email-template-content.png){width="600" zoomable="yes"}
 
 1. Insira um **[!UICONTROL Template Name]**.
 
-1. Para obter uma lista das [predefinido](variables-predefined.md) que podem ser usadas com esse modelo de email, clique em **[!UICONTROL Insert Variable]**.
+1. Para obter uma lista das variáveis [predefinidas](variables-predefined.md) que podem ser usadas com este modelo de email, clique em **[!UICONTROL Insert Variable]**.
 
    Determine qual variável você deseja inserir no modelo. Em seguida, clique em _Fechar_ (X) no canto superior direito. (Você voltará a isso mais tarde.)
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
    Quando a visualização for aberta em uma nova guia, determine onde deseja colocar a variável em relação ao outro conteúdo. Em seguida, retorne à guia original para continuar.
 
-   ![Visualizar modelo](./assets/email-template-new-pickup-order-preview.png){width="600" zoomable="yes"}
+   ![Visualizar Modelo](./assets/email-template-new-pickup-order-preview.png){width="600" zoomable="yes"}
 
-1. No **[!UICONTROL Template Content]** posicione o ponto de inserção onde deseja que a variável apareça e clique em **[!UICONTROL Insert Variable...]**.
+1. Na caixa **[!UICONTROL Template Content]**, posicione o ponto de inserção onde deseja que a variável apareça e clique em **[!UICONTROL Insert Variable...]**.
 
 1. Na lista de variáveis disponíveis, clique na que deseja inserir no modelo.
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. Na parte superior da página, clique em **[!UICONTROL Convert to Plain Text]**.
 
-1. Quando solicitado a retirar as tags, clique em **[!UICONTROL OK]**.
+1. Quando solicitado a retirar tags, clique em **[!UICONTROL OK]**.
 
 1. Para salvar a versão de texto simples, clique em **[!UICONTROL Save Template]**.
 

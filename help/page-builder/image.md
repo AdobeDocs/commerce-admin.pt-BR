@@ -1,22 +1,22 @@
 ---
 title: Mídia - Imagem
-description: Saiba mais sobre o tipo de conteúdo de imagem, usado para adicionar uma imagem JPG, GIF ou PNG à [!DNL Page Builder] estágio.
+description: Saiba mais sobre o tipo de conteúdo de Imagem, usado para adicionar uma imagem JPG, GIF ou PNG ao estágio  [!DNL Page Builder] .
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
 
 # Mídia - Imagem
 
-Use o _Imagem_ tipo de conteúdo para adicionar uma imagem JPG, GIF ou PNG à [[!DNL Page Builder] estágio](workspace.md#stage). Além da imagem de desktop padrão, você pode especificar uma imagem secundária para dispositivos móveis. Você também pode adicionar uma legenda que aparece abaixo da imagem e vincular a imagem a qualquer URL, produto, categoria ou página.
+Use o tipo de conteúdo _Image_ para adicionar uma imagem JPG GIF, PNG ou PNG ao [[!DNL Page Builder] stage](workspace.md#stage). Além da imagem de desktop padrão, você pode especificar uma imagem secundária para dispositivos móveis. Você também pode adicionar uma legenda que aparece abaixo da imagem e vincular a imagem a qualquer URL, produto, categoria ou página.
 
 >[!TIP]
 >
->Você pode usar o [Integração do Adobe Stock](../content-design/adobe-stock.md) para encontrar e salvar um ativo apropriado entre os milhões fornecidos pelo [Adobe Stock](https://stock.adobe.com). Consulte [Uso de imagens do Adobe Stock](../content-design/adobe-stock-manage.md) para obter detalhes sobre como pesquisar, refinar e salvar ativos do Adobe Stock na galeria.
+>Você pode usar a [Integração do Adobe Stock](../content-design/adobe-stock.md) para localizar e salvar um ativo apropriado entre os milhões fornecidos pela [Adobe Stock](https://stock.adobe.com). Consulte [Usando imagens do Adobe Stock](../content-design/adobe-stock-manage.md) para obter detalhes sobre como pesquisar, refinar e salvar ativos do Adobe Stock na galeria.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -30,10 +30,10 @@ A caixa de ferramentas da imagem é exibida ao passar o mouse sobre o container 
 |--- |--- |--- |
 | Mover | ![Ícone Mover](./assets/pb-icon-move.png){width="25"} | Move a imagem para outra posição no palco. |
 | (rótulo) | Imagem | Identifica o container de conteúdo atual como uma imagem. Passe o mouse sobre o contêiner de imagem para ver a caixa de ferramentas. |
-| Configurações | ![Ícone Configurações](./assets/pb-icon-settings.png){width="25"} | Abre a _Editar imagem_ página, onde é possível alterar as propriedades da imagem e do container. |
+| Configurações | ![Ícone de configurações](./assets/pb-icon-settings.png){width="25"} | Abre a página _Editar Imagem_, na qual você pode alterar as propriedades da imagem e do contêiner. |
 | Ocultar | ![Ícone Ocultar](./assets/pb-icon-hide.png){width="25"} | Oculta a imagem atual. |
 | Mostrar | ![Mostrar ícone](./assets/pb-icon-show.png){width="25"} | Mostra a imagem oculta. |
-| Duplicar | ![Ícone Duplicar](./assets/pb-icon-duplicate.png){width="25"} | Faz uma cópia da imagem. |
+| Duplicar | ![Ícone duplicado](./assets/pb-icon-duplicate.png){width="25"} | Faz uma cópia da imagem. |
 | Remover | ![Ícone Remover](./assets/pb-icon-remove.png){width="25"} | Exclui a imagem do estágio. |
 | Carregar nova imagem |  | Faz upload de uma imagem do seu sistema de arquivos local para a galeria. |
 | Selecionar na Galeria |  | Escolhe uma imagem existente da galeria. |
@@ -44,29 +44,29 @@ A caixa de ferramentas da imagem é exibida ao passar o mouse sobre o container 
 
 ## Adicionar uma imagem
 
-1. No [!DNL Page Builder] painel, expandir **[!UICONTROL Media]** e arraste um **[!UICONTROL Image]** espaço reservado para o contêiner de destino.
+1. No painel [!DNL Page Builder], expanda **[!UICONTROL Media]** e arraste um espaço reservado **[!UICONTROL Image]** para o contêiner de destino.
 
    É possível adicionar uma imagem a uma linha, coluna ou guia. No exemplo a seguir, a imagem é arrastada para uma coluna vazia.
 
-   ![Arrastar um tipo de conteúdo de imagem para o estágio](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
+   ![Arrastando um tipo de conteúdo de imagem para o estágio](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
 1. Use um dos métodos a seguir para adicionar o ativo de imagem:
 
-   ![Fazer upload de imagem ou Selecionar nas ferramentas da Galeria no palco](./assets/pb-media-image-upload-select.png){width="500" zoomable="yes"}
+   ![Carregar Imagem ou Selecionar nas ferramentas da Galeria no estágio](./assets/pb-media-image-upload-select.png){width="500" zoomable="yes"}
 
    >[!NOTE]
    >
    >O tamanho máximo do arquivo é 4 MB. Os tipos de arquivos compatíveis são JPG, GIF e PNG.
 
-   - _**Carregar uma nova imagem**_: use esse método para fazer upload de um novo arquivo de imagem do seu sistema.
+   - _**Carregar uma nova imagem**_: use este método para carregar um novo arquivo de imagem do seu sistema.
 
       - Clique em **[!UICONTROL Upload Image]**.
 
       - Localize e escolha a imagem para adicioná-la à galeria e ao container de destino.
 
-     Como alternativa, você também pode arrastar um arquivo de imagem de seu sistema e soltá-lo no _Câmera_ ( ![Ícone de câmera](./assets/pb-icon-camera.png){width="20"} ) ícone.
+     Como alternativa, você também pode arrastar um arquivo de imagem de seu sistema e soltá-lo no ícone da _Câmera_ ( ![Ícone de Câmera](./assets/pb-icon-camera.png){width="20"} ).
 
-   - _**Selecionar um ativo existente**_: use esse método para selecionar um ativo de imagem existente no armazenamento de mídia/galeria.
+   - _**Selecionar um ativo existente**_: use este método para selecionar um ativo de imagem existente do armazenamento de mídia/galeria.
 
       - Clique em **[!UICONTROL Select from Gallery]**.
 
@@ -74,19 +74,19 @@ A caixa de ferramentas da imagem é exibida ao passar o mouse sobre o container 
 
       - Clique na miniatura e em **[!UICONTROL Add Selected]**.
 
-        ![Adição de uma imagem selecionada](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+        ![Adicionando uma imagem selecionada](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _**Pesquisar e selecionar uma imagem do Adobe Stock**_: use esse método para localizar uma imagem do Adobe Stock.
+   - _**Pesquise e selecione uma imagem do Adobe Stock**_: use este método para localizar uma imagem do Adobe Stock.
 
      >[!NOTE]
      >
-     >Este método requer um [Integração do Adobe Stock](../content-design/adobe-stock.md) configurado para o seu Administrador.
+     >Este método requer uma [integração com o Adobe Stock](../content-design/adobe-stock.md) configurada para o Administrador.
 
       - Clique em **[!UICONTROL Search Adobe Stock]** e procure uma imagem.
 
       - Salve a imagem de visualização ou licenciada na galeria.
 
-        Consulte [Uso de imagens do Adobe Stock](../content-design/adobe-stock-manage.md) para obter mais informações sobre como trabalhar com ativos do Adobe Stock.
+        Consulte [Usando imagens do Adobe Stock](../content-design/adobe-stock-manage.md) para obter mais informações sobre como trabalhar com ativos do Adobe Stock.
 
       - Selecione a miniatura do ativo na galeria e clique em **[!UICONTROL Add Selected]**.
 
@@ -94,26 +94,26 @@ A caixa de ferramentas da imagem é exibida ao passar o mouse sobre o container 
 
    >[!NOTE]
    >
-   >A variável [Banner](banner.md) e [Controle deslizante](slider.md) os tipos de conteúdo também incluem _Fazer upload de imagem_ e _Selecionar na Galeria_ opções para adicionar imagens.
+   >Os tipos de conteúdo [Banner](banner.md) e [Slider](slider.md) também incluem as opções _Carregar Imagem_ e _Selecionar na Galeria_ para adicionar imagens.
 
    ![Imagem em uma coluna](./assets/pb-media-image-column1-giftcard.png){width="500" zoomable="yes"}
 
 ## Alterar configurações da imagem
 
-1. Passe o mouse sobre o contêiner de imagem para exibir a caixa de ferramentas e escolha a _Configurações_ (![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ) ícone.
+1. Passe o mouse sobre o contêiner de imagem para exibir a caixa de ferramentas e escolha o ícone _Configurações_ (![Configurações](./assets/pb-icon-settings.png){width="20"} ).
 O nome do arquivo, as dimensões e o tamanho do arquivo aparecem abaixo da imagem atual.
 
    ![Imagem atual](./assets/pb-media-image-settings-image.png){width="600" zoomable="yes"}
 
-1. Para alterar o atual **[!UICONTROL Image]**, execute um dos procedimentos a seguir:
+1. Para alterar o **[!UICONTROL Image]** atual, siga um destes procedimentos:
 
-   - _**Carregar uma nova imagem**_: use esse método para fazer upload de um novo arquivo de imagem do seu sistema.
+   - _**Carregar uma nova imagem**_: use este método para carregar um novo arquivo de imagem do seu sistema.
 
       - Clique em **[!UICONTROL Upload Image]**.
 
       - Localize e escolha a imagem para adicioná-la à galeria e ao container de destino.
 
-   - _**Selecionar um ativo existente**_: use esse método para selecionar um ativo de imagem existente no armazenamento de mídia/galeria.
+   - _**Selecionar um ativo existente**_: use este método para selecionar um ativo de imagem existente do armazenamento de mídia/galeria.
 
       - Clique em **[!UICONTROL Select from Gallery]**.
 
@@ -121,19 +121,19 @@ O nome do arquivo, as dimensões e o tamanho do arquivo aparecem abaixo da image
 
       - Clique na miniatura e em **[!UICONTROL Add Selected]**.
 
-        ![Adição de uma imagem selecionada](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+        ![Adicionando uma imagem selecionada](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - **Pesquisar e selecionar uma imagem do Adobe Stock**: use esse método para localizar uma imagem do Adobe Stock.
+   - **Pesquise e selecione uma imagem do Adobe Stock**: use este método para localizar uma imagem do Adobe Stock.
 
      >[!NOTE]
      >
-     >Este método requer um [Integração do Adobe Stock](../content-design/adobe-stock.md) configurado para o seu Administrador.
+     >Este método requer uma [integração com o Adobe Stock](../content-design/adobe-stock.md) configurada para o Administrador.
 
       - Clique em **[!UICONTROL Search Adobe Stock]** e procure uma imagem.
 
       - Salve a imagem de visualização ou licenciada na galeria.
 
-        Consulte [Uso de imagens do Adobe Stock](../content-design/adobe-stock-manage.md) para obter mais informações sobre como trabalhar com ativos do Adobe Stock.
+        Consulte [Usando imagens do Adobe Stock](../content-design/adobe-stock-manage.md) para obter mais informações sobre como trabalhar com ativos do Adobe Stock.
 
       - Selecione a miniatura do ativo na galeria e clique em **[!UICONTROL Add Selected]**.
 
@@ -145,11 +145,11 @@ O nome do arquivo, as dimensões e o tamanho do arquivo aparecem abaixo da image
 
    O link é a página de destino exibida quando o cliente clica na imagem. Você pode usar um dos três tipos de link:
 
-   - **[!UICONTROL URL]** - Links para um URL relativo ou totalmente qualificado.
+   - **[!UICONTROL URL]** - Links para uma URL relativa ou totalmente qualificada.
 
    - **[!UICONTROL Product]** - Identifica a página de destino com base no nome do produto ou SKU. Procure o produto por nome com base em um nome parcial ou completo. Escolha o produto na lista de resultados da pesquisa.
 
-     ![Escolha de um produto para vincular](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
+     ![Escolhendo um produto para vincular](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Category]** - Identifica a página de destino como uma categoria ou subcategoria específica na árvore de categorias. Procure a categoria com base em um nome parcial ou completo. Escolha a categoria na seção expandida da árvore exibida.
 
@@ -157,36 +157,36 @@ O nome do arquivo, as dimensões e o tamanho do arquivo aparecem abaixo da image
 
    - **[!UICONTROL Page]** - Identifica a página de destino como uma página de conteúdo específica. Procure a página com base em um nome parcial ou completo. Escolha a página na lista de resultados da pesquisa.
 
-     ![Escolha de uma página para vincular](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
+     ![Escolhendo uma página para vincular](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
-   Se quiser impedir que o visitante saia da sua loja, selecione a variável **[!UICONTROL Open in new tab]** caixa de seleção Quando a caixa de seleção é desmarcada, o destino vinculado é aberto na mesma guia do navegador, o que pode efetivamente afastar o visitante da loja.
+   Se quiser impedir que o visitante saia do armazenamento, marque a caixa de seleção **[!UICONTROL Open in new tab]**. Quando a caixa de seleção é desmarcada, o destino vinculado é aberto na mesma guia do navegador, o que pode efetivamente afastar o visitante da loja.
 
 1. Para adicionar um **[!UICONTROL Image Caption]**, digite o texto que você deseja que apareça abaixo da imagem.
 
    O formato da legenda é determinado pela folha de estilos associada ao tema atual.
 
-   Normalmente, a legenda aparece abaixo da imagem e fornece informações sobre a imagem para visitantes e mecanismos de pesquisa. Se o site estiver disponível em vários idiomas, você poderá usar a mesma imagem, mas traduzir a legenda. No HTML, a variável `<figcaption>` é um subconjunto de `<figure>` tag. `<figcaption>This is the image caption</figcaption>`
+   Normalmente, a legenda aparece abaixo da imagem e fornece informações sobre a imagem para visitantes e mecanismos de pesquisa. Se o site estiver disponível em vários idiomas, você poderá usar a mesma imagem, mas traduzir a legenda. No HTML, a marca `<figcaption>` é um subconjunto da marca `<figure>`. `<figcaption>This is the image caption</figcaption>`
 
 1. Atualize qualquer uma das outras configurações conforme necessário:
 
    - [Otimização do mecanismo de pesquisa](#search-engine-optimization)
    - [Avançado](#advanced)
 
-1. Quando terminar, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao [!DNL Page Builder] espaço de trabalho.
+1. Quando terminar, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao espaço de trabalho [!DNL Page Builder].
 
 ## Mover uma imagem
 
-1. Passe o mouse sobre o contêiner de imagem para exibir a caixa de ferramentas e escolher o _Mover_ (![Ícone Mover](./assets/pb-icon-move.png){width="20"} ) ícone.
+1. Passe o mouse sobre o contêiner de imagem para exibir a caixa de ferramentas e escolha o ícone _Mover_ (![Mover](./assets/pb-icon-move.png){width="20"} ).
 
-   ![Mover uma imagem](./assets/pb-media-image-column1-move-giftcard.png){width="500" zoomable="yes"}
+   ![Movendo uma imagem](./assets/pb-media-image-column1-move-giftcard.png){width="500" zoomable="yes"}
 
 1. Selecione e arraste a imagem para a nova posição, logo abaixo da linha de guia vermelha.
 
-   ![Uso da diretriz vermelha para posicionar a imagem](./assets/pb-media-image-column2-move-giftcard-red-guideline.png){width="500" zoomable="yes"}
+   ![Usando a diretriz vermelha para posicionar a imagem](./assets/pb-media-image-column2-move-giftcard-red-guideline.png){width="500" zoomable="yes"}
 
 ## Remover uma imagem
 
-1. Passe o mouse sobre o contêiner de imagem para exibir a caixa de ferramentas e escolher o _Remover_ ( ![Ícone Remover](./assets/pb-icon-remove.png){width="20"} ) ícone.
+1. Passe o mouse sobre o contêiner de imagem para exibir a caixa de ferramentas e escolha o ícone _Remover_ ( ![Remover ícone](./assets/pb-icon-remove.png){width="20"} ).
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
@@ -194,17 +194,17 @@ O nome do arquivo, as dimensões e o tamanho do arquivo aparecem abaixo da image
 
 O texto dessas configurações está visível para mecanismos de pesquisa e melhora a forma como a página é indexada.
 
-- Para **[!UICONTROL Alternative Text]**, insira um _alt_ descrição do texto para que as ferramentas de acessibilidade digital sejam exibidas.
+- Para **[!UICONTROL Alternative Text]**, insira uma descrição de texto _alt_ para que as ferramentas de acessibilidade digital sejam exibidas.
 
-  O uso do texto alternativo é uma prática recomendada de acessibilidade e é exigido por lei em alguns locais. No HTML, a variável `alt` atributo é um subconjunto de `image` tag: `<image title="tooltip" alt="description" src="image.jpg">`.
+  O uso do texto alternativo é uma prática recomendada de acessibilidade e é exigido por lei em alguns locais. No HTML, o atributo `alt` é um subconjunto da marca `image`: `<image title="tooltip" alt="description" src="image.jpg">`.
 
-- Para **[!UICONTROL Title Attribute]**, digite o texto a ser exibido como uma dica de ferramenta ao passar o mouse.
+- Para **[!UICONTROL Title Attribute]**, insira o texto a ser exibido como uma dica de ferramenta ao passar o mouse.
 
-  Como prática recomendada, escolha um título descritivo e rico em palavras-chave para melhorar a forma como a imagem é indexada por mecanismos de pesquisa. No HTML, a variável `title` atributo é um subconjunto de `image` tag: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Como prática recomendada, escolha um título descritivo e rico em palavras-chave para melhorar a forma como a imagem é indexada por mecanismos de pesquisa. No HTML, o atributo `title` é um subconjunto da marca `image`: `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## [!UICONTROL Advanced]
 
-- Para controlar o posicionamento horizontal das imagens adicionadas ao container, escolha uma **[!UICONTROL Alignment]**.
+- Para controlar o posicionamento horizontal das imagens adicionadas ao contêiner, escolha um **[!UICONTROL Alignment]**.
 
   | Opção | Descrição |
   | ------ | ----------- |
@@ -215,7 +215,7 @@ O texto dessas configurações está visível para mecanismos de pesquisa e melh
 
   {style="table-layout:auto"}
 
-- Defina o **[!UICONTROL Border]** estilo aplicado aos quatro lados do contêiner de imagem:
+- Defina o estilo **[!UICONTROL Border]** aplicado a todos os quatro lados do contêiner de imagem:
 
   | Opção | Descrição |
   | ------ | ----------- |
@@ -232,9 +232,9 @@ O texto dessas configurações está visível para mecanismos de pesquisa e melh
 
   {style="table-layout:auto"}
 
-- Se você definir um estilo de borda diferente de `None`, conclua as opções de exibição da borda:
+- Se você definir um estilo de borda diferente de `None`, conclua as opções de exibição de borda:
 
-  ![Cor da borda](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+  ![Cor da Borda](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
   | Opção | Descrição |
   | ------ |------------ |
@@ -244,11 +244,11 @@ O texto dessas configurações está visível para mecanismos de pesquisa e melh
 
   {style="table-layout:auto"}
 
-- (Opcional) Especifique os nomes dos **[!UICONTROL CSS classes]** na folha de estilos atual para aplicar ao contêiner de imagem.
+- (Opcional) Especifique os nomes de **[!UICONTROL CSS classes]** da folha de estilos atual para aplicar ao contêiner de imagem.
 
   Separe vários nomes de classe com um espaço.
 
-- Insira valores, em pixels, para o **[!UICONTROL Margins and Padding]** para especificar as margens externas e o preenchimento interno do contêiner de imagem.
+- Insira valores, em pixels, para que **[!UICONTROL Margins and Padding]** especifique as margens externas e o preenchimento interno do contêiner de imagem.
 
   Insira cada valor correspondente no diagrama de contêiner de imagem.
 

@@ -5,7 +5,7 @@ exl-id: b1cbc3b0-c245-4b8a-886f-b2cfc104db16
 feature: Customers, Storefront
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Os clientes que mantêm seus catálogos de endereços atualizados podem agilizar
 
 1. Na navegação à esquerda da conta do cliente, o cliente escolhe **[!UICONTROL Address Book]**.
 
-1. No _[!UICONTROL Address Book]_página abaixo_ Entradas Adicionais de Endereço _, cliques **[!UICONTROL Add New Address]**.
+1. Na página _[!UICONTROL Address Book]_em_ Entradas de Endereço Adicionais _, clique em **[!UICONTROL Add New Address]**.
 
    ![Adicionar novo endereço](assets/add-new-address.png){width="600" zoomable="yes"}
 
@@ -39,13 +39,13 @@ Os clientes que mantêm seus catálogos de endereços atualizados podem agilizar
    * [!UICONTROL Use as my default billing address]
    * [!UICONTROL Use as my default shipping address]
 
-1. Ao concluir, clique em **[!UICONTROL Save Address]**.
+1. Quando terminar, clica em **[!UICONTROL Save Address]**.
 
    >[!INFO]
    >
    >O novo endereço está listado em [!UICONTROL Additional Address Entries].
 
-   ![Entradas Adicionais de Endereço](assets/customer-account-dashboard-address-saved.png){width="700" zoomable="yes"}
+   ![Entradas de Endereço Adicionais](assets/customer-account-dashboard-address-saved.png){width="700" zoomable="yes"}
 
 ## Editar um endereço
 
@@ -59,9 +59,9 @@ Os clientes que mantêm seus catálogos de endereços atualizados podem agilizar
 
    >[!INFO]
    >
-   >O cliente pode definir este endereço como o padrão **[!UICONTROL Shipping or Billing]** selecionando o _Usar como meu endereço de cobrança padrão_ caixas de seleção.
+   >O cliente pode definir este endereço como o endereço **[!UICONTROL Shipping or Billing]** padrão marcando as caixas de seleção _Usar como meu endereço de cobrança padrão_.
 
-1. Quando as alterações estiverem concluídas, clique em **[!UICONTROL Save Address]**.
+1. Quando as alterações forem concluídas, clique em **[!UICONTROL Save Address]**.
 
 ## Alterar o endereço padrão
 
@@ -69,11 +69,11 @@ Os clientes que mantêm seus catálogos de endereços atualizados podem agilizar
 
 1. Escolhe um dos métodos de edição:
 
-   * Cliques **[!UICONTROL Change Billing/Shipping Address]** no _[!UICONTROL Default Addresses]_seção.
+   * Cliques em **[!UICONTROL Change Billing/Shipping Address]** na seção _[!UICONTROL Default Addresses]_.
 
-   * Cliques **[!UICONTROL Edit]** no _[!UICONTROL Additional Address Entries]_grade.
+   * Cliques **[!UICONTROL Edit]** na grade _[!UICONTROL Additional Address Entries]_.
 
-1. Faça as alterações necessárias e clique em **[!UICONTROL Save Address]**.
+1. Faz as alterações necessárias e clica em **[!UICONTROL Save Address]**.
 
 ## Excluir um endereço
 
@@ -81,7 +81,7 @@ Os clientes que mantêm seus catálogos de endereços atualizados podem agilizar
 
 1. Localiza a entrada de endereço a ser excluída.
 
-1. Cliques **[!UICONTROL Delete]** no _[!UICONTROL Additional Address Entries]_grade.
+1. Cliques **[!UICONTROL Delete]** na grade _[!UICONTROL Additional Address Entries]_.
 
 1. Para confirmar a ação, clique em **[!UICONTROL OK]**.
 

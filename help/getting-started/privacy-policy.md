@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Política de privacidade da loja
 
-Sua loja inclui um exemplo de política de privacidade que deve ser atualizada com suas próprias informações. Sua política de privacidade deve descrever o tipo de informações coletadas por sua empresa e como elas são usadas. Também deve listar os nomes de arquivo de [cookies](compliance-cookie-law.md#default-cookies) que são colocados nos computadores das pessoas que visitam sua loja. Quaisquer cookies adicionais associados a extensões e complementos de terceiros devem ser incluídos na lista.
+Sua loja inclui um exemplo de política de privacidade que deve ser atualizada com suas próprias informações. Sua política de privacidade deve descrever o tipo de informações coletadas por sua empresa e como elas são usadas. Ele também deve listar os nomes de arquivo dos [cookies](compliance-cookie-law.md#default-cookies) que são colocados nos computadores das pessoas que visitam sua loja. Quaisquer cookies adicionais associados a extensões e complementos de terceiros devem ser incluídos na lista.
 
 ## Dados pessoais
 
@@ -34,18 +34,18 @@ Qualquer representação da informação que permita determinar a identidade de 
 >
 >Os dados de amostra do Luma incluem um exemplo de política de privacidade que você pode modificar para uso.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Na grade, localize **[!UICONTROL Privacy Policy]**. Em seguida, no _[!UICONTROL Action]_clique em **[!UICONTROL Select]**e escolha **[!UICONTROL Edit]**.
+1. Na grade, localize **[!UICONTROL Privacy Policy]**. Em seguida, na coluna _[!UICONTROL Action]_, clique em **[!UICONTROL Select]**e escolha **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >
-   >Se você alterar a chave de URL da página da política de privacidade, também deverá criar uma [regravação de URL personalizada](../merchandising-promotions/url-rewrite-custom.md) para redirecionar o tráfego para a nova chave de URL. Caso contrário, o link no rodapé retornará `404 Page Not Found`.
+   >Se você alterar a chave da URL da página da política de privacidade, também deverá criar uma [regravação personalizada da URL](../merchandising-promotions/url-rewrite-custom.md) para redirecionar o tráfego para a nova chave da URL. Caso contrário, o link no rodapé retornará `404 Page Not Found`.
 
-1. Expanda a **[!UICONTROL Content]** e faça as alterações necessárias no conteúdo.
+1. Expanda a seção **[!UICONTROL Content]** e faça as alterações necessárias no conteúdo.
 
-   Para saber mais sobre como usar as ferramentas de conteúdo da página, consulte [Preencher o conteúdo](../content-design/page-add.md#step-2-complete-the-content) no _Guia de design e conteúdo_.
+   Para saber mais sobre como usar as ferramentas de conteúdo da página, consulte [Concluir o conteúdo](../content-design/page-add.md#step-2-complete-the-content) no _Guia de Conteúdo e Design_.
 
-   ![Página Política de privacidade - editar conteúdo](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
+   ![Página da Política de Privacidade - editar conteúdo](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Save Page]**.

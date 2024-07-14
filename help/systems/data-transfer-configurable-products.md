@@ -5,7 +5,7 @@ exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 feature: Products, Data Import/Export
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ No exemplo a seguir, é possível adicionar um conjunto de variações de produt
 
 1. Se você estiver adicionando um tamanho ou cor, ou fazendo qualquer outra alteração em um atributo existente, atualize o atributo com o novo valor.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
 1. Localize o atributo na lista e abra-o no modo de edição.
 
@@ -42,7 +42,7 @@ No exemplo a seguir, é possível adicionar um conjunto de variações de produt
 
    No exemplo a seguir, um novo tamanho é adicionado a uma Amostra de texto.
 
-   ![Atributo do produto - adicionar novo valor](./assets/data-transfer-configurable-product-add-new-attribute-value.png){width="500" zoomable="yes"}
+   ![Atributo de produto - adicionar novo valor](./assets/data-transfer-configurable-product-add-new-attribute-value.png){width="500" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Save Attribute]**.
 
@@ -50,25 +50,25 @@ No exemplo a seguir, é possível adicionar um conjunto de variações de produt
 
 ## Etapa 2: exporte o produto configurável
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Encontre o produto configurável para exportar:
 
    - Clique em **[!UICONTROL Filters]**.
-   - Definir **[!UICONTROL Type]** para `Configurable Product` e clique em **[!UICONTROL Apply Filters]**.
+   - Defina **[!UICONTROL Type]** como `Configurable Product` e clique em **[!UICONTROL Apply Filters]**.
    - Escolha o produto configurável que deseja usar para a exportação de teste e anote o **[!UICONTROL SKU]**.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
    ![Configurações de exportação de dados](./assets/data-transfer-export-settings.png){width="600" zoomable="yes"}
 
 1. Em _[!UICONTROL Export Setting]s_, faça o seguinte:
 
-   - Definir **[!UICONTROL Entity Type]** para `Products`.
+   - Defina **[!UICONTROL Entity Type]** como `Products`.
 
-   - Definir **[!UICONTROL Export File Format]** para `CSV`.
+   - Defina **[!UICONTROL Export File Format]** como `CSV`.
 
-1. Em _[!UICONTROL Entity Attributes]_, role para baixo ou use o filtro de rótulo de atributo para localizar o **[!UICONTROL SKU]**atribua e faça o seguinte:
+1. Em _[!UICONTROL Entity Attributes]_, role para baixo ou use o filtro de rótulo de atributo para localizar o atributo **[!UICONTROL SKU]**e faça o seguinte:
 
    - Insira o SKU do produto configurável que você escolheu exportar e clique em **[!UICONTROL Continue]**.
 
@@ -76,16 +76,16 @@ No exemplo a seguir, é possível adicionar um conjunto de variações de produt
 
    - Procure o arquivo no local de download do navegador da Web e abra-o como uma planilha.
 
-     O arquivo CSV tem uma linha separada para cada variação de produto simples e uma linha para o produto configurável. A variável `product_type column` A mostra várias variações de produtos simples associadas a um produto configurável.
+     O arquivo CSV tem uma linha separada para cada variação de produto simples e uma linha para o produto configurável. O `product_type column` mostra várias variações de produtos simples associadas a um produto configurável.
 
-     ![Exemplo de dados - produto configurável com variações](./assets/data-transfer-csv-configurable-product.png){width="600" zoomable="yes"}
+     ![Dados de exemplo - produto configurável com variações](./assets/data-transfer-csv-configurable-product.png){width="600" zoomable="yes"}
 
    - Role até a extremidade direita da planilha para localizar as seguintes colunas.
 
       - `configurable_variations` - Define a relação um para muitos entre o registro de produto configurável e cada variação.
       - `configurable_variation_labels` - Define o rótulo que identifica cada variação.
 
-     Neste exemplo, os dados podem ser encontrados nas colunas CG e CH. Dependendo do número de variações, a string de dados no campo `configurable_variations` A coluna pode ser longa. Os dados são usados como um índice para as variações de produtos associadas e têm a seguinte estrutura:
+     Neste exemplo, os dados podem ser encontrados nas colunas CG e CH. Dependendo do número de variações, a cadeia de caracteres de dados na coluna `configurable_variations` pode ser longa. Os dados são usados como um índice para as variações de produtos associadas e têm a seguinte estrutura:
 
      ```text
      sku={{SKU_VALUE}},attribute1={{VALUE}},attribute2={{VALUE}}| sku={{SKU_VALUE}},attribute1={{VALUE}},attribute2={{VALUE}}
@@ -122,23 +122,23 @@ No exemplo a seguir, o conjunto de tamanhos XL é copiado e colado na planilha p
    - `url_key`
    - `additional_attributes`
 
-   Neste exemplo, todas as variáveis `XL` as referências são alteradas para `XXL`.
+   Para este exemplo, todas as referências `XL` são alteradas para `XXL`.
 
-1. Atualize as informações no `product_variations` do registro de produto configurável, para que as novas variações sejam incluídas como parte do produto configurável.
+1. Atualize as informações na coluna `product_variations` do registro de produto configurável, para que as novas variações sejam incluídas como parte do produto configurável.
 
-   Na linha com o registro de produto configurável, clique na célula que contém a variável `product_variations` dados. Em seguida, na barra de fórmulas, copie o último conjunto de parâmetros, começando com o símbolo da barra vertical.
+   Na linha com o registro de produto configurável, clique na célula que contém os dados `product_variations`. Em seguida, na barra de fórmulas, copie o último conjunto de parâmetros, começando com o símbolo da barra vertical.
 
-   ![dados de product_variation](./assets/data-transfer-export-configurable-product-product-variations-data.png){width="600" zoomable="yes"}
+   ![dados de variações de produtos](./assets/data-transfer-export-configurable-product-product-variations-data.png){width="600" zoomable="yes"}
 
 1. Cole os parâmetros até o final dos dados e edite conforme necessário para as novas variações.
 
-   Neste exemplo, a variável `sku` e `size` os parâmetros são atualizados para o novo tamanho XXL.
+   Neste exemplo, os parâmetros `sku` e `size` são atualizados para o novo tamanho XXL.
 
 1. Antes de importar os dados de volta para o catálogo, exclua todas as linhas que não foram alteradas.
 
    Neste exemplo, somente as três novas variações para o novo tamanho e a linha com o produto configurável atualizado são importadas de volta para o catálogo. As outras linhas podem ser excluídas do arquivo CSV. No entanto, não exclua a linha de cabeçalho com rótulos de coluna.
 
-   ![Dados em CSV a serem importados](./assets/data-transfer-csv-configurable-product-data-ready-to-import.png){width="600" zoomable="yes"}
+   ![Dados CSV a serem importados](./assets/data-transfer-csv-configurable-product-data-ready-to-import.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save]** o arquivo CSV.
 
@@ -150,15 +150,15 @@ No exemplo a seguir, o conjunto de tamanhos XL é copiado e colado na planilha p
 
 ## Etapa 4: Importar os dados atualizados
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. Em _[!UICONTROL Import Settings]_, definir **[!UICONTROL Entity Type]**para `Products`.
+1. Em _[!UICONTROL Import Settings]_, defina **[!UICONTROL Entity Type]**como `Products`.
 
-1. Em _[!UICONTROL Import Behavior]_, definir **[!UICONTROL Import Behavior]**para `Add/Update`.
+1. Em _[!UICONTROL Import Behavior]_, defina **[!UICONTROL Import Behavior]**como `Add/Update`.
 
    ![Comportamento de importação de dados](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. Em _[!UICONTROL File to Import]_, clique em **[!UICONTROL Choose File]**e navegue até o arquivo CSV que você preparou para importação e escolha o arquivo.
+1. Em _[!UICONTROL File to Import]_, clique em **[!UICONTROL Choose File]**, navegue até o arquivo CSV que você preparou para importar e escolha o arquivo.
 
    ![Arquivo de importação de dados](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

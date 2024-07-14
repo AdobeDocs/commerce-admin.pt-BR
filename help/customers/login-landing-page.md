@@ -14,21 +14,21 @@ ht-degree: 0%
 
 Você pode configurar sua loja para redirecionar os clientes para o painel de conta depois que eles entrarem ou permitirem que continuem comprando.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Customers]** e escolha **[!UICONTROL Customer Configuration]**.
 
-1. Expanda a **[!UICONTROL Login Options]** seção.
+1. Expanda a seção **[!UICONTROL Login Options]**.
 
-   ![Opções de logon](assets/customer-configuration-login-options.png){width="600" zoomable="yes"}
+   ![Opções de Logon](assets/customer-configuration-login-options.png){width="600" zoomable="yes"}
 
-1. Definir **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** a um dos seguintes:
+1. Defina **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** como um dos seguintes:
 
    - `Yes` - O painel de conta é exibido quando os clientes fazem logon em suas contas.
    - `No` - Os clientes podem continuar comprando depois de fazer logon em suas contas.
 
    >[!INFO]
    >
-   >Se necessário, limpe a **[!UICONTROL User system value]** para fazer a alteração.
+   >Se necessário, desmarque a caixa de seleção **[!UICONTROL User system value]** para fazer a alteração.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.

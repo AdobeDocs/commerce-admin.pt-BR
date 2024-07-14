@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Fornecer assistência ao comprador
 
-Às vezes, os clientes precisam de ajuda com seu pedido. Os administradores de armazenamento podem usar _Fazer logon como cliente_, que permite que eles vejam o que o cliente vê e façam atualizações para ajudá-los.
+Às vezes, os clientes precisam de ajuda com seu pedido. Os administradores de loja podem usar o _Logon como Cliente_, o que permite que eles vejam o que o cliente vê e façam atualizações para ajudá-los.
 
 Quaisquer ações executadas durante o logon como cliente são aplicadas à conta do cliente real.
 
-Quando estiver ativado para um _Admin_ usuário, a variável _[!UICONTROL Login as Customer]_O botão é exibido em várias páginas:
+Quando habilitado para um usuário _Administrador_, o botão _[!UICONTROL Login as Customer]_aparece em várias páginas:
 
 * [Página Customer Edit](../customers/update-account.md)
 * [Página de exibição de pedidos](../stores-purchase/order-processing.md)
@@ -24,39 +24,39 @@ Quando estiver ativado para um _Admin_ usuário, a variável _[!UICONTROL Login 
 * [Página de Exibição da Remessa](../stores-purchase/shipments.md)
 * [Página View de Aviso de Crédito](../stores-purchase/credit-memo-create.md)
 
-![Fazer logon como cliente](assets/login-as-customer.png){width="600" zoomable="yes"}
+![Fazer Logon Como Cliente](assets/login-as-customer.png){width="600" zoomable="yes"}
 
 ## Ativar o login como cliente
 
-Ativando _Fazer logon como cliente_ exige que você ative o recurso na instância do Commerce e, em seguida, ative o acesso para usuários Administradores nas permissões de função de usuário.
+Habilitar o _Logon como Cliente_ exige que você habilite o recurso em sua instância do Commerce e, em seguida, habilite o acesso para usuários Administradores nas permissões de função de usuário.
 
 ### Ativar o recurso
 
-1. Na barra lateral Admin, acesse  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral Admin, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel esquerdo, expanda **[!UICONTROL Customers]** e escolha  **[!UICONTROL Login as Customer]**.
+1. No painel esquerdo, expanda **[!UICONTROL Customers]** e escolha **[!UICONTROL Login as Customer]**.
 
    ![Opções de configuração - Fazer logon como cliente](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
 
-1. Definir **[!UICONTROL Enable Login as Customer]** para `Yes`.
+1. Defina **[!UICONTROL Enable Login as Customer]** como `Yes`.
 
-1. _(Opcional)_ Definir **[!UICONTROL Disable Page Cache for Admin User]** para `No` para habilitar o cache da página quando o usuário administrador faz logon como cliente.
+1. _(Opcional)_ Defina **[!UICONTROL Disable Page Cache for Admin User]** como `No` para habilitar o cache de páginas quando o usuário Administrador fizer logon como cliente.
 
    >[!WARNING]
    >
-   > Desabilitação do cache de páginas (`Yes` - padrão) garante que o usuário que está fazendo logon como Cliente obtenha dados novos e não armazenados em cache.
+   > Desabilitar o cache de página (`Yes` - padrão) garante que o usuário que está fazendo logon como Cliente obtenha dados novos e não armazenados em cache.
 
-1. _(Opcional)_ Definir **[!UICONTROL Store View to Log in]** para `Manual Selection` se você tiver uma configuração de vários sites e/ou de várias lojas e quiser que o usuário administrador selecione a visualização de loja ao fazer logon como cliente.
+1. _(Opcional)_ Defina **[!UICONTROL Store View to Log in]** como `Manual Selection` se você tiver uma configuração de vários sites e/ou de várias lojas e quiser que o usuário Administrador selecione a exibição de loja ao fazer logon como cliente.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
 ### Habilitar o acesso para usuários administradores
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _Permissões_ > **[!UICONTROL User Roles]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _Permissões_ > **[!UICONTROL User Roles]**.
 
 1. Clique na função na lista.
 
-1. No [!UICONTROL _Informações da função_] painel esquerdo, clique em **[!UICONTROL Role Resources]**.
+1. No painel esquerdo [!UICONTROL _Informações da função_], clique em **[!UICONTROL Role Resources]**.
 
 1. Alterar **[!UICONTROL Role Resources]** na página para `Custom`.
 
@@ -64,10 +64,10 @@ Ativando _Fazer logon como cliente_ exige que você ative o recurso na instânci
    >
    > Com essa opção selecionada, a hierarquia de recursos é exibida na página.
 
-1. Role para a  **[!UICONTROL Customers]** item pai e a variável **[!UICONTROL Login as Customer]** item abaixo. Em seguida, selecione os recursos que deseja habilitar para a função:
+1. Role até o item pai **[!UICONTROL Customers]** e o item **[!UICONTROL Login as Customer]** abaixo. Em seguida, selecione os recursos que deseja habilitar para a função:
 
-   * **[!UICONTROL Allow Login as Customer]** - Permite que o usuário administrador use a variável _Fazer logon como cliente_ recurso.
-   * **[!UICONTROL View Login as Customer Log]** - Permite que o usuário administrador veja a variável _Fazer logon como cliente_ Log.
+   * **[!UICONTROL Allow Login as Customer]** - Permite que o usuário Administrador use o recurso _Fazer logon como Cliente_.
+   * **[!UICONTROL View Login as Customer Log]** - Permite que o usuário Administrador veja o Log de _Logon como Cliente_.
 
    ![Recursos da função - Fazer logon como cliente](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
 
@@ -75,13 +75,13 @@ Ativando _Fazer logon como cliente_ exige que você ative o recurso na instânci
 
 ## Faça logon como cliente no Administrador
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > [!UICONTROL _Todos os Clientes_].
+1. Na barra lateral _Administrador_, vá para **[!UICONTROL Customers]** > [!UICONTROL _Todos os Clientes_].
 
 1. Abra um usuário no modo de edição.
 
-1. No **[!UICONTROL Customer Information]** escolha o **[!UICONTROL Account Information]** seção.
+1. No painel **[!UICONTROL Customer Information]**, escolha a seção **[!UICONTROL Account Information]**.
 
-1. Defina o **[!UICONTROL Allow remote shopping assistance]** para `Yes`.
+1. Defina o **[!UICONTROL Allow remote shopping assistance]** como `Yes`.
 
    >[!INFO]
    >
@@ -91,11 +91,11 @@ Ativando _Fazer logon como cliente_ exige que você ative o recurso na instânci
 
 Para habilitar o acesso à conta para a equipe de suporte da loja do Administrador, um cliente deve habilitar o recurso para sua conta:
 
-1. O cliente acessa o **[!UICONTROL Account Information]** página.
+1. O cliente acessa a página **[!UICONTROL Account Information]**.
 
-1. Seleciona o **[!UICONTROL Allow remote shopping assistance]** caixa de seleção
+1. Marca a caixa de seleção **[!UICONTROL Allow remote shopping assistance]**.
 
-1. Cliques do cliente **[!UICONTROL Save]**.
+1. O cliente clica em **[!UICONTROL Save]**.
 
 ![Página de informações da conta](assets/permission.png){width="700" zoomable="yes"}
 
@@ -107,23 +107,23 @@ Para habilitar o acesso à conta para a equipe de suporte da loja do Administrad
 
 >[!INFO]
 >
->Para usar _Fazer logon como cliente_, certifique-se de que seu Administrador esteja configurado conforme descrito anteriormente.
+>Para usar o _Logon como Cliente_, verifique se seu Administrador está configurado conforme descrito anteriormente.
 
-_Fazer logon como cliente_ O permite que você veja o site da mesma forma que o cliente, e que você solucione problemas e execute outras ações para o cliente. Se você tiver uma função de usuário atribuída com as permissões necessárias:
+_Fazer logon como Cliente_ permite que você veja o site da mesma maneira que o cliente, e permite que você solucione problemas e execute outras ações para o cliente. Se você tiver uma função de usuário atribuída com as permissões necessárias:
 
 1. Você pode clicar em **[!UICONTROL Login as Customer]** nas páginas listadas na seção anterior.
 1. As ações Fazer logon como cliente estão disponíveis no Relatório de ações.
 
 >[!WARNING]
 >
->Qualquer ação realizada durante o logon [!UICONTROL _como cliente_] (como adicionar/remover produtos) são aplicados ao pedido real do cliente. Na loja, um banner é exibido quando você está `logged in as customer_name` para fornecer um lembrete do estado especial.
+>Todas as ações executadas durante o logon em [!UICONTROL _como Cliente_] (como adicionar/remover produtos) são aplicadas ao pedido real do cliente. Na loja, um banner é exibido quando você está `logged in as customer_name` para fornecer um lembrete do estado especial.
 
 ## Fazer logon como Registro do cliente
 
 {{ee-feature}}
 
-O Adobe Commerce fornece um registro para a _Fazer logon como cliente_ ações. Ela lista todas as sessões em que um usuário administrador acessa o recurso. Para acessar as ações registradas, vá para a [Relatório de ações do administrador](../systems/action-log-report.md).
+A Adobe Commerce fornece um log para as ações _Fazer Logon como Cliente_. Ela lista todas as sessões em que um usuário administrador acessa o recurso. Para acessar as ações registradas, vá para o [Relatório de Ações do Administrador](../systems/action-log-report.md).
 
-É possível filtrar a configuração do relatório **[!UICONTROL Action Group]** para `Login As Customer` na parte superior da página e clicando em **[!UICONTROL Search]**.
+Você pode filtrar a configuração do relatório **[!UICONTROL Action Group]** para `Login As Customer` na parte superior da página e clicar em **[!UICONTROL Search]**.
 
-![Filtrar o relatório de ações](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
+![Filtrar o Relatório de Ações](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}

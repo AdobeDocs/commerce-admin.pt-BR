@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de pedidos de vitrine eletrônica
-description: Saiba como os clientes podem visualizar e gerenciar o histórico de pedidos na loja do Commerce.
+description: Saiba como os clientes podem visualizar e gerenciar seu histórico de pedidos na loja da Commerce.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
 source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
@@ -18,7 +18,7 @@ Os clientes têm acesso a todos os seus pedidos por meio de sua conta. Os pedido
 
 {{b2b-feature}}
 
-Seu inicial _[!UICONTROL My Orders]_os resultados também contêm pedidos correspondentes de usuários subordinados de todos os sites na instância de comércio. Um cliente associado a uma conta de empresa pode filtrar a lista de pedidos para localizar registros rapidamente nos resultados. Para mostrar as opções de filtro, o cliente clica em **[!UICONTROL Filter]**e cliques **[!UICONTROL Close]**para ocultar os filtros.
+Os resultados iniciais de _[!UICONTROL My Orders]_também contêm pedidos correspondentes de usuários subordinados de todos os sites na instância de comércio. Um cliente associado a uma conta de empresa pode filtrar a lista de pedidos para localizar registros rapidamente nos resultados. Para mostrar as opções de filtro, o cliente clica em **[!UICONTROL Filter]**e em **[!UICONTROL Close]**para ocultar os filtros.
 
 ![Meus Pedidos](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -34,25 +34,25 @@ Seu inicial _[!UICONTROL My Orders]_os resultados também contêm pedidos corres
 
 ## Exibir um pedido
 
-Um cliente encontra a ordem na lista e clica em **[!UICONTROL View Order]**. Na ordem aberta, eles podem executar qualquer um dos seguintes procedimentos:
+Um cliente encontra o pedido na lista e clica em **[!UICONTROL View Order]**. Na ordem aberta, eles podem executar qualquer um dos seguintes procedimentos:
 
-![Visualizar pedido](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
+![Exibir Pedido](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
 
 ### Exibir produtos encomendados recentemente
 
-A variável **[!UICONTROL Recent Orders]** é exibido na barra lateral e na janela **[!UICONTROL My Account]** página para clientes que estão conectados após fazer um pedido. Ele exibe cinco produtos da última compra.
+O bloco **[!UICONTROL Recent Orders]** é exibido na barra lateral e na página **[!UICONTROL My Account]** para clientes que estão conectados após fazerem um pedido. Ele exibe cinco produtos da última compra.
 
-O cliente pode ler os produtos no carrinho selecionando os produtos e clicando em **[!UICONTROL Add to Cart]**. Eles também podem exibir a última ordem clicando em **[!UICONTROL View all]**, que redireciona para a _[!UICONTROL My Account]_e a **[!UICONTROL Recent Orders]**bloco.
+O cliente pode ler os produtos no carrinho selecionando os produtos e clicando em **[!UICONTROL Add to Cart]**. Eles também podem exibir a última ordem clicando em **[!UICONTROL View all]**, que redireciona para a página _[!UICONTROL My Account]_e o bloco **[!UICONTROL Recent Orders]**.
 
 ### Imprimir ordem
 
-1. Cliques do cliente **[!UICONTROL Print Order]**.
+1. O cliente clica em **[!UICONTROL Print Order]**.
 
 1. Siga as instruções na caixa de diálogo Imprimir para concluir a impressão.
 
 ### Imprimir faturas
 
-1. No **[!UICONTROL Invoices]** , o cliente clica em uma das seguintes opções:
+1. Na guia **[!UICONTROL Invoices]**, o cliente clica em uma das opções a seguir:
 
    - **[!UICONTROL Print All Invoices]**
 
@@ -64,19 +64,19 @@ O cliente pode ler os produtos no carrinho selecionando os produtos e clicando e
 
 ### Imprimir remessas
 
-1. No **[!UICONTROL Order Shipments]** , o cliente clica em uma das seguintes opções:
+1. Na guia **[!UICONTROL Order Shipments]**, o cliente clica em uma das opções a seguir:
 
    - **[!UICONTROL Print All Shipments]**
 
    - **[!UICONTROL Print Shipment]**
 
-   ![Imprimir Todas as Entregas](./assets/customer-account-order-shipments.png){width="700" zoomable="yes"}
+   ![Imprimir Todas as Remessas](./assets/customer-account-order-shipments.png){width="700" zoomable="yes"}
 
 1. Usa a caixa de diálogo Imprimir para concluir a impressão.
 
 ### Rastrear uma remessa
 
-1. No **[!UICONTROL Order Shipments]** clique em **[!UICONTROL Track this Shipment]**.
+1. Na guia **[!UICONTROL Order Shipments]**, clique em **[!UICONTROL Track this Shipment]**.
 
    Todas as informações de rastreamento disponíveis são exibidas em uma janela pop-up.
 
@@ -84,9 +84,9 @@ O cliente pode ler os produtos no carrinho selecionando os produtos e clicando e
 
 ### Imprimir reembolsos
 
-1. No **Reembolsos** , o cliente clica em uma das seguintes opções:
+1. Na guia **Reembolsos**, o cliente clica em uma das seguintes opções:
 
-   - **Imprimir Todos os Reembolsos**
+   - **Imprimir Todos Os Reembolsos**
 
    - **Imprimir Reembolso**
 
@@ -94,7 +94,7 @@ O cliente pode ler os produtos no carrinho selecionando os produtos e clicando e
 
 1. Usa a caixa de diálogo Imprimir para concluir a impressão.
 
-Os repedidos estarão disponíveis para os clientes quando a variável [_Permitir reordenação_](reorders-allow.md) opção de configuração está habilitada.
+Reordenações estão disponíveis para os clientes quando a opção de configuração [_Permitir Reordenação_](reorders-allow.md) está habilitada.
 
 Um cliente pode iniciar a funcionalidade de reordenação para um pedido específico a partir de duas páginas:
 
@@ -103,31 +103,31 @@ Um cliente pode iniciar a funcionalidade de reordenação para um pedido especí
 
 ## Reordenações
 
-A variável _[!UICONTROL Reorder]_é exibido na lista com pedidos próximos a_[!UICONTROL View]_ link.
+O link _[!UICONTROL Reorder]_é exibido na lista com pedidos próximos ao link_[!UICONTROL View]_.
 
-![Reordenar link na página Meu pedido](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
+![Reordenar link na página Meu Pedido](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
 **Caso 1.** Todos os produtos do pedido estão disponíveis para reordenação
 
 O cliente é redirecionado ao carrinho de compras e todos os produtos são adicionados ao carrinho.
 
-**Caso 2.** Alguns/todos os produtos do pedido não estão disponíveis para repedido
+**Caso 2.** Alguns/todos os produtos do pedido não estão disponíveis para reordenação
 
 >[!NOTE]
 >
 >É possível reordenar `Not Visible Individually` produtos.
 
-A variável _[!UICONTROL Reorder]_O link do não aparece na_[!UICONTROL My Orders]_ e _[!UICONTROL View Order]_páginas.
+O link _[!UICONTROL Reorder]_não aparece nas páginas_[!UICONTROL My Orders]_ e _[!UICONTROL View Order]_.
 
-![Página Meu pedido](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
+![Página Meu Pedido](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->Se o carrinho não estiver vazio e o cliente clicar em **[!UICONTROL Reorder]** (do [!UICONTROL My Orders] ou [!UICONTROL Order View] ), os produtos existentes permanecerão no carrinho com os produtos de reordenação adicionados.
+>Se o carrinho não estiver vazio e o cliente clicar em **[!UICONTROL Reorder]** (na página [!UICONTROL My Orders] ou [!UICONTROL Order View]), os produtos existentes permanecerão no carrinho com os produtos de reordenação adicionados.
 
 ## Cancelar Pedidos
 
-Cancelar está disponível para clientes quando a variável [_Permitir cancelamento_](cancel-allow.md) opção de configuração está habilitada.
+Cancelar está disponível para clientes quando a opção de configuração [_Permitir Cancelamento_](cancel-allow.md) está habilitada.
 
 Um cliente pode iniciar a funcionalidade de cancelamento para um pedido específico a partir de três páginas:
 
@@ -135,9 +135,9 @@ Um cliente pode iniciar a funcionalidade de cancelamento para um pedido específ
 - Página de exibição de pedidos
 - Página Minha conta
 
-A variável _[!UICONTROL Cancel Order]_é exibido próximo à_[!UICONTROL Reorder]_ link. Se a ordem não puder ser cancelada, o link não será exibido.
+O link _[!UICONTROL Cancel Order]_é exibido próximo ao link_[!UICONTROL Reorder]_. Se a ordem não puder ser cancelada, o link não será exibido.
 
-![Cancelar link na página Meu pedido](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+![Cancelar link na página Meu Pedido](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
 Para executar o cancelamento, o cliente:
 
@@ -147,17 +147,17 @@ Para executar o cancelamento, o cliente:
 
    ![Cancelar motivos do pedido](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
 
-   Você pode personalizar os motivos do cancelamento na [_Permitir cancelamento_](cancel-allow.md) página.
+   Você pode personalizar os motivos do cancelamento na página [_Permitir cancelamento_](cancel-allow.md).
 
 1. Cliques **[!UICONTROL Confirm]**
 
-   ![Cancelar na página Meu pedido](./assets/cancel-order.png){width="700" zoomable="yes"}
+   ![Cancelar na página Meu Pedido](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Após o cancelamento, as ordens que estavam em _[!UICONTROL Pending]_status, alterar para_[!UICONTROL Canceled]_ status, os pedidos que estavam em _[!UICONTROL Processing]_status, alterar para_[!UICONTROL Closed]_ status e um reembolso será processado.
+   Após o cancelamento, os pedidos que estavam no status _[!UICONTROL Pending]_, mudam para o status_[!UICONTROL Canceled]_, os pedidos que estavam no status _[!UICONTROL Processing]_, mudam para o status_[!UICONTROL Closed]_ e um reembolso será processado.
 
    Quando o cancelamento for concluído, um email será enviado ao cliente.
 
-   ![Cancelar email do pedido](./assets/cancel-order-email.png){width="700" zoomable="yes"}
+   ![Cancelar email de pedido](./assets/cancel-order-email.png){width="700" zoomable="yes"}
 
    As informações de cancelamento são adicionadas ao histórico de pedidos do cliente. Ele aparece dentro das notas do pedido e na guia de histórico de comentários.
 
@@ -167,8 +167,8 @@ Para executar o cancelamento, o cliente:
 
    Se, por algum motivo, o pedido tiver sido alterado para um status que não pode ser cancelado e o cliente não tiver atualizado a página, o link para cancelar o pedido ainda será exibido. No entanto, quando eles tentam cancelar, uma mensagem de erro é exibida.
 
-   ![Cancelar mensagem de erro do pedido](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+   ![Cancelar mensagem de erro da ordem](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
 
    Depois de atualizar a página, você pode ver que o pedido já estava concluído, razão pela qual o cancelamento não funcionou.
 
-   ![Cancelar pedido após atualização](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}
+   ![Cancelar ordem após atualização](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

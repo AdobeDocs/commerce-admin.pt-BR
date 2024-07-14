@@ -5,14 +5,14 @@ exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
 feature: Shipping/Delivery, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Etiquetas de remessa
 
-O Commerce inclui um alto nível de integração com as principais transportadoras, o que dá acesso aos sistemas de remessa de transportadoras para rastrear pedidos, criar etiquetas de remessa e muito mais. As etiquetas de remessa podem ser criadas para remessas regulares e produtos com autorização para devolução de mercadoria. Além das informações fornecidas pela transportadora, a etiqueta também inclui o número do pedido do Commerce, o número do pacote e a quantidade total de pacotes para a remessa.
+O Commerce inclui um alto nível de integração com as principais transportadoras, o que dá a você acesso aos sistemas de transporte de transportadoras para rastrear pedidos, criar etiquetas de remessa e muito mais. As etiquetas de remessa podem ser criadas para remessas regulares e produtos com autorização para devolução de mercadoria. Além das informações fornecidas pela transportadora, a etiqueta também inclui o número do pedido Commerce, o número do pacote e a quantidade total de pacotes para a remessa.
 
 ![Rótulo de Remessa de Prioridade USPS](./assets/shipping-usps-priority-label.png){width="300"}
 
@@ -29,7 +29,7 @@ O comerciante/gerente da loja conclui as informações necessárias para gerar a
 
 ### Etapa 2: Solicitação enviada à transportadora
 
-O Commerce entra em contato com a transportadora e cria um pedido no sistema da transportadora. Uma ordem separada é criada para cada pacote enviado.
+A Commerce entra em contato com a transportadora e cria um pedido no sistema da transportadora. Uma ordem separada é criada para cada pacote enviado.
 
 ### Etapa 3: a operadora envia o rótulo e o número de rastreamento
 

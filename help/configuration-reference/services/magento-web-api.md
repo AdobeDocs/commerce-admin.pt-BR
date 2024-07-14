@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL Magento Web API]'
-description: Revise as configurações no [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] página do Administrador do Commerce.
+description: Revise as configurações na página [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] do Administrador do Commerce.
 exl-id: 9e9857e7-6f5c-4273-9e82-c861e627827a
 feature: Configuration, Integration
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## [!UICONTROL SOAP Settings]
 
-![Configurações SOAP](./assets/web-api-soap-settings.png)<!-- zoom -->
+![Configurações de SOAP](./assets/web-api-soap-settings.png)<!-- zoom -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -28,12 +28,12 @@ ht-degree: 1%
 
 ## [!UICONTROL GraphQl Input Limits]
 
-![Limites de entrada GraphQl](./assets/web-api-graphql-input-limits.png)<!-- zoom -->
+![Limites de Entrada GraphQl](./assets/web-api-graphql-input-limits.png)<!-- zoom -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Enable Input Limits] | Exibição da loja | Determina se os limites de entrada estão habilitados para chamadas GraphQL. Valor padrão: `No`. |
-| [!UICONTROL Maximum Page Size] | Exibição da loja | Define o número máximo de itens permitidos em um resultado de pesquisa paginado na resposta do GraphQL. Essa opção não está disponível quando _Ativar limites de entrada_ = `No`. |
+| [!UICONTROL Enable Input Limits] | Exibição da loja | Determina se os limites de entrada estão habilitados para chamadas GraphQL. Valor Padrão: `No`. |
+| [!UICONTROL Maximum Page Size] | Exibição da loja | Define o número máximo de itens permitidos em um resultado de pesquisa paginado na resposta do GraphQL. Esta opção não está disponível quando _Habilitar Limites de Entrada_ = `No`. |
 
 {style="table-layout:auto"}
 
@@ -43,20 +43,20 @@ ht-degree: 1%
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Enable Input Limits] | Exibição da loja | Determina se os limites de entrada estão habilitados para chamadas de API da Web. Valor padrão: `No`. |
-| Limite da lista de entrada | Exibição da loja | Define o número máximo de itens permitidos em uma propriedade de matriz de entidade na solicitação da API da Web. Essa opção não está disponível quando _Ativar limites de entrada_ = `No`. |
-| [!UICONTROL Maximum Page Size] | Exibição da loja | Define o número máximo de itens permitidos em um resultado de pesquisa paginado na resposta da API da Web. Essa opção não está disponível quando _Ativar limites de entrada_ = `No`. |
+| [!UICONTROL Enable Input Limits] | Exibição da loja | Determina se os limites de entrada estão habilitados para chamadas de API da Web. Valor Padrão: `No`. |
+| Limite da lista de entrada | Exibição da loja | Define o número máximo de itens permitidos em uma propriedade de matriz de entidade na solicitação da API da Web. Esta opção não está disponível quando _Habilitar Limites de Entrada_ = `No`. |
+| [!UICONTROL Maximum Page Size] | Exibição da loja | Define o número máximo de itens permitidos em um resultado de pesquisa paginado na resposta da API da Web. Esta opção não está disponível quando _Habilitar Limites de Entrada_ = `No`. |
 | [!UICONTROL Default Page Size] | Exibição da loja | Define o número padrão de itens em um resultado de pesquisa paginado na resposta da API da Web. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Web API Security]
 
-![Segurança da API da Web](./assets/web-api-security.png)<!-- zoom -->
+![Segurança da API Web](./assets/web-api-security.png)<!-- zoom -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Allow Anonymous Guest Access] | Global | Determina se os convidados podem acessar anonimamente os recursos de CMS, catálogo e armazenamento das APIs SOAP e REST. Por padrão, o acesso de convidado anônimo não é permitido. Opções: `Yes` / `No` |
+| [!UICONTROL Allow Anonymous Guest Access] | Global | Determina se os convidados podem acessar anonimamente o CMS, catalogar e armazenar recursos de APIs SOAP e REST. Por padrão, o acesso de convidado anônimo não é permitido. Opções: `Yes` / `No` |
 
 {style="table-layout:auto"}
 

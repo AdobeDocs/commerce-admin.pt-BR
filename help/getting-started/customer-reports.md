@@ -16,11 +16,11 @@ Os relatórios do cliente fornecem informações sobre a atividade do cliente du
 
 ## [!UICONTROL Order Total Report]
 
-A variável [!UICONTROL Order Total Report] mostra as ordens do cliente para um intervalo de tempo ou intervalo de datas especificado. O relatório inclui o número de pedidos por cliente, o valor médio de pedido e o valor total.
+O [!UICONTROL Order Total Report] mostra as ordens do cliente para um intervalo de tempo ou intervalo de datas especificado. O relatório inclui o número de pedidos por cliente, o valor médio de pedido e o valor total.
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
+Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
 
-![Relatório total do pedido](./assets/customers-order-total.png){width="600"}
+![Relatório de total de pedidos](./assets/customers-order-total.png){width="600"}
 
 ### Controles do Workspace
 
@@ -41,16 +41,16 @@ No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Custo
 | [!UICONTROL Interval] | O intervalo total da ordem, por `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | O nome do cliente que fez os pedidos. |
 | [!UICONTROL Orders] | O número de pedidos para o intervalo especificado. |
-| [!UICONTROL Average] | Valor médio do pedido. Esse valor é sempre calculado para os preços do produto **excluindo imposto** mesmo que os preços de produtos do catálogo, o subtotal do pedido e o total do pedido incluam imposto. Como resultado, o valor exibido no relatório é diferente do valor exibido nos detalhes da ordem nos casos em que os totais da ordem incluem imposto. |
-| [!UICONTROL Total] | A soma de todas as ordens do período. Esse valor é sempre calculado para os preços do produto **excluindo imposto** mesmo que os preços de produtos do catálogo, o subtotal do pedido e o total do pedido incluam imposto. Como resultado, o total exibido no relatório é diferente do valor exibido nos detalhes da ordem nos casos em que os totais da ordem incluem imposto. |
+| [!UICONTROL Average] | Valor médio do pedido. Esse valor é sempre calculado para os preços do produto **excluindo imposto**, mesmo se os preços do produto de catálogo, o subtotal do pedido e o total do pedido incluírem imposto. Como resultado, o valor exibido no relatório é diferente do valor exibido nos detalhes da ordem nos casos em que os totais da ordem incluem imposto. |
+| [!UICONTROL Total] | A soma de todas as ordens do período. Esse valor é sempre calculado para os preços do produto **excluindo imposto**, mesmo se os preços do produto de catálogo, o subtotal do pedido e o total do pedido incluírem imposto. Como resultado, o total exibido no relatório é diferente do valor exibido nos detalhes da ordem nos casos em que os totais da ordem incluem imposto. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Count Report]
 
-A variável [!UICONTROL Order Count Report] mostra o número de pedidos por cliente para um intervalo de tempo ou intervalo de datas especificado. O relatório inclui o número de pedidos por cliente, o valor médio de pedido e o valor total.
+O [!UICONTROL Order Count Report] mostra o número de pedidos por cliente para um intervalo de tempo ou intervalo de datas especificado. O relatório inclui o número de pedidos por cliente, o valor médio de pedido e o valor total.
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
+Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
 
 ![Relatório de contagem de pedidos](./assets/customer-order-count.png){width="600"}
 
@@ -70,19 +70,19 @@ No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Custo
 
 | Coluna | Descrição |
 |--- |--- |
-| [!UICONTROL Interval] | O intervalo de contagem da ordem, por `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | O intervalo de contagem de ordens, por `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | O cliente que fez o pedido. |
 | [!UICONTROL Orders] | O número de pedidos para o intervalo especificado. |
-| [!UICONTROL Average] | Valor médio do pedido. Esse valor é sempre calculado para os preços do produto **excluindo imposto** mesmo que os preços de produtos do catálogo, o subtotal do pedido e o total do pedido incluam imposto. Como resultado, o valor exibido no relatório é diferente do valor exibido nos detalhes da ordem nos casos em que os totais da ordem incluem imposto. |
-| [!UICONTROL Total] | A soma de todas as ordens do período. Esse valor é sempre calculado para os preços do produto **excluindo imposto** mesmo que os preços de produtos do catálogo, o subtotal do pedido e o total do pedido incluam imposto. Como resultado, o total exibido no relatório é diferente do valor exibido nos detalhes da ordem nos casos em que os totais da ordem incluem tarefas. |
+| [!UICONTROL Average] | Valor médio do pedido. Esse valor é sempre calculado para os preços do produto **excluindo imposto**, mesmo se os preços do produto de catálogo, o subtotal do pedido e o total do pedido incluírem imposto. Como resultado, o valor exibido no relatório é diferente do valor exibido nos detalhes da ordem nos casos em que os totais da ordem incluem imposto. |
+| [!UICONTROL Total] | A soma de todas as ordens do período. Esse valor é sempre calculado para os preços do produto **excluindo imposto**, mesmo se os preços do produto de catálogo, o subtotal do pedido e o total do pedido incluírem imposto. Como resultado, o total exibido no relatório é diferente do valor exibido nos detalhes da ordem nos casos em que os totais da ordem incluem tarefas. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL New Accounts Report]
 
-A variável [!UICONTROL New Accounts Report] mostra o número de novas contas de clientes abertas durante um intervalo de tempo ou intervalo de datas especificado.
+O [!UICONTROL New Accounts Report] mostra o número de novas contas de clientes abertas durante um intervalo de tempo ou intervalo de datas especificado.
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
+Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
 
 ![Relatório de novas contas](./assets/customers-new-accounts.png){width="600"}
 
@@ -111,9 +111,9 @@ No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Custo
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce)
 
-A variável [!UICONTROL Customer Wish List Report] fornece informações sobre as listas de desejos do cliente.
+O [!UICONTROL Customer Wish List Report] fornece informações sobre as listas de desejos do cliente.
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
+Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
 
 ![Relatório da lista de desejos](./assets/customer-wish-list.png){width="600"}
 
@@ -151,9 +151,9 @@ No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Custo
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce)
 
-A variável [!UICONTROL Customer Segment Report] O fornece informações sobre o número de clientes em cada segmento.
+O [!UICONTROL Customer Segment Report] fornece informações sobre o número de clientes em cada segmento.
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
+Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
 
 ![Relatório de segmentos](./assets/customers-segments.png){width="600"}
 

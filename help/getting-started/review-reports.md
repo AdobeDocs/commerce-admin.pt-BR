@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # Revisar relatórios
 
-Se você estiver usando o incorporado [!DNL Commerce] Análises, relatórios de análises fornecem informações sobre análises de produtos por cliente e por produto.
+Se você estiver usando as Análises [!DNL Commerce] integradas, os relatórios de revisão fornecerão informações sobre análises de produtos por cliente e por produto.
 
 ## [!UICONTROL Customer Reviews Report]
 
-A variável [!UICONTROL Customer Reviews Report] O fornece uma lista de todos os clientes que enviaram análises de produtos. O relatório inclui o número de análises enviadas por cada cliente e um link para a lista de análises.
+O [!UICONTROL Customer Reviews Report] fornece uma lista de todos os clientes que enviaram análises de produtos. O relatório inclui o número de análises enviadas por cada cliente e um link para a lista de análises.
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**.
+Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**.
 
-![Relatório de Revisão por Clientes](./assets/customer-reviews.png){width="600"}
+![Relatório De Revisão Por Clientes](./assets/customer-reviews.png){width="600"}
 
 ## [!UICONTROL Product Reviews Report]
 
-A variável [!UICONTROL Product Reviews Report] lista todos os produtos que foram revisados pelos clientes. O relatório inclui o número de análises e a classificação média, o produto que foi revisado pela última vez e um link para a lista de análises de cada produto.
+O [!UICONTROL Product Reviews Report] lista todos os produtos que foram revisados pelos clientes. O relatório inclui o número de análises e a classificação média, o produto que foi revisado pela última vez e um link para a lista de análises de cada produto.
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**.
+Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**.
 
-![Revisar relatório por produto](./assets/product-reviews.png){width="600"}
+![Relatório de avaliação por produto](./assets/product-reviews.png){width="600"}

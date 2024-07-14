@@ -1,35 +1,35 @@
 ---
 title: Mídia - Vídeo
-description: Saiba mais sobre o tipo de conteúdo Vídeo, usado para adicionar um vídeo hospedado no YouTube ou Vimeo à [!DNL Page Builder] estágio.
+description: Saiba mais sobre o tipo de conteúdo de vídeo, usado para adicionar um vídeo hospedado no YouTube ou no Vimeo ao estágio  [!DNL Page Builder] .
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
 
 # Mídia - Vídeo
 
-Use o _Vídeo_ tipo de conteúdo para adicionar um vídeo hospedado em [YouTube][1] ou [Vimeo][2] para o [[!DNL Page Builder] estágio](workspace.md#stage). É fácil incorporar vídeos em uma página ou bloco ou em descrições de produtos e categorias.
+Use o tipo de conteúdo _Vídeo_ para adicionar um vídeo hospedado no [YouTube][1] ou no [Vimeo][2] ao [[!DNL Page Builder] estágio](workspace.md#stage). É fácil incorporar vídeos em uma página ou bloco ou em descrições de produtos e categorias.
 
-![Vídeo na página inicial da loja](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
+![Vídeo na home page da loja](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Caixa de ferramentas Vídeo
 
-![Caixa de ferramentas Vídeo](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
+![Caixa de ferramentas de vídeo](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
 
 | Ferramenta | Ícone | Descrição |
 |--- |--- |--- |
 | Mover | ![Ícone Mover](./assets/pb-icon-move.png){width="25"} | Move o vídeo para outra posição no palco. |
 | (rótulo) | [!UICONTROL Video] | Identifica o contêiner de conteúdo atual como um vídeo. Passe o mouse sobre o contêiner de imagem para ver a caixa de ferramentas. |
-| Configurações | ![Ícone Configurações](./assets/pb-icon-settings.png){width="25"} | Abre a _[!UICONTROL Edit Video]_página, onde é possível alterar as propriedades do vídeo e do container. |
+| Configurações | ![Ícone de configurações](./assets/pb-icon-settings.png){width="25"} | Abre a página _[!UICONTROL Edit Video]_, na qual você pode alterar as propriedades do vídeo e do container. |
 | Ocultar | ![Ícone Ocultar](./assets/pb-icon-hide.png){width="25"} | Oculta o vídeo atual. |
 | Mostrar | ![Mostrar ícone](./assets/pb-icon-show.png){width="25"} | Mostra o vídeo oculto. |
-| Duplicar | ![Ícone Duplicar](./assets/pb-icon-duplicate.png){width="25"} | Faz uma cópia do vídeo. |
+| Duplicar | ![Ícone duplicado](./assets/pb-icon-duplicate.png){width="25"} | Faz uma cópia do vídeo. |
 | Remover | ![Ícone Remover](./assets/pb-icon-remove.png){width="25"} | Exclui o vídeo do estágio. |
 
 {style="table-layout:auto"}
@@ -38,38 +38,38 @@ Use o _Vídeo_ tipo de conteúdo para adicionar um vídeo hospedado em [YouTube]
 
 ## Adicionar um vídeo
 
-1. Antes de começar, navegue até o [YouTube][1] ou [Vimeo][2] vídeo que deseja incorporar e copie o link.
+1. Antes de começar, navegue até o vídeo [YouTube][1] ou [Vimeo][2] que deseja incorporar e copie o link.
 
-   Como alternativa, você também pode copiar um link direto para um arquivo de vídeo válido. Consulte [Configurações básicas de vídeo](#basic-video-settings) para links válidos.
+   Como alternativa, você também pode copiar um link direto para um arquivo de vídeo válido. Consulte [Configurações básicas de vídeo](#basic-video-settings) para obter links válidos.
 
-1. No [!DNL Commerce] Administrador, volte para a guia [!DNL Page Builder] espaço de trabalho ao qual você deseja adicionar o vídeo.
+1. No Administrador [!DNL Commerce], retorne ao espaço de trabalho [!DNL Page Builder] ao qual deseja adicionar o vídeo.
 
-1. No [!DNL Page Builder] painel, expandir **[!UICONTROL Media]** e arraste uma **[!UICONTROL Video]** espaço reservado para o estágio.
+1. No painel [!DNL Page Builder], expanda **[!UICONTROL Media]** e arraste um espaço reservado **[!UICONTROL Video]** para o estágio.
 
-   ![Arrastar um espaço reservado de vídeo para o estágio](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
+   ![Arrastando um espaço reservado de vídeo para o estágio](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
 
-1. Passe o mouse sobre o contêiner de vídeo para exibir a caixa de ferramentas e escolher _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ) ícone.
+1. Passe o mouse sobre o contêiner de vídeo para exibir a caixa de ferramentas e escolher o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Para **[!UICONTROL Video URL]**, cole o URL do vídeo que você copiou.
+1. Para **[!UICONTROL Video URL]**, cole a URL do vídeo que você copiou.
 
-   O URL do [!DNL Page Builder] o vídeo usado neste exemplo é: `https://www.youtube.com/watch?v=Y0KNS7C5dZA`.
+   A URL do vídeo [!DNL Page Builder] usado neste exemplo é: `https://www.youtube.com/watch?v=Y0KNS7C5dZA`.
 
-1. Para limitar o **[!UICONTROL Maximum Width]** do vídeo, digite a largura máxima em pixels.
+1. Para limitar o **[!UICONTROL Maximum Width]** do vídeo, insira a largura máxima em pixels.
 
    Se estiver em branco, o vídeo terá a largura permitida pelo contêiner, permitindo margens e preenchimento.
 
-1. No canto superior direito, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao [!DNL Page Builder] espaço de trabalho.
+1. No canto superior direito, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao espaço de trabalho [!DNL Page Builder].
 
 ## Alterar configurações de vídeo
 
-1. Passe o mouse sobre o contêiner de vídeo para exibir a caixa de ferramentas e escolher _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ) ícone.
+1. Passe o mouse sobre o contêiner de vídeo para exibir a caixa de ferramentas e escolher o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Modifique as configurações de acordo com as seguintes seções:
 
    - [Básico](#basic-video-settings)
    - [Avançado](#advanced)
 
-1. No canto superior direito, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao [!DNL Page Builder] espaço de trabalho.
+1. No canto superior direito, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao espaço de trabalho [!DNL Page Builder].
 
 ### Configurações básicas de vídeo
 
@@ -81,23 +81,23 @@ Use o _Vídeo_ tipo de conteúdo para adicionar um vídeo hospedado em [YouTube]
    - Vídeos do Vimeo: `https://vimeo.com/190156113`
    - Arquivos de vídeo válidos (`.mp4` é recomendado): `https://myvideos.com/spiral.mp4`
 
-1. Para alterar a largura permitida para o vídeo na vitrine, insira o novo **[!UICONTROL Maximum Width]** em pixels.
+1. Para alterar a largura permitida para o vídeo na vitrine, insira a nova **[!UICONTROL Maximum Width]** em pixels.
 
    Se estiver em branco, o vídeo estende a largura total do contêiner, menos espaço para margens e preenchimento.
 
-1. Para iniciar o vídeo automaticamente depois que a página for carregada, defina **[!UICONTROL Autoplay]** para `Yes`.
+1. Para iniciar o vídeo automaticamente depois que a página for carregada, defina **[!UICONTROL Autoplay]** como `Yes`.
 
-   Se a reprodução automática estiver definida como `Yes`, o vídeo é silenciado na reprodução de acordo com a política. No entanto, mesmo com essa configuração, os dispositivos móveis não podem reproduzir automaticamente seus vídeos. Para obter mais informações sobre essas políticas, consulte os seguintes recursos do desenvolvedor:
+   Se a reprodução automática estiver definida como `Yes`, o vídeo será silenciado na reprodução de acordo com a política. No entanto, mesmo com essa configuração, os dispositivos móveis não podem reproduzir automaticamente seus vídeos. Para obter mais informações sobre essas políticas, consulte os seguintes recursos do desenvolvedor:
 
    - [Política de reprodução automática do Vimeo](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
    - [Política de reprodução automática do Google (Chrome/YouTube)](https://developer.chrome.com/blog/autoplay/)
    - [Política de reprodução automática para vídeos locais](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
-   Se a reprodução automática estiver definida como `No`, o vídeo é reproduzido somente sob demanda do usuário.
+   Se a reprodução automática estiver definida como `No`, o vídeo será reproduzido somente sob demanda do usuário.
 
 ### [!UICONTROL Advanced]
 
-1. Para controlar o posicionamento horizontal do vídeo no container, escolha uma **[!UICONTROL Alignment]**:
+1. Para controlar o posicionamento horizontal do vídeo no contêiner, escolha um **[!UICONTROL Alignment]**:
 
    | Opção | Descrição |
    | ------ | ----------- |
@@ -108,7 +108,7 @@ Use o _Vídeo_ tipo de conteúdo para adicionar um vídeo hospedado em [YouTube]
 
    {style="table-layout:auto"}
 
-- Defina o **[!UICONTROL Border]** estilo aplicado aos quatro lados do contêiner de vídeo:
+- Defina o estilo **[!UICONTROL Border]** que é aplicado aos quatro lados do contêiner de vídeo:
 
   | Opção | Descrição |
   | ------ | ----------- |
@@ -125,9 +125,9 @@ Use o _Vídeo_ tipo de conteúdo para adicionar um vídeo hospedado em [YouTube]
 
   {style="table-layout:auto"}
 
-- Se você definir um estilo de borda diferente de `None`, conclua as opções de exibição da borda:
+- Se você definir um estilo de borda diferente de `None`, conclua as opções de exibição de borda:
 
-  ![Cor da borda](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+  ![Cor da Borda](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
   | Opção | Descrição |
   | ------ |------------ |
@@ -137,11 +137,11 @@ Use o _Vídeo_ tipo de conteúdo para adicionar um vídeo hospedado em [YouTube]
 
   {style="table-layout:auto"}
 
-- (Opcional) Especifique os nomes dos **[!UICONTROL CSS classes]** na folha de estilos atual para aplicar ao contêiner de vídeo.
+- (Opcional) Especifique os nomes de **[!UICONTROL CSS classes]** da folha de estilos atual para aplicar ao contêiner de vídeo.
 
   Separe vários nomes de classe com um espaço.
 
-- Insira valores, em pixels, para o **[!UICONTROL Margins and Padding]** para especificar as margens externas e o preenchimento interno do container de vídeo.
+- Insira valores, em pixels, para que **[!UICONTROL Margins and Padding]** especifique as margens externas e o preenchimento interno do contêiner de vídeo.
 
   Insira cada valor correspondente no diagrama do contêiner de vídeo.
 
@@ -154,17 +154,17 @@ Use o _Vídeo_ tipo de conteúdo para adicionar um vídeo hospedado em [YouTube]
 
 ## Mover um vídeo
 
-1. Passe o mouse sobre o contêiner de vídeo para exibir a caixa de ferramentas e escolher _Mover_ ( ![Ícone Mover](./assets/pb-icon-move.png){width="20"} ) ícone.
+1. Passe o mouse sobre o contêiner de vídeo para exibir a caixa de ferramentas e escolher o ícone _Mover_ ( ![Ícone Mover](./assets/pb-icon-move.png){width="20"} ).
 
-   ![Mover um vídeo](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
+   ![Movendo um vídeo](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
 
 1. Selecione e arraste o vídeo para a nova posição, logo abaixo da diretriz vermelha.
 
-   ![Usar a diretriz vermelha para inserir o vídeo](./assets/pb-media-video-toolbox-move-col2.png){width="500" zoomable="yes"}
+   ![Usando a diretriz vermelha para colocar o vídeo](./assets/pb-media-video-toolbox-move-col2.png){width="500" zoomable="yes"}
 
 ## Remover um vídeo do palco
 
-1. Passe o mouse sobre o contêiner de vídeo para exibir a caixa de ferramentas e escolher _Remover_ (![Ícone Remover](./assets/pb-icon-remove.png)) ícone.
+1. Passe o mouse sobre o contêiner de vídeo para exibir a caixa de ferramentas e escolha o ícone _Remover_ (![Remover ícone](./assets/pb-icon-remove.png)).
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 

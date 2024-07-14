@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Solicitação de cotação
 
-Se as cotas estiverem ativadas na variável [Configuração de recursos de vendas](configure-quotes.md), um comprador autorizado de uma empresa pode iniciar o processo de negociação de preços solicitando uma cotação do carrinho de compras. Se um comprador não estiver pronto para submeter uma cota para negociação, ele poderá salvá-la como uma preliminar.
+Se as cotações estiverem habilitadas na [Configuração dos recursos de vendas](configure-quotes.md), um comprador autorizado de uma empresa poderá iniciar o processo de negociação de preços solicitando uma cota do carrinho de compras. Se um comprador não estiver pronto para submeter uma cota para negociação, ele poderá salvá-la como uma preliminar.
 
 >[!NOTE]
 >
@@ -21,34 +21,34 @@ Se as cotas estiverem ativadas na variável [Configuração de recursos de venda
 
 ## Experiência de solicitação de cotação do cliente
 
-1. O cliente faz logon na conta de usuário como comprador com [permissão](account-company-roles-permissions.md) para solicitar uma cotação.
+1. O cliente faz logon em sua conta de usuário como comprador com [permissão](account-company-roles-permissions.md) para solicitar uma cotação.
 
 1. Adiciona os produtos a serem incluídos na cotação ao carrinho.
 
    >[!TIP]
    > 
-   >Os clientes podem adicionar uma lista de SKUs do produto ao carrinho mais rapidamente usando [Pedido rápido](quick-order.md).
+   >Os clientes podem adicionar uma lista de SKUs de produtos ao carrinho mais rapidamente usando o [Pedido rápido](quick-order.md).
 
 1. Seleciona **[!UICONTROL Request a Quote]**.
 
    ![Solicitando uma cotação do carrinho de compras](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. No **[!UICONTROL Add your comment]** , o cliente digita uma breve nota para descrever a solicitação.
+1. Na caixa **[!UICONTROL Add your comment]**, o cliente insere uma breve observação para descrever a solicitação.
 
 1. Insere um **[!UICONTROL Quote Name]**.
 
-   ![Inserção dos comentários e do nome da cotação](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
+   ![Inserindo comentários e o nome da citação](./assets/quote-request-from-cart-name-comments.png){width="400" zoomable="yes"}
 
 1. Se necessário, anexa um documento ou imagem de suporte à cotação:
 
    - Seleciona **[!UICONTROL Attach file]**.
    - Escolhe o arquivo do sistema.
 
-   Por padrão, uma variável [arquivo anexado](configure-quotes.md) pode ter até 2 MB, em qualquer um dos seguintes formatos de arquivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG ou JPEG, PNG.
+   Por padrão, um [arquivo anexado](configure-quotes.md) pode ter até 2 MB, em qualquer um dos seguintes formatos de arquivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG ou JPEG, PNG.
 
 1. Cria e processa a cotação:
 
-   - Envia a cotação para o vendedor ao selecionar **[!UICONTROL Request a Quote]**.
-   - [!BADGE Recurso 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponível somente para participantes do programa Beta"}**[!UICONTROL Save as Draft]**.
+   - Envia a cotação para o Vendedor selecionando **[!UICONTROL Request a Quote]**.
+   - [!BADGE 1.5.0-recurso beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponível somente para participantes do programa Beta"}**[!UICONTROL Save as Draft]**.
 
-     Se o comprador salvar a cota como uma preliminar, ela estará disponível em [!UICONTROL My Quotes] in `Draft` estado. Cotações de rascunho não estão visíveis para o Vendedor até que o Comprador as envie para revisão.
+     Se o comprador salvar a cotação como um rascunho, ela estará disponível em [!UICONTROL My Quotes] no estado `Draft`. Cotações de rascunho não estão visíveis para o Vendedor até que o Comprador as envie para revisão.

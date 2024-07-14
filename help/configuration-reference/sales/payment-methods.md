@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
-description: Revise as configurações no [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] página do Administrador do Commerce.
+description: Revise as configurações na página [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] do Administrador do Commerce.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Os Payment Services for Adobe Commerce and Magento Open Source fornecem uma solução de autoatendimento pronta para uso, incluindo teste de sandbox e uma configuração simples, para fornecer processamento de pagamento robusto e seguro. Para saber mais sobre esse poderoso conjunto de ferramentas e como ele pode fornecer o insight e o controle necessários para criar a melhor experiência para seus compradores, consulte [_Guia do usuário dos serviços de pagamento_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+>Os Payment Services for Adobe Commerce and Magento Open Source fornecem uma solução de autoatendimento pronta para uso, incluindo teste de sandbox e uma configuração simples, para fornecer processamento de pagamento robusto e seguro. Para saber mais sobre este poderoso conjunto de ferramentas e como ele pode fornecer o insight e o controle necessários para criar a melhor experiência para seus compradores, consulte o [_Guia do Usuário dos Serviços de Pagamento_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
-![Local do Comerciante](./assets/payment-methods-merchant-location.png)<!-- zoom -->
+![Localização do Comerciante](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
 <!-- [Merchant Location](https://docs.magento.com/user-guide/payment/merchant-location.html) -->
 
@@ -40,13 +40,13 @@ As seguintes soluções de pagamento são recomendadas como uma maneira fácil p
 
 >[!NOTE]
 >
->Algumas integrações de pagamento e extensões agrupadas foram removidas nas versões 2.4.x e movidas para o Commerce Marketplace. Você pode encontrar as extensões de integração de pagamento oficial mais recentes em [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}.
+>Algumas integrações de pagamento e extensões agrupadas foram removidas nas versões 2.4.x e movidas para o Commerce Marketplace. Você pode encontrar as últimas extensões de integração de pagamento oficial em [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}.
 ><br/>
 >**Amazon Pay** e **Klarna**: as versões 2.4.0 a 2.4.3 do Adobe Commerce e do Magento Open Source incluíam essas extensões desenvolvidas pelo fornecedor. A partir da versão 2.4.4, essas extensões não serão mais agrupadas com a versão principal e deverão ser instaladas e atualizadas do Commerce Marketplace. O Marketplace também fornece acesso à documentação atual fornecida pelo desenvolvedor da extensão.
 ><br/>
->Se você tiver uma dessas extensões agrupadas ativadas e configuradas, atualize o `composer.json` como parte do processo de atualização do 2.4.4 e gerenciar atualizações de extensão no futuro. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) no _Guia de atualização_ para obter mais informações.<br/>
+>Se você tiver uma dessas extensões agrupadas habilitadas e configuradas, atualize o arquivo `composer.json` como parte do processo de atualização 2.4.4 e gerencie as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) no _Guia de Atualização_ para obter mais informações.<br/>
 ><br/>
->**Pagamento mundial**, **Eway**, **CyberSource**, e **Authorize.Net**: para obter detalhes sobre como fazer uma transição segura dessas integrações de pagamento, consulte o [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}.
+>**Worldpay**, **Eway**, **CyberSource** e **Authorize.Net**: para obter detalhes sobre como fazer uma transição segura dessas integrações de pagamento, consulte o [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}.
 
 ## Outros métodos do PayPal
 
@@ -61,15 +61,15 @@ PayPal oferece várias soluções de pagamento que atendem às necessidades de e
 ### Gateways de pagamento do PayPal
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md) (Inclui Check-out Expresso)
-- [Link do fluxo de pagamento do PayPal](paypal-payflow-link.md) (Inclui Check-out Expresso)
+- [Link do Fluxo de Pagamento do PayPal](paypal-payflow-link.md) (Inclui Check-out Expresso)
 
 ## Métodos de pagamento de base
 
-Os métodos de pagamento a seguir são criados no Commerce e não usam um provedor de pagamento de terceiros para processar a transação. Muitos dos métodos de pagamento básicos são gerenciados off-line, em vez de on-line.
+Os métodos de pagamento a seguir são criados no Commerce e não usam um provedor de serviço de pagamento de terceiros para processar a transação. Muitos dos métodos de pagamento básicos são gerenciados off-line, em vez de on-line.
 
 ### [!UICONTROL Check / Money Order]
 
-![Cheque/Ordem de pagamento](./assets/payment-methods-check-money-order.png)<!-- zoom -->
+![Cheque/Ordem de Pagamento](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
 <!-- [Check / Money Order](https://docs.magento.com/user-guide/payment/check-money-order.html) -->
 
@@ -77,20 +77,20 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Site | Determina se os clientes podem pagar com cheque ou ordem de pagamento. Opções: `Yes` / `No` |
 | [!UICONTROL Title] | Exibição da loja | O nome deste método de pagamento que aparece para os clientes durante a finalização da compra. |
-| [!UICONTROL New Order Status] | Site | Determina o [status do pedido](../../stores-purchase/order-status.md) atribuído a ordens pagas por cheque ou ordem de pagamento. Valor padrão: `Pending` |
+| [!UICONTROL New Order Status] | Site | Determina o [status do pedido](../../stores-purchase/order-status.md) inicial atribuído a pedidos pagos por cheque ou ordem de pagamento. Valor padrão: `Pending` |
 | [!UICONTROL Payment from Applicable Countries] | Site | Determina os países dos quais você aceita pagamento por cheque ou ordem de pagamento. Opções: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site | Identifica os países específicos a partir dos quais você aceita pagamento por cheque ou ordem de pagamento. |
 | [!UICONTROL Make Check Payable to] | Exibição da loja | O nome da entidade a quem os cheques e as ordens de pagamento devem ser pagos. |
 | [!UICONTROL Send Check to] | Exibição da loja | O endereço ou caixa postal para o qual os cheques e as ordens de pagamento devem ser enviados. |
 | [!UICONTROL Minimum Order Total] | Site | O menor valor do pedido que pode ser pago por cheque ou ordem de pagamento. |
-| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por cheque ou ordem de pagamento. <br/><br/>**_Nota:_**Um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
-| [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por cheque ou ordem de pagamento é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Enter `0` para colocá-lo no topo da lista. |
+| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por cheque ou ordem de pagamento. <br/><br/>**_Observação:_**um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
+| [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por cheque ou ordem de pagamento é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Digite `0` para colocá-lo no topo da lista. |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
-![Pagamento de Transferência Bancária](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
+![Pagamento por Transferência Bancária](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
 <!-- [Bank Transfer Payment](https://docs.magento.com/user-guide/payment/bank-transfer.html) -->
 
@@ -102,8 +102,8 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL Payment from Applicable Countries] | Site | Determina os países dos quais você aceita pagamento por transferência bancária. Opções: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site | Identifica os países específicos dos quais você aceita pagamento por transferência bancária. |
 | [!UICONTROL Minimum Order Total] | Site | O menor valor de ordem que pode ser pago por transferência bancária. |
-| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por transferência bancária. <br/><br/>**_Nota:_**Um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
-| [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por transferência bancária é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Enter `0` para colocá-lo no topo da lista. |
+| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por transferência bancária. <br/><br/>**_Observação:_**um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
+| [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por transferência bancária é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Digite `0` para colocá-lo no topo da lista. |
 
 {style="table-layout:auto"}
 
@@ -111,7 +111,7 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 
 {{b2b-feature}}
 
-![Pagamento por conta](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
+![Pagamento na conta](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
 <!-- [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) -->
 
@@ -123,14 +123,14 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL Payment from Applicable Countries] | Site | Determina os países nos quais você permite que as empresas debitem as compras de suas contas. Opções: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site | Identifica os países específicos em que as empresas podem cobrar compras em suas contas. |
 | [!UICONTROL Minimum Order Total] | Site | Especifica o menor valor de pedido que pode ser cobrado em uma conta de empresa. |
-| [!UICONTROL Maximum Order Total] | Site | O maior valor de pedido que pode ser cobrado em uma conta de empresa. <br/><br/>**_Nota:_**Um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
-| [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por conta é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Enter `0` para colocá-lo no topo da lista. |
+| [!UICONTROL Maximum Order Total] | Site | O maior valor de pedido que pode ser cobrado em uma conta de empresa. <br/><br/>**_Observação:_**um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
+| [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por conta é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Digite `0` para colocá-lo no topo da lista. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->O pagamento por conta não é suportado para pedidos com [vários endereços de entrega](../../stores-purchase/shipping-settings.md#multiple-addresses) e não aparecerá entre as opções de pagamento.
+>O pagamento por conta não é suportado para pedidos com [vários endereços de envio](../../stores-purchase/shipping-settings.md#multiple-addresses) e não aparece entre as opções de pagamento.
 
 ### [!UICONTROL Cash On Delivery Payment]
 
@@ -146,14 +146,14 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL Payment from Applicable Countries] | Site | Determina os países dos quais você aceita pagamento por transferência bancária. Opções: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site | Identifica os países específicos dos quais você aceita pagamento por transferência bancária. |
 | [!UICONTROL Minimum Order Total] | Site | Especifica o menor valor de ordem que pode ser pago por transferência bancária. |
-| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por transferência bancária. <br/><br/>**_Nota:_**Um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
-| [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por transferência bancária é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Enter `0` para colocá-lo no topo da lista. |
+| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por transferência bancária. <br/><br/>**_Observação:_**um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
+| [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por transferência bancária é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Digite `0` para colocá-lo no topo da lista. |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
-![Checkout de Subtotal Zero](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
+![Check-out de Subtotal Zero](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
 
 <!-- [Zero Subtotal Checkout](../../stores-purchase/zero-subtotal-checkout.html) -->
 
@@ -164,7 +164,7 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL New Order Status] | Site | Determina o status inicial do pedido atribuído aos pedidos processados como Checkout de subtotal zero. Valor padrão: `Pending` |
 | [!UICONTROL Payment from Applicable Countries] | Site | Determina os países a partir dos quais o Check-out de Subtotal Zero pode ser aplicado. Opções: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site | Identifica os países específicos para os quais o Check-out de Subtotal Zero pode ser aplicado. |
-| [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o título, como &quot;Nenhuma Informação de Pagamento é Necessária&quot;, é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Enter `0` para colocá-lo no topo da lista. |
+| [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o título, como &quot;Nenhuma Informação de Pagamento é Necessária&quot;, é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Digite `0` para colocá-lo no topo da lista. |
 
 {style="table-layout:auto"}
 
@@ -189,7 +189,7 @@ Consulte a seção Configurações básicas de cada tópico de método de pagame
 
 >[!NOTE]
 >
->Não selecione o _[!UICONTROL Not Capture]_a menos que você tenha certeza de que capturará o pagamento por meio do Commerce posteriormente. Você não pode criar um aviso de crédito até que o pagamento tenha sido capturado usando o botão Capturar.
+>Não selecione a opção _[!UICONTROL Not Capture]_, a menos que tenha certeza de que capturará o pagamento por meio do Commerce posteriormente. Você não pode criar um aviso de crédito até que o pagamento tenha sido capturado usando o botão Capturar.
 
 ## [!UICONTROL Purchase Order]
 
@@ -201,11 +201,11 @@ Consulte a seção Configurações básicas de cada tópico de método de pagame
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Site | Determina se os clientes podem pagar por ordem de compra (OC). Opções: `Yes` / `No` |
 | [!UICONTROL Title] | Exibição da loja | O nome deste método de pagamento que aparece para os clientes durante a finalização da compra. |
-| [!UICONTROL New Order Status] | Site | Determina o [status do pedido](../../stores-purchase/order-status.md) atribuído a ordens pagas pela OC. Valor padrão: Pendente |
+| [!UICONTROL New Order Status] | Site | Determina o [status do pedido](../../stores-purchase/order-status.md) inicial atribuído a pedidos pagos por OC. Valor padrão: Pendente |
 | [!UICONTROL Payment from Applicable Countries] | Site | Determina os países a partir dos quais você aceita pagamento por OC. Opções: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site | Identifica os países específicos a partir dos quais você aceita pagamento por OC. |
 | [!UICONTROL Minimum Order Total] | Site | O menor valor de ordem que pode ser pago por OC. |
-| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por OC. <br/><br/>**_Nota:_**Um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
-| [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por OC é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Enter `0` para colocá-lo no topo da lista. |
+| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por OC. <br/><br/>**_Observação:_**um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
+| [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por OC é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Digite `0` para colocá-lo no topo da lista. |
 
 {style="table-layout:auto"}

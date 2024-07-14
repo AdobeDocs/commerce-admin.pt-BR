@@ -1,44 +1,44 @@
 ---
-title: '[!DNL Page Builder] Apresentação parte 3: conteúdo do catálogo'
-description: Saiba como adicionar uma lista de produtos a um [!DNL Page Builder] página.
+title: 'Passo a Passo ''[!DNL Page Builder] parte 3: conteúdo do catálogo'''
+description: Saiba como adicionar uma lista de produtos a uma página  [!DNL Page Builder] .
 exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
 source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
 
 # [!DNL Page Builder] Apresentação parte 3: conteúdo do catálogo
 
-Este exercício demonstra como é fácil adicionar uma lista de produtos a uma página, personalizar páginas de produtos e criar um atributo personalizado que adicione a [!DNL Page Builder] espaço de trabalho para um conjunto de atributos do produto.
+Este exercício demonstra como é fácil adicionar uma lista de produtos a uma página, personalizar páginas de produtos e criar um atributo personalizado que adicione o espaço de trabalho [!DNL Page Builder] a um conjunto de atributos de produto.
 
 ![Lista de produtos](./assets/pb-add-content-products-list.png){width="600" zoomable="yes"}
 
-Este exercício pressupõe que você tenha concluído [Parte 1: Página simples](1-simple-page.md) e [Parte 2: Blocos](2-blocks.md), incluindo os pré-requisitos e os arquivos de amostra baixados. Siga as três partes deste exercício em ordem.
+Este exercício supõe que você tenha concluído [Parte 1: Página Simples](1-simple-page.md) e [Parte 2: Blocos](2-blocks.md), incluindo os pré-requisitos e os arquivos de exemplo baixados. Siga as três partes deste exercício em ordem.
 
 ## Parte 1: Adicionar uma lista de produtos
 
-[!DNL Page Builder] O facilita a adição de uma lista de produtos ao estágio. Neste exemplo, a lista de produtos é adicionada diretamente a uma página.
+O [!DNL Page Builder] facilita a adição de uma lista de produtos ao estágio. Neste exemplo, a lista de produtos é adicionada diretamente a uma página.
 
 ### Etapa 1: adicionar uma lista de produtos ao estágio
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Localize o _Página simples_ que você criou no primeiro exercício e modificou no segundo, e selecionou **[!UICONTROL Edit]** no _[!UICONTROL Action]_coluna.
+1. Localize a _Página Simples_ que você criou no primeiro exercício e modificou no segundo, e selecione **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Content]** e clique em **[!UICONTROL Edit with Page Builder]** ou dentro da área de visualização de conteúdo.
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Content]** e clique em **[!UICONTROL Edit with Page Builder]** ou dentro da área de visualização de conteúdo.
 
-1. No [!DNL Page Builder] painel em _[!UICONTROL Layout]_, arraste um **[!UICONTROL Row]**no topo do palco.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste uma **[!UICONTROL Row]**para a parte superior do estágio.
 
-1. No [!DNL Page Builder] painel, expandir **[!UICONTROL Add Content]** e arraste uma **[!UICONTROL Products]** espaço reservado para a nova linha.
+1. No painel [!DNL Page Builder], expanda **[!UICONTROL Add Content]** e arraste um espaço reservado **[!UICONTROL Products]** para a nova linha.
 
-   ![Arrastar um espaço reservado de produtos para a linha](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"}
+   ![Arrastando um espaço reservado de produtos para a linha](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"}
 
 ### Etapa 2: compor a condição
 
-1. Passe o mouse sobre o contêiner de produtos vazio para exibir a caixa de ferramentas e escolher o _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ) ícone.
+1. Passe o mouse sobre o contêiner de produtos vazio para exibir a caixa de ferramentas e escolha o ícone _Configurações_ ( ![Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Caixa de ferramentas Produtos](./assets/pb-add-content-products-toolbox.png){width="600" zoomable="yes"}
 
@@ -46,21 +46,21 @@ Este exercício pressupõe que você tenha concluído [Parte 1: Página simples]
 
 1. Adicione uma condição:
 
-   - Clique em _Adicionar_ (![Ícone Adicionar](../assets/icon-add-green-circle.png)) ícone.
+   - Clique no ícone _Adicionar_ (![Adicionar](../assets/icon-add-green-circle.png)).
 
    - Em _[!UICONTROL Product Attribute]_, escolha **[!UICONTROL Category]**.
 
-     ![Escolha do atributo de categoria para a condição](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
+     ![Escolhendo o atributo de categoria para a condição](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
-   - Conclua o _[!UICONTROL Category is].._ parte da condição clicando no ícone Mais (...) e clique no link _Seletor_ (![Ícone do seletor](../assets/icon-list-chooser.png)) ícone.
+   - Conclua a parte _[!UICONTROL Category is]..._ da condição clicando no ícone Mais (...) e depois no ícone _Seletor_ (![Seletor ícone](../assets/icon-list-chooser.png)).
 
-     ![Definição da condição](./assets/pb-add-content-products-settings-condition-category-is.png){width="600" zoomable="yes"}
+     ![Definindo a condição](./assets/pb-add-content-products-settings-condition-category-is.png){width="600" zoomable="yes"}
 
-   - Na árvore de categorias, faça drill-down para a **Mulheres > Topos** e selecione a **Árvores** caixa de seleção
+   - Na árvore de categorias, vá para a categoria **Mulheres > Primeiros** e marque a caixa de seleção **Árvores**.
 
-     ![Escolha da categoria na árvore](./assets/pb-add-content-products-settings-condition-category-tree.png){width="600" zoomable="yes"}
+     ![Escolhendo a categoria na árvore](./assets/pb-add-content-products-settings-condition-category-tree.png){width="600" zoomable="yes"}
 
-   - Clique na marca de seleção (![Ícone de marca de seleção](../assets/icon-checkmark-green-circle.png)) ícone.
+   - Clique no ícone Marca de seleção (![Ícone Marca de seleção](../assets/icon-checkmark-green-circle.png)).
 
      A ID de categoria correspondente é exibida no campo para concluir a condição.
 
@@ -72,73 +72,73 @@ Este exercício pressupõe que você tenha concluído [Parte 1: Página simples]
 
 1. Conclua as configurações restantes conforme necessário.
 
-   Se necessário, use as descrições de campo no final da [Adicionar conteúdo - Produtos](products.md) página para referência.
+   Se necessário, use as descrições de campo no final da página [Adicionar conteúdo - Produtos](products.md) para referência.
 
-1. Quando terminar, clique em **[!UICONTROL Save]** para salvar as configurações e retornar para a [!DNL Page Builder] espaço de trabalho.
+1. Quando terminar, clique em **[!UICONTROL Save]** para salvar as configurações e retornar ao espaço de trabalho [!DNL Page Builder].
 
    ![Lista de produtos no estágio](./assets/pb-add-content-products-list-stage.png){width="600" zoomable="yes"}
 
-1. No canto superior direito do estágio, clique na guia _Fechar tela cheia_ ( ![Ícone Fechar tela inteira](./assets/pb-icon-reduce.png){width="20"} ) ícone.
+1. No canto superior direito do estágio, clique no ícone _Fechar Tela cheia_ ( ![Fechar ícone de tela cheia](./assets/pb-icon-reduce.png){width="20"} ).
 
-   Clicar nesse ícone retornará para a _[!UICONTROL Content]_para a página com a pré-visualização exibida.
+   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_da página com a visualização exibida.
 
-1. No canto superior direito, clique na guia **[!UICONTROL Save]** seta e escolha **[!UICONTROL Save & Close]**.
+1. No canto superior direito, clique na seta **[!UICONTROL Save]** e escolha **[!UICONTROL Save & Close]**.
 
 ## Parte 2: Personalizar a página do produto
 
 >[!NOTE]
 >
->Um usuário administrador deve ter [!UICONTROL Content] permissões para seus [escopo da função](../systems/permissions-user-roles.md) para ver [!UICONTROL Edit with Page Builder] e poder usar o Page Builder.
+>Um usuário administrador deve ter [!UICONTROL Content] permissões para seu [escopo de função](../systems/permissions-user-roles.md) para ver os botões [!UICONTROL Edit with Page Builder] e poder usar o Page Builder.
 
-Nesta parte do exercício, você aprenderá como é fácil personalizar uma página de produto ao colocar um vídeo abaixo do conjunto de guias na página do produto. O processo a ser atualizado [página de categoria](../catalog/categories-content-settings.md) o conteúdo é basicamente o mesmo.
+Nesta parte do exercício, você aprenderá como é fácil personalizar uma página de produto ao colocar um vídeo abaixo do conjunto de guias na página do produto. O processo para atualizar o conteúdo da página [categoria](../catalog/categories-content-settings.md) é basicamente o mesmo.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Encontre um produto simples que você pode usar para este exemplo e abra-o no modo de edição.
 
-1. Rolar para baixo e expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Content]** seção.
+1. Role para baixo e expanda ![Seletor de expansão](../assets/icon-display-expand.png) na seção **[!UICONTROL Content]**.
 
 1. Ao lado de _[!UICONTROL Description]_, clique em **[!UICONTROL Edit with Page Builder]**.
 
-   ![Conteúdo da descrição do produto](./assets/pb-catalog-product-content.png){width="600" zoomable="yes"}
+   ![Conteúdo de descrição do produto](./assets/pb-catalog-product-content.png){width="600" zoomable="yes"}
 
-   Se a descrição do produto foi inserida anteriormente sem [!DNL Page Builder], a descrição atual aparece como HTML em um [Código HTML](html-code.md) recipiente. Com o tema Luma, a descrição do produto aparece na guia Detail.
+   Se a descrição do produto foi inserida anteriormente sem [!DNL Page Builder], a descrição atual aparece como HTML em um contêiner de [Código HTML](html-code.md). Com o tema Luma, a descrição do produto aparece na guia Detail.
 
-1. No [!DNL Page Builder] painel em _[!UICONTROL Layout]_, arraste um **[!UICONTROL Row]**para o estágio, colocando-o abaixo do contêiner de código HTML.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um **[!UICONTROL Row]**para o estágio, colocando-o abaixo do contêiner de código de HTML.
 
    Procure a diretriz vermelha para aparecer quando a linha estiver na posição correta.
 
-   ![Arrastar uma linha para o estágio](./assets/catalog-product-content-stage-row-drag.png){width="600" zoomable="yes"}
+   ![Arrastando uma linha para o estágio](./assets/catalog-product-content-stage-row-drag.png){width="600" zoomable="yes"}
 
-1. No [!DNL Page Builder] painel, expandir **[!UICONTROL Media]** e arraste uma **[!UICONTROL Video]** espaço reservado para a nova linha.
+1. No painel [!DNL Page Builder], expanda **[!UICONTROL Media]** e arraste um espaço reservado **[!UICONTROL Video]** para a nova linha.
 
-   ![Espaço reservado do vídeo na linha](./assets/tutorial3-product-drag-video.png){width="600" zoomable="yes"}
+   ![Espaço reservado para vídeo na linha](./assets/tutorial3-product-drag-video.png){width="600" zoomable="yes"}
 
-1. Passe o mouse sobre o contêiner de vídeo vazio para exibir a caixa de ferramentas e escolher o _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ) ícone.
+1. Passe o mouse sobre o contêiner de vídeo vazio para exibir a caixa de ferramentas e escolha o ícone _Configurações_ ( ![Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Caixa de ferramentas Vídeo](./assets/pb-tutorial3-product-video-toolbox.png){width="500" zoomable="yes"}
+   ![Caixa de ferramentas de vídeo](./assets/pb-tutorial3-product-video-toolbox.png){width="500" zoomable="yes"}
 
 1. Insira o **[!UICONTROL Video URL]**.
 
-   O vídeo pode ser hospedado em [YouTube][1] ou [Vimeo][2]. O vídeo deste exemplo pode ser encontrado no YouTube no seguinte URL:
+   O vídeo pode ser hospedado no [YouTube][1] ou no [Vimeo][2]. O vídeo deste exemplo pode ser encontrado no YouTube no seguinte URL:
 
    `https://www.youtube.com/watch?v=ZpFrNyD4100`
 
-   ![Edição do vídeo](./assets/pb-tutorial3-product-edit-video.png){width="500" zoomable="yes"}
+   ![Editando o vídeo](./assets/pb-tutorial3-product-edit-video.png){width="500" zoomable="yes"}
 
 1. Insira o **[!UICONTROL Maximum Width]** em pixels para a exibição do vídeo.
 
    Se você deixar essa opção em branco, o vídeo preencherá o espaço disponível.
 
-1. Clique em **[!UICONTROL Save]** para salvar as configurações e retornar para a [!DNL Page Builder] espaço de trabalho.
+1. Clique em **[!UICONTROL Save]** para salvar as configurações e retornar ao espaço de trabalho [!DNL Page Builder].
 
    ![Vídeo no estágio de conteúdo](./assets/pb-tutorial3-product-video.png){width="600" zoomable="yes"}
 
-1. No canto superior direito do estágio, clique na guia _Fechar tela cheia_ ( ![Ícone Fechar tela inteira](./assets/pb-icon-reduce.png){width="20"} ) ícone.
+1. No canto superior direito do estágio, clique no ícone _Fechar Tela cheia_ ( ![Fechar ícone de tela cheia](./assets/pb-icon-reduce.png){width="20"} ).
 
-   Clicar nesse ícone retornará para a _[!UICONTROL Content]_para a página com a pré-visualização exibida.
+   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_da página com a visualização exibida.
 
-1. No canto superior direito, clique na guia **[!UICONTROL Save]** seta e escolha **[!UICONTROL Save & Close]**.
+1. No canto superior direito, clique na seta **[!UICONTROL Save]** e escolha **[!UICONTROL Save & Close]**.
 
 Na loja, o vídeo é exibido abaixo do conjunto de guias. Para ver a aparência da página em um dispositivo móvel, é possível redimensionar a janela.
 
@@ -148,13 +148,13 @@ Na loja, o vídeo é exibido abaixo do conjunto de guias. Para ver a aparência 
 
 ## Parte 3: Adicionar atributos personalizados
 
-Use o [!DNL Page Builder] atributo personalizado para adicionar um atributo totalmente [!DNL Page Builder] espaço de trabalho para uma página de produto, que você pode usar para criar conteúdo envolvente. Nesta parte do exercício, você aprenderá a criar um atributo personalizado usando o [!DNL Page Builder] tipo de entrada e aplique-o às páginas de produto no catálogo. Para obter mais informações sobre esses atributos, consulte [Atributos do produto](../catalog/product-attributes.md).
+Use o atributo personalizado [!DNL Page Builder] para adicionar um espaço de trabalho [!DNL Page Builder] totalmente funcional a uma página de produto, que você pode usar para criar conteúdo envolvente. Nesta parte do exercício, você aprenderá a criar um atributo personalizado usando o tipo de entrada [!DNL Page Builder] e aplicá-lo às páginas de produto no catálogo. Para obter mais informações sobre esses atributos, consulte [Atributos do produto](../catalog/product-attributes.md).
 
 ### Etapa 1: criar um produto
 
 Para evitar alterações na loja em tempo real, crie um produto usando as propriedades descritas.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Add Product]**.
 
@@ -169,35 +169,35 @@ Para evitar alterações na loja em tempo real, crie um produto usando as propri
      [!UICONTROL Price]: 75.00
    - 
      [!UICONTROL Quantity]: 100
-   - [!UICONTROL Stock Status]: Em estoque
+   - [!UICONTROL Stock Status]: Em Estoque
    - 
      [!UICONTROL Weight]: 1
    - [!UICONTROL Categories]: Mulheres > Topos > Tees
 
-1. No canto superior direito, clique na guia **[!UICONTROL Save]** seta e escolha **[!UICONTROL Save & Close]**.
+1. No canto superior direito, clique na seta **[!UICONTROL Save]** e escolha **[!UICONTROL Save & Close]**.
 
 ### Etapa 2: Criar atributos personalizados
 
-Nesta etapa, você cria dois novos atributos personalizados para mostrar como a [!DNL Page Builder] e os tipos de entrada do Editor de texto podem ser usados.
+Nesta etapa, você cria dois novos atributos personalizados para mostrar como os tipos de entrada [!DNL Page Builder] e Editor de Texto podem ser usados.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Add New Attribute]**.
 
-1. Insira um **[!UICONTROL Default Label]** para o atributo.
+1. Digite um **[!UICONTROL Default Label]** para o atributo.
 
    Neste exemplo, use `My Page Builder Attribute` para o rótulo.
 
-1. Definir **[!UICONTROL Catalog Input Type for Store Owner]** para `Page Builder`.
+1. Defina **[!UICONTROL Catalog Input Type for Store Owner]** como `Page Builder`.
 
    Ao criar um atributo personalizado, você pode especificar o editor mais adequado para o aplicativo como `Page Builder` ou o padrão, WYSIWYG `Text Editor`.
 
    ![[!DNL Page Builder] Tipo de entrada](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Advanced Attribute Properties]** e faça as seguintes configurações:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Advanced Attribute Properties]** e faça as seguintes configurações:
 
-   - [!UICONTROL Attribute Code]: insira um código de atributo em caracteres minúsculos, usando hifens em vez de espaços. Neste exemplo, use `my_page_builder_attribute`.
-   - [!UICONTROL Scope]: aceite o valor padrão, `Store View`.
+   - [!UICONTROL Attribute Code]: Insira um código de atributo em caracteres minúsculos, usando hífens em vez de espaços. Neste exemplo, use `my_page_builder_attribute`.
+   - [!UICONTROL Scope]: Aceite o valor padrão, `Store View`.
    - [!UICONTROL Default Value]: Insira um valor padrão para o atributo.
    - 
      [!UICONTROL Unique Value]: `No`
@@ -206,7 +206,7 @@ Nesta etapa, você cria dois novos atributos personalizados para mostrar como a 
    - 
      [!UICONTROL Use in Filter Options]: `Yes`
 
-1. No _[!UICONTROL Attribute Information]_à esquerda, escolha **[!UICONTROL Storefront Properties]**e faça as seguintes configurações:
+1. No painel _[!UICONTROL Attribute Information]_à esquerda, escolha **[!UICONTROL Storefront Properties]**e defina as seguintes configurações:
 
    - 
      [!UICONTROL Use for Promo Rule Conditions]: `Yes`
@@ -226,67 +226,67 @@ Nesta etapa, você cria dois novos atributos personalizados para mostrar como a 
 
 ### Etapa 3: atualizar o conjunto de atributos do produto
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
 
-   Neste exemplo, adicione temporariamente os novos atributos à variável `default` conjunto de atributos. No final deste exercício, remova os atributos do conjunto de atributos para não afetar seu catálogo.
+   Neste exemplo, você adiciona temporariamente os novos atributos ao conjunto de atributos `default`. No final deste exercício, remova os atributos do conjunto de atributos para não afetar seu catálogo.
 
    >[!NOTE]
    >
    >Se você não quiser alterar o armazenamento ao vivo, poderá acompanhar sem atualizar o conjunto de atributos.
 
-1. Localize o _[!UICONTROL Default]_atributo definido na lista e clique duas vezes nele para abri-lo no modo de edição.
+1. Localize o conjunto de atributos _[!UICONTROL Default]_na lista e clique duas vezes nele para abri-lo no modo de edição.
 
-1. No _Atributos não atribuídos_ , localize os novos atributos criados e arraste cada um para a _[!UICONTROL Groups]_coluna, abaixo **[!UICONTROL Content]**.
+1. Na lista _Atributos Não Atribuídos_, encontre os novos atributos criados e arraste cada um para a coluna _[!UICONTROL Groups]_, em **[!UICONTROL Content]**.
 
-   A localização do atributo na variável [!UICONTROL Groups] determina onde ele aparece na página.
+   O local do atributo na coluna [!UICONTROL Groups] determina onde ele aparece na página.
 
    ![Novos atributos adicionados ao grupo de conteúdo](./assets/pb-product-attribute-set.png){width="600" zoomable="yes"}
 
-1. Clique em **[!UICONTROL Save]** para retornar à lista Conjuntos de atributos.
+1. Clique em **[!UICONTROL Save]** para retornar à lista de conjuntos de atributos.
 
-1. Quando solicitado, clique no link **[!UICONTROL Cache Management]** vincular na parte superior da página e atualizar qualquer cache inválido.
+1. Quando solicitado, clique no link **[!UICONTROL Cache Management]** na parte superior da página e atualize qualquer cache inválido.
 
 ### Etapa 4: atualizar o produto
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Na grade Produtos, localize _Meu produto_ e abra-o no modo de edição.
+1. Na grade Produtos, localize _Meu Produto_ e abra-o no modo de edição.
 
-1. Rolar para baixo e expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Content]** seção.
+1. Role para baixo e expanda ![Seletor de expansão](../assets/icon-display-expand.png) na seção **[!UICONTROL Content]**.
 
    Na parte superior da seção, há dois atributos padrão para o conteúdo do produto:
 
-   - _Descrição curta_, que usa o padrão WYSIWYG [editor](../content-design/editor.md).
-   - _Descrição_, que exibe o [!DNL Page Builder] visualização.
+   - _Descrição Curta_, que usa o [editor](../content-design/editor.md) WYSIWYG padrão.
+   - _Descrição_, que exibe a visualização [!DNL Page Builder].
 
    ![Conteúdo do produto](./assets/pb-product-content-edit-with-page-builder.png){width="600" zoomable="yes"}
 
    À medida que você rolar a tela para a metade inferior da seção, há dois atributos que você criou e atribuiu:
 
-   - _Meus [!DNL Page Builder] Atributo_, que exibe o [!DNL Page Builder] visualização.
-   - _Meu atributo do editor de texto_, que usa o editor WYSIWYG padrão.
+   - _Meu [!DNL Page Builder] Atributo_, que exibe a visualização de [!DNL Page Builder].
+   - _Meu Atributo do Editor de Texto_, que usa o editor WYSIWYG padrão.
 
    ![Edição de conteúdo do produto](./assets/pb-product-content-my-attributes.png){width="600" zoomable="yes"}
 
-1. No **Meu atributo do editor de texto** editor, insira `Text Editor Attribute placeholder text`.
+1. No editor do **Atributo do Meu Editor de Texto**, digite `Text Editor Attribute placeholder text`.
 
-   - No canto superior direito, clique na guia **[!UICONTROL Save]** seta e escolha **[!UICONTROL Save & Close]**.
+   - No canto superior direito, clique na seta **[!UICONTROL Save]** e escolha **[!UICONTROL Save & Close]**.
 
-1. Para **Meu atributo do Page Builder**, clique em **[!UICONTROL Edit with Page Builder]** e adicione o texto de descrição:
+1. Para o **Meu atributo do Page Builder**, clique em **[!UICONTROL Edit with Page Builder]** e adicione o texto da descrição:
 
-   - No [!DNL Page Builder] painel, expandir **[!UICONTROL Elements]** e arraste uma **[!UICONTROL Text object]** para o estágio.
+   - No painel [!DNL Page Builder], expanda **[!UICONTROL Elements]** e arraste um **[!UICONTROL Text object]** para o estágio.
 
-   - Enter `Page Builder attribute placeholder text`.
+   - Digite `Page Builder attribute placeholder text`.
 
-   - No canto superior direito do estágio, clique na guia _Fechar tela cheia_ ( ![Ícone Fechar tela inteira](./assets/pb-icon-reduce.png){width="20"} ) ícone.
+   - No canto superior direito do estágio, clique no ícone _Fechar Tela cheia_ ( ![Fechar ícone de tela cheia](./assets/pb-icon-reduce.png){width="20"} ).
 
      ![Atributos personalizados com texto de espaço reservado](./assets/pb-product-content-attributes.png){width="600" zoomable="yes"}
 
-1. Rolar para cima até **[!UICONTROL Description]**, clique em **[!UICONTROL Edit with Page Builder]** e adicione qualquer texto que desejar usando o mesmo método da etapa anterior.
+1. Role até **[!UICONTROL Description]**, clique em **[!UICONTROL Edit with Page Builder]** e adicione o texto desejado usando o mesmo método da etapa anterior.
 
-1. No canto superior direito da página do produto, clique na guia **[!UICONTROL Save]** seta e escolha **[!UICONTROL Save & Close]**.
+1. No canto superior direito da página do produto, clique na seta **[!UICONTROL Save]** e escolha **[!UICONTROL Save & Close]**.
 
-1. Se solicitado, clique no link **[!UICONTROL Cache Management]** vincular na mensagem na parte superior da página e atualizar qualquer cache inválido.
+1. Se solicitado, clique no link **[!UICONTROL Cache Management]** na mensagem na parte superior da página e atualize qualquer cache inválido.
 
 ### Etapa 5: visualizar o resultado
 
@@ -294,13 +294,13 @@ Nesta etapa, você cria dois novos atributos personalizados para mostrar como a 
 
    Neste exemplo, o produto pode ser encontrado na navegação superior em Mulheres > Topos > Árvores.
 
-1. Role para baixo até _Meu atributo do Page Builder_ informações.
+1. Role para baixo até as informações do _Meu atributo do Page Builder_.
 
    A posição dos atributos na página do produto é determinada pelo tema. No tema Luma, os novos atributos estão localizados logo após a descrição do produto.
 
-   ![[!DNL Page Builder] e atributos do Editor de texto na loja](./assets/pb-storefront-product-attribute.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] e atributos do Editor de Texto na loja ](./assets/pb-storefront-product-attribute.png){width="600" zoomable="yes"}
 
-Você concluiu o [!DNL Page Builder] Exercício Conteúdo de catálogo. Manter o trabalho criado para que você possa consultá-lo posteriormente.
+Você concluiu o exercício Conteúdo do Catálogo [!DNL Page Builder]. Manter o trabalho criado para que você possa consultá-lo posteriormente.
 
 [1]: https://www.youtube.com/
 [2]: https://vimeo.com/

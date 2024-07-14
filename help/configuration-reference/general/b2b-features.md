@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL B2B Features]'
-description: Revise as configurações no [!UICONTROL General] &gt; [!UICONTROL B2B Features] página do Administrador do Commerce.
+description: Revise as configurações na página [!UICONTROL General] &gt; [!UICONTROL B2B Features] do Administrador do Commerce.
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->Com a instalação e a habilitação do Adobe Commerce B2B, a experiência de compra pode ser personalizada com recursos específicos da empresa. O Adobe Commerce B2B é uma solução integrada que oferece suporte aos modelos B2B e B2C. Para obter mais informações sobre os recursos B2B, consulte a [_Guia do usuário B2B do Adobe Commerce_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Com a instalação e a habilitação do Adobe Commerce B2B, a experiência de compra pode ser personalizada com recursos específicos da empresa. O Adobe Commerce B2B é uma solução integrada que oferece suporte aos modelos B2B e B2C. Para obter mais informações sobre os recursos B2B, consulte o [_Guia do Usuário B2B do Adobe Commerce_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## [!UICONTROL B2B Features]
 
@@ -32,14 +32,14 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![Recursos B2B com empresas e catálogos compartilhados ativados](./assets/b2b-features-company-enabled.png)<!-- zoom -->
+![Recursos B2B com empresas e catálogos compartilhados habilitados](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
 Quando o recurso Empresa estiver ativado, campos adicionais estarão disponíveis para Catálogo Compartilhado e Cotação B2B.
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | Site | Quando habilitado, permite criar catálogos com curadoria e preços personalizados disponíveis globalmente ou limitados a empresas específicas. Opções: `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | Site | Quando a variável _[!UICONTROL Enable Shared Catalog]_o campo está definido como `Yes`, essa opção está disponível. Quando habilitado, somente os produtos atribuídos a um catálogo compartilhado são armazenados no índice de preços. Os produtos que não estão atribuídos ao catálogo compartilhado não são exibidos na loja. Opções: `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | Site | Quando o campo _[!UICONTROL Enable Shared Catalog]_estiver definido como `Yes`, essa opção estará disponível. Quando habilitado, somente os produtos atribuídos a um catálogo compartilhado são armazenados no índice de preços. Os produtos que não estão atribuídos ao catálogo compartilhado não são exibidos na loja. Opções: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Site | Quando ativado, permite que os compradores da empresa enviem uma solicitação de cotação do carrinho de compras. Opções: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -62,13 +62,13 @@ Quando o recurso Empresa estiver ativado, campos adicionais estarão disponívei
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |------- |----------------------------------------------------------------------- |------------ |
 | [!UICONTROL Applicable Shipping Methods] | Global | Determina a seleção dos métodos de envio disponíveis por padrão para compradores B2B. Opções: `All Shipping Methods` / `Specific Shipping Methods` |
-| [!UICONTROL Shipping Methods] | Global | Especifica cada método de envio disponível por padrão para compradores B2B. <br/>**_Nota:_**Também é possível limitar os métodos de envio para um [conta da empresa](../../b2b/account-companies.md). |
+| [!UICONTROL Shipping Methods] | Global | Especifica cada método de envio disponível por padrão para compradores B2B. <br/>**_Observação:_**você também pode limitar os métodos de envio para uma [conta da empresa](../../b2b/account-companies.md) específica. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
-![Recursos B2B - Configuração de aprovação de pedido](./assets/b2b-features-order-approval.png)<!-- zoom -->
+![Recursos B2B - Configuração de Aprovação de Pedido](./assets/b2b-features-order-approval.png)<!-- zoom -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |------- |----------------------------------------------------------------------- |------------ |

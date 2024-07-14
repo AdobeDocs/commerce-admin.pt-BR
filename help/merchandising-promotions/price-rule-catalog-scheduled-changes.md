@@ -18,7 +18,7 @@ A caixa Alterações programadas aparece na parte superior da página quando uma
 
 >[!NOTE]
 >
->A variável [!UICONTROL From] e [!UICONTROL To] os campos foram removidos em ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e não podem ser modificados diretamente na regra de preço de catálogo. Você deve criar uma atualização agendada para essas ativações.
+>Os campos [!UICONTROL From] e [!UICONTROL To] foram removidos do Adobe Commerce ![Adobe Commerce](../assets/adobe-logo.svg) e não podem ser modificados diretamente na regra de preço de catálogo. Você deve criar uma atualização agendada para essas ativações.
 
 >[!NOTE]
 >
@@ -34,19 +34,19 @@ Se houver várias regras de preço em execução na mesma campanha, a configura�
 
 ## Agendar uma atualização para uma regra de preço de catálogo
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**Regra de preço de catálogo**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**Regra de Preço de Catálogo**.
 
 1. Abra a regra no modo de edição.
 
-1. No **[!UICONTROL Scheduled Changes]** na parte superior da página, clique em **[!UICONTROL Schedule New Update]**.
+1. Na caixa **[!UICONTROL Scheduled Changes]**, na parte superior da página, clique em **[!UICONTROL Schedule New Update]**.
 
-1. Com o **[!UICONTROL Save as a New Update]** selecionada, faça o seguinte:
+1. Com a opção **[!UICONTROL Save as a New Update]** selecionada, faça o seguinte:
 
-   - Para **[!UICONTROL Update Name]**, digite um nome para a atualização da regra.
+   - Para **[!UICONTROL Update Name]**, insira um nome para a atualização da regra.
 
-   - Insira um resumo **[!UICONTROL Description]** da atualização, incluindo como ou por que ela é aplicada.
+   - Insira um breve **[!UICONTROL Description]** da atualização, incluindo como ou por que ela é aplicada.
 
-   - Use o _Calendário_ (![Ícone de calendário](../assets/icon-calendar.png)) para escolher o **[!DNL Start Date]** e **[!UICONTROL End Date]** para que a alteração programada entre em vigor. Para criar uma alteração aberta, deixe a data final em branco.
+   - Use o _Calendário_ (![Ícone de calendário](../assets/icon-calendar.png)) para escolher o **[!DNL Start Date]** e o **[!UICONTROL End Date]** para que a alteração agendada entre em vigor. Para criar uma alteração aberta, deixe a data final em branco.
 
    ![Regras de preço de catálogo - novas alterações agendadas](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
 
@@ -54,13 +54,13 @@ Se houver várias regras de preço em execução na mesma campanha, a configura�
    >
    >A data/hora de início e término é determinada pela data/hora e pelo fuso horário padrão do painel Administração, não pelo fuso horário de um site específico. Considere o fuso horário do site para determinar corretamente as horas de início e término. Crie regras separadas para sites em fusos horários diferentes que precisam ser iniciados e/ou interrompidos em horários locais específicos.
 
-1. Role para baixo até **[!UICONTROL Rule Information]** e altere a regra conforme necessário.
+1. Role para baixo até a seção **[!UICONTROL Rule Information]** e altere a regra conforme necessário.
 
    É possível agendar alterações para qualquer parâmetro de regra, incluindo os sites (escopo)/grupos de clientes da regra, as condições da regra e as ações aplicadas pela regra. Para obter mais informações, consulte [Criando uma Regra de Preço de Catálogo](price-rules-catalog-create.md).
 
    >[!NOTE]
    >
-   >Se você alterar para qualquer um dos parâmetros de informações da regra, verifique se _[!UICONTROL Status]_está definido corretamente. Se desejar que a alteração resulte em uma regra aplicada ativamente, o status deverá ser`Active`.
+   >Se você alterar para qualquer um dos parâmetros de informações da regra, verifique se _[!UICONTROL Status]_está definido corretamente. Se você quiser que a alteração resulte em uma regra aplicada ativamente, o status deverá ser `Active`.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
@@ -68,7 +68,7 @@ Se houver várias regras de preço em execução na mesma campanha, a configura�
 
 ## Editar uma alteração de regra agendada
 
-1. No **[!UICONTROL Scheduled Changes]** na parte superior da página, clique em **[!UICONTROL View/Edit]**.
+1. Na caixa **[!UICONTROL Scheduled Changes]**, na parte superior da página, clique em **[!UICONTROL View/Edit]**.
 
 1. Faça as alterações necessárias na atualização agendada.
 
@@ -76,7 +76,7 @@ Se houver várias regras de preço em execução na mesma campanha, a configura�
 
 ## Visualizar a alteração de regra agendada
 
-1. No **[!UICONTROL Scheduled Changes]** na parte superior da página, clique em **[!UICONTROL Preview]**.
+1. Na caixa **[!UICONTROL Scheduled Changes]**, na parte superior da página, clique em **[!UICONTROL Preview]**.
 
    A Pré-visualização abre uma nova guia do navegador que carrega sua loja com a alteração agendada aplicada. Navegue até um produto afetado pela alteração.
 
@@ -86,28 +86,28 @@ Se houver várias regras de preço em execução na mesma campanha, a configura�
 
    Os detalhes do calendário mostram outras campanhas programadas para o mesmo dia. Cada registro na lista é uma atualização de regra separada.
 
-   ![Lista de atualizações agendadas para uma data específica](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
+   ![Lista de Atualizações Agendadas para uma Data Específica](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
 
-1. Para visualizar um dia ou hora diferente, clique no link **[!UICONTROL Date & Time]** calendário ![Ícone de calendário](../assets/icon-calendar.png) e faça o seguinte:
+1. Para visualizar um dia ou hora diferente, clique no **[!UICONTROL Date & Time]** ícone do calendário ![Calendário](../assets/icon-calendar.png) e faça o seguinte:
 
    - Escolha uma data e/ou hora diferente.
 
    - Clique em **[!UICONTROL Preview]**.
 
-1. Para retornar ao calendário, clique em **[!UICONTROL Calendar]** no cabeçalho da página Visualizar.
+1. Para retornar ao calendário, clique em **[!UICONTROL Calendar]** no cabeçalho da página de Visualização.
 
    Aqui, você pode fazer o seguinte:
 
-   **Compartilhar um link para a visualização**
+   **Compartilhar um Link para a Visualização**
 
    Para compartilhar um link para a visualização da loja com seus colegas, clique em **[!UICONTROL Share]**. Copie o link para a área de transferência e cole-o no corpo de uma mensagem de email.
 
    >[!NOTE]
    >
-   >É necessário ter uma conta de usuário Administrador para ter uma visualização compartilhada. Se o seu [tem acesso](../systems/permissions-user-roles.md) para criar uma conta de usuário Admin, você deve criar a conta para um novo usuário antes de compartilhar.
+   >É necessário ter uma conta de usuário Administrador para ter uma visualização compartilhada. Se a sua [função tiver acesso](../systems/permissions-user-roles.md) para criar uma conta de usuário Administrador, você deverá criar a conta para um novo usuário antes de compartilhar.
 
    **Alterar o Escopo da Visualização**
 
-   Para ver as alterações agendadas para diferentes modos de exibição de loja, clique em **[!UICONTROL Scope]** no cabeçalho da página Visualizar. Escolha o modo de exibição de site, loja ou loja que deseja visualizar.
+   Para ver as alterações agendadas para diferentes modos de exibição de armazenamento, clique em **[!UICONTROL Scope]** no cabeçalho da página de Visualização. Escolha o modo de exibição de site, loja ou loja que deseja visualizar.
 
-1. Se necessário, retorne ao calendário e clique em **[!UICONTROL View/Edit]** no _[!UICONTROL Action]_para abrir outra atualização agendada.
+1. Se necessário, retorne ao calendário e clique em **[!UICONTROL View/Edit]** na coluna _[!UICONTROL Action]_para abrir outra atualização agendada.

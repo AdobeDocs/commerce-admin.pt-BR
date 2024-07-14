@@ -6,7 +6,7 @@ feature: B2B, Companies
 source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ O principal motivo para manter uma lista de requisições é facilitar a reorgan
 
 1. No painel de contas, o cliente escolhe **[!UICONTROL My Requisition Lists]**.
 
-1. Localiza a lista de requisições que deseja abrir e clica em **[!UICONTROL View]** e execute um dos procedimentos a seguir:
+1. Localiza a lista de requisições que deseja abrir, clica em **[!UICONTROL View]** e realiza qualquer um dos seguintes procedimentos:
 
 ### Adicionar produtos ao carrinho
 
@@ -29,23 +29,23 @@ O principal motivo para manter uma lista de requisições é facilitar a reorgan
    - Marca a caixa de seleção de cada item.
    - Cliques **[!UICONTROL Select All]**.
 
-1. Insere o **[!UICONTROL Qty]** para ser adicionado ao carrinho.
+1. Insere o **[!UICONTROL Qty]** a ser adicionado ao carrinho.
 
 1. Para alterar qualquer opção de produto, o faz o seguinte:
 
-   - No item da linha, clique na guia _Editar_ (![Ícone de lápis](../assets/icon-edit-pencil.png)) ícone.
+   - No item de linha, clique no ícone _Editar_ (![Lápis](../assets/icon-edit-pencil.png)).
    - Altera todas as opções necessárias.
    - Cliques **[!UICONTROL Update Requisition List]**.
 
 1. Cliques **[!UICONTROL Add to Cart]**.
 
-   ![Detalhe da Lista de Requisições](./assets/requisition-list-view.png){width="700" zoomable="yes"}
+   ![Detalhes da Lista de Requisições](./assets/requisition-list-view.png){width="700" zoomable="yes"}
 
 ### Copiar itens para uma lista diferente
 
 1. O cliente marca a caixa de seleção de cada item a ser movido.
 
-1. Cliques **[!UICONTROL Copy Selected]** e executa um dos seguintes procedimentos:
+1. Clica em **[!UICONTROL Copy Selected]** e executa um dos seguintes procedimentos:
 
    - Escolhe uma lista de requisições existente.
    - Cliques **[!UICONTROL Create New Requisition List]**.
@@ -54,7 +54,7 @@ O principal motivo para manter uma lista de requisições é facilitar a reorgan
 
 1. O cliente abre a lista de requisições a serem exportadas.
 
-1. Clica no ícone **[!UICONTROL Export]** link.
+1. Clica no link **[!UICONTROL Export]**.
 
 O Adobe Commerce gera e baixa uma lista CSV com `sku` e `qty` valores.
 
@@ -62,7 +62,7 @@ O Adobe Commerce gera e baixa uma lista CSV com `sku` e `qty` valores.
 
 1. O cliente marca a caixa de seleção de cada item a ser movido.
 
-1. Cliques **[!UICONTROL Move Selected]** e siga um destes procedimentos:
+1. Clique em **[!UICONTROL Move Selected]** e siga um destes procedimentos:
 
    - Escolhe uma lista de requisições existente.
    - Cliques **[!UICONTROL Create New Requisition List]**.
@@ -71,7 +71,7 @@ O Adobe Commerce gera e baixa uma lista CSV com `sku` e `qty` valores.
 
 1. No canto superior direito da lista, o cliente clica em **[!UICONTROL Print]**.
 
-1. Verifica o dispositivo de saída e clica **[!UICONTROL Print]**.
+1. Verifique o dispositivo de saída e clique em **[!UICONTROL Print]**.
 
    ![Imprimir Lista de Requisições](./assets/requisition-list-print.png){width="500" zoomable="yes"}
 
@@ -79,7 +79,7 @@ O Adobe Commerce gera e baixa uma lista CSV com `sku` e `qty` valores.
 
 Para editar as opções de produto na lista, o cliente faz o seguinte:
 
-1. Clica no ícone _Lápis_ (![Ícone de lápis](../assets/icon-edit-pencil.png)) para abrir a página do produto.
+1. Clica no ícone de _Lápis_ (![Lápis](../assets/icon-edit-pencil.png)) para abrir a página do produto.
 
 1. Altera todas as opções necessárias.
 
@@ -89,7 +89,7 @@ Para editar as opções de produto na lista, o cliente faz o seguinte:
 
 Um produto na lista de requisições pode ser editado quando:
 
-- O produto tem **[!UICONTROL all options set]** (quando for um [produto configurado](../catalog/product-create-configurable.md) na Lista de Requisições).
+- O produto tem **[!UICONTROL all options set]** (quando é um [produto configurado](../catalog/product-create-configurable.md) na Lista de Requisições).
 
   O produto é **[!UICONTROL added to this Requisition List]**.
 
@@ -109,7 +109,7 @@ Um produto na lista de requisições pode ser editado quando:
 
 1. Após o título da lista, o cliente clica em **[!UICONTROL Rename]**.
 
-1. Insere um diferente **[!UICONTROL Requisition List Name]**.
+1. Inserir um **[!UICONTROL Requisition List Name]** diferente.
 
 1. Cliques **[!UICONTROL Save]**.
 

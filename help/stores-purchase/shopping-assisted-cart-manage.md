@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Para iniciar uma sessão de compras assistidas, o cliente deve estar conectado à sua conta na loja para disponibilizar as informações. Se o cliente não tiver uma conta, você poderá [criar um](../customers/account-create.md).
+Para iniciar uma sessão de compras assistidas, o cliente deve estar conectado à sua conta na loja para disponibilizar as informações. Se o cliente não tiver uma conta, você pode [criar uma](../customers/account-create.md).
 
 ![Carrinho de compras na conta do cliente](./assets/customer-account-manage-cart-items.png){width="600" zoomable="yes"}
 
@@ -32,14 +32,14 @@ Para iniciar uma sessão de compras assistidas, o cliente deve estar conectado �
 | Botão | Descrição |
 |--- |--- |
 | [!UICONTROL Clear my shopping cart] | Limpa o carrinho de compras atual de todos os produtos. |
-| [!UICONTROL Update Items and Quantities|]Insira a quantidade necessária na **[!UICONTROL Qty]** e atualize o número de itens no carrinho. |
+| [!UICONTROL Update Items and Quantities|]Insira a quantidade necessária no campo **[!UICONTROL Qty]** e atualize o número de itens no carrinho. |
 | [!UICONTROL Add selections to my cart] | Adiciona produtos de todas as seções ao carrinho. |
 
 {style="table-layout:auto"}
 
 ## Verifique se o cliente está conectado
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Now Online]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Now Online]**.
 
    Todos os visitantes da loja e os clientes conectados aparecem na lista.
 
@@ -47,17 +47,17 @@ Para iniciar uma sessão de compras assistidas, o cliente deve estar conectado �
 
 ## Oferecer compras assistidas
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Na lista, abra o registro do cliente no modo de edição.
 
    >[!TIP]
    >
-   >Para encontrar o registro do cliente com pressa, use o [Filtros](../getting-started/admin-grid-controls.md) controle.
+   >Para localizar o registro do cliente com pressa, use o controle [Filtros](../getting-started/admin-grid-controls.md).
 
-   No perfil do cliente, em _[!UICONTROL Personal Information]_, o_[!UICONTROL Last Logged In]_ data e hora mostra que o cliente está online.
+   No perfil de cliente em _[!UICONTROL Personal Information]_, a data e hora_[!UICONTROL Last Logged In]_ mostra que o cliente está online.
 
-   ![Perfil do cliente de um cliente online](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
+   ![Perfil de cliente de um cliente online](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
 1. Para entrar no modo de compra assistida, clique em **[!UICONTROL Manage Shopping Cart]** na barra de botões superior.
 
@@ -65,7 +65,7 @@ Para iniciar uma sessão de compras assistidas, o cliente deve estar conectado �
 
 ## Adicionar produtos ao carrinho por atributo
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Products]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Products]**.
 
 1. Localize um produto usando qualquer um dos filtros na parte superior de cada coluna.
 
@@ -77,7 +77,7 @@ Para iniciar uma sessão de compras assistidas, o cliente deve estar conectado �
 
 1. Clique no produto que deseja solicitar.
 
-   Esta ação seleciona o registro e define **[!UICONTROL Quantity]** ao valor padrão de `1`.
+   Esta ação seleciona o registro e define **[!UICONTROL Quantity]** como o valor padrão de `1`.
 
 1. Se necessário, atualize a quantidade solicitada.
 
@@ -91,13 +91,13 @@ Para iniciar uma sessão de compras assistidas, o cliente deve estar conectado �
 
 ### Adicionar um produto com configuração
 
-Há três tipos de produtos que devem ser configurados antes de adicionar ao carrinho: `Bundle Product`, `Configurable Product`, e `Grouped Product`.
+Há três tipos de produtos que devem ser configurados antes de serem adicionados ao carrinho: `Bundle Product`, `Configurable Product` e `Grouped Product`.
 
 1. Na grade, clique em **[!UICONTROL Configure]** ao lado do nome do produto.
 
    ![Configurar o produto](./assets/customer-account-manage-cart-order-configurable-product.png){width="600" zoomable="yes"}
 
-1. No _Produtos associados_ escolha cada opção de produto para descrever o item a ser solicitado, insira o **[!UICONTROL Quantity]** e clique em **[!UICONTROL OK]**.
+1. Na caixa de diálogo _Produtos Associados_, escolha cada opção de produto para descrever o item a ser solicitado, digite o **[!UICONTROL Quantity]** e clique em **[!UICONTROL OK]**.
 
    O produto é selecionado com uma marca de seleção e a quantidade solicitada aparece na grade.
 
@@ -113,13 +113,13 @@ Há três tipos de produtos que devem ser configurados antes de adicionar ao car
 
 ## Adicionar produto por SKU
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Add to Shopping Cart by SKU]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Add to Shopping Cart by SKU]**.
 
-1. Adicionar produtos individualmente por **[!UICONTROL SKU]** ou adicione produtos fazendo upload de um arquivo CSV.
+1. Adicione produtos individualmente por **[!UICONTROL SKU]** ou adicione produtos carregando um arquivo CSV.
 
 ### Adicionar itens individualmente por SKU
 
-1. Insira o **[!UICONTROL SKU]** e **[!UICONTROL Qty]** do item a ser solicitado.
+1. Insira os **[!UICONTROL SKU]** e **[!UICONTROL Qty]** do item a ser ordenado.
 
 1. Para solicitar outro produto, clique em **[!UICONTROL Add another]**.
 
@@ -131,7 +131,7 @@ Há três tipos de produtos que devem ser configurados antes de adicionar ao car
 
 ### Adicionar produtos fazendo upload de um arquivo CSV
 
-1. Preparar um [arquivo csv](../systems/data-csv.md) com os itens a serem adicionados ao carrinho.
+1. Prepare um [arquivo csv](../systems/data-csv.md) com os itens a serem adicionados ao carrinho.
 
    O arquivo deve conter apenas duas colunas, com `sku` e `qty` no cabeçalho.
 
@@ -145,7 +145,7 @@ Há três tipos de produtos que devem ser configurados antes de adicionar ao car
 
 Você pode transferir itens da lista de desejos de um cliente para o carrinho e também visualizar, comparar ou solicitar itens recentemente. O número de itens em cada seção aparece entre parênteses após o cabeçalho da seção.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) uma das seguintes seções:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) uma das seguintes seções:
 
    - [!UICONTROL Wish List]
    - [!UICONTROL Products in the Comparison List]
@@ -163,11 +163,11 @@ Você pode transferir itens da lista de desejos de um cliente para o carrinho e 
 
    - Para **[!UICONTROL Apply Coupon Code]**, insira um código de cupom válido.
 
-   - Clique em _Aplicar_ ( ![Ícone de seta](../assets/icon-apply-arrow.png) ).
+   - Clique na seta _Aplicar_ ( ![Ícone de seta](../assets/icon-apply-arrow.png) ).
 
 1. Ajuste a quantidade solicitada conforme necessário:
 
-   - No **[!UICONTROL Qty]** do produto a ser ajustado, insira o valor correto.
+   - Na coluna **[!UICONTROL Qty]** do produto a ser ajustado, insira o valor correto.
 
    - Clique em **[!UICONTROL Update Items and Quantities]**.
 
@@ -175,7 +175,7 @@ Você pode transferir itens da lista de desejos de um cliente para o carrinho e 
 
 1. Clique em **[!UICONTROL Create Order]**.
 
-   A variável _[!UICONTROL Create New Order]_mostra os itens no carrinho, seguidos pelas informações de envio e pagamento.
+   A página _[!UICONTROL Create New Order]_mostra os itens do carrinho, seguidos pelas informações de envio e pagamento.
 
 1. Preencha as informações sobre entrega e pagamento.
 

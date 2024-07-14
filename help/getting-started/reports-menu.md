@@ -1,34 +1,34 @@
 ---
-title: '[!UICONTROL Reports] menu'
+title: Menu '[!UICONTROL Reports]'
 description: O Adobe Commerce e o Magento Open Source fornecem uma ampla variedade de relatórios para mantê-lo informado sobre seus esforços de marketing, produtos de vendas e atividade de clientes.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
 source-git-commit: 35025c69bf9ba3902693cb9694bcf2b4e7882c7f
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Reports] menu
+# Menu [!UICONTROL Reports]
 
 O Adobe Commerce fornece uma ampla variedade de relatórios para mantê-lo informado sobre seus esforços de marketing, produtos de vendas e atividade do cliente. O menu Relatórios fornece acesso fácil às informações atuais sobre vendas, produtos, clientes e promoções.
 
 ![Menu de relatórios](./assets/overview.png){width="600"}
 
-## Exibir o [!UICONTROL Reports] menu
+## Exibir o menu [!UICONTROL Reports]
 
-No _Admin_ barra lateral, escolha **[!UICONTROL Reports]**.
+Na barra lateral _Admin_, escolha **[!UICONTROL Reports]**.
 
 ## Opções de menu
 
 ### [!UICONTROL Marketing]
 
-Uma seleção de [relatórios de marketing](marketing-reports.md), incluindo Produtos no carrinho, Termos de pesquisa, Carrinhos abandonados e Relatórios de problema de informativos.
+Uma seleção de [relatórios de marketing](marketing-reports.md), incluindo Produtos no Carrinho, Termos de Pesquisa, Carrinhos Abandonados e Relatórios de Problemas de Boletim Informativo.
 
 ### [!UICONTROL Reviews]
 
-A seleção do produto [relatórios de revisão](review-reports.md) inclui Por cliente e Por produto.
+A seleção de produto [relatórios de revisão](review-reports.md) inclui Por cliente e Por produto.
 
 ### [!UICONTROL Sales]
 
@@ -36,19 +36,19 @@ A seleção de [relatórios de vendas](sales-reports.md) inclui relatórios de P
 
 ### [!UICONTROL System Insights]
 
-(Somente no Adobe Commerce) A variável [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) O fornece insights do sistema para instalações do Adobe Commerce na infraestrutura em nuvem com monitoramento, relatórios e recomendações de desempenho em tempo real 24 horas por dia, 7 dias por semana.
+(Somente Adobe Commerce) O [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) fornece insights do sistema para instalações do Adobe Commerce na infraestrutura em nuvem com monitoramento, relatórios e recomendações de desempenho em tempo real 24 horas por dia, 7 dias por semana.
 
 ### [!UICONTROL Customers]
 
-(Somente no Adobe Commerce) A seleção de [relatórios de clientes](customer-reports.md) inclui Total da ordem, Conta da ordem, Novo, Listas de desejos e Segmentos.
+(Somente Adobe Commerce) A seleção de [relatórios de clientes](customer-reports.md) inclui Total de pedidos, Conta de pedidos, Novo, Listas de desejos e Segmentos.
 
 ### [!UICONTROL Products]
 
-A seleção de [relatórios de produto](product-reports.md) inclui Exibições, Melhores vendedores, Baixo Stock, Encomendado e Downloads.
+A seleção de [relatórios de produtos](product-reports.md) inclui Exibições, Melhores Vendedores, Baixo Estoque, Encomendados e Downloads.
 
 ### [!UICONTROL Private Sales]
 
-(Somente no Adobe Commerce) A seleção de relatórios para [vendas e eventos privados](private-sales-reports.md) inclui Convite, Clientes convidados e Conversões.
+(Somente Adobe Commerce) A seleção de relatórios para [vendas e eventos privados](private-sales-reports.md) inclui Convite, Clientes Convidados e Conversões.
 
 ### [!UICONTROL Statistics]
 
@@ -56,4 +56,4 @@ A seleção de [relatórios de produto](product-reports.md) inclui Exibições, 
 
 ### [!DNL Commerce Intelligence]
 
-Integrado [[!DNL Commerce Intelligence]](business-intelligence.md) As ferramentas do fornecem o insight necessário para tomar decisões estratégicas de negócios.
+As ferramentas [[!DNL Commerce Intelligence]](business-intelligence.md) integradas fornecem o insight necessário para tomar decisões estratégicas de negócios.

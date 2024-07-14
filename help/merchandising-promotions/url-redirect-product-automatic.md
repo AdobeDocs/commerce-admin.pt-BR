@@ -1,6 +1,6 @@
 ---
 title: Redirecionamentos automáticos
-description: Saiba como configurar redirecionamentos automáticos a serem gerados sempre que a chave do URL de um produto ou categoria for alterada na sua loja do Commerce.
+description: Saiba como configurar redirecionamentos automáticos a serem gerados sempre que a chave do URL de um produto ou categoria for alterada na loja do Commerce.
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
@@ -20,33 +20,33 @@ Sua loja pode ser configurada para gerar automaticamente um redirecionamento per
 
 ## Configurar redirecionamentos automáticos
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** por baixo.
+1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** abaixo de.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Search Engine Optimization]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization]**.
 
    ![Configuração do catálogo - otimização do mecanismo de pesquisa](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. Definir **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** para `Yes`.
+1. Defina **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** como `Yes`.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
 ## Redirecionar URLs de produtos automaticamente
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Encontre o produto na lista e clique em para abrir o registro.
 
-1. Expandir ![Seletor de expansão ](../assets/icon-display-expand.png) o **[!UICONTROL Search Engine Optimization]** seção.
+1. Expandir ![Seletor de expansão ](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization]**.
 
    ![Otimização do mecanismo de pesquisa do produto - redirecionamento permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 1. Para **[!UICONTROL URL Key]**, faça o seguinte:
 
-   - Certifique-se de que a variável **[!UICONTROL Create Permanent Redirect for old URL]** está marcada. Caso contrário, siga as instruções para [habilitar redirecionamentos automáticos](url-rewrite.md#configure-url-rewrites).
+   - Verifique se a caixa de seleção **[!UICONTROL Create Permanent Redirect for old URL]** está marcada. Caso contrário, siga as instruções para [habilitar redirecionamentos automáticos](url-rewrite.md#configure-url-rewrites).
 
-   - Atualize o **[!UICONTROL URL Key]** conforme necessário, usando todos os caracteres em minúsculas e hifens não à direita entre esses caracteres em vez de espaços.
+   - Atualize o **[!UICONTROL URL Key]** conforme necessário, usando todos os caracteres em minúsculas e hifens não finais entre esses caracteres em vez de espaços.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
@@ -56,17 +56,17 @@ Sua loja pode ser configurada para gerar automaticamente um redirecionamento per
 
 ## Redirecionar URLs de categoria automaticamente
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Localize a categoria na árvore e clique em para abrir o registro.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Search Engine Optimization]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization]**.
 
 1. Para **[!UICONTROL URL Key]**, faça o seguinte:
 
-   - Certifique-se de que a variável **[!UICONTROL Create Permanent Redirect for old URL]** está marcada. Caso contrário, siga as instruções para [habilitar redirecionamentos automáticos](url-rewrite.md#configure-url-rewrites).
+   - Verifique se a caixa de seleção **[!UICONTROL Create Permanent Redirect for old URL]** está marcada. Caso contrário, siga as instruções para [habilitar redirecionamentos automáticos](url-rewrite.md#configure-url-rewrites).
 
-   - Atualize o **[!UICONTROL URL Key]** conforme necessário, usando todos os caracteres em minúsculas e hifens não à direita entre esses caracteres em vez de espaços.
+   - Atualize o **[!UICONTROL URL Key]** conforme necessário, usando todos os caracteres em minúsculas e hifens não finais entre esses caracteres em vez de espaços.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
@@ -80,16 +80,16 @@ Sua loja pode ser configurada para gerar automaticamente um redirecionamento per
 >
 >Desativar a geração automática de substituições de URL de categoria/produtos resulta na remoção permanente de todas as substituições de URL de categoria/tipo de produto existentes, que não podem ser restauradas. Isso pode causar conflitos não resolvidos de URL de tipo de categoria/produto que exigem uma atualização manual da chave do URL para serem resolvidos.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** por baixo.
+1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** abaixo de.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Search Engine Optimization]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization]**.
 
-1. Definir **[!UICONTROL Generate "category/product" URL Rewrites]** para `No`.
+1. Defina **[!UICONTROL Generate "category/product" URL Rewrites]** como `No`.
 
-1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL OK]** para confirmar a alteração e a remoção de regravações de URL existentes.
+1. Na caixa de diálogo de confirmação, clique em **[!UICONTROL OK]** para confirmar a alteração e a remoção das regravações de URL existentes.
 
-   ![Desativar regravações de URL de categoria/produto - confirmar](./assets/seo-rewrite-off.png){width="350"}
+   ![Desativar substituições de URL de categoria/produto - confirmar](./assets/seo-rewrite-off.png){width="350"}
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.

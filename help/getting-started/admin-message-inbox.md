@@ -1,10 +1,10 @@
 ---
 title: Caixa de entrada de mensagens do administrador
-description: Saiba mais sobre a caixa de entrada de mensagens do administrador, que fornece mensagens importantes e úteis do Adobe e do [!DNL Commerce] sistema.
+description: Saiba mais sobre a caixa de entrada de mensagens do administrador, que fornece mensagens importantes e úteis do Adobe e do sistema  [!DNL Commerce] .
 exl-id: c53bb0e4-9f18-4d40-8cc4-8c3b485f8d68
 source-git-commit: 7b6d70e2f3052af69075790cec1f396e2505bf8b
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ Sua loja recebe mensagens do Adobe regularmente. As mensagens são classificadas
 
 ![Administrador - mensagens de entrada](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-A variável _[!UICONTROL Notifications]_A página lista todas as mensagens classificadas por data. A variável_[!UICONTROL Action]_ os comandos podem ser usados para marcar mensagens individuais como lidas, exibir informações mais detalhadas ou remover a mensagem da caixa de entrada.
+A página _[!UICONTROL Notifications]_lista todas as mensagens classificadas por data. Os comandos_[!UICONTROL Action]_ podem ser usados para marcar mensagens individuais como lidas, exibir informações mais detalhadas ou remover a mensagem da caixa de entrada.
 
 A configuração determina com que frequência a caixa de entrada é atualizada e como as mensagens são entregues. Se o administrador da loja tiver um URL seguro, as notificações deverão ser entregues por HTTPS.
 
 ## Exibir novas mensagens de entrada
 
-1. Clique em **[!UICONTROL Notification]** no cabeçalho e leia o resumo.
+1. Clique no ícone **[!UICONTROL Notification]** no cabeçalho e leia o resumo.
 
 1. Siga um destes procedimentos:
 
@@ -40,11 +40,11 @@ Para receber uma mensagem de importância crítica, execute um dos procedimentos
 
 1. Siga um destes procedimentos para abrir a página Notificações:
 
-   - Clique em **[!UICONTROL Notification]** no cabeçalho. Se uma ou mais mensagens novas forem exibidas, clique em **[!UICONTROL See All]**.
+   - Clique no ícone **[!UICONTROL Notification]** no cabeçalho. Se houver uma ou mais novas mensagens exibidas, clique em **[!UICONTROL See All]**.
 
-   - No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
+   - Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
 
-1. No **[!UICONTROL Action]** , siga um destes procedimentos:
+1. Na coluna **[!UICONTROL Action]**, siga um destes procedimentos:
 
    - Para obter mais informações, clique em **[!UICONTROL Read Details]** para abrir a página vinculada em uma nova janela.
 
@@ -57,9 +57,9 @@ Para receber uma mensagem de importância crítica, execute um dos procedimentos
 1. Para aplicar uma ação a várias mensagens, siga um destes procedimentos:
 
    - Marque a caixa de seleção na primeira coluna para cada mensagem a ser gerenciada.
-   - Para selecionar várias mensagens, defina a variável **[!UICONTROL Mass Actions]** controle conforme necessário.
+   - Para selecionar várias mensagens, defina o controle **[!UICONTROL Mass Actions]** conforme necessário.
 
-1. Defina o **[!UICONTROL Actions]** controle para uma das seguintes opções:
+1. Defina o controle **[!UICONTROL Actions]** como um dos seguintes:
 
    - `Mark as Read`
    - `Remove`
@@ -68,20 +68,20 @@ Para receber uma mensagem de importância crítica, execute um dos procedimentos
 
 ## Configurar notificações
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel de navegação esquerdo, expanda **[!UICONTROL Advanced]** e escolha **[!UICONTROL System]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png)o **[!UICONTROL Notifications]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png)a seção **[!UICONTROL Notifications]**.
 
    ![Configuração de notificações](./assets/system-notifications.png){width="600"}
 
-1. Se o administrador da loja executar em um [URL seguro](../stores-purchase/store-urls.md), definir **[!UICONTROL Use HTTPS to Get Feed]** para `Yes`.
+1. Se o Administrador do armazenamento executar por uma [URL segura](../stores-purchase/store-urls.md), defina **[!UICONTROL Use HTTPS to Get Feed]** como `Yes`.
 
-1. Definir **[!UICONTROL Update Frequency]** para determinar com que frequência sua caixa de entrada é atualizada.
+1. Defina **[!UICONTROL Update Frequency]** para determinar com que frequência sua caixa de entrada é atualizada.
 
    O intervalo pode ser de uma a 24 horas.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
-Para obter mais informações sobre o [!UICONTROL System] opções de configuração, consulte a seção [_Guia de referência de configuração_](../configuration-reference/advanced/system.md).
+Para obter mais informações sobre as opções de configuração do [!UICONTROL System], consulte o [_Guia de Referência de Configuração_](../configuration-reference/advanced/system.md).

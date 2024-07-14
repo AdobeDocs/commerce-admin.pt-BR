@@ -16,23 +16,23 @@ As informações básicas da conta do cliente incluem seu nome, endereço de ema
 
 ![Informações da conta na loja](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
-Na barra lateral da sua conta, o cliente pode escolher **[!UICONTROL Account Information]** e siga qualquer um destes procedimentos para atualizar as informações da conta.
+Na barra lateral da sua conta, o cliente pode escolher **[!UICONTROL Account Information]** e executar qualquer um dos procedimentos a seguir para atualizar as informações da conta.
 
 ## Atualizar o nome da conta
 
-Para atualizar o nome da conta, o cliente altera os valores na variável **[!UICONTROL First Name]** e **[!UICONTROL Last Name]** campos conforme necessário.
+Para atualizar o nome da conta, o cliente altera os valores nos campos **[!UICONTROL First Name]** e **[!UICONTROL Last Name]** conforme necessário.
 
 >[!INFO]
 >
->Campos adicionais são exibidos como parte do nome se a variável [configuração do cliente](../configuration-reference/customers/customer-configuration.md) inclui um prefixo, inicial do meio e sufixo.
+>Campos adicionais aparecerão como parte do nome se a [configuração do cliente](../configuration-reference/customers/customer-configuration.md) incluir um prefixo, uma inicial do meio e um sufixo.
 
 ## Alterar endereço de email
 
-1. O cliente seleciona o **[!UICONTROL Change Email]** caixa de seleção
+1. O cliente marca a caixa de seleção **[!UICONTROL Change Email]**.
 
-1. Insere o novo **[!UICONTROL Email]** endereço.
+1. Digite o novo endereço **[!UICONTROL Email]**.
 
-1. Insere seus **[!UICONTROL Current Password]**.
+1. Inserir o **[!UICONTROL Current Password]**.
 
    ![Alterar endereço de email](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
@@ -40,11 +40,11 @@ Para atualizar o nome da conta, o cliente altera os valores na variável **[!UIC
 
 ## Alterar senha
 
-1. O cliente seleciona o **[!UICONTROL Change Password]** caixa de seleção
+1. O cliente marca a caixa de seleção **[!UICONTROL Change Password]**.
 
-1. Insere seus **[!UICONTROL Current Password]**.
+1. Inserir o **[!UICONTROL Current Password]**.
 
-1. Insere seus **[!UICONTROL New Password]**.
+1. Inserir o **[!UICONTROL New Password]**.
 
    >[!INFO]
    >

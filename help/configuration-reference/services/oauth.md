@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL OAuth]'
-description: Revise as configurações no [!UICONTROL Services] &gt; [!UICONTROL OAuth] página do Administrador do Commerce.
+description: Revise as configurações na página [!UICONTROL Services] &gt; [!UICONTROL OAuth] do Administrador do Commerce.
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
 feature: Configuration, Security
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -27,15 +27,15 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Os algoritmos de Duração do token da API do portador e do administrador são controlados pelo [Autenticação JWT](magento-web-api.md#jwt-authentication) configurações.
+>Os algoritmos de Duração do token da API de cliente e administrador do portador e de criptografia são controlados pelas configurações de [Autenticação JWT](magento-web-api.md#jwt-authentication).
 
 ## [!UICONTROL Cleanup Settings]
 
-![Configurações de limpeza](./assets/oauth-cleanup.png)<!-- zoom -->
+![Configurações de Limpeza](./assets/oauth-cleanup.png)<!-- zoom -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Cleanup Probability] | Global | Especifica o número de solicitações OAuth antes que a limpeza seja iniciada. Não insira `0` para desativar a limpeza. |
+| [!UICONTROL Cleanup Probability] | Global | Especifica o número de solicitações OAuth antes que a limpeza seja iniciada. Não insira `0` para desabilitar a limpeza. |
 | [!UICONTROL Enable WSDL Cache] | Global | Determina a idade das entradas em minutos, antes de serem limpas. |
 
 {style="table-layout:auto"}
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Authentication Locks]
 
-![Bloqueios de autenticação](./assets/oauth-locks.png)<!-- zoom -->
+![Bloqueios de Autenticação](./assets/oauth-locks.png)<!-- zoom -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |

@@ -18,41 +18,41 @@ O processo de criação de uma regra de produto relacionada é semelhante à con
 
 >[!NOTE]
 >
->Para que um atributo seja usado em uma regra direcionada, a variável [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) propriedade deve ser definida como `Yes`.
+>Para que um atributo seja usado em uma regra de destino, a propriedade [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) deve ser definida como `Yes`.
 
 >[!NOTE]
 >
->A variável `All Store Views` o valor do escopo é sempre usado para ambos [!UICONTROL Products to Match] e [!UICONTROL Products to Display] condições para todos os atributos de produto. Isso também se aplica quando os atributos do produto têm valores diferentes para diferentes exibições e sites da loja.
+>O valor do escopo `All Store Views` é sempre usado para as condições [!UICONTROL Products to Match] e [!UICONTROL Products to Display] para todos os atributos de produto. Isso também se aplica quando os atributos do produto têm valores diferentes para diferentes exibições e sites da loja.
 
 ## Criar uma regra de produto relacionada
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Add Rule]**.
 
    ![Regra de produtos relacionados - informações](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
 
-1. Conclua o **[!UICONTROL Rule Information]** do seguinte modo:
+1. Conclua o **[!UICONTROL Rule Information]** da seguinte maneira:
 
    - Insira um **[!UICONTROL Rule Name]** para identificar a regra ao trabalhar no Administrador.
 
-   - Para **[!UICONTROL Priority]**, insira um número que determine a ordem em que os resultados aparecem na página quando os resultados de outras regras são direcionados para o mesmo local. Número `1` O é a prioridade máxima.
+   - Para **[!UICONTROL Priority]**, insira um número que determine a ordem em que os resultados aparecem na página quando os resultados de outras regras são direcionados para o mesmo local. O número `1` é a prioridade máxima.
 
-   - Para ativar a regra, defina **[!UICONTROL Status]** para `Active`.
+   - Para habilitar a regra, defina **[!UICONTROL Status]** como `Active`.
 
-   - Definir **[!UICONTROL Apply To]** a um dos seguintes:
+   - Defina **[!UICONTROL Apply To]** como um dos seguintes:
 
       - `Related Products`
       - `Up-sells`
       - `Cross-sells`
 
-   - Se a regra for ficar ativa por um período específico, insira o **[!UICONTROL From]** e **[!UICONTROL To]** datas.
+   - Se a regra for ficar ativa por um período específico, insira as datas **[!UICONTROL From]** e **[!UICONTROL To]**.
 
    - Para **[!UICONTROL Result Limit]**, insira o número de registros a serem exibidos na lista de resultados. O número máximo é 20.
 
-   - Se a regra se aplicar a um [segmento de cliente](../customers/customer-segments.md), definir **[!UICONTROL Customer Segments]** para `Specified` e escolha o segmento do cliente na lista.
+   - Se a regra se aplicar a um [segmento de cliente](../customers/customer-segments.md) específico, defina **[!UICONTROL Customer Segments]** como `Specified` e escolha o segmento de cliente na lista.
 
-   - Se a regra se aplicar a um [Público-alvo do Real-Time CDP](../customers/audience-activation.md), definir **[!UICONTROL Real-Time CDP Audience]** para `Specified` e escolha o público-alvo da Real-Time CDP na lista. Esse recurso está na versão beta. Se você quiser participar do programa beta, envie uma solicitação para [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Se a regra se aplicar a um [público-alvo do Real-Time CDP](../customers/audience-activation.md) específico, defina **[!UICONTROL Real-Time CDP Audience]** como `Specified` e escolha o público-alvo do Real-Time CDP na lista. Esse recurso está na versão beta. Se você quiser participar do programa beta, envie uma solicitação para [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
      ![Regra de produtos relacionados - Público-alvo da Real-Time CDP](./assets/rtcdp-related-products.png){width="500"}
 
@@ -60,7 +60,7 @@ O processo de criação de uma regra de produto relacionada é semelhante à con
 
    ![Regra de produtos relacionados - produtos a serem correspondidos](./assets/catalog-related-products-match.png){width="500"}
 
-1. No painel esquerdo, escolha **[!UICONTROL Products to Display]** e crie as condições dos resultados da mesma maneira que você faria para uma [regra de preço de catálogo](price-rules-catalog.md).
+1. No painel esquerdo, escolha **[!UICONTROL Products to Display]** e crie as condições de resultados como você faria para uma [regra de preço de catálogo](price-rules-catalog.md).
 
    ![Regra de produtos relacionados - produtos a serem exibidos](./assets/catalog-related-products-to-display.png){width="500"}
 
@@ -70,7 +70,7 @@ O processo de criação de uma regra de produto relacionada é semelhante à con
 
 ## Excluir uma regra de produto relacionada
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
 
 1. Localize a regra de produto relacionada que deseja excluir.
 

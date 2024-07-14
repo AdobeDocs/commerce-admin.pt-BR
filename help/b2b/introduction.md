@@ -1,5 +1,5 @@
 ---
-title: Introdução ao [!DNL Adobe Commerce B2B]
+title: Introdução a  [!DNL Adobe Commerce B2B]
 description: Saiba como usar recursos B2B integrados para atender às necessidades de clientes empresariais.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 # Introdução ao [!DNL Adobe Commerce B2B]
 
-Diferentemente do modelo padrão B2B (Business to Business), os recursos integrados B2B são projetados para atender às necessidades de vendedores (comerciantes da Adobe Commerce) que têm clientes que são empresas. Ele acomoda empresas com estruturas organizacionais complexas e vários usuários com várias funções e níveis de permissão de compra. Um cliente B2B típico pode ser o gerente de uma loja de varejo ou um comprador que faz compras em nome de uma empresa. Em ambos os casos, a transação ocorre entre a sua empresa e a deles. Você também pode vender produtos diretamente para o consumidor. [!DNL Adobe Commerce B2B] O é uma solução integrada que oferece suporte aos modelos B2B e B2C.
+Diferentemente do modelo padrão B2B (Business to Business), os recursos integrados B2B são projetados para atender às necessidades de vendedores (comerciantes da Adobe Commerce) que têm clientes que são empresas. Ele acomoda empresas com estruturas organizacionais complexas e vários usuários com várias funções e níveis de permissão de compra. Um cliente B2B típico pode ser o gerente de uma loja de varejo ou um comprador que faz compras em nome de uma empresa. Em ambos os casos, a transação ocorre entre a sua empresa e a deles. Você também pode vender produtos diretamente para o consumidor. [!DNL Adobe Commerce B2B] é uma solução integrada que oferece suporte aos modelos B2B e B2C.
 
-Com o [instalação](install.md) e [habilitação](enable-basic-features.md) da extensão B2B na sua loja Adobe Commerce, a experiência de compra pode ser personalizada com catálogos e preços específicos do cliente e conteúdo e promoções direcionadas.
+Com a [instalação](install.md) e a [habilitação](enable-basic-features.md) da extensão B2B na sua loja da Adobe Commerce, a experiência de compra pode ser personalizada com catálogos e preços específicos do cliente, além de conteúdo e promoções direcionadas.
 
 ## Contas da empresa
 
@@ -26,7 +26,7 @@ Para obter mais informações, consulte [Contas da empresa](account-companies.md
 
 >[!NOTE]
 >
->Quando habilitada, sua loja pode dar às empresas a opção de _Pagar por conta_, que significa fazer compras em uma linha de crédito da empresa. Como comerciante, você pode alocar crédito para uma conta da empresa e gerenciar configurações de crédito para uma empresa, além de reembolso de crédito.
+>Quando habilitada, sua loja pode dar às empresas a opção de _Pagar na Conta_, o que significa fazer compras em uma linha de crédito da empresa. Como comerciante, você pode alocar crédito para uma conta da empresa e gerenciar configurações de crédito para uma empresa, além de reembolso de crédito.
 
 ## Gerenciamento da empresa
 
@@ -34,7 +34,7 @@ Para obter mais informações, consulte [Contas da empresa](account-companies.md
 
 O gerenciamento da empresa ajuda os administradores comerciais a simplificar a administração e o gerenciamento de organizações B2B com modelos operacionais complexos.
 
-No Administrador, os usuários com as permissões apropriadas podem criar uma **[!UICONTROL Company Hierarchy]** que reflete a estrutura organizacional de uma empresa comercial composta por várias empresas. Essa hierarquia permite exibir e gerenciar empresas como um grupo. Por exemplo, o administrador pode designar uma empresa-mãe e atribuir todas as empresas que operam como subsidiárias da empresa-mãe. Em seguida, o administrador da empresa principal pode exibir e gerenciar as contas da empresa para todas as empresas atribuídas.
+Com o Administrador, os usuários com as permissões apropriadas podem criar um **[!UICONTROL Company Hierarchy]** que reflita a estrutura organizacional de uma empresa comercial composta por várias empresas. Essa hierarquia permite exibir e gerenciar empresas como um grupo. Por exemplo, o administrador pode designar uma empresa-mãe e atribuir todas as empresas que operam como subsidiárias da empresa-mãe. Em seguida, o administrador da empresa principal pode exibir e gerenciar as contas da empresa para todas as empresas atribuídas.
 
 Para obter mais informações, consulte [Gerenciamento da Empresa](manage-companies.md).
 
@@ -50,7 +50,7 @@ Os serviços para Adobe Commerce são serviços hospedados que fornecem recursos
 
 Catálogos compartilhados são os níveis de preços que permitem definir preços personalizados por produto para diferentes empresas em um ou vários sites. Ao usar catálogos compartilhados, você pode vender produtos aplicando diferentes níveis de preço para diferentes grupos de clientes. O suporte para catálogos compartilhados está disponível somente para lojas Commerce configuradas para dar suporte a contas da empresa.
 
-Para obter mais informações, consulte [Trabalhar com catálogos compartilhados](catalog-shared.md).
+Para obter mais informações, consulte [Trabalhando com Catálogos Compartilhados](catalog-shared.md).
 
 ## Pedido rápido
 
@@ -66,17 +66,17 @@ Use o recurso Cotações para iniciar a negociação de preços entre um comprad
 
 * Um vendedor pode iniciar um orçamento para um comprador com o Administrador.
 
-Compradores e vendedores usam a cota para gerenciar o processo de negociação - como adicionar itens, atualizar quantidades, solicitar e aplicar descontos - até que cheguem a um acordo. A variável _Aspas_ A grade no Admin lista cada cotação recebida e mantém um histórico da comunicação entre comprador e vendedor.
+Compradores e vendedores usam a cota para gerenciar o processo de negociação - como adicionar itens, atualizar quantidades, solicitar e aplicar descontos - até que cheguem a um acordo. A grade _Cotas_ no Administrador lista cada cotação recebida e mantém um histórico da comunicação entre comprador e vendedor.
 
 O suporte para Cotações Negociáveis está disponível apenas para lojas Commerce configuradas para suportar contas da Empresa.
 
-Para obter mais informações, consulte [Cotações Negociáveis](quotes.md).
+Para obter mais informações, consulte [Cotações negociáveis](quotes.md).
 
 ## Aprovações de ordem de compra
 
 Quando Ordens de Compra são ativadas para uma conta de empresa, todas as ordens são criadas automaticamente como Ordens de Compra (OC). Os usuários da empresa com as permissões necessárias podem criar, editar e excluir OCs que eles criam e OCs criadas por usuários subordinados. Dependendo de sua função e da ordem, os usuários da empresa podem estar sujeitos a várias regras de aprovação.
 
-Para obter mais informações, consulte [Ordens de Compra para Empresas](purchase-order-flow.md).
+Para obter mais informações, consulte [Pedidos de Compra para Empresas](purchase-order-flow.md).
 
 ## Listas de requisições
 

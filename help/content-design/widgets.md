@@ -21,7 +21,7 @@ Você pode usar widgets para criar páginas de aterrissagem para campanhas de ma
 
 ## Tipos de widget
 
-Quando você [criar um widget](widget-create.md), você deve definir o tipo. Este tipo determina como o widget funciona.
+Ao [criar um widget](widget-create.md), você deve definir o tipo. Este tipo determina como o widget funciona.
 
 | Tipo | Descrição |
 |--- |--- |

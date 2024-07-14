@@ -18,7 +18,7 @@ A United Parcel Service (UPS) oferece serviços de transporte nacional e interna
 
 >[!NOTE]
 >
->UPS pode usar [peso dimensional](carriers.md#dimensional-weight) para determinar algumas taxas de envio. No entanto, o Adobe Commerce suporta apenas o cálculo de custo de envio com base em peso.
+>A UPS pode usar [peso dimensional](carriers.md#dimensional-weight) para determinar algumas taxas de envio. No entanto, o Adobe Commerce suporta apenas o cálculo de custo de envio com base em peso.
 
 ## Etapa 1: Abrir uma Conta de Entrega UPS
 
@@ -26,56 +26,56 @@ Para oferecer esse método de envio aos seus clientes, primeiro abra uma conta n
 
 ## Etapa 2: Habilitar UPS para sua loja
 
-1. No _Barra lateral de administração_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na _barra lateral do administrador_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel à esquerda, em **[!UICONTROL Sales]**, escolha **[!UICONTROL Delivery Methods]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL UPS]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL UPS]**.
 
-1. Definir **[!UICONTROL Enabled for Checkout]** para `Yes`.
+1. Defina **[!UICONTROL Enabled for Checkout]** como `Yes`.
 
 1. Para uma conta REST UPS (padrão), faça o seguinte:
 
-   - Insira suas credenciais de UPS: UPS ClientID como **[!UICONTROL User ID]**, Segredo do cliente UPS como **[!UICONTROL Password]**
+   - Insira suas credenciais de UPS: UPS ClientID como **[!UICONTROL User ID]**, UPS Client Secret como **[!UICONTROL Password]**
 
-   - Definir **[!UICONTROL Mode]** para `Live` para enviar dados ao sistema de envio da UPS através de uma conexão segura. (O modo de desenvolvimento não envia dados por uma conexão segura.)
+   - Defina **[!UICONTROL Mode]** como `Live` para enviar dados ao sistema de envio do UPS através de uma conexão segura. (O modo de desenvolvimento não envia dados por uma conexão segura.)
 
-   - Verifique se **[!UICONTROL Gateway URL]** que é necessário para enviar solicitações. Use um URL de sandbox para o modo de teste e um URL de produção para solicitações ativas.
+   - Verifique o **[!UICONTROL Gateway URL]** que é necessário para enviar solicitações. Use um URL de sandbox para o modo de teste e um URL de produção para solicitações ativas.
 
-   - Verifique se **[!UICONTROL Tracking URL]** que é necessário para obter informações de rastreamento. Use um URL de sandbox para o modo de teste e um URL de produção para solicitações ativas.
+   - Verifique o **[!UICONTROL Tracking URL]** que é necessário para obter informações de rastreamento. Use um URL de sandbox para o modo de teste e um URL de produção para solicitações ativas.
 
-   - Definir **[!UICONTROL Origin of the Shipment]** para a região de origem da entrega.
+   - Defina **[!UICONTROL Origin of the Shipment]** para a região de origem da remessa.
 
-   - Se você tiver taxas especiais com UPS, defina **[!UICONTROL Enable Negotiated Rates]** para `Yes` e insira o caractere de seis dígitos **[!UICONTROL Shipper Number]** atribuído a você pela UPS.
+   - Se você tiver taxas especiais com UPS, defina **[!UICONTROL Enable Negotiated Rates]** como `Yes` e insira o **[!UICONTROL Shipper Number]** de seis dígitos atribuído a você pelo UPS.
 
-   - Definir **[!UICONTROL Live Account]** a um dos seguintes:
+   - Defina **[!UICONTROL Live Account]** como um dos seguintes:
 
       - `Yes` - Executa UPS no modo de produção e oferece UPS como um método de envio para seus clientes.
-      - `No` - Executa o no-break em um modo de teste.
+      - `No` - Executa UPS em um modo de teste.
 
    >[!NOTE]
    >
-   >O tipo padrão United Parcel Service está agendado para desativação. Para novas configurações, use o padrão `United Parcel Service REST` tipo. O tipo REST também é necessário para gerar [etiquetas de remessa](shipping-labels.md).<br/>
-   >Para a versão 2.4.7, **[!UICONTROL UPS Type]**  foi removido porque `UPS` e `UPS XML` os tipos estão agendados para desativação e `UPS REST` é o padrão. As APIs do United Parcel Service (UPS) usadas pela integração nativa do Adobe Commerce estão temporariamente obsoletas porque, no momento, ele não oferece suporte ao modelo de segurança OAuth 2.0.
+   >O tipo padrão United Parcel Service está agendado para desativação. Para novas configurações, use o tipo `United Parcel Service REST` padrão. O tipo REST também é necessário para gerar [rótulos de remessa](shipping-labels.md).<br/>
+   >Para a versão 2.4.7, **[!UICONTROL UPS Type]** foi removido porque os tipos `UPS` e `UPS XML` estão agendados para substituição e `UPS REST` é o padrão. As APIs do United Parcel Service (UPS) usadas pela integração nativa do Adobe Commerce estão temporariamente obsoletas porque, no momento, ele não oferece suporte ao modelo de segurança OAuth 2.0.
 
    >[!IMPORTANT]
    >
-   >O UPS descontinuará o suporte para HTTP, que é usado no padrão atual (valor do sistema). Limpe a **[!UICONTROL Use system value]** e modifique o URL para usar HTTPS. Exemplo: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
+   >O UPS descontinuará o suporte para HTTP, que é usado no padrão atual (valor do sistema). Desmarque a caixa de seleção **[!UICONTROL Use system value]** e modifique a URL para usar HTTPS. Exemplo: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
-1. Para **[!UICONTROL Title]**, insira o nome desta opção de envio como deseja que ele seja exibido durante a finalização da compra.
+1. Para **[!UICONTROL Title]**, insira o nome desta opção de remessa como deseja que ele apareça durante o check-out.
 
-   Por padrão, esse campo está definido como `United Parcel Service`.
+   Por padrão, este campo está definido como `United Parcel Service`.
 
-   ![Ativar UPS](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"}
+   ![Habilitar UPS](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"}
 
 ## Etapa 3: completar a descrição do contêiner
 
-1. Definir **[!UICONTROL Packages Request Type]** a um dos seguintes:
+1. Defina **[!UICONTROL Packages Request Type]** como um dos seguintes:
 
    - `Use origin weight (few requests)`
    - `Divide to equal weight (one request)`
 
-1. Para **[!UICONTROL Container]**, especifique o tipo de embalagem típico que é usado para a remessa:
+1. Para **[!UICONTROL Container]**, especifique o tipo de embalagem típico que é usado para remessa:
 
    - `Customer Packaging`
    - `UPS Letter Envelope`
@@ -90,21 +90,21 @@ Para oferecer esse método de envio aos seus clientes, primeiro abra uma conta n
    - `Medium Express Box`
    - `Large Express Box`
 
-1. Definir **[!UICONTROL Weight Unit]** ao sistema usado para medir o peso do produto.
+1. Defina **[!UICONTROL Weight Unit]** para o sistema usado para medir o peso do produto.
 
    O sistema de peso suportado pela UPS varia de acordo com o país. Em caso de dúvida, pergunte ao UPS qual sistema de peso você deve usar. As opções incluem:
 
    - `LBS`
    - `KGS`
 
-1. Definir **[!UICONTROL Destination Type]** a um dos seguintes:
+1. Defina **[!UICONTROL Destination Type]** como um dos seguintes:
 
-   - `Residential` - A maioria de suas remessas são B2C (B2C).
-   - `Commercial` - A maioria de suas remessas é B2B (B2B).
+   - `Residential` - A maioria de suas remessas é B2C (B2C).
+   - `Commercial` - A maioria de suas remessas é B2B (B2B) de empresa para empresa.
 
-1. Insira o **[!UICONTROL Maximum Package Weight]** pelo transportador.
+1. Insira o **[!UICONTROL Maximum Package Weight]** permitido pela operadora.
 
-1. Definir **[!UICONTROL Pickup Method]** a um dos seguintes:
+1. Defina **[!UICONTROL Pickup Method]** como um dos seguintes:
 
    - `Regular Daily Pickup`
    - `On Call Air`
@@ -112,7 +112,7 @@ Para oferecer esse método de envio aos seus clientes, primeiro abra uma conta n
    - `Letter Center`
    - `Customer Counter`
 
-1. Insira o **[!UICONTROL Minimum Package Weight]** pelo transportador.
+1. Insira o **[!UICONTROL Minimum Package Weight]** permitido pela operadora.
 
    ![Descrição do contêiner](./assets/ups2.png){width="600" zoomable="yes"}
 
@@ -120,21 +120,21 @@ Para oferecer esse método de envio aos seus clientes, primeiro abra uma conta n
 
 A taxa de manuseio é opcional e aparece como um custo extra que é adicionado ao custo de envio da UPS. Se quiser incluir uma taxa de manuseio, faça o seguinte:
 
-1. Definir **[!UICONTROL Calculate Handling Fee]** a um dos seguintes métodos:
+1. Defina **[!UICONTROL Calculate Handling Fee]** com um dos seguintes métodos:
 
    - `Fixed`
    - `Percent`
 
-1. Para determinar como a taxa de manuseio é aplicada, defina **[!UICONTROL Handling Applied]** a um dos seguintes:
+1. Para determinar como a taxa de manuseio de material é aplicada, defina **[!UICONTROL Handling Applied]** como uma das seguintes opções:
 
    - `Per Order`
    - `Per Package`
 
-1. Insira o valor do **[!UICONTROL Handling Fee]** a cobrar.
+1. Insira o valor de **[!UICONTROL Handling Fee]** a ser cobrado.
 
-   Para inserir uma porcentagem, use o formato decimal. Por exemplo, insira `0.25` para 25%.
+   Para inserir uma porcentagem, use o formato decimal. Por exemplo, digite `0.25` para 25%.
 
-   ![Taxa de manuseio](./assets/ups3.png){width="600" zoomable="yes"}
+   ![Taxa de Manuseio](./assets/ups3.png){width="600" zoomable="yes"}
 
 ## Etapa 5: Especificar métodos permitidos e países aplicáveis
 
@@ -142,11 +142,11 @@ A taxa de manuseio é opcional e aparece como um custo extra que é adicionado a
 
    Os métodos aparecem em UPS durante o check-out. Para selecionar vários métodos, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
 
-1. Se quiser fornecer uma [Envio gratuito](shipping-free.md) através do UPS, defina as opções de envio gratuito:
+1. Se você deseja fornecer uma opção de [Envio gratuito](shipping-free.md) por meio do UPS, defina as opções de envio gratuito:
 
-   - Definir **[!UICONTROL Free Method]** para o método que deseja usar para frete grátis. Se você não quiser oferecer frete grátis através do UPS, escolha `None`.
+   - Defina **[!UICONTROL Free Method]** com o método que deseja usar para envio gratuito. Se você não quiser oferecer frete grátis por meio do UPS, escolha `None`.
 
-   - Para exigir uma quantia mínima de ordem que qualifique uma ordem para entrega gratuita com UPS, defina **[!UICONTROL Enable Free Shipping Threshold]** para `Enable`. Em seguida, insira o valor mínimo em **[!UICONTROL Free Shipping Amount Threshold]**.
+   - Para exigir um valor de pedido mínimo que qualifique um pedido de remessa gratuita com UPS, defina **[!UICONTROL Enable Free Shipping Threshold]** como `Enable`. Em seguida, insira o valor mínimo em **[!UICONTROL Free Shipping Amount Threshold]**.
 
 1. Se necessário, altere o **[!UICONTROL Displayed Error Message]**.
 
@@ -154,21 +154,21 @@ A taxa de manuseio é opcional e aparece como um custo extra que é adicionado a
 
    ![Métodos permitidos](./assets/ups4.png){width="600" zoomable="yes"}
 
-1. Definir **[!UICONTROL Ship to Applicable Countries]** a um dos seguintes:
+1. Defina **[!UICONTROL Ship to Applicable Countries]** como um dos seguintes:
 
-   - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificado na configuração da loja pode usar esse método de entrega.
-   - `Specific Countries` - Ao escolher essa opção, a variável _Países específicos para envio_ é exibida. Selecione cada país na lista onde esse método de entrega pode ser usado.
+   - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar este método de entrega.
+   - `Specific Countries` - Ao escolher essa opção, a lista _Remeter para Países Específicos_ é exibida. Selecione cada país na lista onde esse método de entrega pode ser usado.
 
-1. Definir **[!UICONTROL Show Method if Not Applicable]** a um dos seguintes:
+1. Defina **[!UICONTROL Show Method if Not Applicable]** como um dos seguintes:
 
-   - `Yes` - Lista todos os métodos de entrega UPS disponíveis durante a finalização da compra, incluindo métodos que não se aplicam à entrega.
-   - `No` - Lista apenas os métodos de entrega UPS que são aplicáveis à entrega.
+   - `Yes` - Lista todos os métodos de envio UPS disponíveis durante o check-out, incluindo os métodos que não se aplicam à remessa.
+   - `No` - Lista somente os métodos de envio UPS aplicáveis à remessa.
 
    ![Países aplicáveis](./assets/ups5.png){width="600" zoomable="yes"}
 
-1. Para criar um arquivo de log com os detalhes das remessas UPS feitas de sua loja, defina **[!UICONTROL Debug]** para `Yes`.
+1. Para criar um arquivo de log com os detalhes das remessas UPS feitas de sua loja, defina **[!UICONTROL Debug]** como `Yes`.
 
-1. Para **[!UICONTROL Sort Order]**, digite um número para determinar a sequência em que o UPS aparece quando listado com outros métodos de delivery durante o checkout.
+1. Para **[!UICONTROL Sort Order]**, insira um número para determinar a sequência em que o UPS aparece quando listado com outros métodos de entrega durante o check-out.
 
    `0` = primeiro, `1` = segundo, `2` = terceiro e assim por diante.
 
@@ -176,13 +176,13 @@ A taxa de manuseio é opcional e aparece como um custo extra que é adicionado a
 
 ## Etapa 6: configurar endereço de origem da remessa
 
-1. Verifique se o seu [Armazenar informações](../getting-started/store-details.md#store-information) está concluído.
+1. Verifique se as [Informações da Loja](../getting-started/store-details.md#store-information) foram concluídas.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e selecione **[!UICONTROL Shipping Settings]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) **[!UICONTROL Origin]** na página e configure o endereço de origem da remessa.
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) **[!UICONTROL Origin]** na página e configure o endereço de origem da remessa.
 
    ![Configuração de vendas - opções de endereço de origem da remessa](./assets/shipping-origin.png){width="600" zoomable="yes"}
 
@@ -190,4 +190,4 @@ A taxa de manuseio é opcional e aparece como um custo extra que é adicionado a
 
 >[!NOTE]
 >
->O Commerce não declara o preço total do pedido à UPS ao calcular os encargos de remessa. Esse comportamento não pode ser alterado.
+>A Commerce não declara o preço total do pedido à UPS ao calcular as despesas de envio. Esse comportamento não pode ser alterado.

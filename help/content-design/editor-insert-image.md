@@ -4,7 +4,7 @@ description: O editor WYSIWYG fornece uma maneira fácil de inserir uma imagem d
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 No editor, é possível inserir uma imagem usando três tipos de origem:
 
-- Adicione uma imagem que foi carregada na variável [armazenamento de mídia](media-storage.md)
+- Adicione uma imagem que foi carregada para o [armazenamento de mídia](media-storage.md)
 - Link para uma imagem que reside em outro servidor
 - Use a integração do Adobe Stock para pesquisar e usar os ativos do Adobe Stock
 
@@ -21,21 +21,21 @@ No editor, é possível inserir uma imagem usando três tipos de origem:
 
 1. Abra uma página, um bloco ou um bloco dinâmico no modo de edição.
 
-1. Vá para a _[!UICONTROL Content]_e clique em qualquer elemento compatível com o editor.
+1. Vá para a seção _[!UICONTROL Content]_e clique em qualquer elemento compatível com o editor.
 
 1. Posicione o cursor onde deseja que a imagem apareça.
 
-1. Na barra de ferramentas do editor, clique na guia _Inserir imagem_ ícone.
+1. Na barra de ferramentas do editor, clique no ícone _Inserir imagem_.
 
    ![Ícone Inserir imagem](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   Essa ação abre a variável _[!UICONTROL Insert/edit image]_diálogo.
+   Esta ação abre a caixa de diálogo _[!UICONTROL Insert/edit image]_.
 
-1. Para **Origem**, clique no link _Pesquisar_ e use o método que corresponde ao local do ativo de imagem que você deseja usar:
+1. Para o **Source**, clique no ícone _Pesquisar_ e use o método que corresponda ao local do ativo de imagem que você deseja usar:
 
-   ![Selecionar o ícone de pesquisa](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
+   ![Selecionando o ícone de pesquisa](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
-   - **Carregar uma nova imagem**: use esse método para fazer upload de um novo arquivo de imagem.
+   - **Carregar uma nova imagem**: use este método para carregar um novo arquivo de imagem.
 
       - Selecione a pasta na árvore onde deseja adicionar o novo arquivo de imagem.
 
@@ -45,23 +45,23 @@ No editor, é possível inserir uma imagem usando três tipos de origem:
 
       - Clique na miniatura do novo arquivo e clique em **[!UICONTROL Add Selected]**.
 
-   - **Selecionar um ativo existente**: use esse método para selecionar um ativo de imagem existente no armazenamento de mídia/galeria.
+   - **Selecionar um ativo existente**: use este método para selecionar um ativo de imagem existente do armazenamento de mídia/galeria.
 
       - Use a árvore para navegar até a imagem.
 
       - Clique na miniatura e em **[!UICONTROL Add Selected]**.
 
-   - **Pesquisar e selecionar uma imagem do Adobe Stock**: use esse método para localizar uma imagem do Adobe Stock.
+   - **Pesquise e selecione uma imagem do Adobe Stock**: use este método para localizar uma imagem do Adobe Stock.
 
      >[!NOTE]
      >
-     >Este método requer um [Integração do Adobe Stock](adobe-stock.md) configurado para o seu Administrador.
+     >Este método requer uma [integração com o Adobe Stock](adobe-stock.md) configurada para o Administrador.
 
       - Clique em **[!UICONTROL Search Adobe Stock]** e procure uma imagem.
 
       - Salve a imagem de visualização ou licenciada na galeria.
 
-        Consulte [Uso de imagens do Adobe Stock](adobe-stock-manage.md) para obter mais informações sobre como trabalhar com [Adobe Stock](https://stock.adobe.com) ativos.
+        Consulte [Usando Imagens do Adobe Stock](adobe-stock-manage.md) para obter mais informações sobre como trabalhar com ativos do [Adobe Stock](https://stock.adobe.com).
 
       - Selecione a miniatura do ativo na galeria e clique em **[!UICONTROL Add Selected]**.
 
@@ -69,6 +69,6 @@ No editor, é possível inserir uma imagem usando três tipos de origem:
 
 1. Insira a largura e a altura **[!UICONTROL Dimensions]**, em pixels, para renderizar a imagem na página.
 
-   Mantenha a **[!UICONTROL Constrain proportions]** selecionada para manter automaticamente a proporção da imagem.
+   Mantenha a caixa de seleção **[!UICONTROL Constrain proportions]** marcada para manter automaticamente a taxa de proporção da imagem.
 
 1. Clique em **[!UICONTROL Insert]** para concluir o processo.

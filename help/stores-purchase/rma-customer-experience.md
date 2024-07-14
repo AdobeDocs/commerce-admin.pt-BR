@@ -6,7 +6,7 @@ feature: Returns, Storefront
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -16,24 +16,24 @@ ht-degree: 1%
 
 Os clientes podem usar qualquer um dos itens a seguir para solicitar uma RMA da loja:
 
-- [Widget de pedidos e devoluções](../content-design/widget-orders-returns.md) na barra lateral
+- [Widget de Pedidos e Devoluções](../content-design/widget-orders-returns.md) na barra lateral
 - _Pedidos e Devoluções_ link no rodapé
 
 Como prática recomendada, inclua uma descrição dos requisitos e do processo de RMA na política de Atendimento ao cliente.
 
 >[!NOTE]
 >
->Se quiser coletar informações adicionais relacionadas a devoluções, você poderá adicionar suas próprias [retorna atributos](attributes-returns.md).
+>Se quiser coletar informações adicionais relacionadas a devoluções, você poderá adicionar seus próprios [atributos de devoluções](attributes-returns.md) personalizados.
 
-Todas as informações de RMA do cliente são exibidas na **[!UICONTROL My Returns]** no painel de conta do cliente.
+Todas as informações de RMA do cliente são exibidas na página **[!UICONTROL My Returns]** no painel de conta do cliente.
 
-![Meus Devoluções](./assets/my-returns-page.png){width="700" zoomable="yes"}
+![Meus Retornos](./assets/my-returns-page.png){width="700" zoomable="yes"}
 
 ## Solicitar uma RMA
 
 O cliente conclui as seguintes etapas na loja para enviar uma RMA:
 
-1. No rodapé, cliques **[!UICONTROL Orders and Returns]**.
+1. No rodapé, clique em **[!UICONTROL Orders and Returns]**.
 
 1. Insere as informações do pedido:
 
@@ -45,25 +45,25 @@ O cliente conclui as seguintes etapas na loja para enviar uma RMA:
 
    ![Pedidos e Devoluções](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
 
-1. Abaixo da data do pedido, cliques **[!UICONTROL Return]**.
+1. Abaixo da data do pedido, cliques em **[!UICONTROL Return]**.
 
    ![Detalhes do pedido](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
 
-1. Escolhe o item a ser devolvido e insere o **[!UICONTROL Quantity to Return]**.
+1. Escolhe o item a ser retornado e insere o **[!UICONTROL Quantity to Return]**.
 
-1. Conjuntos **[!UICONTROL Resolution]** a um dos seguintes:
+1. Define **[!UICONTROL Resolution]** para um dos seguintes:
 
    - Exchange
    - [Reembolso](../customers/refunds-customer-account.md)
    - [Crédito da loja](../customers/store-credit-using.md)
 
-1. Conjuntos **[!UICONTROL Item Condition]** a um dos seguintes:
+1. Define **[!UICONTROL Item Condition]** para um dos seguintes:
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. Conjuntos **[!UICONTROL Reason to Return]** a um dos seguintes:
+1. Define **[!UICONTROL Reason to Return]** para um dos seguintes:
 
    - `Wrong Color`
    - `Wrong Size`
@@ -76,6 +76,6 @@ O cliente conclui as seguintes etapas na loja para enviar uma RMA:
 
    >[!NOTE]
    >
-   >Se o pedido contiver vários itens e o cliente quiser devolver outro item, ele poderá clicar em **[!UICONTROL Add Item To Return]**, selecione o item e defina todas as opções mencionadas.
+   >Se o pedido contiver vários itens e o cliente quiser retornar outro, poderá clicar em **[!UICONTROL Add Item To Return]**, selecionar o item e definir todas as opções mencionadas.
 
 1. Cliques **[!UICONTROL Submit]**.

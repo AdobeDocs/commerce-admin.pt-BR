@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
-description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Promotions] página do Administrador do Commerce.
+description: Revise as configurações na página [!UICONTROL Customers] &gt; [!UICONTROL Promotions] do Administrador do Commerce.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![Regras de lembrete de email automatizado](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
+![Regras Automatizadas de Lembrete de Email](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
 
 <!-- [Automated Email Reminder Rules](https://docs.magento.com/user-guide/marketing/email-reminder-rules-configure.html) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enable Reminder Emails] | Global | Habilita lembretes de email automatizados. Se estiver definido como Não, as configurações restantes serão ignoradas. Opções: `Yes` / `No` |
-| [!UICONTROL Frequency] | Global | Indica a frequência com que o Commerce deve verificar se há novos clientes qualificados para os lembretes de email automatizados. Opções: <br/>**`Minute Intervals`**- Envia o email de acordo com o intervalo selecionado. (5 minutos, 10 minutos, 15 minutos, 20 minutos ou 30 minutos)<br/>**`Hourly`** - Envia emails a cada hora, no minuto após a hora especificada. Insira um valor entre 0-59. <br/>**`Daily`**- Envia emails diariamente, a partir da Hora de início. |
+| [!UICONTROL Frequency] | Global | Indica a frequência com que a Commerce deve verificar se há novos clientes qualificados para os lembretes de email automatizados. Opções: <br/>**`Minute Intervals`**- Envia o email de acordo com o intervalo selecionado. (5 minutos, 10 minutos, 15 minutos, 20 minutos ou 30 minutos)<br/>**`Hourly`** - Envia emails de hora em hora, no minuto após a hora especificada. Insira um valor entre 0-59. <br/>**`Daily`**- Envia emails diariamente, a partir da Hora de Início. |
 | [!UICONTROL Interval] | Global | O intervalo deve ser igual ou maior que o período de inicialização do cron.php. Opções: `5 minutes` / `10 minutes` / `15 minutes` / `20 minutes` / `30 minutes` |
 | [!UICONTROL Start Time] | Global | Define o dia, o minuto e o segundo em que o email é enviado. Especificado no formato de 24 horas, com base na hora do sistema no servidor. |
 | [!UICONTROL Maximum Emails per One Run] | Global | Limita o número de emails enviados em um bloco agendado. |
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
-![Códigos de cupom específicos gerados automaticamente](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
+![Códigos de Cupom Específicos Gerados Automaticamente](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
 
 <!-- [Auto Generated Specific Coupon Codes](https://docs.magento.com/user-guide/marketing/price-rules-cart-coupon-code-configure.md  -->
 
@@ -46,6 +46,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | Global | Define o formato do código do cupom. As opções incluem: <br/>**`Alphanumeric`**- Qualquer combinação de letras e números.<br/>**`Alphabetical`** - Somente letras. <br/>**`Numeric`**- Somente números. |
 | [!UICONTROL Code Prefix] | Global | Um valor que é anexado ao início de todos os códigos de cupom. Se não quiser usar um prefixo, deixe o campo em branco. |
 | [!UICONTROL Code Suffix] | Global | Um valor que é anexado ao final de todos os códigos. Se não quiser usar um sufixo, deixe o campo em branco. |
-| [!UICONTROL Dash Every X Characters] | Global | O intervalo para inserir um traço (-) em todos os códigos de cupom. Se não quiser usar um traço, deixe o campo em branco. <br/>_**Nota:**_ Os códigos de cupom que diferem somente por um traço são considerados códigos diferentes. |
+| [!UICONTROL Dash Every X Characters] | Global | O intervalo para inserir um traço (-) em todos os códigos de cupom. Se não quiser usar um traço, deixe o campo em branco. <br/>_**Observação:**_ códigos de cupom que diferem somente por um traço são considerados códigos diferentes. |
 
 {style="table-layout:auto"}

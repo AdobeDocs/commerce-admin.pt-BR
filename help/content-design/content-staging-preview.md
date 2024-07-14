@@ -18,14 +18,14 @@ Qualquer dia ou período durante uma campanha pode ser visualizado e compartilha
 
 1. Use um destes métodos para abrir uma janela de pré-visualização:
 
-   - _No painel Preparo de conteúdo_
+   - _No Painel de Preparo de Conteúdo_
 
-      - No _Admin_ barra lateral, vá para  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
-      - Clique em qualquer item na página e clique em **[!UICONTROL Preview]** nas informações de resumo exibidas para a campanha.
+      - Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+      - Clique em qualquer item da página e, em seguida, clique em **[!UICONTROL Preview]** nas informações resumidas exibidas para a campanha.
 
-   - _De qualquer página com alterações programadas_
+   - _De qualquer página com alterações agendadas_
 
-      - Abra qualquer página com um _[!UICONTROL Scheduled Changes]_na parte superior.
+      - Abra qualquer página com uma caixa _[!UICONTROL Scheduled Changes]_na parte superior.
       - Clique em **[!UICONTROL Preview]**.
 
    A visualização é aberta em uma nova guia do navegador e mostra como o produto aparece durante a campanha agendada.
@@ -36,7 +36,7 @@ Qualquer dia ou período durante uma campanha pode ser visualizado e compartilha
 
 1. Visualizar um dia ou horário específico:
 
-   - Clique em **[!UICONTROL Date & Time]** calendário (![Ícone de calendário](../assets/icon-calendar.png){width="10" zoomable="no"}).
+   - Clique no calendário **[!UICONTROL Date & Time]** (![Ícone de calendário](../assets/icon-calendar.png){width="10" zoomable="no"}).
 
    - Escolha uma data e/ou hora diferente.
 
@@ -50,7 +50,7 @@ Qualquer dia ou período durante uma campanha pode ser visualizado e compartilha
 
    >[!NOTE]
    >
-   >As visualizações sempre começam no **padrão** visualização de loja que emula a experiência de navegação do cliente pela campanha. Campanhas de estágio único podem incluir alterações que afetam várias exibições de loja e sites. Certifique-se de que essas exibições/sites exibam a campanha corretamente.
+   >As visualizações sempre começam no modo de exibição de repositório **padrão**, que emula a experiência do cliente de navegar pela campanha. Campanhas de estágio único podem incluir alterações que afetam várias exibições de loja e sites. Certifique-se de que essas exibições/sites exibam a campanha corretamente.
 
 1. Compartilhar um link para a visualização:
 
@@ -60,6 +60,6 @@ Qualquer dia ou período durante uma campanha pode ser visualizado e compartilha
 
      >[!NOTE]
      >
-     >É necessário ter uma conta de usuário Administrador para ter uma visualização compartilhada. Se você tiver permissão para [criar uma conta de usuário Admin](../systems/permissions-users-all.md#create-a-user), você deve criar a conta para um novo usuário antes do compartilhamento.
+     >É necessário ter uma conta de usuário Administrador para ter uma visualização compartilhada. Se você tiver permissão para [criar uma conta de usuário Administrador](../systems/permissions-users-all.md#create-a-user), deverá criar a conta para um novo usuário antes do compartilhamento.
 
-1. Para retornar ao calendário da campanha, clique em **[!UICONTROL Calendar]** no cabeçalho da página Visualizar.
+1. Para retornar ao calendário da campanha, clique em **[!UICONTROL Calendar]** no cabeçalho da página de Visualização.

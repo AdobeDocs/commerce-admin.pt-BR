@@ -1,6 +1,6 @@
 ---
 user-guide-title: Guia de introdução ao Adobe Commerce
-user-guide-description: Se você é novo no Adobe Commerce ou no Magento Open Source, descubra recursos do [!DNL Commerce] , siga a jornada do cliente para explorar sua loja e saiba mais sobre os principais recursos.
+user-guide-description: Se você é novo no Adobe Commerce ou no Magento Open Source, descubra recursos do  [!DNL Commerce] ecossistema, siga a jornada do cliente para explorar sua loja e saiba mais sobre os principais recursos.
 breadcrumb-title: Introdução
 role: Admin, Leader, User
 feature: Admin Workspace
@@ -34,7 +34,7 @@ ht-degree: 1%
       + [Conformidade com o PCI](compliance-pci.md)
       + [Diretiva relativa aos serviços de pagamento](compliance-payment-services-directive.md)
    + [Acessibilidade](navigation-accessibility.md)
-+ O administrador {#admin}
++ O Administrador {#admin}
    + [O que é o administrador?](admin.md)
    + [Sua conta de usuário Admin](admin-signin.md)
    + Integração do Adobe Identity Management Service (IMS) {#ims}
@@ -61,7 +61,7 @@ ht-degree: 1%
    + [Detalhes da loja](store-details.md)
    + [Marca da loja](storefront-branding.md)
    + [Lista de verificação do Pré-lançamento](prelaunch-checklist.md)
-+ Relatórios padrão  {#reporting}
++ Relatório padrão {#reporting}
    + [Menu Relatórios](reports-menu.md)
    + [Relatórios de marketing](marketing-reports.md)
    + [Revisar relatórios](review-reports.md)
@@ -69,11 +69,11 @@ ht-degree: 1%
    + [Relatórios de cliente](customer-reports.md)
    + [Relatórios de produto](product-reports.md)
    + [Relatórios de vendas privadas](private-sales-reports.md)
-   + [Ferramentas de inteligência do Commerce](business-intelligence.md)
+   + [Ferramentas do Commerce Intelligence](business-intelligence.md)
    + [Relatórios do New Relic](new-relic-reporting.md)
 + Recursos {#resources}
    + [Ecossistema](resources.md)
    + [Extensões](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Retornar aos Guias do comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do Comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

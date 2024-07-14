@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Trilhas da navegação estrutural
 
-A _caminho da navegação estrutural_ é um conjunto de links que mostra ao cliente onde eles estão em relação a outras páginas na loja. Eles podem clicar em qualquer link na trilha de navegação estrutural para retornar à página anterior.
+Uma _trilha de navegação estrutural_ é um conjunto de links que mostra ao cliente onde eles estão em relação a outras páginas na loja. Eles podem clicar em qualquer link na trilha de navegação estrutural para retornar à página anterior.
 
 A trilha de navegação estrutural pode ser configurada para aparecer nas páginas de conteúdo e nas páginas do catálogo. O formato e a posição da trilha de navegação estrutural variam de acordo com o tema, mas normalmente ficam logo abaixo do cabeçalho. Por padrão, a trilha de navegação estrutural aparece nas páginas CMS.
 
@@ -46,20 +46,20 @@ Exemplo: `Home > Suits > All Suits > Refined by > Slim Fit`
 
 ## Adicionar/Remover as navegações estruturais das páginas CMS
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, em _[!UICONTROL General]_, escolha **[!UICONTROL Web]**.
 
    ![Mostrar navegações estruturais para páginas CMS](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. Expanda a _[!UICONTROL Default Pages]_seção.
+1. Expanda a seção _[!UICONTROL Default Pages]_.
 
-1. Desmarque a opção **[!UICONTROL Use system value]** caixa de seleção
+1. Desmarque a caixa de seleção **[!UICONTROL Use system value]**.
 
-1. Definir **[!UICONTROL Show Breadcrumbs for CMS Pages]** para `No` ou `Yes`.
+1. Defina **[!UICONTROL Show Breadcrumbs for CMS Pages]** como `No` ou `Yes`.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
 >[!NOTE]
 >
->A categoria principal não é exibida na Trilha da navegação estrutural, na página de categoria secundária, quando ela tiver `Browsing Category`= `Deny` [permissão de categoria](category-permissions.md) configurações.
+>A categoria principal não é exibida na Trilha da Navegação Estrutural, na página de categoria secundária, quando tem configurações de `Browsing Category`= `Deny` [permissão de categoria](category-permissions.md).

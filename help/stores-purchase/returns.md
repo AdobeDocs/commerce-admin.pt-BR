@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Devoluções
 
-A _autorização de mercadoria devolvida_ (RMA) pode ser concedido a clientes que solicitarem a devolução de um item para substituição ou reembolso. Normalmente, o cliente entra em contato com o comerciante para solicitar um reembolso. Se aprovado, um número de RMA exclusivo é atribuído para identificar o produto devolvido. Na configuração, você pode ativar a RMA para todos os produtos ou permitir a RMA apenas para determinados produtos. A variável _[!UICONTROL Returns]_A grade lista as solicitações de merchandise (RMAs) retornadas atuais e é usada para inserir novas solicitações de devolução.
+Uma _autorização de mercadoria devolvida_ (RMA) pode ser concedida a clientes que solicitam a devolução de um item para substituição ou reembolso. Normalmente, o cliente entra em contato com o comerciante para solicitar um reembolso. Se aprovado, um número de RMA exclusivo é atribuído para identificar o produto devolvido. Na configuração, você pode ativar a RMA para todos os produtos ou permitir a RMA apenas para determinados produtos. A grade _[!UICONTROL Returns]_lista as solicitações de merchandise (RMAs) retornadas no momento e é usada para inserir novas solicitações de devolução.
 
 ![Retorna a grade](./assets/return.png){width="600" zoomable="yes"}
 
@@ -29,17 +29,17 @@ As RMAs podem ser emitidas para tipos de produtos simples, agrupados, configurá
 | [!UICONTROL Ordered] | A data e a hora em que o pedido foi feito |
 | [!UICONTROL Customer] | O nome do cliente ou comprador que colocou a ordem |
 | [!UICONTROL Status] | Status de retorno. Opções: `Pending` / `Authorized` / `Partially Authorized` / `Approved` / `Rejected` / `Processed and Closed` / `Closed` |
-| [!UICONTROL Action] | **[!UICONTROL View]** abre a devolução no modo de edição. |
+| [!UICONTROL Action] | **[!UICONTROL View]** abre o retorno no modo de edição. |
 
 {style="table-layout:auto"}
 
 ## RMA e workflow de devolução
 
-1. **Receber solicitação** - Se [habilitado](rma-configure.md#enable-rmas-for-your-store) para a loja, os clientes registrados e os convidados podem solicitar uma RMA. Também é possível [enviar uma solicitação de RMA no Administrador](#create-a-return-request-in-the-admin).
+1. **Receber solicitação** - Se [estiver habilitado](rma-configure.md#enable-rmas-for-your-store) para a loja, os clientes registrados e os convidados poderão solicitar um RMA. Você também pode [enviar uma solicitação de RMA no Administrador](#create-a-return-request-in-the-admin).
 
 2. **RMA emitida** - Depois de considerar a solicitação, você pode autorizá-la parcial ou completamente ou cancelar a solicitação. Se você autorizar a devolução e concordar em pagar pela remessa de devolução, poderá criar uma ordem de remessa do Administrador com uma transportadora suportada.
 
-3. **Merchandise recebida e devolução do produto processada** - O fluxograma a seguir descreve a ordem operacional para concluir o processo de devolução:
+3. **Merchandise recebida e devolução de produto processada** - O fluxograma a seguir descreve a ordem operacional para concluir o processo de devolução:
 
    ![Fluxo de trabalho de devolução de produtos](./assets/workflow-customer-returns.png){width="500"}
 
@@ -64,38 +64,38 @@ Durante seu ciclo de vida, uma autorização de mercadoria retornada (RMA) pode 
 
 ## Criar uma solicitação de retorno no Administrador
 
-Um comerciante pode criar uma solicitação de devolução em nome do cliente do Administrador. Os clientes podem [criar uma solicitação de devolução](rma-customer-experience.md) na loja de uma loja da Adobe Commerce.
+Um comerciante pode criar uma solicitação de devolução em nome do cliente do Administrador. Os clientes podem [criar uma solicitação de retorno](rma-customer-experience.md) na vitrine de uma loja da Adobe Commerce.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
 
 1. Clique em **[!UICONTROL New Return Request]**.
 
-1. Para criar uma solicitação de devolução, clique em um pedido com uma `Complete` status.
+1. Para criar uma solicitação de devolução, clique em um pedido com status `Complete`.
 
-1. No _[!UICONTROL Return Information]_, selecione a **[!UICONTROL Return Items]**guia.
+1. Na seção _[!UICONTROL Return Information]_, selecione a guia **[!UICONTROL Return Items]**.
 
 1. Para adicionar itens para retornar, clique em **[!UICONTROL Add Items]**.
 
-1. Marque a caixa de seleção do produto desejado e clique em **[!UICONTROL Add Selected Product to returns]**.
+1. Marque a caixa de seleção do produto necessário e clique em **[!UICONTROL Add Selected Product to returns]**.
 
 1. Para **[!UICONTROL Requested]**, insira o número de itens a serem retornados.
 
-1. Definir **[!UICONTROL Return Reason]** a um dos seguintes:
+1. Defina **[!UICONTROL Return Reason]** como um dos seguintes:
 
    - `Wrong Color`
    - `Wrong Size`
    - `Out of Service`
    - `Other`
 
-   Se o motivo da devolução for diferente das opções listadas, você poderá informar suas próprias opções se selecionar a opção `Other` opção.
+   Se o motivo da devolução for diferente das opções listadas, você poderá inserir sua própria opção `Other`.
 
-1. Definir **[!UICONTROL Item Condition]** a um dos seguintes:
+1. Defina **[!UICONTROL Item Condition]** como um dos seguintes:
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. Definir **[!UICONTROL Resolution]** a um dos seguintes:
+1. Defina **[!UICONTROL Resolution]** como um dos seguintes:
 
    - `Exchange`
    - `Refund`
@@ -103,6 +103,6 @@ Um comerciante pode criar uma solicitação de devolução em nome do cliente do
 
 1. Para criar um retorno, clique em **[!UICONTROL Submit Returns]**.
 
-   ![Itens de RMA Solicitados](./assets/return-item-request.png){width="600" zoomable="yes"}
+   ![Itens de RMA solicitados](./assets/return-item-request.png){width="600" zoomable="yes"}
 
-   A solicitação RMA recém-enviada aparece na **[!UICONTROL Returns]** página com um `Pending` status.
+   A solicitação RMA recém-enviada aparece na página **[!UICONTROL Returns]** com um status `Pending`.

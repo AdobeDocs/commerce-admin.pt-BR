@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # Avaliações de produto moderadas
 
-Para revisões de produtos do Commerce, uma revisão de produto enviada deve ser aprovada para que possa ser exibida. Isso garante que as análises sejam apropriadas para exibição pública em sua loja. Uma revisão enviada está em uma `Pending` até ser aprovado ou rejeitado.
+Para revisões de produtos do Commerce, uma revisão de produto enviada deve ser aprovada para que possa ser exibida. Isso garante que as análises sejam apropriadas para exibição pública em sua loja. Uma revisão enviada estará com o status `Pending` até ser aprovada ou rejeitada.
 
 ## Exibir análises do produto no Administrador
 
 Para exibir todas as revisões de um produto específico no Administrador, faça o seguinte:
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Localize o produto que deseja exibir e clique em **[!UICONTROL Edit]** no _[!UICONTROL Action]_coluna.
+1. Encontre o produto que deseja exibir e clique em **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
-1. Na página do produto, role para baixo e expanda ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Product Reviews]** seção.
+1. Na página do produto, role para baixo e expanda ![Seletor de expansão](../assets/icon-display-expand.png) na seção **[!UICONTROL Product Reviews]**.
 
-   Nessa grade, também é possível alterar a revisão específica clicando no **[!UICONTROL Edit]** no _[!UICONTROL Action]_coluna.
+   Nesta grade, você também pode alterar a revisão específica clicando no link **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
 ## Atualizar status para revisões
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**ou **[!UICONTROL All Reviews]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**ou **[!UICONTROL All Reviews]**.
 
 1. Na lista, clique em uma revisão pendente para exibir os detalhes e editar, se necessário.
 
@@ -36,17 +36,17 @@ Para exibir todas as revisões de um produto específico no Administrador, faça
 
    - Para aprovar uma revisão pendente, selecione `Approved`.
 
-   - Para rejeitar uma revisão, selecione `Not Approved`. As revisões não aprovadas desaparecem da lista de _[!UICONTROL Pending Reviews]_página.
+   - Para rejeitar uma revisão, selecione `Not Approved`. Revisões não aprovadas desaparecem da lista de _[!UICONTROL Pending Reviews]_página.
 
    >[!NOTE]
    >
-   >Análises com a `Pending` e `Not Approved` Os status não são exibidos na loja.
+   >Revisões com os status `Pending` e `Not Approved` não são exibidas na loja.
 
-1. Se aplicável, defina o **[!UICONTROL Visibility]** de uma análise de produto por aparecer em diferentes visualizações da loja.
+1. Se aplicável, defina o **[!UICONTROL Visibility]** de uma análise do produto para aparecer em diferentes visualizações da loja.
 
-1. Se necessário, altere os valores de **[!UICONTROL Detailed Rating]**, **[!UICONTROL Nickname]**, e **[!UICONTROL Summary of Review]**.
+1. Se necessário, altere os valores de **[!UICONTROL Detailed Rating]**, **[!UICONTROL Nickname]** e **[!UICONTROL Summary of Review]**.
 
-   Para alterar a exibição da loja onde há uma revisão disponível, escolha a exibição da loja necessária na _[!UICONTROL Visibility]_coluna.
+   Para alterar a exibição de loja onde há uma revisão disponível, escolha a exibição de loja necessária na coluna _[!UICONTROL Visibility]_.
 
    ![Editar página de revisão](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
@@ -56,21 +56,21 @@ Para exibir todas as revisões de um produto específico no Administrador, faça
 
 É possível atualizar ou excluir várias revisões ao mesmo tempo:
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
 
 1. Selecione as revisões que deseja atualizar.
 
-1. Use o _[!UICONTROL Action]_no canto superior esquerdo para aplicar uma ação.
+1. Use o seletor _[!UICONTROL Action]_no canto superior esquerdo para aplicar uma ação.
 
 1. Clique em **[!UICONTROL Submit]**
 
 ## Excluir uma análise de produto
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
 
 1. Localize a análise de produto a ser excluída e abra-a no modo de edição.
 
-1. Na barra de menus, clique em **[!UICONTROL Delete Review]** botão.
+1. Na barra de menus, clique no botão **[!UICONTROL Delete Review]**.
 
 1. Para confirmar a ação, clique em **[!UICONTROL OK]**.
 

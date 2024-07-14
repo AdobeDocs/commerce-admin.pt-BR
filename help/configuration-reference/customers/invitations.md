@@ -1,12 +1,12 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
-description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Invitations] página do Administrador do Commerce.
+description: Revise as configurações na página [!UICONTROL Customers] &gt; [!UICONTROL Invitations] do Administrador do Commerce.
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable Invitations Functionality] | Global | Determina se o módulo Convites está habilitado. Opções: `Yes` / `No` |
 | [!UICONTROL Enable Invitations on Frontend] | Site | Determina se os convites podem ser gerenciados na loja. Opções: `Yes` / `No` |
-| [!UICONTROL Referred Customer Group] | Exibição da loja | Determina o grupo de clientes do convite. Opções: <br/>**`Same as Inviter`**- Os convidados são atribuídos automaticamente ao mesmo grupo de clientes que os clientes que os convidaram.<br/>**`Default Customer Group from Configuration`** - Convidados têm automaticamente o padrão [grupo de clientes](../../customers/customer-groups.md). |
-| [!UICONTROL New Accounts Registration] | Exibição da loja | Determina como os convidados podem criar uma conta. Opções: <br/>**`By Invitation Only`**- Os convidados devem seguir o link no email de convite para criar uma conta.<br/>**`Available to All`** - Os convidados podem usar o formulário de registro de conta disponível na loja. |
+| [!UICONTROL Referred Customer Group] | Exibição da loja | Determina o grupo de clientes do convite. Opções: <br/>**`Same as Inviter`**- Os convidados são atribuídos automaticamente ao mesmo grupo de clientes que os clientes que os convidaram.<br/>**`Default Customer Group from Configuration`** - Os convidados têm automaticamente o [grupo de clientes](../../customers/customer-groups.md) padrão. |
+| [!UICONTROL New Accounts Registration] | Exibição da loja | Determina como os convidados podem criar uma conta. Opções: <br/>**`By Invitation Only`**- Os convidados devem seguir o link no email de convite para criar uma conta.<br/>**`Available to All`** - Os convidados podem usar o formulário de registro de conta disponível no armazenamento. |
 | [!UICONTROL Allow Customers to Add Custom Message to Invitation Email] | Exibição da loja | Determina se há um campo no formulário Convite no qual o emissor do convite pode adicionar uma mensagem personalizada enviada ao convidado por email. Isso não afeta a capacidade do administrador de adicionar uma mensagem a um Convite. Opções: `Yes` / `No`. |
 | [!UICONTROL Max Invitations Allowed to be Sent at One Time] | Exibição da loja | Determina o número máximo de convites que o emissor do convite pode enviar simultaneamente. Um convite diferente é enviado para cada endereço de email que o emissor do convite inclui no formulário. Isso protege os recursos do servidor, impedindo que um grande número de convites seja enviado de uma só vez, e torna menos provável que os convites sejam enviados como spam. |
 

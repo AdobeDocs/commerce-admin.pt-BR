@@ -6,19 +6,19 @@ feature: CMS, Media
 source-git-commit: d3b9b4cd0d12f8d5feb2bad0bf601970f9ee1a36
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Salvar uma visualização de imagem do Adobe Stock
 
-Uma visualização de imagem é uma versão com marca d&#39;água de um ativo do Adobe Stock. As visualizações de imagem são gratuitas e são uma boa maneira de experimentar imagens diferentes antes de decidir [adquirir uma licença][stock-license] para imagens específicas e use-as em suas lojas de produção.
+Uma visualização de imagem é uma versão com marca d&#39;água de um ativo do Adobe Stock. As visualizações de imagem são gratuitas e são uma boa maneira de experimentar imagens diferentes antes de [comprar uma licença][stock-license] para imagens específicas e usá-las em suas lojas de produção.
 
-Quando estiver pronto para licenciar uma imagem, o novo [[!DNL Media Gallery]](media-gallery.md) O fornece uma integração direta com o Adobe Stock, facilitando o licenciamento da imagem diretamente da página da galeria.
+Quando você estiver pronto para licenciar uma imagem, o novo [[!DNL Media Gallery]](media-gallery.md) fornecerá uma integração direta com o Adobe Stock, facilitando o licenciamento da imagem diretamente da página da galeria.
 
 ## Pré-requisitos
 
-Esse recurso exige o [Integração do Adobe Stock][adobe-stock-integration] módulo e configuração.
+Este recurso requer o módulo e a configuração da [Integração do Adobe Stock][adobe-stock-integration].
 
 ## Salvar uma imagem de visualização
 
@@ -28,7 +28,7 @@ Esse recurso exige o [Integração do Adobe Stock][adobe-stock-integration] mód
 
 1. Clique em **[!UICONTROL Save Preview]**.
 
-   Essa ação exibe um prompt para que você especifique um nome de arquivo que seja usado para salvar a imagem na [armazenamento de mídia][media-storage]. Um nome de arquivo padrão é fornecido, mas você pode personalizar o nome de acordo com suas preferências.
+   Esta ação exibe um prompt para que você especifique um nome de arquivo que seja usado para salvar a imagem no [armazenamento de mídia][media-storage]. Um nome de arquivo padrão é fornecido, mas você pode personalizar o nome de acordo com suas preferências.
 
    ![Salvar imagem de visualização do Adobe Stock](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
 

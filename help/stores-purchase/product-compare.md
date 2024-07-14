@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Comparar produtos
 
-Comparar produtos gera uma comparação detalhada, lado a lado, de dois ou mais produtos. Dependendo do tema, o link Adicionar para Comparar pode ser representado por um ícone ou texto. A variável _Comparar produtos_ normalmente aparece na barra lateral esquerda ou direita de uma página de catálogo.
+Comparar produtos gera uma comparação detalhada, lado a lado, de dois ou mais produtos. Dependendo do tema, o link Adicionar para Comparar pode ser representado por um ícone ou texto. O bloco _Comparar Produtos_ geralmente aparece na barra lateral esquerda ou direita de uma página de catálogo.
 
 ![Exemplo de vitrine - lista de comparação](./assets/storefront-comparison-list.png){width="700" zoomable="yes"}
 
-Ao contrário do [Produtos visualizados/comparados recentemente](products-viewed-compared.md) , o Administrador não inclui configurações adicionais para Comparar produtos.
+Ao contrário do bloco [Produtos visualizados/comparados recentemente](products-viewed-compared.md), o Administrador não inclui configurações adicionais para Comparar produtos.
 
 ## Comparar produtos na loja
 
@@ -28,9 +28,9 @@ Há algumas maneiras de usar a lista de comparação na loja.
 
 1. Navega até uma página de categoria associada.
 
-   Dependendo do tema e do layout da página, pode haver uma _Comparar produtos_ na barra lateral. Em caso afirmativo, os itens na categoria marcados para comparação são listados.
+   Dependendo do tema e do layout da página, pode haver um bloco _Comparar Produtos_ na barra lateral. Em caso afirmativo, os itens na categoria marcados para comparação são listados.
 
-   O cliente pode clicar em _Excluir_ ( ![Ícone Excluir](../assets/icon-delete-x.png) ) de qualquer produto para removê-lo do relatório de comparação ou clique em **[!UICONTROL Clear All]** para remover todos os itens e começar novamente com suas seleções de comparação.
+   O cliente pode clicar em _Excluir_ ( ![Ícone Excluir](../assets/icon-delete-x.png) ) de qualquer produto para removê-lo do relatório de comparação ou clicar em **[!UICONTROL Clear All]** para remover todos os itens e começar novamente com suas seleções de comparação.
 
 1. Cliques **[!UICONTROL Compare]**.
 
@@ -42,19 +42,19 @@ Há algumas maneiras de usar a lista de comparação na loja.
 
 1. Depois que um cliente adiciona um produto a uma lista de comparação, a página exibe uma mensagem de notificação.
 
-1. Na notificação da mensagem principal exibida, clique na guia _lista de comparação_ link.
+1. Na notificação da mensagem principal exibida, clique no link _lista de comparação_.
 
-   ![Notificação de comparação de produtos](./assets/notification-comparison-list.png){width="700" zoomable="yes"}
+   ![Comparar Notificação de Produtos](./assets/notification-comparison-list.png){width="700" zoomable="yes"}
 
 Essa ação redireciona o cliente para a lista de comparação, onde ele pode acessar ações adicionais.
 
-### No _Comparar produtos_ bloco
+### No bloco _Comparar Produtos_
 
 1. O cliente encontra os produtos que deseja comparar e clica no link **[!UICONTROL Add to Compare]** para cada um.
 
-1. No cabeçalho próximo ao campo de pesquisa, clique no botão _Comparar produtos_ link.
+1. No cabeçalho próximo ao campo de pesquisa, clique no link _Comparar produtos_.
 
-   ![Comparar cabeçalho de produtos](./assets/compare-products-header.png){width="700" zoomable="yes"}
+   ![Comparar Cabeçalho de Produtos](./assets/compare-products-header.png){width="700" zoomable="yes"}
 
 ### No painel Minha conta
 
@@ -62,9 +62,9 @@ Essa ação redireciona o cliente para a lista de comparação, onde ele pode ac
 
 1. Navega até **[!UICONTROL My Account]**.
 
-1. No _Comparar produtos_ bloco, cliques **[!UICONTROL Compare]**.
+1. No bloco _Comparar Produtos_, clique em **[!UICONTROL Compare]**.
 
-   ![Comparar bloco Produtos no painel de conta do cliente](./assets/my-account-compare-block.png){width="700" zoomable="yes"}
+   ![Comparar bloco de produtos no painel de conta do cliente](./assets/my-account-compare-block.png){width="700" zoomable="yes"}
 
 ## Ações adicionais da lista de comparação
 

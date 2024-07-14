@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Boletins informativos e assinaturas
 
-A publicação de um boletim informativo regular é considerada uma das ferramentas de marketing mais eficientes e acessíveis disponíveis. O Commerce oferece a capacidade de publicar e distribuir informativos para clientes que assinaram, além de ferramentas para produzir seu informativo, criar e gerenciar sua lista de assinantes, desenvolver conteúdo e direcionar tráfego para sua loja. Também é possível usar [hierarquia de página](../content-design/page-hierarchy.md) para criar um arquivo de problemas anteriores.
+A publicação de um boletim informativo regular é considerada uma das ferramentas de marketing mais eficientes e acessíveis disponíveis. O Commerce oferece a capacidade de publicar e distribuir informativos para clientes que assinaram, além de ferramentas para produzir seu informativo, criar e gerenciar sua lista de assinantes, desenvolver conteúdo e direcionar tráfego para sua loja. Você também pode usar a [hierarquia de páginas](../content-design/page-hierarchy.md) para criar um arquivo morto de problemas anteriores.
 
 >[!NOTE]
 >
@@ -22,27 +22,27 @@ A primeira etapa na criação de informativos é definir as configurações do i
 
 ## Ativar informativos
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Customers]** e escolha **[!UICONTROL Newsletter]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL General Options]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL General Options]**.
 
-1. Para habilitar informativos para o escopo de exibição de loja, defina **[!UICONTROL Enabled]** para `Yes`.
+1. Para habilitar informativos para o escopo de exibição de armazenamento, defina **[!UICONTROL Enabled]** como `Yes`.
 
-Depois de ativar a função de boletim informativo, a variável _[!UICONTROL Subscription Options]_é exibida.
+Depois de habilitar a função de boletim informativo, a seção _[!UICONTROL Subscription Options]_é exibida.
 
 ## Configurar as opções de assinatura
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Customers]** e escolha **[!UICONTROL Newsletter]**.
 
-1. Se necessário, [alterar o escopo de configuração](../getting-started/websites-stores-views.md#scope-settings) para aplicar as alterações de configuração do boletim informativo a uma exibição específica de site/loja.
+1. Se necessário, [altere o escopo de configuração](../getting-started/websites-stores-views.md#scope-settings) para aplicar as alterações de configuração do boletim informativo a uma exibição específica de site/loja.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Subscription Options]** e faça o seguinte:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Subscription Options]** e faça o seguinte:
 
-   ![Configuração dos clientes - assinaturas de boletim informativo](../configuration-reference/customers/assets/newsletter-subscription-options.png){width="600" zoomable="yes"}
+   ![Configuração de clientes - assinaturas de boletim informativo](../configuration-reference/customers/assets/newsletter-subscription-options.png){width="600" zoomable="yes"}
 
    - Confirme o modelo de email e o remetente de cada uma das seguintes mensagens de email enviadas aos assinantes:
 
@@ -50,8 +50,8 @@ Depois de ativar a função de boletim informativo, a variável _[!UICONTROL Sub
       - [!UICONTROL Confirmation email]
       - [!UICONTROL Unsubscribe email]
 
-   - Para usar o processo de aceitação dupla para confirmar assinaturas, defina **[!UICONTROL Need to Confirm]** para `Yes`.
+   - Para usar o processo de aceitação dupla para confirmar assinaturas, defina **[!UICONTROL Need to Confirm]** como `Yes`.
 
-   - Para permitir que as pessoas que não têm uma conta na sua loja assinem o informativo, defina **[!UICONTROL Allow Guest Subscription]** para `Yes`.
+   - Para permitir que as pessoas que não têm uma conta no seu armazenamento assinem o informativo, defina **[!UICONTROL Allow Guest Subscription]** como `Yes`.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.

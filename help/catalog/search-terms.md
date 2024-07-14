@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Gerenciar termos de pesquisa
 
-A variável [landing page](../content-design/pages.md) para um termo de pesquisa pode ser uma página de conteúdo, uma página de categoria, uma página de detalhes do produto ou até mesmo uma página em um site diferente.
+A [página de aterrissagem](../content-design/pages.md) de um termo de pesquisa pode ser uma página de conteúdo, uma página de categoria, uma página de detalhes do produto ou até mesmo uma página em um site diferente.
 
-Use os termos de pesquisa para capturar erros ortográficos comuns e redirecioná-los para a página apropriada. Por exemplo, se você vender móveis de pátio de ferro forjado, você sabe que muitas pessoas escrevem incorretamente o termo como _barra de ferro_, ou até mesmo _ferro fundido_. Você pode inserir cada palavra com erro ortográfico como um termo de pesquisa e torná-las sinônimas para _ferro forjado_. Mesmo que a palavra esteja incorreta, a busca é direcionada à página do ferro forjado.
+Use os termos de pesquisa para capturar erros ortográficos comuns e redirecioná-los para a página apropriada. Por exemplo, se você vende móveis de pátio de ferro forjado, você sabe que muitas pessoas escrevem incorretamente o termo como _ferro de haste_, ou até mesmo _ferro de podridão_. Você pode inserir cada palavra com erro ortográfico como um termo de pesquisa e torná-las sinônimas para _ferro forjado_. Mesmo que a palavra esteja incorreta, a busca é direcionada à página do ferro forjado.
 
 Você também pode saber o que seus clientes estão procurando examinando os termos de pesquisa que eles usam para encontrar produtos em sua loja. Se um número suficiente de pessoas procurar um produto que não esteja em seu catálogo, isso pode indicar uma oportunidade de vendas. Enquanto isso, em vez de deixá-los vazios, você pode redirecioná-los para outro produto no catálogo.
 
@@ -42,25 +42,25 @@ Você também pode saber o que seus clientes estão procurando examinando os ter
 
 ### Adicionar um termo de pesquisa
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**.
 
 1. Clique em **[!UICONTROL Add New Search Term]**.
 
-   ![Informações gerais sobre os termos de pesquisa](./assets/search-terms-information.png){width="600" zoomable="yes"}
+   ![Pesquisar informações gerais sobre termos](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. Em _[!UICONTROL General Information]_no **[!UICONTROL Search Query]**digite a palavra ou frase que deseja adicionar como um novo termo de pesquisa.
+1. Em _[!UICONTROL General Information]_, na caixa **[!UICONTROL Search Query]**, digite a palavra ou frase que deseja adicionar como um novo termo de pesquisa.
 
-1. Se a loja estiver disponível em vários idiomas, escolha o **[!UICONTROL Store]** exibição.
+1. Se sua loja estiver disponível em vários idiomas, escolha a exibição **[!UICONTROL Store]** aplicável.
 
-1. Para redirecionar os resultados da pesquisa para outra página na loja ou para outro site, insira o URL completo da página de destino na **[!UICONTROL Redirect URL]** campo.
+1. Para redirecionar os resultados da pesquisa para outra página na sua loja ou para outro site, insira a URL completa da página de destino no campo **[!UICONTROL Redirect URL]**.
 
-1. Se quiser que esse termo esteja disponível para uso como sugestão sempre que uma pesquisa não retornar resultados, defina **[!UICONTROL Display in Suggested Terms]** para `Yes`.
+1. Se você quiser que este termo esteja disponível para uso como sugestão sempre que uma pesquisa não retornar resultados, defina **[!UICONTROL Display in Suggested Terms]** como `Yes`.
 
 1. Quando terminar, clique em **[!UICONTROL Save Search]**.
 
 ## Editar um termo de pesquisa
 
-1. No _[!UICONTROL Search Terms]_clique na linha de qualquer registro para abrir o termo de pesquisa no modo de edição.
+1. Na grade _[!UICONTROL Search Terms]_, clique na linha de qualquer registro para abrir o termo de pesquisa no modo de edição.
 
 1. Faça as alterações necessárias.
 
@@ -70,17 +70,17 @@ Você também pode saber o que seus clientes estão procurando examinando os ter
 
 Há dois métodos para excluir um termo de pesquisa — da grade e na página de edição.
 
-**Método 1:** No _[!UICONTROL Search Terms]_grade
+**Método 1:** na grade _[!UICONTROL Search Terms]_
 
 1. Na lista, marque a caixa de seleção do termo a ser excluído.
 
-1. No canto superior esquerdo da lista, defina **[!UICONTROL Actions]** para `Delete`.
+1. No canto superior esquerdo da lista, defina **[!UICONTROL Actions]** como `Delete`.
 
 1. Quando terminar, clique em **[!UICONTROL Submit]**.
 
-**Método 2:** No _[!UICONTROL Edit a Search Term]_página
+**Método 2:** na página _[!UICONTROL Edit a Search Term]_
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**.
 
 1. Localize o termo de pesquisa a ser excluído e abra-o no modo de edição.
 
@@ -90,66 +90,66 @@ Há dois métodos para excluir um termo de pesquisa — da grade e na página de
 
 ## Termos de pesquisa populares
 
-A variável _Pesquisar termos_ o link no rodapé da loja exibe os termos de pesquisa usados pelos visitantes da loja, classificados por popularidade. Os termos de pesquisa aparecem em uma _nuvem de tags_ formato, em que o tamanho do texto indica a popularidade do termo.
+O link _Termos de Pesquisa_ no rodapé da sua loja exibe os termos de pesquisa usados pelos visitantes da sua loja, classificados por popularidade. Os termos de pesquisa aparecem em um formato de _nuvem de tags_, em que o tamanho do texto indica a popularidade do termo.
 
-Por padrão, os Termos de pesquisa populares são ativados como uma ferramenta de otimização de mecanismo de pesquisa, mas não têm conexão direta com o processo de pesquisa do catálogo. Como a página Termos de pesquisa é indexada por mecanismos de pesquisa, quaisquer termos na página podem ajudar a melhorar a classificação do mecanismo de pesquisa e a visibilidade da loja. O URL da página Termos de pesquisa populares é: `mystore.com/search/term/popular/`
+Por padrão, os Termos de pesquisa populares são ativados como uma ferramenta de otimização de mecanismo de pesquisa, mas não têm conexão direta com o processo de pesquisa do catálogo. Como a página Termos de pesquisa é indexada por mecanismos de pesquisa, quaisquer termos na página podem ajudar a melhorar a classificação do mecanismo de pesquisa e a visibilidade da loja. A URL da página de Termos de Pesquisa Popular é: `mystore.com/search/term/popular/`
 
-![Exemplo de loja - termos de pesquisa populares](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
+![Exemplo de vitrine - termos de pesquisa populares](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
 
 **_Para configurar termos de pesquisa populares:_**
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** por baixo.
+1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** abaixo de.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Search Engine Optimization]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization]**.
 
    ![Configuração do catálogo - otimização do mecanismo de pesquisa](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-   Para obter uma lista detalhada dessas opções, consulte [Otimização do mecanismo de pesquisa](../configuration-reference/catalog/catalog.md#search-engine-optimization) no _Referência de configuração_.
+   Para obter uma lista detalhada dessas opções, consulte [Otimização do Mecanismo de Pesquisa](../configuration-reference/catalog/catalog.md#search-engine-optimization) na _Referência de Configuração_.
 
-1. Definir **[!UICONTROL Popular Search Terms]** conforme necessário.
+1. Defina **[!UICONTROL Popular Search Terms]** conforme necessário.
 
-   Se necessário, limpe a caixa de seleção **[!UICONTROL Use system value]** para alterar essa configuração.
+   Se necessário, desmarque a caixa de seleção **[!UICONTROL Use system value]** para alterar essa configuração.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
 >[!NOTE]
 >
->É possível configurar ainda mais o armazenamento em cache de [pesquisas no catálogo](search-configuration.md).
+>Você pode configurar ainda mais o armazenamento em cache de [pesquisas populares em catálogos](search-configuration.md).
 
 ## Pesquisar sinônimos
 
-Uma forma de melhorar a eficácia do [pesquisa no catálogo](search-configuration.md) é incluir termos diferentes que as pessoas podem usar para descrever o mesmo item. Você não quer perder uma venda só porque alguém está procurando uma _sofá_ e seu produto estiver listado como um _sofá_. É possível capturar uma variedade maior de termos de pesquisa inserindo _sofá_, _davenport_, e _loveseat_ como sinônimos de _sofá_ e direcioná-los para a mesma landing page.
+Uma maneira de melhorar a eficácia da [pesquisa de catálogo](search-configuration.md) é incluir termos diferentes que as pessoas podem usar para descrever o mesmo item. Você não quer perder uma venda só porque alguém está procurando um _sofá_ e seu produto está listado como um _sofá_. Você pode capturar uma variedade maior de termos de pesquisa inserindo _sofa_, _davenport_ e _loveseat_ como sinônimos para _couch_ e direcioná-los para a mesma página inicial.
 
 A Adobe Commerce oferece suporte a duas soluções diferentes de gerenciamento de sinônimos:
 
-- Live Search [Sinônimos](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html) O recurso está disponível para instalações do Adobe Commerce com o Live Search instalado.
+- O recurso [Sinônimos](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html) do Live Search está disponível para instalações do Adobe Commerce com o Live Search instalado.
 - O recurso Pesquisar sinônimos padrão (descrito nesta página) está disponível e pronto para uso para todas as instalações do Adobe Commerce.
 
 >[!NOTE]
 >
->O recurso padrão Pesquisar sinônimos é compatível `name` e `sku` atributos do produto **_somente_**.
+>O recurso Sinônimos de Pesquisa padrão pronto para uso oferece suporte aos `name` e `sku` atributos de produto **_somente_**.
 
 >[!IMPORTANT]
 >
 >O recurso de sinônimos de pesquisa usa apenas um método de pesquisa correspondente a texto completo.
 
-![Exemplo da loja - resultados de pesquisa com sinônimos](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
+![Exemplo de vitrine - resultados de pesquisa com sinônimos](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
 ### Criar um grupo de sinônimos
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**.
 
-   A variável _[!UICONTROL Search Synonyms]_é exibida. Se for a primeira vez que você usa sinônimos de pesquisa, a grade estará vazia.
+   A grade _[!UICONTROL Search Synonyms]_é exibida. Se for a primeira vez que você usa sinônimos de pesquisa, a grade estará vazia.
 
-   ![Grade de sinônimos de pesquisa](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
+   ![Pesquisar grade de sinônimos](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
 1. Clique em **[!UICONTROL New Synonym Group]**.
 
    ![Novo grupo de sinônimos de pesquisa](./assets/search-synonym-group-new.png){width="700" zoomable="yes"}
 
-1. Definir **[!UICONTROL Scope]** às exibições de loja onde os sinônimos se aplicam.
+1. Defina **[!UICONTROL Scope]** para as exibições de armazenamento onde os sinônimos se aplicam.
 
 1. Insira cada sinônimo no grupo, separado por vírgula. Escolha palavras que as pessoas possam usar como critérios de pesquisa. Por exemplo:
 
@@ -158,13 +158,13 @@ A Adobe Commerce oferece suporte a duas soluções diferentes de gerenciamento d
    - `couch, sofa, davenport`
    - `wrought iron, rot iron, rod iron`
 
-1. Para mesclar esses sinônimos em um grupo com outros que tenham o mesmo escopo, selecione a variável **[!UICONTROL Merge existing synonyms]** caixa de seleção
+1. Para unir esses sinônimos em um grupo com outros que tenham o mesmo escopo, marque a caixa de seleção **[!UICONTROL Merge existing synonyms]**.
 
 1. Quando terminar, clique em **[!UICONTROL Save Synonym Group]**.
 
 ### Editar um grupo de sinônimos
 
-1. No _[!UICONTROL Search Synonyms]_clique na linha de qualquer registro para abrir o grupo de sinônimos no modo de edição.
+1. Na grade _[!UICONTROL Search Synonyms]_, clique na linha de qualquer registro para abrir o grupo de sinônimos no modo de edição.
 
 1. Faça as alterações necessárias.
 
@@ -174,15 +174,15 @@ A Adobe Commerce oferece suporte a duas soluções diferentes de gerenciamento d
 
 Há dois métodos para excluir um grupo de sinônimos: na grade e na página de edição.
 
-**Método 1:** Na grade Pesquisar Sinônimos
+**Método 1:** na grade de Sinônimos de Pesquisa
 
-1. No _[!UICONTROL Search Synonyms]_selecione a caixa de seleção do grupo a ser excluído.
+1. Na grade _[!UICONTROL Search Synonyms]_, marque a caixa de seleção do grupo a ser excluído.
 
-1. No canto superior esquerdo da lista, defina **[!UICONTROL Actions]** para `Delete`.
+1. No canto superior esquerdo da lista, defina **[!UICONTROL Actions]** como `Delete`.
 
 1. Quando terminar, clique em **[!UICONTROL Submit]**.
 
-**Método 2:** Na página Editar um Grupo de Sinônimos
+**Método 2:** na página Editar um Grupo de Sinônimos
 
 1. Na grade Pesquisar sinônimos, clique na linha de qualquer registro para abrir o grupo de sinônimos no modo de edição.
 
@@ -196,7 +196,7 @@ O relatório Termos de pesquisa mostra o número de resultados para cada termo e
 
 ### Exibir o relatório
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Search Terms]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Search Terms]**.
 
 1. Use os controles para filtrar o relatório conforme necessário.
 
@@ -206,7 +206,7 @@ O relatório Termos de pesquisa mostra o número de resultados para cada termo e
 
 1. Para **[!UICONTROL Export to]**, escolha um formato de exportação:
 
-   - `CSV` - Um arquivo de valor separado por vírgulas contendo dados de texto sem formatação
+   - `CSV` - Um arquivo de valores separados por vírgula contendo dados de texto sem formatação
    - `Excel XML` - Um formato de dados de planilha baseado em XML
 
 1. Clique em **[!UICONTROL Export]**.

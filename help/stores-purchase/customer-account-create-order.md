@@ -5,40 +5,40 @@ exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 1%
+source-wordcount: '364'
+ht-degree: 0%
 
 ---
 
 # Criar um pedido
 
-Para clientes registrados que precisam de assistência, você pode criar um pedido inteiro diretamente do administrador. A variável _[!UICONTROL Create New Order]_O formulário inclui todas as informações necessárias para o processo normal de finalização, com resumos de atividades no painel de contas do cliente.
+Para clientes registrados que precisam de assistência, você pode criar um pedido inteiro diretamente do administrador. O formulário _[!UICONTROL Create New Order]_inclui todas as informações necessárias para o processo normal de check-out, com resumos de atividades do painel de conta do cliente.
 
 ![Criar um pedido para um cliente](./assets/create-new-order.png){width="700" zoomable="yes"}
 
 ## Etapa 1: criar um pedido
 
-1. No _Admin_ barra lateral, clique **[!UICONTROL Customers]**.
+1. Na barra lateral _Admin_, clique em **[!UICONTROL Customers]**.
 
 1. Encontre o cliente na grade.
 
-1. No _Ação_ clique em **[!UICONTROL Edit]**.
+1. Na coluna _Ação_, clique em **[!UICONTROL Edit]**.
 
 1. No cabeçalho do espaço de trabalho, clique em **[!UICONTROL Create Order]**.
 
-   ![Cabeçalho do Workspace](./assets/order-create-buttons.png){width="700" zoomable="yes"}
+   ![cabeçalho do Workspace](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   Você também pode criar um pedido no [Solicitar espaço de trabalho](orders.md#orders-workspace) clicando em **[!UICONTROL Create New Order]**.
+   Você também pode criar um pedido no [espaço de trabalho de Pedidos](orders.md#orders-workspace) clicando em **[!UICONTROL Create New Order]**.
 
 ## Etapa 2: adicionar produtos
 
 Se a loja tiver várias exibições, escolha a exibição da loja onde o pedido será feito.
 
-### Adicionar produtos da [!UICONTROL Customer's Activities] barra lateral
+### Adicionar produtos da barra lateral [!UICONTROL Customer's Activities]
 
 Você pode transferir itens para o carrinho da lista de desejos de um cliente ou de qualquer item exibido, comparado ou solicitado recentemente.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) uma das seguintes seções:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) uma das seguintes seções:
 
    - **[!UICONTROL Wish List]**
    - **[!UICONTROL Last Ordered Items]**
@@ -60,7 +60,7 @@ Você pode transferir itens para o carrinho da lista de desejos de um cliente ou
 
    ![Adicionar produtos](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"}
 
-1. Na grade, marque a caixa de seleção de cada produto a ser adicionado ao carrinho e insira o **[!UICONTROL Qty]** a ser comprados.
+1. Na grade, marque a caixa de seleção de cada produto a ser adicionado ao carrinho e insira o **[!UICONTROL Qty]** a ser comprado.
 
    ![Selecionar produtos](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
 
@@ -82,11 +82,11 @@ Você pode transferir itens para o carrinho da lista de desejos de um cliente ou
 
 1. Sobrepor o preço de um item, se necessário:
 
-   - Selecione o **[!UICONTROL Custom Price]** e insira o novo preço na caixa abaixo.
+   - Marque a caixa de seleção **[!UICONTROL Custom Price]** e insira o novo preço na caixa abaixo.
 
    - Para atualizar os totais do carrinho, clique em **[!UICONTROL Update Items and Quantities]**.
 
-   ![Preço personalizado](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
+   ![Preço Personalizado](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
 
 1. Preencha as seguintes seções conforme necessário para o pedido:
 
@@ -98,7 +98,7 @@ Você pode transferir itens para o carrinho da lista de desejos de um cliente ou
 
 >[!NOTE]
 >
->Consulte a [Guia dos serviços de pagamento](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) para obter mais informações sobre os métodos de pagamento compatíveis com essa funcionalidade, quando a extensão Serviços de Pagamento estiver instalada e configurada.
+>Consulte o [Guia dos Serviços de Pagamento](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) para obter mais informações sobre métodos de pagamento para dar suporte a esta funcionalidade quando a extensão dos Serviços de Pagamento for instalada e configurada.
 
 ## Etapa 3: enviar o pedido
 

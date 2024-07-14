@@ -13,26 +13,26 @@ ht-degree: 0%
 
 # Aprovar uma conta de empresa
 
-O status das solicitações recebidas da loja para criar uma empresa é `Pending Approval` até que a solicitação seja revisada pelo administrador de armazenamento e aprovada ou rejeitada. O status de uma conta de empresa pode ser definido como qualquer um dos seguintes:
+O status das solicitações recebidas da loja para criar uma empresa é `Pending Approval` até que a solicitação seja revisada pelo administrador da loja e seja aprovada ou rejeitada. O status de uma conta de empresa pode ser definido como qualquer um dos seguintes:
 
 - [!UICONTROL Active]
 - [!UICONTROL Pending Approval]
 - [!UICONTROL Rejected]
 - [!UICONTROL Blocked]
 
-Você também pode usar a variável [Controle de ações](account-company-manage.md) para aprovar várias solicitações de empresa.
+Você também pode usar o [Controle de ações](account-company-manage.md) para aprovar várias solicitações de empresa.
 
-![Pendente de Aprovação](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
+![Aprovação pendente](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
 
 ## Aprovar uma conta de empresa pendente
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   Você pode usar o _[!UICONTROL Columns]_seletor acima da grade para exibir a **[!UICONTROL Status]**coluna.
+   Você pode usar o seletor _[!UICONTROL Columns]_acima da grade para exibir a coluna **[!UICONTROL Status]**.
 
-1. No _[!UICONTROL Action]_clique em **[!UICONTROL Edit]**.
+1. Na coluna _[!UICONTROL Action]_, clique em **[!UICONTROL Edit]**.
 
-1. Definir **[!UICONTROL Company Status]** para `Active`.
+1. Defina **[!UICONTROL Company Status]** como `Active`.
 
    ![Definir o status da empresa](./assets/company-status-active.png){width="700" zoomable="yes"}
 
@@ -42,7 +42,7 @@ Você também pode usar a variável [Controle de ações](account-company-manage
 
 1. Se aplicável, defina **[!UICONTROL Sales Representative]** para uma conta de usuário Admin específica.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png)  o **[!UICONTROL Account Information]** e use o **[!UICONTROL Comment]** para inserir observações sobre a conta.
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Account Information]** e use o campo **[!UICONTROL Comment]** para inserir observações sobre a conta.
 
    Os comentários não estão visíveis na loja.
 

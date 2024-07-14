@@ -5,14 +5,14 @@ exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
 source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
 
 # Sua conta de administrador
 
-A conta Admin primária foi configurada inicialmente durante a instalação e pode conter informações iniciais de espaço reservado ou informações de dados de amostra. O proprietário designado desta conta pode personalizar o nome de usuário e a senha e atualizar o nome, sobrenome e endereço de email a qualquer momento. Essa conta, uma _superusuário_ com todas as permissões por padrão, o normalmente cria as contas de usuário Admin necessárias para a empresa.
+A conta Admin primária foi configurada inicialmente durante a instalação e pode conter informações iniciais de espaço reservado ou informações de dados de amostra. O proprietário designado desta conta pode personalizar o nome de usuário e a senha e atualizar o nome, sobrenome e endereço de email a qualquer momento. Esta conta, um _superusuário_ com todas as permissões por padrão, normalmente cria as contas de usuário Administrador necessárias para os negócios.
 
 - Consulte [Criar um usuário](../systems/permissions-users-all.md#create-a-user) para obter informações sobre como adicionar ou editar usuários.
 
@@ -22,37 +22,37 @@ A conta Admin primária foi configurada inicialmente durante a instalação e po
 
 ## Logon de administrador
 
-A variável [!DNL Commerce] _Admin_ O está protegido por várias camadas de medidas de segurança para impedir o acesso não autorizado ao armazenamento, pedido e dados do cliente. Na primeira vez que você fizer logon na _Admin_, você deverá inserir seu nome de usuário e senha e configurar [autenticação de dois fatores](../systems/security-two-factor-authentication.md) (2-A-A)
+O [!DNL Commerce] _Administrador_ está protegido por várias camadas de medidas de segurança para impedir o acesso não autorizado ao seu armazenamento, pedido e dados do cliente. Na primeira vez que você entrar no _Admin_, deverá inserir seu nome de usuário e senha e configurar a [autenticação de dois fatores](../systems/security-two-factor-authentication.md) (2FA).
 
-Dependendo da configuração de sua loja, pode haver uma [CAPTCHA](../systems/security-google-recaptcha.md) desafio a resolver, como inserir uma série de caracteres de teclado, resolver um quebra-cabeça ou clicar em uma série de imagens com um tema comum. Esses testes foram projetados para identificá-lo como um humano, em vez de um bot automatizado.
+Dependendo da configuração de sua loja, pode haver um desafio de [CAPTCHA](../systems/security-google-recaptcha.md) para resolver, como inserir uma série de caracteres de teclado, resolver um quebra-cabeça ou clicar em uma série de imagens com um tema comum. Esses testes foram projetados para identificá-lo como um humano, em vez de um bot automatizado.
 
-Para obter segurança adicional, você pode determinar quais partes da _Admin_ cada usuário tem [permissão](../systems/permissions.md) para acessar e também limitar o número de [tentativas de logon](../configuration-reference/advanced/admin.md). Por padrão, após seis tentativas, a conta é bloqueada e o usuário deve aguardar alguns minutos antes de tentar novamente. [Contas bloqueadas](../systems/permissions-users-all.md#locked-users) também pode ser redefinido no campo _Admin_.
+Para maior segurança, você pode determinar quais partes do _Administrador_ cada usuário tem [permissão](../systems/permissions.md) para acessar e também limitar o número de [tentativas de logon](../configuration-reference/advanced/admin.md). Por padrão, após seis tentativas, a conta é bloqueada e o usuário deve aguardar alguns minutos antes de tentar novamente. [Contas bloqueadas](../systems/permissions-users-all.md#locked-users) também podem ser redefinidas pelo _Administrador_.
 
 >[!NOTE]
 >
->Na primeira vez que você fizer logon na _Admin_, você será solicitado a _Permitir coleta de dados de uso administrativo_. Consulte [Coleta de dados de uso](admin.md#usage-data-collection) para obter mais informações.
+>Na primeira vez que você entrar no _Administrador_, será solicitado a _Permitir coleta de dados de uso administrativo_. Consulte [Coleção de dados de uso](admin.md#usage-data-collection) para obter mais informações.
 
-![Logon do administrador](./assets/admin-login.png){width="400"}
+![Entrada de administrador](./assets/admin-login.png){width="400"}
 
 ### Etapa 1: configurar autenticação de dois fatores
 
-Antes de fazer logon na _Admin_ de sua loja, você deve ter uma solução de autenticação de dois fatores configurada e pronta para uso. Para saber mais sobre o processo de autenticação usado por cada solução, consulte [Uso da autenticação de dois fatores](../systems/security-two-factor-authentication-use.md). Por padrão, [!DNL Commerce] suporta [Autenticador do Google][1].
+Antes de entrar no _Admin_ de seu armazenamento, você deve ter uma solução de autenticação de dois fatores configurada e pronta para uso. Para saber mais sobre o processo de autenticação usado por cada solução, consulte [Usando a Autenticação de Dois Fatores](../systems/security-two-factor-authentication-use.md). Por padrão, o [!DNL Commerce] oferece suporte ao [Google Authenticator][1].
 
-Pergunte ao seu [!DNL Commerce] administrador do sistema quais soluções 2FA são compatíveis com a loja. Em seguida, conclua a configuração da solução 2FA de sua preferência, de acordo com as instruções do provedor.
+Pergunte ao administrador do sistema do [!DNL Commerce] quais soluções 2FA são compatíveis com o armazenamento. Em seguida, conclua a configuração da solução 2FA de sua preferência, de acordo com as instruções do provedor.
 
 ### Etapa 2: Fazer logon com o administrador
 
-1. Insira o _Admin_ O URL que foi especificado durante o [!DNL Commerce] instalação.
+1. Insira a URL do _Admin_ que foi especificada durante a instalação do [!DNL Commerce].
 
-   O padrão _Admin_ O URL é semelhante a `https://www.yourdomain.com/your-custom-admin-domain`.
+   A URL padrão _Admin_ é parecida com `https://www.yourdomain.com/your-custom-admin-domain`.
 
    >[!NOTE]
    >
-   >Embora esta documentação use `admin` como o URL base na maioria dos exemplos, é recomendável escolher um URL exclusivo e difícil de adivinhar [URL personalizado](../stores-purchase/store-urls.md) para o _Admin_ da sua loja.
+   >Embora esta documentação use `admin` como a URL base na maioria dos exemplos, é recomendável que você escolha uma [URL personalizada](../stores-purchase/store-urls.md) exclusiva e difícil de adivinhar para o _Administrador_ de sua loja.
 
    Você pode adicionar um marcador para a página ou salvar um atalho na área de trabalho para facilitar o acesso.
 
-1. Insira seu _Admin_ **[!UICONTROL Username]** e **[!UICONTROL Password]**.
+1. Insira seu _Administrador_ **[!UICONTROL Username]** e **[!UICONTROL Password]**.
 
 1. (Opcional) Se um CAPTCHA estiver ativado para sua loja, siga as instruções na tela para resolver o desafio.
 
@@ -60,29 +60,29 @@ Pergunte ao seu [!DNL Commerce] administrador do sistema quais soluções 2FA s�
 
 1. Clique em **[!UICONTROL Sign in]**.
 
-   Se esta for a primeira vez que você está conectado ao _Admin_ na conta do, você deve receber um email com um link para as instruções de configuração.
+   Se for a primeira vez que você entra no _Administrador_ por meio da conta, deverá receber um email com um link para as instruções de configuração.
 
 ### Etapa 3: concluir a configuração 2FA
 
-O exemplo a seguir mostra como emparelhar seus _Admin_ conta com o Google Authenticator.
+O exemplo a seguir mostra como emparelhar a conta do _Administrador_ com o Google Authenticator.
 
-1. Quando o código QR for exibido, use um dos métodos a seguir para capturar o código e emparelhar o Google Authenticator com sua _Admin_ conta.
+1. Quando o código QR for exibido, use um dos métodos a seguir para capturar o código e emparelhar o Google Authenticator com sua conta de _Administrador_.
 
    ![Configurar o Google Authenticator](./assets/admin-login-google-auth-setup.png){width="400"}
 
    - Capturar código QR usando um telefone inteligente
 
-     No smartphone, inicie o Google Authenticator. Toque no _sinal de mais_ (+) no canto superior direito do aplicativo. Em seguida, na parte inferior da tela, toque em **[!UICONTROL Scan Barcode]** e tire uma foto do código QR.
+     No smartphone, inicie o Google Authenticator. Toque no _sinal de adição_ (+) no canto superior direito do aplicativo. Em seguida, na parte inferior da tela, toque em **[!UICONTROL Scan Barcode]** e tire uma foto do código QR.
 
    - Capturar código QR do navegador
 
-     Se o Google Authenticator estiver instalado como uma extensão em seu navegador, clique no link **Autenticador** na barra de ferramentas e capture a página.
+     Se o Google Authenticator estiver instalado como uma extensão no seu navegador, clique no ícone **Autenticador** na barra de ferramentas e capture a página.
 
    - Insira manualmente o código QR
 
-     Copie a cadeia de caracteres de texto abaixo do código QR. Inicie o Google Authenticator com seu smartphone ou navegador e clique no sinal de mais (+). Em seguida, escolha **[!UICONTROL Manual Entry]**. Em **[!UICONTROL Account]**, insira o endereço de email associado à _Admin_ e cole a sequência de código QR na tag **[!UICONTROL Key]** campo.
+     Copie a cadeia de caracteres de texto abaixo do código QR. Inicie o Google Authenticator com seu smartphone ou navegador e clique no sinal de mais (+). Em seguida, escolha **[!UICONTROL Manual Entry]**. Em **[!UICONTROL Account]**, insira o endereço de email associado à sua conta de _Administrador_ e cole a cadeia de código QR no campo **[!UICONTROL Key]**.
 
-1. Para fazer logon na _Admin_ com a autenticação de dois fatores, insira o código de seis dígitos gerado pelo Google Authenticator na caixa **[!UICONTROL Authenticator code]** e clique em **[!UICONTROL Confirm]**.
+1. Para entrar no _Admin_ com autenticação de dois fatores, insira o código de seis dígitos gerado pelo Google Authenticator no campo **[!UICONTROL Authenticator code]** e clique em **[!UICONTROL Confirm]**.
 
    ![Insira o código do autenticador](./assets/admin-login-2fa-google.png){width="400"}
 
@@ -90,7 +90,7 @@ O exemplo a seguir mostra como emparelhar seus _Admin_ conta com o Google Authen
 
 Não é permitida a reutilização das quatro últimas senhas atribuídas à conta.
 
-1. Insira o **[!UICONTROL Email Address]** que está associado à variável _Admin_ conta.
+1. Digite o **[!UICONTROL Email Address]** que está associado à conta de _Administrador_.
 
    ![Senha esquecida](./assets/admin-sign-in-forgot-password.png){width="400"}
 
@@ -100,21 +100,21 @@ Não é permitida a reutilização das quatro últimas senhas atribuídas à con
 
    >[!NOTE]
    >
-   >Um _Admin_ a senha deve ter sete ou mais caracteres e incluir letras e números. Consulte [Configuração _Admin_ Segurança](../systems/security-admin.md) para obter informações sobre opções de senha.
+   >A senha do _Administrador_ deve ter sete caracteres ou mais e incluir letras e números. Consulte [Configurando a Segurança de _Admin_](../systems/security-admin.md) para obter informações sobre as opções de senha.
 
 ## Sair do Administrador
 
-1. No canto superior direito, clique na guia _Conta_ (![Conta](../assets/icon-admin-user.png)) ícone.
+1. No canto superior direito, clique no ícone _Conta_ (![Conta](../assets/icon-admin-user.png)).
 
 1. Clique em **[!UICONTROL Sign Out]**.
 
    ![Sair](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-A variável _[!UICONTROL Sign In]_exibe uma mensagem informando que você está desconectado. Saia do_ Admin _sempre que você deixar o computador sem supervisão.
+A página _[!UICONTROL Sign In]_exibe uma mensagem informando que você está desconectado. Saia do_ Admin _sempre que deixar o computador sem supervisão.
 
 ## Editar informações da conta
 
-1. Clique em _Conta_ (![Ícone de conta](../assets/icon-admin-user.png)) ícone.
+1. Clique no ícone _Conta_ (![Ícone de Conta](../assets/icon-admin-user.png)).
 
 1. Clique em **[!UICONTROL Account Setting]**.
 
@@ -132,13 +132,13 @@ A variável _[!UICONTROL Sign In]_exibe uma mensagem informando que você está 
 
 O Administrador fornece acesso para gerenciar as funcionalidades de pedidos, clientes, produtos, remessa e pagamentos. A configuração padrão está definida para proibir vários logons para uma conta de usuário administrador como uma prática recomendada de segurança. No entanto, você pode alterar essa configuração para permitir que os usuários Administradores façam logon em vários dispositivos para acomodar os fluxos de trabalho da empresa.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel de navegação esquerdo, expanda **[!UICONTROL Advanced]** e escolha **[!UICONTROL Admin]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Security]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Security]**.
 
-1. Para **Compartilhamento de conta de administrador**, selecione `Yes`.
+1. Para **Compartilhamento de Conta de Administrador**, selecione `Yes`.
 
    ![Permitir compartilhamento de conta de administrador](./assets/multiple-admin-login.png){width="700" zoomable="yes"}
 
@@ -146,13 +146,13 @@ O Administrador fornece acesso para gerenciar as funcionalidades de pedidos, cli
 
 ## Definir nomes de logon de usuário administrador como sensíveis a maiúsculas e minúsculas
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel de navegação esquerdo, expanda **[!UICONTROL Advanced]** e escolha **[!UICONTROL Admin]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Security]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Security]**.
 
-1. Defina o **[!UICONTROL Login is Case Sensitive]** campo para `Yes`.
+1. Defina o campo **[!UICONTROL Login is Case Sensitive]** como `Yes`.
 
 1. Clique em **[!UICONTROL Save Config]**.
 

@@ -1,20 +1,20 @@
 ---
 title: Categorias - Configurações de otimização do mecanismo de pesquisa
-description: Saiba mais sobre como usar o [!UICONTROL Search Engine Optimization] configurações para definir a chave de URL e os campos de metadados usados pelos mecanismos de pesquisa para indexar a categoria.
+description: Saiba mais sobre como usar as configurações [!UICONTROL Search Engine Optimization] para definir a chave de URL e os campos de metadados usados pelos mecanismos de pesquisa para indexar a categoria.
 exl-id: 6c8af01d-d2aa-4c13-af76-663c47cbe38c
 feature: Catalog Management, Categories, Search
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 # Categorias - Configurações de otimização do mecanismo de pesquisa
 
-A variável _[!UICONTROL Search Engine Optimization]_seção especifica a [Chave do URL](catalog-urls.md) e [metadados](../merchandising-promotions/meta-data.md) campos usados pelos mecanismos de pesquisa para indexar a categoria. Embora alguns mecanismos de pesquisa ignorem metapalavras-chave, outros continuam a usá-las. A prática recomendada da SEO atual é incorporar palavras-chave de alto valor no metatítulo e na metadescrição.
+A seção _[!UICONTROL Search Engine Optimization]_especifica os campos [Chave de URL](catalog-urls.md) e [metadados](../merchandising-promotions/meta-data.md) usados pelos mecanismos de pesquisa para indexar a categoria. Embora alguns mecanismos de pesquisa ignorem metapalavras-chave, outros continuam a usá-las. A prática recomendada da SEO atual é incorporar palavras-chave de alto valor no metatítulo e na metadescrição.
 
-![Otimização do mecanismo de pesquisa](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
+![Otimização do Mecanismo de Pesquisa](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 
 | Campo | [Escopo](../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |----------------------------------------------------|

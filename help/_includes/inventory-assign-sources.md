@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Inventário - atribuir origens e quantidades
 
-Para comerciantes de várias origens que usam [[!DNL Inventory Management]](../inventory-management/introduction.md), role para baixo até o **Origens** seção e atribuir origens e quantidades:
+Para comerciantes de várias origens que usam [[!DNL Inventory Management]](../inventory-management/introduction.md), role para baixo até a seção **Origens** e atribua origens e quantidades:
 
 1. Para adicionar uma origem, clique em **[!UICONTROL Assign Sources]**.
 
@@ -20,16 +20,16 @@ Para comerciantes de várias origens que usam [[!DNL Inventory Management]](../i
 
 1. Clique em **[!UICONTROL Done]** para adicionar as fontes.
 
-1. Para gerenciar a quantidade e o status da origem, clique em **[!UICONTROL Advanced Inventory]** e defina **[!UICONTROL Manage Stock]** para `Yes`.
+1. Para gerenciar a quantidade e o status da origem, clique em **[!UICONTROL Advanced Inventory]** e defina **[!UICONTROL Manage Stock]** como `Yes`.
 
-1. Definir **[!UICONTROL Source Item Status]** para `In Stock`.
+1. Defina **[!UICONTROL Source Item Status]** como `In Stock`.
 
-1. Inserir um valor para atualizar o **[!UICONTROL Qty]** para estoque disponível.
+1. Insira um valor para atualizar o **[!UICONTROL Qty]** para o estoque disponível.
 
 1. Para definir uma notificação para quantidades de inventário, siga um destes procedimentos:
 
-   - _Quantidade de Notificações Personalizadas_ - Limpe a **[!UICONTROL Notify Quantity Use Default]** e insira um valor em **[!UICONTROL Notify Quantity]**.
+   - _Quantidade de Notificações Personalizadas_ - Desmarque a caixa de seleção **[!UICONTROL Notify Quantity Use Default]** e insira um valor em **[!UICONTROL Notify Quantity]**.
 
-   - _Quantidade de Notificação Padrão_ - Selecione o **[!UICONTROL Notify Quantity Use Default]** caixa de seleção O Commerce verifica e usa a configuração em [!UICONTROL Advanced Inventory] ou configuração de armazenamento global.
+   - _Quantidade de Notificações Padrão_ - Marque a caixa de seleção **[!UICONTROL Notify Quantity Use Default]**. O Commerce verifica e usa a configuração em [!UICONTROL Advanced Inventory] ou na configuração de armazenamento global.
 
-   ![Atualizar Quantidades de Produto por Origem](../catalog/assets/inventory-product-quantity.png){width="600" zoomable="yes"}
+   ![Atualizar Quantidades de Produto por Source](../catalog/assets/inventory-product-quantity.png){width="600" zoomable="yes"}

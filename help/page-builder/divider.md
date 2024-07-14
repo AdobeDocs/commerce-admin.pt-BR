@@ -1,18 +1,18 @@
 ---
 title: Elementos - Divisor
-description: Saiba mais sobre o tipo de conteúdo Divisor, usado para adicionar uma regra como uma quebra visual entre seções de conteúdo na [!DNL Page Builder] estágio.
+description: Saiba mais sobre o tipo de conteúdo Divider, usado para adicionar uma regra como uma quebra visual entre seções de conteúdo no estágio  [!DNL Page Builder] .
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 # Elementos - Divisor
 
-Use o _Divisor_ tipo de conteúdo para adicionar uma regra como uma quebra visual entre seções de conteúdo na [[!DNL Page Builder] estágio](workspace.md#stage). É possível especificar a cor, a espessura e a largura da linha do divisor. Você também pode controlar o alinhamento, definir as margens e o preenchimento e o formato da borda do container. Por padrão, o divisor é uma regra de traço que estende a largura total do contêiner, com permissão para preenchimento.
+Use o tipo de conteúdo _Divider_ para adicionar uma regra como uma quebra visual entre seções de conteúdo no [[!DNL Page Builder] estágio](workspace.md#stage). É possível especificar a cor, a espessura e a largura da linha do divisor. Você também pode controlar o alinhamento, definir as margens e o preenchimento e o formato da borda do container. Por padrão, o divisor é uma regra de traço que estende a largura total do contêiner, com permissão para preenchimento.
 
 ![Divisor padrão em um contêiner sem borda](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
 
@@ -28,10 +28,10 @@ Embora a maioria dos contêineres divisores seja invisível, o exemplo a seguir 
 | ---- | --------------------| ------------|
 | Mover | ![Ícone Mover](./assets/pb-icon-move.png){width="25"} | Move o contêiner do divisor para outro local válido na página. |
 | (rótulo) | DIVISOR | Identifica o contêiner atual como um elemento divisor. |
-| Configurações | ![Ícone Configurações](./assets/pb-icon-settings.png){width="25"} | Abre a página Editar Divisor, onde você pode alterar as propriedades do divisor e seu contêiner. |
+| Configurações | ![Ícone de configurações](./assets/pb-icon-settings.png){width="25"} | Abre a página Editar Divisor, onde você pode alterar as propriedades do divisor e seu contêiner. |
 | Ocultar | ![Ícone Ocultar](./assets/pb-icon-hide.png){width="25"} | Oculta o contêiner do divisor. |
 | Mostrar | ![Mostrar ícone](./assets/pb-icon-show.png){width="25"} | Mostra o contêiner divisor oculto. |
-| Duplicar | ![Ícone Duplicar](./assets/pb-icon-duplicate.png){width="25"} | Faz uma cópia do contêiner divisor. |
+| Duplicar | ![Ícone duplicado](./assets/pb-icon-duplicate.png){width="25"} | Faz uma cópia do contêiner divisor. |
 | Remover | ![Ícone Remover](./assets/pb-icon-remove.png){width="25"} | Exclui o contêiner divisor e seu conteúdo do estágio. |
 
 {style="table-layout:auto"}
@@ -40,40 +40,40 @@ Embora a maioria dos contêineres divisores seja invisível, o exemplo a seguir 
 
 ## Adicionar um divisor
 
-1. No [!DNL Page Builder] painel, expandir **[!UICONTROL Elements]** e arraste uma **[!UICONTROL Divider]** espaço reservado para uma linha, coluna ou conjunto de guias no estágio.
+1. No painel [!DNL Page Builder], expanda **[!UICONTROL Elements]** e arraste um espaço reservado **[!UICONTROL Divider]** para uma linha, coluna ou conjunto de guias no estágio.
 
    Use a diretriz vermelha para referência ao posicionar o divisor antes ou depois de outro contêiner de conteúdo no estágio.
 
-   ![Arrastar um divisor para o estágio](./assets/pb-elements-divider-drag.png){width="600" zoomable="yes"}
+   ![Arrastando um divisor para o estágio](./assets/pb-elements-divider-drag.png){width="600" zoomable="yes"}
 
    No exemplo a seguir, o divisor marca o início de uma nova seção de texto.
 
-   ![Divisor que separa seções de texto](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
+   ![Divisor separando seções de texto](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
 
 1. Para especificar as configurações do novo divisor, siga o próximo procedimento.
 
 ## Alterar as configurações do divisor
 
-1. Passe o mouse sobre o contêiner do divisor para exibir a caixa de ferramentas e escolher o _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ) ícone.
+1. Passe o mouse sobre o contêiner do divisor para exibir a caixa de ferramentas e escolher o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Caixa de ferramentas Divisor](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
 
-1. Alterar o divisor **[!UICONTROL Line Color]** usando um dos seguintes métodos:
+1. Altere o divisor **[!UICONTROL Line Color]** usando um dos seguintes métodos:
 
-   - Insira um válido [nome da cor do HTML][1]. Por exemplo, `Teal`.
+   - Insira um [nome de cor do HTML][1] válido. Por exemplo, `Teal`.
    - Insira o valor de cor hexadecimal. Por exemplo, `#008080`.
 
    Quando terminar, clique em **[!UICONTROL Apply]**.
 
-   ![Definição da cor da linha](./assets/pb-elements-divider-settings-line-color.png){width="600" zoomable="yes"}
+   ![Definindo a cor da linha](./assets/pb-elements-divider-settings-line-color.png){width="600" zoomable="yes"}
 
 1. Insira o **[!UICONTROL Line Thickness]** em pixels.
 
-1. Para indicar a unidade de medida, informe o **[!UICONTROL Line Width]** seguido por `px` ou `%`.
+1. Para indicar a unidade de medida, insira o **[!UICONTROL Line Width]** seguido por `px` ou `%`.
 
-   ![Definição da cor, espessura e largura da linha](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
+   ![Definindo a cor, a espessura e a largura da linha](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Atualize o _[!UICONTROL Advanced]_conforme necessário.
+1. Atualize as configurações de _[!UICONTROL Advanced]_conforme necessário.
 
    - Para controlar o posicionamento do divisor no contêiner pai, escolha o **[!UICONTROL Alignment]**:
 
@@ -88,9 +88,9 @@ Embora a maioria dos contêineres divisores seja invisível, o exemplo a seguir 
 
      No exemplo a seguir, as opções são definidas para usar um alinhamento central para o divisor.
 
-     ![Divisor com alinhamento central](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
+     ![Divisor com alinhamento de centro](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
-   - Defina o **[!UICONTROL Border]** estilo aplicado aos quatro lados do contêiner divisor:
+   - Defina o estilo **[!UICONTROL Border]** aplicado a todos os quatro lados do contêiner divisor:
 
      | Opção | Descrição |
      | ------ | ----------- |
@@ -107,7 +107,7 @@ Embora a maioria dos contêineres divisores seja invisível, o exemplo a seguir 
 
      {style="table-layout:auto"}
 
-   - Se você definir um estilo de borda diferente de `None`, conclua as opções de exibição da borda:
+   - Se você definir um estilo de borda diferente de `None`, conclua as opções de exibição de borda:
 
      | Opção | Descrição |
      | ------ |------------ |
@@ -117,11 +117,11 @@ Embora a maioria dos contêineres divisores seja invisível, o exemplo a seguir 
 
      {style="table-layout:auto"}
 
-   - (Opcional) Especifique os nomes dos **[!UICONTROL CSS classes]** na folha de estilos atual para aplicar ao contêiner.
+   - (Opcional) Especifique os nomes de **[!UICONTROL CSS classes]** da folha de estilos atual para aplicar ao contêiner.
 
      Separe vários nomes de classe com um espaço.
 
-   - Insira valores, em pixels, para o **[!UICONTROL Margins and Padding]** para determinar as margens externas e o preenchimento interno do contêiner divisor.
+   - Insira valores, em pixels, para **[!UICONTROL Margins and Padding]** para determinar as margens externas e o preenchimento interno do contêiner divisor.
 
      Insira os valores correspondentes no diagrama.
 
@@ -132,7 +132,7 @@ Embora a maioria dos contêineres divisores seja invisível, o exemplo a seguir 
 
      {style="table-layout:auto"}
 
-1. Quando terminar, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao [!DNL Page Builder] espaço de trabalho.
+1. Quando terminar, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao espaço de trabalho [!DNL Page Builder].
 
    ![Divisor centralizado em uma linha](./assets/pb-elements-divider-settings-2px-centered.png){width="500" zoomable="yes"}
 
@@ -140,15 +140,15 @@ Embora a maioria dos contêineres divisores seja invisível, o exemplo a seguir 
 
 Para um divisor formatado com configurações específicas, é mais eficiente fazer uma duplicata, em vez de começar novamente com um novo espaço reservado.
 
-1. Passe o mouse sobre o contêiner do divisor para exibir a caixa de ferramentas e escolher o _Duplicar_ ( ![Ícone Duplicar](./assets/pb-icon-duplicate.png){width="20"} ) ícone.
+1. Passe o mouse sobre o contêiner do divisor para exibir a caixa de ferramentas e escolher o ícone _Duplicar_ ( ![Duplicar ícone](./assets/pb-icon-duplicate.png){width="20"} ).
 
    O contêiner de divisor duplicado aparece logo abaixo do original.
 
    ![Divisor duplicado](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. Passe o mouse sobre o novo contêiner do divisor para exibir a caixa de ferramentas e escolher o _Mover_ ( ![Ícone Mover](./assets/pb-icon-move.png){width="20"} ) ícone.
+1. Passe o mouse sobre o novo contêiner do divisor para exibir a caixa de ferramentas e escolher o ícone _Mover_ ( ![Ícone Mover](./assets/pb-icon-move.png){width="20"} ).
 
-   ![Mover um divisor](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
+   ![Movendo um divisor](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 
 1. Selecione e arraste o divisor até que a diretriz vermelha marque a nova posição.
 

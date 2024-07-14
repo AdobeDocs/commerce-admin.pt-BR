@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Códigos de cupom
 
-Os códigos de cupons são usados com [regras de preço do carrinho](price-rules-cart.md) para aplicar um desconto quando um conjunto de condições for atendido. Por exemplo, um código de cupom pode ser criado para um grupo de clientes específico ou para qualquer pessoa que faça uma compra acima de um determinado valor. Para aplicar o cupom a uma compra, o cliente pode inserir o código do cupom no carrinho ou possivelmente na caixa registradora do seu _tijolo e argamassa_ armazenamento. Estas são algumas das maneiras de usar cupons na loja:
+Os códigos de cupons são usados com [regras de preço do carrinho](price-rules-cart.md) para aplicar um desconto quando um conjunto de condições é atendido. Por exemplo, um código de cupom pode ser criado para um grupo de clientes específico ou para qualquer pessoa que faça uma compra acima de um determinado valor. Para aplicar o cupom a uma compra, o cliente pode inserir o código do cupom no carrinho ou possivelmente na caixa registradora da sua loja _brick and mortar_. Estas são algumas das maneiras de usar cupons na loja:
 
 - Cupons de email para clientes
 - Produzir cupons impressos
@@ -26,49 +26,49 @@ A partir do Commerce 2.4.7, os compradores podem aplicar vários cupons a um car
 
 O comprimento e o formato dos códigos de cupom gerados automaticamente são controlados pela configuração. Os caracteres podem ser definidos como todos os números, todas as letras ou uma combinação. Você pode inserir um traço em intervalos definidos para facilitar a leitura e adicionar um prefixo e um sufixo para associar o código a uma campanha ou iniciativa específica.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Customers]** e escolha **[!UICONTROL Promotions]**.
 
-   ![Configuração dos clientes - códigos de cupom específicos gerados automaticamente](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
+   ![Configuração de clientes - códigos de cupom específicos gerados automaticamente](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
 
-1. Expanda a **[!UICONTROL Auto Generated Specific Coupon Codes]** seção.
+1. Expanda a seção **[!UICONTROL Auto Generated Specific Coupon Codes]**.
 
-   ![Configuração dos clientes - códigos de cupom específicos gerados automaticamente](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
+   ![Configuração de clientes - códigos de cupom específicos gerados automaticamente](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
 
 1. Insira o **[!UICONTROL Code Length]**, incluindo prefixo, sufixo e separadores.
 
-1. Defina o **[!UICONTROL Code Format]** a um dos seguintes:
+1. Defina o **[!UICONTROL Code Format]** como um dos seguintes:
 
    - `Alphanumeric`
    - `Alphabetical`
    - `Numeric`
 
-1. Para **[!UICONTROL Code Prefix]**, insira o valor que deseja que apareça no início de todos os códigos de cupom.
+1. Para **[!UICONTROL Code Prefix]**, insira o valor que você deseja que apareça no início de todos os códigos de cupom.
 
-1. Para **[!UICONTROL Code Suffix]**, insira o valor que deseja que apareça no final de todos os códigos de cupom.
+1. Para **[!UICONTROL Code Suffix]**, insira o valor que você deseja que apareça no final de todos os códigos de cupom.
 
-1. Para **[!UICONTROL Dash Every X Characters]**, digite o número de caracteres entre cada traço.
+1. Para **[!UICONTROL Dash Every X Characters]**, insira o número de caracteres entre cada traço.
 
    Os códigos de cupom com diferentes padrões de traço são considerados códigos diferentes, mesmo se os números forem os mesmos.
 
-1. Quando terminar, clique em **[!UICONTROL Save Config]**.
+1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
 ## Criar cupons
 
 >[!NOTE]
 >
->Antes de criar cupons, use o `bin/magento cron:run` comando para verificar se o cron está em execução. Consulte [Executar cron a partir da linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) no _Guia de configuração_ para obter mais informações.
+>Antes de criar cupons, use o comando `bin/magento cron:run` para verificar se o cron está em execução. Consulte [Executar cron a partir da linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) no _Guia de Configuração_ para obter mais informações.
 
 ### Método 1: criar um cupom específico
 
-1. Siga as instruções para criar um [regra de preço do carrinho](price-rules-cart.md).
+1. Siga as instruções para criar uma [regra de preço do carrinho](price-rules-cart.md).
 
-1. No **[!UICONTROL Rule Information]** seção, definir **[!UICONTROL Coupon]** para `Specific Coupon`.
+1. Na seção **[!UICONTROL Rule Information]**, defina **[!UICONTROL Coupon]** como `Specific Coupon`.
 
-1. Insira um **[!UICONTROL Coupon Code]** a ser usado com a promoção.
+1. Insira um **[!UICONTROL Coupon Code]** para ser usado com a promoção.
 
-   O formato do código (numérico, alfanumérico ou alfabético) é determinado pelo [configuração](#configure-coupon-codes).
+   O formato do código (numérico, alfanumérico ou alfabético) é determinado pela [configuração](#configure-coupon-codes).
 
 1. Para limitar o número de vezes que o cupom pode ser usado, faça o seguinte:
 
@@ -77,7 +77,7 @@ O comprimento e o formato dos códigos de cupom gerados automaticamente são con
 
    Para uso ilimitado, deixe esses campos em branco.
 
-   ![Regra de preço do carrinho - informações de cupom](./assets/coupon-info.png){width="600" zoomable="yes"}
+   ![Regra de preço do carrinho - informações do cupom](./assets/coupon-info.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -85,19 +85,19 @@ O comprimento e o formato dos códigos de cupom gerados automaticamente são con
 
 1. Para tornar o cupom válido por um período de tempo, faça o seguinte:
 
-   - ![Magento Open Source](../assets/open-source.svg) (Somente Magento Open Source) Conclua o **De** e **Para** datas. Para selecionar a data, clique no link **Calendário** (![Ícone de calendário](../assets/icon-calendar.png)) ao lado de cada campo. Se você deixar o intervalo de datas vazio, a regra não expirará.
+   - ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Conclua as datas **De** e **Até**. Para selecionar a data, clique no ícone **Calendário** (![Ícone de calendário](../assets/icon-calendar.png)) ao lado de cada campo. Se você deixar o intervalo de datas vazio, a regra não expirará.
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Somente no Adobe Commerce) Siga um destes procedimentos:
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Siga um destes procedimentos:
 
-     **Opção 1:** Agendar uma nova atualização
+     **Opção 1:** agendar uma nova atualização
 
       - Clique em **[!UICONTROL Schedule New Update]** no canto superior direito da página.
 
-        ![Agendar atualização](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+        ![Atualização do Calendário](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
       - Insira o **[!UICONTROL Update Name]** e **[!UICONTROL Description]**.
 
-      - Escolha o **Data de início** e **[!UICONTROL End Date]** no Calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). Se você deixar o intervalo de datas vazio, a regra não expirará.
+      - Escolha a **Data de Início** e **[!UICONTROL End Date]** no Calendário ( ![Ícone de Calendário](../assets/icon-calendar.png) ). Se você deixar o intervalo de datas vazio, a regra não expirará.
 
       - Quando terminar, clique em **[!UICONTROL Save]**.
 
@@ -105,19 +105,19 @@ O comprimento e o formato dos códigos de cupom gerados automaticamente são con
 
      **Opção 2:** Atribuir a uma atualização existente:
 
-      - Selecionar **[!UICONTROL Assign to Another Update]**.
+      - Selecione **[!UICONTROL Assign to Another Update]**.
 
       - Localize a atualização na lista e clique em **[!UICONTROL Select]**.
 
-1. Conclua o [regra de preço do carrinho](price-rules-cart.md) conforme necessário.
+1. Conclua a [regra de preço do carrinho](price-rules-cart.md) conforme necessário.
 
 ### Método 2: Gerar um lote de cupons
 
 A geração de cupons de desconto é uma operação assíncrona, executada em segundo plano para que você possa continuar trabalhando no Administrador sem esperar a conclusão da operação. O sistema exibe uma mensagem quando a tarefa é concluída.
 
-1. Siga as instruções para criar um [regra de preço do carrinho](price-rules-cart.md).
+1. Siga as instruções para criar uma [regra de preço do carrinho](price-rules-cart.md).
 
-1. Em **[!UICONTROL Coupon Code]**, selecione o **[!UICONTROL Use Auto Generation]** caixa de seleção
+1. Em **[!UICONTROL Coupon Code]**, marque a caixa de seleção **[!UICONTROL Use Auto Generation]**.
 
 1. Para limitar o número de vezes que cada cliente pode usar o cupom, insira o número de **[!UICONTROL Uses per Customer]**.
 
@@ -127,25 +127,25 @@ A geração de cupons de desconto é uma operação assíncrona, executada em se
    >
    >Se houver uso simultâneo do mesmo cupom por vários clientes ao mesmo tempo, é possível que o limite de uso definido seja excedido devido ao processamento atrasado do cupom.
 
-1. Rolar para baixo e expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Manage Coupon Codes]** e faça o seguinte:
+1. Role para baixo e expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Manage Coupon Codes]** e faça o seguinte:
 
    ![Regra de preço do carrinho - gerenciar códigos de cupom](./assets/manage-coupon-codes.png){width="600" zoomable="yes"}
 
-   - Para **[!UICONTROL Coupons Qty]**, insira o número de cupons que deseja gerar.
+   - Para **[!UICONTROL Coupons Qty]**, insira o número de cupons que você deseja gerar.
 
-   - Insira o **[!UICONTROL Code Length]**, sem incluir o prefixo, sufixo ou separadores.
+   - Insira o **[!UICONTROL Code Length]**, sem incluir prefixo, sufixo ou separadores.
 
-   - Defina o **[!UICONTROL Code Format]** a um dos seguintes:
+   - Defina o **[!UICONTROL Code Format]** como um dos seguintes:
 
       - `Alphanumeric`
       - `Alphabetical`
       - `Numeric`
 
-   - (Opcional) Insira um **[!UICONTROL Code Prefix]** para ser adicionado ao início do código.
+   - (Opcional) Digite um **[!UICONTROL Code Prefix]** para ser adicionado ao início do código.
 
-   - (Opcional) Insira um **[!UICONTROL Code Suffix]** para ser adicionado ao final do código.
+   - (Opcional) Digite um **[!UICONTROL Code Suffix]** para ser adicionado ao final do código.
 
-   - (Opcional) Para **[!UICONTROL Dash Every X Characters]**, digite o número de caracteres entre cada traço. Por exemplo, se o código tiver 12 caracteres e houver um traço a cada quatro caracteres, ele terá a aparência de `xxxx-xxxx-xxxx`. Os traços facilitam a leitura e a inserção dos códigos.
+   - (Opcional) Para **[!UICONTROL Dash Every X Characters]**, insira o número de caracteres entre cada traço. Por exemplo, se o código tiver 12 caracteres e houver um traço a cada quatro caracteres, ele terá a aparência de `xxxx-xxxx-xxxx`. Os traços facilitam a leitura e a inserção dos códigos.
 
 1. Quando terminar, clique em **[!UICONTROL Generate]**.
 
@@ -162,31 +162,31 @@ A geração de cupons de desconto é uma operação assíncrona, executada em se
 
    {style="table-layout:auto"}
 
-Você pode exportar códigos de cupom para um arquivo CSV ou Excel XML selecionando o formato do arquivo e clicando em **[!UICONTROL Export]**.
+Você pode exportar códigos de cupom para um arquivo CSV ou XML do Excel selecionando o formato do arquivo e clicando em **[!UICONTROL Export]**.
 
-Para excluir códigos de cupom, selecione um ou mais códigos na lista. Selecionar `Delete` do **[!UICONTROL Actions]**  e clique em **[!UICONTROL Submit]**.
+Para excluir códigos de cupom, selecione um ou mais códigos na lista. Selecione `Delete` no seletor **[!UICONTROL Actions]** e clique em **[!UICONTROL Submit]**.
 
 >[!NOTE]
 >
->Embora o Commerce permita a configuração de vários códigos de cupom, um cliente pode usar apenas um código de cupom no carrinho. Para permitir o uso de mais de um código de cupom no carrinho simultaneamente, considere usar uma extensão correspondente de [Commerce Marketplace](https://marketplace.magento.com/).
+>Embora a Commerce permita configurar vários códigos de cupom, um cliente pode usar apenas um código de cupom no carrinho. Para permitir o uso de mais de um código de cupom no carrinho simultaneamente, considere o uso de uma extensão correspondente de [Commerce Marketplace](https://marketplace.magento.com/).
 
 ## Relatório de cupons
 
-A variável _Cupons_ O relatório agrega dados de cada cupom usado durante um intervalo de datas específico. Como os cupons são aplicados a partir do carrinho de compras, o relatório inclui dados de todos os cupons resgatados, independentemente da [status do pedido](../stores-purchase/order-status.md). Como resultado, o relatório pode incluir os totais projetados e reais. O relatório pode ser filtrado por uma exibição de loja específica, período de tempo, status do pedido e regra de preço do carrinho.
+O relatório _Cupons_ agrega dados de cada cupom usado durante um intervalo de datas específico. Como os cupons são aplicados a partir do carrinho de compras, o relatório inclui dados de todos os cupons resgatados, independentemente do [status do pedido](../stores-purchase/order-status.md). Como resultado, o relatório pode incluir os totais projetados e reais. O relatório pode ser filtrado por uma exibição de loja específica, período de tempo, status do pedido e regra de preço do carrinho.
 
-No exemplo a seguir, o código de cupom &quot;H20&quot; foi usado por dois clientes. Um dos pedidos é faturado, mas o outro ainda é _pendente_. As colunas Subtotal de Vendas projetado, Desconto de Vendas e Total de Vendas mostram os valores agregados de ambas as ordens, mas somente a ordem faturada real aparece nas colunas Subtotal, Desconto e Total. Cada linha no relatório representa uma promoção de cupom única.
+No exemplo a seguir, o código de cupom &quot;H20&quot; foi usado por dois clientes. Um dos pedidos é faturado, mas o outro ainda está _pendente_. As colunas Subtotal de Vendas projetado, Desconto de Vendas e Total de Vendas mostram os valores agregados de ambas as ordens, mas somente a ordem faturada real aparece nas colunas Subtotal, Desconto e Total. Cada linha no relatório representa uma promoção de cupom única.
 
 ![Relatório de cupons](./assets/reports-coupons.png){width="600" zoomable="yes"}
 
 ### Executar o relatório
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Coupons]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Coupons]**.
 
 1. Se você tiver várias exibições de loja, defina **[!DNL Store View]** no canto superior esquerdo para estabelecer o escopo do relatório.
 
-1. Para atualizar as vendas [statistics](../getting-started/sales-reports.md#refresh-statistics) para o dia, clique no link _Última atualização_ na parte superior do espaço de trabalho.
+1. Para atualizar as [estatísticas](../getting-started/sales-reports.md#refresh-statistics) de vendas do dia, clique na mensagem _Última Atualização_ na parte superior do espaço de trabalho.
 
-   Em seguida, clique para selecionar a variável **[!UICONTROL Coupons]** e clique em **[!UICONTROL Refresh]**.
+   Em seguida, clique para marcar a caixa de seleção **[!UICONTROL Coupons]** e clique em **[!UICONTROL Refresh]**.
 
    ![Relatório de cupons - atualizar estatísticas](./assets/reports-coupons-refresh-statistics.png){width="600" zoomable="yes"}
 
@@ -194,29 +194,29 @@ No exemplo a seguir, o código de cupom &quot;H20&quot; foi usado por dois clien
 
    ![Relatório de cupom - filtros](./assets/reports-coupons-filters.png){width="600" zoomable="yes"}
 
-   - Definir **[!UICONTROL Date Used]** a um dos seguintes:
+   - Defina **[!UICONTROL Date Used]** como um dos seguintes:
 
       - `Order Created`
       - `Order Updated`
 
-     A variável _Pedido atualizado_ O relatório do é criado em tempo real e não requer uma atualização.
+     O relatório _Pedido atualizado_ é criado em tempo real e não requer atualização.
 
-   - Para definir o período coberto pelo relatório, defina **[!UICONTROL Period]** a um dos seguintes:
+   - Para definir o período coberto pelo relatório, defina **[!UICONTROL Period]** como um dos seguintes:
 
       - `Day`
       - `Month`
       - `Year`
 
-   - Para definir o intervalo de datas do relatório, informe o **De** e **Para** datas no formato M/D/AA.
+   - Para definir o intervalo de datas do relatório, insira as datas **De** e **Até** no formato D/M/AA.
 
-   - Para imprimir um relatório de um [status do pedido](../stores-purchase/order-status.md), definir **[!UICONTROL Order Status]** para `Specified` e escolha o status do pedido na lista.
+   - Para imprimir um relatório para um [status do pedido](../stores-purchase/order-status.md) específico, defina **[!UICONTROL Order Status]** como `Specified` e escolha o status do pedido na lista.
 
-   - Para omitir linhas sem dados do relatório, defina **[!UICONTROL Empty Rows]** para `No`.
+   - Para omitir linhas sem dados do relatório, defina **[!UICONTROL Empty Rows]** como `No`.
 
    - Para definir a atividade de cupom incluída no relatório, siga um destes procedimentos:
 
-      - Para incluir todas as atividades de cupom de todas as regras de preço, defina **[!UICONTROL Cart Price Rule]** para `Any`.
-      - Para incluir apenas a atividade relacionada a uma regra de preço específica, defina **[!UICONTROL Cart Price Rule]** para `Specified` e selecione a regra de preço do carrinho na lista.
+      - Para incluir todas as atividades de cupom de todas as regras de preço, defina **[!UICONTROL Cart Price Rule]** como `Any`.
+      - Para incluir apenas a atividade relacionada a uma regra de preço específica, defina **[!UICONTROL Cart Price Rule]** como `Specified` e selecione a regra de preço do carrinho na lista.
 
 1. Quando estiver pronto para executar o relatório, clique em **[!UICONTROL Show Report]**.
 
@@ -230,9 +230,9 @@ No exemplo a seguir, o código de cupom &quot;H20&quot; foi usado por dois clien
 | [!UICONTROL Period] | Determina o tipo de intervalo de datas usado para o relatório. Opções: `Day` / `Month` / `Year` |
 | [!UICONTROL From] | Indica a primeira data no intervalo de dados de pedido que está incluído no relatório. |
 | [!UICONTROL To] | Indica a última data no intervalo de dados de pedido que está incluído no relatório. |
-| [!UICONTROL Order Status] | Filtra o relatório por status de pedido. O relatório pode ser gerado para todos os pedidos ou pode ser limitado a um status de pedido específico. Opções: <br/>**[!UICONTROL Any]**: inclui todos os pedidos, independentemente do status.<br/>**[!UICONTROL Specified]**: inclui somente pedidos com o status especificado. Os pedidos cancelados não são incluídos no relatório. |
+| [!UICONTROL Order Status] | Filtra o relatório por status de pedido. O relatório pode ser gerado para todos os pedidos ou pode ser limitado a um status de pedido específico. Opções: <br/>**[!UICONTROL Any]**: inclui todas as ordens independentemente do status.<br/>**[!UICONTROL Specified]**: Inclui somente pedidos com o status especificado. Os pedidos cancelados não são incluídos no relatório. |
 | [!UICONTROL Empty Rows] | Determina se o relatório inclui linhas de dados vazios que possam ser recuperadas. Opções: `Yes` / `No` |
-| [!UICONTROL Cart Price Rules] | Determina quais promoções de cupom são incluídas no relatório. Opções:<br/>**[!UICONTROL Any]**: inclui informações da ordem para qualquer promoção de cupom usada durante o intervalo de datas especificado.<br/>**[!UICONTROL Specified]**: Inclui apenas informações da ordem da promoção de cupom selecionada durante o intervalo de datas especificado. |
+| [!UICONTROL Cart Price Rules] | Determina quais promoções de cupom são incluídas no relatório. Opções:<br/>**[!UICONTROL Any]**: inclui informações de ordem para qualquer promoção de cupom que foi usada durante o intervalo de datas especificado.<br/>**[!UICONTROL Specified]**: Inclui somente informações de ordem para a promoção de cupom selecionada durante o intervalo de datas especificado. |
 
 {style="table-layout:auto"}
 
@@ -240,13 +240,13 @@ No exemplo a seguir, o código de cupom &quot;H20&quot; foi usado por dois clien
 
 | Coluna | Descrição |
 |--- |--- |
-| [!UICONTROL Interval] | Indica o intervalo de datas de uso do cupom a ser incluído no relatório. O intervalo pode ser um dia, mês ou ano específico ou um intervalo de datas. A data do intervalo é formatada como nos exemplos a seguir, de acordo com o valor definido em **[!UICONTROL Period]** configuração:<br/>`Day`: 21/06/19<br/>`Month`: 6/2019<br/>`Year`: 2019 |
+| [!UICONTROL Interval] | Indica o intervalo de datas de uso do cupom a ser incluído no relatório. O intervalo pode ser um dia, mês ou ano específico ou um intervalo de datas. A data do intervalo é formatada como nos exemplos a seguir, de acordo com o valor definido na configuração **[!UICONTROL Period]**:<br/>`Day`: 21/6/19<br/>`Month`: 6/2019<br/>`Year`: 2019 |
 | [!UICONTROL Coupon Code] | O Código de Desconto inserido pelos clientes no carrinho de compras para receber o desconto. |
 | [!UICONTROL Price Rule] | O nome da regra de preço associada ao cupom. |
 | [!UICONTROL Uses] | O número de vezes que o cupom foi usado durante o intervalo de datas especificado para o relatório. |
-| [!UICONTROL Sales Subtotal] | O Subtotal projetado de todos os pedidos feitos com o cupom. <br/>O Subtotal de Vendas representa o Subtotal agregado de todas as ordens qualificadas e inclui `Pending` ordens de venda ainda não faturadas. |
-| [!UICONTROL Sales Discount] | O valor de Desconto projetado de todos os pedidos feitos com o cupom. <br/>O Desconto representa a quantia de desconto agregada de todas as ordens qualificadas e inclui `Pending` ordens de venda ainda não faturadas. |
-| [!UICONTROL Sales Total] | O Total Geral projetado de todos os pedidos feitos com o cupom. O Total de Vendas inclui todas as taxas de remessa e manuseio, menos o valor do desconto. <br/>O Total de Vendas representa o valor total geral agregado de todos os pedidos qualificados e inclui `Pending` ordens de venda ainda não faturadas. O valor inclui o Subtotal mais Entrega e Manuseio, menos o Desconto, mais Imposto. <br/> Calculado por: `((Subtotal + Shipping & Handling) - Discount) + Tax` |
+| [!UICONTROL Sales Subtotal] | O Subtotal projetado de todos os pedidos feitos com o cupom. <br/>O Subtotal de Vendas representa o Subtotal agregado de todas as ordens qualificadas e inclui `Pending` ordens de venda que ainda não foram faturadas. |
+| [!UICONTROL Sales Discount] | O valor de Desconto projetado de todos os pedidos feitos com o cupom. <br/>O Desconto representa o valor de desconto agregado de todas as ordens qualificadas e inclui `Pending` ordens de venda que ainda não foram faturadas. |
+| [!UICONTROL Sales Total] | O Total Geral projetado de todos os pedidos feitos com o cupom. O Total de Vendas inclui todas as taxas de remessa e manuseio, menos o valor do desconto. <br/>O Total de Vendas representa o valor total geral agregado de todas as ordens qualificadas e inclui `Pending` ordens de venda que ainda não foram faturadas. O valor inclui o Subtotal mais Entrega e Manuseio, menos o Desconto, mais Imposto. <br/> Calculado por: `((Subtotal + Shipping & Handling) - Discount) + Tax` |
 | [!UICONTROL Subtotal] | O Subtotal agregado de todas as ordens faturadas que usaram o cupom. |
 | [!UICONTROL Discount] | O Desconto agregado de todas as ordens faturadas que usaram o cupom. |
 | [!UICONTROL Total] | O Total do Pedido agregado de todas as ordens faturadas que usaram o cupom. |

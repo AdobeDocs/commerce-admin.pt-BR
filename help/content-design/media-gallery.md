@@ -1,28 +1,28 @@
 ---
-title: A variável [!DNL Media Gallery]
+title: O  [!DNL Media Gallery]
 description: Use a Galeria de mídia para organizar e gerenciar seus arquivos de mídia no servidor.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
-# A variável [!DNL Media Gallery]
+# O [!DNL Media Gallery]
 
-Com o Adobe Commerce ou o Magento Open Source 2.4, os comerciantes podem usar o novo _aprimorado_ [!DNL Media Gallery] para organizar e gerenciar os arquivos de mídia no servidor. Este novo [!DNL Media Gallery] O contém as mesmas funcionalidades que o armazenamento de mídia existente, mas inclui uma interface de usuário aprimorada e uma integração mais estreita com o [Adobe Stock][adobe-stock].
+Com o Adobe Commerce ou o Magento Open Source 2.4, os comerciantes podem usar o novo _enhanced_ [!DNL Media Gallery] para organizar e gerenciar seus arquivos de mídia no servidor. Este novo [!DNL Media Gallery] contém as mesmas funcionalidades que o armazenamento de mídia existente, mas inclui uma interface de usuário aprimorada e uma integração mais próxima com o [Adobe Stock][adobe-stock].
 
-![Imagens exibidas na grade da Galeria de mídia](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
+![Imagens exibidas na grade da Galeria de Mídia](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->Imagens do produto adicionadas à [_[!UICONTROL Images and Videos]_seção do produto](../catalog/product-image.md#upload-an-image) não são gerenciados pela [!DNL Media Gallery]. Somente imagens usadas na_[!UICONTROL Content]_ os campos de seção do produto são exibidos e filtrados no novo [!DNL Media Gallery].
+>Imagens de produtos adicionadas à seção de produtos [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) não são gerenciadas pelo [!DNL Media Gallery]. Somente imagens usadas nos campos da seção do produto_[!UICONTROL Content]_ são exibidas e filtradas no novo [!DNL Media Gallery].
 
-## Ativar o novo [!DNL Media Gallery]
+## Habilitar o novo [!DNL Media Gallery]
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Advanced]** e escolha **[!UICONTROL System]**.
 
@@ -30,43 +30,43 @@ Com o Adobe Commerce ou o Magento Open Source 2.4, os comerciantes podem usar o 
 
    ![Configuração avançada - [!DNL Media Gallery]](./assets/system-media-gallery.png){width="600" zoomable="yes"}
 
-1. Definir **[!UICONTROL Enable Old Media Gallery]** para `No`.
+1. Defina **[!UICONTROL Enable Old Media Gallery]** como `No`.
 
 1. Clique em **[!UICONTROL Save Config]**.
 
-1. Quando solicitado, clique no link **[!UICONTROL Cache Management]** vincular na mensagem do sistema e atualizar o cache inválido.
+1. Quando solicitado, clique no link **[!UICONTROL Cache Management]** na mensagem do sistema e atualize o cache inválido.
 
-   A variável [[!UICONTROL Content] menu](/help/content-design/content-menu.md) agora exibe o novo _[!UICONTROL Media Gallery]_opção.
+   O menu [[!UICONTROL Content] ](/help/content-design/content-menu.md) agora exibe a nova opção _[!UICONTROL Media Gallery]_.
 
 >[!NOTE]
 >
->Funcionalidade completa para novos [!DNL Media Gallery] exige `media.gallery.synchronization` e `media.content.synchronization` consumidores de fila a serem iniciados para sincronização inicial. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) no _Guia de configuração_ para obter mais detalhes.
+>A funcionalidade completa para o novo [!DNL Media Gallery] requer que os consumidores de fila `media.gallery.synchronization` e `media.content.synchronization` sejam iniciados para sincronização inicial. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) no _Guia de Configuração_ para obter mais detalhes.
 
-## Acesse o novo [!DNL Media Gallery]
+## Acessar o novo [!DNL Media Gallery]
 
-O novo [!DNL Media Gallery] pode ser acessada pelo menu Conteúdo ou quando você [adicionar ou editar uma página](/help/content-design/page-add.md). Também é possível acessá-lo quando você [criar ou editar uma categoria](/help/catalog/category-create.md)ou quando você [inserir imagens usando o Editor de conteúdo](/help/content-design/editor-insert-image.md).
+O novo [!DNL Media Gallery] pode ser acessado no menu Conteúdo ou quando você [adiciona ou edita uma página](/help/content-design/page-add.md). Você também pode acessá-las ao [criar ou editar uma categoria](/help/catalog/category-create.md) ou ao [inserir imagens usando o Editor de Conteúdo](/help/content-design/editor-insert-image.md).
 
-Para acessar o novo [!UICONTROL Media Gallery] por meio da [!UICONTROL Content] menu:
+Para acessar o novo [!UICONTROL Media Gallery] pelo menu [!UICONTROL Content]:
 
-- No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+- Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
 Para acessar a nova Galeria de mídia ao adicionar ou editar uma página:
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
 1. Clique em **[!UICONTROL Add a New Page]**.
 
-   Se quiser editar uma página existente, use o _[!UICONTROL Action]_coluna para clicar **[!UICONTROL Select]**e escolha **[!UICONTROL Edit]**.
+   Se quiser editar uma página existente, use a coluna _[!UICONTROL Action]_para clicar em **[!UICONTROL Select]**e escolher **[!UICONTROL Edit]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Content]** e faça o seguinte:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Content]** e faça o seguinte:
 
-   - Se você tiver [Page Builder ativado](../page-builder/setup.md), expanda a **[!UICONTROL Media]** e arraste um **[!UICONTROL Image]** espaço reservado para o contêiner de destino. Clique em **[!UICONTROL Select from Gallery]**.
+   - Se você tiver o [Page Builder habilitado](../page-builder/setup.md), expanda o painel **[!UICONTROL Media]** e arraste um espaço reservado **[!UICONTROL Image]** para o contêiner de destino. Depois clique em **[!UICONTROL Select from Gallery]**.
 
-     ![Arrastar imagem para o estágio](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
+     ![Arraste a imagem para o estágio](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
-   - Se você tiver o [Editor WYSIWYG habilitado](/help/content-design/editor.md), clique em **[!UICONTROL Show/Hide Editor]** e clique em **[!UICONTROL Insert Image]**.
+   - Se o [editor WYSIWYG](/help/content-design/editor.md) estiver habilitado, clique em **[!UICONTROL Show/Hide Editor]** e em **[!UICONTROL Insert Image]**.
 
-## [!DNL Media Gallery] demonstração
+## Demonstração do [!DNL Media Gallery]
 
 Para saber mais sobre o [!DNL Media Gallery], assista a este vídeo:
 

@@ -5,7 +5,7 @@ exl-id: 99023460-0501-45cd-8990-5f2b9ed7b4a2
 feature: Merchandising, Price Rules, Catalog Management
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -16,42 +16,42 @@ Uma única regra de preço de catálogo pode ser aplicada a vários SKUs, o que 
 
 ## Etapa 1. Verificar propriedades de vitrine do atributo de produto
 
-Antes de começar, verifique se [Propriedades da vitrine](../catalog/attribute-product-create.md#step-4-describe-the-storefront-properties) do `sku` atributo estão definidos como `Use in Promo Rules`.
+Antes de começar, verifique se as [Propriedades da vitrine](../catalog/attribute-product-create.md#step-4-describe-the-storefront-properties) do atributo `sku` estão definidas como `Use in Promo Rules`.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
-1. No filtro de pesquisa, na parte superior da guia _[!UICONTROL Attribute Code]_coluna, insira `sku` e clique em **[!UICONTROL Search]**.
+1. No filtro de pesquisa na parte superior da coluna _[!UICONTROL Attribute Code]_, digite `sku` e clique em **[!UICONTROL Search]**.
 
-1. Clique para abrir a `sku` atributo no modo de edição.
+1. Clique para abrir o atributo `sku` no modo de edição.
 
-1. No painel esquerdo, clique em **[!UICONTROL Storefront Properties]** e certifique-se de que **[!UICONTROL Use for Promo Rule Conditions]** está definida como `Yes`.
+1. No painel esquerdo, clique em **[!UICONTROL Storefront Properties]** e verifique se **[!UICONTROL Use for Promo Rule Conditions]** está definido como `Yes`.
 
 1. Se você alterou o valor da propriedade, clique em **[!UICONTROL Save Attribute]**.
 
 ## Etapa 2. Aplicar uma regra de preço a vários SKUs
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rules]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rules]**.
 
 1. Siga um destes procedimentos:
 
-   - Siga as instruções para criar um [regra de preço de catálogo](price-rules-catalog.md).
+   - Siga as instruções para criar uma [regra de preço de catálogo](price-rules-catalog.md).
    - Abra uma regra de preço de catálogo existente.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Conditions]** e faça o seguinte:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Conditions]** e faça o seguinte:
 
-   - Na primeira linha, defina o primeiro parâmetro para `ANY`.
+   - Na primeira linha, defina o primeiro parâmetro como `ANY`.
 
-     ![Condição da regra de preço de catálogo - QUALQUER](./assets/multiple-skus-condition1.png){width="600" zoomable="yes"}
+     ![Condição de regra de preço de catálogo - QUALQUER](./assets/multiple-skus-condition1.png){width="600" zoomable="yes"}
 
-   - Clique em _Adicionar_ (![Ícone Adicionar](../assets/icon-add-green-circle.png)) no início da próxima linha e na lista em **[!UICONTROL Product Attribute]**, clique em `SKU`.
+   - Clique em _Adicionar_ (![Ícone Adicionar](../assets/icon-add-green-circle.png)) no início da próxima linha e, na lista abaixo de **[!UICONTROL Product Attribute]**, clique em `SKU`.
 
-     ![Condição da regra de preço de catálogo - SKU é um de](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"}
+     ![Condição de regra de preço de catálogo - o SKU é um de](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"}
 
-   - Para a comparação, você tem opções. Se quiser localizar pelo menos um item de uma lista de SKUs, `select is one of`. Se quiser localizar um grupo de SKUs aos quais todos devem ser aplicados, selecione `is`. Recomendamos selecionar `is one of`.
+   - Para a comparação, você tem opções. Se quiser localizar pelo menos um item de uma lista de SKUs, `select is one of`. Se você quiser localizar um grupo de SKUs aos quais todos devem ser aplicados, selecione `is`. Recomendamos selecionar `is one of`.
 
-     ![Condição da regra de preço de catálogo - SKU é um de](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"}
+     ![Condição de regra de preço de catálogo - o SKU é um de](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"}
 
-   - Para concluir a condição, clique no sinal de mais (**..**) e clique no link _Seletor_ (![Ícone de Lista](../assets/icon-list-chooser.png)) para obter a lista de produtos disponíveis.
+   - Para concluir a condição, clique no link more (**...**) e clique no ícone _Chooser_ (![List icon](../assets/icon-list-chooser.png)) da lista de produtos disponíveis.
 
      ![Condição de regra de preço de catálogo - várias SKUs](./assets/multiple-skus-condition2b.png){width="600" zoomable="yes"}
 
@@ -61,8 +61,8 @@ Antes de começar, verifique se [Propriedades da vitrine](../catalog/attribute-p
 
      ![Condição de regra de preço de catálogo - várias SKUs](./assets/multiple-skus-condition2.png){width="600" zoomable="yes"}
 
-1. Complete a regra, incluindo qualquer [Ações](price-rules-catalog.md) a tomar quando as condições estiverem reunidas.
+1. Conclua a regra, incluindo quaisquer [Ações](price-rules-catalog.md) a serem executadas quando as condições forem atendidas.
 
-1. Quando a regra for concluída, clique em **[!UICONTROL Save]**.
+1. Quando a regra estiver concluída, clique em **[!UICONTROL Save]**.
 
 {{new-price-rule}}

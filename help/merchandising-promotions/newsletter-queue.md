@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Filas de informativo
 
-Para gerenciar a carga no servidor, boletins informativos com muitos assinantes são enviados em uma fila de vários lotes. Você pode verificar a fila de boletins informativos periodicamente para verificar o status e ver quantos foram processados. Quaisquer problemas que ocorrerem durante a transmissão aparecerão no _Problema no informativo_ relatório.
+Para gerenciar a carga no servidor, boletins informativos com muitos assinantes são enviados em uma fila de vários lotes. Você pode verificar a fila de boletins informativos periodicamente para verificar o status e ver quantos foram processados. Quaisquer problemas que ocorrerem durante a transmissão aparecerão no relatório _Problema com o informativo_.
 
 ## Enviar informativo
 
-1. No _Admin_ , acesse **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
+1. No menu _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
 
-1. Na grade, localize o [modelo de informativo](newsletter-template.md) que deve ser enviado e defina o **[!UICONTROL Action]** coluna para `Queue Newsletter`.
+1. Na grade, localize o [modelo de informativo](newsletter-template.md) a ser enviado e defina a coluna **[!UICONTROL Action]** como `Queue Newsletter`.
 
-1. Para **[!UICONTROL Queue Date Start]**, selecione a data em que a transmissão começará a partir do calendário (![Ícone de calendário](../assets/icon-calendar.png)).
+1. Para **[!UICONTROL Queue Date Start]**, selecione a data em que a transmissão deve começar no calendário (![Ícone de calendário](../assets/icon-calendar.png)).
 
-1. Para **[!UICONTROL Subscribers From]**, selecione cada exibição de loja a ser incluída na explosão do email.
+1. Para **[!UICONTROL Subscribers From]**, selecione cada exibição de armazenamento a ser incluída na explosão do email.
 
 1. Preencha as informações do cabeçalho do email:
 
-   - Insira uma breve descrição do informativo para o **[!UICONTROL Subject]** linha do cabeçalho do email.
+   - Insira uma breve descrição do informativo para a linha **[!UICONTROL Subject]** do cabeçalho do email.
 
    - Insira o **[!UICONTROL Sender Name]**.
 
@@ -36,13 +36,13 @@ Para gerenciar a carga no servidor, boletins informativos com muitos assinantes 
 
      ![Informações da fila de informativos](./assets/newsletter-queue-information1.png){width="600" zoomable="yes"}
 
-1. Se aplicável, insira uma nota no campo **[!UICONTROL Message]** acima das instruções para cancelar a inscrição.
+1. Se aplicável, insira uma observação na caixa **[!UICONTROL Message]** acima das instruções para cancelar a inscrição.
 
    >[!NOTE]
    >
    >Não remova as instruções, que são exigidas por lei em muitas jurisdições.
 
-1. Para aplicar estilos personalizados a um boletim informativo, adicione-os à **[!UICONTROL Newsletter Styles]** campo.
+1. Para aplicar estilos personalizados a um informativo, adicione-os ao campo **[!UICONTROL Newsletter Styles]**.
 
 1. Quando terminar, clique em **[!UICONTROL Save and Resume]**.
 
@@ -50,7 +50,7 @@ Para gerenciar a carga no servidor, boletins informativos com muitos assinantes 
 
 ## Verificar se há problemas
 
-No _Admin_ , acesse **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Newsletter Problem Reports]**.
+No menu _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Newsletter Problem Reports]**.
 
 ## Barra de botões
 
@@ -72,9 +72,9 @@ No _Admin_ , acesse **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICO
 | [!UICONTROL Queue Start] | A data em que o informativo foi enviado. |
 | [!UICONTROL Queue End] | A data em que o informativo terminou de ser enviado. |
 | [!UICONTROL Subject] | Assunto do modelo do informativo. |
-| [!UICONTROL Status] | Indica o status do correio do informativo. Valores possíveis: `Sent`, `Canceled`, `Not Sent`, `Sending`ou `Paused`. |
+| [!UICONTROL Status] | Indica o status do correio do informativo. Valores possíveis: `Sent`, `Canceled`, `Not Sent`, `Sending` ou `Paused`. |
 | [!UICONTROL Processed] | Indica quantos informativos foram enviados. |
 | [!UICONTROL Recipients] | Indica quantos informativos foram recebidos pelos assinantes. |
-| [!UICONTROL Actions] | **[!UICONTROL Preview]**: abre uma janela separada para visualizar o template. |
+| [!UICONTROL Actions] | **[!UICONTROL Preview]**: abre uma janela separada para visualizar o modelo. |
 
 {style="table-layout:auto"}

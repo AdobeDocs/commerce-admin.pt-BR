@@ -5,7 +5,7 @@ exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
 ## Método 1: importar imagens do servidor local
 
-1. No servidor do Commerce, faça upload dos arquivos de imagem para o `var/import/images` ou uma subpasta, como `var/import/images/product_images`. Esta é a pasta raiz padrão para importar imagens de produtos.
+1. No servidor do Commerce, carregue os arquivos de imagem para a pasta `var/import/images` ou uma subpasta, como `var/import/images/product_images`. Esta é a pasta raiz padrão para importar imagens de produtos.
 
    ```terminal
    <Magento root folder>/var/import/images
@@ -34,17 +34,17 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
    >[!NOTE]
    >
-   Primeiramente com o Adobe Commerce e o Magento Open Source `2.3.2` versão, o caminho especificado na variável **[!UICONTROL Images File Directory]** concatenados para importação no diretório base de imagens - `<Magento-root-folder>/var/import/images`. Para versões anteriores do Adobe Commerce e do Magento Open Source, é possível usar uma pasta diferente no servidor do Commerce, desde que o caminho para a pasta seja especificado durante o processo de importação.
+   >Começando com a versão Adobe Commerce e Magento Open Source `2.3.2`, o caminho especificado nos concatenados **[!UICONTROL Images File Directory]** para importação no diretório base de imagens - `<Magento-root-folder>/var/import/images`. Para versões anteriores do Adobe Commerce e do Magento Open Source, é possível usar uma pasta diferente no servidor do Commerce, desde que o caminho para a pasta seja especificado durante o processo de importação.
 
-1. Nos dados do CSV, digite o nome de cada arquivo de imagem a ser importado na linha correta, ao `sku`e na coluna correta, de acordo com o tipo de imagem (`base_image`, `small_image`, `thumbnail_image`ou `additional_images`).
+1. Nos dados CSV, insira o nome de cada arquivo de imagem a ser importado na linha correta, por `sku`, e na coluna correta, de acordo com o tipo de imagem (`base_image`, `small_image`, `thumbnail_image` ou `additional_images`).
 
    >[!NOTE]
    >
-   Para imagens na pasta de importação padrão (`var/import/images`), não inclua o caminho antes do nome do arquivo nos dados CSV.
+   >Para imagens na pasta de importação padrão (`var/import/images`), não inclua o caminho antes do nome do arquivo nos dados CSV.
 
-   O arquivo CSV deve incluir apenas o `sku` e as colunas de imagem relacionadas.
+   O arquivo CSV deve incluir somente a coluna `sku` e as colunas de imagem relacionadas.
 
-   ![Exemplo - importação de dados de imagem CSV](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
+   ![Exemplo - Importação de dados de imagem CSV](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
 1. Siga as instruções para [importar](data-import.md) os dados.
 
@@ -58,15 +58,15 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
    >[!TIP]
    >
-   Sair _[!UICONTROL Images File Directory]_em branco para usar o `<Magento-root-folder>/var/import/images` diretório. A partir do Adobe Commerce e do Magento Open Source versão 2.3.2, este é o diretório base de imagens de importação padrão.
+   >Deixe _[!UICONTROL Images File Directory]_em branco para usar o diretório `<Magento-root-folder>/var/import/images`. A partir do Adobe Commerce e do Magento Open Source versão 2.3.2, este é o diretório base de imagens de importação padrão.
 
-   Se estiver importando várias imagens para um único `sku`, insira as imagens em uma coluna chamada `additional_images` (adicione a coluna, se ainda não estiver adicionada), separada por vírgulas. Exemplo: `image02.jpg,image03.jpg`
+   Se estiver importando várias imagens para uma única `sku`, insira as imagens em uma coluna chamada `additional_images` (adicione a coluna caso ainda não tenha sido adicionada), separadas por vírgulas. Exemplo: `image02.jpg,image03.jpg`
 
 ## Método 2: importar imagens do servidor externo
 
 1. Faça upload das imagens a serem importadas para a pasta designada no servidor externo.
 
-1. Nos dados do CSV, insira o URL completo de cada arquivo de imagem na coluna correta por tipo de imagem (`base_image`, `small_image`, `thumbnail_image`ou `additional_images`).
+1. Nos dados do CSV, insira a URL completa para cada arquivo de imagem na coluna correta por tipo de imagem (`base_image`, `small_image`, `thumbnail_image` ou `additional_images`).
 
    ```terminal
    https://example.com/images/image.jpg
@@ -76,7 +76,7 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
 ## Método 3: importar imagens com armazenamento remoto
 
-1. No módulo de Armazenamento remoto, faça upload dos arquivos de imagem para o `var/import/images` ou uma subpasta, como `var/import/images/product_images`. Esta é a pasta raiz padrão para importar imagens de produtos.
+1. No módulo de Armazenamento remoto, carregue os arquivos de imagem na pasta `var/import/images` ou em uma subpasta, como `var/import/images/product_images`. Esta é a pasta raiz padrão para importar imagens de produtos.
 
    ```terminal
    <remote-storage-root-folder>/var/import/images
@@ -84,17 +84,17 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
    >[!NOTE]
    >
-   Primeiramente com o Adobe Commerce e o Magento Open Source `2.3.2` versão, o caminho especificado na variável _[!UICONTROL Images File Directory]_concatena para importação no diretório base de imagens: `<remote-storage-root-folder>/var/import/images`. Para versões anteriores do Adobe Commerce e do Magento Open Source, é possível usar uma pasta diferente no servidor do Commerce, desde que o caminho para a pasta seja especificado durante o processo de importação.
+   >Começando com a versão Adobe Commerce e Magento Open Source `2.3.2`, o caminho especificado nos _[!UICONTROL Images File Directory]_concatenados para importação no diretório base de imagens: `<remote-storage-root-folder>/var/import/images`. Para versões anteriores do Adobe Commerce e do Magento Open Source, é possível usar uma pasta diferente no servidor do Commerce, desde que o caminho para a pasta seja especificado durante o processo de importação.
 
-1. Nos dados do CSV, digite o nome de cada arquivo de imagem a ser importado na linha correta, ao `sku`e na coluna correta, de acordo com o tipo de imagem (`base_image`, `small_image`, `thumbnail_image`ou `additional_images`).
+1. Nos dados CSV, insira o nome de cada arquivo de imagem a ser importado na linha correta, por `sku`, e na coluna correta, de acordo com o tipo de imagem (`base_image`, `small_image`, `thumbnail_image` ou `additional_images`).
 
    >[!NOTE]
    >
-   Para imagens na pasta de importação padrão (`var/import/images`), não inclua o caminho antes do nome do arquivo nos dados CSV.
+   >Para imagens na pasta de importação padrão (`var/import/images`), não inclua o caminho antes do nome do arquivo nos dados CSV.
 
-   O arquivo CSV deve incluir apenas o `sku` e as colunas de imagem relacionadas.
+   O arquivo CSV deve incluir somente a coluna `sku` e as colunas de imagem relacionadas.
 
-   ![Exemplo - importação de dados de imagem CSV](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
+   ![Exemplo - Importação de dados de imagem CSV](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
 1. Siga as instruções para [importar](data-import.md) os dados.
 
@@ -106,12 +106,12 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
    >[!TIP]
    >
-   Deixe a _[!UICONTROL Images File Directory]_em branco para usar o `<Magento-root-folder>/var/import/images` diretório. A partir do Adobe Commerce e do Magento Open Source versão 2.3.2, este é o diretório base de imagens de importação padrão.
+   >Deixe o _[!UICONTROL Images File Directory]_em branco para usar o diretório `<Magento-root-folder>/var/import/images`. A partir do Adobe Commerce e do Magento Open Source versão 2.3.2, este é o diretório base de imagens de importação padrão.
 
-   Se estiver importando várias imagens para um único `sku`, insira as imagens em uma coluna chamada `additional_images` (adicione a coluna se ainda não tiver sido adicionada), separadas por vírgulas: `image02.jpg,image03.jpg`
+   Se estiver importando várias imagens para uma única `sku`, insira as imagens em uma coluna chamada `additional_images` (adicione a coluna caso ainda não tenha sido adicionada), separadas por vírgulas: `image02.jpg,image03.jpg`
 
-Para obter mais informações sobre como ativar e gerenciar o módulo de Armazenamento remoto, consulte [Configurar armazenamento remoto](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) no _Guia de configuração_.
+Para obter mais informações sobre como habilitar e gerenciar o módulo de Armazenamento remoto, consulte [Configurar armazenamento remoto](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) no _Guia de configuração_.
 
 >[!NOTE]
 >
-A importação de imagens de produtos não inicia o redimensionamento da imagem. As imagens do produto são redimensionadas no front-end por `pub/get.php`. Verifique se o seu `pub/get.php` está funcionando corretamente; caso contrário, as imagens podem não ser redimensionadas.
+>A importação de imagens de produtos não inicia o redimensionamento da imagem. As imagens do produto são redimensionadas no front-end por `pub/get.php`. Verifique se o `pub/get.php` está funcionando corretamente; caso contrário, as imagens podem não ser redimensionadas.

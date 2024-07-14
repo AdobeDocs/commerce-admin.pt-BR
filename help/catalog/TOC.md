@@ -65,7 +65,7 @@ ht-degree: 1%
       + [Configuração do ativo de imagem](product-image-config.md)
       + [Gerenciar imagens do produto](product-image.md)
       + [Adicionar vídeos de produtos](product-video.md)
-      + Gerenciar modelos de produtos 3D {#product-3d-model}
+      + Gerenciar modelos de produto 3D {#product-3d-model}
          + [Visão geral do Visualizador de AR](ar-viewer-overview.md)
          + [Configuração do Visualizador de AR](ar-viewer-setup.md)
    + Gerenciar preços {#pricing}
@@ -99,5 +99,5 @@ ht-degree: 1%
       + [Criar e excluir atributos](attribute-product-create.md)
       + [Atualizações em massa](bulk-product-attribute-update.md)
       + [Conjuntos de atributos](attribute-sets.md)
-+ [Retornar aos Guias do comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do Comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

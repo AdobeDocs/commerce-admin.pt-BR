@@ -14,28 +14,28 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Um segmento de cliente pode ser usado para promoções direcionadas ao associá-lo a um [regra de preço do carrinho](../merchandising-promotions/price-rules-cart.md).
+Um segmento de cliente pode ser usado para promoções segmentadas, associando-o a uma [regra de preço do carrinho](../merchandising-promotions/price-rules-cart.md).
 
 ![Regra de preço do carrinho - segmento de cliente direcionado](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_**Para associar um segmento a uma regra de preço do carrinho:**_
+_**Para associar um segmento a uma regra de preço de carrinho:**_
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _Promoções_ > **[!UICONTROL Cart Price Rules]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _Promoções_ > **[!UICONTROL Cart Price Rules]**.
 
 1. Abrir uma regra nova ou existente:
 
    * Para usar uma nova regra, clique em **[!UICONTROL Add New Rule]** no canto superior direito.
    * Para usar uma regra existente, clique na regra na lista para abri-la no modo de edição.
 
-1. Role para baixo e expanda a **[!UICONTROL Conditions]** seção.
+1. Role para baixo e expanda a seção **[!UICONTROL Conditions]**.
 
 1. Adicione a condição.
 
-   * Clique em _Adicionar_ (![Ícone de Lista](../assets/icon-add-green-circle.png)), que exibe a lista de condições. Em seguida, escolha **[!UICONTROL Customer Segment]**.
+   * Clique no ícone _Adicionar_ (![Ícone de Lista](../assets/icon-add-green-circle.png)), que exibe a lista de condições. Em seguida, escolha **[!UICONTROL Customer Segment]**.
 
    ![Regra de preço do carrinho - adicionar condição de segmento de cliente](assets/condition-customer-segment.png){width="600" zoomable="yes"}
 
-   Por padrão, a condição é definida para encontrar uma condição correspondente. Se necessário, clique no link **[!UICONTROL matches]** vincule e altere o operador para um dos seguintes:
+   Por padrão, a condição é definida para encontrar uma condição correspondente. Se necessário, clique no link **[!UICONTROL matches]** e altere o operador para um dos seguintes:
 
    * `does not match`
    * `is one of`
@@ -43,7 +43,7 @@ _**Para associar um segmento a uma regra de preço do carrinho:**_
 
    ![Operador de condição](assets/price-rule-condition-customer-segment-operator.png){width="600" zoomable="yes"}
 
-1. Para segmentar um segmento específico, clique no link Mais **..** para exibir opções adicionais. Em seguida, clique no link _Seletor_ (![Ícone de Lista](../assets/icon-list-chooser.png)) para exibir a lista de segmentos de clientes.
+1. Para direcionar um segmento específico, clique no link Mais **...** para exibir opções adicionais. Em seguida, clique no ícone _Seletor_ (![Ícone de Lista](../assets/icon-list-chooser.png)) para exibir a lista de segmentos de clientes.
 
 1. Na lista, marque a caixa de seleção de cada segmento que você deseja direcionar com a condição.
 

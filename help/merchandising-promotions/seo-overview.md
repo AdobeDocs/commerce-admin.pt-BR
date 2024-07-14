@@ -12,29 +12,29 @@ ht-degree: 0%
 
 # Visão geral da SEO
 
-_Otimização do mecanismo de pesquisa_ (SEO) é a prática de ajustar o conteúdo e a apresentação de um site para melhorar a forma como as páginas são indexadas por mecanismos de pesquisa. O Commerce inclui vários recursos para dar suporte ao seu esforço contínuo de SEO.
+A _Otimização do mecanismo de pesquisa_ (SEO) é a prática de ajustar o conteúdo e a apresentação de um site para melhorar a forma como as páginas são indexadas pelos mecanismos de pesquisa. O Commerce inclui vários recursos para dar suporte ao seu esforço contínuo de SEO.
 
 ## Metadados
 
-Saiba mais sobre como adicionar e aprimorar palavras-chave ricas [metadados](meta-data.md) para seu site e loja.
+Saiba mais sobre como adicionar e aprimorar [metadados](meta-data.md) ricos em palavras-chave para seu site e loja.
 
 ## Uso de um mapa de site
 
-A [mapa do site](sitemap-xml.md) melhora a maneira como sua loja é indexada por mecanismos de pesquisa e é projetada para encontrar páginas que podem ser ignoradas por rastreadores da web. Um mapa do site pode ser configurado para indexar todas as páginas e imagens.
+Um [mapa do site](sitemap-xml.md) melhora a forma como o armazenamento é indexado pelos mecanismos de pesquisa e foi projetado para localizar páginas que podem ser ignoradas pelos rastreadores da Web. Um mapa do site pode ser configurado para indexar todas as páginas e imagens.
 
 ## Substituições de URL
 
-A variável [Regravação de URL](url-rewrite.md) A ferramenta permite alterar qualquer URL associado a um produto, categoria ou página do CMS.
+A ferramenta [Reescrita de URL](url-rewrite.md) permite alterar qualquer URL associada a um produto, categoria ou página de CMS.
 
 ## Robôs do mecanismo de pesquisa
 
-A configuração do Commerce inclui configurações para gerar e gerenciar instruções para rastreadores da Web e bots que indexam seu site. Se o pedido de `robots.txt` alcançar o Commerce (em vez de um arquivo físico), ele é roteado dinamicamente para o controlador de robôs. As instruções são diretivas reconhecidas e seguidas pela maioria dos mecanismos de pesquisa.
+A configuração do Commerce inclui configurações para gerar e gerenciar instruções para crawlers e bots da Web que indexam seu site. Se a solicitação de `robots.txt` atingir o Commerce (em vez de um arquivo físico), ela será roteada dinamicamente para o controlador de robôs. As instruções são diretivas reconhecidas e seguidas pela maioria dos mecanismos de pesquisa.
 
-Por padrão, o arquivo robots.txt gerado pelo Commerce contém instruções para que o crawler da Web evite indexar determinadas partes do site que contêm arquivos usados internamente pelo sistema. Você pode usar as configurações padrão ou definir suas próprias instruções personalizadas para todos ou para mecanismos de pesquisa específicos. Há muitos artigos online que exploram o assunto em detalhes.
+Por padrão, o arquivo robots.txt gerado pelo Commerce contém instruções para o crawler da Web evitar a indexação de determinadas partes do site que contêm arquivos usados internamente pelo sistema. Você pode usar as configurações padrão ou definir suas próprias instruções personalizadas para todos ou para mecanismos de pesquisa específicos. Há muitos artigos online que exploram o assunto em detalhes.
 
 ### Exemplo de instruções personalizadas
 
-**Permite acesso total**
+**Permite Acesso Completo**
 
     User-agent:*
     Não permitir:
@@ -44,7 +44,7 @@ Por padrão, o arquivo robots.txt gerado pelo Commerce contém instruções para
     User-agent:*
     Não permitir: /
 
-**Instruções padrão**
+**Instruções Padrão**
 
     User-agent: *
     Não permitir: /index.php/
@@ -64,17 +64,17 @@ Por padrão, o arquivo robots.txt gerado pelo Commerce contém instruções para
 
 ### Configurar `robots.txt`
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Localize o **[!UICONTROL Global]** na primeira linha da grade e clique em **[!UICONTROL Edit]**.
+1. Localize a configuração **[!UICONTROL Global]** na primeira linha da grade e clique em **[!UICONTROL Edit]**.
 
    ![Configuração de design global](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
 
-1. Rolar para baixo e expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Search Engine Robots]** e faça o seguinte:
+1. Role para baixo e expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Robots]** e faça o seguinte:
 
    ![Configuração de design - robôs de mecanismo de pesquisa](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
 
-   - Definir **[!UICONTROL Default Robots]** a um dos seguintes:
+   - Defina **[!UICONTROL Default Robots]** como um dos seguintes:
 
      | Opção | Descrição |
      |------|------------|
@@ -85,7 +85,7 @@ Por padrão, o arquivo robots.txt gerado pelo Commerce contém instruções para
 
      {style="table-layout:auto"}
 
-   - Se necessário, insira instruções personalizadas na caixa **[!UICONTROL Edit Custom instruction of robots.txt file]** caixa. Por exemplo, enquanto um site estiver em desenvolvimento, talvez você queira proibir o acesso a todas as pastas.
+   - Se necessário, insira instruções personalizadas na caixa **[!UICONTROL Edit Custom instruction of robots.txt file]**. Por exemplo, enquanto um site estiver em desenvolvimento, talvez você queira proibir o acesso a todas as pastas.
 
    - Para restaurar as instruções padrão, clique em **[!UICONTROL Reset to Default]**.
 

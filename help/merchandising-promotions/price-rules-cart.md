@@ -22,7 +22,7 @@ As regras de preço do carrinho aplicam descontos aos itens do carrinho de compr
 
 ## Acessar regras de preço do carrinho
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
 
    ![Regra de preço do carrinho](./assets/price-rule-cart.png){width="700" zoomable="yes"}
 
@@ -32,9 +32,9 @@ As regras de preço do carrinho aplicam descontos aos itens do carrinho de compr
 
 1. Atualizar propriedades de uma regra:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Somente no Adobe Commerce) Clique em **[!UICONTROL Edit]** para exibir a página Informações da regra.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Clique em **[!UICONTROL Edit]** para exibir a página Informações da Regra.
 
-   - ![Magento Open Source](../assets/open-source.svg) (Somente Magento Open Source) Clique na regra na lista para exibir a página Informações da regra.
+   - ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Clique na regra da lista para exibir a página Informações da Regra.
 
    Lá, é possível alterar as configurações da regra (semelhante à criação de uma regra).
 
@@ -46,14 +46,14 @@ As regras de preço do carrinho aplicam descontos aos itens do carrinho de compr
 | [!UICONTROL Rule] | Digite texto para filtrar a lista com base no nome da regra definido quando a regra foi criada. |
 | [!UICONTROL Coupon Code] | Insira um texto para filtrar a lista com base no nome do código definido quando a regra foi criada. |
 | [!UICONTROL Priority] | Campo de texto livre que filtra a lista com base na prioridade definida para uma regra. |
-| [!UICONTROL Status] | Use essa opção para filtrar a lista com base no status da regra (`Active` ou `Inactive`). |
+| [!UICONTROL Status] | Use esta opção para filtrar a lista com base no status da regra (`Active` ou `Inactive`). |
 | [!UICONTROL Web Site] | Use essa opção para filtrar a lista com base nos sites definidos para uma regra. |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (Somente no Adobe Commerce) Clique em **[!UICONTROL Edit]** para exibir o _[!UICONTROL Rule Information]_e atualize as configurações da regra (semelhante à criação de uma regra). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (Somente Magento Open Source) Use os campos de calendário dinâmico (_[!UICONTROL To:]_e_[!UICONTROL From:]_) para filtrar a lista com base na data de início da regra, conforme definido quando a regra foi criada. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (Somente Magento Open Source) Use os campos de calendário dinâmico (_[!UICONTROL To:]_e_[!UICONTROL From:]_) para filtrar a lista com base na data de término da regra, conforme definido quando a regra foi criada. |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Clique em **[!UICONTROL Edit]** para exibir a página _[!UICONTROL Rule Information]_e atualizar as configurações de regra (semelhante à criação de uma regra). |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (_[!UICONTROL To:]_e_[!UICONTROL From:]_) para filtrar a lista com base na data de início da regra conforme definido quando a regra foi criada. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (_[!UICONTROL To:]_e_[!UICONTROL From:]_) para filtrar a lista com base na data final da regra conforme definido quando a regra foi criada. |
 
 {style="table-layout:auto"}
 
 ## Use os públicos da Real-Time CDP para informar as regras de preço do carrinho
 
-Saiba como [ativar](../customers/audience-activation.md) Os públicos-alvo da Real-Time CDP na instância do Adobe Commerce para informar as regras de preço do carrinho.
+Saiba como [ativar](../customers/audience-activation.md) públicos-alvo da Real-Time CDP na sua instância do Adobe Commerce para informar as regras de preço do carrinho.

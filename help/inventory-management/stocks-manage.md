@@ -4,7 +4,7 @@ description: Saiba como o estoque é usado para representar um inventário agreg
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -13,37 +13,37 @@ ht-degree: 0%
 
 O Stock representa um inventário agregado virtual de produtos para fontes de seus canais de vendas (sites). Dependendo da configuração do site, o estoque pode ser atribuído a um ou mais canais de vendas. Cada canal de vendas só pode ter um único estoque atribuído a ele, e um único estoque pode ser atribuído a vários canais de vendas. Por meio do estoque, você pode modificar a priorização das fontes usadas à medida que os pedidos chegam por meio de um canal de vendas.
 
-Você começa com um Estoque padrão que não pode ser removido ou desativado. Você pode adicionar outros canais de vendas somente ao estoque. A única origem atribuída é a Origem padrão. Esse estoque é usado por comerciantes de origem única, integrações de terceiros e produtos importados.
+Você começa com um Estoque padrão que não pode ser removido ou desativado. Você pode adicionar outros canais de vendas somente ao estoque. A única origem atribuída é o Source padrão. Esse estoque é usado por comerciantes de origem única, integrações de terceiros e produtos importados.
 
-Sales Channel representam entidades que vendem seu inventário. Por padrão, [!DNL Commerce] O fornece os sites da loja como canais de vendas. Os canais de vendas podem ser estendidos para oferecer suporte a canais adicionais, como grupos de clientes B2B e visualizações de loja. Cada canal de vendas pode ser associado a apenas um Stock.
+Sales Channel representam entidades que vendem seu inventário. Por padrão, o [!DNL Commerce] fornece os sites da loja como canais de vendas. Os canais de vendas podem ser estendidos para oferecer suporte a canais adicionais, como grupos de clientes B2B e visualizações de loja. Cada canal de vendas pode ser associado a apenas um Stock.
 
-- **Suporte para Sales Channel** - Atualmente, os canais de vendas incluem sites prontos para uso. Você pode estender canais de vendas para incluir opções personalizadas, como grupos de clientes B2B e exibições de loja. Cada canal de vendas só pode ter um único estoque atribuído a ele. Um único estoque pode ser atribuído a vários canais de vendas.
-- **Mapear para fontes** - Cada estoque pode ter uma ou mais fontes habilitadas ou desabilitadas atribuídas, calculando o estoque agregado virtual por produto.
-- **Atendimento de Pedido Prioritário** - O algoritmo de prioridade pronta para uso do algoritmo de seleção de origem usa a lista de origem do estoque de cima para baixo ao atender pedidos.
+- **Suporte para Sales Channel** - Os canais de vendas atualmente incluem sites prontos para uso. Você pode estender canais de vendas para incluir opções personalizadas, como grupos de clientes B2B e exibições de loja. Cada canal de vendas só pode ter um único estoque atribuído a ele. Um único estoque pode ser atribuído a vários canais de vendas.
+- **Mapear para Fontes** - Cada estoque pode ter uma ou mais fontes habilitadas ou desabilitadas atribuídas, calculando o estoque agregado virtual por produto.
+- **Atendimento de pedidos por prioridade** - O algoritmo de prioridade pronto para uso do algoritmo de seleção Source usa a lista de origem do estoque de cima para baixo ao atender pedidos.
 
 O diagrama a seguir ajuda a definir como um Stock funciona em relação às Origens e Sales Channel para um comerciante de uma Loja de Bicicletas.
 
-![Diagrama de exemplos de estoques de uma loja](assets/diagram-stock.png){width="600" zoomable="yes"}
+![Diagrama para exemplo de ações para um armazenamento](assets/diagram-stock.png){width="600" zoomable="yes"}
 
 ## Exemplo de ações para uma mountain bike e loja
 
-Todos os armazenamentos começam com um Estoque padrão. Deve permanecer `Enabled` pelos seguintes motivos:
+Todos os armazenamentos começam com um Estoque padrão. Ele deve permanecer `Enabled` pelos seguintes motivos:
 
-- Ele é usado ao importar novos produtos, atribuindo automaticamente os produtos à fonte padrão e ao estoque para acesso imediato a [!DNL Inventory Management].
-- Não é possível adicionar outras fontes além da Fonte padrão a esse estoque.
+- Ele é usado ao importar novos produtos, atribuindo automaticamente produtos à fonte padrão e ao estoque para acesso imediato a [!DNL Inventory Management].
+- Não é possível adicionar outras fontes além do Source padrão a esse estoque.
 - Ela é necessária e usada por comerciantes de origem única, produtos de pacote e produtos agrupados.
 
 Para comerciantes de várias origens, crie e configure estoques para melhor se adequar às suas lojas e ao atendimento de pedidos. Quando você atribui um novo estoque a um canal de vendas, qualquer estoque pré-existente nesse canal de vendas se torna não atribuído.
 
-Para uma instalação com várias lojas, o Estoque padrão é atribuído inicialmente ao [Site principal](../stores-purchase/stores.md#add-websites){target="_blank"} e armazenamento padrão. O estoque e as quantidades corretos são exibidos para produtos habilitados e desabilitados na **[!UICONTROL Products]** exibição de grade.
+Para uma instalação com várias lojas, o Estoque Padrão é atribuído inicialmente ao [Site Principal](../stores-purchase/stores.md#add-websites){target="_blank"} e à loja padrão. O estoque e as quantidades corretos são exibidos para produtos habilitados e desabilitados na exibição de grade **[!UICONTROL Products]**.
 
-![Gerenciar estoque](assets/inventory-stock.png){width="600" zoomable="yes"}
+![Gerenciar Estoque](assets/inventory-stock.png){width="600" zoomable="yes"}
 
 ## Barra de botões
 
 | Botão | Descrição |
 |--|--|
-| [!UICONTROL Add New Stock] | Abre a _[!UICONTROL New Stock]_formulário usado para inserir um novo estoque de estoque para mapear o estoque para o canal de vendas. |
+| [!UICONTROL Add New Stock] | Abre o formulário _[!UICONTROL New Stock]_usado para inserir um novo estoque de estoque para mapear o estoque para o canal de vendas. |
 
 ## Descrições da coluna Gerenciar estoque
 

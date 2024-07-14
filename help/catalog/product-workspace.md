@@ -12,18 +12,18 @@ ht-degree: 0%
 
 # Espaço de trabalho do produto
 
-O espaço de trabalho do produto é basicamente o mesmo para todos os tipos de produto, embora a seleção de campos mude dependendo do conjunto de atributos usado. Os atributos do produto estão na parte superior do formulário, seguidos por seções expansíveis de informações do produto. Quando um novo produto é salvo pela primeira vez, a variável _[!UICONTROL Store View]_seletor aparece no canto superior esquerdo do formulário.
+O espaço de trabalho do produto é basicamente o mesmo para todos os tipos de produto, embora a seleção de campos mude dependendo do conjunto de atributos usado. Os atributos do produto estão na parte superior do formulário, seguidos por seções expansíveis de informações do produto. Quando um novo produto é salvo pela primeira vez, o seletor _[!UICONTROL Store View]_aparece no canto superior esquerdo do formulário.
 
 ![Espaço de trabalho do produto](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
-## [!UICONTROL Enable Product] configuração
+## Configuração de [!UICONTROL Enable Product]
 
-O status online do produto é indicado pelo switch na parte superior do formulário. Para alterar o status online, defina o **[!UICONTROL Enable Product]** alternar para `Yes` ou `No`.
+O status online do produto é indicado pelo switch na parte superior do formulário. Para alterar o status online, defina a opção **[!UICONTROL Enable Product]** como `Yes` ou `No`.
 
 | Controle | Descrição |
 |-------- | ----------- |
 | ![Alternar sim](../assets/toggle-yes.png) | Indica que o produto está online. |
-| ![Alternar não](../assets/toggle-no.png) | Indica que o produto está offline. |
+| ![Alternar nº](../assets/toggle-no.png) | Indica que o produto está offline. |
 
 {style="table-layout:auto"}
 
@@ -35,20 +35,20 @@ O nome do [conjunto de atributos](attribute-sets.md) aparece no canto superior e
 
 ## Expandir/recolher
 
-Para expandir ou recolher uma seção, clique em expandir ![Seletor de expansão](../assets/icon-display-expand.png) ou recolher ![Recolher seletor](../assets/icon-display-collapse.png) ícone.
+Para expandir ou recolher uma seção, clique no ícone expandir ![Seletor de expansão](../assets/icon-display-expand.png) ou recolher ![Seletor recolher](../assets/icon-display-collapse.png).
 
-## [!UICONTROL Save] menu
+## Menu [!UICONTROL Save]
 
-A variável _[!UICONTROL Save]_O menu inclui várias opções que permitem salvar e continuar, salvar e criar um produto, salvar e duplicar o produto ou salvar e fechar.
+O menu _[!UICONTROL Save]_inclui várias opções que permitem salvar e continuar, salvar e criar um produto, salvar e duplicar o produto ou salvar e fechar.
 
-![Menu Salvar](./assets/product-save-menu.png){width="600" zoomable="yes"}
+![Salvar menu](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
 | Comando | Descrição |
 |--- |--- |
 | [!UICONTROL Save] | Salve o produto atual e continue trabalhando. |
 | [!UICONTROL Save & New] | Salve e feche o produto atual e inicie um novo produto com base no mesmo tipo de produto e modelo. |
 | [!UICONTROL Save & Duplicate] | Salvar e fechar o produto atual e abrir uma nova cópia duplicada. |
-| [!UICONTROL Save & Close] | Salvar o produto atual e retornar ao _[!UICONTROL Products]_espaço de trabalho. |
+| [!UICONTROL Save & Close] | Salvar o produto atual e retornar ao espaço de trabalho _[!UICONTROL Products]_. |
 
 {style="table-layout:auto"}
 
@@ -69,15 +69,15 @@ Os espaços reservados que representam o valor de outro campo são colocados ent
 
 ![Geração automática de campos de produto](../configuration-reference/catalog/assets/catalog-product-fields-auto-generation.png){width="600" zoomable="yes"}
 
-Para obter uma lista detalhada dessas configurações, consulte [Geração automática de campos de produto](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) no _Referência de configuração_.
+Para obter uma lista detalhada dessas configurações, consulte [Geração automática de campos de produto](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) na _Referência de configuração_.
 
 ### Editar o valor do espaço reservado
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** por baixo.
+1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** abaixo de.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Product Fields Auto-Generation]** e faça as alterações necessárias nos valores do espaço reservado.
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Product Fields Auto-Generation]** e faça as alterações necessárias nos valores de espaço reservado.
 
    Por exemplo, se houver uma palavra-chave específica que você deseja incluir para cada produto ou uma frase que você deseja incluir em cada meta descrição, insira o valor diretamente no campo apropriado.
 

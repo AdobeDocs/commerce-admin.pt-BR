@@ -5,7 +5,7 @@ exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 feature: Payments
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Depois de configurar e ativar os relatórios de liquidação na conta de comerci
 
 **_Para exibir relatórios de liquidação:_**
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**.
 
-   ![Relatórios de liquidação do PayPal](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
+   ![Relatórios de Liquidação do PayPal](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
 
 1. Para obter as atualizações mais recentes, clique em **[!UICONTROL Fetch Updates]** no canto superior direito.
 
@@ -32,7 +32,7 @@ Depois de configurar e ativar os relatórios de liquidação na conta de comerci
 
    | Coluna de relatório | Descrição |
    | ------------ | ----------- |
-   | [!UICONTROL PayPal Reference ID Type] | Um dos seguintes códigos de referência:<br/>- ID do pedido<br/>- ID da transação<br/>- ID da assinatura |
-   | [!UICONTROL Preapproved Payment ID] | **[!UICONTROL Custom]** - O texto inserido pelo comerciante na transação no PayPal.<br/>**[!UICONTROL Transaction Debit or Credit]**- A direção do movimento da moeda de valor bruto.<br/>**[!UICONTROL Fee Debit or Credit]** - A direção do movimento do dinheiro por taxa. |
+   | [!UICONTROL PayPal Reference ID Type] | Um dos seguintes códigos de referência:<br/>- ID da Ordem<br/>- ID da Transação<br/>- ID da Assinatura |
+   | [!UICONTROL Preapproved Payment ID] | **[!UICONTROL Custom]** - O texto inserido pelo comerciante na transação no PayPal.<br/>**[!UICONTROL Transaction Debit or Credit]**- A direção da movimentação de dinheiro do valor bruto.<br/>**[!UICONTROL Fee Debit or Credit]** - A direção do movimento do dinheiro para taxa. |
 
    {style="table-layout:auto"}

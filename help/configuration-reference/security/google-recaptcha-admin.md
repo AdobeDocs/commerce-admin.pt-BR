@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
-description: Revise as configurações no [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] página do Administrador do Commerce.
+description: Revise as configurações na página [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] do Administrador do Commerce.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Antes que o Google reCAPTCHA possa ser configurado, você deve garantir que seu `PHP.ini` O arquivo inclui a seguinte configuração: `allow_url_fopen = 1`. Isso pode exigir ajuda do desenvolvedor. Consulte [Configurações de PHP necessárias](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) no _Guia de instalação_.
+>Antes de configurar o Google reCAPTCHA, verifique se o arquivo `PHP.ini` inclui a seguinte configuração: `allow_url_fopen = 1`. Isso pode exigir ajuda do desenvolvedor. Consulte [Configurações PHP Necessárias](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) no _Guia de Instalação_.
 
 {{config}}
 
-Para obter mais informações sobre como alterar essas configurações, consulte [Google reCAPTCHA](../../systems/security-google-recaptcha.md) no _Guia de sistemas do administrador_.
+Para obter mais informações sobre como alterar essas configurações, consulte o [Google reCAPTCHA](../../systems/security-google-recaptcha.md) no _Guia de Sistemas de Administração_.
 
 ## [!UICONTROL reCAPTCHA v2 ("I am not a robot")]
 
@@ -30,7 +30,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | [!UICONTROL Google API Secret Key] | Global | A chave secreta associada à sua conta do Google reCAPTCHA. |
 | [!UICONTROL Size] | Global | O tamanho da caixa do Google reCAPTCHA que aparece durante o logon. Opções: `Normal` (padrão) / `Compact` |
 | [!UICONTROL Theme] | Global | Determina o estilo da caixa do reCAPTCHA do Google. Opções: `Light Theme` (padrão) / `Dark Theme` |
-| [!UICONTROL Language Code] | Global | A [código de dois caracteres](https://developers.google.com/recaptcha/docs/language) que especifica o idioma usado para mensagens e texto do Google reCAPTCHA. |
+| [!UICONTROL Language Code] | Global | Um [código de dois caracteres](https://developers.google.com/recaptcha/docs/language) que especifica o idioma usado para texto e mensagens do Google reCAPTCHA. |
 
 {style="table-layout:auto"}
 
@@ -44,7 +44,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | [!UICONTROL Google API Secret Key] | Global | A chave secreta associada à sua conta do Google reCAPTCHA. |
 | [!UICONTROL Invisible Badge Position] | Global | A posição do selo reCAPTCHA invisível em cada página. Opções: `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Global | Determina o estilo da caixa do reCAPTCHA do Google. Opções: `Light Theme` (padrão) / `Dark Theme` |
-| [!UICONTROL Language Code] | Global | A [código de dois caracteres](https://developers.google.com/recaptcha/docs/language) que especifica o idioma usado para mensagens e texto do Google reCAPTCHA. |
+| [!UICONTROL Language Code] | Global | Um [código de dois caracteres](https://developers.google.com/recaptcha/docs/language) que especifica o idioma usado para texto e mensagens do Google reCAPTCHA. |
 
 {style="table-layout:auto"}
 
@@ -59,7 +59,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | [!UICONTROL Minimum Score Threshold] | Global | A pontuação mínima que identifica uma interação do usuário como um risco potencial, onde 1,0 é uma interação típica do usuário e 0,0 provavelmente é um bot. Padrão: `0.5` |
 | [!UICONTROL Invisible Badge Position] | Global | A posição do selo reCAPTCHA invisível em cada página. Opções: `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Global | Determina o estilo da caixa do reCAPTCHA do Google. Opções: `Light Theme` (padrão) / `Dark Theme` |
-| [!UICONTROL Language Code] | Global | A [código de dois caracteres](https://developers.google.com/recaptcha/docs/language) que especifica o idioma usado para mensagens e texto do Google reCAPTCHA. |
+| [!UICONTROL Language Code] | Global | Um [código de dois caracteres](https://developers.google.com/recaptcha/docs/language) que especifica o idioma usado para texto e mensagens do Google reCAPTCHA. |
 
 {style="table-layout:auto"}
 
@@ -88,7 +88,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--|--|--|
-| [!UICONTROL Enable for Login] | Global | Determina o tipo de reCAPTCHA que está habilitado para o [Logon de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Opções:<br/>**`No`**- (padrão) Não valida o logon de Administrador.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário selecione o _Eu não sou um robô_ caixa de seleção <br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
-| [!UICONTROL Enable for Forgot Password] | Global | Determina o tipo de reCAPTCHA que está habilitado para solicitar um [Redefinição de senha do administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Opções:<br/>**`No`**- (padrão) Não valida a solicitação de redefinição de senha.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário selecione o _Eu não sou um robô_ caixa de seleção <br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCaptcha v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
+| [!UICONTROL Enable for Login] | Global | Determina o tipo de reCAPTCHA habilitado para o [Logon de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Opções:<br/>**`No`**- (padrão) Não valida o logon de Administrador.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
+| [!UICONTROL Enable for Forgot Password] | Global | Determina o tipo de reCAPTCHA habilitado para solicitar uma [redefinição de senha de administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Opções:<br/>**`No`**- (padrão) Não valida a solicitação de redefinição de senha.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCaptcha v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
 
 {style="table-layout:auto"}

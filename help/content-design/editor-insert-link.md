@@ -11,15 +11,15 @@ ht-degree: 0%
 
 # Inserir um link no editor
 
-Uma maneira fácil de inserir um link é usar o _Link_ botão na caixa [editor](editor.md) barra de ferramentas. Ele não requer qualquer conhecimento de HTML e o resultado é o mesmo.
+Uma maneira fácil de inserir um link é usar o botão _Link_ na barra de ferramentas do [editor](editor.md). Ele não requer qualquer conhecimento de HTML e o resultado é o mesmo.
 
 1. Selecione o texto no qual deseja criar o link.
 
-1. Clique em _Inserir/editar link_ ícone na barra de ferramentas do editor.
+1. Clique no ícone _Inserir/editar link_ na barra de ferramentas do editor.
 
    ![Barra de ferramentas do editor - Inserir link](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   Essa ação abre a variável _[!UICONTROL Insert link]_diálogo.
+   Esta ação abre a caixa de diálogo _[!UICONTROL Insert link]_.
 
    ![Editor - Caixa de diálogo Inserir link](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 
@@ -33,9 +33,9 @@ Uma maneira fácil de inserir um link é usar o _Link_ botão na caixa [editor](
 
    O padrão é o texto selecionado para o link. Você pode alterá-lo na caixa de texto.
 
-1. Para **[!UICONTROL Title]**, digite o texto da dica de ferramenta a ser exibida quando alguém passar o mouse sobre o link.
+1. Para **[!UICONTROL Title]**, insira o texto da dica de ferramenta a ser exibida quando alguém passar o mouse sobre o link.
 
-1. Definir **[!UICONTROL Target]** a um dos seguintes:
+1. Defina **[!UICONTROL Target]** como um dos seguintes:
 
    - `Open link in the same window`
 

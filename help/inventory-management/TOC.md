@@ -1,6 +1,6 @@
 ---
-user-guide-title: "[!DNL Inventory Management] Guia do usuário"
-user-guide-description: Saiba como usar o [!DNL Inventory Management] recursos para manter quantidades para vendas e controlar entregas a serem concluídas [!DNL Commerce] pedidos.
+user-guide-title: "[!DNL Inventory Management] Guia do Usuário"
+user-guide-description: Saiba como usar  [!DNL Inventory Management] recursos para manter quantidades para vendas e manipular remessas a serem concluídas [!DNL Commerce] pedidos.
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
@@ -12,24 +12,24 @@ ht-degree: 5%
 ---
 
 
-# [!DNL Inventory Management] Guia do usuário {#inventory}
+# Guia do Usuário do [!DNL Inventory Management] {#inventory}
 
 - [Guia do Inventory management](guide-overview.md)
-- [Introdução ao [!DNL Inventory Management]](introduction.md)
+- [Introdução a  [!DNL Inventory Management]](introduction.md)
 - [Notas de versão](release-notes.md)
 - Noções básicas de inventário {#basics}
    - [Fontes e estoques](sources-stocks.md)
-   - [Seleção de origem e reservas](selection-reservations.md)
+   - [Seleção e reservas do Source](selection-reservations.md)
    - [Status da ordem e da reserva](order-status.md)
    - [Tipos de produto](product-types.md)
-- Comece já {#get-started}
+- Introdução {#get-started}
    - [Atualizações do Commerce](migrate.md)
    - [Instalar e atualizar](install-update.md)
    - [Fornecimento de comerciante](merchant-sourcing.md)
    - [Expandir e reestruturar estoque](expand-restructure.md)
 - Configuração {#configuration}
    - [Visão geral](configuration.md)
-   - [Ativar [!DNL Inventory Management]](enable.md)
+   - [Habilitar [!DNL Inventory Management]](enable.md)
    - [Configurar opções globais](global-options.md)
    - [Configurar opções do produto](product-options.md)
    - [Configurar backorders](backorders.md)
@@ -58,5 +58,5 @@ ht-degree: 5%
    - [Visão geral](shipments.md)
    - [Criar remessas](shipments-create.md)
 - [Referência da CLI](cli.md)
-- [Retornar aos Guias do comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retornar aos Guias do Comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

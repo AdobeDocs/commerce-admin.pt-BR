@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]'
-description: Revise as configurações no [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] página do Administrador do Commerce.
+description: Revise as configurações na página [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] do Administrador do Commerce.
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 ## [!UICONTROL Credit Memo]
 
-![Aviso de Crédito](./assets/pdf-print-credit-memo.png)<!-- zoom -->
+![Memorando de Crédito](./assets/pdf-print-credit-memo.png)<!-- zoom -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |

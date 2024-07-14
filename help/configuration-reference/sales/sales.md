@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
-description: Revise as configurações no [!UICONTROL Sales] &gt; [!UICONTROL Sales] página do Administrador do Commerce.
+description: Revise as configurações na página [!UICONTROL Sales] &gt; [!UICONTROL Sales] do Administrador do Commerce.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
 source-git-commit: 9827b08e5b0123f84c87cbac672ce9bbec86f511
@@ -72,7 +72,7 @@ ht-degree: 1%
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Logo for PDF Print-outs] | Exibição da loja | Identifica o arquivo de logotipo que aparece no cabeçalho das faturas de PDF e nas guias de remessa. Tipos de arquivo permitidos: <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
-| [!UICONTROL Logo for HTML Print View] | Exibição da loja | Identifica o arquivo de logotipo que aparece no cabeçalho da exibição de impressão de faturas e guias de remessa do HTML. Tipos de arquivo permitidos: <br/>JPG /JPEG <br/>GIF <br/>PNG |
+| [!UICONTROL Logo for HTML Print View] | Exibição da loja | Identifica o arquivo de logotipo que aparece no cabeçalho da exibição de impressão de faturas e guias de remessa do HTML. Tipos de arquivos permitidos: <br/>JPG /JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | Exibição da loja | O endereço da loja como você quer que ele apareça nas faturas e nas guias de remessa. |
 
 {style="table-layout:auto"}
@@ -131,11 +131,11 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Gift Messages on Order Level] | Site | Especificar se uma mensagem de presente pode ser adicionada para o pedido inteiro. |
 | [!UICONTROL Allow Gift Messages on Order Items] | Site | Especifique se uma mensagem de presente pode ser adicionada para um item de pedido individual. |
-| [!UICONTROL Allow Gift Wrapping on Order Level] | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (Somente Adobe Commerce) Especifique se o invólucro do presente pode ser adicionado para o pedido inteiro. |
-| [!UICONTROL Allow Gift Wrapping for Order Items] | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (Somente no Adobe Commerce) Especifique se o invólucro do presente pode ser adicionado ao item de pedido individual. |
-| [!UICONTROL Allow Gift Receipt] | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (Somente Adobe Commerce) Especifique se um recibo de presente pode ser adicionado ao pedido. |
-| [!UICONTROL Allow Printed Card] | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (Somente Adobe Commerce) Especifique se um cartão impresso pode ser adicionado ao pedido. |
-| [!UICONTROL Default Price for Printed Card] | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (Somente no Adobe Commerce) Especifique o preço padrão para o cartão impresso. |
+| [!UICONTROL Allow Gift Wrapping on Order Level] | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (somente Adobe Commerce) Especifique se o invólucro do presente pode ser adicionado para o pedido inteiro. |
+| [!UICONTROL Allow Gift Wrapping for Order Items] | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (somente Adobe Commerce) Especifique se o invólucro do presente pode ser adicionado ao item de pedido individual. |
+| [!UICONTROL Allow Gift Receipt] | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (somente Adobe Commerce) Especifique se um recibo de presente pode ser adicionado ao pedido. |
+| [!UICONTROL Allow Printed Card] | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (somente Adobe Commerce) Especifique se um cartão impresso pode ser adicionado ao pedido. |
+| [!UICONTROL Default Price for Printed Card] | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (somente Adobe Commerce) Especifique o preço padrão do cartão impresso. |
 
 {style="table-layout:auto"}
 
@@ -163,7 +163,7 @@ ht-degree: 1%
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Maximum number of coupons per order] | Site | Determina o número máximo de cupons permitidos por pedido. Esse recurso está disponível somente na API de Administração, GraphQL e REST. E é **_não disponível_** na Loja. |
+| [!UICONTROL Maximum number of coupons per order] | Site | Determina o número máximo de cupons permitidos por pedido. Esse recurso está disponível somente na API de Administração, GraphQL e REST. E **_não está disponível_** na Loja. |
 
 {style="table-layout:auto"}
 
@@ -171,11 +171,11 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![Ordenar por configurações de SKU](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+![Solicitar por Configurações de SKU](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
 <!-- [Order by SKU Settings](https://docs.magento.com/user-guide/customers/account-dashboard-order-by-sku.html) -->
 
-![Ordenar por configurações de SKU para grupo de clientes](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+![Solicitar por Configurações de SKU para Grupo de Clientes](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -203,7 +203,7 @@ ht-degree: 1%
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable rate limiting for placing orders] | Exibição da loja | Determina se a limitação de taxa é usada para fazer pedidos a partir da visualização de armazenamento (o padrão é `No`). Opções: `Yes` / `No`. |
+| [!UICONTROL Enable rate limiting for placing orders] | Exibição da loja | Determina se a limitação de taxa é usada para fazer pedidos na exibição de armazenamento (o padrão é `No`). Opções: `Yes` / `No`. |
 | [!UICONTROL Requests limit per authenticated customer] | Exibição da loja | O número de solicitações de compra que um cliente autenticado pode fazer durante o período. O limite padrão é `10`. |
 | [!UICONTROL Requests limit per guest] | Exibição da loja | O número de solicitações de compra que um cliente não autenticado pode fazer durante o período especificado. O valor padrão é `50`. |
 | [!UICONTROL Counter resets in a ...] | Exibição da loja | O período durante o qual um cliente autenticado/não autenticado pode fazer determinado número de solicitações de compra (o padrão é `Minute`). Opções: `Minute` / `Hour` /`Day` |
@@ -214,15 +214,15 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![Ordens, NFFs, Entregas, Arquivamento de Avisos de Crédito](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
+![Pedidos, Faturas, Remessas, Arquivamento de Avisos de Crédito](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
-Para obter mais informações sobre como alterar essas configurações, consulte [Configurar o arquivo de pedidos](../../stores-purchase/order-archive.md#configure-the-order-archive) no _Guia de experiência de compras e lojas_.
+Para obter mais informações sobre como alterar essas configurações, consulte [Configurar o arquivo de pedidos](../../stores-purchase/order-archive.md#configure-the-order-archive) no _Guia de Experiência de Compras e Lojas_.
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enable Archiving] | Global | Determina se o arquivamento está ativado. Opções: `Yes` / `No` |
 | [!UICONTROL Archive Orders Purchased] | Global | Determina o número de dias que se passam antes que um pedido concluído seja arquivado. Valor padrão: `30` |
-| [!UICONTROL Order  Statuses to be Archived] | Global | Determina o [status](../../stores-purchase/order-status.md) de ordens a arquivar. Por padrão, as ordens com status Concluído ou Fechado são arquivadas. Opções: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
+| [!UICONTROL Order  Statuses to be Archived] | Global | Determina o [status](../../stores-purchase/order-status.md) das ordens a serem arquivadas. Por padrão, as ordens com status Concluído ou Fechado são arquivadas. Opções: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
 {style="table-layout:auto"}
 
@@ -232,12 +232,12 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 ![Configurações de RMA](./assets/sales-rma-settings.png)<!-- zoom -->
 
-Para obter mais informações sobre como alterar essas configurações, consulte [Configurar devoluções](../../stores-purchase/rma-configure.md) no _Guia de experiência de compras e lojas_.
+Para obter mais informações sobre como alterar essas configurações, consulte [Configurar retornos](../../stores-purchase/rma-configure.md) no _Guia de Experiência de Compras e Lojas_.
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enable RMA on Storefront] | Site | Determina se os clientes podem criar e visualizar solicitações de RMA na loja. A RMA pode ser aplicada a ordens novas e existentes. Por padrão, o RMA não está habilitado para a loja. Opções: `Yes` / `No` |
 | [!UICONTROL Enable RMA on Product Level] | Site | Determina o valor padrão para o campo Ativar RMA nas informações do produto. |
-| [!UICONTROL Use Store Address] | Site | Determina o nome e o endereço do contato usado para remessas de mercadorias devolvidas. Opções: <br/>**`Yes`**- Usa o [Ponto de origem](../../stores-purchase/shipping-settings.md#point-of-origin) endereço nas Configurações de remessa.<br/>**`No`** - Abre o formulário de endereço para que você possa inserir um endereço alternativo. |
+| [!UICONTROL Use Store Address] | Site | Determina o nome e o endereço do contato usado para remessas de mercadorias devolvidas. Opções: <br/>**`Yes`**- Usa o endereço [Ponto de Origem](../../stores-purchase/shipping-settings.md#point-of-origin) das Configurações de Remessa.<br/>**`No`** - Abre o formulário de endereço para que você possa inserir um endereço alternativo. |
 
 {style="table-layout:auto"}

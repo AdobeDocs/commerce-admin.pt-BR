@@ -5,16 +5,16 @@ exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
 feature: Shipping/Delivery, Invoices
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 1%
+source-wordcount: '948'
+ht-degree: 0%
 
 ---
 
 # Entregas
 
-A variável _[!UICONTROL Shipments]_grade lista o registro de entrega de todas as NFFs que foram preparadas para entrega. Um registro de remessa pode ser gerado quando um pedido é [faturado](invoices.md) ou posteriormente.
+A grade _[!UICONTROL Shipments]_lista o registro de remessa de todas as faturas que foram preparadas para remessa. Um registro de remessa pode ser gerado quando um pedido é [faturado](invoices.md) ou posterior.
 
-A Adobe Commerce e o Magento Open Source dão suporte à entrega parcial e completa do pedido, com opções adicionais disponíveis no [Inventory management](../inventory-management/introduction.md) e extensões de terceiros.
+A Adobe Commerce e o Magento Open Source dão suporte ao envio parcial e completo do pedido, com opções adicionais disponíveis na [Inventory management](../inventory-management/introduction.md) e em extensões de terceiros.
 
 ![Grade de remessas](./assets/shipments.png){width="600" zoomable="yes"}
 
@@ -51,13 +51,13 @@ Colunas adicionais:
 
 ## Criar uma remessa
 
-As instruções a seguir orientam você no processo de criação de uma remessa no Adobe Commerce ou no Magento Open Source. Se o Inventory management estiver habilitado, talvez você queira revisar [Criar Entregas de Várias Origens](../inventory-management/shipments-create.md) e selecione uma origem (ou local) e uma quantidade para enviar por item de linha.
+As instruções a seguir orientam você no processo de criação de uma remessa no Adobe Commerce ou no Magento Open Source. Se o Inventory management estiver habilitado, talvez você queira revisar [Criar Remessas Múltiplas do Source](../inventory-management/shipments-create.md) e selecionar uma origem (ou local) e uma quantidade para enviar por item de linha.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Localize a ordem na grade e abra-a.
 
-1. Se a ordem for paga, faturada e pronta para ser enviada, clique em **[!UICONTROL Ship]**.
+1. Se o pedido estiver pago, faturado e pronto para ser enviado, clique em **[!UICONTROL Ship]**.
 
    As seções na parte superior da entrega contêm o nome, o endereço e as informações de pagamento da ordem de venda.
 
@@ -69,17 +69,17 @@ Para cada item de linha na ordem, modifique o **[!UICONTROL Qty to Ship]** confo
 
 ### [!UICONTROL Shipping Information]
 
-**Método 1:** Uso da página de pedido
+**Método 1:** usando a página de ordem
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. No **[!UICONTROL Action]** para a ordem selecionada, clique em **[!UICONTROL View]**.
+1. Na coluna **[!UICONTROL Action]** da ordem selecionada, clique em **[!UICONTROL View]**.
 
 1. Clique em **[!UICONTROL Ship]**.
 
-1. Role para baixo até _[!UICONTROL Payment & Shipping Method]_bloquear e clicar **[!UICONTROL Add Tracking Number]**.
+1. Role para baixo até o bloco _[!UICONTROL Payment & Shipping Method]_e clique em **[!UICONTROL Add Tracking Number]**.
 
-1. Definir **[!UICONTROL Carrier]**:
+1. Conjunto **[!UICONTROL Carrier]**:
 
    - `Custom Value`
    - `DHL`
@@ -87,18 +87,18 @@ Para cada item de linha na ordem, modifique o **[!UICONTROL Qty to Ship]** confo
    - `United Parcel Service`
    - `United States Postal Service`
 
-1. Para rastrear a entrega, informe o **[!UICONTROL Title]** e **[!UICONTROL Number]** .
+1. Para acompanhar a remessa, insira o **[!UICONTROL Title]** e **[!UICONTROL Number]**.
 
-**Método 2:** Uso da página de remessa
+**Método 2:** usando a página de remessa
 
 Esse método só será permitido se a remessa do pedido já tiver sido criada na página do pedido.
 Você pode modificar as informações de remessa e rastreamento conforme necessário usando a página de remessa direta:
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
 
 1. Localizar e abrir a remessa no modo de edição.
 
-1. Role para baixo até _[!UICONTROL Payment & Shipping Method]_bloco.
+1. Role para baixo até o bloco _[!UICONTROL Payment & Shipping Method]_.
 
 1. Selecione o **[!UICONTROL Carrier]**.
 
@@ -110,9 +110,9 @@ Você pode modificar as informações de remessa e rastreamento conforme necess�
 
 1. Para enviar um email com informações de rastreamento ao cliente, clique em **[!UICONTROL Send Tracking Information]** e confirme a ação.
 
-   Para rastrear a localização de qualquer entrega, abra a entrega necessária no modo de edição e clique em **[!UICONTROL Track this shipment]**.
+   Para acompanhar a localização de qualquer remessa, abra a remessa necessária no modo de edição e clique em **[!UICONTROL Track this shipment]**.
 
-   ![Informações de Remessa e Rastreamento](./assets/tracking-information.png){width="600" zoomable="yes"}
+   ![Informações de Envio e Acompanhamento](./assets/tracking-information.png){width="600" zoomable="yes"}
 
 ### Botões
 
@@ -126,31 +126,31 @@ Você pode modificar as informações de remessa e rastreamento conforme necess�
 
 ### Comentários da remessa
 
-1. Enter **Comentários** para a transferência, se necessário.
+1. Digite **Comentários** para a remessa, se necessário.
 
 1. Quando a remessa estiver pronta, clique em **Enviar Remessa**.
 
 ## Configurar comentários para remessas
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Em _[!UICONTROL Sales]_, selecione **[!UICONTROL Sales Email]**.
 
-1. Expanda a **Comentários da Remessa** e modifique as configurações conforme necessário:
+1. Expanda a seção **Comentários da Remessa** e modifique as configurações conforme necessário:
 
-   ![Configuração do comentário de remessa](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
+   ![Configuração do comentário da remessa](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
 
-   - A variável **[!UICONTROL Enabled]** está definida como `Yes` por padrão, o que significa que o email é enviado a um cliente quando um comentário de remessa é inserido.
+   - A opção **[!UICONTROL Enabled]** está definida como `Yes` por padrão, o que significa que o email é enviado a um cliente quando um comentário de remessa é inserido.
 
-   - Para **[!UICONTROL Shipment Comment Email Sender]**, selecione a pessoa da qual o email de comentário de entrega é enviado. O padrão oferece cinco endereços de email.
+   - Para **[!UICONTROL Shipment Comment Email Sender]**, selecione a pessoa da qual o email de comentário de remessa é enviado. O padrão oferece cinco endereços de email.
 
-   - Para **[!UICONTROL Shipment Comment Email Template]**, selecione o template com base no seu requisito ou selecione a opção padrão.
+   - Para **[!UICONTROL Shipment Comment Email Template]**, selecione o modelo com base no seu requisito ou selecione a opção padrão.
 
-   - Para **[!UICONTROL Shipment Comment Email Template for Guests]**, escolha o modelo usado para clientes que não têm uma conta na loja.
+   - Para **[!UICONTROL Shipment Comment Email Template for Guests]**, escolha o modelo usado para clientes que não têm uma conta em sua loja.
 
    - Para **[!UICONTROL Shipment Comment Email Copy To]**, insira os endereços de email para enviar uma cópia do email de comentário de remessa. Separe vários endereços de email com vírgula.
 
-   - Para **[!UICONTROL Shipment Comment Email Copy Method]**, selecione `bcc` (cópia oculta) ou `separate email copy` com base em sua preferência.
+   - Para **[!UICONTROL Shipment Comment Email Copy Method]**, selecione `bcc` (cópia oculta) ou o método `separate email copy` de acordo com sua preferência.
 
 1. Clique em **[!UICONTROL Save Config]**.
 
@@ -158,21 +158,21 @@ Você pode modificar as informações de remessa e rastreamento conforme necess�
 
 Antes de uma remessa ser despachada para uma transportadora, ela pode ser cancelada abrindo a ordem e navegando até a remessa, desde que a transportadora suporte cancelamentos. Algumas operadoras restringem ou limitam cancelamentos após uma reserva. Por exemplo, a UPS permite cancelamentos, mas exige que você aguarde 24 horas após a remessa ser registrada. Se uma entrega for cancelada, o cancelamento não poderá ser revertido. O único recurso é recriar a ordem.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Localize a ordem na grade.
 
-1. No _Ação_ coluna, escolha **[!UICONTROL View]**.
+1. Na coluna _Ação_, escolha **[!UICONTROL View]**.
 
 1. No painel esquerdo, escolha **[!UICONTROL Shipments]**.
 
-   Se a remessa puder ser cancelada, _[!UICONTROL Cancel Shipment]_é exibido como uma opção na barra de botões superior.
+   Se a remessa puder ser cancelada, _[!UICONTROL Cancel Shipment]_aparecerá como uma opção na barra de botões superior.
 
 1. Clique em **[!UICONTROL Cancel Shipment]**.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
-O status da remessa muda para `Canceled`. Se a transportadora não suportar cancelamentos, uma mensagem de erro será exibida e explicará por que a entrega não pôde ser cancelada.
+O status da remessa é alterado para `Canceled`. Se a transportadora não suportar cancelamentos, uma mensagem de erro será exibida e explicará por que a entrega não pôde ser cancelada.
 
 ## Descrições do campo de remessa
 
@@ -183,7 +183,7 @@ O status da remessa muda para `Canceled`. Se a transportadora não suportar canc
 | [!UICONTROL Carrier] | O nome da transportadora selecionada |
 | [!UICONTROL Title] | Um nome descritivo atribuído ao pacote pela operadora. |
 | [!UICONTROL Number] | O número de rastreamento vinculado atribuído ao pacote. |
-| [!UICONTROL Action] | ![Ícone da lixeira](../assets/icon-delete-trashcan-solid.png) - Exclui as informações do pacote do registro de remessa. |
+| [!UICONTROL Action] | ![Ícone de Lixeira](../assets/icon-delete-trashcan-solid.png) - Exclui as informações do pacote do registro de remessa. |
 | [!UICONTROL Add] | Adicionar outro pacote à remessa. |
 
 {style="table-layout:auto"}
@@ -222,6 +222,6 @@ O status da remessa muda para `Canceled`. Se a transportadora não suportar canc
 
 | Campo | Descrição |
 |-----|-----------|
-| [!UICONTROL Package Label] | **PNG** - Baixar a etiqueta do pacote da remessa. Tamanho: A6 (105 x 148mm; 4,1 x 5,6 pol) |
+| [!UICONTROL Package Label] | **PNG** - Baixar o rótulo do pacote de remessa. Tamanho: A6 (105 x 148mm; 4,1 x 5,6 pol) |
 
 {style="table-layout:auto"}

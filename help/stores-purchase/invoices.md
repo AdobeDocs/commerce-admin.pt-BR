@@ -5,16 +5,16 @@ exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
 
 # Faturas
 
-Uma fatura é um registro do registro de pagamento de um pedido. Várias faturas podem ser [criado](#create-an-invoice) para um único pedido, e cada um pode incluir quantos produtos comprados você especificar. Você também pode criar [faturas PDF prontas para impressão](#print-invoices) como documentos de vendas para seus clientes.
+Uma fatura é um registro do registro de pagamento de um pedido. Várias faturas podem ser [criadas](#create-an-invoice) para um único pedido e cada uma pode incluir a mesma quantidade ou quantidade de produtos comprados que você especificar. Você também pode criar [faturas de PDF prontas para impressão](#print-invoices) como documentos de vendas para seus clientes.
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Sales]** > _Operações_ > **Faturas** para abrir o _Faturas_ e acesse as faturas criadas.
+Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _Operações_ > **Faturas** para abrir a grade _Faturas_ e acessar as faturas criadas.
 
 ![Grade de faturas](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -49,61 +49,61 @@ No _Admin_ barra lateral, vá para **[!UICONTROL Sales]** > _Operações_ > **Fa
 
 A criação de uma fatura para um pedido a move para um estado em que não pode ser cancelada ou alterada. Uma nova página de fatura é semelhante a um pedido concluído, com alguns campos adicionais. Todas as atividades relacionadas a um pedido são anotadas na seção Comentários da fatura.
 
-Normalmente, os pedidos são faturados e capturados quando o processo de envio começa. Se o método de pagamento for uma ordem de compra ou se a [ação de pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) está definida como `Authorize and Capture`, o pedido é faturado e o pagamento é capturado durante o check-out. Você pode gerar uma fatura com uma guia de remessa e também imprimir etiquetas de remessa da conta da transportadora. Uma única ordem pode ser dividida em entregas parciais, que são faturadas separadamente, se necessário.
+Normalmente, os pedidos são faturados e capturados quando o processo de envio começa. Se o método de pagamento for uma ordem de compra ou se a [ação de pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) estiver definida como `Authorize and Capture`, a ordem será faturada e o pagamento será capturado durante o check-out. Você pode gerar uma fatura com uma guia de remessa e também imprimir etiquetas de remessa da conta da transportadora. Uma única ordem pode ser dividida em entregas parciais, que são faturadas separadamente, se necessário.
 
-Quando o estado de novos pedidos é definido como `Processing`, a opção de _Faturar Todos os Itens Automaticamente_ fica disponível na configuração. Alguns métodos de pagamento de cartão de crédito concluem a etapa de faturamento como parte do processo quando a [ação de pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) está definida como `Authorize and Capture`. Nesse caso, o botão NFF não é exibido e o pedido está pronto para entrega.
+Quando o estado de novos pedidos é definido como `Processing`, a opção de _Faturar automaticamente todos os itens_ fica disponível na configuração. Alguns métodos de pagamento de cartão de crédito concluem a etapa de faturamento como parte do processo quando a [ação de pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) está definida como `Authorize and Capture`. Nesse caso, o botão NFF não é exibido e o pedido está pronto para entrega.
 
 >[!NOTE]
 >
->As faturas não são criadas automaticamente para pedidos feitos usando `Gift Card`, `Store Credit`, `Reward Points`, ou outros métodos de pagamento off-line.
+>As faturas não são criadas automaticamente para pedidos feitos usando `Gift Card`, `Store Credit`, `Reward Points` ou outros métodos de pagamento offline.
 
-Uma fatura para o pedido deve ser gerada antes de ser impressa. Para visualizar ou imprimir o PDF, primeiro baixe e instale um leitor de PDF, como [Adobe Acrobat Reader][1].
+Uma fatura para o pedido deve ser gerada antes de ser impressa. Para exibir ou imprimir o PDF, primeiro baixe e instale um leitor de PDF como o [Adobe Acrobat Reader][1].
 
-**_Para faturar uma ordem:_**
+**_Para faturar um pedido:_**
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
-1. Localizar a ordem de venda com o status de `Processing` na grade. Em seguida, faça o seguinte:
+1. Localizar a ordem de venda com o status `Processing` na grade. Em seguida, faça o seguinte:
 
-1. No _Ação_ clique em **[!UICONTROL View]**.
+1. Na coluna _Ação_, clique em **[!UICONTROL View]**.
 
-1. No cabeçalho da ordem de venda, escolha a **[!UICONTROL Invoice]** opção.
+1. No cabeçalho da ordem de venda, escolha a opção **[!UICONTROL Invoice]**.
 
    >[!NOTE]
    >
-   >A variável _[!UICONTROL Invoice]_não aparece quando a variável [ação de pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) para o seu [método de pagamento](../configuration-reference/sales/payment-methods.md) está definida como `Authorize and Capture`, que gera automaticamente uma fatura. Esse também será o caso se o pedido for feito e a ação de pagamento para seu método de pagamento for definida como `Authorize` e a ordem é faturada.
+   >A opção _[!UICONTROL Invoice]_não aparece quando a [ação de pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) para o seu [método de pagamento](../configuration-reference/sales/payment-methods.md) específico está definida como `Authorize and Capture`, que gera automaticamente uma fatura. Esse também é o caso se o pedido for feito e a ação de pagamento para seu método de pagamento estiver definida como `Authorize` e o pedido for faturado.
 
-   ![Ordem de Venda da Fatura](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
+   ![Fatura da Ordem de Venda](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
    A nova página de fatura é semelhante a uma página de pedido concluída, com campos adicionais que podem ser editados.
 
 1. Se os itens estiverem prontos para entrega, gere uma guia de remessa para a entrega ao mesmo tempo em que você cria a NFF:
 
-   - No _Informações de envio_ clique na guia **[!UICONTROL Create Shipment]** para selecioná-la.
+   - Na seção _Informações de Remessa_, clique na caixa de seleção **[!UICONTROL Create Shipment]** para selecioná-la.
 
      O registro de remessa é criado ao mesmo tempo em que a fatura é gerada.
 
    - Incluir um número de rastreamento:
 
       - Clique em **[!UICONTROL Add Tracking Number]**.
-      - Insira as informações de rastreamento: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_, e _[!UICONTROL Number]_
+      - Insira as informações de rastreamento: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ e _[!UICONTROL Number]_
 
-     ![Criar uma remessa Fedex](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
+     ![Criar uma remessa do Fedex](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - Opcionalmente, gere uma NFF parcial:
 
-      - No _Itens a Faturar_ seção, atualize o **[!UICONTROL Qty to Invoice]** para incluir apenas itens específicos na fatura.
+      - Na seção _Itens a faturar_, atualize a coluna **[!UICONTROL Qty to Invoice]** para incluir somente itens específicos na fatura.
       - Em seguida, clique em **[!UICONTROL Update Qty's]**.
 
-        ![Itens a Faturar](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+        ![Itens a serem faturados](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
-1. Se um método de pagamento online foi usado para o pedido, defina **[!UICONTROL Amount]** à opção apropriada.
+1. Se um método de pagamento online foi usado para o pedido, defina **[!UICONTROL Amount]** para a opção apropriada.
 
 1. Para notificar os clientes por email quando a fatura for gerada, faça o seguinte:
 
-   - Selecione o **[!UICONTROL Email Copy of Invoice]** caixa de seleção
+   - Marque a caixa de seleção **[!UICONTROL Email Copy of Invoice]**.
 
-   - Insira qualquer **[!UICONTROL Invoice Comments]**. Para incluir os comentários no email de notificação, marque a opção **[!UICONTROL Append Comments]** caixa de seleção
+   - Digite qualquer **[!UICONTROL Invoice Comments]**. Para incluir os comentários no email de notificação, marque a caixa de seleção **[!UICONTROL Append Comments]**.
 
 1. Quando terminar, clique em **[!UICONTROL Submit Invoice]** na parte inferior da página.
 
@@ -113,37 +113,37 @@ Uma fatura para o pedido deve ser gerada antes de ser impressa. Para visualizar 
 
    **_Método de pagamento offline:_**
 
-   ![Enviar Fatura - método de pagamento off-line)](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
+   ![Enviar Fatura - método de pagamento offline)](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
 
    O status do pedido muda de `Pending` para `Complete`.
 
-   ![Resumo de faturas concluído](./assets/invoice-complete.png){width="600" zoomable="yes"}
+   ![Resumo da fatura concluído](./assets/invoice-complete.png){width="600" zoomable="yes"}
 
 ## Imprimir faturas
 
-As faturas podem ser impressas individualmente ou em lote. No entanto, antes que uma fatura possa ser impressa, ela deve ser gerada primeiro para o pedido. É possível carregar um logotipo de alta resolução para uma fatura de PDF pronto para impressão e incluir a [ID do pedido](../stores-purchase/sales-documents.md#add-reference-ids) no cabeçalho. Para personalizar o modelo de fatura com seu logotipo e endereço, consulte [Requisitos do logotipo PDF](../stores-purchase/sales-documents.md#image-formats).
+As faturas podem ser impressas individualmente ou em lote. No entanto, antes que uma fatura possa ser impressa, ela deve ser gerada primeiro para o pedido. Você pode carregar um logotipo de alta resolução para uma fatura de PDF pronto para impressão e incluir a [ID do pedido](../stores-purchase/sales-documents.md#add-reference-ids) no cabeçalho. Para personalizar o modelo da fatura com seu logotipo e endereço, consulte [Requisitos de logotipo do PDF](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >
->Para visualizar ou imprimir o PDF, é necessário ter um leitor de PDF. Você pode baixar [Adobe Reader][1] gratuitamente.
+>Para visualizar ou imprimir o PDF, é necessário ter um leitor de PDF. Você pode baixar o [Adobe Reader][1] gratuitamente.
 
 ### Imprimir uma única fatura
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. No _[!UICONTROL Invoices]_, localize a fatura e clique em **[!UICONTROL View]**no_ Ação _coluna.
+1. Na grade _[!UICONTROL Invoices]_, localize a fatura e clique em **[!UICONTROL View]**na coluna_ Ação _.
 
-1. Na parte superior da fatura, clique em **[!UICONTROL Print]** para gerar um PDF da fatura.
+1. Na parte superior da fatura, clique em **[!UICONTROL Print]** para gerar uma PDF da fatura.
 
 1. Salve o PDF gerado em um arquivo ou imprima-o.
 
 ### Imprimir várias faturas
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. No _[!UICONTROL Invoices]_marque a caixa de seleção para cada fatura a ser impressa.
+1. Na grade _[!UICONTROL Invoices]_, marque a caixa de seleção de cada fatura a ser impressa.
 
-1. Defina o **[!UICONTROL Actions]** controle para `PDF Invoices`.
+1. Defina o controle **[!UICONTROL Actions]** como `PDF Invoices`.
 
    ![Imprimir várias faturas](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
@@ -151,11 +151,11 @@ As faturas são salvas em um único arquivo PDF que pode ser enviado para uma im
 
 ## Solução de problemas de recursos
 
-Para obter ajuda com a solução de problemas de fatura, consulte o seguinte _Knowledge base de suporte do Commerce_ artigos:
+Para obter ajuda com a solução de problemas de fatura, consulte os seguintes artigos da _Base de Dados de Conhecimento de Suporte da Commerce_:
 
-- [Não é possível faturar pacotes de produtos virtuais e simples](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
+- [Não é possível faturar produtos agrupados virtuais e simples](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
 - [Fatura sem informações de crédito de armazenamento](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
-- [O imposto aparece na NFF com 100% de desconto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
+- [O imposto aparece na fatura com 100% de desconto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
 - [As faturas da ordem não são enviadas automaticamente](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
 
 

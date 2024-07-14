@@ -14,21 +14,21 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-A variável [!UICONTROL Content Staging] O Painel fornece uma visão geral de todas as campanhas ativas e futuras. O formato do painel pode ser alterado de uma grade para uma linha do tempo. Também é possível usar filtros para localizar campanhas, personalizar o layout da coluna e salvar diferentes exibições da grade. Para obter mais informações sobre os controles do espaço de trabalho, consulte [Espaço de trabalho do administrador](../getting-started/admin-workspace.md).
+O Painel [!UICONTROL Content Staging] fornece uma visão geral de todas as campanhas ativas e futuras. O formato do painel pode ser alterado de uma grade para uma linha do tempo. Também é possível usar filtros para localizar campanhas, personalizar o layout da coluna e salvar diferentes exibições da grade. Para obter mais informações sobre os controles do espaço de trabalho, consulte [Espaço de trabalho de administrador](../getting-started/admin-workspace.md).
 
 ![Painel de preparo na exibição de grade](./assets/content-staging-grid-view.png){width="600" zoomable="yes"}
 
 ## Exibir o painel de preparo
 
-1. No _Admin_ barra lateral, vá para  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
 
-1. Para alterar o formato do painel, defina o **[!UICONTROL View As]** controle para `list`, `Grid`ou `Timeline`.
+1. Para alterar o formato do painel, defina o controle **[!UICONTROL View As]** como `list`, `Grid` ou `Timeline`.
 
-   ![Exibição da linha do tempo](./assets/content-staging-dashboard-timeline.png){width="600" zoomable="yes"}
+   ![Modo de exibição de Linha do Tempo](./assets/content-staging-dashboard-timeline.png){width="600" zoomable="yes"}
 
    Quando a linha do tempo é exibida, o controle deslizante no canto inferior direito pode ser usado para ajustar a exibição de uma a quatro semanas. Cada coluna representa um dia.
 
-1. Se a linha do tempo for exibida, arraste o controle deslizante para a `4w` posicione na extremidade direita para exibir um período de tempo mais longo.
+1. Se a linha do tempo for exibida, arraste o controle deslizante até a posição `4w` na extremidade direita para exibir um período de tempo mais longo.
 
    ![Exibição de quatro semanas](./assets/content-staging-timeline-4-week-view.png){width="600" zoomable="yes"}
 
@@ -36,7 +36,7 @@ A variável [!UICONTROL Content Staging] O Painel fornece uma visão geral de to
 
    - Para abrir a campanha, clique em **[!UICONTROL View/Edit]**.
 
-   - Para ver a aparência da campanha para os clientes da loja nesse dia, clique em **[!UICONTROL Preview]**.
+   - Para ver a aparência da campanha para os clientes da loja naquele dia, clique em **[!UICONTROL Preview]**.
 
    ![Informações da campanha](./assets/content-staging-campaign-info.png){width="600" zoomable="yes"}
 
@@ -68,17 +68,17 @@ A campanha neste exemplo inclui duas categorias e três produtos individuais.
 
 Siga as etapas abaixo para editar qualquer um dos objetos nesta campanha.
 
-1. No _Admin_ barra lateral, vá para  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
 
 1. Encontre a campanha na lista ou linha do tempo exibida e abra-a para acessar os detalhes:
 
-   - Para uma exibição de lista, clique em **[!UICONTROL Select]** e depois **[!UICONTROL View/Edit]** no _[!UICONTROL Action]_coluna.
-   - Para exibir uma linha do tempo, clique em uma vez para exibir o resumo e clique em **[!UICONTROL View/Edit]**.
+   - Para exibir uma lista, clique em **[!UICONTROL Select]** e depois em **[!UICONTROL View/Edit]** na coluna _[!UICONTROL Action]_.
+   - Para exibir uma linha do tempo, clique uma vez para exibir o resumo e clique em **[!UICONTROL View/Edit]**.
 
-1. Atualize qualquer uma das configurações no _[!UICONTROL General]_conforme necessário.
+1. Atualize qualquer uma das configurações na seção _[!UICONTROL General]_, conforme necessário.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) qualquer seção que contenha um item a ser editado.
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) qualquer seção que contenha um item a ser editado.
 
-   ![Atualizar os produtos atribuídos para um item de campanha](./assets/content-staging-campaign-edit-products.png){width="600" zoomable="yes"}
+   ![Atualizando os produtos atribuídos de um item de campanha](./assets/content-staging-campaign-edit-products.png){width="600" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Save]**.

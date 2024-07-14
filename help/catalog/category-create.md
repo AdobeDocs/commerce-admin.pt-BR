@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Criar categorias
 
-A estrutura de categoria do catálogo é como uma árvore de cabeça para baixo, com a raiz na parte superior. Cada seção da árvore pode ser expandida e recolhida. As categorias desativadas ou ocultas ficam esmaecidas. As categorias no primeiro nível (abaixo do [raiz](category-root.md)) normalmente aparecem como opções na [menu principal](navigation-top.md). É possível criar quantas subcategorias adicionais forem necessárias, de acordo com a profundidade máxima do menu definida na configuração. As categorias podem ser arrastadas e soltas em outros locais na árvore. O número da ID da categoria aparece entre parênteses após o nome da categoria na parte superior da página.
+A estrutura de categoria do catálogo é como uma árvore de cabeça para baixo, com a raiz na parte superior. Cada seção da árvore pode ser expandida e recolhida. As categorias desativadas ou ocultas ficam esmaecidas. As categorias no primeiro nível (abaixo da [raiz](category-root.md)) normalmente aparecem como opções no [menu principal](navigation-top.md). É possível criar quantas subcategorias adicionais forem necessárias, de acordo com a profundidade máxima do menu definida na configuração. As categorias podem ser arrastadas e soltas em outros locais na árvore. O número da ID da categoria aparece entre parênteses após o nome da categoria na parte superior da página.
 
-Para um site com vários [lojas](../stores-purchase/stores.md#add-stores), é possível criar uma categoria raiz diferente para cada loja que define o conjunto de categorias usado para a variável [navegação superior](navigation-top.md).
+Para um site com várias [lojas](../stores-purchase/stores.md#add-stores), é possível criar uma categoria raiz diferente para cada loja que define o conjunto de categorias usado para a [navegação superior](navigation-top.md).
 
-![Árvore de categoria](./assets/category-selected.png){width="700" zoomable="yes"}
+![Árvore de categorias](./assets/category-selected.png){width="700" zoomable="yes"}
 
 ## Práticas recomendadas
 
@@ -24,7 +24,7 @@ Use essas práticas recomendadas ao planejar e criar categorias.
 
 ### Estrutura de categoria
 
-A estrutura das categorias no menu principal pode afetar a experiência e o desempenho do cliente. Como prática recomendada, você deve identificar uma categoria de nível superior abrangente e evitar ter outras categorias com o mesmo nome. Por exemplo, em vez de ter várias categorias para &quot;Crianças&quot; organizadas em diferentes departamentos, como `Clothing/Kids`, `Shoes/Kids`, `Accessories/Kids`. Pode ser mais eficiente tornar a categoria principal de nível superior `Kids`e, em seguida, crie subcategorias conforme necessário abaixo. Seja consistente com a estrutura da categoria e use a mesma abordagem para todos os tipos de produtos no catálogo.
+A estrutura das categorias no menu principal pode afetar a experiência e o desempenho do cliente. Como prática recomendada, você deve identificar uma categoria de nível superior abrangente e evitar ter outras categorias com o mesmo nome. Por exemplo, em vez de ter várias categorias para &quot;Crianças&quot; organizadas em diferentes departamentos, como `Clothing/Kids`, `Shoes/Kids`, `Accessories/Kids`. Pode ser mais eficiente criar a categoria pai de nível superior `Kids` e, em seguida, criar subcategorias conforme necessário abaixo. Seja consistente com a estrutura da categoria e use a mesma abordagem para todos os tipos de produtos no catálogo.
 
 ### Regras de negócios e automação
 
@@ -50,83 +50,83 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
 
 ## Etapa 1: criar uma categoria
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Definir **[!UICONTROL Store View]** para determinar onde a nova categoria deve estar disponível.
+1. Defina **[!UICONTROL Store View]** para determinar onde a nova categoria deverá estar disponível.
 
 1. Na árvore de categorias, selecione a categoria principal da nova categoria.
 
    O nível principal está um acima da nova categoria.
 
-   Se você estiver começando do início sem nenhum dado, pode haver apenas duas categorias na lista: _Categoria padrão_, que é a raiz, e um _Exemplo de categoria_
+   Se você estiver começando do início sem nenhum dado, pode haver apenas duas categorias na lista: _Categoria padrão_, que é a raiz, e uma _Categoria de exemplo_
 
 1. Clique em **[!UICONTROL Add Subcategory]**.
 
 ## Etapa 2: Preencher as informações básicas
 
-1. Se quiser que a categoria fique disponível imediatamente no armazenamento, defina **[!UICONTROL Enable Category]** para `Yes`.
+1. Se quiser que a categoria fique imediatamente disponível no armazenamento, defina **[!UICONTROL Enable Category]** como `Yes`.
 
-1. Para incluir a categoria na variável [navegação superior](navigation-top.md), definir **[!UICONTROL Include in Menu]** para `Yes`.
+1. Para incluir a categoria na [navegação superior](navigation-top.md), defina **[!UICONTROL Include in Menu]** como `Yes`.
 
 1. Insira o **[!UICONTROL Category Name]**.
 
-   ![Informações básicas da categoria](./assets/catalog-categories-currently-active.png){width="500" zoomable="yes"}
+   ![Informações básicas sobre a categoria](./assets/catalog-categories-currently-active.png){width="500" zoomable="yes"}
 
-1. click **[!UICONTROL Save]** e continue.
+1. clique em **[!UICONTROL Save]** e continue.
 
 ## Etapa 3: completar o conteúdo da categoria
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Content]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Content]**.
 
    ![Conteúdo da categoria](./assets/category-content.png){width="600" zoomable="yes"}
 
-1. Para exibir um **[!UICONTROL Category Image]** na parte superior da página, você pode fazer upload de sua própria imagem ou usar uma imagem que exista no [Armazenamento de mídia](../content-design/media-storage.md).
+1. Para exibir um **[!UICONTROL Category Image]** na parte superior da página, você pode carregar sua própria imagem ou usar uma imagem que exista no [Armazenamento de Mídia](../content-design/media-storage.md).
 
-   - Para carregar sua própria imagem, clique em **[!UICONTROL Upload]** e escolha a imagem que deseja representar a categoria.
+   - Para carregar sua própria imagem, clique em **[!UICONTROL Upload]** e escolha a imagem que você deseja representar a categoria.
 
-   - Para usar imagens do Armazenamento de mídia, clique em **[!UICONTROL Select from Gallery]** e selecione a imagem que deseja representar a categoria.
+   - Para usar imagens do Armazenamento de Mídia, clique em **[!UICONTROL Select from Gallery]** e selecione a imagem que deseja representar a categoria.
 
    >[!NOTE]
    >
-   >Na Galeria de mídia, também é possível usar a variável [Integração do Adobe Stock](../content-design/adobe-stock.md) para localizar uma imagem apropriada clicando em **[!UICONTROL Search Adobe Stock]**.
+   >Na Galeria de Mídia, você também pode usar a [Integração do Adobe Stock](../content-design/adobe-stock.md) para encontrar uma imagem apropriada clicando em **[!UICONTROL Search Adobe Stock]**.
 
-1. Para **[!UICONTROL Description]**, insira o texto ou outro conteúdo que deseja exibir na landing page da categoria.
+1. Para **[!UICONTROL Description]**, insira o texto ou outro conteúdo que você deseja que apareça na página de aterrissagem da categoria.
 
-   Para obter mais informações, consulte [Conteúdo da categoria](categories-content-settings.md).
+   Para obter mais informações, consulte [Conteúdo da Categoria](categories-content-settings.md).
 
-1. Para incluir um bloco de conteúdo na landing page da categoria, escolha a **[!UICONTROL CMS Block]** que você deseja que apareça.
+1. Para incluir um bloco de conteúdo na página de aterrissagem de categoria, escolha a **[!UICONTROL CMS Block]** que você deseja exibir.
 
-1. click **[!UICONTROL Save]** e continue.
+1. clique em **[!UICONTROL Save]** e continue.
 
 ## Etapa 4: concluir as configurações de exibição
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Display Setting]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Display Setting]**.
 
    ![Configurações de exibição](./assets/category-display-settings.png){width="600" zoomable="yes"}
 
-   Para obter mais informações sobre essas opções, consulte. Para obter mais informações sobre essas opções, consulte  [Configurações de exibição](categories-display-settings.md).
+   Para obter mais informações sobre essas opções, consulte. Para obter mais informações sobre essas opções, consulte [Configurações de exibição](categories-display-settings.md).
 
-1. Definir **[!UICONTROL Display Mode]** a um dos seguintes:
+1. Defina **[!UICONTROL Display Mode]** como um dos seguintes:
 
    - `Products Only`
    - `Static Block Only`
    - `Static Block and Products`
 
-1. Se desejar que a página da categoria inclua a variável _`Filter by Attribute`_seção de navegação em camadas, definir **[!UICONTROL Anchor]**para `Yes`.
+1. Se desejar que a página de categoria inclua a seção _`Filter by Attribute`_da navegação em camadas, defina **[!UICONTROL Anchor]**como `Yes`.
 
-1. Para o **[!UICONTROL Available Product Listing Sort By]** selecione um ou mais valores disponíveis que estarão disponíveis para que os clientes classifiquem a lista. Essa configuração não se aplica à variável [!DNL Live Search] [Widget da página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Para as opções **[!UICONTROL Available Product Listing Sort By]**, selecione um ou mais dos valores disponíveis que estarão disponíveis para que os clientes classifiquem a lista. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
-   Por padrão, todos os valores disponíveis são incluídos. Desmarque a opção **[!UICONTROL Use All]** para alterar as seleções. Por exemplo, os valores podem incluir:
+   Por padrão, todos os valores disponíveis são incluídos. Desmarque a caixa de seleção **[!UICONTROL Use All]** para alterar as seleções. Por exemplo, os valores podem incluir:
 
    - `Position`
    - `Product Name`
    - `Price`
 
-1. Para definir a ordem de classificação padrão para a categoria, escolha a **[!UICONTROL Default Product Listing Sort By]** valor. Essa configuração não se aplica à variável [!DNL Live Search] [Widget da página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Para definir a ordem de classificação padrão da categoria, escolha o valor **[!UICONTROL Default Product Listing Sort By]**. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
-1. Para alterar a navegação em camadas padrão [etapa de preço](navigation-layered.md#configure-price-navigation) faça o seguinte:
+1. Para alterar a configuração padrão de navegação em camada [etapa de preço](navigation-layered.md#configure-price-navigation), faça o seguinte:
 
-   - Desmarque a opção **[!UICONTROL Use Config Settings]** caixa de seleção
+   - Desmarque a caixa de seleção **[!UICONTROL Use Config Settings]**.
 
    - Insira o valor a ser usado como uma etapa de preço incremental para navegação em camadas.
 
@@ -134,13 +134,13 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
 
 ## Etapa 5: Concluir as configurações de otimização do mecanismo de pesquisa
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Search Engine Optimization Settings]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization Settings]**.
 
    ![Otimização do mecanismo de pesquisa](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 
    Para obter mais informações sobre essas opções, consulte [Otimização do mecanismo de pesquisa](categories-search-engine-optimization.md).
 
-1. Conclua o seguinte [metadados](../merchandising-promotions/meta-data.md) para a categoria:
+1. Conclua os [metadados](../merchandising-promotions/meta-data.md) a seguir para a categoria:
 
    - [!UICONTROL Meta Title]
    - [!UICONTROL Meta Keywords]
@@ -150,13 +150,13 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
 
 ## Etapa 6: Escolher os produtos na categoria
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Products in Category]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Products in Category]**.
 
    ![Produtos na categoria](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
    Para obter mais informações sobre essas opções, consulte [Produtos na categoria](categories-product-assignments.md).
 
-1. Se necessário, use o [filtros](../getting-started/admin-grid-controls.md) para encontrar os produtos.
+1. Se necessário, use os [filtros](../getting-started/admin-grid-controls.md) para localizar os produtos.
 
    Para exibir todos os registros que ainda não estão incluídos na categoria, defina o seletor de registros na primeira coluna como `No` e clique em **[!UICONTROL Search]**.
 
@@ -168,13 +168,13 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
 
 {{ee-feature}}
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Category Permissions]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Category Permissions]**.
 
-1. Para uma instalação de vários sites, escolha o **[!UICONTROL Website]** onde as permissões de categoria se aplicam.
+1. Para uma instalação de vários sites, escolha a **[!UICONTROL Website]** à qual as permissões de categoria se aplicam.
 
 1. Escolha o **[!UICONTROL Customer Group]** onde as permissões de categoria se aplicam.
 
-   ![Adobe Commerce B2B](../assets/b2b.svg) ([Adobe Commerce B2B](../b2b/introduction.md) somente) Se necessário, você pode escolher um **[!UICONTROL Shared Catalog]** em vez disso.
+   ![Adobe Commerce B2B](../assets/b2b.svg) (somente [Adobe Commerce B2B](../b2b/introduction.md)) Se necessário, você pode escolher um **[!UICONTROL Shared Catalog]**.
 
 1. Defina as seguintes permissões conforme necessário:
 
@@ -188,28 +188,28 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
 
 ## Etapa 8: concluir as configurações de design
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Design]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Design]**.
 
 1. Defina as configurações de design conforme necessário:
 
-   - ([Adobe Commerce B2B](../b2b/introduction.md) somente) Para aplicar as configurações de design da categoria pai a esta categoria, defina **[!UICONTROL Use Parent Category Settings]** para `Yes`.
+   - ([Adobe Commerce B2B](../b2b/introduction.md) somente) Para aplicar as configurações de design da categoria pai a esta categoria, defina **[!UICONTROL Use Parent Category Settings]** como `Yes`.
 
    - Para alterar o design das páginas de categoria, escolha a **[!UICONTROL Theme]** que deseja aplicar.
 
    - Para alterar o layout de coluna das páginas de categoria, escolha a **[!UICONTROL Layout]** que deseja aplicar.
 
-   - Para inserir um código personalizado, insira um código XML válido na caixa **[!UICONTROL Layout Update XML]** caixa.
+   - Para inserir um código personalizado, insira um código XML válido na caixa **[!UICONTROL Layout Update XML]**.
 
-   - Para usar o mesmo design para páginas de produtos, defina **[!UICONTROL Apply Design to Products]** para `Yes`.
+   - Para usar o mesmo design para páginas de produtos, defina **[!UICONTROL Apply Design to Products]** como `Yes`.
 
    ![Configurações de design](./assets/category-design.png){width="600" zoomable="yes"}
 
-1. ![Magento Open Source](../assets/open-source.svg) (Somente Magento Open Source) Para agendar a atualização de design para um período específico, faça o seguinte:
+1. ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Para agendar a atualização de design para um período específico, faça o seguinte:
 
-   - Expanda a _[!UICONTROL Schedule Design Update]_seção.
+   - Expanda a seção _[!UICONTROL Schedule Design Update]_.
 
-   - Usar o calendário (![Ícone de calendário](../assets/icon-calendar.png)) para escolher a Atualização programada **[!UICONTROL from]** e **[!UICONTROL to]** datas.
+   - Use o calendário (![Ícone de calendário](../assets/icon-calendar.png)) para escolher as datas da Atualização de Agendamento **[!UICONTROL from]** e **[!UICONTROL to]**.
 
-   ![Atualização de design programada](./assets/category-scheduled-design-update.png){width="600" zoomable="yes"}
+   ![Atualização de design agendada](./assets/category-scheduled-design-update.png){width="600" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.

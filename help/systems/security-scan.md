@@ -22,13 +22,13 @@ A varredura de segurança aprimorada permite monitorar cada um dos sites do Adob
 - Acesse relatórios históricos de segurança que rastreiam e monitoram o progresso de seus sites.
 - Acesse o relatório de varredura que mostra verificações bem-sucedidas e falhas, com qualquer ação recomendada.
 
-A ferramenta Security scan está disponível gratuitamente no painel do [Conta do Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a ferramenta Verificação de segurança](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) no _Guia da infraestrutura do Commerce na nuvem_.
+A ferramenta Security scan está disponível gratuitamente no painel da sua [conta Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) no _Guia de Infraestrutura do Commerce na Nuvem_.
 
 ![Ferramenta de verificação de segurança](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Executar uma verificação de segurança
 
-1. Na página inicial da Commerce, faça logon no [Conta do Commerce/Magento](../getting-started/commerce-account-create.md).
+1. Na página inicial da Commerce, entre na sua [conta Commerce/Magento](../getting-started/commerce-account-create.md).
 
 1. Revise e aceite os termos para usar a ferramenta de verificação de segurança.
 
@@ -37,7 +37,7 @@ A ferramenta Security scan está disponível gratuitamente no painel do [Conta d
    - Leia o **[!UICONTROL Terms and Conditions]**.
    - Clique em **[!UICONTROL Agree]** para continuar.
 
-1. No _[!UICONTROL Monitored Websites]_clique em **[!UICONTROL +Add Site]**.
+1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL +Add Site]**.
 
    Se você tiver vários sites com domínios diferentes, configure uma verificação separada para cada domínio.
 
@@ -49,37 +49,37 @@ A ferramenta Security scan está disponível gratuitamente no painel do [Conta d
 
    - Insira o **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
    - Clique em **[!UICONTROL Generate Confirmation Code]**.
-   - Clique em **Copiar** para copiar o código de confirmação para a área de transferência.
+   - Clique em **Copiar** para copiar seu código de confirmação para a área de transferência.
 
-     ![Gerar código de confirmação](./assets/scan-site1.png){width="400" zoomable="yes"}
+     ![Gerar Código de Confirmação](./assets/scan-site1.png){width="400" zoomable="yes"}
 
    - Faça logon no Admin da loja como um usuário com privilégios totais de administrador e faça o seguinte:
 
-      - No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+      - Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
       - Localize seu site na lista e clique em **[!UICONTROL Edit]**.
-      - Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL HTML Head]** seção.
-      - Role para baixo até **[!UICONTROL Scripts and Style Sheets]** e clique na caixa de texto ao final de qualquer código existente e cole o código de confirmação na caixa de texto.
+      - Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL HTML Head]**.
+      - Role para baixo até **[!UICONTROL Scripts and Style Sheets]**, clique na caixa de texto ao final de qualquer código existente e cole o código de confirmação na caixa de texto.
 
         ![Scripts e Folhas de Estilo](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
       - Quando terminar, clique em **[!UICONTROL Save Configuration]**.
 
-   **vitrine do PWA**:
+   **vitrine de PWA**:
 
    - Insira o **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
 
-   - Para **[!UICONTROL Confirmation Code]**, escolha o `META Tag` e clique em **[!UICONTROL Generate Code]**.
+   - Para **[!UICONTROL Confirmation Code]**, escolha a opção `META Tag` e clique em **[!UICONTROL Generate Code]**.
 
-   - Clique em **[!UICONTROL Copy]** para copiar a META Tag do código de confirmação gerado para a área de transferência.
+   - Clique em **[!UICONTROL Copy]** para copiar a marca META do código de confirmação gerado para a área de transferência.
 
-     ![Gerar código de confirmação](./assets/scan-site2.png){width="400" zoomable="yes"}
+     ![Gerar Código de Confirmação](./assets/scan-site2.png){width="400" zoomable="yes"}
 
    - Vá para o diretório do projeto da loja de PWA Studio e faça o seguinte:
 
       - No diretório do projeto PWA Studio, vá para `packages > venia-concept > template.html`.
       - Adicione o código de confirmação copiado (a tag META gerada) ao cabeçalho de HTML e salve as alterações.
 
-        ![Copiar código de confirmação](./assets/code-pwa.png){width="600" zoomable="yes"}
+        ![Copiar Código de Confirmação](./assets/code-pwa.png){width="600" zoomable="yes"}
 
       - Volte para a CLI do PWA Studio e use o fio para instalar dependências de projeto e executar o comando build de projeto.
 
@@ -88,7 +88,7 @@ A ferramenta Security scan está disponível gratuitamente no painel do [Conta d
         yarn build
         ```
 
-      - *No seu projeto na nuvem*, criar um `pwa` e copie o conteúdo dentro do diretório do projeto da loja `dist` pasta.
+      - *No seu projeto na nuvem*, crie uma pasta `pwa` e copie o conteúdo dentro da pasta `dist` do projeto da vitrine.
 
         ```sh
         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
@@ -104,27 +104,27 @@ A ferramenta Security scan está disponível gratuitamente no painel do [Conta d
 
         Depois que o processo de criação for concluído, as alterações serão implantadas no front da loja de PWA.
 
-1. Retorne para a _[!UICONTROL Security Scan]_na sua conta da Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
+1. Retorne à página _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
 
-1. Após uma confirmação bem-sucedida, configure o **[!UICONTROL Set Automatic Security Scan]** para um dos seguintes tipos:
+1. Após uma confirmação bem-sucedida, configure as opções do **[!UICONTROL Set Automatic Security Scan]** para um dos seguintes tipos:
 
-   **Verificar semanalmente (recomendado)**:
+   **Verificar Semanalmente (recomendado)**:
 
-   - Escolha o **[!UICONTROL Week Day]**, **[!UICONTROL Time]**, e **[!UICONTROL Time Zone]** que a verificação deve ocorrer todas as semanas.
+   - Escolha os **[!UICONTROL Week Day]**, **[!UICONTROL Time]** e **[!UICONTROL Time Zone]** nos quais a verificação deve ocorrer todas as semanas.
    - Por padrão, a verificação é programada para começar toda semana à meia-noite de sábado, UTC, e continuar até a madrugada de domingo.
 
-     ![Verificar semanalmente](./assets/scan-weekly.png){width="500" zoomable="yes"}
+     ![Verificar Semanalmente](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
-   **Verificar diariamente**:
+   **Verificar Diariamente**:
 
-   - Escolha o **[!UICONTROL Time]**, e **[!UICONTROL Time Zone]** que a verificação deve ocorrer todos os dias.
+   - Escolha as **[!UICONTROL Time]** e **[!UICONTROL Time Zone]** em que a verificação deve ocorrer todos os dias.
    - Por padrão, a verificação é agendada para começar todos os dias à meia-noite, UTC.
 
-     ![Verificar diariamente](./assets/scan-daily.png){width="500" zoomable="yes"}
+     ![Verificação Diária](./assets/scan-daily.png){width="500" zoomable="yes"}
 
-1. Insira o **[!UICONTROL Email Address]** onde deseja receber notificações de verificações concluídas e atualizações de segurança.
+1. Digite o **[!UICONTROL Email Address]** onde deseja receber notificações de verificações concluídas e atualizações de segurança.
 
-   ![Endereço de e-mail](./assets/scan-notification-email.png){width="400" zoomable="yes"}
+   ![Endereço de email](./assets/scan-notification-email.png){width="400" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Submit]**.
 

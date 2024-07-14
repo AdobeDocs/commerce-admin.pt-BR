@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é criar uma função com o nível apropriado de permissões. Depois que a função for salva, você pode adicionar novos usuários e atribuir a função restrita para conceder a eles acesso limitado ao Administrador.
 
-![Administrador - Funções do usuário](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
+![Administrador - funções de usuário](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
 
 ## Definir uma função
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Add New Role]**.
 
@@ -26,7 +26,7 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 ### Etapa 1: adicionar o nome da função
 
-1. Em _[!UICONTROL Role Information]_, insira um descritivo **[!UICONTROL Role Name]**.
+1. Em _[!UICONTROL Role Information]_, insira um **[!UICONTROL Role Name]**descritivo.
 
 1. Em _[!UICONTROL Current User Identity Verification]_, digite sua senha.
 
@@ -38,24 +38,24 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 >
 >Ao atribuir recursos, desative o acesso à ferramenta Permissões se estiver limitando o acesso de uma determinada função. Caso contrário, os usuários poderão modificar suas próprias permissões.
 
-1. Definir **[!UICONTROL Role Scopes]** a um dos seguintes:
+1. Defina **[!UICONTROL Role Scopes]** como um dos seguintes:
 
    - `All`
    - `Custom`
 
-   Se definida como `Custom` para uma instalação multissite, marque a caixa de seleção do site e armazene onde a função será usada.
+   Se definido como `Custom` para uma instalação multissite, marque a caixa de seleção do site e armazene onde a função será usada.
 
-   ![Recursos da função de usuário - escopo personalizado](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
+   ![Recursos de função de usuário - escopo personalizado](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Usuários com um `Custom` Os escopos de função não podem criar sites e categorias, atribuir produtos a categorias ou editar produtos em _[!UICONTROL All Store Views]_escopo quando são atribuídos a armazenamentos restritos. Esses usuários também não podem executar outros_ global _ações que afetam escopos onde não têm acesso.
+   >Os usuários com escopo de função `Custom` não podem criar sites e categorias, atribuir produtos a categorias ou editar produtos no escopo _[!UICONTROL All Store Views]_quando são atribuídos a lojas restritas. Esses usuários também não podem executar outras ações_ globais _que afetam escopos aos quais não têm acesso.
 
-1. Em _[!UICONTROL Roles Resources]_, definir **[!UICONTROL Resource Access]**para `Custom`.
+1. Em _[!UICONTROL Roles Resources]_, defina **[!UICONTROL Resource Access]**como `Custom`.
 
-1. No **[!UICONTROL Resource]** estrutura em árvore, marque a caixa de seleção de cada recurso de administrador que a função pode acessar.
+1. Na estrutura de árvore **[!UICONTROL Resource]**, marque a caixa de seleção de cada recurso de Administrador que a função pode acessar.
 
-   Para criar uma função de Administrador com acesso às configurações de imposto, escolha os recursos Vendas/Imposto e Sistema/Imposto. Se estiver configurando um site para uma região diferente do padrão [ponto de origem da remessa](../stores-purchase/shipping-settings.md#point-of-origin), você deve permitir acesso aos recursos do Sistema/Envio para a função. As configurações de entrega determinam a alíquota de imposto da loja usada para preços de catálogo.
+   Para criar uma função de Administrador com acesso às configurações de imposto, escolha os recursos Vendas/Imposto e Sistema/Imposto. Se estiver configurando um site para uma região que difere do seu [ponto de origem de remessa](../stores-purchase/shipping-settings.md#point-of-origin) padrão, você deve permitir acesso aos recursos Sistema/Remessa para a função. As configurações de entrega determinam a alíquota de imposto da loja usada para preços de catálogo.
 
    ![Recursos de função de usuário atribuídos](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
@@ -63,7 +63,7 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
    >[!NOTE]
    >
-   >Um usuário administrador deve ter **[!UICONTROL Sales / Archive]** permissões para que o escopo da função veja as _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_, e _[!UICONTROL Shipments]_pedido [guias](../stores-purchase/order-processing.md).
+   >Um usuário administrador deve ter **[!UICONTROL Sales / Archive]** permissões para que seu escopo de função veja as _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ e _[!UICONTROL Shipments]_[guias](../stores-purchase/order-processing.md).
 
 1. Quando terminar, clique em **[!UICONTROL Save Role]**.
 
@@ -71,13 +71,13 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 ## Atribuir uma função aos usuários
 
-1. No _[!UICONTROL Roles]_, abra o registro no modo de edição.
+1. Na grade _[!UICONTROL Roles]_, abra o registro no modo de edição.
 
 1. Em _[!UICONTROL Current User Identity Verification]_, digite a senha da sua conta de usuário.
 
 1. No painel esquerdo, escolha **[!UICONTROL Role Users]**.
 
-   A variável _[!UICONTROL Role Users]_será exibida somente depois que uma nova função for salva.
+   A opção _[!UICONTROL Role Users]_aparece somente depois que uma nova função é salva.
 
    ![Contas de usuário atribuídas à função](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
@@ -93,7 +93,7 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 ## Editar uma função
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
 1. Localize a função usando filtros acima da grade e clique no nome da função.
 
@@ -103,11 +103,11 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 1. Quando solicitado, digite sua senha para confirmar sua identidade.
 
-1. Clique em **[!UICONTROL Save Role]**.
+1. Clique no **[!UICONTROL Save Role]**.
 
 ## Excluir uma função
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
 1. Localize a função usando filtros acima da grade e abra no modo de edição.
 
@@ -125,9 +125,9 @@ Assista a este vídeo para saber mais sobre o gerenciamento de funções de usu�
 
 O acesso aos recursos a seguir pode ser atribuído a uma função personalizada. Consulte a página vinculada para saber mais sobre os recursos associados a cada recurso.
 
-![Adobe Commerce](../assets/adobe-logo.svg) - Somente Adobe Commerce
+![Adobe Commerce](../assets/adobe-logo.svg) - somente Adobe Commerce
 
-![Adobe Commerce B2B](../assets/b2b.svg) - Disponível somente com o Adobe Commerce B2B
+![Adobe Commerce B2B](../assets/b2b.svg) - Disponível somente com Adobe Commerce B2B
 
 | Recurso |   |   |
 | --- | --- | --- |

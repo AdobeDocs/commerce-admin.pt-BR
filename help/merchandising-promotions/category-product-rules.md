@@ -18,45 +18,45 @@ As regras de categoria alteram dinamicamente a seleção de produtos de acordo c
 
 >[!TIP]
 >
->Durante a configuração da regra de categoria, os produtos são _classificado_, _correspondente_, _atribuído_, e _não atribuído_ de acordo com esta regra **_somente_** quando esta categoria é salva. Por exemplo, se você adicionar um produto ao catálogo e quiser atribuí-lo de acordo com a regra, será **deve salvar novamente cada categoria** que é definido para corresponder produtos por regra. Além disso, se qualquer status de estoque de produtos for alterado para `In Stock` ou `Out of Stock` e os produtos da categoria devem ser _classificado_ de acordo com a **[!UICONTROL Automatic Sorting]** regra, clique em **[!UICONTROL Save Category]**.
+>Durante a configuração da regra de categoria, os produtos estão _classificados_, _correspondentes_, _atribuídos_ e _não atribuídos_ de acordo com essa regra **_somente_** quando essa categoria é salva. Por exemplo, se você adicionar um produto ao catálogo e quiser atribuí-lo de acordo com a regra, **deverá salvar novamente cada categoria** definida para corresponder a produtos por regra. Além disso, se o status do estoque de qualquer produto for alterado para `In Stock` ou `Out of Stock` e os produtos da categoria tiverem de ser _classificados_ de acordo com a regra **[!UICONTROL Automatic Sorting]**, você deve clicar em **[!UICONTROL Save Category]**.
 
-Cada condição consiste em um atributo, valor e operador lógico. Somente atributos com o _[[!UICONTROL Use in Product Listing]](../catalog/attribute-product-create.md)_propriedade definida como `Yes` pode ser usado em regras de categoria. Você deve definir essa propriedade para o atributo se quiser usar um atributo que não esteja incluído nas listagens de produtos. Embora os atributos de Data não sejam suportados, você pode usar os atributos Data de criação ou Data de modificação para definir uma data ou um intervalo de datas. Por exemplo, para incluir apenas produtos que foram criados na semana passada, defina &quot;Data de criação&quot; como um valor de `<7`.
+Cada condição consiste em um atributo, valor e operador lógico. Somente atributos com a propriedade _[[!UICONTROL Use in Product Listing]](../catalog/attribute-product-create.md)_definida como `Yes` podem ser usados em regras de categoria. Você deve definir essa propriedade para o atributo se quiser usar um atributo que não esteja incluído nas listagens de produtos. Embora os atributos de Data não sejam suportados, você pode usar os atributos Data de criação ou Data de modificação para definir uma data ou um intervalo de datas. Por exemplo, para incluir apenas produtos criados na semana passada, defina &quot;Data de criação&quot; como um valor de `<7`.
 
 >[!NOTE]
 >
->Configure cada atributo usado na regra como um [_inteligente_ atributo](smart-attributes-configure.md).
+>Configure cada atributo usado na regra como um [_atributo inteligente_](smart-attributes-configure.md).
 
-![Regra de produto de categoria](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
+![Regra de Produto de Categoria](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
 
-As regras de produto de categoria podem acelerar o processo de atribuição de produtos específicos a categorias, com base nas condições que determinam quais produtos aparecem na categoria. Os atributos &quot;inteligentes&quot; que podem ser usados com regras de produto de categoria são especificados na [Visual Merchandiser](visual-merchandiser.md) configuração.
+As regras de produto de categoria podem acelerar o processo de atribuição de produtos específicos a categorias, com base nas condições que determinam quais produtos aparecem na categoria. Os atributos &quot;inteligentes&quot; que podem ser usados com regras de produto de categoria são especificados na configuração do [Visual Merchandiser](visual-merchandiser.md).
 
 >[!NOTE]
 >
 >Tenha cuidado ao aplicar uma regra de produto de categoria, pois todos os produtos que não atendem à condição são removidos da categoria. Por exemplo, se você criar uma regra que inclua apenas tampas de tanque roxas, todas as outras tampas de tanque serão removidas da categoria.
 
-## Etapa 1: configurar o _inteligente_ atributos
+## Etapa 1: configurar os atributos _smart_
 
-1. Para cada atributo que deve ser usado na regra, verifique se [[!UICONTROL Use in Product Listing]](../catalog/product-attributes.md) a propriedade storefront está definida como `Yes`.
+1. Para cada atributo que deve ser usado na regra, verifique se a propriedade de vitrine do [[!UICONTROL Use in Product Listing]](../catalog/product-attributes.md) está definida como `Yes`.
 
    >[!NOTE]
    >
-   >Certifique-se de que o atributo selecionado NÃO seja de seleção múltipla _[!UICONTROL Input Type]_.
+   >Certifique-se de que o atributo selecionado NÃO seja um _[!UICONTROL Input Type]_de várias seleções.
 
-1. Conclua o [configuração](smart-attributes-configure.md) para identificar cada _inteligente_ atributo que deve ser usado com o Visual Merchandiser.
+1. Conclua a [configuração](smart-attributes-configure.md) para identificar cada atributo _inteligente_ a ser usado com o Visual Merchandiser.
 
 ## Etapa 2: criar a regra de categoria
 
 1. Na árvore de categorias, abra a categoria a ser editada.
 
-1. No **[!UICONTROL Products in Category]** seção, definir **[!UICONTROL Match products by rule]** para `Yes`.
+1. Na seção **[!UICONTROL Products in Category]**, defina **[!UICONTROL Match products by rule]** como `Yes`.
 
    As opções de classificação e condição automáticas são exibidas.
 
 1. Clique em **[!UICONTROL Add Condition]**.
 
-1. Escolha o **[!UICONTROL Attribute]** é essa a base da condição.
+1. Escolha o **[!UICONTROL Attribute]** que é a base da condição.
 
-1. Definir **[!UICONTROL Operator]** a um dos seguintes:
+1. Defina **[!UICONTROL Operator]** como um dos seguintes:
 
    - `Equal`
    - `Not equal`
@@ -68,25 +68,25 @@ As regras de produto de categoria podem acelerar o processo de atribuição de p
 
 1. Insira o **[!UICONTROL Value]** que deve ser correspondido.
 
-   ![Adicionar condição à regra de categoria](../catalog/assets/category-rule-create.png){width="500"}
+   ![Adicionar Condição à Regra de Categoria](../catalog/assets/category-rule-create.png){width="500"}
 
 1. Repita esse processo para cada atributo necessário para descrever as condições a serem atendidas.
 
    Por exemplo, para corresponder a produtos que foram criados entre sete e 30 dias atrás, faça o seguinte:
 
-   - Definir **[!UICONTROL Date Created]** para `Less than 30`.
+   - Defina **[!UICONTROL Date Created]** como `Less than 30`.
 
-   - Definir **[!UICONTROL Logic]** para `AND`.
+   - Defina **[!UICONTROL Logic]** como `AND`.
 
      >[!NOTE]
      >
-     >Ao escolher `AND`, a regra aplica-se a produtos em que todas as condições são satisfeitas. Quando você escolher `OR`, aplica-se aos produtos que satisfazem pelo menos uma condição.
+     >Quando você escolhe `AND`, a regra se aplica a produtos em que todas as condições são atendidas. Quando você escolhe `OR`, ele se aplica a produtos em que pelo menos uma condição é atendida.
 
-   - Definir **[!UICONTROL Date Modified]** para `Greater than 7`.
+   - Defina **[!UICONTROL Date Modified]** como `Greater than 7`.
 
-1. Para aplicar uma ordem de classificação automaticamente à lista de produtos gerada dinamicamente, defina **[!UICONTROL Automatic Sorting]**.
+1. Para aplicar automaticamente uma ordem de classificação à lista de produtos gerada dinamicamente, defina **[!UICONTROL Automatic Sorting]**.
 
-   ![Classificação automática](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
+   ![Classificação Automática](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
    As opções de ordem de classificação são definidas globalmente e aplicadas com base nas condições atuais. Não é possível definir uma ordem de classificação diferente para o nível de exibição de site, loja ou loja.
 
@@ -112,11 +112,11 @@ As regras de produto de categoria podem acelerar o processo de atribuição de p
 
 - **[!UICONTROL Match products by rule]** - Determina se a lista de produtos na categoria é gerada dinamicamente por uma regra de categoria. Opções: `Yes` / `No`
 
-- **[!UICONTROL Automatic Sorting]** - Aplica automaticamente uma ordem de classificação à lista de produtos da categoria. Opções: `None`, `Move low stock to top`, `Move low stock to bottom`, `Special price to top`, `Special price to bottom`, `Newest products first`, `Sort by color`, `Name: A - Z`, `Name: Z - A`, `SKU: Ascending`, `SKU: Descending`, `Price: High to Low`, e `Price: Low to High`
+- **[!UICONTROL Automatic Sorting]** - Aplica automaticamente uma ordem de classificação à lista de produtos da categoria. Opções: `None`, `Move low stock to top`, `Move low stock to bottom`, `Special price to top`, `Special price to bottom`, `Newest products first`, `Sort by color`, `Name: A - Z`, `Name: Z - A`, `SKU: Ascending`, `SKU: Descending`, `Price: High to Low` e `Price: Low to High`
 
   >[!NOTE]
   >
-  >Se você tiver um produto configurável com produtos secundários, o estoque do produto principal será calculado com base no total combinado de estoques de produtos secundários. Considere um exemplo em que você tem um produto configurável _Proteus Fitness Shirt_ com produtos-filho laranja, vermelho e amarelo com diferentes quantidades de estoque de cada um. O estoque do produto principal é calculado com base no total combinado do estoque de produtos secundários laranja, vermelho e amarelo. Com o `Move low stock to top` , ele calcula o estoque de produtos principais combinando todo o seu estoque de produtos secundários comercializáveis e o classifica de acordo.
+  >Se você tiver um produto configurável com produtos secundários, o estoque do produto principal será calculado com base no total combinado de estoques de produtos secundários. Considere um exemplo onde você tenha produtos configuráveis _Proteus Fitness Shirt_ com produtos filho laranja, vermelho e amarelo com diferentes quantidades de estoque de cada um. O estoque do produto principal é calculado com base no total combinado do estoque de produtos secundários laranja, vermelho e amarelo. Com a opção `Move low stock to top`, ele calcula o estoque de produtos principais combinando todo o seu estoque de produtos secundários comercializáveis e o classifica de acordo.
 
 - **[!UICONTROL Add Condition]** - Adiciona outra condição à regra.
 
@@ -137,10 +137,10 @@ As regras de produto de categoria podem acelerar o processo de atribuição de p
 
   >[!NOTE]
   >
-  >A quantidade de um produto configurável com opções filho é calculada combinando todas as quantidades de produtos filho dimensionáveis. Considere um exemplo em que você tem um produto configurável _Tanque fitness básico_ com opções de cor roxa, vermelha e amarela e quantidades diferentes de cada uma. Nesse caso, a quantidade do produto principal (Tanque de condicionamento básico) é a quantidade comercializável combinada dos produtos secundários de cor roxa, vermelha e amarela.
+  >A quantidade de um produto configurável com opções filho é calculada combinando todas as quantidades de produtos filho dimensionáveis. Considere um exemplo em que você tem um produto configurável _Repositório Básico_ com opções de cor roxa, vermelha e amarela e quantidades diferentes de cada um. Nesse caso, a quantidade do produto principal (Tanque de condicionamento básico) é a quantidade comercializável combinada dos produtos secundários de cor roxa, vermelha e amarela.
 
-- **[!UICONTROL Operator]** - Especifica o operador aplicado ao valor do atributo para atender à condição. A menos que um operador seja especificado, `Equal` é usado como padrão. Opções: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to`, e `Contains`
+- **[!UICONTROL Operator]** - Especifica o operador que é aplicado ao valor do atributo para atender à condição. A menos que um operador seja especificado, `Equal` é usado como padrão. Opções: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to` e `Contains`
 
 - **[!UICONTROL Value]** - Especifica o valor que o atributo deve ter para atender à condição.
 
-- **[!UICONTROL Logic]** - A coluna Lógica é usada para definir várias condições e aparece somente quando outra condição é adicionada. Os operadores seguem as regras de precedência do MySQL [operadores booleanos](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html). Opções: `AND` / `OR`
+- **[!UICONTROL Logic]** - A coluna Lógica é usada para definir várias condições e aparece somente quando outra condição é adicionada. Os operadores seguem as regras de precedência para MySQL [operadores booleanos](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html). Opções: `AND` / `OR`

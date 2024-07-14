@@ -4,7 +4,7 @@ description: Saiba como configurar os padrões para as partes principais de uma 
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -17,23 +17,23 @@ As seções principais da página são controladas, em parte, por um conjunto de
 - [Cabeçalho](#header)
 - [Rodapé](#footer)
 
-![seções da página HTML](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
+![seções da página de HTML](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
 ## Cabeçalho do HTML
 
-As configurações na seção Cabeçalho do HTML correspondem à variável `<head>` tag de uma página de HTML e pode ser configurada para cada visualização de loja. Além de metadados para o título da página, descrição e palavras-chave, a seção inclui um link para o favicon e scripts diversos. As instruções para robôs de mecanismo de pesquisa e a exibição do aviso de demonstração da loja também são configuradas nesta seção.
+As configurações na seção HTML Head correspondem à tag `<head>` de uma página HTML e podem ser definidas para cada exibição de loja. Além de metadados para o título da página, descrição e palavras-chave, a seção inclui um link para o favicon e scripts diversos. As instruções para robôs de mecanismo de pesquisa e a exibição do aviso de demonstração da loja também são configuradas nesta seção.
 
 ### Configure o HTML Head
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Localize a exibição de loja que deseja configurar e clique em **[!UICONTROL Edit]** no _[!UICONTROL Action]_coluna.
+1. Localize a exibição de armazenamento que você deseja configurar e clique em **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
-1. Em _Outras configurações_, expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL HTML Head]** seção.
+1. Em _Outras Configurações_, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL HTML Head]**.
 
-   ![Definições de configuração do HTML Head](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![configurações do Cabeçalho de HTML](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
-1. Atualize o [favicon](../getting-started/storefront-branding.md#add-a-favicon) se necessário.
+1. Atualize o [favicon](../getting-started/storefront-branding.md#add-a-favicon), se necessário.
 
 1. Atualize as configurações de título da página de acordo com suas necessidades:
 
@@ -48,9 +48,9 @@ As configurações na seção Cabeçalho do HTML correspondem à variável `<hea
    - **[!UICONTROL Default Meta Description]**
    - **[!UICONTROL Default Meta Keywords]**
 
-1. Insira qualquer **[!UICONTROL Scripts and Style Sheets]** conforme necessário.
+1. Insira qualquer **[!UICONTROL Scripts and Style Sheets]**, conforme necessário.
 
-1. Ative ou desative o [aviso da loja de demonstração](../getting-started/storefront-branding.md#set-the-store-demo-notice) se necessário.
+1. Habilite ou desabilite o [aviso de loja de demonstração](../getting-started/storefront-branding.md#set-the-store-demo-notice), se necessário.
 
 1. Quando terminar, clique em **[!UICONTROL Save Configuration]**.
 
@@ -64,7 +64,7 @@ As configurações na seção Cabeçalho do HTML correspondem à variável `<hea
 | [!UICONTROL Page Title Suffix] | Exibição da loja | Um sufixo pode ser adicionado após o título para criar um título de duas ou três partes. Uma barra vertical ou dois pontos pode ser usada como separador no final do prefixo para diferenciá-lo do texto do título principal. |
 | [!UICONTROL Default Meta Description] | Exibição da loja | A descrição fornece um resumo do site para listagens de mecanismos de pesquisa e não deve ter mais de 160 caracteres. |
 | [!UICONTROL Default Meta Keywords] | Exibição da loja | Uma série de palavras-chave que descrevem sua loja, cada uma separada por vírgula. |
-| [!UICONTROL Scripts and Style Sheets] | Exibição da loja | Contém scripts que devem ser incluídos no HTML antes do fechamento `<head>` tag. Por exemplo, qualquer JavaScript de terceiros que deve ser colocado antes da variável `<body>` tag pode ser inserida aqui. |
+| [!UICONTROL Scripts and Style Sheets] | Exibição da loja | Contém scripts que devem ser incluídos no HTML antes da marca `<head>` de fechamento. Por exemplo, qualquer JavaScript de terceiros que deve ser colocada antes que a tag `<body>` possa ser inserida aqui. |
 | [!UICONTROL Display Demo Store Notice] | Exibição da loja | Controla a exibição do aviso da loja de demonstração na parte superior da página. Opções: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -73,20 +73,20 @@ As configurações na seção Cabeçalho do HTML correspondem à variável `<hea
 
 A configuração de cabeçalho identifica o caminho para o logotipo da loja e especifica o texto alternativo do logotipo e a mensagem de boas-vindas.
 
-![Configurações do cabeçalho](./assets/configuration-header.png){width="400" zoomable="yes"}
+![Configurações de cabeçalho](./assets/configuration-header.png){width="400" zoomable="yes"}
 
 ### Configurar o cabeçalho
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Localize a exibição de loja que deseja configurar e clique em **[!UICONTROL Edit]** no _[!UICONTROL Action]_coluna.
+1. Localize a exibição de armazenamento que você deseja configurar e clique em **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
-1. Em _Outras configurações_, expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Header]** seção.
+1. Em _Outras Configurações_, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Header]**.
 
 1. Faça as alterações necessárias para a exibição da loja:
 
-   - [Logotipo](../getting-started/storefront-branding.md#upload-your-logo) configurações
-   - [Mensagem de boas-vindas](../getting-started/storefront-branding.md#change-the-welcome-message) configurações
+   - Configurações do [Logotipo](../getting-started/storefront-branding.md#upload-your-logo)
+   - Configurações de [Mensagem de boas-vindas](../getting-started/storefront-branding.md#change-the-welcome-message)
 
 1. Quando terminar, clique em **[!UICONTROL Save Configuration]**.
 
@@ -99,25 +99,25 @@ A configuração de cabeçalho identifica o caminho para o logotipo da loja e es
 | [!UICONTROL Logo Attribute Height] | Exibição da loja | A altura da imagem do logotipo em pixels. |
 | [!UICONTROL Welcome Text] | Exibição da loja | A mensagem de boas-vindas é exibida no cabeçalho da página e inclui o nome dos clientes que estão conectados. |
 | [!UICONTROL Logo Image Alt] | Exibição da loja | O texto Alt associado ao logotipo. |
-| [!UICONTROL Translate Title] | Exibição da loja | Determina se a variável `Page Title` ou `Meta Title` deve ser traduzida. |
+| [!UICONTROL Translate Title] | Exibição da loja | Determina se o `Page Title` ou `Meta Title` deve ser traduzido. |
 
 {style="table-layout:auto"}
 
 ## Rodapé
 
-A seção Configuração do rodapé é onde você pode atualizar o [aviso de copyright](../getting-started/storefront-branding.md#change-the-copyright-notice) que aparece na parte inferior da página e insira scripts diversos que devem ser posicionados antes de fechar `<body>` tag.
+A seção Configuração do rodapé é onde você pode atualizar o [aviso de direitos autorais](../getting-started/storefront-branding.md#change-the-copyright-notice) que aparece na parte inferior da página e inserir scripts diversos que devem ser posicionados antes da marca `<body>` de fechamento.
 
-![Configurações do rodapé](./assets/configuration-footer.png){width="400" zoomable="yes"}
+![Configurações de rodapé](./assets/configuration-footer.png){width="400" zoomable="yes"}
 
 ### Configurar o rodapé
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Localize a exibição de loja que deseja configurar e clique em **[!UICONTROL Edit]** no _[!UICONTROL Action]_coluna.
+1. Localize a exibição de armazenamento que você deseja configurar e clique em **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
-1. Em _Outras configurações_, expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Footer]** seção.
+1. Em _Outras Configurações_, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Footer]**.
 
-1. Faça as alterações necessárias no **[!UICONTROL Copyright]** e **[!UICONTROL Miscellaneous HTML]** configurações.
+1. Faça as alterações necessárias nas configurações de **[!UICONTROL Copyright]** e **[!UICONTROL Miscellaneous HTML]**.
 
 1. Quando terminar, clique em **[!UICONTROL Save Configuration]**.
 
@@ -125,8 +125,8 @@ A seção Configuração do rodapé é onde você pode atualizar o [aviso de cop
 
 | Campo | Escopo | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Miscellaneous HTML] | Exibição da loja | Uma caixa de entrada onde você pode carregar diversos scripts para o servidor, que deve ser colocada antes do fechamento `<body>` tag. |
-| [!UICONTROL Copyright] | Exibição da loja | A declaração de direitos autorais que aparece na parte inferior de cada página. Para incluir o símbolo de copyright, use a entidade de caractere HTML `\&copy;` como no seguinte: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Substitua o exemplo de aviso de copyright pelo seu próprio aviso. |
+| [!UICONTROL Miscellaneous HTML] | Exibição da loja | Uma caixa de entrada na qual você pode carregar scripts diversos no servidor que devem ser colocados antes da marca `<body>` de fechamento. |
+| [!UICONTROL Copyright] | Exibição da loja | A declaração de direitos autorais que aparece na parte inferior de cada página. Para incluir o símbolo de direitos autorais, use a entidade de caractere HTML `\&copy;` como a seguir: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Substitua o aviso de direitos autorais de exemplo pelo seu próprio. |
 | [!UICONTROL Display Report Bugs Link] | Exibição da loja | Determina se o link do relatório de erros (suportado para alguns temas) está ativo ou desativado. |
 
 {style="table-layout:auto"}

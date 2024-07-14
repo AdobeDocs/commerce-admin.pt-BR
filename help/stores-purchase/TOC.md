@@ -17,7 +17,7 @@ ht-degree: 3%
 
 + [Guia de experiência de compras e lojas](guide-overview.md)
 + [Introdução a lojas e experiência de compra](introduction.md)
-+ Gerenciamento de site e loja {#site-store}
++ Gerenciamento de site e repositório {#site-store}
    + [Menu Lojas](stores-menu.md)
    + [Estrutura de armazenamento e site](stores.md)
    + [Visualizações da loja](store-views.md)
@@ -62,7 +62,7 @@ ht-degree: 3%
    + Cartões-presente {#gift-cards}
       + [Compra e resgate de cartão-presente](product-gift-card-workflow.md)
       + [Contas de cartão-presente](product-gift-card-accounts.md)
-+ Ferramentas do consumidor {#shopper-tools}
++ Ferramentas do comprador {#shopper-tools}
    + [Enviar email para um amigo](email-a-friend.md)
    + Listas de desejos {#wish-lists}
       + [Visão geral](wishlists.md)
@@ -74,7 +74,7 @@ ht-degree: 3%
    + [Permitir cancelamento da ordem](cancel-allow.md)
 + Pagamentos {#payments}
    + [Visão geral](payments.md)
-   + Soluções de pagamento PayPal {#paypal}
+   + Soluções de pagamento do PayPal {#paypal}
       + [Visão geral das soluções do PayPal](paypal.md)
       + [Check-out do PayPal Express](paypal-express-checkout.md)
       + [Pagamentos do PayPal Avançados](paypal-payments-advanced.md)
@@ -92,7 +92,7 @@ ht-degree: 3%
       + [Transferências bancárias](bank-transfer.md)
       + [Ordens de compra](purchase-order.md)
       + [Checkout de subtotal zero](zero-subtotal-checkout.md)
-+ Gerenciar fluxo de pedidos {#order-management}
++ Gerenciar fluxo de ordens {#order-management}
    + [Menu Vendas](sales-menu.md)
    + Pedidos {#orders}
       + [Visão geral](orders.md)
@@ -107,7 +107,7 @@ ht-degree: 3%
    + Avisos de crédito {#credit-memos}
       + [Visão geral](credit-memos.md)
       + [Emitir um memorando de crédito](credit-memo-create.md)
-   + Devoluções {#returns}
+   + Retorna {#returns}
       + [Visão geral](returns.md)
       + [Configurar devoluções](rma-configure.md)
       + [Atributos de retorno](attributes-returns.md)
@@ -116,7 +116,7 @@ ht-degree: 3%
 + Entrega {#delivery}
    + [Visão geral](delivery.md)
    + [Configurações de envio](shipping-settings.md)
-   + Métodos básicos de delivery {#basic-methods}
+   + Métodos de entrega básicos {#basic-methods}
       + [Frete gratuito](shipping-free.md)
       + [Taxa única](shipping-flat-rate.md)
       + [Taxas de tabela](shipping-table-rate.md)
@@ -131,5 +131,5 @@ ht-degree: 3%
       + [Visão geral da etiqueta de remessa](shipping-labels.md)
       + [Configurar etiquetas de remessa](shipping-label-configure.md)
       + [Criar etiquetas de remessa](shipping-label-create.md)
-+ [Retornar aos Guias do comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do Comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

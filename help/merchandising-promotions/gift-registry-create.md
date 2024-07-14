@@ -5,7 +5,7 @@ exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -22,37 +22,37 @@ Um registro de presentes pode ser criado para qualquer tipo de evento, como um c
 
 Ao criar um registro, ele se torna uma opção na lista de tipos de registro de presentes na conta do cliente.
 
-Você pode usar um dos três registros de presentes preparados ou criar seu próprio registro personalizado. Cada tipo de registro de presente inclui vários atributos, que são os campos de entrada de dados que um cliente conclui para criar um registro de presente. Os atributos fornecem informações adicionais sobre o evento, a hora e o local, ou qualquer outra informação necessária. Dependendo do tipo de entrada, alguns atributos têm várias opções. Por exemplo, a variável `Wedding` o tipo de registro do presente tem o atributo `Role`, com o `Bride`, `Groom`, e `Partner` opções. Para saber mais sobre atributos e tipos de entrada, consulte [Atributos](../customers/attribute-properties.md).
+Você pode usar um dos três registros de presentes preparados ou criar seu próprio registro personalizado. Cada tipo de registro de presente inclui vários atributos, que são os campos de entrada de dados que um cliente conclui para criar um registro de presente. Os atributos fornecem informações adicionais sobre o evento, a hora e o local, ou qualquer outra informação necessária. Dependendo do tipo de entrada, alguns atributos têm várias opções. Por exemplo, o tipo de registro de presente `Wedding` tem o atributo `Role`, com as opções `Bride`, `Groom` e `Partner`. Para saber mais sobre atributos e tipos de entrada, consulte [Atributos](../customers/attribute-properties.md).
 
-![Tipos de registro de presentes](./assets/gift-registry-types.png){width="700" zoomable="yes"}
+![Tipos de Registro de presentes](./assets/gift-registry-types.png){width="700" zoomable="yes"}
 
 ## Usar um registro de presente preparado
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
 
    Os registros de aniversário, casamento e bebê estão prontos para serem usados pelos clientes em suas contas.
 
-1. Certifique-se de concluir a [configuração do modelo de email](../systems/email-templates.md#configure-email-templates), para que reflitam sua marca.
+1. Conclua a [configuração do modelo de email](../systems/email-templates.md#configure-email-templates) para que ela reflita sua marca.
 
 ## Criar um registro de presente personalizado
 
-1. Na barra lateral Admin, acesse **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
+1. Na barra lateral Admin, vá para **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Add Gift Registry Type]**.
 
 1. Em **[!UICONTROL General Information]**, conclua o seguinte:
 
-   - Insira um único **[!UICONTROL Code]** para identificar o registro de presentes internamente.
+   - Insira um **[!UICONTROL Code]** exclusivo para identificar internamente o registro de presentes.
 
      O código deve começar com uma letra minúscula. O restante do código pode ser qualquer combinação de letras minúsculas (a-z), números (0-9) e sublinhado (`_`).
 
-   - Para **[!UICONTROL Label]**, digite um nome para o registro do presente, como deseja que ele apareça na loja.
+   - Para **[!UICONTROL Label]**, insira um nome para o registro de presentes, como você deseja que ele apareça na loja.
 
      Esta etiqueta é uma opção da lista de tipos de registro de presentes que estão disponíveis para o cliente.
 
-   - Para **[!UICONTROL Sort Order]**, insira um número para determinar a ordem em que esse registro de presentes aparecerá quando listado com outros tipos.
+   - Para **[!UICONTROL Sort Order]**, insira um número para determinar a ordem em que este registro de presente aparece quando listado com outros tipos.
 
-   - Para ativar o registro de presentes, defina **[!UICONTROL Is Listed]** para `Yes`.
+   - Para ativar o registro de presentes, defina **[!UICONTROL Is Listed]** como `Yes`.
 
      ![Registro de presentes - informações gerais](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
 
@@ -64,21 +64,21 @@ Você pode usar um dos três registros de presentes preparados ou criar seu pró
 
 1. Para cada atributo, faça o seguinte:
 
-   - Atribuir um único **[!UICONTROL Code]** para identificar o atributo internamente. O código pode ter até 15 caracteres e deve começar com uma letra minúscula. O restante do código pode incluir letras minúsculas (`a`-`z`), números (`0`-`9`), e o sublinhado (`_`) para separar palavras.
+   - Atribua um **[!UICONTROL Code]** exclusivo para identificar o atributo internamente. O código pode ter até 15 caracteres e deve começar com uma letra minúscula. O restante do código pode incluir letras minúsculas(`a`-`z`), números (`0`-`9`) e o caractere de sublinhado (`_`) para separar palavras.
 
    - Escolha o **[!UICONTROL Input Type]** a ser usado para entrada de dados. Você pode usar um dos tipos personalizados ou estáticos.
 
-   - Se o tipo de entrada tiver várias opções, clique em **[!UICONTROL Add New Option]** e preencha as informações para cada opção.
+   - Se o tipo de entrada tiver várias opções, clique em **[!UICONTROL Add New Option]** e complete as informações para cada opção.
 
      Alguns tipos de entrada têm propriedades adicionais. Por exemplo, o Local do evento tem propriedades adicionais para tornar o evento pesquisável e está incluído na lista pública de registros de presentes da loja.
 
-      - Definir **[!UICONTROL Attribute Group]** para a seção no registro de presentes onde você deseja que o atributo apareça.
+      - Defina **[!UICONTROL Attribute Group]** para a seção no registro de presentes em que você deseja que o atributo apareça.
 
-      - Para **[!UICONTROL Label]**, digite um nome para identificar o campo de entrada de dados no registro.
+      - Para **[!UICONTROL Label]**, insira um nome para identificar o campo de entrada de dados no Registro.
 
-      - Se o cliente precisar fazer uma seleção ou inserir um valor no campo, defina **[!UICONTROL Is Required]** para `Yes`.
+      - Se o cliente precisar fazer uma seleção ou inserir um valor no campo, defina **[!UICONTROL Is Required]** como `Yes`.
 
-      - Para **[!UICONTROL Sort Order]**, insira um número para determinar a sequência em que este registro de presentes aparece quando listado com outros registros de presentes que podem estar disponíveis na loja.
+      - Para **[!UICONTROL Sort Order]**, insira um número para determinar a sequência em que esse registro de presente aparece quando listado com outros registros de presente que podem estar disponíveis no armazenamento.
 
 1. Para adicionar outra opção, clique em **Adicionar nova opção**.
 
@@ -121,9 +121,9 @@ Selecione o tipo de dados e o controle de entrada associados ao atributo.
 | Campo | Descrição |
 |--- |--- |
 | [!UICONTROL Text] | Exibe o atributo como um campo de texto. |
-| [!UICONTROL Select] | Exibe o atributo como uma lista suspensa. Clique em **[!UICONTROL Add New Option]** para adicionar mais condições à lista suspensa:<br/>**[!UICONTROL Code]**- Um nome exclusivo para identificar o atributo internamente.<br/>**[!UICONTROL Label]** - O nome que identifica o atributo no painel de conta do cliente.<br/>**[!UICONTROL Is Default]**- Defina esse switch para selecionar a condição padrão.<br/>**[!UICONTROL Delete Option]** - Clique em para excluir a opção. |
+| [!UICONTROL Select] | Exibe o atributo como uma lista suspensa. Clique em **[!UICONTROL Add New Option]** para adicionar mais condições à lista suspensa:<br/>**[!UICONTROL Code]**- Um nome exclusivo para identificar o atributo internamente.<br/>**[!UICONTROL Label]** - O nome que identifica o atributo no painel de conta do cliente.<br/>**[!UICONTROL Is Default]**- Defina esta opção para selecionar a condição padrão.<br/>**[!UICONTROL Delete Option]** - Clique para excluir a opção. |
 | [!UICONTROL Date] | Exibe o atributo como um campo de data. Opções: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
-| [!UICONTROL Country] | Exibe o atributo como uma lista suspensa de países. Definir **[!UICONTROL Show Region]** para: `Yes` / `No`. |
+| [!UICONTROL Country] | Exibe o atributo como uma lista suspensa de países. Defina **[!UICONTROL Show Region]** como: `Yes` / `No`. |
 
 {style="table-layout:auto"}
 
@@ -131,10 +131,10 @@ Selecione o tipo de dados e o controle de entrada associados ao atributo.
 
 | Campo | Descrição |
 |--- |--- |
-| [!UICONTROL Event Date] | Determina como o atributo de data é usado no armazenamento. Opções: <br/>**[!UICONTROL Searchable]**- Determina se o atributo está disponível para Pesquisa avançada. Opções: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Determina se o evento está incluído na lista de eventos que está disponível na loja. Opções: `Yes` / `No`. <br/>**[!UICONTROL Date Format]**- Determina o formato da data do evento. Opções: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
-| [!UICONTROL Event Country] | Exibe o atributo como uma lista de países. Opções: <br/>**[!UICONTROL Searchable]**- Determina se o atributo está disponível para Pesquisa avançada. Opções: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Determina se o evento está incluído na lista de eventos que está disponível na loja. Opções: `Yes` / `No`. <br/>**[!UICONTROL Show Region]**- Determina a região do evento. |
-| [!UICONTROL Event Location] | O local do evento relacionado ao registro de presentes. <br/>Definir **[!UICONTROL Is Searcheable]** para: `Yes` / `No` <br/>Definir **[!UICONTROL Is Listed]** para: `Yes` / `No` |
-| [!UICONTROL Role] | A função que identifica o destinatário do presente. Por exemplo, `Bride`, `Groom`ou `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Defina como `Yes`/ `No`<br/>** Está Listado **- Defina como `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Clique para adicionar mais condições ao menu suspenso:<br/>**Código** - Um nome exclusivo para identificar o atributo internamente.<br/>**[!UICONTROL Label]**- O nome que identifica o atributo no painel de conta do cliente.<br/>**[!UICONTROL Is Default]** - Defina esse switch para selecionar a condição padrão.<br/>**[!UICONTROL Delete Option]**- Clique em para excluir a opção. |
+| [!UICONTROL Event Date] | Determina como o atributo de data é usado no armazenamento. Opções: <br/>**[!UICONTROL Searchable]**- Determina se o atributo está disponível para Pesquisa Avançada. Opções: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Determina se o evento está incluído na lista de eventos que está disponível no armazenamento. Opções: `Yes` / `No`. <br/>**[!UICONTROL Date Format]**- Determina o formato da data do evento. Opções: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
+| [!UICONTROL Event Country] | Exibe o atributo como uma lista de países. Opções: <br/>**[!UICONTROL Searchable]**- Determina se o atributo está disponível para Pesquisa Avançada. Opções: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Determina se o evento está incluído na lista de eventos que está disponível no armazenamento. Opções: `Yes` / `No`. <br/>**[!UICONTROL Show Region]**- Determina a região do evento. |
+| [!UICONTROL Event Location] | O local do evento relacionado ao registro de presentes. <br/>Definir **[!UICONTROL Is Searcheable]** como: `Yes` / `No` <br/>Definir **[!UICONTROL Is Listed]** como: `Yes` / `No` |
+| [!UICONTROL Role] | A função que identifica o destinatário do presente. Por exemplo, `Bride`, `Groom` ou `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Definido como `Yes`/ `No`<br/>** Está Listado **- Definido como `Yes` / `No`<br/>**[!UICONTROL Add New Option]** - Clique para adicionar mais condições ao menu suspenso:<br/>**Código** - Um nome exclusivo para identificar o atributo internamente.<br/>**[!UICONTROL Label]**- O nome que identifica o atributo no painel de conta do cliente.<br/>**[!UICONTROL Is Default]** - Defina esta opção para selecionar a condição padrão.<br/>**[!UICONTROL Delete Option]**- Clique para excluir a opção. |
 
 {style="table-layout:auto"}
 

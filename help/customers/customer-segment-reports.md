@@ -5,7 +5,7 @@ exl-id: a767ee80-7b6e-4acd-9772-2f8adcf3233e
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 O relatório de Segmento do cliente fornece informações sobre o número de clientes em cada segmento.
 
-![Relatório de Segmento de Cliente](assets/customer-segments-reports.png){width="700" zoomable="yes"}
+![Relatório de segmentos de clientes](assets/customer-segments-reports.png){width="700" zoomable="yes"}
 
 | Coluna | Descrição |
 |--- |--- |
@@ -30,9 +30,9 @@ O relatório de Segmento do cliente fornece informações sobre o número de cli
 
 Você pode detalhar uma lista de clientes no segmento e exportar os dados.
 
-![Analisar os dados do cliente](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
+![Detalhar dados do cliente](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
 
-Para garantir que você tenha os dados mais recentes, os dados do segmento devem ser atualizados. Se os dados do segmento não estiverem disponíveis ou estiverem desatualizados, clique em **[!UICONTROL Refresh Segment Data]** na barra de botões a ser atualizada.
+Para garantir que você tenha os dados mais recentes, os dados do segmento devem ser atualizados. Se os dados do segmento não estiverem disponíveis ou estiverem desatualizados, clique em **[!UICONTROL Refresh Segment Data]** na barra de botões para atualizar.
 
 1. Para **[!UICONTROL Export to]**, escolha um formato de exportação:
 

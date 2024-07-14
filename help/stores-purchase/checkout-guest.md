@@ -14,26 +14,26 @@ ht-degree: 0%
 
 Sua loja pode ser configurada para exigir que os compradores abram uma conta antes de fazer uma compra. A configuração padrão permite que os convidados façam compras, com uma opção para se registrarem em uma conta depois de concluírem o processo de finalização.
 
-![A loja Luma exibe Check-out como Convidado](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
+![O armazenamento Luma exibe Fazer Check-out como Convidado](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
 
-**_Para desativar o check-out de convidado:_**
+**_Para desabilitar o check-out do convidado:_**
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Checkout]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Checkout Options]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Checkout Options]**.
 
-   ![As opções de check-out foram expandidas na página de configuração](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![Opções de check-out expandidas na página de configuração](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-Para obter uma descrição detalhada de cada uma dessas configurações, consulte [Opções de check-out](../configuration-reference/sales/checkout.md#checkout-options) no _Guia de referência de configuração_.
+Para obter uma descrição detalhada de cada uma dessas configurações, consulte [Opções de Check-out](../configuration-reference/sales/checkout.md#checkout-options) no _Guia de Referência de Configuração_.
 
-1. Se a configuração for para uma exibição de loja específica, [escolher a exibição de loja](../configuration-reference/scope-change.md#set-the-scope) onde a configuração se aplica.
+1. Se a configuração for para um modo de exibição de repositório específico, [escolha o modo de exibição de repositório](../configuration-reference/scope-change.md#set-the-scope) ao qual a configuração se aplica.
 
-   Quando solicitado, clique em **[!UICONTROL OK]** para continuar.
+   Quando solicitado, clique em **[!UICONTROL OK]** para continuar.
 
-1. Definir **[!UICONTROL Allow Guest Checkout]** para `No`.
+1. Defina **[!UICONTROL Allow Guest Checkout]** como `No`.
 
-   Se necessário, limpe a **[!UICONTROL Use system value]** para habilitar alterações nesta configuração.
+   Se necessário, desmarque a caixa de seleção **[!UICONTROL Use system value]** para habilitar alterações nessa configuração.
 
 1. Clique em **[!UICONTROL Save Config]**.

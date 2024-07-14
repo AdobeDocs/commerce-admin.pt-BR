@@ -16,7 +16,7 @@ Dependendo das necessidades comerciais e do status do local, os comerciantes de 
 
 Essa opção permite selecionar um ou mais produtos, a origem de origem para transferir o inventário e a origem de destino para receber quantidades:
 
-- Quantidades de estoque, Status do Item de Origem (Em Estoque/Fora de Estoque) e a Quantidade de Notificação para a origem selecionada são movidos por produto.
+- As quantidades de estoque, o Status do Item do Source (Em Estoque/Fora de Estoque) e a Quantidade de Notificação para a origem selecionada são movidos por produto.
 
 - Se um produto não tiver essa origem, ele será ignorado.
 
@@ -30,21 +30,21 @@ Também é possível cancelar a atribuição da origem ao transferir quantidades
 
 {{$include /help/_includes/unassign-source.md}}
 
-![Transferir inventário para outra origem](assets/inventory-bulk-transfer-source.gif)
+![Transferir estoque para outra origem](assets/inventory-bulk-transfer-source.gif)
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Selecione os produtos para os quais deseja modificar origens.
 
    Procure ou pesquise para encontrar produtos e marcar as caixas de seleção para transferência.
 
-1. Clique em **[!UICONTROL Actions]** na parte superior e escolha **[!UICONTROL Transfer Inventory to Source]**.
+1. Clique no menu **[!UICONTROL Actions]** na parte superior e escolha **[!UICONTROL Transfer Inventory to Source]**.
 
 1. Clique em **[!UICONTROL OK]** no diálogo de confirmação.
 
-1. Para transferir produtos para um novo destino, selecione a origem (_[!UICONTROL from]_) fonte.
+1. Para transferir produtos para um novo destino, selecione a origem (_[!UICONTROL from]_).
 
-1. para transferir produtos para um novo destino, selecione o destino (_[!UICONTROL to]_) fonte.
+1. para transferir produtos para um novo destino, selecione a origem de destino (_[!UICONTROL to]_).
 
 1. Para remover a origem dos produtos, marque a caixa de seleção opcional **[!UICONTROL Unassign from origin source after transfer]**.
 

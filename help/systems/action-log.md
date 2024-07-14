@@ -14,25 +14,25 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-O recurso Logs de ação registra (registra) todas as alterações feitas por um usuário administrador que trabalha na loja. Isso permite rastrear todas as alterações feitas em sua loja. Rastrear essas alterações, juntamente com a configuração [Permissões de administrador](permissions.md) para um usuário, o pode ajudar a proteger seu armazenamento contra alterações indesejadas.
+O recurso Logs de ação registra (registra) todas as alterações feitas por um usuário administrador que trabalha na loja. Isso permite rastrear todas as alterações feitas em sua loja. O controle dessas alterações, juntamente com a configuração de [Permissões de administrador](permissions.md) para um usuário, pode ajudar a proteger seu armazenamento contra alterações indesejadas.
 
 Para a maioria das ações de Administrador, as informações registradas incluem a ação, o nome do usuário, o sucesso ou falha da ação e a ID do objeto afetado pela ação. O endereço IP e a data também são registrados.
 
 Por padrão, todas as ações do administrador são ativadas e registradas. Para configurar o Registro de ações do administrador, revise as opções e marque ou desmarque a caixa de seleção para cada tipo de ação. O Adobe Commerce registra somente os tipos marcados.
 
-Exibir o [Relatório de Logs de Ação](action-log-report.md) para revisar ações e detalhes de administradores registrados.
+Exiba o [Relatório de Logs de Ação](action-log-report.md) para examinar as ações e os detalhes de administrador registrados.
 
 ![Configuração avançada - registro de ações do administrador](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
-Para obter uma lista detalhada das definições de configuração, consulte [Arquivamento do Log de Ações do Administrador](../configuration-reference/advanced/system.md) no _Referência de configuração_.
+Para obter uma lista detalhada das definições de configuração, consulte [Arquivamento do Log de Ações do Administrador](../configuration-reference/advanced/system.md) na _Referência de Configuração_.
 
 ## Configurar ações do administrador para fazer logon
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Advanced]** e escolha **[!UICONTROL Admin]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Admin Actions Logging]** e faça o seguinte para cada ação:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Admin Actions Logging]** e faça o seguinte para cada ação:
 
    - Para habilitar o log de administrador para a ação, marque a caixa de seleção.
    - Para desativar o registro de Administrador para a ação, desmarque a caixa de seleção.
@@ -45,9 +45,9 @@ Os logs de ação do administrador podem ser arquivados por qualquer número de 
 
 1. No painel esquerdo, expanda **[!UICONTROL Advanced]** e escolha **[!UICONTROL System]**.
 
-1. Expandir **[!UICONTROL Admin Action Log Archiving]** e defina as opções:
+1. Expanda **[!UICONTROL Admin Action Log Archiving]** e defina as opções:
 
    - **[!UICONTROL Logs Entry Lifetime, Days]** - Defina o número de dias para reter o log arquivado.
-   - **[!UICONTROL Log Archiving Frequency]** - Definir a frequência de criação de arquivos.
+   - **[!UICONTROL Log Archiving Frequency]** - Definir a frequência de criação de arquivos mortos.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.

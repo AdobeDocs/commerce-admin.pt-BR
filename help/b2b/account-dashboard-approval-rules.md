@@ -6,7 +6,7 @@ feature: B2B, Companies, Configuration
 role: Admin
 source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Dependendo da função e das permissões da empresa, os usuários podem criar, e
 
 >[!IMPORTANT]
 >
->A configuração da regra de aprovação requer uma configuração [estrutura da empresa](account-company-structure.md) para especificar a aprovação do gerente do cliente comprador.
+>A configuração da regra de aprovação exige uma [estrutura de empresa](account-company-structure.md) definida para especificar a aprovação pelo gerente do cliente comprador.
 
 ## Métodos de pagamento
 
@@ -36,19 +36,19 @@ Os fluxos de aprovação de ordem de compra oferecem suporte aos métodos de pag
 
 ## Configuração da regra de aprovação
 
-Com o necessário [permissões para suas funções](account-company-roles-permissions.md), os clientes B2B podem configurar regras de aprovação para aplicar as políticas da empresa clicando em **[!UICONTROL Approval Rules]** no painel esquerdo para a conta do cliente.
+Com as [permissões necessárias para sua função](account-company-roles-permissions.md), os clientes B2B podem configurar regras de aprovação para impor políticas da empresa clicando em **[!UICONTROL Approval Rules]** no painel esquerdo da conta do cliente.
 
 ![Regras de aprovação da empresa](./assets/approval-rules.png){width="700" zoomable="yes"}
 
 Para criar uma regra de aprovação, um cliente conclui as seguintes etapas:
 
-1. Cliques **[!UICONTROL Add New Rule]** para criar uma regra.
+1. Clica em **[!UICONTROL Add New Rule]** para criar uma regra.
 
 1. Se necessário, altera a regra de **[!UICONTROL Enabled]** para **[!UICONTROL Disabled]**.
 
    A regra é ativada como o padrão, mas um cliente pode criar a regra usando uma configuração desativada e depois ativá-la quando estiver pronto para aplicá-la.
 
-1. Para **[!UICONTROL Rule name]**, insere um nome curto, mas descritivo, para a Regra, como `Orders less than $100`.
+1. Para **[!UICONTROL Rule name]**, insira um nome curto, mas descritivo, para a Regra, como `Orders less than $100`.
 
    Rule names must be unique.
 
@@ -60,15 +60,15 @@ Para criar uma regra de aprovação, um cliente conclui as seguintes etapas:
 
    As seções a seguir fornecem uma explicação detalhada e um exemplo para cada tipo de regra.
 
-   ![Criação de uma nova regra de aprovação](./assets/approval-rules-create.png){width="700" zoomable="yes"}
+   ![Criando uma nova regra de aprovação](./assets/approval-rules-create.png){width="700" zoomable="yes"}
 
 1. Para **[!UICONTROL Requires approval from]**, escolhe um ou mais aprovadores necessários de acordo com o tipo de aprovação.
 
    >[!NOTE]
    >
    >* Ao atribuir uma função como aprovador, verifique se há pelo menos um usuário nessa função.
-   >* Se houver dois ou mais usuários com a mesma função de aprovador, o criador da ordem de compra não poderá aprová-la. Nesse caso, a aprovação manual é exigida por qualquer outro usuário com essa função de aprovador. No entanto, se `Auto-approve POs created within this role` estiver definida na caixa [Permissões de função](account-company-roles-permissions.md), a ordem de compra é aprovada automaticamente.
-   >* Se houver apenas um usuário com a função de aprovador e esse usuário for o criador, a ordem de compra será sempre aprovada automaticamente - o `Auto-approve POs created within this role` configuração de permissão é ignorada.
+   >* Se houver dois ou mais usuários com a mesma função de aprovador, o criador da ordem de compra não poderá aprová-la. Nesse caso, a aprovação manual é exigida por qualquer outro usuário com essa função de aprovador. No entanto, se a opção `Auto-approve POs created within this role` estiver definida nas [Permissões de Função](account-company-roles-permissions.md), a ordem de compra será aprovada automaticamente.
+   >* Se houver apenas um usuário com a função de aprovador e esse usuário for o criador, a ordem de compra será sempre aprovada automaticamente—a configuração de permissão `Auto-approve POs created within this role` será ignorada.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -76,7 +76,7 @@ Para criar uma regra de aprovação, um cliente conclui as seguintes etapas:
 
 Esse tipo de regra é usado para exigir uma aprovação de OC com base no total do pedido, incluindo o imposto.
 
-1. Escolhe um **[!UICONTROL Order Total amount]** opção:
+1. Escolhe uma opção **[!UICONTROL Order Total amount]**:
 
    * `is more than`
    * `is less than`
@@ -100,7 +100,7 @@ Esse tipo de regra é usado para exigir uma aprovação de OC com base no custo 
 
 1. Define a quantidade de remessa desejada.
 
-![Regra de Aprovação de Custo de Remessa](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
+![Regra de aprovação de custo de envio](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Number of SKUs]
 
@@ -111,7 +111,7 @@ Esse tipo de regra é usado para exigir uma aprovação de OC com base no númer
 
 Este exemplo especifica cinco itens, mas duas SKUs distintas.
 
-1. Define o **[!UICONTROL Number of SKUs]** valor:
+1. Define o valor **[!UICONTROL Number of SKUs]**:
 
    * `is more than`
    * `is less than`
@@ -120,7 +120,7 @@ Este exemplo especifica cinco itens, mas duas SKUs distintas.
 
 1. Define a quantidade de SKUs.
 
-![Número de regras de aprovação de SKUs](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
+![Regra de Aprovação de Número de SKUs](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
 
 ## Editar regras de aprovação
 
@@ -132,13 +132,13 @@ Para modificar uma regra de aprovação existente, um cliente pode concluir as s
 
 1. Cliques **[!UICONTROL Edit]**.
 
-1. Faz todas as alterações e cliques necessários **[!UICONTROL Save]**.
+1. Faz todas as alterações necessárias e clica em **[!UICONTROL Save]**.
 
 ## Excluir regras de aprovação
 
 Para remover uma regra de aprovação existente, um cliente pode concluir as seguintes etapas:
 
-1. Na barra lateral da conta, o seleciona **[!UICONTROL Approval Rules]**.
+1. Na barra lateral da conta, seleciona **[!UICONTROL Approval Rules]**.
 
 1. Localiza a entrada de regra de aprovação a ser excluída.
 

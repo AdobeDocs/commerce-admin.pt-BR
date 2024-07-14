@@ -18,7 +18,7 @@ As atualizações de categoria podem ser aplicadas de acordo com o agendamento e
 
 >[!NOTE]
 >
->A variável [!UICONTROL Schedule Design Update] A guia foi removida em ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce e não podem ser modificados diretamente na categoria. Você deve criar uma atualização agendada para essas ativações.
+>A guia [!UICONTROL Schedule Design Update] foi removida do Adobe Commerce ![Adobe Commerce](../assets/adobe-logo.svg) e não pode ser modificada diretamente na categoria. Você deve criar uma atualização agendada para essas ativações.
 
 >[!NOTE]
 >
@@ -26,27 +26,27 @@ As atualizações de categoria podem ser aplicadas de acordo com o agendamento e
 
 ## Programar uma atualização para uma categoria
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Na árvore de categorias à esquerda, escolha a categoria a ser modificada.
 
-1. No _Alterações Agendadas_ na parte superior da página, clique em **[!UICONTROL Schedule New Update]**.
+1. Na caixa _Alterações Agendadas_, na parte superior da página, clique em **[!UICONTROL Schedule New Update]**.
 
-   ![Alterações Agendadas](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
+   ![Alterações agendadas](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
 
-1. Com o **[!UICONTROL Save as a New Update]** selecionada, defina os parâmetros básicos da atualização:
+1. Com a opção **[!UICONTROL Save as a New Update]** selecionada, defina os parâmetros básicos da atualização:
 
-   - Para **[!UICONTROL Update Name]**, digite um nome para a nova campanha de preparo de conteúdo.
+   - Para **[!UICONTROL Update Name]**, insira um nome para a nova campanha de preparo de conteúdo.
 
-   - Insira um resumo **[!UICONTROL Description]** da atualização e como ela será usada.
+   - Insira um breve **[!UICONTROL Description]** da atualização e como ela deve ser usada.
 
-   - Usar o calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ) para escolher a **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** para a campanha.
+   - Use a ferramenta Calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ) para escolher a **[!UICONTROL Start Date]** e a **[!UICONTROL End Date]** para a campanha.
 
    >[!IMPORTANT]
    >
-   >Campaign **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** deve ser definido usando o **_padrão_** Fuso horário do administrador, que é convertido do fuso horário local de cada site. Por exemplo, com vários sites em fusos horários diferentes nos quais você deseja iniciar uma campanha com base em um fuso horário dos EUA, é necessário agendar uma atualização separada para cada fuso horário local. Você define o **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** para cada, que é convertido do fuso horário do site local para o fuso horário padrão do Administrador.
+   >As campanhas **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** devem ser definidas usando o fuso horário padrão **_3} do Administrador, que é convertido do fuso horário local de cada site._** Por exemplo, com vários sites em fusos horários diferentes nos quais você deseja iniciar uma campanha com base em um fuso horário dos EUA, é necessário agendar uma atualização separada para cada fuso horário local. Você define o **[!UICONTROL Start Date]** e o **[!UICONTROL End Date]** para cada um, que é convertido do fuso horário do site local para o fuso horário padrão do Administrador.
 
-   ![Alterações Agendadas](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
+   ![Alterações agendadas](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
 
 1. Faça as alterações necessárias na atualização agendada.
 
@@ -56,15 +56,15 @@ As atualizações de categoria podem ser aplicadas de acordo com o agendamento e
 
 ## Atribuir a uma atualização existente
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Na árvore de categorias à esquerda, escolha a categoria a ser modificada.
 
-1. No _Alterações Agendadas_ na parte superior da página, clique em **[!UICONTROL Schedule New Update]**.
+1. Na caixa _Alterações Agendadas_, na parte superior da página, clique em **[!UICONTROL Schedule New Update]**.
 
-1. Selecionar **[!UICONTROL Assign to Existing Campaign]**.
+1. Selecione **[!UICONTROL Assign to Existing Campaign]**.
 
-1. Na lista, localize a campanha necessária e clique em **[!UICONTROL Select]**.
+1. Na lista, encontre a campanha necessária e clique em **[!UICONTROL Select]**.
 
 1. Faça as alterações necessárias na atualização agendada.
 

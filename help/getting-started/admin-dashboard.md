@@ -4,30 +4,30 @@ description: Saiba mais sobre o Painel de administração, que geralmente é a p
 exl-id: 56957c0a-1618-444b-a37a-ecf0d7b27eae
 source-git-commit: 7b6d70e2f3052af69075790cec1f396e2505bf8b
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Painel de administração
 
-O painel geralmente é a primeira página exibida ao fazer logon na _Admin_ e podem fornecer uma visão geral em tempo real das vendas e da atividade do cliente. Os dados do painel fornecem um instantâneo das vendas vitalícias, da quantidade média de pedidos, dos pedidos recentes e dos termos de pesquisa. O gráfico mostra pedidos e valores concluídos para o intervalo de datas selecionado e pode ser gerado a partir de dados dinâmicos, em tempo real ou agregados históricos. As guias na parte inferior fornecem relatórios rápidos dos produtos mais vendidos, dos produtos mais visualizados, dos novos clientes e dos clientes que mais compraram.
+O painel geralmente é a primeira página que aparece quando você faz logon no _Administrador_ e pode fornecer uma visão geral em tempo real das vendas e da atividade do cliente. Os dados do painel fornecem um instantâneo das vendas vitalícias, da quantidade média de pedidos, dos pedidos recentes e dos termos de pesquisa. O gráfico mostra pedidos e valores concluídos para o intervalo de datas selecionado e pode ser gerado a partir de dados dinâmicos, em tempo real ou agregados históricos. As guias na parte inferior fornecem relatórios rápidos dos produtos mais vendidos, dos produtos mais visualizados, dos novos clientes e dos clientes que mais compraram.
 
 Se você tiver uma quantidade significativa de dados para processar, o gráfico poderá ser desativado para melhorar o desempenho. O painel no exemplo a seguir é configurado para usar dados em tempo real e mostra os pedidos concluídos por hora nas últimas 24 horas. O gráfico é atualizado para cada pedido concluído.
 
-![Painel](./assets/dashboard-full.png){zoom=&quot;yes&quot;}
+![Painel](./assets/dashboard-full.png){zoomable="yes"}
 
-[Relatórios avançados](business-intelligence.md#advanced-reporting) O exibe um painel personalizado com base no produto, pedido e dados do cliente.
+[Relatórios avançados](business-intelligence.md#advanced-reporting) exibe um painel personalizado com base no seu produto, pedido e dados do cliente.
 
-![Relatórios avançados](./assets/dashboard-advanced-reporting.png){zoom=&quot;yes&quot;}
+![Relatórios avançados](./assets/dashboard-advanced-reporting.png){zoomable="yes"}
 
 ## Configurar o painel
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**e conclua qualquer uma das configurações a seguir.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**e conclua qualquer uma das configurações a seguir.
 
 1. Quando a configuração estiver concluída, clique em **[!UICONTROL Save Config]**.
 
-1. Depois de salvar as alterações, clique em **[!UICONTROL Cache Management]** e atualizar cada cache inválido.
+1. Depois de salvar as alterações, clique em **[!UICONTROL Cache Management]** e atualize cada cache inválido.
 
 ### Ativar gráficos
 
@@ -35,55 +35,55 @@ Se você tiver uma grande quantidade de dados para processar, poderá desativar 
 
 1. No painel de navegação esquerdo, em **[!UICONTROL Advanced]**, escolha **[!UICONTROL Admin]**.
 
-1. Se necessário, expanda a variável **[!UICONTROL Dashboard]** seção.
+1. Se necessário, expanda a seção **[!UICONTROL Dashboard]**.
 
-   ![Configuração avançada - Ativar gráficos](./assets/admin-dashboard-config.png){width="600"}
+   ![Configuração avançada - Habilitar gráficos](./assets/admin-dashboard-config.png){width="600"}
 
-1. Para alterar o valor padrão, desmarque a caixa **[!UICONTROL Use system value]** caixa de seleção
+1. Para alterar o valor padrão, desmarque a caixa de seleção **[!UICONTROL Use system value]**.
 
-1. Definir **Ativar Gráficos** para `Yes`.
+1. Defina **Habilitar Gráficos** para `Yes`.
 
-Para obter mais informações sobre as opções de configuração de Admin, consulte [Guia de referência de configuração](../configuration-reference/advanced/admin.md).
+Para obter mais informações sobre as opções de configuração de Admin, consulte o [Guia de Referência de Configuração](../configuration-reference/advanced/admin.md).
 
 ### Alterar a página de inicialização
 
-O painel é o padrão [página de inicialização](../configuration-reference/advanced/admin.md) para o Administrador, embora seja possível configurar uma página de inicialização diferente.
+O painel é a [página de inicialização](../configuration-reference/advanced/admin.md) padrão para o Administrador, embora você possa configurar uma página de inicialização diferente.
 
 1. Se você ainda não tiver as opções de Configuração de administrador abertas, escolha **[!UICONTROL Admin]** em _[!UICONTROL Advanced]_no painel de navegação esquerdo.
 
-1. Clique para expandir o **Página de inicialização** seção.
+1. Clique para expandir a seção **Página de Inicialização**.
 
-   ![Painel do administrador - configuração da página de inicialização](./assets/admin-startup-page.png){width="600"}
+   ![Painel de administração - configuração da página de inicialização](./assets/admin-startup-page.png){width="600"}
 
-1. Limpe a **[!UICONTROL Use system value]** e escolha a caixa de seleção **Página de inicialização** que você deseja que apareça ao fazer logon no Administrador.
+1. Desmarque a caixa de seleção **[!UICONTROL Use system value]** e escolha a **Página de Inicialização** que você deseja exibir ao fazer logon no Administrador.
 
 ### Escolher as datas de início
 
 1. No painel de navegação esquerdo, em **[!UICONTROL General]**, escolha **Relatórios**.
 
-1. Na página, expanda a variável **[!UICONTROL Dashboard]** seção.
+1. Na página, expanda a seção **[!UICONTROL Dashboard]**.
 
-1. Limpe a **[!UICONTROL Use system value]** para as configurações de data e faça o seguinte:
+1. Desmarque as caixas de seleção **[!UICONTROL Use system value]** para as configurações de data e faça o seguinte:
 
-   - Definir **Início do Acumulado no Ano** para o **Month** e **Dia**.
+   - Defina **Inícios do Acumulado do Ano** como **Mês** e **Dia**.
 
-   - Definir **Mês Atual Começa** para o **Dia**.
+   - Defina **Início do Mês Atual** como **Dia**.
 
-   ![Painel do administrador - configurações de data](./assets/reports-dashboard.png){width="600"}
+   ![Painel de administração - configurações de data](./assets/reports-dashboard.png){width="600"}
 
-Para obter mais informações sobre o [!UICONTROL Reports] opções de configuração, consulte a seção [_Guia de referência de configuração_](../configuration-reference/general/reports.md).
+Para obter mais informações sobre as opções de configuração do [!UICONTROL Reports], consulte o [_Guia de Referência de Configuração_](../configuration-reference/general/reports.md).
 
 ### Configurar a fonte de dados
 
 O gráfico de painel pode ser gerado em tempo real ou usando dados históricos e agregados. Se o desempenho for um problema, você pode acelerar o processo usando dados agregados.
 
-1. No painel de navegação esquerdo, clique para expandir **Vendas** e escolha **Vendas** por baixo.
+1. No painel de navegação esquerdo, clique para expandir **Vendas** e escolha **Vendas** abaixo.
 
-1. Na página, expanda a variável **[!UICONTROL Dashboard]** seção.
+1. Na página, expanda a seção **[!UICONTROL Dashboard]**.
 
    ![Painel de administração - configuração da fonte de dados](./assets/config-sales-dashboard.png){width="600"}
 
-1. Limpe a **[!UICONTROL Use system value]** caixa de seleção e definir **[!UICONTROL Use Aggregated Data]** a um dos seguintes:
+1. Desmarque a caixa de seleção **[!UICONTROL Use system value]** e defina **[!UICONTROL Use Aggregated Data]** como uma das seguintes opções:
 
    - Para dados históricos e agregados, escolha `Yes`.
    - Para dados em tempo real, escolha `No`.
@@ -127,6 +127,6 @@ O gráfico de painel pode ser gerado em tempo real ou usando dados históricos e
 | Botão | Descrição |
 |--- |--- |
 | [!UICONTROL Reload Data] | Atualiza os dados do painel. |
-| [!UICONTROL Go to Advanced Reporting] | Exibe um painel personalizado de gráficos dinâmicos e relatórios com base em seu produto, pedido e dados do cliente. Para obter análises mais abrangentes, consulte [Relatórios avançados](business-intelligence.md#advanced-reporting). |
+| [!UICONTROL Go to Advanced Reporting] | Exibe um painel personalizado de gráficos dinâmicos e relatórios com base em seu produto, pedido e dados do cliente. Para obter análises mais abrangentes, consulte [Relatórios Avançados](business-intelligence.md#advanced-reporting). |
 
 {style="table-layout:auto"}

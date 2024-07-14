@@ -1,6 +1,6 @@
 ---
 title: Adicionar conteúdo - Bloquear
-description: Saiba mais sobre o tipo de conteúdo Bloco, usado para adicionar um bloco reutilizável à [!DNL Page Builder] estágio.
+description: Saiba mais sobre o tipo de conteúdo Bloco, usado para adicionar um bloco reutilizável ao estágio  [!DNL Page Builder] .
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adicionar conteúdo - Bloquear
 
-Use o _Bloquear_ tipo de conteúdo para adicionar um existente, ativo [bloco](../content-design/blocks.md) para o [[!DNL Page Builder] estágio](workspace.md#stage). No exemplo a seguir, a primeira coluna contém o bloco com um menu lateral para a página. A segunda coluna contém uma imagem.
+Use o tipo de conteúdo _Bloco_ para adicionar um [bloco](../content-design/blocks.md) ativo existente ao [[!DNL Page Builder] estágio](workspace.md#stage). No exemplo a seguir, a primeira coluna contém o bloco com um menu lateral para a página. A segunda coluna contém uma imagem.
 
 ![Bloquear com um menu lateral](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
 
@@ -23,10 +23,10 @@ Use o _Bloquear_ tipo de conteúdo para adicionar um existente, ativo [bloco](..
 | Ferramenta | Ícone | Descrição |
 | --------- | -------- | ------------- |
 | Mover | ![Ícone Mover](./assets/pb-icon-move.png) | Move o contêiner de bloco e seu conteúdo para outra posição no palco. |
-| Configurações | ![Ícone Configurações](./assets/pb-icon-settings.png) | Abre a página Editar Bloco, onde você pode escolher o bloco e alterar as propriedades do contêiner. |
+| Configurações | ![Ícone de configurações](./assets/pb-icon-settings.png) | Abre a página Editar Bloco, onde você pode escolher o bloco e alterar as propriedades do contêiner. |
 | Ocultar | ![Ícone Ocultar](./assets/pb-icon-hide.png) | Oculta o container de bloco atual e seu conteúdo. |
 | Mostrar | ![Mostrar ícone](./assets/pb-icon-show.png) | Mostra o contêiner de bloco oculto e seu conteúdo. |
-| Duplicar | ![Ícone Duplicar](./assets/pb-icon-duplicate.png) | Faz uma cópia do contêiner de bloco e de seu conteúdo. |
+| Duplicar | ![Ícone duplicado](./assets/pb-icon-duplicate.png) | Faz uma cópia do contêiner de bloco e de seu conteúdo. |
 | Remover | ![Ícone Remover](./assets/pb-icon-remove.png) | Exclui o contêiner de bloco e seu conteúdo do estágio. |
 
 {style="table-layout:auto"}
@@ -35,17 +35,17 @@ Use o _Bloquear_ tipo de conteúdo para adicionar um existente, ativo [bloco](..
 
 ## Adicionar um bloco existente
 
-1. Navegue até a [!DNL Page Builder] espaço de trabalho na página de destino, bloco, bloco dinâmico, produto ou categoria.
+1. Navegue até o espaço de trabalho [!DNL Page Builder] na página de destino, bloco, bloco dinâmico, produto ou categoria.
 
-1. No [!DNL Page Builder] painel, expandir **[!UICONTROL Add Content]** e arraste uma **[!UICONTROL Block]** espaço reservado para o estágio.
+1. No painel [!DNL Page Builder], expanda **[!UICONTROL Add Content]** e arraste um espaço reservado **[!UICONTROL Block]** para o estágio.
 
-   ![Arrastar um bloco para o palco](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
+   ![Arrastando um bloco para o palco](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
-1. Passe o mouse sobre o container de bloco vazio para exibir a caixa de ferramentas e escolher o _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="25"} ) ícone.
+1. Passe o mouse sobre o contêiner de blocos vazios para exibir a caixa de ferramentas e escolha o ícone _Configurações_ ( ![Configurações](./assets/pb-icon-settings.png){width="25"} ).
 
 1. Clique em **[!UICONTROL Select Block]**.
 
-   ![Seleção de um bloco](./assets/pb-add-content-block-select.png){width="200"}
+   ![Selecionando um bloco](./assets/pb-add-content-block-select.png){width="200"}
 
 1. Na linha do bloco que deseja adicionar, clique em **[!UICONTROL Select]** na última coluna.
 
@@ -57,11 +57,11 @@ Use o _Bloquear_ tipo de conteúdo para adicionar um existente, ativo [bloco](..
 
 1. Preencha as configurações restantes conforme necessário, usando as descrições de campo no final desta página para referência.
 
-1. Quando terminar, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao [!DNL Page Builder] espaço de trabalho.
+1. Quando terminar, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao espaço de trabalho [!DNL Page Builder].
 
 ### Configurações avançadas
 
-1. Para controlar o posicionamento do bloco no container-pai, escolha uma **[!UICONTROL Alignment]**:
+1. Para controlar o posicionamento do bloco no contêiner pai, escolha um **[!UICONTROL Alignment]**:
 
    | Opção | Descrição |
    | ------ | ----------- |
@@ -72,7 +72,7 @@ Use o _Bloquear_ tipo de conteúdo para adicionar um existente, ativo [bloco](..
 
    {style="table-layout:auto"}
 
-1. Defina um **[!UICONTROL Border]** estilo aplicado aos quatro lados do contêiner de bloco:
+1. Defina um estilo **[!UICONTROL Border]** que seja aplicado a todos os quatro lados do contêiner de bloco:
 
    | Opção | Descrição |
    | ------ | ----------- |
@@ -89,7 +89,7 @@ Use o _Bloquear_ tipo de conteúdo para adicionar um existente, ativo [bloco](..
 
    {style="table-layout:auto"}
 
-1. Se você definir um estilo de borda diferente de `None`, conclua as opções de exibição da borda:
+1. Se você definir um estilo de borda diferente de `None`, conclua as opções de exibição de borda:
 
    | Opção | Descrição |
    | ------ |------------ |
@@ -99,11 +99,11 @@ Use o _Bloquear_ tipo de conteúdo para adicionar um existente, ativo [bloco](..
 
    {style="table-layout:auto"}
 
-1. (Opcional) Especifique os nomes dos **[!UICONTROL CSS classes]** na folha de estilos atual para aplicar ao contêiner.
+1. (Opcional) Especifique os nomes de **[!UICONTROL CSS classes]** da folha de estilos atual para aplicar ao contêiner.
 
    Separe vários nomes de classe com um espaço.
 
-1. Insira valores, em pixels, para o **[!UICONTROL Margins and Padding]** para determinar as margens externas e o preenchimento interno do contêiner de bloco.
+1. Insira valores, em pixels, para que **[!UICONTROL Margins and Padding]** determine as margens externas e o preenchimento interno do contêiner de blocos.
 
    Insira os valores correspondentes no diagrama.
 
@@ -116,26 +116,26 @@ Use o _Bloquear_ tipo de conteúdo para adicionar um existente, ativo [bloco](..
 
 ## Editar configurações de bloco
 
-1. Passe o mouse sobre o contêiner de bloco e escolha o _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="25"} ) na caixa de ferramentas.
+1. Passe o mouse sobre o contêiner de blocos e escolha o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="25"} ) na caixa de ferramentas.
 
-   ![Bloquear caixa de ferramentas](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
+   ![Caixa de Ferramentas de Bloqueio](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
 1. Para escolher um bloco diferente, clique em **[!UICONTROL Select Block]**.
 
-   - Na lista de blocos ativos, clique em **[!UICONTROL Select]** o bloco que deseja adicionar.
+   - Na lista de blocos ativos, clique no bloco **[!UICONTROL Select]** que deseja adicionar.
    - Clique em **[!UICONTROL Add Selected]**.
 
 1. Atualize as configurações restantes conforme necessário, usando as descrições de campo no final desta página para referência.
 
-1. Quando terminar, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao [!DNL Page Builder] espaço de trabalho.
+1. Quando terminar, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao espaço de trabalho [!DNL Page Builder].
 
 ## Duplicar um bloco
 
-1. Passe o mouse sobre o contêiner de bloco para exibir a caixa de ferramentas e escolher o _Duplicar_ (![Ícone Duplicar](./assets/pb-icon-duplicate.png)) ícone.
+1. Passe o mouse sobre o contêiner de blocos para exibir a caixa de ferramentas e escolha o ícone _Duplicar_ (![Duplicar ícone](./assets/pb-icon-duplicate.png)).
 
    A duplicata é exibida logo abaixo do original.
 
-1. Para mover o novo bloco para uma nova posição, passe o mouse sobre o container e clique em _Mover_ (![Ícone Mover](./assets/pb-icon-move.png)) na caixa de ferramentas.
+1. Para mover o novo bloco para uma nova posição, passe o mouse sobre o contêiner e clique em _Mover_ (![ícone Mover](./assets/pb-icon-move.png)) na caixa de ferramentas.
 
 1. Selecione e arraste o bloco até que a diretriz vermelha apareça na nova posição.
 
@@ -143,6 +143,6 @@ Use o _Bloquear_ tipo de conteúdo para adicionar um existente, ativo [bloco](..
 
 ## Remover um bloco do estágio
 
-1. Passe o mouse sobre o contêiner de bloco para exibir a caixa de ferramentas e escolher o _Remover_ (![Ícone Remover](./assets/pb-icon-remove.png)) ícone.
+1. Passe o mouse sobre o contêiner de blocos para exibir a caixa de ferramentas e escolha o ícone _Remover_ (![Remover ícone](./assets/pb-icon-remove.png)).
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.

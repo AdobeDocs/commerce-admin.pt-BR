@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Grupos de clientes
 
-Os grupos de clientes determinam quais descontos estão disponíveis e a classe de imposto associada ao grupo. Os grupos de clientes padrão são `General`, `Not Logged In`, e `Wholesale`.
+Os grupos de clientes determinam quais descontos estão disponíveis e a classe de imposto associada ao grupo. Os grupos de clientes padrão são `General`, `Not Logged In` e `Wholesale`.
 
 ![Grupos de Clientes](assets/customer-groups.png){width="700" zoomable="yes"}
 
-## Filtre o [!UICONTROL Customer Groups] lista
+## Filtrar a lista [!UICONTROL Customer Groups]
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
 1. Clique em **[!UICONTROL Filters]**.
 
 1. Informe os critérios para grupos de pesquisa, incluindo uma faixa de IDs, grupo ou classe de imposto.
 
-   ![Opções de filtro](assets/groups-filters.png){width="600" zoomable="yes"}
+   ![Opções de Filtragem](assets/groups-filters.png){width="600" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Apply Filters]**.
 
@@ -32,31 +32,31 @@ Os grupos de clientes determinam quais descontos estão disponíveis e a classe 
 
 >[!NOTE]
 >
->Usuários administradores que não têm acesso a todos os sites (atribuíram uma função com um &quot;Personalizado&quot;) [!UICONTROL Role Scope]) não pode criar, modificar ou excluir grupos de clientes.
+>Os usuários administradores que não têm acesso a todos os sites (aos quais foi atribuída uma função com um [!UICONTROL Role Scope] &#39;Personalizado&#39;) não podem criar, modificar ou excluir grupos de clientes.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
 1. Clique em **[!UICONTROL Add New Customer Group]**.
 
-1. Para [!DNL **Group Name]**, digite um nome exclusivo com menos de 32 caracteres para identificar o grupo.
+1. Para [!DNL **Group Name]**, insira um nome exclusivo com menos de 32 caracteres para identificar o grupo.
 
 1. Selecione o **[!UICONTROL Tax Class]** que se aplica ao grupo.
 
-   ![Informações do grupo](assets/group-information.png){width="600" zoomable="yes"}
+   ![Informações do Grupo](assets/group-information.png){width="600" zoomable="yes"}
 
-1. Selecione o **[!UICONTROL Excluded Website(s)]** que você deseja excluir do grupo.
+1. Selecione o **[!UICONTROL Excluded Website(s)]** que deseja excluir do grupo.
 
    >[!IMPORTANT]
    >
    >A exclusão de sites pode diminuir o tempo de indexação do preço do produto e da regra de catálogo, pois os sites excluídos não são indexados. Quando um grupo de clientes é salvo com uma exclusão de site adicionada, o preço do produto, a regra de catálogo e os índices de pesquisa de catálogo são invalidados. Se você tiver muitos produtos, sites e grupos de clientes, é recomendável pausar o processo de reindexação até excluir sites dos grupos de clientes.
 
-   Nenhum site é excluído por padrão. Para selecionar vários valores, mantenha pressionada a tecla _Ctrl_ chave (PC) ou o _Comando_ (Mac) e clique em cada opção.
+   Nenhum site é excluído por padrão. Para selecionar vários valores, mantenha pressionada a tecla _Ctrl_ (PC) ou a tecla _Command_ (Mac) e clique em cada opção.
 
 1. Quando terminar, clique em **[!UICONTROL Save Customer Group]**.
 
 ## Editar um grupo de clientes
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
 1. Abra o registro no modo de edição.
 
@@ -70,11 +70,11 @@ Os grupos de clientes determinam quais descontos estão disponíveis e a classe 
 >
 >Depois de alterar o grupo de empresas, um usuário da empresa deve fazer logoff e logon na Loja para ver os novos preços no catálogo.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Localize o cliente na lista e marque a caixa de seleção na primeira coluna.
 
-1. Defina o **Ações** controle para `Assign a Customer Group` e escolha o grupo no menu.
+1. Defina o controle **Ações** como `Assign a Customer Group` e escolha o grupo no menu.
 
    ![Atribuir um Grupo de Clientes](assets/group-assign.png){width="600" zoomable="yes"}
 
@@ -82,9 +82,9 @@ Os grupos de clientes determinam quais descontos estão disponíveis e a classe 
 
 ## Associar um grupo de clientes com descontos específicos
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _Promoções_ > **[!UICONTROL Cart Price Rules]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _Promoções_ > **[!UICONTROL Cart Price Rules]**.
 
-1. Selecione a regra de preço do carrinho à qual deseja associar um grupo do desconto aplicado ou [criar uma regra de preço](../merchandising-promotions/price-rules-catalog.md).
+1. Selecione a regra de preço do carrinho na qual você deseja associar um grupo ao desconto aplicado ou [criar uma regra de preço](../merchandising-promotions/price-rules-catalog.md).
 
 1. Selecione os grupos de clientes aos quais a regra se aplica.
 
@@ -98,7 +98,7 @@ Os grupos de clientes determinam quais descontos estão disponíveis e a classe 
 
 ## Excluir um grupo de clientes
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 
 1. Abra o registro no modo de edição.
 

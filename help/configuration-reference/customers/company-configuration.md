@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
-description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] página do Administrador do Commerce.
+description: Revise as configurações na página [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] do Administrador do Commerce.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Com a instalação e a habilitação do Adobe Commerce B2B, a experiência de compra pode ser personalizada com recursos específicos da empresa. O Adobe Commerce B2B é uma solução integrada que oferece suporte aos modelos B2B e B2C. Para obter mais informações sobre os recursos B2B, consulte a [Guia do usuário B2B do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Com a instalação e a habilitação do Adobe Commerce B2B, a experiência de compra pode ser personalizada com recursos específicos da empresa. O Adobe Commerce B2B é uma solução integrada que oferece suporte aos modelos B2B e B2C. Para obter mais informações sobre os recursos B2B, consulte o [Guia do Usuário B2B do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
->O acesso a essas opções de configuração para recursos B2B é controlado pelo [recursos da função](../../systems/permissions-user-roles.md#role-resources). Esses recursos de função devem ser definidos para a função de usuário atribuída ao usuário administrador.
+>O acesso a essas opções de configuração para recursos B2B é controlado pelos [recursos de função](../../systems/permissions-user-roles.md#role-resources). Esses recursos de função devem ser definidos para a função de usuário atribuída ao usuário administrador.
 
-Para obter mais informações sobre essas configurações, consulte [Habilitar recursos básicos B2B](../../b2b/enable-basic-features.md) no _Guia do usuário B2B do Adobe Commerce_.
+Para obter mais informações sobre como definir essas configurações, consulte [Habilitar Recursos Básicos B2B](../../b2b/enable-basic-features.md) no _Guia do Usuário B2B do Adobe Commerce_.
 
 ## [!UICONTROL General]
 
@@ -32,13 +32,13 @@ Para obter mais informações sobre essas configurações, consulte [Habilitar r
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Allow Company Registration from the Storefront] | Site | Determina se os visitantes da loja têm a opção de [registrar](../../customers/customer-sign-in.md) para uma conta da empresa ou uma conta individual. Opções: `Yes` / `No` |
+| [!UICONTROL Allow Company Registration from the Storefront] | Site | Determina se os visitantes do seu armazenamento têm a opção de [registrar](../../customers/customer-sign-in.md) para uma conta da empresa ou para uma conta individual. Opções: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Email Options - Company Registration]
 
-![Opções de email - Registro da empresa](./assets/company-email-options-company-registration.png)<!-- zoom -->
+![Opções de Email - Registro da Empresa](./assets/company-email-options-company-registration.png)<!-- zoom -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -74,11 +74,11 @@ Para obter mais informações sobre essas configurações, consulte [Habilitar r
 | [!UICONTROL Company Status Change Email Recipient] | Exibição da loja | O contato da loja que é notificado sempre que o status de uma empresa muda. Opções: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Send Company Status Change Email Copy To] | Exibição da loja | O endereço de email de cada pessoa que receberá uma cópia da notificação de alteração do status da empresa. Separe vários endereços de email com vírgula. |
 | [!UICONTROL Send Email Copy Method] | Exibição da loja | O método de email usado para enviar a cópia da notificação de alteração de status. Opções: `Bcc` / `Separate Email` |
-| [!UICONTROL Default "Company Status Change to Active 1' Email] | Exibição da loja | O modelo de email usado quando o status de uma empresa muda de _Pendente de Aprovação_ para _Ativo_. Modelo padrão: `Company Status Active 1` |
-| [!UICONTROL Default 'Company Status Change to Active 2' Email] | Exibição da loja | O modelo de email que é usado por padrão quando o status de uma empresa muda de _Rejeitado_ ou _Bloqueado_ para _Ativo_. Modelo padrão: `Company Status Active 2` |
-| [!UICONTROL Default 'Company Status Change to Rejected' Email] | Exibição da loja | O modelo de email que é usado por padrão quando o status de uma empresa muda para _Rejeitado_. Modelo padrão: `Company Status Rejected` |
-| [!UICONTROL Default 'Company Status Change to Blocked' Email] | Exibição da loja | O modelo de email que é usado por padrão quando o status de uma empresa muda para _Bloqueado_. Modelo padrão: `Company Status Blocked` |
-| [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Exibição da loja | O modelo de email que é usado por padrão quando o status de uma empresa muda para _Pendente de Aprovação_. Modelo padrão: `Company Status Pending Approval` |
+| [!UICONTROL Default "Company Status Change to Active 1' Email] | Exibição da loja | O modelo de email usado quando o status de uma empresa muda de _Aprovação Pendente_ para _Ativa_. Modelo padrão: `Company Status Active 1` |
+| [!UICONTROL Default 'Company Status Change to Active 2' Email] | Exibição da loja | O modelo de email usado por padrão quando o status de uma empresa muda de _Rejeitada_ ou _Bloqueada_ para _Ativa_. Modelo padrão: `Company Status Active 2` |
+| [!UICONTROL Default 'Company Status Change to Rejected' Email] | Exibição da loja | O modelo de email que é usado por padrão quando o status de uma empresa muda para _Rejected_. Modelo padrão: `Company Status Rejected` |
+| [!UICONTROL Default 'Company Status Change to Blocked' Email] | Exibição da loja | O modelo de email que é usado por padrão quando o status de uma empresa é alterado para _Bloqueado_. Modelo padrão: `Company Status Blocked` |
+| [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Exibição da loja | O modelo de email que é usado por padrão quando o status de uma empresa é alterado para _Aprovação Pendente_. Modelo padrão: `Company Status Pending Approval` |
 
 {style="table-layout:auto"}
 
@@ -93,7 +93,7 @@ Para obter mais informações sobre essas configurações, consulte [Habilitar r
 | [!UICONTROL Send Email Copy Method] | Exibição da loja | O método de email usado para enviar a cópia da notificação de alteração de crédito. Opções: `Bcc` / `Separate Email` |
 | [!UICONTROL Allocated Email Template] | Exibição da loja | O modelo de email usado por padrão quando o crédito da empresa é alocado. Esse email é enviado ao administrador da empresa. Modelo padrão: `Credit Limit Allocated` |
 | [!UICONTROL Updated Email Template] | Exibição da loja | O modelo de email usado por padrão quando o limite de crédito de uma empresa é atualizado. Esse email é enviado ao administrador da empresa. Modelo padrão: `Credit Limit Updated` |
-| [!UICONTROL Reimbursed Email Template] | Exibição da loja | O template de email usado por padrão quando um [reembolso](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) é feita a crédito da empresa. Esse email é enviado ao administrador da empresa. Modelo padrão: `Credit Reimbursed` |
+| [!UICONTROL Reimbursed Email Template] | Exibição da loja | O modelo de email que é usado por padrão quando um [reembolso](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) é feito no crédito da empresa. Esse email é enviado ao administrador da empresa. Modelo padrão: `Credit Reimbursed` |
 | [!UICONTROL Refunded Email Template] | Exibição da loja | O modelo de email usado por padrão quando um valor de um pedido é reembolsado ao crédito da empresa. Esse email é enviado ao administrador da empresa. Modelo padrão: `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | Exibição da loja | O modelo de email usado por padrão quando um pedido é revertido para crédito da empresa. Esse email é enviado ao administrador da empresa. Modelo padrão: `Order Reverted to Company Credit` |
 

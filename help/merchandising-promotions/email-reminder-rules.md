@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-O objetivo de um lembrete por email é incentivar as pessoas que visitaram sua loja a aproveitar uma promoção e fazer uma compra. Lembretes de email podem ser enviados automaticamente para os clientes quando um conjunto específico de condições é atendido. Por exemplo, você pode enviar um lembrete para clientes que adicionaram algo ao carrinho ou lista de desejos, mas ainda não fizeram uma compra. Você pode usar lembretes de email para incentivar os clientes a retornar à sua loja e incluir uma [código do cupom](price-rules-cart-coupon.md) como incentivo. Os códigos de cupom podem ser gerados automaticamente para cada lote de lembretes de email, para fornecer controle sobre as ofertas associadas a cada lote.
+O objetivo de um lembrete por email é incentivar as pessoas que visitaram sua loja a aproveitar uma promoção e fazer uma compra. Lembretes de email podem ser enviados automaticamente para os clientes quando um conjunto específico de condições é atendido. Por exemplo, você pode enviar um lembrete para clientes que adicionaram algo ao carrinho ou lista de desejos, mas ainda não fizeram uma compra. Você pode usar lembretes de email para incentivar os clientes a voltar à sua loja e incluir um [código do cupom](price-rules-cart-coupon.md) como incentivo. Os códigos de cupom podem ser gerados automaticamente para cada lote de lembretes de email, para fornecer controle sobre as ofertas associadas a cada lote.
 
 Os lembretes de email podem ser acionados depois de um número específico de dias desde que um carrinho foi abandonado ou para qualquer outra condição que você queira definir. As condições comuns incluem valor total do carrinho, quantidade, itens no carrinho e assim por diante.
 
 >[!NOTE]
 >
->Se um cliente tiver mais de um carrinho abandonado correspondente, uma lista de desejos ou uma combinação de ambos, o lembrete de email será acionado apenas uma vez para esse cliente. Para acionar o mesmo lembrete de email novamente, use o _[!UICONTROL Repeat Schedule]_para definir o número de dias entre emails.
+>Se um cliente tiver mais de um carrinho abandonado correspondente, uma lista de desejos ou uma combinação de ambos, o lembrete de email será acionado apenas uma vez para esse cliente. Para acionar o mesmo lembrete de email novamente, use o campo _[!UICONTROL Repeat Schedule]_para definir o número de dias entre os emails.
 
 ![Lembretes de email](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -28,53 +28,53 @@ Os lembretes de email podem ser acionados depois de um número específico de di
 
 As regras de lembrete de email podem ser enviadas em intervalos regulares por minuto, hora ou dia. A configuração determina quantos emails são enviados em um lote e a identidade de armazenamento que aparece como remetente da mensagem.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Customers]** e escolha **[!UICONTROL Promotions]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Automated Email Reminder Rules]** e faça o seguinte:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Automated Email Reminder Rules]** e faça o seguinte:
 
-   ![Configuração dos clientes - regras automatizadas de lembrete de email](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
+   ![Configuração de clientes - regras automatizadas de lembrete de email](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
 
-   - Definir **[!UICONTROL Enable Reminder Emails]** para `Yes`.
+   - Defina **[!UICONTROL Enable Reminder Emails]** como `Yes`.
 
-   - Para definir com que frequência executar verificações para novos clientes que qualificam lembretes de email automatizados, defina **[!UICONTROL Frequency]** a um dos seguintes:
+   - Para definir com que frequência executar verificações para novos clientes que qualificam lembretes de email automatizados, defina **[!UICONTROL Frequency]** como um dos seguintes:
 
       - `Minute Intervals`
       - `Hourly`
       - `Daily`
 
-   - Defina as **[!UICONTROL Interval]**, com base no _[!UICONTROL Frequency]_configuração.
+   - Defina o **[!UICONTROL Interval]** apropriado, com base na configuração _[!UICONTROL Frequency]_.
 
-   - Definir **[!UICONTROL Start Time]** à hora, aos minutos e ao segundo em que o email é enviado, com base em um relógio de 24 horas.
+   - Defina **[!UICONTROL Start Time]** como a hora, os minutos e os segundos em que o email é enviado, com base em um relógio de 24 horas.
 
-   - Para limitar o número de emails que podem ser enviados em um lote, insira o número no campo **[!UICONTROL Maximum Emails per One Run]** campo.
+   - Para limitar o número de emails que podem ser enviados em um lote, insira o número no campo **[!UICONTROL Maximum Emails per One Run]**.
 
-   - Para evitar tentativas repetidas de envio de email com falha, insira o número máximo de tentativas na **[!UICONTROL Email Send Failure Threshold]** campo.
+   - Para evitar tentativas repetidas de envio de email com falha, insira o número máximo de tentativas no campo **[!UICONTROL Email Send Failure Threshold]**.
 
-   - Definir **[!UICONTROL Reminder Email Sender]** para o [armazenar contato](../getting-started/store-details.md#store-email-addresses) que aparece como o remetente do email de lembrete.
+   - Defina **[!UICONTROL Reminder Email Sender]** como o [contato da loja](../getting-started/store-details.md#store-email-addresses) que aparece como remetente do email de lembrete.
 
-   Para obter uma lista detalhada dessas opções, consulte [Regras de lembrete de email automatizado](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) no _Referência de configuração_.
+   Para obter uma lista detalhada dessas opções, consulte [Regras automatizadas de lembrete de email](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) na _Referência de configuração_.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
 ## Modelos de lembrete de email
 
-O modelo padrão de lembrete de email pode ser personalizado e modelos adicionais podem ser criados para diferentes promoções. Os lembretes de email têm uma seleção de variáveis específicas que podem ser incorporadas à mensagem. As informações nessas variáveis são determinadas pela regra de lembrete de email que você configurou e pela regra de preço do carrinho associada ao cupom. O botão Inserir variável pode ser usado para inserir a tag de marcação com a variável no modelo. Para saber mais, consulte [E-mail](../systems/email-templates.md).
+O modelo padrão de lembrete de email pode ser personalizado e modelos adicionais podem ser criados para diferentes promoções. Os lembretes de email têm uma seleção de variáveis específicas que podem ser incorporadas à mensagem. As informações nessas variáveis são determinadas pela regra de lembrete de email que você configurou e pela regra de preço do carrinho associada ao cupom. O botão Inserir variável pode ser usado para inserir a tag de marcação com a variável no modelo. Para saber mais, consulte [Email](../systems/email-templates.md).
 
-![Visualização do lembrete de email](./assets/email-reminder-preview-promotion-template.png){width="600" zoomable="yes"}
+![Visualização de lembrete de email](./assets/email-reminder-preview-promotion-template.png){width="600" zoomable="yes"}
 
 ### Personalizar um modelo de lembrete de email
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
 
 1. Clique em **[!UICONTROL Add New Template]**.
 
-1. No **[!UICONTROL Template]** lista em `Magento_Reminder`, escolha o **[!UICONTROL Promotion Notification/Reminder]** modelo.
+1. Na lista **[!UICONTROL Template]** em `Magento_Reminder`, escolha o modelo **[!UICONTROL Promotion Notification/Reminder]**.
 
 1. Clique em **[!UICONTROL Load Template]**.
 
-Siga o padrão [instruções](../systems/email-template-custom.md) para personalizar o modelo.
+Siga as [instruções](../systems/email-template-custom.md) padrão para personalizar o modelo.
 
 ### Variáveis de lembrete de email
 

@@ -5,8 +5,8 @@ exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 2%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Você pode usar uma combinação de definições de configuração para controlar as mensagens de disponibilidade de estoque nas páginas de produtos e nas listagens de produtos nas páginas de catálogo.
 
-![Produto agrupado com mensagem de &quot;Produto esgotado&quot;](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
+![Produto agrupado com a mensagem &quot;Em falta&quot;](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 
 ## Mensagens de estoque de página do produto
 
@@ -68,7 +68,7 @@ Quando o estoque não é gerenciado para um produto, essa combinação de config
 
 As seguintes opções de exibição são possíveis para a categoria e as listas de resultados da pesquisa, dependendo da disponibilidade do produto e das definições de configuração.
 
-![Mensagem de indisponibilidade na página de categoria](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+![Mensagem de Indisponibilidade na Página de Categoria](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
 ### Exemplo 1: mostrar produto com a mensagem &quot;Produto esgotado&quot;
 

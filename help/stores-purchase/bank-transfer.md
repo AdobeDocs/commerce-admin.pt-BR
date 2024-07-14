@@ -16,31 +16,31 @@ O Adobe Commerce e o Magento Open Source permitem que você aceite o pagamento t
 
 **_Para configurar pagamentos de transferência bancária:_**
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Payment Methods]**.
 
-1. Em _Outros métodos de pagamento_, expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Bank Transfer Payment]** seção.
+1. Em _Outros Métodos de Pagamento_, expanda ![Seletor de Expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Bank Transfer Payment]**.
 
-   ![Pagamento de Transferência Bancária](../configuration-reference/sales/assets/payment-methods-bank-transfer-payment.png){width="600" zoomable="yes"}
+   ![Pagamento por Transferência Bancária](../configuration-reference/sales/assets/payment-methods-bank-transfer-payment.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Se necessário, primeiro limpe o **[!UICONTROL Use system value]** para alterar essas configurações.
+   >Se necessário, primeiro desmarque a caixa de seleção **[!UICONTROL Use system value]** para alterar essas configurações.
 
-1. Para ativar transferências bancárias, defina **[!UICONTROL Enabled]** para `Yes`.
+1. Para ativar transferências bancárias, defina **[!UICONTROL Enabled]** como `Yes`.
 
-1. Para **[!UICONTROL Title]**, informe um título que identifique o método de pagamento de transferência bancária durante a finalização da compra.
+1. Para **[!UICONTROL Title]**, insira um título que identifique o método de pagamento por transferência bancária durante o check-out.
 
-1. Definir **[!UICONTROL New Order Status]** para `Pending` até que o pagamento seja autorizado.
+1. Defina **[!UICONTROL New Order Status]** como `Pending` até que o pagamento seja autorizado.
 
-1. Definir **[!UICONTROL Payment from Applicable Countries]** a um dos seguintes:
+1. Defina **[!UICONTROL Payment from Applicable Countries]** como um dos seguintes:
 
-   - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificado na configuração da loja pode usar esse método de pagamento.
+   - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar esta forma de pagamento.
 
-   - `Specific Countries` - Após escolher essa opção, a variável _[!UICONTROL Payment from Specific Countries]_é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
+   - `Specific Countries` - Depois que você escolher essa opção, a lista _[!UICONTROL Payment from Specific Countries]_será exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
 
-1. Insira o **[!UICONTROL Instructions]** que os clientes devem seguir para configurar uma transferência bancária.
+1. Insira o **[!UICONTROL Instructions]** que seus clientes devem seguir para configurar uma transferência bancária.
 
    Dependendo do país onde seu banco está localizado e das exigências do banco, você pode incluir as seguintes informações:
 
@@ -50,13 +50,13 @@ O Adobe Commerce e o Magento Open Source permitem que você aceite o pagamento t
    - Nome do banco
    - Endereço do banco
 
-1. Definir **[!UICONTROL Minimum Order Total]** e **[!UICONTROL Maximum Order Total]** aos valores necessários para se qualificar para usar este método de pagamento.
+1. Defina **[!UICONTROL Minimum Order Total]** e **[!UICONTROL Maximum Order Total]** com os valores necessários para qualificar-se para usar este método de pagamento.
 
    >[!NOTE]
    >
    >Um pedido é qualificado se o total cair entre, ou exatamente corresponder, aos valores totais mínimo ou máximo.
 
-1. Para **[!UICONTROL Sort Order]**, informe um número que determine a posição deste item na lista de métodos de pagamento exibida durante a finalização da compra.
+1. Para **[!UICONTROL Sort Order]**, insira um número que determine a posição deste item na lista de métodos de pagamento exibidos durante o check-out.
 
    Esse número é relativo aos outros métodos de pagamento. (`0` = primeiro, `1` = segundo, `2` = terceiro e assim por diante.)
 

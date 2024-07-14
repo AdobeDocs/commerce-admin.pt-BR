@@ -5,46 +5,46 @@ exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
 source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
 
 # Contas da empresa
 
-Ao incorporar contas de empresas B2B em sua loja, você pode simplificar a experiência de compra corporativa, permitindo que as empresas criem várias subcontas com permissões flexíveis com base nas funções de usuário em sua organização. Dependendo da empresa, um administrador de loja pode ajustar promoções e preços para atender às suas necessidades e criar ofertas altamente personalizadas que atendam às demandas dos compradores e aumentem os pedidos. Adição de uma associação de conta de empresa a um padrão [individual](../customers/account-create.md) permite que o cliente use os workflows de compras específicos definidos para a empresa.
+Ao incorporar contas de empresas B2B em sua loja, você pode simplificar a experiência de compra corporativa, permitindo que as empresas criem várias subcontas com permissões flexíveis com base nas funções de usuário em sua organização. Dependendo da empresa, um administrador de loja pode ajustar promoções e preços para atender às suas necessidades e criar ofertas altamente personalizadas que atendam às demandas dos compradores e aumentem os pedidos. Adicionar uma associação de conta de empresa a um [indivíduo](../customers/account-create.md) padrão permite que o cliente use os fluxos de trabalho de compra específicos definidos para a empresa.
 
 Vantagens de uma conta de empresa:
 
-- Ofertas ilimitadas [usuários da empresa](account-company-users.md) e a criação de contas adicionais, o que simplifica as compras corporativas.
+- Oferece um número ilimitado de [usuários da empresa](account-company-users.md) e a criação de contas adicionais, o que simplifica as compras corporativas.
 
-- Inclui suporte para um _inteligente_ hierarquia de conta da empresa com diferente [funções e permissões](account-company-roles-permissions.md) para fazer pedidos.
+- Inclui suporte para uma hierarquia de conta de empresa _inteligente_ com diferentes [funções e permissões](account-company-roles-permissions.md) para fazer pedidos.
 
-- Fornece um mecanismo para os comerciantes aumentarem a renda oferecendo [crédito de loja da empresa](credit-company.md) como um método de pagamento.
+- Fornece um mecanismo para comerciantes aumentarem a renda oferecendo [crédito de armazenamento da empresa](credit-company.md) como um método de pagamento.
 
-- Oferece suporte ao [gerenciamento](account-company-manage.md) de todas as contas da empresa no Administrador.
+- Dá suporte ao [gerenciamento](account-company-manage.md) de todas as contas da empresa no Administrador.
 
 ## Exibir contas da empresa
 
-A variável _Empresas_ a grade lista todas as contas ativas da empresa e solicitações pendentes, independentemente da configuração de status. Fornece também as ferramentas para [criando](account-company-create.md) e [gerenciando](account-company-manage.md) contas da empresa. Use os controles de grade padrão para filtrar a lista e ajuste o layout da coluna. Para obter uma lista de descrições de coluna, consulte _Descrições da coluna_ seção em [Gerenciar contas da empresa](account-company-manage.md).
+A grade _Empresas_ lista todas as contas ativas da empresa e solicitações pendentes, independentemente da configuração de status. Também fornece as ferramentas para [criar](account-company-create.md) e [gerenciar](account-company-manage.md) contas da empresa. Use os controles de grade padrão para filtrar a lista e ajuste o layout da coluna. Para obter uma lista das descrições da coluna, consulte a seção _Descrições da Coluna_ em [Gerenciando Contas da Empresa](account-company-manage.md).
 
 Os clientes podem criar uma conta da empresa na loja ou um comerciante pode criar uma pelo Administrador. Por padrão, a capacidade de criar contas da empresa na loja está habilitada. Se permitido pela configuração, um visitante da loja pode solicitar a abertura de uma conta da empresa. Depois que a conta da empresa for aprovada, o administrador da empresa poderá configurar a estrutura da empresa e os usuários com vários níveis de permissão.
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
 ![Grade de Empresas](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-A variável [!UICONTROL Companies] A grade lista todas as empresas, independentemente do status. O exemplo exibido mostra as contas de duas empresas: a empresa &quot;ACME&quot; e a empresa &quot;Vandelay&quot;.
+A grade [!UICONTROL Companies] lista todas as empresas, independentemente do status. O exemplo exibido mostra as contas de duas empresas: a empresa &quot;ACME&quot; e a empresa &quot;Vandelay&quot;.
 
 ## Administrador da empresa
 
-O exemplo a seguir mostra o _Clientes_ grade com as contas iniciais de administrador da empresa.
+O exemplo a seguir mostra a grade _Clientes_ com as contas de administrador da empresa inicial.
 
 ![Grade de clientes com conta de administrador de empresa](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
 É possível que a pessoa que atua como administrador da empresa tenha várias funções na empresa. Se um endereço de email separado for inserido para o administrador da empresa, a estrutura inicial da empresa incluirá o administrador da empresa e uma conta de usuário individual no nome do administrador da empresa. Nesse caso, o administrador da empresa pode fazer logon na conta como a empresa ou como um usuário individual.
 
-Depois de criar a conta, o administrador da empresa define a estrutura da empresa de [equipes](account-company-structure.md), configura o [usuários da empresa](account-company-users.md)e estabelece [funções e permissões](account-company-roles-permissions.md) para cada.
+Depois de criar a conta, o administrador da empresa define a estrutura da empresa de [equipes](account-company-structure.md), configura os [usuários da empresa](account-company-users.md) e estabelece [funções e permissões](account-company-roles-permissions.md) para cada um.
 
 ### Definir senha do administrador da empresa antes da primeira entrada
 
@@ -54,11 +54,11 @@ Depois de criar a conta, o administrador da empresa define a estrutura da empres
 
    >[!NOTE]
    >
-   >Os destinos de endereço de email e o conteúdo do email são determinados pelas opções especificadas na [opções de email da empresa](email-company-configuration.md) configuração.
+   >Os destinos de endereço de email e o conteúdo do email são determinados pelas opções especificadas na configuração [opções de email da empresa](email-company-configuration.md).
 
 1. Siga as instruções e clique em [!UICONTROL **link**] para definir sua senha.
 
-1. Insere um [!UICONTROL **Nova senha**] para a conta deles e novamente para confirmar.
+1. Digite uma [!UICONTROL **Nova Senha**] para sua conta e novamente para confirmar.
 
    A senha deve incluir pelo menos três dos seguintes tipos de caracteres:
 
@@ -71,24 +71,24 @@ Depois de criar a conta, o administrador da empresa define a estrutura da empres
 
    ![Logon do cliente - administrador da empresa](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
 
-1. Quando a variável [!UICONTROL Customer Login] for exibida, o cliente inserirá sua [!UICONTROL **E-mail**] e [!UICONTROL **Senha**].
+1. Quando a página [!UICONTROL Customer Login] for exibida, o cliente digitará seu [!UICONTROL **Email**] e [!UICONTROL **Senha**].
 
-1. Cliques [!UICONTROL **Conectar**] para acessar o painel da conta.
+1. Clica em [!UICONTROL **Entrar**] para acessar seu painel de conta.
 
-   ![Painel da conta - empresa](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
+   ![Painel de Contas - empresa](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
 
 ## Estrutura da empresa
 
-Uma conta de empresa pode ser configurada para refletir a estrutura da empresa. Inicialmente, a estrutura da empresa inclui apenas o administrador da empresa, mas pode ser expandida para incluir equipes de usuários. Os usuários podem ser associados a equipes ou organizados dentro de uma hierarquia de divisões e subdivisões dentro da empresa. A estrutura foi concebida para apoiar a utilização de [regras de aprovação](account-dashboard-approval-rules.md) para [ordens de compra](purchase-order-flow.md) (POs) associado à conta da empresa.
+Uma conta de empresa pode ser configurada para refletir a estrutura da empresa. Inicialmente, a estrutura da empresa inclui apenas o administrador da empresa, mas pode ser expandida para incluir equipes de usuários. Os usuários podem ser associados a equipes ou organizados dentro de uma hierarquia de divisões e subdivisões dentro da empresa. A estrutura foi projetada para dar suporte ao uso de [regras de aprovação](account-dashboard-approval-rules.md) para [ordens de compra](purchase-order-flow.md) (OCs) associadas à conta da empresa.
 
-![Estrutura da Empresa com Divisões](./assets/company-structure-diagram.svg){width="450"}
+![Estrutura de Empresa com Divisões](./assets/company-structure-diagram.svg){width="450"}
 
 No painel de contas do administrador da empresa, a estrutura da empresa é representada como uma árvore e consiste inicialmente apenas no administrador da empresa.
 
-![Estrutura da empresa com o administrador da empresa](./assets/company-structure-tree-admin.png){width="600"}
+![Estrutura da Empresa com o Administrador da Empresa](./assets/company-structure-tree-admin.png){width="600"}
 
 Quando a conta é criada, o administrador da empresa pode usar o endereço de email da empresa ou receber um endereço de email diferente.
 
 No exemplo a seguir, a estrutura inicial da empresa inclui o administrador da empresa mais uma conta de usuário individual no nome do administrador da empresa. Mas as funções de administrador da empresa (como estrutura da empresa e regras de aprovação) estão disponíveis somente quando estão conectadas à conta de usuário designada como administrador da empresa.
 
-![Estrutura da empresa com administrador e conta de usuário](./assets/company-structure-tree-admin-user.png){width="600"}
+![Estrutura da Empresa com Conta de Administrador e de Usuário](./assets/company-structure-tree-admin-user.png){width="600"}

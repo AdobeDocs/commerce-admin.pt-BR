@@ -16,7 +16,7 @@ O uso de uma lista de requisições economiza tempo ao comprar produtos solicita
 
 >[!NOTE]
 >
->Para ativar as listas de requisições para o armazenamento, consulte [Ativar recursos B2B](enable-basic-features.md). Pode permitir que até 999 listas de requisições sejam mantidas para cada conta de cliente, dependendo da [configuração](configure-requisition-lists.md).
+>Para habilitar listas de requisições para o armazenamento, consulte [Habilitar Recursos B2B](enable-basic-features.md). Pode permitir que até 999 listas de requisições sejam mantidas para cada conta de cliente, dependendo da [configuração](configure-requisition-lists.md).
 
 A funcionalidade da lista de requisições é semelhante às listas de desejos, com as seguintes diferenças:
 
@@ -29,15 +29,15 @@ A funcionalidade da lista de requisições é semelhante às listas de desejos, 
 
 Um cliente conectado que esteja associado a uma conta da empresa pode criar uma lista de requisições a partir do painel de contas.
 
-1. Na barra lateral da conta, o escolhe **[!UICONTROL My Requisition Lists]**.
+1. Na barra lateral da conta, escolhe **[!UICONTROL My Requisition Lists]**.
 
-1. No _[!UICONTROL Requisition Lists]_página, cliques **[!UICONTROL Create New Requisition List]**.
+1. Na página _[!UICONTROL Requisition Lists]_, clique em **[!UICONTROL Create New Requisition List]**.
 
-1. Insere o **[!UICONTROL Requisition List Name]** e **[!UICONTROL Description]**.
+1. Insira o **[!UICONTROL Requisition List Name]** e **[!UICONTROL Description]**.
 
    ![Criar Lista de Requisições](./assets/requisition-list-create.png){width="300"}
 
-1. Ao concluir, clique em **[!UICONTROL Save]**.
+1. Quando terminar, clica em **[!UICONTROL Save]**.
 
 ## Criar uma lista de requisições a partir de uma página de produto
 
@@ -47,9 +47,9 @@ Um cliente conectado associado a uma conta de empresa pode criar uma lista de re
 
 1. Cliques **[!UICONTROL Create New Requisition List]**.
 
-1. Insere o **[!UICONTROL Requisition List Name]** e **[!UICONTROL Description]**.
+1. Insira o **[!UICONTROL Requisition List Name]** e **[!UICONTROL Description]**.
 
-1. Ao concluir, clique em **[!UICONTROL Save]**.
+1. Quando terminar, clica em **[!UICONTROL Save]**.
 
 ## Adicionar produtos a uma lista de requisições
 
@@ -64,7 +64,7 @@ Os clientes podem adicionar produtos a uma lista de requisições a partir de:
 
 1. Na loja, o cliente vai para a página de detalhes do produto a ser adicionado à lista de requisições.
 
-1. Cliques **[!UICONTROL Add to Requisition List]** e executa um dos seguintes procedimentos:
+1. Clica em **[!UICONTROL Add to Requisition List]** e executa um dos seguintes procedimentos:
 
    - Escolhe uma lista de requisições existente.
    - Cria uma lista de requisições.
@@ -77,7 +77,7 @@ Os clientes podem adicionar produtos a uma lista de requisições a partir de:
 
 1. Passe o mouse sobre o produto.
 
-1. Cliques **[!UICONTROL Add to Requisition List]** e executa um dos seguintes procedimentos:
+1. Clica em **[!UICONTROL Add to Requisition List]** e executa um dos seguintes procedimentos:
 
    - Escolhe uma lista de requisições existente.
    - Cria uma lista de requisições.
@@ -88,7 +88,7 @@ Os clientes podem adicionar produtos a uma lista de requisições a partir de:
 
 1. Na barra lateral do painel da conta, o cliente escolhe **[!UICONTROL My Orders]**.
 
-1. Na parte superior do pedido, cliques **[!UICONTROL Add to Requisition List]** e executa um dos seguintes procedimentos:
+1. Na parte superior do pedido, clica em **[!UICONTROL Add to Requisition List]** e realiza um dos seguintes procedimentos:
 
    - Escolhe uma lista de requisições existente.
    - Cria uma lista de requisições.
@@ -97,7 +97,7 @@ Os clientes podem adicionar produtos a uma lista de requisições a partir de:
 
 ### Do carrinho
 
-1. No item, o cliente clica em **[!UICONTROL Add to Requisition List]** e realiza uma das ações a seguir:
+1. No item, o cliente clica no menu **[!UICONTROL Add to Requisition List]** e realiza uma das ações a seguir:
 
    - Escolhe uma lista de requisições existente.
    - Cria uma lista de requisições.
@@ -112,9 +112,9 @@ Quando conectado em sua conta, um cliente pode usar qualquer um dos métodos a s
 
 ### No painel de contas
 
-1. Na barra lateral do painel da conta, o escolhe **[!UICONTROL My Requisition Lists]**.
+1. Na barra lateral do painel da conta, escolhe **[!UICONTROL My Requisition Lists]**.
 
-1. Na lista de listas de requisições, clique em **[!UICONTROL View]** no _Ações_ coluna.
+1. Na lista de listas de requisições, clique em **[!UICONTROL View]** na coluna _Ações_.
 
 ### De qualquer página de vitrine
 

@@ -13,18 +13,18 @@ ht-degree: 0%
 
 # Guia de design e conteúdo do Adobe Commerce
 
-Este guia destina-se a designers de conteúdo e comerciantes que trabalham com Adobe Commerce e Magento Open Source. Ele fornece informações detalhadas sobre conteúdo e recursos de design, incluindo a criação de componentes básicos de conteúdo. Ele assume uma compreensão básica do núcleo [!DNL Commerce] configuração e funcionalidade.
+Este guia destina-se a designers de conteúdo e comerciantes que trabalham com Adobe Commerce e Magento Open Source. Ele fornece informações detalhadas sobre conteúdo e recursos de design, incluindo a criação de componentes básicos de conteúdo. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do [!DNL Commerce].
 
 Este guia abrange:
 
 | Assunto | Descrição |
 | ------- | ----------- |
 | [Introdução](introduction.md) | Visão geral do uso dos recursos de design de conteúdo e site para refletir sua marca e estilo na loja. |
-| [Menu de conteúdo](content-menu.md) | Use o [!UICONTROL Content] para acessar vários recursos de gerenciamento de conteúdo na sua loja. |
-| Design | Use as ferramentas de design para controlar a [tema](themes.md) e [layouts de página](page-layout.md) para sua loja. A variável [[!UICONTROL Design Configuration]](configuration.md) O facilita a edição de regras e configurações relacionadas ao design, exibindo as configurações em uma única página. |
-| Elementos de conteúdo | Nesta seção do guia, você encontrará informações detalhadas sobre como criar e gerenciar conteúdo [páginas](pages.md) e [blocos](blocks.md)e use [widgets](widgets.md) para adicionar conteúdo dinâmico. |
-| [Editor WYSIWYG](editor.md) | O editor oferece a capacidade de inserir e formatar enquanto trabalha em um _O Que Você Vê É O Que Você Obtém_ (WYSIWYG) do conteúdo. |
-| Mídia | [Armazenamento de mídia](media-storage.md) O ajuda a organizar e obter acesso aos arquivos de mídia armazenados no servidor. Você pode fazer upload de ativos de mídia e [integrar o Adobe Stock](adobe-stock.md) com [!DNL Commerce] para obter acesso a inúmeros ativos de mídia para uso em sua loja. |
+| [Menu de conteúdo](content-menu.md) | Use o menu [!UICONTROL Content] para acessar vários recursos para gerenciar o conteúdo na sua loja. |
+| Design | Use as ferramentas de design para controlar o [tema](themes.md) e os [layouts de página](page-layout.md) da sua vitrine. O [[!UICONTROL Design Configuration]](configuration.md) facilita a edição de regras e definições de configuração relacionadas ao design ao exibir as definições em uma única página. |
+| Elementos de conteúdo | Nesta seção do guia, você encontrará informações detalhadas sobre como criar e gerenciar conteúdo [páginas](pages.md) e [blocos](blocks.md), e usar [widgets](widgets.md) para adicionar conteúdo dinâmico. |
+| [Editor WYSIWYG](editor.md) | O editor oferece a capacidade de inserir e formatar o conteúdo enquanto você trabalha em uma exibição _O que você vê é o que você obtém_ (WYSIWYG) do conteúdo. |
+| Mídia | O [Armazenamento de mídia](media-storage.md) ajuda a organizar e obter acesso aos arquivos de mídia armazenados no servidor. Você pode carregar seus ativos de mídia e [integrar o Adobe Stock](adobe-stock.md) com o [!DNL Commerce] para obter acesso a inúmeros ativos de mídia para uso em sua loja. |
 | [Preparo de conteúdo](content-staging.md) | O armazenamento temporário de conteúdo oferece à sua equipe de negócios a capacidade de criar, visualizar e agendar facilmente uma grande variedade de atualizações de conteúdo para sua loja diretamente do Administrador. |
 
 {style="table-layout:auto"}

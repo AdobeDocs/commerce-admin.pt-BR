@@ -19,7 +19,7 @@ ht-degree: 0%
 ## Recurso somente B2B {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Recurso B2B do Adobe Commerce" src="../assets/b2b.svg" width="20" height="20" /> Recurso exclusivo disponível somente com o <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
+<tr><td><img alt="Recurso B2B do Adobe Commerce" src="../assets/b2b.svg" width="20" height="20" /> Recurso exclusivo disponível somente com <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## Recurso somente CE {#ce-feature}
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->A partir da versão 2.4.5, a integração de serviços da Google é atualizada para oferecer suporte ao uso das APIs GTag. O GTag é um mecanismo unificado para integração com a funcionalidade do Google para páginas da Web e oferece suporte aos mais novos recursos e oportunidades para rastreamento e gerenciamento de conteúdo por meio dos Serviços da Google. Para obter mais informações, consulte [Documentação do desenvolvedor do Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>A partir da versão 2.4.5, a integração de serviços da Google é atualizada para oferecer suporte ao uso das APIs GTag. O GTag é um mecanismo unificado para integração com a funcionalidade do Google para páginas da Web e oferece suporte aos mais novos recursos e oportunidades para rastreamento e gerenciamento de conteúdo por meio dos Serviços da Google. Para obter mais informações, consulte a [documentação para desenvolvedores do Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
 ## Nota de salto automática de reescrita de URL {#url-rewrite-skip}
 
@@ -60,15 +60,15 @@ ht-degree: 0%
 
 ## Definições de configuração {#config}
 
-Para acessar as definições de configuração da loja, escolha **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**do_ Admin _barra lateral.
+Para acessar as definições de configuração de armazenamento, escolha **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**na barra lateral_ Admin _.
 
 ## Descontinuação da API UPS {#ups-api}
 
 >[!IMPORTANT]
 >
->A partir de junho de 2024, os comerciantes do Adobe Commerce não poderão mais transacionar com a integração atual do UPS. Isso ocorre porque as APIs do United Parcel Service (UPS) usadas pela integração nativa do Adobe Commerce atualmente não oferecem suporte ao modelo de segurança OAuth 2.0 necessário. Para saber mais sobre essa alteração, consulte [_Guia de migração da chave de acesso do portal do desenvolvedor_](https://developer.ups.com/oauth-developer-guide). <br/>
+>A partir de junho de 2024, os comerciantes do Adobe Commerce não poderão mais transacionar com a integração atual do UPS. Isso ocorre porque as APIs do United Parcel Service (UPS) usadas pela integração nativa do Adobe Commerce atualmente não oferecem suporte ao modelo de segurança OAuth 2.0 necessário. Para saber mais sobre esta alteração, consulte o [_Guia de Migração da Chave de Acesso ao Portal do Desenvolvedor_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
->Os comerciantes devem [aplicar uma atualização de correção de qualidade](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) para o armazenamento para migrar da API SOAP para a API RESTful, que oferece suporte aos protocolos de autenticação OAuth 2.0.
+>Os comerciantes devem [aplicar uma atualização de patch de qualidade](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) ao seu armazenamento para migrar da API SOAP para a API RESTful, que oferece suporte aos protocolos de autenticação OAuth 2.0.
 
 
 ## Documentação disponível {#docs-links}
@@ -76,9 +76,9 @@ Para acessar as definições de configuração da loja, escolha **[!UICONTROL St
 | Recurso de documentação | Descrição |
 |----------------------- | ----------- |
 | [Documentação do comerciante do Adobe Commerce 2.4](../landing/home.md) | Documentação voltada para o comerciante do Adobe Commerce |
-| [Documentação dos Serviços para o Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentação para dar suporte a uma coleção de serviços que ajudam os comerciantes a integrar os principais componentes de seus negócios à loja. |
-| [Guia da infraestrutura do Commerce na nuvem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedimentos passo a passo para implantar o Adobe Commerce em uma plataforma de hospedagem em nuvem gerenciada e automatizada. |
-| [Guias operacionais do Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentação de sistemas sobre os conceitos, processos, ferramentas e práticas recomendadas para desenvolver, implantar e manter projetos do Adobe Commerce. |
+| [Serviços para a Documentação do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentação para dar suporte a uma coleção de serviços que ajudam os comerciantes a integrar os principais componentes de seus negócios à loja. |
+| [Guia da Infraestrutura do Commerce na Nuvem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedimentos passo a passo para implantar o Adobe Commerce em uma plataforma de hospedagem em nuvem gerenciada e automatizada. |
+| [Guias Operacionais do Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentação de sistemas sobre os conceitos, processos, ferramentas e práticas recomendadas para desenvolver, implantar e manter projetos do Adobe Commerce. |
 | [Documentação do desenvolvedor do Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentação voltada para desenvolvedores usada para personalizar o Adobe Commerce e integrar-se com sistemas de terceiros |
 
 {style="table-layout:auto"}

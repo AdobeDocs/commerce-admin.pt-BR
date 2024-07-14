@@ -15,29 +15,29 @@ ht-degree: 0%
 
 O administrador da empresa é atribuído inicialmente quando a conta da empresa é criada pela primeira vez e só pode ser modificado por um administrador de loja do Administrador.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
 1. Localize a empresa na lista e clique em **[!UICONTROL Edit]**.
 
    ![Empresas](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Company Admin]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Company Admin]**.
 
-   ![Administrador da empresa](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
+   ![Administrador da Empresa](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
 1. Insira o **[!UICONTROL Job Title]** do novo administrador de empresa e clique em **[!UICONTROL Proceed]** para continuar.
 
-   Essa ação limpa o formulário e as _[!UICONTROL First Name]_e_[!UICONTROL Last Name]_ Os campos são realçados.
+   Esta ação limpa o formulário e os campos obrigatórios _[!UICONTROL First Name]_e_[!UICONTROL Last Name]_ estão realçados.
 
-1. Insira o **[!UICONTROL Email]** endereço do novo administrador de empresa.
+1. Digite o endereço **[!UICONTROL Email]** do novo administrador de empresa.
 
    Se o sistema não encontrar o endereço de email no banco de dados, você será solicitado a confirmar se deseja substituir o administrador da empresa.
 
-   - Se não existir uma conta de usuário para o novo administrador da empresa, o sistema criará uma conta da `Company Admin` tipo.
+   - Se não existir uma conta de usuário para o novo administrador de empresa, o sistema criará uma conta do tipo `Company Admin`.
 
    - Se a conta de usuário existir no sistema, ela será movida para a posição de administrador da empresa na estrutura da empresa.
 
-1. Insira o **[!UICONTROL First Name]** e **[!UICONTROL Last Name]** e quaisquer outras informações aplicáveis ao novo administrador de empresa.
+1. Insira as **[!UICONTROL First Name]** e **[!UICONTROL Last Name]**, bem como qualquer outra informação, conforme aplicável, para o novo administrador de empresa.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 

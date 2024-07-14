@@ -5,36 +5,36 @@ exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
 
 # Produto virtual
 
-Os produtos virtuais, ou bens digitais, representam itens não tangíveis, como associações, serviços, garantias ou assinaturas e downloads digitais de livros, músicas, vídeos ou outros produtos. Os produtos virtuais podem ser vendidos individualmente ou incluídos como parte da [Produto agrupado](product-create-grouped.md), [Produto configurável](product-create-configurable.md)ou [Produto do pacote](product-create-bundle.md) tipos do produto.
+Os produtos virtuais, ou bens digitais, representam itens não tangíveis, como associações, serviços, garantias ou assinaturas e downloads digitais de livros, músicas, vídeos ou outros produtos. Os produtos virtuais podem ser vendidos individualmente ou incluídos como parte dos tipos de produto [Produto Agrupado](product-create-grouped.md), [Produto Configurável](product-create-configurable.md) ou [Pacote de Produtos](product-create-bundle.md).
 
-Para além da ausência de _[!UICONTROL Weight]_, o processo de criação de um produto virtual e um produto simples é o mesmo. As instruções a seguir demonstram o processo de criação de um produto virtual usando um [modelo do produto](attribute-sets.md), campos obrigatórios e configurações básicas. Quando terminar as noções básicas, você poderá concluir as outras configurações do produto conforme necessário.
+Além da ausência do campo _[!UICONTROL Weight]_, o processo de criação de um produto virtual e um produto simples é o mesmo. As instruções a seguir demonstram o processo de criação de um produto virtual usando um [modelo de produto](attribute-sets.md), campos obrigatórios e configurações básicas. Quando terminar as noções básicas, você poderá concluir as outras configurações do produto conforme necessário.
 
 >[!NOTE]
 >
->O PayPal descontinuou o suporte para a venda de produtos digitais por meio do Check-out expresso do PayPal. Eles recomendam usar [PayPal Payments Standard](../stores-purchase/paypal-payments-standard.md) ou qualquer outro gateway de pagamento PayPal para processar qualquer pedido que inclua produtos virtuais.
+>O PayPal descontinuou o suporte para a venda de produtos digitais por meio do Check-out expresso do PayPal. Recomendamos que você use o [PayPal Payments Standard](../stores-purchase/paypal-payments-standard.md) ou qualquer outro gateway de pagamento do PayPal para processar qualquer pedido que inclua produtos virtuais.
 
-![Produto virtual](./assets/product-virtual-membership.png){width="700" zoomable="yes"}
+![Produto Virtual](./assets/product-virtual-membership.png){width="700" zoomable="yes"}
 
 ## Etapa 1: Escolher o tipo de produto
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. No _[!UICONTROL Add Product]_( ![Seta de menu](../assets/icon-menu-down-arrow-red.png){width="25"} ) no canto superior direito, escolha **[!UICONTROL Virtual Product]**.
+1. No menu _[!UICONTROL Add Product]_( ![Seta do menu](../assets/icon-menu-down-arrow-red.png){width="25"} ), no canto superior direito, escolha **[!UICONTROL Virtual Product]**.
 
-   ![Adicionar produto virtual](./assets/product-add-virtual.png){width="700" zoomable="yes"}
+   ![Adicionar Produto Virtual](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
 ## Etapa 2: Escolher o conjunto de atributos
 
-Para escolher a variável [conjunto de atributos](attribute-sets.md) que é usado como modelo para o produto, siga um destes procedimentos:
+Para escolher o [conjunto de atributos](attribute-sets.md) usado como modelo para o produto, siga um destes procedimentos:
 
-- Clique em **[!UICONTROL Attribute Set]** e insira todo ou parte do nome do conjunto de atributos.
+- Clique no campo **[!UICONTROL Attribute Set]** e insira todo ou parte do nome do conjunto de atributos.
 
 - Na lista exibida, escolha o conjunto de atributos que deseja usar.
 
@@ -46,15 +46,15 @@ O formulário é atualizado para refletir a alteração.
 
 1. Insira o **[!UICONTROL Product Name]**.
 
-1. Aceitar o padrão **[!UICONTROL SKU]** que se baseia no nome do produto ou insira outro.
+1. Aceite o **[!UICONTROL SKU]** padrão que é baseado no nome do produto ou digite outro.
 
 1. Insira o produto **[!UICONTROL Price]**.
 
-1. Como o produto ainda não está pronto para publicação, defina **[!UICONTROL Enable Product]** para `No`.
+1. Como o produto ainda não está pronto para publicação, defina **[!UICONTROL Enable Product]** como `No`.
 
 1. Clique em **[!UICONTROL Save]** e continue.
 
-   Quando o produto for salvo, a variável [Exibição da loja](introduction.md#product-scope) seletor aparece no canto superior esquerdo.
+   Quando o produto é salvo, o seletor de [Exibição da loja](introduction.md#product-scope) aparece no canto superior esquerdo.
 
 1. Escolha o **[!UICONTROL Store View]** onde o produto deve estar disponível.
 
@@ -62,26 +62,26 @@ O formulário é atualizado para refletir a alteração.
 
 ## Etapa 4: concluir as configurações básicas
 
-1. Definir **[!UICONTROL Tax Class]** a um dos seguintes:
+1. Defina **[!UICONTROL Tax Class]** como um dos seguintes:
 
    - `None`
    - `Taxable Goods`
 
 1. Insira o **[!UICONTROL Quantity]** do produto em estoque e faça o seguinte:
 
-   - Aceitar o padrão **[!UICONTROL Stock Status]** configuração de `In Stock`.
+   - Aceite a configuração padrão **[!UICONTROL Stock Status]** de `In Stock`.
 
-     Como um produto virtual não é enviado, o **[!UICONTROL Weight]** não é usado.
+     Como um produto virtual não é enviado, o campo **[!UICONTROL Weight]** não é usado.
 
-   - Aceitar o padrão **[!UICONTROL Visibility]** configuração de `Catalog, Search`.
+   - Aceite a configuração padrão **[!UICONTROL Visibility]** de `Catalog, Search`.
 
    >[!NOTE]
    >
-   >Se você habilitar [Inventory management](../inventory-management/introduction.md), comerciantes de origem única definem a quantidade nesta seção. Comerciantes de várias origens adicionam origens e quantidades na seção Origens. Consulte o seguinte _Atribuir Origens e Quantidades (Inventory management)_ seção.
+   >Se você habilitar o [Inventory management](../inventory-management/introduction.md), comerciantes de origem única definirão a quantidade nesta seção. Comerciantes de várias origens adicionam origens e quantidades na seção Origens. Consulte a seguinte seção _Atribuir Fontes e Quantidades (Inventory management)_.
 
-1. Para atribuir **[!UICONTROL Categories]** ao produto, clique no link **[!UICONTROL Select…]** e siga um destes procedimentos:
+1. Para atribuir **[!UICONTROL Categories]** ao produto, clique na caixa **[!UICONTROL Select…]** e siga um destes procedimentos:
 
-   **Escolher uma categoria existente**:
+   **Escolha uma categoria existente**:
 
    - Comece a digitar na caixa até encontrar uma correspondência.
 
@@ -97,7 +97,7 @@ O formulário é atualizado para refletir a alteração.
 
    Pode haver atributos individuais adicionais que descrevam o produto. A seleção varia de acordo com o conjunto de atributos e você pode concluí-los posteriormente.
 
-### Atribuir origens e quantidades ([!DNL Inventory Management])
+### Atribuir fontes e quantidades ([!DNL Inventory Management])
 
 {{$include /help/_includes/inventory-assign-sources.md}}
 
@@ -116,11 +116,11 @@ Preencha as informações nas seguintes seções conforme necessário:
 
 >[!NOTE]
 >
->A variável _[!UICONTROL Is this downloadable product?]_está desativada por padrão. Habilitar esse recurso para um produto virtual torna o produto [Baixável](product-create-downloadable.md#downloadable-product).
+>A opção _[!UICONTROL Is this downloadable product?]_está desabilitada por padrão. Habilitar este recurso para um produto virtual torna o produto [Baixável](product-create-downloadable.md#downloadable-product).
 
-## Etapa 6: publicar o produto
+## Etapa 6: Publish do produto
 
-1. Se estiver pronto para publicar o produto no catálogo, defina **[!UICONTROL Enable Product]** para `Yes`.
+1. Se você estiver pronto para publicar o produto no catálogo, defina **[!UICONTROL Enable Product]** como `Yes`.
 
 1. Siga um destes procedimentos:
 
@@ -128,15 +128,15 @@ Preencha as informações nas seguintes seções conforme necessário:
 
       - No canto superior direito, clique em **[!UICONTROL Save]**.
 
-      - Para exibir o produto em sua loja, escolha **[!UICONTROL Customer View]** no _Admin_ ( ![Seta de menu](../assets/icon-menu-down-arrow-black.png) ).
+      - Para exibir o produto em sua loja, escolha **[!UICONTROL Customer View]** no menu _Admin_ ( ![Seta de menu](../assets/icon-menu-down-arrow-black.png) ).
 
      A loja é aberta em uma nova guia do navegador.
 
-     ![Visualização do cliente](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+     ![Visualização de Cliente](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    - **Método 2:** Salvar e fechar
 
-     No _[!UICONTROL Save]_(![Seta de menu](../assets/icon-menu-down-arrow-red.png){width="25"} ), escolha **[!UICONTROL Save & Close]**.
+     No menu _[!UICONTROL Save]_(![Seta do menu](../assets/icon-menu-down-arrow-red.png){width="25"} ), escolha **[!UICONTROL Save & Close]**.
 
 ## Coisas para lembrar
 

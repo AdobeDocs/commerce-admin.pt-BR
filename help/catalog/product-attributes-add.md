@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adicionar atributos a um produto
 
-Embora os atributos sejam gerenciados principalmente a partir do [Lojas](../stores-purchase/stores-menu.md) , também é possível adicionar novos atributos _em tempo real_ ao trabalhar em um produto. Você pode escolher na lista de atributos existentes ou criar um atributo. O novo atributo é adicionado à variável [conjunto de atributos](../catalog/attribute-sets.md) em que o produto se baseia.
+Embora os atributos sejam gerenciados principalmente pelo menu [Lojas](../stores-purchase/stores-menu.md), você também pode adicionar novos atributos _imediatamente_ enquanto trabalha em um produto. Você pode escolher na lista de atributos existentes ou criar um atributo. O novo atributo é adicionado ao [conjunto de atributos](../catalog/attribute-sets.md) no qual o produto se baseia.
 
 ## Etapa 1: Adicionar um atributo
 
@@ -22,15 +22,15 @@ Embora os atributos sejam gerenciados principalmente a partir do [Lojas](../stor
 
    ![Novo produto com conjunto de atributos padrão](./assets/product-attribute-add.png){width="600" zoomable="yes"}
 
-1. Para adicionar um atributo existente ao produto, use o [controles de filtro](../getting-started/admin-grid-controls.md) para localizar o atributo na grade e faça o seguinte:
+1. Para adicionar um atributo existente ao produto, use os [controles de filtro](../getting-started/admin-grid-controls.md) para localizar o atributo na grade e faça o seguinte:
 
    - Marque a caixa de seleção na primeira coluna de cada atributo a ser adicionado.
 
    - Clique em **[!UICONTROL Add Selected]**.
 
-   ![Selecionar um atributo](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
+   ![Selecione um atributo](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
 
-1. Para definir um novo atributo, clique em **[!UICONTROL Create New Attribute]** e conclua os itens na Etapa 2.
+1. Para definir um novo atributo, clique em **[!UICONTROL Create New Attribute]** e conclua os itens da Etapa 2.
 
 ## Etapa 2: Descrever as propriedades básicas do atributo
 
@@ -38,11 +38,11 @@ Embora os atributos sejam gerenciados principalmente a partir do [Lojas](../stor
 
 1. Em _[!UICONTROL Attribute Properties]_, insira um **[!UICONTROL Attribute Label]**para identificar o atributo.
 
-1. Definir **[!UICONTROL Catalog Input Type for Store Owner]** ao tipo de [controle de entrada](attributes-input-types.md) a ser usado para entrada de dados.
+1. Defina **[!UICONTROL Catalog Input Type for Store Owner]** como o tipo de [controle de entrada](attributes-input-types.md) a ser usado para entrada de dados.
 
-   Se o atributo for usado para um [produto configurável](product-create-configurable.md), escolha `Dropdown`. Em seguida, defina **[!UICONTROL Required]** para `Yes`.
+   Se o atributo for usado para um [produto configurável](product-create-configurable.md), escolha `Dropdown`. Em seguida, defina **[!UICONTROL Required]** como `Yes`.
 
-1. Para `Dropdown` e `Multiple Select` tipos de entrada, faça o seguinte:
+1. Para os tipos de entrada `Dropdown` e `Multiple Select`, faça o seguinte:
 
    - Em **[!UICONTROL Values]**, clique em **[!UICONTROL Add Value]**.
 
@@ -50,27 +50,27 @@ Embora os atributos sejam gerenciados principalmente a partir do [Lojas](../stor
 
      Você pode inserir um valor para o Administrador e uma tradução do valor para cada exibição de loja. Se você tiver apenas uma visualização de loja, poderá inserir apenas o valor Admin e ele também será usado para a loja.
 
-   - Clique em **[!UICONTROL Add Value]** e repita a etapa anterior para cada opção que desejar incluir na lista.
+   - Clique em **[!UICONTROL Add Value]** e repita a etapa anterior para cada opção que deseja incluir na lista.
 
-   - Selecionar **[!UICONTROL Is Default]** para usar a opção como valor padrão.
+   - Selecione **[!UICONTROL Is Default]** para usar a opção como valor padrão.
 
    ![Valores](./assets/product-attribute-add-values-colors.png){width="600" zoomable="yes"}
 
-1. Se você quiser que o cliente escolha uma opção antes que o produto possa ser comprado, defina **[!UICONTROL Required]** para `Yes`.
+1. Se você quiser que o cliente escolha uma opção antes da compra do produto, defina **[!UICONTROL Required]** como `Yes`.
 
 ## Etapa 3: descrever as propriedades avançadas (opcional)
 
 ![Propriedades Avançadas de Atributo](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-1. Insira um único **[!UICONTROL Attribute Code]** em caracteres minúsculos e sem espaços.
+1. Insira um **[!UICONTROL Attribute Code]** exclusivo em caracteres minúsculos e sem espaços.
 
-1. Definir **[!UICONTROL Scope]** para indicar onde na hierarquia de armazenamento o atributo pode ser usado.
+1. Defina **[!UICONTROL Scope]** para indicar onde na hierarquia de armazenamento o atributo pode ser usado.
 
    Se o atributo for usado para um [produto configurável](product-create-configurable.md), escolha `Global`.
 
-1. Se este atributo se aplicar somente a este produto, defina **[!UICONTROL Unique Value]** para `Yes`.
+1. Se este atributo se aplicar somente a este produto, defina **[!UICONTROL Unique Value]** como `Yes`.
 
-1. Para executar um teste de validade de quaisquer dados inseridos em um campo de texto, defina **[!UICONTROL Input Validation for Store Owner]** ao tipo de dados que o campo deve conter.
+1. Para executar um teste de validade de quaisquer dados inseridos em um campo de texto, defina **[!UICONTROL Input Validation for Store Owner]** como o tipo de dados que o campo deve conter.
 
    Este campo não está disponível para tipos de entrada com valores selecionados. A validação de entrada pode ser usada para qualquer um dos seguintes:
 
@@ -83,60 +83,60 @@ Embora os atributos sejam gerenciados principalmente a partir do [Lojas](../stor
 
    ![Validação de entrada](./assets/product-attribute-input-validation.png){width="500"}
 
-1. Se quiser incluir o atributo como uma coluna na grade Produtos, defina **[!UICONTROL Add to Column Options]** para `Yes`.
+1. Se quiser incluir o atributo como uma coluna na grade Produtos, defina **[!UICONTROL Add to Column Options]** como `Yes`.
 
-1. Se quiser filtrar a variável _[!UICONTROL Products]_grade por esta coluna, defina **[!UICONTROL Use in Filter Options]**para `Yes`.
+1. Se quiser filtrar a grade _[!UICONTROL Products]_por esta coluna, defina **[!UICONTROL Use in Filter Options]**como `Yes`.
 
 ## Etapa 4: insira o rótulo do campo
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Manage titles]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Manage titles]**.
 
-1. Insira um **[!UICONTROL Title]** para ser usado como rótulo para o campo.
+1. Digite um **[!UICONTROL Title]** para ser usado como rótulo para o campo.
 
    Se a loja estiver disponível em diferentes idiomas, você poderá inserir um título traduzido para cada exibição.
 
-   ![Gerenciar títulos](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+   ![Gerenciar Títulos](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
 ## Etapa 5: descrever as propriedades da loja
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Storefront Properties]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Storefront Properties]**.
 
    ![Propriedades da vitrine](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-1. Para disponibilizar o atributo para pesquisa, defina **[!UICONTROL Use in Search]** para `Yes`.
+1. Para disponibilizar o atributo para pesquisa, defina **[!UICONTROL Use in Search]** como `Yes`.
 
-1. Para incluir o atributo na Comparação de Produtos, defina **[!UICONTROL Comparable on Storefront]** para `Yes`.
+1. Para incluir o atributo na Comparação de Produtos, defina **[!UICONTROL Comparable on Storefront]** como `Yes`.
 
-1. Para incluir lista suspensa, seleção múltipla ou atributos de preço na navegação em camadas, defina **[!UICONTROL Use in Search Results Layered Navigation]** a um dos seguintes:
+1. Para incluir lista suspensa, seleção múltipla ou atributos de preço na navegação em camadas, defina **[!UICONTROL Use in Search Results Layered Navigation]** como um dos seguintes:
 
-   - `Filterable (with results)` - A navegação em camadas inclui apenas os filtros para os quais os produtos correspondentes podem ser encontrados. Qualquer valor de atributo que já se aplique a todos os produtos mostrados na lista não aparece como um filtro disponível. Valores de atributo com uma contagem de zero (0) correspondências de produto também são omitidos da lista de filtros disponíveis.<br/><br/>A lista de produtos filtrada inclui apenas os produtos que correspondem ao filtro. A lista de produtos é atualizada somente se os filtros selecionados alterarem o que é mostrado.
+   - `Filterable (with results)` - A navegação em camadas inclui apenas os filtros para os quais os produtos correspondentes podem ser encontrados. Qualquer valor de atributo que já se aplique a todos os produtos mostrados na lista não aparece como um filtro disponível. Valores de atributo com uma contagem de zero (0) correspondências de produto também são omitidos da lista de filtros disponíveis.<br/><br/>A lista de produtos filtrada inclui somente os produtos que correspondem ao filtro. A lista de produtos é atualizada somente se os filtros selecionados alterarem o que é mostrado.
 
-   - `Filterable (no results)` - A navegação em camadas inclui filtros para todos os valores de atributo disponíveis e suas contagens de produto, incluindo os produtos com zero (0) correspondências de produto. Se o valor do atributo for uma amostra, ele será exibido como um filtro, mas riscado.
+   - `Filterable (no results)` - A navegação em camadas inclui filtros para todos os valores de atributos disponíveis e suas contagens de produtos, incluindo os produtos com zero (0) correspondências de produto. Se o valor do atributo for uma amostra, ele será exibido como um filtro, mas riscado.
 
    >[!NOTE]
    >
-   >Quando a variável _[!UICONTROL Use in Search]_está definida como `No`, o_[!UICONTROL Use in Search Results Layered Navigation]_ não for exibida e o atributo de produto não for usado na pesquisa com qualquer [!UICONTROL Use in Layered Navigation] valor de configuração.
+   >Quando a configuração _[!UICONTROL Use in Search]_está definida como `No`, a configuração_[!UICONTROL Use in Search Results Layered Navigation]_ não é exibida e o atributo de produto não é usado na pesquisa com nenhum valor de configuração [!UICONTROL Use in Layered Navigation].
 
-1. Para usar o atributo na navegação em camadas nas páginas de resultados da pesquisa, defina **[!UICONTROL Use in Search Results Layered Navigation]** para `Yes` e insira um número no campo **[!UICONTROL Position]** campo.
+1. Para usar o atributo na navegação em camadas nas páginas de resultados da pesquisa, defina **[!UICONTROL Use in Search Results Layered Navigation]** como `Yes` e insira um número no campo **[!UICONTROL Position]**.
 
    O número da posição indica a posição relativa do atributo no bloco de navegação em camadas.
 
    >[!NOTE]
    >
-   >A variável _[!UICONTROL Position]_o campo fica esmaecido por padrão e você deve salvar o atributo antes de modificar essa configuração.
+   >O campo _[!UICONTROL Position]_está esmaecido por padrão e você deve salvar o atributo antes de modificar essa configuração.
 
-1. Para usar o atributo em regras de preço, defina **[!UICONTROL Use for Promo Rule Conditions]** para `Yes`.
+1. Para usar o atributo em regras de preço, defina **[!UICONTROL Use for Promo Rule Conditions]** como `Yes`.
 
-1. Para permitir que o texto seja formatado com HTML, defina **[!UICONTROL Allow HTML Tags on Storefront]** para `Yes`.
+1. Para permitir que o texto seja formatado com HTML, defina **[!UICONTROL Allow HTML Tags on Storefront]** como `Yes`.
 
    Essa configuração disponibiliza o editor WYSIWYG ao editar o campo.
 
-1. Para incluir o atributo na página do produto, defina **[!UICONTROL Visible on Catalog Pages on Storefront]** para `Yes`.
+1. Para incluir o atributo na página do produto, defina **[!UICONTROL Visible on Catalog Pages on Storefront]** como `Yes`.
 
 1. Complete as configurações a seguir, conforme suportado pelo seu tema:
 
-   - Para incluir o atributo em listagens de produtos, defina **[!UICONTROL Used in Product Listing]** para `Yes`.
+   - Para incluir o atributo nas listagens de produtos, defina **[!UICONTROL Used in Product Listing]** como `Yes`.
 
-   - Para usar o atributo como parâmetro de classificação para listagens de produtos, defina **[!UICONTROL Used for Sorting in Product Listing]** para `Yes`.
+   - Para usar o atributo como parâmetro de classificação para as listagens de produtos, defina **[!UICONTROL Used for Sorting in Product Listing]** como `Yes`.
 
 1. Quando terminar, clique em **[!UICONTROL Save Attribute]**.

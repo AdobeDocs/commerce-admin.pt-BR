@@ -4,7 +4,7 @@ description: Os segmentos de clientes permitem exibir dinamicamente conteúdo e 
 exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
 source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Para entender melhor a diferença entre [grupos de clientes](../customers/custom
 
 ## Atributos de segmento de clientes
 
-Os atributos de segmento dos clientes são definidos de maneira semelhante às regras de preço do carrinho de compras e do catálogo. Para que um atributo seja usado em uma condição de segmento de cliente, a variável _[!UICONTROL Use in Customer Segment]_[propriedade](attribute-properties.md#) deve ser definido como `Yes`. As condições do segmento do cliente podem incorporar os seguintes tipos de atributos:
+Os atributos de segmento dos clientes são definidos de maneira semelhante às regras de preço do carrinho de compras e do catálogo. Para que um atributo seja usado em uma condição de segmento de cliente, a _[!UICONTROL Use in Customer Segment]_[propriedade](attribute-properties.md#) deve ser definida como `Yes`. As condições do segmento do cliente podem incorporar os seguintes tipos de atributos:
 
 | Atributo | Descrição |
 |---|---|
@@ -46,5 +46,5 @@ Consulte [Criar e excluir segmentos de clientes](../customers/customer-segment-c
 
 ## eBooks
 
-- **Segmentação de cliente** — Obtenha o [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) para saber como aumentar os lucros e a satisfação geral do cliente.
-- **Táticas de segmentação** — Obtenha o [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) para melhorar o direcionamento de suas mensagens e promoções para criar conversas significativas com seus clientes.
+- **Segmentação de clientes** — Obtenha o [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) para saber como aumentar os lucros e a satisfação geral do cliente.
+- **Táticas de segmentação** — Use o [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) para melhorar o direcionamento de suas mensagens e promoções e criar conversas significativas com seus clientes.

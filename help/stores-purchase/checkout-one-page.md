@@ -16,24 +16,24 @@ O objetivo do checkout de uma página é coletar as informações necessárias e
 
 O check-out de uma página é ativado por padrão. Se estiver implementando uma extensão de integração ou finalização personalizada, talvez seja necessário desativar o Check-out de uma página.
 
-**_Para desativar o check-out de uma página:_**
+**_Para desabilitar o check-out de uma página:_**
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Checkout]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Checkout Options]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Checkout Options]**.
 
    ![Configuração - opções de check-out](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-   Para obter uma descrição detalhada de cada uma dessas configurações, consulte [Opções de check-out](../configuration-reference/sales/checkout.md#checkout-options) no _Guia de referência de configuração_.
+   Para obter uma descrição detalhada de cada uma dessas configurações, consulte [Opções de Check-out](../configuration-reference/sales/checkout.md#checkout-options) no _Guia de Referência de Configuração_.
 
-1. Se a configuração for para uma exibição de loja específica, [escolher a exibição de loja](../configuration-reference/scope-change.md#set-the-scope) onde a configuração se aplica.
+1. Se a configuração for para um modo de exibição de repositório específico, [escolha o modo de exibição de repositório](../configuration-reference/scope-change.md#set-the-scope) ao qual a configuração se aplica.
 
-   Quando solicitado, clique em **[!UICONTROL OK]** para continuar.
+   Quando solicitado, clique em **[!UICONTROL OK]** para continuar.
 
-1. Definir **[!UICONTROL Enable Onepage Checkout]** para `No`.
+1. Defina **[!UICONTROL Enable Onepage Checkout]** como `No`.
 
-   Se necessário, limpe a **[!UICONTROL Use system value]** para alterar essa configuração.
+   Se necessário, desmarque a caixa de seleção **[!UICONTROL Use system value]** para alterar essa configuração.
 
 1. Clique em **[!UICONTROL Save Config]**.

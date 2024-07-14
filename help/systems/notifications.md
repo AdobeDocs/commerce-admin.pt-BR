@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Notificações do sistema
 
-A variável _Notificação_ A página lista todas as mensagens classificadas por gravidade, com a mais recente no topo. Os comandos Ação podem ser usados para marcar mensagens individuais como lidas, exibir informações mais detalhadas ou remover a mensagem da caixa de entrada.
+A página _Notificações_ lista todas as mensagens classificadas por gravidade, com a mais recente no topo. Os comandos Ação podem ser usados para marcar mensagens individuais como lidas, exibir informações mais detalhadas ou remover a mensagem da caixa de entrada.
 
-1. Siga um destes procedimentos para abrir a _[!UICONTROL Notifications]_página:
+1. Siga um destes procedimentos para abrir a página _[!UICONTROL Notifications]_:
 
-   - Clique em _Notificação_ no cabeçalho. Se uma ou mais mensagens novas forem exibidas, clique em **[!UICONTROL See All]**.
+   - Clique no ícone _Notificação_ no cabeçalho. Se houver uma ou mais novas mensagens exibidas, clique em **[!UICONTROL See All]**.
 
-   - No _Admin_ barra lateral, vá para **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
+   - Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
 
-1. No **[!UICONTROL Action]** , siga um destes procedimentos:
+1. Na coluna **[!UICONTROL Action]**, siga um destes procedimentos:
 
    - Para obter mais informações, clique em **[!UICONTROL Read Details]** para abrir a página vinculada em uma nova janela.
 
@@ -33,9 +33,9 @@ A variável _Notificação_ A página lista todas as mensagens classificadas por
 1. Para aplicar uma ação a várias mensagens, siga um destes procedimentos:
 
    - Marque a caixa de seleção na primeira coluna para cada mensagem a ser gerenciada.
-   - Para selecionar várias mensagens, defina a variável **[!UICONTROL Mass Actions]** controle conforme necessário.
+   - Para selecionar várias mensagens, defina o controle **[!UICONTROL Mass Actions]** conforme necessário.
 
-1. Defina o **[!UICONTROL Actions]** controle para uma das seguintes opções:
+1. Defina o controle **[!UICONTROL Actions]** como um dos seguintes:
 
    - `Mark as Read`
    - `Remove`

@@ -13,27 +13,27 @@ ht-degree: 0%
 
 Agende as alterações no design do tema com antecedência para que entrem em vigor de acordo com os ciclos e eventos comerciais. Você pode usar alterações de design programadas para alterações sazonais, promoções ou apenas para adicionar variações.
 
-![Alterações programadas no projeto](./assets/design-schedule.png){width="700" zoomable="yes"}
+![Alterações de design agendadas](./assets/design-schedule.png){width="700" zoomable="yes"}
 
 ## Adicionar uma alteração de design programada
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Clique em **[!UICONTROL Add Design Change]**.
 
-   ![Configurações de Alteração de Design de Nova Loja](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
+   ![Novas configurações de Alteração de Design de Loja](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
 
-1. Definir **[!UICONTROL Store]** para a exibição de loja onde deseja aplicar as alterações.
+1. Defina **[!UICONTROL Store]** para o modo de exibição de repositório no qual deseja aplicar as alterações.
 
-1. Definir **[!UICONTROL Custom Design]** ao tema ou variação de um tema a ser usada.
+1. Defina **[!UICONTROL Custom Design]** com o tema, ou com a variação de um tema, a ser usada.
 
-1. Para o **[!UICONTROL Date From]** e **[!UICONTROL Date To]**, clique no link _Calendário_ (![Ícone de calendário](../assets/icon-calendar.png)) para escolher os valores inicial e final para o período em que a alteração está em vigor.
+1. Para **[!UICONTROL Date From]** e **[!UICONTROL Date To]**, clique no ícone _Calendário_ (![Calendário](../assets/icon-calendar.png)) para escolher os valores inicial e final para o período em que a alteração está em vigor.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
 ## Editar alteração de design agendada
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Selecione o item que deseja editar.
 
@@ -43,7 +43,7 @@ Agende as alterações no design do tema com antecedência para que entrem em vi
 
 ## Excluir alteração de design agendada
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Selecione o item que deseja excluir.
 

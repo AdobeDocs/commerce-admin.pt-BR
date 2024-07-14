@@ -1,6 +1,6 @@
 ---
-user-guide-title: "[!DNL Page Builder] Guia do usuário"
-user-guide-description: Saiba como usar o [!DNL Page Builder] recursos para criar páginas ricas em conteúdo com layouts personalizados que aprimoram sua narrativa visual, impulsionando a participação e a fidelidade do cliente.
+user-guide-title: "[!DNL Page Builder] Guia do Usuário"
+user-guide-description: Saiba como usar  [!DNL Page Builder]  recursos para criar páginas ricas em conteúdo com layouts personalizados que aprimoram sua narrativa visual, impulsionam a participação e a fidelidade do cliente.
 breadcrumb-title: "[!DNL Page Builder]"
 topic: Commerce, Content Management
 feature: Page Builder
@@ -13,10 +13,10 @@ ht-degree: 5%
 ---
 
 
-# [!DNL Page Builder] Guia do usuário {#page-builder}
+# Guia do Usuário do [!DNL Page Builder] {#page-builder}
 
-- [[!DNL Page Builder] Guia do usuário](guide-overview.md)
-- [Introdução ao [!DNL Page Builder]](introduction.md)
+- [Guia do Usuário do [!DNL Page Builder]](guide-overview.md)
+- [Introdução a  [!DNL Page Builder]](introduction.md)
 - [Notas de versão](release-notes.md)
 - [Configuração e instalação](setup.md)
 - Apresentação {#walkthrough}
@@ -46,5 +46,5 @@ ht-degree: 5%
    - [Produtos](products.md)
    - [Recommendations do produto](recommendations.md)
 - [Modelos](templates.md)
-- [Retornar aos Guias do comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retornar aos Guias do Comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

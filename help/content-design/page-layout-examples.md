@@ -25,13 +25,13 @@ A área de conteúdo de um layout de uma coluna abrange a largura total da colun
 
 A área de conteúdo deste layout é dividida em duas colunas. A coluna de conteúdo principal flutua à direita e a barra lateral flutua à esquerda.
 
-![Exemplo de duas colunas com barra esquerda](./assets/page-layout-2-col-left-bar.png){width="700" zoomable="yes"}
+![Exemplo de duas colunas com a barra esquerda](./assets/page-layout-2-col-left-bar.png){width="700" zoomable="yes"}
 
 ## Duas colunas com barra direita
 
 Este layout é uma imagem espelhada do outro layout de duas colunas. Dessa vez, a barra lateral flutua à direita e a coluna de conteúdo principal flutua à esquerda.
 
-![Exemplo de duas colunas com barra direita](./assets/page-layout-2-col-right-bar.png){width="700" zoomable="yes"}
+![Exemplo de duas colunas com a barra direita](./assets/page-layout-2-col-right-bar.png){width="700" zoomable="yes"}
 
 ## Três colunas
 

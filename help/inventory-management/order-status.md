@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Status do pedido e reservas
 
-[!DNL Inventory Management] O oferece suporte a faturamento parcial e completo, pagamentos, remessa e cancelamentos por pedido. Ao gerenciar uma ordem por meio de processamento, faturamento, entrega e potencialmente reembolsos, [!DNL Commerce] insere ou altera automaticamente as reservas para atualizar a quantidade vendável de um estoque (ou canal de vendas) e a quantidade em estoque por origem. Não é necessário acessar ou inserir reservas ativamente. Concluir ações para atender, cancelar ou reembolsar um pedido faz isso por você.
+[!DNL Inventory Management] dá suporte a faturamento, pagamentos, remessa e cancelamentos parciais e completos por pedido. À medida que você gerencia uma ordem por meio de processamento, faturamento, remessa e potencialmente reembolsos, [!DNL Commerce] insere ou altera automaticamente as reservas para atualizar a quantidade vendável de um estoque (ou canal de vendas) e a quantidade de estoque disponível por origem. Não é necessário acessar ou inserir reservas ativamente. Concluir ações para atender, cancelar ou reembolsar um pedido faz isso por você.
 
 Essas reservas sempre ajustam sua quantidade vendida, com quantias positivas ou negativas para aumentar ou diminuir quantidades. O resultado é uma atualização do estoque disponível e das quantidades comercializáveis para obter a disponibilidade atualizada do produto.
 
-Para obter informações específicas sobre ordens e entregas, consulte [Gerenciando Ordens e Entregas](shipments.md).
+Para obter informações específicas sobre pedidos e remessas, consulte [Gerenciando Pedidos e Remessas](shipments.md).
 
 ## Opções de gerenciamento de pedidos
 
@@ -32,23 +32,23 @@ Se um cliente cancelar sua ordem antes da entrega (parcial ou total), uma nova r
 
 ### Ordens reembolsadas
 
-Se um cliente solicitar um reembolso, emita o aviso de crédito para as quantias parciais ou totais do produto. Ao receber os produtos devolvidos, informe um aviso de crédito para fornecer os fundos e atualizar as quantias do produto. Ao selecionar a opção Retornar ao estoque, [!DNL Commerce] adiciona quantidades de volta aos produtos e origens que entregaram as ordens e as compensações de reserva para atualizar quantidades comercializáveis para o estoque associado.
+Se um cliente solicitar um reembolso, emita o aviso de crédito para as quantias parciais ou totais do produto. Ao receber os produtos devolvidos, informe um aviso de crédito para fornecer os fundos e atualizar as quantias do produto. Ao selecionar a opção Retornar ao Estoque, [!DNL Commerce] adiciona quantidades de volta aos produtos e origens que enviaram os pedidos e as compensações de reserva para atualizar as quantidades disponíveis para o estoque associado.
 
 ## Tipos de ordem
 
-Pedidos simples começam com um carrinho de compras, continuam o pagamento e terminam com um delivery satisfeito. Nessas ordens, [!DNL Inventory Management] processa facilmente as reservas contra a disponibilidade (ou quantidade comercializável) no carrinho e na finalização da compra e deduz do inventário em estoque na entrega.
+Pedidos simples começam com um carrinho de compras, continuam o pagamento e terminam com um delivery satisfeito. Nesses pedidos, o [!DNL Inventory Management] processa facilmente as reservas em relação à disponibilidade (ou quantidade comercializável) no carrinho e no check-out e deduz do estoque disponível na entrega.
 
-![Processo para um pedido simples](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
+![Processar para uma ordem simples](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
 
 Uma ordem mais complicada pode ter cancelamentos parciais, remessas parciais e restituições. Nessas situações, as reservas afetam o inventário disponível para adicionar quantidades para cancelamentos e reembolsos e diminuir quantidades quando solicitadas e entregues.
 
-![Processo para um pedido complicado](assets/diagram-complicated-order-flow.png){width="600" zoomable="yes"}
+![Processar para uma ordem complicada](assets/diagram-complicated-order-flow.png){width="600" zoomable="yes"}
 
 As reservas de disponibilidade e as alterações de inventário ocorrem com base no status da ordem.
 
 ## Status e reservas
 
-As tabelas a seguir detalham a ordem e o status do aviso de crédito com alterações de reserva informadas por [!DNL Commerce] para gerenciar o inventário.
+As tabelas a seguir detalham a ordem e o status do aviso de crédito com alterações de reserva inseridas por [!DNL Commerce] para gerenciar o inventário.
 
 | Status do pedido | Descrição | Reserva para Quantidade Venável |
 |--|--|--|
@@ -76,14 +76,14 @@ Eles compram duas grandes bicicletas de parque para seus filhos pequenos, uma bi
 
 ![Ordem complexa](assets/diagram-order-complex.png){width="600" zoomable="yes"}
 
-Eles mostram à família o que encontraram, mas fazem algumas mudanças. Antes de o pagamento ser concluído, eles cancelam dois dos SKUs de 33 BikeFun (as crianças não gostavam deles). Este é um cancelamento parcial devido a pagamento pendente, portanto, nenhum aviso de crédito é necessário. Para atualizar, [!DNL Commerce] adiciona novamente ao estoque de quantidade vendável do Canadá. O pedido é pago, e todos os produtos são enviados, chegando a tempo de férias. [!DNL Commerce] atualiza a quantidade vendável e as quantidades de origem dos depósitos de entrega dos produtos entregues.
+Eles mostram à família o que encontraram, mas fazem algumas mudanças. Antes de o pagamento ser concluído, eles cancelam dois dos SKUs de 33 BikeFun (as crianças não gostavam deles). Este é um cancelamento parcial devido a pagamento pendente, portanto, nenhum aviso de crédito é necessário. Para atualizar, [!DNL Commerce] adiciona de volta ao estoque de quantidade vendável do Canadá. O pedido é pago, e todos os produtos são enviados, chegando a tempo de férias. [!DNL Commerce] atualiza a quantidade vendável e as quantidades de origem dos depósitos de remessa dos produtos remetidos.
 
 Mas a camisa não se encaixava bem na esposa. Blake pede um reembolso e manda de volta sua camisa. A criação do memorando de crédito adiciona uma camisa 54-BikeLife de volta ao armazém de ações e transporte do Canadá.
 
-- **Produtos enviados** - Com produtos comprados e enviados, [!DNL Commerce] atualiza o inventário. As compensações de reserva são convertidas em deduções de quantidade em estoque da origem entregue. As atualizações de quantidade disponível para estoque.
+- **Produtos enviados** - Com produtos comprados e enviados, a [!DNL Commerce] atualiza o inventário. As compensações de reserva são convertidas em deduções de quantidade em estoque da origem entregue. As atualizações de quantidade disponível para estoque.
 
-- **Produtos cancelados** - Cancelando o estoque, [!DNL Commerce] O remove a reserva para esse produto. A compensação de reserva é inserida no nível do estoque para adicionar novamente as quantidades comercializáveis para o cancelamento parcial de duas camisetas. Isso não afeta a quantidade do inventário no nível da origem.
+- **Produtos cancelados** - Ao cancelar o estoque, o [!DNL Commerce] remove a reserva desse produto. A compensação de reserva é inserida no nível do estoque para adicionar novamente as quantidades comercializáveis para o cancelamento parcial de duas camisetas. Isso não afeta a quantidade do inventário no nível da origem.
 
-- **Aviso de crédito/produto reembolsado** - Em caso de devolução das existências, estas devem ser novamente adicionadas às quantidades. Ao emitir o aviso de crédito, você pode optar por retornar ao estoque. [!DNL Commerce] adiciona novamente a quantidade de estoque à origem entregue do produto. As compensações de reserva são inseridas para limpar quaisquer reservas restantes. A quantidade disponível é recalculada em relação à quantidade atualizada.
+- **Produto de Aviso de Crédito/Reembolsado** - Ao devolver o estoque, ele deve ser adicionado novamente às quantidades. Ao emitir o aviso de crédito, você pode optar por retornar ao estoque. [!DNL Commerce] adiciona novamente a quantidade em estoque à origem entregue do produto. As compensações de reserva são inseridas para limpar quaisquer reservas restantes. A quantidade disponível é recalculada em relação à quantidade atualizada.
 
 ![Atualizações da quantidade de reembolso da ordem](assets/diagram-order-refund.png){width="600" zoomable="yes"}

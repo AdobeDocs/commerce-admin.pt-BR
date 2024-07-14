@@ -5,7 +5,7 @@ exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -21,15 +21,15 @@ Depois de adicionar origens, você deve priorizar a ordem das origens de cima (p
 
 ## Adicionar o estoque de estoque
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stock]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stock]**.
 
 1. Clique em **[!UICONTROL Add New Stock]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL General]** e insira um nome exclusivo **[!UICONTROL Name]** para identificar o novo estoque.
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL General]** e insira um **[!UICONTROL Name]** exclusivo para identificar o novo estoque.
 
    ![Opções gerais de ações](assets/inventory-stock-general.png){width="350" zoomable="yes"}
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Sales Channels]** e selecione o **[!UICONTROL Websites]** onde esta unidade populacional está disponível.
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Sales Channels]** e selecione o **[!UICONTROL Websites]** onde esse estoque está disponível.
 
    Para uma instalação multissite, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada site.
 
@@ -37,9 +37,9 @@ Depois de adicionar origens, você deve priorizar a ordem das origens de cima (p
    >
    >Se você selecionar um site ou canal de vendas atribuído a outro estoque, ele será desatribuído desse estoque. Qualquer Sales Channel não atribuído a um estoque personalizado é atribuído ao Estoque padrão.
 
-   ![opções de Sales Channel para estoques](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
+   ![opções de Sales Channel para ações](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Sources]** e faça o seguinte para qualquer estoque que não seja o padrão:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Sources]** e faça o seguinte para qualquer estoque diferente do padrão:
 
    - Clique em **[!UICONTROL Assign Sources]**.
 
@@ -55,15 +55,15 @@ Depois de adicionar origens, você deve priorizar a ordem das origens de cima (p
 
      As fontes adicionadas são exibidas em Fontes atribuídas.
 
-     ![Atribuir origens ao estoque](assets/inventory-assign-sources.png){width="600" zoomable="yes"}
+     ![Atribuir fontes ao estoque](assets/inventory-assign-sources.png){width="600" zoomable="yes"}
 
-1. Uso ![Ícone Classificar](assets/icon-sort.png) para arrastar e soltar as fontes em uma prioridade de cima (primeiro) para baixo (último).
+1. Use o ![ícone Classificar](assets/icon-sort.png) para arrastar e soltar as fontes em uma prioridade de cima (primeiro) para baixo (último).
 
    A ordem de origem é importante ao enviar ordens.
 
    ![Exemplo de fontes atribuídas](assets/inventory-stock-priority-after.png){width="600" zoomable="yes"}
 
-1. No _[!UICONTROL Save]_(![Seta de menu](../assets/icon-menu-down-arrow-red.png)), escolha **[!UICONTROL Save & Close]**.
+1. No menu _[!UICONTROL Save]_(![Seta do menu](../assets/icon-menu-down-arrow-red.png)), escolha **[!UICONTROL Save & Close]**.
 
 ## Descrições dos campos
 
@@ -72,7 +72,7 @@ Depois de adicionar origens, você deve priorizar a ordem das origens de cima (p
 | **[!UICONTROL General]** | |
 | [!UICONTROL Name] | Nome do estoque. Por exemplo: `UK Stock`, `US Stock` |
 | **[!UICONTROL Sales Channels]** | |
-| [!UICONTROL Websites] | Define o [escopo](../getting-started/websites-stores-views.md#scope-settings) do estoque, atribuindo o estoque a sites específicos como _canais de vendas_. Selecione um ou mais sites por estoque. Cada site só pode ser atribuído a um estoque. |
+| [!UICONTROL Websites] | Define o [escopo](../getting-started/websites-stores-views.md#scope-settings) do estoque atribuindo o estoque a sites específicos como _canais de vendas_. Selecione um ou mais sites por estoque. Cada site só pode ser atribuído a um estoque. |
 | **[!UICONTROL Sources]** | |
 | [!UICONTROL Assign Sources] | Atribui origens de estoque a esse estoque. As fontes personalizadas não podem ser atribuídas ao Estoque padrão. |
-| [!UICONTROL Assigned Sources] | Lista de fontes atribuídas. Arraste e solte as fontes usando ![Ícone Classificar](assets/icon-sort.png) em um pedido priorizado para atendimento e envio de pedidos.<br/><br/>**[!UICONTROL Code]**- ID de código exclusiva da origem.<br/>**[!UICONTROL Name]** - Descrição de nome da origem.<br/>**[!UICONTROL Unassign]**- Remova a origem atribuída do estoque usando ![Ícone de lixeira](../assets/icon-delete-trashcan-solid.png). |
+| [!UICONTROL Assigned Sources] | Lista de fontes atribuídas. Arraste e solte as fontes usando o ![Ícone Classificar](assets/icon-sort.png) em uma ordem priorizada para atendimento e remessa de pedidos.<br/><br/>**[!UICONTROL Code]**- Identificação de código exclusivo para a origem.<br/>**[!UICONTROL Name]** - Descrição de nome da origem.<br/>**[!UICONTROL Unassign]**- Remover a origem atribuída do estoque usando o ![ícone Lixeira](../assets/icon-delete-trashcan-solid.png). |

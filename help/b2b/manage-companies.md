@@ -19,11 +19,11 @@ ht-degree: 0%
 
 O gerenciamento de empresas simplifica as operações de negócios para empresas com estruturas organizacionais complexas. Os usuários administradores podem criar uma hierarquia de empresa para refletir uma organização B2B, atribuindo empresas à empresa principal designada. Essa atribuição permite que o administrador da empresa principal exiba e gerencie empresas na organização.
 
-Iniciar tarefas de gerenciamento da empresa a partir do *[!UICONTROL Companies]* exibição. No Administrador, acesse  **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Inicie as tarefas de gerenciamento da empresa na exibição *[!UICONTROL Companies]*. No Administrador, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-![Grade de empresas gerenciadas B2B](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+![Grade Gerenciar Empresas B2B](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-No *[!UICONTROL Companies grid]*, o *[!UICONTROL Company Type]* indica se uma empresa é gerenciada como parte de uma organização ou como uma empresa separada.
+No *[!UICONTROL Companies grid]*, a coluna *[!UICONTROL Company Type]* indica se uma empresa é gerenciada como parte de uma organização ou como uma empresa separada.
 
 - `Parent` é uma organização comercial com uma ou mais empresas atribuídas. Uma empresa principal não pode ser atribuída como um filho de outra empresa.
 
@@ -31,14 +31,14 @@ No *[!UICONTROL Companies grid]*, o *[!UICONTROL Company Type]* indica se uma em
 
 - `Company` representa uma única empresa. Uma única empresa pode se tornar parte de uma organização tornando-a uma empresa principal ou atribuindo-a a uma empresa principal existente.
 
-Ao editar uma empresa principal ou secundária, expanda *[!UICONTROL Company Hierarchy]* para exibir todas as empresas na organização. A `Current` indica a empresa que você está editando.
+Ao editar uma empresa principal ou secundária, expanda *[!UICONTROL Company Hierarchy]* para exibir todas as empresas na organização. Um sinalizador `Current` indica a empresa que você está editando.
 
-![Grade de Hierarquia da empresa B2B](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+![Grade de Hierarquia da Empresa B2B](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
 
-## Visualize e configure o [!UICONTROL Company Hierarchy]
+## Exibir e configurar o [!UICONTROL Company Hierarchy]
 
-Na criação inicial da empresa, a variável [!UICONTROL Company Hierarchy] a grade está vazia. Também fica em branco se a empresa for uma única empresa.
+Na criação inicial da empresa, a grade [!UICONTROL Company Hierarchy] está vazia. Também fica em branco se a empresa for uma única empresa.
 
 ![Grade de Hierarquia da Empresa B2B](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 

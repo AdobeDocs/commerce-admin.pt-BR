@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-A variável [Registro de presentes](gift-registries.md) A seção da conta do cliente lista os registros de presentes atuais do cliente e o evento associado. Os clientes podem gerenciar os registros atuais e adicionar novos.
+A seção [Registro de presentes](gift-registries.md) da conta do cliente lista os registros de presentes atuais do cliente e o evento associado. Os clientes podem gerenciar os registros atuais e adicionar novos.
 
 ![Registro de presentes](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
@@ -40,9 +40,9 @@ Os clientes podem criar e gerenciar registros de presentes em suas contas. Todas
 
 ## Criar um registro de presente
 
-1. O cliente seleciona **[!UICONTROL Gift Registry]** no painel de contas.
+1. O cliente seleciona **[!UICONTROL Gift Registry]** no painel da conta.
 
-1. No _Registro de presentes_ página, cliques **[!UICONTROL Add New]**.
+1. Na página _Registro de presentes_, clique em **[!UICONTROL Add New]**.
 
 1. Escolhe um **[!UICONTROL Gift Registry Type]**, como:
 
@@ -62,48 +62,48 @@ Os clientes podem criar e gerenciar registros de presentes em suas contas. Todas
 
 1. Cliques **[!UICONTROL Add to Cart]**.
 
-1. Cliques **[!UICONTROL View and Edit Cart]** no minicarrinho.
+1. Clica em **[!UICONTROL View and Edit Cart]** no minicarrinho.
 
-1. Na página Carrinho de compras, seleciona o evento desejado e clica/toca **[!UICONTROL Add All To Gift Registry]**.
+1. Na página Carrinho de Compras, selecione o evento desejado e clique/toque em **[!UICONTROL Add All To Gift Registry]**.
 
    Os itens são adicionados ao registro de presentes do evento selecionado.
 
 ## Compartilhar um registro de presente
 
-1. No painel da conta, o cliente acessa **[!UICONTROL Gift Registry]**.
+1. No painel de contas, o cliente acessa **[!UICONTROL Gift Registry]**.
 
 1. Localiza o evento do Registro que deseja gerenciar e clica em **[!UICONTROL Share]**.
 
-1. Insere as informações e cliques necessários **[!UICONTROL Share Gift Registry]**.
+1. Insira as informações necessárias e clique em **[!UICONTROL Share Gift Registry]**.
 
 ## Editar um registro de presente
 
-1. No painel da conta, o cliente acessa **[!UICONTROL Gift Registry]**.
+1. No painel de contas, o cliente acessa **[!UICONTROL Gift Registry]**.
 
 1. Localiza o evento do Registro que deseja gerenciar e clica em **[!UICONTROL Edit]**.
 
 1. Altera quaisquer opções conforme necessário.
 
-1. Edita as opções e cliques necessários **[!UICONTROL Save]**.
+1. Edita as opções necessárias e clica em **[!UICONTROL Save]**.
 
 ## Gerenciar itens do registro de presentes
 
-1. No painel da conta, o cliente acessa **[!UICONTROL Gift Registry]**.
+1. No painel de contas, o cliente acessa **[!UICONTROL Gift Registry]**.
 
-   ![Gerenciamento de itens do registro de presentes](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
+   ![Gerenciando itens do Registro de presentes](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
 
-1. Localiza o evento de registro, seleciona os itens que deseja gerenciar e clica em **[!DNL Manage Items]**.
+1. Localiza o evento do Registro, seleciona os itens que deseja gerenciar e clica em **[!DNL Manage Items]**.
 
 1. Altera as opções necessárias, como **[!UICONTROL Note]** e **[!UICONTROL Qty]**.
 
 1. Se necessário, remove um item do registro do presente marcando a caixa de seleção e clicando em **[!UICONTROL Delete]**.
 
-1. Cliques **[!UICONTROL Update Gift Registry]** para salvar as alterações.
+1. Clica em **[!UICONTROL Update Gift Registry]** para salvar as alterações.
 
 ## Excluir um registro de presente
 
-1. No painel da conta, o cliente acessa **[!UICONTROL Gift Registry]**.
+1. No painel de contas, o cliente acessa **[!UICONTROL Gift Registry]**.
 
 1. Localiza o evento do Registro que deseja gerenciar e clica em **[!UICONTROL Delete]**.
 
-1. Cliques **[!UICONTROL OK]** para confirmar.
+1. Clica em **[!UICONTROL OK]** para confirmar.

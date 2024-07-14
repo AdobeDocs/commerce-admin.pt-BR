@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Google Tag Manager]'
-description: Saiba como usar o [!DNL Google Tag Manager] para gerenciar as várias tags (trechos de código) relacionadas aos eventos de campanha de marketing nos sites da Adobe Commerce.
+description: Saiba como usar o [!DNL Google Tag Manager] para gerenciar as várias tags (trechos de código) relacionadas aos eventos de campanha de marketing nos sites do Adobe Commerce.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
 source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -14,37 +14,37 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-[!DNL Google Tag Manager] O ajuda você a gerenciar várias tags (trechos de código) relacionadas aos eventos de campanha de marketing. [!DNL Google Tag Manager] O oferece a capacidade de adicionar tags de rastreamento ao seu site para medir o público-alvo ou personalizar, redirecionar ou realizar iniciativas de marketing de mecanismo de pesquisa.
+O [!DNL Google Tag Manager] ajuda você a gerenciar as várias tags (trechos de código) relacionadas aos eventos de campanha de marketing. O [!DNL Google Tag Manager] oferece a capacidade de adicionar tags de rastreamento ao seu site para medir a audiência ou personalizar, redirecionar ou conduzir iniciativas de marketing de mecanismo de pesquisa.
 
-[!DNL Google Tag Manager] transfere dados e eventos diretamente para [!DNL Google Analytics], Ecommerce aprimorado e outras soluções de análise de terceiros para produzir uma imagem clara do desempenho de seu site, de seus produtos e de suas promoções.
+O [!DNL Google Tag Manager] transfere dados e eventos diretamente para o [!DNL Google Analytics], Enhanced Ecommerce e outras soluções de análise de terceiros para produzir uma imagem clara do desempenho de seu site, de seus produtos e promoções.
 
-Você deve ter um [!DNL Google Analytics] e [!DNL Tag Manager] conta para continuar esse processo. As instruções a seguir orientam você pelo processo de configuração das contas do Google, configuração da loja do Commerce e criação de uma tag.
+Você deve ter uma conta de [!DNL Google Analytics] e [!DNL Tag Manager] para continuar esse processo. As instruções a seguir orientam você pelo processo de configuração das contas do Google, configuração da loja do Commerce e criação de uma tag.
 
 >[!NOTE]
 >
->Se sua empresa estiver sujeita a regulamentos de privacidade, como o [Regulamento Geral sobre a Proteção de Dados](../getting-started/compliance-gdpr.md) e/ou a [California Consumer Privacy Act](../getting-started/compliance-ccpa.md), consulte [Configurações de privacidade do Google](google-tools.md#google-privacy-settings).
+>Se a sua empresa estiver sujeita a regulamentos de privacidade como o [Regulamento Geral sobre a Proteção de Dados](../getting-started/compliance-gdpr.md) e/ou a [Lei de Privacidade do Consumidor da Califórnia](../getting-started/compliance-ccpa.md), consulte as [Configurações de Privacidade da Google](google-tools.md#google-privacy-settings).
 
-## Etapa 1. Configurar o [!DNL Google Analytics] account
+## Etapa 1. Configurar sua conta do [!DNL Google Analytics]
 
-Consulte [Configurar pesquisa no site](https://support.google.com/analytics/answer/1012264) na Ajuda do Google para saber as noções básicas necessárias para começar. Consulte também os guias do Google para [Google Analytics](https://support.google.com/analytics/answer/9304153) e [Gerenciador de tags da Google](https://support.google.com/tagmanager/answer/6102821).
+Consulte [Configurar pesquisa de site](https://support.google.com/analytics/answer/1012264) na Ajuda do Google para obter as noções básicas necessárias para começar. Consulte também os guias do Google para o [Google Analytics](https://support.google.com/analytics/answer/9304153) e o [Google Tag Manager](https://support.google.com/tagmanager/answer/6102821).
 
-1. Faça logon no [!DNL Google Analytics] conta.
+1. Entre na sua conta [!DNL Google Analytics].
 
 1. Para habilitar **[!UICONTROL Internal Site Search Tracking]**, faça o seguinte:
 
    - Navegue até **[!UICONTROL Select View]** > **[!UICONTROL View Settings]**.
 
-   - Definir **[!UICONTROL Site Search Tracking]** para `On`.
+   - Defina **[!UICONTROL Site Search Tracking]** como `On`.
 
-   - Definir **[!UICONTROL Query]** parâmetro para `q`.
+   - Definir parâmetro **[!UICONTROL Query]** como `q`.
 
-   - Quando concluído, **[!UICONTROL Save]** as configurações.
+   - Ao concluir, **[!UICONTROL Save]** as configurações.
 
 1. Para ativar recursos de exibição, faça o seguinte:
 
-   - Escolher **[!UICONTROL Property Settings]**.
+   - Escolha **[!UICONTROL Property Settings]**.
 
-   - Em _[!UICONTROL Advertising Features]_, definir **[!UICONTROL Enable Demographics and Interest Reports]**para `On`.
+   - Em _[!UICONTROL Advertising Features]_, defina **[!UICONTROL Enable Demographics and Interest Reports]**como `On`.
 
    - **[!UICONTROL Save]** as configurações.
 
@@ -52,9 +52,9 @@ Consulte [Configurar pesquisa no site](https://support.google.com/analytics/answ
 
    - Navegue até **[!UICONTROL Select View]** > **[!UICONTROL Ecommerce Settings]**.
 
-   - Definir **[!UICONTROL Enable Ecommerce]** para `On`.
+   - Defina **[!UICONTROL Enable Ecommerce]** como `On`.
 
-   - Definir **[!UICONTROL Enable Enhanced Ecommerce Reporting]** para `On`.
+   - Defina **[!UICONTROL Enable Enhanced Ecommerce Reporting]** como `On`.
 
    - **[!UICONTROL Save]** as configurações.
 
@@ -64,19 +64,19 @@ Consulte [Configurar pesquisa no site](https://support.google.com/analytics/answ
    >
    >Se nem todas as configurações forem `On`, repita as etapas anteriores, salve e recarregue a página. Repita esse processo até que todas as configurações sejam definidas como `On`.
 
-## Etapa 2. Configurar o [!DNL Google Tag Manager] account
+## Etapa 2. Configurar sua conta do [!DNL Google Tag Manager]
 
-As instruções a seguir mostram como configurar um novo container com as configurações básicas. Uma amostra [Compositor](https://developer.adobe.com/commerce/php/development/composer/) O arquivo de configuração (.json) é usado para simplificar o processo, importando para gerar uma tag em um novo container. Para este exemplo, é recomendável criar um contêiner, em vez de modificar um contêiner existente.
+As instruções a seguir mostram como configurar um novo container com as configurações básicas. Um exemplo de arquivo de configuração (.json) do [Composer](https://developer.adobe.com/commerce/php/development/composer/) é usado para simplificar o processo, importando para gerar uma marca em um novo contêiner. Para este exemplo, é recomendável criar um contêiner, em vez de modificar um contêiner existente.
 
 >[!NOTE]
 >
->Google Para obter mais informações, consulte a seção [Exportação e importação de contêineres](https://support.google.com/tagmanager/answer/6106997). Essas instruções fornecem uma apresentação para importar uma amostra de JSON em um novo container.
+>Para obter informações adicionais, consulte [Exportação e importação de contêineres](https://support.google.com/tagmanager/answer/6106997) da Google. Essas instruções fornecem uma apresentação para importar uma amostra de JSON em um novo container.
 
-1. Baixar o arquivo vinculado [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt), abra o arquivo em um editor e salve-o como `GTM_M2_Config.json`.
+1. Baixe o arquivo vinculado [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt), abra-o em um editor e salve-o como `GTM_M2_Config.json`.
 
-   O arquivo json é carregado diretamente no [!DNL Google Tag Manager].
+   O arquivo json é carregado diretamente para [!DNL Google Tag Manager].
 
-1. Navegue até **[!UICONTROL Admin]** > **[!UICONTROL Container]** > **[!UICONTROL Import Container]**.
+1. Navegue até **[!UICONTROL Admin]** > **[!UICONTROL Container]** > **[!UICONTROL Import Container]**.
 
 1. Clique em **[!UICONTROL Choose container file]** e selecione o arquivo json.
 
@@ -86,23 +86,23 @@ As instruções a seguir mostram como configurar um novo container com as config
 
 1. Para importar o arquivo, selecione uma das seguintes ações:
 
-   - A variável **[!UICONTROL Overwrite]** deve ser selecionada para um novo container.
+   - A opção **[!UICONTROL Overwrite]** deve ser selecionada para um novo container.
 
-   - A variável **[!UICONTROL Merge]** deve ser selecionada se estiver usando um contêiner existente.
+   - A opção **[!UICONTROL Merge]** deve ser selecionada se você estiver usando um contêiner existente.
 
-1. Clique em **[!UICONTROL Preview]** para analisar tags, acionadores e variáveis.
+1. Clique em **[!UICONTROL Preview]** para examinar as marcas, os disparadores e as variáveis.
 
-1. Para editar a variável **[!UICONTROL Google Analytics ID]** que são referenciadas em variáveis, faça o seguinte:
+1. Para editar o **[!UICONTROL Google Analytics ID]** que é referenciado nas variáveis, faça o seguinte:
 
-   - Navegue até **[!UICONTROL Variables]** > **[!UICONTROL User-Defined Variables]**.
+   - Navegue até **[!UICONTROL Variables]** > **[!UICONTROL User-Defined Variables]**.
 
-   - Escolher **[!UICONTROL Google Analytics]** e atualizar o espaço reservado (`UA-xxxxxx-x`) com o seu próprio **[!UICONTROL GA ID]**.
+   - Escolha **[!UICONTROL Google Analytics]** e atualize o espaço reservado (`UA-xxxxxx-x`) com seu próprio **[!UICONTROL GA ID]**.
 
 1. Siga as instruções da Google para adicionar tags, acionadores e variáveis ao novo container.
 
    Se você tiver configurações em outro container que deseja usar, elas poderão ser movidas para o novo container.
 
-1. Clique em **[!UICONTROL Confirm]** quando concluído.
+1. Clique em **[!UICONTROL Confirm]** quando terminar.
 
 1. Siga as instruções da Google para publicar o novo container.
 
@@ -110,49 +110,49 @@ As instruções a seguir mostram como configurar um novo container com as config
 
 {{gtag-api-note}}
 
-1. Faça logon no Administrador da sua loja Commerce.
+1. Faça logon no Admin da sua loja da Commerce.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Google API]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Google Analytics]** e configure o seguinte:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Google Analytics]** e configure o seguinte:
 
    ![Configuração de vendas - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
 
-   - Definir **[!UICONTROL Enable]** para `Yes`.
+   - Defina **[!UICONTROL Enable]** como `Yes`.
 
-   - Definir **[!UICONTROL Account type]** para `Google Tag Manager`.
+   - Defina **[!UICONTROL Account type]** como `Google Tag Manager`.
 
-   - No **[!UICONTROL Container ID]** , digite sua ID do GTM (`GTM-xxxxxx`).
+   - No campo **[!UICONTROL Container ID]**, digite sua ID de GTM (`GTM-xxxxxx`).
 
-   - Se também estiver usando Google Analytics para experimentos de conteúdo, defina **Habilitar experimentos de conteúdo** para `Yes`.
+   - Se você também estiver usando Google Analytics para experimentos de conteúdo, defina **Habilitar experimentos de conteúdo** para `Yes`.
 
    - Use os valores padrão para os campos restantes.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
-1. Teste seu [!DNL Google Tag Manager] e verifique se tudo funciona corretamente.
+1. Teste as configurações do [!DNL Google Tag Manager] e verifique se tudo funciona corretamente.
 
 >[!NOTE]
 >
->Cada contêiner está associado a um site e você só precisa de um contêiner por conta. Se você tiver uma instância do Commerce de vários sites, precisará de contêineres separados.
+>Cada contêiner está associado a um site e você só precisa de um contêiner por conta. Se você tiver uma instância do Commerce com vários sites, precisará de containers separados.
 
 ## Etapa 4. Adicionar o código GTM à loja da Adobe Commerce
 
-1. Para copiar o código GTM, acesse **[!UICONTROL Admin]** > **[!UICONTROL Install Google Tag Manager]**.
+1. Para copiar o código GTM, vá para **[!UICONTROL Admin]** > **[!UICONTROL Install Google Tag Manager]**.
 
-   Há dois códigos GTM a serem adicionados ao site do Commerce: o primeiro para o `<head>` e o segundo para o `<body>` tag.
+   Há dois trechos de código GTM a serem adicionados ao seu site do Commerce: o primeiro para a tag `<head>` e o segundo para a tag `<body>`.
 
-1. No Administrador de comércio, acesse **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**e abra a visualização de loja no modo de edição.
+1. No Administrador do Commerce, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**e abra o modo de exibição de loja no modo de edição.
 
-1. Em _[!UICONTROL Other Settings]_, expandir **[!UICONTROL HTML Head]**e cole o código que você copiou do GTM para o `<head>` na guia **[!UICONTROL Scripts and Style Sheets]**campo.
+1. Em _[!UICONTROL Other Settings]_, expanda **[!UICONTROL HTML Head]**e cole o código copiado do GTM para a marca `<head>` no campo **[!UICONTROL Scripts and Style Sheets]**.
 
-   ![Inserção de código no Cabeçalho do HTML](./assets/head-tag.png){width="600" zoomable="yes"}
+   ![Inserindo código no Cabeçalho do HTML](./assets/head-tag.png){width="600" zoomable="yes"}
 
-1. Expandir **[!UICONTROL Footer]** e cole o código GTM para `<body>` no **[!UICONTROL Miscellaneous HTML]** campo.
+1. Expanda **[!UICONTROL Footer]** e cole o código GTM de `<body>` no campo **[!UICONTROL Miscellaneous HTML]**.
 
-   ![Inserir código no rodapé](./assets/footer-tag-section.png){width="600" zoomable="yes"}
+   ![Inserindo código no Rodapé](./assets/footer-tag-section.png){width="600" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Save Configuration]**.
 
@@ -164,7 +164,7 @@ As instruções a seguir mostram como configurar um novo container com as config
 | [!UICONTROL Account type] | Exibição da loja | Determina o código de rastreamento do Google usado para monitorar a atividade e o tráfego da loja. Opções: `Google Analytics` / `Google Tag Manager` |
 | [!UICONTROL Anonymize IP] | Exibição da loja | Determina se as informações de identificação são removidas dos endereços IP exibidos nos resultados de Google Analytics. |
 | [!UICONTROL Enable Content Experiments] | Exibição da loja | Ativa os Experimentos de conteúdo do Google, que podem ser usados para testar até dez versões diferentes da mesma página. Opções: `Yes` / `No` |
-| [!UICONTROL Container Id] | Exibição da loja | Se [!DNL Google Tag Manager] já estiver instalado e configurado para a loja, a ID do contêiner aparecerá automaticamente neste campo. |
+| [!UICONTROL Container Id] | Exibição da loja | Se [!DNL Google Tag Manager] já estiver instalado e configurado para o armazenamento, a ID do Contêiner aparecerá automaticamente neste campo. |
 | [!UICONTROL List property for the catalog page] | Exibição da loja | Identifica a propriedade do Gerenciador de tags associada à página do catálogo. Valor padrão: `Catalog Page` |
 | [!UICONTROL List property for the cross-sell block] | Exibição da loja | Identifica a propriedade do Gerenciador de tags associada ao bloco de venda cruzada. Valor padrão: `Cross-sell` |
 | [!UICONTROL List property for the up-sell block] | Exibição da loja | Identifica a propriedade do Tag Manager associada ao bloco de venda adicional. Valor padrão: `Up-sell` |
@@ -176,22 +176,22 @@ As instruções a seguir mostram como configurar um novo container com as config
 
 ## Criar uma tag para rastrear conversões
 
-Se você tiver uma conta do Google AdWords, poderá criar uma tag que rastreia conversões. O exemplo a seguir mostra como usar ambos [!DNL Google Tag Manager] e [!DNL Google Analytics] para criar uma tag que é acionada na conversão de sua loja _Sucesso_ página.
+Se você tiver uma conta do Google AdWords, poderá criar uma tag que rastreia conversões. O exemplo a seguir mostra como usar o [!DNL Google Tag Manager] e o [!DNL Google Analytics] para criar uma tag que é acionada na página de conversão _Sucesso_ do seu armazenamento.
 
 ### Etapa 1. Criar uma tag
 
-1. Faça logon no [!DNL Google Tag Manager] e clique no link do contêiner criado para sua loja.
+1. Faça logon em sua conta do [!DNL Google Tag Manager] e clique no link do contêiner que você criou para sua loja.
 
-1. No **[!UICONTROL New Tag]** clique em **[!UICONTROL Add a new tag]**.
+1. Na caixa **[!UICONTROL New Tag]**, clique em **[!UICONTROL Add a new tag]**.
 
 1. Obtenha as seguintes informações da sua conta do AdWords:
 
    - ID de conversão
    - Rótulo de conversão
 
-   Se precisar de ajuda, visite o site da Google [site de suporte](https://support.google.com/tagmanager/answer/6105160).
+   Se precisar de ajuda, visite o [site de suporte](https://support.google.com/tagmanager/answer/6105160) da Google.
 
-1. No [!DNL Google Tag Manager] painel, clique em **[!UICONTROL Google AdWords]** e faça o seguinte:
+1. No painel [!DNL Google Tag Manager], clique em **[!UICONTROL Google AdWords]** e faça o seguinte:
 
    - Clique no espaço reservado do título e insira um nome para a nova tag.
 
@@ -203,11 +203,11 @@ Se você tiver uma conta do Google AdWords, poderá criar uma tag que rastreia c
 
 ### Etapa 2. Criar uma regra
 
-Continuando do [!DNL Google Tag Manager] , a próxima etapa é criar uma regra que acione a tag na página de conversão.
+Continuando no painel [!DNL Google Tag Manager], a próxima etapa é criar uma regra que acione a tag na página de conversão.
 
 1. Em **[!UICONTROL Fire On]**, clique em **[!UICONTROL Some Pages]**.
 
-1. No _[!UICONTROL Choose Pages]_, conclua as seguintes configurações:
+1. Na seção _[!UICONTROL Choose Pages]_, conclua as seguintes configurações:
 
    - **[!UICONTROL Name]** - Digite um nome para a descrição da página.
 
@@ -215,7 +215,7 @@ Continuando do [!DNL Google Tag Manager] , a próxima etapa é criar uma regra q
 
    - **Operação** - `matches RegEx`
 
-     Para saber mais, consulte [Operadores de seletor de Regex e CSS](https://support.google.com/tagmanager/answer/7679109) na Ajuda do Google Tag Manager.
+     Para saber mais, consulte [Operadores de seletor de Regex e CSS](https://support.google.com/tagmanager/answer/7679109) na Ajuda do Gerenciador de Tags da Google.
 
    - **[!UICONTROL Value]** - `checkout/success.*`
 

@@ -15,37 +15,37 @@ ht-degree: 0%
 
 Uma conta de empresa pode ser configurada para refletir a estrutura da empresa. Inicialmente, a estrutura da empresa inclui apenas o administrador da empresa, mas pode ser expandida para incluir equipes de usuários. Os usuários podem ser associados a equipes ou organizados dentro de uma hierarquia de divisões e subdivisões dentro da empresa.
 
-![Estrutura da Empresa com Divisões](./assets/company-structure-diagram.svg){width="500"}
+![Estrutura de Empresa com Divisões](./assets/company-structure-diagram.svg){width="500"}
 
 No painel de contas do administrador da empresa, a estrutura da empresa é representada como uma árvore e consiste inicialmente apenas no administrador da empresa.
 
-![Estrutura da empresa com o administrador da empresa](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
+![Estrutura da Empresa com o Administrador da Empresa](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
 
 Quando a conta é criada e aprovada, o administrador da empresa pode usar o endereço de email da empresa ou receber um endereço de email diferente.
 
 É possível que a pessoa que atua como administrador da empresa tenha várias funções na empresa. Se um endereço de email separado for inserido para o administrador da empresa, a estrutura inicial da empresa incluirá o administrador da empresa e uma conta de usuário individual no nome do administrador da empresa. Nesse caso, o administrador da empresa pode fazer logon na conta como a empresa ou como um usuário individual.
 
-![Estrutura da empresa com administrador e conta de usuário](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
+![Estrutura da Empresa com Conta de Administrador e de Usuário](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
 
-Para os comerciantes, a estrutura completa da empresa _Empresas_ e _Clientes_ grades no Administrador. A grade Empresas lista todas as empresas independentemente do status. O exemplo a seguir mostra contas para duas empresas: a _ACME_ empresa e o _Vendelay_ empresa.
+Para comerciantes, a estrutura completa da empresa é refletida nas grades de _Empresas_ e _Clientes_ no Administrador. A grade Empresas lista todas as empresas independentemente do status. O exemplo a seguir mostra as contas de duas empresas: a empresa _ACME_ e a empresa _Vendelay_.
 
 ![Grade de Empresas](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-O exemplo a seguir mostra o [!UICONTROL Customers] grade com as contas iniciais de administrador da empresa dessas empresas.
+O exemplo a seguir mostra a grade [!UICONTROL Customers] com as contas de administrador da empresa inicial para essas empresas.
 
 ![Grade de clientes com conta de administrador de empresa](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-Depois de criar a conta, o administrador da empresa deve definir a estrutura da empresa de [equipes](account-company-structure.md), configure o [usuários da empresa](account-company-users.md)e estabelecer [funções e permissões](account-company-roles-permissions.md) para cada.
+Depois de criar a conta, o administrador da empresa deve definir a estrutura da empresa de [equipes](account-company-structure.md), configurar os [usuários da empresa](account-company-users.md) e estabelecer [funções e permissões](account-company-roles-permissions.md) para cada um.
 
 ## Ícones de estrutura da empresa
 
 | Ícone | Descrição |
 | ---- | ----------------- |
-| ![Ícone de Administrador da empresa](./assets/company-icon-admin.png) | Representa o administrador da empresa na estrutura da empresa. |
-| ![Ícone Equipe](./assets/company-icon-team.png) | Representa uma equipe na estrutura da empresa. |
+| ![Ícone de Administrador da Empresa](./assets/company-icon-admin.png) | Representa o administrador da empresa na estrutura da empresa. |
+| ![Ícone da equipe](./assets/company-icon-team.png) | Representa uma equipe na estrutura da empresa. |
 | ![Ícone de usuário](./assets/company-icon-user.png) | Representa um usuário na estrutura da empresa. |
 | ![Ícone Mover](./assets/company-icon-move.png) | Move uma equipe para outra posição na estrutura da empresa. |
-| ![Ícone Expansão](./assets/company-icon-expand.png) | Expande uma equipe na estrutura da empresa. |
+| ![Ícone de expansão](./assets/company-icon-expand.png) | Expande uma equipe na estrutura da empresa. |
 | ![Ícone Recolher](./assets/company-icon-collapse.png) | Recolhe uma equipe na estrutura da empresa. |
 
 {style="table-layout:auto"}
@@ -54,7 +54,7 @@ Depois de criar a conta, o administrador da empresa deve definir a estrutura da 
 
 A estrutura de uma conta de empresa deve refletir a organização de compras, seja ela simples e simples ou uma organização complexa com equipes diferentes para cada subdivisão e divisão da empresa.
 
-Se o armazenamento for [configurado](enable-basic-features.md) para permitir que as empresas gerenciem suas próprias contas, a configuração da estrutura da empresa é uma das primeiras tarefas que um administrador de empresa conclui após a aprovação da conta. Na conta da empresa, a estrutura da empresa é representada como uma árvore com o administrador da empresa na parte superior.
+Se o armazenamento estiver [configurado](enable-basic-features.md) para permitir que as empresas gerenciem suas próprias contas, a configuração da estrutura da empresa é uma das primeiras tarefas que um administrador de empresa conclua após a aprovação da conta. Na conta da empresa, a estrutura da empresa é representada como uma árvore com o administrador da empresa na parte superior.
 
 ![Estrutura da empresa com equipes](./assets/company-structure-teams-diagram.svg){width="450"}
 
@@ -62,15 +62,15 @@ Se o armazenamento for [configurado](enable-basic-features.md) para permitir que
 
 1. No painel esquerdo, escolhe **[!UICONTROL Company Structure]**.
 
-1. Em **[!UICONTROL Business Structure]**, cliques **[!UICONTROL Add Team]** e faz o seguinte:
+1. Em **[!UICONTROL Business Structure]**, clica em **[!UICONTROL Add Team]** e faz o seguinte:
 
-   - Insere o **[!UICONTROL Team Title]** e **[!UICONTROL Description]**.
+   - Insira o **[!UICONTROL Team Title]** e **[!UICONTROL Description]**.
 
      O Título da equipe pode ser qualquer item que represente a estrutura da empresa, como uma equipe, escritório ou divisão na empresa
 
      ![Adicionar equipe](./assets/company-structure-add-team.png){width="700" zoomable="yes"}
 
-   - Ao concluir, clique em **[!UICONTROL Save]**.
+   - Quando terminar, clica em **[!UICONTROL Save]**.
 
    - Cria quantas equipes forem necessárias.
 
@@ -78,11 +78,11 @@ Se o armazenamento for [configurado](enable-basic-features.md) para permitir que
 
 1. Para criar uma hierarquia de equipes, faz o seguinte:
 
-   - Selecione a equipe principal e clique em **[!UICONTROL Add Team]**.
+   - Seleciona a equipe principal e clique em **[!UICONTROL Add Team]**.
 
-     ![Estrutura da Empresa com Divisões](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
+     ![Estrutura de Empresa com Divisões](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
 
-   - Insere o **[!UICONTROL Team Title]** e **[!UICONTROL Description]**.
+   - Insira o **[!UICONTROL Team Title]** e **[!UICONTROL Description]**.
 
    - Cliques **[!UICONTROL Save]**.
 
@@ -116,11 +116,11 @@ Como o administrador da empresa trabalha com a estrutura da empresa, ele pode re
 
 - Cliques **[!UICONTROL Collapse All]** ou **[!UICONTROL Expand All]**.
 
-- Cliques ![Ícone Expandido](../assets/icon-display-collapse.png) para recolher uma equipe ou ![Ícone Recolhido](../assets/icon-display-expand.png) para expandir um grupo.
+- Clica em ![Ícone Expandido](../assets/icon-display-collapse.png) para recolher uma equipe ou em ![Ícone Recolhido](../assets/icon-display-expand.png) para expandir uma equipe.
 
 ## Atribuir usuários às equipes
 
-Quando equipes e usuários são adicionados pela primeira vez à [estrutura da empresa](account-company-structure.md), elas são colocadas no mesmo nível sob o administrador da empresa.
+Quando equipes e usuários são adicionados pela primeira vez à [estrutura da empresa](account-company-structure.md), eles são colocados no mesmo nível sob o administrador da empresa.
 
 ![Estrutura da empresa com usuários e equipes](./assets/company-users-added.png){width="700" zoomable="yes"}
 
@@ -135,6 +135,6 @@ Quando equipes e usuários são adicionados pela primeira vez à [estrutura da e
 
 1. No painel esquerdo, o administrador da empresa escolhe **[!UICONTROL Company Structure]**.
 
-1. Para atribuir um usuário a uma equipe existente, ele arrasta (![Ícone Mover](../assets/icon-move.png)) o usuário na equipe apropriada.
+1. Para atribuir um usuário a uma equipe existente, ele arrasta (![ícone Mover](../assets/icon-move.png)) o usuário para a equipe apropriada.
 
-   ![Equipe de Atribuições](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}
+   ![Atribuições da equipe](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}

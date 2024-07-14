@@ -6,30 +6,30 @@ feature: B2B, Companies, Catalog Management
 role: Admin
 source-git-commit: 95ce1f897b281402b440a6f71960dab4d6d4bb72
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
 
 # Atribuir empresas a um catálogo compartilhado
 
-Há duas maneiras de atribuir uma empresa a um catálogo compartilhado. Você pode fazer a atribuição a partir do _[!UICONTROL Shared Catalogs]_ou edite a empresa e atribua o catálogo compartilhado como você escolheria um grupo de clientes.
+Há duas maneiras de atribuir uma empresa a um catálogo compartilhado. Você pode fazer a atribuição a partir da grade _[!UICONTROL Shared Catalogs]_ou editar a empresa e atribuir o catálogo compartilhado como escolheria um grupo de clientes.
 
 ![Atribuir Empresas](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
 
 ## Método 1: atribuir empresas do catálogo compartilhado
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. Para o catálogo compartilhado na grade ao qual deseja atribuir uma empresa, vá para a **[!UICONTROL Action]** e selecione **[!UICONTROL Assign Companies]**.
+1. Para o catálogo compartilhado na grade ao qual você deseja atribuir uma empresa, vá para a coluna **[!UICONTROL Action]** e selecione **[!UICONTROL Assign Companies]**.
 
    A lista de empresas disponíveis é exibida na grade.
 
-1. Selecione a empresa que deseja atribuir ao catálogo compartilhado, clique no link **[!UICONTROL Actions]** e escolha **[!UICONTROL Assign Catalog]**.
+1. Selecione a empresa que deseja atribuir ao catálogo compartilhado, clique no menu **[!UICONTROL Actions]** e escolha **[!UICONTROL Assign Catalog]**.
 
    ![Empresas Disponíveis](./assets/shared-catalog-assign-companies-grid-view.png){width="700" zoomable="yes"}
 
-   Como alternativa, você pode clicar em **[!UICONTROL Assign]** no **[!UICONTROL Action]** para qualquer empresa não atribuída ao catálogo.
+   Como alternativa, você pode clicar em **[!UICONTROL Assign]** na coluna **[!UICONTROL Action]** para qualquer empresa que não esteja atribuída ao catálogo.
 
 1. Repita o processo para cada empresa que deseja atribuir ao catálogo compartilhado.
 
@@ -39,18 +39,18 @@ Há duas maneiras de atribuir uma empresa a um catálogo compartilhado. Você po
 
 ## Método 2: editar a empresa
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Para a empresa exibida na grade, vá para a **[!UICONTROL Action]** e clique em **[!UICONTROL Edit]**.
+1. Para a empresa exibida na grade, vá para a coluna **[!UICONTROL Action]** e clique em **[!UICONTROL Edit]**.
 
    ![Editar Empresa](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
 
-1. Na página da empresa, role para baixo e expanda ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Advanced Settings]** seção.
+1. Na página da empresa, role para baixo e expanda ![Seletor de expansão](../assets/icon-display-expand.png) na seção **[!UICONTROL Advanced Settings]**.
 
-1. Definir **[!UICONTROL Customer Group]** ao catálogo compartilhado apropriado.
+1. Defina **[!UICONTROL Customer Group]** para o catálogo compartilhado apropriado.
 
    Alterar a atribuição do catálogo compartilhado também altera a atribuição do grupo de clientes para todos os membros da empresa.
 
-   ![Grupos de clientes/Catálogos compartilhados](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
+   ![Grupos de Clientes/Catálogos Compartilhados](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
-1. Quando for solicitada a confirmação, clique em **[!UICONTROL Proceed]** e depois **[!UICONTROL Save]**.
+1. Quando for solicitada a confirmação, clique em **[!UICONTROL Proceed]** e depois em **[!UICONTROL Save]**.

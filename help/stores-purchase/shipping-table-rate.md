@@ -5,14 +5,14 @@ exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1002'
 ht-degree: 3%
 
 ---
 
 # Taxa de tabela de remessa
 
-A variável _taxa de tabela_ o método de entrega faz referência a uma tabela de dados para calcular taxas de entrega com base em uma combinação de condições, incluindo:
+O método de envio _table rate_ faz referência a uma tabela de dados para calcular taxas de envio com base em uma combinação de condições, incluindo:
 
 - Peso v. Destino
 - Preço v. Destino
@@ -32,33 +32,33 @@ Os dados usados para calcular taxas de tabelas são preparados em uma planilha e
 
 A primeira etapa é concluir as configurações padrão para taxas de tabela. Você pode concluir esta etapa sem alterar o escopo da configuração.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No _[!UICONTROL Sales]_do painel esquerdo, escolha **[!UICONTROL Delivery Methods]**.
+1. Na seção _[!UICONTROL Sales]_do painel esquerdo, escolha **[!UICONTROL Delivery Methods]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Table Rates]** seção.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Table Rates]**.
 
    >[!NOTE]
    >
-   >Se necessário, primeiro limpe o **[!UICONTROL Use system value]** para alterar as configurações a seguir, conforme descrito.
+   >Se necessário, primeiro desmarque a caixa de seleção **[!UICONTROL Use system value]** para alterar as configurações a seguir, conforme descrito.
 
    ![Taxas de tabela](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
 
-1. Definir **[!UICONTROL Enabled]** para `Yes`.
+1. Defina **[!UICONTROL Enabled]** como `Yes`.
 
-1. Insira o **[!UICONTROL Title]** que você deseja que apareça na seção taxas de tabela durante a finalização da compra.
+1. Insira o **[!UICONTROL Title]** que você deseja que apareça na seção de taxas de tabela durante o check-out.
 
    O título padrão é `Best Way`.
 
 1. Insira o **[!UICONTROL Method Name]** que você deseja que apareça como um rótulo ao lado da taxa calculada no carrinho de compras.
 
-1. Definir **[!UICONTROL Condition]** a um dos seguintes métodos de cálculo:
+1. Defina **[!UICONTROL Condition]** com um dos seguintes métodos de cálculo:
 
    - `Weight v. Destination`
    - `Price v. Destination`
    - `Number of Items v. Destination`
 
-1. Para pedidos que incluem produtos virtuais, defina **[!UICONTROL Include Virtual Products in Price Calculation]** para `Yes` se quiser incluir os produtos virtuais no cálculo.
+1. Para pedidos que incluem produtos virtuais, defina **[!UICONTROL Include Virtual Products in Price Calculation]** como `Yes` se desejar incluir os produtos virtuais no cálculo.
 
    >[!NOTE]
    >
@@ -68,27 +68,27 @@ A primeira etapa é concluir as configurações padrão para taxas de tabela. Vo
 
    A taxa de manuseio é opcional e aparece como um custo extra que é adicionado ao custo de envio. Se quiser incluir uma taxa de manuseio, faça o seguinte:
 
-   - Definir **[!UICONTROL Calculate Handling Fee]**:
+   - Conjunto **[!UICONTROL Calculate Handling Fee]**:
 
       - `Fixed`
       - `Percent`
 
-   - Insira o **[!UICONTROL Handling Fee]** taxa de acordo com o método utilizado para calcular a taxa.
+   - Insira a taxa de **[!UICONTROL Handling Fee]** de acordo com o método usado para calcular a taxa.
 
-     Por exemplo, se o encargo for baseado em uma taxa fixa, insira o valor como um valor decimal, como `4.90`. No entanto, se a taxa de manuseio se basear em uma porcentagem do pedido, insira o valor como uma porcentagem. Por exemplo, se você estiver cobrando seis por cento da ordem, insira o valor como `.06`.
+     Por exemplo, se o encargo for baseado em uma taxa fixa, insira o valor como um valor decimal, como `4.90`. No entanto, se a taxa de manuseio se basear em uma porcentagem do pedido, insira o valor como uma porcentagem. Por exemplo, se você estiver cobrando seis por cento do pedido, insira o valor como `.06`.
 
 1. Se necessário, altere o **[!UICONTROL Displayed Error Message]**.
 
    Essa caixa de texto é predefinida com uma mensagem padrão, mas você pode inserir uma mensagem diferente que deseja exibir se esse método de delivery se tornar indisponível.
 
-1. Definir **[!UICONTROL Ship to Applicable Countries]**:
+1. Conjunto **[!UICONTROL Ship to Applicable Countries]**:
 
-   - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificado na configuração da loja pode usar esse método de entrega.
-   - `Specific Countries` - Ao escolher essa opção, a variável _[!UICONTROL Ship to Specific Countries]_é exibida. Selecione cada país na lista onde esse método de entrega pode ser usado.
+   - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar este método de entrega.
+   - `Specific Countries` - Quando você escolhe esta opção, a lista _[!UICONTROL Ship to Specific Countries]_é exibida. Selecione cada país na lista onde esse método de entrega pode ser usado.
 
-1. Definir **[!UICONTROL Show Method if Not Applicable]** para `Yes` se você deseja mostrar as Taxas de tabela o tempo todo
+1. Defina **[!UICONTROL Show Method if Not Applicable]** como `Yes` se desejar mostrar as Taxas da tabela o tempo todo
 
-1. Para **[!UICONTROL Sort Order]**, informe um número para determinar a sequência em que a Entrega de Taxa de Tabela aparece quando listada com outros métodos de distribuição durante a finalização da compra.
+1. Para **[!UICONTROL Sort Order]**, insira um número para determinar a sequência em que a Taxa de Tabela de Remessa aparece quando listada com outros métodos de entrega durante o check-out.
 
    `0` = primeiro, `1` = segundo, `2` = terceiro e assim por diante.
 
@@ -96,11 +96,11 @@ A primeira etapa é concluir as configurações padrão para taxas de tabela. Vo
 
 ## Etapa 2: Preparar os dados da taxa de tabela
 
-1. No canto superior esquerdo, defina **[!UICONTROL Store View]** para `Main Website`, ou para qualquer outro site onde a configuração se aplique.
+1. No canto superior esquerdo, defina **[!UICONTROL Store View]** como `Main Website` ou para qualquer outro site onde a configuração se aplique.
 
    >[!NOTE]
    >
-   >Se necessário, primeiro desmarque a opção **[!UICONTROL Use system value]** para alterar as configurações a seguir, conforme descrito.
+   >Se necessário, primeiro desmarque a caixa de seleção **[!UICONTROL Use system value]** para alterar as configurações a seguir, conforme descrito.
 
 1. Altere o **[!UICONTROL Condition]** conforme necessário.
 
@@ -108,30 +108,30 @@ A primeira etapa é concluir as configurações padrão para taxas de tabela. Vo
 
    ![Exportar CSV](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
 
-1. Salve o `tablerates.csv` para o seu sistema.
+1. Salve o arquivo `tablerates.csv` em seu sistema.
 
 1. Abra o arquivo em um aplicativo de planilha.
 
 1. Preencha a tabela com os valores apropriados para a condição de cálculo de entrega.
 
    - Use um asterisco (*) como um curinga que representa todos os valores possíveis em qualquer categoria.
-   - A variável _[!UICONTROL Country]_a coluna deve conter um [código válido de três caracteres][1] para cada linha.
-   - Classificar os dados por _[!UICONTROL Region/State]_portanto, os locais específicos estão no topo da lista e os locais curingas na parte inferior. O uso desse método processa as regras com os valores absolutos primeiro e depois os valores curingas.
-   - Valores no _[!UICONTROL Weight (and above)]_pode ter no máximo quatro casas decimais (como `2.5075`). Usar mais casas decimais nos dados faz com que a importação falhe.
+   - A coluna _[!UICONTROL Country]_deve conter um [código de três caracteres válido][1] para cada linha.
+   - Classifique os dados por _[!UICONTROL Region/State]_de modo que os locais específicos estejam no topo da lista e os locais curinga na parte inferior. O uso desse método processa as regras com os valores absolutos primeiro e depois os valores curingas.
+   - Os valores na coluna _[!UICONTROL Weight (and above)]_podem ter no máximo quatro casas decimais (como `2.5075`). Usar mais casas decimais nos dados faz com que a importação falhe.
 
    ![Peso vs. Destino (Austrália)](./assets/table-rates-weight-destination-csv.png){width="500"}
 
-1. Salve o `tablerates.csv` arquivo.
+1. Salve o arquivo `tablerates.csv`.
 
 ## Etapa 3: Importar os dados da taxa de tabela
 
-1. Retorne para a **[!UICONTROL Table Rates]** seção da configuração da loja.
+1. Retorne à seção **[!UICONTROL Table Rates]** da configuração de armazenamento.
 
 1. No canto superior esquerdo, defina **[!UICONTROL Store View]** para o site onde esse método é usado.
 
-1. Para **[!UICONTROL Import]**, clique em **[!UICONTROL Choose File]** e selecione o `tablerates.csv` arquivo para importar as taxas.
+1. Para **[!UICONTROL Import]**, clique em **[!UICONTROL Choose File]** e selecione seu arquivo `tablerates.csv` concluído para importar as taxas.
 
-   ![Importar taxas da tabela](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
+   ![Importar Taxas de Tabela](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Save Config]**.
 
@@ -163,20 +163,20 @@ Este exemplo usa a condição Peso v. Destino para criar diferentes taxas de ent
 
 | PAÍS | REGIÃO / ESTADO | CEP | PESO (e acima) | PREÇO DE ENVIO |
 |--- |--- |--- |--- |--- |
-| AUS | NT | * | 9 | 39.95 |
-| AUS | NT | * | 0 | 19.95 |
-| AUS | VIC | * | 9 | 19.95 |
-| AUS | VIC | * | 0 | 5.95 |
-| AUS | WA | * | 9 | 39.95 |
-| AUS | WA | * | 0 | 19.95 |
-| AUS | * | * | 9 | 29.95 |
-| AUS | * | * | 0 | 9.95 |
+| AUS | NT | * | 9 | 39,95 |
+| AUS | NT | * | 0 | 19,95 |
+| AUS | VIC | * | 9 | 19,95 |
+| AUS | VIC | * | 0 | 5,95 |
+| AUS | WA | * | 9 | 39,95 |
+| AUS | WA | * | 0 | 19,95 |
+| AUS | * | * | 9 | 29,95 |
+| AUS | * | * | 0 | 9,95 |
 
 {style="table-layout:auto"}
 
 ### Exemplo 3: Restringir frete grátis para o território continental dos Estados Unidos
 
-1. Criar um `tablerates.csv` arquivo que inclui todos os destinos de estado para os quais você está disposto a fornecer frete grátis.
+1. Crie um arquivo `tablerates.csv` que inclua todos os destinos de estado para os quais você deseja fornecer frete grátis.
 
 1. Conclua a configuração da taxa de tabela com as seguintes configurações:
 
@@ -190,9 +190,9 @@ Este exemplo usa a condição Peso v. Destino para criar diferentes taxas de ent
 
    {style="table-layout:auto"}
 
-1. No canto superior esquerdo, defina **[!UICONTROL Store View]** para `Main Website`, ou para qualquer outro site onde a configuração se aplique.
+1. No canto superior esquerdo, defina **[!UICONTROL Store View]** como `Main Website` ou para qualquer outro site onde a configuração se aplique.
 
-1. Para **[!UICONTROL Import]**, clique em **[!UICONTROL Choose File]** e selecione o `tablerates.csv` arquivo para importar as taxas.
+1. Para **[!UICONTROL Import]**, clique em **[!UICONTROL Choose File]** e selecione seu arquivo `tablerates.csv` concluído para importar as taxas.
 
 
 [1]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3

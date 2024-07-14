@@ -18,24 +18,24 @@ Os relatórios de vendas privadas fornecem informações sobre [eventos e vendas
 
 ## [!UICONTROL Invitations Report]
 
-A variável [!UICONTROL Invitations Report] mostra o número de [convites](../merchandising-promotions/invitations.md) enviado durante o período de tempo especificado, e o número aceito e descartado.
+O [!UICONTROL Invitations Report] mostra o número de [convites](../merchandising-promotions/invitations.md) enviados durante o período de tempo especificado, além do número de aceitos e descartados.
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
+Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
 
 ![Relatório de convites](./assets/private-sales-invitations.png){width="600"}
 
 ## [!UICONTROL Invited Customers Report]
 
-A variável [!UICONTROL Invited Customers Report] mostra todos os clientes que receberam convites para uma venda ou evento particular. Inclui o nome e o endereço de email, o grupo de clientes, o número de convites enviados e o número de aceitos.
+O [!UICONTROL Invited Customers Report] mostra todos os clientes que receberam convites para uma venda ou evento particular. Inclui o nome e o endereço de email, o grupo de clientes, o número de convites enviados e o número de aceitos.
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**.
+Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**.
 
 ![Relatório de Clientes Convidados](./assets/private-sales-invited-customers.png){width="600"}
 
 ## [!UICONTROL Conversion Rate Report]
 
-A variável [!UICONTROL Conversion Rate Report] mostra o número de convites enviados e aceitos, o número de convites que levaram a uma compra e a taxa de conversão como uma porcentagem.
+O [!UICONTROL Conversion Rate Report] mostra o número de convites enviados e aceitos, o número de convites que levaram a uma compra e a taxa de conversão como uma porcentagem.
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**.
+Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**.
 
-![Relatório de taxa de conversão](./assets/private-sales-conversions.png){width="600"}
+![Relatório de Taxa de Conversão](./assets/private-sales-conversions.png){width="600"}

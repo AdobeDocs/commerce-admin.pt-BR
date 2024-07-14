@@ -27,9 +27,9 @@ As configurações a seguir devem ser feitas no nível do produto e na configura
 
 ## Etapa 1: verifique o país de fabricação
 
-O país de fabricação é necessário para todos os produtos que são enviados internacionalmente pelo USPS e pela FedEx. Se você tiver muitos produtos que devem ser atualizados, é possível [importar](../systems/data-import.md) as atualizações ou use a grade Inventário para atualizar vários registros.
+O país de fabricação é necessário para todos os produtos que são enviados internacionalmente pelo USPS e pela FedEx. Se você tiver muitos produtos que precisam ser atualizados, é possível [importar](../systems/data-import.md) as atualizações ou usar a grade do Inventário para atualizar vários registros.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Atualize o registro de etiqueta de remessa usando um dos métodos a seguir.
 
@@ -37,7 +37,7 @@ O país de fabricação é necessário para todos os produtos que são enviados 
 
 1. Na grade, localize o produto a ser atualizado e abra-o no modo de edição.
 
-1. Atualize o **País de fabricação** conforme necessário.
+1. Atualize o **País de Fabricação** conforme necessário.
 
    ![País de fabricação](./assets/product-country-of-manufacture.png){width="700" zoomable="yes"}
 
@@ -49,9 +49,9 @@ O país de fabricação é necessário para todos os produtos que são enviados 
 
    Por exemplo, todos os produtos que são fabricados na China.
 
-1. Defina o **[!UICONTROL Actions]** controle para `Update Attributes` e clique em **[!UICONTROL Submit]**.
+1. Defina o controle **[!UICONTROL Actions]** como `Update Attributes` e clique em **[!UICONTROL Submit]**.
 
-1. No _Atualizar atributos_ formulário, localize o **País de fabricação** e selecione o **Alterar** caixa de seleção
+1. No formulário _Atualizar atributos_, localize o campo **País de Fabricação** e marque a caixa de seleção **Alterar**.
 
 1. Escolha o país.
 
@@ -59,26 +59,26 @@ O país de fabricação é necessário para todos os produtos que são enviados 
 
 ## Etapa 2 Verificar as informações da loja
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Shipping Settings]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Origin]** e verifique se os seguintes campos estão completos:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Origin]** e verifique se os seguintes campos estão completos:
 
    - **[!UICONTROL Street Address]** - O endereço do local de onde as remessas são enviadas. Por exemplo, o local da sua empresa ou depósito. Este campo é obrigatório para etiquetas de remessa.
-   - **[!UICONTROL Street Address Line 2]** - Quaisquer informações adicionais sobre o endereço, como andar ou entrada. É recomendado usar este campo.
+   - **[!UICONTROL Street Address Line 2]** - Quaisquer informações adicionais de endereço, como andar ou entrada. É recomendado usar este campo.
 
    ![Origem](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
-1. No _Vendas_ no painel esquerdo, escolha **[!UICONTROL Delivery Methods]**.
+1. Na seção _Vendas_ do painel esquerdo, escolha **[!UICONTROL Delivery Methods]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL USPS]** e verifique se os seguintes campos estão completos:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL USPS]** e verifique se os seguintes campos estão completos:
 
-   - **[!UICONTROL Secure Gateway URL]** - O sistema insere automaticamente o URL do gateway.
+   - **[!UICONTROL Secure Gateway URL]** - O sistema insere automaticamente a URL do gateway.
    - **[!UICONTROL Password]** - A senha é fornecida pelo USPS e fornece acesso ao sistema por meio dos Serviços da Web.
-   - **Comprimento, Largura, Altura, Girth** - As dimensões padrão do pacote. Para que esses campos apareçam, defina **[!UICONTROL Size]** para `Large`.
+   - **Comprimento, Largura, Altura, Girth** - As dimensões padrão do pacote. Para que esses campos apareçam, defina **[!UICONTROL Size]** como `Large`.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **FedEx** e verifique se os seguintes campos estão completos:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **FedEx** e verifique se os seguintes campos estão completos:
 
    - Número do Medidor
    - Chave
@@ -86,20 +86,20 @@ O país de fabricação é necessário para todos os produtos que são enviados 
 
    Essas informações são fornecidas pela operadora e são necessárias para obter acesso ao sistema por meio dos Serviços da Web.
 
-1. No painel esquerdo, expanda **[!UICONTROL General]** e escolha **[!UICONTROL General]** por baixo.
+1. No painel esquerdo, expanda **[!UICONTROL General]** e escolha **[!UICONTROL General]** abaixo de.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Store Information]** e verifique se os seguintes campos estão completos:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Store Information]** e verifique se os seguintes campos estão completos:
 
-   - **[!UICONTROL Store Name]** - O nome da loja ou exibição de loja.
+   - **[!UICONTROL Store Name]** - O nome do armazenamento ou exibição de armazenamento.
    - **[!UICONTROL Store Contact Telephone]** - O número de telefone do contato principal da loja ou exibição de loja.
-   - **[!UICONTROL Country]** - O país onde sua loja está baseada.
-   - **[!UICONTROL VAT Number]** - Se aplicável, o número de Imposto sobre o Valor Agregado da loja. (Não obrigatório para lojas com sede nos EUA)
-   - **[!UICONTROL Store Contact Address]** - O endereço do contato principal da exibição de loja ou loja.
+   - **[!UICONTROL Country]** - O país onde a loja está baseada.
+   - **[!UICONTROL VAT Number]** - Se aplicável, o número do Imposto sobre Valor Agregado da sua loja. (Não obrigatório para lojas com sede nos EUA)
+   - **[!UICONTROL Store Contact Address]** - O endereço do contato principal do armazenamento ou exibição de armazenamento.
 
-1. Se você tiver vários armazenamentos e as informações de contato forem diferentes do padrão, defina **[!UICONTROL Store View]** para cada e verifique se as informações estão completas.
+1. Se você tiver vários armazenamentos e as informações de contato forem diferentes do padrão, defina **[!UICONTROL Store View]** para cada um e verifique se as informações estão completas.
 
    Se as informações estiverem ausentes, um erro será exibido quando você tentar imprimir as etiquetas.
 
-   ![Armazenar informações](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
+   ![Armazenar Informações](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
 1. Clique em **[!UICONTROL Save Config]**.

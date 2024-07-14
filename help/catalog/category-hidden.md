@@ -16,14 +16,14 @@ Há muitas maneiras de usar categorias ocultas. Talvez você queira criar nívei
 
 ## Criar categorias ocultas
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Na árvore de categorias, selecione a categoria que deseja ocultar e faça o seguinte:
 
-   - Definir **[!UICONTROL Is Active]** para `Yes`.
-   - Definir **[!UICONTROL Include in Menu]** para `No`.
+   - Defina **[!UICONTROL Is Active]** como `Yes`.
+   - Defina **[!UICONTROL Include in Menu]** como `No`.
 
-1. No **[!UICONTROL Display Settings]** seção, definir **[!UICONTROL Anchor]** para `No`.
+1. Na seção **[!UICONTROL Display Settings]**, defina **[!UICONTROL Anchor]** como `No`.
 
    ![Categoria oculta](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
@@ -35,8 +35,8 @@ Há muitas maneiras de usar categorias ocultas. Talvez você queira criar nívei
    >
    >Embora a categoria esteja oculta, você pode criar subcategorias abaixo dela e ativá-las.
 
-   - Definir **[!UICONTROL Enable Category]** para `Yes`.
-   - No **[!UICONTROL Display Settings]** seção, definir **[!UICONTROL Anchor]** para `Yes`.
+   - Defina **[!UICONTROL Enable Category]** como `Yes`.
+   - Na seção **[!UICONTROL Display Settings]**, defina **[!UICONTROL Anchor]** como `Yes`.
 
    Como categorias ativas, agora é possível vinculá-las a partir de outros locais na loja, mas elas não aparecem no menu.
 

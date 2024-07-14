@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Transações
 
-A variável _Transações_ A página lista todas as atividades de pagamento que ocorreram entre sua loja e um sistema de pagamento e fornece acesso a informações mais detalhadas.
+A página _Transações_ lista todas as atividades de pagamento que ocorreram entre sua loja e um sistema de pagamento e fornece acesso a informações mais detalhadas.
 
 ## Exibir transações
 
-No _Admin_ barra lateral, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
+Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
 
 ![Grade de transações](./assets/transactions.png){width="600" zoomable="yes"}
 
@@ -41,7 +41,7 @@ Na página de detalhes da transação, você pode ver a grade de detalhes da tra
 
 ### Dados da transação
 
-Esta seção inclui informações sobre a transação e fornece um link para a página do pedido na **ID do pedido** coluna.
+Esta seção inclui informações sobre a transação e fornece um link para a página de pedido na coluna **ID do Pedido**.
 
 | Coluna | Descrição |
 |--- |--- |
@@ -55,7 +55,7 @@ Esta seção inclui informações sobre a transação e fornece um link para a p
 
 ### Transações secundárias
 
-As transações secundárias são exibidas na grade após a criação de faturas para [pedidos](orders.md). Esse formato permite rastrear o histórico de transações seguindo uma hierarquia de transações.
+As transações filho são exibidas na grade após a criação de faturas para [pedidos](orders.md). Esse formato permite rastrear o histórico de transações seguindo uma hierarquia de transações.
 
 ### [!UICONTROL Transaction Details]
 

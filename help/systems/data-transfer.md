@@ -19,16 +19,16 @@ Por exemplo, você pode adicionar novos produtos ao inventário, atualizar dados
 
 >[!NOTE]
 >
->A Adobe Commerce também oferece suporte à exportação de dados SaaS para transferir dados do produto do servidor Commerce para os serviços SaaS. A exportação de dados SaaS é integrada aos serviços SaaS da Commerce, incluindo [Recommendations do produto](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), e [Serviço de catálogo](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Para obter detalhes, consulte [Guia de exportação de dados SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>A Adobe Commerce também oferece suporte à exportação de dados SaaS para transferir dados do produto do servidor Commerce para os serviços SaaS. A exportação de dados SaaS é integrada aos Serviços SaaS da Commerce, incluindo o [Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), o [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) e o [Catalog Service](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Para obter detalhes, consulte o [Guia de Exportação de Dados SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ## Validação de dados
 
 Todos os dados devem passar na validação para garantir a qualidade, a precisão e a integridade dos valores antes de importá-los para o armazenamento. A validação começa ao clicar em **[!UICONTROL Check Data]**. Durante o processo, todas as entidades no arquivo de importação são verificadas em relação ao seguinte:
 
-- **Atributos** - Os nomes dos cabeçalhos de coluna são verificados para garantir que correspondam aos atributos correspondentes no banco de dados do sistema. O valor de cada atributo é verificado para garantir que ele atenda aos requisitos do tipo de dados (decimal, inteiro, varchar, texto e datetime).
-- **Dados complexos** - Valores que se originam de um conjunto definido, como um tipo suspenso ou de entrada de seleção múltipla, são verificados para garantir que os valores existam no conjunto definido.
-- **Dados do serviço** - Os valores nas colunas de dados de serviço são verificados para garantir que as propriedades ou valores de dados complexos sejam consistentes com o que já está definido no banco de dados do sistema.
-- **Valores obrigatórios** - Para novas entidades, a presença dos valores de atributo necessários no arquivo é verificada. Para entidades existentes, não há necessidade de verificar novamente a existência de valores de atributo obrigatórios.
+- **Atributos** - Os nomes de cabeçalho de coluna são verificados para garantir que eles correspondam aos atributos correspondentes no banco de dados do sistema. O valor de cada atributo é verificado para garantir que ele atenda aos requisitos do tipo de dados (decimal, inteiro, varchar, texto e datetime).
+- **Dados Complexos** - Valores que se originam de um conjunto definido, como um tipo de entrada suspenso ou de seleção múltipla, são verificados para garantir que os valores existam no conjunto definido.
+- **Dados de Serviço** - Os valores nas colunas de dados de serviço são verificados para garantir que as propriedades ou valores de dados complexos sejam consistentes com o que já está definido no banco de dados do sistema.
+- **Valores Obrigatórios** - Para novas entidades, a presença de valores de atributos obrigatórios no arquivo é verificada. Para entidades existentes, não há necessidade de verificar novamente a existência de valores de atributo obrigatórios.
 - **Separadores** - Embora os separadores não estejam visíveis quando visualizados em uma planilha, os valores de dados em um arquivo CSV são separados por vírgula e os valores de texto são colocados entre aspas duplas. Durante o processo de validação, a formatação dos separadores e de cada conjunto de aspas que delimita cadeias de caracteres é verificada.
 
 Os resultados da validação são exibidos na seção Resultados da Validação e incluem as seguintes informações:
@@ -37,7 +37,7 @@ Os resultados da validação são exibidos na seção Resultados da Validação 
 - O número de linhas inválidas
 - O número de erros encontrados
 
-Se os dados forem válidos, uma _Importação bem-sucedida_ é exibida.
+Se os dados forem válidos, será exibida a mensagem _Importação bem-sucedida_.
 
 ![Mensagem do sistema - o arquivo é válido](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 

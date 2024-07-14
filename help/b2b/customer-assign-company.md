@@ -19,9 +19,9 @@ Quando ativado na configuração do, o administrador da empresa adiciona usuári
 >
 >Se um indivíduo já tiver uma conta pessoal em sua loja e depois for trabalhar para uma empresa, não atribua a conta individual da pessoa à empresa. Em vez disso, crie uma conta de usuário da empresa para a pessoa com um endereço de email da empresa.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Localize o cliente na grade e clique em **[!UICONTROL Edit]** no _[!UICONTROL Action]_coluna.
+1. Encontre o cliente na grade e clique em **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
 1. No painel esquerdo, escolha **[!UICONTROL Account Information]**.
 
@@ -33,13 +33,13 @@ Quando ativado na configuração do, o administrador da empresa adiciona usuári
 
 1. Na lista, selecione a empresa à qual deseja atribuir o cliente e clique em **[!UICONTROL Done]**.
 
-1. Se o cliente tiver sido anteriormente atribuído a uma empresa diferente, clique em **[!UICONTROL Confirm]**.
+1. Se o cliente foi anteriormente atribuído a uma empresa diferente, clique em **[!UICONTROL Confirm]**.
 
-   O cliente é reatribuído ao grupo de clientes (ou [catálogo compartilhado](catalog-shared.md)) da empresa e adicionado à sua [estrutura da empresa](account-company-structure.md).
+   O cliente foi reatribuído ao grupo de clientes (ou ao [catálogo compartilhado](catalog-shared.md)) da empresa e adicionado à sua [estrutura da empresa](account-company-structure.md).
 
 1. Quando terminar, clique em **[!UICONTROL Save Customer]**.
 
-   As seguintes colunas são atualizadas no [Clientes](../customers/customers-all.md) grade:
+   As seguintes colunas foram atualizadas na grade [Clientes](../customers/customers-all.md):
 
-   - A variável _[!UICONTROL Group]_a coluna é alterada para o nome do grupo de clientes (ou catálogo compartilhado) atribuído à empresa.
-   - A variável _[!UICONTROL Company]_exibe o nome da empresa à qual o perfil do cliente está associado.
+   - A coluna _[!UICONTROL Group]_é alterada para o nome do grupo de clientes (ou catálogo compartilhado) atribuído à empresa.
+   - A coluna _[!UICONTROL Company]_exibe o nome da empresa à qual o perfil de cliente está associado.

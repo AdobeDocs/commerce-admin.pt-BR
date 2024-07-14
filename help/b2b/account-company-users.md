@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Gerenciar contas de usuário da empresa
 
-Os usuários da empresa são atribuídos pelo administrador da empresa e ficam visíveis no Administrador do _[!UICONTROL Customers]_grade por tipo de cliente,_[!UICONTROL Company User]_. Normalmente, esses indivíduos são compradores com diferentes níveis de permissão para acessar serviços e recursos da loja.
+Os usuários da empresa são atribuídos pelo administrador da empresa e ficam visíveis no Administrador na grade _[!UICONTROL Customers]_pelo tipo de cliente_[!UICONTROL Company User]_. Normalmente, esses indivíduos são compradores com diferentes níveis de permissão para acessar serviços e recursos da loja.
 
-Primeiro, o administrador da empresa configura o [estrutura da empresa](account-company-structure.md)e, em seguida, conclui as seguintes tarefas, conforme necessário:
+O administrador da empresa primeiro configura a [estrutura da empresa](account-company-structure.md) e depois conclui as seguintes tarefas, conforme necessário:
 
 - Criar usuários da empresa e atribuir usuários às equipes
 
@@ -33,11 +33,11 @@ Primeiro, o administrador da empresa configura o [estrutura da empresa](account-
 
    ![Usuários da empresa](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. Cliques **[!UICONTROL Add New User]** e faz o seguinte:
+1. Clica em **[!UICONTROL Add New User]** e faz o seguinte:
 
-   - Insere o **[!UICONTROL Job Title]** do novo usuário.
+   - Entra no **[!UICONTROL Job Title]** do novo usuário.
 
-   - Escolhe o apropriado **[!UICONTROL User Role]** se as funções e permissões forem definidas. Caso contrário, eles poderão retornar posteriormente para atribuir a função.
+   - Escolhe o **[!UICONTROL User Role]** apropriado se as funções e permissões estiverem definidas. Caso contrário, eles poderão retornar posteriormente para atribuir a função.
 
      ![Adicionar novo usuário](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
 
@@ -47,15 +47,15 @@ Primeiro, o administrador da empresa configura o [estrutura da empresa](account-
       - **[!UICONTROL Email]**
       - **[!UICONTROL Phone Number]**
 
-   Por padrão, a variável **[!UICONTROL Status]** da conta é `Active`.
+   Por padrão, o **[!UICONTROL Status]** da conta é `Active`.
 
-1. Ao concluir, clique em **[!UICONTROL Save]**.
+1. Quando terminar, clica em **[!UICONTROL Save]**.
 
 1. Repete o processo para criar quantos usuários da empresa forem necessários.
 
    Os novos usuários são exibidos na lista Usuários da empresa, juntamente com o Administrador da empresa.
 
-Para economizar tempo durante o primeiro pedido, o administrador da empresa pode lembrar cada usuário da empresa de adicionar o endereço de entrega e cobrança da empresa padrão aos seus [catálogo de endereços](../customers/account-dashboard-address-book.md).
+Para economizar tempo durante o primeiro pedido, o administrador da empresa pode lembrar cada usuário da empresa de adicionar o endereço padrão de entrega e cobrança da empresa ao seu [catálogo de endereços](../customers/account-dashboard-address-book.md).
 
 ## Editar usuários da empresa
 
@@ -63,11 +63,11 @@ Para economizar tempo durante o primeiro pedido, o administrador da empresa pode
 
 1. No painel esquerdo, escolhe **[!UICONTROL Company Users]**.
 
-1. Localiza o registro do usuário a ser atualizado e clica em **[!UICONTROL Edit]**.
+1. Localiza o registro de usuário a ser atualizado e clica em **[!UICONTROL Edit]**.
 
 1. Faz as alterações necessárias.
 
-1. Ao concluir, clique em **[!UICONTROL Save]**.
+1. Quando terminar, clica em **[!UICONTROL Save]**.
 
 ## Remover um usuário da empresa
 
@@ -83,14 +83,14 @@ Para economizar tempo durante o primeiro pedido, o administrador da empresa pode
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL Delete]**.
 
-No Administrador, o usuário da empresa permanece listado no [Clientes](../customers/customers-all.md) grade, mas com um `Inactive` status.
+No Administrador, o usuário da empresa permanece listado na grade [Clientes](../customers/customers-all.md), mas com o status `Inactive`.
 
 ## Descrições dos campos
 
 | Campo | Descrição |
 |--------------|---------------|
 | [!UICONTROL Job Title] | O cargo do usuário da empresa. |
-| [!UICONTROL User Role] | A variável [função](account-company-roles-permissions.md) atribuído ao usuário da empresa. Opções: `Default User` / (outras funções) |
+| [!UICONTROL User Role] | A [função](account-company-roles-permissions.md) atribuída ao usuário da empresa. Opções: `Default User` / (outras funções) |
 | [!UICONTROL First Name] | O nome do usuário da empresa. |
 | [!UICONTROL Last Name] | O sobrenome do usuário da empresa. |
 | [!UICONTROL Email] | O endereço de email do usuário da empresa. |

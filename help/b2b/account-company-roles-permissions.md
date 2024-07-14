@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # Funções e permissões da empresa
 
-As funções para usuários da empresa são configuradas com vários níveis de permissão para acessar informações e recursos de vendas. Por padrão, o administrador da empresa é um _superusuário_ com permissões totais. A variável [Acesso negado](../content-design/pages.md#access-denied) será exibida se o usuário não tiver permissão para acessar a página.
+As funções para usuários da empresa são configuradas com vários níveis de permissão para acessar informações e recursos de vendas. Por padrão, o administrador da empresa é um _superusuário_ com permissões totais. A página [Acesso Negado](../content-design/pages.md#access-denied) será exibida se o usuário não tiver permissão para acessar a página.
 
-![Página Funções e permissões com a função padrão](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
+![Página de Funções e Permissões com a função padrão](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
-O sistema tem uma função Usuário Padrão predefinida, que pode ser usada _como está_ ou modifique para atender às suas necessidades. É possível criar quantas funções forem necessárias para corresponder à estrutura da empresa e às responsabilidades organizacionais, como as seguintes:
+O sistema tem uma função de Usuário Padrão predefinida, que você pode usar _como está_ ou modificar para atender às suas necessidades. É possível criar quantas funções forem necessárias para corresponder à estrutura da empresa e às responsabilidades organizacionais, como as seguintes:
 
-- **Usuário padrão** — O usuário padrão tem acesso total a atividades relacionadas a vendas e cotações e acesso somente para visualização a informações de perfil e crédito da empresa.
+- **Usuário Padrão** — O usuário padrão tem acesso total às atividades relacionadas a vendas e cotações, bem como acesso somente para visualização a informações de perfil e crédito da empresa.
 
-- **Comprador Sênior** — Um comprador sênior pode ter acesso a todos os recursos de vendas e cotações e ter permissões somente para visualização para o Perfil da empresa, Usuário e equipes, Informações de pagamento e Crédito da empresa.
+- **Comprador Sênior** — Um comprador sênior pode ter acesso a todos os recursos de Vendas e Cotações e permissões somente para visualização do Perfil da Empresa, Usuário e Equipes, Informações de Pagamento e Crédito da Empresa.
 
-- **Comprador assistente** — Um adquirente assistente pode ter permissão para efetuar um pedido utilizando _Check-out com Cotação_ e para exibir pedidos, cotações e informações no perfil da empresa.
+- **Comprador Assistente** — Um comprador assistente pode ter permissão para fazer um pedido usando o _Check-out com Cotação_ e para exibir pedidos, cotações e informações no perfil da empresa.
 
 ## Gerenciar funções e permissões
 
@@ -39,13 +39,13 @@ O sistema tem uma função Usuário Padrão predefinida, que pode ser usada _com
 
    ![Adicionar nova função](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"}
 
-1. Insere um descritivo **[!UICONTROL Role Name]**.
+1. Entra um **[!UICONTROL Role Name]** descritivo.
 
 1. Em _[!UICONTROL Role Permissions]_, executa um dos seguintes procedimentos:
 
    - Marca a caixa de seleção de cada recurso ou atividade que os usuários com a função atribuída têm permissão para acessar.
 
-   - Seleciona o **[!UICONTROL All]** e desmarca a caixa de seleção de cada recurso ou atividade que os usuários atribuídos à função não têm permissão para acessar.
+   - Marque a caixa de seleção **[!UICONTROL All]** e desmarque a caixa de seleção de cada recurso ou atividade que os usuários atribuídos à função não têm permissão para acessar.
 
 1. Cliques **[!UICONTROL Save Role]**.
 
@@ -53,19 +53,19 @@ O sistema tem uma função Usuário Padrão predefinida, que pode ser usada _com
 
 ### Modificar uma função
 
-1. Para modificar a função, o administrador da empresa clica em **[!UICONTROL Edit]** no _[!UICONTROL Actions]_coluna.
+1. Para que a função seja modificada, o administrador da empresa clica em **[!UICONTROL Edit]** na coluna _[!UICONTROL Actions]_.
 
 1. Faz as alterações necessárias nas configurações de nome e permissão.
 
-1. Ao concluir, clique em **[!UICONTROL Save Role]**.
+1. Quando terminar, clica em **[!UICONTROL Save Role]**.
 
 ### Duplicar uma função
 
-1. Para duplicar a função, o administrador da empresa clica em **[!UICONTROL Duplicate]** no _[!UICONTROL Actions]_coluna.
+1. Para que a função seja duplicada, o administrador da empresa clica em **[!UICONTROL Duplicate]** na coluna _[!UICONTROL Actions]_.
 
 1. Faz as alterações necessárias nas configurações de nome e permissão.
 
-1. Ao concluir, clique em **[!UICONTROL Save Role]**.
+1. Quando terminar, clica em **[!UICONTROL Save Role]**.
 
 ### Excluir uma função
 
@@ -73,7 +73,7 @@ O sistema tem uma função Usuário Padrão predefinida, que pode ser usada _com
 
    Somente as funções sem usuários atribuídos podem ser excluídas.
 
-1. Cliques **[!UICONTROL Delete]** no _[!UICONTROL Actions]_coluna.
+1. Cliques em **[!UICONTROL Delete]** na coluna _[!UICONTROL Actions]_.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
@@ -136,7 +136,7 @@ Após definir as funções necessárias, o administrador da empresa atribui uma 
 
 1. Localiza o usuário na lista e clica em **[!UICONTROL Edit]**.
 
-1. Escolhe o apropriado **[!UICONTROL User Role]** para o usuário.
+1. Escolhe o **[!UICONTROL User Role]** apropriado para o usuário.
 
    ![Editar Usuário - escolha uma função de usuário](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
 

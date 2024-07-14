@@ -12,36 +12,36 @@ ht-degree: 0%
 
 # Gerenciar contas da empresa
 
-A variável _[!UICONTROL Companies]_A página lista todas as contas atuais da empresa, independentemente do status. Todas as solicitações pendentes de aprovação são exibidas na parte superior da lista. O padrão [controles do local de trabalho](../getting-started/admin-workspace.md) para filtrar a lista, altere a variável [layout de coluna](../getting-started/admin-grid-controls.md), salvar visualizações ou exportar dados.
+A página _[!UICONTROL Companies]_lista todas as contas da empresa atual, independentemente do status. Todas as solicitações pendentes de aprovação são exibidas na parte superior da lista. Os [controles de local de trabalho](../getting-started/admin-workspace.md) padrão podem ser usados para filtrar a lista, alterar o [layout da coluna](../getting-started/admin-grid-controls.md), salvar exibições ou exportar dados.
 
-A variável _[!UICONTROL Actions]_o controle acima da grade pode ser usado para aplicar uma ação a vários registros da empresa. Por exemplo, em vez de aprovar cada solicitação individual de empresa, você pode selecionar várias solicitações e ativar as contas em uma única ação. As ações disponíveis dependem do tipo de [permissões](../systems/permissions.md) para a função atribuída à sua conta de usuário Administrador.
+O controle _[!UICONTROL Actions]_acima da grade pode ser usado para aplicar uma ação a vários registros da empresa. Por exemplo, em vez de aprovar cada solicitação individual de empresa, você pode selecionar várias solicitações e ativar as contas em uma única ação. As ações disponíveis dependem das [permissões](../systems/permissions.md) para a função atribuída à sua conta de usuário administrador.
 
-Use o _[!UICONTROL Search]_função para encontrar empresas na **Empresas**grade por palavra-chave. A pesquisa indexa palavras-chave do **Nome da empresa**e **Pai**colunas. Você pode filtrar por **Tipo de Empresa**para mostrar somente empresas individuais, somente empresas principais ou somente empresas secundárias.
+Use a função _[!UICONTROL Search]_para localizar empresas na grade **Empresas**por palavra-chave. A pesquisa indexa palavras-chave das colunas **Nome da Empresa**e **Pai**. Você pode filtrar por **Tipo de Empresa**para mostrar somente empresas únicas, somente empresas principais ou somente empresas secundárias.
 
 ![Grade de Empresas](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 ## Recursos de função da empresa
 
-A variável [Recursos da função](../systems/permissions-user-roles.md#role-resources) determinam a capacidade de:
+As configurações de [Recursos de Função](../systems/permissions-user-roles.md#role-resources) determinam a capacidade de:
 
 - Adicionar uma empresa
 - Excluir uma empresa
 - Aplicar um reembolso de saldo
 - Exibir empresas
 
-Esses recursos de função devem ser definidos para o [Função do usuário](../systems/permissions-user-roles.md) que é atribuído à conta de usuário Administrador.
+Esses recursos de função devem ser definidos para a [Função de Usuário](../systems/permissions-user-roles.md) atribuída à conta de usuário Administrador.
 
 ## Aplicar uma ação
 
 As ações a seguir podem ser aplicadas a um ou a vários registros.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
 1. Na primeira coluna da grade, marque a caixa de seleção de cada registro que deseja atualizar e siga as instruções para a ação que deseja aplicar:
 
 ### Ativar contas da empresa
 
-1. No **[!UICONTROL Actions]** selecione **[!UICONTROL Set Active]**.
+1. No controle **[!UICONTROL Actions]**, selecione **[!UICONTROL Set Active]**.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
@@ -51,9 +51,9 @@ Os clientes com contas inativas não podem fazer login ou compras nas contas del
 
 Método 1: **Na grade Clientes**
 
-1. No _Admin_ barra lateral, vá para [!UICONTROL **Clientes**] > [!UICONTROL **Todos os Clientes**].
+1. Na barra lateral _Administrador_, vá para [!UICONTROL **Clientes**] > [!UICONTROL **Todos os Clientes**].
 
-1. No **[!UICONTROL Actions]** selecione uma das seguintes opções:
+1. No menu **[!UICONTROL Actions]**, selecione uma das seguintes opções:
 
    - **[!UICONTROL Active]**
    - **[!UICONTROL Inactive]**
@@ -62,15 +62,15 @@ Método 1: **Na grade Clientes**
 
 Método 2: **Na página de edição da conta**
 
-1. No _Admin_ barra lateral, vá para [!UICONTROL **Clientes**] > [!UICONTROL **Todos os Clientes**].
+1. Na barra lateral _Administrador_, vá para [!UICONTROL **Clientes**] > [!UICONTROL **Todos os Clientes**].
 
 1. Na grade, localize o registro do cliente a ser editado.
 
-1. No _Ações_ na extremidade direita, selecione [!UICONTROL **Editar**].
+1. Na coluna _Ações_ na extremidade direita, selecione [!UICONTROL **Editar**].
 
-1. Selecione o [!UICONTROL **Informações da conta**] guia.
+1. Selecione a guia [!UICONTROL **Informações da conta**].
 
-1. Definir [!UICONTROL **Cliente ativo**] para `Yes` ou `No`.
+1. Defina o [!UICONTROL **Cliente Ativo**] como `Yes` ou `No`.
 
 1. Clique em [!UICONTROL **Salvar Cliente**].
 
@@ -78,15 +78,15 @@ Método 2: **Na página de edição da conta**
 
 Os usuários associados a uma conta de empresa bloqueada podem fazer logon e acessar o catálogo, mas não podem fazer compras. Uma empresa com uma conta que não esteja em boa situação pode ser temporariamente bloqueada até que o problema seja resolvido.
 
-1. No **[!UICONTROL Actions]** selecione **[!UICONTROL Block]**.
+1. No controle **[!UICONTROL Actions]**, selecione **[!UICONTROL Block]**.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
 ### Excluir contas da empresa
 
-As contas da empresa excluídas não podem ser restauradas. O status das contas de usuário associadas à empresa é definido como `Inactive` e a ID da empresa é removida dos perfis das contas de usuário. As informações sobre a atividade da empresa e as transações são retidas no sistema.
+As contas da empresa excluídas não podem ser restauradas. O status das contas de usuário associadas à empresa está definido como `Inactive` e a ID da Empresa é removida dos perfis das contas de usuário. As informações sobre a atividade da empresa e as transações são retidas no sistema.
 
-1. No **[!UICONTROL Actions]** selecione **[!UICONTROL Delete]**.
+1. No controle **[!UICONTROL Actions]**, selecione **[!UICONTROL Delete]**.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
@@ -94,7 +94,7 @@ As contas da empresa excluídas não podem ser restauradas. O status das contas 
 
 O crédito nas contas das empresas selecionadas é convertido na taxa atual da moeda selecionada.
 
-1. No **[!UICONTROL Actions]** selecione **[!UICONTROL Convert Currency]**.
+1. No controle **[!UICONTROL Actions]**, selecione **[!UICONTROL Convert Currency]**.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
@@ -110,7 +110,7 @@ Método 1: **Edição rápida**
 
 1. Na primeira coluna, marque a caixa de seleção da conta da empresa a ser editada.
 
-1. No **[!UICONTROL Actions]** selecione **[!UICONTROL Edit]**.
+1. No controle **[!UICONTROL Actions]**, selecione **[!UICONTROL Edit]**.
 
    Cada valor que pode ser atualizado aparece em uma caixa de texto.
 
@@ -130,7 +130,7 @@ Método 2: **Edição completa**
 
 1. Na grade, localize o registro da empresa a ser editado.
 
-1. Selecionar **[!UICONTROL Edit]** do _[!UICONTROL Action]_coluna.
+1. Selecione **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
 1. Faça as alterações necessárias nas informações da empresa.
 
@@ -140,15 +140,15 @@ Para obter descrições dos campos, consulte [Criar uma conta de empresa](accoun
 
 ## Atribuir um representante de vendas
 
-O representante de vendas é um [Usuário administrador](../systems/permissions.md) que é atribuído como ponto de contato para uma conta da empresa e recebe todas as [mensagens de email](../b2b/enable-basic-features.md#configure-company-email-options) coligado com a empresa. Somente um representante de vendas pode ser atribuído por conta da empresa, mas um único representante de vendas pode gerenciar várias contas da empresa. A conta de usuário Admin padrão é atribuída como representante de vendas, a menos que um usuário Admin diferente seja atribuído.
+O representante de vendas é um [usuário administrador](../systems/permissions.md), que é atribuído como ponto de contato para uma conta da empresa e recebe todas as [mensagens de email](../b2b/enable-basic-features.md#configure-company-email-options) automatizadas relacionadas à empresa. Somente um representante de vendas pode ser atribuído por conta da empresa, mas um único representante de vendas pode gerenciar várias contas da empresa. A conta de usuário Admin padrão é atribuída como representante de vendas, a menos que um usuário Admin diferente seja atribuído.
 
 O nome e o endereço de e-mail do representante de vendas atribuído ficam visíveis para os membros da empresa na página conta e cotações da empresa.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
 1. Localize a empresa na grade e abra-a no modo de edição.
 
-1. Definir **[!UICONTROL Sales Representative]** ao usuário administrador que deseja atribuir como ponto de contato para a empresa.
+1. Defina **[!UICONTROL Sales Representative]** como o usuário Administrador que você deseja atribuir como ponto de contato para a empresa.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
@@ -160,9 +160,9 @@ O perfil da empresa pode ser mantido na vitrine pelo administrador da empresa, e
 
 ![Perfil da empresa](./assets/company-update.png){width="700" zoomable="yes"}
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Localize a empresa na grade e clique em **[!UICONTROL Edit]** no _[!UICONTROL Action]_coluna.
+1. Localize a empresa na grade e clique em **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
 1. Atualize os valores de campo em cada seção, conforme necessário, usando as descrições de campo para referência.
 
@@ -178,9 +178,9 @@ Você pode aprender sobre como gerenciar contas da empresa assistindo a este ví
 
 [!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponível somente para participantes do programa Beta"}
 
-Depois que uma empresa é criada, os usuários administradores com as permissões apropriadas podem usar o [!UICONTROL Company Hierarchy] seção para criar uma organização de empresa principal editando a empresa principal designada e atribuindo empresas relacionadas.
+Depois que uma empresa é criada, os usuários administradores com as permissões apropriadas podem usar a seção [!UICONTROL Company Hierarchy] para criar uma organização de empresa principal, editando a empresa principal designada e atribuindo empresas relacionadas.
 
-Se uma empresa tiver sido adicionada a uma hierarquia, a variável [!UICONTROL Company Hierarchy] grade exibe a empresa principal e todas as empresas atribuídas na grade.
+Se uma empresa foi adicionada a uma hierarquia, a grade [!UICONTROL Company Hierarchy] exibe a empresa principal e todas as empresas atribuídas na grade.
 
 Consulte [Gerenciar hierarquia da empresa](assign-companies.md) para obter mais informações.
 
@@ -194,7 +194,7 @@ As seções a seguir fornecem uma referência para as ações, opções e inform
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | Define o status de todos os registros de empresa selecionados como `Active`. Os administradores da empresa recebem instruções para definir suas senhas para que possam acessar suas contas e gerenciar suas empresas na loja. |
 | [!UICONTROL Block] | Restringe as contas da empresa que não estão em boa posição, preservando a conta. Os membros da empresa podem fazer logon e acessar o catálogo, mas não podem fazer pedidos em nome da empresa. |
-| [!UICONTROL Delete] | Exclui as contas da empresa selecionadas. O status das contas de usuário associadas a uma empresa excluída é definido como `Inactive` e a ID da empresa é removida dos perfis das contas de usuário. As informações sobre a atividade da empresa e as transações são retidas no sistema. |
+| [!UICONTROL Delete] | Exclui as contas da empresa selecionadas. O status das contas de usuário associadas a uma empresa excluída está definido como `Inactive` e a ID da Empresa é removida dos perfis das contas de usuário. As informações sobre a atividade da empresa e as transações são retidas no sistema. |
 | [!UICONTROL Edit] | Permite que alguns valores do registro de empresa selecionado sejam editados na grade. Por padrão, os valores Nome da empresa, Email da empresa e Número de telefone estão disponíveis para uma edição rápida. |
 | [!UICONTROL Convert Credit] | Converte o crédito em conta para as empresas selecionadas de acordo com as taxas da moeda especificada. |
 
@@ -210,14 +210,14 @@ As seções a seguir fornecem uma referência para as ações, opções e inform
 | [!UICONTROL Select] | As caixas de seleção usadas para selecionar registros de empresa que serão sujeitos a uma ação ou usar o controle de seleção no cabeçalho da coluna para marcar/desmarcar tudo. |
 | [!UICONTROL ID] | Um identificador numérico exclusivo que é atribuído quando a solicitação para criar uma empresa é enviada. |
 | [!UICONTROL Company Name] | O nome da empresa é inserido quando a conta da empresa é criada pela primeira vez e pode ser uma versão reduzida do nome legal completo. |
-| [!UICONTROL Company Type] | O tipo de [empresa](manage-companies.md). Opções: <br/>**[!UICONTROL Company]**- Por padrão, novas empresas são criadas como empresas únicas.<br/>**[!UICONTROL Parent]** - A sociedade é uma sociedade-mãe de outras sociedades. <br/>**[!UICONTROL Child]**- Esta empresa está coligada com uma empresa-mãe. |
+| [!UICONTROL Company Type] | O tipo de [empresa](manage-companies.md). Opções: <br/>**[!UICONTROL Company]**- Por padrão, novas empresas são criadas como empresas únicas.<br/>**[!UICONTROL Parent]** - A empresa é uma empresa principal de outras empresas. <br/>**[!UICONTROL Child]**- Esta empresa está relacionada a uma empresa principal. |
 | [!UICONTROL Parent] | Mostra a empresa principal desta linha de empresa específica. |
 | [!UICONTROL Company Email] | O endereço de email associado à conta da empresa. |
 | [!UICONTROL Phone Number] | O número de telefone principal da empresa. |
 | [!UICONTROL Country] | O país onde a empresa está registrada para realizar negócios. |
 | [!UICONTROL State Province] | O estado ou província onde a empresa está registrada para realizar negócios. |
 | [!UICONTROL City] | A cidade onde a empresa está registrada para realizar negócios. |
-| [!UICONTROL Group/Shared Catalog] | O nome da coluna depende se o Catálogo Compartilhado está habilitado na configuração. Opções: <br/>**[!UICONTROL Customer Group]**- Se o Catálogo Compartilhado não estiver ativado na configuração, especifica o nome do [grupo de clientes](../customers/customer-groups.md) à qual a sociedade pertence.<br/>**[!UICONTROL Shared Catalog]** - Se o Catálogo Compartilhado estiver ativado na configuração, especifica o nome do catálogo compartilhado atribuído ao cliente. |
+| [!UICONTROL Group/Shared Catalog] | O nome da coluna depende se o Catálogo Compartilhado está habilitado na configuração. Opções: <br/>**[!UICONTROL Customer Group]**- Se o Catálogo Compartilhado não estiver habilitado na configuração, especifica o nome do [grupo de clientes](../customers/customer-groups.md) ao qual a empresa pertence.<br/>**[!UICONTROL Shared Catalog]** - Se o Catálogo Compartilhado estiver habilitado na configuração, especifica o nome do catálogo compartilhado atribuído ao cliente. |
 | [!UICONTROL Outstanding Balance] | O saldo pendente na conta da empresa. a coluna ficará em branco se a empresa não tiver um histórico de crédito e seu limite de crédito for zero. |
 | [!UICONTROL Company Admin] | O nome e sobrenome do administrador da empresa. |
 | [!UICONTROL Job Title] | O cargo do administrador da empresa. |
@@ -228,7 +228,7 @@ As seções a seguir fornecem uma referência para as ações, opções e inform
 
 #### Colunas adicionais
 
-As seguintes colunas estão disponíveis alterando o [layout de coluna](../getting-started/admin-grid-controls.md) da grade.
+As seguintes colunas estão disponíveis alterando o [layout da coluna](../getting-started/admin-grid-controls.md) da grade.
 
 | Coluna | Descrição |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -236,10 +236,10 @@ As seguintes colunas estão disponíveis alterando o [layout de coluna](../getti
 | [!UICONTROL Street Address] | O endereço onde a empresa está registrada para realizar negócios. |
 | [!UICONTROL ZIP] | O CEP ou código postal onde a empresa está registrada para realizar negócios. |
 | [!UICONTROL Reseller ID] | O número de revenda atribuído à empresa para fins de relatório de imposto. |
-| [!UICONTROL VAT/TAX ID] | A variável [imposto sobre o valor acrescentado](../stores-purchase/vat.md) número atribuído à empresa por algumas jurisdições para fins de relatório de imposto. Para configurar a ID de IVA/IMPOSTO do cliente para aparecer na loja, consulte [Criar novas opções de conta](../configuration-reference/customers/customer-configuration.md). |
+| [!UICONTROL VAT/TAX ID] | O número de [imposto sobre valor agregado](../stores-purchase/vat.md) atribuído à empresa por algumas jurisdições para fins de relatório de imposto. Para configurar a ID de IVA/IMPOSTO do cliente para aparecer na loja, consulte [Criar Novas Opções de Conta](../configuration-reference/customers/customer-configuration.md). |
 | [!UICONTROL Credit Limit] | O limite de crédito estendido para a conta da empresa. |
 | [!UICONTROL Credit Currency] | A moeda aceita pela loja para compras em crédito da empresa. |
-| [!UICONTROL Status] | Indica a [status](account-company-approve.md) da conta da empresa. Opções: <br/>**[!UICONTROL Active]**- A conta da empresa foi aprovada pelo administrador de armazenamento. O administrador da empresa e os membros associados podem fazer logon na conta da loja e fazer compras.<br/>**[!UICONTROL Pending Approval]** - Uma solicitação para abrir uma conta da empresa foi enviada, mas ainda não foi aprovada pelo administrador de armazenamento. <br/>**[!UICONTROL Rejected]**- Uma solicitação para abrir uma conta da empresa foi enviada, mas não foi aprovada pelo administrador de armazenamento. As credenciais de logon iniciais usadas para enviar a solicitação estão bloqueadas.<br/>**[!UICONTROL Blocked]** - Os membros da empresa podem fazer logon e acessar o catálogo, mas não podem fazer compras. O administrador de armazenamento pode bloquear uma conta da empresa que não esteja em boa posição. O bloqueio na conta pode ser removido pelo administrador de armazenamento a qualquer momento. |
+| [!UICONTROL Status] | Indica o [status](account-company-approve.md) da conta da empresa. Opções: <br/>**[!UICONTROL Active]**- A conta da empresa foi aprovada pelo administrador de armazenamento. O administrador da empresa e os membros associados podem fazer logon na conta da loja e fazer compras.<br/>**[!UICONTROL Pending Approval]** - Uma solicitação para abrir uma conta da empresa foi enviada, mas ainda não foi aprovada pelo administrador de armazenamento. <br/>**[!UICONTROL Rejected]**- Uma solicitação para abrir uma conta da empresa foi enviada, mas não foi aprovada pelo administrador de armazenamento. As credenciais de logon iniciais usadas para enviar a solicitação estão bloqueadas.<br/>**[!UICONTROL Blocked]** - Os membros da empresa podem fazer logon e acessar o catálogo, mas não podem fazer compras. O administrador de armazenamento pode bloquear uma conta da empresa que não esteja em boa posição. O bloqueio na conta pode ser removido pelo administrador de armazenamento a qualquer momento. |
 | [!UICONTROL Gender] | O sexo do administrador da empresa. Opções: Masculino/Feminino/Não Especificado |
 | [!UICONTROL Comment] | Observações sobre a conta da empresa para referência e visível somente do administrador. |
 
@@ -250,8 +250,8 @@ As seguintes colunas estão disponíveis alterando o [layout de coluna](../getti
 | Botão | Descrição |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | Retorna à página Empresas sem salvar as alterações. |
-| [!UICONTROL Login as Customer] | Permite que um usuário administrador [faça logon na loja como cliente](../customers/login-as-customer.md) e ajudar com seus pedidos. |
-| [!DNL Delete Company] | Exclui a conta da empresa. O status das contas de usuário associadas à empresa é definido como `Inactive` e a ID da empresa é removida dos perfis das contas de usuário. As informações sobre a atividade da empresa e as transações são retidas no sistema. |
+| [!UICONTROL Login as Customer] | Permite que um usuário administrador [faça logon na loja como cliente](../customers/login-as-customer.md) e ajude em seus pedidos. |
+| [!DNL Delete Company] | Exclui a conta da empresa. O status das contas de usuário associadas à empresa está definido como `Inactive` e a ID da Empresa é removida dos perfis das contas de usuário. As informações sobre a atividade da empresa e as transações são retidas no sistema. |
 | [!DNL Reset] | Restaura os valores originais em todos os campos com alterações não salvas. |
 | [!DNL Reimburse Balance] | Permite que o administrador reembolse o saldo do crédito da loja, referenciado pelo número da OC. |
 | [!DNL Save] | Salva as alterações na empresa e mantém o perfil aberto. |
@@ -264,7 +264,7 @@ As seguintes colunas estão disponíveis alterando o [layout de coluna](../getti
 | Campo | Descrição |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | O nome da empresa é inserido quando a conta da empresa é criada pela primeira vez e pode ser uma versão reduzida do nome legal completo. |
-| [!UICONTROL Status] | Indica a [status](account-company-approve.md) da conta da empresa. Opções: <br/>**[!UICONTROL Active]**- A conta da empresa foi aprovada pelo administrador de armazenamento. O administrador da empresa e os membros associados podem fazer logon na conta da loja e fazer compras.<br/>**[!UICONTROL Pending Approval]** - Uma solicitação para abrir uma conta da empresa foi enviada, mas ainda não foi aprovada pelo administrador de armazenamento. <br/>**[!UICONTROL Rejected]**- Uma solicitação para abrir uma conta da empresa foi enviada, mas não foi aprovada pelo administrador de armazenamento. As credenciais de logon iniciais usadas para enviar a solicitação estão bloqueadas.<br/>**[!UICONTROL Blocked]** - Os membros da empresa podem fazer logon e acessar o catálogo, mas não podem fazer compras. O administrador de armazenamento pode bloquear uma conta da empresa que não esteja em boa posição. O bloqueio na conta pode ser removido pelo administrador de armazenamento a qualquer momento. |
+| [!UICONTROL Status] | Indica o [status](account-company-approve.md) da conta da empresa. Opções: <br/>**[!UICONTROL Active]**- A conta da empresa foi aprovada pelo administrador de armazenamento. O administrador da empresa e os membros associados podem fazer logon na conta da loja e fazer compras.<br/>**[!UICONTROL Pending Approval]** - Uma solicitação para abrir uma conta da empresa foi enviada, mas ainda não foi aprovada pelo administrador de armazenamento. <br/>**[!UICONTROL Rejected]**- Uma solicitação para abrir uma conta da empresa foi enviada, mas não foi aprovada pelo administrador de armazenamento. As credenciais de logon iniciais usadas para enviar a solicitação estão bloqueadas.<br/>**[!UICONTROL Blocked]** - Os membros da empresa podem fazer logon e acessar o catálogo, mas não podem fazer compras. O administrador de armazenamento pode bloquear uma conta da empresa que não esteja em boa posição. O bloqueio na conta pode ser removido pelo administrador de armazenamento a qualquer momento. |
 | [!UICONTROL Company Email] | O endereço de email associado à conta da empresa. |
 | [!UICONTROL Sales Representative] | O usuário Administrador que é o contato principal da conta da empresa. |
 
@@ -275,7 +275,7 @@ As seguintes colunas estão disponíveis alterando o [layout de coluna](../getti
 | Campo | Descrição |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Legal Name] | O nome legal completo da empresa. |
-| [!UICONTROL VAT / TAX ID] | O imposto ou [imposto sobre o valor acrescentado](../stores-purchase/vat.md) número atribuído à empresa para fins de relatório de imposto. |
+| [!UICONTROL VAT / TAX ID] | O número de imposto ou [imposto sobre valor agregado](../stores-purchase/vat.md) atribuído à empresa para fins de relatório de imposto. |
 | [!UICONTROL Reseller ID] | O número de revenda atribuído à empresa para fins de relatório de imposto. |
 | [!UICONTROL Comment] | Essas notas sobre a conta da empresa são para referência e visíveis apenas do administrador. |
 | **[!UICONTROL Legal Address]** |                                                                                                                            |
@@ -295,12 +295,12 @@ As seguintes colunas estão disponíveis alterando o [layout de coluna](../getti
 | Colunas | Descrição |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company ID] | O número de ID da empresa. |
-| [!UICONTROL Company Name] | O nome completo da empresa. <br/>A `current company indicator` aparece na linha da empresa que está sendo editada. |
+| [!UICONTROL Company Name] | O nome completo da empresa. <br/>Um `current company indicator` aparece na linha da empresa que está sendo editada. |
 | [!UICONTROL Company Email] | O endereço de email associado à conta da empresa. |
 | [!UICONTROL Phone Number] | O número de telefone principal da empresa. |
 | [!UICONTROL State/Province] | O estado ou província onde a empresa está registrada para realizar negócios. |
 | [!UICONTROL City] | A cidade onde a empresa está registrada para realizar negócios. |
-| [!UICONTROL Customer Group] | (Somente administrador) Indica a [grupo de clientes](../customers/customer-groups.md) ou [catálogo compartilhado](catalog-shared.md) que é atribuído à empresa. |
+| [!UICONTROL Customer Group] | (Somente Administrador) Indica o [grupo de clientes](../customers/customer-groups.md) ou o [catálogo compartilhado](catalog-shared.md) atribuído à empresa. |
 | [!UICONTROL Company Admin] | O nome completo do administrador da empresa. |
 | [!UICONTROL Action] | A lista de ações possíveis para essa linha de empresa. |
 
@@ -312,11 +312,11 @@ As seguintes colunas estão disponíveis alterando o [layout de coluna](../getti
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Job Title] | O título do administrador da empresa que gerencia a conta da empresa. |
 | [!UICONTROL Email] | O endereço de email do administrador da empresa pode ser igual ao endereço de email da empresa. Se um endereço de email diferente for inserido, uma conta individual separada será criada para o administrador da empresa, além da conta da empresa. |
-| [!UICONTROL Prefix] | Se aplicável, o prefixo associado ao nome do administrador da empresa (como `Mr.`, `Ms.`, `Mrs.`ou `Dr.`). Dependendo da configuração, o campo de entrada pode ser um campo de texto ou lista. |
+| [!UICONTROL Prefix] | Se aplicável, o prefixo associado ao nome do administrador da empresa (como `Mr.`, `Ms.`, `Mrs.` ou `Dr.`). Dependendo da configuração, o campo de entrada pode ser um campo de texto ou lista. |
 | [!UICONTROL First Name] | O nome do administrador da empresa. |
 | [!UICONTROL Middle Name/Initial] | O nome do meio ou a inicial do administrador da empresa. |
 | [!UICONTROL Last Name] | O sobrenome do administrador da empresa. |
-| [!UICONTROL Suffix] | Se aplicável, o sufixo associado ao nome do administrador da empresa (como `Jr.`, `Sr.`ou `III`). Dependendo da configuração, o campo de entrada pode ser um campo de texto ou lista. |
+| [!UICONTROL Suffix] | Se aplicável, o sufixo associado ao nome do administrador da empresa (como `Jr.`, `Sr.` ou `III`). Dependendo da configuração, o campo de entrada pode ser um campo de texto ou lista. |
 | [!UICONTROL Gender] | O sexo do administrador da empresa. Opções: `Male` / `Female` / `Not Specified` |
 
 {style="table-layout:auto"}
@@ -336,7 +336,7 @@ As seguintes colunas estão disponíveis alterando o [layout de coluna](../getti
 
 | Campo | Descrição |
 |-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Customer Group] | Indica a [grupo de clientes](../customers/customer-groups.md) ou [catálogo compartilhado](catalog-shared.md) que é atribuído à empresa. |
+| [!UICONTROL Customer Group] | Indica o [grupo de clientes](../customers/customer-groups.md) ou o [catálogo compartilhado](catalog-shared.md) atribuído à empresa. |
 | [!UICONTROL Allow Quotes] | Determina se os membros da empresa podem preparar e enviar cotações negociáveis em nome da empresa. |
 | [!UICONTROL Enable Purchase Orders] | Determina se as Ordens de Compra são permitidas para a empresa. Para que as ordens de compra funcionem para contas de membros da empresa, o administrador da empresa também deve habilitar esse recurso na loja. |
 | [!UICONTROL Applicable Payment Methods] | Indica os métodos de pagamento disponíveis para compras da empresa. Opções: `B2B Payment Methods` / `All Enabled Payment Methods` / `Specific Payment Methods` |

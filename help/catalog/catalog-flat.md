@@ -4,7 +4,7 @@ description: Saiba mais sobre como criar um catálogo simples, em que cada linha
 exl-id: f67bd2e0-3902-41eb-b26f-c772a7692cef
 source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O uso de um catálogo simples não é mais recomendado como prática recomendada. O uso continuado desse recurso é conhecido por causar degradação de desempenho e outros problemas de indexação. Uma descrição detalhada e uma solução estão disponíveis no [Centro de ajuda](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html).<br/><br/>As versões afetadas incluem: <br/>- Adobe Commerce na infraestrutura em nuvem, 2.3.x e superior<br/>- Adobe Commerce (no local), 2.3.x e superior<br/>- Magento Open Source, 2.3.x e superior <br/><br/>Em qualquer versão de lançamento, algumas extensões funcionam somente com tabelas simples, criando, portanto, um risco se você desativar tabelas simples. Se você souber que tem algumas extensões que usam indexadores de Catálogo Simples, deverá estar ciente desse risco ao definir esses valores como `No`.
+>O uso de um catálogo simples não é mais recomendado como prática recomendada. O uso continuado desse recurso é conhecido por causar degradação de desempenho e outros problemas de indexação. Uma descrição detalhada e uma solução estão disponíveis na [Central de Ajuda](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html).<br/><br/>As versões afetadas incluem: <br/>- Adobe Commerce na infraestrutura de nuvem, 2.3.x e superior<br/>- Adobe Commerce (No local), 2.3.x e superior<br/>- Magento Open Source, 2.3.x e superior <br/><br/>Em qualquer versão de lançamento, algumas extensões funcionam somente com tabelas simples, criando um risco se você desabilitar tabelas simples. Se você souber que tem algumas extensões que usam indexadores de Catálogo Simples, deverá estar ciente desse risco ao definir esses valores como `No`.
 
 O Commerce geralmente armazena dados de catálogo em várias tabelas, com base no modelo Entity-Attribute-Value (EAV). Como os atributos do produto são armazenados em muitas tabelas, as consultas SQL às vezes são longas e complexas.
 
@@ -25,15 +25,15 @@ Por outro lado, um catálogo simples cria tabelas em tempo real, onde cada linha
 
 ## Etapa 1: Ativar o catálogo simples
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** por baixo.
+1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** abaixo de.
 
-1. Expanda a _Loja_ e faça o seguinte:
+1. Expanda a seção _Vitrine_ e faça o seguinte:
 
-   - Definir **[!UICONTROL Use Flat Catalog Category]** para `Yes`. (Se necessário, desmarque a opção **[!UICONTROL Use system value]** caixa de seleção.)
+   - Defina **[!UICONTROL Use Flat Catalog Category]** como `Yes`. (Se necessário, desmarque a caixa de seleção **[!UICONTROL Use system value]**.)
 
-   - Definir **[!UICONTROL Use Flat Catalog Product]** para `Yes`.
+   - Defina **[!UICONTROL Use Flat Catalog Product]** como `Yes`.
 
    ![Configuração de catálogo simples](./assets/use-flat-catalog.png){width="700" zoomable="yes"}
 
@@ -47,11 +47,11 @@ Há dois métodos que podem ser usados para verificar os resultados.
 
 ### Método 1: verificar os resultados de um único produto
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Abra um produto no modo de edição.
 
-1. Para **[!UICONTROL Name]**, adicionar o texto `_TEST` até o fim do nome do produto.
+1. Para **[!UICONTROL Name]**, adicione o texto `_TEST` ao final do nome do produto.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -61,33 +61,33 @@ Há dois métodos que podem ser usados para verificar os resultados.
 
    - Use a navegação para procurar o produto na categoria atribuída.
 
-     Se necessário, atualize a página para ver os resultados. A alteração será exibida dentro de um minuto ou de acordo com o [Cron](../systems/cron.md) programação.
+     Se necessário, atualize a página para ver os resultados. A alteração aparece dentro de um minuto ou de acordo com seu cronograma [Cron](../systems/cron.md).
 
-   ![Loja com catálogo simples](./assets/storefront-flat-catalog-enabled.png){width="700" zoomable="yes"}
+   ![Vitrine com Catálogo Simples](./assets/storefront-flat-catalog-enabled.png){width="700" zoomable="yes"}
 
 ### Método 2: verificar os resultados de uma categoria
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. No canto superior esquerdo, verifique se **[!UICONTROL Store View]** está definida como `All Store Views`.
+1. No canto superior esquerdo, verifique se **[!UICONTROL Store View]** está definido como `All Store Views`.
 
    Se solicitado, clique em **[!UICONTROL OK]** para confirmar.
 
 1. Na árvore de categorias, selecione uma categoria existente, clique em **[!UICONTROL Add Subcategory]** e faça o seguinte:
 
-   - Para **[!UICONTROL Category Name]**, insira `Test Category`.
+   - Para **[!UICONTROL Category Name]**, digite `Test Category`.
 
    - Quando terminar, clique em **[!UICONTROL Save]**.
 
      ![Subcategoria de teste](./assets/catalog-flat-test-category.png){width="600" zoomable="yes"}
 
-   - Expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Products in Category]** e clique em **[!UICONTROL Reset Filter]** para exibir todos os produtos.
+   - Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Products in Category]** e clique em **[!UICONTROL Reset Filter]** para exibir todos os produtos.
 
    - Marque a caixa de seleção de vários produtos a serem adicionados à nova categoria.
 
-   - click **[!UICONTROL Save]**.
+   - clique em **[!UICONTROL Save]**.
 
-   ![Produtos da categoria de teste](./assets/catalog-flat-test-category-products.png){width="600" zoomable="yes"}
+   ![Testar produtos da categoria](./assets/catalog-flat-test-category-products.png){width="600" zoomable="yes"}
 
 1. Em uma nova guia do navegador, navegue até a página inicial da loja e use a navegação para navegar até a categoria criada.
 
@@ -99,7 +99,7 @@ Faça o seguinte para remover os dados de teste e restaurar o nome original do p
 
 ### Remover a categoria de teste
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Na árvore de categorias, selecione a subcategoria de teste criada.
 
@@ -111,25 +111,25 @@ Faça o seguinte para remover os dados de teste e restaurar o nome original do p
 
 ### Restaurar o nome original do produto
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Abra o produto de teste no modo de edição.
 
-1. Remova o `_TEST` texto adicionado à **[!UICONTROL Product Name]**.
+1. Remova o texto `_TEST` adicionado ao **[!UICONTROL Product Name]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Save]**.
 
 ### Restaurar a configuração original do catálogo
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** por baixo.
+1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** abaixo de.
 
-1. Expanda a _Loja_ e faça o seguinte:
+1. Expanda a seção _Vitrine_ e faça o seguinte:
 
-   - Definir **[!UICONTROL Use Flat Catalog Category]** para `No`.
+   - Defina **[!UICONTROL Use Flat Catalog Category]** como `No`.
 
-   - Definir **[!UICONTROL Use Flat Catalog Product]** para `No`.
+   - Defina **[!UICONTROL Use Flat Catalog Product]** como `No`.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 

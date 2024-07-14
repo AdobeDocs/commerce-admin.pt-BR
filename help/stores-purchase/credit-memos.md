@@ -12,34 +12,34 @@ ht-degree: 0%
 
 # Avisos de crédito
 
-A _memorando de crédito_ é um documento que mostra o valor devido pelo cliente para um reembolso total ou parcial. O valor pode ser aplicado a uma compra ou reembolsado ao cliente. Você pode imprimir um aviso de crédito para uma única ordem ou para várias ordens como um lote. Antes de imprimir um aviso de crédito, ele deve ser gerado para a ordem. A variável _Avisos de Crédito_ esta página lista os avisos de crédito que foram emitidos para os clientes.
+Um _memorando de crédito_ é um documento que mostra o valor devido pelo cliente para um reembolso total ou parcial. O valor pode ser aplicado a uma compra ou reembolsado ao cliente. Você pode imprimir um aviso de crédito para uma única ordem ou para várias ordens como um lote. Antes de imprimir um aviso de crédito, ele deve ser gerado para a ordem. A página _Avisos de Crédito_ lista os avisos de crédito que foram emitidos para clientes.
 
 ![Avisos de Crédito](./assets/credit-memos.png){width="700" zoomable="yes"}
 
 ## Método de reembolso
 
-A variável [método de pagamento](payments.md) para a ordem determina, até certo ponto, o método pelo qual você restitui uma ordem.
+O [método de pagamento](payments.md) para o pedido determina, em certa medida, o método pelo qual você reembolsa um pedido.
 
 Você pode reembolsar pedidos de três maneiras:
 
 - Crédito da conta — As ordens pagas usando uma conta de crédito podem ser reembolsadas como um crédito de conta:
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) [Crédito da loja](../customers/store-credit-using.md)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com o Adobe Commerce B2B) [Pagamento por conta](../b2b/enable-basic-features.md#configure-payment-on-account) (método offline)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com o Adobe Commerce B2B) [Crédito da empresa](../b2b/credit-company.md)
-- [Reembolso online](payments.md#online-payment-methods)—Os pedidos pagos com cartão de crédito por meio de um gateway de pagamento, como PayPal ou Braintree, são reembolsados on-line por meio do processador de pagamento.
-- [Reembolso offline](payments.md#offline-payment-methods)—Encomendas pagas em dinheiro na entrega ([CQO](cash-on-delivery.md)) ou por [cheque ou ordem de pagamento](check-money-order.md) são reembolsados offline.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) [Crédito da Loja](../customers/store-credit-using.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) [Pagamento na Conta](../b2b/enable-basic-features.md#configure-payment-on-account) (método offline)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) [Crédito da Empresa](../b2b/credit-company.md)
+- [Reembolso online](payments.md#online-payment-methods)—Pedidos pagos com cartão de crédito através de um gateway de pagamento, como PayPal ou Braintree, são reembolsados online através do processador de pagamento.
+- [Reembolso offline](payments.md#offline-payment-methods)—Os pedidos pagos com Dinheiro na Entrega ([CQO](cash-on-delivery.md)) ou por [cheque ou ordem de pagamento](check-money-order.md) são reembolsados offline.
 
 Você pode emitir uma restituição ou crédito de conta off-line (se ativado) para qualquer método de pagamento.
 
-Um pedido que foi pago por Cash on Delivery ([CQO](cash-on-delivery.md)) ou por [cheque ou ordem de pagamento](check-money-order.md) é reembolsado offline.
+Um pedido pago por Dinheiro na Entrega ([COD](cash-on-delivery.md)) ou por [cheque ou ordem de pagamento](check-money-order.md) é reembolsado offline.
 
 ## Fluxo de trabalho de reembolso
 
-1. **Ação de pagamento** - Se a [Ação de pagamento](credit-memo-create.md#payment-action-setting) está definida como `Authorize`, você deverá gerar uma NFF antes de criar um aviso de crédito - prossiga para a etapa 2. Se definida como `Authorize and Capture`, uma fatura já foi gerada - prossiga para a etapa 3.
+1. **Ação de pagamento** - Se a configuração de [Ação de pagamento](credit-memo-create.md#payment-action-setting) estiver definida como `Authorize`, você deverá gerar uma fatura antes de criar um memorando de crédito - prossiga para a etapa 2. Se definido como `Authorize and Capture`, uma fatura já foi gerada — vá para a etapa 3.
 
 1. **Gerar fatura** - [Criar uma fatura](invoices.md#create-an-invoice) para o pedido, para que você possa enviar um reembolso ao cliente por meio de um aviso de crédito.
 
-1. **Criar memorando de crédito** - [Emitir um memorando de crédito](credit-memo-create.md) no Administrador de uma [compra de crédito](credit-memo-create.md#issue-a-refund-for-a-credit-purchase), ou um [cheque ou ordem de pagamento](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order).
+1. **Criar memorando de crédito** - [Emitir um memorando de crédito](credit-memo-create.md) no Administrador para uma [compra de crédito](credit-memo-create.md#issue-a-refund-for-a-credit-purchase) ou um [cheque ou ordem de pagamento](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order).
 
 ## Descrições da coluna
 
@@ -53,7 +53,7 @@ Um pedido que foi pago por Cash on Delivery ([CQO](cash-on-delivery.md)) ou por 
 | [!UICONTROL Bill-to Name] | O nome da pessoa responsável pelo pagamento da ordem. |
 | [!UICONTROL Status] | Indica o estado atual de uma solicitação de aviso de crédito. |
 | [!UICONTROL Refunded] | O valor total reembolsado do pedido. |
-| [!UICONTROL Actions] | **[!UICONTROL View]** - Abre a solicitação de um aviso de crédito e mantém um registro da negociação entre comprador e vendedor. |
+| [!UICONTROL Actions] | **[!UICONTROL View]** - Abre a solicitação de um memorando de crédito e mantém um registro da negociação entre comprador e vendedor. |
 | [!UICONTROL Order Status] | Indica o status do pedido. |
 | [!UICONTROL Purchased From] | Indica o site, a loja e a exibição da loja em que o pedido foi feito. |
 | [!UICONTROL Billing Address] | O endereço de faturamento do cliente que fez o pedido. |

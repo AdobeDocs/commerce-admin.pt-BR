@@ -17,7 +17,7 @@ ht-degree: 2%
 + Ferramentas de gerenciamento de clientes {#customers-menu}
    + [Lista de clientes](customers-all.md)
    + [Agora online](now-online.md)
-   + [Personalização em escala](personalize-scale.md)
+   + [Personalization em escala](personalize-scale.md)
 + Contas do cliente {#customer-accounts}
    + [Escopo da conta](customer-account-scope.md)
    + Opções de conta {#configure}
@@ -43,7 +43,7 @@ ht-degree: 2%
       + [Aplicar crédito da loja](store-credit-using.md)
       + [Armazenar crédito no painel de conta](account-dashboard-store-credit.md)
       + [Reembolsos no painel de contas](refunds-customer-account.md)
-   + Painel da conta do cliente {#storefront}
+   + Painel de conta do cliente {#storefront}
       + [Gerenciar o painel de conta](account-dashboard.md)
       + [[!UICONTROL My Account]](account-dashboard-my-account.md)
       + [[!UICONTROL Address Book]](account-dashboard-address-book.md)
@@ -55,5 +55,5 @@ ht-degree: 2%
    + [Criar e excluir segmentos de clientes](customer-segment-create.md)
    + [Segmentos do cliente em regras de preço](customer-segment-price-rule.md)
    + [Relatório de segmento do cliente](customer-segment-reports.md)
-+ [Retornar aos Guias do comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do Comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

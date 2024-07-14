@@ -43,31 +43,31 @@ Como regra, é possível tornar uma imagem menor que a original, mas não maior 
 
 ## Configurar modelos de email
 
-A configuração determina o logotipo que aparece no modelo de cabeçalho padrão e qualquer [cabeçalho](email-template-custom.md#header-template) e [rodapé](email-template-custom.md#footer-template) modelos que você deseja usar para mensagens de email transacionais enviadas de suas lojas.
+A configuração determina o logotipo que aparece no modelo de cabeçalho padrão e qualquer modelo personalizado de [cabeçalho](email-template-custom.md#header-template) e [rodapé](email-template-custom.md#footer-template) que você queira usar para mensagens de email transacionais enviadas das suas lojas.
 
 ![Design de email transacional](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
-Para obter uma lista detalhada das definições de configuração, consulte [_Emails transacionais_](../content-design/configuration.md) no _Guia de design e conteúdo_.
+Para obter uma lista detalhada das definições de configuração, consulte [_Emails Transacionais_](../content-design/configuration.md) no _Guia de Conteúdo e Design_.
 
 ## Etapa 1. Carregar seu logotipo
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Localize a exibição de loja que deseja configurar e clique em **[!UICONTROL Edit]** no _[!UICONTROL Action]_coluna.
+1. Localize a exibição de armazenamento que você deseja configurar e clique em **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
-1. Em _[!UICONTROL Other Settings]_, expandir ![Seletor de expansão](../assets/icon-display-expand.png) o **[!UICONTROL Transactional Emails]**seção.
+1. Em _[!UICONTROL Other Settings]_, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Transactional Emails]**.
 
-1. Para fazer upload do **[!UICONTROL Logo Image]**, clique em **[!UICONTROL Upload]** e selecione o arquivo do seu sistema.
+1. Para carregar o **[!UICONTROL Logo Image]** preparado, clique em **[!UICONTROL Upload]** e selecione o arquivo do seu sistema.
 
 1. Para **[!UICONTROL Logo Image Alt]**, insira um texto alternativo para identificar a imagem.
 
 1. Insira o **[!UICONTROL Logo Width]** e **[!UICONTROL Logo Height]** em pixels.
 
-   Insira cada valor como um número, sem o `px` abreviação. Esses valores se referem às dimensões de exibição do logotipo no cabeçalho, e não ao tamanho real da imagem.
+   Insira cada valor como um número, sem a abreviação `px`. Esses valores se referem às dimensões de exibição do logotipo no cabeçalho, e não ao tamanho real da imagem.
 
 ## Etapa 2. Escolha os modelos de cabeçalho e rodapé
 
-Se você tiver modelos personalizados de cabeçalho e rodapé para sua loja ou para diferentes lojas, poderá especificar quais modelos são usados para cada loja, de acordo com a [escopo](../getting-started/websites-stores-views.md#scope-settings) da configuração. Caso contrário, os templates padrão serão usados. Para saber mais, consulte [Personalização de modelos de email](email-template-custom.md).
+Se você tiver modelos de cabeçalho e rodapé personalizados para sua loja ou para lojas diferentes, poderá especificar quais modelos são usados para cada um, de acordo com o [escopo](../getting-started/websites-stores-views.md#scope-settings) da configuração. Caso contrário, os templates padrão serão usados. Para saber mais, consulte [Personalizando Modelos de Email](email-template-custom.md).
 
 1. Escolha o **[!UICONTROL Header Template]** a ser usado para todas as mensagens de email transacionais.
 
@@ -98,12 +98,12 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 
 ### [!DNL Magento_Company]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com o Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com Adobe Commerce B2B)
 
 | Modelo | Caminho de configuração |
 |--- |--- |
 | `Assign Company Admin` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Seção:** [!UICONTROL Customer-Related Emails]<br/>**Campo:** [!UICONTROL Default 'Assign Company Admin' Email] |
-| `Assign Company to Customer` | **Página:** [!UICONTROL Customers] > [Configuração da empresa ](../configuration-reference/customers/company-configuration.md)<br/>**Seção:** [!UICONTROL Customer-Related Emails] <br/>**Campo:** [!UICONTROL Default 'Assign Company to Customer' Email] |
+| `Assign Company to Customer` | **Página:** [!UICONTROL Customers] > [Configuração da Empresa ](../configuration-reference/customers/company-configuration.md)<br/>**Seção:** [!UICONTROL Customer-Related Emails] <br/>**Campo:** [!UICONTROL Default 'Assign Company to Customer' Email] |
 | `Company Admin Changed to Member` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Seção:** [!UICONTROL Customer-Related Emails]<br/>**Campo:** [!UICONTROL Default 'Company Admin Changed To Member' Email] |
 | `Company Admin Set Inactive` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Seção:** [!UICONTROL Customer-Related Emails]<br/>**Campo:** [!UICONTROL Default 'Customer Status Inactive' Email] |
 | `Company Invite` | n/d |
@@ -121,7 +121,7 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 
 ### [!DNL Magento_CompanyCredit]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com o Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com Adobe Commerce B2B)
 
 | Modelo | Caminho de configuração |
 |--- |--- |
@@ -147,14 +147,14 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 |--- |--- |
 | `Change Email` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Account Information Options]<br/>**Campo:** [!UICONTROL Change Email Template] |
 | Alterar email e senha | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Account Information Options]<br/>**Campo:** [!UICONTROL Change Email and Password Template] |
-| `Forgot Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Password Options]<br/>**Campo:** Esqueceu o modelo de e-mail |
-| `New Account` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Create New Account Options]<br/>**Campo:** Email de boas-vindas padrão |
-| `New Account (Magento/luma)` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Create New Account Options]<br/>**Campo:** Email de boas-vindas padrão |
-| `New Account Confirmation Key` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Create New Account Options]<br/>**Campo:** E-mail do link de confirmação |
-| `New Account Confirmed` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Create New Account Options]<br/>**Campo:** Email de boas-vindas |
+| `Forgot Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Password Options]<br/>**Campo:** Esqueceu o Modelo de Email |
+| `New Account` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Create New Account Options]<br/>**Campo:** Email De Boas-Vindas Padrão |
+| `New Account (Magento/luma)` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Create New Account Options]<br/>**Campo:** Email De Boas-Vindas Padrão |
+| `New Account Confirmation Key` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Create New Account Options]<br/>**Campo:** Email De Link De Confirmação |
+| `New Account Confirmed` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Create New Account Options]<br/>**Campo:** Email de Boas-vindas |
 | `New Account Without Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Create New Account Options]<br/>**Campo:** Email De Boas-Vindas Padrão Sem Senha |
 | `Remind Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Password Options]<br/>**Campo:** Lembrar Modelo de Email |
-| `Reset Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Password Options] <br/>**Campo:** Redefinir modelo de senha |
+| `Reset Password` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Seção:** [!UICONTROL Password Options] <br/>**Campo:** Redefinir Modelo de Senha |
 
 {style="table-layout:auto"}
 
@@ -233,7 +233,7 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 
 ### [!DNL Magento_NegotiableQuote]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com o Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com Adobe Commerce B2B)
 
 | Modelo | Caminho de configuração |
 |--- |--- |
@@ -374,7 +374,7 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 
 | Modelo | Caminho de configuração |
 |--- |--- |
-| `Send Product Link to Friend` | **Página:** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**Seção:** [!UICONTROL Email Templates]<br/>**Campo:** [!UICONTROL Select Email Template] |
+| `Send Product Link to Friend` | **Página:** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**Seção:** [!UICONTROL Email Templates]<br/>**Campo:** [!UICONTROL Select Email Template] |
 
 {style="table-layout:auto"}
 
@@ -399,8 +399,8 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 
 | Modelo | Caminho de configuração |
 |--- |--- |
-| `Forgot Admin Password` | **Página:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Seção:** [!UICONTROL Admin User Emails]<br/>**Campo:** Modelo de email de senha esquecida |
-| `User Notification` | **Página:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Seção:** [!UICONTROL Admin User Emails]<br/>**Campo:** Modelo de notificação do usuário |
+| `Forgot Admin Password` | **Página:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Seção:** [!UICONTROL Admin User Emails]<br/>**Campo:** Esqueceu o Modelo de Email de Senha |
+| `User Notification` | **Página:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Seção:** [!UICONTROL Admin User Emails]<br/>**Campo:** Modelo de Notificação do Usuário |
 | `New User Notification` | **Página:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Seção:** [!UICONTROL Admin User Emails]<br/>**Campo:** [!UICONTROL New User Notification Template] |
 
 {style="table-layout:auto"}

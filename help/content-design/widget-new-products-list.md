@@ -5,34 +5,34 @@ exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
 
 # Novo widget da lista de produtos
 
-A lista de novos produtos é um exemplo de conteúdo dinâmico e consiste em dados em tempo real extraídos do catálogo de produtos. Por padrão, a variável _Novos produtos_ A lista inclui os oito primeiros produtos adicionados mais recentemente. No entanto, também pode ser configurado para incluir apenas produtos em um intervalo de datas especificado.
+A lista de novos produtos é um exemplo de conteúdo dinâmico e consiste em dados em tempo real extraídos do catálogo de produtos. Por padrão, a lista _Novos produtos_ inclui os primeiros oito dos produtos adicionados mais recentemente. No entanto, também pode ser configurado para incluir apenas produtos em um intervalo de datas especificado.
 
-![Nova lista de produtos na página inicial da loja](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
+![Nova lista de produtos na home page da loja](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## Etapa 1: definir cada produto como novo
 
 ![Magento Open Source](../assets/open-source.svg) Esta etapa se aplica somente ao Magento Open Source.
 
-![Adobe Commerce](../assets/adobe-logo.svg) Para lojas Adobe Commerce, consulte [Agendando uma atualização](content-staging-scheduled-update.md) e prossiga para a Etapa 2 nesta página.
+![Adobe Commerce](../assets/adobe-logo.svg) Para lojas Adobe Commerce, consulte [Agendando uma Atualização](content-staging-scheduled-update.md) e prossiga para a Etapa 2 nesta página.
 
-_[!UICONTROL Set Product as New]_a configuração de intervalo de datas pode ser definida somente em atualizações programadas.
+A configuração de intervalo de datas _[!UICONTROL Set Product as New]_pode ser definida somente em atualizações agendadas.
 
-Configurar um produto como novo adiciona o produto à _Novos produtos_ lista. Você pode alterar a configuração de volta a qualquer momento quando não quiser mais incluí-la na lista.
+Configurar um produto como novo adiciona o produto à lista _Novos produtos_. Você pode alterar a configuração de volta a qualquer momento quando não quiser mais incluí-la na lista.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Encontre cada produto que deseja incluir no recurso e abra-o no modo de edição.
 
 1. Para **[!UICONTROL Set Product as New]**, alterne a opção para definir o produto como um novo produto ou não.
 
-   ![Definição do produto como novo](./assets/product-set-as-new.png){width="400" zoomable="yes"}
+   ![Definindo o produto como novo](./assets/product-set-as-new.png){width="400" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
@@ -42,43 +42,43 @@ Configurar um produto como novo adiciona o produto à _Novos produtos_ lista. Vo
 
 O código que determina o conteúdo da lista Novos produtos e sua colocação na loja é gerado pela ferramenta Widget.
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Add Widget]**.
 
-1. No _[!UICONTROL Settings]_faça o seguinte:
+1. Na seção _[!UICONTROL Settings]_, faça o seguinte:
 
-   - Definir **[!UICONTROL Type]** para `Catalog New Products List`.
+   - Defina **[!UICONTROL Type]** como `Catalog New Products List`.
 
-   - Escolha o **[!UICONTROL Design Theme]** que é usado pela loja.
+   - Escolha o **[!UICONTROL Design Theme]** que é usado pelo armazenamento.
 
 1. Clique em **[!UICONTROL Continue]**.
 
    ![Configurações do novo widget lista de produtos](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. No _[!UICONTROL Storefront Properties]_faça o seguinte:
+1. Na seção _[!UICONTROL Storefront Properties]_, faça o seguinte:
 
-   - Para **[!UICONTROL Widget Title]**, insira um título descritivo para o widget. (Este título é visível somente no _Admin_.)
+   - Para **[!UICONTROL Widget Title]**, insira um título descritivo para o widget. (Este título é visível somente do _Administrador_.)
 
-   - Para **[!UICONTROL Assign to Store Views]**, selecione as exibições de loja onde o widget está visível.
+   - Para **[!UICONTROL Assign to Store Views]**, selecione as exibições de loja nas quais o widget está visível.
 
-     Você pode selecionar uma visualização de loja específica, ou `All Store Views`. Para selecionar várias exibições, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
+     Você pode selecionar um modo de exibição de loja específico ou `All Store Views`. Para selecionar várias exibições, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
 
-   - (Opcional) Para **[!UICONTROL Sort Order]**, insira um número para determinar a ordem em que esse item aparece com outros na mesma parte da página. (`0` = primeiro, `1` = segundo, `3` = terceiro e assim por diante.)
+   - (Opcional) Para **[!UICONTROL Sort Order]**, insira um número para determinar a ordem de exibição deste item com outros na mesma parte da página. (`0` = primeiro, `1` = segundo, `3` = terceiro e assim por diante.)
 
    ![Atualizações de layout](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 ## Etapa 3: Escolher o local
 
-1. No _[!UICONTROL Layout Updates]_clique em **[!UICONTROL Add Layout Update]**.
+1. Na seção _[!UICONTROL Layout Updates]_, clique em **[!UICONTROL Add Layout Update]**.
 
-1. Definir **[!UICONTROL Display On]** para `Specified Page.`
+1. Configurar **[!UICONTROL Display On]** para `Specified Page.`
 
-1. Definir **[!UICONTROL Page]** para `CMS Home Page`.
+1. Defina **[!UICONTROL Page]** como `CMS Home Page`.
 
-1. Definir **[!UICONTROL Block Reference]** para `Main Content Area`.
+1. Defina **[!UICONTROL Block Reference]** como `Main Content Area`.
 
-1. Definir **[!UICONTROL Template]** a um dos seguintes:
+1. Defina **[!UICONTROL Template]** como um dos seguintes:
 
    - `New Product List Template`
    - `New Products Grid Template`
@@ -93,16 +93,16 @@ O código que determina o conteúdo da lista Novos produtos e sua colocação na
 
 1. No painel esquerdo, escolha **[!UICONTROL Widget Options]**.
 
-1. Definir **[!UICONTROL Display Products]** a um dos seguintes:
+1. Defina **[!UICONTROL Display Products]** como um dos seguintes:
 
-   - `All Products` - Lista os produtos em sequência, começando com os adicionados mais recentemente.
-   - `New Products` - Lista apenas os produtos identificados como _novo_. Um produto é considerado novo durante o intervalo de datas especificado em _[!UICONTROL Set Product As New From/To]_. A lista fica vazia se o intervalo de datas expirar sem nenhum produto novo definido.
+   - `All Products` - Lista produtos em sequência, começando com os adicionados mais recentemente.
+   - `New Products` - Lista somente os produtos identificados como _novos_. Um produto é considerado novo durante o período especificado em _[!UICONTROL Set Product As New From/To]_. A lista fica vazia se o intervalo de datas expirar sem nenhum produto novo definido.
 
-1. Para fornecer controle de navegação para listas com várias páginas, defina **[!UICONTROL Display Page Control]** para `Yes`.
+1. Para fornecer controle de navegação para listas com várias páginas, defina **[!UICONTROL Display Page Control]** como `Yes`.
 
-   Para **[!UICONTROL Number of Products per Page]**, digite o número de produtos que deseja exibir em cada página.
+   Para **[!UICONTROL Number of Products per Page]**, insira o número de produtos que você deseja exibir em cada página.
 
-1. Defina o **[!UICONTROL Number of Products to Display]** ao número de novos produtos que deseja incluir na lista.
+1. Defina a opção **[!UICONTROL Number of Products to Display]** com o número de novos produtos que deseja incluir na lista.
 
    A configuração padrão é `10`.
 
@@ -118,6 +118,6 @@ O código que determina o conteúdo da lista Novos produtos e sua colocação na
 
 ## Etapa 5: visualizar seu trabalho
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Localize a página na grade em que _Novos produtos_ é exibida e clique no link **[!UICONTROL Preview]** no _[!UICONTROL Action]_coluna.
+1. Localize a página na grade onde a lista _Novos Produtos_ deve aparecer e clique no link **[!UICONTROL Preview]** na coluna _[!UICONTROL Action]_.

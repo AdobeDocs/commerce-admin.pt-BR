@@ -56,7 +56,7 @@ ht-degree: 1%
       - [Exemplo: compre isso e ganhe de graça](price-rules-cart-buy-this-get-that.md)
       - [Exemplo: desconto com compra mínima](price-rule-discount-minimum-purchase.md)
       - [Exemplo: desconto com primeira compra](price-rule-discount-first-purchase.md)
-   - Relacionamentos de produtos {#product-relationships}
+   - Relacionamentos de produto {#product-relationships}
       - [Visão geral](product-relationships.md)
       - [Regras e configuração de produtos relacionados](product-related-rules.md)
       - [Criar uma regra de produto relacionada](product-related-rule-create.md)
@@ -74,18 +74,18 @@ ht-degree: 1%
    - [Visão geral e práticas recomendadas da SEO](seo-overview.md)
    - [Metadados](meta-data.md)
    - [Mapas do site](sitemap-xml.md)
-   - Substituições de URL {#url-rewrites}
+   - A URL reescreve {#url-rewrites}
       - [Visão geral e configuração](url-rewrite.md)
       - [Substituições de categoria](url-rewrite-category.md)
       - [Regravações de produto](url-rewrite-product.md)
       - [Substituições de página CMS](url-rewrite-cms-page.md)
       - [Substituições personalizadas](url-rewrite-custom.md)
       - [Redirecionamentos automáticos](url-redirect-product-automatic.md)
-- Ferramentas do site do Google {#google-tools}
+- Ferramentas do site Google {#google-tools}
    - [Visão geral](google-tools.md)
    - [Google Analytics](google-analytics.md)
    - [Gerenciador de tags da Google](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Experimentos de conteúdo do Google](google-content-experiments.md)
-- [Retornar aos Guias do comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retornar aos Guias do Comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

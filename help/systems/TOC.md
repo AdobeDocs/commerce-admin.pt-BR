@@ -17,7 +17,7 @@ ht-degree: 2%
 
 - [Guia de sistemas do administrador](guide-overview.md)
 - [Introdução aos sistemas de administração](introduction.md)
-- [[!UICONTROL System] menu](system-menu.md)
+- [Menu [!UICONTROL System]](system-menu.md)
 - Contas de usuário administrador {#user-accounts}
    - [Permissões de administrador](permissions.md)
    - [Gerenciar contas de usuário](permissions-users-all.md)
@@ -54,7 +54,7 @@ ht-degree: 2%
    - [Relatório de logs de ação](action-log-report.md)
    - [Arquivamento de log](action-log-archive.md)
    - [Ações em massa](action-log-bulk-actions.md)
-- Configurações e ferramentas do sistema {#tools}
+- Ferramentas e configurações do sistema {#tools}
    - [Gerenciamento de cache](cache-management.md)
    - [Gerenciamento de índice](index-management.md)
    - [Backups do sistema](backups.md)
@@ -77,6 +77,6 @@ ht-degree: 2%
    - [Gerenciamento de sessão](security-session-management.md)
    - [Detecção de recursos do navegador](security-browser-capabilities-detection.md)
    - [Relatórios de problemas de segurança](security-issue-reporting.md)
-- [Retornar aos Guias do comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retornar aos Guias do Comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

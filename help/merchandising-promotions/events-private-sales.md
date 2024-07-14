@@ -20,21 +20,21 @@ Vendas privadas e outros eventos de catálogo são uma ótima maneira de usar su
 
 ## Componentes de gerenciamento de eventos
 
-- **Categorias** - Cada evento está associado a um [categoria](../catalog/category-create.md) do catálogo.
+- **Categorias** - Cada evento está associado a uma [categoria](../catalog/category-create.md) do seu catálogo.
 
-- **Eventos** - As vendas do evento são baseadas em uma data de início e término. Você pode usar um [contagem regressiva](#event-ticker) para mostrar o tempo restante.
+- **Eventos** - As vendas de eventos são baseadas em uma data de início e término. Você pode usar um [ticker de contagem regressiva](#event-ticker) para mostrar o tempo restante.
 
-- **Carrossel de eventos do catálogo** - Quando a variável [Widget de Evento de catálogo](../content-design/widget-event-carousel.md) estiver ativado na configuração, ele pode ser colocado nas páginas de armazenamento como uma lista de eventos abertos e futuros, classificados por data de término. Se dois ou mais eventos tiverem a mesma data de término, eles serão classificados com base na ordem especificada na configuração.
+- **Carrossel de eventos do catálogo** - Quando o [widget de Evento do catálogo](../content-design/widget-event-carousel.md) está habilitado na configuração, ele pode ser colocado nas páginas de armazenamento como uma lista de eventos abertos e futuros, classificados por data de término. Se dois ou mais eventos tiverem a mesma data de término, eles serão classificados com base na ordem especificada na configuração.
 
-- **[!UICONTROL Websites]** - As permissões de categoria se baseiam principalmente no [grupos de clientes](../customers/customer-groups.md).
+- **[!UICONTROL Websites]** - Permissões de categoria baseadas principalmente em [grupos de clientes](../customers/customer-groups.md).
 
-- **Permissões de categoria** - [Permissões de categoria](../catalog/category-permissions.md) O oferece controle total sobre as atividades específicas que podem ocorrer em determinada categoria.
+- **Permissões de categoria** - [Permissões de categoria](../catalog/category-permissions.md) oferecem controle total sobre as atividades específicas que podem ocorrer em uma determinada categoria.
 
-- **Restrições de acesso** - Impede que [acesso](event-configure.md#restrict-access) para o site, redirecionando para uma página de aterrissagem, página de logon ou página de registro.
+- **Restrições de acesso** - Impede o [acesso](event-configure.md#restrict-access) público ao site, redirecionando para uma página de aterrissagem, página de logon ou página de registro.
 
-- **Convites** - Mensagens de email são enviadas com um link para criar uma conta na loja. É possível restringir a capacidade de criar uma conta somente àqueles que recebem uma [convite](invitations.md).
+- **Convites** - As mensagens de email são enviadas com um link para criar uma conta no armazenamento. Você pode restringir a capacidade de criar uma conta apenas àqueles que recebem um [convite](invitations.md).
 
-- **Relatórios de vendas privadas** - A [Relatórios de Vendas Privadas](../getting-started/private-sales-reports.md) forneça informações sobre convites enviados, clientes convidados e conversões.
+- **Relatórios de vendas particulares** - Os [Relatórios de Vendas Particulares](../getting-started/private-sales-reports.md) fornecem informações sobre convites enviados, clientes convidados e conversões.
 
 ## ticker de evento
 
@@ -44,6 +44,6 @@ O bloco de ticker exibe uma contagem regressiva para eventos abertos, com as dat
 
 Se o ticker da página de categoria estiver ativado para um evento, o bloco de ticker aparecerá na parte superior da listagem de categorias. Se o ticker da página do produto estiver ativado, o bloco de ticker também aparecerá na parte superior da página do produto de qualquer produto associado à categoria.
 
-O ticker do evento pode ser ativado quando você [criação de eventos](event-create.md).
+O ticker de evento pode ser habilitado ao [criar eventos](event-create.md).
 
-![Exemplo da loja - barra lateral do evento](./assets/storefront-event-sidebar.png){width="700" zoomable="yes"}
+![Exemplo de vitrine - barra lateral do evento](./assets/storefront-event-sidebar.png){width="700" zoomable="yes"}

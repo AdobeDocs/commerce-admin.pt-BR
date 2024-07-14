@@ -5,7 +5,7 @@ exl-id: 43fec57f-d76d-45a9-812b-ba1947cea46d
 feature: Page Content, Configuration
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 A configuração Design facilita a edição de regras e definições de configuração relacionadas ao design, exibindo as configurações em uma única página.
 
-![Página Configuração de design](./assets/configuration.png){width="700" zoomable="yes"}
+![Página Configuração de Design](./assets/configuration.png){width="700" zoomable="yes"}
 
 ## Alterar a configuração de design
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Localize a exibição de loja que deseja configurar e clique em **[!UICONTROL Edit]** no _[!UICONTROL Action]_coluna.
+1. Localize a exibição de armazenamento que você deseja configurar e clique em **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
    A página exibe as configurações de design atuais para a exibição de loja.
 
-1. Para alterar o tema padrão, defina **[!UICONTROL Applied Theme]** ao tema que deseja aplicar à exibição.
+1. Para alterar o tema padrão, defina **[!UICONTROL Applied Theme]** como o tema que deseja aplicar ao modo de exibição.
 
    Se nenhum tema for especificado, o tema padrão do sistema será usado. Algumas extensões de terceiros modificam o tema padrão do sistema.
 
@@ -36,9 +36,9 @@ A configuração Design facilita a edição de regras e definições de configur
 
    - Clique em **[!UICONTROL Add New User Agent Rule]**.
 
-   - Para **[!UICONTROL Search String]**, digite a ID do navegador do dispositivo específico.
+   - Para **[!UICONTROL Search String]**, insira a ID de navegador do dispositivo específico.
 
-     Uma string de pesquisa pode ser uma expressão normal ou uma expressão regular compatível com Perl (PCRE) (consulte [Agente do usuário](https://en.wikipedia.org/wiki/User_agent) para obter mais informações). A sequência de pesquisa a seguir identifica o Firefox:
+     Uma cadeia de caracteres de pesquisa pode ser uma expressão normal ou uma Expressão Regular Compatível com Perl (PCRE) (consulte [Agente do Usuário](https://en.wikipedia.org/wiki/User_agent) para obter mais informações). A sequência de pesquisa a seguir identifica o Firefox:
 
          /^mozilla/i
      
@@ -48,7 +48,7 @@ A configuração Design facilita a edição de regras e definições de configur
    >
    >É possível adicionar quantas regras desejar para os dispositivos designados. As cadeias de caracteres de pesquisa são correspondidas na ordem em que são inseridas.
 
-1. Em _[!UICONTROL Other Settings]_, expanda cada seção e siga as instruções nos tópicos vinculados para editar as configurações, conforme necessário.
+1. Em _[!UICONTROL Other Settings]_, expanda cada seção e siga as instruções nos tópicos vinculados para editar as configurações conforme necessário.
 
    - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
    - [[!UICONTROL HTML Head]](page-setup.md#html-head)

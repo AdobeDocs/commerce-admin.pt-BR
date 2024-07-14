@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
-description: Revise as configurações no [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] página do Administrador do Commerce.
+description: Revise as configurações na página [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] do Administrador do Commerce.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->O informativo faz parte de instrumentos de marketing que permitem enviar notícias, descontos e outros emails de marketing aos clientes. Os clientes registrados podem gerenciar suas assinaturas a partir de seus [painel da conta](../../customers/account-dashboard-my-account.md).
+>O informativo faz parte de instrumentos de marketing que permitem enviar notícias, descontos e outros emails de marketing aos clientes. Os clientes registrados podem gerenciar sua assinatura no [painel de conta](../../customers/account-dashboard-my-account.md).
 
 ## [!UICONTROL General Options]
 

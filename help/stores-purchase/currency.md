@@ -5,14 +5,14 @@ exl-id: 5255fb63-a615-4b05-8b00-5c5a089cbb2d
 feature: Currency, Storefront
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # Moeda
 
-O Adobe Commerce oferece a capacidade de aceitar moedas de mais de 200 países ao redor do mundo. Se o armazenamento suportar várias moedas, uma _seletor de moeda_ aparece no cabeçalho depois que as taxas de moeda são [atualizado](currency-update.md).
+O Adobe Commerce oferece a capacidade de aceitar moedas de mais de 200 países ao redor do mundo. Se o armazenamento suportar várias moedas, um _seletor de moedas_ aparecerá no cabeçalho depois que as taxas de moeda forem [atualizadas](currency-update.md).
 
 >[!NOTE]
 >
@@ -20,4 +20,4 @@ O Adobe Commerce oferece a capacidade de aceitar moedas de mais de 200 países a
 
 Os símbolos de moeda são exibidos nos preços dos produtos e nos documentos de venda, como pedidos e faturas. Você pode personalizar os símbolos de moeda conforme necessário e também definir a exibição do preço separadamente para cada loja ou exibição.
 
-![Exemplo de vitrine - seletor de moeda](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}
+![Exemplo de vitrine - escolha de moeda](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}

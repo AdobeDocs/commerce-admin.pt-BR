@@ -16,7 +16,7 @@ Depois que uma categoria é estabelecida, ela pode ser editada, movida para outr
 
 ## Mover uma categoria
 
-1. No _Admin_ barra lateral, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Para mover uma categoria, arraste-a e solte-a em uma nova posição na árvore.
 
@@ -32,4 +32,4 @@ Depois que uma categoria é estabelecida, ela pode ser editada, movida para outr
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
-Também é possível [atualizar os eventos](../merchandising-promotions/event-create.md#create-and-update-events) associado a uma categoria de um dos **[!UICONTROL Events]** página ou a **[!UICONTROL Category]** página.
+Você também pode [atualizar os eventos](../merchandising-promotions/event-create.md#create-and-update-events) associados a uma categoria da página **[!UICONTROL Events]** ou **[!UICONTROL Category]**.

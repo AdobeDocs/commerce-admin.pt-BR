@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Ordens de compra para empresas
 
-As ordens de compra (OCs) são uma maneira comum de as empresas rastrearem e controlarem os gastos. [Ordem de compra](../stores-purchase/purchase-order.md) O é um dos métodos de pagamento off-line padrão compatíveis com o Adobe Commerce e o Magento Open Source. Quando o B2B do Adobe Commerce estiver instalado e [_Habilitar Ordens de Compra_](account-company-manage.md#advanced-settings) for ativada para uma conta da empresa, todas as ordens serão criadas automaticamente como Ordens de compra (OC). Usuários da empresa com as [permissões](account-company-roles-permissions.md) O pode criar, editar e deletar OCs que eles criam e OCs criadas por usuários subordinados.
+As ordens de compra (OCs) são uma maneira comum de as empresas rastrearem e controlarem os gastos. A [Ordem de compra](../stores-purchase/purchase-order.md) é um dos métodos de pagamento offline padrão com suporte no Adobe Commerce e no Magento Open Source. Quando o B2B do Adobe Commerce está instalado e a opção [_Habilitar Ordens de Compra_](account-company-manage.md#advanced-settings) é ativada para uma conta da empresa, todas as ordens são criadas automaticamente como Ordens de Compra (OC). Usuários da empresa com as [permissões](account-company-roles-permissions.md) necessárias podem criar, editar e excluir OCs que eles criam e OCs criadas por usuários subordinados.
 
 ## Fluxo da ordem de compra
 
@@ -30,7 +30,7 @@ O fluxo de trabalho da ordem de compra de uma empresa pode variar de algumas man
 
   >[!NOTE]
   >
-  >Por padrão, uma variável `Purchase order has been submitted for approval` é sempre exibida para usuários da empresa, mesmo quando nenhuma regra de aprovação é definida. Quando nenhum processo de aprovação é necessário, os usuários da empresa recebem automaticamente um email informando que o pedido foi criado e aprovado.
+  >Por padrão, uma mensagem `Purchase order has been submitted for approval` é sempre exibida para usuários da empresa, mesmo quando nenhuma regra de aprovação é definida. Quando nenhum processo de aprovação é necessário, os usuários da empresa recebem automaticamente um email informando que o pedido foi criado e aprovado.
 
 - Se as regras de aprovação forem definidas pelo administrador da empresa, os usuários passarão pelo processo de aprovação.
 - Detalhes de pagamento offline são inseridos ao criar a ordem de compra.
@@ -38,7 +38,7 @@ O fluxo de trabalho da ordem de compra de uma empresa pode variar de algumas man
 
 >[!NOTE]
 >
->Ordens de Compra criar um _instantâneo_ de preços de item, descontos e preços de entrega no momento em que o pedido foi criado. Se o preço de um item for alterado depois que a OC for criada, será usado o preço original.
+>Os Pedidos de Compra criam um _instantâneo_ dos preços de item, descontos e preços de envio no momento em que o pedido foi criado. Se o preço de um item for alterado depois que a OC for criada, será usado o preço original.
 
 ### Exemplo básico de fluxo de trabalho
 
@@ -71,23 +71,23 @@ Todos esses fatores podem influenciar o processo exato de finalização.
 
 ## [!UICONTROL My Purchase Orders]
 
-Quando as ordens de compra são ativadas para uma empresa, a variável **[!UICONTROL My Purchase Orders]** O item é exibido no painel esquerdo para clientes conectados a uma conta de usuário da empresa. Há três guias que fornecem diferentes listas e funções de ordem de compra:
+Quando as ordens de compra são habilitadas para uma empresa, o item **[!UICONTROL My Purchase Orders]** é exibido no painel esquerdo para clientes conectados a uma conta de usuário da empresa. Há três guias que fornecem diferentes listas e funções de ordem de compra:
 
 - **[!UICONTROL My Purchase Orders]**: OCs criadas pelo cliente.
-- **[!UICONTROL Company Purchase Orders]**: OCs feitas por usuários subordinados na empresa (depende da estrutura e das funções da empresa).
+- **[!UICONTROL Company Purchase Orders]**: OCs feitas por usuários subordinados dentro da empresa (depende da estrutura e das funções da empresa).
 - **[!UICONTROL Requires My Approval]**: (Visível para aprovadores designados) OCs que estão aguardando a aprovação do cliente. O contador mostra quantos pedidos estão aguardando aprovação.
 
 ![Minhas Ordens de Compra](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
-Para obter mais informações sobre as funções de ordem de compra aceitas disponíveis para usuários da empresa na loja, consulte [Minhas Ordens de Compra](account-dashboard-my-purchase-orders.md).
+Para obter mais informações sobre as funções de ordem de compra com suporte disponíveis para usuários da empresa na loja, consulte [Minhas Ordens de Compra](account-dashboard-my-purchase-orders.md).
 
 ## Métodos de pagamento offline vs. online
 
-Os workflows podem variar dependendo do método de pagamento. Para saber mais sobre os métodos de pagamento do Adobe Commerce, consulte [Métodos de pagamento](../stores-purchase/payments.md) no _Guia de experiência de vendas e compras_.
+Os workflows podem variar dependendo do método de pagamento. Para saber mais sobre os métodos de pagamento da Adobe Commerce, consulte [Métodos de Pagamento](../stores-purchase/payments.md) no _Guia de Experiência de Vendas e Compras_.
 
 >[!IMPORTANT]
 >
->As ordens de compra devem usar um _No contexto_ experiência de finalização. _Fora de contexto_ os check-outs não são suportados porque eles ignoram o fluxo de check-out normal. Em geral, _No contexto_ significa que o cliente permanece no site de comércio para concluir o processo. _Fora de contexto_ é quando o cliente é levado a outro site para concluir a compra.
+>As ordens de compra devem usar uma experiência de check-out _No Contexto_. Não há suporte para _check-outs fora de contexto_ porque eles ignoram o fluxo de check-out normal. Geralmente, _Em Contexto_ significa que o cliente permanece no site de comércio para concluir o processo. _Fora de Contexto_ é quando o cliente é levado a outro site para concluir a compra.
 
 ### Pagamentos online
 

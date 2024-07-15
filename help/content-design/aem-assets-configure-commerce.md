@@ -2,7 +2,7 @@
 title: Instalar e configurar a integração do Experience Manager Assets
 description: "Saiba como instalar e configurar o  [!DNL AEM Assets Integration for Adobe Commerce]"
 feature: CMS, Media
-source-git-commit: 8d981258fcfe3515280fa8a7cc99770db7f467f4
+source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -171,8 +171,8 @@ A Integração do AEM Assets usa o serviço Adobe I/O Events para enviar dados d
 A configuração exige as seguintes etapas.
 
 1. Ative a estrutura de eventos do Commerce configurando eventos de Adobe I/O no servidor de aplicativos e no Administrador.
-1. Habilite a sincronização de dados entre o Adobe Commerce e o AEM Assets usando a API de serviço do mecanismo de regras do Assets para configurar a conexão
-1. Habilitar a integração do AEM Assets no Administrador
+1. Habilite a sincronização de dados entre o Adobe Commerce e o AEM Assets usando a API de serviço do mecanismo de regras do Assets para configurar a conexão.
+1. Habilite a integração do AEM Assets no Administrador.
 
 ### Ativar a estrutura de eventos do Commerce
 
@@ -258,7 +258,7 @@ Gere as credenciais adicionando a integração à instância do Commerce e ativa
 
    1. No painel esquerdo, clique em **[!UICONTROL API]**.
 E
-   1. Selecione o recurso de mídia externa (**[!UICONTROL Catalog > Inventory > Products > External Media]**.
+   1. Selecione o recurso de mídia externa **[!UICONTROL Catalog > Inventory > Products > External Media]**.
 
    ![Configuração de integração do administrador para recursos de API](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
@@ -281,15 +281,3 @@ Na página Integrações, gere as credenciais de autenticação do OAuth clicand
 >[!NOTE]
 >
 >Você também pode gerar credenciais de autenticação usando as APIs do Adobe Commerce. Para obter detalhes sobre esse processo e mais informações sobre a autenticação baseada em OAuth para o Adobe Commerce, consulte [Autenticação baseada em OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) na documentação do Adobe Developer.
-
-
-
-
-
-
-
-
-
-
-
-

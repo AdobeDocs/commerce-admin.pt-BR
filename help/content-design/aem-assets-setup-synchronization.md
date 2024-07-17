@@ -1,10 +1,10 @@
 ---
-title: Configurar o serviço de sincronização
+title: Habilitar sincronização de ativos
 description: "Saiba como conectar seus projetos do Adobe Commerce e do Experience Manager Assets ao Serviço de mecanismo de regras da Assets para habilitar a sincronização de ativos entre esses dois sistemas."
 feature: CMS, Media
-source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---

@@ -3,9 +3,9 @@ user-guide-title: Guia de design e conteúdo
 user-guide-description: Informações abrangentes sobre conteúdo e recursos de design para administradores de Adobe Commerce e Magento Open Source e profissionais de marketing de eCommerce.
 breadcrumb-title: Conteúdo e design
 feature: CMS, Page Content
-source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 3%
       - Integração de {#onboarding}
          - [Configurar AEM Assets](aem-assets-configure-aem.md)
          - [Configurar Adobe Commerce](aem-assets-configure-commerce.md)
-         - [Configurar serviços de sincronização](aem-assets-setup-synchronization.md)
+         - [Habilitar sincronização de ativos](aem-assets-setup-synchronization.md)
       - [Usar o AEM Assets](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Integração do Adobe Stock](adobe-stock.md)

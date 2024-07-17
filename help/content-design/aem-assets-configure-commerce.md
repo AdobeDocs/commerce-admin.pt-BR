@@ -2,9 +2,9 @@
 title: Instalar e configurar a integração do Experience Manager Assets
 description: "Saiba como instalar e configurar o  [!DNL AEM Assets Integration for Adobe Commerce]"
 feature: CMS, Media
-source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
+source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,12 @@ Instale e configure a integração do AEM Assets para o Commerce adicionando a e
 - PHP 8.1, 8.2, 8.3
 - Compositor: 2.x
 
-## Pré-requisitos
+**Requisitos de configuração**
 
 - O Adobe Commerce deve ser configurado para usar a [autenticação do Adobe IMS](/help/getting-started/adobe-ims-config.md).
-- Provisionamento e permissões de conta — Os administradores devem ter acesso aos seguintes recursos para configurar a integração com o Experience Manager Assets:
-   - Administrador do aplicativo Commerce — Instale as extensões necessárias e configure o servidor de aplicativos Commerce a partir do Admin ou da linha de comando
+- Provisionamento e permissões de conta
+   - [Administrador do projeto na nuvem do Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Instale as extensões necessárias e configure o servidor de aplicativos do Commerce a partir do Administrador ou da linha de comando
    - [Administrador do Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Atualize a configuração de armazenamento e gerencie as contas de usuário do Commerce
-   - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction) — Administrador do aplicativo Adobe IMS ou conta de usuário. A conta deve ter permissões para criar e gerenciar pastas e criar coleções públicas, fazer upload de ativos, configurar permissões e configurar metadados.
 
 ## Visão geral da configuração
 

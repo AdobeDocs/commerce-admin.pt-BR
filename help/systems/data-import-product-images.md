@@ -3,7 +3,7 @@ title: Importação de imagem do produto
 description: Saiba como importar imagens de produtos usando o caminho e o nome de arquivo de cada imagem.
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
 1. No servidor do Commerce, carregue os arquivos de imagem para a pasta `var/import/images` ou uma subpasta, como `var/import/images/product_images`. Esta é a pasta raiz padrão para importar imagens de produtos.
 
-   ```terminal
+   ```
    <Magento root folder>/var/import/images
    ```
 
@@ -50,7 +50,7 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
 1. Após selecionar o arquivo a ser importado, insira o caminho relativo após **[!UICONTROL Images File Directory]**.
 
-   ```terminal
+   ```
    var/import/images
    ```
 
@@ -68,7 +68,7 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
 1. Nos dados do CSV, insira a URL completa para cada arquivo de imagem na coluna correta por tipo de imagem (`base_image`, `small_image`, `thumbnail_image` ou `additional_images`).
 
-   ```terminal
+   ```
    https://example.com/images/image.jpg
    ```
 
@@ -78,7 +78,7 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
 1. No módulo de Armazenamento remoto, carregue os arquivos de imagem na pasta `var/import/images` ou em uma subpasta, como `var/import/images/product_images`. Esta é a pasta raiz padrão para importar imagens de produtos.
 
-   ```terminal
+   ```bash
    <remote-storage-root-folder>/var/import/images
    ```
 
@@ -100,7 +100,7 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
 1. Após selecionar o arquivo a ser importado, insira o caminho relativo após **[!UICONTROL Images File Directory]**.
 
-   ```terminal
+   ```
    var/import/images/product_images
    ```
 

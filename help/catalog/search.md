@@ -3,9 +3,9 @@ title: Visão geral da pesquisa no catálogo
 description: Saiba mais sobre as ferramentas de Pesquisa rápida e Pesquisa avançada que os clientes podem usar para localizar produtos na loja.
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 65d295694e13be2e0a0de29b8b396faa9f2c9cd4
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ As seções a seguir descrevem os recursos básicos de pesquisa do catálogo. Pa
 
 >[!NOTE]
 >
->Quando [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html) está instalado, a caixa de pesquisa retorna resultados de &quot;pesquisa ao digitar&quot; em um pop-over.
+>Quando o [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) está instalado e o widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover) está habilitado, a caixa de pesquisa retorna o resultado &quot;pesquisar ao digitar&quot; em um pop-over.
 
 A caixa de pesquisa no cabeçalho da loja ajuda os visitantes a encontrar produtos no catálogo. O texto da pesquisa pode ser o nome completo ou parcial do produto ou qualquer outra palavra ou frase que descreva o produto. Os termos de pesquisa que as pessoas usam para encontrar produtos podem ser gerenciados no Administrador.
 

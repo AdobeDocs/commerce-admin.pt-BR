@@ -4,9 +4,9 @@ description: Saiba como gerar automaticamente ou adicionar sua própria chave de
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 21be3c7a56cb72d685b2b3605bc27266e8e55f37
+source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,33 @@ Durante a instalação inicial, você será solicitado a permitir que o Commerce
 
 Para obter informações técnicas, consulte [Instalação avançada local](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) no _Guia de Instalação_.
 
-## Etapa 1: tornar o arquivo gravável
+>[!IMPORTANT]
+>
+>Antes de seguir estas instruções para alterar a chave de criptografia, verifique se o seguinte arquivo é gravável: `[your store]/app/etc/env.php`
 
-Para alterar a chave de criptografia, verifique se o seguinte arquivo é gravável: `[your store]/app/etc/env.php`
+**Para alterar uma chave de criptografia:**
 
-## Etapa 2: Alterar a chave de criptografia
+As instruções a seguir exigem acesso a um terminal.
+
+1. Habilitar [modo de manutenção](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
+
+   ```bash
+   bin/magento maintenance:enable
+   ```
+
+1. Desabilitar trabalhos cron.
+
+   _Projetos de infraestrutura em nuvem:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:disable
+   ```
+
+   _Projetos locais_
+
+   ```bash
+   crontab -e
+   ```
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
 
@@ -36,6 +58,40 @@ Para alterar a chave de criptografia, verifique se o seguinte arquivo é graváv
 
 1. Clique em **[!UICONTROL Change Encryption Key]**.
 
-1. Mantenha um registro da nova chave em um local seguro.
+   >[!NOTE]
+   >
+   >Mantenha um registro da nova chave em um local seguro. É necessário descriptografar os dados, se ocorrer algum problema com seus arquivos.
 
-   É necessário descriptografar os dados, se ocorrer algum problema com seus arquivos.
+1. Limpe o cache.
+
+   _Projetos de infraestrutura em nuvem:_
+
+   ```bash
+   magento-cloud cc
+   ```
+
+   _Projetos locais:_
+
+   ```bash
+   bin/magento cache:flush
+   ```
+
+1. Habilitar trabalhos cron.
+
+   _Projetos de infraestrutura em nuvem:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:enable
+   ```
+
+   _Projetos locais:_
+
+   ```bash
+   crontab -e
+   ```
+
+1. Desabilitar modo de manutenção.
+
+   ```bash
+   bin/magento maintenance:disable
+   ```

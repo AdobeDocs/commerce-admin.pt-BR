@@ -3,9 +3,9 @@ title: Taxa de tabela de remessa
 description: Saiba como configurar uma opção de envio com taxa de tabela para sua loja.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -117,6 +117,7 @@ A primeira etapa é concluir as configurações padrão para taxas de tabela. Vo
    - Use um asterisco (*) como um curinga que representa todos os valores possíveis em qualquer categoria.
    - A coluna _[!UICONTROL Country]_deve conter um [código de três caracteres válido][1] para cada linha.
    - Classifique os dados por _[!UICONTROL Region/State]_de modo que os locais específicos estejam no topo da lista e os locais curinga na parte inferior. O uso desse método processa as regras com os valores absolutos primeiro e depois os valores curingas.
+   - Intervalos de CEP/código postal sem suporte. Use um asterisco (*) para permitir todos os códigos dentro da região/estado ou especifique um único código para um local específico na coluna _[!UICONTROL Zip/Postal Code]_.
    - Os valores na coluna _[!UICONTROL Weight (and above)]_podem ter no máximo quatro casas decimais (como `2.5075`). Usar mais casas decimais nos dados faz com que a importação falhe.
 
    ![Peso vs. Destino (Austrália)](./assets/table-rates-weight-destination-csv.png){width="500"}

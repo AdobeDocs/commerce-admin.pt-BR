@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
+source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -359,10 +359,34 @@ Depois que os dados forem recuperados, você poderá usá-los para criar [regras
 
 Se os públicos-alvo da Real-Time CDP não estiverem sendo exibidos no Commerce, talvez seja devido a:
 
+- Conexão inválida
 - Tipo de autenticação incorreto selecionado na página de configuração **Conexão de Dados**
 - Privilégios insuficientes no token gerado
 
-As duas seções a seguir descrevem como solucionar problemas em ambos os casos.
+As seções a seguir descrevem como solucionar esses problemas.
+
+### Validar a conexão
+
+Para validar as credenciais e a resposta do Adobe Experience Platform, execute o seguinte comando:
+
+```bash
+bin/magento audiences:config:status
+```
+
+Este comando retorna o status da conexão. Adicione o sinalizador `-v` para fornecer detalhamento extra:
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+Por exemplo:
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
 
 ### Tipo de autenticação incorreto selecionado na configuração
 

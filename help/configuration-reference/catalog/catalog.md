@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Revise as configurações na página [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] do Administrador do Commerce.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 24dd1850bd14d8a8bba5d5b2adfc69ffce942837
 workflow-type: tm+mt
-source-wordcount: '3146'
+source-wordcount: '3233'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-Há duas variações da configuração da Pesquisa no Catálogo: As configurações disponíveis quando o [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) está instalado e as disponíveis para o Adobe Commerce nativo. Siga as instruções de instalação.
+Você pode configurar a Pesquisa no Catálogo usando o [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) ou serviços de mecanismo de pesquisa de terceiros aos quais a Adobe Commerce oferece suporte. Siga as instruções de instalação.
 
 ### Adobe Commerce com [!DNL Live Search]
 
@@ -254,43 +254,40 @@ Quando o Live Search é instalado, a Pesquisa no catálogo inclui as seguintes c
 
 {style="table-layout:auto"}
 
-### Adobe Commerce com Elasticsearch
+### Mecanismos de pesquisa de terceiros
 
-O Adobe Commerce nativo com Elasticsearch inclui as seguintes configurações:
-
-![Pesquisa no catálogo - Elasticsearch](./assets/catalog-search-elasticsearch.png)<!-- zoom -->
-
-<!-- [Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html) -->
+O Adobe Commerce é compatível com OpenSearch e Elasticsearch. As versões do Adobe Commerce 2.3.7-p3, 2.4.3-p2 e 2.4.4 e posteriores são compatíveis com o serviço OpenSearch. O Elasticsearch 7.11 e posterior não é compatível com o Adobe Commerce em projetos de infraestrutura em nuvem. O Elasticsearch ainda é compatível com instalações locais.
 
 >[!IMPORTANT]
 >
->Devido ao anúncio do fim de suporte do Elasticsearch 7 para agosto de 2023, é recomendável que todos os clientes do Adobe Commerce migrem para o mecanismo de pesquisa OpenSearch 2.x. Para obter informações sobre como migrar o mecanismo de pesquisa durante a atualização do produto, consulte [Migrando para o OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) no _Guia de Atualização_.
+>- Devido ao anúncio do fim de suporte do Elasticsearch 7 para agosto de 2023, o Adobe recomenda que todos os clientes do Adobe Commerce migrem para o mecanismo de pesquisa OpenSearch 2.x. Para obter informações sobre como migrar o mecanismo de pesquisa durante uma atualização, consulte [Migrando para OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) no _Guia de Atualização_.
+>- Nas versões 2.4.4 e 2.4.3-p2, todos os campos rotulados como Elasticsearch também se aplicam ao OpenSearch. Quando o suporte para o Elasticsearch 8.x foi introduzido na versão 2.4.6, novos rótulos foram criados para distinguir entre configurações Elasticsearch e OpenSearch. No entanto, as opções de configuração de ambos são as mesmas.
+
+![Opções de configuração de pesquisa no catálogo](./assets/catalog-search-opensearch.png){zoomable="yes"}
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | Exibição da loja | O número mínimo de caracteres permitidos em uma pesquisa de catálogo. O valor definido para essa opção deve ser compatível com o intervalo correspondente definido nas configurações do mecanismo de pesquisa Elasticsearch. Por exemplo, se você definir esse valor como `2` no Adobe Commerce, atualize o valor no mecanismo de pesquisa. |
-| [!UICONTROL Maximum Query Length] | Exibição da loja | O número máximo de caracteres permitidos em uma pesquisa de catálogo. O valor definido para essa opção deve ser compatível com o intervalo correspondente definido nas configurações do mecanismo de pesquisa Elasticsearch. Por exemplo, se você definir esse valor como 300 no Adobe Commerce, atualize o valor no mecanismo de pesquisa. |
+| [!UICONTROL Minimal Query Length] | Exibição da loja | O número mínimo de caracteres permitidos em uma pesquisa de catálogo. O valor definido para esta opção deve ser compatível com o intervalo correspondente definido na sua configuração OpenSearch ou Elasticsearch. Por exemplo, se você definir esse valor como `2` no Adobe Commerce, também deverá atualizar o valor na configuração do mecanismo de pesquisa. Valor padrão: `3` |
+| [!UICONTROL Maximum Query Length] | Exibição da loja | O número máximo de caracteres permitidos em uma pesquisa de catálogo. O valor definido para esta opção deve ser compatível com o intervalo correspondente definido na sua configuração de OpenSearch ou Elasticsearch. Por exemplo, se você definir esse valor como `300` no Adobe Commerce, deverá atualizar o valor na configuração do mecanismo de pesquisa. Valor padrão: `128` |
 | [!UICONTROL Number of top search results to cache] | Exibição da loja | O número de termos e resultados de pesquisa populares a serem armazenados em cache para respostas mais rápidas. Inserir um valor de `0` armazena em cache todos os termos e resultados da pesquisa quando inseridos uma segunda vez. Valor padrão: `100` |
-| [!UICONTROL Enable EAV Indexer] | Global | Determina se você deseja ativar ou desativar o indexador EAV do produto. Esse recurso melhora a velocidade de indexação e restringe o uso do indexador por extensões de terceiros. Essa opção só é exibida para os Mecanismos de pesquisa Elasticsearch ou Elasticsearch 5.0+. Opção padrão: `Yes` para habilitado |
+| [!UICONTROL Enable EAV Indexer] | Global | Determina se o indexador EAV do produto deve ser ativado ou desativado. Esse recurso melhora a velocidade de indexação e restringe o uso do indexador por extensões de terceiros. Opção padrão: `Yes` para habilitado |
 | [!UICONTROL Autocomplete Limit] | Exibição da loja | O número máximo de consultas de pesquisa a serem exibidas abaixo do campo de pesquisa para preenchimento automático de pesquisa. A restrição dessa quantidade aumenta o desempenho das pesquisas e reduz o tamanho da lista exibida. Valor padrão: `8` |
-| Mecanismo de pesquisa | Global | Identifica o mecanismo de pesquisa necessário para processar solicitações de dados de catálogo. O Elasticsearch 7.6.x é necessário para todas as instalações do Adobe Commerce. Opção: `Elasticsearch 7` |
-| [!UICONTROL Elasticsearch Server Hostname] | Global | Especifica o nome do servidor Elasticsearch. Valor padrão: `elasticsearch.internal` |
-| [!UICONTROL Elasticsearch Server Port] | Global | Especifica o número da porta do servidor usada pelo Elasticsearch. Valor padrão: `9200` |
-| [!UICONTROL Elasticsearch Index Prefix] | Global | Atribui um prefixo para identificar o índice de Elasticsearch. Valor padrão: `magento2` |
-| [!UICONTROL Enable Elasticsearch HTTP Auth] | Global | Se habilitado, usa autenticação HTTP para solicitar um nome de usuário e senha antes de acessar o Servidor Elasticsearch. Opções: `Yes` / `No` |
-| [!UICONTROL Elasticsearch HTTP Username] | Global | Quando _Habilitar Autenticação HTTP de Elasticsearch_ está definido como `Yes`, especifica o nome de usuário para autenticação HTTP de Elasticsearch. |
-| [!UICONTROL Elasticsearch HTTP Password] | Global | Quando _Habilitar Autenticação HTTP de Elasticsearch_ está definido como `Yes`, especifica a senha para autenticação HTTP de Elasticsearch. |
-| [!UICONTROL Elasticsearch Server Timeout] | Global | Determina o número de segundos antes de o servidor expirar. Valor padrão: `15` |
-| [!UICONTROL Test Connection] |  | Valida a conexão Elasticsearch. |
+| Mecanismo de pesquisa | Global | Identifica o mecanismo de pesquisa necessário para processar solicitações de dados de catálogo. As opções de configuração do mecanismo de pesquisa são as mesmas para OpenSearch e Elasticsearch. Opções: `OpenSearch` ou `Elasticsearch` |
+| [!UICONTROL OpenSearch Server Hostname] | Global | Especifica o nome do servidor host OpenSearch ou Elasticsearch. |
+| [!UICONTROL OpenSearch Server Port] | Global | Especifica o número da porta do servidor usada por OpenSearch ou Elasticsearch. Valor padrão: `9200` |
+| [!UICONTROL OpenSearch Index Prefix] | Global | Atribui um prefixo para identificar o índice OpenSearch ou Elasticsearch. Valor padrão: `magento2` |
+| [!UICONTROL Enable OpenSearch HTTP Auth] | Global | Se ativado, usa autenticação HTTP para solicitar um nome de usuário e senha antes de acessar o servidor OpenSearch ou Elasticsearch. Opções: `Yes` / `No` |
+| [!UICONTROL OpenSearch HTTP Username] | Global | Quando _Habilitar Autenticação HTTP de Elasticsearch_ está definido como `Yes`, especifica o nome de usuário para OpenSearch ou autenticação HTTP de Elasticsearch. |
+| [!UICONTROL OpenSearch HTTP Password] | Global | Quando _Habilitar Autenticação HTTP de Elasticsearch_ está definido como `Yes`, especifica a senha para OpenSearch ou autenticação HTTP de Elasticsearch. |
+| [!UICONTROL OpenSearch Server Timeout] | Global | Determina o número de segundos antes que uma solicitação para o servidor OpenSearch ou Elasticsearch atinja o tempo limite. Valor padrão: `15` |
+| [!UICONTROL Test Connection] |  | Valida a conexão OpenSearch ou Elasticsearch. |
 | [!UICONTROL Enable Search Recommendations] | Exibição da loja | Determina se as recomendações de pesquisa são oferecidas quando uma pesquisa não retorna resultados e aparece na seção `Related search terms` da página de resultados da pesquisa. Opções: `Yes` / `No` <br/>Quando definido como Sim, opções adicionais são exibidas para _[!UICONTROL Search Recommendations Count]_e_[!UICONTROL Shows Results Count for Each Recommendation]_. |
 | [!UICONTROL Search Recommendations Count] | Exibição da loja | Especifica o número de termos de pesquisa oferecidos como recomendações. Por padrão, não são mostradas mais de cinco. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Exibição da loja | Quando definido como `Yes`, o número de produtos encontrados para a recomendação de pesquisa proposta é mostrado entre parênteses. Opções: `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | Exibição da loja | Determina se as sugestões de pesquisa aparecem para erros ortográficos comuns. Quando habilitadas, sugestões de pesquisa são oferecidas para qualquer solicitação que não retorne resultados e apareça na seção `Did you mean` da página **Resultados da pesquisa**. As sugestões de pesquisa podem afetar o desempenho da pesquisa. Quando definido como `Yes`, opções adicionais são exibidas para Habilitar Recommendations de Pesquisa e campos associados. Opções: `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | Exibição da loja | Determina o número de sugestões de pesquisa oferecidas. Por exemplo: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | Exibição da loja | Determina se o número de resultados da pesquisa é mostrado para cada sugestão. Dependendo do tema, o número geralmente aparece entre parênteses após a sugestão. Opções: `Yes` / `No` |
-| [!UICONTROL Minimum Terms to Match] | Exibição da loja | Especifica um valor que corresponde ao número de termos da sua consulta que os resultados da pesquisa devem corresponder para serem retornados. Isso garante a relevância ideal dos resultados para os compradores. Os valores percentuais estão correlacionados a um número e, se necessário, são arredondados para baixo e usados como o número mínimo de termos a serem correspondidos em seu query. O valor pode ser um número inteiro negativo ou positivo, um percentual negativo ou positivo, uma combinação dos dois ou várias combinações. Para saber mais, consulte o [parâmetro minimum_should_match](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) na documentação do Elasticsearch. |
-
-{style="table-layout:auto"}
+| [!UICONTROL Minimum Terms to Match] | Exibição da loja | Especifica um valor que corresponde ao número de termos da sua consulta que os resultados da pesquisa devem corresponder para serem retornados. Isso garante a relevância ideal dos resultados para os compradores. Os valores percentuais estão correlacionados a um número e, se necessário, são arredondados para baixo e usados como o número mínimo de termos a serem correspondidos em seu query. O valor pode ser um número inteiro negativo ou positivo, um percentual negativo ou positivo, uma combinação dos dois ou várias combinações. Para saber mais, consulte o [parâmetro minimum_should_match](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) na documentação do OpenSearch. |
 
 ## [!UICONTROL Downloadable Product Options]
 

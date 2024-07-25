@@ -3,16 +3,16 @@ title: Persistência do carrinho
 description: Saiba como um carrinho de compras persistente rastreia itens de carrinho não comprados e salva as informações da próxima visita do cliente.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: ea3aae3fce7f5e18155138b2bb9e7df0b3831fdd
+source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
 
 # Persistência do carrinho
 
-Um carrinho de compras persistente rastreia itens não comprados no carrinho e salva as informações. Esse processo garante que o conteúdo do carrinho de compras permaneça acessível quando a sessão conectada expirar.
+Um carrinho de compras persistente salva uma referência na conta do cliente no dispositivo atual, garantindo que o conteúdo do carrinho permaneça acessível quando a sessão conectada expirar.
 
 Se um cliente for _lembrado_, o conteúdo de seu carrinho de compras permanecerá acessível no dispositivo atual quando a sessão conectada expirar. Depois que a sessão expira, o carrinho de compras do cliente é acessado usando a sessão persistente do carrinho. Se o mesmo cliente fizer logon em outro dispositivo ou navegador, adicionar algo ao carrinho de compras e retornar ao dispositivo com uma sessão persistente ativa, o carrinho de compras será atualizado com os itens adicionados.
 

@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
+source-git-commit: 0690430d3c6ac6a58a2ef98045148de8ad6a4bad
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30 de maio de 2023_
 ![Novo](../assets/new.svg) - O [painel de Públicos-alvo da Real-Time CDP](#real-time-cdp-audiences-dashboard) foi atualizado para incluir a capacidade de classificar, pesquisar e filtrar os públicos-alvo ativos na sua instância do Adobe Commerce.
 
 +++
+
+### 2.3.0
+
+[!BADGE Compatibilidade]{type=Informative tooltip="Compatibilidade"}
+
+_29 de julho de 2024_
+
+![Novo](../assets/new.svg) - Sintaxe de linha de comando adicionada para que você possa [testar credenciais](#validate-the-connection) para determinar se elas precisam ser atualizadas para obter dados de público-alvo da Adobe Experience Platform.
 
 ### 2.2.0
 

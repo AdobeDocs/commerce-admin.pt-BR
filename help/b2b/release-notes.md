@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notas de versão'
 description: Revise as notas de versão para obter informações sobre as alterações nas versões  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: ce05d8bdcff783ed2aae78c3bea7470819af5b4d
+source-git-commit: 5e9aaa4ff59b34a1ff76083eeae82f87e457f23b
 workflow-type: tm+mt
-source-wordcount: '6904'
+source-wordcount: '6967'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ A versão B2B v1.5.0-beta inclui novos recursos, melhorias de qualidade e corre�
 
 >[!IMPORTANT]
 >
->O Adobe Commerce B2B versão 1.4.2+ é compatível com o PHP 8.2. Se você atualizar a instância do Commerce para a versão 2.4.7+, certifique-se de que a instância usa o PHP versão 8.2 para manter a compatibilidade com o Adobe Commerce versão B2B.
+>O Adobe Commerce B2B versão 1.4.2+ é compatível com o PHP 8.2. Se você atualizar a instância do Commerce para a versão 2.4.7+, certifique-se de que a instância usa o PHP versão 8.2 para manter a compatibilidade com o Adobe Commerce versão B2B. Além disso, o B2B 1.4.2+ atualmente não oferece suporte ao [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 
 ## B2B v1.4.2
@@ -81,9 +81,13 @@ A versão B2B v1.5.0-beta inclui novos recursos, melhorias de qualidade e corre�
 
 [!BADGE Com suporte]{type=Informative tooltip="Compatível"}
 
-A versão B2B v1.4.2 inclui melhorias de qualidade e correções de erros
+A versão B2B v1.4.2 inclui melhorias de qualidade e correções de erros.
 
 ![Problema corrigido](../assets/fix.svg) <!--B2B-2897-->Se um Vendedor criar uma cotação de comprador que inclua uma SKU de produto não disponível no catálogo compartilhado associado à empresa compradora, o sistema exibirá a mensagem de erro `The SKU you entered is not available in the shared catalog. Please check the SKU and try again`.  O Vendedor não pode salvar a cotação até que ele remova o produto que não está disponível. Anteriormente, a cotação era salva com o SKU indisponível incluído e a cotação não era carregada na loja.
+
+>[!IMPORTANT]
+>
+>O Adobe Commerce B2B versão 1.4.2+ é compatível com o PHP 8.2. Se você atualizar a instância do Commerce para a versão 2.4.7+, certifique-se de que a instância usa o PHP versão 8.2 para manter a compatibilidade com o Adobe Commerce versão B2B. Além disso, o B2B 1.4.2+ atualmente não oferece suporte ao [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.1
 

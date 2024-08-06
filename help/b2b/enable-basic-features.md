@@ -4,9 +4,9 @@ description: Saiba mais sobre como ativar recursos B2B para sua loja da Adobe Co
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ As definições das configurações desses recursos ficam visíveis somente quan
 Os recursos [!DNL Quick Order] e [!DNL Requisition List] B2B podem ser habilitados e desabilitados independentemente.
 
 ## Configurar recursos B2B
+
+As opções para configurar recursos B2B do Adobe Commerce estão disponíveis apenas em projetos Commerce que têm a [extensão B2B do Adobe Commerce instalada](install.md).
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

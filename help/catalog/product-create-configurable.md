@@ -3,9 +3,9 @@ title: Produto configurável
 description: Saiba como criar um produto configurável que forneça variações para seleção aos compradores.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2506'
 ht-degree: 0%
 
 ---
@@ -377,6 +377,8 @@ O _Status do Estoque_ do produto configurável é parcialmente controlado pelo S
 - O [Status do Stock](../inventory-management/sources-stocks.md) de um produto configurável é uma configuração controlada semimensalmente. É diferente do status do estoque do produto simples, onde é uma representação direta da disponibilidade do produto. Para um produto configurável, o status do estoque faz parte de um cálculo de status do estoque com vários critérios.
 
 - Os produtos derivados configuráveis podem ser produtos simples ou virtuais **sem opções personalizadas**. Para tornar virtuais os produtos personalizados derivados, você deve selecionar `Тhis item has no weight` para a configuração **[!UICONTROL Weight]** para cada um deles.
+
+- Todos os produtos derivados são atribuídos e desatribuídos do produto configurável **_globalmente_** para todos os sites, lojas e exibições de loja ao mesmo tempo.
 
 - Um produto configurável não tem seu próprio preço no catálogo. O preço do produto configurável é derivado de seus [!UICONTROL In Stock] produtos derivados.
 

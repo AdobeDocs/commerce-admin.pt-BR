@@ -3,9 +3,9 @@ title: Produto do pacote
 description: Saiba como criar um pacote de produtos que permita aos compradores criar um produto personalizado em sua loja.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -274,6 +274,8 @@ O status do estoque de produtos do pacote é **_não alterado automaticamente pa
 ## Coisas para lembrar
 
 ![Caixa de seleção](../assets/checkbox.png) Os clientes podem _criar seu próprio produto de pacote_.
+
+![Caixa de seleção](../assets/checkbox.png) Todos os produtos derivados são atribuídos e desatribuídos do produto de pacote **_globalmente_** para todos os sites, lojas e exibições de loja ao mesmo tempo.
 
 ![Caixa de seleção](../assets/checkbox.png) Os itens do pacote podem ser produtos simples ou virtuais sem opções personalizadas.
 

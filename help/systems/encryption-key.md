@@ -4,9 +4,9 @@ description: Saiba como gerar automaticamente ou adicionar sua própria chave de
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: cbe4cfd59b1cacbac22a01ca96617f52bcdd7d3a
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 O Adobe Commerce e o Magento Open Source usam uma chave de criptografia para proteger senhas e outros dados confidenciais. Um algoritmo [!DNL ChaCha20-Poly1305] padrão do setor é usado com uma chave de 256 bits para criptografar todos os dados que exigem criptografia. Isso inclui dados de cartão de crédito e senhas de integração (módulo de pagamento e envio). Além disso, um algoritmo de hash seguro forte (SHA-256) é usado para executar o hash de todos os dados que não exigem descriptografia.
 
-Durante a instalação inicial, você será solicitado a permitir que o Commerce gere uma chave de criptografia ou a inserir uma de sua preferência. A ferramenta encryption key permite alterar a chave conforme necessário. A chave de criptografia deve ser alterada regularmente para melhorar a segurança e, a qualquer momento, a chave original pode ser comprometida. Sempre que a chave é alterada, todos os dados herdados são recodificados usando a nova chave.
+Durante a instalação inicial, você será solicitado a permitir que o Commerce gere uma chave de criptografia ou a inserir uma de sua preferência. A ferramenta encryption key permite alterar a chave conforme necessário. A chave de criptografia deve ser alterada regularmente para melhorar a segurança e, a qualquer momento, a chave original pode ser comprometida.
 
 Para obter informações técnicas, consulte [Instalação avançada local](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) no _Guia de Instalação_.
 

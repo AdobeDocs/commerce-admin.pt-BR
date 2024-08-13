@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Revise as configurações na página [!UICONTROL Security] &gt; [!UICONTROL 2FA] do Administrador do Commerce.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | Global | Indica os métodos de autenticação de dois fatores necessários. Se você selecionar mais de um provedor, cada usuário deverá configurar cada método 2FA na próxima vez que fizer logon. |
 | [!UICONTROL Configuration Email URL for Web API] | Global | Para implementações personalizadas, a URL para um link alternativo de configuração de email que é enviado aos usuários _Administrador_ no primeiro logon. No modelo de email, use o espaço reservado `:tfat` para indicar onde o token é inserido. |
+| [!UICONTROL Retry attempt limit for Two-Factor Authentication] | Global | Determina quantas vezes um administrador pode inserir um [!DNL one-time password (OTP)] antes que sua conta seja temporariamente desabilitada. Padrão: `10` |
+| [!UICONTROL Two-Factor Authentication lockout time (seconds)] | Global | Determina quanto tempo (em segundos) um administrador pode esperar para inserir um [!DNL one-time password (OTP)] antes que sua conta seja temporariamente desabilitada. Padrão: `300` |
 
 {style="table-layout:auto"}
 
@@ -37,7 +39,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | Global | Determina quanto tempo (em segundos) o sistema aceita a senha ocasional (OTP) de um administrador após a expiração. Não pode ser maior do que o tempo de vida de um único OTP (geralmente 30 segundos). Padrão: `29` |
+| [!UICONTROL OTP Window] | Global | Determina quanto tempo (em segundos) o sistema aceita o [!DNL one-time-password (OTP)] de um administrador após a expiração. Não pode ser maior do que o tempo de vida de um único OTP (geralmente 30 segundos). Padrão: `29` |
 
 {style="table-layout:auto"}
 

@@ -4,7 +4,7 @@ description: Saiba mais sobre o suporte à autenticação de dois fatores para g
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Você pode assistir a esta [demonstração em vídeo](https://video.tv.adobe.com
 
    Para selecionar vários métodos, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada item.
 
-1. Conclua as configurações para cada método 2FA necessário.
+1. Conclua as [configurações](../configuration-reference/security/2fa.md) para cada método 2FA necessário.
 
    ![Configuração de segurança - 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 

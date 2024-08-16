@@ -3,9 +3,9 @@ title: Conjuntos de atributos
 description: Saiba como organizar atributos em grupos, que determinam onde eles aparecem no registro do produto.
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 43550b9370f4ed4b631ae7773324ed0913718a79
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Os atributos são organizados em grupos que determinam onde eles aparecem no reg
 
 1. Defina **[!UICONTROL Based On]** para um conjunto de atributos existente para ser usado como modelo.
 
-1. clique em **[!UICONTROL Save]**.
+1. Clique em **[!UICONTROL Save]**.
 
    A próxima página exibe o seguinte:
 
@@ -38,7 +38,7 @@ Os atributos são organizados em grupos que determinam onde eles aparecem no reg
    - O centro da página lista a seleção atual de grupos de atributos.
    - A coluna direita lista a seleção de atributos que não estão designados ao conjunto de atributos no momento.
 
-1. Para adicionar um atributo ao conjunto, arraste o atributo da lista **[!UICONTROL Unassigned Attributes]** para a pasta apropriada na coluna **[!UICONTROL Groups]**.
+1. Para adicionar um atributo ao conjunto, arraste o atributo da lista **[!UICONTROL Unassigned Attributes]** para a pasta apropriada na coluna **[!UICONTROL Groups]**. Para remover um atributo do conjunto, arraste-o para a lista **[!UICONTROL Unassigned Attributes]**.
 
    >[!NOTE]
    >
@@ -58,6 +58,7 @@ Os atributos são organizados em grupos que determinam onde eles aparecem no reg
 
    - Arraste **[!UICONTROL Unassigned Attributes]** para o novo grupo.
    - Arraste os atributos de qualquer outro grupo para o novo grupo.
+   - Arraste atributos desnecessários para **[!UICONTROL Unassigned Attributes]**.
 
    O novo grupo se torna uma seção de atributos em qualquer produto baseado no conjunto de atributos.
 

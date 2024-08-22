@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: Saiba como usar o [!DNL Google Tag Manager] para gerenciar as várias tags (trechos de código) relacionadas aos eventos de campanha de marketing nos sites do Adobe Commerce.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-O [!DNL Google Tag Manager] ajuda você a gerenciar as várias tags (trechos de código) relacionadas aos eventos de campanha de marketing. O [!DNL Google Tag Manager] oferece a capacidade de adicionar tags de rastreamento ao seu site para medir a audiência ou personalizar, redirecionar ou conduzir iniciativas de marketing de mecanismo de pesquisa.
+O [!DNL Google Tag Manager] é uma ferramenta poderosa que ajuda você a gerenciar e implantar com eficiência várias tags (trechos de código) associadas aos eventos de campanha de marketing. O [!DNL Google Tag Manager] oferece a capacidade de adicionar tags de rastreamento ao seu site para medir a audiência ou personalizar, redirecionar ou conduzir iniciativas de marketing de mecanismo de pesquisa.
 
 O [!DNL Google Tag Manager] transfere dados e eventos diretamente para o [!DNL Google Analytics], Enhanced Ecommerce e outras soluções de análise de terceiros para produzir uma imagem clara do desempenho de seu site, de seus produtos e promoções.
 
@@ -137,24 +137,6 @@ As instruções a seguir mostram como configurar um novo container com as config
 >[!NOTE]
 >
 >Cada contêiner está associado a um site e você só precisa de um contêiner por conta. Se você tiver uma instância do Commerce com vários sites, precisará de containers separados.
-
-## Etapa 4. Adicionar o código GTM à loja da Adobe Commerce
-
-1. Para copiar o código GTM, vá para **[!UICONTROL Admin]** > **[!UICONTROL Install Google Tag Manager]**.
-
-   Há dois trechos de código GTM a serem adicionados ao seu site do Commerce: o primeiro para a tag `<head>` e o segundo para a tag `<body>`.
-
-1. No Administrador do Commerce, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**e abra o modo de exibição de loja no modo de edição.
-
-1. Em _[!UICONTROL Other Settings]_, expanda **[!UICONTROL HTML Head]**e cole o código copiado do GTM para a marca `<head>` no campo **[!UICONTROL Scripts and Style Sheets]**.
-
-   ![Inserindo código no Cabeçalho do HTML](./assets/head-tag.png){width="600" zoomable="yes"}
-
-1. Expanda **[!UICONTROL Footer]** e cole o código GTM de `<body>` no campo **[!UICONTROL Miscellaneous HTML]**.
-
-   ![Inserindo código no Rodapé](./assets/footer-tag-section.png){width="600" zoomable="yes"}
-
-1. Quando terminar, clique em **[!UICONTROL Save Configuration]**.
 
 ## Descrições dos campos
 

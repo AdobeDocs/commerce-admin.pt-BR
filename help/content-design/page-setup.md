@@ -2,9 +2,9 @@
 title: Configuração da página
 description: Saiba como configurar os padrões para as partes principais de uma página de loja.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ As configurações na seção HTML Head correspondem à tag `<head>` de uma pág
    - **[!UICONTROL Default Meta Keywords]**
 
 1. Insira qualquer **[!UICONTROL Scripts and Style Sheets]**, conforme necessário.
+
+   >[!NOTE]
+   >
+   >Todas as JavaScript inseridas no campo [!UICONTROL Scripts and Style Sheets] devem estar na lista de permissões nas configurações da Política de segurança de conteúdo (CSP), caso contrário, elas não serão executadas nas páginas de Check-out. Para obter mais informações, consulte [Política de Segurança de Conteúdo](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
 
 1. Habilite ou desabilite o [aviso de loja de demonstração](../getting-started/storefront-branding.md#set-the-store-demo-notice), se necessário.
 
@@ -118,6 +123,10 @@ A seção Configuração do rodapé é onde você pode atualizar o [aviso de dir
 1. Em _Outras Configurações_, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Footer]**.
 
 1. Faça as alterações necessárias nas configurações de **[!UICONTROL Copyright]** e **[!UICONTROL Miscellaneous HTML]**.
+
+   >[!NOTE]
+   >
+   >Todas as JavaScript inseridas no campo [!UICONTROL Miscellaneous HTML] devem estar na lista de permissões nas configurações da Política de segurança de conteúdo (CSP), caso contrário, elas não serão executadas nas páginas de Check-out. Para obter mais informações, consulte [Política de Segurança de Conteúdo](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 1. Quando terminar, clique em **[!UICONTROL Save Configuration]**.
 

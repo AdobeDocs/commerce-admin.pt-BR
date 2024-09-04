@@ -3,9 +3,9 @@ title: Atualizações programadas de produto
 description: Saiba como agendar alterações nas listas de produtos para dar suporte a campanhas e programas promocionais.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ A alteração programada é exibida na parte superior da página do produto, com
 1. Na caixa _[!UICONTROL Scheduled Changes]_, na parte superior da página, clique em **[!UICONTROL View/Edit]**.
 
 1. Faça as alterações necessárias na atualização agendada.
+
+>[!NOTE]
+>
+>Se uma campanha estiver vinculada a mais de um produto, ela só poderá ser editada no [Painel de preparação de conteúdo](../content-design/content-staging-dashboard.md).
 
 1. Clique em **[!UICONTROL Save]**.
 

@@ -3,9 +3,9 @@ title: Alterações agendadas para regras de preço de catálogo
 description: Saiba como aplicar regras de preço de catálogo conforme agendado como parte de uma campanha e agrupado com outras alterações de conteúdo.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ Se houver várias regras de preço em execução na mesma campanha, a configura�
 1. Na caixa **[!UICONTROL Scheduled Changes]**, na parte superior da página, clique em **[!UICONTROL View/Edit]**.
 
 1. Faça as alterações necessárias na atualização agendada.
+
+   >[!NOTE]
+   >
+   >Se uma campanha estiver vinculada a mais de uma regra de preço de catálogo, ela só poderá ser editada no [Painel de Preparo de Conteúdo](../content-design/content-staging-dashboard.md).
 
 1. Clique em **[!UICONTROL Save]**.
 

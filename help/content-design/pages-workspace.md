@@ -3,9 +3,9 @@ title: Controles do espaço de trabalho de página
 description: Saiba mais sobre as ferramentas do espaço de trabalho usadas para localizar e atualizar páginas de conteúdo.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,10 @@ Clique no controle _Exibir_ (![Ícone de olho](../assets/icon-view-eye.png)) e s
 {{ee-feature}}
 
 As alterações na página podem ser aplicadas de acordo com o agendamento e agrupadas com outras alterações de conteúdo. Você pode criar uma campanha com base em alterações agendadas em uma página ou aplicar as alterações a uma campanha existente. Para obter mais informações, consulte [Preparo de conteúdo](content-staging.md).
+
+>[!NOTE]
+>
+>Se uma campanha estiver vinculada a mais de uma página, ela só poderá ser editada no [Painel de preparação de conteúdo](content-staging-dashboard.md).
 
 >[!NOTE]
 >

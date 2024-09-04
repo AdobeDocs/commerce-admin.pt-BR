@@ -3,9 +3,9 @@ title: Criar uma regra de preço de carrinho
 description: Saiba como criar uma regra de preço de carrinho com base nos atributos de carrinho ou produto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7058e08de0de72999b3baf7762126be4e9040dba
+source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Complete as etapas a seguir para adicionar uma regra, descrever as condições e
 
    >[!NOTE]
    >
-   >As regras de preço do carrinho com a mesma prioridade não resultam em um desconto combinado. Cada regra é aplicada à correspondência de produtos separadamente, um por um.
+   >As regras de preço do carrinho com a mesma prioridade não resultam em um desconto combinado. Cada regra (cupom) é aplicada separadamente aos produtos correspondentes, um por um, de acordo com a ID da regra de preço do carrinho no banco de dados. Para controlar a ordem em que os descontos são aplicados, a Adobe recomenda definir uma prioridade diferente para cada regra de preço de carrinho adicionada.
 
 1. Para aplicar a regra aos [RSS feeds](social-rss.md#rss-feeds) publicados, defina **Público no RSS Feed** como `Yes`.
 

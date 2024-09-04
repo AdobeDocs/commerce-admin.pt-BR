@@ -3,9 +3,9 @@ title: Códigos de cupom
 description: Saiba como usar códigos de cupons com regras de preço de carrinho para aplicar um desconto quando um conjunto de condições é atendido.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
+source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Os códigos de cupons são usados com [regras de preço do carrinho](price-rules
 Os códigos de cupom podem ser enviados por email ou incluídos em boletins informativos, catálogos e anúncios. A lista de códigos de cupom pode ser exportada e enviada para uma impressora comercial. Você também pode criar cupons na loja com um código de resposta rápida que os compradores podem digitalizar com seus smartphones. O código QR pode ser vinculado a uma página em seu site com mais informações sobre a promoção.
 
 A partir do Commerce 2.4.7, os compradores podem aplicar vários cupons a um carrinho. Os comerciantes também podem aplicar vários cupons usando a assistência para compras.
+
+>[!NOTE]
+>
+>As regras de preço do carrinho com a mesma prioridade não resultam em um desconto combinado. Cada regra (cupom) é aplicada separadamente aos produtos correspondentes, um por um, de acordo com a ID da regra de preço do carrinho no banco de dados. Para controlar a ordem em que os descontos são aplicados, a Adobe recomenda definir uma prioridade diferente para cada regra de preço de carrinho adicionada.
 
 ## Configurar códigos de cupom
 

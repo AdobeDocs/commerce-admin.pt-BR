@@ -3,9 +3,9 @@ title: Ordens de compra para empresas
 description: Saiba mais sobre os workflows de ordem de compra que permitem que as empresas rastreiem e controlem os gastos.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
+source-git-commit: c1d8bdcd2d09567846ef6819660c57468062ab01
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ O fluxo de trabalho da ordem de compra de uma empresa pode variar de algumas man
   >Por padrão, uma mensagem `Purchase order has been submitted for approval` é sempre exibida para usuários da empresa, mesmo quando nenhuma regra de aprovação é definida. Quando nenhum processo de aprovação é necessário, os usuários da empresa recebem automaticamente um email informando que o pedido foi criado e aprovado.
 
 - Se as regras de aprovação forem definidas pelo administrador da empresa, os usuários passarão pelo processo de aprovação.
+- Se várias regras de aprovação se aplicarem a uma ordem de compra, todos os aprovadores exclusivos necessários deverão aprová-la.
 - Detalhes de pagamento offline são inseridos ao criar a ordem de compra.
 - Os detalhes do pagamento online são inseridos após a aprovação da ordem de compra.
 
@@ -57,7 +58,7 @@ As regras de aprovação são usadas para controlar os gastos com base nas diret
 - Qualquer pedido acima de US$ 1.000 precisa da aprovação do seu gerente e do administrador da empresa.
 - Qualquer pedido com mais de 30 SKUs exclusivas precisa da aprovação do administrador da empresa.
 
-Com essas regras em vigor para uma empresa, um usuário da empresa pode concluir o pedido imediatamente quando o pedido for inferior a US$ 100. Para saber mais sobre a definição da regra de aprovação, consulte [Regras de aprovação](account-dashboard-approval-rules.md)
+Com essas regras em vigor para uma empresa, um usuário da empresa pode concluir o pedido imediatamente quando o pedido for inferior a US$ 100. Para saber mais sobre a definição da regra de aprovação, consulte [Regras de aprovação](account-dashboard-approval-rules.md).
 
 ### Tipos de usuários de loja
 

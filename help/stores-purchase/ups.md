@@ -3,9 +3,9 @@ title: UPS (United Parcel Service, serviço de encomendas unificado)
 description: Saiba como configurar o UPS como uma transportadora para sua loja.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Para oferecer esse método de envio aos seus clientes, primeiro abra uma conta n
 
    - Defina **[!UICONTROL Mode]** como `Live` para enviar dados ao sistema de envio do UPS através de uma conexão segura. (O modo de desenvolvimento não envia dados por uma conexão segura.)
 
-   - Verifique o **[!UICONTROL Gateway URL]** que é necessário para enviar solicitações. Use um URL de sandbox para o modo de teste e um URL de produção para solicitações ativas.
+   - Verifique o **[!UICONTROL Gateway URL]** que é necessário para enviar solicitações. Use uma URL de sandbox (`https://wwwcie.ups.com/`) para o modo de teste e uma URL de produção para solicitações ativas (`https://onlinetools.ups.com`). Certifique-se de usar os respectivos endpoints para cada solicitação com o host fornecido.
 
-   - Verifique o **[!UICONTROL Tracking URL]** que é necessário para obter informações de rastreamento. Use um URL de sandbox para o modo de teste e um URL de produção para solicitações ativas.
+   - Verifique o **[!UICONTROL Tracking URL]** que é necessário para obter informações de rastreamento. Use uma URL de sandbox (`https://wwwcie.ups.com/`) para o modo de teste e uma URL de produção para solicitações ativas (`https://onlinetools.ups.com`). Certifique-se de usar os respectivos endpoints para cada solicitação com o host fornecido.
 
    - Defina **[!UICONTROL Origin of the Shipment]** para a região de origem da remessa.
 
@@ -50,8 +50,8 @@ Para oferecer esse método de envio aos seus clientes, primeiro abra uma conta n
 
    - Defina **[!UICONTROL Live Account]** como um dos seguintes:
 
-      - `Yes` - Executa UPS no modo de produção e oferece UPS como um método de envio para seus clientes.
-      - `No` - Executa UPS em um modo de teste.
+      - `Yes` - Executa UPS no modo de produção e oferece UPS como um método de envio para seus clientes. Use os endpoints corretos em URL do gateway e URL de rastreamento.
+      - `No` - Executa UPS em um modo de teste. Use os endpoints corretos em URL do gateway e URL de rastreamento.
 
    >[!NOTE]
    >

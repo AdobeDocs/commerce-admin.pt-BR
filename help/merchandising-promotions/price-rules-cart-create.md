@@ -3,9 +3,9 @@ title: Criar uma regra de preço de carrinho
 description: Saiba como criar uma regra de preço de carrinho com base nos atributos de carrinho ou produto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
+source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3386'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Complete as etapas a seguir para adicionar uma regra, descrever as condições e
 
    >[!NOTE]
    >
-   >A configuração de Prioridade é importante quando duas regras de carrinho/códigos de cupom são válidas para o mesmo produto ao mesmo tempo. A regra com a configuração de Prioridade mais alta (`1` sendo a mais alta) controla a ação do carrinho. Consulte _Descartar Regras de Preços Subsequentes_ na etapa _Definir as Ações_.
+   >A configuração _[!UICONTROL Priority]_é importante quando duas regras de carrinho ou códigos de cupom são válidos para o mesmo produto ao mesmo tempo. A regra com a configuração [!UICONTROL Priority] mais alta que controla a ação do carrinho.  As prioridades da mais alta para a mais baixa são `0,1,2,3...`. Consulte_ Descartar Regras de Preços Subsequentes _na etapa_[ Definir as Ações ](#step-3-define-the-actions)_.
 
    >[!NOTE]
    >
@@ -350,7 +350,7 @@ Assista a este vídeo para saber mais sobre como criar regras de preço de carri
 | [!UICONTROL Coupon] | (Obrigatório) Indica se um cupom está associado à regra. Opções: <br/>**[!UICONTROL No Coupon]**- Nenhum cupom está associado à regra.<br/>**[!UICONTROL Specific Coupon]** - Cupom específico associado à regra. <br/>**[!UICONTROL Coupon Code]**- Quando solicitado, insira o Código do Cupom que o cliente deve inserir para aproveitar a promoção.<br/>**[!UICONTROL Use Auto Generation]** - Marque a caixa de seleção para gerar automaticamente vários códigos de cupom que podem ser usados com a promoção. <br/>**[!UICONTROL Auto]**- Exibe a seção _[!UICONTROL Manage Coupon Codes]_para definir o formato dos códigos de cupom a serem gerados. |
 | [!UICONTROL Uses per Coupon] | Determina quantas vezes o código do cupom pode ser usado. Se não houver limite, deixe o campo em branco. |
 | [!UICONTROL Uses per Customer] | Determina quantas vezes a regra de preço do carrinho pode ser usada pelo mesmo cliente registrado que pertence a qualquer grupo de clientes selecionado. Não se aplica a compradores de convidados que são membros do grupo de clientes NÃO CONECTADOS, ou a clientes que compram sem fazer logon em suas contas. Para sem limite, deixe em branco. |
-| [!UICONTROL Priority] | Um número que indica a prioridade dessa regra em relação a outras. A prioridade mais alta é o número `1`. |
+| [!UICONTROL Priority] | Um número que indica a prioridade dessa regra em relação a outras. As prioridades da mais alta para a mais baixa são `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Determina se a promoção está incluída no RSS feed público da loja. Opções:  `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) A primeira data em que o cupom pode ser usado. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) A última data em que o cupom pode ser usado. |

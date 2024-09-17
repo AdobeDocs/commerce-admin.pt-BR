@@ -3,9 +3,9 @@ title: Criar uma regra de preço de catálogo
 description: Saiba como criar uma regra de preço de catálogo que aplica um desconto a produtos específicos sempre que um conjunto de condições é atendido.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Siga estas instruções para aplicar um desconto a produtos específicos sempre 
 
    >[!NOTE]
    >
-   >A configuração _[!UICONTROL Priority]_é importante quando o mesmo produto de catálogo atende às condições definidas para mais de uma regra de preço. A regra com a configuração de prioridade mais alta (1 sendo a mais alta) se torna ativa para o produto.
+   >A configuração _[!UICONTROL Priority]_é importante quando o mesmo produto de catálogo atende às condições definidas para mais de uma regra de preço. A regra com a configuração de prioridade mais alta (as prioridades da mais alta para a mais baixa são 0,1,2,3...) se torna ativa para o produto.
 
 ## Etapa 2: definir as condições
 
@@ -236,7 +236,7 @@ Assista a este vídeo para saber mais sobre como criar regras de preço de catá
 | [!UICONTROL Description] | Uma descrição da regra deve incluir a finalidade da regra e explicar como ela é usada. |
 | [!UICONTROL Websites] | (Obrigatório) Identifica os sites nos quais a regra pode ser usada. |
 | [!UICONTROL Customer Groups] | (Obrigatório) Identifica os grupos de clientes aos quais a regra se aplica. |
-| [!UICONTROL Priority] | Um número que indica a prioridade dessa regra em relação a outras. A prioridade mais alta é o número 1. |
+| [!UICONTROL Priority] | Um número que indica a prioridade dessa regra em relação a outras. As prioridades da mais alta para a mais baixa são `0,1,2,3...` |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Determina se a regra está ativa no armazenamento. Opções: `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Especifica o primeiro dia em que a regra de preço está em vigor. Se deixado em branco, a regra de preço entra em vigor quando é salva. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Especifica o último dia em que a regra de preço está em vigor. Se deixado em branco, a regra de preço continuará indefinidamente. |

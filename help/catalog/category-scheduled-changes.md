@@ -3,9 +3,9 @@ title: Alterações agendadas para categorias
 description: Saiba como agendar alterações de categoria para oferecer suporte a campanhas de marketing e promoções de loja.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 714904d6d81bde6374a5ce644262de252c70a391
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 
 As atualizações de categoria podem ser aplicadas de acordo com o agendamento e agrupadas com outras alterações de conteúdo. Você pode criar uma campanha com base em alterações agendadas na categoria ou aplicar as alterações a uma campanha existente. Para saber mais, consulte [Preparo de conteúdo](../content-design/content-staging.md).
 
->[!NOTE]
->
->A guia [!UICONTROL Schedule Design Update] foi removida do Adobe Commerce ![Adobe Commerce](../assets/adobe-logo.svg) e não pode ser modificada diretamente na categoria. Você deve criar uma atualização agendada para essas ativações.
+Ao programar alterações para categorias, lembre-se do seguinte:
+
+- Todas as atualizações programadas são aplicadas consecutivamente, o que significa que qualquer entidade pode ter apenas uma atualização programada de cada vez. Qualquer atualização agendada é aplicada a todas as exibições de loja dentro de seu período de tempo. Como resultado, uma entidade não pode ter várias atualizações agendadas para diferentes exibições de loja ao mesmo tempo. Todos os valores de atributo de entidade em todas as exibições de armazenamento, que não são afetados pela atualização agendada atual, são obtidos dos valores padrão, e não da atualização agendada anterior.
+
+- Se uma campanha estiver vinculada a mais de uma categoria, ela só poderá ser editada no [Painel de preparação de conteúdo](../content-design/content-staging-dashboard.md).
+
+- Se uma campanha estiver vinculada a mais de uma categoria, ela só poderá ser editada no [Painel de preparação de conteúdo](../content-design/content-staging-dashboard.md).
 
 >[!NOTE]
 >
->Todas as atualizações programadas são aplicadas consecutivamente, o que significa que qualquer entidade pode ter apenas uma atualização programada de cada vez. Qualquer atualização agendada é aplicada a todas as exibições de loja dentro de seu período de tempo. Como resultado, uma entidade não pode ter várias atualizações agendadas para diferentes exibições de loja ao mesmo tempo. Todos os valores de atributo de entidade em todas as exibições de armazenamento, que não são afetados pela atualização agendada atual, são obtidos dos valores padrão, e não da atualização agendada anterior.
+>A guia [!UICONTROL Schedule Design Update] foi removida do Adobe Commerce ![Adobe Commerce](../assets/adobe-logo.svg) e não pode ser modificada diretamente na categoria. Você deve criar uma atualização agendada para essas ativações.
 
 ## Programar uma atualização para uma categoria
 
@@ -69,7 +73,3 @@ As atualizações de categoria podem ser aplicadas de acordo com o agendamento e
 1. Faça as alterações necessárias na atualização agendada.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
-
-   >[!NOTE]
-   >
-   >Se uma campanha estiver vinculada a mais de uma categoria, ela só poderá ser editada no [Painel de preparação de conteúdo](../content-design/content-staging-dashboard.md).

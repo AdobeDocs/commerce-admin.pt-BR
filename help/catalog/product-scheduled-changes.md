@@ -3,9 +3,9 @@ title: Atualizações programadas de produto
 description: Saiba como agendar alterações nas listas de produtos para dar suporte a campanhas e programas promocionais.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 2cdf3452f1648dc1ed607d6dfb5ade4be5ed5ce9
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,20 @@ ht-degree: 0%
 
 As atualizações de produtos podem ser aplicadas de acordo com o agendamento e agrupadas com outras alterações de conteúdo. Você pode usar a [preparação de conteúdo](../content-design/content-staging.md) para criar uma campanha com base nas alterações agendadas do produto ou aplicar as alterações a uma campanha existente.
 
+Ao configurar programações para atualizações de produtos e editar campanhas, lembre-se do seguinte:
+
+- Todas as atualizações programadas são aplicadas consecutivamente, o que significa que qualquer entidade pode ter apenas uma atualização programada de cada vez. Qualquer atualização agendada é aplicada a todas as exibições de loja dentro de seu período de tempo. Como resultado, uma entidade não pode ter atualizações agendadas diferentes para exibições de loja diferentes ao mesmo tempo. Todos os valores de atributo de entidade em todas as exibições de armazenamento, que não são afetados pela atualização agendada atual, são obtidos dos valores padrão, e não da atualização agendada anterior.
+
+- Uma visualização de preparo para uma atualização agendada sempre começa no modo de exibição de repositório **padrão**, que emula a experiência do cliente de navegar pela campanha de atualização de preparo.
+
+- Se uma campanha estiver vinculada a mais de um produto, ela só poderá ser editada no [Painel de preparação de conteúdo](../content-design/content-staging-dashboard.md).
+
+- Se uma campanha ativa for criada inicialmente sem uma data de término, a campanha não poderá ser editada posteriormente para incluir uma data de término. Nesse caso, é necessário criar uma campanha duplicada e inserir a data final necessária.
+
+
 >[!NOTE]
 >
 >Os campos [!UICONTROL Set Product as New From] e [!UICONTROL To] e a guia [!UICONTROL Schedule Design Update] foram removidos do Adobe Commerce ![Adobe Commerce](../assets/adobe-logo.svg) e não podem ser modificados diretamente no produto. Você deve criar uma atualização agendada para essas ativações.
-
->[!NOTE]
->
->Todas as atualizações programadas são aplicadas consecutivamente, o que significa que qualquer entidade pode ter apenas uma atualização programada de cada vez. Qualquer atualização agendada é aplicada a todas as exibições de loja dentro de seu período de tempo. Como resultado, uma entidade não pode ter atualizações agendadas diferentes para exibições de loja diferentes ao mesmo tempo. Todos os valores de atributo de entidade em todas as exibições de armazenamento, que não são afetados pela atualização agendada atual, são obtidos dos valores padrão, e não da atualização agendada anterior.
-
->[!NOTE]
->
->Uma visualização de preparo para uma atualização agendada sempre começa no modo de exibição de repositório **padrão**, que emula a experiência do cliente de navegar pela campanha de atualização de preparo.
 
 ## Criar uma atualização agendada
 
@@ -86,10 +89,6 @@ A alteração programada é exibida na parte superior da página do produto, com
 
 1. Faça as alterações necessárias na atualização agendada.
 
->[!NOTE]
->
->Se uma campanha estiver vinculada a mais de um produto, ela só poderá ser editada no [Painel de preparação de conteúdo](../content-design/content-staging-dashboard.md).
-
 1. Clique em **[!UICONTROL Save]**.
 
 ## Remover a alteração agendada
@@ -102,9 +101,7 @@ A alteração programada é exibida na parte superior da página do produto, com
 
 1. Na caixa de diálogo, selecione **[!UICONTROL Delete the Update]** e clique em **[!UICONTROL Done]**.
 
-   >[!NOTE]
-   >
-   >O produto é removido da atualização e todas as alterações agendadas são perdidas.
+   O produto é removido da atualização e todas as alterações agendadas são perdidas.
 
 ## Programar uma atualização de design
 

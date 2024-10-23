@@ -3,9 +3,9 @@ title: Painel de preparo de conteúdo
 description: Use o painel de preparo de conteúdo para acessar uma visão geral de todas as campanhas ativas e futuras.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Os objetos de campanha existentes podem ser editados no painel de preparo, excet
 
 >[!NOTE]
 >
->Se uma campanha que inclui uma regra de preço for criada inicialmente sem uma data final, a campanha não poderá ser editada posteriormente para incluir uma data final. Nesse caso, é necessário criar uma campanha duplicada e inserir a data final necessária.
+>Se uma campanha ativa for criada inicialmente sem uma data de término, a campanha não poderá ser editada posteriormente para incluir uma data de término. Nesse caso, é necessário criar uma campanha duplicada e inserir a data final necessária.
 
 ![Detalhes da campanha](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
 

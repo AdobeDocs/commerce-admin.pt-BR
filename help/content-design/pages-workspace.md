@@ -3,9 +3,9 @@ title: Controles do espaço de trabalho de página
 description: Saiba mais sobre as ferramentas do espaço de trabalho usadas para localizar e atualizar páginas de conteúdo.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -200,22 +200,21 @@ Clique no controle _Exibir_ (![Ícone de olho](../assets/icon-view-eye.png)) e s
 
 As alterações na página podem ser aplicadas de acordo com o agendamento e agrupadas com outras alterações de conteúdo. Você pode criar uma campanha com base em alterações agendadas em uma página ou aplicar as alterações a uma campanha existente. Para obter mais informações, consulte [Preparo de conteúdo](content-staging.md).
 
->[!NOTE]
->
->Se uma campanha estiver vinculada a mais de uma página, ela só poderá ser editada no [Painel de preparação de conteúdo](content-staging-dashboard.md).
+Ao configurar agendas para alterações de página e editar campanhas, lembre-se do seguinte:
+
+- Todas as atualizações agendadas são aplicadas consecutivamente, o que significa que qualquer entidade pode ter apenas uma atualização agendada em um ponto. Qualquer atualização agendada é aplicada a todas as exibições de loja dentro de seu período de tempo. Como resultado, uma entidade não pode ter uma atualização agendada diferente para diferentes exibições de loja ao mesmo tempo. Todos os valores de atributo de entidade em todas as exibições de armazenamento, que não são afetados pela atualização agendada atual, são obtidos dos valores padrão, e não da atualização agendada anterior.
+
+- Se uma campanha estiver vinculada a mais de uma página, ela só poderá ser editada no [Painel de preparação de conteúdo](content-staging-dashboard.md).
+
+- Se uma campanha ativa for criada inicialmente sem uma data de término, a campanha não poderá ser editada posteriormente para incluir uma data de término. Nesse caso, é necessário criar uma campanha duplicada e inserir a data final necessária.
+
+- A data de início e a data de término da campanha devem ser definidas usando o fuso horário padrão **_1} do administrador, que é convertido do fuso horário local de cada site._** Considere um exemplo em que você tem vários sites em fusos horários diferentes, mas deseja iniciar uma campanha com base em um fuso horário dos EUA. Nesse caso, você deve agendar uma atualização separada para cada fuso horário local e definir **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** como convertidos de cada fuso horário de site local para o fuso horário padrão do Administrador.
+
+- Você pode agendar e visualizar alterações para atualizações de produtos. Para obter mais informações, consulte [Agendando uma Atualização](content-staging-scheduled-update.md).
 
 >[!NOTE]
 >
 >A guia [!UICONTROL Custom Design Update] foi removida no Adobe Commerce ![Adobe Commerce](../assets/adobe-logo.svg) e não pode ser modificada diretamente na página. Você deve criar uma atualização agendada para essas ativações.
 
->[!NOTE]
->
->Todas as atualizações agendadas são aplicadas consecutivamente, o que significa que qualquer entidade pode ter apenas uma atualização agendada em um ponto. Qualquer atualização agendada é aplicada a todas as exibições de loja dentro de seu período de tempo. Como resultado, uma entidade não pode ter uma atualização agendada diferente para diferentes exibições de loja ao mesmo tempo. Todos os valores de atributo de entidade em todas as exibições de armazenamento, que não são afetados pela atualização agendada atual, são obtidos dos valores padrão, e não da atualização agendada anterior.
-
 ![A Home page exibe as alterações agendadas na parte superior](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
->[!NOTE]
->
->A data de início e a data de término da campanha devem ser definidas usando o fuso horário padrão **_1} do administrador, que é convertido do fuso horário local de cada site._** Considere um exemplo em que você tem vários sites em fusos horários diferentes, mas deseja iniciar uma campanha com base em um fuso horário dos EUA. Nesse caso, você deve agendar uma atualização separada para cada fuso horário local e definir **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** como convertidos de cada fuso horário de site local para o fuso horário padrão do Administrador.
-
-Além disso, você pode agendar e visualizar alterações para atualizações de produtos. Para obter mais informações, consulte [Agendando uma Atualização](content-staging-scheduled-update.md).

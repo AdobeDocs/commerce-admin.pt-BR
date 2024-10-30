@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] notas de versão'
 description: Revise as notas de versão para obter informações sobre as alterações nas versões  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: a63af8ac948422e4c6dd64408eaa48252b771d7f
+source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
 workflow-type: tm+mt
-source-wordcount: '7198'
+source-wordcount: '7776'
 ht-degree: 0%
 
 ---
@@ -22,47 +22,84 @@ Essas notas de versão para a extensão B2B capturam adições e correções que
 >
 >Consulte [Disponibilidade do produto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) para obter informações sobre versões da extensão B2B do Commerce com suporte para versões disponíveis do Adobe Commerce.
 
-## B2B 1.5.0-beta
 
-{{$include /help/_includes/b2b-beta-note.md}}
+## B2B 1.5.0
 
-*13 de novembro de 2023*
+*30 de outubro de 2024*
 
 [!BADGE Com suporte]{type=Informative tooltip="Compatível"}
+Compatível com o Adobe Commerce versões 2.4.8-beta1, 2.4.7 a 2.4.7-p2, 2.4.6 a 2.4.6-p7
 
-A versão B2B v1.5.0-beta inclui novos recursos, melhorias de qualidade e correções de erros.
+A versão B2B v1.5.0 inclui novos recursos, melhorias de qualidade e correções de erros.
 
-![Novas](../assets/new.svg) As melhorias nos recursos de cotação ajudam compradores e vendedores a gerenciar cotações e negociações de cotações com mais eficiência.
+### Gerenciamento da Empresa
 
-- **Salvar Cotação como Rascunho**<!--B2B-2566-->—Ao criar uma [solicitação de cotação](quote-request.md) do carrinho de compras, os compradores agora podem salvar a cotação como rascunho selecionando **[!UICONTROL Save as Draft]** no formulário [!UICONTROL Request a Quote].
+![Novo](../assets/new.svg) **Gerenciamento de Empresas**<!--B2B-2901-->—Os comerciantes agora podem exibir e gerenciar empresas da Adobe Commerce como organizações hierárquicas, atribuindo empresas a empresas principais designadas. Depois que uma empresa é atribuída a uma empresa principal, o administrador da empresa principal pode gerenciar a conta da empresa. Somente usuários administradores autorizados podem adicionar e gerenciar atribuições da empresa. Para obter detalhes, consulte [Gerenciar hierarquia da empresa](manage-company-hierarchy.md).
 
-  A cotação de rascunho não tem uma data de expiração. Os compradores podem revisar e atualizar cotações de rascunho na seção [!UICONTROL My Quotes] do painel de conta.
+- Adicione e gerencie atribuições de empresa da nova seção *[!UICONTROL Company Hierarchy]* na página *[!UICONTROL Company Account]* do Administrador.
+
+- Classifique e filtre empresas pela nova configuração *[!UICONTROL Company Type]*. Na grade de empresas, a coluna *[!UICONTROL Company Type]* indica se uma empresa é uma empresa individual ou parte da hierarquia organizacional (pai ou filho).
+
+![Novo](../assets/new.svg) **Gerenciar a configuração da empresa na escala**<!--B2B-2849-->—Altere rapidamente as configurações da empresa para empresas selecionadas usando a ação em massa *[!UICONTROL Change company setting]* agora disponível ao gerenciar empresas da grade *[!UICONTROL Companies]* ou *[!UICONTROL Company Hierarchy]*. Por exemplo, se você criar um novo catálogo compartilhado para um grupo de empresas, poderá alterar a configuração do catálogo compartilhado em uma única ação, em vez de editar cada empresa individualmente.
+
+![Novos](../assets/new.svg) Desenvolvedores de API podem usar o novo ponto de extremidade de API REST de Relações da Empresa `/V1/company/{parentId}/relations` para criar, exibir e remover atribuições da empresa. Consulte [Gerenciar objetos da empresa](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) no *Guia do Desenvolvedor da API Web*.
+
+### Contas da empresa
+
+![Novo](../assets/new.svg)<!--B2B-2828--> **Atribuição multiempresa** — Simplifique o acesso à conta da empresa para usuários da empresa atribuindo um usuário a várias empresas. Por exemplo, se você tiver um comprador que faz pedidos de vários locais da empresa, crie uma única conta e atribua todas as empresas com as quais o comprador trabalha a essa conta. Em seguida, o comprador pode fazer logon uma vez e alternar entre as contas da empresa escolhendo a empresa na loja.
+
+>[!NOTE]
+>
+>Um usuário da empresa pode ser atribuído a várias empresas, mas ele pode ser o administrador da empresa somente para uma empresa.
+
+![Novo](../assets/new.svg) <!--B2B-2747--> **Seletor de escopo da empresa** — Fornece aos usuários da empresa atribuídos a várias empresas a capacidade de alterar empresas na loja. Quando o escopo é alternado, os dados são atualizados para mostrar as informações com base no novo contexto da empresa. Por exemplo, se a nova empresa usar um catálogo compartilhado diferente, o usuário da empresa verá produtos, preços e outras informações com base no novo catálogo compartilhado. O conteúdo relacionado a pedidos, cotações e modelos de cotação também é atualizado com base no contexto da empresa selecionada.
+
+>[!NOTE]
+>
+>Se o usuário da empresa trocar as empresas por itens no carrinho de compras, atualize o carrinho para refletir a variedade do produto, os preços e os descontos promocionais com base no novo contexto da empresa.
+
+![Problema corrigido](../assets/fix.svg)<!--ACP2E-1933--> Os administradores da empresa agora podem adicionar usuários da empresa pela loja. Anteriormente, o Commerce registrava um erro quando um usuário administrador tentava adicionar um novo usuário: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+### Cotas e Modelos de Cotação
+
+As melhorias nos recursos de cotação ajudam os Compradores e os Vendedores a gerenciar cotações e negociações de cotações com mais eficiência.
+
+![Novo](../assets/new.svg) **Modelos de cotação**—<!--B2B-3367-->Compradores e vendedores agora podem simplificar o processo de cotação criando modelos de cotação reutilizáveis e personalizáveis. Usando modelos de cota, o processo de negociação de cota pode ser concluído uma vez e os compradores podem gerar cotas vinculadas pré-aprovadas para ordens repetitivas em vez de passar pelo processo de negociação de cota para cada ordem. Os modelos de cota estendem a funcionalidade de cota existente adicionando os seguintes recursos avançados:
+
+- **Limites de pedidos** permitem que os vendedores definam compromissos de pedidos mínimos e máximos, garantindo que o comprador siga os volumes de compras acordados.
+- **A definição de quantidades mínimas e máximas de ordem de item** oferece ao comprador a flexibilidade de ajustar quantidades de ordem na cotação vinculada sem exigir um novo modelo ou negociação adicional.
+- **Rastreie o número de cotações vinculadas geradas e ordens concluídas com êxito** para obter informações sobre o cumprimento de contratos negociados.
+- **Cotações vinculadas** são cotações pré-aprovadas que o comprador gera a partir de um modelo de cotação ativo para enviar ordens recorrentes com base nas condições negociadas no modelo de cotação.
+
+![Novo](../assets/new.svg) **melhorias nos recursos de cotação existentes**
+
+- **As regras atualizadas da Lista de Controle de Acesso (ACL) da Commerce** permitem que gerentes e supervisores B2B gerenciem cotações e modelos de cotações de usuários subordinados. Regras separadas oferecem suporte à configuração granular para acesso de visualização, edição e exclusão.
+
+- **Salvar Cotação como Rascunho**<!--B2B-2566-->—Ao criar uma [solicitação de cotação](quote-request.md) do carrinho de compras, os compradores agora podem salvar a cotação como rascunho para que possam revisá-la e atualizá-la antes de iniciar o processo de negociação de cotação com o vendedor. A cotação de rascunho não tem uma data de expiração. Os compradores podem revisar e atualizar cotações de rascunho na seção [!UICONTROL My Quotes] do painel de conta.
 
 - **Renomear Cotação**<!--B2B-2596-->—Os compradores agora podem alterar o nome de uma cotação na página [Detalhes da cotação](account-dashboard-my-quotes.md#quote-actions) selecionando a opção **[!UICONTROL Rename]**. Essa opção está disponível para compradores autorizados ao editar a cotação. Os eventos de alteração de nome são registrados no Log de Histórico de Cotações.
 
 - **Cotação Duplicada**<!--B2B-2701--> — Compradores e vendedores agora podem criar uma nova cotação copiando uma cotação existente. Uma cópia é criada a partir da exibição de detalhes da Cotação selecionando **[!UICONTROL Create Copy]** na [exibição de detalhes da Cotação](quote-price-negotiation.md#button-bar) na Administração ou na [Loja](account-dashboard-my-quotes.md#quote-actions).
 
-- **Bloqueio de desconto de item de linha**<!--B2B-2597-->—Durante a negociação de cotações, os vendedores podem usar o bloqueio de desconto de item de linha para obter mais flexibilidade ao aplicar descontos. Por exemplo, um Vendedor pode aplicar um desconto de item de linha especial a um item e bloquear o item para evitar mais descontos. Quando um item está bloqueado, o preço do item não pode ser atualizado quando um desconto em nível de cotação é aplicado. Consulte [Iniciar cotação para um comprador](sales-rep-initiates-quote.md).
+- **Mover item de cotação para lista de requisição**<!--B2B-2755-->—Os compradores agora têm a flexibilidade de remover produtos de uma cotação e salvá-los em uma lista de requisições se decidirem não incluí-los no processo de negociação de cota.
 
-![Novo ](../assets/new.svg)**Gerenciamento de Empresas**<!--B2B-2901-->—Os comerciantes agora podem exibir e gerenciar empresas da Adobe Commerce como organizações hierárquicas, atribuindo empresas a empresas principais designadas. Depois que uma empresa é atribuída a uma empresa principal, o administrador da empresa principal pode gerenciar a conta da empresa. Somente usuários administradores autorizados podem adicionar e gerenciar atribuições da empresa. Para obter detalhes, consulte [Gerenciar hierarquia da empresa](assign-companies.md).
+- **Remover vários produtos de uma cotação**<!--B2B-2881-->—Em cotações com um grande número de produtos, os compradores agora podem remover vários produtos da cotação selecionando-os e usando a opção *[!UICONTROL Remove]* do controle *[!UICONTROL Actions]* na página Detalhes da cotação. Em versões anteriores, um comprador tinha que excluir um produto de cada vez.
 
-- Na página Empresas, um novo campo **[!UICONTROL Company Type]** identifica empresas principais e secundárias. Os comerciantes podem filtrar a exibição da empresa por tipo de empresa e gerenciar empresas usando itens de linha ou ações em massa.
+- **Bloqueio de desconto de item de linha**<!--B2B-2597-->—Durante a negociação de cota, os vendedores podem usar o bloqueio de desconto de item de linha para obter mais flexibilidade ao aplicar descontos durante o processo de negociação de cota. Por exemplo, um Vendedor pode aplicar um desconto de item de linha especial a um item e bloquear o item para evitar mais descontos. Quando um item está bloqueado, o preço do item não pode ser atualizado quando um desconto em nível de cotação é aplicado. Consulte [Iniciar cotação para um comprador](sales-rep-initiates-quote.md).
 
-- Os comerciantes podem adicionar e gerenciar atribuições da empresa na nova seção **[!UICONTROL Company Hierarchy]** na página [!UICONTROL Company Account].
+![Problema corrigido](../assets/fix.svg) **Correções para recursos de cotação existentes**
 
-- Os desenvolvedores de API podem usar o novo ponto de extremidade da API REST de Relações da Empresa `/V1/company/{parentId}/relations` para criar, exibir e remover atribuições da empresa. Consulte [Gerenciar objetos da empresa](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) no *Guia do Desenvolvedor da API Web*.
+- Os comerciantes que clicam no botão *[!UICONTROL Print]* na exibição de detalhes da Cotação no Administrador agora são solicitados a salvar a cotação como um PDF. Anteriormente, os comerciantes eram redirecionados para uma página que continha detalhes de cotação. <!--ACP2E-1984-->
 
-![Problema corrigido](../assets/fix.svg)<!--ACP2E-1984-->Os comerciantes que clicam no botão **[!UICONTROL Print]** na exibição Detalhe da cotação no Administrador agora são solicitados a salvar a cotação como um PDF. Anteriormente, os comerciantes eram redirecionados para uma página que continha detalhes de cotação.
+- Anteriormente, ao enviar uma cotação de cliente com porcentagem de `0` e alterar a quantidade, o administrador lança uma exceção, mas salva a quantidade. Depois que essa correção for aplicada, para a exceção adequada `0 percentage`, uma mensagem será emitida. <!--ACP2E-1742-->
 
-![Correção de um problema](../assets/fix.svg) <!--ACP2E-1742-->Anteriormente, ao enviar uma cotação de cliente com porcentagem 0 e alterar a quantidade, o administrador lança uma exceção, mas salva a quantidade. Depois que essa correção for aplicada, para a exceção adequada `0 percentage`, uma mensagem será emitida.
+- Durante a negociação da cotação, um vendedor agora pode especificar um desconto de `0%` no campo Desconto da cotação da cotação negociada e enviar a cotação de volta ao comprador. Anteriormente, se o vendedor tivesse inserido um desconto de 0% e devolvesse a cotação ao comprador, o Administrador retornaria uma mensagem de erro `Exception occurred during quote sending`. <!--ACP2E-1742-->
 
-![Problema corrigido](../assets/fix.svg) <!--ACP2E-1742-->Durante a negociação da cotação, um vendedor agora pode especificar um desconto de `0%` no campo Desconto da cotação da cotação da cotação negociada e enviar a cotação de volta ao comprador. Anteriormente, se o vendedor tivesse inserido um desconto de 0% e devolvesse a cotação ao comprador, o Administrador retornaria uma mensagem de erro `Exception occurred during quote sending`.
+- A validação do ReCaptcha agora funciona corretamente durante o processo de finalização de uma cotação B2B quando o ReCaptcha V3 é configurado para finalização de loja. Anteriormente, a validação falhava com uma mensagem de erro `recaptcha validation failed, please try again`.  <!--ACP2E-2097-->
 
-![Correção de um problema](../assets/fix.svg) <!--ACP2E-2097-->A validação do ReCaptcha agora funciona corretamente durante o processo de check-out para uma cotação B2B quando o ReCaptcha V3 está configurado para check-out de loja. Anteriormente, a validação falhava com uma mensagem de erro `recaptcha validation failed, please try again`.
+### Ordens de Compra
 
 ![Problema corrigido](../assets/fix.svg) <!--ACP2E-1825-->Ordens de compra não podem mais ser feitas por um usuário associado à empresa após o bloqueio dela. Anteriormente, um usuário associado à empresa podia fazer pedidos de compra quando a empresa era bloqueada.
-
-![Problema corrigido](../assets/fix.svg)<!--ACP2E-1933-->Os administradores da empresa agora podem adicionar usuários da empresa pela loja. Anteriormente, o Commerce registrava um erro quando um usuário administrador tentava adicionar um novo usuário: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.2-p3
 

@@ -4,16 +4,16 @@ description: Saiba mais sobre as contas de usuário da empresa e como elas funci
 exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
 role: Admin, User
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
 # Gerenciar contas de usuário da empresa
 
-Os usuários da empresa são atribuídos pelo administrador da empresa e ficam visíveis no Administrador na grade _[!UICONTROL Customers]_pelo tipo de cliente_[!UICONTROL Company User]_. Normalmente, esses indivíduos são compradores com diferentes níveis de permissão para acessar serviços e recursos da loja.
+Na loja, os usuários da empresa são atribuídos pelo administrador da empresa e ficam visíveis na página _[!UICONTROL Company Users]_. Normalmente, esses indivíduos são compradores com diferentes níveis de permissão para acessar serviços e recursos da loja.
 
 O administrador da empresa primeiro configura a [estrutura da empresa](account-company-structure.md) e depois conclui as seguintes tarefas, conforme necessário:
 
@@ -21,9 +21,11 @@ O administrador da empresa primeiro configura a [estrutura da empresa](account-c
 
 - Defina funções e permissões e atribua usuários a funções
 
->[!IMPORTANT]
->
->Os usuários da empresa podem ser adicionados, editados ou removidos somente pelo administrador da empresa. A remoção não pode ser revertida porque o usuário foi removido da estrutura da empresa.
+Os usuários da empresa podem ser adicionados, editados, desativados ou excluídos somente pelo administrador da empresa.
+
+- Quando um usuário é removido, o status da conta muda para *inativo* e o cliente não pode mais fazer logon na empresa. Os administradores ainda podem acessar todo o conteúdo associado ao usuário. O administrador da conta pode restaurar o acesso alterando o status da conta de *[!UICONTROL Active]* para [!UICONTROL Company Users].
+
+- Quando uma conta de usuário é excluída, a conta e qualquer conteúdo associado são excluídos da loja. Esta ação não pode ser revertida.
 
 ## Adicionar usuários da empresa
 
@@ -41,8 +43,7 @@ O administrador da empresa primeiro configura a [estrutura da empresa](account-c
 
      ![Adicionar novo usuário](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
 
-   - Preenche os campos restantes conforme necessário para o usuário:
-
+   - Adiciona as informações do usuário nos campos restantes:
       - **[!UICONTROL First Name]** e **[!UICONTROL Last Name]**
       - **[!UICONTROL Email]**
       - **[!UICONTROL Phone Number]**
@@ -57,19 +58,12 @@ O administrador da empresa primeiro configura a [estrutura da empresa](account-c
 
 Para economizar tempo durante o primeiro pedido, o administrador da empresa pode lembrar cada usuário da empresa de adicionar o endereço padrão de entrega e cobrança da empresa ao seu [catálogo de endereços](../customers/account-dashboard-address-book.md).
 
-## Editar usuários da empresa
+## Remover um usuário do [!UICONTROL Company structure]
 
-1. Na loja, o administrador da empresa faz logon em sua conta.
+Os administradores da empresa podem remover um usuário do [!UICONTROL Company Structure].
 
-1. No painel esquerdo, escolhe **[!UICONTROL Company Users]**.
-
-1. Localiza o registro de usuário a ser atualizado e clica em **[!UICONTROL Edit]**.
-
-1. Faz as alterações necessárias.
-
-1. Quando terminar, clica em **[!UICONTROL Save]**.
-
-## Remover um usuário da empresa
+Após a remoção de uma conta, seu status muda para *inativo*, e o usuário não pode mais fazer logon na loja.
+O administrador pode reativar uma conta editando as informações da conta do usuário na página Usuários da empresa.
 
 1. Na loja, o administrador da empresa faz logon em sua conta.
 
@@ -77,15 +71,53 @@ Para economizar tempo durante o primeiro pedido, o administrador da empresa pode
 
 1. Seleciona o usuário da empresa na estrutura da empresa.
 
-1. Cliques **[!UICONTROL Delete Selected]**.
+1. Cliques **[!UICONTROL Remove from Structure]**.
 
    ![Excluir usuário](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
-1. Quando for solicitada a confirmação, clique em **[!UICONTROL Delete]**.
+1. Quando for solicitada a confirmação, clique em **[!UICONTROL Remove]**.
 
-No Administrador, o usuário da empresa permanece listado na grade [Clientes](../customers/customers-all.md), mas com o status `Inactive`.
+   No Administrador, o usuário da empresa permanece listado na grade [Clientes](../customers/customers-all.md), mas com o status `Inactive`.
 
-## Descrições dos campos
+## Exibir e gerenciar contas de usuário da empresa
+
+Os administradores da empresa podem exibir e gerenciar contas de usuários da empresa usando os filtros de exibição na página [!UICONTROL Company Users].
+
+![Usuários da empresa](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+
+- Exibir somente usuários inativos selecionando **[!UICONTROL Show Inactive Users]**.
+- Exibir somente usuários ativos selecionando **[!UICONTROL Show Active Users]**.
+- Exiba todos os usuários selecionando **[!UICONTROL Show All Users]**.
+
+O administrador da empresa pode gerenciar uma conta individual usando o item de linha *[!UICONTROL Actions]* para editar as informações da conta, gerenciar o status da conta ou excluir uma conta.
+
+### Editar informações da conta de usuário da empresa
+
+Os administradores da empresa podem atualizar as informações de perfil da conta do usuário e alterar o status da conta.
+
+1. Na página [!UICONTROL Company Users], encontre a conta de usuário a ser atualizada. Clique em **[!UICONTROL Edit]**.
+
+1. Faça as alterações necessárias nas informações da conta do usuário, incluindo a alteração do status da conta.
+
+1. Aplicar as alterações clicando em **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>Se você editar uma conta de usuário da empresa e observar que faltam informações obrigatórias sobre a conta no perfil, como cargo e número de telefone, isso indicará que a conta foi adicionada por um administrador do site do Commerce. Essas contas não podem ser editadas na loja. Para atualizar informações ou alterar o status da conta, entre em contato com o administrador do site.
+
+### Desativar ou excluir uma conta ativa
+
+1. Na página [!UICONTROL Company Users], encontre a conta de usuário a ser atualizada. Clique em **[!UICONTROL Manage]**.
+
+   ![Gerenciar usuário na página Usuários da Empresa](./assets/company-users-manage-storefront.png){width="600" zoomable="yes"}
+
+1. Quando solicitado, desative ou exclua a conta do usuário, conforme necessário.
+
+>[!IMPORTANT]
+>
+>Excluir uma conta de usuário da empresa remove a conta e todo o conteúdo associado do sistema. Esta ação não pode ser revertida.
+
+## Descrições dos campos de perfil da conta de usuário da empresa
 
 | Campo | Descrição |
 |--------------|---------------|

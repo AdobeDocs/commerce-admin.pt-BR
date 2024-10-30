@@ -4,9 +4,9 @@ description: Saiba como um vendedor pode criar uma cota para um comprador espec�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
+source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,15 @@ Depois de criar a cotação preliminar, adicione itens de produto, aplique desco
 
    - No campo [!UICONTROL Discount], insira o valor do tipo de desconto. Por exemplo, se você selecionou uma porcentagem de desconto, insira 10 para aplicar um desconto de 10% ao item de linha.
 
-   - [!BADGE 1.5.0-recursos beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponível somente para participantes do programa Beta"}
+   - Opcionalmente, bloqueie o valor de desconto do item de linha para que o preço do produto não seja reduzido ainda mais por descontos aplicados no nível da cota.
 
      Após confirmar a alteração, os atributos de item de linha na grade de produtos são atualizados para mostrar o valor do desconto aplicado. Se o desconto estiver bloqueado, um ícone de bloqueio será exibido.
+
+   Um Representante de Vendas pode solicitar um desconto de um item de linha específico em uma cota.
+
+   >[!NOTE]
+   >
+   >Para ver uma demonstração em vídeo de como funcionam os descontos no item de linha, consulte [O Representante de Vendas aplica desconto a um item de linha de cotação](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) em _Vídeos e Tutorials do Commerce_.
 
 1. Aplique um desconto em nível de cotação conforme necessário:
 
@@ -90,6 +96,14 @@ Depois de criar a cotação preliminar, adicione itens de produto, aplique desco
    ![O vendedor adiciona informações para o comprador](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
    Por padrão, um [arquivo anexado](configure-quotes.md) pode ter até 2 MB, em qualquer um dos seguintes formatos de arquivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG ou JPEG, PNG.
+
+1. Adicionar endereço de entrega durante as negociações.
+
+   Um Representante de Vendas pode fazer uma seleção de entrega e distribuição depois que o comprador tiver adicionado um endereço de entrega à cotação.
+
+   As opções de envio são bloqueadas no check-out.
+
+   Para obter mais informações, consulte [Minhas cotações](account-dashboard-my-quotes.md#adding-a-shipping-address).
 
 1. Processar a cotação.
 

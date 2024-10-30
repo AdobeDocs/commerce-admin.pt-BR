@@ -4,9 +4,9 @@ description: Saiba mais sobre como ativar recursos B2B para sua loja da Adobe Co
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Por padrão, todos os recursos B2B são inicialmente desativados. Um administrad
 
 Quando você habilita o suporte para empresas do cliente, os recursos B2B adicionais são habilitados automaticamente:
 
-- [!DNL Shared Catalog]
+- [[!DNL Shared Catalog]](catalog-shared.md)
 
   Oferece suporte à configuração de preço personalizado para diferentes empresas e também permite permissões de categoria para todas as lojas.
 
@@ -25,7 +25,7 @@ Quando você habilita o suporte para empresas do cliente, os recursos B2B adicio
 
   Melhora o desempenho do site, armazenando somente os produtos atribuídos a um catálogo compartilhado no índice de preços. Habilitar esse recurso é uma prática recomendada para comerciantes que têm muitos catálogos compartilhados para gerenciar preços personalizados para diferentes empresas.
 
-- [!DNL B2B Quotes]
+- [[!DNL B2B Quotes]](quotes.md)
 
   Oferece aos vendedores e compradores da empresa a capacidade de negociar preços.
 
@@ -35,7 +35,7 @@ Quando você habilita o suporte para empresas do cliente, os recursos B2B adicio
 
 As definições das configurações desses recursos ficam visíveis somente quando [!DNL Enable Company] está definido como `Yes`.
 
-Os recursos [!DNL Quick Order] e [!DNL Requisition List] B2B podem ser habilitados e desabilitados independentemente.
+Os recursos B2B [[!DNL Quick Order]](quick-order.md) e [[!DNL Requisition List]](requisition-lists.md) podem ser habilitados e desabilitados independentemente.
 
 ## Configurar recursos B2B
 
@@ -52,6 +52,8 @@ As opções para configurar recursos B2B do Adobe Commerce estão disponíveis a
    - Permitir que os clientes gerenciem suas próprias contas da empresa e habilitem o suporte para recursos B2B adicionais definindo **[!UICONTROL Enable Company]** como `Yes`.
 
      Quando você ativa o suporte da empresa, o Catálogo compartilhado, a Cotação B2B, os Métodos de pagamento B2B e os Métodos de envio B2B são ativados automaticamente.
+
+     ![Configuração B2B - recursos da empresa](assets/b2b-additional-features.png){width="600"}
 
    - Para permitir que clientes e convidados façam pedidos rapidamente com base no SKU ou no nome do produto, defina **[!UICONTROL Enable Quick Order]** como `Yes`.
 

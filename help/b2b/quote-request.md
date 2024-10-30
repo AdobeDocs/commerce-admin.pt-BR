@@ -4,9 +4,9 @@ description: Saiba como os clientes associados a uma conta de empresa podem envi
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,6 @@ Se as cotações estiverem habilitadas na [Configuração dos recursos de vendas
 1. Cria e processa a cotação:
 
    - Envia a cotação para o Vendedor selecionando **[!UICONTROL Request a Quote]**.
-   - [!BADGE 1.5.0-recurso beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponível somente para participantes do programa Beta"}**[!UICONTROL Save as Draft]**.
+   - Salva a cotação como rascunho selecionando **[!UICONTROL Save as Draft]**.
 
      Se o comprador salvar a cotação como um rascunho, ela estará disponível em [!UICONTROL My Quotes] no estado `Draft`. Cotações de rascunho não estão visíveis para o Vendedor até que o Comprador as envie para revisão.

@@ -4,9 +4,9 @@ description: Saiba mais sobre a criação de contas da empresa no Administrador 
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
+source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ A pessoa que configura uma conta de empresa na loja recebeu uma função de [adm
 
 >[!IMPORTANT]
 >
->Para dar suporte a este método (permitindo que os clientes registrem sua empresa na loja), verifique se os [Recursos B2B](enable-basic-features.md) estão configurados de forma que **[!UICONTROL Allow Company Registration from the Storefront]** esteja definido como `Yes`.
+>Para dar suporte a este método (permitindo que os clientes registrem sua empresa na loja), verifique se os [Recursos B2B](enable-basic-features.md) estão habilitados.
 
 1. No canto superior direito do cabeçalho da loja, o cliente clica em **[!UICONTROL Create an Account]** e escolhe **[!UICONTROL Create New Company Account]**.
 
@@ -29,7 +29,7 @@ A pessoa que configura uma conta de empresa na loja recebeu uma função de [adm
 
    >[!NOTE]
    >
-   >Se um visitante estiver conectado a uma conta de usuário registrada, ele poderá criar uma conta da empresa navegando até _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**. Após a criação da conta da empresa, a conta do cliente é atribuída como o contato principal. Caso contrário, o sistema criará um cliente, que receberá um email para definir uma senha.
+   >Se um visitante estiver conectado a uma conta de usuário registrada, ele poderá criar uma conta da empresa navegando até _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**.
 
 1. Na seção _[!UICONTROL Company Information]_, o cliente faz o seguinte:
 

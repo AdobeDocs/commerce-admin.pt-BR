@@ -4,9 +4,9 @@ description: Saiba como atribuir uma conta de usuário da empresa como o adminis
 exl-id: 26f3a449-6f3a-4078-816d-6248ac6d1e46
 feature: B2B, Companies
 role: Admin, User
-source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,23 @@ ht-degree: 0%
 
 O administrador da empresa é atribuído inicialmente quando a conta da empresa é criada pela primeira vez e só pode ser modificado por um administrador de loja do Administrador.
 
+- Cada empresa só pode ter um administrador atribuído.
+- Um usuário de empresa pode ser o administrador de apenas uma empresa.
+- As alterações no administrador de empresa atribuído devem ser concluídas por um administrador de loja do Administrador.
+
+## Alterar administrador de empresa atribuído
+
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Localize a empresa na lista e clique em **[!UICONTROL Edit]**.
-
    ![Empresas](./assets/companies-grid.png){width="700" zoomable="yes"}
+
+1. Localize a empresa na lista e clique em **[!UICONTROL Edit]**.
 
 1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Company Admin]**.
 
    ![Administrador da Empresa](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. Insira o **[!UICONTROL Job Title]** do novo administrador de empresa e clique em **[!UICONTROL Proceed]** para continuar.
+1. Insira o **[!UICONTROL Job Title]** do novo administrador de empresa.
 
    Esta ação limpa o formulário e os campos obrigatórios _[!UICONTROL First Name]_e_[!UICONTROL Last Name]_ estão realçados.
 
@@ -41,6 +47,7 @@ O administrador da empresa é atribuído inicialmente quando a conta da empresa 
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
-   A conta individual do antigo administrador de empresa permanece no sistema como uma conta de usuário individual ativa na estrutura da empresa, atribuída à função de usuário padrão.
+   A conta individual do antigo administrador de empresa permanece no sistema como uma conta de usuário ativa, atribuída à função de usuário padrão. Se esta for a única empresa associada à conta de usuário, o tipo de conta mudará de *[!UICONTROL Company user]* para *[!UICONTROL Individual user]*.
 
    O sistema envia uma notificação por email sobre a alteração para os administradores de empresas novos e antigos.
+

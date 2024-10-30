@@ -3,9 +3,9 @@ title: Negociar uma cotação
 description: Saiba mais sobre os workflows de negociação de cotações e como trabalhar com compradores para compras.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-source-git-commit: 734290b9d609a173186325b418cd92cbf41b0efb
+source-git-commit: ec00288f33af2abb785d1b37dd67aaf1ebe35c06
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Durante o processo de negociação, o vendedor pode fazer o seguinte com o Admin
 
 - Adicionar ou remover produtos
 - Alterar a quantidade
-- Aplicar um desconto a itens de linha ou ao preço total
+- Aplicar um desconto a itens de linha ou à cotação inteira
 - Adicionar ou alterar o método de envio
 - Adicionar comentários
 - Enviar a cotação atualizada ao comprador ou salvar como rascunho
@@ -118,23 +118,33 @@ o desconto de item de linha e qualquer desconto de nível de cotação são apli
 
    O tamanho máximo de arquivo permitido para anexos é de 2 MB.
 
-1. Para aplicar um desconto à cotação como um todo:
+1. Para aplicar um desconto à cotação:
 
    - Em _[!UICONTROL Quote Totals]_, na seção_[!UICONTROL Negotiated Price]_, escolha um dos seguintes tipos de desconto:
 
-      - `Percentage Discount`
-      - `Amount Discount`
-      - `Proposed Price`
+      - `Percentage Discount`: um desconto de porcentagem reduz o preço original por uma porcentagem específica.
+      - `Amount Discount`: um desconto de valor aplica uma redução de preço fixa.
+      - `Proposed Price`: um desconto de preço proposto define o preço final como um valor específico, independentemente do preço original.
 
    - Insira o valor como uma porcentagem ou preço fixo.
 
      ![Comentários da negociação](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
+
+   - Você pode aplicar descontos a cada item de linha ou à cota como um todo:
+
+      - **Descontos de itens de linha**: os descontos de itens de linha são aplicados a itens individuais no carrinho. O desconto pode ser um `percentage`, um `amount` específico ou um `proposed price`.
+      - **Descontos no nível do carrinho**: os descontos no nível do carrinho são aplicados a todo o carrinho de compras. O desconto pode ser um `percentage` ou um `amount` específico e é aplicado ao valor total do carrinho.
+      - **Combinação de Descontos de Carrinho e Item de Linha**: em alguns casos, os descontos podem ser aplicados nos níveis do carrinho e do item de linha. O desconto de item de linha é aplicado primeiro, seguido pelo desconto em nível de carrinho no total restante.
 
 1. Enviar ou salvar a cotação:
 
    - Se a cotação estiver pronta para ser enviada de volta ao comprador, clique em **[!UICONTROL Send]**.
 
    - Para continuar trabalhando na cotação mais tarde, clique em **[!UICONTROL Save as Draft]**.
+
+>[!NOTE]
+>
+> Durante a negociação da cota, os descontos podem ser bloqueados para evitar alterações adicionais. Depois que uma cotação é bloqueada, nem o tipo de desconto nem o valor podem ser alterados sem desbloquear a cotação primeiro. Esse mecanismo de bloqueio garante que os termos acordados entre o representante de vendas e o comprador sejam preservados.
 
 ## Etapa 4: Acompanhar uma cotação
 
@@ -152,7 +162,8 @@ Para monitorar a posição no workflow, verifique o email e o status da cotaçã
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | Retorna à página _[!UICONTROL Quotes]_sem salvar as alterações. |
 | [!UICONTROL Print] | Envia a cotação para uma impressora ou a salva como um arquivo PDF. |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0-beta capabilities]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Disponível somente para participantes do programa da Beta&quot;} Cria e abre uma cópia da cotação atual com `(copy)` anexado ao nome original. Renomeie a nova cotação editando o campo [!UICONTROL Name]. Processe a nova cotação salvando-a como rascunho ou enviando-a ao cliente. |
+| [!UICONTROL Create Copy] | Cria e abre uma cópia da cotação atual com `(copy)` anexada ao nome original. Renomeie a nova cotação editando o campo [!UICONTROL Name]. Processe a nova cotação salvando-a como rascunho ou enviando-a ao cliente. |
+| Criar modelo | Criar um modelo de cotação com base na cotação atual. Os modelos de cota otimizam a negociação de cota permitindo que compradores e vendedores concordem sobre os termos do contrato e da precificação que podem ser aplicados a várias cotas. . Mediante acordo, o comprador pode gerar uma cota vinculada e pré-aprovada a partir do modelo para ordens subsequentes, em vez de reiniciar o processo de solicitação de cotação (SDC). |
 | [!UICONTROL Save as Draft] | Salve todas as alterações feitas na cotação, mas não as envie de volta ao comprador. |
 | [!UICONTROL Decline] | Rejeita o pedido de negociação de preços, quer no inquérito inicial, quer durante as negociações em curso. Quando uma cotação é recusada, o vendedor deve adicionar um comentário para explicar a decisão. Quando uma cotação é recusada, todos os preços negociados são redefinidos para os valores originais. Esse botão é desativado enquanto o vendedor aguarda uma resposta do comprador. |
 | [!UICONTROL Send] | Envia a cotação atualizada como uma resposta à consulta do comprador. Esse botão será desativado se o vendedor estiver aguardando uma resposta do comprador. |

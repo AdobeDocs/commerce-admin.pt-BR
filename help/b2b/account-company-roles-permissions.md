@@ -4,9 +4,9 @@ description: Saiba mais sobre as funções e permissões que um administrador de
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 feature: B2B, Companies, Roles/Permissions
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: bad59798a1a6d97826dc421fe8614ef511e067bd
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -89,40 +89,9 @@ O sistema tem uma função de Usuário Padrão predefinida, que você pode usar 
 
 ## Permissões de função
 
-- Todos
-   - Vendas
-      - Permitir check-out (fazer pedido)
-         - Usar o método Pagar por Conta
-      - Exibir Pedidos
-         - Exibir ordens de usuários subordinados
-- Aspas
-   - Exibir
-      - Solicitação, Editar, Excluir
-      - Check-out com cotação
-      - Exibir cotações de usuários subordinados
-- Aprovações de pedidos
-   - Exibir Minhas Ordens de Compra
-      - Exibição para subordinados
-      - Exibir para todas as empresas
-   - Aprovar OCs automaticamente criadas nesta função
-   - Aprovar Ordens de Compra sem outras aprovações
-   - Exibir regras de aprovação
-      - Criar, editar e excluir
-- Perfil da empresa
-   - Informações da conta (Exibir)
-      - Editar
-   - Endereço legal
-      - Editar
-   - Contatos (Exibir)
-   - Informações de Pagamento (Exibir)
-   - Informações sobre Remessa (Exibir)
-- Gerenciamento de usuários da empresa
-   - Exibir funções e permissões
-      - Gerenciar funções e permissões
-   - Exibir usuários e equipes
-      - Gerenciar usuários e equipes
-- Crédito da empresa
-   - Exibir
+Os administradores da empresa podem atualizar a configuração de permissão para uma função selecionando o [!UICONTROL Edit action] e selecionando ou removendo permissões na lista **Permissões de função**.
+
+![Lista de funções e permissões](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 ## Atribuir uma função a um usuário da empresa
 

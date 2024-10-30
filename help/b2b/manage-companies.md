@@ -6,16 +6,14 @@ role: Admin
 hide: false
 hidefromtoc: false
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
+source-git-commit: 6b06f52eb4ee8ca136a1c60fd6dc04a9ac96bbfa
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
 # Gerenciamento da empresa
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponível somente para participantes do programa Beta"}
 
 O gerenciamento de empresas simplifica as operações de negócios para empresas com estruturas organizacionais complexas. Os usuários administradores podem criar uma hierarquia de empresa para refletir uma organização B2B, atribuindo empresas à empresa principal designada. Essa atribuição permite que o administrador da empresa principal exiba e gerencie empresas na organização.
 
@@ -23,7 +21,7 @@ Inicie as tarefas de gerenciamento da empresa na exibição *[!UICONTROL Compani
 
 ![Grade Gerenciar Empresas B2B](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-No *[!UICONTROL Companies grid]*, a coluna *[!UICONTROL Company Type]* indica se uma empresa é gerenciada como parte de uma organização ou como uma empresa separada.
+A coluna *[!UICONTROL Company Type]* indica se uma empresa é gerenciada como parte de uma organização ou como uma empresa separada.
 
 - `Parent` é uma organização comercial com uma ou mais empresas atribuídas. Uma empresa principal não pode ser atribuída como um filho de outra empresa.
 
@@ -35,16 +33,18 @@ Ao editar uma empresa principal ou secundária, expanda *[!UICONTROL Company Hie
 
 ![Grade de Hierarquia da Empresa B2B](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-
 ## Exibir e configurar o [!UICONTROL Company Hierarchy]
 
-Na criação inicial da empresa, a grade [!UICONTROL Company Hierarchy] está vazia. Também fica em branco se a empresa for uma única empresa.
+Na criação inicial da empresa, a grade *[!UICONTROL Company Hierarchy]* está vazia. Também fica em branco se a empresa for uma única empresa.
 
 ![Grade de Hierarquia da Empresa B2B](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-Para empresas-mãe, os usuários administradores com as permissões apropriadas podem realizar as seguintes tarefas:
+Se a empresa for uma empresa principal de uma organização e as contas da empresa de outras empresas na organização já tiverem sido configuradas no Adobe Commerce, os usuários administradores com as permissões apropriadas poderão atribuir empresas e usar a grade *[!UICONTROL Company Hierarchy]* para concluir outras tarefas de gerenciamento da empresa:
 
-- Crie a hierarquia da empresa criando uma nova organização pai ou atualizando uma existente.
-- Gerencie uma organização existente para adicionar ou remover empresas.
+- Exibir todas as empresas associadas à empresa primária.
+- Na página de detalhes de uma empresa principal, atribua mais empresas à organização.
+- Remover uma empresa de uma organização usando a ação *[!UICONTROL Unassign from parent]*.
+- Atualize a configuração *[!UICONTROL Advanced Settings]* para aplicar as mesmas configurações a várias empresas.
 
-Para obter detalhes, consulte [Gerenciar a hierarquia da empresa](assign-companies.md).
+Para obter instruções detalhadas, consulte [Gerenciar a hierarquia da empresa](manage-company-hierarchy.md).
+

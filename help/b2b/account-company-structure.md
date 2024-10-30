@@ -4,9 +4,9 @@ description: Saiba mais sobre as estruturas da empresa e como um administrador d
 exl-id: 4724b208-b6ac-4de5-9a4c-bc4d68402506
 feature: B2B, Companies
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -17,25 +17,23 @@ Uma conta de empresa pode ser configurada para refletir a estrutura da empresa. 
 
 ![Estrutura de Empresa com Divisões](./assets/company-structure-diagram.svg){width="500"}
 
-No painel de contas do administrador da empresa, a estrutura da empresa é representada como uma árvore e consiste inicialmente apenas no administrador da empresa.
+No painel de contas do administrador da empresa na loja, a estrutura da empresa é representada como uma árvore e consiste inicialmente apenas no administrador da empresa.
 
-![Estrutura da Empresa com o Administrador da Empresa](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
+![Estrutura da Empresa com o Administrador da Empresa](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
 
-Quando a conta é criada e aprovada, o administrador da empresa pode usar o endereço de email da empresa ou receber um endereço de email diferente.
-
-É possível que a pessoa que atua como administrador da empresa tenha várias funções na empresa. Se um endereço de email separado for inserido para o administrador da empresa, a estrutura inicial da empresa incluirá o administrador da empresa e uma conta de usuário individual no nome do administrador da empresa. Nesse caso, o administrador da empresa pode fazer logon na conta como a empresa ou como um usuário individual.
-
-![Estrutura da Empresa com Conta de Administrador e de Usuário](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
-
-Para comerciantes, a estrutura completa da empresa é refletida nas grades de _Empresas_ e _Clientes_ no Administrador. A grade Empresas lista todas as empresas independentemente do status. O exemplo a seguir mostra as contas de duas empresas: a empresa _ACME_ e a empresa _Vendelay_.
+Para comerciantes, a estrutura completa da empresa é refletida nas grades de _Empresas_ e _Clientes_ no Administrador. A grade Empresas lista todas as empresas independentemente do status.
 
 ![Grade de Empresas](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-O exemplo a seguir mostra a grade [!UICONTROL Customers] com as contas de administrador da empresa inicial para essas empresas.
+O exemplo a seguir mostra a grade [!UICONTROL Customers] com as contas iniciais de administrador de empresa para cada empresa.
 
-![Grade de clientes com conta de administrador de empresa](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![Grade de clientes com contas de administrador de empresa](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-Depois de criar a conta, o administrador da empresa deve definir a estrutura da empresa de [equipes](account-company-structure.md), configurar os [usuários da empresa](account-company-users.md) e estabelecer [funções e permissões](account-company-roles-permissions.md) para cada um.
+Depois de criar a conta, o administrador da empresa pode definir uma estrutura de empresa com [equipes](account-company-structure.md), configurar os [usuários da empresa](account-company-users.md) e estabelecer [funções e permissões](account-company-roles-permissions.md) para cada um.
+
+>[!NOTE]
+>
+>Quando um usuário da empresa é adicionado, o usuário da empresa é adicionado inicialmente à estrutura raiz da empresa, subordinado ao administrador da empresa. Se o administrador da empresa executar várias funções na empresa, crie contas de usuário da empresa separadas com um endereço de email diferente para cada função.
 
 ## Ícones de estrutura da empresa
 
@@ -74,9 +72,7 @@ Se o armazenamento estiver [configurado](enable-basic-features.md) para permitir
 
    - Cria quantas equipes forem necessárias.
 
-     ![Estrutura da empresa com equipes](./assets/company-structure-teams.png){width="600" zoomable="yes"}
-
-1. Para criar uma hierarquia de equipes, faz o seguinte:
+1. Para criar uma hierarquia de equipes, o administrador faz o seguinte:
 
    - Seleciona a equipe principal e clique em **[!UICONTROL Add Team]**.
 
@@ -129,7 +125,7 @@ Quando equipes e usuários são adicionados pela primeira vez à [estrutura da e
 | [!UICONTROL Collapse All / Expand All] | Recolhe ou expande a árvore de estrutura de negócios |
 | [!UICONTROL Add User] | Cria um usuário abaixo da equipe atual |
 | [!UICONTROL Add Team] | Cria uma equipe |
-| [!UICONTROL Edit Selected / Delete Selected] | Edita ou remove usuários da árvore de negócios |
+| [!UICONTROL Edit Selected / Remove from Structure] | Edita informações do usuário ou remove usuários da árvore de negócios. Para obter detalhes, consulte [Gerenciar contas de usuário da empresa](account-company-users.md). |
 
 {style="table-layout:auto"}
 

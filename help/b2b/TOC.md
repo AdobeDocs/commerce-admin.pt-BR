@@ -5,9 +5,9 @@ breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: c88e5be54ac4af04302abbb25cc3f7db7b6b2606
+source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '161'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 6%
       + [Definir estrutura da empresa](account-company-structure.md)
 + Gerenciamento da empresa {#company-management}
    + [Visão geral](manage-companies.md)
-   + [Gerenciar hierarquia da empresa](assign-companies.md)
+   + [Gerenciar hierarquia da empresa](manage-company-hierarchy.md)
 + Catálogos compartilhados {#shared-catalogs}
    + [Visão geral](catalog-shared.md)
    + Definir catálogos compartilhados {#define}
@@ -56,7 +56,11 @@ ht-degree: 6%
    + [Solicitação de cotação](quote-request.md)
    + [Iniciar cotação para um comprador](sales-rep-initiates-quote.md)
    + [Negociar uma cotação](quote-price-negotiation.md)
+   + [Criar um modelo de cotação](quote-templates.md)
    + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
++ Modelos de Cotação {#templates}
+   + [Caso de uso e fluxo de trabalho](quote-templates-overview.md)
+   + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
 + Listas de requisições {#requisition-lists}
    + [Visão geral](requisition-lists.md)
    + [Configurar o máximo da lista](configure-requisition-lists.md)

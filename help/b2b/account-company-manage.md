@@ -3,22 +3,26 @@ title: Gerenciar contas da empresa
 description: Saiba como gerenciar contas da empresa para sua loja da Adobe Commerce usando a página Empresas e as ferramentas disponíveis na grade.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2706'
 ht-degree: 0%
 
 ---
 
 # Gerenciar contas da empresa
 
-A página _[!UICONTROL Companies]_lista todas as contas da empresa atual, independentemente do status. Todas as solicitações pendentes de aprovação são exibidas na parte superior da lista. Os [controles de local de trabalho](../getting-started/admin-workspace.md) padrão podem ser usados para filtrar a lista, alterar o [layout da coluna](../getting-started/admin-grid-controls.md), salvar exibições ou exportar dados.
-
-O controle _[!UICONTROL Actions]_acima da grade pode ser usado para aplicar uma ação a vários registros da empresa. Por exemplo, em vez de aprovar cada solicitação individual de empresa, você pode selecionar várias solicitações e ativar as contas em uma única ação. As ações disponíveis dependem das [permissões](../systems/permissions.md) para a função atribuída à sua conta de usuário administrador.
-
-Use a função _[!UICONTROL Search]_para localizar empresas na grade **Empresas**por palavra-chave. A pesquisa indexa palavras-chave das colunas **Nome da Empresa**e **Pai**. Você pode filtrar por **Tipo de Empresa**para mostrar somente empresas únicas, somente empresas principais ou somente empresas secundárias.
+A página _[!UICONTROL Companies]_lista todas as contas da empresa atual, independentemente do status. Todas as solicitações pendentes de aprovação são exibidas na parte superior da lista.
 
 ![Grade de Empresas](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+
+Use o controle *[!UICONTROL Columns]* para personalizar as colunas exibidas na grade. Personalize as empresas exibidas na visualização usando os recursos de pesquisa e filtro.
+
+- Localize empresas na grade **Empresas** usando _[!UICONTROL Search]_. A pesquisa indexa as colunas **Nome da Empresa**e **Pai**.
+
+- Personalize a exibição para incluir registros que atendam a critérios específicos usando o [!UICONTROL Filter]. Por exemplo, se o site B2B estiver configurado para gerenciar contas de empresa únicas e [hierarquias de empresa](manage-companies.md), você poderá filtrar por `[!UICONTROL Company Type - Company]` para exibir apenas empresas únicas, ou por `[!UICONTROL Company Type - Parent]` para mostrar apenas a empresa principal de cada hierarquia.
+
+Aplique uma ação a vários registros da empresa usando o controle _[!UICONTROL Actions]_acima da grade. Por exemplo, em vez de aprovar cada solicitação individual de empresa, você pode selecionar várias solicitações para ativar as contas em uma única ação. As ações disponíveis dependem das [permissões](../systems/permissions.md) para a função atribuída à sua conta de usuário administrador.
 
 ## Recursos de função da empresa
 
@@ -29,15 +33,23 @@ As configurações de [Recursos de Função](../systems/permissions-user-roles.m
 - Aplicar um reembolso de saldo
 - Exibir empresas
 
-Esses recursos de função devem ser definidos para a [Função de Usuário](../systems/permissions-user-roles.md) atribuída à conta de usuário Administrador.
+Esses recursos de função devem ser definidos para a [Função de Usuário](../systems/permissions-user-roles.md) atribuída à conta de usuário de Administração.
 
-## Aplicar uma ação
+## Gerenciar contas da empresa na grade Empresas
 
-As ações a seguir podem ser aplicadas a um ou a vários registros.
+Exiba e gerencie as contas de usuário das empresas no menu Administrador selecionando **[!UICONTROL Customers]** > **[!UICONTROL Companies]** para abrir a página *[!UICONTROL Companies]*.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+É possível gerenciar contas individualmente ou em grupos.
 
-1. Na primeira coluna da grade, marque a caixa de seleção de cada registro que deseja atualizar e siga as instruções para a ação que deseja aplicar:
+- Exiba ou altere as definições de configuração de uma conta de empresa individual selecionando **[!UICONTROL Edit]** na coluna **[!UICONTROL Action]** para o registro de conta da empresa.
+
+  ![Selecione uma ação para aplicar às empresas selecionadas](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
+
+- Exiba ou altere um grupo de contas da empresa selecionadas usando as opções disponíveis no controle [!UICONTROL Actions]*, acima da grade.
+
+  ![Selecione uma ação para aplicar às empresas selecionadas](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
+
+Consulte as seções a seguir para obter instruções sobre como aplicar cada ação.
 
 ### Ativar contas da empresa
 
@@ -90,6 +102,30 @@ As contas da empresa excluídas não podem ser restauradas. O status das contas 
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
+### Alterar configurações da empresa
+
+Atualize a configuração [Configurações Avançadas](account-company-create.md#advanced-settings) para aplicar as mesmas configurações a várias empresas selecionadas na *grade Empresas*.
+
+>[!NOTE]
+>
+>Gerencie as configurações avançadas de uma organização de empresa com empresas pai e filho associadas na [exibição de Hierarquia de Empresa](manage-company-hierarchy.md#change-company-settings).
+
+1. No controle **[!UICONTROL Actions]**, selecione **[!UICONTROL Change company settings]**.
+
+   No formulário *[!UICONTROL Change company settings]*, as configurações iniciais são definidas com os valores padrão.
+
+1. Para cada definição de configuração a ser alterada, marque a caixa de seleção **[!UICONTROL Change]** para habilitar a definição. Em seguida, atualize a configuração conforme necessário.
+
+   ![Alterar configurações da empresa para várias empresas](assets/companies-change-advanced-settings-action.png){width="675" zoomable="yes"}
+
+1. Depois de atualizar as definições de configuração, selecione **[!UICONTROL Apply Changes]**.
+
+1. Quando solicitado, selecione **[!UICONTROL Change settings]** para atualizar a configuração das empresas selecionadas.
+
+>[!TIP]
+>
+>Você pode alterar as configurações avançadas para uma única empresa selecionando **[!UICONTROL Edit]** na coluna **[!UICONTROL Action]** para o registro de conta da empresa.
+
 ### Converter a moeda de crédito
 
 O crédito nas contas das empresas selecionadas é convertido na taxa atual da moeda selecionada.
@@ -114,7 +150,7 @@ Método 1: **Edição rápida**
 
    Cada valor que pode ser atualizado aparece em uma caixa de texto.
 
-   ![Edição rápida de uma conta de empresa](./assets/companies-grid-quick-edit.png){width="700" zoomable="yes"}
+   ![Edição rápida de uma conta de empresa](./assets/companies-grid-quick-edit.png){width="675" zoomable="yes"}
 
 1. Atualize qualquer um dos valores a seguir, conforme necessário:
 
@@ -134,7 +170,7 @@ Método 2: **Edição completa**
 
 1. Faça as alterações necessárias nas informações da empresa.
 
-Para obter descrições dos campos, consulte [Criar uma conta de empresa](account-company-create.md).
+   Para obter descrições dos campos, consulte [Criar uma conta de empresa](account-company-create.md).
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
@@ -176,13 +212,11 @@ Você pode aprender sobre como gerenciar contas da empresa assistindo a este ví
 
 ## Gerenciamento da empresa
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponível somente para participantes do programa Beta"}
-
 Depois que uma empresa é criada, os usuários administradores com as permissões apropriadas podem usar a seção [!UICONTROL Company Hierarchy] para criar uma organização de empresa principal, editando a empresa principal designada e atribuindo empresas relacionadas.
 
 Se uma empresa foi adicionada a uma hierarquia, a grade [!UICONTROL Company Hierarchy] exibe a empresa principal e todas as empresas atribuídas na grade.
 
-Consulte [Gerenciar hierarquia da empresa](assign-companies.md) para obter mais informações.
+Consulte [Gerenciar hierarquia da empresa](manage-company-hierarchy.md) para obter mais informações.
 
 ## Opções e colunas da empresa
 
@@ -191,11 +225,12 @@ As seções a seguir fornecem uma referência para as ações, opções e inform
 ### Opções de controle de ações
 
 | Opção | Descrição |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | Define o status de todos os registros de empresa selecionados como `Active`. Os administradores da empresa recebem instruções para definir suas senhas para que possam acessar suas contas e gerenciar suas empresas na loja. |
 | [!UICONTROL Block] | Restringe as contas da empresa que não estão em boa posição, preservando a conta. Os membros da empresa podem fazer logon e acessar o catálogo, mas não podem fazer pedidos em nome da empresa. |
 | [!UICONTROL Delete] | Exclui as contas da empresa selecionadas. O status das contas de usuário associadas a uma empresa excluída está definido como `Inactive` e a ID da Empresa é removida dos perfis das contas de usuário. As informações sobre a atividade da empresa e as transações são retidas no sistema. |
 | [!UICONTROL Edit] | Permite que alguns valores do registro de empresa selecionado sejam editados na grade. Por padrão, os valores Nome da empresa, Email da empresa e Número de telefone estão disponíveis para uma edição rápida. |
+| [!UICONTROL Change company settings] | Abre o formulário *Alterar configurações da empresa* para atualizar a configuração [Configurações avançadas](account-company-create.md#advanced-settings) e aplicar as alterações às empresas selecionadas. |
 | [!UICONTROL Convert Credit] | Converte o crédito em conta para as empresas selecionadas de acordo com as taxas da moeda especificada. |
 
 {style="table-layout:auto"}
@@ -250,7 +285,6 @@ As seguintes colunas estão disponíveis alterando o [layout da coluna](../getti
 | Botão | Descrição |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | Retorna à página Empresas sem salvar as alterações. |
-| [!UICONTROL Login as Customer] | Permite que um usuário administrador [faça logon na loja como cliente](../customers/login-as-customer.md) e ajude em seus pedidos. |
 | [!DNL Delete Company] | Exclui a conta da empresa. O status das contas de usuário associadas à empresa está definido como `Inactive` e a ID da Empresa é removida dos perfis das contas de usuário. As informações sobre a atividade da empresa e as transações são retidas no sistema. |
 | [!DNL Reset] | Restaura os valores originais em todos os campos com alterações não salvas. |
 | [!DNL Reimburse Balance] | Permite que o administrador reembolse o saldo do crédito da loja, referenciado pelo número da OC. |
@@ -278,19 +312,10 @@ As seguintes colunas estão disponíveis alterando o [layout da coluna](../getti
 | [!UICONTROL VAT / TAX ID] | O número de imposto ou [imposto sobre valor agregado](../stores-purchase/vat.md) atribuído à empresa para fins de relatório de imposto. |
 | [!UICONTROL Reseller ID] | O número de revenda atribuído à empresa para fins de relatório de imposto. |
 | [!UICONTROL Comment] | Essas notas sobre a conta da empresa são para referência e visíveis apenas do administrador. |
-| **[!UICONTROL Legal Address]** |                                                                                                                            |
-| [!UICONTROL Street Address] | O endereço onde a empresa está registrada para realizar negócios. |
-| [!UICONTROL City] | A cidade onde a empresa está registrada para realizar negócios. |
-| [!UICONTROL Country] | O país onde a empresa está registrada para realizar negócios. |
-| [!UICONTROL State/Province] | O estado ou província onde a empresa está registrada para realizar negócios. |
-| [!UICONTROL ZIP/Postal Code] | O CEP ou código postal onde a empresa está registrada para realizar negócios. |
-| [!UICONTROL Phone Number] | O número de telefone principal da empresa. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Company Hierarchy]
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponível somente para participantes do programa Beta"}
 
 | Colunas | Descrição |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -306,10 +331,24 @@ As seguintes colunas estão disponíveis alterando o [layout da coluna](../getti
 
 {style="table-layout:auto"}
 
+#### [!UICONTROL Legal Address]
+
+| Colunas | Descrição |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Street Address] | O endereço onde a empresa está registrada para realizar negócios. |
+| [!UICONTROL City] | A cidade onde a empresa está registrada para realizar negócios. |
+| [!UICONTROL Country] | O país onde a empresa está registrada para realizar negócios. |
+| [!UICONTROL State/Province] | O estado ou província onde a empresa está registrada para realizar negócios. |
+| [!UICONTROL ZIP/Postal Code] | O CEP ou código postal onde a empresa está registrada para realizar negócios. |
+| [!UICONTROL Phone Number] | O número de telefone principal da empresa. |
+
+{style="table-layout:auto"}
+
 #### [!UICONTROL Company Admin]
 
 | Campo | Descrição |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Website] | Defina o [escopo do site](../getting-started/websites-stores-views.md) para a conta da empresa. O padrão é *[!UICONTROL Main Website]*. |
 | [!UICONTROL Job Title] | O título do administrador da empresa que gerencia a conta da empresa. |
 | [!UICONTROL Email] | O endereço de email do administrador da empresa pode ser igual ao endereço de email da empresa. Se um endereço de email diferente for inserido, uma conta individual separada será criada para o administrador da empresa, além da conta da empresa. |
 | [!UICONTROL Prefix] | Se aplicável, o prefixo associado ao nome do administrador da empresa (como `Mr.`, `Ms.`, `Mrs.` ou `Dr.`). Dependendo da configuração, o campo de entrada pode ser um campo de texto ou lista. |
@@ -318,6 +357,7 @@ As seguintes colunas estão disponíveis alterando o [layout da coluna](../getti
 | [!UICONTROL Last Name] | O sobrenome do administrador da empresa. |
 | [!UICONTROL Suffix] | Se aplicável, o sufixo associado ao nome do administrador da empresa (como `Jr.`, `Sr.` ou `III`). Dependendo da configuração, o campo de entrada pode ser um campo de texto ou lista. |
 | [!UICONTROL Gender] | O sexo do administrador da empresa. Opções: `Male` / `Female` / `Not Specified` |
+| [!UICONTROL Send Welcome Email From] | Defina a loja a ser usada ao enviar o email de boas-vindas para o novo administrador de empresa se você não quiser usar o *[!UICONTROL Default Store View]*. |
 
 {style="table-layout:auto"}
 

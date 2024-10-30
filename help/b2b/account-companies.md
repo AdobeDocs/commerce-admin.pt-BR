@@ -3,7 +3,7 @@ title: Contas da empresa
 description: Saiba como as contas da empresa gerenciadas em sua loja da Adobe Commerce permitem associar vários compradores que pertencem à mesma empresa a uma única conta de empresa.
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -12,7 +12,11 @@ ht-degree: 0%
 
 # Contas da empresa
 
-Ao incorporar contas de empresas B2B em sua loja, você pode simplificar a experiência de compra corporativa, permitindo que as empresas criem várias subcontas com permissões flexíveis com base nas funções de usuário em sua organização. Dependendo da empresa, um administrador de loja pode ajustar promoções e preços para atender às suas necessidades e criar ofertas altamente personalizadas que atendam às demandas dos compradores e aumentem os pedidos. Adicionar uma associação de conta de empresa a um [indivíduo](../customers/account-create.md) padrão permite que o cliente use os fluxos de trabalho de compra específicos definidos para a empresa.
+Ao incorporar contas de empresas B2B em sua loja, você pode simplificar a experiência de compra corporativa, permitindo que as empresas criem várias subcontas com permissões flexíveis com base nas funções de usuário em sua organização.
+
+Dependendo da empresa, um administrador de loja pode ajustar promoções e preços para atender às suas necessidades e criar ofertas altamente personalizadas que atendam às demandas dos compradores e aumentem os pedidos.
+
+Adicionar uma associação de conta de empresa a um [indivíduo](../customers/account-create.md) padrão permite que o cliente use os fluxos de trabalho de compra específicos definidos para a empresa.
 
 Vantagens de uma conta de empresa:
 
@@ -22,7 +26,7 @@ Vantagens de uma conta de empresa:
 
 - Fornece um mecanismo para comerciantes aumentarem a renda oferecendo [crédito de armazenamento da empresa](credit-company.md) como um método de pagamento.
 
-- Dá suporte ao [gerenciamento](account-company-manage.md) de todas as contas da empresa no Administrador.
+- Dá suporte ao [gerenciamento](account-company-manage.md) de todas as contas da empresa do Administrador.
 
 ## Exibir contas da empresa
 
@@ -34,15 +38,15 @@ Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Co
 
 ![Grade de Empresas](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-A grade [!UICONTROL Companies] lista todas as empresas, independentemente do status. O exemplo exibido mostra as contas de duas empresas: a empresa &quot;ACME&quot; e a empresa &quot;Vandelay&quot;.
+A grade [!UICONTROL Companies] lista todas as empresas, independentemente do status. A listagem de empresas indica se uma empresa está associada a uma [hierarquia de empresas](manage-company-hierarchy.md) e fornece [informações detalhadas](/help/b2b/account-company-manage.md#company-options-and-columns) sobre a empresa, o administrador da empresa e outras informações. Personalize a exibição usando os [Controles de grade de administração](../getting-started/admin-grid-controls.md) para definir filtros, opções de exibição de coluna e muito mais.
 
 ## Administrador da empresa
 
-O exemplo a seguir mostra a grade _Clientes_ com as contas de administrador da empresa inicial.
+O exemplo a seguir mostra a grade _Clientes_ com contas de administrador da empresa inicial.
 
 ![Grade de clientes com conta de administrador de empresa](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-É possível que a pessoa que atua como administrador da empresa tenha várias funções na empresa. Se um endereço de email separado for inserido para o administrador da empresa, a estrutura inicial da empresa incluirá o administrador da empresa e uma conta de usuário individual no nome do administrador da empresa. Nesse caso, o administrador da empresa pode fazer logon na conta como a empresa ou como um usuário individual.
+Cada empresa tem um único administrador de empresa identificado pelo endereço de email da conta e pelo nome e sobrenome do administrador. O administrador pode ser atribuído a outras empresas como um usuário, mas ele pode ser um administrador de apenas uma empresa.
 
 Depois de criar a conta, o administrador da empresa define a estrutura da empresa de [equipes](account-company-structure.md), configura os [usuários da empresa](account-company-users.md) e estabelece [funções e permissões](account-company-roles-permissions.md) para cada um.
 
@@ -58,7 +62,7 @@ Depois de criar a conta, o administrador da empresa define a estrutura da empres
 
 1. Siga as instruções e clique em [!UICONTROL **link**] para definir sua senha.
 
-1. Digite uma [!UICONTROL **Nova Senha**] para sua conta e novamente para confirmar.
+1. Digite uma [!UICONTROL **Nova Senha**] e uma confirmação de senha para a conta.
 
    A senha deve incluir pelo menos três dos seguintes tipos de caracteres:
 

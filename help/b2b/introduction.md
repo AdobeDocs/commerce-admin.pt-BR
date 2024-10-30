@@ -3,9 +3,9 @@ title: Introdução a  [!DNL Adobe Commerce B2B]
 description: Saiba como usar recursos B2B integrados para atender às necessidades de clientes empresariais.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: 8e4e070f41f7d3bf872e81c9805e7c24779b812d
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '803'
 ht-degree: 2%
 
 ---
@@ -29,8 +29,6 @@ Para obter mais informações, consulte [Contas da empresa](account-companies.md
 >Quando habilitada, sua loja pode dar às empresas a opção de _Pagar na Conta_, o que significa fazer compras em uma linha de crédito da empresa. Como comerciante, você pode alocar crédito para uma conta da empresa e gerenciar configurações de crédito para uma empresa, além de reembolso de crédito.
 
 ## Gerenciamento da empresa
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Disponível somente para participantes do programa Beta"}
 
 O gerenciamento da empresa ajuda os administradores comerciais a simplificar a administração e o gerenciamento de organizações B2B com modelos operacionais complexos.
 

@@ -3,7 +3,7 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
 description: Revise as configurações na página [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] do Administrador do Commerce.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 768c9fdc37127b408230983e39e98b11149713a7
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![Opções do Stock](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
-<!-- [Stock Options](https://docs.magento.com/user-guide/catalog/inventory-options-global.html) -->
+<!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ![Opções de Estoque de Produtos](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-<!-- [Product Stock Options](https://docs.magento.com/user-guide/catalog/inventory-options-global.html) -->
+<!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ![Operações em massa do administrador](./assets/catalog-inventory-admin-bulk-operations.png)<!-- zoom -->
 
-<!-- [Admin Bulk Operations](https://docs.magento.com/user-guide/catalog/inventory-options-global.html) -->
+<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ![Provedores de Distância para SSA Baseado em Distância](./assets/catalog-inventory-distance-provider.png)<!-- zoom -->
 
-<!-- [Distance Providers for Distance Based SSA](https://docs.magento.com/user-guide/catalog/inventory-configure-distance-priority.html) -->
+<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ![Provedor de Distância Google](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
 
-<!-- [Google Distance Provider](https://docs.magento.com/user-guide/catalog/inventory-configure-distance-priority.html) -->
+<!-- [Google Distance Provider](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |

@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Revise as configurações na página [!UICONTROL General] &gt; [!UICONTROL Web] do Administrador do Commerce.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Web > Opções Gerais](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | Escopo | Descrição |
 |  ---  |  ---  |  ---  |
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![Web > Otimização do mecanismo de pesquisa](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://docs.magento.com/user-guide/marketing/url-rewrite.html) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![Web > URLs de base](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![Web > URLs de Base (Seguro)](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -79,15 +79,15 @@ ht-degree: 0%
 
 ![Web > Páginas Padrão](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://docs.magento.com/user-guide/cms/pages-default.html) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Default Web URL] | Exibição da loja | Indica a landing page associada ao URL base. Isso é definido por padrão como &quot;cms&quot; para indicar uma página do sistema de gerenciamento de conteúdo (CMS) do Commerce. Você também pode usar um tipo diferente de página de aterrissagem, como um blog. Por exemplo, se um blog estiver instalado no servidor em `magento/blog`, você poderá inserir o nome da pasta &quot;blog&quot; como um caminho relativo para a seleção de páginas. |
-| [!UICONTROL CMS Home Page] | Exibição da loja | Para escolher a home page da loja, basta selecionar a página CMS na lista. Por padrão, a Página inicial do CMS lista toda a seleção de páginas do CMS disponíveis para sua loja. |
+| [!UICONTROL CMS Home Page] | Exibição da loja | Para escolher a página inicial da loja, basta selecionar a página do CMS na lista. Por padrão, a Página inicial do CMS lista toda a seleção de páginas do CMS disponíveis para sua loja. |
 | [!UICONTROL Default No-route URL] | Exibição da loja | Contém a URL da página padrão que você deseja exibir quando ocorrer um erro `404 Page not Found`. O valor padrão é `cms/noroute/index`. |
-| [!UICONTROL CMS No Route Page] | Exibição da loja | Identifica uma página CMS específica que você deseja que apareça quando ocorrer um erro 404 Página não encontrada. A página padrão é 404 Não encontrado. |
-| [!UICONTROL CMS No Cookies Page] | Exibição da loja | Identifica uma página CMS específica que aparece quando os cookies não estão ativados para o navegador. A página explica por que os cookies são usados e como ativá-los para cada navegador. A página padrão é Ativar cookies. |
+| [!UICONTROL CMS No Route Page] | Exibição da loja | Identifica uma página específica do CMS que deve ser exibida quando ocorrer um erro 404 Página não encontrada. A página padrão é 404 Não encontrado. |
+| [!UICONTROL CMS No Cookies Page] | Exibição da loja | Identifica uma página específica do CMS que aparece quando os cookies não estão ativados para o navegador. A página explica por que os cookies são usados e como ativá-los para cada navegador. A página padrão é Ativar cookies. |
 | [!UICONTROL Show Breadcrumbs for CMS Pages] | Exibição da loja | Determina se uma trilha de navegação estrutural aparece em todas as páginas do CMS no catálogo. Opções: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ![Layouts padrão](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://docs.magento.com/user-guide/design/page-layout.html) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Default Product Layout] | Global | Determina o [layout](../../content-design/page-layout.md) usado por padrão para páginas de produto. Opções: <br/>**`No layout updates`**- Por padrão, as atualizações de layout não estão disponíveis para páginas de produtos.<br/>**`Empty`** - Por padrão, usa um layout em branco para páginas de produto. <br/>**`1 column`**- Por padrão, usa um layout de coluna única para páginas de produtos.<br/>**`2 columns with left bar`** - Por padrão, usa um layout de duas colunas com a barra lateral à esquerda para páginas de produtos. <br/>**`2 columns with right bar`**- Por padrão, usa um layout de duas colunas com a barra lateral à direita para páginas de produtos.<br/>**`3 columns`** - Por padrão, o usa um layout de três colunas com barras laterais à esquerda e à direita para páginas de produtos.<br/>**`Page -- Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Página — Largura total para páginas de produto.<br/>**`Category - Full Width`** - (Requer [!DNL Page Builder]) Por padrão, usa o layout Categoria - Largura total para páginas de produto. <br/>**`Product - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Produto - Largura Total para páginas de produto. |
 | [!UICONTROL Default Category Layout] | Global | Determina o [layout](../../content-design/page-layout.md) usado por padrão para páginas de categoria. Opções: <br/>**`No layout updates`**- Por padrão, as atualizações de layout não estão disponíveis para páginas de categoria.<br/>**`Empty`** - Por padrão, usa um layout em branco para páginas de categoria. <br/>**`1 column`**- Por padrão, usa um layout de coluna única para páginas de categoria.<br/>**`2 columns with left bar`** - Por padrão, usa um layout de duas colunas com a barra lateral à esquerda para páginas de categoria. <br/>**`2 columns with right bar`**- Por padrão, usa um layout de duas colunas com a barra lateral à direita para páginas de categoria.<br/>**`3 columns`** - Por padrão, usa um layout de três colunas com barras laterais à esquerda e à direita para páginas de categoria.<br/>**`Page - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Página - Largura Total para páginas de categoria.<br/>**`Category - Full Width`** - (Requer [!DNL Page Builder]) Por padrão, usa o layout Categoria - Largura Total para páginas de categoria. <br/>**`Product - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Produto - Largura Total para páginas de categoria. |
-| Layout de página padrão | Global | Determina o [layout](../../content-design/page-layout.md) usado por padrão para páginas CMS. Opções: <br/>**`No layout updates`**- Por padrão, as atualizações de layout não estão disponíveis para páginas CMS.<br/>**`Empty`** - Por padrão, usa um layout em branco para páginas CMS. <br/>**`1 column`**- Por padrão, usa um layout de coluna única para páginas CMS.<br/>**`2 columns with left bar`** - Por padrão, usa um layout de duas colunas com a barra lateral à esquerda para páginas CMS.<br/>**`2 columns with right bar`**- Por padrão, usa um layout de duas colunas com a barra lateral à direita para páginas CMS.<br/>**`3 columns`** - Por padrão, usa um layout de três colunas com barras laterais à esquerda e à direita para páginas CMS.<br/>**`Page - Full Width`**- (Requer [!UICONTROL Page Builder]) Por padrão, usa o layout Página - Largura Total para páginas CMS.<br/>**`Category - Full Width`** - (Requer [!UICONTROL Page Builder]) Por padrão, usa o layout Categoria - Largura Total para páginas CMS. <br/>**`Product - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Produto - Largura Total para páginas CMS. |
+| Layout de página padrão | Global | Determina o [layout](../../content-design/page-layout.md) usado por padrão para páginas do CMS. Opções: <br/>**`No layout updates`**- Por padrão, as atualizações de layout não estão disponíveis para páginas do CMS.<br/>**`Empty`** - Por padrão, usa um layout em branco para páginas do CMS. <br/>**`1 column`**- Por padrão, usa um layout de coluna única para páginas do CMS.<br/>**`2 columns with left bar`** - Por padrão, usa um layout de duas colunas com a barra lateral à esquerda para páginas do CMS.<br/>**`2 columns with right bar`**- Por padrão, usa um layout de duas colunas com a barra lateral à direita para páginas do CMS.<br/>**`3 columns`** - Por padrão, o usa um layout de três colunas com barras laterais à esquerda e à direita para páginas do CMS.<br/>**`Page - Full Width`**- (Requer [!UICONTROL Page Builder]) Por padrão, usa o layout Página - Largura Total para páginas do CMS.<br/>**`Category - Full Width`** - (Requer [!UICONTROL Page Builder]) Por padrão, usa o layout Categoria - Largura total para páginas do CMS. <br/>**`Product - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Produto - Largura Total para páginas do CMS. |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![Web > Configurações de cookie padrão](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://docs.magento.com/user-guide/stores/compliance-cookie-law.html) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![Web > Validação de Sessão](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://docs.magento.com/user-guide/stores/security-session-validation.html) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 ![Web > Detecção de Recursos de Navegador](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://docs.magento.com/user-guide/stores/security-browser-capabilities-detection.html) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |

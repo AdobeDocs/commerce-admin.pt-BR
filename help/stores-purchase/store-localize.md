@@ -3,9 +3,9 @@ title: Localização da loja
 description: Saiba como localizar uma visualização de loja ou loja.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 A maioria do texto que parece ser codificado nas páginas em toda a loja pode ser alterada instantaneamente para um idioma diferente, alterando o local da exibição. Alterar o local não traduz realmente o texto palavra por palavra, mas simplesmente faz referência a uma tabela de tradução diferente que fornece o texto da interface usado em toda a loja. O texto que pode ser alterado inclui títulos de navegação, rótulos, botões e links como _Meu Carrinho_ e _Minha Conta_. Você também pode usar a ferramenta [Tradução sequencial](../configuration-reference/advanced/developer.md) para retocar o texto na interface.
 
-Os pacotes de idiomas podem ser encontrados em [Traduções e localização][1]{:target=&quot;_blank&quot;} no Commerce Marketplace. Novas extensões são adicionadas continuamente ao Marketplace, portanto, verifique com frequência.
+Os pacotes de idiomas podem ser encontrados em [Traduções e localização][1]{:target="_blank"} no Commerce Marketplace. Novas extensões são adicionadas continuamente ao Marketplace, portanto, verifique com frequência.
 
 ## Etapa 1: instalar um pacote de idiomas
 
@@ -46,11 +46,9 @@ Siga as instruções padrão para instalar a extensão de pacote de idiomas. Par
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No canto superior esquerdo, defina **[!UICONTROL Store View]** para a exibição específica à qual a configuração será aplicada.
+1. Na lista suspensa **[!UICONTROL Scope]**, selecione o modo de exibição de armazenamento a ser configurado e clique em **[!UICONTROL OK]** quando solicitado.
 
-1. Quando solicitado a confirmar a alternância de escopo, clique em **[!UICONTROL OK]**.
-
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Locale Options]**.
+1. Na página de configuração *[!UICONTROL General]*, expanda ![Seletor de expansão](../assets/icon-display-expand.png) na seção **[!UICONTROL Locale Options]**.
 
 1. Desmarque a caixa de seleção **[!UICONTROL Use Website]** e defina **[!UICONTROL Locale]** como o idioma que você deseja atribuir ao modo de exibição.
 
@@ -58,7 +56,7 @@ Siga as instruções padrão para instalar a extensão de pacote de idiomas. Par
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
-   Depois de alterar o idioma da localidade, o conteúdo restante que você criou, incluindo nomes de produtos e descrições, categorias, [CMS](../content-design/page-translate.md) páginas e blocos, deve ser traduzido separadamente para cada exibição da loja.
+   Depois de alterar o idioma da localidade, o conteúdo restante que você criou, incluindo nomes de produtos e descrições, categorias, páginas do [CMS](../content-design/page-translate.md) e blocos, deve ser traduzido separadamente para cada exibição da loja.
 
 ## Localizar produtos
 

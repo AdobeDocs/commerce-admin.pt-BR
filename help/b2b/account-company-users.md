@@ -4,9 +4,9 @@ description: Saiba mais sobre as contas de usuário da empresa e como elas funci
 exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
 role: Admin, User
-source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
+source-git-commit: 9c16d7a3909598328cc42bbcbf39fc14ae6a9eb9
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Os usuários da empresa podem ser adicionados, editados, desativados ou excluíd
    - Adiciona as informações do usuário nos campos restantes:
       - **[!UICONTROL First Name]** e **[!UICONTROL Last Name]**
       - **[!UICONTROL Email]**
-      - **[!UICONTROL Phone Number]**
+      - **[!UICONTROL Work Phone Number]**
 
    Por padrão, o **[!UICONTROL Status]** da conta é `Active`.
 
@@ -103,7 +103,7 @@ Os administradores da empresa podem atualizar as informações de perfil da cont
 
 >[!NOTE]
 >
->Se você editar uma conta de usuário da empresa e observar que faltam informações obrigatórias sobre a conta no perfil, como cargo e número de telefone, isso indicará que a conta foi adicionada por um administrador do site do Commerce. Essas contas não podem ser editadas na loja. Para atualizar informações ou alterar o status da conta, entre em contato com o administrador do site.
+>Se você editar uma conta de usuário da empresa e notar que faltam informações obrigatórias da conta no perfil, como cargo e número de telefone comercial, isso indica que a conta foi adicionada por um administrador do site do Commerce. Essas contas não podem ser editadas na loja. Para atualizar informações ou alterar o status da conta, entre em contato com o administrador do site.
 
 ### Desativar ou excluir uma conta ativa
 
@@ -120,13 +120,13 @@ Os administradores da empresa podem atualizar as informações de perfil da cont
 ## Descrições dos campos de perfil da conta de usuário da empresa
 
 | Campo | Descrição |
-|--------------|---------------|
+|--------------------------------|---------------|
 | [!UICONTROL Job Title] | O cargo do usuário da empresa. |
 | [!UICONTROL User Role] | A [função](account-company-roles-permissions.md) atribuída ao usuário da empresa. Opções: `Default User` / (outras funções) |
 | [!UICONTROL First Name] | O nome do usuário da empresa. |
 | [!UICONTROL Last Name] | O sobrenome do usuário da empresa. |
 | [!UICONTROL Email] | O endereço de email do usuário da empresa. |
-| [!UICONTROL Phone Number] | O número de telefone do usuário da empresa. |
+| [!UICONTROL Work Phone Number] | O número de telefone comercial do usuário da empresa. |
 | [!UICONTROL Status] | O status da conta de usuário da empresa. Opções: `Active` / `Inactive` |
 
 {style="table-layout:auto"}

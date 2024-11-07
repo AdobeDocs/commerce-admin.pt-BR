@@ -3,9 +3,9 @@ title: Transferir uma conta do Commerce
 description: Saiba como transferir sua conta do Commerce para outro proprietário ou endereço de email.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 00994f506056bf5504df758a44a7cd56f590750d
+source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -158,6 +158,6 @@ Depois que o novo proprietário transferir com êxito sua conta Adobe para o pro
 
 1. Clique em **[!UICONTROL Verify]**.
 
-1. **Enviar uma solicitação de suporte** para informar à equipe de suporte que você atualizou o endereço de email do proprietário da conta. Inclua em sua solicitação o endereço de email do proprietário da conta anterior.
-
-Há etapas adicionais a serem executadas pelo Suporte, como a atualização do endereço de email no seu perfil [Commerce Marketplace](https://commercemarketplace.adobe.com/).
+>[!IMPORTANT]
+>
+>Envie uma solicitação de suporte para informar à equipe de suporte que você atualizou o endereço de email do proprietário da conta. A equipe deve executar etapas adicionais para concluir a atualização, como a atualização do endereço de email no seu perfil [Commerce Marketplace](https://commercemarketplace.adobe.com/). Inclua em sua solicitação o endereço de email do proprietário da conta anterior.

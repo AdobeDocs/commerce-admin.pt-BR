@@ -3,9 +3,9 @@ title: Gerenciar contas da empresa
 description: Saiba como gerenciar contas da empresa para sua loja da Adobe Commerce usando a página Empresas e as ferramentas disponíveis na grade.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
+source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
 workflow-type: tm+mt
-source-wordcount: '2706'
+source-wordcount: '2726'
 ht-degree: 0%
 
 ---
@@ -256,6 +256,7 @@ As seções a seguir fornecem uma referência para as ações, opções e inform
 | [!UICONTROL Outstanding Balance] | O saldo pendente na conta da empresa. a coluna ficará em branco se a empresa não tiver um histórico de crédito e seu limite de crédito for zero. |
 | [!UICONTROL Company Admin] | O nome e sobrenome do administrador da empresa. |
 | [!UICONTROL Job Title] | O cargo do administrador da empresa. |
+| [!UICONTROL Work Phone Number] | O número de telefone comercial do administrador da empresa. |
 | [!UICONTROL Email] | O endereço de email do administrador da empresa. |
 | [!UICONTROL Action] | **[!UICONTROL Edit]** - Abre a conta da empresa no modo de edição. |
 
@@ -347,9 +348,10 @@ As seguintes colunas estão disponíveis alterando o [layout da coluna](../getti
 #### [!UICONTROL Company Admin]
 
 | Campo | Descrição |
-|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Defina o [escopo do site](../getting-started/websites-stores-views.md) para a conta da empresa. O padrão é *[!UICONTROL Main Website]*. |
 | [!UICONTROL Job Title] | O título do administrador da empresa que gerencia a conta da empresa. |
+| [!UICONTROL Work Phone Number] | O número de telefone do administrador da empresa que gerencia a conta da empresa. |
 | [!UICONTROL Email] | O endereço de email do administrador da empresa pode ser igual ao endereço de email da empresa. Se um endereço de email diferente for inserido, uma conta individual separada será criada para o administrador da empresa, além da conta da empresa. |
 | [!UICONTROL Prefix] | Se aplicável, o prefixo associado ao nome do administrador da empresa (como `Mr.`, `Ms.`, `Mrs.` ou `Dr.`). Dependendo da configuração, o campo de entrada pode ser um campo de texto ou lista. |
 | [!UICONTROL First Name] | O nome do administrador da empresa. |

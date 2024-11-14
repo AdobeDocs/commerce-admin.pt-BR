@@ -2,7 +2,7 @@
 title: Introdução a lojas e experiência de compra
 description: Saiba mais sobre os recursos usados para criar e gerenciar suas lojas online e a experiência de compra para seus clientes.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -39,7 +39,7 @@ O Adobe Commerce e o Magento Open Source reduzem os erros de pedido verificando 
 
 Saiba mais sobre compras assistidas por vendedores assistindo a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## Gerenciamento de pedidos e operações
 

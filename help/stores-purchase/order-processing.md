@@ -3,7 +3,7 @@ title: Fluxo de trabalho e processamento da ordem
 description: Saiba mais sobre o fluxo de trabalho do pedido, o status que se aplica a cada etapa e como mover pedidos por meio desse processo.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
@@ -230,4 +230,4 @@ Na seção **[!UICONTROL Order Total]**, faça o seguinte:
 
 Assista a este vídeo e saiba mais sobre o processamento de pedidos e o status:
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

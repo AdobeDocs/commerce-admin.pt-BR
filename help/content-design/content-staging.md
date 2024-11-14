@@ -3,7 +3,7 @@ title: Preparo de conteúdo
 description: O armazenamento temporário de conteúdo oferece à sua equipe de negócios a capacidade de criar, visualizar e agendar facilmente uma grande variedade de atualizações de conteúdo para sua loja diretamente do administrador.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -79,7 +79,7 @@ O [!UICONTROL Content Staging] [painel](content-staging-dashboard.md) oferece vi
 
 Para saber mais sobre o preparo de conteúdo, assista a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## Solução de problemas de recursos
 

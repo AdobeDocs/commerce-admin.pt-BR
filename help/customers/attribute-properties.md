@@ -3,7 +3,7 @@ title: Propriedades do atributo do cliente
 description: Saiba como configurar propriedades de atributos do cliente.
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 0%
@@ -171,4 +171,4 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
 
 Para obter uma demonstração sobre como criar atributos do cliente, assista a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)

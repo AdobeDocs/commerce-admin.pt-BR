@@ -3,7 +3,7 @@ title: Criar uma regra de preço de catálogo
 description: Saiba como criar uma regra de preço de catálogo que aplica um desconto a produtos específicos sempre que um conjunto de condições é atendido.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -224,7 +224,7 @@ A maioria das condições disponíveis é baseada nos valores de atributo existe
 
 Assista a este vídeo para saber mais sobre como criar regras de preço de catálogo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Descrições dos campos
 

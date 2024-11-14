@@ -3,9 +3,9 @@ title: Envio e entrega
 description: Saiba mais sobre o suporte para vários métodos de entrega e transportadoras que você pode oferecer aos seus clientes.
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Estudos mostram que as lojas que oferecem aos clientes uma opção de vários m�
 
 >[!NOTE]
 >
->Devido ao encerramento do Temando, o suporte para [!DNL Magento Shipping] foi removido na versão 2.4.0. Para obter informações de status detalhadas e recomendações para novas implementações de envio no Commerce, consulte a página [informações do produto](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;}.
+>Devido ao encerramento do Temando, o suporte para [!DNL Magento Shipping] foi removido na versão 2.4.0. Para obter informações de status detalhadas e recomendações para novas implementações de envio no Commerce, consulte a página [informações do produto](https://business.adobe.com/products/magento/shipping.html){:target="_blank"}.
 
 ## Métodos básicos de delivery
 
@@ -40,4 +40,4 @@ Se você tiver uma conta comercial com uma ou mais [transportadoras com suporte]
 
 Você pode aprender sobre os métodos de envio e entrega assistindo a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)

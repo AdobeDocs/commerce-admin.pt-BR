@@ -3,7 +3,7 @@ title: Gerenciar contas da empresa
 description: Saiba como gerenciar contas da empresa para sua loja da Adobe Commerce usando a página Empresas e as ferramentas disponíveis na grade.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '2726'
 ht-degree: 0%
@@ -208,7 +208,7 @@ O perfil da empresa pode ser mantido na vitrine pelo administrador da empresa, e
 
 Você pode aprender sobre como gerenciar contas da empresa assistindo a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Gerenciamento da empresa
 

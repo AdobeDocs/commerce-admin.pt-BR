@@ -3,7 +3,7 @@ title: Funções do usuário
 description: Saiba como criar funções de usuário e as permissões associadas para gerenciar o acesso às funções de Administrador.
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%
@@ -119,7 +119,7 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 Assista a este vídeo para saber mais sobre o gerenciamento de funções de usuário:
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
 
 ## Recursos de função
 

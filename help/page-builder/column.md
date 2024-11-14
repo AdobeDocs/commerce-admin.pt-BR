@@ -3,7 +3,7 @@ title: Layout - Coluna
 description: Saiba mais sobre o tipo de conteúdo Coluna, usado para dividir uma página em várias colunas no estágio  [!DNL Page Builder] .
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 63b620f2af106108c672a9a91cb66923c5231c53
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Você pode alterar o layout do contêiner [!DNL Columns] arrastando uma coluna a
 
 Assista a este vídeo para obter uma demonstração de como o contêiner [!DNL Columns] pode ser usado para refinar seus layouts de página:
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
 
 ## Caixa de ferramentas Coluna
 
@@ -36,7 +36,7 @@ Cada coluna tem uma caixa de ferramentas de opções que aparece quando você pa
 |--- |--- |--- |
 | Mover | ![Ícone Mover](./assets/pb-icon-move.png){width="25"} | Move a coluna e seu conteúdo para outra posição em relação a outras colunas. |
 | (rótulo) | Coluna | Identifica o container atual como uma coluna. Passe o mouse sobre o contêiner da coluna para mostrar a caixa de ferramentas. |
-| Configurações | ![Ícone de configurações](./assets/pb-icon-settings.png){width="25"} | Abre a página Editar Coluna, onde é possível alterar as propriedades do container. |
+| Configurações  | ![Ícone de configurações](./assets/pb-icon-settings.png){width="25"} | Abre a página Editar Coluna, onde é possível alterar as propriedades do container. |
 | Duplicar | ![Ícone duplicado](./assets/pb-icon-duplicate.png){width="25"} | Faz uma cópia da coluna atual. |
 | Remover | ![Ícone Remover](./assets/pb-icon-remove.png){width="25"} | Exclui a coluna atual e seu conteúdo. |
 

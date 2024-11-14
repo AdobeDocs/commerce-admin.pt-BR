@@ -2,7 +2,7 @@
 title: Blocos de conteúdo
 description: Um bloco pode ser usado para exibir informações fixas, como texto, imagens, vídeo incorporado e informações dinâmicas.
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -21,6 +21,6 @@ Você pode criar blocos personalizados de conteúdo sem escrever qualquer códig
 
 Saiba mais sobre [blocos estáticos e ](dynamic-blocks.md) dinâmicos assistindo a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/

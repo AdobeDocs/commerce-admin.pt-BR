@@ -2,13 +2,13 @@
 title: '[!UICONTROL My Quote Templates]'
 description: Saiba mais sobre a experiência do cliente para modelos de cotação, que está disponível no painel de conta da loja.
 feature: B2B, Companies, Quotes
-source-git-commit: c2cb4db24effa764996b0fb77fbda67727392efe
+exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
+source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
 
 ---
-
 
 # [!UICONTROL My Quote Templates]
 
@@ -114,7 +114,3 @@ Os compradores podem concluir as seguintes ações a partir de uma cota vinculad
 Na página de modelo de citação, clique em **[!UICONTROL Cancel Quote Template]**.
 
 O modelo de cotação é cancelado, e o status da cotação muda para `Closed`. A cotação fechada permanece na lista de *[!UICONTROL Inactive]* cotações e permanece na grade _[!UICONTROL Quote Templates]_do Administrador.
-
-
-
-

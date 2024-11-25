@@ -3,9 +3,9 @@ title: Regras de preço de catálogo
 description: Saiba mais sobre as regras de preço de catálogo que podem ser usadas para oferecer produtos a compradores por um preço com desconto com base em um conjunto de condições definidas.
 exl-id: 8da95076-d724-41f6-b3ca-e61ff1906b72
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,3 @@ Por exemplo, você pode definir e definir as condições para uma regra de preç
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use esta opção para filtrar a lista com base no status da regra (`Active` ou `Inactive`). |
 
 {style="table-layout:auto"}
-
-## Solução de problemas de recursos
-
-Para obter ajuda com a solução de problemas de regras de preços de catálogo, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
-
-- [404 Erro na loja assim que a atualização das agendas de regra de preço de catálogo é executada](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/404-error-on-store-front-once-catalog-price-rule-schedules-update-is-performed.html)
-- [Desempenho aprimorado da página do produto com produtos relacionados e regras de destino](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31791-magento-patch-improvement-for-product-page-with-related-products-and-target-rules.html)
-- [As regras de preço de catálogo não funcionam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-24201-magento-patch-catalog-price-rules-don-t-work.html)
-- [cálculos de preço do GraphQL](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33975-magento-patch-graphql-price-calculations.html)

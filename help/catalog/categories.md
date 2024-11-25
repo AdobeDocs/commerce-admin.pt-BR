@@ -3,9 +3,9 @@ title: Visão geral das categorias
 description: Antes de adicionar produtos à loja, defina a estrutura básica de categorias do catálogo.
 exl-id: 818c012a-ad46-458f-83e5-5873bc996758
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,3 @@ Para obter ajuda com a solução de problemas de categoria, consulte os seguinte
 
 - [As alterações nas categorias não estão sendo salvas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
 - [Menu principal (Categorias) não exibido nas subpáginas com o recurso Fastly habilitado](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
-- [Produtos ausentes de categorias, indexação relacionada](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.html)
-- [Memória insuficiente em determinadas categorias](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-31307-magento-patch-out-of-memory-on-certain-categories.html)
-- [Produtos e categorias não são exibidos](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-18/mdva-34695-magento-patch-products-and-categories-not-displaying.html)

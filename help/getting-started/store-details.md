@@ -3,9 +3,9 @@ title: Detalhes da loja
 description: Saiba como atualizar as informações básicas da sua loja.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,6 @@ Você também pode configurar o envio para países específicos para cada [méto
 Para obter ajuda com a solução de problemas de configuração do país, consulte os seguintes artigos da Base de Dados de Conhecimento de Suporte do [!DNL Commerce]:
 
 - [Como adicionar um país](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
-- [O countryId fornecido não existe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## [!UICONTROL Merchant Location]
 
@@ -256,7 +255,7 @@ Para obter mais informações sobre as opções de configuração de emails de v
 
 O link _Fale Conosco_ no rodapé da loja é uma maneira fácil para os clientes manterem contato com você. Os clientes podem preencher o formulário para enviar uma mensagem à sua loja. Uma instalação padrão do [!DNL Commerce] exibe o formulário padrão _Fale Conosco_. Depois de enviar o formulário, uma mensagem de agradecimento é exibida
 
-É importante entender que o formulário padrão Fale conosco é renderizado diretamente do código, em vez de uma página CMS.
+É importante entender que o formulário padrão Fale conosco é renderizado diretamente do código, em vez de ser renderizado a partir de uma página do CMS.
 
 ![Página Contate-nos Padrão](./assets/page-contact-us-default.png){width="700"}
 
@@ -324,7 +323,7 @@ Os dados de amostra do Luma incluem um bloco _Informações para contato_ que po
 
 >[!IMPORTANT]
 >
->A partir da versão 2.4.0, o formulário de contato não poderá mais chamar dentro de um bloco CMS ou página CMS. Toda personalização do formulário de contato deve ser feita usando o xml de layout ou modelos de tema personalizados.
+>A partir da versão 2.4.0, o formulário de contato não poderá mais chamar dentro de um bloco do CMS ou de uma página do CMS. Toda personalização do formulário de contato deve ser feita usando o xml de layout ou modelos de tema personalizados.
 
 Por padrão, os compradores acessam o formulário de contato usando o _link de contato_ no rodapé das páginas de frente da loja. Para obter mais informações sobre como personalizar a página de contato, consulte o [Guia do Desenvolvedor de Front-end][theme-guide].
 

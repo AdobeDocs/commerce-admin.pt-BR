@@ -3,9 +3,9 @@ title: Exportar dados
 description: Saiba mais sobre atributos e filtros de exportação de dados e como exportar dados de sua loja.
 exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -93,5 +93,3 @@ A caixa de seleção na primeira coluna é usada para excluir atributos do arqui
 Para obter ajuda com a solução de problemas de exportação de dados, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
 
 - [O arquivo .csv de produtos exportados não aparece](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
-- [O arquivo de exportação do produto não é exibido no Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31168-magento-patch-product-export-file-does-not-show-in-admin.html)
-- [Problema ao exportar pedidos no formato CSV](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31242-magento-patch-issue-in-exporting-orders-in-csv-format.html)

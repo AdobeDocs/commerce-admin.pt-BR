@@ -3,9 +3,9 @@ title: FedEx
 description: Saiba como configurar o FedEx como uma transportadora de remessa para sua loja.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ A FedEx é uma das maiores empresas de serviços de transporte marítimo do mund
 
 ## Etapa 1: Registrar-se para produção dos serviços Web FedEx
 
-Uma [conta de comerciante da FedEx][1] e o registro para o Acesso de Produção dos Serviços Web da FedEx são necessários. Depois de criar uma conta FedEx, leia a página de informações da conta de produção e clique no link _Obter Chave de Produção_ na parte inferior da página para se registrar e obter uma chave.
+Uma conta de comerciante FedEx e o registro para o FedEx Web Services Production Access são necessários. Depois de criar uma conta FedEx, leia a página de informações da conta de produção e clique no link _Obter Chave de Produção_ na parte inferior da página para se registrar e obter uma chave.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Uma [conta de comerciante da FedEx][1] e o registro para o Acesso de Produção 
    - Opções domésticas - Economizador expresso, terra, primeiro, durante a noite, entrega em casa, padrão durante a noite
    - Opções internacionais-Economia Internacional, Intl Economia Frete, Internacional Primeiro, Terreno Internacional, Internacional, Prioridade Intl
    - Opções de prioridade - Frete, Prioridade noite
-   - Smart Post-If que oferece o método Smart Post (insira a **ID do Hub**)
+   - A oferta do método Smart Post-If (insira a **ID do Hub**) (em inglês)
    - Opções de frete - Frete, Frete Nacional
 
 1. Se você deseja fornecer uma opção de [Envio gratuito](shipping-free.md) por meio do FedEx, defina as opções de envio gratuito.
@@ -159,5 +159,3 @@ Uma [conta de comerciante da FedEx][1] e o registro para o Acesso de Produção 
 >[!NOTE]
 >
 >A Commerce sempre declara o preço total do pedido para a FedEx ao calcular as despesas de envio. Esse comportamento não pode ser alterado.
-
-[1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

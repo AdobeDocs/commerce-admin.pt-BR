@@ -3,9 +3,9 @@ title: Diretrizes de imposto por país
 description: Revisar configurações de imposto recomendadas de acordo com o país.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Essas configurações recomendadas podem ser usadas para a maioria das configura
 
 >[!IMPORTANT]
 >
->Os comerciantes que estão em uma província de GST/PST (Montreal) devem criar uma regra de imposto e mostrar um valor de imposto combinado. Certifique-se de consultar uma autoridade fiscal qualificada em caso de dúvidas. Para obter informações sobre as exigências fiscais de províncias específicas, consulte o seguinte: [Revenu Québec][1], [Government of Saskatchewan][2] e [Manitoba Information for Vendors][3]
+>Os comerciantes que estão em uma província de GST/PST (Montreal) devem criar uma regra de imposto e mostrar um valor de imposto combinado. Certifique-se de consultar uma autoridade fiscal qualificada em caso de dúvidas.
 
 | Opção de imposto | Recomendação |
 |--- |--- |
@@ -322,7 +322,7 @@ Para este exemplo, presume-se que não são necessárias várias classes de impo
 
 Crie as seguintes alíquotas de imposto:
 
-| Alíquotas de imposto | Configurações |
+| Alíquotas de imposto | Configurações  |
 |--- |--- |
 | França-PadrãoIVA | País: França <br/>Estado/Região: * <br/>CEP: * <br/>Taxa: 20% |
 | França - IVA reduzido | País: França <br/>Estado/Região: * <br/>CEP: * <br/>Taxa: 5% |
@@ -335,7 +335,7 @@ Crie as seguintes alíquotas de imposto:
 
 Crie as seguintes regras de imposto:
 
-| Regras de imposto | Configurações |
+| Regras de imposto | Configurações  |
 |--- |--- |
 | Varejo-França-PadrãoIVA | Classe do Cliente: Cliente de Varejo <br/>Classe do Imposto: VAT-Padrão <br/>Alíquota de Imposto: France-StandardVAT <br/>Prioridade: 0 <br/>Ordem de Classificação: 0 |
 | Varejo-França - IVA Reduzido | Classe do Cliente: Cliente de Varejo <br/>Classe de Imposto: IVA Reduzido <br/>Alíquota de Imposto: França-IVA Reduzido <br/>Prioridade: 0 <br/>Ordem de Classificação: 0 |
@@ -411,14 +411,10 @@ Conclua as seguintes definições de imposto geral:
 
       - País Padrão
       - Estado padrão
-      - Código Post padrão
+      - Código postal padrão
 
      Essa configuração garante que o imposto seja calculado corretamente quando os preços do produto incluírem imposto.
 
      ![Cálculo de Destino de Imposto Padrão](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
-
-[1]: https://www.revenuquebec.ca/en/businesses/
-[2]: https://www.saskatchewan.ca/finance
-[3]: https://www.gov.mb.ca/finance/taxation/bulletins/004.pdf

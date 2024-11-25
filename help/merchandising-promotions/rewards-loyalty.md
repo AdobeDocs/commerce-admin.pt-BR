@@ -3,9 +3,9 @@ title: Programas de recompensa e fidelidade
 description: Saiba mais sobre o sistema de pontos de recompensa que você pode usar para impulsionar o engajamento do cliente e promover a fidelidade do cliente.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
@@ -187,5 +187,4 @@ Todas as ações relacionadas a pontos de premiação são exibidas no bloco _[!
 
 Para obter ajuda com a solução de problemas de pontos de premiação, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
 
-- [Pontos de fidelidade em pedidos parciais](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31295-magento-patch-loyalty-points-on-partial-orders.html)
 - Erro [404 - removendo pontos de recompensa no check-out de vários envios](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)

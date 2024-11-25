@@ -3,7 +3,7 @@ title: Compartilhar uma conta  [!DNL Commerce]
 description: Saiba como conceder acesso limitado à sua conta [!DNL Commerce] para outros [!DNL Commerce] titulares da conta.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -91,11 +91,11 @@ As instruções a seguir são escritas da perspectiva de um usuário compartilha
 
    ![Suporte](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   Você pode usar a [Central de Ajuda do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) da conta compartilhada para procurar artigos e informações de solução de problemas, encontrar patches para problemas conhecidos e criar tíquetes de suporte.
+   Você pode usar a [Central de Ajuda do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) da conta compartilhada para procurar artigos e informações de solução de problemas, encontrar patches para problemas conhecidos e criar tíquetes de suporte.
 
    >[!NOTE]
    >
-   >Depois de receber acesso compartilhado, o usuário deve fazer logon em sua [[!DNL Commerce] conta](https://account.magento.com/customer/account/login), navegar até o _Acesso Compartilhado_ e clicar na guia **[!UICONTROL Support]**. Esta ação é necessária somente na primeira vez para garantir que a [Base de Dados de Conhecimento de Suporte da Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) seja configurada corretamente por meio da chamada `SSO`.
+   >Depois de receber acesso compartilhado, o usuário deve fazer logon em sua [[!DNL Commerce] conta](https://account.magento.com/customer/account/login), navegar até o _Acesso Compartilhado_ e clicar na guia **[!UICONTROL Support]**. Esta ação é necessária somente na primeira vez para garantir que a [Base de Dados de Conhecimento de Suporte da Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) seja configurada corretamente por meio da chamada `SSO`.
 
 1. Para retornar à sua própria conta, clique em **Voltar** nos controles do navegador e defina **[!UICONTROL Switch Accounts]** como `My Account`.
 
@@ -113,11 +113,11 @@ As instruções a seguir são escritas da perspectiva de um usuário compartilha
    > 
    > Em caso positivo, peça ao proprietário da conta para modificar a conta de Acesso Compartilhado para limpar as permissões da conta. Após essa atualização, o usuário não poderá acessar nenhum recurso da conta.
    >
-   > Além disso, remova os usuários do projeto para que eles não recebam mais notificações por email: [Os membros antigos da equipe recebem emails de notificação da nuvem do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+   > Além disso, remova os usuários do projeto para que eles não recebam mais notificações por email: [Os membros antigos da equipe recebem emails de notificação da nuvem do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL Delete User]**.
 
 >[!NOTE]
 >
->Não é possível excluir usuários com o Nome de Compartilhamento do _Acesso Compartilhado na Nuvem da MAG[XYZ]_ nesta interface. Consulte [Como excluir usuários que receberam acesso compartilhado por meio de um projeto na nuvem?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users).
+>Não é possível excluir usuários com o Nome de Compartilhamento do _Acesso Compartilhado na Nuvem da MAG[XYZ]_ nesta interface. Consulte [Como excluir usuários que receberam acesso compartilhado por meio de um projeto na nuvem?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting).

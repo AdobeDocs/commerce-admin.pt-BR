@@ -3,7 +3,8 @@ title: Serviços SaaS da Commerce
 description: Saiba mais sobre os serviços SaaS da Commerce disponíveis para ampliar os recursos de vitrine da Commerce
 seo-title: Commerce Services
 seo-description: Get an overview of available services that help Adobe Commerce merchants extend storefront capabilities to support key components of their business.
-source-git-commit: ab886855f087186bb1598ab4a780f49c15757c16
+exl-id: 2e673eb2-a90b-491a-b320-e9bd089d19f2
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -18,7 +19,7 @@ O Adobe fornece uma coleção de serviços da Commerce, serviços de integraçã
 
 ![Pesquisa](../landing/assets/icon-magnify.svg){width="40"}**[Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)**—Implemente uma ferramenta de pesquisa baseada em IA que forneça resultados mais inteligentes, rápidos e relevantes para compradores B2C.
 
-![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/en/docs/commerce-merchant-services/product-recommendations/overview)**—Adicione recomendações alimentadas por IA com base no comportamento do comprador, nas tendências populares, na similaridade do produto e muito mais.
+![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)**—Adicione recomendações alimentadas por IA com base no comportamento do comprador, nas tendências populares, na similaridade do produto e muito mais.
 
 ![Dados de catálogo para serviços conectados](../landing/assets/icon-data-book.svg){width="40"}**[Serviço de Catálogo](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)**—Dê aos seus clientes uma experiência de produto otimizada enquanto aumenta o desempenho, melhora a escalabilidade e aumenta as conversões.
 

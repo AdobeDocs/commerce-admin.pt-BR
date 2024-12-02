@@ -1,5 +1,5 @@
 ---
-title: Menu '[!UICONTROL System]'
+title: Menu [!UICONTROL System]
 description: O Administrador do Commerce inclui o menu [!UICONTROL System], que fornece acesso a ferramentas para importação e exportação de dados, gerenciamento de índice e cache do sistema, gerenciamento de permissões e acesso de Administrador, backups, notificações do sistema e variáveis personalizadas.
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
 source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf

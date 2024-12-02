@@ -1,5 +1,5 @@
 ---
-title: 'Passagem de ''[!DNL Page Builder] parte 2: blocos'''
+title: '[!DNL Page Builder] Apresentação parte 2: blocos'
 description: Saiba mais sobre a diferença entre blocos simples e dinâmicos ao usar o  [!DNL Page Builder].
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content

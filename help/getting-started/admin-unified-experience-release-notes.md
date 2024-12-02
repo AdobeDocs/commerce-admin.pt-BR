@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Admin Unified Experience for Adobe Commerce] notas de versão'
+title: Notas de versão do [!DNL Admin Unified Experience for Adobe Commerce]
 description: Revise as notas de versão para obter informações sobre a versão mais recente da extensão  [!DNL Admin Unified Experience]  para o Commerce.
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
 source-git-commit: b198c4864e6ad6c20633a3f5483067c55c4e997b
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

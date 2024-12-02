@@ -5,7 +5,7 @@ exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
 source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Ao ativar uma conta do [!DNL Commerce Intelligence] por meio do Adobe, você obt
 
 [!DNL Advanced Reporting] está incluído com Adobe Commerce e Magento Open Source. Esse recurso oferece acesso a um conjunto de relatórios dinâmicos com base em seus produtos, pedidos e dados do cliente, com um painel personalizado adaptado às suas necessidades comerciais. Enquanto [!DNL Advanced Reporting] usa [!DNL Commerce Intelligence] para análise, não é necessário ter uma conta do Commerce Intelligence para usar [!DNL Advanced Reporting].
 
-Para obter informações técnicas, consulte o tópico [[!DNL Advanced Reporting]][2]{:target=&quot;_blank&quot;} na documentação do desenvolvedor.
+Para obter informações técnicas, consulte o tópico [[!DNL Advanced Reporting]][2]{:target="_blank"} na documentação do desenvolvedor.
 
 >[!NOTE]
 >

@@ -1,5 +1,5 @@
 ---
-title: "Instalar, atualizar e remover  [!DNL Inventory Management]"
+title: Instalar, atualizar e remover [!DNL Inventory Management]
 description: Saiba como gerenciar o  [!DNL Inventory Management] metapackage.
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced

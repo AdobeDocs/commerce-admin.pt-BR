@@ -1,5 +1,5 @@
 ---
-title: "Configurar  [!DNL Inventory Management] opções de produto"
+title: Configurar  [!DNL Inventory Management] opções do produto
 description: Saiba como definir as  [!DNL Inventory Management] opções de configuração do produto.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products

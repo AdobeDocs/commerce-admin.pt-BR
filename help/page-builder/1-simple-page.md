@@ -1,5 +1,5 @@
 ---
-title: 'Passagem de ''[!DNL Page Builder] parte 1: página simples'''
+title: '[!DNL Page Builder] Apresentação parte 1: página simples'
 description: Use os arquivos de exemplo e siga as etapas para criar uma página simples na interface  [!DNL Page Builder] .
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content

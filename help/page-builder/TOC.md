@@ -1,14 +1,14 @@
 ---
-user-guide-title: "[!DNL Page Builder] Guia do Usuário"
+user-guide-title: Guia do Usuário do [!DNL Page Builder]
 user-guide-description: Saiba como usar  [!DNL Page Builder]  recursos para criar páginas ricas em conteúdo com layouts personalizados que aprimoram sua narrativa visual, impulsionam a participação e a fidelidade do cliente.
-breadcrumb-title: "[!DNL Page Builder]"
+breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
 source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 

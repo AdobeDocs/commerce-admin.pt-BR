@@ -1,7 +1,7 @@
 ---
-user-guide-title: "[!DNL Inventory Management] Guia do Usuário"
+user-guide-title: Guia do Usuário do [!DNL Inventory Management]
 user-guide-description: Saiba como usar  [!DNL Inventory Management] recursos para manter quantidades para vendas e manipular remessas a serem concluídas [!DNL Commerce] pedidos.
-breadcrumb-title: "[!DNL Inventory Management]"
+breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
 source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8

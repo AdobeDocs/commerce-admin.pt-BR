@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Page Builder] Workspace'
+title: Workspace [!DNL Page Builder]
 description: Saiba mais sobre as ferramentas disponíveis no  [!DNL Page Builder] espaço de trabalho ao criar páginas básicas, páginas de produtos e catálogos, blocos e blocos dinâmicos.
 exl-id: 1cd7b300-0a18-490f-bc11-36de3fec13dc
 feature: Page Builder, Page Content
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Workspace [!DNL Page Builder]
 
-Quando [[!DNL Page Builder] está habilitado](setup.md), a seção _[!UICONTROL Content]_e o processo de criação de conteúdo são modificados para aproveitar as ferramentas [!DNL Page Builder] avançadas para páginas [CMS](../content-design/page-add.md), [produto](../catalog/product-content.md) e [categoria](../catalog/categories-content-settings.md), [blocos](../content-design/block-add.md) e [blocos dinâmicos](../content-design/dynamic-blocks.md). Esta seção inclui um campo_ Cabeçalho do Conteúdo _, uma visualização do conteúdo e acesso fácil ao espaço de trabalho [!DNL Page Builder] em tela cheia.
+Quando [[!DNL Page Builder] está habilitado](setup.md), a seção _[!UICONTROL Content]_e o processo de criação de conteúdo são modificados para aproveitar as ferramentas [!DNL Page Builder] avançadas para páginas [do CMS](../content-design/page-add.md), [produtos](../catalog/product-content.md) e [categorias](../catalog/categories-content-settings.md), [blocos](../content-design/block-add.md) e [blocos dinâmicos](../content-design/dynamic-blocks.md). Esta seção inclui um campo_ Cabeçalho do Conteúdo _, uma visualização do conteúdo e acesso fácil ao espaço de trabalho [!DNL Page Builder] em tela cheia.
 
 ![Seção de conteúdo com [!DNL Page Builder] visualização](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
@@ -44,7 +44,7 @@ Ao abrir o espaço de trabalho [!DNL Page Builder] a partir da visualização, o
 
 >[!NOTE]
 >
->A partir da versão 2.4.1, a edição de conteúdo agora é em tela cheia apenas para todas as áreas controladas pelo [!DNL Page Builder] — páginas CMS, páginas de produto e categoria, blocos e blocos dinâmicos. A edição em tela cheia coloca o foco no conteúdo e fornece uma visualização que melhor corresponde à experiência do usuário na loja.
+>A partir da versão 2.4.1, a edição de conteúdo agora é em tela cheia apenas para todas as áreas controladas pelo [!DNL Page Builder] — páginas do CMS, páginas de produto e categoria, blocos e blocos dinâmicos. A edição em tela cheia coloca o foco no conteúdo e fornece uma visualização que melhor corresponde à experiência do usuário na loja.
 
 ![Preparar com conteúdo de página](./assets/pb-workspace-simple-page.png){width="600" zoomable="yes"}
 
@@ -165,7 +165,7 @@ Passe o mouse sobre o container para exibir a caixa de ferramentas e escolher um
 | Mover | ![Ícone Mover](./assets/pb-icon-move.png){width="25"} | Move o contêiner de conteúdo atual para outra posição no estágio. |
 | Adicionar | ![Ícone Adicionar](./assets/pb-icon-add.png){width="25"} | Adiciona elementos secundários, como um botão, slide ou guia. |
 | (rótulo) |           | Identifica o tipo de conteúdo do container. |
-| Configurações | ![Ícone de configurações](./assets/pb-icon-settings.png){width="25"} | Abre as propriedades do container de conteúdo no modo de edição. |
+| Configurações  | ![Ícone de configurações](./assets/pb-icon-settings.png){width="25"} | Abre as propriedades do container de conteúdo no modo de edição. |
 | Ocultar | ![Ícone Ocultar](./assets/pb-icon-hide.png){width="25"} | Oculta o contêiner de conteúdo atual. |
 | Mostrar | ![Mostrar ícone](./assets/pb-icon-show.png){width="25"} | Mostra o contêiner de conteúdo atual. |
 | Duplicar | ![Ícone duplicado](./assets/pb-icon-duplicate.png){width="25"} | Faz uma cópia do container de conteúdo atual. |

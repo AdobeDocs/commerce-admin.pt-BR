@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Page Builder] Guia do Usuário'
+title: Guia do Usuário do [!DNL Page Builder]
 description: Informações abrangentes sobre o  [!DNL Page Builder]  para administradores do Adobe Commerce e do Magento Open Source.
 seo-title: Adobe Commerce [!DNL Page Builder] User Guide
 seo-description: Describes how to use the [!DNL Page Builder] module in Adobe Commerce or Magento Open Source.

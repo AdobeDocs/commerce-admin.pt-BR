@@ -1,5 +1,5 @@
 ---
-title: Configuração de '[!DNL Page Builder]'
+title: Configuração de [!DNL Page Builder]
 description: Saiba mais sobre a configuração de recursos do  [!DNL Page Builder]  no Admin para Adobe Commerce e Magento Open Source.
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configuração de [!DNL Page Builder]
 
-Quando habilitada na configuração, [!DNL Page Builder] é a ferramenta de criação de conteúdo padrão para Páginas CMS, Blocos e Blocos Dinâmicos. Além disso, o botão _[!UICONTROL Enable Advanced CMS]_oferece [!DNL Page Builder] como uma opção para Categorias e Produtos. Você também pode escolher o [layout de página](../content-design/page-layout.md) padrão que deseja usar para produtos, categorias e páginas CMS. [!DNL Page Builder] não está disponível para o conteúdo do informativo, que usa o [editor](../content-design/editor.md) do WYSIWYG.
+Quando habilitada na configuração, [!DNL Page Builder] é a ferramenta de criação de conteúdo padrão para Páginas, Blocos e Blocos Dinâmicos do CMS. Além disso, o botão _[!UICONTROL Enable Advanced CMS]_oferece [!DNL Page Builder] como uma opção para Categorias e Produtos. Você também pode escolher o [layout de página](../content-design/page-layout.md) padrão que deseja usar para produtos, categorias e páginas do CMS. [!DNL Page Builder] não está disponível para o conteúdo do informativo, que usa o [editor](../content-design/editor.md) do WYSIWYG.
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ Para obter mais informações sobre as opções de configuração das Ferramenta
 
    - Escolha a **[!UICONTROL Default Category Layout]** que deseja usar para páginas de categoria.
 
-   - Escolha o **[!UICONTROL Default Page Layout]** que deseja usar para páginas CMS.
+   - Escolha o **[!UICONTROL Default Page Layout]** que deseja usar para páginas do CMS.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
@@ -82,7 +82,7 @@ Para obter mais informações sobre as opções de configuração das Ferramenta
 
 >[!NOTE]
 >
->Desabilitar [!DNL Page Builder] substitui as Ferramentas de Conteúdo Avançado pelo [editor](../content-design/editor.md) WYSIWYG e pode causar erros de exibição na loja. O conteúdo criado anteriormente com [!DNL Page Builder] pode não ser editável pelo Administrador.
+>Desabilitar [!DNL Page Builder] substitui as Ferramentas de Conteúdo Avançado pelo [editor](../content-design/editor.md) do WYSIWYG e pode causar erros de exibição na loja. O conteúdo criado anteriormente com [!DNL Page Builder] pode não ser editável pelo Administrador.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

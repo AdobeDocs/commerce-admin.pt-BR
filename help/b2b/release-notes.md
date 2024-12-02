@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Adobe Commerce B2B] notas de versão'
+title: Notas de versão do [!DNL Adobe Commerce B2B]
 description: Revise as notas de versão para obter informações sobre as alterações nas versões  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes

@@ -77,7 +77,7 @@ ht-degree: 0%
 | [!UICONTROL CVV Entry is Editable] | Site | Determina se o cliente pode editar o CVV após ele ser inserido. Opções: `Yes` / `No` |
 | [!UICONTROL Require CVV Entry] | Site | Determina se os clientes devem digitar o código CVV no verso do cartão de crédito. Opções: `Yes` / `No` |
 | [!UICONTROL Send Email Confirmation] | Site | Determina se o cliente recebe a confirmação do pagamento por email. Opções: `Yes` / `No` |
-| [!UICONTROL URL Method for Cancel URL and Return URL] | Site | Determina o método usado para trocar informações com o servidor do PayPal durante uma transação. Opções: <br/>**`GET`**- Recupera informações que são o resultado de um processo. (Este é o método padrão.)<br/>**`POST`** - Envia um bloco de dados, como dados inseridos em um formulário, para o processo de manipulação de dados. |
+| [!UICONTROL URL Method for Cancel URL and Return URL] | Site | Determina o método usado para trocar informações com o servidor do PayPal durante uma transação. Opções: <br/>**`GET`**- Recupera informações que são o resultado de um processo. (Este é o método padrão.)<br/>**`POST`** - Envia um bloco de dados, como os dados inseridos em um formulário, para o processo de manipulação de dados. |
 
 {style="table-layout:auto"}
 

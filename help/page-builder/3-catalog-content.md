@@ -1,5 +1,5 @@
 ---
-title: 'Passo a Passo ''[!DNL Page Builder] parte 3: conteúdo do catálogo'''
+title: '[!DNL Page Builder] Apresentação parte 3: conteúdo do catálogo'
 description: Saiba como adicionar uma lista de produtos a uma página  [!DNL Page Builder] .
 exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
@@ -256,7 +256,7 @@ Nesta etapa, você cria dois novos atributos personalizados para mostrar como os
 
    Na parte superior da seção, há dois atributos padrão para o conteúdo do produto:
 
-   - _Descrição Curta_, que usa o [editor](../content-design/editor.md) WYSIWYG padrão.
+   - _Descrição curta_, que usa o [editor](../content-design/editor.md) padrão do WYSIWYG.
    - _Descrição_, que exibe a visualização [!DNL Page Builder].
 
    ![Conteúdo do produto](./assets/pb-product-content-edit-with-page-builder.png){width="600" zoomable="yes"}

@@ -1,5 +1,5 @@
 ---
-title: "Configurar [!DNL Inventory Management]"
+title: Configurar [!DNL Inventory Management]
 description: Saiba mais sobre a configuração de  [!DNL Inventory Management]  opções que determinam a disponibilidade de origem, os produtos da loja e a remessa do pedido.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration

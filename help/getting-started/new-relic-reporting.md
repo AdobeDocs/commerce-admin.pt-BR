@@ -1,5 +1,5 @@
 ---
-title: '[!DNL New Relic] relatório'
+title: '[!DNL New Relic] relatórios'
 description: Saiba mais sobre os [!DNL New Relic] relatórios disponíveis para contas do Adobe Commerce na infraestrutura em nuvem, que inclui o software para o serviço de APM da New Relic.
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader

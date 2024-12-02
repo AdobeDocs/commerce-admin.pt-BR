@@ -1,5 +1,5 @@
 ---
-title: "Configurar [!DNL Inventory Management] ordens pendentes"
+title: Configurar [!DNL Inventory Management] ordens pendentes
 description: Saiba como configurar pedidos pendentes para dar suporte à venda de produtos indisponíveis.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders

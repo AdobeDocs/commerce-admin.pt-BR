@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Commerce] atualizações'
+title: Atualizações de [!DNL Commerce]
 description: Saiba como as atualizações do Adobe Commerce e do Magento Open Source afetam o catálogo e as  [!DNL Inventory Management]  configurações.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade

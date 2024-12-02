@@ -1,5 +1,5 @@
 ---
-title: "[!UICONTROL My Account] página"
+title: '[!UICONTROL My Account] página'
 description: A página [!UICONTROL My Account] do painel do cliente fornece aos clientes uma visão geral de suas informações e atividades relacionadas à sua loja.
 exl-id: 01413b6b-ce32-4284-ae29-0fadf6ed22ca
 feature: Customers, Storefront

@@ -1,5 +1,5 @@
 ---
-title: Menu '[!UICONTROL Stores]'
+title: Menu [!UICONTROL Stores]
 description: O Administrador do Commerce inclui o menu [!UICONTROL Stores], que fornece acesso às ferramentas para configurar a hierarquia da loja, a configuração, o inventário, os impostos e os atributos.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a

@@ -1,5 +1,5 @@
 ---
-title: Menu '[!UICONTROL Content]'
+title: Menu [!UICONTROL Content]
 description: Use o menu [!UICONTROL Content] para acessar vários recursos para gerenciar o conteúdo na sua loja.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0

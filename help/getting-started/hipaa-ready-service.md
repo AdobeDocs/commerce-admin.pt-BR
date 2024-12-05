@@ -3,9 +3,9 @@ title: Disponibilidade para HIPAA no Adobe Commerce
 description: Saiba como adicionar a extensão do Adobe Commerce pronta para HIPAA e obtenha recursos e funcionalidades adicionais que permitem cumprir com as suas obrigações com a HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: dd97177836f5795f64e04665acdf8c1baa777465
+source-git-commit: c74d05e4a26f46f1aca5d82936a4bb61f8764084
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1598'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ A extensão HIPAA-Ready da Adobe Commerce, `magento/hipaa-ee` está disponível 
 
 ## Requisitos do sistema
 
-O Adobe Commerce deve ser implantado no Adobe Commerce na infraestrutura em nuvem ou no Adobe Commerce Managed Services com a versão 2.4.6-p3 ou posterior (sem versões beta).
+O Adobe Commerce deve ser implantado no Adobe Commerce na infraestrutura em nuvem ou no Adobe Commerce Managed Services com a versão 2.4.6-p3 - 2.4.6-p8 (sem versões beta).
 
 ## Instalação
 

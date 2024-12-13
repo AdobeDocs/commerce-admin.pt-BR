@@ -3,14 +3,14 @@ title: Exemplo de regra de preço do carrinho - desconto com preço mínimo do p
 description: Revise um exemplo de uso de uma regra de preço do carrinho para oferecer um desconto com um preço mínimo do produto.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
+source-git-commit: 2a370dc38b54ee668513bc738b7e8c99f660deae
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# Exemplo de regra de preço do carrinho - desconto com compra mínima
+# Exemplo de regra de preço do carrinho - desconto com preço mínimo do produto
 
 As regras de preço do carrinho podem ser usadas para oferecer um desconto percentual com base em um preço mínimo do produto no carrinho. No exemplo a seguir, um desconto de 10% é aplicado a todos os produtos em todo o carrinho quando pelo menos um produto com um preço superior a US$ 30,00 de uma categoria especificada é adicionado ao carrinho. O formato do desconto é o seguinte:
 

@@ -4,9 +4,9 @@ description: Saiba como configurar o gerenciamento de sessão para proteger o Ad
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: aabbf6d37a2c7fa730e1f3673edfb414685008b6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -104,25 +104,7 @@ Como medida de segurança, o _Administrador_ está inicialmente definido como te
 
 1. Clique em **[!UICONTROL Admin]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Security]_.
-
-1. Por **[!UICONTROL Admin Session Lifetime (seconds)]**, insira o número de segundos durante os quais uma sessão permanece ativa antes do tempo limite.
-
-   ![Configuração avançada - Configurações de segurança do administrador](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
-
-1. Quando terminar, clique em **[!UICONTROL Save Config]**.## Tempo de vida da sessão do administrador
-
-Como medida de segurança, o _Administrador_ está inicialmente definido como tempo limite após 900 segundos (15 minutos) de inatividade do teclado. Você pode ajustar o tempo de vida da sessão para ajustá-lo ao seu estilo de trabalho.
-
-**_Para ajustar a duração da sessão do Administrador:_**
-
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
-
-1. Role para baixo e expanda **[!UICONTROL Advanced]** no painel lateral esquerdo.
-
-1. Clique em **[!UICONTROL Admin]**.
-
-1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _Segurança_.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Security]**.
 
 1. Por **[!UICONTROL Admin Session Lifetime (seconds)]**, insira o número de segundos durante os quais uma sessão permanece ativa antes do tempo limite.
 

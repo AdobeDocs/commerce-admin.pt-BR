@@ -3,9 +3,9 @@ title: Sua conta de usuário Admin
 description: Saiba mais sobre sua conta de administrador e como usar a autenticação de dois fatores para fazer logon no Administrador.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -157,3 +157,21 @@ O Administrador fornece acesso para gerenciar as funcionalidades de pedidos, cli
 1. Clique em **[!UICONTROL Save Config]**.
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+
+## Manter acesso seguro ao Administrador
+
+Para garantir a segurança do seu administrador, faça auditorias regulares de usuários e funções com acesso de administrador.
+
+Além disso, considere [atualizar a configuração da URL Base do Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) para alterar o ponto de extremidade padrão `/admin` para um caminho personalizado. A configuração de um caminho personalizado oferece os seguintes benefícios de segurança:
+
+**Segurança aprimorada**: o caminho &quot;admin&quot; padrão é amplamente conhecido e frequentemente alvo de ataques à força bruta por parte de agentes mal-intencionados. Ao alterá-lo para um valor único e personalizado, você reduz significativamente o risco de tentativas de acesso não autorizadas.
+
+**Vulnerabilidade reduzida**: os bots automatizados verificam frequentemente caminhos comuns, como &quot;administrador&quot;, para explorar vulnerabilidades. Um caminho personalizado dificulta a localização da página de logon do administrador por esses bots, reduzindo a probabilidade de ataques.
+
+**Privacidade aprimorada**: um caminho de administrador personalizado adiciona uma camada extra de obscuridade, dificultando a identificação e o direcionamento da página de logon do administrador por possíveis invasores.
+
+**Conformidade com as Práticas Recomendadas**: as práticas recomendadas de segurança a seguir, como personalizar o caminho do administrador, demonstram uma abordagem proativa para proteger o site de comércio eletrônico e os dados do cliente.
+
+>[!NOTE]
+>
+>Se houver suspeita de violação, remova todos os usuários administradores desconhecidos, redefina todas as senhas de administradores e examine o [Plano de ação de segurança](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) para obter mais etapas.

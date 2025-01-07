@@ -3,9 +3,9 @@ title: Transferir uma conta do Commerce
 description: Saiba como transferir sua conta do Commerce para outro proprietário ou endereço de email.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
+source-git-commit: e436bbe8f4c2ed913489df22fdc3915d37d9185a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ A forma como você conclui essa transferência depende de qual dos seguintes cen
 | Tipo de transferência | Proprietário atual | Novo proprietário |
 | ------------- | ------------- | --------- |
 | [Nova Adobe ID e alteração de email](#new-adobe-id-and-email-change) | Possui uma MAGEID que **_não está conectada_** a uma conta de logon Adobe. | Não possui uma MAGEID e não está conectado a uma conta de logon Adobe. |
-| [Alteração de email](#email-change) | Tem uma MAGEID que está **_conectada_** com uma conta de logon de Adobe sem outros produtos/serviços de Adobe associados. | Não possui uma MAGEID e não está conectado a uma conta de logon Adobe. |
-| [Opção do Adobe ID](#adobe-id-account-switch) | Tem uma MAGEID que está **_conectada_** com uma conta de logon de Adobe sem outros produtos/serviços de Adobe associados. | Tem uma MAGEID e está conectado a uma conta de logon de Adobe sem outros produtos/serviços de Adobe associados. |
+| [Alteração de email](#email-change) | Tem uma MAGEID que está **_conectada_** com uma conta de logon Adobe. | Não possui uma MAGEID e não está conectado a uma conta de logon Adobe. |
+| [Opção do Adobe ID](#adobe-id-account-switch) | Tem uma MAGEID que está **_conectada_** com uma conta de logon Adobe. | Tem uma MAGEID e está conectado a uma conta de logon de Adobe sem outros produtos/serviços de Adobe associados. |
 
 {style="table-layout:auto"}
 

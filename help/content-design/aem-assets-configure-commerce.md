@@ -3,9 +3,9 @@ title: Instalar e configurar a integração do Experience Manager Assets
 description: Saiba como instalar e configurar o [!DNL AEM Assets Integration for Adobe Commerce] em uma instância do Adobe Commerce.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 5e3de8e9b99c864e5650c59998e518861ca106f5
+source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,13 @@ A integração do AEM Assets para Commerce tem os seguintes requisitos de sistem
 
 **Requisitos de configuração**
 
-- O Adobe Commerce deve ser configurado para usar a [autenticação do Adobe IMS](/help/getting-started/adobe-ims-config.md).
 - Provisionamento e permissões de conta
    - [Administrador do projeto na nuvem do Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)—Instale as extensões necessárias e configure o servidor de aplicativos do Commerce a partir do Administrador ou da linha de comando
    - [Administrador do Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)—Atualize a configuração de armazenamento e gerencie as contas de usuário do Commerce
+
+>[!TIP]
+>
+> O Adobe Commerce pode ser configurado para usar a [autenticação do Adobe IMS](/help/getting-started/adobe-ims-config.md).
 
 ## Visão geral da configuração
 
@@ -186,6 +189,44 @@ Ative a estrutura de eventos no Administrador do Commerce.
    ![Configuração do administrador do Adobe I/O Events Commerce - habilitar eventos do Commerce](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
 1. Insira o nome da empresa de comerciante em **[!UICONTROL Merchant ID]** e o nome do ambiente em **[!UICONTROL Environment ID]** campos. Use somente caracteres alfanuméricos e sublinhados ao definir esses valores.
+
+>[!BEGINSHADEBOX]
+
+**Configurar VCL Personalizado para solicitações de bloqueio**
+
+Se você usar um trecho de VCL personalizado para bloquear solicitações de entrada desconhecidas, talvez precise incluir o cabeçalho HTTP `X-Ims-Org-Idheader` para permitir conexões de entrada do serviço AEM Assets Integration for Commerce.
+
+>[!TIP]
+>
+> Você pode usar o módulo Fastly CDN para criar uma ACL do Edge com uma lista de endereços IP que você deseja bloquear.
+
+O seguinte código de trecho de VCL personalizado (formato JSON) mostra um exemplo com um cabeçalho de solicitação `X-Ims-Org-Id`.
+
+```json
+{
+  "name": "blockbyuseragent",
+  "dynamic": "0",
+  "type": "recv",
+  "priority": "5",
+  "content": "if ( req.http.X-ims-org ~ \"<YOUR-IMS-ORG>\" ) {error 405 \"Not allowed\";}"
+}
+```
+
+Antes de criar um trecho com base neste exemplo, revise os valores para determinar se você precisa fazer alterações:
+
+- `name`: Nome do trecho VCL. Neste exemplo, usamos o nome `blockbyuseragent`.
+
+- `dynamic`: Define a versão do trecho. Neste exemplo, usamos `0`. Consulte os [trechos de VCL do Fastly](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) para obter informações detalhadas sobre o modelo de dados.
+
+- `type`: Especifica o tipo de trecho VCL, que determina o local do trecho no código VCL gerado. Neste exemplo, usamos `recv`, consulte a [referência de trecho Fastly VCL](https://docs.fastly.com/api/config#api-section-snippet) para obter a lista de tipos de trecho.
+
+- `priority`: Determina quando o trecho VCL é executado. Este exemplo usa a prioridade `5` para executar imediatamente e verificar se uma solicitação de administrador vem de um endereço IP permitido.
+
+- `content`: o trecho de código VCL a ser executado, que verifica o endereço IP do cliente. Se o IP estiver na ACL do Edge, o acesso será bloqueado com um erro `405 Not allowed` para todo o site. Todos os outros endereços IP de clientes têm acesso permitido.
+
+Para obter informações detalhadas sobre o uso de trechos de VCL para bloquear solicitações de entrada, consulte [VCL personalizado para solicitações de bloqueio](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) no _Guia de Infraestrutura do Commerce na Nuvem_.
+
+>[!ENDSHADEBOX]
 
 ## Obter credenciais de autenticação para acesso à API
 

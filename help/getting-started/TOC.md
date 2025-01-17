@@ -5,9 +5,9 @@ breadcrumb-title: Introdução
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 1%
    + [Compartilhe sua conta](commerce-account-share.md)
    + [Transferir uma conta](commerce-account-transfer.md)
 + Conformidade do site {#compliance}
-   + [Disponibilidade para HIPAA no Adobe Commerce](hipaa-ready-service.md)
+   + Disponibilidade para HIPAA no Adobe Commerce{#hipaa-ready-service}
+      + [Visão geral](hipaa/overview.md)
+      + [Orientação operacional](hipaa/operations.md)
    + Privacidade {#privacy}
       + [Política de privacidade da loja](privacy-policy.md)
       + [Conformidade com a CCPA](compliance-ccpa.md)

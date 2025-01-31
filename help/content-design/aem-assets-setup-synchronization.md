@@ -3,9 +3,9 @@ title: Habilitar sincronização de ativos
 description: Saiba como conectar seus projetos do Adobe Commerce e do Experience Manager Assets para habilitar a sincronização de ativos entre esses dois sistemas.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: e069f0a99ed9289b22cafe06fe2f787912cbba23
+source-git-commit: e9b3ede8945de0a6ed0cdb02e5675d736764d3e4
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,14 @@ Para integração inicial, use a regra padrão *Corresponder por SKU de produto*
 ## Pré-requisitos
 
 - [Configurar o AEM Experience Manager Assets para gerenciar ativos da Commerce](#aem-assets-configure-aem)
+
 - [Instale e configure a Integração do AEM Assets para o Commerce](#aem-assets-configure-commerce.md) para adicionar a extensão e gerar as credenciais e conexões necessárias para usar a extensão.
+
+- Crie um tíquete de suporte para solicitar a ativação da integração do AEM Assets. Você deve fornecer o **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** e **[!UICONTROL IMS Org ID]**.
+
+  >[!TIP]
+  >
+  > (Opcional) Forneça o **[!UICONTROL Asset Selector IMS Client ID]**, se disponível.
 
 ## Configurar a conexão
 
@@ -43,11 +50,11 @@ Para integração inicial, use a regra padrão *Corresponder por SKU de produto*
 
 1. Entre no ambiente AEM Assets **[!UICONTROL Program ID]** e **[!UICONTROL Environment ID]**.
 
-1. Insira o **[!UICONTROL Asset Selector IMS Client ID].
+1. Digite o **[!UICONTROL Asset Selector IMS Client ID]**, se disponível.
 
-   A [ID do IMS](../getting-started/adobe-ims-config.md) permite integrar o AEM Assets com o Page Builder.
+   A [ID do IMS](../getting-started/adobe-ims-config.md) é exigida por [[!UICONTROL Assets Selector]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector), que seleciona imagens para categorias e/ou [!DNL Page Builder].
 
-1. Selecione o [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)** para solicitações de autenticação entre o Commerce e o serviço de correspondência de ativos.
+1. Selecione o [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) para solicitações de autenticação entre o Commerce e o serviço de correspondência de ativos.
 
 1. Permitir que o Commerce aceite atualizações de entrada do AEM Assets definindo **[!UICONTROL Integration enabled]** como `Yes`.
 

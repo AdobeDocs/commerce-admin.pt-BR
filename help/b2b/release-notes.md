@@ -3,9 +3,9 @@ title: Notas de versão do [!DNL Adobe Commerce B2B]
 description: Revise as notas de versão para obter informações sobre as alterações nas versões  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
+source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7879'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,7 @@ A versão B2B v1.5.0 inclui novos recursos, melhorias de qualidade e correções
 ![Novo](../assets/new.svg) <!--B2B-2747--> **Seletor de escopo da empresa** — Fornece aos usuários da empresa atribuídos a várias empresas a capacidade de alterar empresas na loja. Quando o escopo é alternado, os dados são atualizados para mostrar as informações com base no novo contexto da empresa. Por exemplo, se a nova empresa usar um catálogo compartilhado diferente, o usuário da empresa verá produtos, preços e outras informações com base no novo catálogo compartilhado. O conteúdo relacionado a pedidos, cotações e modelos de cotação também é atualizado com base no contexto da empresa selecionada.
 
 >[!NOTE]
->
->Se o usuário da empresa trocar as empresas por itens no carrinho de compras, atualize o carrinho para refletir a variedade do produto, os preços e os descontos promocionais com base no novo contexto da empresa.
+>O conteúdo do carrinho de compras reflete os itens selecionados pelo cliente atual. Se o cliente tiver um carrinho de compras ativo e selecionar uma empresa diferente, será solicitado que ele atualize o carrinho para refletir a variedade do produto, os preços e os descontos promocionais com base no novo contexto da empresa. Os produtos que não estão disponíveis no catálogo associado à nova empresa são removidos do carrinho. Se o produto tiver um preço ou disponibilidade diferente, o carrinho será atualizado para refletir os dados disponíveis no contexto da empresa selecionada.<!--B2B-4222-->
 
 ![Problema corrigido](../assets/fix.svg)<!--ACP2E-1933--> Os administradores da empresa agora podem adicionar usuários da empresa pela loja. Anteriormente, o Commerce registrava um erro quando um usuário administrador tentava adicionar um novo usuário: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 

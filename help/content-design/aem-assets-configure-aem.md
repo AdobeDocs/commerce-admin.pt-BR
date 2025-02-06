@@ -3,7 +3,7 @@ title: Configurar Experience Manager Assets
 description: Adicione os metadados de ativos necessários para habilitar a Integração do AEM Assets para o Commerce a fim de sincronizar ativos entre projetos do Adobe Commerce e do Experience Manager Assets.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 8a150c79c2e15ce5bd2cb2037f94c94f90b7a1df
+source-git-commit: 6b0c8054e86ae697025626ad2eb575d633003578
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Configurar Experience Manager Assets
-
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
 Prepare o ambiente do AEM as a Cloud Service para gerenciar ativos do Commerce atualizando a configuração do ambiente e configurando os metadados do Assets para identificar e gerenciar ativos do Commerce.
 

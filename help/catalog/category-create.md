@@ -3,9 +3,9 @@ title: Criar categorias
 description: É possível criar quantas subcategorias adicionais forem necessárias, de acordo com a profundidade máxima do menu definida na configuração.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,11 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
 
    - Para usar imagens do Armazenamento de Mídia, clique em **[!UICONTROL Select from Gallery]** e selecione a imagem que deseja representar a categoria.
 
+   Na Galeria de Mídia, você também pode usar a [Integração do Adobe Stock](../content-design/adobe-stock.md) para encontrar uma imagem apropriada clicando em **[!UICONTROL Search Adobe Stock]**.
+
    >[!NOTE]
    >
-   >Na Galeria de Mídia, você também pode usar a [Integração do Adobe Stock](../content-design/adobe-stock.md) para encontrar uma imagem apropriada clicando em **[!UICONTROL Search Adobe Stock]**.
+   > Se você tiver o AEM Assets habilitado, consulte [Gerenciar categorias](../content-design/aem-assets-manage.md) para obter mais informações.
 
 1. Para **[!UICONTROL Description]**, insira o texto ou outro conteúdo que você deseja que apareça na página de aterrissagem da categoria.
 
@@ -96,7 +98,7 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
 
 1. Para incluir um bloco de conteúdo na página de aterrissagem de categoria, escolha a **[!UICONTROL CMS Block]** que você deseja exibir.
 
-1. clique em **[!UICONTROL Save]** e continue.
+1. Clique em **[!UICONTROL Save]** e continue.
 
 ## Etapa 4: concluir as configurações de exibição
 

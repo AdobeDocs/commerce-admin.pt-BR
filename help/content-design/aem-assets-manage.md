@@ -3,9 +3,9 @@ title: Usar o AEM Assets
 description: Gerencie os ativos de mídia da loja com o AEM Assets.
 feature: CMS, Media
 exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
-source-git-commit: b6f95cd23bbeb5200f31a23d7ff9216b0c21a53c
+source-git-commit: 304669de832224bc6a0c97fc9ab1f72e29cad4cd
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -23,3 +23,19 @@ Para obter detalhes, consulte a seguinte documentação do AEM Assets.
 - [Reprocessando ativos digitais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
 - [Aprovar um ativo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+
+## Gerenciar categorias
+
+Você pode adicionar ativos ao conteúdo de categorias do catálogo depois de habilitar e configurar a integração do AEM Assets:
+
+1. Na barra lateral _Admin_, navegue até **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+
+1. Expanda o ![Seletor de expansão](../assets/icon-display-expand.png) na seção **[!UICONTROL Content]**.
+
+   ![Conteúdo da categoria](./assets/aem-assets-manage-categories.png){width="600" zoomable="yes"}
+
+1. Para exibir um **[!UICONTROL Category Image]** na parte superior da página, clique em **[!UICONTROL Select from Assets]** para usar uma imagem da sua pasta do AEM Assets.
+
+1. Clique em **[!UICONTROL Save]** e continue.
+
+   Para obter mais informações sobre como criar uma categoria, consulte [Concluir o conteúdo da categoria](../catalog/category-create.md#step-3-complete-the-category-content).

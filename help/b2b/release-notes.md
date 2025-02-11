@@ -3,16 +3,16 @@ title: Notas de versão do [!DNL Adobe Commerce B2B]
 description: Revise as notas de versão para obter informações sobre as alterações nas versões  [!DNL Adobe Commerce B2B] .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
+source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
 workflow-type: tm+mt
-source-wordcount: '7879'
+source-wordcount: '8177'
 ht-degree: 0%
 
 ---
 
 # Notas de versão do [!DNL Adobe Commerce B2B]
 
-Essas notas de versão para a extensão B2B capturam adições e correções que o Adobe adicionou durante um ciclo de lançamento, incluindo:
+Essas notas de versão para a extensão B2B capturam adições e correções que o Adobe adicionou durante um ciclo de versão, incluindo:
 
 ![Novos](../assets/new.svg) Novos recursos
 ![Problema corrigido](../assets/fix.svg) Correções e melhorias
@@ -22,6 +22,34 @@ Essas notas de versão para a extensão B2B capturam adições e correções que
 >
 >Consulte [Disponibilidade do produto](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) para obter informações sobre versões da extensão B2B do Commerce com suporte para versões disponíveis do Adobe Commerce.
 
+## B2B 1.5.1
+
+*11 de fevereiro de 2025*
+
+[!BADGE Com suporte]{type=Informative tooltip="Compatível"}
+Compatível com o Adobe Commerce versões 2.4.8-beta1 a 2.4.8-beta2, 2.4.7 a 2.4.7-p3, 2.4.6 a 2.4.9-p8
+
+A versão B2B v1.5.1 inclui melhorias de qualidade e correções de erros.
+
+### Empresa
+
+![Correção do problema](../assets/fix.svg)<!-- B2B-4422 --> Se um cliente tentar mudar de empresa na página Detalhes da Cotação, o sistema agora redireciona o cliente para uma página *Acesso Negado* para garantir que uma cotação criada para uma empresa não possa ser usada para fazer um pedido com os preços de outra empresa. Anteriormente, um usuário podia criar uma cotação com o preço de uma empresa e, em seguida, mudar para outra empresa para fazer um pedido com preços diferentes.
+
+### Descontos de item de linha
+
+![Correção do problema](../assets/fix.svg)<!-- B2B-2938 --> Melhoria na eficiência do sistema ao solucionar uma degradação de desempenho observada no cenário de recálculo de cotação. Anteriormente, duas novas entidades eram adicionadas a cada item da linha do carrinho, o que causava um aumento notável nas solicitações do banco de dados, resultando em um desempenho mais lento.
+
+### Cotação negociável
+
+![Problema corrigido](../assets/fix.svg)<!-- B2B-3820 --> O sistema agora mantém a posição dos elementos da interface do usuário quando a validação do JavaScript é aplicada aos campos *[!UICONTROL min/max qty]* na página Modelo de cotação da vitrine da Luma. Anteriormente, aplicar a validação do JavaScript a esses campos fazia com que outros elementos da interface do usuário na página mudassem.
+
+### Carrinho de compras
+
+![Problema corrigido](../assets/fix.svg)<!-- B2B-4222 --> Apresentou um novo sistema de gerenciamento de carrinho de compras projetado para simplificar a experiência de compras para usuários que gerenciam várias contas da empresa. O novo sistema associa carrinhos de compras a empresas individuais em vez da conta do cliente para simplificar a experiência de compras e melhorar o fluxo de trabalho, suportando os seguintes recursos.
+
+- **Carrinhos específicos da empresa:**—Os carrinhos de compras agora estão vinculados a empresas individuais para dar suporte a preços e opções de produto específicos da empresa.
+- **Alternância perfeita**—Os usuários podem alternar facilmente entre diferentes contas da empresa sem afetar o conteúdo do carrinho de cada empresa.
+- **Integridade contextual** — todos os detalhes do carrinho permanecem no contexto da respectiva empresa, fornecendo uma experiência de compra consistente e confiável.
 
 ## B2B 1.5.0
 
@@ -94,7 +122,7 @@ As melhorias nos recursos de cotação ajudam os Compradores e os Vendedores a g
 
 ![Problema corrigido](../assets/fix.svg) **Correções para recursos de cotação existentes**
 
-- Os comerciantes que clicam no botão *[!UICONTROL Print]* na exibição de detalhes da Cotação no Administrador agora são solicitados a salvar a cotação como um PDF. Anteriormente, os comerciantes eram redirecionados para uma página que continha detalhes de cotação. <!--ACP2E-1984-->
+- Os comerciantes que clicam no botão *[!UICONTROL Print]* na exibição de detalhes da Cotação no Administrador agora são solicitados a salvar a cotação como uma PDF. Anteriormente, os comerciantes eram redirecionados para uma página que continha detalhes de cotação. <!--ACP2E-1984-->
 
 - Anteriormente, ao enviar uma cotação de cliente com porcentagem de `0` e alterar a quantidade, o administrador lança uma exceção, mas salva a quantidade. Depois que essa correção for aplicada, para a exceção adequada `0 percentage`, uma mensagem será emitida. <!--ACP2E-1742-->
 
@@ -328,7 +356,7 @@ Você pode corrigir esse problema adicionando dependências manuais para o pacot
 
 ![Correção de um problema](../assets/fix.svg) <!--- MC-41985--> O tempo necessário para atualizar do Adobe Commerce 2.3.x para o Adobe Commerce 2.4.x em implantações com mais de 100.000 funções da empresa foi substancialmente reduzido.
 
-![Problema corrigido](../assets/fix.svg) <!--- MC-42153--> A solicitação POST `V1/order/:orderId/invoice` agora dá suporte à criação de faturas parciais quando o método de pagamento **[!UICONTROL Payment on Account]** está habilitado. Anteriormente, o Adobe Commerce exibia este erro: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
+![Problema corrigido](../assets/fix.svg) <!--- MC-42153--> A solicitação POST `V1/order/:orderId/invoice` agora oferece suporte à criação de faturas parciais quando o método de pagamento **[!UICONTROL Payment on Account]** está habilitado. Anteriormente, o Adobe Commerce exibia este erro: `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
 ![Problema corrigido](../assets/fix.svg) <!--- MC-41975--> O PayPal Payflow Pro agora funciona conforme esperado com a cotação negociável B2B quando o carrinho do cliente contém outros produtos. O Adobe Commerce agora processa o pedido com êxito e envia um email ao cliente, conforme esperado. Anteriormente, o Adobe Commerce emitia um erro fatal e enviava um email de confirmação para o cliente com valor zero.
 
@@ -574,7 +602,7 @@ Esta versão inclui melhorias nas aprovações de pedidos, métodos de envio, ca
 
 ![Problema corrigido](../assets/fix.svg) O Adobe Commerce agora envia uma notificação por email confirmando que um cliente tem permissão para exceder o limite de crédito designado quando um comerciante habilita a configuração **[!UICONTROL Allow To Exceed Credit Limit]**. Anteriormente, o email de notificação enviado pela Adobe Commerce indicava que o cliente não tinha permissão para exceder o limite. <!--- MC-34584-->
 
-![Problema corrigido](../assets/fix.svg) O contêiner HTML que cerca o preço do produto nas listas de requisições agora é renderizado corretamente para os filhos de produtos agrupados. <!--- MC-36331-->
+![Problema corrigido](../assets/fix.svg) O contêiner HTML que circunda o preço do produto nas listas de requisições agora é renderizado corretamente para os filhos de produtos agrupados. <!--- MC-36331-->
 
 ![Problema corrigido](../assets/fix.svg) Os comerciantes agora podem designar o idioma em que o email do usuário da empresa é enviado ao criar uma empresa em implantações de vários idiomas. Anteriormente, o menu suspenso permitia que os comerciantes selecionassem a exibição de loja e o idioma apropriados não eram exibidos.  <!--- MC-35777-->
 
@@ -590,7 +618,7 @@ Esta versão inclui melhorias nas aprovações de pedidos, métodos de envio, ca
 
 ![Problema corrigido](../assets/fix.svg) Permissões de categoria não são mais alteradas quando um novo produto é atribuído a um catálogo público compartilhado. Anteriormente, as permissões de categoria eram duplicadas. <!--- MC-34386-->
 
-![Correção de um problema](../assets/fix.svg) O PUT `rest/default/V1/company/{id}` do ponto de extremidade da API REST, que é usado para atualizar o email da Empresa, não diferencia mais maiúsculas de minúsculas. <!--- MC-34308-->
+![Correção de um problema](../assets/fix.svg) O ponto de extremidade da API REST PUT `rest/default/V1/company/{id}`, que é usado para atualizar o email da Empresa, não diferencia mais maiúsculas de minúsculas. <!--- MC-34308-->
 
 ![Problema corrigido](../assets/fix.svg) Desabilitar módulos de premiação não afeta mais os recursos B2B nas contas do cliente. Anteriormente, quando os módulos de premiação eram desabilitados, as seguintes guias relacionadas a B2B não eram exibidas: Perfil da Empresa, Usuários da Empresa e Funções e Permissões.<!--- MC-34191-->
 

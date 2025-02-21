@@ -3,9 +3,9 @@ title: Criar e excluir atributos de produto
 description: Saiba mais sobre como criar e remover atributos de produtos, que são usados para descrever características específicas dos produtos em seu catálogo.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,10 @@ Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL
 ## Etapa 2: descrever as propriedades avançadas (se necessário)
 
 1. Insira um **[!UICONTROL Attribute Code]** exclusivo em caracteres minúsculos e sem espaços.
+
+   >[!NOTE]
+   >
+   >Não é recomendável usar o valor `type` no campo [!UICONTROL Attribute Code]. Isso pode causar erros porque o valor `type` está reservado para uso do sistema.
 
    ![Atributo de produto - propriedades avançadas](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
@@ -128,7 +132,7 @@ Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL
 
 1. Para permitir que o texto seja formatado com HTML, defina **[!UICONTROL Allow HTML Tags on Frontend]** como `Yes`.
 
-   Essa configuração disponibiliza o editor WYSIWYG para o campo.
+   Essa configuração disponibiliza o editor do WYSIWYG para o campo.
 
 1. Para incluir o atributo na página do produto, defina **[!UICONTROL Visible on Catalog Pages on Storefront]** como `Yes`.
 

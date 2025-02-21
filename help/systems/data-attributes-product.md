@@ -3,7 +3,7 @@ title: Referência de atributos de dados do produto
 description: Use essa referência de atributos de dados do produto ao trabalhar com importações e exportações de dados do produto.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c1f797da417bfdf24b537f8c59f954df58dac11a
 workflow-type: tm+mt
 source-wordcount: '2473'
 ht-degree: 0%
@@ -24,10 +24,10 @@ A instalação usada para exportar esses dados tem os dados de amostra instalado
 | `store_view_code` | Identifica as exibições de loja específicas em que o produto está disponível. Se estiver em branco, o produto estará disponível na visualização padrão da loja. Por exemplo: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Atribui o produto a um conjunto de atributos ou modelo de produto específico, de acordo com o tipo de produto. Depois que o produto é criado, o conjunto de atributos não pode ser alterado. Por exemplo: `default` |
 | `product_type` | Indica o tipo de produto. Valores:<br/>`simple` — Itens tangíveis que normalmente são vendidos como unidades únicas ou em quantidades fixas.<br/>`grouped` — Um grupo de produtos separados que são vendidos como um conjunto.<br/>`configurable` — Um produto com várias opções que o cliente deve selecionar antes de fazer uma compra. O inventário pode ser gerenciado para cada conjunto de variações porque representam um produto separado com uma SKU distinta. Por exemplo, uma combinação de cor e tamanho para um produto configurável está associada a uma SKU específica no catálogo.<br/>`virtual` — Um produto incorpóreo que não requer remessa e não é mantido em estoque. Os exemplos incluem serviços, associações e assinaturas.<br/>`bundle` — Um conjunto de produtos personalizáveis de produtos simples vendidos em conjunto. |
-| `categories` | Indica cada categoria atribuída ao produto. Separe as categorias e subcategorias com uma barra. Para indicar vários caminhos de categoria, separe cada caminho com uma barra vertical | símbolo. Por exemplo: `Default Category/Gear&#124;Default Category/Gear/Bags` |
+| `categories` | Indica cada categoria atribuída ao produto. Separe as categorias e subcategorias com uma barra. Para indicar vários caminhos de categoria, separe cada caminho com uma barra vertical \| símbolo. Por exemplo: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | O código de cada site onde o produto está disponível. Um único produto pode ser atribuído a vários sites ou limitado a um. Se especificar vários sites, separe-os com vírgula e sem espaço. Por exemplo: `base` ou `base,website2` |
 | `name` | O nome do produto é exibido em todas as listas de produtos e é o nome que os clientes usam para identificar o produto. |
-| `description` | A descrição do produto fornece informações detalhadas sobre ele e pode incluir tags HTML simples. |
+| `description` | A descrição do produto fornece informações detalhadas sobre ele e pode incluir tags simples do HTML. |
 | `short_description` | O uso da descrição curta do produto depende do tema. Ele pode aparecer nas listagens de produtos e, às vezes, é usado nas listagens de feed RSS enviadas para sites de compras. |
 | `weight` | O peso do produto individual. O peso real do produto é determinado pela transportadora no momento da remessa. |
 | product_online | Determina se o produto está disponível para venda na loja. Valores:<br/>`1` — (Sim) O produto está habilitado e disponível para venda.<br/>`2` — (Não) O produto está desabilitado e não está disponível para venda. |

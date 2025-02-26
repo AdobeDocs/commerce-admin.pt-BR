@@ -1,11 +1,11 @@
 ---
-title: Compartilhar uma conta  [!DNL Commerce]
+title: 'Compartilhar uma conta  [!DNL Commerce] '
 description: Saiba como conceder acesso limitado à sua conta [!DNL Commerce] para outros [!DNL Commerce] titulares da conta.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: e7d76a7fa9ba8d8b8ee1ce122f7ca61e2aa317c6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ A equipe de suporte do [!DNL Commerce] não tem acesso à conta e não pode conf
 
 >[!NOTE]
 >
->Todas as ações tomadas por usuários com acesso compartilhado são de exclusiva responsabilidade do titular principal da conta. O Adobe não é responsável por nenhuma ação tomada pelos usuários que têm acesso compartilhado à sua conta.
+>Todas as ações tomadas por usuários com acesso compartilhado são de exclusiva responsabilidade do titular principal da conta. A Adobe não se responsabiliza por nenhuma ação tomada por usuários que tenham acesso compartilhado à sua conta.
 
 ![Configurações de acesso compartilhado](./assets/shared-access.png){width="600" zoomable="yes"}
 
@@ -26,7 +26,7 @@ A equipe de suporte do [!DNL Commerce] não tem acesso à conta e não pode conf
 
 1. Antes de começar, obtenha as seguintes informações da conta [!DNL Commerce] do **novo favorecido de acesso compartilhado**:
 
-   - O usuário já deve ter se registrado em uma conta em account.adobe.com e estar conectado por meio de account.magento.com.
+   - O usuário já deve ter se registrado em uma conta em account.adobe.com e estar conectado por meio de account.magento.com. Consulte [Criar uma conta do Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) para obter mais detalhes.
    - O `MAGE ID/Account ID (MAG00XXXXXXX)` é exibido no canto superior esquerdo da guia _[!UICONTROL Magento]_, logo acima do link **Logoff**.
    - O endereço `Email` associado à conta.
 

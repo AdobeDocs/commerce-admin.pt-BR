@@ -3,9 +3,9 @@ title: Referência de atributos de dados do produto
 description: Use essa referência de atributos de dados do produto ao trabalhar com importações e exportações de dados do produto.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: c1f797da417bfdf24b537f8c59f954df58dac11a
+source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ A instalação usada para exportar esses dados tem os dados de amostra instalado
 |--- |--- |
 | `sku` | (Obrigatório) A unidade de manutenção de estoque é um identificador alfanumérico exclusivo usado para rastrear o inventário. Um SKU pode ter até 64 caracteres. Por exemplo: `sku123`<br/>**_Observação:_**uma SKU com mais de 64 caracteres faz com que a importação falhe. |
 | `store_view_code` | Identifica as exibições de loja específicas em que o produto está disponível. Se estiver em branco, o produto estará disponível na visualização padrão da loja. Por exemplo: `storeview1`, `english`, `spanish` |
-| `attribute_set_code` | Atribui o produto a um conjunto de atributos ou modelo de produto específico, de acordo com o tipo de produto. Depois que o produto é criado, o conjunto de atributos não pode ser alterado. Por exemplo: `default` |
+| `attribute_set_code` | Atribui o produto a um conjunto de atributos ou modelo de produto específico, de acordo com o tipo de produto. Por exemplo: `default`<br><br>Depois que o produto é criado, o conjunto de atributos não pode ser alterado usando a funcionalidade de importação. No entanto, você pode alterar o conjunto de atributos de Admin e reexportar o produto para atualizar o arquivo CSV. |
 | `product_type` | Indica o tipo de produto. Valores:<br/>`simple` — Itens tangíveis que normalmente são vendidos como unidades únicas ou em quantidades fixas.<br/>`grouped` — Um grupo de produtos separados que são vendidos como um conjunto.<br/>`configurable` — Um produto com várias opções que o cliente deve selecionar antes de fazer uma compra. O inventário pode ser gerenciado para cada conjunto de variações porque representam um produto separado com uma SKU distinta. Por exemplo, uma combinação de cor e tamanho para um produto configurável está associada a uma SKU específica no catálogo.<br/>`virtual` — Um produto incorpóreo que não requer remessa e não é mantido em estoque. Os exemplos incluem serviços, associações e assinaturas.<br/>`bundle` — Um conjunto de produtos personalizáveis de produtos simples vendidos em conjunto. |
 | `categories` | Indica cada categoria atribuída ao produto. Separe as categorias e subcategorias com uma barra. Para indicar vários caminhos de categoria, separe cada caminho com uma barra vertical \| símbolo. Por exemplo: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | O código de cada site onde o produto está disponível. Um único produto pode ser atribuído a vários sites ou limitado a um. Se especificar vários sites, separe-os com vírgula e sem espaço. Por exemplo: `base` ou `base,website2` |

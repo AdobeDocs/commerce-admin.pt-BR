@@ -4,9 +4,9 @@ description: Saiba como criar contas de usuário administrador e atribuir funç�
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Quando seu armazenamento é instalado pela primeira vez, uma conta padrão de administrador é criada com credenciais de logon que fornecem acesso administrativo total. Como prática recomendada, você deve criar outra conta de usuário com acesso total de Administrador. Dessa forma, você pode usar uma conta para suas atividades administrativas diárias e reservar a outra como uma conta de &quot;Super Admin&quot;. Isso pode ser útil se você esquecer suas credenciais normais ou elas se tornarem inutilizáveis de alguma forma.
 
-Se houver outros em sua equipe ou provedores de serviços que precisem de acesso, você poderá criar uma conta de usuário separada para cada e atribuir acesso restrito com base na necessidade comercial deles de saber. Para limitar os sites ou armazenamentos que os usuários podem acessar no Administrador, primeiro você deve [criar uma função](permissions-user-roles.md) com escopo limitado e apenas os recursos necessários selecionados. Em seguida, é possível atribuir a função a uma conta de usuário específica. Os usuários administradores atribuídos a uma função restrita podem ver e alterar dados somente de sites ou lojas associados à função, mas não podem alterar configurações ou dados globais.
+Se outros membros da equipe ou provedores de serviços precisarem de acesso, você poderá criar contas de usuário individuais para eles e atribuir acesso restrito com base em suas necessidades comerciais específicas. Para limitar os sites ou armazenamentos que os usuários podem acessar no Administrador, primeiro você deve [criar uma função](permissions-user-roles.md) com escopo limitado e apenas os recursos necessários selecionados. Em seguida, é possível atribuir a função a uma conta de usuário específica. Os usuários administradores atribuídos a uma função restrita podem ver e alterar dados somente de sites ou lojas associados à função, mas não podem alterar configurações ou dados globais.
 
 >[!NOTE]
 >
->Os comerciantes do Adobe Commerce que têm um Adobe ID e desejam um logon simplificado para produtos Adobe Commerce e Adobe Business podem integrar a autenticação do Commerce ao fluxo de trabalho de autenticação do Adobe IMS. Depois que essa integração for ativada para a loja da Commerce, cada usuário administrador deverá usar suas credenciais de Adobe, e não as credenciais da Commerce, para fazer logon. Consulte [Visão geral da integração do Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Os comerciantes do Adobe Commerce que têm um Adobe ID e desejam um logon simplificado para produtos Adobe Commerce e Adobe Business podem integrar a autenticação do Commerce ao fluxo de trabalho de autenticação do Adobe IMS. Depois que essa integração for ativada para a loja da Commerce, cada usuário administrador deverá usar suas credenciais da Adobe, e não as credenciais da Commerce, para fazer logon. Consulte [Visão Geral da Integração do Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Para usuários ou funções temporários, também é possível definir uma data de expiração para a conta de usuário.
 

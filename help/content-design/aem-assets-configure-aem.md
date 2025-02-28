@@ -3,24 +3,22 @@ title: Configurar Experience Manager Assets
 description: Adicione os metadados de ativos necessários para habilitar a Integração do AEM Assets para o Commerce a fim de sincronizar ativos entre projetos do Adobe Commerce e do Experience Manager Assets.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 6b0c8054e86ae697025626ad2eb575d633003578
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
 
 # Configurar Experience Manager Assets
 
-Prepare o ambiente do AEM as a Cloud Service para gerenciar ativos do Commerce atualizando a configuração do ambiente e configurando os metadados do Assets para identificar e gerenciar ativos do Commerce.
+Configure o AEM as a Cloud Service para gerenciar ativos do Commerce atualizando a configuração do ambiente do AEM Assets e configurando metadados no ambiente de criação do AEM Assets.
 
-A integração exige a adição de um namespace `Commerce` personalizado e [metadados de perfil](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles) e [metadados de esquema](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas) adicionais.
-
-O Adobe fornece um modelo de projeto AEM para adicionar os recursos de namespace e esquema de metadados à configuração de ambiente as a Cloud Service do AEM Assets. O modelo adiciona:
+A Adobe fornece um modelo de projeto do AEM para adicionar os recursos de namespace e esquema de metadados à configuração de ambiente do AEM Assets as a Cloud Service. O modelo adiciona:
 
 - Um [namespace personalizado](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json), `Commerce` para identificar propriedades relacionadas ao Commerce.
 
-- Um tipo de metadados personalizado `commerce:isCommerce` com o rótulo `Does it exist in Commerce?` para marcar ativos da Commerce associados a um projeto do Adobe Commerce.
+- Um tipo de metadados personalizado `commerce:isCommerce` com o rótulo `Eligible for Commerce` para marcar ativos da Commerce associados a um projeto do Adobe Commerce.
 
 - Um tipo de metadados personalizado `commerce:productmetadata` e um componente correspondente da interface do usuário para adicionar uma propriedade *[!UICONTROL Product Data]*. Os Dados do produto incluem as propriedades de metadados para associar um ativo do Commerce às SKUs do produto e para especificar os atributos da imagem `role` e `position` para o ativo.
 
@@ -32,39 +30,35 @@ O Adobe fornece um modelo de projeto AEM para adicionar os recursos de namespace
 
 - Um [ativo de Commerce marcado e aprovado](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg` de amostra para oferecer suporte à sincronização de ativos inicial. Somente ativos aprovados do Commerce podem ser sincronizados do AEM Assets para o Adobe Commerce.
 
-Para obter informações adicionais sobre o projeto Commerce-Assets AEM, consulte o [Readme](https://github.com/ankumalh/assets-commerce).
+>[!NOTE]
+>Para obter informações adicionais sobre o modelo de projeto Commerce-Assets AEM, consulte o [Readme](https://github.com/ankumalh/assets-commerce).
 
-## Personalizar a configuração do ambiente do AEM Assets
-
->[!BEGINSHADEBOX]
-
-**Pré-requisitos**
+Você precisa dos seguintes recursos e permissões para usar este projeto do AEM para atualizar a configuração do ambiente:
 
 - [Acesso ao Programa e aos ambientes do AEM Assets Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) com as funções de Gerente de Programa e de Implantação.
 
-- Um [ambiente local de desenvolvimento do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) e familiaridade com o processo de desenvolvimento local do AEM.
+- Um [ambiente de desenvolvimento local do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) e familiaridade com o processo de desenvolvimento local do AEM.
 
-- Entenda a [estrutura do projeto AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) e como implantar pacotes de conteúdo personalizados usando o Cloud Manager.
+- Entenda a [estrutura do projeto do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) e como implantar pacotes de conteúdo personalizados usando o Cloud Manager.
 
->[!ENDSHADEBOX]
-
-### Implantar o projeto Commerce-Assets AEM no ambiente de criação do AEM Assets
+## Atualizar e implantar a configuração de ambiente do AEM Assets
 
 1. No Cloud Manager, crie ambientes de produção e de preparo para seu projeto do AEM Assets, se necessário.
 
 1. Configurar um pipeline de implantação, se necessário.
 
-1. No GitHub, baixe o código padrão do [projeto Commerce-Assets AEM](https://github.com/ankumalh/assets-commerce).
+1. No GitHub, baixe o código do modelo do [projeto Commerce-Assets AEM](https://github.com/ankumalh/assets-commerce).
 
 1. A partir do [ambiente de desenvolvimento local do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), instale o código personalizado na configuração do ambiente do AEM Assets como um pacote Maven ou copie manualmente o código na configuração do projeto existente.
 
 1. Confirme as alterações e envie a ramificação de desenvolvimento local para o repositório Git do Cloud Manager.
 
-1. No Cloud Manager, [implante seu código para atualizar o ambiente AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
+1. No Cloud Manager, [implante seu código para atualizar o ambiente do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
 
 ## Configurar um perfil de metadados
 
-Defina valores padrão para os metadados de ativos do Commerce criando um perfil de metadados. Depois de configurado, aplique esse perfil às pastas de ativos AEM para usar esses padrões automaticamente. Essa configuração opcional ajuda a simplificar o processamento de ativos, reduzindo as etapas manuais.
+No ambiente de criação do AEM Assets, defina valores padrão para os metadados de ativos do Commerce criando um perfil de metadados. Em seguida, aplique o novo perfil a
+Pastas do AEM Asset para usar automaticamente esses padrões. Essa configuração simplifica o processamento de ativos, reduzindo as etapas manuais.
 
 1. No espaço de trabalho do Adobe Experience Manager, acesse o espaço de trabalho de administração de conteúdo do autor para o AEM Assets clicando no ícone Adobe Experience Manager.
 
@@ -72,13 +66,13 @@ Defina valores padrão para os metadados de ativos do Commerce criando um perfil
 
 1. Abra as Ferramentas do administrador selecionando o ícone de martelo.
 
-   ![Administrador do AEM para gerenciar perfis de metadados](./assets/aem-manage-metadata-profiles.png){width="600" zoomable="yes"}
+   ![Administrador do AEM Author Admin para gerenciar perfis de metadados](./assets/aem-manage-metadata-profiles.png){width="600" zoomable="yes"}
 
 1. Abra a página de configuração do perfil clicando em **[!UICONTROL Metadata Profiles]**.
 
 1. **[!UICONTROL Create]** um perfil de metadados para a integração com o Commerce.
 
-   ![Administrador do AEM adiciona perfis de metadados ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
+   ![Administrador do AEM Author Admin adicionou perfis de metadados ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Adicione uma guia para metadados do Commerce.
 
@@ -88,7 +82,7 @@ Defina valores padrão para os metadados de ativos do Commerce criando um perfil
 
 1. Adicione o campo `Does it exist in Commerce?` ao formulário e defina o valor padrão como `yes`.
 
-   ![Administrador do autor do AEM adiciona campos de metadados ao perfil](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
+   ![Administrador do AEM Author adiciona campos de metadados ao perfil](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
 1. Salve a atualização.
 
@@ -108,10 +102,6 @@ Defina valores padrão para os metadados de ativos do Commerce criando um perfil
 >
 >Você pode sincronizar automaticamente os ativos do Commerce à medida que forem carregados para o ambiente do AEM Assets, atualizando o perfil de metadados para definir o valor padrão do campo _[!UICONTROL Review Status]_como `Approved`. O tipo de propriedade para o campo `Review Status` é `./jcr:content/metadata/dam:status`.
 
+## Próxima etapa
 
-## Próximas etapas
-
-Depois de atualizar o ambiente do AEM, configure o Adobe Commerce:
-
-1. [Instalar e configurar a Integração do AEM Assets para o Commerce](aem-assets-configure-commerce.md)
-2. [Ativar a sincronização de ativos para transferir ativos entre o ambiente do projeto do Adobe Commerce e o ambiente do projeto do AEM Assets](aem-assets-setup-synchronization.md)
+[Instalar e configurar a Integração do AEM Assets para o Adobe Commerce](aem-assets-configure-commerce.md)

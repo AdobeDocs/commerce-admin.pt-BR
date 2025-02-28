@@ -1,33 +1,51 @@
 ---
-title: Integração do Experience Manager Assets para o Commerce
+title: Integração do Adobe Experience Manager Assets para o Commerce
 description: Saiba como integrar o Experience Manager Assets à sua instância  [!DNL Commerce]  para acessar inúmeros ativos de mídia para usar em sua loja.
 feature: CMS, Media, Configuration, Integration
 exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
-source-git-commit: b6f95cd23bbeb5200f31a23d7ff9216b0c21a53c
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# Integração do Experience Manager Assets para o Commerce
+# Integração do Adobe Experience Manager Assets para o Commerce
 
-A integração do Experience Manager Assets para Commerce combina os recursos robustos do AEM como um sistema de Gerenciamento de ativos digitais (DAM) com o Adobe Commerce para melhorar as experiências de comércio eletrônico. Esses recursos são fornecidos pela conexão de projetos Commerce ao ambiente de gerenciamento de ativos avançado AEM, para fornecer uma maneira contínua, escalável e eficiente de gerenciar e fornecer ativos em vitrines de comércio.
+A integração do Adobe Experience Manager (AEM) Assets para Commerce combina os recursos robustos do sistema AEM as a Digital Asset Management (DAM) com o Adobe Commerce para melhorar as experiências de comércio eletrônico. Esses recursos são fornecidos pela conexão de projetos do Commerce ao eficiente ambiente de gerenciamento de ativos da AEM, para fornecer uma maneira contínua, escalável e eficiente de gerenciar e fornecer ativos em vitrines comerciais.
 
-**Principais recursos**
+>[!BEGINSHADEBOX]
 
-- **Gerenciamento centralizado de ativos**
+## Principais benefícios para os negócios
 
-   - **AEM Assets como o Source Único da Verdade**-O AEM Assets serve como repositório central para todos os ativos digitais, garantindo que todas as plataformas de comércio eletrônico tenham acesso aos ativos aprovados na marca.
+![verificar](assets/icon-check.png) **Gerenciamento centralizado de ativos**
 
-   - **Gerenciamento de ativos em massa** - As organizações podem gerenciar grandes volumes de ativos com eficiência, graças aos recursos robustos de gerenciamento de ativos do AEM. Isso permite que profissionais de marketing e comerciantes mapeiem grandes conjuntos de imagens para novas linhas de produtos com eficiência.
+- **AEM Assets como o Source Único da Verdade**-O AEM Assets serve como repositório central para todos os ativos digitais, garantindo que todas as plataformas de comércio eletrônico tenham acesso aos ativos aprovados na marca.
 
-- **Experiências personalizadas do Commerce** - Usando os serviços GenAI no AEM, as organizações podem gerar milhões de variações de produtos para experiências personalizadas de comércio eletrônico. Profissionais de marketing e merchandisers podem usar essas imagens para criar lojas dinâmicas para lançamentos de produtos e campanhas sazonais, aprimorando o engajamento e aumentando as taxas de conversão.
+- **Gerenciamento de ativos em massa** - As organizações podem gerenciar grandes volumes de ativos com eficiência, graças aos recursos robustos de gerenciamento de ativos da AEM. Isso permite que profissionais de marketing e comerciantes mapeiem grandes conjuntos de imagens para novas linhas de produtos com eficiência.
 
-- **Correspondência automatizada de ativos** - A integração inclui um Serviço de Mecanismo de Regras que corresponde automaticamente ativos no AEM a produtos no Adobe Commerce com base na SKU ou em outros atributos principais. O serviço garante que os ativos e as variações de produtos mais recentes estejam sempre disponíveis em lojas de comércio eletrônico. Também reduz o esforço manual necessário para gerenciar ativos, liberando tempo para atividades mais estratégicas.
+![verificação](assets/icon-check.png) **Experiências personalizadas com o Commerce** - Usando os serviços GenAI na AEM, as organizações podem gerar milhões de variações de produtos para experiências personalizadas de comércio eletrônico. Profissionais de marketing e merchandisers podem usar essas imagens para criar lojas dinâmicas para lançamentos de produtos e campanhas sazonais, aprimorando o engajamento e aumentando as taxas de conversão.
 
-- **Processos simplificados**
+![verificar](assets/icon-check.png) **Correspondência automatizada de ativos**-A integração inclui um Serviço de Mecanismo de Regras que corresponde automaticamente ativos no AEM a produtos no Adobe Commerce com base na SKU ou em outros atributos principais. O serviço garante que os ativos e as variações de produtos mais recentes estejam sempre disponíveis em lojas de comércio eletrônico. Também reduz o esforço manual necessário para gerenciar ativos, liberando tempo para atividades mais estratégicas.
 
-   - **Habilite e configure a integração do Administrador do Commerce**. Os administradores e desenvolvedores podem instalar e configurar a integração do Adobe Commerce usando ferramentas e processos familiares.
-   - **Atualizações Dinâmicas** - Mantenha as imagens do produto atualizadas com as últimas alterações no sistema de gerenciamento de ativos. Essas atualizações automatizadas garantem que as vitrines de comércio sempre tenham as informações mais atualizadas do produto.
-   - **Gerenciamento eficiente de catálogo**-Simplifica a manutenção do catálogo de produtos automatizando a limpeza e a atualização de ativos.
+![verificar](assets/icon-check.png) **Processos simplificados**
+
+- **Habilite e configure a integração do Administrador do Commerce**. Os administradores e desenvolvedores podem instalar e configurar a integração do Adobe Commerce usando ferramentas e processos familiares.
+
+- **Atualizações Dinâmicas** - Mantenha as imagens do produto atualizadas com as últimas alterações no sistema de gerenciamento de ativos. Essas atualizações automatizadas garantem que as vitrines de comércio sempre tenham as informações mais atualizadas do produto.
+
+- **Gerenciamento eficiente de catálogo**-Simplifica a manutenção do catálogo de produtos automatizando a limpeza e a atualização de ativos.
+
+>[!ENDSHADEBOX]
+
+Assista a este vídeo para saber como o Adobe Commerce e o AEM Assets trabalham juntos para simplificar os fluxos de trabalho de conteúdo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3447837)
+
+## Próxima etapa
+
+[Configurar a Integração do AEM Assets para o Commerce](aem-assets-onboard.md).
+
+## Suporte
+
+Se precisar de informações ou se tiver dúvidas não abordadas neste guia, entre em contato com o representante de vendas da Integração da AEM Assets ou crie um [tíquete de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) para receber ajuda adicional.

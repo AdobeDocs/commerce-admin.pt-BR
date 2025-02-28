@@ -3,9 +3,9 @@ title: Usar o AEM Assets
 description: Gerencie os ativos de mídia da loja com o AEM Assets.
 feature: CMS, Media
 exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
-source-git-commit: 304669de832224bc6a0c97fc9ab1f72e29cad4cd
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Para obter detalhes, consulte a seguinte documentação do AEM Assets.
 
 - [Aprovar um ativo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
-## Gerenciar categorias
+## Adicionar ativos ao conteúdo de categorias
 
 Você pode adicionar ativos ao conteúdo de categorias do catálogo depois de habilitar e configurar a integração do AEM Assets:
 

@@ -1,11 +1,11 @@
 ---
 user-guide-title: Guia de design e conteúdo
-user-guide-description: Informações abrangentes sobre conteúdo e recursos de design para administradores de Adobe Commerce e Magento Open Source e profissionais de marketing de eCommerce.
+user-guide-description: Informações abrangentes sobre conteúdo e recursos de design para administradores do Adobe Commerce e do Magento Open Source e profissionais de marketing de eCommerce.
 breadcrumb-title: Conteúdo e design
 feature: CMS, Page Content
-source-git-commit: 102f39faada1b303ce5736c9f31bcc673e9e7720
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '244'
 ht-degree: 4%
 
 ---
@@ -72,14 +72,16 @@ ht-degree: 4%
       - [Gerenciamento de ativos](media-gallery-asset-management.md)
       - [Gerenciamento de pastas](media-gallery-folder-management.md)
       - [Otimização de imagem](media-gallery-image-optimization.md)
-- Gerenciamento de ativos usando o AEM Assets {#aem-asset-management}
-   - [Integração do AEM Assets para o Commerce](aem-assets-integration.md)
-   - Configurar a integração {#onboarding}
-      - [Visão geral](aem-assets-setup.md)
+- Integração do AEM Assets para o Commerce {#aem-asset-management}
+   - [Visão geral da integração](aem-assets-integration.md)
+   - [Notas de versão](aem-assets-release-notes.md)
+   - Introdução {#onboarding}
+      - [Configurar o AEM Assets](aem-assets-onboard.md)
       - [Configurar AEM Assets](aem-assets-configure-aem.md)
       - [Configurar Adobe Commerce](aem-assets-configure-commerce.md)
       - [Habilitar sincronização de ativos](aem-assets-setup-synchronization.md)
-   - [Gerenciar ativos](aem-assets-manage.md)
+   - Gerenciar ativos {#manage}
+      - [Usar o AEM Assets com o Commerce](aem-assets-manage.md)
 - Mídia {#media}
 - Preparo de conteúdo {#staging}
    - [Visão geral](content-staging.md)

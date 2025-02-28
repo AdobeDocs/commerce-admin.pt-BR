@@ -3,9 +3,9 @@ title: Habilitar sincronização de ativos
 description: Saiba como conectar seus projetos do Adobe Commerce e do Experience Manager Assets para habilitar a sincronização de ativos entre esses dois sistemas.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
+source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Depois de identificar o projeto do AEM Assets, selecione a regra de correspondê
 
 - **[!UICONTROL Custom match]** — Regra de correspondência para cenários mais complexos ou requisitos de negócios específicos que exigem lógica de correspondência personalizada. A implementação da correspondência personalizada requer o desenvolvimento de código personalizado no Adobe Developer App Builder para definir como os ativos são correspondidos aos produtos. Mais detalhes em breve...
 
-Para integração inicial, use a regra padrão *Corresponder por SKU de produto*.
+Para a configuração inicial, use a regra padrão *Corresponder por SKU de produto*.
 
 ## Pré-requisitos
 

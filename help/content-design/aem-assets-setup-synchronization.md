@@ -1,18 +1,18 @@
 ---
-title: Habilitar sincronização de ativos
+title: Configurar a integração
 description: Saiba como conectar seus projetos do Adobe Commerce e do Experience Manager Assets para habilitar a sincronização de ativos entre esses dois sistemas.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
-# Habilitar sincronização de ativos
+# Configurar a integração
 
-Ative a sincronização de ativos atualizando a configuração do ambiente do Commerce para conectar o Commerce à instância do AEM Assets. A integração permite a sincronização de ativos entre o Commerce e o AEM Assets, garantindo que as imagens do produto e outros ativos estejam sempre atualizadas.
+Configure a integração conectando o Commerce à instância do AEM Assets e selecionando a estratégia correspondente para a sincronização de ativos.
 
 Depois de identificar o projeto do AEM Assets, selecione a regra de correspondência para sincronizar ativos entre o Adobe Commerce e o AEM Assets.
 
@@ -24,11 +24,11 @@ Para a configuração inicial, use a regra padrão *Corresponder por SKU de prod
 
 ## Pré-requisitos
 
-- [Configurar o AEM Assets para gerenciar ativos do Commerce](aem-assets-configure-aem.md)
+- [Instalar pacote do AEM Assets](aem-assets-configure-aem.md)
 
-- [Instale e configure a Integração do AEM Assets para o Commerce](aem-assets-configure-commerce.md) para adicionar a extensão e gerar as credenciais e conexões necessárias para usar a extensão.
+- [Instale pacotes do Adobe Commerce](aem-assets-configure-commerce.md) para adicionar a extensão e gerar as credenciais e conexões necessárias para usar a extensão.
 
-- Crie um tíquete de suporte para solicitar a ativação da integração do AEM Assets. Você deve fornecer o **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** e **[!UICONTROL IMS Org ID]** para o ambiente de Criação do AEM Assets que deseja conectar ao Commerce.
+- Crie um tíquete de suporte para solicitar a ativação da integração do AEM Assets para Commerce. No tíquete, inclua o **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** e **[!UICONTROL IMS Org ID]** para o ambiente de criação do AEM Assets que você deseja conectar ao Commerce.
 
   >[!TIP]
   >

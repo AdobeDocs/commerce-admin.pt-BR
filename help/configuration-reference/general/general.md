@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Revise as configurações na página [!UICONTROL General] &gt; [!UICONTROL General] do Administrador do Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 54f6c7abf38e4368a843b7cf042ccd9af19239b2
+source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -117,6 +117,6 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | Global | Esta configuração é desativada por padrão se você for um cliente da área de saúde e tiver instalado a extensão [HIPAA](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/hipaa-readiness.html#installation) do Data Services. Como resultado, os dados do evento da loja usados pelo Live Search e pelo Recommendations de produto não são mais capturados. Isso ocorre porque os dados do evento da loja são gerados no lado do cliente. Para continuar capturando e enviando dados do evento da loja para uso pelos serviços do [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) e do [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), defina **Commerce Events Enabled** como `Yes`. |
+| [!UICONTROL Commerce Events Enabled] | Global | Esta configuração é desativada por padrão se você for um cliente da área de saúde e tiver instalado a extensão [HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness) do Data Services. Como resultado, os dados do evento da loja usados pelo Live Search e pelas Recomendações de produto não são mais capturados. Isso ocorre porque os dados do evento da loja são gerados no lado do cliente. Para continuar capturando e enviando dados do evento da loja para uso pelos serviços do [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) e do [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), defina o **Commerce Events Enabled** como `Yes`. |
 
 {style="table-layout:auto"}

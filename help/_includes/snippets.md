@@ -1,9 +1,9 @@
 ---
 title: Trechos
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 192d46c4d7105210d4fdcf090f60d45a5a6e40bd
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,14 @@ ht-degree: 0%
 ## Recurso somente CE {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="recurso Magento Open Source" src="../assets/open-source.svg" width="20" height="20" /> É necessário um método alternativo para o Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Saiba mais</a>)</td></tr>
+<tr><td><img alt="Recurso do Magento Open Source" src="../assets/open-source.svg" width="20" height="20" /> Método alternativo necessário para o Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Saiba mais</a>)</td></tr>
 </table>
 
 ## Nota de autenticação do administrador do IMS {#ims-admin-note}
 
 >[!NOTE]
 >
->Os comerciantes do Adobe Commerce que têm um Adobe ID e desejam um logon simplificado para produtos Adobe Commerce e Adobe Business podem integrar a autenticação de administrador do Commerce ao fluxo de trabalho de autenticação do Adobe IMS. Depois que essa integração for ativada para a loja da Commerce, cada usuário administrador deverá usar suas credenciais de Adobe, e não as credenciais da conta da Commerce, para fazer logon. Consulte [Visão geral da integração do Adobe Commerce com o Adobe IMS](/help/getting-started/adobe-ims-integration-overview.md).
+>Os comerciantes do Adobe Commerce que têm um Adobe ID e desejam um logon simplificado para produtos Adobe Commerce e Adobe Business podem integrar a autenticação do administrador do Commerce ao fluxo de trabalho de autenticação do Adobe IMS. Depois que essa integração for ativada para a loja da Commerce, cada usuário administrador deverá usar suas credenciais da Adobe, e não as credenciais da conta da Commerce, para fazer logon. Consulte [Visão geral da integração do Adobe Commerce com o Adobe IMS](/help/getting-started/adobe-ims-integration-overview.md).
 
 ## Observação sobre APIs GTag {#gtag-api-note}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->No processo de redirecionamento, todos os parâmetros de GET especificados no URL são removidos por motivos de segurança.
+>No processo de redirecionamento, todos os parâmetros do GET especificados no URL são removidos por motivos de segurança.
 
 ## Nova regra de preço {#new-price-rule}
 
@@ -66,9 +66,9 @@ Para acessar as definições de configuração de armazenamento, escolha **[!UIC
 
 >[!IMPORTANT]
 >
->A partir de junho de 2024, os comerciantes do Adobe Commerce não poderão mais transacionar com a integração atual do UPS. Isso ocorre porque as APIs do United Parcel Service (UPS) usadas pela integração nativa do Adobe Commerce atualmente não oferecem suporte ao modelo de segurança OAuth 2.0 necessário. Para saber mais sobre esta alteração, consulte o [_Guia de Migração da Chave de Acesso ao Portal do Desenvolvedor_](https://developer.ups.com/oauth-developer-guide). <br/>
+>A partir de junho de 2024, os comerciantes do Adobe Commerce não poderão mais transacionar com a integração atual do UPS. Isso ocorre porque as APIs do United Parcel Service (UPS) usadas pela integração nativa do Adobe Commerce atualmente não oferecem suporte ao modelo de segurança OAuth 2.0 necessário. Para habilitar a integração, [crie um aplicativo na plataforma de desenvolvedor do UPS](https://developer.ups.com/get-started) para obter as credenciais necessárias para o OAuth 2.0. Use as novas credenciais como `username` e `password` na configuração de envio do UPS do Commerce. Para saber mais sobre a alteração no modelo de segurança, consulte o [Guia de Migração da Chave de Acesso ao Portal do Desenvolvedor_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
->Os comerciantes devem [aplicar uma atualização de patch de qualidade](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) ao seu armazenamento para migrar da API SOAP para a API RESTful, que oferece suporte aos protocolos de autenticação OAuth 2.0.
+>Os comerciantes devem [aplicar uma atualização de patch de qualidade](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) ao seu armazenamento para migrar da API do SOAP para a API RESTful, que oferece suporte aos protocolos de autenticação OAuth 2.0.
 
 
 ## Documentação disponível {#docs-links}

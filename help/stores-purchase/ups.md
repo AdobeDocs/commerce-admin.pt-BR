@@ -3,9 +3,9 @@ title: UPS (United Parcel Service, serviço de encomendas unificado)
 description: Saiba como configurar o UPS como uma transportadora para sua loja.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
+source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,15 @@ A United Parcel Service (UPS) oferece serviços de transporte nacional e interna
 
 ## Etapa 1: Abrir uma Conta de Entrega UPS
 
-Para oferecer esse método de envio aos seus clientes, primeiro abra uma conta na UPS.
+Para oferecer esse método de envio aos seus clientes, primeiro abra uma conta UPS e conclua o aplicativo para obter um número de conta do Transportador. Consulte [Abrir uma conta gratuita do UPS](https://www.ups.com/us/en/business-solutions/open-an-account).
 
-## Etapa 2: Habilitar UPS para sua loja
+## Etapa 2: obter credenciais OAUTH do UPS
+
+Siga as etapas no [Guia de Introdução às APIs do UPS](https://developer.ups.com/get-started) para obter as credenciais de API (ID do cliente e segredo do cliente) para habilitar a integração do UPS. Você deve criar um aplicativo UPS para obter as credenciais.
+
+Ao definir as configurações da UPS no Administrador, use os valores de credencial para o `username` e `password`.
+
+## Etapa 3: Habilitar UPS para sua loja
 
 1. Na _barra lateral do administrador_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -36,7 +42,7 @@ Para oferecer esse método de envio aos seus clientes, primeiro abra uma conta n
 
 1. Para uma conta REST UPS (padrão), faça o seguinte:
 
-   - Insira suas credenciais de UPS: UPS ClientID como **[!UICONTROL User ID]**, UPS Client Secret como **[!UICONTROL Password]**
+   - Insira suas credenciais de UPS: UPS ClientID como **[!UICONTROL User ID]**, UPS Client Secret como **[!UICONTROL Password]**.
 
    - Defina **[!UICONTROL Mode]** como `Live` para enviar dados ao sistema de envio do UPS através de uma conexão segura. (O modo de desenvolvimento não envia dados por uma conexão segura.)
 
@@ -116,7 +122,7 @@ Para oferecer esse método de envio aos seus clientes, primeiro abra uma conta n
 
    ![Descrição do contêiner](./assets/ups2.png){width="600" zoomable="yes"}
 
-## Etapa 4: Configurar taxas de manuseio
+## Etapa 5: Configurar taxas de manuseio
 
 A taxa de manuseio é opcional e aparece como um custo extra que é adicionado ao custo de envio da UPS. Se quiser incluir uma taxa de manuseio, faça o seguinte:
 
@@ -136,7 +142,7 @@ A taxa de manuseio é opcional e aparece como um custo extra que é adicionado a
 
    ![Taxa de Manuseio](./assets/ups3.png){width="600" zoomable="yes"}
 
-## Etapa 5: Especificar métodos permitidos e países aplicáveis
+## Etapa 6: especificar os métodos permitidos e os países aplicáveis
 
 1. Para **[!UICONTROL Allowed Methods]**, escolha cada método de envio UPS que estará disponível para seus clientes.
 
@@ -174,7 +180,7 @@ A taxa de manuseio é opcional e aparece como um custo extra que é adicionado a
 
 1. Clique em **[!UICONTROL Save Config]**.
 
-## Etapa 6: configurar endereço de origem da remessa
+## Etapa 7: configurar endereço de origem da remessa
 
 1. Verifique se as [Informações da Loja](../getting-started/store-details.md#store-information) foram concluídas.
 

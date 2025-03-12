@@ -1,26 +1,25 @@
 ---
-title: Guia de introdução ao Adobe Commerce
-description: Informações abrangentes para comerciantes novos no Adobe Commerce.
-seo-title: Adobe Commerce Getting Started Guide
-seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
+title: Guia de introdução ao Adobe Commerce Admin
+description: Informações abrangentes para comerciantes novos no Adobe Commerce Admin.
+seo-title: Adobe Commerce Admin Getting Started Guide
+seo-description: Describes basic Admin tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 recommendations: noCatalog
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 4%
+source-wordcount: '254'
+ht-degree: 0%
 
 ---
 
 # Guia de introdução ao Adobe Commerce
 
-Este guia destina-se aos comerciantes e administradores de sistema que são novos no Adobe Commerce. Ele fornece uma visão geral da plataforma a partir de sua perspectiva e algumas informações detalhadas sobre os recursos básicos que permitem uma loja funcional.
+Este guia destina-se aos comerciantes e administradores de sistema que são novos no Administrador do Adobe Commerce. Ele fornece uma visão geral da plataforma a partir de sua perspectiva e algumas informações detalhadas sobre os recursos básicos que permitem uma loja funcional.
 
 Este guia abrange:
 
 | Assunto | Descrição |
 | ------- | ----------- |
-| [Sobre o Commerce](about.md) | Saiba mais sobre a versão atual do Adobe Commerce. |
 | [Credenciais e URLs de logon](login-urls.md) | Saiba mais sobre as URLs e credenciais de conta do [!DNL Commerce] usadas para obter acesso ao seu administrador e à sua vitrine eletrônica. |
 | [[!DNL Commerce] contas](commerce-account-create.md) | Conheça as contas do [!DNL Commerce], que gerenciam os produtos e serviços que você adquiriu. |
 | [O Administrador](admin.md) | Saiba mais sobre o Administrador do [!DNL Commerce], o local onde os comerciantes configuram produtos e promoções, gerenciam pedidos e executam outras tarefas administrativas. |

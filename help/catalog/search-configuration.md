@@ -3,16 +3,16 @@ title: Configurar pesquisa no catálogo
 description: Saiba como configurar a pesquisa no catálogo para sua loja.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 279f54d41264a081166cfda7d2216172ac22cd26
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # Configurar pesquisa no catálogo
 
-Há duas variações da configuração da Pesquisa no catálogo. O primeiro método descreve as configurações disponíveis quando o [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) é instalado. O segundo método descreve as definições de configuração do Adobe Commerce nativo com [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target=&quot;_blank&quot;}.
+Há duas variações da configuração da Pesquisa no catálogo. O primeiro método descreve as configurações disponíveis quando o [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) é instalado. O segundo método descreve as definições de configuração do Adobe Commerce nativo com [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Há duas variações da configuração da Pesquisa no catálogo. O primeiro mét
 
    O valor padrão é `100`. Inserir um valor de `0` armazena em cache todos os termos e resultados da pesquisa quando inseridos uma segunda vez.
 
-1. Para alterar o número máximo de linhas disponíveis para os resultados retornados no [pop-up da vitrine](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html), digite um valor **[!UICONTROL Autocomplete Limit]** diferente.
+1. Para alterar o número máximo de linhas disponíveis para os resultados retornados no [pop-up da vitrine](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html), digite um valor **[!UICONTROL Autocomplete Limit]** diferente.
 
    A restrição do número de linhas melhora o desempenho das pesquisas e reduz o tamanho da lista retornada. O valor padrão é `8` linhas.
 
@@ -45,7 +45,7 @@ Há duas variações da configuração da Pesquisa no catálogo. O primeiro mét
 >[!IMPORTANT]
 >
 >- Devido ao anúncio do fim do suporte do [!DNL Elasticsearch 7] para agosto de 2023, é recomendável que todos os clientes do Adobe Commerce migrem para o mecanismo de pesquisa OpenSearch 2.x. Para obter informações sobre como migrar o mecanismo de pesquisa durante a atualização do produto, consulte [Migrando para o OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) no _Guia de Atualização_.
->- Nas versões 2.4.4 e 2.4.3-p2, todos os campos rotulados como Elasticsearch também se aplicam ao OpenSearch. Quando o suporte para o Elasticsearch 8.x foi introduzido na versão 2.4.6, novos rótulos foram criados para distinguir entre configurações Elasticsearch e OpenSearch. No entanto, as opções de configuração de ambos são as mesmas.
+>- Nas versões 2.4.4 e 2.4.3-p2, todos os campos rotulados como Elasticsearch também se aplicam ao OpenSearch. Quando o suporte para o Elasticsearch 8.x foi introduzido na versão 2.4.6, novos rótulos foram criados para distinguir entre as configurações do Elasticsearch e do OpenSearch. No entanto, as opções de configuração de ambos são as mesmas.
 
 ### Etapa 1: configurar opções gerais de pesquisa
 
@@ -95,7 +95,7 @@ Há duas variações da configuração da Pesquisa no catálogo. O primeiro mét
 
    Neste exemplo, o valor padrão é `9200`.
 
-1. Para **[!UICONTROL OpenSearch Index Prefix]**, insira um prefixo para identificar o índice de Elasticsearch.
+1. Para **[!UICONTROL OpenSearch Index Prefix]**, insira um prefixo para identificar o índice Elasticsearch.
 
    O valor padrão é `magento2`.
 

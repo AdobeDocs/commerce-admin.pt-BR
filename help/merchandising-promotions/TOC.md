@@ -1,12 +1,12 @@
 ---
 user-guide-title: Guia de merchandising e promoções da Adobe Commerce
-user-guide-description: O Adobe Commerce e o Magento Open Source incluem muitas ferramentas que você pode usar para impulsionar vendas, criar oportunidades de engajamento do cliente e configurar promoções direcionadas.
+user-guide-description: O Adobe Commerce e o Magento Open Source incluem muitas ferramentas que você pode usar para impulsionar vendas, criar oportunidades de envolvimento com o cliente e configurar promoções direcionadas.
 breadcrumb-title: Merchandising e promoções
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 1%
       - [Visão geral e configuração](url-rewrite.md)
       - [Substituições de categoria](url-rewrite-category.md)
       - [Regravações de produto](url-rewrite-product.md)
-      - [Substituições de página CMS](url-rewrite-cms-page.md)
+      - [Substituições de página no CMS](url-rewrite-cms-page.md)
       - [Substituições personalizadas](url-rewrite-custom.md)
       - [Redirecionamentos automáticos](url-redirect-product-automatic.md)
 - Ferramentas do site Google {#google-tools}
@@ -87,5 +87,5 @@ ht-degree: 1%
    - [Gerenciador de tags da Google](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Experimentos de conteúdo do Google](google-content-experiments.md)
-- [Retornar aos Guias do Comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

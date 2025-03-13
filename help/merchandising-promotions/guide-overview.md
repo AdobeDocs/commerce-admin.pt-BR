@@ -2,16 +2,16 @@
 title: Guia de merchandising e promoções
 description: Explore informações detalhadas sobre merchandising e recursos promocionais no Adobe Commerce, incluindo descontos e eventos direcionados.
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
-source-git-commit: 06c3676d4446dedd44b1be2cff021fabe0ad6fe3
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
 # Guia de merchandising e promoções da Adobe Commerce
 
-Este guia destina-se a merchandisers e equipe de marketing que trabalham no Adobe Commerce e no Magento Open Source. Ela fornece informações detalhadas sobre merchandising e recursos promocionais, incluindo descontos e eventos direcionados. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do [!DNL Commerce].
+Este guia destina-se a merchandisers e equipe de marketing que trabalham no Adobe Commerce e no administrador do Magento Open Source. Ela fornece informações detalhadas sobre merchandising e recursos promocionais, incluindo descontos e eventos direcionados. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do [!DNL Commerce].
 
 Este guia abrange:
 
@@ -26,7 +26,7 @@ Este guia abrange:
 | [Regras de preço de catálogo](price-rules-catalog.md) | Ofereça produtos aos compradores por um preço com desconto com base em um conjunto de condições definidas. |
 | [Regras de preço do carrinho](price-rules-cart.md) | Aplique descontos a itens no carrinho de compras com base em um conjunto de condições ou quando o cliente inserir um código de cupom válido. |
 | [Relacionamentos de produtos](product-relationships.md) | Promova produtos em seu catálogo em outras páginas definindo a natureza da relação entre os produtos. |
-| [Boletins informativos e assinaturas](newsletters.md) | O Publish e o distribuem boletins informativos aos clientes do assinante para aumentar o tráfego na loja. |
+| [Boletins informativos e assinaturas](newsletters.md) | Publique e distribua boletins informativos aos clientes assinantes para aumentar o tráfego para sua loja. |
 | [Lembretes de email](email-reminder-rules.md) | Envie lembretes automaticamente para os clientes para que eles aproveitem uma promoção e façam uma compra. |
 | [Otimização do mecanismo de pesquisa](seo-overview.md) | Implemente os recursos do Commerce para ajustar o conteúdo e a apresentação do site e melhorar a forma como as páginas são indexadas por mecanismos de pesquisa. |
 | [ferramentas de site do Google](google-tools.md) | Configure integrações com ferramentas do Google para ajudar a otimizar seu conteúdo, analisar seu tráfego e conectar seu catálogo a agregadores de compras e marketplaces. |

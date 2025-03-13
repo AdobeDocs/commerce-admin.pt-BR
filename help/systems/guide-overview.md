@@ -2,16 +2,16 @@
 title: Guia de sistemas do administrador
 description: Saiba mais sobre as práticas recomendadas de segurança para proteger suas permissões de armazenamento e gerenciamento do Commerce e como importar e exportar dados, gerenciar integrações e extensões e cuidar da manutenção de rotina.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: 13f8858768b412d1ca2eb92e628331d9a45a347d
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Guia de sistemas de administração do Adobe Commerce
 
-Este guia destina-se aos administradores de sistema e integradores que trabalham com Adobe Commerce e Magento Open Source. Ele fornece informações detalhadas sobre segurança do administrador, operações de manutenção e recursos em todo o sistema que oferecem suporte a atividades em várias funções organizacionais para seus negócios de comércio eletrônico. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do Commerce.
+Este guia destina-se aos administradores de sistema e integradores que trabalham no Adobe Commerce e no Magento Open Source Admin. Ele fornece informações detalhadas sobre segurança do administrador, operações de manutenção e recursos em todo o sistema que oferecem suporte a atividades em várias funções organizacionais para seus negócios de comércio eletrônico. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do Commerce.
 
 Este guia abrange:
 

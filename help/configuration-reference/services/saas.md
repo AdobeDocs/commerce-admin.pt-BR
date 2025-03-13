@@ -3,7 +3,7 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
 description: Revise as configurações na página [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] do Administrador do Commerce.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Para saber como conectar sua loja aos serviços da Adobe Commerce, consulte [Serviços da Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+Para saber como conectar sua loja aos serviços da Adobe Commerce, consulte [Serviços da Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html).
 
 {{config}}
 
@@ -45,7 +45,7 @@ Para saber como conectar sua loja aos serviços da Adobe Commerce, consulte [Ser
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Project] | Global | Nome do projeto SaaS que agrupa todos os espaços de dados SaaS. O botão _Criar projeto_ será exibido se não houver nenhum projeto SaaS. |
-| [!UICONTROL Data Space] | Global | Lista os espaços de dados SaaS no projeto SaaS especificado. O número de espaços de dados SaaS depende da sua [licença do Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce - Um espaço de dados de produção; dois espaços de dados de teste;<br />Magento Open Source - Um espaço de dados de produção; sem espaços de dados de teste |
+| [!UICONTROL Data Space] | Global | Lista os espaços de dados SaaS no projeto SaaS especificado. O número de espaços de dados SaaS depende da sua [licença do Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html):<br />Adobe Commerce - Um espaço de dados de produção; dois espaços de dados de teste;<br />Magento Open Source - Um espaço de dados de produção; sem espaços de dados de teste |
 
 {style="table-layout:auto"}
 
@@ -55,6 +55,6 @@ Para saber como conectar sua loja aos serviços da Adobe Commerce, consulte [Ser
 
 | Campo | Descrição |
 |--- |--- |
-| [!UICONTROL Sign in using Adobe ID] | Seu Adobe ID geralmente é o endereço de email que você usou pela primeira vez quando iniciou sua associação ou adquiriu um aplicativo ou serviço Adobe. Seu Adobe ID é a chave necessária para acessar sua conta Adobe. |
+| [!UICONTROL Sign in using Adobe ID] | Seu Adobe ID geralmente é o endereço de email que você usou pela primeira vez quando iniciou sua associação ou comprou um aplicativo ou serviço da Adobe. Seu Adobe ID é a chave necessária para acessar sua conta do Adobe. |
 
 {style="table-layout:auto"}

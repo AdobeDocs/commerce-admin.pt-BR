@@ -3,7 +3,7 @@ title: Navegação em camadas
 description: Saiba como a navegação em camadas facilita a localização de produtos com base na categoria, na faixa de preço ou em qualquer outro atributo disponível.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->A navegação em camadas padrão descrita nesta seção é diferente da navegação filtrada do Live Search com [facetas](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>A navegação em camadas padrão descrita nesta seção é diferente da navegação filtrada do Live Search com [facetas](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html).
 
 A navegação em camadas facilita a localização de produtos com base na categoria, na faixa de preço ou em qualquer outro atributo disponível. A navegação em camadas geralmente aparece na coluna esquerda dos resultados da pesquisa e nas páginas de categoria e, às vezes, na página inicial. A navegação padrão inclui uma lista de categorias e um intervalo de preços _Comprar por_. Você pode configurar a exibição da navegação em camadas, incluindo a contagem de produtos e a faixa de preços.
 
@@ -24,7 +24,7 @@ A navegação em camadas facilita a localização de produtos com base na catego
 
 >[!NOTE]
 >
->Os requisitos de atributo filtráveis descritos neste tópico são diferentes para o [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Para saber mais, consulte [Facetas](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>Os requisitos de atributo filtráveis descritos neste tópico são diferentes para o [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). Para saber mais, consulte [Facetas](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html).
 
 A navegação em camadas pode ser usada para procurar produtos por categoria ou por atributo. Por exemplo, quando um comprador escolhe a categoria Mens/Shorts na navegação superior, os resultados iniciais incluem todos os produtos na categoria. A lista pode ser filtrada ainda mais escolhendo um estilo, clima, cor, material, padrão ou preço específico — ou uma combinação de valores. Os atributos filtráveis são exibidos em uma seção de expansão que lista cada valor de atributo. Como opção, a lista de produtos com resultados correspondentes pode ser configurada para incluir produtos com ou sem uma correspondência.
 
@@ -112,7 +112,7 @@ Você pode usar as seguintes etapas para remover valores de atributos filtrávei
 
 >[!NOTE]
 >
->A configuração de navegação de preço descrita neste tópico é diferente para o [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>A configuração de navegação de preço descrita neste tópico é diferente para o [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 A navegação de preço pode ser usada para distribuir produtos por faixa de preço na navegação em camadas. Também é possível dividir cada intervalo em intervalos. Há algumas maneiras de calcular a navegação de preço:
 
@@ -201,7 +201,7 @@ Deixar **[!UICONTROL Price Navigation Steps Calculation]** definido como `Automa
 
 >[!NOTE]
 >
->A configuração padrão descrita nesta página é diferente para o [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>A configuração padrão descrita nesta página é diferente para o [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 A configuração de navegação em camadas determina se uma contagem de produtos aparece entre parênteses após cada atributo e o tamanho do cálculo de etapa usado na navegação de preço.
 

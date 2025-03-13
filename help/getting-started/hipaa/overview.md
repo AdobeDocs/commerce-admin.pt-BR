@@ -3,7 +3,7 @@ title: Disponibilidade para HIPAA no Adobe Commerce
 description: Saiba como adicionar a extensão do Adobe Commerce pronta para HIPAA e obtenha recursos e funcionalidades adicionais que permitem cumprir com as suas obrigações com a HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Instale a última versão da extensão HIPAA-Ready Services da Adobe (`magento/h
 
 >[!NOTE]
 >
->Para garantir que os dados do evento de back office enviados para o Experience Platform estejam prontos para HIPAA, consulte o [guia de extensão de Conexão de Dados](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Para garantir que os dados do evento de back office enviados para o Experience Platform estejam prontos para HIPAA, consulte o [guia de extensão de Conexão de Dados](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. Na estação de trabalho local, altere para o diretório do projeto do Adobe Commerce na infraestrutura em nuvem.
 
@@ -264,12 +264,12 @@ A tabela a seguir identifica os serviços da Adobe Commerce que estão disponív
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | Sim | Sim |
 | [Malha de API para Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Sim | Sim |
-| [Exportação De Dados SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) | Sim | Sim |
-| [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | Não | Não |
-| [Recomendações de produto](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | Não | Não |
-| [Serviços de pagamento](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) | Não | Não |
-| [Eventos de Back-Office da Conexão de Dados](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice) | Sim | Sim |
-| [Eventos de Data Connection Storefront](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events) | Não | Não |
+| [Exportação De Dados SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Sim | Sim |
+| [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Não | Não |
+| [Recomendações de produto](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Não | Não |
+| [Serviços de pagamento](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Não | Não |
+| [Eventos de Back-Office da Conexão de Dados](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Sim | Sim |
+| [Eventos de Data Connection Storefront](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Não | Não |
 | [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Não | Não |
 
 ### Ferramentas

@@ -2,7 +2,7 @@
 title: Introdução a merchandising e promoções do Commerce
 description: Conheça as ferramentas do Commerce para criar promoções e oportunidades direcionadas ao engajamento de clientes.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 1%
@@ -27,7 +27,7 @@ _Merchandising_ é um termo usado no varejo para descrever a arte e a ciência d
 
 >[!TIP]
 >
->Para saber mais sobre o Recommendations de Produtos e como eles podem fornecer a você o insight e o controle necessários para criar a melhor experiência para seus compradores, consulte o [Guia do Usuário do Recommendations de Produtos](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+>Para saber mais sobre as Recomendações de Produtos e como elas podem fornecer a você o insight e o controle necessários para criar a melhor experiência para seus compradores, consulte o [Guia do Usuário das Recomendações de Produtos](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promoções
 
@@ -66,7 +66,7 @@ Uma das tarefas a serem concluídas antes de iniciar sua loja é revisar os mode
 
 >[!NOTE]
 >
->O Adobe Commerce e o Magento Open Source versões 2.4.0 a 2.4.3 incluíam a extensão dotdigital desenvolvida pelo fornecedor usada para integrar com a nuvem do Engajamento dotdigital. A partir da versão 2.4.4, essa extensão não é mais fornecida com a versão principal e deve ser instalada e atualizada do Commerce Marketplace. O Marketplace também fornece acesso à documentação atual fornecida pelo desenvolvedor da extensão.
+>As versões 2.4.0 a 2.4.3 do Adobe Commerce e do Magento Open Source incluíam a extensão desenvolvida pelo fornecedor dotdigital usada para integrar com a nuvem do Engajamento dotdigital. A partir da versão 2.4.4, essa extensão não é mais fornecida com a versão principal e deve ser instalada e atualizada do Commerce Marketplace. O Marketplace também fornece acesso à documentação atual fornecida pelo desenvolvedor da extensão.
 ><br><br>
 >Se você tiver a extensão agrupada ativada e configurada, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) no _Guia de Atualização_ para obter mais informações.
 
@@ -86,7 +86,7 @@ A configuração da sua loja está integrada às seguintes ferramentas do Google
 
 - [Google Analytics](google-analytics.md) - Use o Google Universal Analytics para definir dimensões e métricas personalizadas adicionais para rastreamento, com suporte para interações offline e de aplicativos móveis e acesso a atualizações contínuas.
 
-- [Experimentos de conteúdo do Google](google-content-experiments.md) - Configure um teste A/B de produtos, categorias ou páginas de conteúdo usando o conteúdo do Google Analytics
+- [Experimentos de conteúdo do Google](google-content-experiments.md) - Configure um teste A/B de produtos, categorias ou páginas de conteúdo usando o Conteúdo do Google Analytics
 
 - [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Use o Google Tag Manager para gerenciar as várias tags relacionadas aos eventos de campanha de marketing.
 

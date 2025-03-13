@@ -1,9 +1,9 @@
 ---
 title: Trechos
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: 192d46c4d7105210d4fdcf090f60d45a5a6e40bd
+source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -75,10 +75,10 @@ Para acessar as definições de configuração de armazenamento, escolha **[!UIC
 
 | Recurso de documentação | Descrição |
 |----------------------- | ----------- |
-| [Documentação do comerciante do Adobe Commerce 2.4](../landing/home.md) | Documentação voltada para o comerciante do Adobe Commerce |
-| [Serviços para a Documentação do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentação para dar suporte a uma coleção de serviços que ajudam os comerciantes a integrar os principais componentes de seus negócios à loja. |
-| [Guia da Infraestrutura do Commerce na Nuvem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedimentos passo a passo para implantar o Adobe Commerce em uma plataforma de hospedagem em nuvem gerenciada e automatizada. |
-| [Guias Operacionais do Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentação de sistemas sobre os conceitos, processos, ferramentas e práticas recomendadas para desenvolver, implantar e manter projetos do Adobe Commerce. |
-| [Documentação do desenvolvedor do Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentação voltada para desenvolvedores usada para personalizar o Adobe Commerce e integrar-se com sistemas de terceiros |
+| [Guias do Usuário de Administração do Adobe Commerce 2.4](../landing/home.md) | Documentação e recursos para comerciantes que trabalham como administradores. |
+| [Serviços para a Documentação do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | Documentação para dar suporte a uma coleção de serviços de merchandising que ajudam os comerciantes a integrar os principais componentes de seus negócios à loja. |
+| [Guia da Infraestrutura do Commerce na Nuvem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedimentos passo a passo para implantar o Adobe Commerce em uma plataforma de nuvem de hospedagem gerenciada e automatizada. |
+| [Guias Operacionais do Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentação de sistemas sobre os conceitos, processos, ferramentas e práticas recomendadas para desenvolver, implantar e manter o Adobe Commerce na nuvem e projetos locais. |
+| [Documentação do desenvolvedor do Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentação focada no desenvolvedor usada para personalizar o Adobe Commerce e integrar-se com sistemas de terceiros. |
 
 {style="table-layout:auto"}

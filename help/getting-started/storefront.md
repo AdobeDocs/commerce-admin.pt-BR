@@ -3,18 +3,63 @@ title: O que é vitrine eletrônica?
 description: Saiba mais sobre as páginas e os elementos funcionais que sua loja pode fornecer para respaldar a experiência de compra de seus clientes.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
+source-git-commit: 8145531bf9aa2764bd52a6e121112beca2e25158
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
 
 # O que é vitrine eletrônica?
 
-Na implementação do Adobe Commerce ou Magento Open Source, a loja é a parte externa voltada para o público da loja. Ele fornece o conteúdo e os componentes funcionais que seus clientes usam para comprar e comprar.
+Na implementação do Adobe Commerce ou do Magento Open Source, a loja é a parte externa voltada para o público da loja. Ele fornece o conteúdo e os componentes funcionais que seus clientes usam para comprar e comprar.
 
 O caminho que os clientes tomam para uma venda às vezes é chamado de _caminho para compra_, e sua loja inclui os componentes para que os clientes concluam esse caminho. As seções a seguir fornecem uma visão geral dos tipos de página básicos que fornecem valor estratégico: os locais que os clientes geralmente visitam enquanto fazem compras na sua loja. Ao analisá-los, considere os diferentes recursos da loja que podem ser usados em cada estágio da jornada do cliente.
+
+## Commerce Storefront
+
+Com a introdução da [!DNL **Commerce Storefront viabilizada pelo Edge Delivery Services**], a Adobe oferece uma loja confiável, escalável e de alto desempenho que utiliza tecnologia de ponta para oferecer velocidade e experiência do usuário superiores.
+
+- **Desempenho aprimorado**: hospedar vitrines no Edge Delivery Services garante tempos de carregamento mais rápidos e melhor desempenho do site, o que pode resultar em taxas de conversão mais altas e melhores classificações de SEO.
+
+- **Escalabilidade**: a arquitetura oferece suporte a escalabilidade contínua para lidar com maior tráfego e catálogos de produtos maiores sem comprometer o desempenho.
+
+- **Flexibilidade**: a loja é altamente personalizável, permitindo que as empresas adaptem a experiência de compra às suas necessidades exclusivas.
+
+- **Experiência do usuário aprimorada**: recursos como cache avançado, atualizações em tempo real e entrega de conteúdo personalizado contribuem para uma experiência de compra mais estável e envolvente.
+
+### Principais recursos
+
+A Commerce Storefront baseada na Edge Delivery Services oferece vários recursos principais que beneficiam comerciantes e desenvolvedores. Esses recursos permitem que as empresas criem experiências de compra envolventes, mantendo a flexibilidade para personalizar e dimensionar suas vitrines de acordo com suas necessidades.
+
+Para obter informações e orientações mais detalhadas sobre a configuração e otimização da sua Commerce Storefront, consulte a [Documentação da Adobe Commerce Storefront](https://experienceleague.adobe.com/en/docs/commerce).
+
+>[!BEGINTABS]
+
+>[!TAB Comerciantes]
+
+A Commerce Storefront, baseada na Edge Delivery Services, fornece uma experiência de criação intuitiva e baseada em documentos, facilitando a criação e o gerenciamento de conteúdo pelos comerciantes. Usando ferramentas familiares, como o Microsoft Word ou o Google Docs, os comerciantes podem criar conteúdo avançado, mantendo o controle de versão e colaborando com os membros da equipe.
+
+- **Criação simplificada de conteúdo**: crie e edite conteúdo usando ferramentas de criação conhecidas, baseadas em documentos, como o Microsoft Word ou o Google Docs.
+- **Visualização em tempo real**: veja as alterações instantaneamente com os recursos de visualização ao vivo, antes de publicar.
+- **Controle de versão**: controle as alterações de conteúdo e reverta facilmente para versões anteriores.
+- **Fluxo de trabalho colaborativo**: vários membros da equipe podem trabalhar no conteúdo simultaneamente com processos de revisão internos.
+- **Reutilização de conteúdo**: crie blocos de conteúdo que podem ser reutilizados em várias páginas para manter a consistência.
+
+>[!TAB Desenvolvedores]
+
+A implementação headless permite aos desenvolvedores dissociar a camada de apresentação de front-end da funcionalidade de comércio de back-end, permitindo frentes de loja flexíveis e personalizadas criadas com tecnologias modernas, aproveitando ao mesmo tempo os serviços de back-end robustos da Commerce.
+
+- **Arquitetura API-first**: crie experiências de front-end personalizadas usando estruturas modernas enquanto aproveita os serviços de back-end do Commerce.
+- **Componentes combináveis**: crie e implante componentes modulares e reutilizáveis que possam ser montados em diferentes layouts de página.
+- **Plataforma extensível**: adicione funcionalidades personalizadas por meio de APIs e webhooks sem modificar o código principal.
+- **Ferramentas de desenvolvimento modernas**: use ferramentas de desenvolvimento e fluxos de trabalho padrão do setor para implementação e implantação mais rápidas.
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>Embora a Commerce Storefront ofereça várias vantagens, a Adobe continua a oferecer suporte à loja original baseada no Luma. As empresas que atualmente usam a Luma podem continuar a operar sem interrupções e têm a opção de fazer a transição para a nova loja em seu próprio ritmo. As seções restantes nesta página são baseadas em exemplos de Luma.
 
 ## Home page
 
@@ -36,7 +81,7 @@ Você sabia que as pessoas que usam a pesquisa têm quase duas vezes mais chance
 
 ### [!DNL Live Search]
 
-Com o [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) for Adobe Commerce, sua loja oferece uma experiência de pesquisa rápida, super relevante e intuitiva, e está disponível para o Adobe Commerce sem custo adicional.
+Com o [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) for Adobe Commerce, sua loja oferece uma experiência de pesquisa rápida, super relevante e intuitiva, e está disponível para o Adobe Commerce sem custo adicional.
 
 ![Exemplo do Live Search - pesquisar à medida que você digita](./assets/storefront-search-as-you-type.png){width="700"}
 
@@ -54,7 +99,7 @@ A página do produto tem muita coisa acontecendo! A primeira coisa que chama a a
 
 ## Carrinho de compras
 
-O carrinho é onde o total do pedido pode ser determinado, juntamente com cupons de desconto e frete estimado e imposto, e um ótimo lugar para exibir seus selos e selos de confiança. É também uma oportunidade ideal para oferecer um último item. Como venda cruzada, você pode selecionar determinados itens a serem oferecidos como uma compra por impulso sempre que um item específico aparecer no carrinho.
+O carrinho mostra o total do pedido, incluindo quaisquer cupons de desconto, frete estimado e impostos. Esses recursos tornam o local ideal para exibir selos e medalhas de confiança. Você também pode usar a página do carrinho como uma oportunidade para uma oferta final. Por exemplo, você pode configurar itens de venda cruzada que aparecem como opções de compra por impulso quando produtos específicos estão no carrinho.
 
 ![Exemplo de página de carrinho de compras da vitrine](./assets/storefront-cart-full.png){width="700"}
 

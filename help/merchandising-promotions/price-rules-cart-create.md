@@ -3,7 +3,7 @@ title: Criar uma regra de preço de carrinho
 description: Saiba como criar uma regra de preço de carrinho com base nos atributos de carrinho ou produto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3386'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Complete as etapas a seguir para adicionar uma regra, descrever as condições e
 
 1. Clique em **[!UICONTROL Save and Continue Edit]**.
 
-   - ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Depois que a regra é salva, o nome da regra de preço do carrinho aparece na parte superior da página.
+   - ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Após salvar a regra, o nome da regra de preço do carrinho aparece na parte superior da página.
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Após salvar a regra, o nome da regra de preço do carrinho e a caixa [Alterações agendadas](price-rule-cart-scheduled-changes.md) aparecem na parte superior da página.
 
@@ -219,7 +219,7 @@ Você pode definir uma condição para uma regra de preço do carrinho com base 
    | `Name` | Nome do público, como `Orders over $50` |
    | `Description` | Descrição do público, como `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica a origem do público-alvo, como `Experience Platform`. |
-   | `Website` | Indica qual site você vinculou à sequência de dados que contém os públicos-alvo. Você cria esse link ao conectar a instância do Commerce ao Experience Platform pela extensão [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html). |
+   | `Website` | Indica qual site você vinculou à sequência de dados que contém os públicos-alvo. Você cria este link ao conectar a instância do Commerce à Experience Platform por meio da extensão [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html). |
 
    {style="table-layout:auto"}
 

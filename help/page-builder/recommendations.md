@@ -1,26 +1,26 @@
 ---
-title: Adicionar conteúdo - Recommendations do produto
-description: Saiba mais sobre o tipo de conteúdo Recommendations do produto, usado para adicionar uma lista de recomendações ao estágio  [!DNL Page Builder] .
+title: Adicionar conteúdo - Recomendações de produto
+description: Saiba mais sobre o tipo de conteúdo de Recomendações de Produto, usado para adicionar uma lista de recomendações ao estágio  [!DNL Page Builder] .
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
-# Adicionar conteúdo - Recommendations do produto
+# Adicionar conteúdo - Recomendações de produto
 
-Use o tipo de conteúdo _Recommendations de Produto_ para adicionar uma [unidade de recomendação](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) existente e ativa[[!DNL Page Builder] ao estágio](workspace.md#stage) para uma página, bloco ou bloco dinâmico de CMS.
+Use o tipo de conteúdo _Recomendações de Produto_ para adicionar uma [unidade de recomendação](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) existente e ativa[[!DNL Page Builder] ao estágio](workspace.md#stage) para uma página, bloco ou bloco dinâmico do CMS.
 
 >[!NOTE]
 >
->O tipo de conteúdo do [!DNL Page Builder] _Recommendations de Produto_ tem suporte no Adobe Commerce 2.4.4 e posterior e está disponível no [metapackage do Product Recommendations versões 3.0.x ou posterior](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Para adicionar o suporte do [!DNL Page Builder] ao Product Recommendations, [consulte as informações de instalação](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Este tipo de conteúdo não está disponível para o Magento Open Source.**
+>O tipo de conteúdo [!DNL Page Builder] _Recomendações de Produto_ tem suporte no Adobe Commerce 2.4.4 e posterior e está disponível no [metapackage de Recomendações de Produto versões 3.0.x ou posterior](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Para adicionar o suporte do [!DNL Page Builder] às Recomendações de Produto, [consulte as informações de instalação](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **Este tipo de conteúdo não está disponível para o Magento Open Source.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
-## Caixa de ferramentas do Recommendations do produto
+## Caixa de ferramentas Recomendações de produto
 
 | Ferramenta | Ícone | Descrição |
 | --- | --| --- |
@@ -37,7 +37,7 @@ Use o tipo de conteúdo _Recommendations de Produto_ para adicionar uma [unidade
 
 ## Adicionar uma unidade de recomendação existente
 
-1. Verifique se você já [criou uma unidade de recomendação](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) para o tipo de página [!DNL Page Builder].
+1. Verifique se você já [criou uma unidade de recomendação](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) para o tipo de página [!DNL Page Builder].
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ Use o tipo de conteúdo _Recommendations de Produto_ para adicionar uma [unidade
 
 ## Configurações avançadas
 
-1. Para controlar o posicionamento da unidade Recommendations do Produto no contêiner pai, escolha a **[!UICONTROL Alignment]**:
+1. Para controlar o posicionamento da unidade de Recomendações de Produto no contêiner pai, escolha a **[!UICONTROL Alignment]**:
 
    | Opção | Descrição |
    | ------ | ----------- |
@@ -123,7 +123,7 @@ Use o tipo de conteúdo _Recommendations de Produto_ para adicionar uma [unidade
 
    {style="table-layout:auto"}
 
-1. Defina o estilo **[!UICONTROL Border]** que é aplicado aos quatro lados da unidade Recommendations do produto:
+1. Defina o estilo **[!UICONTROL Border]** que é aplicado aos quatro lados da unidade de Recomendações de Produto:
 
    | Opção | Descrição |
    | ------ | ----------- |

@@ -1,22 +1,21 @@
 ---
-user-guide-title: Guia de introdução ao Adobe Commerce
-user-guide-description: Se você é novo no Adobe Commerce ou no Magento Open Source, descubra recursos do  [!DNL Commerce] ecossistema, siga a jornada do cliente para explorar sua loja e saiba mais sobre os principais recursos.
+user-guide-title: Guia de introdução ao Adobe Commerce Admin
+user-guide-description: Se você é novo no administrador do Adobe Commerce ou do Magento Open Source, descubra recursos do  [!DNL Commerce] ecossistema, siga a jornada do cliente para explorar sua loja e saiba mais sobre os principais recursos do administrador.
 breadcrumb-title: Introdução
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
 
 
-# Guia de introdução ao Adobe Commerce {#start}
+# Guia de introdução ao Adobe Commerce Admin {#start}
 
-+ [Guia de introdução ao Adobe Commerce](guide-overview.md)
-+ [O que é o Adobe Commerce?](about.md)
++ [Guia de introdução ao Adobe Commerce Admin](guide-overview.md)
 + [Credenciais de logon e URLs](login-urls.md)
 + Contas do Commerce {#commerce-account}
    + [Criar e acessar sua conta](commerce-account-create.md)
@@ -46,7 +45,7 @@ ht-degree: 1%
    + Integração do Adobe Experience Cloud {#unifiedexperience}
       + [Visão geral](admin-unified-experience-integration-overview.md)
       + [Configurar a integração](admin-unified-experience-integration-configure.md)
-      + [Gerenciar a integração de Experience Cloud](admin-unified-experience-integration-manage.md)
+      + [Gerenciar a integração do Experience Cloud](admin-unified-experience-integration-manage.md)
       + [Notas de versão](admin-unified-experience-release-notes.md)
    + Ferramentas administrativas e espaço de trabalho {#tools}
       + [Workspace](admin-workspace.md)
@@ -77,5 +76,5 @@ ht-degree: 1%
    + [Ecossistema](resources.md)
    + [Extensões](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Retornar aos Guias do Comerciante](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -3,16 +3,16 @@ title: Guia de experiência de compras e lojas
 description: Informações abrangentes sobre a definição da loja e os recursos de processamento de vendas para agentes de atendimento ao cliente e gerentes de vendas que trabalham na Adobe Commerce e no Magento Open Source Admin.
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 recommendations: noCatalog
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Guia da experiência de compras e lojas do Adobe Commerce
 
-Este guia destina-se aos agentes de atendimento ao cliente e gerentes de vendas que trabalham na Adobe Commerce e no Magento Open Source. Ele fornece informações detalhadas sobre o gerenciamento de pedidos e os recursos de compra, incluindo como o carrinho de compras pode ser configurado para ajudar os clientes e promover vendas. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do [!DNL Commerce].
+Este guia destina-se aos agentes de atendimento ao cliente e gerentes de vendas que trabalham no Adobe Commerce e no Magento Open Source Admin. Ele fornece informações detalhadas sobre o gerenciamento de pedidos e os recursos de compra, incluindo como o carrinho de compras pode ser configurado para ajudar os clientes e promover vendas. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do [!DNL Commerce].
 
 Este guia abrange:
 

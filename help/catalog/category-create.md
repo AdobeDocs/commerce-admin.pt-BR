@@ -3,7 +3,7 @@ title: Criar categorias
 description: É possível criar quantas subcategorias adicionais forem necessárias, de acordo com a profundidade máxima do menu definida na configuração.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 0%
@@ -116,7 +116,7 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
 
 1. Se desejar que a página de categoria inclua a seção _`Filter by Attribute`_da navegação em camadas, defina **[!UICONTROL Anchor]**como `Yes`.
 
-1. Para as opções **[!UICONTROL Available Product Listing Sort By]**, selecione um ou mais dos valores disponíveis que estarão disponíveis para que os clientes classifiquem a lista. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Para as opções **[!UICONTROL Available Product Listing Sort By]**, selecione um ou mais dos valores disponíveis que estarão disponíveis para que os clientes classifiquem a lista. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    Por padrão, todos os valores disponíveis são incluídos. Desmarque a caixa de seleção **[!UICONTROL Use All]** para alterar as seleções. Por exemplo, os valores podem incluir:
 
@@ -124,7 +124,7 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
    - `Product Name`
    - `Price`
 
-1. Para definir a ordem de classificação padrão da categoria, escolha o valor **[!UICONTROL Default Product Listing Sort By]**. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Para definir a ordem de classificação padrão da categoria, escolha o valor **[!UICONTROL Default Product Listing Sort By]**. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Para alterar a configuração padrão de navegação em camada [etapa de preço](navigation-layered.md#configure-price-navigation), faça o seguinte:
 

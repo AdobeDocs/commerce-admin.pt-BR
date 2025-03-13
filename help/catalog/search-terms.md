@@ -3,7 +3,7 @@ title: Gerenciar termos de pesquisa
 description: Saiba como gerenciar os termos de pesquisa da sua loja para redirecionar clientes usando termos com ortografia incorreta ou alternativos.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -124,7 +124,7 @@ Uma maneira de melhorar a eficácia da [pesquisa de catálogo](search-configurat
 
 A Adobe Commerce oferece suporte a duas soluções diferentes de gerenciamento de sinônimos:
 
-- O recurso [Sinônimos](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html) do Live Search está disponível para instalações do Adobe Commerce com o Live Search instalado.
+- O recurso [Sinônimos](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) do Live Search está disponível para instalações do Adobe Commerce com o Live Search instalado.
 - O recurso Pesquisar sinônimos padrão (descrito nesta página) está disponível e pronto para uso para todas as instalações do Adobe Commerce.
 
 >[!NOTE]

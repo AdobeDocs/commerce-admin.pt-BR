@@ -3,7 +3,7 @@ title: Compra instantânea
 description: Saiba mais sobre o Instant Purchase e saiba como ele pode fornecer um check-out rápido para contas de clientes registradas.
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -28,7 +28,7 @@ A _Compra instantânea_ permite que os clientes acelerem o processo de finaliza�
 
   Os métodos de pagamento a seguir podem ser usados para fornecer acesso seguro às informações salvas do cartão de crédito:
 
-   - [Cartões de Crédito de Braintree](braintree.md) (a Compra Instantânea não poderá ser usada com Cartões de Crédito de Braintree se o 3D Secure estiver habilitado.)
+   - [Cartões de Crédito da Braintree](braintree.md) (a Compra Instantânea não poderá ser usada com Cartões de Crédito da Braintree se o 3D Secure estiver habilitado.)
    - [Braintree com PayPal habilitado](braintree.md)
    - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
@@ -52,12 +52,12 @@ A _Compra instantânea_ permite que os clientes acelerem o processo de finaliza�
 
 ### Etapa 2: configurar o cofre do método de pagamento
 
-Você pode usar a Compra instantânea com o Braintree ou com os Serviços de pagamento para Adobe Commerce e Magento Open Source. A compartimentalização deve ser ativada antes que um comprador possa usar a função de Compra instantânea.
+Você pode usar a Compra instantânea com o Braintree ou os Serviços de pagamento para Adobe Commerce e Magento Open Source. A compartimentalização deve ser ativada antes que um comprador possa usar a função de Compra instantânea.
 
-Saiba como configurar o método de pagamento e habilitar a compartimentalização para Braintree ou Serviços de pagamento:
+Saiba como configurar o método de pagamento e habilitar a compartimentação para Braintree ou Serviços de pagamento:
 
 - [Braintree](braintree.md)
-- [Documentação de serviços de pagamento](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [Documentação de serviços de pagamento](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 
 ### Etapa 3: Habilitar Compra Instantânea
 

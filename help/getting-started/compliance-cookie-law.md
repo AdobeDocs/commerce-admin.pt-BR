@@ -1,9 +1,9 @@
 ---
 title: Conformidade com a lei de cookies
-description: Para acompanhar a legislação de muitos países em relação ao uso de cookies, a Adobe Commerce e a Magento Open Source oferecem aos comerciantes uma variedade de métodos para obter o consentimento do cliente.
+description: Para acompanhar a legislação de muitos países em relação ao uso de cookies, o Adobe Commerce e o Magento Open Source oferecem aos comerciantes uma variedade de métodos para obter o consentimento do cliente.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 04e8fe7cf303f434bab748df447eef8ac1097196
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Conformidade com a lei de cookies
 
-Os cookies são arquivos pequenos que são salvos no computador de cada visitante do site e usados como locais de retenção temporários para obter informações. As informações salvas em cookies são usadas para personalizar a experiência de compra, vincular visitantes aos carrinhos de compras, medir os padrões de tráfego e melhorar a eficácia das promoções. Para acompanhar a legislação de muitos países em relação ao uso de cookies, a Adobe Commerce e a Magento Open Source oferecem aos comerciantes uma variedade de métodos para obter o consentimento do cliente. Para obter uma lista dos cookies padrão no Adobe Commerce e no Magento Open Source, consulte [Referência de cookie](#default-cookies).
+Os cookies são arquivos pequenos que são salvos no computador de cada visitante do site e usados como locais de retenção temporários para obter informações. As informações salvas em cookies são usadas para personalizar a experiência de compra, vincular visitantes aos carrinhos de compras, medir os padrões de tráfego e melhorar a eficácia das promoções. Para acompanhar a legislação de muitos países em relação ao uso de cookies, o Adobe Commerce e o Magento Open Source oferecem aos comerciantes uma variedade de métodos para obter o consentimento do cliente. Para obter uma lista dos cookies padrão no Adobe Commerce e no Magento Open Source, consulte [Referência de cookie](#default-cookies).
 
 >[!NOTE]
 >
->Se você modificar as [configurações de privacidade do Google](../merchandising-promotions/google-tools.md#google-privacy-settings) padrão para que estejam em conformidade com o [Regulamento Geral sobre a Proteção de Dados](compliance-gdpr.md), não será necessário obter o consentimento do usuário para o uso de cookies Google Analytics.
+>Se você modificar as [configurações de privacidade do Google](../merchandising-promotions/google-tools.md#google-privacy-settings) padrão para que estejam em conformidade com o [Regulamento Geral sobre a Proteção de Dados](compliance-gdpr.md), não será necessário obter o consentimento do usuário para o uso de cookies do Google Analytics.
 
 ## Modo de restrição de cookies
 
@@ -72,7 +72,7 @@ Alguns desses cookies podem fornecer opções de configuração, incluindo ativa
 
 #### `add_to_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Captura a SKU, o nome, o preço e a quantidade do produto removidos do carrinho. Permite que os Google Analytics saibam quando um produto foi adicionado ao carrinho.
+![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Captura a SKU, o nome, o preço e a quantidade do produto removidos do carrinho. Permite que o Google Analytics saiba quando um produto foi adicionado ao carrinho.
 
 #### `guest-view`
 
@@ -112,7 +112,7 @@ Armazena IDs de produtos visualizados recentemente para facilitar a navegação.
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Permite que o Google Analytics saiba quando um produto foi removido do carrinho.
+![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) permite que a Google Analytics saiba quando um produto foi removido do carrinho.
 
 #### `stf`
 
@@ -196,7 +196,7 @@ Definido pela biblioteca Gainsight PX usada indiretamente pelo módulo Admin Ana
 
 #### `s_sq`
 
-Definido indiretamente pelo módulo Admin Analytics. Usado pelo recurso ClickMap que coleta dados sobre onde os visitantes clicam e no que clicam. Armazena informações de cada clique. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores.
+Definido indiretamente pelo módulo Admin Analytics. Usado pelo recurso do ClickMap que coleta dados sobre onde os visitantes clicam e no que clicam. Armazena informações de cada clique. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores.
 
 #### `pagebuilder_modal_dismissed`
 
@@ -210,11 +210,11 @@ Definido pelo Módulo do Page Builder. Contém um sinalizador que impede que pro
 
 Ser usado como parte da implementação da funcionalidade de guias somente em uma área administrativa de uma loja. Não aplicável aos compradores.
 
-## Cookies do Recommendations do produto
+## Cookies de recomendações de produto
 
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir são usados pela Recommendations do Produto para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir são usados pelas Recomendações de Produto para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: permite [restringir a coleta de dados do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie) se você tiver um código personalizado para gerenciar o consentimento de cookies no site.
+- `mg_dnt`: permite [restringir a coleta de dados do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) se você tiver um código personalizado para gerenciar o consentimento de cookies no site.
 - `user_allowed_save_cookie`: Usado para [modo de restrição de cookies](#cookie-restriction-mode).
 - `authentication_flag`: indica se um comprador entrou ou saiu. Este cookie é atualizado ao mesmo tempo que o cookie `dataservices_customer_id`.
 - `dataservices_customer_id`: indica se um comprador entrou ou saiu. Este cookie contém o identificador exclusivo do cliente no sistema.
@@ -224,10 +224,10 @@ Ser usado como parte da implementação da funcionalidade de guias somente em um
 
 ## Cookies adicionais
 
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir estão definidos para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir estão definidos para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: Definido pelo rastreador Snowplow JavaScript. Mais informações podem ser encontradas na [documentação do Snowplow](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options).
-- `com.adobe.alloy.getTld`: Dado o nome de host da página da Web atual, este é o domínio mais alto que não é um &quot;sufixo público&quot;, conforme descrito em https://publicsuffix.org. Essencialmente, esse é o domínio mais alto que pode aceitar cookies. Este cookie faz parte do [SDK da Web da Alloy](https://github.com/adobe/alloy).
+- `com.adobe.alloy.getTld`: Dado o nome de host da página da Web atual, este é o domínio mais alto que não é um &quot;sufixo público&quot;, conforme descrito em https://publicsuffix.org. Essencialmente, esse é o domínio mais alto que pode aceitar cookies. Este cookie faz parte do [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212

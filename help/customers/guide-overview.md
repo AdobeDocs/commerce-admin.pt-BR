@@ -4,9 +4,9 @@ description: Informações abrangentes sobre contas e segmentos de clientes para
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Guia de gerenciamento de clientes do Adobe Commerce
 
-Este guia destina-se à equipe de atendimento ao cliente que trabalha na Adobe Commerce e no Magento Open Source. Ele fornece informações detalhadas sobre os recursos de gerenciamento de clientes no Administrador do Commerce e a experiência da conta do cliente na loja. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do Commerce.
+Este guia destina-se à equipe de atendimento ao cliente que trabalha com o administrador da Adobe Commerce e da Magento Open Source. Ele fornece informações detalhadas sobre os recursos de gerenciamento de clientes no Administrador do Commerce e a experiência da conta do cliente na loja. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do Commerce.
 
 | Assunto | Descrição |
 | ------- | ----------- |

@@ -3,9 +3,9 @@ title: Instalar pacotes do Adobe Commerce
 description: Saiba como instalar a extensão  [!DNL AEM Assets Integration for Adobe Commerce]  e em uma instância do Adobe Commerce.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 8b86a0dfef91b9922189e3258a3db33d228eff9d
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ A extensão AEM Assets Integration for Commerce tem os seguintes requisitos de s
 **Requisitos de software**
 
 - Adobe Commerce 2.4.5+
-- PHP 8.1, 8.2, 8.3
+- Versão do PHP compatível com a versão instalada do Adobe Commerce (8.1, 8.2, 8.3 ou 8.4)
 - Compositor: 2.x
 
 **Requisitos de acesso**

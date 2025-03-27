@@ -3,9 +3,9 @@ title: URLs de catálogo e produto
 description: Saiba mais sobre os tipos de formato de URL para seus produtos de catálogo e como configurá-los.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
+source-git-commit: 1edab49fd8d52a1b7414eb207a21c5c03200e75e
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,13 @@ A chave do URL deve consistir em caracteres minúsculos com hifens não à direi
 >
 >Para estender as personalizações de URL, como URLs localizadas, consulte [Substituições de URL](../merchandising-promotions/url-rewrite.md) para obter mais informações.
 
-### sufixo de HTML
+### Sufixo HTML
 
 Seu catálogo pode ser configurado para incluir ou excluir o sufixo como parte da categoria e dos URLs do produto. Há vários motivos pelos quais as pessoas podem optar por usar ou omitir o sufixo. Alguns acreditam que o sufixo não serve mais qualquer propósito útil, e que as páginas sem um sufixo são indexadas mais efetivamente por mecanismos de pesquisa. No entanto, sua empresa pode ter um formato padronizado para URLs que exigem um sufixo.
 
 Como o sufixo é controlado pela configuração do sistema, você nunca deve digitá-lo diretamente na chave do URL de uma categoria ou produto. (Isso resulta em um sufixo duplo no final do URL.) Se você decidir usar ou não o sufixo, seja consistente e use a mesma configuração para todas as páginas de produto e categoria. Estes são exemplos de URLs com (e sem) um sufixo.
 
-#### URL com sufixo de HTML
+#### URL com sufixo HTML
 
 - `http://mystore.com/helena-hooded-fleece.html`
 - `http://mystore.com/helena-hooded-fleece.htm`
@@ -62,13 +62,13 @@ Como o sufixo é controlado pela configuração do sistema, você nunca deve dig
 
 ### Caminho da categoria
 
-Você pode configurar o URL para incluir ou excluir o caminho da categoria. Por padrão, o caminho da categoria é incluído em todas as páginas de categoria e produto. Os exemplos a seguir mostram o mesmo URL de produto com e sem o caminho da categoria.
+Você pode configurar os URLs do produto para incluir ou excluir o caminho da categoria com base em suas preferências. Por padrão, o caminho da categoria não é incluído nos URLs do produto. No entanto, as categorias aninhadas sempre exibirão o caminho completo da categoria em seus URLs na loja, garantindo clareza e consistência na navegação da categoria. Os exemplos a seguir mostram o mesmo URL de produto com e sem o caminho da categoria.
 
-#### URL com caminho de categoria
+#### URL do produto com caminho da categoria
 
 - `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
-#### URL sem caminho de categoria
+#### URL do produto sem caminho de categoria
 
 - `http://mystore.com/helena-hooded-fleece.html`
 

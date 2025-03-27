@@ -3,9 +3,9 @@ title: Configurar a integração
 description: Saiba como conectar seus projetos do Adobe Commerce e do Experience Manager Assets para habilitar a sincronização de ativos entre esses dois sistemas.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,18 @@ Para a configuração inicial, use a regra padrão *Corresponder por SKU de prod
 1. Selecione **[!UICONTROL Save Config]** para aplicar atualizações e iniciar a sincronização de ativos.
 
    A atualização de configuração aciona o processo de sincronização inicial, permitindo que o Commerce aceite atualizações recebidas do AEM Assets. O tempo necessário para a sincronização depende do volume de ativos e de configurações específicas. A integração utiliza processos automatizados para minimizar o tempo necessário para a sincronização.
+
+### Configurar o URL do domínio personalizado
+
+Se um comerciante definir um [Nome de Domínio Personalizado](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank} no painel do AEM, será necessário adicionar esta **URL de Domínio Personalizado** no Commerce para que a integração do AEM Assets possa usá-la.
+
+1. Navegue até **[!UICONTROL Store]** > Configuração > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
+
+   ![A Integração do AEM Assets habilita a integração](assets/aem-assets-view.png){width="600" zoomable="yes"}
+
+1. Adicione a **URL de Domínio Personalizado** ao campo **[!UICONTROL Asset Custom Domain]**.
+
+1. Clique em **[!UICONTROL Save Config]** para aplicar atualizações e iniciar a sincronização de ativos.
 
 ## Próxima etapa
 

@@ -3,7 +3,7 @@ title: Enviar um pedido
 description: Saiba como preencher as informações de remessa de uma ordem de processamento e visualizar as informações de remessa e rastreamento.
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Um pedido que foi pago, mas está aguardando remessa, tem o status `Processing`.
 
    - Para postar o comentário na conta do cliente, marque a caixa de seleção **[!UICONTROL Visible on Frontend]**.
 
-1. Clique em **[!UICONTROL Submit Comment]**.
+1. Clique em **[!UICONTROL Update]**.
 
 ## Rastrear a remessa
 

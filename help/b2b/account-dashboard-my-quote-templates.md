@@ -1,32 +1,32 @@
 ---
 title: '[!UICONTROL My Quote Templates]'
-description: Saiba mais sobre a experiência do cliente para modelos de cotação, que está disponível no painel de conta da loja.
+description: Saiba mais sobre a experiência do cliente para modelos de aspas, que está disponível na vitrine conta painel.
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
-source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
+source-git-commit: 15f85631741859280450ae1b477e2f3859c42773
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL My Quote Templates]
 
-Se as cotações estiverem habilitadas, a seção _[!UICONTROL My Quotes Template]_do painel da conta do cliente listará todos os modelos de cotações associados à conta do cliente. Dependendo das permissões, somente os compradores que fazem compras em nome de uma empresa podem solicitar um modelo de cotação e negociar preços e condições de cotação para pedidos recorrentes.
+Se as cotações estiverem ativadas, a _[!UICONTROL My Quotes Template]_seção do conta do cliente painel lista todos os modelos de cotação associados ao conta do cliente. Dependendo de suas permissões, apenas os compradores que fazem compras em nome de uma empresa podem solicitação uma cotação modelo e negociar preços de cotações e termos para pedidos recorrentes.
 
-![Meus Modelos de Cotação](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
+![Meus modelos de aspas](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
-A lista de modelos de cotação organiza os modelos por status.
+As aspas modelo lista organiza modelos por status.
 
-- **[!UICONTROL Active Quote Templates]** lista os modelos que foram negociados e aprovados para uso. As informações incluem cota mínima total e ordens feitas se essas opções tiverem sido configuradas durante o processo de negociação. Os compradores podem gerar uma cotação vinculada a partir do modelo para submeter uma ordem com base nas condições da cotação.
+- **[!UICONTROL Active Quote Templates]** lista os modelos que foram negociados e aprovados para uso. As informações incluem cota mínima total e ordens feitas se essas opções tiverem sido configuradas durante o processo de negociação. Os compradores podem gerar uma cota vinculada do modelo para enviar um solicitar com base em termos de cotações.
 
-- **[!UICONTROL In Review]** lista modelos no processo de negociação mostrando o status atual e fornecendo um link para abrir o modelo.
+- **[!UICONTROL In Review]** lista modelos no processo de negociação mostrando o status atual e fornecendo uma link para abrir o modelo.
 
-- **[!UICONTROL Inactive]** lista modelos que expiraram, foram cancelados ou não são mais válidos porque um comprador esgotou o número permitido de ordens confirmadas.
+- **[!UICONTROL Inactive]** lista modelos que expiraram, foram cancelados ou não são mais válidos porque uma comprador usou o número de ordens confirmadas permitidas.
 
-Para o comprador, a página *[!UICONTROL My Quotes Templates]* é o ponto focal para toda a comunicação entre comprador e vendedor durante o processo de negociação.
+Para o comprador, o *[!UICONTROL My Quotes Templates]* página é o ponto focal para toda a comunicação entre comprador e vendedor durante o processo de negociação.
 
-Um comprador que aceita as condições negociadas oferecidas pelo vendedor pode aceitar o modelo e, em seguida, usá-lo para gerar cotações vinculadas pré-aprovadas que podem ser usadas para fazer pedidos.
+Um comprador que aceita os termos negociados oferecidos pelo vendedor pode aceitar o modelo e depois usá-lo para gerar cotações vinculadas pré-aprovadas que podem ser usadas para fazer pedidos.
 
 - Ações relacionadas ao gerenciamento do modelo de cotação:
 
@@ -35,6 +35,7 @@ Um comprador que aceita as condições negociadas oferecidas pelo vendedor pode 
    - Aceitar o modelo de cotação
    - Alterar a data de expiração do modelo de cotação
    - Adicionar um endereço de entrega
+   - Gerenciar links de documentos de referência
 
 - Ações para atualizar detalhes do modelo de cota durante o processo de negociação:
 
@@ -43,6 +44,7 @@ Um comprador que aceita as condições negociadas oferecidas pelo vendedor pode 
    - Rastreie o processo de negociação das seções [!UICONTROL Comments] e [!UICONTROL History].
    - Para modelos que ainda estão sendo revisados, o comprador pode modificar o modelo de cota removendo itens.
    - Comunique-se e negocie com o vendedor adicionando notas no nível de item de linha e cotação.
+   - Adicionar, editar ou remover links de documentos de referência para contratos e contratos externos.
 
   Depois de fazer alterações, o comprador retorna o modelo ao vendedor para revisão.
 
@@ -82,15 +84,15 @@ O comprador não pode aceitar um modelo de cotação até que ele tenha um ender
 
 1. No painel esquerdo, escolhe **[!UICONTROL My Quote Templates]**.
 
-1. Seleciona o modelo de cotação desejado.
+1. Seleciona a aspa desejada modelo.
 
-1. Na seção **[!UICONTROL Shipping Information]**, clique em **[!UICONTROL Add New Address]**.
+1. **[!UICONTROL Shipping Information]** Na seção, clique em **[!UICONTROL Add New Address]**.
 
 1. Preenche detalhes do novo endereço.
 
 1. Cliques **[!UICONTROL Save Address]**.
 
-Depois que o comprador adiciona o endereço, ele envia o modelo de volta ao vendedor para revisão. O vendedor fornece as opções de envio e entrega. Essas atualizações podem afetar o preço da cotação negociada. As opções de envio são bloqueadas no check-out.
+Depois que a comprador adiciona o endereço, eles enviam a modelo de volta ao vendedor para revisão. O vendedor fornece as opções de envio e entrega. Essas atualizações podem afetar o preço da cotação negociada. As opções de envio são bloqueadas no check-out.
 
 ## Gerar uma cotação vinculada
 
@@ -106,11 +108,65 @@ Os compradores podem concluir as seguintes ações a partir de uma cota vinculad
 
 - Se a cota estiver configurada com limites de quantidade, ajuste a quantidade da ordem para os itens de linha.
 - Prossiga para o check-out para enviar um pedido.
-- Excluir ou imprimir a cotação.
-- Abrir o modelo de cotação usado para gerar a cotação.
+- Excluir ou imprima a aspa.
+- Abra as aspas modelo usadas para gerar a aspa.
 
-## Cancelar um modelo de cotação
+## Cancelar uma aspa modelo
 
-Na página de modelo de citação, clique em **[!UICONTROL Cancel Quote Template]**.
+Na aspas modelo página, clique **[!UICONTROL Cancel Quote Template]** em .
 
-O modelo de cotação é cancelado, e o status da cotação muda para `Closed`. A cotação fechada permanece na lista de *[!UICONTROL Inactive]* cotações e permanece na grade _[!UICONTROL Quote Templates]_do Administrador.
+O modelo da cotação é cancelado e o status das aspas muda para `Closed`. A cotação fechada permanece na lista de *[!UICONTROL Inactive]* cotações e permanece na grade _[!UICONTROL Quote Templates]_do Administrador.
+
+## Gerenciar links de documento de referência
+
+O recurso de links de referência documento permite que compradores e vendedores adicionem, editem e gerenciar links para documentos externos (como contratos, contratos ou especificações) durante o processo de modelo cotação.
+
+### Adicionar uma documento de referência link
+
+1. Abra a modelo de cotação.
+
+1. **[!UICONTROL Reference Documents]** Na seção, clique **[!UICONTROL Add]** em .
+
+1. Na caixa de diálogo Informações do documento:
+   - Insira um **[!UICONTROL Document Name]** (obrigatório)
+   - Insira um **[!UICONTROL Document Identifier]** (opcional)
+   - Insira um **[!UICONTROL Reference Document URL]** (obrigatório)
+
+1. Clique em **[!UICONTROL Add to Quote Template]**.
+
+   O link do documento de referência é adicionado ao modelo de orçamento com o seguinte formato:
+   `Document Name, Document Identifier https://document-url`
+
+### Editar um link de documento de referência
+
+1. Abra o modelo de cotação.
+
+1. Na seção **[!UICONTROL Reference Documents]**, clique em **[!UICONTROL Edit]** ao lado do link de documento que você deseja modificar.
+
+1. Atualize as informações do documento na caixa de diálogo:
+   - Nome do documento
+   - Identificador do documento
+   - URL do documento de referência
+
+1. Clique em **[!UICONTROL Add to Quote Template]**.
+
+### Remover um link de documento de referência
+
+1. Abra o modelo de cotação.
+
+1. Na seção **[!UICONTROL Reference Documents]**, clique em **[!UICONTROL Remove]** ao lado do link do documento que deseja excluir.
+
+### Exibir um documento de referência
+
+1. Abra o modelo de cotação.
+
+1. Na seção **[!UICONTROL Reference Documents]**, clique no link do nome do documento.
+
+   O documento é aberto em uma nova janela do navegador.
+
+### Restrições de link do documento de referência
+
+- Os links de documentos de referência só podem ser adicionados, editados ou removidos quando o modelo de cotação está em um estado editável.
+- Depois que o modelo de cotação é enviado para revisão ou aceito, os links do documento de referência se tornam somente leitura.
+- O campo Nome do documento é necessário ao adicionar ou editar um link de documento de referência.
+- Os links de documento de referência permanecem acessíveis mesmo após o modelo de cotação ser aceito ou concluído.

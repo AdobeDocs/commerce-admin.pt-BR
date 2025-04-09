@@ -1,9 +1,9 @@
 ---
 title: Trechos
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
+source-git-commit: e82b979ee2c5f51caba6a2aa416c5f20dbce110a
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -82,3 +82,9 @@ Para acessar as definições de configuração de armazenamento, escolha **[!UIC
 | [Documentação do desenvolvedor do Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentação focada no desenvolvedor usada para personalizar o Adobe Commerce e integrar-se com sistemas de terceiros. |
 
 {style="table-layout:auto"}
+
+## Compatibilidade B2B {#b2b-compatibility}
+
+>[!IMPORTANT]
+>
+>O Adobe Commerce B2B versão 1.4.2+ é compatível com o PHP 8.2. Se você atualizar a instância do Commerce para a versão 2.4.7+, certifique-se de que a instância usa o PHP versão 8.2 para manter a compatibilidade com a versão B2B do Adobe Commerce. Além disso, a versão B2B 1.4.2+ não oferece suporte ao [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).

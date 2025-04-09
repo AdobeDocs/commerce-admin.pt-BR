@@ -1,12 +1,12 @@
 ---
 title: Chave de criptografia
-description: Saiba como gerar automaticamente ou adicionar sua própria chave de criptografia, que deve ser alterada regularmente para melhorar a segurança.
+description: Saiba como alterar sua própria chave de criptografia, o que deve ser feito regularmente para melhorar a segurança.
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 48f3431faa5db50f896b7a8e3db59421c639185b
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,16 @@ ht-degree: 0%
 >
 >Se você tentou concluir essas etapas e está com problemas, consulte o artigo da Base de Dados de Conhecimento [Solução de Problemas de Rotação de Chaves de Criptografia: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102).
 
-O Adobe Commerce e o Magento Open Source usam uma chave de criptografia para proteger senhas e outros dados confidenciais. Um algoritmo [!DNL ChaCha20-Poly1305] padrão do setor é usado com uma chave de 256 bits para criptografar todos os dados que exigem criptografia. Isso inclui dados de cartão de crédito e senhas de integração (módulo de pagamento e envio). Além disso, um algoritmo de hash seguro forte (SHA-256) é usado para executar o hash de todos os dados que não exigem descriptografia.
+A Adobe Commerce e a Magento Open Source usam uma chave de criptografia para proteger senhas e outros dados confidenciais. Um algoritmo [!DNL ChaCha20-Poly1305] padrão do setor é usado com uma chave de 256 bits para criptografar todos os dados que exigem criptografia. Isso inclui dados de cartão de crédito e senhas de integração (módulo de pagamento e envio). Além disso, um algoritmo de hash seguro forte (SHA-256) é usado para executar o hash de todos os dados que não exigem descriptografia.
 
 Durante a instalação inicial, você será solicitado a permitir que o Commerce gere uma chave de criptografia ou a inserir uma de sua preferência. A ferramenta encryption key permite alterar a chave conforme necessário. A chave de criptografia deve ser alterada regularmente para melhorar a segurança e, a qualquer momento, a chave original pode ser comprometida.
 
-Para obter informações técnicas, consulte [Instalação avançada local](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) no _Guia de Instalação_.
+Para obter informações técnicas, consulte [Instalação avançada local](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) no _Guia de Instalação_ e [Nova criptografia de dados](https://developer.adobe.com/commerce/php/development/security/data-encryption/) no _Guia do Desenvolvedor do PHP_.
 
 >[!IMPORTANT]
 >
->Antes de seguir estas instruções para alterar a chave de criptografia, verifique se o seguinte arquivo é gravável: `[your store]/app/etc/env.php`
+>- Antes de seguir estas instruções para alterar a chave de criptografia, verifique se o seguinte arquivo é gravável: `[your store]/app/etc/env.php`
+>- O recurso de alteração da chave de criptografia nas configurações de Administrador está obsoleto e foi removido na versão 2.4.8. Você deve usar o comando da CLI descrito nesta página para alterar a chave de criptografia após o upgrade para a versão 2.4.8.
 
 **Para alterar uma chave de criptografia:**
 
@@ -51,20 +52,40 @@ As instruções a seguir exigem acesso a um terminal.
    crontab -e
    ```
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
+1. Altere a chave de criptografia usando um dos métodos a seguir.
 
-   ![Chave de criptografia do sistema](./assets/encryption-key.png){width="700" zoomable="yes"}
+   +++comando CLI
 
-1. Siga um destes procedimentos:
+   Execute o seguinte comando da CLI e verifique se ele foi concluído sem erros. Se você precisar criptografar novamente determinados valores de configuração do sistema ou campos de pagamento, consulte o [guia detalhado sobre criptografia](https://developer.adobe.com/commerce/php/development/security/data-encryption/) no _Guia de Desenvolvimento do PHP_.
 
-   - Para gerar uma nova chave, defina **[!UICONTROL Auto-generate Key]** como `Yes`.
-   - Para usar uma chave diferente, defina **[!UICONTROL Auto-generate Key]** como `No`. Em seguida, no campo **[!UICONTROL New Key]**, insira ou cole a chave que deseja usar.
+   ```bash
+   bin/magento encryption:key:change
+   ```
 
-1. Clique em **[!UICONTROL Change Encryption Key]**.
++++
 
-   >[!NOTE]
+   +++Configurações do administrador
+
+   >[!IMPORTANT]
    >
-   >Mantenha um registro da nova chave em um local seguro. É necessário descriptografar os dados, se ocorrer algum problema com seus arquivos.
+   >Este recurso foi descontinuado e removido na versão 2.4.8. A Adobe recomenda alterar as chaves de criptografia com a CLI.
+
+   1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
+
+      ![Chave de criptografia do sistema](./assets/encryption-key.png){width="700" zoomable="yes"}
+
+   1. Siga um destes procedimentos:
+
+      - Para gerar uma nova chave, defina **[!UICONTROL Auto-generate Key]** como `Yes`.
+      - Para usar uma chave diferente, defina **[!UICONTROL Auto-generate Key]** como `No`. Em seguida, no campo **[!UICONTROL New Key]**, insira ou cole a chave que deseja usar.
+
+   1. Clique em **[!UICONTROL Change Encryption Key]**.
+
+      >[!NOTE]
+      >
+      >Mantenha um registro da nova chave em um local seguro. É necessário descriptografar os dados, se ocorrer algum problema com seus arquivos.
+
++++
 
 1. Limpe o cache.
 

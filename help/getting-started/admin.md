@@ -2,12 +2,13 @@
 title: O que é o administrador?
 description: Saiba mais sobre o [!DNL Commerce] Administrador, o local onde os comerciantes configuram produtos e promoções, gerenciam pedidos e executam outras tarefas administrativas.
 exl-id: 065cf14f-80e7-4695-8922-c761a2191d72
-source-git-commit: b657db7e486fec591d5a6239d554376f00707e8c
+source-git-commit: a6b293dca673808bbc7f37cb468c6e316fddb735
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
 
 ---
+
 
 # O que é o administrador?
 
@@ -25,7 +26,7 @@ Além da conta de usuário Admin padrão, sua empresa pode criar quantas [contas
 
 ## Coleta de dados de uso
 
-Na primeira vez que você fizer logon no _Administrador_, será solicitado a conceder permissão de Adobe para coletar dados de uso para todos os usuários Administradores. Ao permitir a coleta de dados de uso pelo administrador, você ajuda o Adobe a melhorar a experiência de uso do administrador do Adobe Commerce e de produtos e serviços relacionados.
+Na primeira vez que você fizer logon no _Administrador_, será solicitado a conceder permissão Adobe para coletar dados de uso para todos os usuários Administradores. Ao permitir a coleta de dados de uso pelo administrador, você ajuda a Adobe a melhorar a experiência de uso do administrador do Adobe Commerce e de produtos e serviços relacionados.
 
 ![Permitir coleta de dados de uso administrativo](./assets/admin-usage-data.png){width="600"}
 

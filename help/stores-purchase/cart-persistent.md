@@ -3,9 +3,9 @@ title: Persistência do carrinho
 description: Saiba como um carrinho de compras persistente rastreia itens de carrinho não comprados e salva as informações da próxima visita do cliente.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
+source-git-commit: a6cfcbb5774c0bafc3b7e7c96881329bde837837
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Se esse mesmo cliente visitar sua loja usando vários navegadores enquanto estiv
 
 ### Comportamento da caixa de seleção &quot;Lembrar-se de mim&quot;
 
-Os clientes podem marcar a caixa de seleção _[!UICONTROL Remember Me]_na página de logon ou ao criar uma nova conta para manter o conteúdo do carrinho de compras acessível no dispositivo atual quando a sessão conectada expirar.
+Os clientes podem marcar a caixa de seleção _[!UICONTROL Remember Me]_na página de logon, pop-up de autenticação, check-out de entradas ou ao criar uma nova conta para manter o conteúdo do carrinho de compras acessível no dispositivo atual quando a sessão conectada expirar.
 
 | Lembra de Mim? | Resultado |
 | ------------ |  ------ |
@@ -56,6 +56,10 @@ Os clientes podem marcar a caixa de seleção _[!UICONTROL Remember Me]_na pági
 | Não selecionado | Não cria um cookie persistente e não mantém o conteúdo do carrinho de compras acessível no dispositivo atual quando a sessão de logon expira. Observe que o conteúdo do carrinho de compras ainda é salvo na conta do cliente e recarregado na próxima vez que o cliente fizer logon. |
 
 {style="table-layout:auto"}
+
+![Logon de cliente do Lembre-se de Mim](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
+![Pop-up de Autenticação Lembrar-me](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![Lembrar minhas entradas no Check-out](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### Limpar Persistência no Comportamento de Saída
 

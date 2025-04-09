@@ -3,7 +3,7 @@ title: Fluxo de trabalho e processamento da ordem
 description: Saiba mais sobre o fluxo de trabalho do pedido, o status que se aplica a cada etapa e como mover pedidos por meio desse processo.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
@@ -205,7 +205,7 @@ Na seção **[!UICONTROL Order Total]**, faça o seguinte:
 | Campo | Descrição |
 |--- |--- |
 | [!UICONTROL Status] | Exibe o status da ordem de venda. |
-| [!UICONTROL Comment] | Uma caixa de texto que é usada para inserir um comentário ao cliente que acompanha o pedido. <br/>**[!UICONTROL Notify Customer by Email]**- Marque a caixa de seleção se desejar enviar o comentário ao cliente como um email separado.<br/>**[!UICONTROL Visible on Storefront]** - Marque a caixa de seleção se desejar que o comentário fique visível na conta do cliente. <br/>**[!UICONTROL Submit Comment]**- Envia o comentário e o envia por email, se aplicável. |
+| [!UICONTROL Comment] | Uma caixa de texto que é usada para inserir um comentário ao cliente que acompanha o pedido. <br/>**[!UICONTROL Notify Customer by Email]**- Marque a caixa de seleção se desejar enviar o comentário ao cliente como um email separado.<br/>**[!UICONTROL Visible on Storefront]** - Marque a caixa de seleção se desejar que o comentário fique visível na conta do cliente. <br/>**[!UICONTROL Update]**- Adiciona o comentário e envia um email, se aplicável. |
 
 {style="table-layout:auto"}
 

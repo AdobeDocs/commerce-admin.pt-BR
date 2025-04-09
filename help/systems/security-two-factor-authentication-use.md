@@ -4,9 +4,9 @@ description: Saiba como configurar a autenticação de dois fatores durante o lo
 exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 role: Admin, User
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: dc6e5fc7c0996af30bae6374cd7c9879902b9235
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Para obter instruções completas, consulte [Logon de administrador](../getting-
 
 >[!NOTE]
 >
->Os armazenamentos que habilitaram a autenticação [!DNL Adobe Identity Management Services] (IMS) têm o Adobe Commerce nativo e o Magento Open Source 2FA desabilitado. Os usuários administradores que estão conectados à instância do Commerce com suas credenciais de Adobe não precisam se autenticar novamente para muitas tarefas de administrador. A autenticação é tratada pelo Adobe IMS quando o usuário administrador faz logon em sua sessão atual. Consulte [[!DNL Adobe Identity Management Service] (IMS) Visão geral da integração](../getting-started/adobe-ims-integration-overview.md).
+>Os armazenamentos que habilitaram a autenticação [!DNL Adobe Identity Management Services] (IMS) têm o Adobe Commerce nativo e o Magento Open Source 2FA desabilitados. Os usuários administradores que estão conectados à instância do Commerce com suas credenciais do Adobe não precisam se autenticar novamente para muitas tarefas administrativas. A autenticação é tratada pelo Adobe IMS quando o usuário administrador faz logon em sua sessão atual. Consulte [[!DNL Adobe Identity Management Service] (IMS) Visão geral da integração](../getting-started/adobe-ims-integration-overview.md).
 
 ## [!DNL Google Authenticator]
 
@@ -59,27 +59,23 @@ O [!DNL Duo] oferece uma avaliação gratuita e cobra de acordo com o número de
 
 1. Insira suas credenciais de conta e entre no _Administrador_.
 
-1. Quando a página Instalação do [!DNL Duo] for exibida, clique em **[!UICONTROL Start setup]** e faça o seguinte:
+1. Quando a página Instalação do [!DNL Duo] for exibida, clique em **[!UICONTROL Get Started]** e faça o seguinte:
 
-   ![Exemplo de vitrine - Configuração do Duo](./assets/storefront-2fa-duo-user1.png){width="300"}
+   ![Exemplo de vitrine - Configuração do Duo](./assets/storefront-2fa-duo-setup-options.png){width="300"}
 
-1. Selecione seu dispositivo.
+1. Selecione sua opção. Você pode escolher Touch ID, Duo Mobile, Security Key ou Phone Number. Este exemplo mostra a opção Duo Mobile or Phone Number.
 
 1. Quando solicitado, digite seu número de telefone e clique em **[!UICONTROL Continue]**.
 
-   Este exemplo solicita seu número de telefone, pois estamos usando um dispositivo móvel.
+   Confirme a propriedade enviando e verificando a senha no número de telefone.
 
 1. Quando for solicitado instalar o [!DNL Duo Mobile] para o seu tipo de telefone, clique em **[!UICONTROL I have Duo Mobile]**.
 
 1. Abra [!DNL Duo Mobile] e verifique o código QR para sincronizar o autenticador com o Adobe Commerce. Uma marca de seleção é exibida quando a ativação é concluída.
 
-1. Para definir as configurações do dispositivo, escolha a ação que deseja realizar ao entrar.
+1. Você pode adicionar mais dispositivos (se necessário) ou ignorar. A configuração foi concluída e você pode fazer logon com o Duo.
 
-   - `Ask me to choose an authenticator method` — Permite que o usuário selecione ao fazer logon e autenticar no _Administrador_.
-   - `Automatically send this device a Duo Push` — Envia uma mensagem para seu dispositivo para aceitar ou negar acesso.
-   - `Automatically call this device` — Chama e fornece uma senha para entrar para acesso.
-
-   ![Ações de verificação de duplicidade](./assets/storefront-2fa-duo-user7.png){width="300"}
+   ![Ações de verificação de duplicidade](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
 
 ### Etapa 2: entrar com [!DNL Duo Security]
 
@@ -89,13 +85,11 @@ O exemplo a seguir mostra as opções para `Ask me to choose an authenticator me
 
    ![Duo - Entrando](./assets/storefront-2fa-duo-auth.png){width="300"}
 
-1. Escolha o método que deseja usar para autenticar:
+1. Escolha &quot;Fazer logon com Duo&quot; para receber uma notificação por push no aplicativo Duo para dispositivos móveis, &quot;Fazer logon com Touch ID&quot; ou &quot;Prosseguir com outra opção configurada durante a configuração&quot;.
 
-   - `Send Me a Push` — Clique para receber um aviso de push para [!DNL Duo Mobile]. Aceitar para autenticar.
-   - `Call Me` — Clique nesta opção, receba uma chamada com um código e insira a senha.
-   - `Enter a Passcode` — Clique nesta opção para receber e inserir uma senha.
+1. Aprove a solicitação do aplicativo Duo/Touch ID/Mensagem de texto e você será conectado com sucesso.
 
-1. Conclua o push ou o código para entrar totalmente no _Admin_.
+   ![Duo - Entrando](./assets/storefront-2fa-duo-success.png){width="300"}
 
 ## [!DNL Authy]
 

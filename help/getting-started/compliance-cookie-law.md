@@ -3,7 +3,7 @@ title: Conformidade com a lei de cookies
 description: Para acompanhar a legislação de muitos países em relação ao uso de cookies, o Adobe Commerce e o Magento Open Source oferecem aos comerciantes uma variedade de métodos para obter o consentimento do cliente.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: abdd70f63ce9ce49ea7e6552951c644480f6024f
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Ser usado como parte da implementação da funcionalidade de guias somente em um
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir estão definidos para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg`: Definido pelo rastreador Snowplow JavaScript. Mais informações podem ser encontradas na [documentação do Snowplow](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options).
+- `mg`: Definido pelo rastreador Snowplow JavaScript. Mais informações podem ser encontradas na [documentação do Snowplow](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Dado o nome de host da página da Web atual, este é o domínio mais alto que não é um &quot;sufixo público&quot;, conforme descrito em https://publicsuffix.org. Essencialmente, esse é o domínio mais alto que pode aceitar cookies. Este cookie faz parte do [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage

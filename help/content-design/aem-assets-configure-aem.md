@@ -3,9 +3,9 @@ title: Instalar pacote do AEM Assets para o Commerce
 description: Adicione os metadados de ativos necessários para habilitar a Integração do AEM Assets para o Commerce a fim de sincronizar ativos entre projetos do Adobe Commerce e do Experience Manager Assets.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
+source-git-commit: d7125774dbf6fb2796ccabc6df8e574455e1e968
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ O modelo adiciona os seguintes recursos ao ambiente de criação do AEM Assets.
 
 - Um tipo de metadados personalizado `commerce:productmetadata` e um componente correspondente da interface do usuário para adicionar uma propriedade *[!UICONTROL Product Data]*. Os Dados do produto incluem as propriedades de metadados para associar um ativo do Commerce às SKUs do produto e para especificar os atributos da imagem `role` e `position` para o ativo.
 
-  ![Controle de IU de Dados de Produto Personalizado](./assets/aem-commerce-sku-metadata-fields-from-template.png)
+  ![Controle de IU de Dados de Produto Personalizado](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- Um formulário de esquema de metadados com uma guia Commerce que inclui os campos `Does it exist in Adobe Commerce?` e `Product Data` para marcar ativos do Commerce. O formulário também fornece opções para mostrar ou ocultar os campos `roles` e `order` (posição) da interface do usuário do AEM Assets.
+- Um formulário de esquema de metadados com uma guia Commerce que inclui os campos `Eligible for Commerce?` e `Product Data` para marcar ativos do Commerce. O formulário também fornece opções para mostrar ou ocultar os campos `roles` e `order` (posição) da interface do usuário do AEM Assets.
 
-  ![Guia Commerce para o formulário de esquema de metadados do AEM Assets](./assets/assets-configure-metadata-schema-form-editor.png)
+  ![Guia Commerce para o formulário de esquema de metadados do AEM Assets](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
 - Um [ativo de Commerce marcado e aprovado](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg` de amostra para oferecer suporte à sincronização de ativos inicial. Somente ativos aprovados do Commerce podem ser sincronizados do AEM Assets para o Adobe Commerce.
 
@@ -59,21 +59,30 @@ Você precisa dos seguintes recursos e permissões para usar este projeto do AEM
 
 No ambiente de criação do AEM Assets, defina valores padrão para os metadados de ativos do Commerce criando um perfil de metadados. Em seguida, aplique o novo perfil às pastas do AEM Asset para usar automaticamente esses padrões. Essa configuração simplifica o processamento de ativos, reduzindo as etapas manuais.
 
+Ao configurar o perfil de metadados, é necessário configurar apenas os seguintes componentes:
+
+- Adicione uma guia Commerce. Essa guia ativa as configurações específicas do Commerce adicionadas pelo modelo
+- Adicione o campo `Eligible for Commerce` à guia Commerce.
+
+O componente da interface de dados do produto é adicionado automaticamente com base no modelo.
+
+### Configurar o perfil de metadados
+
 1. Faça logon no ambiente de criação do Adobe Experience Manager.
 
 1. No espaço de trabalho do Adobe Experience Manager, acesse o espaço de trabalho Administração de conteúdo do autor para o AEM Assets clicando no ícone Adobe Experience Manager.
 
-   ![criação no AEM Assets](./assets/aem-assets-authoring.png)
+   ![criação no AEM Assets](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
 
 1. Abra as Ferramentas do administrador selecionando o ícone de martelo.
 
-   ![Administrador do AEM Author Admin para gerenciar perfis de metadados](./assets/aem-manage-metadata-profiles.png)
+   ![Administrador do AEM Author Admin para gerenciar perfis de metadados](./assets/aem-manage-metadata-profiles.png){width="600" zoomable="yes"}
 
 1. Abra a página de configuração do perfil clicando em **[!UICONTROL Metadata Profiles]**.
 
 1. **[!UICONTROL Create]** um perfil de metadados para a integração com o Commerce.
 
-   ![Administrador do AEM Author Admin adicionou perfis de metadados ](./assets/aem-create-metadata-profile.png)
+   ![Administrador do AEM Author Admin adicionou perfis de metadados ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Adicione uma guia para metadados do Commerce.
 
@@ -81,27 +90,41 @@ No ambiente de criação do AEM Assets, defina valores padrão para os metadados
 
    1. Clique em **[!UICONTROL +]** na seção da guia e especifique o **[!UICONTROL Tab Name]**, `Commerce`.
 
-1. Adicione o campo `Does it exist in Commerce?` ao formulário e defina o valor padrão como `yes`.
+1. Adicione o campo `Eligible for Commerce` ao formulário.
 
-   ![Administrador do AEM Author adiciona campos de metadados ao perfil](./assets/aem-edit-metadata-profile-fields.png)
+   ![Administrador do AEM Author adiciona campos de metadados ao perfil](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
+
+   - Clique em **[!UICONTROL Build form]**.
+
+   - Arraste o campo `Single Line text` para o formulário.
+
+   - Adicione o texto `Eligible for Commerce` para o rótulo clicando em **[!UICONTROL Field Label]**.
+
+   - Na guia Configurações, adicione o texto do rótulo a **Rótulo do Campo**.
+
+   - Defina o texto do espaço reservado como `yes`.
+
+   - No campo **[!UICONTROL Map to Property]**, copie e cole o seguinte valor
+
+     ```terminal
+     ./jcr:content/metadata/commerce:isCommerce
+     ```
+
+1. Opcional. Para sincronizar automaticamente ativos aprovados do Commerce à medida que forem carregados no ambiente AEM Assets, defina o valor padrão do campo _[!UICONTROL Review Status]_na guia `Basic` como `approved`.
 
 1. Salve a atualização.
 
-1. Aplique o perfil de metadados `Commerce integration` à pasta em que os ativos do Commerce estão armazenados.
+#### Aplicar o perfil de metadados à pasta de origem dos ativos do Commerce
 
-   1. Na página [!UICONTROL  Metadata Profiles], selecione o perfil de integração do Commerce.
+1. Na página [!UICONTROL  Metadata Profiles], selecione o perfil de integração do Commerce.
 
-   1. No menu de ações, selecione **[!UICONTROL Apply Metadata Profiles to Folders]**.
+1. No menu de ações, selecione **[!UICONTROL Apply Metadata Profiles to Folders]**.
 
-   1. Selecione a pasta que contém os ativos do Commerce.
+1. Selecione a pasta que contém os ativos do Commerce.
 
-      Crie uma pasta do Commerce se ela não existir.
+   Crie uma pasta do Commerce se ela não existir.
 
-   1. Clique em **[!UICONTROL Apply]**.
-
->[!TIP]
->
->Você pode sincronizar automaticamente os ativos do Commerce à medida que forem carregados para o ambiente do AEM Assets, atualizando o perfil de metadados para definir o valor padrão do campo _[!UICONTROL Review Status]_como `Approved`. O tipo de propriedade para o campo `Review Status` é `./jcr:content/metadata/dam:status`.
+1. Clique em **[!UICONTROL Apply]**.
 
 ## Próxima etapa
 

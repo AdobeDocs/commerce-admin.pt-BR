@@ -4,9 +4,10 @@ description: Saiba como instalar o  [!DNL Adobe Commerce B2B] metapackage.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -61,7 +62,7 @@ Instale a extensão B2B (`magento/b2b-extension`) usando o Composer. A extensão
 >
 >Ao instalar o Adobe Commerce B2B na infraestrutura em nuvem, a Adobe recomenda que você implante seu aplicativo do Adobe Commerce em uma integração ou ambiente de preparo antes de começar.
 
-A Adobe recomenda trabalhar em uma ramificação de desenvolvimento ao adicionar a extensão B2B ao seu projeto. Se você não tiver uma ramificação, consulte [Criar uma ramificação para desenvolvimento](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches). Ao instalar a extensão B2B, o nome da extensão `Magento_B2b` é inserido automaticamente no arquivo `app/etc/config.php`. Não há necessidade de editar o arquivo diretamente.
+A Adobe recomenda trabalhar em uma ramificação de desenvolvimento ao adicionar a extensão B2B ao projeto. Se você não tiver uma ramificação, consulte [Criar uma ramificação para desenvolvimento](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches). Ao instalar a extensão B2B, o nome da extensão `Magento_B2b` é inserido automaticamente no arquivo `app/etc/config.php`. Não há necessidade de editar o arquivo diretamente.
 
 **Para instalar a extensão B2B**:
 
@@ -185,7 +186,7 @@ A extensão B2B do Adobe Commerce usa MySQL para gerenciamento de fila de mensag
 
 Evite possíveis problemas de processamento ou atrasos adicionando os seguintes parâmetros quando você [iniciar os consumidores de mensagens](#start-message-consumers) para recursos B2B.
 
-- `--max-messages <value>`— Especifica o número máximo de mensagens que cada consumidor deve processar antes de terminar (padrão = 10000). Embora o Adobe não o recomende, você pode usar 0 para impedir que o consumidor termine. A prática recomendada para um aplicativo PHP é reiniciar processos de longa execução para evitar possíveis vazamentos de memória.
+- `--max-messages <value>`— Especifica o número máximo de mensagens que cada consumidor deve processar antes de terminar (padrão = 10000). Embora a Adobe não o recomende, você pode usar 0 para impedir que o consumidor encerre. A prática recomendada para um aplicativo PHP é reiniciar processos de longa execução para evitar possíveis vazamentos de memória.
 
 - `--batch-size <value>`— Permite limitar os recursos do sistema consumidos pelos consumidores (CPU, memória). Usar lotes menores reduz o uso de recursos e, portanto, resulta em um processamento mais lento.  Se especificado, as mensagens em uma fila serão consumidas em lotes de `<value>` cada. Essa opção é aplicável somente para o consumidor do lote. Se `--batch-size` não estiver definido, o consumidor do lote receberá todas as mensagens disponíveis em uma fila.
 

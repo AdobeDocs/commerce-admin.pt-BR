@@ -6,9 +6,9 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 19594a9dd1a8eb0b18bb372d049428e68c1328a6
+source-git-commit: a893a33a14d33106bb9291ceeff96dc155bb017a
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Este guia destina-se aos administradores que trabalham no Adobe Commerce Admin. 
 Há duas áreas para administradores de armazenamento:
 
 - O Admin: use essa área para acessar a interface do usuário e os relatórios de configuração.
-- A interface de linha de comando: use essa ferramenta para executar tarefas de instalação e configuração de backend.
+- A interface de linha de comando: use essa ferramenta para executar tarefas de instalação e configuração de backend. [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Este guia abrange:
 
@@ -28,11 +28,11 @@ Este guia abrange:
 | ------- | ----------- |
 | [Introdução](introduction.md) | Quais recursos estão disponíveis com o [!DNL Adobe Commerce B2B]? |
 | [Notas de versão](release-notes.md) | Revise as atualizações fornecidas em cada versão do [!DNL Adobe Commerce B2B]. |
-| [Instalar](install.md) | Instale a extensão [!DNL Adobe Commerce B2B]. |
+| [Instalar](install.md) | Instale a extensão [!DNL Adobe Commerce B2B]. [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} |
 | [Habilitar Recursos Básicos B2B](enable-basic-features.md) | Depois de instalar o [!DNL Adobe Commerce B2B], você deve habilitar os recursos que deseja ativar para sua loja. |
 | [Contas da empresa](account-companies.md) | Saiba mais sobre as contas da empresa e como elas fornecem o elemento principal para fornecer suporte a compradores B2B em sua loja. |
 | [Gerenciamento da Empresa](manage-companies.md) | Saiba como os administradores de site do Commerce B2B podem criar hierarquias de empresa para simplificar o gerenciamento de várias empresas que pertencem à mesma empresa. |
-| [Catálogos compartilhados](catalog-shared.md) | Saiba mais sobre como usar catálogos compartilhados para manter catálogos fechados com preços personalizados para diferentes empresas. |
+| [Catálogos compartilhados](catalog-shared.md) | Saiba mais sobre como usar catálogos compartilhados para manter catálogos fechados com preços personalizados para diferentes empresas. [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} |
 | [Pedidos rápidos](quick-order.md) | Saiba mais sobre a funcionalidade de pedidos rápidos e como habilitá-la para seus clientes. |
 | [Ordens de Compra](purchase-order-flow.md) | Saiba mais sobre os fluxos de trabalho de ordem de compra que permitem que as empresas rastreiem e controlem seus gastos. |
 | [Cotas](quotes.md) | Saiba mais sobre os fluxos de trabalho de cotação e como você pode fornecer esse serviço para as contas da sua empresa. |

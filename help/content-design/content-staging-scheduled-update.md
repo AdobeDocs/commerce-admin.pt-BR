@@ -3,9 +3,10 @@ title: Programar uma atualização de conteúdo
 description: Revise este exemplo de campanha usado para agendar uma alteração de preço temporária para um produto.
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
-source-git-commit: b3897ba034770229ef8f3117231bed286abdddb9
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-O exemplo a seguir mostra como programar uma alteração de preço temporária para um produto. Inclui agendamento e visualização de alterações e visualização de atualizações agendadas no calendário. Embora este exemplo inclua apenas uma única alteração, uma campanha pode incluir várias alterações em produtos, regras de preço, páginas CMS e outras entidades programadas para ocorrer ao mesmo tempo. Siga um método semelhante para especificar as datas de/para do atributo [!UICONTROL Set Product As New].
+O exemplo a seguir mostra como programar uma alteração de preço temporária para um produto. Inclui agendamento e visualização de alterações e visualização de atualizações agendadas no calendário. Embora este exemplo inclua apenas uma única alteração, uma campanha pode incluir várias alterações em produtos, regras de preço, páginas do CMS e outras entidades programadas para ocorrer ao mesmo tempo. Siga um método semelhante para especificar as datas de/para do atributo [!UICONTROL Set Product As New].
 
 >[!NOTE]
 >Você deve criar uma atualização agendada para especificar uma data de Início (e de Término) para [!UICONTROL Set Product As New]. Para [!UICONTROL Special Price] e [!UICONTROL Design Change], os campos de data de/para são removidos do Adobe Commerce e estão disponíveis somente no Magento Open Source.

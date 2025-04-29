@@ -3,9 +3,10 @@ title: Adicionar um item a uma campanha
 description: Revise este exemplo de campanha usado para adicionar uma imagem promocional à página da categoria durante a campanha.
 exl-id: cd46b657-2586-46dd-beab-42f42d3476b6
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-O exemplo a seguir adiciona uma imagem promocional à página de categoria durante a campanha. Você também pode fazer o mesmo para uma página de produto ou página CMS.
+O exemplo a seguir adiciona uma imagem promocional à página de categoria durante a campanha. Você também pode fazer o mesmo para uma página de produto ou página do CMS.
 
 ## Adicionar o item de campanha de uma categoria
 

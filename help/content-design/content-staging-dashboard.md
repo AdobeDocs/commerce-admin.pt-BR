@@ -3,9 +3,10 @@ title: Painel de preparo de conteúdo
 description: Use o painel de preparo de conteúdo para acessar uma visão geral de todas as campanhas ativas e futuras.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---

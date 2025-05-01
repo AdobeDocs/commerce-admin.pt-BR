@@ -3,9 +3,10 @@ title: O URL da página de conteúdo reescreve
 description: Saiba como usar substituições de URL de página de conteúdo para redirecionar links para o URL de outra página de conteúdo na loja do Commerce.
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -48,7 +49,7 @@ Redirecionar de: `old-page`
 
 1. Encontre sua nova página de destino na grade e abra no modo de edição.
 
-   ![Adicionar regravação de URL - para página CMS](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
+   ![Adicionar regravação de URL - para página do CMS](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
 
 1. Em Informações de regravação de URL, faça o seguinte:
 

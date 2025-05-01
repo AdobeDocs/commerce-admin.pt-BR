@@ -3,9 +3,10 @@ title: O URL da categoria substitui
 description: Saiba como usar substituições de URL de categoria para redirecionar links para o URL de outra categoria na loja da Commerce.
 exl-id: fc18f472-4aa8-4203-ade9-7ca576689d61
 feature: Categories, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---

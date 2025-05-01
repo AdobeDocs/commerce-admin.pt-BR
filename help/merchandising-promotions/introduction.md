@@ -2,9 +2,9 @@
 title: Introdução a merchandising e promoções do Commerce
 description: Conheça as ferramentas do Commerce para criar promoções e oportunidades direcionadas ao engajamento de clientes.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Direcione promoções e crie oportunidades para o envolvimento do cliente e tran
 
 _Merchandising_ é um termo usado no varejo para descrever a arte e a ciência do desenvolvimento de plantas baixas e a apresentação de produtos. Você pode pensar na [navegação baseada em categoria](../catalog/navigation-top.md) como a planta baixa da loja, e na apresentação dinâmica de produtos como as condições que você pode aplicar à listagem de produtos na loja. Além disso, você pode implementar programas que impulsionam mais vendas de produtos:
 
-- [Visual Merchandiser](visual-merchandiser.md) - Um conjunto de ferramentas avançadas que permite posicionar produtos e aplicar condições que determinam quais produtos aparecem na lista de categorias.
+- [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} [Visual Merchandiser](visual-merchandiser.md) - Um conjunto de ferramentas avançadas que permite posicionar produtos e aplicar condições que determinam quais produtos aparecem na lista de categorias.
 
 - [Registros de presentes](gift-registries.md) - Dê aos seus clientes a capacidade de criar registros de presentes para ocasiões especiais e de convidar seus amigos e familiares para comprar seus presentes no registro de presentes.
 
@@ -27,7 +27,7 @@ _Merchandising_ é um termo usado no varejo para descrever a arte e a ciência d
 
 >[!TIP]
 >
->Para saber mais sobre as Recomendações de Produtos e como elas podem fornecer a você o insight e o controle necessários para criar a melhor experiência para seus compradores, consulte o [Guia do Usuário das Recomendações de Produtos](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
+>Para saber mais sobre as Recomendações de Produtos e como elas podem fornecer a você o controle e a insight necessários para criar a melhor experiência para seus compradores, consulte o [Guia do Usuário das Recomendações de Produtos](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promoções
 

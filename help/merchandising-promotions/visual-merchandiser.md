@@ -3,9 +3,10 @@ title: Visão geral do Visual Merchandiser
 description: Saiba mais sobre as ferramentas do Visual Merchandiser que permitem posicionar produtos e determinar quais produtos aparecem na lista de categorias.
 exl-id: 00fe8b7f-0c33-4f06-a3cd-1f0bd18079f1
 feature: Categories, Merchandising, Products
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---

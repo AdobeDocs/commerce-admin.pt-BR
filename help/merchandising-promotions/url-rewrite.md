@@ -1,11 +1,12 @@
 ---
 title: Substituições de URL
-description: Saiba mais sobre substituições de URL e como usar a ferramenta de regravação de URL do Commerce para alterar URLs associados a um produto, categoria ou página do CMS.
+description: Saiba mais sobre substituições de URL e sobre como usar a ferramenta de regravação de URL do Commerce para alterar URLs associados a um produto, categoria ou página do CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -74,7 +75,7 @@ URL com regravação do servidor da Web
 
 Você pode usar a ferramenta de regravação de URL para criar regravações de produtos e categorias e regravações personalizadas para qualquer página em sua loja. Quando a regravação entrar em vigor, todos os links existentes que apontarem para o URL anterior serão perfeitamente redirecionados para o novo endereço.
 
-As substituições de URL podem ser usadas para adicionar palavras-chave de alto valor para melhorar a forma como o produto é indexado por mecanismos de pesquisa. Você também pode usar substituições para criar URLs adicionais para uma alteração sazonal temporária ou uma alteração permanente. As substituições podem ser criadas para qualquer caminho válido, incluindo páginas de conteúdo CMS. Internamente, o sistema sempre faz referência a produtos e categorias pela ID. Independentemente da frequência com que o URL muda, a ID permanece a mesma. Estas são algumas maneiras pelas quais você pode usar uma regravação de URL:
+As substituições de URL podem ser usadas para adicionar palavras-chave de alto valor para melhorar a forma como o produto é indexado por mecanismos de pesquisa. Você também pode usar substituições para criar URLs adicionais para uma alteração sazonal temporária ou uma alteração permanente. As substituições podem ser criadas para qualquer caminho válido, incluindo páginas de conteúdo do CMS. Internamente, o sistema sempre faz referência a produtos e categorias pela ID. Independentemente da frequência com que o URL muda, a ID permanece a mesma. Estas são algumas maneiras pelas quais você pode usar uma regravação de URL:
 
 URL do sistema
 
@@ -99,7 +100,7 @@ O Commerce oferece estes tipos de reescrita de URL:
 
 * [Substituições de produto](url-rewrite-product.md)
 * [Substituições de Categoria](url-rewrite-category.md)
-* [Substituições de página CMS](url-rewrite-cms-page.md)
+* [Substituições de página do CMS](url-rewrite-cms-page.md)
 * [Substituições Personalizadas](url-rewrite-custom.md)
 
 ## Demonstração de regravações de URL

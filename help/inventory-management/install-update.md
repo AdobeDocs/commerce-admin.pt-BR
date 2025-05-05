@@ -84,7 +84,7 @@ O processo de instalação do [!DNL Inventory Management] adiciona todos os mód
 
 ## Habilitar recursos do [!DNL Inventory Management]
 
-Quando instalada, atualizada ou atualizada, a opção _[!UICONTROL Manage Stock]_no Administrador é habilitada por padrão. Esta opção habilita o controle e o gerenciamento de inventário, mas não afeta o status do módulo. Para desativar módulos, consulte a próxima seção.
+Quando instalada, atualizada ou atualizada, a opção _[!UICONTROL Manage Stock]_&#x200B;no Administrador é habilitada por padrão. Esta opção habilita o controle e o gerenciamento de inventário, mas não afeta o status do módulo. Para desativar módulos, consulte a próxima seção.
 
 Para obter mais informações sobre configurações, consulte [Configurar Inventory management](configuration.md).
 

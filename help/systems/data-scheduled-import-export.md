@@ -33,7 +33,7 @@ Importações e exportações programadas podem ser executadas diariamente, sema
    >
    >Ao criar ou atualizar uma importação/exportação programada, isso resulta em uma alteração na configuração do sistema. Depois de salvar, certifique-se de endereçar o aviso de invalidação de cache exibido na parte superior da página de Administração e liberar o cache para aplicar a programação nova ou atualizada.
 
-1. [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Após cada trabalho agendado, uma cópia do arquivo é colocada no diretório `var/log/import_export` no servidor local do Adobe Commerce.
+1. [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Após cada trabalho agendado, uma cópia do arquivo é colocada no diretório `var/log/import_export` no servidor local do Adobe Commerce.
 
    Os detalhes de cada operação não são gravados no log. Se ocorrer um erro, será enviada uma notificação do trabalho de importação/exportação que falhou, com uma descrição do erro.
 
@@ -48,7 +48,7 @@ A vantagem de usar a importação agendada é que você pode importar automatica
 
 Os detalhes de cada operação de importação não são gravados em um log, mas quando há uma falha, você recebe um email de _Falha na importação_ com uma descrição do erro. O resultado do último trabalho de importação programado é mostrado na coluna Último resultado na página Importação/Exportação programada.
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Após cada operação de importação, uma cópia do arquivo de importação é colocada no diretório `var/log/import_export` no servidor onde o Adobe Commerce ou o Magento Open Source está implantado. O carimbo de data e hora, o marcador da entidade importada (produtos ou clientes) e o tipo da operação (nesse caso, importação) são adicionados ao nome do arquivo de importação.
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Após cada operação de importação, uma cópia do arquivo de importação é colocada no diretório `var/log/import_export` no servidor onde o Adobe Commerce ou o Magento Open Source está implantado. O carimbo de data e hora, o marcador da entidade importada (produtos ou clientes) e o tipo da operação (nesse caso, importação) são adicionados ao nome do arquivo de importação.
 
 Após cada trabalho de importação programado, uma operação de reindexação é executada automaticamente. No front-end, as alterações nas descrições e outras informações de texto são refletidas depois que os dados atualizados são inseridos no banco de dados, e as alterações nos preços são refletidas somente após a operação de reindexação.
 
@@ -203,7 +203,7 @@ A vantagem de usar a Exportação agendada é que você pode exportar dados vár
 
 Os detalhes de cada exportação não são gravados em um log, mas, se houver falha, você receberá um email Export Failed, que contém a descrição do erro. O resultado do último trabalho de exportação é exibido na coluna Último resultado na página Importação/Exportação programada.
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Após cada exportação, o arquivo de exportação é colocado no local definido pelo usuário e uma cópia no diretório `var/log/import_export` no servidor onde o Adobe Commerce ou o Magento Open Source está implantado. O carimbo de data e hora e o marcador da entidade exportada (produtos ou clientes) e o tipo da operação (nesse caso, exportação) são adicionados ao nome do arquivo de exportação.
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Após cada exportação, o arquivo de exportação é colocado no local definido pelo usuário e uma cópia no diretório `var/log/import_export` no servidor onde o Adobe Commerce ou o Magento Open Source está implantado. O carimbo de data e hora e o marcador da entidade exportada (produtos ou clientes) e o tipo da operação (nesse caso, exportação) são adicionados ao nome do arquivo de exportação.
 
 ### Etapa 1: concluir as configurações de exportação
 

@@ -45,11 +45,11 @@ Ao programar essas tarefas, é possível evitar os bloqueios que ocorrem quando 
 
 **_Para habilitar as atualizações e a reindexação:_**
 
-[!BADGE PaaS somente]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Quando o [Modo de produção](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (o modo padrão usado no Adobe Commerce na infraestrutura de nuvem) estiver habilitado, execute o seguinte comando:
+[!BADGE PaaS somente]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Quando o [Modo de produção](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=pt-BR#production-mode) (o modo padrão usado no Adobe Commerce na infraestrutura de nuvem) estiver habilitado, execute o seguinte comando:
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-Quando o [Modo padrão](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) estiver habilitado, conclua as seguintes etapas:
+Quando o [Modo padrão](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=pt-BR#default-mode) estiver habilitado, conclua as seguintes etapas:
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

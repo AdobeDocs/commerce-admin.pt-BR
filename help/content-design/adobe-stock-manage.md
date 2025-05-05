@@ -118,13 +118,13 @@ Cada imagem tem detalhes disponíveis para visualização. Outras ações espec�
 
 ## Faça logon em sua conta Adobe
 
-Para obter acesso total a uma imagem e eliminar a marca d&#39;água da Adobe Stock, você deve [entrar com uma conta de Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) e comprar créditos para licenciar direitos para usar uma imagem.
+Para obter acesso total a uma imagem e eliminar a marca d&#39;água da Adobe Stock, você deve [entrar com uma conta de Adobe](https://helpx.adobe.com/br/manage-account/using/access-adobe-id-account.html) e comprar créditos para licenciar direitos para usar uma imagem.
 
 1. [Acesse a grade do Adobe Stock Search](#access-the-adobe-stock-search-grid).
 
 1. Clique em **[!UICONTROL Sign In]** na parte superior direita.
 
-   Uma nova janela de navegador o orienta pelo [processo de entrada no Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Uma nova janela de navegador o orienta pelo [processo de entrada no Adobe](https://helpx.adobe.com/br/manage-account/using/access-adobe-id-account.html).
 
    Após concluir o processo de logon, o estado licenciado das imagens é exibido nos resultados da pesquisa como um rótulo.
 
@@ -178,7 +178,7 @@ Os ativos do Adobe Stock que você deseja usar para suas lojas de produção [!D
 
      >[!NOTE]
      >
-     >Você deve ter [créditos de Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) disponíveis em sua conta para licenciar a imagem.
+     >Você deve ter [créditos de Adobe Stock](https://helpx.adobe.com/br/stock/help/credit-packs.html) disponíveis em sua conta para licenciar a imagem.
 
    Esta ação exibe um prompt para que você especifique um nome de arquivo que seja usado para salvar a imagem no [armazenamento de mídia](media-storage.md). Um nome de arquivo padrão é fornecido, mas você pode personalizar o nome de acordo com suas preferências.
 

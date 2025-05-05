@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Se você precisar de ajuda com acusações inesperadas sobre sua cartão, visita o [cancelamento assinatura](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) página para assistência.
+>Se você precisar de ajuda com acusações inesperadas sobre sua cartão, visita o [cancelamento assinatura](https://helpx.adobe.com/br/manage-account/using/cancel-subscription.html) página para assistência.
 
 ## [!UICONTROL Basic Braintree Settings]
 

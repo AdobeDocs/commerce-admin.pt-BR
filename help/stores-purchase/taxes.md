@@ -18,7 +18,7 @@ Configure sua loja para calcular impostos de acordo com os requisitos de sua loc
 >
 >O Adobe Commerce e o Magento Open Source versões 2.4.0 a 2.4.3 incluíam a extensão desenvolvida pelo fornecedor Vertex usada para integrar com a Vertex Cloud para fornecer gerenciamento de impostos e limpeza de endereços. A partir da versão 2.4.4, essa extensão não será mais fornecida com a versão principal e deverá ser instalada e atualizada do Commerce Marketplace ou diretamente do fornecedor. [Contate a Vertex](https://marketplace.magento.com/partner/vertex_inc) para obter informações sobre a extensão e a documentação.<br><br>
 >
->Se você tiver a extensão agrupada ativada e configurada, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) no _Guia de Atualização_.
+>Se você tiver a extensão agrupada ativada e configurada, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=pt-BR) no _Guia de Atualização_.
 
 ## Referência rápida
 

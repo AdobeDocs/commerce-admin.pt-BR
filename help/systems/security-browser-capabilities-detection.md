@@ -18,7 +18,7 @@ Como a maioria dos sites e aplicativos na Internet, o Adobe Commerce e o Magento
 - Se as configurações de privacidade do navegador não permitirem cookies, você poderá configurar o sistema para redirecioná-los automaticamente para a página [Habilitar Cookies](../content-design/pages.md#enable-cookies), que explica como fazer as configurações recomendadas com a maioria dos navegadores.
 - Se as configurações de privacidade do navegador não permitirem o JavaScript, você poderá configurar o sistema para exibir a seguinte mensagem acima do cabeçalho de cada página.
 
-Para obter informações técnicas, consulte [Navegadores suportados](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) no _Guia de Instalação_.
+Para obter informações técnicas, consulte [Navegadores suportados](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=pt-BR#supported-browsers) no _Guia de Instalação_.
 
 ## Configurar a detecção de recursos do navegador
 

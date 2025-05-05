@@ -35,7 +35,7 @@ Atualize o modelo [cabeçalho de email](../systems/email-template-custom.md#head
    - `Disable` - Envia email de vendas quando acionado por um evento.
    - `Enable` - Envia emails de vendas em intervalos regulares predeterminados.
 
-   O Suporte da Adobe Commerce recomenda ativar o envio assíncrono para melhorar o desempenho do posicionamento de pedidos. Consulte [Práticas recomendadas de configuração para processamento de pedidos](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html) na Base de Dados de Conhecimento de Suporte da Adobe Commerce.
+   O Suporte da Adobe Commerce recomenda ativar o envio assíncrono para melhorar o desempenho do posicionamento de pedidos. Consulte [Práticas recomendadas de configuração para processamento de pedidos](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=pt-BR) na Base de Dados de Conhecimento de Suporte da Adobe Commerce.
 
 ## Etapa 3. Preencha os detalhes de cada mensagem de email de vendas
 

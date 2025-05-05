@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->O [!DNL Inventory Management] for Adobe Commerce e Magento Open Source fornece as ferramentas para gerenciar o inventário de produtos. Comerciantes com uma única loja para vários depósitos, lojas, locais de retirada, entregadores diretos e muito mais podem usar esses recursos para manter quantidades para vendas e controlar entregas para ordens completas. Para obter mais informações sobre esses recursos e como usá-los para gerenciar estoque em vários locais, consulte o [_[!DNL Inventory Management] Guia do Usuário _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html).
+>O [!DNL Inventory Management] for Adobe Commerce e Magento Open Source fornece as ferramentas para gerenciar o inventário de produtos. Comerciantes com uma única loja para vários depósitos, lojas, locais de retirada, entregadores diretos e muito mais podem usar esses recursos para manter quantidades para vendas e controlar entregas para ordens completas. Para obter mais informações sobre esses recursos e como usá-los para gerenciar estoque em vários locais, consulte o [_[!DNL Inventory Management] Guia do Usuário _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=pt-BR).
 
 ## [!UICONTROL Stock Options]
 
 ![Opções do Stock](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
-<!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Stock Options](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 ![Opções de Estoque de Produtos](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-<!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Product Stock Options](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Manage Stock] | Global | Determina se você usa o controle de inventário completo para gerenciar os itens do catálogo. Opções: <br/>**Sim** - Ativa o controle de estoque completo para rastrear o número de itens atualmente em estoque. <br/>**Não** - Não rastreia o número de itens atualmente em estoque. |
 | [!UICONTROL Backorders] | Global | Determina como a loja gerencia ordens pendentes. Uma ordem pendente não altera o status de processamento da ordem. Os fundos ainda são autorizados ou capturados imediatamente quando o pedido é feito, independentemente do produto estar em estoque. Quando o produto estiver disponível, ele será enviado. Opções: <br/>**Sem Backorders** - Não aceita backorders quando o produto estiver indisponível. <br/>**Permitir Qtd. Abaixo de 0** - Aceita ordens pendentes quando a quantidade cai abaixo de zero. <br/>**Permitir Qtd. Abaixo de 0 e Notificar Cliente** - Aceita ordens pendentes quando a quantidade cai abaixo de zero, mas notifica os clientes que as ordens ainda podem ser feitas. |
-| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (somente Adobe Commerce) Determina se a atualização de estoque deve ser adiada se pedidos pendentes forem permitidos (a opção _Pedidos pendentes_ está definida como qualquer coisa além do valor padrão `No backorders`). Ele funciona para um único produto ou para um site inteiro e usa o mecanismo _Fila de trabalhos_ para permitir que os indicadores de quantidade de estoque sejam atualizados de forma assíncrona após a realização dos pedidos. Esta opção também funciona com [Posicionamento assíncrono de pedido](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html#asynchronous-order-placement) em combinação com [Inventory management](../../inventory-management/introduction.md). |
+| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (somente Adobe Commerce) Determina se a atualização de estoque deve ser adiada se pedidos pendentes forem permitidos (a opção _Pedidos pendentes_ está definida como qualquer coisa além do valor padrão `No backorders`). Ele funciona para um único produto ou para um site inteiro e usa o mecanismo _Fila de trabalhos_ para permitir que os indicadores de quantidade de estoque sejam atualizados de forma assíncrona após a realização dos pedidos. Esta opção também funciona com [Posicionamento assíncrono de pedido](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html?lang=pt-BR#asynchronous-order-placement) em combinação com [Inventory management](../../inventory-management/introduction.md). |
 | Quantidade Máxima Permitida no Carrinho de Compras | Global | Determina o número máximo de um produto que pode ser comprado em um único pedido. Por padrão, a quantidade máxima é definida como 10.000. |
 | [!UICONTROL Out-of-Stock Threshold] | Global | Determina o nível de estoque no qual um produto é considerado indisponível. Opções: <br/>**Valor positivo** - Com _Pedidos pendentes_ desabilitados, insira um valor positivo. Com ordens pendentes ativadas, esse valor é ignorado. <br/>**Zero** - Com _Ordens pendentes_ habilitadas, inserir `0` permite ordens pendentes infinitas. <br/>**Valor negativo** - Com _Pedidos pendentes_ habilitados, recomendamos inserir um valor negativo. O valor é adicionado à Quantidade Venável. Por exemplo, insira -50 para permitir pedidos até esse valor. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Global | Determina a quantidade mínima de um item que está disponível para compra de acordo com o grupo de clientes. Por padrão, a quantidade mínima é definida como 1. Clique em **[!UICONTROL Add Minimum Qty]** para inserir um valor diferente para um grupo de clientes específico. |
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 ![Operações em massa do administrador](./assets/catalog-inventory-admin-bulk-operations.png)<!-- zoom -->
 
-<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/configuration/global-options) -->
 
 >[!NOTE]
 >
->Para configurar e suportar **gerenciadores de fila assíncronos**, você deve usar a linha de comando. Isso pode exigir ajuda do desenvolvedor. Consulte [Iniciar consumidores da fila de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) no _Guia de Configuração_.
+>Para configurar e suportar **gerenciadores de fila assíncronos**, você deve usar a linha de comando. Isso pode exigir ajuda do desenvolvedor. Consulte [Iniciar consumidores da fila de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=pt-BR) no _Guia de Configuração_.
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ![Provedores de Distância para SSA Baseado em Distância](./assets/catalog-inventory-distance-provider.png)<!-- zoom -->
 
-<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ![Provedor de Distância Google](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
 
-<!-- [Google Distance Provider](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Google Distance Provider](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |

@@ -31,6 +31,6 @@ Quando a funcionalidade de otimização de imagem da Galeria de Mídia está hab
 
 Quando os valores de _Largura Máxima_ e _Altura Máxima_ são alterados na configuração, ele atualiza todas as imagens otimizadas existentes que foram inseridas anteriormente.
 
-A Otimização de Imagens da Galeria de Mídia exige que os `media.gallery.renditions.update` consumidores da fila estejam em execução para regenerar imagens otimizadas quando a configuração for alterada. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) no _Guia de Configuração_ para obter mais detalhes.
+A Otimização de Imagens da Galeria de Mídia exige que os `media.gallery.renditions.update` consumidores da fila estejam em execução para regenerar imagens otimizadas quando a configuração for alterada. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=pt-BR) no _Guia de Configuração_ para obter mais detalhes.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

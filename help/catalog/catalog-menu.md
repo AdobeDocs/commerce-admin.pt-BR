@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Menu [!UICONTROL Catalog]
 
-O menu [!UICONTROL Catalog] fornece acesso fácil às ferramentas de criação de produtos, categoria e gerenciamento de estoque, além de catálogos compartilhados para preços personalizados em [lojas B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+O menu [!UICONTROL Catalog] fornece acesso fácil às ferramentas de criação de produtos, categoria e gerenciamento de estoque, além de catálogos compartilhados para preços personalizados em [lojas B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=pt-BR).
 
 ![Menu Catálogo](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
@@ -31,6 +31,6 @@ Crie a estrutura de [categoria](categories.md) que é a base da navegação do a
 
 ## [!UICONTROL Shared Catalogs]
 
-Para lojas com o Adobe Commerce B2B instalado e habilitado, os [catálogos compartilhados](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) oferecem a capacidade de disponibilizar preços personalizados para diferentes empresas.
+Para lojas com o Adobe Commerce B2B instalado e habilitado, os [catálogos compartilhados](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=pt-BR) oferecem a capacidade de disponibilizar preços personalizados para diferentes empresas.
 
 ![Produtos do catálogo compartilhado](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

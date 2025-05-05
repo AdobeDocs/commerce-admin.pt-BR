@@ -32,7 +32,7 @@ Com a introdução da [!DNL **Commerce Storefront viabilizada pelo Edge Delivery
 
 A Commerce Storefront baseada na Edge Delivery Services oferece vários recursos principais que beneficiam comerciantes e desenvolvedores. Esses recursos permitem que as empresas criem experiências de compra envolventes, mantendo a flexibilidade para personalizar e dimensionar suas vitrines de acordo com suas necessidades.
 
-Para obter informações e orientações mais detalhadas sobre a configuração e otimização da sua Commerce Storefront, consulte a [Documentação da Adobe Commerce Storefront](https://experienceleague.adobe.com/en/docs/commerce).
+Para obter informações e orientações mais detalhadas sobre a configuração e otimização da sua Commerce Storefront, consulte a [Documentação da Adobe Commerce Storefront](https://experienceleague.adobe.com/pt-br/docs/commerce).
 
 >[!BEGINTABS]
 
@@ -81,7 +81,7 @@ Você sabia que as pessoas que usam a pesquisa têm quase duas vezes mais chance
 
 ### [!DNL Live Search]
 
-Com o [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) for Adobe Commerce, sua loja oferece uma experiência de pesquisa rápida, super relevante e intuitiva, e está disponível para o Adobe Commerce sem custo adicional.
+Com o [[!DNL Live Search]](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview) for Adobe Commerce, sua loja oferece uma experiência de pesquisa rápida, super relevante e intuitiva, e está disponível para o Adobe Commerce sem custo adicional.
 
 ![Exemplo do Live Search - pesquisar à medida que você digita](./assets/storefront-search-as-you-type.png){width="700"}
 

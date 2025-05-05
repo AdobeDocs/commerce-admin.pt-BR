@@ -20,9 +20,9 @@ Depois de editar um ativo no AEM Assets, envie as atualizações para o Commerce
 
 Para obter detalhes, consulte a seguinte documentação do AEM Assets.
 
-- [Reprocessando ativos digitais](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [Reprocessando ativos digitais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [Aprovar um ativo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+- [Aprovar um ativo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
 ## Adicionar ativos ao conteúdo de categorias
 

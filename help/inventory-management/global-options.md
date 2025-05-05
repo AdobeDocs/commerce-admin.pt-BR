@@ -86,7 +86,7 @@ Configure as opções de configuração padrão de produto e estoque para seus s
 
      >[!NOTE]
      >
-     >Para configurar e suportar _gerenciadores de fila assíncronos_, você deve emitir um comando usando a linha de comando. Esta etapa pode exigir ajuda do desenvolvedor. Consulte [Iniciar consumidores da fila de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) no _Guia de Configuração_.
+     >Para configurar e suportar _gerenciadores de fila assíncronos_, você deve emitir um comando usando a linha de comando. Esta etapa pode exigir ajuda do desenvolvedor. Consulte [Iniciar consumidores da fila de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=pt-BR) no _Guia de Configuração_.
 
    - Se habilitado, defina o **[!UICONTROL Asynchronous batch size]**. O tamanho padrão do lote é 100. Quando os processos em massa atingem essa quantidade, o sistema a aciona.
 

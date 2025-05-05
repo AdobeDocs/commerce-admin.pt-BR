@@ -98,7 +98,7 @@ Você pode transferir itens para o carrinho da lista de desejos de um cliente ou
 
 >[!NOTE]
 >
->Consulte o [Guia dos Serviços de Pagamento](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) para obter mais informações sobre métodos de pagamento para dar suporte a esta funcionalidade quando a extensão dos Serviços de Pagamento for instalada e configurada.
+>Consulte o [Guia dos Serviços de Pagamento](https://experienceleague.adobe.com/pt-br/docs/commerce/payment-services/guide-overview) para obter mais informações sobre métodos de pagamento para dar suporte a esta funcionalidade quando a extensão dos Serviços de Pagamento for instalada e configurada.
 
 ## Etapa 3: enviar o pedido
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Recurso desabilitado:** o backup está desabilitado por padrão. Ativar essa função pode exigir ajuda do desenvolvedor. Consulte o seguinte tópico do _Guia de Instalação_ para habilitar backups: [Fazer backup e reverter o sistema de arquivos, a mídia e o banco de dados](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html).
+>**Recurso desabilitado:** o backup está desabilitado por padrão. Ativar essa função pode exigir ajuda do desenvolvedor. Consulte o seguinte tópico do _Guia de Instalação_ para habilitar backups: [Fazer backup e reverter o sistema de arquivos, a mídia e o banco de dados](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=pt-BR).
 
 >[!NOTE]
 >

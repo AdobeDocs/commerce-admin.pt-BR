@@ -52,5 +52,5 @@ As empresas que estiverem em conformidade com o GDPR podem ter obrigações adic
 - Para obter diagramas de fluxo de dados e mapeamento de entidades de banco de dados, consulte a [Referência de informações pessoais][2]{: target=&quot;_blank&quot;}.
 
 [1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=pt-BR
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf

@@ -26,7 +26,7 @@ A equipe de suporte do [!DNL Commerce] não tem acesso à conta e não pode conf
 
 1. Antes de começar, obtenha as seguintes informações da conta [!DNL Commerce] do **novo favorecido de acesso compartilhado**:
 
-   - O usuário já deve ter se registrado em uma conta em account.adobe.com e estar conectado por meio de account.magento.com. Consulte [Criar uma conta do Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) para obter mais detalhes.
+   - O usuário já deve ter se registrado em uma conta em account.adobe.com e estar conectado por meio de account.magento.com. Consulte [Criar uma conta do Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) para obter mais detalhes.
    - O `MAGE ID/Account ID (MAG00XXXXXXX)` é exibido no canto superior esquerdo da guia _[!UICONTROL Magento]_, logo acima do link **Logoff**.
    - O endereço `Email` associado à conta.
 
@@ -64,7 +64,7 @@ A equipe de suporte do [!DNL Commerce] não tem acesso à conta e não pode conf
 
 >[!NOTE]
 >
->Não é necessário compartilhar o acesso ao _[!UICONTROL Security Tool]_. Qualquer usuário com uma ID de MAGE pode configurar a Ferramenta de Verificação de Segurança com sua própria conta. Eles só precisam dos privilégios necessários para fazer alterações no site e verificar a propriedade do domínio usando um dos [métodos necessários](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
+>Não é necessário compartilhar o acesso ao _[!UICONTROL Security Tool]_. Qualquer usuário com uma ID de MAGE pode configurar a Ferramenta de Verificação de Segurança com sua própria conta. Eles só precisam dos privilégios necessários para fazer alterações no site e verificar a propriedade do domínio usando um dos [métodos necessários](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security-scan)).
 
 ## Acessar uma conta compartilhada
 
@@ -91,11 +91,11 @@ As instruções a seguir são escritas da perspectiva de um usuário compartilha
 
    ![Suporte](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   Você pode usar a [Central de Ajuda do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) da conta compartilhada para procurar artigos e informações de solução de problemas, encontrar patches para problemas conhecidos e criar tíquetes de suporte.
+   Você pode usar a [Central de Ajuda do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/overview) da conta compartilhada para procurar artigos e informações de solução de problemas, encontrar patches para problemas conhecidos e criar tíquetes de suporte.
 
    >[!NOTE]
    >
-   >Depois de receber acesso compartilhado, o usuário deve fazer logon em sua [[!DNL Commerce] conta](https://account.magento.com/customer/account/login), navegar até o _Acesso Compartilhado_ e clicar na guia **[!UICONTROL Support]**. Esta ação é necessária somente na primeira vez para garantir que a [Base de Dados de Conhecimento de Suporte da Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) seja configurada corretamente por meio da chamada `SSO`.
+   >Depois de receber acesso compartilhado, o usuário deve fazer logon em sua [[!DNL Commerce] conta](https://account.magento.com/customer/account/login), navegar até o _Acesso Compartilhado_ e clicar na guia **[!UICONTROL Support]**. Esta ação é necessária somente na primeira vez para garantir que a [Base de Dados de Conhecimento de Suporte da Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/overview) seja configurada corretamente por meio da chamada `SSO`.
 
 1. Para retornar à sua própria conta, clique em **Voltar** nos controles do navegador e defina **[!UICONTROL Switch Accounts]** como `My Account`.
 
@@ -109,15 +109,15 @@ As instruções a seguir são escritas da perspectiva de um usuário compartilha
 
    >[!NOTE]
    >
-   > Se **[!UICONTROL Delete]** não for exibido, verifique se **[!UICONTROL Share Name]** começa com `Cloud Shared Access from MAG XYZ`. Você não pode excluir contas com esse [padrão de nomenclatura](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
+   > Se **[!UICONTROL Delete]** não for exibido, verifique se **[!UICONTROL Share Name]** começa com `Cloud Shared Access from MAG XYZ`. Você não pode excluir contas com esse [padrão de nomenclatura](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
    > 
    > Em caso positivo, peça ao proprietário da conta para modificar a conta de Acesso Compartilhado para limpar as permissões da conta. Após essa atualização, o usuário não poderá acessar nenhum recurso da conta.
    >
-   > Além disso, remova os usuários do projeto para que eles não recebam mais notificações por email: [Os membros antigos da equipe recebem emails de notificação da nuvem do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > Além disso, remova os usuários do projeto para que eles não recebam mais notificações por email: [Os membros antigos da equipe recebem emails de notificação da nuvem do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL Delete User]**.
 
 >[!NOTE]
 >
->Não é possível excluir usuários com o Nome de Compartilhamento do _Acesso Compartilhado na Nuvem da MAG[XYZ]_ nesta interface. Consulte [Como excluir usuários que receberam acesso compartilhado por meio de um projeto na nuvem?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting).
+>Não é possível excluir usuários com o Nome de Compartilhamento do _Acesso Compartilhado na Nuvem da MAG[XYZ]_ nesta interface. Consulte [Como excluir usuários que receberam acesso compartilhado por meio de um projeto na nuvem?](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting).

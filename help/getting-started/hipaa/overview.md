@@ -43,7 +43,7 @@ A tabela a seguir mostra a compatibilidade entre as versões do Adobe Commerce e
 
 | Adobe Commerce | Compatível | Notas |
 |----------------|-----------|-------|
-| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | O suporte para 2.4.7-p4 requer um [hotfix](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
+| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | O suporte para 2.4.7-p4 requer um [hotfix](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | O suporte para [serviços de dados](#adobe-commerce-services) foi introduzido na versão 1.1.0 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -62,7 +62,7 @@ A tabela a seguir mostra a compatibilidade entre as versões do Adobe Commerce e
 >[!BEGINSHADEBOX]
 
 - A Adobe provisionou sua conta do Adobe Commerce para acessar a extensão HIPAA Ready.
-- Acesso ao [repo.magento.com](https://repo.magento.com) para instalar a extensão. Para geração de chaves e obtenção dos direitos necessários, consulte [Obter suas chaves de autenticação](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- Acesso ao [repo.magento.com](https://repo.magento.com) para instalar a extensão. Para geração de chaves e obtenção dos direitos necessários, consulte [Obter suas chaves de autenticação](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=pt-BR).
 
 >[!ENDSHADEBOX]
 
@@ -70,13 +70,13 @@ Instale a versão mais recente da extensão HIPAA-Ready Services da Adobe (`mage
 
 >[!NOTE]
 >
->Para garantir que os dados do evento de back office enviados para o Experience Platform estejam prontos para HIPAA, consulte o [guia de extensão de Conexão de Dados](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Para garantir que os dados do evento de back office enviados para o Experience Platform estejam prontos para HIPAA, consulte o [guia de extensão de Conexão de Dados](https://experienceleague.adobe.com/pt-br/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. Na estação de trabalho local, altere para o diretório do projeto do Adobe Commerce na infraestrutura em nuvem.
 
    >[!NOTE]
    >
-   >Para obter informações sobre o gerenciamento local de ambientes de projeto do Commerce, consulte [Gerenciamento de ramificações com a CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) no _Guia do Usuário do Adobe Commerce na Infraestrutura da Nuvem_.
+   >Para obter informações sobre o gerenciamento local de ambientes de projeto do Commerce, consulte [Gerenciamento de ramificações com a CLI](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/cli-branches) no _Guia do Usuário do Adobe Commerce na Infraestrutura da Nuvem_.
 
 1. Faça check-out da ramificação de ambiente para atualizar usando a CLI da Adobe Commerce Cloud.
 
@@ -104,7 +104,7 @@ Instale a versão mais recente da extensão HIPAA-Ready Services da Adobe (`mage
    git push origin <branch-name>
    ```
 
-   Mover as atualizações inicia a [Comércio nuvem processo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) implantação aplicação das alterações. Verifique o status do implantação no [log](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log) de implantar.
+   Mover as atualizações inicia a [Comércio nuvem processo](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/deploy/process) implantação aplicação das alterações. Verifique o status do implantação no [log](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log) de implantar.
 
 ### Verificar instalação
 
@@ -278,13 +278,13 @@ A tabela a seguir identifica Adobe Systems serviços Comércio disponíveis para
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | Sim | Sim |
 | [Malha de API para Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Sim | Sim |
-| [Exportação de dados do SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Sim | Sim |
-| [Live search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Não | Não |
-| [recomendações do produto](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Não | Não |
-| [Serviços de pagamento](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Não | Não |
-| [Eventos de escritório Anterior de conexão de dados](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Sim | Sim |
-| [Eventos de storefront de conexão de dados](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Não | Não |
-| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Não | Não |
+| [Exportação de dados do SaaS](https://experienceleague.adobe.com/pt-br/docs/commerce/saas-data-export/overview) | Sim | Sim |
+| [Live search](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview) | Não | Não |
+| [recomendações do produto](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/overview) | Não | Não |
+| [Serviços de pagamento](https://experienceleague.adobe.com/pt-br/docs/commerce/payment-services/guide-overview) | Não | Não |
+| [Eventos de escritório Anterior de conexão de dados](https://experienceleague.adobe.com/pt-br/docs/commerce/data-connection/event-forwarding/events-backoffice) | Sim | Sim |
+| [Eventos de storefront de conexão de dados](https://experienceleague.adobe.com/pt-br/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Não | Não |
+| [Audience Activation](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/audience-activation) | Não | Não |
 
 ### Ferramentas
 
@@ -296,7 +296,7 @@ A [Ferramenta](../../systems/security-scan.md) de Verificação de Segurança pa
 - Todas as extensões instaladas correspondem a uma lista de permissões predefinida
 - Nenhum serviço de Adobe Systems não suportado está instalado
 
-Você pode [configurar a ferramenta](../../systems/security-scan.md#run-a-security-scan) para enviar notificações por e-mail com detalhes de verificações agendadas ou [relatórios visualização](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report) manualmente.
+Você pode [configurar a ferramenta](../../systems/security-scan.md#run-a-security-scan) para enviar notificações por e-mail com detalhes de verificações agendadas ou [relatórios visualização](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report) manualmente.
 
 ## Recursos desativados
 
@@ -304,7 +304,7 @@ Para atender aos requisitos HIPAA, alguns recursos suportados pelo Adobe Systems
 
 Os recursos a seguir são desativados por padrão no módulo de preparação para HIPAA. Os comerciantes podem ativar qualquer um desses recursos por sua conta e risco.
 
-- **[Email transacional](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** — SendGrid está desabilitado por padrão porque o serviço não está pronto para HIPAA. O Adobe Commerce fornece uma opção de integração que você pode usar com sua própria conta do [AWS Simple Email Service](https://docs.aws.amazon.com/ses/). Entre em contato com o Gerente técnico de conta do cliente ou com o Suporte da Adobe Commerce para obter detalhes sobre a configuração.
+- **[Email transacional](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=pt-BR)** — SendGrid está desabilitado por padrão porque o serviço não está pronto para HIPAA. O Adobe Commerce fornece uma opção de integração que você pode usar com sua própria conta do [AWS Simple Email Service](https://docs.aws.amazon.com/ses/). Entre em contato com o Gerente técnico de conta do cliente ou com o Suporte da Adobe Commerce para obter detalhes sobre a configuração.
 
 - **[Check-out de convidado](../../stores-purchase/checkout-guest.md)**—Este recurso apresenta um risco potencial para vários aspectos da HIPAA, incluindo registro, controle de acesso, higiene e linhagem de PHI e possivelmente mais.
 

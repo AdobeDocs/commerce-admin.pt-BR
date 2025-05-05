@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ![Contate-nos](./assets/contacts-contact-us.png)<!-- zoom -->
 
-<!-- [Contact Us](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
+<!-- [Contact Us](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 ![Opções de email](./assets/contacts-email-options.png)<!-- zoom -->
 
-<!-- [Email Options](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
+<!-- [Email Options](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |

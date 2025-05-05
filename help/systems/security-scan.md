@@ -22,7 +22,7 @@ A varredura de segurança aprimorada permite monitorar cada um dos sites do Adob
 - Acesse relatórios históricos de segurança que rastreiam e monitoram o progresso de seus sites.
 - Acesse o relatório de varredura que mostra verificações bem-sucedidas e falhas, com qualquer ação recomendada.
 
-A ferramenta Security scan está disponível gratuitamente no painel da sua [conta Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) no _Guia de Infraestrutura do Commerce na Nuvem_.
+A ferramenta Security scan está disponível gratuitamente no painel da sua [conta Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html?lang=pt-BR#set-up-the-security-scan-tool) no _Guia de Infraestrutura do Commerce na Nuvem_.
 
 ![Ferramenta de verificação de segurança](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 

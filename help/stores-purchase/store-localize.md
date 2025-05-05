@@ -142,4 +142,4 @@ Se sua loja tiver várias visualizações em diferentes idiomas, os mesmos produ
 
 
 [1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=pt-BR

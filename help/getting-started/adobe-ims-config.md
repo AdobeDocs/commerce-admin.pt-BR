@@ -27,8 +27,8 @@ Essa integração oferece suporte aos comerciantes do Commerce com usuários adm
 
 O administrador que configura essa integração precisa das seguintes credenciais durante a ativação do módulo:
 
-* ID da organização (obtida de [Adobe Admin Console](https://adminconsole.adobe.com/)), que deve ter pelo menos 24 caracteres. O usuário autenticado deve pertencer a esta organização IMS. Para obter informações sobre como encontrar sua ID da organização, consulte [Organizações na Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
-* 2FA deve ser aplicado no nível da Organização no Adobe Admin Console para ativar o módulo. Verificar [Configurações de autenticação](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
+* ID da organização (obtida de [Adobe Admin Console](https://adminconsole.adobe.com/)), que deve ter pelo menos 24 caracteres. O usuário autenticado deve pertencer a esta organização IMS. Para obter informações sobre como encontrar sua ID da organização, consulte [Organizações na Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR).
+* 2FA deve ser aplicado no nível da Organização no Adobe Admin Console para ativar o módulo. Verificar [Configurações de autenticação](https://helpx.adobe.com/br/enterprise/using/authentication-settings.html#two-step-verification).
 * ID do cliente
 * Client secret
 * A ID do cliente e o segredo do cliente estão disponíveis após recuperar chaves de API da [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/).
@@ -75,7 +75,7 @@ Antes de habilitar a integração, verifique se cada conta de usuário de admini
 
 >[!TIP]
 >
->Você pode criar várias contas de usuário fazendo upload das informações do usuário de um arquivo CSV. Consulte [Gerenciar vários usuários](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+>Você pode criar várias contas de usuário fazendo upload das informações do usuário de um arquivo CSV. Consulte [Gerenciar vários usuários](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html).
 
 1. No [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html), navegue até **[!UICONTROL Users]** > **[!UICONTROL Users]**.
 

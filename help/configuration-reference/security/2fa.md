@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Lojas que habilitaram a autenticação Adobe Systems Identity Management Services (IMS) têm nativo Adobe Systems Comércio e Magento Open Source autenticação de dois fatores (2FA) desativados. Os usuários administradores que fazem logon em suas Adobe Systems Comércio instância com suas credenciais Adobe Systems não precisam reauttenticar para muitas tarefas de administrador. Authentication é tratado por Adobe Systems IMS quando o administrador usuário faz logon em sua sessão atual. Consulte [Integração de Adobe Systems Comércio com Adobe Systems visão geral](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html) do IMS.
+>Lojas que habilitaram a autenticação Adobe Systems Identity Management Services (IMS) têm nativo Adobe Systems Comércio e Magento Open Source autenticação de dois fatores (2FA) desativados. Os usuários administradores que fazem logon em suas Adobe Systems Comércio instância com suas credenciais Adobe Systems não precisam reauttenticar para muitas tarefas de administrador. Authentication é tratado por Adobe Systems IMS quando o administrador usuário faz logon em sua sessão atual. Consulte [Integração de Adobe Systems Comércio com Adobe Systems visão geral](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=pt-BR) do IMS.
 
 {{config}}
 

@@ -187,4 +187,4 @@ Todas as ações relacionadas a pontos de premiação são exibidas no bloco _[!
 
 Para obter ajuda com a solução de problemas de pontos de premiação, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
 
-- Erro [404 - removendo pontos de recompensa no check-out de vários envios](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
+- Erro [404 - removendo pontos de recompensa no check-out de vários envios](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=pt-BR)

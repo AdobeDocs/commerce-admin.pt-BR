@@ -14,7 +14,7 @@ ht-degree: 0%
 
 
 
-Os Serviços de pagamento fornecem uma solução de autoatendimento pronta para uso, incluindo teste de sandbox e uma configuração simples, para fornecer um processamento de pagamento robusto e seguro. Para saber mais, consulte o [_Guia do Usuário dos Serviços de Pagamento_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
+Os Serviços de pagamento fornecem uma solução de autoatendimento pronta para uso, incluindo teste de sandbox e uma configuração simples, para fornecer um processamento de pagamento robusto e seguro. Para saber mais, consulte o [_Guia do Usuário dos Serviços de Pagamento_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=pt-BR).
 
 Para acessar as definições de configuração para Serviços de Pagamento, na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** e clique em **[!UICONTROL Settings]**.
 
@@ -22,7 +22,7 @@ Para acessar as definições de configuração para Serviços de Pagamento, na b
 
 >[!NOTE]
 >
->Para usar a configuração Herdada em vez de [Configurações](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html), consulte [Configuração Herdada](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html).
+>Para usar a configuração Herdada em vez de [Configurações](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html?lang=pt-BR), consulte [Configuração Herdada](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html?lang=pt-BR).
 
 ## [!UICONTROL General]
 
@@ -46,10 +46,10 @@ Para acessar as definições de configuração para Serviços de Pagamento, na b
 |---|---|---|
 | [!UICONTROL Title] | exibição de loja | Adicione o texto para exibição como o título desta opção de pagamento na exibição de Método de Pagamento durante a finalização da compra. |
 | [!UICONTROL Payment Action] | site | A [ação de pagamento](payment-methods.md#payment-actions) para o método de pagamento especificado. Opções: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | site | Habilite ou desabilite a [autenticação Segura do 3DS](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html#3ds). Opções: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL 3DS Secure authentication] | site | Habilite ou desabilite a [autenticação Segura do 3DS](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html?lang=pt-BR#3ds). Opções: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | site | Ative ou desative os campos de cartão de crédito para serem exibidos na página de check-out. Opções: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | exibição de loja | Habilite ou desabilite o [cofre de cartão de crédito](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Opções: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | exibição de loja | Habilite ou desabilite a capacidade de concluir pedidos de clientes no Administrador [usando um método de pagamento com cofre](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Opções: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | exibição de loja | Habilite ou desabilite o [cofre de cartão de crédito](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=pt-BR). Opções: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | exibição de loja | Habilite ou desabilite a capacidade de concluir pedidos de clientes no Administrador [usando um método de pagamento com cofre](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=pt-BR). Opções: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | site | Ative ou desative o modo de depuração. Opções: [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}

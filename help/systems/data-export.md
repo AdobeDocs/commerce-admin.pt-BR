@@ -80,7 +80,7 @@ A caixa de seleção na primeira coluna é usada para excluir atributos do arqui
 
 1. Role para baixo e clique em **[!UICONTROL Continue]** no canto inferior direito da página.
 
-   Após a conclusão da tarefa, o arquivo é processado por meio de uma fila de mensagens (verifique se o trabalho cron está em execução). O arquivo exportado é salvo no `var/export/ folder`. Para obter mais informações sobre a fila de mensagens, consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) no _Guia de Configuração_.
+   Após a conclusão da tarefa, o arquivo é processado por meio de uma fila de mensagens (verifique se o trabalho cron está em execução). O arquivo exportado é salvo no `var/export/ folder`. Para obter mais informações sobre a fila de mensagens, consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=pt-BR) no _Guia de Configuração_.
 
    Você pode salvar ou abrir o arquivo CSV exportado como uma planilha, editar os dados e importá-los de volta para o armazenamento.
 
@@ -92,4 +92,4 @@ A caixa de seleção na primeira coluna é usada para excluir atributos do arqui
 
 Para obter ajuda com a solução de problemas de exportação de dados, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
 
-- [O arquivo .csv de produtos exportados não aparece](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [O arquivo .csv de produtos exportados não aparece](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=pt-BR)

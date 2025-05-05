@@ -110,7 +110,7 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
    Se estiver importando várias imagens para uma única `sku`, insira as imagens em uma coluna chamada `additional_images` (adicione a coluna caso ainda não tenha sido adicionada), separadas por vírgulas: `image02.jpg,image03.jpg`
 
-Para obter mais informações sobre como habilitar e gerenciar o módulo de Armazenamento remoto, consulte [Configurar armazenamento remoto](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) no _Guia de configuração_.
+Para obter mais informações sobre como habilitar e gerenciar o módulo de Armazenamento remoto, consulte [Configurar armazenamento remoto](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=pt-BR) no _Guia de configuração_.
 
 >[!NOTE]
 >

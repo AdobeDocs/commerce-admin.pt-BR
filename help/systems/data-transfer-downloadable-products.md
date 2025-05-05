@@ -26,4 +26,4 @@ O arquivo CSV tem colunas separadas para `downloadable_links` e `downloadable_sa
 
   ![Exemplo de dados - produto baixável com amostras baixáveis](./assets/data-import-downloadable-samples.png){width="400" zoomable="yes"}
 
-Para obter mais informações sobre como habilitar e gerenciar o módulo de armazenamento remoto, consulte [Configurar armazenamento remoto](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) no _Guia de configuração_.
+Para obter mais informações sobre como habilitar e gerenciar o módulo de armazenamento remoto, consulte [Configurar armazenamento remoto](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=pt-BR) no _Guia de configuração_.

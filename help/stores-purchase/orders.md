@@ -187,5 +187,5 @@ A caixa Pesquisar no canto superior esquerdo da grade Pedidos pode ser usada par
 
 Para obter ajuda com a solução de problemas de pedidos, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
 
-- [Erro de exibição de pedidos](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
+- [Erro de exibição de pedidos](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=pt-BR)
 - [Pedidos não exibidos na grade Pedidos no Administrador](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

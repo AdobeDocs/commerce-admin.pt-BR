@@ -116,7 +116,7 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
 
 1. Se desejar que a página de categoria inclua a seção _`Filter by Attribute`_da navegação em camadas, defina **[!UICONTROL Anchor]**&#x200B;como `Yes`.
 
-1. Para as opções **[!UICONTROL Available Product Listing Sort By]**, selecione um ou mais dos valores disponíveis que estarão disponíveis para que os clientes classifiquem a lista. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Para as opções **[!UICONTROL Available Product Listing Sort By]**, selecione um ou mais dos valores disponíveis que estarão disponíveis para que os clientes classifiquem a lista. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    Por padrão, todos os valores disponíveis são incluídos. Desmarque a caixa de seleção **[!UICONTROL Use All]** para alterar as seleções. Por exemplo, os valores podem incluir:
 
@@ -124,7 +124,7 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
    - `Product Name`
    - `Price`
 
-1. Para definir a ordem de classificação padrão da categoria, escolha o valor **[!UICONTROL Default Product Listing Sort By]**. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Para definir a ordem de classificação padrão da categoria, escolha o valor **[!UICONTROL Default Product Listing Sort By]**. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Para alterar a configuração padrão de navegação em camada [etapa de preço](navigation-layered.md#configure-price-navigation), faça o seguinte:
 

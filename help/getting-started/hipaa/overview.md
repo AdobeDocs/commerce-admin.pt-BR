@@ -3,9 +3,10 @@ title: Disponibilidade para HIPAA no Adobe Commerce
 description: Saiba como adicionar a extensão do Adobe Commerce pronta para HIPAA e obtenha recursos e funcionalidades adicionais que permitem cumprir com as suas obrigações com a HIPAA.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 2807c36fdb4ca169c31a5e92b4dab278a45c474c
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2392'
 ht-degree: 1%
 
 ---
@@ -43,17 +44,17 @@ A tabela a seguir mostra a compatibilidade entre as versões do Adobe Commerce e
 
 | Adobe Commerce | Compatível | Notas |
 |----------------|-----------|-------|
-| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | O suporte para 2.4.7-p4 requer um [hotfix](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
+| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | O suporte para 2.4.7-p4 requer um [hotfix](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | O suporte para [serviços de dados](#adobe-commerce-services) foi introduzido na versão 1.1.0 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
 
 >[!IMPORTANT]
 >
->- A extensão pronta para HIPAA está disponível apenas para Adobe Systems Comércio na Cloud ou na Adobe Systems Comércio projetos Managed Services.
->- A extensão está disponível como um metapackage do Composer em `repo.magento.com`.
->- O acesso aos recursos prontos para HIPAA e funcionalidade requer o complemento de cuidados de saúde para Adobe Systems Comércio.
->- Adobe Systems não há suporte Comércio versões beta.
+>- A extensão pronta para HIPAA só está disponível para projetos do Adobe Commerce na nuvem ou do Adobe Commerce Managed Services.
+>- A extensão está disponível como um metapackage do Composer de `repo.magento.com`.
+>- O acesso aos recursos e funcionalidades prontos para HIPAA exige o complemento de assistência médica do Adobe Commerce.
+>- As versões beta do Adobe Commerce não são compatíveis.
 
 ## Instalação
 
@@ -62,7 +63,7 @@ A tabela a seguir mostra a compatibilidade entre as versões do Adobe Commerce e
 >[!BEGINSHADEBOX]
 
 - A Adobe provisionou sua conta do Adobe Commerce para acessar a extensão HIPAA Ready.
-- Acesso ao [repo.magento.com](https://repo.magento.com) para instalar a extensão. Para geração de chaves e obtenção dos direitos necessários, consulte [Obter suas chaves de autenticação](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=pt-BR).
+- Acesso ao [repo.magento.com](https://repo.magento.com) para instalar a extensão. Para geração de chaves e obtenção dos direitos necessários, consulte [Obter suas chaves de autenticação](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 >[!ENDSHADEBOX]
 
@@ -70,13 +71,13 @@ Instale a versão mais recente da extensão HIPAA-Ready Services da Adobe (`mage
 
 >[!NOTE]
 >
->Para garantir que os dados do evento de back office enviados para o Experience Platform estejam prontos para HIPAA, consulte o [guia de extensão de Conexão de Dados](https://experienceleague.adobe.com/pt-br/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Para garantir que os dados do evento de back office enviados para o Experience Platform estejam prontos para HIPAA, consulte o [guia de extensão de Conexão de Dados](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. Na estação de trabalho local, altere para o diretório do projeto do Adobe Commerce na infraestrutura em nuvem.
 
    >[!NOTE]
    >
-   >Para obter informações sobre o gerenciamento local de ambientes de projeto do Commerce, consulte [Gerenciamento de ramificações com a CLI](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/cli-branches) no _Guia do Usuário do Adobe Commerce na Infraestrutura da Nuvem_.
+   >Para obter informações sobre o gerenciamento local de ambientes de projeto do Commerce, consulte [Gerenciamento de ramificações com a CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) no _Guia do Usuário do Adobe Commerce na Infraestrutura da Nuvem_.
 
 1. Faça check-out da ramificação de ambiente para atualizar usando a CLI da Adobe Commerce Cloud.
 
@@ -90,13 +91,13 @@ Instale a versão mais recente da extensão HIPAA-Ready Services da Adobe (`mage
    composer require "magento/hipaa-ee" --no-update
    ```
 
-1. Atualize as dependências do pacote.
+1. Atualizar dependências de pacote.
 
    ```shell
    composer update "magento/hipaa-ee"
    ```
 
-1. Adicione, commite e pressione o código atualizado no nuvem ambiente.
+1. Adicione, confirme e envie por push o código atualizado para o ambiente de nuvem.
 
    ```shell
    git add -A
@@ -104,11 +105,11 @@ Instale a versão mais recente da extensão HIPAA-Ready Services da Adobe (`mage
    git push origin <branch-name>
    ```
 
-   Mover as atualizações inicia a [Comércio nuvem processo](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/deploy/process) implantação aplicação das alterações. Verifique o status do implantação no [log](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log) de implantar.
+   O envio das atualizações inicia o [processo de implantação da nuvem do Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) para aplicar as alterações. Verifique o status da implantação no [log de implantação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Verificar instalação
 
-Depois que as atualizações forem implantadas, verifique se a `Hipaa*` extensão está instalada
+Depois que as atualizações forem implantadas, verifique se a extensão `Hipaa*` está instalada
 
 1. Use o SSH para fazer logon no ambiente de nuvem remoto.
 
@@ -116,13 +117,13 @@ Depois que as atualizações forem implantadas, verifique se a `Hipaa*` extensã
    magento-cloud ssh
    ```
 
-1. Na linha de comando, use a Adobe Systems CLI Comércio para verificar o status módulo.
+1. Na linha de comando, use a Adobe Commerce CLI para verificar o status do módulo.
 
    ```shell
    bin/magento module:status
    ```
 
-1. Verifique se os módulos HIPAA estão incluídos na lista dos módulos habilitados:
+1. Verifique se os módulos HIPAA estão incluídos na lista de módulos habilitados:
 
    ```text
    List of enabled modules:
@@ -141,9 +142,9 @@ Depois que as atualizações forem implantadas, verifique se a `Hipaa*` extensã
    <truncated for brevity>
    ```
 
-   Todos os módulos com `Magento_Hipaa` prefixos devem estar na seção de módulos habilitados.
+   Todos os módulos com o prefixo `Magento_Hipaa` devem estar na seção de módulos habilitados.
 
-## Aprimoramentos de recursos para preparação HIPAA
+## Aprimoramentos de recursos para prontidão para HIPAA
 
 A extensão `magento/hipaa-ee` apresenta algumas alterações e aprimoramentos ao produto base do Commerce. As seções a seguir fornecem detalhes sobre essas alterações e como elas alteram o produto base.
 
@@ -170,35 +171,35 @@ Valores:
       - um nome de usuário se o tipo de cliente for Admin
       - um nome se o Tipo de cliente for Integração
 
-3. Renomeação da coluna Nome da ação ***completa para*** Target **&#x200B;**&#x200B;**
-   - **&#x200B;**&#x200B;**Target: Exibe o nome da ação.
+3. A coluna ***Nome da Ação Completa*** foi renomeada para ***Destino***
+   - ***Destino***: exibe o nome da ação.
 Valores:
-      - um terminal se Origem for uma API REST ou UMA API SOAP
-      - um nome de query ou mutação se uma API GraphQL
-      - um nome de ação se um administrador interface ou o Cliente interface.
+      - um endpoint se o Source for uma API REST ou uma API SOAP
+      - um nome de consulta ou mutação se uma API do GraphQL
+      - um nome de ação se for uma interface do usuário do administrador ou do cliente.
 
-#### Configurar ações de administrador para o fazendo logon
+#### Configurar ações do administrador para fazer logon
 
 Este recurso não está disponível porque todas as ações devem ser registradas por padrão.
 
-### Restrição de resultados Search do cliente HIPAA
+### Restrição dos resultados de pesquisa do cliente HIPAA
 
-A restrição de resultados Search do cliente HIPAA funcionalidade na Adobe Systems Comércio garante a conformidade com as regulamentações da HIPAA, limitando o acesso às Informações de Saúde Protegidas (PHI) e às Informações Pessoais Identificáveis (PII). Esse recurso restringe a capacidade de pesquisa e visualização registros de clientes com base em funções usuário, garantindo que apenas os usuários autorizados possam acessar essas informações.
+A funcionalidade HIPAA Customer Search Results Restriction (Restrição de resultados de pesquisa de clientes HIPAA) no Adobe Commerce garante a conformidade com as normas HIPAA, limitando o acesso a PHI (Protected Health Information, informações protegidas de saúde) e PII (Personally Identifying Information, informações pessoais identificáveis). Esse recurso restringe a capacidade de pesquisar e visualizar registros de clientes com base nas funções de usuário, garantindo que somente usuários autorizados possam acessar essas informações.
 
 #### Principais recursos
 
-- **Restrições Search: os usuários sem as funções necessárias** não podem pesquisa nem visualização registros de clientes.
-- **Search obrigatório para acesso**: ao contrário do Adobe Systems padrão Comércio comportamento, não é possível ver as informações do cliente sem executar uma pesquisa. Isso garante que os usuários saibam detalhes específicos sobre um cliente para localizar suas informações.
-- **Resultados Search limitados**: Search resultados correspondentes aos critérios são limitados a 10 registros, garantindo que apenas um número gerenciável de registros seja exibido de cada vez.
+- **Restrições de Pesquisa**: Usuários sem as funções necessárias não podem pesquisar ou exibir registros de clientes.
+- **Pesquisa obrigatória pelo Access**: ao contrário do comportamento padrão do Adobe Commerce, não é possível ver as informações do cliente sem realizar uma pesquisa. Isso garante que os usuários saibam detalhes específicos sobre um cliente para localizar suas informações.
+- **Resultados de Pesquisa Limitados**: os resultados de pesquisa correspondentes aos critérios são limitados a 10 registros, garantindo que apenas um número gerenciável de registros seja exibido por vez.
 - **Número mínimo de filtros**: os usuários devem aplicar no mínimo três filtros (por exemplo, email, sobrenome e estado) para realizar uma pesquisa, garantindo que as pesquisas sejam específicas e direcionadas.
-- **Filtrar Notificações**: quando pesquisa restrições são ativadas, os usuários são notificados a aplicar filtros para refinar seus resultados de pesquisa.
+- **Notificações de Filtro**: quando as restrições de pesquisa estão habilitadas, os usuários são notificados para aplicar filtros e refinar os resultados da pesquisa.
 
 #### Configuração
 
-A configuração para limitar o número de clientes no pesquisa resultados está localizada no painel administrador em **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Admin]** > **[!UICONTROL Admin Grids]**. Essa configuração é ativada por padrão quando a `hipaa-ee` extensão é instalada.
+A configuração para limitar o número de clientes nos resultados da pesquisa está localizada no painel de administração em **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Admin]** > **[!UICONTROL Admin Grids]**. Essa configuração é habilitada por padrão quando a extensão `hipaa-ee` é instalada.
 
-- **Número limite de clientes na grade**: esta configuração permite ativar ou desativar a limitação no número de clientes exibidos na grade pesquisa resultados.
-- **Customer Grid Search Result Limit**: esta configuração especifica o número máximo de registros do cliente que podem ser exibidos na grade pesquisa resultados.
+- **Limitar Número de Clientes na Grade**: esta configuração permite habilitar ou desabilitar a limitação do número de clientes exibidos nos resultados da pesquisa de grade.
+- **Limite de Resultados de Pesquisa de Grade do Cliente**: essa configuração especifica o número máximo de registros do cliente que podem ser exibidos nos resultados da pesquisa de grade.
 
 #### Áreas funcionais afetadas
 
@@ -215,96 +216,96 @@ A funcionalidade de restrição de resultados de pesquisa também se aplica à A
 
 - Sem filtros aplicados ou com filtros insuficientes, a API retorna uma mensagem de erro indicando que o número necessário de filtros é necessário para executar uma pesquisa.
 - Quando filtros suficientes são aplicados por usuários autorizados, a API retorna resultados dentro do limite especificado.
-- Quando os resultados são limitados, uma mensagem é adicionada à resposta, indicando o número total de registros encontrados e o limite aplicado atual.
+- Quando os resultados forem limitados, uma mensagem será adicionada à resposta indicando o número total de registros encontrados e o limite aplicado atual.
 
-### recursos de Importar e exportação
+### Importar e exportar recursos
 
-Os aprimoramentos nos recursos de importação e exportação estão focados em melhorar o experiência administrativo e proporcionar melhor visibilidade às ações de usuário.
+Os aprimoramentos nos recursos de importação e exportação se concentram em melhorar a experiência administrativa e fornecer maior visibilidade sobre as ações do usuário.
 
 >[!NOTE]
 >
->Esses ***aprimoramentos não alteram a lógica*** principal de Importar e de Exportação; ampliam a funcionalidade para oferta fazendo logon mais abrangentes e melhores atribuição de dados. As funcionalidade fundamentais de importação e exportação permanecem inalteradas. Os usuários podem continuar a usar os recursos e as workflows existentes sem qualquer interrupção.
+>Esses ***aprimoramentos não alteram a lógica principal de Importação e Exportação***; em vez disso, eles estendem a funcionalidade para oferecer um log mais abrangente e atribuições de dados aprimoradas. A funcionalidade fundamental de importação e exportação permanece inalterada. Os usuários podem continuar usando os recursos e fluxos de trabalho existentes sem interrupções.
 
-#### Ação administrativa fazendo logon
+#### Registro de ação administrativa
 
-Uma das principais melhorias nos recursos de importação e exportação é o aprimoramento fazendo logon das ações administrativas. Essa melhoria introduz a capacidade de aprofundar as atividades associadas à importação e à exportação de dados, contribuindo para a melhoria das rastreamento e da auditabilidade. As seguintes ações agora são registradas e refletidas no **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**&#x200B;grade:
+Uma das principais melhorias nos recursos de importação e exportação é o registro aprimorado de ações administrativas. Esse aprimoramento apresenta a capacidade de detalhar as atividades associadas à importação e exportação de dados, contribuindo para melhorar o rastreamento e a capacidade de auditoria. As seguintes ações foram registradas e refletidas na grade **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**:
 
 | Tipo | Ações |
 | ---- | ------- |
-| Importação | <ul><li>Um usuário administrador executa uma importação<li>Um usuário administrador baixa um arquivo importado<li>Um usuário administrador baixa um arquivo de erro<ul/> |
+| Importar | <ul><li>Um usuário administrador executa uma importação<li>Um usuário administrador baixa um arquivo importado<li>Um usuário administrador baixa um arquivo de erro<ul/> |
 | Exportar | <ul><li>Solicitações de um usuário administrador<li>Um usuário administrador baixa um arquivo exportado<ul/> |
-| Importações/exportações programadas | <ul><li>Um administrador usuário agenda a exportação<li>Um administrador usuário edita uma exportação agendada<li>Um administrador usuário executa uma exportação agendada<li>Um administrador usuário exclui uma exportação agendada<li>Um administrador usuário agenda uma importação<li>Um administrador usuário edita uma importação agendada<li>Um administrador usuário executa uma importação agendada<li>Um administrador usuário exclui uma importação agendada<li>Um administrador usuário executa uma exclusão em massa das operações de importação/exportação<ul/> |
+| Importações/exportações programadas | <ul><li>Um usuário administrador programa a exportação<li>Um usuário administrador edita uma exportação agendada<li>Um usuário administrador executa uma exportação agendada<li>Um usuário administrador exclui uma exportação agendada<li>Um usuário administrador programa uma importação<li>Um usuário administrador edita uma importação agendada<li>Um usuário administrador executa uma importação agendada<li>Um usuário administrador exclui uma importação agendada<li>Um usuário administrador executa uma exclusão em massa de operações de importação/exportação<ul/> |
 
-### Aprimoramentos de exibição e filtragem e classificação aprimorados
+### Melhorias na exibição e filtragem e classificação aprimoradas
 
-Para capacitar usuários administradores com grades mais informativas, o serviço HIPAA-Ready fornece vários aprimoramentos para exibir, filtrar e classificar dados.
+Para capacitar os usuários administradores com grades mais informativas, o serviço HIPAA-Ready oferece várias melhorias para exibir, filtrar e classificar dados.
 
-#### histórico de Importar ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Import History])
+#### Importar histórico ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Import History])
 
-- Ativação da filtragem para todas as colunas, exceto para **[!UICONTROL Imported File]**, **[!UICONTROL Error File]** e **[!UICONTROL Execution Time]**&#x200B;**[!UICONTROL Summary]**.
+- Filtragem habilitada para todas as colunas, exceto para **[!UICONTROL Imported File]**, **[!UICONTROL Error File]**, **[!UICONTROL Execution Time]** e **[!UICONTROL Summary]**.
 
 #### Exportar ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Export])
 
-- Adicionada uma **[!UICONTROL ID]** coluna.
-- Adicionada uma **[!UICONTROL Requested At]** coluna (_data e hora em que a exportação foi solicitada_).
-- Adicionada uma **[!UICONTROL User]** coluna (_nome de usuário de um administrador que fez o solicitação_).
-- Remoção de uma **[!UICONTROL Action]** coluna.
-- **[!UICONTROL Download]** O link foi movido para uma **[!UICONTROL File name]** coluna (_curtir à grade_ do Histórico Importar).
-- Desabilitou a ação responsável pela exclusão de um arquivo exportado (_para melhorar os rastreamento_).
-- Ativação da classificação para todas as colunas, exceto **[!UICONTROL File name]**.
-- Ativação da filtragem para todas as colunas.
+- Adicionada uma coluna **[!UICONTROL ID]**.
+- Adição de uma coluna **[!UICONTROL Requested At]** (_data e hora em que a exportação foi solicitada_).
+- Adição de uma coluna **[!UICONTROL User]** (_nome de usuário de um administrador que fez a solicitação_).
+- Coluna **[!UICONTROL Action]** removida.
+- O link **[!UICONTROL Download]** foi movido para uma coluna **[!UICONTROL File name]** (_como a grade Histórico de Importação_).
+- Desabilitada a ação responsável pela exclusão de um arquivo exportado (_para melhorar o rastreamento_).
+- Classificação habilitada para todas as colunas, exceto **[!UICONTROL File name]**.
+- Filtragem ativada para todas as colunas.
 
 #### Importações e exportações agendadas ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export])
 
-- Adicionada uma **[!UICONTROL ID]** coluna.
-- Adicionada uma **[!UICONTROL Scheduled At]** coluna (a data e a _hora em que a importação ou exportação estava agendada_).
+- Adicionada uma coluna **[!UICONTROL ID]**.
+- Adição de uma coluna **[!UICONTROL Scheduled At]** (a _data e hora agendadas da importação ou exportação_).
 - Adição de uma coluna **[!UICONTROL User]** (o _nome de usuário de um usuário Administrador que agendou a importação ou exportação_).
 
-## Serviços e ferramentas prontos para HIPAA
+## Ferramentas e serviços prontos para HIPAA
 
-Esta seção descreve os serviços de Adobe Systems prontos para HIPAA que estão disponíveis para uso com a oferta HIPAA para Adobe Systems Comércio. Ela também descreve ferramentas que podem ser usadas para ajudar a monitor principais controles de segurança e conformidade para suas armazenamento.
+Esta seção descreve os serviços da Adobe prontos para HIPAA que estão disponíveis para uso com a oferta HIPAA para Adobe Commerce. Ele também descreve ferramentas que podem ser usadas para ajudar a monitorar os principais controles de segurança e conformidade da sua loja.
 
-| Serviço | Produção | Preparo | preparo_para_suporte | Desenvolvimento |
+| Serviço | Produção | Estágios | preparo_para_suporte | Desenvolvimento |
 |---------------------------------------|------------|---------|---------------------|-------------|
 | Adobe Commerce com complemento de assistência médica | Sim | Sim | Sim | Não |
 | SendGrid | Não | Não | Não | Não |
-| Serviço de email simples do AWS | Sim | Sim | Sim | Não |
+| Serviço de email simples AWS | Sim | Sim | Sim | Não |
 
-### Serviços Comércio da Adobe Systems
+### Serviços da Adobe Commerce
 
-A tabela a seguir identifica Adobe Systems serviços Comércio disponíveis para a oferta de preparação HIPAA. Esses serviços incluem, entre outros:
+A tabela a seguir identifica os serviços da Adobe Commerce que estão disponíveis para a oferta de preparação para a HIPAA. Esses serviços incluem, entre outros:
 
 | Serviço | Não produção | Produção |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | Sim | Sim |
 | [Malha de API para Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Sim | Sim |
-| [Exportação de dados do SaaS](https://experienceleague.adobe.com/pt-br/docs/commerce/saas-data-export/overview) | Sim | Sim |
-| [Live search](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview) | Não | Não |
-| [recomendações do produto](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/overview) | Não | Não |
-| [Serviços de pagamento](https://experienceleague.adobe.com/pt-br/docs/commerce/payment-services/guide-overview) | Não | Não |
-| [Eventos de escritório Anterior de conexão de dados](https://experienceleague.adobe.com/pt-br/docs/commerce/data-connection/event-forwarding/events-backoffice) | Sim | Sim |
-| [Eventos de storefront de conexão de dados](https://experienceleague.adobe.com/pt-br/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Não | Não |
-| [Audience Activation](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/audience-activation) | Não | Não |
+| [Exportação De Dados SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Sim | Sim |
+| [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Não | Não |
+| [Recomendações de produto](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Não | Não |
+| [Serviços de pagamento](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Não | Não |
+| [Eventos de Back-Office da Conexão de Dados](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Sim | Sim |
+| [Eventos de Data Connection Storefront](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Não | Não |
+| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Não | Não |
 
 ### Ferramentas
 
-A [Ferramenta](../../systems/security-scan.md) de Verificação de Segurança para Adobe Systems Comércio ajuda você a monitor armazenamento para garantir que todos os controles de segurança necessários estejam ativados e operacionais. Além das verificações de segurança padrão, a Adobe Systems melhorou a ferramenta de exibir verificações específicas hipaa para clientes que usam a oferta HIPAA para Adobe Systems Comércio. As verificações HIPAA na Ferramenta de Verificação de Segurança foram projetadas para garantir que:
+A [Ferramenta de Verificação de Segurança](../../systems/security-scan.md) para Adobe Commerce ajuda a monitorar seu armazenamento para garantir que todos os controles de segurança necessários estejam habilitados e operacionais. Além das verificações de segurança padrão, a Adobe aprimorou a ferramenta para exibir verificações específicas de HIPAA para clientes que usam a oferta HIPAA para Adobe Commerce. As verificações de HIPAA na Ferramenta de verificação de segurança foram criadas para garantir que:
 
 - Os módulos de auditoria não estão desabilitados
 - A autenticação de dois fatores (2FA) não está desabilitada
 - Os recursos de marketing estão desativados
-- Todas as extensões instaladas correspondem a uma lista de permissões predefinida
-- Nenhum serviço de Adobe Systems não suportado está instalado
+- Incluir na lista de permissões Todas as extensões instaladas correspondem a um arquivo de pesquisa predefinido
+- Não há serviços da Adobe instalados sem suporte
 
-Você pode [configurar a ferramenta](../../systems/security-scan.md#run-a-security-scan) para enviar notificações por e-mail com detalhes de verificações agendadas ou [relatórios visualização](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report) manualmente.
+Você pode [configurar a ferramenta](../../systems/security-scan.md#run-a-security-scan) para enviar notificações por email com detalhes de verificações agendadas ou [exibir relatórios manualmente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
 
-## Recursos desativados
+## Recursos desabilitados
 
-Para atender aos requisitos HIPAA, alguns recursos suportados pelo Adobe Systems Comércio não estão disponíveis ou desabilitados por padrão. Os comerciantes têm a opção de reativar ou usar esses recursos por sua conta e risco.
+Para estar em conformidade com os requisitos da HIPAA, alguns recursos compatíveis com o Adobe Commerce não estão disponíveis ou estão desativados por padrão. Os comerciantes têm a opção de reativar ou usar esses recursos por sua conta e risco.
 
 Os recursos a seguir são desativados por padrão no módulo de preparação para HIPAA. Os comerciantes podem ativar qualquer um desses recursos por sua conta e risco.
 
-- **[Email transacional](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=pt-BR)** — SendGrid está desabilitado por padrão porque o serviço não está pronto para HIPAA. O Adobe Commerce fornece uma opção de integração que você pode usar com sua própria conta do [AWS Simple Email Service](https://docs.aws.amazon.com/ses/). Entre em contato com o Gerente técnico de conta do cliente ou com o Suporte da Adobe Commerce para obter detalhes sobre a configuração.
+- **[Email transacional](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** — SendGrid está desabilitado por padrão porque o serviço não está pronto para HIPAA. O Adobe Commerce fornece uma opção de integração que você pode usar com sua própria conta do [AWS Simple Email Service](https://docs.aws.amazon.com/ses/). Entre em contato com o Gerente técnico de conta do cliente ou com o Suporte da Adobe Commerce para obter detalhes sobre a configuração.
 
 - **[Check-out de convidado](../../stores-purchase/checkout-guest.md)**—Este recurso apresenta um risco potencial para vários aspectos da HIPAA, incluindo registro, controle de acesso, higiene e linhagem de PHI e possivelmente mais.
 

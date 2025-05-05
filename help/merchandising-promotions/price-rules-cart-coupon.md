@@ -3,9 +3,9 @@ title: Códigos de cupom
 description: Saiba como usar códigos de cupons com regras de preço de carrinho para aplicar um desconto quando um conjunto de condições é atendido.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ O comprimento e o formato dos códigos de cupom gerados automaticamente são con
 
 >[!NOTE]
 >
->Antes de criar cupons, use o comando `bin/magento cron:run` para verificar se o cron está em execução. Consulte [Executar cron a partir da linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=pt-BR#run-cron-from-the-command-line) no _Guia de Configuração_ para obter mais informações.
+>[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Antes de criar cupons, use o comando `bin/magento cron:run` para verificar se o cron está em execução. Consulte [Executar cron a partir da linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) no _Guia de Configuração_ para obter mais informações.
 
 ### Método 1: criar um cupom específico
 
@@ -172,7 +172,7 @@ Para excluir códigos de cupom, selecione um ou mais códigos na lista. Selecion
 
 >[!NOTE]
 >
->Embora a Commerce permita configurar vários códigos de cupom, um cliente pode usar apenas um código de cupom no carrinho. Para permitir o uso de mais de um código de cupom no carrinho simultaneamente, considere o uso de uma extensão correspondente de [Commerce Marketplace](https://marketplace.magento.com/).
+>Embora a Commerce permita configurar vários códigos de cupom, um cliente pode usar apenas um código de cupom no carrinho. Para permitir o uso de mais de um código de cupom no carrinho simultaneamente, você pode considerar o uso de uma extensão correspondente do [Commerce Marketplace](https://marketplace.magento.com/).
 
 ## Relatório de cupons
 

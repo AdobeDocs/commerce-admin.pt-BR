@@ -4,9 +4,9 @@ description: Saiba como configurar o gerenciamento de sessão para proteger o Ad
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: aabbf6d37a2c7fa730e1f3673edfb414685008b6
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,8 @@ Use as seguintes configurações para limitar o tamanho máximo da sessão para 
 
 ### Sessões de administrador
 
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+
 Se você exceder o tamanho máximo de sessão, uma mensagem de erro será exibida e o sistema registrará a restrição de tamanho de sessão no diretório `var/log`.
 
 Se você perder o acesso ao Administrador depois de definir o tamanho da sessão como muito baixo, use a CLI para redefinir a configuração:
@@ -58,25 +60,27 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Sessões de vitrine eletrônica
 
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+
 Se você exceder o tamanho máximo de sessão, nenhum erro será exibido, mas o sistema registrará a restrição de tamanho de sessão no diretório `var/log`.
 
 ## Validação de sessão
 
 O Adobe Commerce e o Magento Open Source permitem validar variáveis de sessão como uma medida de proteção contra possíveis ataques de fixação de sessão ou tentativas de envenenar ou sequestrar sessões de usuário. As Configurações de validação de sessão determinam como as variáveis de sessão são validadas durante cada visita de armazenamento e se a ID da sessão é incluída no URL do armazenamento.
 
-Para obter informações técnicas, consulte [Usar Redis para armazenamento de sessão](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=pt-BR) no _Guia de Configuração_.
+Para obter informações técnicas, consulte [Usar Redis para armazenamento de sessão](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) no _Guia de Configuração_.
 
 ![Configuração geral - Validação de sessão da Web](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
 A validação verifica se os visitantes são quem dizem ser comparando o valor nas variáveis de validação com os dados da sessão armazenados nos dados `$_SESSION` para o usuário. A validação falhará se as informações não forem transmitidas conforme esperado e a variável correspondente estiver vazia. Dependendo das configurações de validação da sessão, se uma variável de sessão falhar no processo de validação, a sessão do cliente será encerrada imediatamente.
 
-Ativar todas as variáveis de validação pode ajudar a evitar ataques, mas também pode afetar o desempenho do servidor. Por padrão, toda validação de variável de sessão é desativada. Recomendamos que você experimente as configurações para encontrar a melhor combinação para sua instalação do Adobe Commerce ou Magento Open Source. A ativação de todas as variáveis de validação pode ser desnecessariamente restritiva e pode impedir o acesso a clientes que têm conexões com a Internet que passam por um servidor proxy ou são originários de um firewall. Para saber mais sobre as variáveis de sessão e seu uso, consulte a documentação de administração do sistema Linux®.
+Ativar todas as variáveis de validação pode ajudar a evitar ataques, mas também pode afetar o desempenho do servidor. Por padrão, toda validação de variável de sessão é desativada. Recomendamos que você experimente as configurações para encontrar a melhor combinação para sua instalação do Adobe Commerce ou do Magento Open Source. A ativação de todas as variáveis de validação pode ser desnecessariamente restritiva e pode impedir o acesso a clientes que têm conexões com a Internet que passam por um servidor proxy ou são originários de um firewall. Para saber mais sobre as variáveis de sessão e seu uso, consulte a documentação de administração do sistema Linux®.
 
 **_Para configurar a validação da sessão:_**
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel esquerdo, expanda _[!UICONTROL General]_&#x200B;e escolha **[!UICONTROL Web]**.
+1. No painel esquerdo, expanda _[!UICONTROL General]_e escolha **[!UICONTROL Web]**.
 
 1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Session Validation Settings]**.
 

@@ -86,13 +86,13 @@ Na página, os blocos de conteúdo flutuam para preencher o espaço disponível,
 
 ![Diagrama - layout de uma coluna](./assets/layout-1-col-th.png){zoomable="yes"}
 
-O layout _[!UICONTROL 1 Column]_pode ser usado para criar uma página inicial dramática com uma imagem grande ou ponto focal. Também é uma boa opção para uma página de aterrissagem ou qualquer outra página que tenha uma combinação de texto, imagens e vídeo.
+O layout _[!UICONTROL 1 Column]_&#x200B;pode ser usado para criar uma página inicial dramática com uma imagem grande ou ponto focal. Também é uma boa opção para uma página de aterrissagem ou qualquer outra página que tenha uma combinação de texto, imagens e vídeo.
 
 ### Duas colunas com barra esquerda
 
 ![Diagrama - layout de duas colunas com barra esquerda](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-O layout _[!UICONTROL 2 Columns with Left Bar]_é usado com frequência para páginas com navegação à esquerda, como páginas de catálogo ou de resultados de pesquisa com navegação em camadas. Também é uma excelente opção para páginas iniciais que precisam de navegação adicional ou blocos de conteúdo de suporte à esquerda.
+O layout _[!UICONTROL 2 Columns with Left Bar]_&#x200B;é usado com frequência para páginas com navegação à esquerda, como páginas de catálogo ou de resultados de pesquisa com navegação em camadas. Também é uma excelente opção para páginas iniciais que precisam de navegação adicional ou blocos de conteúdo de suporte à esquerda.
 
 ### Duas colunas com barra direita
 
@@ -104,10 +104,10 @@ Com um layout _[!UICONTROL 2 Columns with Right Bar]_, a área de conteúdo prin
 
 ![Diagrama - layout de três colunas](./assets/layout-3-col-th.png){zoomable="yes"}
 
-O layout _[!UICONTROL 3 Column]_tem uma coluna central larga o suficiente para o texto principal da página, com espaço em cada lado para navegação adicional e blocos de conteúdo de suporte.
+O layout _[!UICONTROL 3 Column]_&#x200B;tem uma coluna central larga o suficiente para o texto principal da página, com espaço em cada lado para navegação adicional e blocos de conteúdo de suporte.
 
 ### Empty
 
 ![Diagrama - layout vazio](./assets/layout-blank-th.png){zoomable="yes"}
 
-O layout _[!UICONTROL Empty]_pode ser usado para definir layouts de página personalizados.
+O layout _[!UICONTROL Empty]_&#x200B;pode ser usado para definir layouts de página personalizados.

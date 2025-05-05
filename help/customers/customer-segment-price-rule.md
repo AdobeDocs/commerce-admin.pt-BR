@@ -18,7 +18,7 @@ Um segmento de cliente pode ser usado para promoções segmentadas, associando-o
 
 ![Regra de preço do carrinho - segmento de cliente direcionado](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_**Para associar um segmento a uma regra de preço de carrinho:**_
+_&#x200B;**Para associar um segmento a uma regra de preço de carrinho:**&#x200B;_
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _Promoções_ > **[!UICONTROL Cart Price Rules]**.
 

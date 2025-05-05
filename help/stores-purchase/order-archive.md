@@ -18,7 +18,7 @@ O arquivamento de pedidos melhora regularmente o desempenho e mantém seu espaç
 
 >[!NOTE]
 >
->A opção _[!UICONTROL Archive]_aparece no menu [[!UICONTROL Sales]](sales-menu.md) somente quando o arquivamento está [habilitado](../configuration-reference/sales/sales.md).
+>A opção _[!UICONTROL Archive]_&#x200B;aparece no menu [[!UICONTROL Sales]](sales-menu.md) somente quando o arquivamento está [habilitado](../configuration-reference/sales/sales.md).
 
 ## Configurar o arquivo de pedidos
 
@@ -52,7 +52,7 @@ Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de c
 
 ## Visualizar documentos arquivados
 
-1. No menu _[!UICONTROL Sales]_, em_[!UICONTROL Archive]_, escolha uma das opções a seguir:
+1. No menu _[!UICONTROL Sales]_, em&#x200B;_[!UICONTROL Archive]_, escolha uma das opções a seguir:
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -111,7 +111,7 @@ Selecione cada documento para ser o destino da ação e escolha um dos seguintes
 
 1. Clique em **[!UICONTROL Export]**.
 
-Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de crédito após um número definido de dias. Você pode mover pedidos e seus documentos associados para o arquivo morto ou restaurá-los ao estado anterior. Os pedidos arquivados não são excluídos e permanecem disponíveis no Administrador. Os dados arquivados podem ser exportados para um arquivo CSV e abertos em uma planilha. Quando habilitado, o comando _[!UICONTROL Archive]_aparece na parte superior do espaço de trabalho.
+Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de crédito após um número definido de dias. Você pode mover pedidos e seus documentos associados para o arquivo morto ou restaurá-los ao estado anterior. Os pedidos arquivados não são excluídos e permanecem disponíveis no Administrador. Os dados arquivados podem ser exportados para um arquivo CSV e abertos em uma planilha. Quando habilitado, o comando _[!UICONTROL Archive]_&#x200B;aparece na parte superior do espaço de trabalho.
 
 ## Arquivar ordens manualmente
 
@@ -137,7 +137,7 @@ Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de c
 
    >[!NOTE]
    >
-   >Assim como a página Pedidos, o título da página de pedidos arquivados é _[!UICONTROL Orders]_. A única diferença visível é a opção na barra de botões para_[!UICONTROL Return to Orders Management]_. O URL da página também indica que você está na ordem de arquivamento.
+   >Assim como a página Pedidos, o título da página de pedidos arquivados é _[!UICONTROL Orders]_. A única diferença visível é a opção na barra de botões para&#x200B;_[!UICONTROL Return to Orders Management]_. O URL da página também indica que você está na ordem de arquivamento.
 
 1. Na coluna _Ação_, clique em **[!UICONTROL View]**.
 

@@ -56,7 +56,7 @@ Você pode aplicar um modelo a uma área de conteúdo [!DNL Page Builder] (pági
 
    ![[!DNL Page Builder] Botão Aplicar modelo](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. Escolha um modelo na grade _[!UICONTROL Apply Template]_e clique em **[!UICONTROL Apply]**no final da linha.
+1. Escolha um modelo na grade _[!UICONTROL Apply Template]_&#x200B;e clique em **[!UICONTROL Apply]**&#x200B;no final da linha.
 
    Para ver todo o modelo, você pode clicar na imagem em miniatura do modelo. Essa ação expande a imagem para que você possa visualizar todo o modelo conforme necessário.
 

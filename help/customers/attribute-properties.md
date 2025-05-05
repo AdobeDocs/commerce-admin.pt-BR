@@ -36,7 +36,7 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
 
    >[!TIP]
    >
-   >**Atalho:** Para preencher apenas os campos obrigatórios, role até _[!UICONTROL Storefront Properties]_, digite o_[!UICONTROL Sort Order]_ e salve.
+   >**Atalho:** Para preencher apenas os campos obrigatórios, role até _[!UICONTROL Storefront Properties]_, digite o&#x200B;_[!UICONTROL Sort Order]_ e salve.
 
 1. Complete as propriedades de entrada de dados:
 
@@ -47,7 +47,7 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
      | `Text Field` | Um campo de texto de linha única. |
      | `Text Area` | Um campo de entrada de várias linhas para inserir parágrafos de texto, como uma descrição do produto. Você pode usar o editor WYSIWYG para formatar o texto com tags HTML ou inserir as tags diretamente no texto. |
      | `Multiple Line` | Cria várias linhas de texto para o atributo, de modo semelhante a um endereço de várias linhas. O número de linhas de entrada de dados separadas pode ser de dois a 20. Use o `Default Value` para especificar o valor inicial do campo. |
-     | `Date` | Exibe um valor de data no formato de data e fuso horário preferidos. Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**Dependendo da configuração do seu sistema, os usuários do_Administrador _podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Exibe um valor de data no formato de data e fuso horário preferidos. Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**&#x200B;Dependendo da configuração do seu sistema, os usuários do_Administrador _podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Exibe uma lista suspensa com opções predefinidas de `Yes` e `No`. |
      | `Dropdown` | Exibe uma lista suspensa de valores que aceitam apenas uma única seleção. O tipo de entrada suspensa é um componente chave de [produtos configuráveis](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Uma lista suspensa que aceita vários valores a serem selecionados. |
@@ -163,7 +163,7 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
 | `lastname` | O sobrenome do cliente. |
 | `suffix` | Qualquer sufixo usado com o nome do cliente. (como Jr., Sr. ou Esquire) |
 | `email` | O endereço de email do cliente. |
-| `dob` | A data de nascimento do cliente.  <br><br>**_Importante:_**de acordo com as práticas recomendadas atuais de segurança e privacidade, esteja ciente de todos os possíveis riscos legais e de segurança associados ao armazenamento da data de nascimento completa do cliente (mês, dia, ano) com outros identificadores pessoais. É recomendável limitar o armazenamento das datas de nascimento completas dos clientes e sugerir o uso do ano de nascimento do cliente como alternativa. |
+| `dob` | A data de nascimento do cliente.  <br><br>**_Importante:_**&#x200B;de acordo com as práticas recomendadas atuais de segurança e privacidade, esteja ciente de todos os possíveis riscos legais e de segurança associados ao armazenamento da data de nascimento completa do cliente (mês, dia, ano) com outros identificadores pessoais. É recomendável limitar o armazenamento das datas de nascimento completas dos clientes e sugerir o uso do ano de nascimento do cliente como alternativa. |
 | `taxvat` | A ID do IVA (Imposto sobre Valor Agregado) atribuída ao cliente. O rótulo padrão deste atributo é `VAT Number`. O campo VAT number está sempre presente em todos os endereços de cliente de remessa e faturamento quando visualizado do administrador, mas não é um campo obrigatório. |
 | `gender` | O sexo do cliente. |
 

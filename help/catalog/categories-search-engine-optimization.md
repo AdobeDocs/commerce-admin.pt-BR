@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Categorias - Configurações de otimização do mecanismo de pesquisa
 
-A seção _[!UICONTROL Search Engine Optimization]_especifica os campos [Chave de URL](catalog-urls.md) e [metadados](../merchandising-promotions/meta-data.md) usados pelos mecanismos de pesquisa para indexar a categoria. Embora alguns mecanismos de pesquisa ignorem metapalavras-chave, outros continuam a usá-las. A prática recomendada da SEO atual é incorporar palavras-chave de alto valor no metatítulo e na metadescrição.
+A seção _[!UICONTROL Search Engine Optimization]_&#x200B;especifica os campos [Chave de URL](catalog-urls.md) e [metadados](../merchandising-promotions/meta-data.md) usados pelos mecanismos de pesquisa para indexar a categoria. Embora alguns mecanismos de pesquisa ignorem metapalavras-chave, outros continuam a usá-las. A prática recomendada da SEO atual é incorporar palavras-chave de alto valor no metatítulo e na metadescrição.
 
 ![Otimização do Mecanismo de Pesquisa](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

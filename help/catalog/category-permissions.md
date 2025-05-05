@@ -24,7 +24,7 @@ Por exemplo, se você vender somente para clientes grossistas, poderá permitir 
 
 ![Usuários conectados veem a categoria &quot;Coleções&quot;](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
-Quando habilitada, uma nova seção _[!UICONTROL Category Permissions]_é exibida na página Categoria, permitindo que você aplique o acesso necessário para cada categoria. Você pode adicionar várias regras de permissão a cada categoria para sites e grupos de clientes diferentes.
+Quando habilitada, uma nova seção _[!UICONTROL Category Permissions]_&#x200B;é exibida na página Categoria, permitindo que você aplique o acesso necessário para cada categoria. Você pode adicionar várias regras de permissão a cada categoria para sites e grupos de clientes diferentes.
 
 ## Etapa 1: configurar permissões de categoria
 
@@ -74,7 +74,7 @@ Para **_restringir o acesso e redirecionar para uma página de aterrissagem_**, 
 
    >[!NOTE]
    >
-   >Embora a configuração _[!UICONTROL Allow Browsing Category]_se aplique a todas as categorias do site, você pode configurar uma página de aterrissagem diferente para cada exibição de loja.
+   >Embora a configuração _[!UICONTROL Allow Browsing Category]_&#x200B;se aplique a todas as categorias do site, você pode configurar uma página de aterrissagem diferente para cada exibição de loja.
 
 ### [!UICONTROL Display Product Prices]
 

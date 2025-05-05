@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Quaisquer ações executadas durante o logon como cliente são aplicadas à conta do cliente real.
 
-Quando habilitado para um usuário _Administrador_, o botão _[!UICONTROL Login as Customer]_aparece em várias páginas:
+Quando habilitado para um usuário _Administrador_, o botão _[!UICONTROL Login as Customer]_&#x200B;aparece em várias páginas:
 
 * [Página Customer Edit](../customers/update-account.md)
 * [Página de exibição de pedidos](../stores-purchase/order-processing.md)

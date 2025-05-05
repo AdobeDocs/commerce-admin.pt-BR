@@ -56,7 +56,7 @@ O imposto da loja é calculado com base no endereço da loja. O imposto real do 
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
-1. Localize a alíquota de imposto na grade _[!UICONTROL Tax Zones and Rates]_e abra o registro no modo de edição.
+1. Localize a alíquota de imposto na grade _[!UICONTROL Tax Zones and Rates]_&#x200B;e abra o registro no modo de edição.
 
    Se houver muitas taxas na lista, use os [controles de filtro](../getting-started/admin-grid-controls.md) para encontrar a taxa necessária.
 

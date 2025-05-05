@@ -68,7 +68,7 @@ No exemplo a seguir, é possível adicionar um conjunto de variações de produt
 
    - Defina **[!UICONTROL Export File Format]** como `CSV`.
 
-1. Em _[!UICONTROL Entity Attributes]_, role para baixo ou use o filtro de rótulo de atributo para localizar o atributo **[!UICONTROL SKU]**e faça o seguinte:
+1. Em _[!UICONTROL Entity Attributes]_, role para baixo ou use o filtro de rótulo de atributo para localizar o atributo **[!UICONTROL SKU]**&#x200B;e faça o seguinte:
 
    - Insira o SKU do produto configurável que você escolheu exportar e clique em **[!UICONTROL Continue]**.
 
@@ -152,9 +152,9 @@ No exemplo a seguir, o conjunto de tamanhos XL é copiado e colado na planilha p
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. Em _[!UICONTROL Import Settings]_, defina **[!UICONTROL Entity Type]**como `Products`.
+1. Em _[!UICONTROL Import Settings]_, defina **[!UICONTROL Entity Type]**&#x200B;como `Products`.
 
-1. Em _[!UICONTROL Import Behavior]_, defina **[!UICONTROL Import Behavior]**como `Add/Update`.
+1. Em _[!UICONTROL Import Behavior]_, defina **[!UICONTROL Import Behavior]**&#x200B;como `Add/Update`.
 
    ![Comportamento de importação de dados](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 

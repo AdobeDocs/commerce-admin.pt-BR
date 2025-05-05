@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configurações do produto - [!UICONTROL Product Reviews]
 
-A seção _[!UICONTROL Product Reviews]_lista todas as análises que os clientes enviaram sobre o produto. Esta seção é exibida com as outras informações do produto somente depois que um novo produto é salvo pela primeira vez. Para obter mais informações, consulte [Avaliações do Produto](../merchandising-promotions/product-reviews.md).
+A seção _[!UICONTROL Product Reviews]_&#x200B;lista todas as análises que os clientes enviaram sobre o produto. Esta seção é exibida com as outras informações do produto somente depois que um novo produto é salvo pela primeira vez. Para obter mais informações, consulte [Avaliações do Produto](../merchandising-promotions/product-reviews.md).
 
 ![Avaliações do Produto](./assets/product-review.png){width="600" zoomable="yes"}
 

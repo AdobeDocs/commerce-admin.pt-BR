@@ -43,7 +43,7 @@ Para uma instalação com várias lojas, o Estoque Padrão é atribuído inicial
 
 | Botão | Descrição |
 |--|--|
-| [!UICONTROL Add New Stock] | Abre o formulário _[!UICONTROL New Stock]_usado para inserir um novo estoque de estoque para mapear o estoque para o canal de vendas. |
+| [!UICONTROL Add New Stock] | Abre o formulário _[!UICONTROL New Stock]_&#x200B;usado para inserir um novo estoque de estoque para mapear o estoque para o canal de vendas. |
 
 ## Descrições da coluna Gerenciar estoque
 

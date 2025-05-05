@@ -20,7 +20,7 @@ Os clientes que mantêm seus catálogos de endereços atualizados podem agilizar
 
 1. Na navegação à esquerda da conta do cliente, o cliente escolhe **[!UICONTROL Address Book]**.
 
-1. Na página _[!UICONTROL Address Book]_em_ Entradas de Endereço Adicionais _, clique em **[!UICONTROL Add New Address]**.
+1. Na página _[!UICONTROL Address Book]_&#x200B;em_ Entradas de Endereço Adicionais _, clique em **[!UICONTROL Add New Address]**.
 
    ![Adicionar novo endereço](assets/add-new-address.png){width="600" zoomable="yes"}
 

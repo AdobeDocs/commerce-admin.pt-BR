@@ -60,7 +60,7 @@ Se houver várias regras de preço em execução na mesma campanha, a configura�
 
    >[!NOTE]
    >
-   >Se você alterar para qualquer um dos parâmetros de informações da regra, verifique se _[!UICONTROL Status]_está definido corretamente. Se você quiser que a alteração resulte em uma regra aplicada ativamente, o status deverá ser `Active`.
+   >Se você alterar para qualquer um dos parâmetros de informações da regra, verifique se _[!UICONTROL Status]_&#x200B;está definido corretamente. Se você quiser que a alteração resulte em uma regra aplicada ativamente, o status deverá ser `Active`.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
@@ -114,4 +114,4 @@ Se houver várias regras de preço em execução na mesma campanha, a configura�
 
    Para ver as alterações agendadas para diferentes modos de exibição de armazenamento, clique em **[!UICONTROL Scope]** no cabeçalho da página de Visualização. Escolha o modo de exibição de site, loja ou loja que deseja visualizar.
 
-1. Se necessário, retorne ao calendário e clique em **[!UICONTROL View/Edit]** na coluna _[!UICONTROL Action]_para abrir outra atualização agendada.
+1. Se necessário, retorne ao calendário e clique em **[!UICONTROL View/Edit]** na coluna _[!UICONTROL Action]_&#x200B;para abrir outra atualização agendada.

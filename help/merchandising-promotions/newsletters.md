@@ -30,7 +30,7 @@ A primeira etapa na criação de informativos é definir as configurações do i
 
 1. Para habilitar informativos para o escopo de exibição de armazenamento, defina **[!UICONTROL Enabled]** como `Yes`.
 
-Depois de habilitar a função de boletim informativo, a seção _[!UICONTROL Subscription Options]_é exibida.
+Depois de habilitar a função de boletim informativo, a seção _[!UICONTROL Subscription Options]_&#x200B;é exibida.
 
 ## Configurar as opções de assinatura
 

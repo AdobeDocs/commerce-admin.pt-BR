@@ -69,7 +69,7 @@ Quando há um desconto com imposto incorporado, o Commerce calcula um _imposto o
 
 1. Como o cliente geralmente entende o preço com desconto (Total do pedido):
 
-   _Preço total do item incluindo impostos **menos**o valor do desconto: US$100 - US$8,33 = US$91,67_
+   _Preço total do item incluindo impostos **menos**&#x200B;o valor do desconto: US$100 - US$8,33 = US$91,67_
 
 1. **Como o Commerce calcula o preço com desconto** (consulte a fórmula anteriormente):
 

@@ -27,7 +27,7 @@ Os campos relacionados à Data inicial e à Data final foram removidos do Adobe 
 
 Todas as atualizações programadas são aplicadas consecutivamente, o que significa que qualquer entidade pode ter apenas uma atualização programada de cada vez. Qualquer atualização agendada é aplicada a todas as exibições de loja dentro de seu período de tempo. Como resultado, uma entidade não pode ter uma atualização agendada diferente para diferentes exibições de loja ao mesmo tempo. Todos os valores de atributo de entidade em todas as exibições de armazenamento, que não são afetados pela atualização agendada atual, são obtidos dos valores padrão, e não da atualização agendada anterior.
 
-Quando uma nova atualização agendada é criada para qualquer um dos seguintes objetos, uma campanha correspondente é criada como um espaço reservado e a caixa _[!UICONTROL Scheduled Changes]_é exibida na parte superior da página. A campanha de espaço reservado tem uma data inicial, mas não uma data final. Você pode agendar atualizações no conteúdo como parte de uma campanha, bem como pré-visualizar e compartilhar as alterações por data, hora ou exibição de loja. Depois que uma nova campanha é criada para um objeto, você pode atribuí-la como uma atualização programada para outros objetos.
+Quando uma nova atualização agendada é criada para qualquer um dos seguintes objetos, uma campanha correspondente é criada como um espaço reservado e a caixa _[!UICONTROL Scheduled Changes]_&#x200B;é exibida na parte superior da página. A campanha de espaço reservado tem uma data inicial, mas não uma data final. Você pode agendar atualizações no conteúdo como parte de uma campanha, bem como pré-visualizar e compartilhar as alterações por data, hora ou exibição de loja. Depois que uma nova campanha é criada para um objeto, você pode atribuí-la como uma atualização programada para outros objetos.
 
 - [Produtos](../catalog/product-scheduled-changes.md)
 - [Categorias](../catalog/category-scheduled-changes.md)
@@ -40,13 +40,13 @@ Quando uma nova atualização agendada é criada para qualquer um dos seguintes 
 
 1. **Criar o conteúdo da linha de base**
 
-   A linha de base é o conteúdo de um ativo sem uma campanha e inclui tudo abaixo da seção _[!UICONTROL Scheduled Changes]_na parte superior da página. O conteúdo da linha de base é sempre usado, a menos que haja uma campanha ativa com alterações programadas para esse local na linha do tempo.
+   A linha de base é o conteúdo de um ativo sem uma campanha e inclui tudo abaixo da seção _[!UICONTROL Scheduled Changes]_&#x200B;na parte superior da página. O conteúdo da linha de base é sempre usado, a menos que haja uma campanha ativa com alterações programadas para esse local na linha do tempo.
 
 1. **Criar a primeira campanha**
 
    Crie sua primeira campanha com as datas de início e término conforme necessário. Para tornar a campanha aberta, deixe a data final em branco. Quando a primeira campanha terminar, o conteúdo original da linha de base será restaurado.
 
-   A data de início e a data de término da campanha devem ser definidas usando o fuso horário padrão **_1} do administrador, que é convertido do fuso horário local de cada site._** Considere um exemplo em que você tem vários sites em fusos horários diferentes, mas deseja iniciar uma campanha com base em um fuso horário dos EUA. Nesse caso, você deve agendar uma atualização separada para cada fuso horário local e definir **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** como convertidos de cada fuso horário de site local para o fuso horário padrão do Administrador.
+   A data de início e a data de término da campanha devem ser definidas usando o fuso horário padrão **_1&rbrace; do administrador, que é convertido do fuso horário local de cada site._** Considere um exemplo em que você tem vários sites em fusos horários diferentes, mas deseja iniciar uma campanha com base em um fuso horário dos EUA. Nesse caso, você deve agendar uma atualização separada para cada fuso horário local e definir **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** como convertidos de cada fuso horário de site local para o fuso horário padrão do Administrador.
 
 1. **Adicionar uma segunda campanha**
 

@@ -95,7 +95,7 @@ Os sites de rede social têm vários plug-ins que podem ser facilmente adicionad
 
    - Insira um número no campo **[!UICONTROL Sort Order]** para determinar a ordem do bloco se ele foi designado para aparecer no mesmo local da página que outros elementos de conteúdo. A posição superior é zero.
 
-1. Na seção _[!UICONTROL Layout Updates]_, clique em **[!UICONTROL Add Layout Update]**e defina **[!UICONTROL Display On]**como a categoria, o produto ou a página em que deseja que o bloco apareça.
+1. Na seção _[!UICONTROL Layout Updates]_, clique em **[!UICONTROL Add Layout Update]**&#x200B;e defina **[!UICONTROL Display On]**&#x200B;como a categoria, o produto ou a página em que deseja que o bloco apareça.
 
    Por exemplo, se você escolher `All Pages` e posicionar o bloco no cabeçalho ou no rodapé, o bloco aparecerá no mesmo lugar em todas as páginas da loja.
 

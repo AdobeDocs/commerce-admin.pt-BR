@@ -26,9 +26,9 @@ Os seguintes requisitos devem ser atendidos para que um produto complexo (como p
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Para o produto na grade que você deseja adicionar, vá para a coluna _[!UICONTROL Action]_e clique em **[!UICONTROL Edit]**.
+1. Para o produto na grade que você deseja adicionar, vá para a coluna _[!UICONTROL Action]_&#x200B;e clique em **[!UICONTROL Edit]**.
 
-1. Role para baixo, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Product in Shared Catalogs]_e faça o seguinte:
+1. Role para baixo, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Product in Shared Catalogs]_&#x200B;e faça o seguinte:
 
    - Marque a caixa de seleção de cada catálogo compartilhado em que o produto deve aparecer. Para escolher todos os catálogos, clique em **[!UICONTROL Select all]**.
 
@@ -46,7 +46,7 @@ Os seguintes requisitos devem ser atendidos para que um produto complexo (como p
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. Para o catálogo compartilhado na grade, vá para a coluna _[!UICONTROL Action]_e selecione **[!UICONTROL Set Pricing and Structure]**.
+1. Para o catálogo compartilhado na grade, vá para a coluna _[!UICONTROL Action]_&#x200B;e selecione **[!UICONTROL Set Pricing and Structure]**.
 
 1. Na árvore de categorias, siga um destes procedimentos:
 

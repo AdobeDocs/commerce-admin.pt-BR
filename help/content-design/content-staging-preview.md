@@ -26,7 +26,7 @@ Qualquer dia ou período durante uma campanha pode ser visualizado e compartilha
 
    - _De qualquer página com alterações agendadas_
 
-      - Abra qualquer página com uma caixa _[!UICONTROL Scheduled Changes]_na parte superior.
+      - Abra qualquer página com uma caixa _[!UICONTROL Scheduled Changes]_&#x200B;na parte superior.
       - Clique em **[!UICONTROL Preview]**.
 
    A visualização é aberta em uma nova guia do navegador e mostra como o produto aparece durante a campanha agendada.

@@ -20,7 +20,7 @@ A instalação usada para exportar esses dados tem os dados de amostra instalado
 
 | Atributo | Descrição |
 |--- |--- |
-| `sku` | (Obrigatório) A unidade de manutenção de estoque é um identificador alfanumérico exclusivo usado para rastrear o inventário. Um SKU pode ter até 64 caracteres. Por exemplo: `sku123`<br/>**_Observação:_**uma SKU com mais de 64 caracteres faz com que a importação falhe. |
+| `sku` | (Obrigatório) A unidade de manutenção de estoque é um identificador alfanumérico exclusivo usado para rastrear o inventário. Um SKU pode ter até 64 caracteres. Por exemplo: `sku123`<br/>**_Observação:_**&#x200B;uma SKU com mais de 64 caracteres faz com que a importação falhe. |
 | `store_view_code` | Identifica as exibições de loja específicas em que o produto está disponível. Se estiver em branco, o produto estará disponível na visualização padrão da loja. Por exemplo: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Atribui o produto a um conjunto de atributos ou modelo de produto específico, de acordo com o tipo de produto. Por exemplo: `default`<br><br>Depois que o produto é criado, o conjunto de atributos não pode ser alterado usando a funcionalidade de importação. No entanto, você pode alterar o conjunto de atributos de Admin e reexportar o produto para atualizar o arquivo CSV. |
 | `product_type` | Indica o tipo de produto. Valores:<br/>`simple` — Itens tangíveis que normalmente são vendidos como unidades únicas ou em quantidades fixas.<br/>`grouped` — Um grupo de produtos separados que são vendidos como um conjunto.<br/>`configurable` — Um produto com várias opções que o cliente deve selecionar antes de fazer uma compra. O inventário pode ser gerenciado para cada conjunto de variações porque representam um produto separado com uma SKU distinta. Por exemplo, uma combinação de cor e tamanho para um produto configurável está associada a uma SKU específica no catálogo.<br/>`virtual` — Um produto incorpóreo que não requer remessa e não é mantido em estoque. Os exemplos incluem serviços, associações e assinaturas.<br/>`bundle` — Um conjunto de produtos personalizáveis de produtos simples vendidos em conjunto. |
@@ -161,7 +161,7 @@ A Importação/Exportação de Preço Avançado permite atualizar rapidamente as
 
 | Atributo | Descrição |
 |--- |--- |
-| `sku` | (Obrigatório) A unidade de manutenção de estoque é um identificador alfanumérico exclusivo usado para rastrear o inventário. Um SKU pode ter até 64 caracteres. Por exemplo: `sku123`<br/>**_Observação:_**uma SKU com mais de 64 caracteres faz com que a importação falhe. |
+| `sku` | (Obrigatório) A unidade de manutenção de estoque é um identificador alfanumérico exclusivo usado para rastrear o inventário. Um SKU pode ter até 64 caracteres. Por exemplo: `sku123`<br/>**_Observação:_**&#x200B;uma SKU com mais de 64 caracteres faz com que a importação falhe. |
 | `tier_price_website` | O [código do site](../stores-purchase/stores.md#add-websites) identifica cada site em que os preços de camada estão disponíveis. Por exemplo: `-  website1 -  All Websites [USD]` |
 | `tier_price_customer` | Identifica os [grupos de clientes](../customers/customer-groups.md) nos quais os preços de camada estão disponíveis. Por exemplo: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | Identifica os grupos de clientes em que os preços de camada estão disponíveis. Por exemplo: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |

@@ -58,7 +58,7 @@ A caixa de ferramentas da imagem é exibida ao passar o mouse sobre o container 
    >
    >O tamanho máximo do arquivo é 4 MB. Os tipos de arquivos compatíveis são JPG, GIF e PNG.
 
-   - _**Carregar uma nova imagem**_: use este método para carregar um novo arquivo de imagem do seu sistema.
+   - _&#x200B;**Carregar uma nova imagem**&#x200B;_: use este método para carregar um novo arquivo de imagem do seu sistema.
 
       - Clique em **[!UICONTROL Upload Image]**.
 
@@ -66,7 +66,7 @@ A caixa de ferramentas da imagem é exibida ao passar o mouse sobre o container 
 
      Como alternativa, você também pode arrastar um arquivo de imagem de seu sistema e soltá-lo no ícone da _Câmera_ ( ![Ícone de Câmera](./assets/pb-icon-camera.png){width="20"} ).
 
-   - _**Selecionar um ativo existente**_: use este método para selecionar um ativo de imagem existente do armazenamento de mídia/galeria.
+   - _&#x200B;**Selecionar um ativo existente**&#x200B;_: use este método para selecionar um ativo de imagem existente do armazenamento de mídia/galeria.
 
       - Clique em **[!UICONTROL Select from Gallery]**.
 
@@ -76,7 +76,7 @@ A caixa de ferramentas da imagem é exibida ao passar o mouse sobre o container 
 
         ![Adicionando uma imagem selecionada](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _**Pesquise e selecione uma imagem do Adobe Stock**_: use este método para localizar uma imagem do Adobe Stock.
+   - _&#x200B;**Pesquise e selecione uma imagem do Adobe Stock**&#x200B;_: use este método para localizar uma imagem do Adobe Stock.
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ O nome do arquivo, as dimensões e o tamanho do arquivo aparecem abaixo da image
 
 1. Para alterar o **[!UICONTROL Image]** atual, siga um destes procedimentos:
 
-   - _**Carregar uma nova imagem**_: use este método para carregar um novo arquivo de imagem do seu sistema.
+   - _&#x200B;**Carregar uma nova imagem**&#x200B;_: use este método para carregar um novo arquivo de imagem do seu sistema.
 
       - Clique em **[!UICONTROL Upload Image]**.
 
       - Localize e escolha a imagem para adicioná-la à galeria e ao container de destino.
 
-   - _**Selecionar um ativo existente**_: use este método para selecionar um ativo de imagem existente do armazenamento de mídia/galeria.
+   - _&#x200B;**Selecionar um ativo existente**&#x200B;_: use este método para selecionar um ativo de imagem existente do armazenamento de mídia/galeria.
 
       - Clique em **[!UICONTROL Select from Gallery]**.
 

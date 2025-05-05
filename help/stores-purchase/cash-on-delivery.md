@@ -43,7 +43,7 @@ A transportadora recebe o pagamento do cliente no momento da entrega, que é ent
 1. Defina **[!UICONTROL Payment from Applicable Countries]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois que você escolher essa opção, a lista _[!UICONTROL Payment from Specific Countries]_será exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
+   - `Specific Countries` - Depois que você escolher essa opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;será exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
 
 1. Insira o **[!UICONTROL Instructions]** para aceitar a entrega de um pedido COD.
 

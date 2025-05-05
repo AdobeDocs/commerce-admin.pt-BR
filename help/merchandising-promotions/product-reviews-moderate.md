@@ -28,7 +28,7 @@ Para exibir todas as revisões de um produto específico no Administrador, faça
 
 ## Atualizar status para revisões
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**ou **[!UICONTROL All Reviews]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;ou **[!UICONTROL All Reviews]**.
 
 1. Na lista, clique em uma revisão pendente para exibir os detalhes e editar, se necessário.
 
@@ -36,7 +36,7 @@ Para exibir todas as revisões de um produto específico no Administrador, faça
 
    - Para aprovar uma revisão pendente, selecione `Approved`.
 
-   - Para rejeitar uma revisão, selecione `Not Approved`. Revisões não aprovadas desaparecem da lista de _[!UICONTROL Pending Reviews]_página.
+   - Para rejeitar uma revisão, selecione `Not Approved`. Revisões não aprovadas desaparecem da lista de _[!UICONTROL Pending Reviews]_&#x200B;página.
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ Para exibir todas as revisões de um produto específico no Administrador, faça
 
 1. Selecione as revisões que deseja atualizar.
 
-1. Use o seletor _[!UICONTROL Action]_no canto superior esquerdo para aplicar uma ação.
+1. Use o seletor _[!UICONTROL Action]_&#x200B;no canto superior esquerdo para aplicar uma ação.
 
 1. Clique em **[!UICONTROL Submit]**
 

@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Gerenciar seus catálogos compartilhados
 
-A página _[!UICONTROL Shared Catalogs]_fornece acesso às ferramentas necessárias para gerenciar seus catálogos compartilhados. A página é semelhante ao espaço de trabalho padrão de Administração, com filtros e controles de ação. A grade lista todos os catálogos compartilhados, incluindo o catálogo público compartilhado padrão e todos os catálogos personalizados que você configurou.
+A página _[!UICONTROL Shared Catalogs]_&#x200B;fornece acesso às ferramentas necessárias para gerenciar seus catálogos compartilhados. A página é semelhante ao espaço de trabalho padrão de Administração, com filtros e controles de ação. A grade lista todos os catálogos compartilhados, incluindo o catálogo público compartilhado padrão e todos os catálogos personalizados que você configurou.
 
 ## Atualizar a seleção de produtos
 
-A seleção de produtos em qualquer catálogo compartilhado pode ser facilmente atualizada a partir da coluna _[!UICONTROL Action]_da grade de catálogos compartilhados. As alterações feitas estão visíveis para os membros de qualquer conta da empresa associada. O processo é essencialmente o mesmo que escolher produtos para uma nova [estrutura de catálogo](catalog-shared-pricing-structure.md), exceto que o escopo da configuração não pode ser alterado.
+A seleção de produtos em qualquer catálogo compartilhado pode ser facilmente atualizada a partir da coluna _[!UICONTROL Action]_&#x200B;da grade de catálogos compartilhados. As alterações feitas estão visíveis para os membros de qualquer conta da empresa associada. O processo é essencialmente o mesmo que escolher produtos para uma nova [estrutura de catálogo](catalog-shared-pricing-structure.md), exceto que o escopo da configuração não pode ser alterado.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -28,7 +28,7 @@ A seleção de produtos em qualquer catálogo compartilhado pode ser facilmente 
 
    Você pode ignorar o primeiro item, pois o escopo de um catálogo compartilhado não pode ser alterado após ser salvo pela primeira vez.
 
-Se você estiver trabalhando com um produto específico, a seção _[!UICONTROL Products In Shared Catalog]_listará cada catálogo compartilhado em que o produto está disponível. Para saber mais, consulte [Adicionar produtos a um catálogo compartilhado](catalog-shared-product-add.md).
+Se você estiver trabalhando com um produto específico, a seção _[!UICONTROL Products In Shared Catalog]_&#x200B;listará cada catálogo compartilhado em que o produto está disponível. Para saber mais, consulte [Adicionar produtos a um catálogo compartilhado](catalog-shared-product-add.md).
 
 ![Produto em Catálogos Compartilhados](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -40,7 +40,7 @@ Os preços personalizados de produtos em qualquer catálogo compartilhado podem 
 
 1. Para o catálogo compartilhado na grade que você deseja atualizar, vá para a coluna **[!UICONTROL Action]** e selecione **[!UICONTROL Set Pricing and Structure]**.
 
-1. Na página _[!UICONTROL Catalog Structure]_, clique em **[!UICONTROL Configure]**e siga um destes procedimentos:
+1. Na página _[!UICONTROL Catalog Structure]_, clique em **[!UICONTROL Configure]**&#x200B;e siga um destes procedimentos:
 
    - No indicador de progresso, na parte superior da página, clique em **[!UICONTROL Pricing]**.
    - No canto superior direito, clique em **[!UICONTROL Next]**.
@@ -53,7 +53,7 @@ Os preços personalizados de produtos em qualquer catálogo compartilhado podem 
 
 >[!NOTE]
 >
->**[Versão 1.3.0](release-notes.md#b2b-v130) e posterior** do B2B — Quando você cria um catálogo compartilhado, cada [permissão de categoria](../catalog/category-permissions.md) para o catálogo é definida como `Allow` para o _[!UICONTROL Display Product Prices]_e_[!UICONTROL Add to Cart]_ para grupos de clientes aos quais é atribuído esse acesso nas configurações de permissão do catálogo. Anteriormente, essas configurações eram automaticamente definidas como `Deny`, mesmo quando as permissões do catálogo eram definidas como `Allow`.
+>**[Versão 1.3.0](release-notes.md#b2b-v130) e posterior** do B2B — Quando você cria um catálogo compartilhado, cada [permissão de categoria](../catalog/category-permissions.md) para o catálogo é definida como `Allow` para o _[!UICONTROL Display Product Prices]_&#x200B;e_[!UICONTROL Add to Cart]_ para grupos de clientes aos quais é atribuído esse acesso nas configurações de permissão do catálogo. Anteriormente, essas configurações eram automaticamente definidas como `Deny`, mesmo quando as permissões do catálogo eram definidas como `Allow`.
 
 >[!IMPORTANT]
 >
@@ -77,7 +77,7 @@ Os preços personalizados de produtos em qualquer catálogo compartilhado podem 
 
    - Para criar uma regra de permissões para outro grupo de clientes, clique em **[!UICONTROL New Permissions]** e repita o processo.
 
-   - Para excluir uma regra de permissão, clique no ícone da _Lixeira_ ![3}.](../assets/icon-delete-trashcan-solid.png)
+   - Para excluir uma regra de permissão, clique no ícone da _Lixeira_ ![3&rbrace;.](../assets/icon-delete-trashcan-solid.png)
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 

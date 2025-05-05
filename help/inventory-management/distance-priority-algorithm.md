@@ -77,11 +77,11 @@ A chave é da [Plataforma Google Maps][1] e deve ter a [API de geocodificação]
 
 1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Inventory]**.
 
-1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Distance Provider for Distance Based SSA]_e defina **[!UICONTROL Provider]**como `Google MAP`.
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;e defina **[!UICONTROL Provider]**&#x200B;como `Google MAP`.
 
    ![Provedores para SSA Baseado em Distância](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Google Distance Provider]_e defina as configurações:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Google Distance Provider]_&#x200B;e defina as configurações:
 
    - Para **[!UICONTROL Google API Key]**, insira a chave copiada da sua conta do Google.
 

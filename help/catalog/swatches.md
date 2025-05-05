@@ -20,7 +20,7 @@ Para [produtos configuráveis](product-create-configurable.md), a cor pode ser i
 
 >[!NOTE]
 >
->Os atributos de amostra podem ser configurados para não exibir imagens de produtos simples correspondentes quando a amostra é selecionada ao definir o valor da opção _[!UICONTROL Update Product Preview Image]_como `No` na página [!UICONTROL Attribute Edit] no Administrador.
+>Os atributos de amostra podem ser configurados para não exibir imagens de produtos simples correspondentes quando a amostra é selecionada ao definir o valor da opção _[!UICONTROL Update Product Preview Image]_&#x200B;como `No` na página [!UICONTROL Attribute Edit] no Administrador.
 
 ## Amostras baseadas em texto
 
@@ -30,7 +30,7 @@ Se uma imagem não estiver disponível para uma amostra, o valor do atributo ser
 
 ## Amostras em navegação em camadas
 
-As amostras também podem ser usadas na navegação em camadas, se a propriedade _[!UICONTROL Use in Layered Navigation]_do atributo color estiver definida como `Yes`. O exemplo a seguir mostra amostras de imagens coloridas e baseadas em texto na navegação em camadas.
+As amostras também podem ser usadas na navegação em camadas, se a propriedade _[!UICONTROL Use in Layered Navigation]_&#x200B;do atributo color estiver definida como `Yes`. O exemplo a seguir mostra amostras de imagens coloridas e baseadas em texto na navegação em camadas.
 
 ![Amostras exibidas na navegação em camadas](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -58,7 +58,7 @@ Use um dos métodos a seguir para criar amostras para seus produtos.
 
 1. Se preferir não exibir imagens do produto simples correspondentes quando a amostra for selecionada na página de exibição do produto, defina **[!UICONTROL Update Product Preview Image]** como `No`.
 
-1. Em _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, clique em **[!UICONTROL Add Swatch]**e faça o seguinte:
+1. Em _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, clique em **[!UICONTROL Add Swatch]**&#x200B;e faça o seguinte:
 
    ![Gerenciar Valores de Amostra](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -106,7 +106,7 @@ Use um dos métodos a seguir para criar amostras para seus produtos.
 
 1. Se preferir não exibir imagens do produto simples correspondentes quando a amostra for selecionada na página de exibição do produto, defina **[!UICONTROL Update Product Preview Image]** como `No`.
 
-1. Em _[!UICONTROL Manage Swatch]_(valores do seu atributo), clique em **[!UICONTROL Add Swatch]**e faça o seguinte:
+1. Em _[!UICONTROL Manage Swatch]_(valores do seu atributo), clique em **[!UICONTROL Add Swatch]**&#x200B;e faça o seguinte:
 
    - Na coluna _[!UICONTROL Swatch]_, clique na nova amostra para exibir o menu e escolha **[!UICONTROL Upload a file]**.
 

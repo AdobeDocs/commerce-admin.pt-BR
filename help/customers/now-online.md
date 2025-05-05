@@ -1,6 +1,6 @@
 ---
 title: Clientes agora online
-description: A opção _Agora Online_ no menu [!UICONTROL Customers ] lista todos os clientes e visitantes que estão online na sua loja.
+description: A opção _Agora Online_ no menu [!UICONTROL Customers &#x200B;] lista todos os clientes e visitantes que estão online na sua loja.
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt

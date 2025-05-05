@@ -321,7 +321,7 @@ A imagem do invólucro do presente deve ser uma amostra que mostre o padrão de 
 
 1. Para carregar uma miniatura **[!UICONTROL Image]** do invólucro do presente, clique em **[!UICONTROL Choose File]** e selecione o arquivo a ser carregado do seu diretório.
 
-   Uma miniatura da imagem aparece no _[!UICONTROL Gift Wrapping Information]_depois que o registro é salvo.
+   Uma miniatura da imagem aparece no _[!UICONTROL Gift Wrapping Information]_&#x200B;depois que o registro é salvo.
 
 1. Clique em **[!UICONTROL Save]**.
 

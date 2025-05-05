@@ -27,7 +27,7 @@ O seletor de Exibição de loja no canto superior esquerdo de muitas páginas de
 
 ## [!UICONTROL Use system value]
 
-A caixa de seleção _[!UICONTROL Use System Value]_à direita de muitas definições de configuração é usada para aplicar ou substituir o valor de campo padrão no escopo de configuração atual. O valor de campo padrão não pode ser alterado quando a caixa de seleção está marcada. Para alterar o valor, desmarque a caixa de seleção e insira o novo valor. Você será solicitado a confirmar sempre que alterar o valor do sistema.
+A caixa de seleção _[!UICONTROL Use System Value]_&#x200B;à direita de muitas definições de configuração é usada para aplicar ou substituir o valor de campo padrão no escopo de configuração atual. O valor de campo padrão não pode ser alterado quando a caixa de seleção está marcada. Para alterar o valor, desmarque a caixa de seleção e insira o novo valor. Você será solicitado a confirmar sempre que alterar o valor do sistema.
 
 O rótulo da caixa de seleção muda de acordo com o escopo atual e sempre se refere ao nível principal que está uma etapa acima na hierarquia do escopo. Como o nível pai é um contêiner para todos os itens abaixo desse nível, a configuração de escopo do nível pai é herdada, a menos que seja substituída.
 

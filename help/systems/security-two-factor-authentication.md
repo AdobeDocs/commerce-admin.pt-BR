@@ -39,7 +39,7 @@ Na primeira vez em que um usuário faz logon _no Admin_, eles devem configurar c
 
 1. No painel esquerdo, expanda **[!UICONTROL Security]** e escolha **[!UICONTROL 2FA]**.
 
-1. _[!UICONTROL General]_Na seção, selecione os provedores a serem usados.
+1. _[!UICONTROL General]_&#x200B;Na seção, selecione os provedores a serem usados.
 
    | Provedor | Função |
    |--- |--- |

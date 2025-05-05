@@ -170,8 +170,8 @@ Valores:
       - um nome de usuário se o tipo de cliente for Admin
       - um nome se o Tipo de cliente for Integração
 
-3. Renomeação da coluna Nome da ação ***completa para*** Target ******
-   - ******Target: Exibe o nome da ação.
+3. Renomeação da coluna Nome da ação ***completa para*** Target **&#x200B;**&#x200B;**
+   - **&#x200B;**&#x200B;**Target: Exibe o nome da ação.
 Valores:
       - um terminal se Origem for uma API REST ou UMA API SOAP
       - um nome de query ou mutação se uma API GraphQL
@@ -227,7 +227,7 @@ Os aprimoramentos nos recursos de importação e exportação estão focados em 
 
 #### Ação administrativa fazendo logon
 
-Uma das principais melhorias nos recursos de importação e exportação é o aprimoramento fazendo logon das ações administrativas. Essa melhoria introduz a capacidade de aprofundar as atividades associadas à importação e à exportação de dados, contribuindo para a melhoria das rastreamento e da auditabilidade. As seguintes ações agora são registradas e refletidas no **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**grade:
+Uma das principais melhorias nos recursos de importação e exportação é o aprimoramento fazendo logon das ações administrativas. Essa melhoria introduz a capacidade de aprofundar as atividades associadas à importação e à exportação de dados, contribuindo para a melhoria das rastreamento e da auditabilidade. As seguintes ações agora são registradas e refletidas no **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**&#x200B;grade:
 
 | Tipo | Ações |
 | ---- | ------- |
@@ -241,7 +241,7 @@ Para capacitar usuários administradores com grades mais informativas, o serviç
 
 #### histórico de Importar ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Import History])
 
-- Ativação da filtragem para todas as colunas, exceto para **[!UICONTROL Imported File]**, **[!UICONTROL Error File]** e **[!UICONTROL Execution Time]****[!UICONTROL Summary]**.
+- Ativação da filtragem para todas as colunas, exceto para **[!UICONTROL Imported File]**, **[!UICONTROL Error File]** e **[!UICONTROL Execution Time]**&#x200B;**[!UICONTROL Summary]**.
 
 #### Exportar ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Export])
 

@@ -132,7 +132,7 @@ Essas configurações recomendadas podem ser usadas para a maioria das configura
 | Cálculo de Imposto | No item |
 | Envio de impostos? | Sim |
 | Aplicar desconto | Antes de impostos, desconto sobre preços, incluindo impostos. |
-| Comentário | Para os comerciantes B2B fornecerem considerações mais simples sobre a cadeia de fornecimento de IVA. O cálculo de imposto na linha também é válido; no entanto, verifique com sua jurisdição de tributação. A configuração pressupõe que um comerciante esteja na cadeia de suprimentos e que os bens vendidos sejam usados por outros fornecedores para descontos de IVA e assim por diante. Essa definição facilita a diferenciação de imposto por item para uma geração de descontos mais rápida. <br/><br/>**_Observação:_**algumas jurisdições exigem estratégias de arredondamento diferentes não suportadas atualmente pela Commerce e nem todas as jurisdições permitem imposto no nível do item ou da linha. |
+| Comentário | Para os comerciantes B2B fornecerem considerações mais simples sobre a cadeia de fornecimento de IVA. O cálculo de imposto na linha também é válido; no entanto, verifique com sua jurisdição de tributação. A configuração pressupõe que um comerciante esteja na cadeia de suprimentos e que os bens vendidos sejam usados por outros fornecedores para descontos de IVA e assim por diante. Essa definição facilita a diferenciação de imposto por item para uma geração de descontos mais rápida. <br/><br/>**_Observação:_**&#x200B;algumas jurisdições exigem estratégias de arredondamento diferentes não suportadas atualmente pela Commerce e nem todas as jurisdições permitem imposto no nível do item ou da linha. |
 
 {style="table-layout:auto"}
 

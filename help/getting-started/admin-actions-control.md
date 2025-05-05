@@ -15,7 +15,7 @@ Ao trabalhar com uma coleção de registros na grade, você pode usar o controle
 
 Você pode fazer quantas alterações forem necessárias e, em seguida, atualizar os registros em uma única etapa. É muito mais eficiente do que alterar as configurações individualmente para cada produto. Aplicar edições a um lote de registros é uma operação assíncrona, executada em segundo plano para que você possa continuar trabalhando no Administrador sem esperar a conclusão da operação. O sistema exibe uma mensagem quando a tarefa é concluída.
 
-A seleção de ações disponíveis varia de acordo com a lista e opções adicionais podem ser exibidas, dependendo da ação selecionada. Por exemplo, ao alterar o status de um grupo de registros, uma caixa _[!UICONTROL Status]_é exibida ao lado do controle Ações com opções adicionais.
+A seleção de ações disponíveis varia de acordo com a lista e opções adicionais podem ser exibidas, dependendo da ação selecionada. Por exemplo, ao alterar o status de um grupo de registros, uma caixa _[!UICONTROL Status]_&#x200B;é exibida ao lado do controle Ações com opções adicionais.
 
 ## Etapa 1: Selecionar registros
 

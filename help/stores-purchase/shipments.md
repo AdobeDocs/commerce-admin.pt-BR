@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Entregas
 
-A grade _[!UICONTROL Shipments]_lista o registro de remessa de todas as faturas que foram preparadas para remessa. Um registro de remessa pode ser gerado quando um pedido é [faturado](invoices.md) ou posterior.
+A grade _[!UICONTROL Shipments]_&#x200B;lista o registro de remessa de todas as faturas que foram preparadas para remessa. Um registro de remessa pode ser gerado quando um pedido é [faturado](invoices.md) ou posterior.
 
 A Adobe Commerce e o Magento Open Source dão suporte ao envio parcial e completo do pedido, com opções adicionais disponíveis na [Inventory management](../inventory-management/introduction.md) e em extensões de terceiros.
 
@@ -77,7 +77,7 @@ Para cada item de linha na ordem, modifique o **[!UICONTROL Qty to Ship]** confo
 
 1. Clique em **[!UICONTROL Ship]**.
 
-1. Role para baixo até o bloco _[!UICONTROL Payment & Shipping Method]_e clique em **[!UICONTROL Add Tracking Number]**.
+1. Role para baixo até o bloco _[!UICONTROL Payment & Shipping Method]_&#x200B;e clique em **[!UICONTROL Add Tracking Number]**.
 
 1. Conjunto **[!UICONTROL Carrier]**:
 
@@ -166,7 +166,7 @@ Antes de uma remessa ser despachada para uma transportadora, ela pode ser cancel
 
 1. No painel esquerdo, escolha **[!UICONTROL Shipments]**.
 
-   Se a remessa puder ser cancelada, _[!UICONTROL Cancel Shipment]_aparecerá como uma opção na barra de botões superior.
+   Se a remessa puder ser cancelada, _[!UICONTROL Cancel Shipment]_&#x200B;aparecerá como uma opção na barra de botões superior.
 
 1. Clique em **[!UICONTROL Cancel Shipment]**.
 

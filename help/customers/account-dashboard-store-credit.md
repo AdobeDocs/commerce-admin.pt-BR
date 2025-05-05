@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-A página _[!UICONTROL Store Credit]_do painel da conta do cliente lista valores de devoluções e reembolsos que podem ser aplicados a compras futuras. Os clientes também podem resgatar o valor de um vale-presente.
+A página _[!UICONTROL Store Credit]_&#x200B;do painel da conta do cliente lista valores de devoluções e reembolsos que podem ser aplicados a compras futuras. Os clientes também podem resgatar o valor de um vale-presente.
 
 ![Crédito da Loja do Cliente](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 

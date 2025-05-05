@@ -46,6 +46,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | Global | Define o formato do código do cupom. As opções incluem: <br/>**`Alphanumeric`**- Qualquer combinação de letras e números.<br/>**`Alphabetical`** - Somente letras. <br/>**`Numeric`**- Somente números. |
 | [!UICONTROL Code Prefix] | Global | Um valor que é anexado ao início de todos os códigos de cupom. Se não quiser usar um prefixo, deixe o campo em branco. |
 | [!UICONTROL Code Suffix] | Global | Um valor que é anexado ao final de todos os códigos. Se não quiser usar um sufixo, deixe o campo em branco. |
-| [!UICONTROL Dash Every X Characters] | Global | O intervalo para inserir um traço (-) em todos os códigos de cupom. Se não quiser usar um traço, deixe o campo em branco. <br/>_**Observação:**_ códigos de cupom que diferem somente por um traço são considerados códigos diferentes. |
+| [!UICONTROL Dash Every X Characters] | Global | O intervalo para inserir um traço (-) em todos os códigos de cupom. Se não quiser usar um traço, deixe o campo em branco. <br/>_&#x200B;**Observação:**&#x200B;_ códigos de cupom que diferem somente por um traço são considerados códigos diferentes. |
 
 {style="table-layout:auto"}

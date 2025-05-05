@@ -19,19 +19,19 @@ Com o método de entrega na loja, o cliente pode selecionar uma origem a ser usa
 Durante o check-out na loja:
 
 1. O cliente clica em **[!UICONTROL Pick In Store]** ou seleciona o método de envio _[!UICONTROL In-Store Pickup Delivery]_.
-1. A guia de check-out _[!UICONTROL Pick In Store]_é aberta.
+1. A guia de check-out _[!UICONTROL Pick In Store]_&#x200B;é aberta.
 
 Quando o cliente tiver um endereço ou tiver preenchido anteriormente o formulário de endereço de entrega antes de alternar para a guia _[!UICONTROL Pick In Store]_:
 
 - A origem mais próxima do endereço do cliente dentro do raio configurado é automaticamente pré-selecionada como uma loja de retirada.
-- Quando o cliente clicar em **[!UICONTROL Select Other]**, o formulário de pesquisa _[!UICONTROL Select Store]_será aberto. Somente os armazenamentos dentro da distância configurada (raio) do armazenamento pré-selecionado são exibidos na lista. Todos os armazenamentos na lista são classificados pela distância até o armazenamento pré-selecionado.
+- Quando o cliente clicar em **[!UICONTROL Select Other]**, o formulário de pesquisa _[!UICONTROL Select Store]_&#x200B;será aberto. Somente os armazenamentos dentro da distância configurada (raio) do armazenamento pré-selecionado são exibidos na lista. Todos os armazenamentos na lista são classificados pela distância até o armazenamento pré-selecionado.
 - Quando o cliente informa um código postal ou o nome da cidade no campo de pesquisa, somente as lojas dentro da distância configurada (raio) para o local pesquisado são exibidas na lista. Todos os armazenamentos na lista são classificados pela distância até o local pesquisado.
 - Quando o cliente apaga o código postal ou o nome da cidade do campo de pesquisa, todas as lojas de retirada atribuídas aos produtos no carrinho de compras são mostradas ao cliente. Todos os armazenamentos na lista são classificados em ordem crescente dos códigos-fonte, sem qualquer limitação de distância (raio).
 
 Se o cliente não tiver um endereço ou não tiver preenchido o formulário de endereço de entrega antes de alternar para a guia _[!UICONTROL Pick In Store]_:
 
 - A página exibe a mensagem _Não foi possível pré-selecionar o local da retirada com base nas informações disponíveis_.
-- Quando o cliente clicar em **[!UICONTROL Select Store]**, o formulário de pesquisa _[!UICONTROL Select Store]_será aberto.
+- Quando o cliente clicar em **[!UICONTROL Select Store]**, o formulário de pesquisa _[!UICONTROL Select Store]_&#x200B;será aberto.
 - Todas as lojas de retirada atribuídas aos produtos no carrinho de compras são exibidas em ordem crescente dos códigos-fonte, sem qualquer limitação de distância (raio).
 - Quando o cliente informa um código postal ou o nome da cidade no campo de pesquisa, somente as lojas dentro da distância configurada (raio) para o local pesquisado são exibidas na lista. Todos os armazenamentos na lista são classificados pela distância até o local pesquisado.
 

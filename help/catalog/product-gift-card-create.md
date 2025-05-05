@@ -96,7 +96,7 @@ Pode haver atributos individuais adicionais que descrevam o produto. A seleção
 
 ### Etapa 5: completar as informações do cartão-presente
 
-A seção _[!UICONTROL Gift Card Information]_das configurações do produto pode ser usada para substituir as configurações de [cartão-presente](../configuration-reference/sales/gift-cards.md) que determinam como o cartão é gerenciado.
+A seção _[!UICONTROL Gift Card Information]_&#x200B;das configurações do produto pode ser usada para substituir as configurações de [cartão-presente](../configuration-reference/sales/gift-cards.md) que determinam como o cartão é gerenciado.
 
 1. Role até a seção _[!UICONTROL Gift Card Information]_.
 

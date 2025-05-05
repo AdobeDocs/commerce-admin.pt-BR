@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Configurações do produto - [!UICONTROL Design]
 
-As configurações de _[!UICONTROL Design]_permitem que um tema diferente seja aplicado à página do produto, alteram o layout da coluna, determinam onde as opções do produto são exibidas e inserem o código XML personalizado.
+As configurações de _[!UICONTROL Design]_&#x200B;permitem que um tema diferente seja aplicado à página do produto, alteram o layout da coluna, determinam onde as opções do produto são exibidas e inserem o código XML personalizado.
 
 ![Design](./assets/product-design-ee.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Quando o mesmo produto é atribuído a várias categorias com configurações de design diferentes para cada categoria, é recomendável definir **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` nas [opções de configuração de Otimização do Mecanismo de Pesquisa](../configuration-reference/catalog/catalog.md#search-engine-optimization). Para acessar esta configuração, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, expanda **[!UICONTROL Catalog]**e escolha **[!UICONTROL Catalog]**abaixo no painel esquerdo e, em seguida, expanda a seção **[!UICONTROL Search Engine Optimization]**na página.
+>Quando o mesmo produto é atribuído a várias categorias com configurações de design diferentes para cada categoria, é recomendável definir **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` nas [opções de configuração de Otimização do Mecanismo de Pesquisa](../configuration-reference/catalog/catalog.md#search-engine-optimization). Para acessar esta configuração, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, expanda **[!UICONTROL Catalog]**&#x200B;e escolha **[!UICONTROL Catalog]**&#x200B;abaixo no painel esquerdo e, em seguida, expanda a seção **[!UICONTROL Search Engine Optimization]**&#x200B;na página.
 
 | Campo | [Escopo](../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |---|---|----|

@@ -47,7 +47,7 @@ Os compradores gerenciam o processo de negociação de cotações na loja usando
 
 1. Escolha um **[!UICONTROL Expiration Date]** para a cotação.
 
-1. Role para baixo até a seção _[!UICONTROL Quote Totals]_e atualize o **[!UICONTROL Negotiated Price]**conforme necessário.
+1. Role para baixo até a seção _[!UICONTROL Quote Totals]_&#x200B;e atualize o **[!UICONTROL Negotiated Price]**&#x200B;conforme necessário.
 
    ![Atualizar Preço Negociado](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -100,7 +100,7 @@ o desconto de item de linha e qualquer desconto de nível de cotação são apli
 
 1. Insira um **[!UICONTROL Proposed Shipping Price]**.
 
-   Os _[!UICONTROL Quote Totals]_são atualizados para refletir o preço de envio proposto.
+   Os _[!UICONTROL Quote Totals]_&#x200B;são atualizados para refletir o preço de envio proposto.
 
 ### Anexar um documento de suporte
 
@@ -112,7 +112,7 @@ o desconto de item de linha e qualquer desconto de nível de cotação são apli
 
 ## Etapa 3: Atualizar informações de nível de cotação e enviar sua resposta
 
-1. Na seção _[!UICONTROL Negotiation]_da guia_[!UICONTROL Comments]_, digite sua resposta na seção **[!UICONTROL Add your comment]**.
+1. Na seção _[!UICONTROL Negotiation]_&#x200B;da guia&#x200B;_[!UICONTROL Comments]_, digite sua resposta na seção **[!UICONTROL Add your comment]**.
 
 1. Para incluir um documento de suporte, clique em **[!UICONTROL Attach file]** e selecione o arquivo do seu diretório.
 
@@ -120,7 +120,7 @@ o desconto de item de linha e qualquer desconto de nível de cotação são apli
 
 1. Para aplicar um desconto à cotação:
 
-   - Em _[!UICONTROL Quote Totals]_, na seção_[!UICONTROL Negotiated Price]_, escolha um dos seguintes tipos de desconto:
+   - Em _[!UICONTROL Quote Totals]_, na seção&#x200B;_[!UICONTROL Negotiated Price]_, escolha um dos seguintes tipos de desconto:
 
       - `Percentage Discount`: um desconto de porcentagem reduz o preço original por uma porcentagem específica.
       - `Amount Discount`: um desconto de valor aplica uma redução de preço fixa.
@@ -160,7 +160,7 @@ Para monitorar a posição no workflow, verifique o email e o status da cotaçã
 
 | Botão | Descrição |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | Retorna à página _[!UICONTROL Quotes]_sem salvar as alterações. |
+| [!UICONTROL Back] | Retorna à página _[!UICONTROL Quotes]_&#x200B;sem salvar as alterações. |
 | [!UICONTROL Print] | Envia a cotação para uma impressora ou a salva como um arquivo PDF. |
 | [!UICONTROL Create Copy] | Cria e abre uma cópia da cotação atual com `(copy)` anexada ao nome original. Renomeie a nova cotação editando o campo [!UICONTROL Name]. Processe a nova cotação salvando-a como rascunho ou enviando-a ao cliente. |
 | Criar modelo | Criar um modelo de cotação com base na cotação atual. Os modelos de cota otimizam a negociação de cota permitindo que compradores e vendedores concordem sobre os termos do contrato e da precificação que podem ser aplicados a várias cotas. . Mediante acordo, o comprador pode gerar uma cota vinculada e pré-aprovada a partir do modelo para ordens subsequentes, em vez de reiniciar o processo de solicitação de cotação (SDC). |

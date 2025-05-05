@@ -26,7 +26,7 @@ Para simplificar o processo de finalização, os clientes podem celebrar um cont
 
 ## Gerenciar contratos de cobrança
 
-A página _[!UICONTROL Billing Agreements]_lista todos os contratos de cobrança entre sua loja e seus clientes. Os comerciantes podem filtrar os registros por cliente ou informações de contrato de faturamento, incluindo ID de referência, status e data de criação do contrato de faturamento. Cada registro inclui informações gerais sobre o contrato de faturamento e todas as ordens de venda que o usaram como método de pagamento. Você pode exibir, cancelar ou excluir contratos de faturamento do cliente. Um contrato de cobrança cancelado pode ser excluído somente pelo administrador da loja.
+A página _[!UICONTROL Billing Agreements]_&#x200B;lista todos os contratos de cobrança entre sua loja e seus clientes. Os comerciantes podem filtrar os registros por cliente ou informações de contrato de faturamento, incluindo ID de referência, status e data de criação do contrato de faturamento. Cada registro inclui informações gerais sobre o contrato de faturamento e todas as ordens de venda que o usaram como método de pagamento. Você pode exibir, cancelar ou excluir contratos de faturamento do cliente. Um contrato de cobrança cancelado pode ser excluído somente pelo administrador da loja.
 
 ### Exibir um contrato de faturamento
 
@@ -34,7 +34,7 @@ A página _[!UICONTROL Billing Agreements]_lista todos os contratos de cobrança
 
 1. Localize o contrato de faturamento na lista e clique nele para abri-lo.
 
-Cada página de contrato de cobrança consiste em duas guias: _[!UICONTROL General Information]_e_[!UICONTROL Related Orders]_.
+Cada página de contrato de cobrança consiste em duas guias: _[!UICONTROL General Information]_&#x200B;e_[!UICONTROL Related Orders]_.
 
 #### Informações gerais
 

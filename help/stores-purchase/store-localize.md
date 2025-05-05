@@ -104,7 +104,7 @@ Se sua loja tiver várias visualizações em diferentes idiomas, os mesmos produ
 
 1. Para _Informações Básicas_, traduza **[!UICONTROL Category Name]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Content]_e traduzir **[!UICONTROL Description]**.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Content]_&#x200B;e traduzir **[!UICONTROL Description]**.
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization Settings]** e traduza os seguintes campos:
 

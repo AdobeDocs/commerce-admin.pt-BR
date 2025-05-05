@@ -21,7 +21,7 @@ O arquivo `security.txt` contém informações de contato e links relacionados �
 
 1. No painel esquerdo, em _[!UICONTROL Security]_, clique em **[!UICONTROL Security.txt]**.
 
-1. Na seção _[!UICONTROL General]_, defina **[!UICONTROL Enable]**como `Yes`.
+1. Na seção _[!UICONTROL General]_, defina **[!UICONTROL Enable]**&#x200B;como `Yes`.
 
    ![Configuração de segurança geral](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 

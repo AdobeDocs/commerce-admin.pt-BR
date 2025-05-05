@@ -48,7 +48,7 @@ Ao programar alterações para categorias, lembre-se do seguinte:
 
    >[!IMPORTANT]
    >
-   >As campanhas **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** devem ser definidas usando o fuso horário padrão **_3} do Administrador, que é convertido do fuso horário local de cada site._** Por exemplo, com vários sites em fusos horários diferentes nos quais você deseja iniciar uma campanha com base em um fuso horário dos EUA, é necessário agendar uma atualização separada para cada fuso horário local. Você define o **[!UICONTROL Start Date]** e o **[!UICONTROL End Date]** para cada um, que é convertido do fuso horário do site local para o fuso horário padrão do Administrador.
+   >As campanhas **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** devem ser definidas usando o fuso horário padrão **_3&rbrace; do Administrador, que é convertido do fuso horário local de cada site._** Por exemplo, com vários sites em fusos horários diferentes nos quais você deseja iniciar uma campanha com base em um fuso horário dos EUA, é necessário agendar uma atualização separada para cada fuso horário local. Você define o **[!UICONTROL Start Date]** e o **[!UICONTROL End Date]** para cada um, que é convertido do fuso horário do site local para o fuso horário padrão do Administrador.
 
    ![Alterações agendadas](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
 

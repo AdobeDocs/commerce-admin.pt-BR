@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Lista de produtos
 
-Todos os produtos no catálogo podem ser acessados na página _[!UICONTROL Products]_do Administrador, onde você pode criar produtos e editar os existentes. Para uma instalação em vários sites, cada site pode oferecer uma seleção diferente de produtos para venda no mesmo catálogo.
+Todos os produtos no catálogo podem ser acessados na página _[!UICONTROL Products]_&#x200B;do Administrador, onde você pode criar produtos e editar os existentes. Para uma instalação em vários sites, cada site pode oferecer uma seleção diferente de produtos para venda no mesmo catálogo.
 
-A lista _[!UICONTROL Products]_inclui todos os produtos no catálogo, indica os sites em que eles estão disponíveis e se estão habilitados para venda no momento. Em instalações B2B do Adobe Commerce com [catálogos compartilhados](../b2b/catalog-shared.md) habilitados, a grade inclui uma coluna que indica quais produtos têm preços de desconto alternativos em um catálogo compartilhado.
+A lista _[!UICONTROL Products]_&#x200B;inclui todos os produtos no catálogo, indica os sites em que eles estão disponíveis e se estão habilitados para venda no momento. Em instalações B2B do Adobe Commerce com [catálogos compartilhados](../b2b/catalog-shared.md) habilitados, a grade inclui uma coluna que indica quais produtos têm preços de desconto alternativos em um catálogo compartilhado.
 
 Você pode navegar pela página da lista por página ou pesquisar por produtos específicos. Use os [controles](../getting-started/admin-grid-controls.md) padrão para classificar e filtrar a lista e aplicar [ações](../getting-started/admin-actions-control.md) aos produtos selecionados.
 

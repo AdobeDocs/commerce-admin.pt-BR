@@ -121,7 +121,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | Global | Especifica o adaptador que é usado para renderizar imagens. Depois de alterar a configuração do adaptador, limpe o cache de imagens do catálogo. Opções: `PHP GD2` / `ImageMagick` <br/><br/>**_Observação:_**O tipo de arquivo ICO é suportado somente pelo adaptador ImageMagik. |
+| [!UICONTROL Image Adapter] | Global | Especifica o adaptador que é usado para renderizar imagens. Depois de alterar a configuração do adaptador, limpe o cache de imagens do catálogo. Opções: `PHP GD2` / `ImageMagick` <br/><br/>**_Observação:_**&#x200B;O tipo de arquivo ICO é suportado somente pelo adaptador ImageMagik. |
 
 {style="table-layout:auto"}
 

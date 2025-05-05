@@ -23,7 +23,7 @@ Se você tiver uma quantidade significativa de dados para processar, o gráfico 
 
 ## Configurar o painel
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**e conclua qualquer uma das configurações a seguir.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;e conclua qualquer uma das configurações a seguir.
 
 1. Quando a configuração estiver concluída, clique em **[!UICONTROL Save Config]**.
 
@@ -49,7 +49,7 @@ Para obter mais informações sobre as opções de configuração de Admin, cons
 
 O painel é a [página de inicialização](../configuration-reference/advanced/admin.md) padrão para o Administrador, embora você possa configurar uma página de inicialização diferente.
 
-1. Se você ainda não tiver as opções de Configuração de administrador abertas, escolha **[!UICONTROL Admin]** em _[!UICONTROL Advanced]_no painel de navegação esquerdo.
+1. Se você ainda não tiver as opções de Configuração de administrador abertas, escolha **[!UICONTROL Admin]** em _[!UICONTROL Advanced]_&#x200B;no painel de navegação esquerdo.
 
 1. Clique para expandir a seção **Página de Inicialização**.
 

@@ -125,7 +125,7 @@ O rastreamento de conversão mostra o número de cliques em anúncios que result
    - `Dynamic` - Determina que ocorreu uma conversão com base no valor dinâmico do Valor do pedido.
    - `Constant` - Determina que ocorreu uma conversão com base em um valor específico inserido.
 
-   Para um tipo de valor de conversão _Constante_, insira uma **[!UICONTROL Value]** específica para a _[!UICONTROL Order Amount]_para qualificar como uma conversão.
+   Para um tipo de valor de conversão _Constante_, insira uma **[!UICONTROL Value]** específica para a _[!UICONTROL Order Amount]_&#x200B;para qualificar como uma conversão.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 

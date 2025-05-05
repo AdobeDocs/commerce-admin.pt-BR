@@ -124,7 +124,7 @@ Você pode atualizar rapidamente substituições de URL para vários ou todos os
 
 1. Selecione todos os produtos para os quais deseja atualizar regravações de URL.
 
-1. Em _[!UICONTROL Actions]_, escolha **[!UICONTROL Update attributes]**para atualizar várias ou todas as regravações.
+1. Em _[!UICONTROL Actions]_, escolha **[!UICONTROL Update attributes]**&#x200B;para atualizar várias ou todas as regravações.
 
 1. Em _[!UICONTROL PRODUCTS INFORMATION]_, clique na guia **[!UICONTROL Websites]**.
 

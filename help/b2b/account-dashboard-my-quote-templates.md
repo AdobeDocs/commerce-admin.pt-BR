@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quote Templates]
 
-Se as cotações estiverem ativadas, a _[!UICONTROL My Quotes Template]_seção do conta do cliente painel lista todos os modelos de cotação associados ao conta do cliente. Dependendo de suas permissões, apenas os compradores que fazem compras em nome de uma empresa podem solicitação uma cotação modelo e negociar preços de cotações e termos para pedidos recorrentes.
+Se as cotações estiverem ativadas, a _[!UICONTROL My Quotes Template]_&#x200B;seção do conta do cliente painel lista todos os modelos de cotação associados ao conta do cliente. Dependendo de suas permissões, apenas os compradores que fazem compras em nome de uma empresa podem solicitação uma cotação modelo e negociar preços de cotações e termos para pedidos recorrentes.
 
 ![Meus modelos de aspas](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
@@ -115,7 +115,7 @@ Os compradores podem concluir as seguintes ações a partir de uma cota vinculad
 
 Na aspas modelo página, clique **[!UICONTROL Cancel Quote Template]** em .
 
-O modelo da cotação é cancelado e o status das aspas muda para `Closed`. A cotação fechada permanece na lista de *[!UICONTROL Inactive]* cotações e permanece na grade _[!UICONTROL Quote Templates]_do Administrador.
+O modelo da cotação é cancelado e o status das aspas muda para `Closed`. A cotação fechada permanece na lista de *[!UICONTROL Inactive]* cotações e permanece na grade _[!UICONTROL Quote Templates]_&#x200B;do Administrador.
 
 ## Gerenciar links de documento de referência
 

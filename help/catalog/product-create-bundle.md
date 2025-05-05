@@ -115,7 +115,7 @@ O formulário é atualizado para refletir a alteração.
 
 1. Aceite a configuração padrão **[!UICONTROL Visibility]** de `Catalog, Search`.
 
-1. Para atribuir _[!UICONTROL Categories]_ao produto, clique na caixa **[!UICONTROL Select…]**e siga um destes procedimentos:
+1. Para atribuir _[!UICONTROL Categories]_&#x200B;ao produto, clique na caixa **[!UICONTROL Select…]**&#x200B;e siga um destes procedimentos:
 
    **Escolha uma categoria existente:**
 
@@ -139,7 +139,7 @@ O formulário é atualizado para refletir a alteração.
 
 ## Etapa 5: adicionar os itens do pacote
 
-A seção _[!UICONTROL Bundle Items]_é usada para adicionar itens a um tipo de produto Pacote e editar a seleção atual de itens.
+A seção _[!UICONTROL Bundle Items]_&#x200B;é usada para adicionar itens a um tipo de produto Pacote e editar a seleção atual de itens.
 
 ![Itens do pacote definidos para um produto](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -180,7 +180,7 @@ A seção _[!UICONTROL Bundle Items]_é usada para adicionar itens a um tipo de 
 
      >[!NOTE]
      >
-     >A quantidade pode ser um valor predefinido ou definido pelo usuário. No entanto, não atribua a propriedade _[!UICONTROL User Defined]_a caixas de seleção nem selecione vários tipos de entrada.
+     >A quantidade pode ser um valor predefinido ou definido pelo usuário. No entanto, não atribua a propriedade _[!UICONTROL User Defined]_&#x200B;a caixas de seleção nem selecione vários tipos de entrada.
 
      Por padrão, a Quantidade padrão incluída em um item de pacote não pode ser alterada pelo cliente. No entanto, o cliente pode inserir a quantidade do item que deve ser incluída no pacote.
 
@@ -283,7 +283,7 @@ O status do estoque de produtos do pacote é **_não alterado automaticamente pa
 
 ![Caixa de seleção](../assets/checkbox.png) SKU e Peso podem ser `Fixed` ou `Dynamic`.
 
-![Caixa de seleção](../assets/checkbox.png) A quantidade pode ser uma predefinição ou um valor definido pelo usuário. No entanto, não atribua a propriedade _[!UICONTROL User Defined]_a caixas de seleção nem selecione vários tipos de entrada.
+![Caixa de seleção](../assets/checkbox.png) A quantidade pode ser uma predefinição ou um valor definido pelo usuário. No entanto, não atribua a propriedade _[!UICONTROL User Defined]_&#x200B;a caixas de seleção nem selecione vários tipos de entrada.
 
 ![Caixa de seleção](../assets/checkbox.png) Os itens do pacote podem ser enviados juntos ou separadamente.
 

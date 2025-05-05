@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Gerenciar contas de clientes
 
-Use a grade _[!UICONTROL Customers]_para localizar qualquer conta de cliente. Você pode usar os [controles do local de trabalho](../getting-started/admin-workspace.md) padrão para filtrar a lista, alterar o [layout da coluna](../getting-started/admin-grid-controls.md), salvar exibições e exportar dados. O [Controle de ações](../getting-started/admin-actions-control.md) acima da grade pode ser usado para aplicar uma operação a vários registros de clientes.
+Use a grade _[!UICONTROL Customers]_&#x200B;para localizar qualquer conta de cliente. Você pode usar os [controles do local de trabalho](../getting-started/admin-workspace.md) padrão para filtrar a lista, alterar o [layout da coluna](../getting-started/admin-grid-controls.md), salvar exibições e exportar dados. O [Controle de ações](../getting-started/admin-actions-control.md) acima da grade pode ser usado para aplicar uma operação a vários registros de clientes.
 
 ![Todos os Clientes](assets/customers-all-customers.png){width="700" zoomable="yes"}
 

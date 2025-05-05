@@ -56,7 +56,7 @@ Ao trabalhar com o tipo de conteúdo _Guias_, você adiciona e edita guias indiv
 
 ## Adicionar uma guia individual
 
-1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste o espaço reservado **[!UICONTROL Tabs]**diretamente para o estágio ou para uma linha ou coluna no estágio.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste o espaço reservado **[!UICONTROL Tabs]**&#x200B;diretamente para o estágio ou para uma linha ou coluna no estágio.
 
    ![Arrastando guias para uma linha](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

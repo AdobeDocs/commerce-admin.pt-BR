@@ -31,7 +31,7 @@ Para usuários ou funções temporários, também é possível definir uma data 
 
 1. No canto superior direito, clique em **[!UICONTROL Add New User]**.
 
-   Para editar um usuário existente, clique em um nome de usuário na grade. Você pode modificar as seções _[!UICONTROL User Info]_e_[!UICONTROL User Role]_ conforme necessário.
+   Para editar um usuário existente, clique em um nome de usuário na grade. Você pode modificar as seções _[!UICONTROL User Info]_&#x200B;e_[!UICONTROL User Role]_ conforme necessário.
 
 1. Na seção _[!UICONTROL Account Information]_, faça o seguinte:
 
@@ -69,13 +69,13 @@ Para usuários ou funções temporários, também é possível definir uma data 
 
 >[!IMPORTANT]
 >
->Com a seção _[!UICONTROL Account Information]_concluída, você pode salvar o usuário. O novo usuário é exibido na grade_[!UICONTROL Users]_, mas o nome de usuário não pode fazer logon até que uma função seja atribuída.
+>Com a seção _[!UICONTROL Account Information]_&#x200B;concluída, você pode salvar o usuário. O novo usuário é exibido na grade&#x200B;_[!UICONTROL Users]_, mas o nome de usuário não pode fazer logon até que uma função seja atribuída.
 
 ## Atribuir uma função de usuário
 
 1. No painel esquerdo, clique em **[!UICONTROL User Role]**.
 
-   A grade lista todas as funções de usuário existentes. Para um novo armazenamento, _[!UICONTROL Administrators]_é a única função disponível.
+   A grade lista todas as funções de usuário existentes. Para um novo armazenamento, _[!UICONTROL Administrators]_&#x200B;é a única função disponível.
 
    ![Administrador - adicionar nova função de usuário](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
@@ -105,7 +105,7 @@ Para usuários ou funções temporários, também é possível definir uma data 
 
 1. Quando solicitado, digite sua senha para confirmar sua identidade e clique novamente em **[!UICONTROL Save User]**.
 
-   A grade _[!UICONTROL Users]_é aberta e lista todos os usuários.
+   A grade _[!UICONTROL Users]_&#x200B;é aberta e lista todos os usuários.
 
 ## Excluir um usuário administrador
 

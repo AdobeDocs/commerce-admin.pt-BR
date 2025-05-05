@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Devoluções
 
-Uma _autorização de mercadoria devolvida_ (RMA) pode ser concedida a clientes que solicitam a devolução de um item para substituição ou reembolso. Normalmente, o cliente entra em contato com o comerciante para solicitar um reembolso. Se aprovado, um número de RMA exclusivo é atribuído para identificar o produto devolvido. Na configuração, você pode ativar a RMA para todos os produtos ou permitir a RMA apenas para determinados produtos. A grade _[!UICONTROL Returns]_lista as solicitações de merchandise (RMAs) retornadas no momento e é usada para inserir novas solicitações de devolução.
+Uma _autorização de mercadoria devolvida_ (RMA) pode ser concedida a clientes que solicitam a devolução de um item para substituição ou reembolso. Normalmente, o cliente entra em contato com o comerciante para solicitar um reembolso. Se aprovado, um número de RMA exclusivo é atribuído para identificar o produto devolvido. Na configuração, você pode ativar a RMA para todos os produtos ou permitir a RMA apenas para determinados produtos. A grade _[!UICONTROL Returns]_&#x200B;lista as solicitações de merchandise (RMAs) retornadas no momento e é usada para inserir novas solicitações de devolução.
 
 ![Retorna a grade](./assets/return.png){width="600" zoomable="yes"}
 

@@ -39,8 +39,8 @@ Você começa com um Estoque padrão atribuído com o Source padrão e seu site,
 
 Quantidade é o número de produtos no inventário ativo que estão disponíveis para compra. A quantidade de produtos aumenta e diminui quando você conclui remessas ou ajusta o inventário. A adição de produtos ao carrinho não afeta essa quantidade. A Quantidade Venável rastreia a disponibilidade do produto para um canal de vendas e também usa esse valor para determinar o estoque disponível para compra. Dependendo do número de origens, você verá e gerenciará a quantidade do produto para uma das seguintes opções:
 
-- **Quantidade** - Para comerciantes de origem única, a coluna e o valor _[!UICONTROL Quantity]_controlam a quantidade de estoque disponível.
-- **Quantidade por Source** - Para comerciantes de várias origens, a coluna e os valores _[!UICONTROL Quantity per Source]_controlam o estoque disponível por localização. Se você adicionar várias origens, esse valor substituirá a Quantidade e listará cada origem e quantidade atribuída.
+- **Quantidade** - Para comerciantes de origem única, a coluna e o valor _[!UICONTROL Quantity]_&#x200B;controlam a quantidade de estoque disponível.
+- **Quantidade por Source** - Para comerciantes de várias origens, a coluna e os valores _[!UICONTROL Quantity per Source]_&#x200B;controlam o estoque disponível por localização. Se você adicionar várias origens, esse valor substituirá a Quantidade e listará cada origem e quantidade atribuída.
 
 As reservas rastreiam solicitações de estoque para todo o processo de compras — adicionar produtos ao carrinho, concluir o check-out e gerenciar reembolsos. Para estoque e estoque disponíveis, as reservas reservam valores de estoque por ordem por meio do processo de finalização, subtraídos da quantidade vendável. As reservas são convertidas em deduções de quantidade ao faturar e enviar produtos.
 

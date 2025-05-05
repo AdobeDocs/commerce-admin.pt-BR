@@ -52,12 +52,12 @@ Para economizar tempo, as ordens de subtotal zero podem ser definidas para fatur
 
    >[!NOTE]
    >
-   >Se _[!UICONTROL New Order Status]_estiver definido como `Processing` e_[!UICONTROL Automatically Invoice All Items]_ estiver definido como `No`, você também deve atribuir **[!UICONTROL Order Status]** = `Processing` para o mapeamento **[!UICONTROL Order State]** = `Pending` e **[!UICONTROL Default Status]** = `No` na página [Status do Pedido](order-status.md#custom-order-status).
+   >Se _[!UICONTROL New Order Status]_&#x200B;estiver definido como `Processing` e&#x200B;_[!UICONTROL Automatically Invoice All Items]_ estiver definido como `No`, você também deve atribuir **[!UICONTROL Order Status]** = `Processing` para o mapeamento **[!UICONTROL Order State]** = `Pending` e **[!UICONTROL Default Status]** = `No` na página [Status do Pedido](order-status.md#custom-order-status).
 
 1. Defina **[!UICONTROL Payment from Applicable Countries]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois que você escolher essa opção, a lista _[!UICONTROL Payment from Specific Countries]_será exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
+   - `Specific Countries` - Depois que você escolher essa opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;será exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
 
 1. Para **[!UICONTROL Sort Order]**, insira um número que determine a posição deste item na lista de métodos de pagamento exibidos durante o check-out.
 

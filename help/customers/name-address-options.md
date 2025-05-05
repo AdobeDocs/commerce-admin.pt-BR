@@ -41,7 +41,7 @@ Você pode configurar as opções de nome e endereço que são apresentadas aos 
 
    >[!INFO]
    >
-   >A seção _[!UICONTROL Name and Address Options]_não aparece quando o escopo está definido como `Default Store View`.
+   >A seção _[!UICONTROL Name and Address Options]_&#x200B;não aparece quando o escopo está definido como `Default Store View`.
 
    ![Escopo de Configuração](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 

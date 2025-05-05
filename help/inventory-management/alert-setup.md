@@ -32,7 +32,7 @@ O alerta no estoque cria um link chamado _Notifique-me quando este produto estiv
 
 1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** abaixo de.
 
-1. Clique para expandir a seção _[!UICONTROL Product Alerts]_e faça o seguinte:
+1. Clique para expandir a seção _[!UICONTROL Product Alerts]_&#x200B;e faça o seguinte:
 
    ![Alertas de Produtos](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 

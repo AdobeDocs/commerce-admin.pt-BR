@@ -34,7 +34,7 @@ Para configurar, organize essas origens de cima para baixo em prioridade para at
 
 1. Clique em **[!UICONTROL Assign Sources]**.
 
-1. Na exibição _[!UICONTROL Assign Sources]_, marque a caixa de seleção da origem necessária e clique em **[!UICONTROL Done]**para atribuir uma origem ao estoque.
+1. Na exibição _[!UICONTROL Assign Sources]_, marque a caixa de seleção da origem necessária e clique em **[!UICONTROL Done]**&#x200B;para atribuir uma origem ao estoque.
 
 >[!NOTE]
 >

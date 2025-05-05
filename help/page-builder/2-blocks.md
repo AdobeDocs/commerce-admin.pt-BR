@@ -64,7 +64,7 @@ Neste exercício de apresentação, você cria um bloco simples com conteúdo de
 
 1. No canto superior direito do estágio, clique no ícone _Fechar Tela cheia_ (![Fechar tela cheia](./assets/pb-icon-reduce.png)).
 
-   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_do bloco com a visualização exibida.
+   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_&#x200B;do bloco com a visualização exibida.
 
 1. No canto superior direito, clique na seta **[!UICONTROL Save]** e escolha **[!UICONTROL Save & Close]**.
 
@@ -102,11 +102,11 @@ Se [!DNL Google Maps] já estiver configurado para o seu armazenamento, você po
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Na grade, localize o _[!UICONTROL Simple Page]_que você criou no primeiro tutorial e selecione **[!UICONTROL Edit]**na coluna_[!UICONTROL Action]_.
+1. Na grade, localize o _[!UICONTROL Simple Page]_&#x200B;que você criou no primeiro tutorial e selecione **[!UICONTROL Edit]**&#x200B;na coluna&#x200B;_[!UICONTROL Action]_.
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Content]** e clique em **[!UICONTROL Edit with Page Builder]** ou dentro da área de visualização de conteúdo.
 
-1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um espaço reservado **[!UICONTROL Row]**para a parte superior do estágio.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um espaço reservado **[!UICONTROL Row]**&#x200B;para a parte superior do estágio.
 
    ![Adicionando a linha à parte superior do estágio](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
@@ -130,7 +130,7 @@ Se [!DNL Google Maps] já estiver configurado para o seu armazenamento, você po
 
 1. No canto superior direito do estágio, clique no ícone _Fechar Tela cheia_ (![Fechar tela cheia](./assets/pb-icon-reduce.png)).
 
-   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_da página com a visualização exibida.
+   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_&#x200B;da página com a visualização exibida.
 
 1. No canto superior direito, clique na seta **[!UICONTROL Save]** e escolha **[!UICONTROL Save & Close]**.
 
@@ -182,7 +182,7 @@ Role para baixo até a seção _[!UICONTROL Content]_, que exibe uma visualizaç
 
 1. Para **[!UICONTROL Minimum Height]**, digite `400px`.
 
-1. Role até a seção _[!UICONTROL Background]_e defina o **[!UICONTROL Background Image]**clicando em **[!UICONTROL Select from Gallery]**e escolhendo a imagem `wide-banner-background.png` carregada no primeiro tutorial.
+1. Role até a seção _[!UICONTROL Background]_&#x200B;e defina o **[!UICONTROL Background Image]**&#x200B;clicando em **[!UICONTROL Select from Gallery]**&#x200B;e escolhendo a imagem `wide-banner-background.png` carregada no primeiro tutorial.
 
 1. No canto superior direito, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao espaço de trabalho [!DNL Page Builder].
 
@@ -190,7 +190,7 @@ Role para baixo até a seção _[!UICONTROL Content]_, que exibe uma visualizaç
 
 **Tarefa 2:** Adicionar colunas
 
-No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um espaço reservado **[!UICONTROL Column]**para a linha.
+No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um espaço reservado **[!UICONTROL Column]**&#x200B;para a linha.
 
 ![Arrastando o tipo de coluna para a linha](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -264,7 +264,7 @@ No primeiro exercício, você aprendeu a usar o tipo de conteúdo [Botão](butto
 
 1. No canto superior direito do estágio, clique no ícone _Fechar Tela cheia_ (![Fechar tela cheia](./assets/pb-icon-reduce.png)).
 
-   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_do bloco dinâmico com a visualização exibida.
+   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_&#x200B;do bloco dinâmico com a visualização exibida.
 
 1. No canto superior direito, clique em **[!UICONTROL Save]**.
 
@@ -298,7 +298,7 @@ No primeiro exercício, você aprendeu a usar o tipo de conteúdo [Botão](butto
 
    Para confirmar a remoção da linha da página, clique em **[!UICONTROL OK]**.
 
-1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um novo espaço reservado **[!UICONTROL Row]**para a parte superior do estágio.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um novo espaço reservado **[!UICONTROL Row]**&#x200B;para a parte superior do estágio.
 
 1. No painel [!DNL Page Builder], expanda **[!UICONTROL Add Content]** e arraste um espaço reservado **[!UICONTROL Dynamic Block]** para a nova linha.
 
@@ -312,7 +312,7 @@ No primeiro exercício, você aprendeu a usar o tipo de conteúdo [Botão](butto
 
    ![Selecionar Bloco Dinâmico](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-1. Encontre o bloco dinâmico _[!DNL Tee Shirt Promo]_que você criou e clique em **[!UICONTROL Select]**.
+1. Encontre o bloco dinâmico _[!DNL Tee Shirt Promo]_&#x200B;que você criou e clique em **[!UICONTROL Select]**.
 
    Um resumo das informações de bloco dinâmico aparece abaixo.
 
@@ -326,7 +326,7 @@ No primeiro exercício, você aprendeu a usar o tipo de conteúdo [Botão](butto
 
 1. No canto superior direito do estágio, clique no ícone _Fechar Tela cheia_ (![Fechar tela cheia](./assets/pb-icon-reduce.png)).
 
-   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_da página com a visualização exibida.
+   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_&#x200B;da página com a visualização exibida.
 
 1. No canto superior direito, clique na seta **[!UICONTROL Save]** e escolha **[!UICONTROL Save & Close]**.
 
@@ -342,7 +342,7 @@ Nesta parte final do exercício, você edita um bloco dinâmico enquanto a pági
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
-1. Encontre seu bloco dinâmico _[!DNL Tee Shirt Promo]_na grade e abra-o no modo de edição.
+1. Encontre seu bloco dinâmico _[!DNL Tee Shirt Promo]_&#x200B;na grade e abra-o no modo de edição.
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Content]** e clique em **[!UICONTROL Edit with Page Builder]**.
 
@@ -368,7 +368,7 @@ Nesta parte final do exercício, você edita um bloco dinâmico enquanto a pági
 
 1. No canto superior direito do estágio, clique no ícone _Fechar Tela cheia_ (![Fechar tela cheia](./assets/pb-icon-reduce.png)).
 
-   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_do bloco dinâmico com a visualização exibida.
+   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_&#x200B;do bloco dinâmico com a visualização exibida.
 
 1. No canto superior direito, clique em **[!UICONTROL Save]**.
 

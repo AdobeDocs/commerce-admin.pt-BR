@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Gerenciar contas da empresa
 
-A página _[!UICONTROL Companies]_lista todas as contas da empresa atual, independentemente do status. Todas as solicitações pendentes de aprovação são exibidas na parte superior da lista.
+A página _[!UICONTROL Companies]_&#x200B;lista todas as contas da empresa atual, independentemente do status. Todas as solicitações pendentes de aprovação são exibidas na parte superior da lista.
 
 ![Grade de Empresas](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Use o controle *[!UICONTROL Columns]* para personalizar as colunas exibidas na grade. Personalize as empresas exibidas na visualização usando os recursos de pesquisa e filtro.
 
-- Localize empresas na grade **Empresas** usando _[!UICONTROL Search]_. A pesquisa indexa as colunas **Nome da Empresa**e **Pai**.
+- Localize empresas na grade **Empresas** usando _[!UICONTROL Search]_. A pesquisa indexa as colunas **Nome da Empresa**&#x200B;e **Pai**.
 
 - Personalize a exibição para incluir registros que atendam a critérios específicos usando o [!UICONTROL Filter]. Por exemplo, se o site B2B estiver configurado para gerenciar contas de empresa únicas e [hierarquias de empresa](manage-companies.md), você poderá filtrar por `[!UICONTROL Company Type - Company]` para exibir apenas empresas únicas, ou por `[!UICONTROL Company Type - Parent]` para mostrar apenas a empresa principal de cada hierarquia.
 
-Aplique uma ação a vários registros da empresa usando o controle _[!UICONTROL Actions]_acima da grade. Por exemplo, em vez de aprovar cada solicitação individual de empresa, você pode selecionar várias solicitações para ativar as contas em uma única ação. As ações disponíveis dependem das [permissões](../systems/permissions.md) para a função atribuída à sua conta de usuário administrador.
+Aplique uma ação a vários registros da empresa usando o controle _[!UICONTROL Actions]_&#x200B;acima da grade. Por exemplo, em vez de aprovar cada solicitação individual de empresa, você pode selecionar várias solicitações para ativar as contas em uma única ação. As ações disponíveis dependem das [permissões](../systems/permissions.md) para a função atribuída à sua conta de usuário administrador.
 
 ## Recursos de função da empresa
 

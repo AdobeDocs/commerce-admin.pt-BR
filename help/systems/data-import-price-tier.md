@@ -24,7 +24,7 @@ O exemplo a seguir exporta dados de preços de camada para um único produto. Em
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
-1. Em _[!UICONTROL Export Settings]_, defina **[!UICONTROL Entity Type]**como `Advanced Pricing`.
+1. Em _[!UICONTROL Export Settings]_, defina **[!UICONTROL Entity Type]**&#x200B;como `Advanced Pricing`.
 
 1. Na grade **[!UICONTROL Entity Attributes]**, role para baixo até os atributos SKU e faça o seguinte:
 

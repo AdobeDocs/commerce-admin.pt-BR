@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Introdução ao gerenciamento de clientes
 
-O menu _[!UICONTROL Customers]_fornece acesso às ferramentas de gerenciamento de conta do cliente e oferece a você a capacidade de ver quem está online em sua loja.
+O menu _[!UICONTROL Customers]_&#x200B;fornece acesso às ferramentas de gerenciamento de conta do cliente e oferece a você a capacidade de ver quem está online em sua loja.
 
 ![Menu Clientes](assets/admin-menu-customers.png){width="300" zoomable="yes"}
 

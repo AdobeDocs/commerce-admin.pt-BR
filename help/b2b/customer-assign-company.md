@@ -59,13 +59,13 @@ Quando você adiciona um usuário da empresa, a primeira empresa associada à co
 
 O [!UICONTROL Customers grid] mostra uma linha separada para cada empresa à qual o usuário está atribuído. As colunas a seguir são atualizadas.
 
-- A coluna _[!UICONTROL Customer Type]_é atualizada para mostrar a função atribuída ao usuário.
+- A coluna _[!UICONTROL Customer Type]_&#x200B;é atualizada para mostrar a função atribuída ao usuário.
 
-  Se esta for a primeira vez que o cliente é atribuído a uma empresa, a coluna _[!UICONTROL Customer Type]_é atualizada de_[!UICONTROL Individual user]_ para _[!UICONTROL Company User]_.
+  Se esta for a primeira vez que o cliente é atribuído a uma empresa, a coluna _[!UICONTROL Customer Type]_&#x200B;é atualizada de&#x200B;_[!UICONTROL Individual user]_ para _[!UICONTROL Company User]_.
 
-- A coluna _[!UICONTROL Group]_é alterada para o nome do grupo de clientes (ou catálogo compartilhado) atribuído à empresa.
+- A coluna _[!UICONTROL Group]_&#x200B;é alterada para o nome do grupo de clientes (ou catálogo compartilhado) atribuído à empresa.
 
-- A coluna _[!UICONTROL Company]_exibe o nome da empresa à qual o perfil de cliente está associado.
+- A coluna _[!UICONTROL Company]_&#x200B;exibe o nome da empresa à qual o perfil de cliente está associado.
 
 ## Atribuir um usuário a uma ou mais contas da empresa
 
@@ -83,7 +83,7 @@ Quando você atribui um novo usuário, a primeira empresa associada à conta do 
 
 ## Remover atribuição da empresa de uma conta de usuário
 
-Remover uma empresa de um perfil de usuário revoga o acesso do usuário a essa empresa. Os dados do usuário permanecem acessíveis no Administrador. Se você remover todas as atribuições da empresa, o _[!UICONTROL Customer Type]_muda para *[!UICONTROL Individual user]*, desabilitando recursos B2B para a conta.
+Remover uma empresa de um perfil de usuário revoga o acesso do usuário a essa empresa. Os dados do usuário permanecem acessíveis no Administrador. Se você remover todas as atribuições da empresa, o _[!UICONTROL Customer Type]_&#x200B;muda para *[!UICONTROL Individual user]*, desabilitando recursos B2B para a conta.
 
 1. Na grade Cliente, em Admin, edite o perfil do cliente a ser atualizado.
 

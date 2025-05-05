@@ -42,7 +42,7 @@ O número de estrelas indica o índice de satisfação do produto. Os visitantes
 
 ### [!UICONTROL My Product Reviews]
 
-A seção _[!UICONTROL My Product Reviews]_do painel da conta do cliente lista todas as revisões enviadas pelo cliente e aprovadas para publicação. Cada resumo de revisão inclui a data em que a revisão foi enviada, links para a página do produto e detalhes da revisão.
+A seção _[!UICONTROL My Product Reviews]_&#x200B;do painel da conta do cliente lista todas as revisões enviadas pelo cliente e aprovadas para publicação. Cada resumo de revisão inclui a data em que a revisão foi enviada, links para a página do produto e detalhes da revisão.
 
 ![Minhas análises de produto](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ Com as Revisões de produto do Commerce, os clientes podem atribuir classificaç
 
    ![Administrador - Classificações](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Na seção _[!UICONTROL Rating Title]_, digite o **[!UICONTROL Default Value]**para a nova classificação.
+1. Na seção _[!UICONTROL Rating Title]_, digite o **[!UICONTROL Default Value]**&#x200B;para a nova classificação.
 
    Se aplicável, insira também a tradução para cada exibição de loja.
 

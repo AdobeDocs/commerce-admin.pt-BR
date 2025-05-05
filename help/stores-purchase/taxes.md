@@ -89,7 +89,7 @@ Os comerciantes auditados para impostos pagos por bens digitais devem fornecer d
 - O endereço de entrega do cliente e um registro de uma transação de pagamento bem-sucedida podem ser usados para estabelecer o local de residência do cliente. (O pagamento é aceito somente se o endereço de entrega corresponder às informações do provedor de serviço de pagamento.)
 - As informações também podem ser capturadas diretamente do armazenamento de dados nas tabelas do banco de dados do Commerce.
 
-_**Para coletar informações de imposto sobre mercadorias digitais:**_
+_&#x200B;**Para coletar informações de imposto sobre mercadorias digitais:**&#x200B;_
 
 1. Carregar as taxas de imposto para todos os países membros da UE.
 

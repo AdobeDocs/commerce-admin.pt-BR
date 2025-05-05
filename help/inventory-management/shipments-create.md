@@ -54,9 +54,9 @@ Você pode enviar entregas parciais para:
 
      ![Selecione uma Source e insira uma Quantidade](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Revise a página _[!UICONTROL New Shipment]_e insira quaisquer alterações adicionais, conforme necessário.
+1. Revise a página _[!UICONTROL New Shipment]_&#x200B;e insira quaisquer alterações adicionais, conforme necessário.
 
-   A seção _[!UICONTROL Inventory]_exibe a origem, os produtos enviados, a quantidade total solicitada e a quantidade a ser entregue.
+   A seção _[!UICONTROL Inventory]_&#x200B;exibe a origem, os produtos enviados, a quantidade total solicitada e a quantidade a ser entregue.
 
    ![Detalhes de estoque da remessa, exemplo de remessa parcial](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

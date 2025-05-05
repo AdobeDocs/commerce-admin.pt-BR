@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Traduzir uma página de conteúdo
 
-Se o armazenamento tiver várias exibições em diferentes [idiomas](../stores-purchase/store-localize.md) e você tiver definido a localidade de cada exibição para um idioma diferente, o resultado será um site parcialmente traduzido. A próxima etapa é criar uma versão traduzida de cada página disponível na exibição de loja específica. A coluna [!UICONTROL Store View] da lista _[!UICONTROL Manage Pages]_mostra cada exibição que tem uma versão traduzida da página.
+Se o armazenamento tiver várias exibições em diferentes [idiomas](../stores-purchase/store-localize.md) e você tiver definido a localidade de cada exibição para um idioma diferente, o resultado será um site parcialmente traduzido. A próxima etapa é criar uma versão traduzida de cada página disponível na exibição de loja específica. A coluna [!UICONTROL Store View] da lista _[!UICONTROL Manage Pages]_&#x200B;mostra cada exibição que tem uma versão traduzida da página.
 
 Para traduzir uma página de conteúdo, é necessário criar outra página que tenha a mesma Chave de URL da original, mas seja atribuída à exibição de loja específica. Em seguida, atualize a página da exibição específica com o texto traduzido. O exemplo a seguir mostra como criar uma versão traduzida da página _Sobre nós_ para a exibição de loja em espanhol.
 
@@ -25,7 +25,7 @@ Para traduzir uma página de conteúdo, é necessário criar outra página que t
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization]** e copie o **[!UICONTROL URL Key]** para a área de transferência.
 
-1. Para retornar à grade _[!UICONTROL Pages]_, clique em **[!UICONTROL Back]**na barra de botões superior.
+1. Para retornar à grade _[!UICONTROL Pages]_, clique em **[!UICONTROL Back]**&#x200B;na barra de botões superior.
 
 ## Etapa 2: adicionar uma página para o conteúdo traduzido
 

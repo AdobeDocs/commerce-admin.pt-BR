@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Novas opções de conta de cliente
 
-Na seção _[!UICONTROL Create New Account Options]_da configuração, as opções básicas da conta são combinadas com opções mais avançadas relacionadas à Validação de ID de IVA e às integrações personalizadas. As instruções a seguir abordam apenas as opções usadas com mais frequência. Para saber mais sobre atribuições automáticas de grupo de clientes, consulte [Validação de VAT](../stores-purchase/vat.md).
+Na seção _[!UICONTROL Create New Account Options]_&#x200B;da configuração, as opções básicas da conta são combinadas com opções mais avançadas relacionadas à Validação de ID de IVA e às integrações personalizadas. As instruções a seguir abordam apenas as opções usadas com mais frequência. Para saber mais sobre atribuições automáticas de grupo de clientes, consulte [Validação de VAT](../stores-purchase/vat.md).
 
 ![Criar Novas Opções de Conta](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 

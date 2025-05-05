@@ -22,7 +22,7 @@ Você deve ter uma [!DNL Google Analytics] e [!DNL Tag Manager] conta para conti
 
 >[!NOTE]
 >
->Se sua empresa estiver sujeita a regulamentos de privacidade como o [Regulamento Geral sobre a Proteção de Dados](../getting-started/compliance-gdpr.md) e/ou a Lei](../getting-started/compliance-ccpa.md) de Privacidade do Consumidor da [Califórnia, consulte o [Google Privacy Configurações](google-tools.md#google-privacy-settings).
+>Se sua empresa estiver sujeita a regulamentos de privacidade como o [Regulamento Geral sobre a Proteção de Dados](../getting-started/compliance-gdpr.md) e/ou a Lei[&#128279;](../getting-started/compliance-ccpa.md) de Privacidade do Consumidor da Califórnia, consulte o [Google Privacy Configurações](google-tools.md#google-privacy-settings).
 
 ## Etapa 1. Configurar o [!DNL Google Analytics] conta
 
@@ -44,7 +44,7 @@ Consulte [Configurar Search](https://support.google.com/analytics/answer/1012264
 
    - Escolha **[!UICONTROL Property Settings]**.
 
-   - Em _[!UICONTROL Advertising Features]_, defina **[!UICONTROL Enable Demographics and Interest Reports]**como `On`.
+   - Em _[!UICONTROL Advertising Features]_, defina **[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;como `On`.
 
    - **[!UICONTROL Save]** as configurações.
 
@@ -179,7 +179,7 @@ Se você tiver uma conta do Google AdWords, poderá criar uma tag que rastreia c
 
    - Em **[!UICONTROL Choose Product]**, selecione **[!UICONTROL Google AdWords]**.
 
-   - Em _[!UICONTROL Choose a Tag Type]_, selecione **[!UICONTROL AdWords Conversion Tracking]**e clique em **[!UICONTROL Continue]**.
+   - Em _[!UICONTROL Choose a Tag Type]_, selecione **[!UICONTROL AdWords Conversion Tracking]**&#x200B;e clique em **[!UICONTROL Continue]**.
 
 1. Insira o conta e **[!UICONTROL Conversion Label]** clique **[!UICONTROL Continue]** em **[!UICONTROL Conversion ID]** &quot;AdWords&quot;.
 
@@ -189,7 +189,7 @@ Continuando desde a [!DNL Google Tag Manager] painel, o próximo passo é criar 
 
 1. Em **[!UICONTROL Fire On]**, clique **[!UICONTROL Some Pages]** em .
 
-1. _[!UICONTROL Choose Pages]_Na seção, preencha as seguintes configurações:
+1. _[!UICONTROL Choose Pages]_&#x200B;Na seção, preencha as seguintes configurações:
 
    - **[!UICONTROL Name]** - Digite um nome para a descrição da página.
 
@@ -243,7 +243,7 @@ Se você não puder importar a configuração da variável, conclua as etapas ab
 1. No campo Nome **da** Variável global, insira `window.cspNonce`.
 1. Salvar o variável.
 
-Para saber mais sobre [as Variáveis do Gerenciador de tags do Google, consulte [os tipos de variável definidos](https://support.google.com/tagmanager/answer/7683056?hl=en) pelo usuário para a Web](https://support.google.com/tagmanager/answer/7683362?hl=en) na documentação do Google. Esta documentação oferece orientações detalhadas sobre como criar e gerenciar variáveis personalizadas para adaptar suas gerenciamento de tags para necessidades marketing e analíticas específicas.
+Para saber mais sobre [&#128279;](https://support.google.com/tagmanager/answer/7683362?hl=en)as Variáveis do Gerenciador de tags do Google, consulte [os tipos de variável definidos](https://support.google.com/tagmanager/answer/7683056?hl=en) pelo usuário para a Web na documentação do Google. Esta documentação oferece orientações detalhadas sobre como criar e gerenciar variáveis personalizadas para adaptar suas gerenciamento de tags para necessidades marketing e analíticas específicas.
 
 ### Etapa 2. Criar uma tag HTML personalizada
 

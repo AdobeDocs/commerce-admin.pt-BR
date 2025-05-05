@@ -49,11 +49,11 @@ Ao configurar programações para atualizações de produtos e editar campanhas,
 
    >[!NOTE]
    >
-   >As campanhas **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** devem ser definidas usando o fuso horário padrão **_3} do Administrador, que é convertido do fuso horário local para cada site._** Por exemplo, com vários sites em fusos horários diferentes nos quais você deseja iniciar uma campanha com base em um fuso horário dos EUA, é necessário agendar uma atualização separada para cada fuso horário local. Defina **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** para cada um, e ele será convertido do fuso horário do site local para o fuso horário padrão do Administrador.
+   >As campanhas **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** devem ser definidas usando o fuso horário padrão **_3&rbrace; do Administrador, que é convertido do fuso horário local para cada site._** Por exemplo, com vários sites em fusos horários diferentes nos quais você deseja iniciar uma campanha com base em um fuso horário dos EUA, é necessário agendar uma atualização separada para cada fuso horário local. Defina **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** para cada um, e ele será convertido do fuso horário do site local para o fuso horário padrão do Administrador.
 
    ![Agendar como uma nova atualização](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. Role para baixo até _[!UICONTROL Price]_e clique em **[!UICONTROL Advanced Pricing]**.
+1. Role para baixo até _[!UICONTROL Price]_&#x200B;e clique em **[!UICONTROL Advanced Pricing]**.
 
 1. Insira um **[!UICONTROL Special Price]** para o produto durante a campanha agendada e clique em **[!UICONTROL Done]**.
 
@@ -107,7 +107,7 @@ A alteração programada é exibida na parte superior da página do produto, com
 
 {{ce-feature}}
 
-A seção _[!UICONTROL Schedule Design Update]_oferece a capacidade de fazer alterações temporárias na aparência da página do produto. Você pode agendar alterações de design para uma temporada, promoção ou apenas para atualizar as coisas. As alterações de design podem ser agendadas com antecedência, para que entrem em vigor ou_ drip _, de acordo com o agendamento definido.
+A seção _[!UICONTROL Schedule Design Update]_&#x200B;oferece a capacidade de fazer alterações temporárias na aparência da página do produto. Você pode agendar alterações de design para uma temporada, promoção ou apenas para atualizar as coisas. As alterações de design podem ser agendadas com antecedência, para que entrem em vigor ou_ drip _, de acordo com o agendamento definido.
 
 ![Atualização de Design Agendada](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

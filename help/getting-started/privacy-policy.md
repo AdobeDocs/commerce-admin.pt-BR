@@ -36,7 +36,7 @@ Qualquer representação da informação que permita determinar a identidade de 
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Na grade, localize **[!UICONTROL Privacy Policy]**. Em seguida, na coluna _[!UICONTROL Action]_, clique em **[!UICONTROL Select]**e escolha **[!UICONTROL Edit]**.
+1. Na grade, localize **[!UICONTROL Privacy Policy]**. Em seguida, na coluna _[!UICONTROL Action]_, clique em **[!UICONTROL Select]**&#x200B;e escolha **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >

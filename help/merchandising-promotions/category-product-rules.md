@@ -41,7 +41,7 @@ As regras de produto de categoria podem acelerar o processo de atribuição de p
 
    >[!NOTE]
    >
-   >Certifique-se de que o atributo selecionado NÃO seja um _[!UICONTROL Input Type]_de várias seleções.
+   >Certifique-se de que o atributo selecionado NÃO seja um _[!UICONTROL Input Type]_&#x200B;de várias seleções.
 
 1. Conclua a [configuração](smart-attributes-configure.md) para identificar cada atributo _inteligente_ a ser usado com o Visual Merchandiser.
 

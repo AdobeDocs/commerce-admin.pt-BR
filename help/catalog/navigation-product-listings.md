@@ -16,7 +16,7 @@ As listas de produtos podem ser definidas para serem exibidas por padrão como u
 
 >[!NOTE]
 >
->Ao classificar uma categoria por um atributo de produto, os produtos com os mesmos valores de atributo também são classificados por seu _[!UICONTROL Product ID]_na ordem crescente.
+>Ao classificar uma categoria por um atributo de produto, os produtos com os mesmos valores de atributo também são classificados por seu _[!UICONTROL Product ID]_&#x200B;na ordem crescente.
 
 ![Produtos exibidos como uma grade](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -34,7 +34,7 @@ As listas de produtos podem ser definidas para serem exibidas por padrão como u
 
    >[!NOTE]
    >
-   >Para exibir corretamente os produtos e seus preços de acordo com a _classificação de produto por preço_, verifique se as configurações de exibição de preço na [configuração de Imposto](../configuration-reference/sales/tax.md) têm o mesmo valor (`Excluding Tax` **ou** `Including Tax`). Para o _[!UICONTROL Calculation Settings]_, verifique o valor **[!UICONTROL Catalog Prices]**. E para_[!UICONTROL Price Display Settings]_, verifique o valor **[!UICONTROL Display Product Prices in Catalog]**. Se eles tiverem valores diferentes, os filtros de preço na navegação em camadas podem não filtrar e classificar corretamente os produtos por preço.
+   >Para exibir corretamente os produtos e seus preços de acordo com a _classificação de produto por preço_, verifique se as configurações de exibição de preço na [configuração de Imposto](../configuration-reference/sales/tax.md) têm o mesmo valor (`Excluding Tax` **ou** `Including Tax`). Para o _[!UICONTROL Calculation Settings]_, verifique o valor **[!UICONTROL Catalog Prices]**. E para&#x200B;_[!UICONTROL Price Display Settings]_, verifique o valor **[!UICONTROL Display Product Prices in Catalog]**. Se eles tiverem valores diferentes, os filtros de preço na navegação em camadas podem não filtrar e classificar corretamente os produtos por preço.
 
 1. Defina o padrão **[!UICONTROL List Mode]** como um dos seguintes:
 
@@ -95,7 +95,7 @@ As Configurações de paginação são exibidas nas partes superior e inferior d
 | Controle | Descrição |
 |--- |--- |
 | ![Exibir grade](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Exibe a lista no formato Grade ou Lista. |
-| ![Classificar por](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Altera a ordem de classificação da lista. A propriedade de vitrine _[!UICONTROL Used for Sorting in Product Listing]_determina quais [atributos de produto](../catalog/product-attributes.md) podem ser usados para classificar a lista. |
+| ![Classificar por](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Altera a ordem de classificação da lista. A propriedade de vitrine _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;determina quais [atributos de produto](../catalog/product-attributes.md) podem ser usados para classificar a lista. |
 | ![Mostrar por página](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Determina quantos produtos aparecem por página. |
 | ![Links de paginação](./assets/control-pagination.png) | Links de paginação - Links de navegação para outras páginas. |
 

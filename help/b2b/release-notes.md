@@ -26,7 +26,7 @@ Essas notas de versão para a extensão B2B capturam adições e correções que
 
 *8 de abril de 2025*
 
-[!BADGE ]{type=Informative tooltip="Suportado"} Com suporte Adobe Systems Comércio versões 2.4.8, 2.4.7-p5 e 2.4.6-p10, correção de segurança.
+{type=Informative tooltip="Suportado"} Com suporte Adobe Systems Comércio versões 2.4.8, 2.4.7-p5 e 2.4.6-p10, correção de segurança.
 Compatível com Adobe Systems Comércio versões 2.4.7 a 2.4.7-p4, 2.4.6 a 2.4.6-p9
 
 A versão B2B v1.5.2 inclui melhorias de qualidade e correções de erros.
@@ -49,9 +49,9 @@ Esse aprimoramento se baseia na capacidade empresa associação empresa empresa 
 
 ![Problema corrigido](../assets/fix.svg) A versão B2B v1.5.2 inclui as seguintes correções para cotações negociáveis:
 
-- <!-- B2B-3252 -->O campo [!UICONTROL Line Item Discount Amount] agora valida a entrada para evitar a inserção de valores de desconto negativos.
-- <!-- B2B-3224 -->Correção de um problema de experiência do usuário em que as notas de item de linha longa eram truncadas e de difícil leitura para clientes B2B.
-- <!-- B2B-2865 -->Os clientes B2B agora podem especificar quantidades de produtos usando valores decimais (como 1,5 ou 2,75) ao criar aspas.
+- &#x200B;<!-- B2B-3252 -->O campo [!UICONTROL Line Item Discount Amount] agora valida a entrada para evitar a inserção de valores de desconto negativos.
+- &#x200B;<!-- B2B-3224 -->Correção de um problema de experiência do usuário em que as notas de item de linha longa eram truncadas e de difícil leitura para clientes B2B.
+- &#x200B;<!-- B2B-2865 -->Os clientes B2B agora podem especificar quantidades de produtos usando valores decimais (como 1,5 ou 2,75) ao criar aspas.
 
 ### Modelo de cotação
 
@@ -178,7 +178,7 @@ As melhorias nos recursos de cotação ajudam os Compradores e os Vendedores a g
 
 *8 de abril de 2025*
 
-[!BADGE ]{type=Informative tooltip="Compatível"} Com suporte Adobe Systems Comércio versões 2.4.7-p5+ e 2.4.6-p10+ de correção segurança.
+{type=Informative tooltip="Compatível"} Com suporte Adobe Systems Comércio versões 2.4.7-p5+ e 2.4.6-p10+ de correção segurança.
 
 ![](../assets/new.svg) Novo compatibilidade adicional com as versões de Adobe Systems Comércio 2.4.7-p5+ e 2.4.6-p10+ versões de correção de segurança.
 
@@ -202,7 +202,7 @@ As melhorias nos recursos de cotação ajudam os Compradores e os Vendedores a g
 
 *8 de outubro de 2024*
 
-[!BADGE ]{type=Informative tooltip="Compatível"} Com suporte Adobe Systems Comércio versões de correção de segurança 2.4.7-p3+ e 2.4.6-p8+.
+{type=Informative tooltip="Compatível"} Com suporte Adobe Systems Comércio versões de correção de segurança 2.4.7-p3+ e 2.4.6-p8+.
 
 ![](../assets/new.svg) Novo compatibilidade adicional com as versões de Adobe Systems Comércio 2.4.7-p3+ e 2.4.6-p8+ versões de correção de segurança.
 
@@ -224,7 +224,7 @@ As melhorias nos recursos de cotação ajudam os Compradores e os Vendedores a g
 
 *9 de agosto de 2024*
 
-[!BADGE ]{type=Informative tooltip="Compatível"} Com suporte Adobe Systems Comércio versões 2.4.7-p1+ e 2.4.6-p6+ de correção segurança.
+{type=Informative tooltip="Compatível"} Com suporte Adobe Systems Comércio versões 2.4.7-p1+ e 2.4.6-p6+ de correção segurança.
 
 ![](../assets/new.svg) Novo compatibilidade adicional com as versões de Adobe Systems Comércio 2.4.7-p1+ e 2.4.6-p6+ versões de correção de segurança.
 
@@ -234,7 +234,7 @@ As melhorias nos recursos de cotação ajudam os Compradores e os Vendedores a g
 
 *10 de outubro de 2023*
 
-[!BADGE ]{type=Informative tooltip="Compatível"} Compatível com o Adobe Systems Comércio versão 2.4.7 e versão 2.4.6 para 2.4.6-p5.
+{type=Informative tooltip="Compatível"} Compatível com o Adobe Systems Comércio versão 2.4.7 e versão 2.4.6 para 2.4.6-p5.
 
 A versão B2B v1.4.2 inclui melhorias de qualidade e correções de bugs.
 
@@ -310,7 +310,7 @@ Você pode corrigir esse problema adicionando dependências manuais para o pacot
 
 *8 de abril, 2025*
 
-[!BADGE ]{type=Informative tooltip="Compatível"} Com suporte Adobe Systems Comércio versões de correção de segurança 2.4.6-p10+.
+{type=Informative tooltip="Compatível"} Com suporte Adobe Systems Comércio versões de correção de segurança 2.4.6-p10+.
 
 ![](../assets/new.svg) Novo foi adicionada compatibilidade com a Adobe Systems Comércio versões de correção de segurança 2.4.6-p10.
 
@@ -320,7 +320,7 @@ Você pode corrigir esse problema adicionando dependências manuais para o pacot
 
 *11 de fevereiro de 2025*
 
-[!BADGE ]{type=Informative tooltip="Compatível"} Suporte Adobe Systems Comércio versões de correção de segurança 2.4.6-p9+.
+{type=Informative tooltip="Compatível"} Suporte Adobe Systems Comércio versões de correção de segurança 2.4.6-p9+.
 
 ![Novo](../assets/new.svg) Compatibilidade adicionada com as versões de patch de segurança do Adobe Commerce 2.4.6-p9.
 
@@ -340,7 +340,7 @@ Você pode corrigir esse problema adicionando dependências manuais para o pacot
 
 *9 de agosto de 2024*
 
-[!BADGE ]{type=Informative tooltip="Compatível"} Com suporte Adobe Systems Comércio versões de correção de segurança 2.4.6-p7+.
+{type=Informative tooltip="Compatível"} Com suporte Adobe Systems Comércio versões de correção de segurança 2.4.6-p7+.
 
 ![Novo](../assets/new.svg) Compatibilidade adicionada com as versões de patch de segurança do Adobe Commerce 2.4.6-p7.
 
@@ -348,7 +348,7 @@ Você pode corrigir esse problema adicionando dependências manuais para o pacot
 
 *14 de março de 2023*
 
-[!BADGE ]{type=Informative tooltip="Compatível"} Com suporte Adobe Systems Comércio 2.4.0 - 2.4.6 e versões mais recentes
+{type=Informative tooltip="Compatível"} Com suporte Adobe Systems Comércio 2.4.0 - 2.4.6 e versões mais recentes
 
 ![](../assets/new.svg) Novo versão 1.3.5-p2 lançada B2B para oferecer suporte à compatibilidade com Adobe Systems Comércio 2.4.6-p2.
 
@@ -566,7 +566,7 @@ Você pode corrigir esse problema adicionando dependências manuais para o pacot
 
 ![](../assets/fix.svg) <!--- MC-40426--> Problema corrigido Os comerciantes agora podem usar o terminal de POST `rest/all/V1/requisition_lists` para criar um lista de requisição para um cliente. Anteriormente, Adobe Systems Comércio exibia esse erro 400 quando você tentava criar uma requisição lista: `Could not save Requisition List`.
 
-![Correção de um problema](../assets/fix.svg) <!--- MC-41123--> O **[!UICONTROL Add to Requisition List]** botão agora aparece para os produtos da carrinho de compras em estoque quando o carrinho também contém produtos não estoques. Anteriormente, se um carrinho continha dois produtos, um dos quais estava sem estoque, o _[!UICONTROL Add to Requisition List]_botão não aparecia para nenhum dos produtos.
+![Correção de um problema](../assets/fix.svg) <!--- MC-41123--> O **[!UICONTROL Add to Requisition List]** botão agora aparece para os produtos da carrinho de compras em estoque quando o carrinho também contém produtos não estoques. Anteriormente, se um carrinho continha dois produtos, um dos quais estava sem estoque, o _[!UICONTROL Add to Requisition List]_&#x200B;botão não aparecia para nenhum dos produtos.
 
 ![Correção de um problema](../assets/fix.svg)<!--- MC-40877-->: agora é possível usar a API REST para adicionar um produto a um lista de requisição.
 
@@ -630,7 +630,7 @@ Você pode corrigir esse problema adicionando dependências manuais para o pacot
 
 ![Correção de um problema](../assets/fix.svg) de ordenação de produtos SKU o uso de Pedido rápido não resulta mais em duplicado quantidades de produtos no arquivo CSV. <!--- MC-37427-->
 
-![Correção de um problema](../assets/fix.svg) O **[!UICONTROL Add to Cart]** botão não é mais bloqueado quando a _[!UICONTROL Enter Multiple SKUs]_seção do Quick Order página contém um valor vazio. Em vez disso, Adobe Systems Comércio agora exibe uma mensagem levando você a inserir SKUs válidos. <!--- MC-37387-->
+![Correção de um problema](../assets/fix.svg) O **[!UICONTROL Add to Cart]** botão não é mais bloqueado quando a _[!UICONTROL Enter Multiple SKUs]_&#x200B;seção do Quick Order página contém um valor vazio. Em vez disso, Adobe Systems Comércio agora exibe uma mensagem levando você a inserir SKUs válidos. <!--- MC-37387-->
 
 ![Correção de um problema](../assets/fix.svg) Adobe Systems Comércio agora exibe essa mensagem no página do produto quando você envia uma revisão de produto a partir de uma lista de requisição: `You submitted your review for moderation`. A revisão também aparece na página de Resenhas Pendente (Administrador **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). Anteriormente, embora Adobe Systems Comércio tenha adicionado a revisão à lista de revisões pendentes, ela jogou um erro 404 no página do produto. <!--- MC-37119-->
 
@@ -724,7 +724,7 @@ Esta versão inclui melhorias nas aprovações de pedidos, métodos de envio, ca
 
 ![Correção do problema](../assets/fix.svg) Agora é possível implementar multishipping para pedidos que contêm produtos físicos e virtuais. <!--- MC-33818-->
 
-![](../assets/fix.svg) Problema corrigido Os comerciantes agora podem criar empresa usuários a _[!UICONTROL Company Users]_partir da seção nas páginas Minha conta e Estrutura da empresa quando **[!UICONTROL Access Restriction]**estiver ativada e **[!UICONTROL Restriction Mode]**definida como`Sales: Login Only`. Anteriormente, Adobe Systems Comércio ocorreu esse erro quando um comerciante tentou criar uma usuário: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+![](../assets/fix.svg) Problema corrigido Os comerciantes agora podem criar empresa usuários a _[!UICONTROL Company Users]_&#x200B;partir da seção nas páginas Minha conta e Estrutura da empresa quando **[!UICONTROL Access Restriction]**&#x200B;estiver ativada e **[!UICONTROL Restriction Mode]**&#x200B;definida como`Sales: Login Only`. Anteriormente, Adobe Systems Comércio ocorreu esse erro quando um comerciante tentou criar uma usuário: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
 ![Correção de um problema](../assets/fix.svg) Adobe Systems Comércio não redefine mais os grupo do cliente de um cliente para o padrão quando um cliente salva suas informações de conta. <!--- MC-33554-->
 

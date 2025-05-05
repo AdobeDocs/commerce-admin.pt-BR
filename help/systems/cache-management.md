@@ -16,17 +16,17 @@ O sistema de gerenciamento de cache do Adobe Commerce e do Magento Open Source o
 
 ![Salvar atributo de produto - Mensagem de atualização do cache](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-A página _[!UICONTROL Cache Management]_mostra o status de cada cache primário e sua marca associada. Os botões grandes no canto superior direito podem ser usados para liberar o cache ou o Armazenamento de cache completo. Na parte inferior da página, botões adicionais permitem liberar o cache de imagens do produto de catálogo e o cache do JavaScript/CSS.
+A página _[!UICONTROL Cache Management]_&#x200B;mostra o status de cada cache primário e sua marca associada. Os botões grandes no canto superior direito podem ser usados para liberar o cache ou o Armazenamento de cache completo. Na parte inferior da página, botões adicionais permitem liberar o cache de imagens do produto de catálogo e o cache do JavaScript/CSS.
 
 >[!IMPORTANT]
 >
->Quando entidades de catálogo são alteradas, isso pode afetar outras páginas e invalidar vários caches simultaneamente. Ao revisar a página de gerenciamento de cache, você pode ver itens inválidos que exigem atualização quando _**não foram editados diretamente**_. Por exemplo, essa invalidação ocorre ao editar qualquer produto no catálogo atribuído a qualquer categoria ou ao alterar qualquer regra de produto relacionada.
+>Quando entidades de catálogo são alteradas, isso pode afetar outras páginas e invalidar vários caches simultaneamente. Ao revisar a página de gerenciamento de cache, você pode ver itens inválidos que exigem atualização quando _&#x200B;**não foram editados diretamente**&#x200B;_. Por exemplo, essa invalidação ocorre ao editar qualquer produto no catálogo atribuído a qualquer categoria ou ao alterar qualquer regra de produto relacionada.
 
 Depois de limpar um cache, sempre atualize o navegador para garantir que você possa ver os arquivos mais recentes. Limpar o cache do Commerce não limpa o cache do navegador da Web. Talvez seja necessário limpar o cache do navegador para ver o conteúdo atualizado.
 
 Informações técnicas adicionais sobre o armazenamento em cache do Adobe Commerce estão disponíveis na [Visão geral do cache](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target=&quot;_blank&quot;} no _Guia de desenvolvimento de front-end do Commerce_.
 
-Acesse a página _[!UICONTROL Cache Management]_seguindo um destes procedimentos:
+Acesse a página _[!UICONTROL Cache Management]_&#x200B;seguindo um destes procedimentos:
 
 - Clique no link **[!UICONTROL Cache Management]** na mensagem acima do espaço de trabalho.
 - Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
@@ -86,7 +86,7 @@ Para obter informações sobre como atribuir recursos para conceder acesso a con
 
 ## Liberar o cache de imagem do produto
 
-1. Em _[!UICONTROL Additional Cache Management]_, clique em **[!UICONTROL Flush Catalog Images Cache]**para limpar os arquivos de imagem de produto pré-gerados.
+1. Em _[!UICONTROL Additional Cache Management]_, clique em **[!UICONTROL Flush Catalog Images Cache]**&#x200B;para limpar os arquivos de imagem de produto pré-gerados.
 
    A mensagem `Image cache was cleaned` aparece na parte superior do espaço de trabalho.
 
@@ -108,7 +108,7 @@ Os administradores de sistema e desenvolvedores com acesso ao servidor de aplica
 
 | Controle | Descrição |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Mass Actions] | Marca a caixa de seleção de vários caches. Opções: <br/>**[!UICONTROL Select All]**— Marca a caixa de seleção de todos os caches.<br/>** Desmarcar Tudo **— Limpa a caixa de seleção de todos os caches.<br/>**[!UICONTROL Select Visible]** — Marca a caixa de seleção de todos os caches visíveis. <br/>**[!UICONTROL Unselect Visible]**— Limpa a caixa de seleção de todos os caches visíveis. |
+| [!UICONTROL Mass Actions] | Marca a caixa de seleção de vários caches. Opções: <br/>**[!UICONTROL Select All]**— Marca a caixa de seleção de todos os caches.<br/>**&#x200B; Desmarcar Tudo &#x200B;**— Limpa a caixa de seleção de todos os caches.<br/>**[!UICONTROL Select Visible]** — Marca a caixa de seleção de todos os caches visíveis. <br/>**[!UICONTROL Unselect Visible]**— Limpa a caixa de seleção de todos os caches visíveis. |
 | [!UICONTROL Actions] | Determina a ação a ser aplicada a todos os caches selecionados. Opções: <br/>**[!UICONTROL Enable]**— Habilita todos os caches selecionados.<br/>**[!UICONTROL Disable]** — Desabilita todos os caches selecionados. <br/>**[!UICONTROL Refresh]**— Atualiza todos os caches selecionados. |
 | [!UICONTROL Submit] | Aplica a ação a todos os caches selecionados. |
 

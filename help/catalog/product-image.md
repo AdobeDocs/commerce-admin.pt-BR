@@ -44,7 +44,7 @@ Para fazer upload de uma imagem, siga um destes procedimentos:
 
 ### Reorganizar imagens
 
-Para alterar a ordem das imagens na galeria, clique no ícone _[!UICONTROL Sort]_( ![Classificar ícone](./assets/inventory-icon-sort.png) ) na parte inferior do bloco de imagens e arraste a imagem para uma posição diferente na caixa_[!UICONTROL Images And Videos]_.
+Para alterar a ordem das imagens na galeria, clique no ícone _[!UICONTROL Sort]_( ![Classificar ícone](./assets/inventory-icon-sort.png) ) na parte inferior do bloco de imagens e arraste a imagem para uma posição diferente na caixa&#x200B;_[!UICONTROL Images And Videos]_.
 
 ![Ordem de alteração](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 

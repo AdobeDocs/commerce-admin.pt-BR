@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | Site | Define o peso mínimo que um pacote pode ter, conforme especificado pelo UPS. Se o peso dos produtos solicitados for menor que o peso mínimo da embalagem, essa opção de envio não estará disponível. Para verificar o peso mínimo, verifique com a transportadora. |
 | [!UICONTROL Calculate Handling Fee] | Site | Define o método de cálculo da taxa de manuseio de material para remessa com taxa de tabela. Opções: <br>**`Fixed`**- A taxa de manuseio é fixa.<br>**`Percent`** - Taxa de manuseio aplicada como porcentagem do valor do pedido. |
 | [!UICONTROL Handling Applied] | Site | Especifica se a taxa de manuseio é aplicada a cada pedido ou a cada pacote dentro de um pedido. |
-| [!UICONTROL Handling Fee] | Site | Define o manuseio incluído com o preço da taxa de remessa. A taxa de manuseio pode ser definida como um valor fixo ou uma porcentagem. <br/><br/>**_Observação:_**se você digitar um valor percentual, use o formato decimal `0.25` para 25%. |
+| [!UICONTROL Handling Fee] | Site | Define o manuseio incluído com o preço da taxa de remessa. A taxa de manuseio pode ser definida como um valor fixo ou uma porcentagem. <br/><br/>**_Observação:_**&#x200B;se você digitar um valor percentual, use o formato decimal `0.25` para 25%. |
 
 {style="table-layout:auto"}
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Site | Especifica os métodos permitidos de envio UPS oferecidos aos clientes. As taxas de remessa são calculadas com base no método de remessa selecionado. |
-| [!UICONTROL Free Method] | Site | Identifica o método usado para o método de envio gratuito por meio do UPS. Para desativar o frete grátis, escolha &quot;Nenhum&quot;. <br/><br/>**_Observação:_**este método é semelhante ao [Envio gratuito](../../stores-purchase/shipping-free.md) básico, no entanto, ele aparece como uma opção de envio UPS durante o check-out. |
+| [!UICONTROL Free Method] | Site | Identifica o método usado para o método de envio gratuito por meio do UPS. Para desativar o frete grátis, escolha &quot;Nenhum&quot;. <br/><br/>**_Observação:_**&#x200B;este método é semelhante ao [Envio gratuito](../../stores-purchase/shipping-free.md) básico, no entanto, ele aparece como uma opção de envio UPS durante o check-out. |
 | [!UICONTROL Free Shipping Amount Threshold] | Site | Determina se o frete gratuito é aplicado quando a quantidade do pedido atinge o limite de frete gratuito. Opções: `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Site | Define o valor total mínimo que um pedido deve atingir para se qualificar para remessa gratuita. |
 | [!UICONTROL Displayed Error Message] | Exibição da loja | A mensagem de erro que é exibida quando este método de envio não está disponível por algum motivo. |
@@ -219,7 +219,7 @@ ht-degree: 0%
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Site | Define o método de cálculo da taxa de manuseio de material para remessa com taxa de tabela. Opções: <br/>**`Fixed`**- A taxa de manuseio é fixa.<br/>**`Percent`** - Taxa de manuseio aplicada como porcentagem do valor do pedido. |
 | [!UICONTROL Handling Applied] | Site | Especifica se a taxa de manuseio é aplicada a cada pedido ou a cada pacote dentro de um pedido. |
-| [!UICONTROL Handling Fee] | Site | Define o manuseio incluído com o preço da taxa de remessa. A taxa de manuseio pode ser definida como um valor fixo ou uma porcentagem. <br/><br/>**_Observação:_**ao digitar um valor percentual, use o formato decimal `0.25` para 25%. |
+| [!UICONTROL Handling Fee] | Site | Define o manuseio incluído com o preço da taxa de remessa. A taxa de manuseio pode ser definida como um valor fixo ou uma porcentagem. <br/><br/>**_Observação:_**&#x200B;ao digitar um valor percentual, use o formato decimal `0.25` para 25%. |
 
 {style="table-layout:auto"}
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Site | Especifica os métodos permitidos de envio de USPS oferecidos aos clientes. As taxas de remessa são calculadas com base no método de remessa selecionado. |
-| [!UICONTROL Free Method] | Site | Define o método de envio gratuito por meio do USPS, ou pode ser desativado selecionando `None`. <br/><br/>**_Observação:_**este método de envio é semelhante ao método de envio gratuito de sua loja, no entanto, ele é listado como uma opção de envio USPS e identificado como envio USPS. |
+| [!UICONTROL Free Method] | Site | Define o método de envio gratuito por meio do USPS, ou pode ser desativado selecionando `None`. <br/><br/>**_Observação:_**&#x200B;este método de envio é semelhante ao método de envio gratuito de sua loja, no entanto, ele é listado como uma opção de envio USPS e identificado como envio USPS. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Site | Define o valor mínimo da ordem que deve ser atendido para se qualificar para remessa gratuita. |
 | [!UICONTROL Displayed Error Message] | Exibição da loja | A mensagem de erro que aparece quando o USPS não está disponível por algum motivo. |
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | Site | Determina o método usado para calcular taxas de manuseio. Opções: `Fixed Fee` / `Percentage` <br/><br/>**_Observação:_**A taxa de tratamento é opcional e aparece como um encargo extra que é adicionado ao custo de envio da FedEx. |
+| [!UICONTROL Calculate Handling Fee] | Site | Determina o método usado para calcular taxas de manuseio. Opções: `Fixed Fee` / `Percentage` <br/><br/>**_Observação:_**&#x200B;A taxa de tratamento é opcional e aparece como um encargo extra que é adicionado ao custo de envio da FedEx. |
 | [!UICONTROL Handling Applied] | Site | Determina como as taxas de manuseio são aplicadas. Opções: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Site | Especifica o valor cobrado como uma taxa de manuseio, com base no método usado para calcular o valor. Se o encargo for baseado em uma taxa fixa, insira o valor em formato decimal, como `4.90`. Se a taxa de manuseio for baseada em uma porcentagem do pedido, insira o valor como uma porcentagem. Por exemplo, para cobrar seis por cento do pedido, insira o valor como `.06`. |
 
@@ -306,7 +306,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | Site | Defina como um dos seguintes, dependendo se você vende B2C (Business-to-Consumer) ou B2B (Business-to-Business): <br/>**`Yes`**- Para entregas B2C<br/>**`No`** - Para entregas B2B |
 | [!UICONTROL Allowed Methods] | Site | Na lista, selecione os métodos de entrega que você suporta. Os métodos dependem da sua conta FedEx, da frequência e do tamanho das suas remessas e se você permite remessas internacionais. Como comerciante, você pode decidir oferecer apenas frete terrestre. |
 | [!UICONTROL Hub ID] | Site | Uma ID fornecida pelo FedEx usada com o método [!DNL Smart Post]. |
-| [!UICONTROL Free Method] | Site | Na lista, selecione o método de envio que você prefere usar para ofertas de frete gratuito. <br/><br/>**_Observação:_**este método de envio é semelhante ao método de envio gratuito normal, no entanto, ele está listado nas opções de envio do FedEx e é identificado como envio do FedEx. |
+| [!UICONTROL Free Method] | Site | Na lista, selecione o método de envio que você prefere usar para ofertas de frete gratuito. <br/><br/>**_Observação:_**&#x200B;este método de envio é semelhante ao método de envio gratuito normal, no entanto, ele está listado nas opções de envio do FedEx e é identificado como envio do FedEx. |
 | [!UICONTROL Free Shipping Amount Threshold] | Site | Determina se um valor de pedido mínimo é necessário para frete grátis. Opções: <br/>**`Enable`**- Habilita o envio gratuito do FedEx para pedidos que atendem ao valor mínimo.<br/>**`Disable`** - Desabilita o envio gratuito do FedEx com pedido mínimo. |
 | [!UICONTROL Free Shipping Amount Threshold] | Site | Especifica o valor mínimo da ordem que é necessário para frete grátis. |
 | [!UICONTROL Displayed Error Message] | Exibição da loja | A mensagem que aparece quando o FedEx não está disponível por algum motivo. Você pode usar a mensagem padrão ou inserir outra. |

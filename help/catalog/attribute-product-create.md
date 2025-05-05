@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Criar e excluir atributos de produto
 
-Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL Product Attributes]_. As etapas a seguir mostram como criar atributos no menu_[!UICONTROL Stores]_.
+Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL Product Attributes]_. As etapas a seguir mostram como criar atributos no menu&#x200B;_[!UICONTROL Stores]_.
 
 ## Etapa 1: Descrever as propriedades básicas do atributo
 
@@ -31,7 +31,7 @@ Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL
    | `Text Field` | Um campo de entrada de linha única para texto. |
    | `Text Area` | Um campo de entrada de várias linhas para inserir parágrafos de texto, como uma descrição do produto. Você pode usar o Editor WYSIWYG para formatar o texto com tags HTML ou inserir as tags diretamente no texto. |
    | `Text Editor` | Um editor de texto totalmente funcional no local do atributo. |
-   | Data | Exibe um valor de data no [formato preferido](attributes-input-types.md#date-and-time-options) e [fuso horário](../getting-started/store-details.md#locale-options). Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**Dependendo da configuração do seu sistema, os usuários do_Administrador _podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](attributes-input-types.md#date-and-time-options). |
+   | Data | Exibe um valor de data no [formato preferido](attributes-input-types.md#date-and-time-options) e [fuso horário](../getting-started/store-details.md#locale-options). Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**&#x200B;Dependendo da configuração do seu sistema, os usuários do_Administrador _podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Exibe uma lista suspensa com opções predefinidas de `Yes` e `No`. |
    | `Dropdown` | Exibe uma lista suspensa de valores que aceitam apenas uma única seleção. O tipo de entrada suspensa é um componente chave de [produtos configuráveis](product-create-configurable.md). |
    | `Multiple Select` | Exibe uma lista suspensa de valores que aceitam várias seleções. |

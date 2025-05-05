@@ -52,7 +52,7 @@ O tema responsivo `Magento Blank` renderiza a exibição da sua vitrine eletrôn
 
 1. Localize a exibição de armazenamento que você deseja configurar e clique em **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
-1. Em _[!UICONTROL Default Theme]_, defina **[!UICONTROL Applied Theme]**como aquele que deseja usar para a exibição atual.
+1. Em _[!UICONTROL Default Theme]_, defina **[!UICONTROL Applied Theme]**&#x200B;como aquele que deseja usar para a exibição atual.
 
    ![Tema Aplicado](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 

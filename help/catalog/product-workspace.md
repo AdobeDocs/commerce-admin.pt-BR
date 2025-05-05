@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Espaço de trabalho do produto
 
-O espaço de trabalho do produto é basicamente o mesmo para todos os tipos de produto, embora a seleção de campos mude dependendo do conjunto de atributos usado. Os atributos do produto estão na parte superior do formulário, seguidos por seções expansíveis de informações do produto. Quando um novo produto é salvo pela primeira vez, o seletor _[!UICONTROL Store View]_aparece no canto superior esquerdo do formulário.
+O espaço de trabalho do produto é basicamente o mesmo para todos os tipos de produto, embora a seleção de campos mude dependendo do conjunto de atributos usado. Os atributos do produto estão na parte superior do formulário, seguidos por seções expansíveis de informações do produto. Quando um novo produto é salvo pela primeira vez, o seletor _[!UICONTROL Store View]_&#x200B;aparece no canto superior esquerdo do formulário.
 
 ![Espaço de trabalho do produto](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ Para expandir ou recolher uma seção, clique no ícone expandir ![Seletor de ex
 
 ## Menu [!UICONTROL Save]
 
-O menu _[!UICONTROL Save]_inclui várias opções que permitem salvar e continuar, salvar e criar um produto, salvar e duplicar o produto ou salvar e fechar.
+O menu _[!UICONTROL Save]_&#x200B;inclui várias opções que permitem salvar e continuar, salvar e criar um produto, salvar e duplicar o produto ou salvar e fechar.
 
 ![Salvar menu](./assets/product-save-menu.png){width="600" zoomable="yes"}
 

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Atualizar um perfil de cliente
 
-O painel esquerdo da página _[!UICONTROL Customer Information]_inclui informações sobre atividades do cliente, endereços, estatísticas de pedidos, pedidos recentes, conteúdo do carrinho de compras, análises de produtos e assinaturas de boletim informativo.
+O painel esquerdo da página _[!UICONTROL Customer Information]_&#x200B;inclui informações sobre atividades do cliente, endereços, estatísticas de pedidos, pedidos recentes, conteúdo do carrinho de compras, análises de produtos e assinaturas de boletim informativo.
 
 ![Perfil do cliente](assets/cust-profile.png){width="700" zoomable="yes"}
 

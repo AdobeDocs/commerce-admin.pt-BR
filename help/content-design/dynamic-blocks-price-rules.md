@@ -22,7 +22,7 @@ Qualquer [bloco dinâmico](dynamic-blocks.md) que você criar poderá ser associ
 
 ## Associar um bloco dinâmico a uma regra de preço
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_e escolha uma das seguintes opções:
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_&#x200B;e escolha uma das seguintes opções:
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**

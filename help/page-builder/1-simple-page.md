@@ -70,7 +70,7 @@ Nesta parte do exercício Página simples, você cria uma página que tem uma li
 
 1. Se os dados de exemplo estiverem disponíveis, defina **[!UICONTROL New Theme]** como `Magento Luma`. Caso contrário, você pode escolher outro tema disponível ou deixá-lo em branco para usar o tema padrão.
 
-   A configuração _[!UICONTROL New Theme]_pode ser usada para substituir o tema padrão e aplicar um tema diferente à página.
+   A configuração _[!UICONTROL New Theme]_&#x200B;pode ser usada para substituir o tema padrão e aplicar um tema diferente à página.
 
    >[!NOTE]
    >
@@ -112,7 +112,7 @@ Nesta parte do exercício Página simples, você cria uma página que tem uma li
 
    ![Configurações de linha - sangria completa](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
 
-1. Role para baixo até a seção _[!UICONTROL Advanced]_e defina todas as configurações de **[!UICONTROL Margins and Padding]**como `0`.
+1. Role para baixo até a seção _[!UICONTROL Advanced]_&#x200B;e defina todas as configurações de **[!UICONTROL Margins and Padding]**&#x200B;como `0`.
 
    Essa configuração garante que o banner estenda a largura total da linha.
 
@@ -147,7 +147,7 @@ Nesta parte do exercício Página simples, você cria uma página que tem uma li
 
    ![Aparência do banner - colagem à direita](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. Role para baixo até a seção _[!UICONTROL Background]_e defina a imagem de fundo do banner:
+1. Role para baixo até a seção _[!UICONTROL Background]_&#x200B;e defina a imagem de fundo do banner:
 
    - Para **[!UICONTROL Background Image]**, clique em **Carregar**.
 
@@ -200,7 +200,7 @@ __
 
 1. Passe o mouse para exibir a caixa de ferramentas Banner, escolha novamente o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ) e role até a seção _[!UICONTROL Content]_.
 
-   Observe que seu texto é exibido na caixa _Texto da Mensagem_. O texto pode ser inserido e editado no estágio ou na seção _[!UICONTROL Content]_das configurações de banner.
+   Observe que seu texto é exibido na caixa _Texto da Mensagem_. O texto pode ser inserido e editado no estágio ou na seção _[!UICONTROL Content]_&#x200B;das configurações de banner.
 
    ![Configurações de banner - texto da mensagem](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
@@ -243,7 +243,7 @@ __
 
 1. No canto superior direito do estágio, clique no ícone _Fechar Tela cheia_ (![Fechar tela cheia](./assets/pb-icon-reduce.png)).
 
-   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_da página com a visualização exibida.
+   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_&#x200B;da página com a visualização exibida.
 
    Você pode alternar entre os dois modos de espaço de trabalho a qualquer momento.
 
@@ -265,7 +265,7 @@ Nesta parte do exercício, você adiciona uma linha à página e divide a linha 
 
 1. Clique em **[!UICONTROL Edit with Page Builder]** ou dentro da área de visualização de conteúdo.
 
-1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um espaço reservado **[!UICONTROL Row]**para o estágio e coloque-o acima do banner.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um espaço reservado **[!UICONTROL Row]**&#x200B;para o estágio e coloque-o acima do banner.
 
    A diretriz vermelha marca o limite entre as duas linhas.
 
@@ -285,7 +285,7 @@ Nesta parte do exercício, você adiciona uma linha à página e divide a linha 
 
 ### Etapa 2: adicionar uma coluna
 
-1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um espaço reservado **[!UICONTROL Column]**para a nova linha.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um espaço reservado **[!UICONTROL Column]**&#x200B;para a nova linha.
 
    ![Arrastando um tipo de conteúdo de coluna para o estágio](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
 
@@ -345,7 +345,7 @@ Nesta etapa, você aprenderá a fazer upload de uma imagem no banner.
 
 1. No canto superior direito do estágio, clique no ícone _Fechar Tela cheia_ (![Fechar tela cheia](./assets/pb-icon-reduce.png)).
 
-   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_da página com a visualização exibida.
+   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_&#x200B;da página com a visualização exibida.
 
 1. No canto superior direito, clique na seta **[!UICONTROL Save]** e escolha **[!UICONTROL Save & Close]**.
 
@@ -365,7 +365,7 @@ A linha final desta página apresenta o conteúdo de uma análise do produto. Vo
 
 1. Clique em **[!UICONTROL Edit with Page Builder]** ou dentro da área de visualização de conteúdo.
 
-1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um espaço reservado **[!UICONTROL Row]**para o estágio e coloque-o acima da linha criada na segunda parte deste exercício.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um espaço reservado **[!UICONTROL Row]**&#x200B;para o estágio e coloque-o acima da linha criada na segunda parte deste exercício.
 
    Uma diretriz vermelha marca o limite entre as duas linhas.
 
@@ -385,7 +385,7 @@ A linha final desta página apresenta o conteúdo de uma análise do produto. Vo
 
    ![Definindo a cor do plano de fundo](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
 
-1. Role para baixo até a seção _[!UICONTROL Advanced]_e defina todos os valores de **Margens e Preenchimento**como `0`.
+1. Role para baixo até a seção _[!UICONTROL Advanced]_&#x200B;e defina todos os valores de **Margens e Preenchimento**&#x200B;como `0`.
 
    ![Definindo as margens e o preenchimento](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -397,7 +397,7 @@ A linha final desta página apresenta o conteúdo de uma análise do produto. Vo
 
 ### Etapa 2: adicionar colunas de diferentes larguras
 
-1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um espaço reservado **[!UICONTROL Column]**para a linha superior do palco.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste um espaço reservado **[!UICONTROL Column]**&#x200B;para a linha superior do palco.
 
    ![Arrastando uma coluna para o estágio](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
 
@@ -409,7 +409,7 @@ A linha final desta página apresenta o conteúdo de uma análise do produto. Vo
 
 1. Passe o mouse sobre o primeiro contêiner de coluna para exibir a caixa de ferramentas e escolher o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Role para baixo até a seção _[!UICONTROL Advanced]_e defina todos os valores de **Margens e Preenchimento**como `0`.
+1. Role para baixo até a seção _[!UICONTROL Advanced]_&#x200B;e defina todos os valores de **Margens e Preenchimento**&#x200B;como `0`.
 
    ![Definindo as margens e o preenchimento](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -445,7 +445,7 @@ A segunda coluna da linha deve conter conteúdo de uma análise do cliente, incl
 
    ![Inserindo uma imagem no texto](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
 
-   - Na caixa de diálogo _[!UICONTROL Insert/edit image]_, clique no ícone_ Localizar _( ![Localizar ícone](./assets/editor-btn-find-source.png) ) ao lado do campo_[!UICONTROL Source]_.
+   - Na caixa de diálogo _[!UICONTROL Insert/edit image]_, clique no ícone_ Localizar _( ![Localizar ícone](./assets/editor-btn-find-source.png) ) ao lado do campo&#x200B;_[!UICONTROL Source]_.
 
      ![Caixa de diálogo Inserir/editar imagem](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
 
@@ -507,7 +507,7 @@ A segunda coluna da linha deve conter conteúdo de uma análise do cliente, incl
 
    ![Definindo a altura mínima e o alinhamento vertical](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
 
-1. Role para baixo até a seção _[!UICONTROL Advanced]_e defina todos os valores de **[!UICONTROL Margins and Padding]**como zero ( `0` ).
+1. Role para baixo até a seção _[!UICONTROL Advanced]_&#x200B;e defina todos os valores de **[!UICONTROL Margins and Padding]**&#x200B;como zero ( `0` ).
 
    ![Definindo as margens e o preenchimento](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -541,7 +541,7 @@ A segunda coluna da linha deve conter conteúdo de uma análise do cliente, incl
 
 1. No canto superior direito do estágio, clique no ícone _Fechar Tela cheia_ (![Fechar tela cheia](./assets/pb-icon-reduce.png)).
 
-   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_da página com a visualização exibida.
+   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_&#x200B;da página com a visualização exibida.
 
 1. No canto superior direito, clique em **[!UICONTROL Save]**.
 
@@ -571,7 +571,7 @@ Com todas as três linhas concluídas, a etapa final é reorganizar as linhas pa
 
 1. No canto superior direito do estágio, clique no ícone _Fechar Tela cheia_ (![Fechar tela cheia](./assets/pb-icon-reduce.png)).
 
-   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_da página com a visualização exibida.
+   Clicar nesse ícone retorna à seção _[!UICONTROL Content]_&#x200B;da página com a visualização exibida.
 
 1. No canto superior direito, clique na seta **[!UICONTROL Save]** e escolha **[!UICONTROL Save & Close]**.
 

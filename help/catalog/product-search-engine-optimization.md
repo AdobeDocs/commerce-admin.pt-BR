@@ -14,7 +14,7 @@ ht-degree: 0%
 
 A _Otimização do mecanismo de pesquisa_ (SEO) é a prática de ajustar o conteúdo e a apresentação de um site para melhorar a forma como as páginas são indexadas pelos mecanismos de pesquisa.
 
-As configurações de _[!UICONTROL Search Engine Optimization]_para um produto especificam os campos [Chave de URL](catalog-urls.md) e [metadados](../merchandising-promotions/meta-data.md) usados pelos mecanismos de pesquisa para indexar o produto. Embora alguns mecanismos de pesquisa ignorem metapalavras-chave, outros mecanismos de pesquisa continuam a usá-las. A [prática recomendada da SEO](../merchandising-promotions/seo-overview.md) atual é incorporar palavras-chave de alto valor no metatítulo e na metadescrição.
+As configurações de _[!UICONTROL Search Engine Optimization]_&#x200B;para um produto especificam os campos [Chave de URL](catalog-urls.md) e [metadados](../merchandising-promotions/meta-data.md) usados pelos mecanismos de pesquisa para indexar o produto. Embora alguns mecanismos de pesquisa ignorem metapalavras-chave, outros mecanismos de pesquisa continuam a usá-las. A [prática recomendada da SEO](../merchandising-promotions/seo-overview.md) atual é incorporar palavras-chave de alto valor no metatítulo e na metadescrição.
 
 O valor padrão para cada campo de metadados pode ser gerado automaticamente com base nos valores especificados na configuração. Cada campo contém um espaço reservado que é substituído por um valor real. Para obter mais informações, consulte [Geração automática de campos de produto](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
 

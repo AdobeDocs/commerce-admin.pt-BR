@@ -38,7 +38,7 @@ _Remessa gratuita_ é uma das promoções mais eficazes que você pode oferecer.
 
    >[!TIP]
    >
-   >Para usar frete grátis com [taxas de tabela](shipping-table-rate.md), torne o _[!UICONTROL Minimum Order Amount]_tão alto que nunca será atendido. O uso desse valor alto impede que o frete grátis entre em vigor, a menos que seja acionado por uma regra de preço.
+   >Para usar frete grátis com [taxas de tabela](shipping-table-rate.md), torne o _[!UICONTROL Minimum Order Amount]_&#x200B;tão alto que nunca será atendido. O uso desse valor alto impede que o frete grátis entre em vigor, a menos que seja acionado por uma regra de preço.
 
 1. Conjunto **[!UICONTROL Include Tax to Amount]**:
 
@@ -53,7 +53,7 @@ _Remessa gratuita_ é uma das promoções mais eficazes que você pode oferecer.
 
    - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar frete grátis.
 
-   - `Specific Countries` - Depois de escolher este valor, a lista _[!UICONTROL Ship to Specific Countries]_é exibida. Selecione cada país na lista onde a remessa gratuita pode ser usada.
+   - `Specific Countries` - Depois de escolher este valor, a lista _[!UICONTROL Ship to Specific Countries]_&#x200B;é exibida. Selecione cada país na lista onde a remessa gratuita pode ser usada.
 
 1. Conjunto **[!UICONTROL Show Method if Not Applicable]**:
 

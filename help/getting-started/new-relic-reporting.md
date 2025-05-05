@@ -155,6 +155,7 @@ Retorna o número médio de eventos de aplicação no catálogo por categoria du
     AND CatalogCategoryCount > 0
     AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutos atrás LIMIT 1
 &lt;/your_app_name>
+
 #### Produtos ativos
 
 Retorna o número de eventos de aplicativo por produto durante o período especificado.
@@ -256,7 +257,7 @@ Retorna o número médio de eventos de aplicativo por site e armazenamento duran
 
     SELECT average(StoreViewCount), average(WebsiteCount)
     FROM Cron
-    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 minutos
+    WHERE appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 minutos
 
 #### Contagem atual de sites e lojas
 

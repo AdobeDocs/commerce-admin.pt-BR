@@ -87,7 +87,7 @@ A configuração de _Páginas Padrão_ determina a página de aterrissagem assoc
 
    >[!NOTE]
    >
-   >Para uma exibição de loja específica, desmarque a caixa de seleção **[!UICONTROL Use Default]** ao lado de _[!UICONTROL Default Web URL]_e quaisquer outras configurações padrão a serem alteradas.
+   >Para uma exibição de loja específica, desmarque a caixa de seleção **[!UICONTROL Use Default]** ao lado de _[!UICONTROL Default Web URL]_&#x200B;e quaisquer outras configurações padrão a serem alteradas.
 
 1. Defina **[!UICONTROL CMS Home Page]** para a página do CMS a ser usada como página inicial. Outras páginas criadas podem ser usadas como página inicial, como:
 

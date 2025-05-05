@@ -109,7 +109,7 @@ Antes de configurar o PayPal Payments Advanced no Commerce, você deve configura
 
 1. Se a sua instalação do Commerce tiver vários sites, lojas ou modos de exibição, defina **[!UICONTROL Store View]** para o modo de exibição de loja onde deseja aplicar essa configuração.
 
-1. Na seção _[!UICONTROL Merchant Location]_, selecione o **[!UICONTROL Merchant Country]**onde sua empresa está localizada.
+1. Na seção _[!UICONTROL Merchant Location]_, selecione o **[!UICONTROL Merchant Country]**&#x200B;onde sua empresa está localizada.
 
    Esta configuração determina a seleção das Soluções do PayPal que aparecem na configuração.
 
@@ -306,7 +306,7 @@ Defina **[!UICONTROL Enable PayPal PayLater Experience]** como um dos seguintes:
 1. Defina **[!UICONTROL Payment Applicable From]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_é exibida. Mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada país na lista onde os clientes podem fazer compras na sua loja.
+   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;é exibida. Mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada país na lista onde os clientes podem fazer compras na sua loja.
 
 1. Para gravar comunicações com o sistema de pagamento no arquivo de log, defina **[!UICONTROL Debug Mode]** como `Yes`.
 
@@ -379,7 +379,7 @@ Defina **[!UICONTROL Enable PayPal PayLater Experience]** como um dos seguintes:
 
 #### Configurações de experiência de front-end
 
-Use o _[!UICONTROL Frontend Experience Settings]_para escolher quais logotipos do PayPal aparecem em seu site e para personalizar a aparência das suas páginas de comerciante do PayPal.
+Use o _[!UICONTROL Frontend Experience Settings]_&#x200B;para escolher quais logotipos do PayPal aparecem em seu site e para personalizar a aparência das suas páginas de comerciante do PayPal.
 
 1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Frontend Experience Settings]**.
 
@@ -434,7 +434,7 @@ Use o _[!UICONTROL Frontend Experience Settings]_para escolher quais logotipos d
    - `Authorization` - Aprova a compra e suspende os fundos. O valor não é retirado até ser _capturado_ pelo comerciante.
    - `Sale` - O valor da compra é autorizado e imediatamente retirado da conta do cliente.
 
-1. Para exibir o botão _[!UICONTROL Check out with PayPal]_na página do produto, defina **[!UICONTROL Display on Product Details Page]**como `Yes`.
+1. Para exibir o botão _[!UICONTROL Check out with PayPal]_&#x200B;na página do produto, defina **[!UICONTROL Display on Product Details Page]**&#x200B;como `Yes`.
 
 ### Etapa 7: Concluir configurações avançadas - Finalização de compra do PayPal Express
 

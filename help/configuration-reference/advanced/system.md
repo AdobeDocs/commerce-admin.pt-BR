@@ -153,8 +153,8 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Global | Determina se a instância do Commerce permite backups. Opções: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Global | (Exibido quando _[!UICONTROL Enable Backup]_está definido como `Yes`.) Determina se o backup da instância do Commerce é feito automaticamente em uma programação regular. Opções: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Global | (Exibido quando _[!UICONTROL Enable Scheduled Backup]_está definido como `Yes`.) Determina os elementos da instância do Commerce que estão incluídos no backup. Opções: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Exibido quando _[!UICONTROL Enable Backup]_&#x200B;está definido como `Yes`.) Determina se o backup da instância do Commerce é feito automaticamente em uma programação regular. Opções: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Exibido quando _[!UICONTROL Enable Scheduled Backup]_&#x200B;está definido como `Yes`.) Determina os elementos da instância do Commerce que estão incluídos no backup. Opções: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definido como `Yes`.) Especifica a hora, o minuto e o segundo em que o backup agendado começa. |
 | [!UICONTROL Frequency] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definido como `Yes`.) Determina com que frequência o backup agendado ocorre. Opções: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definido como `Yes`.) Determina se o armazenamento é colocado em modo de manutenção durante o backup agendado. Opções: `Yes` / `No` |

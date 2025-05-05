@@ -20,7 +20,7 @@ Na seção _[!UICONTROL Gift Options]_, é possível definir opções de mensage
 
 1. Abra o produto no modo de edição.
 
-1. Role para baixo e expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Gift Options]_e faça o seguinte:
+1. Role para baixo e expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Gift Options]_&#x200B;e faça o seguinte:
 
    - Para substituir a configuração padrão, desmarque a caixa de seleção **[!UICONTROL Use Config Settings]**.
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configurações do produto - [!UICONTROL Content]
 
-A seção _[!UICONTROL Content]_é usada para inserir e editar a descrição principal do produto que aparece na página do produto. A descrição curta pode ser usada na maioria dos feeds RSS e também pode aparecer em listagens de catálogo, dependendo do [tema](../content-design/themes.md).
+A seção _[!UICONTROL Content]_&#x200B;é usada para inserir e editar a descrição principal do produto que aparece na página do produto. A descrição curta pode ser usada na maioria dos feeds RSS e também pode aparecer em listagens de catálogo, dependendo do [tema](../content-design/themes.md).
 
 ## Adicionar a descrição do produto em [!DNL Page Builder]
 
@@ -30,7 +30,7 @@ A seção _[!UICONTROL Content]_é usada para inserir e editar a descrição pri
 
 ## Visualização de [!DNL Page Builder]
 
-Quando você expande a seção _[!UICONTROL Content]_para um produto existente onde há conteúdo criado com [!DNL Page Builder], ela exibe uma pré-visualização do conteúdo **[!UICONTROL Description]**como ele apareceria na página do produto. Abra o espaço de trabalho [!DNL Page Builder], onde você pode fazer as atualizações necessárias, clicando em **[!UICONTROL Edit with Page Builder]**.
+Quando você expande a seção _[!UICONTROL Content]_&#x200B;para um produto existente onde há conteúdo criado com [!DNL Page Builder], ela exibe uma pré-visualização do conteúdo **[!UICONTROL Description]**&#x200B;como ele apareceria na página do produto. Abra o espaço de trabalho [!DNL Page Builder], onde você pode fazer as atualizações necessárias, clicando em **[!UICONTROL Edit with Page Builder]**.
 
 ![Visualização da descrição](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Categorias - Configurações de design
 
-A seção _[!UICONTROL Design]_oferece controle sobre a aparência de uma categoria, todas as páginas de produto associadas e o layout da página. É possível personalizar uma página de categoria e seus produtos associados para uma promoção ou para diferenciar a categoria. Por exemplo, você pode desenvolver um design especial para uma marca ou linha especial de produtos ou aplicar uma atualização por um período específico.
+A seção _[!UICONTROL Design]_&#x200B;oferece controle sobre a aparência de uma categoria, todas as páginas de produto associadas e o layout da página. É possível personalizar uma página de categoria e seus produtos associados para uma promoção ou para diferenciar a categoria. Por exemplo, você pode desenvolver um design especial para uma marca ou linha especial de produtos ou aplicar uma atualização por um período específico.
 
 ![Configurações de design para uma categoria](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Quando o mesmo produto é atribuído a várias categorias com configurações de design diferentes para cada categoria, é recomendável definir **Usar Caminho de Categorias para URLs de Produtos** = `Yes` nas [opções de configuração da Otimização do Mecanismo de Pesquisa](../configuration-reference/catalog/catalog.md#search-engine-optimization). Para acessar esta configuração, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, expanda **[!UICONTROL Catalog]**e escolha **Catálogo**no painel esquerdo e, em seguida, expanda a seção **Otimização do Mecanismo de Pesquisa**na página.
+>Quando o mesmo produto é atribuído a várias categorias com configurações de design diferentes para cada categoria, é recomendável definir **Usar Caminho de Categorias para URLs de Produtos** = `Yes` nas [opções de configuração da Otimização do Mecanismo de Pesquisa](../configuration-reference/catalog/catalog.md#search-engine-optimization). Para acessar esta configuração, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, expanda **[!UICONTROL Catalog]**&#x200B;e escolha **Catálogo**&#x200B;no painel esquerdo e, em seguida, expanda a seção **Otimização do Mecanismo de Pesquisa**&#x200B;na página.
 
 | Campo | Descrição |
 |--- |--- |
@@ -34,7 +34,7 @@ A seção _[!UICONTROL Design]_oferece controle sobre a aparência de uma catego
 
 {{ce-feature}}
 
-A seção _[!UICONTROL Scheduled Design Update]_determina o intervalo de datas quando um design personalizado é aplicado a páginas de categoria.
+A seção _[!UICONTROL Scheduled Design Update]_&#x200B;determina o intervalo de datas quando um design personalizado é aplicado a páginas de categoria.
 
 | Campo | Descrição |
 |--- |--- |

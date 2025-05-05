@@ -218,7 +218,7 @@ O processo de personalização do corpo de cada mensagem é o mesmo que personal
 
 ### Etapa 3. Atualizar a configuração
 
-A trilha de navegação estrutural _[!UICONTROL Currently Used For]_mostra onde o modelo é usado. Neste exemplo, a configuração do modelo está na página_[!UICONTROL Customer Configuration]_, na seção _[!UICONTROL Create New Account Options]_e no campo_[!UICONTROL Default Welcome Email]_.
+A trilha de navegação estrutural _[!UICONTROL Currently Used For]_&#x200B;mostra onde o modelo é usado. Neste exemplo, a configuração do modelo está na página&#x200B;_[!UICONTROL Customer Configuration]_, na seção _[!UICONTROL Create New Account Options]_&#x200B;e no campo&#x200B;_[!UICONTROL Default Welcome Email]_.
 
 - Página - [!UICONTROL Customer Configuration]
 - Seção - [!UICONTROL Create New Account Options]

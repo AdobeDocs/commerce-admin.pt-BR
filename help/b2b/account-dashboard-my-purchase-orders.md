@@ -54,7 +54,7 @@ A ordem de compra original poderá ser fechada se não for mais necessária.
 
 ## Aprovações de ordem de compra
 
-Para um cliente designado como aprovador com base na estrutura da empresa ou na função atribuída da empresa, a página do painel _[!UICONTROL My Purchase Orders]_exibe a guia **[!UICONTROL Requires My Approval]**. O cliente clica nessa guia para revisar OCs que estão aguardando sua aprovação. O contador mostra quantos pedidos estão aguardando aprovação.
+Para um cliente designado como aprovador com base na estrutura da empresa ou na função atribuída da empresa, a página do painel _[!UICONTROL My Purchase Orders]_&#x200B;exibe a guia **[!UICONTROL Requires My Approval]**. O cliente clica nessa guia para revisar OCs que estão aguardando sua aprovação. O contador mostra quantos pedidos estão aguardando aprovação.
 
 Depois de clicar em **[!UICONTROL View]** para uma ordem de compra e examinar os detalhes, o aprovador pode clicar em **[!UICONTROL Approve]** ou **[!UICONTROL Reject]**.
 

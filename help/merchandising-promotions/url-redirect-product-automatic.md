@@ -36,7 +36,7 @@ Sua loja pode ser configurada para gerar automaticamente um redirecionamento per
 
 >[!NOTE]
 >
-> As substituições de URL podem ser geradas para a exibição de loja ou o escopo do site. Defina o escopo de regravação de URL do Administrador em **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Selecione o escopo no campo_[!UICONTROL Product URL Rewrite Scope]_.
+> As substituições de URL podem ser geradas para a exibição de loja ou o escopo do site. Defina o escopo de regravação de URL do Administrador em **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**. Selecione o escopo no campo&#x200B;_[!UICONTROL Product URL Rewrite Scope]_.
 
 ## Redirecionar URLs de produtos automaticamente
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 O módulo [!DNL Inventory Management] oferece suporte às definições de configuração de inventário no nível do produto e global e também fornece definições adicionais que afetam a disponibilidade da origem, os produtos da loja e a remessa do pedido. As configurações se aplicam a:
 
-- O catálogo inteiro: Vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Em seguida, expanda **[!UICONTROL Catalog]**no painel esquerdo e selecione **[!UICONTROL Inventory]**.
+- O catálogo inteiro: Vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Em seguida, expanda **[!UICONTROL Catalog]**&#x200B;no painel esquerdo e selecione **[!UICONTROL Inventory]**.
 
 - Produtos específicos: Vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**. Em seguida, abra o produto no modo de edição e clique em **[!UICONTROL Advanced Inventory]** na seção _[!UICONTROL Sources]_.
 
@@ -46,7 +46,7 @@ As lojas e os produtos do [!DNL Commerce] oferecem suporte às seguintes configu
 
 ## Retorno e herança da configuração
 
-As configurações substituem ou se aplicam ao seguinte caminho de herança: a seção do produto _[!UICONTROL Sources]_substitui a configuração de armazenamento global_[!UICONTROL Inventory]_ do produto _[!UICONTROL Advanced Options]_.
+As configurações substituem ou se aplicam ao seguinte caminho de herança: a seção do produto _[!UICONTROL Sources]_&#x200B;substitui a configuração de armazenamento global&#x200B;_[!UICONTROL Inventory]_ do produto _[!UICONTROL Advanced Options]_.
 
 Quando o [!DNL Commerce] procura configurações personalizadas a serem aplicadas, ele segue esta ordem:
 

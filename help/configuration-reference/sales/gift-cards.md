@@ -38,7 +38,7 @@ ht-degree: 1%
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | Global | Determina se o portador do cartão-presente pode resgatar seu valor em dinheiro. Opções: `Yes` / `No`. |
-| [!UICONTROL Lifetime (days)] | Global | Determina o número de dias que o cartão é válido. Se deixado em branco, o cartão não expira. <br/><br/>**_Importante:_**em alguns locais, é ilegal definir dados de expiração em cartões-presente. Verifique suas leis locais antes de definir uma vida útil para seus cartões-presente. |
+| [!UICONTROL Lifetime (days)] | Global | Determina o número de dias que o cartão é válido. Se deixado em branco, o cartão não expira. <br/><br/>**_Importante:_**&#x200B;em alguns locais, é ilegal definir dados de expiração em cartões-presente. Verifique suas leis locais antes de definir uma vida útil para seus cartões-presente. |
 | [!UICONTROL Allow Gift Message] | Exibição da loja | Determina se a opção para incluir uma mensagem de presente está disponível para clientes que compram um cartão-presente. Opções: `Yes` / `No`. |
 | [!UICONTROL Gift Message Maximum Length] | Exibição da loja | Determina o número máximo de caracteres permitidos em uma mensagem de cartão-presente. Valor padrão: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Global | Determina se uma conta de cartão-presente é gerada quando um cliente faz um pedido ou quando o pedido é faturado. Opções: `Ordered` / `Invoiced` |

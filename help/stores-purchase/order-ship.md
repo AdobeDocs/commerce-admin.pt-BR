@@ -26,7 +26,7 @@ Um pedido que foi pago, mas está aguardando remessa, tem o status `Processing`.
 
 1. Para que a transportadora gere um rótulo de remessa, marque a caixa de seleção **[!UICONTROL Create Shipping Label]** e defina as opções:
 
-   - Para adicionar um número de rastreamento, role até a seção _[!UICONTROL Shipping Information]_e clique em **[!UICONTROL Add Tracking Number]**.
+   - Para adicionar um número de rastreamento, role até a seção _[!UICONTROL Shipping Information]_&#x200B;e clique em **[!UICONTROL Add Tracking Number]**.
 
    - Siga um destes procedimentos:
 
@@ -62,7 +62,7 @@ Um pedido que foi pago, mas está aguardando remessa, tem o status `Processing`.
 
 1. Localize a remessa na lista e clique em para abrir o registro.
 
-1. Se quiser adicionar um comentário à ordem, role até a seção _[!UICONTROL Comments History]_e insira o comentário na caixa.
+1. Se quiser adicionar um comentário à ordem, role até a seção _[!UICONTROL Comments History]_&#x200B;e insira o comentário na caixa.
 
    - Para enviar o comentário ao cliente por email, marque a caixa de seleção **[!UICONTROL Notify Customer by Email]**.
 
@@ -78,7 +78,7 @@ Um pedido que foi pago, mas está aguardando remessa, tem o status `Processing`.
 
 1. Localize a ordem de remessa na grade e clique em **[!UICONTROL View]**.
 
-1. Role para baixo até a seção _[!UICONTROL Shipping & Handling Information]_e clique em **[!UICONTROL Track Order]**.
+1. Role para baixo até a seção _[!UICONTROL Shipping & Handling Information]_&#x200B;e clique em **[!UICONTROL Track Order]**.
 
    Todas as informações de rastreamento disponíveis são exibidas em uma janela pop-up.
 

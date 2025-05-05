@@ -66,7 +66,7 @@ Como os cartões-presente funcionam na loja:
 
 - Contas para códigos de presente são criadas para rastrear o saldo de um voucher específico. Um administrador de armazenamento pode ajustar manualmente o saldo.
 
-O cliente destinatário pode usar a seção _[!UICONTROL Gift Card]_do painel da conta para verificar o saldo da [conta de vale-presente](product-gift-card-accounts.md) e resgatar vale-presente para [armazenar crédito](../customers/store-credit-using.md).
+O cliente destinatário pode usar a seção _[!UICONTROL Gift Card]_&#x200B;do painel da conta para verificar o saldo da [conta de vale-presente](product-gift-card-accounts.md) e resgatar vale-presente para [armazenar crédito](../customers/store-credit-using.md).
 
 ![Cartão-presente](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 

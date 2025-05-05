@@ -80,7 +80,7 @@ O exemplo a seguir usa o mapeamento de palavra-chave com base no SKU. Quando um 
    ![Seção de atributos com palavra-chave de pesquisa](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
-1. Vá para **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**e atualize o **[!UICONTROL Page Cache]**.
+1. Vá para **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;e atualize o **[!UICONTROL Page Cache]**.
 
 ### Etapa 3: Mapear o segundo produto
 
@@ -88,7 +88,7 @@ O exemplo a seguir usa o mapeamento de palavra-chave com base no SKU. Quando um 
 1. Role para baixo e expanda a seção **[!UICONTROL Attributes]**.
 1. No campo **[!UICONTROL Search Keywords]**, insira o SKU do outro produto, `MJ03`.
 1. Clique em **[!UICONTROL Save]**.
-1. Vá para **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**e atualize o **[!UICONTROL Page Cache]**.
+1. Vá para **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;e atualize o **[!UICONTROL Page Cache]**.
 
 ### Etapa 4: teste-o na loja
 

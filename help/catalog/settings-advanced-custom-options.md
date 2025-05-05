@@ -57,7 +57,7 @@ Se uma regra de preço do carrinho for acionada pela compra, o cálculo inicial 
 
    - (Opcional) Digite um **[!UICONTROL SKU]** para a opção. O SKU de opção é um sufixo adicionado ao SKU do produto.
 
-   - Se o _[!UICONTROL Option Type]_for `File`, defina os parâmetros do arquivo. Para **[!UICONTROL Compatible File Extensions]**, insira as extensões válidas como valores separados por vírgula (como `png, jpg, gif`). Para **[!UICONTROL Maximum Image Size]**, insira o tamanho máximo da imagem em pixels. Se for uma entrada de texto, insira o valor máximo para **[!UICONTROL Maximum Characters]**.
+   - Se o _[!UICONTROL Option Type]_&#x200B;for `File`, defina os parâmetros do arquivo. Para **[!UICONTROL Compatible File Extensions]**, insira as extensões válidas como valores separados por vírgula (como `png, jpg, gif`). Para **[!UICONTROL Maximum Image Size]**, insira o tamanho máximo da imagem em pixels. Se for uma entrada de texto, insira o valor máximo para **[!UICONTROL Maximum Characters]**.
 
    ![Adicionar Valores para opção de personalização](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
 

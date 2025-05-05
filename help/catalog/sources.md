@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configurações do produto - [!UICONTROL Sources]
 
-A seção _[!UICONTROL Sources]_das configurações do produto lista as fontes das quais o produto pode ser distribuído. É usado para atribuir e desatribuir origens, bem como gerenciar a quantidade e a disponibilidade do produto. Esta seção será exibida somente se houver mais de uma origem definida para o armazenamento. Para obter mais informações sobre fontes, consulte [Gerenciar fontes](../inventory-management/sources-manage.md).
+A seção _[!UICONTROL Sources]_&#x200B;das configurações do produto lista as fontes das quais o produto pode ser distribuído. É usado para atribuir e desatribuir origens, bem como gerenciar a quantidade e a disponibilidade do produto. Esta seção será exibida somente se houver mais de uma origem definida para o armazenamento. Para obter mais informações sobre fontes, consulte [Gerenciar fontes](../inventory-management/sources-manage.md).
 
 ## Atribuir uma origem a um produto
 

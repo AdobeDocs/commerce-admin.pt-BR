@@ -18,13 +18,13 @@ A criação de um segmento de cliente é semelhante à criação de uma [regra d
 
 ![Lista de segmentos do cliente](assets/customer-segments.png){width="700" zoomable="yes"}
 
-Grade _**[!UICONTROL Customer Segments]**_
+Grade _&#x200B;**[!UICONTROL Customer Segments]**&#x200B;_
 
 | Coluna | Descrição |
 |--- |--- |
 | **[!UICONTROL ID]** | A ID exclusiva do segmento do cliente. |
 | **[!UICONTROL Segment]** | O nome do segmento do cliente. |
-| **[!UICONTROL Status]** | Indica se o segmento de cliente é _[!UICONTROL Active]_ou_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indica se o segmento de cliente é _[!UICONTROL Active]_&#x200B;ou&#x200B;_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indica o site ao qual o segmento do cliente pertence. |
 
 {style="table-layout:auto"}
@@ -107,7 +107,7 @@ As etapas a seguir usam um exemplo para criar um segmento de cliente que segment
 
 1. No painel esquerdo, clique em **[!UICONTROL Conditions]**.
 
-   A condição padrão começa com _[!UICONTROL If ALL of these conditions are TRUE:]_na página.
+   A condição padrão começa com _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;na página.
 
    ![Condições](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -153,7 +153,7 @@ As etapas a seguir usam um exemplo para criar um segmento de cliente que segment
 
 1. O segmento de cliente agora pode ser usado para direcionar promoções, conteúdo e correspondências.
 
-Grade _**[!UICONTROL Matched Customers]**_
+Grade _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
 
 | Coluna | Descrição |
 |--- |--- |
@@ -183,7 +183,7 @@ Grade _**[!UICONTROL Matched Customers]**_
 
 | Botão | Descrição |
 |--- |--- |
-| **[!UICONTROL Back]** | Retorna à página _[!UICONTROL Customer Segments]_sem salvar as alterações. |
+| **[!UICONTROL Back]** | Retorna à página _[!UICONTROL Customer Segments]_&#x200B;sem salvar as alterações. |
 | **[!UICONTROL Delete]** | Exclui o segmento de cliente atual. Os clientes ou ordens concluídas associadas ao cliente no segmento não são removidos. |
 | **[!UICONTROL Reset]** | Redefine quaisquer alterações não salvas no formulário de segmento do cliente para seus valores anteriores. |
 | **[!UICONTROL Refresh Segment Data]** | Atualiza os dados do segmento para os valores salvos mais recentemente. Relevante se algum dado de segmento estiver indisponível ou desatualizado. |

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Atribuir empresas a um catálogo compartilhado
 
-Há duas maneiras de atribuir uma empresa a um catálogo compartilhado. Você pode fazer a atribuição a partir da grade _[!UICONTROL Shared Catalogs]_ou editar a empresa e atribuir o catálogo compartilhado como escolheria um grupo de clientes.
+Há duas maneiras de atribuir uma empresa a um catálogo compartilhado. Você pode fazer a atribuição a partir da grade _[!UICONTROL Shared Catalogs]_&#x200B;ou editar a empresa e atribuir o catálogo compartilhado como escolheria um grupo de clientes.
 
 ![Atribuir Empresas](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
 

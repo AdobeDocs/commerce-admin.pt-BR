@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configurações do produto - [!UICONTROL Product View Optimization]
 
-Depois de usar os [Experimentos de conteúdo do Google](../merchandising-promotions/google-content-experiments.md) para configurar uma série de testes A/B, use a seção _[!UICONTROL Product View Optimization]_para colar o trecho de código do Google no produto original a ser testado.
+Depois de usar os [Experimentos de conteúdo do Google](../merchandising-promotions/google-content-experiments.md) para configurar uma série de testes A/B, use a seção _[!UICONTROL Product View Optimization]_&#x200B;para colar o trecho de código do Google no produto original a ser testado.
 
 Esta seção aparecerá somente se **[!UICONTROL Google Content Experiments]** estiver habilitado na configuração da API do Google [Google Analytics](../merchandising-promotions/google-analytics.md).
 

@@ -24,7 +24,7 @@ Comerciantes de uma ou várias origens podem atualizar origens, quantidades de i
 
 - Os comerciantes de várias origens podem atribuir várias origens e quantidades por produto para cada local (depósitos, lojas, entregadores diretos e assim por diante). Recomenda-se adicionar origens antes de definir os valores de inventário do produto.
 
-Ao adicionar origens e quantidades aos seus produtos, é possível exibir as quantidades por meio da Grade de Produtos. Se você tiver um número alto de origens, passe o mouse sobre _[!UICONTROL Quantity per Source]_para ver a lista completa e rolável de origens com quantidades atuais.
+Ao adicionar origens e quantidades aos seus produtos, é possível exibir as quantidades por meio da Grade de Produtos. Se você tiver um número alto de origens, passe o mouse sobre _[!UICONTROL Quantity per Source]_&#x200B;para ver a lista completa e rolável de origens com quantidades atuais.
 
 ![Quantidades de produto por origem](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
 

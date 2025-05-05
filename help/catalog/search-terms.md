@@ -141,7 +141,7 @@ A Adobe Commerce oferece suporte a duas soluções diferentes de gerenciamento d
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**.
 
-   A grade _[!UICONTROL Search Synonyms]_é exibida. Se for a primeira vez que você usa sinônimos de pesquisa, a grade estará vazia.
+   A grade _[!UICONTROL Search Synonyms]_&#x200B;é exibida. Se for a primeira vez que você usa sinônimos de pesquisa, a grade estará vazia.
 
    ![Pesquisar grade de sinônimos](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 

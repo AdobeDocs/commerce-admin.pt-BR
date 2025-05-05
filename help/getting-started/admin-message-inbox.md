@@ -15,7 +15,7 @@ Sua loja recebe mensagens do Adobe regularmente. As mensagens são classificadas
 
 ![Administrador - mensagens de entrada](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-A página _[!UICONTROL Notifications]_lista todas as mensagens classificadas por data. Os comandos_[!UICONTROL Action]_ podem ser usados para marcar mensagens individuais como lidas, exibir informações mais detalhadas ou remover a mensagem da caixa de entrada.
+A página _[!UICONTROL Notifications]_&#x200B;lista todas as mensagens classificadas por data. Os comandos&#x200B;_[!UICONTROL Action]_ podem ser usados para marcar mensagens individuais como lidas, exibir informações mais detalhadas ou remover a mensagem da caixa de entrada.
 
 A configuração determina com que frequência a caixa de entrada é atualizada e como as mensagens são entregues. Se o administrador da loja tiver um URL seguro, as notificações deverão ser entregues por HTTPS.
 

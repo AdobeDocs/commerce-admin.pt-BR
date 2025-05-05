@@ -20,7 +20,7 @@ Complete as etapas a seguir para adicionar uma regra, descrever as condições e
 
 1. Clique em **[!UICONTROL Add New Rule]** e faça o seguinte:
 
-   - Em _[!UICONTROL Rule Information]_, conclua o **[!UICONTROL Rule Name]**e **[!UICONTROL Description]**.
+   - Em _[!UICONTROL Rule Information]_, conclua o **[!UICONTROL Rule Name]**&#x200B;e **[!UICONTROL Description]**.
 
    - Se você não quiser que a regra entre em vigor imediatamente, defina **[!UICONTROL Active]** como `No`.
 
@@ -61,7 +61,7 @@ Complete as etapas a seguir para adicionar uma regra, descrever as condições e
 
    >[!NOTE]
    >
-   >A configuração _[!UICONTROL Priority]_é importante quando duas regras de carrinho ou códigos de cupom são válidos para o mesmo produto ao mesmo tempo. A regra com a configuração [!UICONTROL Priority] mais alta que controla a ação do carrinho.  As prioridades da mais alta para a mais baixa são `0,1,2,3...`. Consulte_ Descartar Regras de Preços Subsequentes _na etapa_[ Definir as Ações ](#step-3-define-the-actions)_.
+   >A configuração _[!UICONTROL Priority]_&#x200B;é importante quando duas regras de carrinho ou códigos de cupom são válidos para o mesmo produto ao mesmo tempo. A regra com a configuração [!UICONTROL Priority] mais alta que controla a ação do carrinho.  As prioridades da mais alta para a mais baixa são `0,1,2,3...`. Consulte_ Descartar Regras de Preços Subsequentes _na etapa_[ Definir as Ações ](#step-3-define-the-actions)_.
 
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ Se você estiver usando públicos do Real-Time CDP, pule para [esta seção](#us
 
 >[!NOTE]
 >
->A regra de preço do carrinho é aplicada a **_cada_** produto no carrinho de compras sempre que o conjunto de condições na guia _[!UICONTROL Conditions]_é atendido. Adicione condições na guia_[!UICONTROL Actions]_ para limitar o número de produtos afetados pela regra de preço do carrinho.
+>A regra de preço do carrinho é aplicada a **_cada_** produto no carrinho de compras sempre que o conjunto de condições na guia _[!UICONTROL Conditions]_&#x200B;é atendido. Adicione condições na guia&#x200B;_[!UICONTROL Actions]_ para limitar o número de produtos afetados pela regra de preço do carrinho.
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ Se você estiver usando públicos do Real-Time CDP, pule para [esta seção](#us
 
 ### Adicionar um atributo de produto às regras de preço do carrinho
 
-1. Vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**e abra o atributo de produto.
+1. Vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;e abra o atributo de produto.
 
 1. No painel esquerdo, selecione **[!UICONTROL Storefront Properties]**.
 
@@ -347,7 +347,7 @@ Assista a este vídeo para saber mais sobre como criar regras de preço de carri
 | [!UICONTROL Active] | (Obrigatório) Determina se a regra está ativa no armazenamento. Opções: `Yes` / `No` |
 | [!UICONTROL Websites] | (Obrigatório) Identifica os sites nos quais a regra pode ser usada. |
 | [!UICONTROL Customer Groups] | (Obrigatório) Identifica os grupos de clientes aos quais a regra se aplica. |
-| [!UICONTROL Coupon] | (Obrigatório) Indica se um cupom está associado à regra. Opções: <br/>**[!UICONTROL No Coupon]**- Nenhum cupom está associado à regra.<br/>**[!UICONTROL Specific Coupon]** - Cupom específico associado à regra. <br/>**[!UICONTROL Coupon Code]**- Quando solicitado, insira o Código do Cupom que o cliente deve inserir para aproveitar a promoção.<br/>**[!UICONTROL Use Auto Generation]** - Marque a caixa de seleção para gerar automaticamente vários códigos de cupom que podem ser usados com a promoção. <br/>**[!UICONTROL Auto]**- Exibe a seção _[!UICONTROL Manage Coupon Codes]_para definir o formato dos códigos de cupom a serem gerados. |
+| [!UICONTROL Coupon] | (Obrigatório) Indica se um cupom está associado à regra. Opções: <br/>**[!UICONTROL No Coupon]**- Nenhum cupom está associado à regra.<br/>**[!UICONTROL Specific Coupon]** - Cupom específico associado à regra. <br/>**[!UICONTROL Coupon Code]**- Quando solicitado, insira o Código do Cupom que o cliente deve inserir para aproveitar a promoção.<br/>**[!UICONTROL Use Auto Generation]** - Marque a caixa de seleção para gerar automaticamente vários códigos de cupom que podem ser usados com a promoção. <br/>**[!UICONTROL Auto]**- Exibe a seção _[!UICONTROL Manage Coupon Codes]_&#x200B;para definir o formato dos códigos de cupom a serem gerados. |
 | [!UICONTROL Uses per Coupon] | Determina quantas vezes o código do cupom pode ser usado. Se não houver limite, deixe o campo em branco. |
 | [!UICONTROL Uses per Customer] | Determina quantas vezes a regra de preço do carrinho pode ser usada pelo mesmo cliente registrado que pertence a qualquer grupo de clientes selecionado. Não se aplica a compradores de convidados que são membros do grupo de clientes NÃO CONECTADOS, ou a clientes que compram sem fazer logon em suas contas. Para sem limite, deixe em branco. |
 | [!UICONTROL Priority] | Um número que indica a prioridade dessa regra em relação a outras. As prioridades da mais alta para a mais baixa são `0,1,2,3...` |
@@ -390,7 +390,7 @@ Especifica as condições que devem ser atendidas antes que a regra de preço do
 
 | Campo | Descrição |
 |--- |--- |
-| [!UICONTROL Apply] | Determina o tipo de cálculo aplicado à compra. Opções: <br/>**[!UICONTROL Percent of product price discount]**- Item de descontos subtraindo uma porcentagem do preço original. Por exemplo: insira `10` em _[!UICONTROL Discount Amount]_para um preço atualizado 10% menor que o preço original.<br/>**[!UICONTROL Fixed amount discount]**- Descontos subtraindo um valor fixo do preço original de cada item qualificado do carrinho. Por exemplo: insira `10` em_[!UICONTROL Discount Amount]_ para um preço atualizado que seja US$ 10 a menos do que o preço original. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Desconta o carrinho inteiro subtraindo um valor fixo do subtotal do carrinho. Por exemplo: digite `10` em _[!UICONTROL Discount Amount]_para subtrair $10 do subtotal do carrinho. Por padrão, o desconto se aplica somente ao subtotal do carrinho. Para aplicar o desconto ao subtotal e enviar separadamente, consulte_Aplicar ao Valor do Envio _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Define uma quantidade que o cliente deve comprar para receber uma quantidade gratuitamente. (O_[!UICONTROL Discount Amount]_ é Y.) |
+| [!UICONTROL Apply] | Determina o tipo de cálculo aplicado à compra. Opções: <br/>**[!UICONTROL Percent of product price discount]**- Item de descontos subtraindo uma porcentagem do preço original. Por exemplo: insira `10` em _[!UICONTROL Discount Amount]_&#x200B;para um preço atualizado 10% menor que o preço original.<br/>**[!UICONTROL Fixed amount discount]**- Descontos subtraindo um valor fixo do preço original de cada item qualificado do carrinho. Por exemplo: insira `10` em&#x200B;_[!UICONTROL Discount Amount]_ para um preço atualizado que seja US$ 10 a menos do que o preço original. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Desconta o carrinho inteiro subtraindo um valor fixo do subtotal do carrinho. Por exemplo: digite `10` em _[!UICONTROL Discount Amount]_&#x200B;para subtrair $10 do subtotal do carrinho. Por padrão, o desconto se aplica somente ao subtotal do carrinho. Para aplicar o desconto ao subtotal e enviar separadamente, consulte_Aplicar ao Valor do Envio _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Define uma quantidade que o cliente deve comprar para receber uma quantidade gratuitamente. (O&#x200B;_[!UICONTROL Discount Amount]_ é Y.) |
 | [!UICONTROL Discount Amount] | (Obrigatório) A quantia de desconto oferecida. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Define o número máximo de produtos aos quais o desconto pode ser aplicado na mesma compra. |
 | [!UICONTROL Discount Qty Step (Buy X)] | Define o número de produtos representados por `X` em uma promoção de `Buy X Get Y Free`. Além disso, define quantos produtos devem ser adicionados ao carrinho juntos em lotes para aplicar promoções de `Fixed amount discount` e `Percent of product price discount`. |

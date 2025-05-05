@@ -55,7 +55,7 @@ Depois que o backup é gerado, é possível baixar a cópia dos dados do Code e 
 
 1. Verifique se ele tem o status `Complete`.
 
-1. Clique no nome da entidade em _[!UICONTROL Code Dump]_ou_[!UICONTROL DB Dump]_ colunas.
+1. Clique no nome da entidade em _[!UICONTROL Code Dump]_&#x200B;ou&#x200B;_[!UICONTROL DB Dump]_ colunas.
 
 O processo de download deve iniciar automaticamente.
 

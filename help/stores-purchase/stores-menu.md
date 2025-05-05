@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Menu [!UICONTROL Stores]
 
-O menu _[!UICONTROL Stores]_fornece acesso a configurações que são usadas com menos frequência, mas referenciadas durante toda a instalação do Adobe Commerce ou Magento Open Source. Essas funções incluem a definição da hierarquia da loja, a configuração, as configurações de vendas e pedidos, os impostos e a moeda, os atributos do produto, as classificações de revisão do produto e os grupos de clientes.
+O menu _[!UICONTROL Stores]_&#x200B;fornece acesso a configurações que são usadas com menos frequência, mas referenciadas durante toda a instalação do Adobe Commerce ou Magento Open Source. Essas funções incluem a definição da hierarquia da loja, a configuração, as configurações de vendas e pedidos, os impostos e a moeda, os atributos do produto, as classificações de revisão do produto e os grupos de clientes.
 
 ![Administrador - Menu Lojas](./assets/stores-menu.png){width="500" zoomable="yes"}
 

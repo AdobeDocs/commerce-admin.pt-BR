@@ -83,7 +83,7 @@ Qualquer lista de desejos pública pode ser encontrada usando o [widget](../cont
 
      `0` = primeiro (padrão), `1` = segundo, `2` = terceiro e assim por diante.
 
-1. Na seção _[!UICONTROL Layout Updates]_, clique em **[!UICONTROL Add Layout Update]**e defina **[!UICONTROL Display on]**como um dos seguintes:
+1. Na seção _[!UICONTROL Layout Updates]_, clique em **[!UICONTROL Add Layout Update]**&#x200B;e defina **[!UICONTROL Display on]**&#x200B;como um dos seguintes:
 
    - _[!UICONTROL Categories]_
 

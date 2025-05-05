@@ -136,7 +136,7 @@ Além das configurações de status de pedido predefinidas, você pode criar sua
 
 >[!NOTE]
 >
->Se o status de pedido padrão não for atribuído do estado de pedido, _**outro**_ status de pedido será _**definido automaticamente**_ como padrão para este estado de pedido.
+>Se o status de pedido padrão não for atribuído do estado de pedido, _&#x200B;**outro**&#x200B;_ status de pedido será _&#x200B;**definido automaticamente**&#x200B;_ como padrão para este estado de pedido.
 
 ## Notificação
 

@@ -16,7 +16,7 @@ As _Configurações de Envio de Emails_ oferecem a capacidade de encaminhar emai
 
 >[!IMPORTANT]
 >
->**Aviso de segurança** Todos os comerciantes devem definir imediatamente sua configuração de envio de email para proteger contra uma possível exploração de execução remota de código recentemente identificada. Até que esse problema seja resolvido, é altamente recomendável que você evite usar o [!DNL Sendmail] para comunicações por email. Em _[!UICONTROL Mail Sending Settings]_, verifique se_[!UICONTROL Set Return Path]_ está definido como `No`.
+>**Aviso de segurança** Todos os comerciantes devem definir imediatamente sua configuração de envio de email para proteger contra uma possível exploração de execução remota de código recentemente identificada. Até que esse problema seja resolvido, é altamente recomendável que você evite usar o [!DNL Sendmail] para comunicações por email. Em _[!UICONTROL Mail Sending Settings]_, verifique se&#x200B;_[!UICONTROL Set Return Path]_ está definido como `No`.
 
 Para obter uma lista detalhada das definições de configuração, consulte [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) na _Referência de Configuração_.
 

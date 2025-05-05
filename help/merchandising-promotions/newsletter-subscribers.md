@@ -58,7 +58,7 @@ Se quiser usar um serviço de terceiros para enviar informativos, é possível e
    >
    >Para um cancelamento de subscrição em massa, marque a caixa de seleção de cada assinante que deseja cancelar.
 
-1. Defina o controle _[!UICONTROL Action]_como **[!UICONTROL Unsubscribe]**e clique em **[!UICONTROL Submit]**.
+1. Defina o controle _[!UICONTROL Action]_&#x200B;como **[!UICONTROL Unsubscribe]**&#x200B;e clique em **[!UICONTROL Submit]**.
 
    ![Cancelar assinatura do informativo](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -83,6 +83,6 @@ Se quiser usar um serviço de terceiros para enviar informativos, é possível e
 
 1. Localize o assinante na grade e marque a caixa de seleção na primeira coluna.
 
-1. Defina o controle _[!UICONTROL Action]_como **[!UICONTROL Delete]**e clique em **[!UICONTROL Submit]**.
+1. Defina o controle _[!UICONTROL Action]_&#x200B;como **[!UICONTROL Delete]**&#x200B;e clique em **[!UICONTROL Submit]**.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.

@@ -36,7 +36,7 @@ Os clientes com acesso a um cofre seguro para armazenar informações de pagamen
 
 1. Cliques **[!UICONTROL Place Order]**.
 
-O método de pagamento salvo será exibido na guia _[!UICONTROL Stored Payment Methods]_do painel do cliente.
+O método de pagamento salvo será exibido na guia _[!UICONTROL Stored Payment Methods]_&#x200B;do painel do cliente.
 
 ## Excluir um método de pagamento armazenado
 

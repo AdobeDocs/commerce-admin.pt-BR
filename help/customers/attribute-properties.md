@@ -171,4 +171,4 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
 
 Para obter uma demonstração sobre como criar atributos do cliente, assista a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411970?quality=12&learn=on&captions=por_br)

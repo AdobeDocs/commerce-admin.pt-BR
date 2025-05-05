@@ -40,4 +40,4 @@ Se você tiver uma conta comercial com uma ou mais [transportadoras com suporte]
 
 Você pode aprender sobre os métodos de envio e entrega assistindo a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411981/?quality=12&learn=on&captions=por_br)

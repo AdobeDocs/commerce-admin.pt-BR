@@ -119,7 +119,7 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 Assista a este vídeo para saber mais sobre o gerenciamento de funções de usuário:
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443512?quality=12&learn=on&captions=por_br)
 
 ## Recursos de função
 

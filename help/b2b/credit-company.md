@@ -119,4 +119,4 @@ Se o comerciante cancelar um pedido que foi cobrado de crédito da empresa, o va
 
 Saiba mais sobre como gerenciar o crédito da empresa assistindo a este vídeo de demonstração:
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412495?quality=12&learn=on&captions=por_br)

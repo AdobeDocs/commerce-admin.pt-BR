@@ -80,7 +80,7 @@ O [!UICONTROL Content Staging] [painel](content-staging-dashboard.md) oferece vi
 
 Para saber mais sobre o preparo de conteúdo, assista a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412505?quality=12&learn=on&captions=por_br)
 
 ## Solução de problemas de recursos
 

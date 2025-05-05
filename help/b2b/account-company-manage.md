@@ -208,7 +208,7 @@ O perfil da empresa pode ser mantido na vitrine pelo administrador da empresa, e
 
 Você pode aprender sobre como gerenciar contas da empresa assistindo a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412497?quality=12&learn=on&captions=por_br)
 
 ## Gerenciamento da empresa
 

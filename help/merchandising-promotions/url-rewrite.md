@@ -107,4 +107,4 @@ O Commerce oferece estes tipos de reescrita de URL:
 
 Assista a este vídeo para saber mais sobre o gerenciamento de regravações de URL:
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411958?quality=12&learn=on&captions=por_br)

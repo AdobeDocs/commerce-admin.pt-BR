@@ -93,6 +93,6 @@ Você pode evitar ser penalizado por mecanismos de pesquisa omitindo a categoria
 
 Assista a este vídeo para saber mais sobre o gerenciamento de metadados de SEO:
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411966?quality=12&learn=on&captions=por_br)
 
 [1]: https://schema.org/

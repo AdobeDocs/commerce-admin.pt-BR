@@ -65,4 +65,4 @@ Estas são opções importantes a serem compreendidas para [!DNL Inventory Manag
 
 Assista a este vídeo para saber mais sobre fontes e ações da Inventory management:
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411977?quality=12&learn=on&captions=por_br)

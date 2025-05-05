@@ -150,4 +150,4 @@ Para remover uma regra de aprovação existente, um cliente pode concluir as seg
 
 Assista a este vídeo para saber mais sobre aprovações de ordens de compra:
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412496?quality=12&learn=on&captions=por_br)

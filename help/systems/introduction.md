@@ -2,9 +2,9 @@
 title: Introdução aos sistemas de administração
 description: Saiba mais sobre as ferramentas e funções do sistema que o administrador da loja pode usar para gerenciar com eficiência os sites, dados, integrações e usuários administradores.
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 46564240e7f76cf2a691c209b36d530763ba4f01
+source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ As variáveis são informações que podem ser criadas uma vez e usadas em vári
 - [Variáveis predefinidas](variables-predefined.md)
 - [Variáveis personalizadas](variables-custom.md)
 
-Uma das tarefas a serem concluídas antes de iniciar sua loja é revisar os modelos de email usados para todas as comunicações enviadas pela loja para garantir que eles reflitam a sua marca. Isso inclui a personalização de email e [modelos de boletim informativo](../merchandising-promotions/newsletter-template.md), faturas PDF e guias de remessa. Também inclui a personalização do conteúdo com variáveis e [marcas de marcação](markup-tags.md).
+Uma das tarefas a serem concluídas antes de iniciar sua loja é revisar os modelos de email usados para todas as comunicações enviadas pela loja para garantir que eles reflitam a sua marca. Isso inclui a personalização de email e [modelos de boletim informativo](../merchandising-promotions/newsletter-template.md), faturas e guias de remessa do PDF. Também inclui a personalização do conteúdo com variáveis e [marcas de marcação](markup-tags.md).
 
 ## Gerenciamento de operações
 
@@ -32,4 +32,4 @@ O Administrador também oferece suporte a várias tarefas para que os administra
 - **Transferência de Dados** - Use as ferramentas de [transferência de dados](data-transfer.md) para importar e exportar dados, bem como gerenciar dados de produto, preço, cliente e alíquota do imposto.
 - **Integrações** - Estabeleça o local das credenciais do OAuth e a URL de redirecionamento para [integrações de terceiros](integrations.md) e identifique os recursos de API disponíveis.
 - **Logs de ação** - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Acesse os registros ([logs de ação](action-log.md)) das alterações feitas pelos usuários administradores que trabalham no seu armazenamento.
-- **Ferramentas de suporte** - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) As ferramentas de suporte ([Coletor de Dados](support.md#data-collector) e [Relatórios do Sistema](support.md#access-system-reports)) foram projetadas para identificar problemas conhecidos em seu sistema. Eles podem ser usados como um recurso durante os processos de desenvolvimento e otimização e como uma ferramenta de diagnóstico para ajudar nossa equipe de suporte a identificar e resolver problemas.
+- As **Ferramentas de suporte** - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) [Relatórios do Sistema](support.md#access-system-reports) foram projetadas para identificar problemas conhecidos em seu sistema. Eles podem ser usados como um recurso durante os processos de desenvolvimento e otimização e como uma ferramenta de diagnóstico para ajudar nossa equipe de suporte a identificar e resolver problemas.

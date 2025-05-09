@@ -91,7 +91,7 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL Make Check Payable to] | Exibição da loja | O nome da entidade a quem os cheques e as ordens de pagamento devem ser pagos. |
 | [!UICONTROL Send Check to] | Exibição da loja | O endereço ou caixa postal para o qual os cheques e as ordens de pagamento devem ser enviados. |
 | [!UICONTROL Minimum Order Total] | Site | O menor valor do pedido que pode ser pago por cheque ou ordem de pagamento. |
-| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por cheque ou ordem de pagamento. <br/><br/>**_Observação:_**um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
+| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por cheque ou ordem de pagamento. <br/><br/>**_Observação:_**&#x200B;um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por cheque ou ordem de pagamento é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Digite `0` para colocá-lo no topo da lista. |
 
 {style="table-layout:auto"}
@@ -110,7 +110,7 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL Payment from Applicable Countries] | Site | Determina os países dos quais você aceita pagamento por transferência bancária. Opções: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site | Identifica os países específicos dos quais você aceita pagamento por transferência bancária. |
 | [!UICONTROL Minimum Order Total] | Site | O menor valor de ordem que pode ser pago por transferência bancária. |
-| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por transferência bancária. <br/><br/>**_Observação:_**um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
+| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por transferência bancária. <br/><br/>**_Observação:_**&#x200B;um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por transferência bancária é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Digite `0` para colocá-lo no topo da lista. |
 
 {style="table-layout:auto"}
@@ -131,7 +131,7 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL Payment from Applicable Countries] | Site | Determina os países nos quais você permite que as empresas debitem as compras de suas contas. Opções: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site | Identifica os países específicos em que as empresas podem cobrar compras em suas contas. |
 | [!UICONTROL Minimum Order Total] | Site | Especifica o menor valor de pedido que pode ser cobrado em uma conta de empresa. |
-| [!UICONTROL Maximum Order Total] | Site | O maior valor de pedido que pode ser cobrado em uma conta de empresa. <br/><br/>**_Observação:_**um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
+| [!UICONTROL Maximum Order Total] | Site | O maior valor de pedido que pode ser cobrado em uma conta de empresa. <br/><br/>**_Observação:_**&#x200B;um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por conta é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Digite `0` para colocá-lo no topo da lista. |
 
 {style="table-layout:auto"}
@@ -154,7 +154,7 @@ Os métodos de pagamento a seguir são criados no Commerce e não usam um proved
 | [!UICONTROL Payment from Applicable Countries] | Site | Determina os países dos quais você aceita pagamento por transferência bancária. Opções: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site | Identifica os países específicos dos quais você aceita pagamento por transferência bancária. |
 | [!UICONTROL Minimum Order Total] | Site | Especifica o menor valor de ordem que pode ser pago por transferência bancária. |
-| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por transferência bancária. <br/><br/>**_Observação:_**um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
+| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por transferência bancária. <br/><br/>**_Observação:_**&#x200B;um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por transferência bancária é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Digite `0` para colocá-lo no topo da lista. |
 
 {style="table-layout:auto"}
@@ -215,7 +215,7 @@ Consulte a seção Configurações básicas de cada tópico de método de pagame
 | [!UICONTROL Payment from Applicable Countries] | Site | Determina os países a partir dos quais você aceita pagamento por OC. Opções: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Site | Identifica os países específicos a partir dos quais você aceita pagamento por OC. |
 | [!UICONTROL Minimum Order Total] | Site | O menor valor de ordem que pode ser pago por OC. |
-| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por OC. <br/><br/>**_Observação:_**um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
+| [!UICONTROL Maximum Order Total] | Site | O maior valor de ordem que pode ser pago por OC. <br/><br/>**_Observação:_**&#x200B;um pedido é qualificado se o total estiver entre, ou corresponder, ao total mínimo ou máximo do pedido. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o pagamento por OC é exibido quando listado com outros métodos de pagamento durante a finalização da compra. Digite `0` para colocá-lo no topo da lista. |
 
 {style="table-layout:auto"}

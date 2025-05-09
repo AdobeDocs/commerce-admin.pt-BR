@@ -3,9 +3,10 @@ title: Soluções de pagamento PayPal
 description: Saiba mais sobre as integrações da solução de pagamento PayPal disponíveis para sua loja.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -16,8 +17,8 @@ PayPal é um líder global em pagamentos online e uma maneira rápida e segura p
 
 >[!IMPORTANT]
 >
->Requisitos de **PSD2:** <br/>
->A partir de 14 de setembro de 2019, os bancos europeus poderão recusar pagamentos que não atendam aos requisitos de [PSD2](../getting-started/compliance-payment-services-directive.md). Para a maioria das soluções do PayPal, nenhuma ação é necessária para estar em conformidade com o PSD2, pois esses requisitos são tratados pelo PayPal.
+>Requisitos do **PSD2:** <br/>
+>A partir de 14 de setembro de 2019, os bancos europeus poderão recusar pagamentos que não atendam aos requisitos da [PSD2](../getting-started/compliance-payment-services-directive.md). Para a maioria das soluções do PayPal, nenhuma ação é necessária para estar em conformidade com a PSD2, pois esses requisitos são tratados pelo PayPal.
 
 ## Conta comercial do PayPal
 
@@ -102,7 +103,7 @@ Os filtros de gerenciamento de fraudes do PayPal facilitam a detecção e a resp
 | Ação | Resultado |
 | --- | --- |
 | [!UICONTROL Review] | A ordem suspeita receberá o status _Revisão do Pagamento_ quando a ordem for feita. Você pode revisar o pedido e aprovar, ou cancelar o pagamento no Admin, ou no lado do PayPal. Ao clicar em **[!UICONTROL Accept Payment]** ou **[!UICONTROL Deny Payment]**, nenhuma transação nova para o pedido é criada. <br/><br/>Se você alterar o status da transação no site do PayPal, deverá clicar em **[!UICONTROL Get Payment Update]** na página Pedido do Administrador para aplicar as alterações. Se você clicar em **[!UICONTROL Accept Payment]** ou **[!UICONTROL Deny Payment]**, as alterações feitas no site do PayPal serão aplicadas. |
-| [!UICONTROL Deny] | O pedido suspeito não pode ser feito pelo cliente, porque a transação correspondente é rejeitada pelo PayPal. <br/><br/>Para negar o pagamento ao Administrador, clique em **[!UICONTROL Deny Payment]** no canto superior direito da página. O status do pedido muda para `Canceled`, a transação é revertida e os fundos são liberados na conta do cliente. As informações correspondentes são adicionadas na seção _[!UICONTROL Comments History]_&#x200B;da exibição do pedido. |
+| [!UICONTROL Deny] | O pedido suspeito não pode ser feito pelo cliente, porque a transação correspondente é rejeitada pelo PayPal. <br/><br/>Para negar o pagamento ao Administrador, clique em **[!UICONTROL Deny Payment]** no canto superior direito da página. O status do pedido muda para `Canceled`, a transação é revertida e os fundos são liberados na conta do cliente. As informações correspondentes são adicionadas na seção _[!UICONTROL Comments History]_da exibição do pedido. |
 | [!UICONTROL Flag] | O pedido suspeito recebe o status `Processing` quando é feito. A transação correspondente é marcada com um sinalizador na lista de transações de conta de comerciante. |
 
 {style="table-layout:auto"}

@@ -3,9 +3,10 @@ title: PayPal Payments Standard
 description: Saiba como configurar o PayPal Payments Standard como uma solução de pagamento online em sua loja.
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2081'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,8 @@ Com PayPal Payments Standard, você pode deslizar os cartões de crédito em dis
 
 >[!IMPORTANT]
 >
->Requisitos de **PSD2:** <br/>
->A partir de 14 de setembro de 2019, os bancos europeus poderão recusar pagamentos que não atendam aos requisitos de [PSD2](../getting-started/compliance-payment-services-directive.md). Nenhuma ação é necessária para que o PayPal Payments Standard esteja em conformidade com o PSD2, pois todos os requisitos são tratados pelo PayPal.
+>Requisitos do **PSD2:** <br/>
+>A partir de 14 de setembro de 2019, os bancos europeus poderão recusar pagamentos que não atendam aos requisitos do [PSD2](../getting-started/compliance-payment-services-directive.md). Nenhuma ação é necessária para que o PayPal Payments Standard esteja em conformidade com a PSD2, pois todos os requisitos são tratados pelo PayPal.
 
 ## Requisitos do comerciante
 
@@ -57,7 +58,7 @@ Este método de configuração pressupõe que você tenha uma conta existente do
 
 1. Se a sua instalação do Commerce tiver vários sites, lojas ou modos de exibição, defina **[!UICONTROL Store View]** para o modo de exibição de loja onde deseja aplicar essa configuração.
 
-1. Na seção _[!UICONTROL Merchant Location]_, selecione o **[!UICONTROL Merchant Country]**&#x200B;onde sua empresa está localizada.
+1. Na seção _[!UICONTROL Merchant Location]_, selecione o **[!UICONTROL Merchant Country]**onde sua empresa está localizada.
 
    Esta configuração determina a seleção das Soluções do PayPal que aparecem na configuração.
 
@@ -256,7 +257,7 @@ Defina **[!UICONTROL Enable PayPal PayLater Experience]** como um dos seguintes:
    - `Authorization` - Aprova a compra e suspende os fundos. O valor não é sacado até que seja capturado pelo comerciante.
    - `Sale` - O valor da compra é autorizado e imediatamente retirado da conta do cliente.
 
-1. Para exibir o botão _[!UICONTROL Check out with PayPal]_&#x200B;na página do produto, defina **[!UICONTROL Display on Product Details Page]**&#x200B;como `Yes`.
+1. Para exibir o botão _[!UICONTROL Check out with PayPal]_na página do produto, defina **[!UICONTROL Display on Product Details Page]**como `Yes`.
 
 ### Etapa 6: concluir as configurações avançadas
 
@@ -269,7 +270,7 @@ Defina **[!UICONTROL Enable PayPal PayLater Experience]** como um dos seguintes:
 1. Defina **[!UICONTROL Payment from Applicable Countries]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois que você escolher essa opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;será exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
+   - `Specific Countries` - Depois que você escolher essa opção, a lista _[!UICONTROL Payment from Specific Countries]_será exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
 
 1. Para registrar comunicações com o sistema de pagamento no arquivo de log, defina **[!UICONTROL Debug Mode]** como `Yes`.
 
@@ -340,7 +341,7 @@ Um [contrato de cobrança](paypal-billing-agreements.md) é um contrato de venda
 1. Defina **[!UICONTROL Payment Applicable From]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os países especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada um.
+   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada um.
 
 1. Para registrar comunicações com o sistema de pagamento no arquivo de log, defina **[!UICONTROL Debug Mode]** como `Yes`.
 
@@ -397,7 +398,7 @@ Um [contrato de cobrança](paypal-billing-agreements.md) é um contrato de venda
 
 #### Configurações de experiência de front-end
 
-Use o _[!UICONTROL Frontend Experience Settings]_&#x200B;para escolher quais logotipos do PayPal aparecem em seu site, e para personalizar a aparência das suas páginas de comerciante do PayPal.
+Use o _[!UICONTROL Frontend Experience Settings]_para escolher quais logotipos do PayPal aparecem em seu site, e para personalizar a aparência das suas páginas de comerciante do PayPal.
 
 1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Frontend Experience Settings]**.
 

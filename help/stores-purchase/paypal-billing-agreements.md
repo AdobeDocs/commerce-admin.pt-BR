@@ -3,9 +3,10 @@ title: Contratos de cobrança do PayPal
 description: Saiba como você pode oferecer suporte a contratos de faturamento do PayPal e a um método de pagamento em sua loja.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Para simplificar o processo de finalização, os clientes podem celebrar um cont
 
 ## Gerenciar contratos de cobrança
 
-A página _[!UICONTROL Billing Agreements]_&#x200B;lista todos os contratos de cobrança entre sua loja e seus clientes. Os comerciantes podem filtrar os registros por cliente ou informações de contrato de faturamento, incluindo ID de referência, status e data de criação do contrato de faturamento. Cada registro inclui informações gerais sobre o contrato de faturamento e todas as ordens de venda que o usaram como método de pagamento. Você pode exibir, cancelar ou excluir contratos de faturamento do cliente. Um contrato de cobrança cancelado pode ser excluído somente pelo administrador da loja.
+A página _[!UICONTROL Billing Agreements]_lista todos os contratos de cobrança entre sua loja e seus clientes. Os comerciantes podem filtrar os registros por cliente ou informações de contrato de faturamento, incluindo ID de referência, status e data de criação do contrato de faturamento. Cada registro inclui informações gerais sobre o contrato de faturamento e todas as ordens de venda que o usaram como método de pagamento. Você pode exibir, cancelar ou excluir contratos de faturamento do cliente. Um contrato de cobrança cancelado pode ser excluído somente pelo administrador da loja.
 
 ### Exibir um contrato de faturamento
 
@@ -34,7 +35,7 @@ A página _[!UICONTROL Billing Agreements]_&#x200B;lista todos os contratos de c
 
 1. Localize o contrato de faturamento na lista e clique nele para abri-lo.
 
-Cada página de contrato de cobrança consiste em duas guias: _[!UICONTROL General Information]_&#x200B;e_[!UICONTROL Related Orders]_.
+Cada página de contrato de cobrança consiste em duas guias: _[!UICONTROL General Information]_e_[!UICONTROL Related Orders]_.
 
 #### Informações gerais
 

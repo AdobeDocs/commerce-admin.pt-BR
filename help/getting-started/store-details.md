@@ -3,9 +3,9 @@ title: Detalhes da loja
 description: Saiba como atualizar as informações básicas da sua loja.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ As informações básicas da loja incluem o nome e o endereço da loja, o númer
 
 ## [!UICONTROL Store Information]
 
-A seção _[!UICONTROL Store Information]_&#x200B;fornece as informações básicas que aparecem nos documentos de vendas e em outras comunicações.
+A seção _[!UICONTROL Store Information]_fornece as informações básicas que aparecem nos documentos de vendas e em outras comunicações.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -169,9 +169,11 @@ Você também pode configurar o envio para países específicos para cada [méto
 
 Para obter ajuda com a solução de problemas de configuração do país, consulte os seguintes artigos da Base de Dados de Conhecimento de Suporte do [!DNL Commerce]:
 
-- [Como adicionar um país](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=pt-BR)
+- [Como adicionar um país](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
+
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 A configuração Localização do Comerciante é usada para configurar [métodos de pagamento](../stores-purchase/payments.md). Se não houver valor para esta configuração, a configuração [País Padrão](#uicontrol-country-options) será usada.
 
@@ -311,11 +313,11 @@ Os dados de amostra do Luma incluem um bloco _Informações para contato_ que po
    >
    >Se você tiver o [[!DNL Page Builder] desabilitado](../page-builder/setup.md#disable-dnl-page-builder), poderá usar a [barra de ferramentas](../content-design/editor.md) do editor para formatar o texto e adicionar [imagens](../content-design/editor-insert-image.md) e [links](../content-design/editor-insert-link.md).
 
-1. Passe o mouse sobre o contêiner HTML para exibir a caixa de ferramentas e escolha o ícone _Configurações_ ( ![Ícone Configurações](../page-builder/assets/pb-icon-settings.png) ).
+1. Passe o mouse sobre o contêiner HTML para exibir a caixa de ferramentas e escolher o ícone _Configurações_ ( ![Ícone Configurações](../page-builder/assets/pb-icon-settings.png) ).
 
 1. Edite o código HTML de acordo com as informações de contato da sua loja e clique em **[!UICONTROL Save]**.
 
-   ![Bloco de conteúdo - editar código de HTML](./assets/content-block-contact-us-html.png){width="700"}
+   ![Bloco de conteúdo - editar código HTML](./assets/content-block-contact-us-html.png){width="700"}
 
 1. Saia do estágio [!DNL Page Builder] e clique em **[!UICONTROL Save Block]**.
 

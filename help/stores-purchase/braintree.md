@@ -3,9 +3,10 @@ title: Braintree
 description: Saiba como configurar o Braintree como uma solução de pagamento online em sua loja.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2873'
+source-wordcount: '2890'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Se precisar de ajuda com cobranças inesperadas em seu cartão, acesse a página [cancelar assinatura](https://helpx.adobe.com/br/manage-account/using/cancel-subscription.html) para obter assistência.
+>Se precisar de ajuda com cobranças inesperadas em seu cartão, acesse a página [cancelar assinatura](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) para obter assistência.
 
 O Braintree oferece uma experiência de check-out totalmente personalizável com detecção de fraudes e integração com o PayPal. Ele oferece suporte a [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo e métodos de pagamento locais. A Braintree reduz a carga de conformidade com o PCI para os comerciantes, pois a transação ocorre no sistema Braintree. A integração do Braintree Payments é desenvolvida pela [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/).
 
@@ -35,7 +36,7 @@ Vá para [Braintree Payments][1] e inscreva-se para obter uma conta.
 
    - Se a sua instalação do Commerce tiver vários sites, lojas ou modos de exibição, no canto superior esquerdo, escolha a **[!UICONTROL Store View]** à qual a configuração se aplica.
 
-   - Na seção _[!UICONTROL Merchant Location]_, verifique se **[!UICONTROL Merchant Country]**&#x200B;está definido como o local da sua empresa.
+   - Na seção _[!UICONTROL Merchant Location]_, verifique se **[!UICONTROL Merchant Country]**está definido como o local da sua empresa.
 
 1. Em _[!UICONTROL Recommended Solutions]_, na seção_[!UICONTROL Braintree Payments] (por [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Notas de Versão](https://support.gene.co.uk/support/solutions/articles/35000278668)_, clique em **[!UICONTROL Configure]**.
 
@@ -99,11 +100,11 @@ Vá para [Braintree Payments][1] e inscreva-se para obter uma conta.
 
    Se estiver usando a verificação CVV, habilite AVS e/ou CVV na seção _Configurações/Processamento_ da sua conta do Braintree.
 
-1. Para enviar os itens de linha carrinho para todos os métodos de pagamento, defina **[!UICONTROL Send Card Line Items]** como `Yes`.
+1. Para enviar os itens de linha do carrinho para todos os métodos de pagamento, defina **[!UICONTROL Send Card Line Items]** como `Yes`.
 
-1. Em **[!UICONTROL Credit Card Types]**, selecione cada cartão de crédito aceita pela sua armazenamento como pagamento por meio de Braintree.
+1. Para **[!UICONTROL Credit Card Types]**, selecione cada cartão de crédito aceito pela sua loja como pagamento por meio do Braintree.
 
-   Para selecionar vários cartão tipos, segure a tecla Ctrl (PC) ou a tecla Comando (Mac) e clique em cada opção.
+   Para selecionar vários tipos de placa, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
 
 1. Para **[!UICONTROL Sort Order]**, insira um número para determinar a sequência em que o Braintree aparece quando listado com outros métodos de pagamento durante o check-out.
 
@@ -132,7 +133,7 @@ Vá para [Braintree Payments][1] e inscreva-se para obter uma conta.
 1. Defina **[!UICONTROL Payment from Applicable Countries]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;é exibida. Mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada país na lista onde os clientes podem fazer compras na sua loja.
+   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_é exibida. Mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada país na lista onde os clientes podem fazer compras na sua loja.
 
    ![Configurações específicas do país](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
@@ -185,17 +186,17 @@ Vá para [Braintree Payments][1] e inscreva-se para obter uma conta.
 
 1. Para **[!UICONTROL Allowed Payment Methods]**, selecione o método de pagamento local a ser habilitado.
 
-   Opções: `Bancontact` / `EPS` / `giropay` / `iDeal` `Klarna Pay Now` / `SOFORT` / / `MyBank` / `P24` `SEPA/ELV Direct Debit` (ainda não suportado)
+   Opções: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (ainda não suportado)
 
-   ![Configurações de métodos de pagamento locais](../configuration-reference/sales/assets/payment-methods-braintree-local-payment-config.png){width="600" zoomable="yes"}
+   ![Configurações de Métodos de Pagamento Locais](../configuration-reference/sales/assets/payment-methods-braintree-local-payment-config.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >A extensão de Braintree empacotada não suporta todos os métodos de pagamento locais listados na [documentação](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview) Braintree desenvolvedor. Outros métodos de pagamento locais estão em desenvolvimento para serem suportados em versões futuras.
+   >A extensão fornecida do Braintree não oferece suporte a todos os métodos de pagamento locais listados na [documentação do desenvolvedor do Braintree](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Outros métodos de pagamento locais estão em desenvolvimento para serem compatíveis em versões futuras.
 
 1. Para **[!UICONTROL Sort Order]**, insira um número para determinar a sequência em que o método de pagamento local aparece quando listado com outras opções de pagamento durante o check-out.
 
-## Etapa 9: Todos os Apps as configurações de [!DNL Google Pay] Braintree
+## Etapa 9: concluir o [!DNL Google Pay] por meio das configurações do Braintree
 
 ![Pagamento do Google pelo Braintree](../configuration-reference/sales/assets/payment-methods-braintree-googlepay-config.png){width="600" zoomable="yes"}
 
@@ -216,13 +217,13 @@ Vá para [Braintree Payments][1] e inscreva-se para obter uma conta.
 
    Opções: `Visa` / `MasterCard` / `AMEX` / `Discover` / `JCB`
 
-1. Para **[!UICONTROL Sort Order]**, insira um número para determinar a sequência em que [!DNL Google Pay] aparece quando listada com outras opções de pagamento durante o check-out.
+1. Para **[!UICONTROL Sort Order]**, insira um número para determinar a sequência em que [!DNL Google Pay] aparece quando listado com outras opções de pagamento durante o check-out.
 
-## Etapa 10: Todos os Apps o Venmo pelas configurações Braintree
+## Etapa 10: Concluir o Venmo pelas configurações do Braintree
 
-1. Para incluir o Venmo como opção de pagamento com Braintree, defina **[!UICONTROL Enable Venmo through Braintree]** `Yes`como .
+1. Para incluir Venmo como uma opção de pagamento com Braintree, defina **[!UICONTROL Enable Venmo through Braintree]** como `Yes`.
 
-1. Definido **[!UICONTROL Enable Vault for Venmo]** para `Yes` permitir o uso de um cofre seguro para armazenamento os conta dos clientes para que o cliente não precise fazer logon no Venmo conta novamente para transações futuras.
+1. Defina **[!UICONTROL Enable Vault for Venmo]** como `Yes` para habilitar o uso de um cofre seguro para armazenar a conta Venmo dos clientes, de modo que os clientes não precisem fazer logon na conta Venmo novamente para transações futuras.
 
    ![Venmo até Braintree](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png){width="600" zoomable="yes"}
 
@@ -251,7 +252,7 @@ Vá para [Braintree Payments][1] e inscreva-se para obter uma conta.
 
      >[!NOTE]
      >
-     >O PayPal Credit só está disponível nos Estados Unidos e no Reino Unido. O Crédito do PayPal estará desabilitado se o valor selecionado para o campo _[!UICONTROL Merchant Country]_&#x200B;não for `US` ou `UK`.
+     >O PayPal Credit só está disponível nos Estados Unidos e no Reino Unido. O Crédito do PayPal estará desabilitado se o valor selecionado para o campo _[!UICONTROL Merchant Country]_não for `US` ou `UK`.
 
    - Para incluir [!DNL PayPal PayLater] como uma opção de pagamento com o Braintree, defina **[!UICONTROL Enable PayPal PayLater through Braintree]** como `Yes`.
 
@@ -277,7 +278,7 @@ Vá para [Braintree Payments][1] e inscreva-se para obter uma conta.
 1. Defina **[!UICONTROL Payment from Applicable Countries]** como um dos seguintes valores para transações do Braintree processadas pelo PayPal:
 
    - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;é exibida. Mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada país na lista onde os clientes podem fazer compras na sua loja.
+   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_é exibida. Mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada país na lista onde os clientes podem fazer compras na sua loja.
 
    ![PayPal por meio das Configurações do Braintree 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
@@ -299,13 +300,13 @@ Vá para [Braintree Payments][1] e inscreva-se para obter uma conta.
 
    As informações de rastreamento de pacotes serão enviadas ao PayPal somente para transações/pedidos do PayPal. Você deve habilitar o campo de configuração [!UICONTROL Send Cart Line Items for PayPal] para que o recurso [!UICONTROL Package Tracking] funcione corretamente.
 
-1. Para notificar um Comprador ou Pagador até PayPal do pacote rastreamento atualizações, defina **[!UICONTROL Use PayPal's "Notify Payer" functionality]** como `Yes`.
+1. Para notificar um Comprador ou Pagador pelo PayPal sobre as atualizações de rastreamento de pacotes, defina **[!UICONTROL Use PayPal's "Notify Payer" functionality]** como `Yes`.
 
-## Etapa 12: Definir as configurações de estilo
+## Etapa 12: definir as configurações de estilo
 
-1. Para **[!UICONTROL Location]**, escolha onde PayPal botões e mensagens são renderizados: `Mini-Cart and Cart Page`, , `Checkout Page`ou `Product Page`
+1. Para **[!UICONTROL Location]**, escolha onde as mensagens e os botões do PayPal são renderizados: `Mini-Cart and Cart Page`, `Checkout Page` ou `Product Page`
 
-   ![Configurações de estilo do PayPal](../configuration-reference/sales/assets/payment-methods-braintree-paypal-styling.png){width="600" zoomable="yes"}
+   ![Configurações de Estilo do PayPal](../configuration-reference/sales/assets/payment-methods-braintree-paypal-styling.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Mini-Cart and Cart Page]
 
@@ -335,11 +336,11 @@ Quando essas opções são definidas, você pode visualizar os botões PayPal. H
 
 - Para armazenar as configurações de estilo selecionadas para mensagens de botões e PayLater e aplicá-las ao local atual e ao tipo de botão atual, clique em **[!UICONTROL Apply]**.
 
-- Para armazenamento as configurações de estilo selecionadas para botões e PayLater mensagens valores e aplicá-los a todos os botão tipos e locais, clique **[!UICONTROL Apply to All Buttons]**.
+- Para armazenar as configurações de estilo selecionadas para os valores de mensagens de botões e PayLater e aplicá-las a todos os tipos e localizações de botões, clique em **[!UICONTROL Apply to All Buttons]**.
 
-- Para retornar as configurações de estilo aos valores padrão recomendados para botões e mensagens PayLater e aplicá-las a todos os botão tipos e locais, clique **[!UICONTROL Reset to Recommended Defaults]** em.
+- Para retornar as configurações de estilo aos valores padrão recomendados para mensagens de botões e PayLater e aplicá-las a todos os tipos e locais de botões, clique em **[!UICONTROL Reset to Recommended Defaults]**.
 
-## Etapa 13: pagar mensagens posteriores
+## Etapa 13: Pagar mensagens posteriores
 
 **[!UICONTROL Product Page]**
 
@@ -398,7 +399,7 @@ Quando essas opções são definidas, você pode visualizar os botões PayPal. H
 4. Defina **[!UICONTROL Verify for Applicable Countries]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Verify for Specific Countries]_&#x200B;é exibida. Mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada país na lista onde os clientes podem fazer compras na sua loja.
+   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Verify for Specific Countries]_é exibida. Mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada país na lista onde os clientes podem fazer compras na sua loja.
 
    ![configurações de verificação 3D](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
@@ -424,7 +425,7 @@ Os descritores a seguir são usados para identificar compras em demonstrativos d
 
      _Opção 3_: `Company` deve ter 12 caracteres, `Product` pode ter até nove caracteres
 
-   - **[!UICONTROL Phone]** - O descritor de telefone deve ter de 10 a 14 caracteres e pode incluir somente números, traços, parênteses e pontos. Por exemplo:
+   - **[!UICONTROL Phone]** - O descritor de telefone deve ter de 10 a 14 caracteres e pode incluir apenas números, traços, parênteses e pontos. Por exemplo:
 
      `9999999999`
 
@@ -432,7 +433,7 @@ Os descritores a seguir são usados para identificar compras em demonstrativos d
 
      `999.999.9999`
 
-   - **[!UICONTROL URL]** - O URL descritor representa seu nome de domínio e pode ter até 13 caracteres. Por exemplo:
+   - **[!UICONTROL URL]** - O descritor de URL representa seu nome de domínio e pode ter até 13 caracteres. Por exemplo:
 
      `company.com`
 

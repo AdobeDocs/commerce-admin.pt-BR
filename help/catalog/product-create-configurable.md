@@ -139,7 +139,7 @@ A barra de progresso na parte superior da página mostra onde você está no pro
 
 ### Etapa 1: Escolher os atributos
 
-1. Continuando de cima, role para baixo até a seção _[!UICONTROL Configurations]_e clique em **[!UICONTROL Create Configurations]**.
+1. Continuando de cima, role para baixo até a seção _[!UICONTROL Configurations]_&#x200B;e clique em **[!UICONTROL Create Configurations]**.
 
    ![Configurações](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 

@@ -18,7 +18,7 @@ As informações básicas da loja incluem o nome e o endereço da loja, o númer
 
 ## [!UICONTROL Store Information]
 
-A seção _[!UICONTROL Store Information]_fornece as informações básicas que aparecem nos documentos de vendas e em outras comunicações.
+A seção _[!UICONTROL Store Information]_&#x200B;fornece as informações básicas que aparecem nos documentos de vendas e em outras comunicações.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

@@ -169,11 +169,11 @@ Você também pode configurar o envio para países específicos para cada [méto
 
 Para obter ajuda com a solução de problemas de configuração do país, consulte os seguintes artigos da Base de Dados de Conhecimento de Suporte do [!DNL Commerce]:
 
-- [Como adicionar um país](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Como adicionar um país](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=pt-BR)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 A configuração Localização do Comerciante é usada para configurar [métodos de pagamento](../stores-purchase/payments.md). Se não houver valor para esta configuração, a configuração [País Padrão](#uicontrol-country-options) será usada.
 
@@ -215,7 +215,7 @@ Antes de configurar endereços de email para o armazenamento, cada um deve ser c
 
 ### Etapa 2: definir o URL de base para links gerados
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Alguns emails voltados para o cliente incluem links para a loja, como aqueles que ajudam os clientes a redefinir suas senhas. Para garantir que os links para a loja funcionem, você deve definir a URL base para sua loja.
 

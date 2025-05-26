@@ -1,13 +1,13 @@
 ---
 title: Guia de design e conteúdo
-description: Informações abrangentes sobre os recursos de Conteúdo e Design para administradores do Adobe Commerce e do Magento Open Source e profissionais de marketing de eCommerce.
+description: Informações abrangentes sobre os recursos de Conteúdo e Design para admins do Adobe Commerce e do Magento Open Source e profissionais de marketing de comércio eletrônico.
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 

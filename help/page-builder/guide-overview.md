@@ -52,4 +52,4 @@ O [!DNL Page Builder] é instalado com o Adobe Commerce 2.4.x e o Magento Open S
 
 Para obter ajuda com a solução de problemas de [!DNL Page Builder], consulte os seguintes artigos da Base de Dados de Conhecimento de Suporte do [!DNL Commerce]:
 
-- [Página vazia quando o formulário DotDigital [!DNL Page Builder] foi salvo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html?lang=pt-BR)
+- [Página vazia quando o formulário DotDigital [!DNL Page Builder] foi salvo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)

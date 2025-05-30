@@ -104,7 +104,7 @@ A Ferramenta de Verificação de Segurança está disponível gratuitamente no p
 
          Depois que o processo de criação for concluído, as alterações serão implantadas na loja da PWA.
 
-1. Retorne à página _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
+1. Retorne à página _[!UICONTROL Security Scan]_&#x200B;na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**&#x200B;para estabelecer a propriedade do domínio.
 
 1. Após uma confirmação bem-sucedida, configure as opções do **[!UICONTROL Set Automatic Security Scan]** para um dos seguintes tipos:
 
@@ -159,7 +159,7 @@ Cenários comuns nos quais você pode querer marcar uma falha de verificação c
 
 Para gerenciar as falhas de varredura identificadas como falsos positivos, siga estas etapas:
 
-1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**para o site que você deseja gerenciar.
+1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**&#x200B;para o site que você deseja gerenciar.
 
 1. Na exibição de relatório, localize a verificação com falha que deseja marcar como falso positivo.
 
@@ -169,7 +169,7 @@ Para gerenciar as falhas de varredura identificadas como falsos positivos, siga 
 
 1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
 
-A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_e é excluída da sua pontuação de risco.
+A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_&#x200B;e é excluída da sua pontuação de risco.
 
 ### Parar de ignorar falhas de verificação
 
@@ -183,7 +183,7 @@ Se precisar restaurar uma falha de varredura ignorada anteriormente para o monit
 
 1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
 
-A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_e é incluída na sua pontuação de risco.
+A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_&#x200B;e é incluída na sua pontuação de risco.
 
 ### Exibir falhas de verificação ignoradas
 

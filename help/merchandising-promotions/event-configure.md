@@ -89,6 +89,6 @@ O acesso a uma venda, evento ou site privado pode ser limitado a clientes regist
 
 ### Restringir vendas
 
-Por padrão, os produtos que aparecem em eventos futuros ou fechados não estão disponíveis para venda geral e o botão _[!UICONTROL Add to Cart]_não aparece na lista de produtos ou na página de produtos.
+Por padrão, os produtos que aparecem em eventos futuros ou fechados não estão disponíveis para venda geral e o botão _[!UICONTROL Add to Cart]_&#x200B;não aparece na lista de produtos ou na página de produtos.
 
-Para restaurar o botão _[!UICONTROL Add to Cart]_para um evento fechado, o evento deve ser excluído (consulte [Atualizar eventos](event-create.md#update-events)). No entanto, se um produto estiver associado a outra categoria que não tem restrições de venda, o botão estará disponível na página do produto. Da mesma forma, o bloco de ticker não será exibido na página do produto se o produto estiver associado a outra categoria que não tenha restrições de venda.
+Para restaurar o botão _[!UICONTROL Add to Cart]_&#x200B;para um evento fechado, o evento deve ser excluído (consulte [Atualizar eventos](event-create.md#update-events)). No entanto, se um produto estiver associado a outra categoria que não tem restrições de venda, o botão estará disponível na página do produto. Da mesma forma, o bloco de ticker não será exibido na página do produto se o produto estiver associado a outra categoria que não tenha restrições de venda.

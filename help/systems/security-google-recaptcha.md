@@ -84,7 +84,7 @@ O Google reCAPTCHA requer um par de chaves de API para ser habilitado. Você pod
    >
    >Desmarque a caixa de seleção **[!UICONTROL Use system value]** para cada campo que você deseja configurar.
 
-1. Para usar _[!DNL reCAPTCHA v2 ("I am not a robot")]_, expanda a seção **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**e faça o seguinte:
+1. Para usar _[!DNL reCAPTCHA v2 ("I am not a robot")]_, expanda a seção **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;e faça o seguinte:
 
    - Para **[!UICONTROL Google API Website Key]**, insira a chave do site que foi criada para esse tipo de reCAPTCHA quando você registrou sua conta do Google reCAPTCHA.
 
@@ -98,7 +98,7 @@ O Google reCAPTCHA requer um par de chaves de API para ser habilitado. Você pod
 
    ![reCAPTCHA v2 - &quot;Não sou um robô&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. Para usar _[!DNL reCAPTCHA v2 Invisible]_, expanda a seção **[!UICONTROL reCAPTCHA v2 Invisible]**e faça o seguinte:
+1. Para usar _[!DNL reCAPTCHA v2 Invisible]_, expanda a seção **[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;e faça o seguinte:
 
    - Para **[!UICONTROL Google API Website Key]**, insira a chave do site que foi criada para esse tipo de reCAPTCHA quando você registrou sua conta do Google reCAPTCHA.
 
@@ -112,7 +112,7 @@ O Google reCAPTCHA requer um par de chaves de API para ser habilitado. Você pod
 
    ![reCAPTCHA v2 Invisível](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. Para usar _[!DNL reCAPTCHA v3 Invisible]_, expanda a seção **[!UICONTROL reCAPTCHA v3 Invisible]**e faça o seguinte:
+1. Para usar _[!DNL reCAPTCHA v3 Invisible]_, expanda a seção **[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;e faça o seguinte:
 
    - Para **[!UICONTROL Google API Website Key]**, insira a chave do site que foi criada para esse tipo de reCAPTCHA quando você registrou sua conta do Google reCAPTCHA.
 

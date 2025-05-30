@@ -19,7 +19,7 @@ Quando os convites estão habilitados, os clientes podem enviar e exibir convite
 
 ## Meus convites
 
-A seção _[!UICONTROL My Invitations]_da conta do cliente lista todos os convites enviados pelo cliente. Os clientes podem enviar convites para amigos e familiares para eventos de loja, registros de presentes, listas de desejos e assim por diante.
+A seção _[!UICONTROL My Invitations]_&#x200B;da conta do cliente lista todos os convites enviados pelo cliente. Os clientes podem enviar convites para amigos e familiares para eventos de loja, registros de presentes, listas de desejos e assim por diante.
 
 ![Meus convites](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 

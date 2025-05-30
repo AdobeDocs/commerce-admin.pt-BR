@@ -52,7 +52,7 @@ Para obter um nível extra de segurança, você pode adicionar um CAPTCHA à pá
    - Defina **[!UICONTROL Displaying Modes]** como um dos seguintes:
 
       - `Always` — CAPTCHA é sempre necessário para fazer logon no Admin.
-      - `After number of attempts to login` — Esta opção aplica-se somente ao formulário Login do Administrador. Quando selecionado, o campo _[!UICONTROL Number of Unsuccessful Attempts to Login]_é exibido. Insira o número de tentativas de logon que deseja permitir. Um valor de 0 (zero) é semelhante a configurar o Modo de Exibição como `Always`.
+      - `After number of attempts to login` — Esta opção aplica-se somente ao formulário Login do Administrador. Quando selecionado, o campo _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;é exibido. Insira o número de tentativas de logon que deseja permitir. Um valor de 0 (zero) é semelhante a configurar o Modo de Exibição como `Always`.
 
      Para rastrear o número de tentativas de logon malsucedidas, cada tentativa de logon com um endereço de email e a partir de um endereço IP é contada. O número máximo de tentativas de logon permitidas no mesmo endereço IP é 1.000. Essa limitação se aplica somente quando CAPTCHA está ativado.
 

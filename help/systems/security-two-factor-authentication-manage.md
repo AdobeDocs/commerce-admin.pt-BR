@@ -35,11 +35,11 @@ Para redefinir autenticadores da linha de comando e obter informações mais ava
 
 1. Selecione o usuário e abra a conta no modo de edição.
 
-1. Role para baixo até a seção _[!UICONTROL Current User Identity Verification]_e digite sua senha.
+1. Role para baixo até a seção _[!UICONTROL Current User Identity Verification]_&#x200B;e digite sua senha.
 
 1. No painel esquerdo, clique em **[!UICONTROL 2FA]**.
 
-1. Na seção _[!UICONTROL Configuration reset]_, clique em **[!UICONTROL Reset]**e **[!UICONTROL OK]**para confirmar.
+1. Na seção _[!UICONTROL Configuration reset]_, clique em **[!UICONTROL Reset]**&#x200B;e **[!UICONTROL OK]**&#x200B;para confirmar.
 
    ![Conta de usuário - habilitar 2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

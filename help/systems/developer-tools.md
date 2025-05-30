@@ -247,7 +247,7 @@ Se a loja estiver disponível em vários idiomas, você poderá fazer ajustes no
 
    Desmarque a caixa de seleção **[!UICONTROL Use Website]** conforme necessário para modificar essas configurações.
 
-   A opção _[!UICONTROL Enabled for Admin]_não está disponível ao editar um modo de exibição de loja específico.
+   A opção _[!UICONTROL Enabled for Admin]_&#x200B;não está disponível ao editar um modo de exibição de loja específico.
 
    ![Configuração avançada - traduzir em linha](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

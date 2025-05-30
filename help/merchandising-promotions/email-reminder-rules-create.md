@@ -23,7 +23,7 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
 1. No canto superior direito, clique em **[!UICONTROL Add New Rule]**.
 
-1. Conclua o _[!UICONTROL Rule Information]_da seguinte maneira:
+1. Conclua o _[!UICONTROL Rule Information]_&#x200B;da seguinte maneira:
 
    ![Regra de lembrete de email](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -56,9 +56,9 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
    >[!NOTE]
    >
-   >Se um cliente tiver mais de um carrinho abandonado correspondente, uma lista de desejos ou uma combinação de ambos, o lembrete de email será acionado apenas uma vez para esse cliente. Para acionar o mesmo lembrete de email novamente, use o campo _[!UICONTROL Repeat Schedule]_para definir o número de dias entre os emails. <br/>
+   >Se um cliente tiver mais de um carrinho abandonado correspondente, uma lista de desejos ou uma combinação de ambos, o lembrete de email será acionado apenas uma vez para esse cliente. Para acionar o mesmo lembrete de email novamente, use o campo _[!UICONTROL Repeat Schedule]_&#x200B;para definir o número de dias entre os emails. <br/>
    >
-   >O mesmo lembrete de email é **_não acionado novamente_** para o mesmo cliente para os **_novos_** carrinhos abandonados e listas de desejos **_após_** o período _[!UICONTROL Repeat Schedule]_terminou.
+   >O mesmo lembrete de email é **_não acionado novamente_** para o mesmo cliente para os **_novos_** carrinhos abandonados e listas de desejos **_após_** o período _[!UICONTROL Repeat Schedule]_&#x200B;terminou.
 
    Preencha a condição para descrever o cenário que aciona o lembrete de email.
 
@@ -84,7 +84,7 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
      ![Lembretes de email - títulos e descrições](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - Na seção _[!UICONTROL Titles and Descriptions Per Store View]_, insira o **[!UICONTROL Rule Title]**e **[!UICONTROL Description]**para a_ Exibição de Loja Padrão _. Para várias exibições de loja, insira o título e a descrição apropriados para cada uma.
+   - Na seção _[!UICONTROL Titles and Descriptions Per Store View]_, insira o **[!UICONTROL Rule Title]**&#x200B;e **[!UICONTROL Description]**&#x200B;para a_ Exibição de Loja Padrão _. Para várias exibições de loja, insira o título e a descrição apropriados para cada uma.
 
      >[!NOTE]
      >

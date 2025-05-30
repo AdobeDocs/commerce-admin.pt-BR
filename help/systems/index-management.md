@@ -3,9 +3,10 @@ title: Gerenciamento de índice
 description: Saiba mais sobre o gerenciamento de índice, incluindo as ações que acionam a reindexação e as práticas recomendadas.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ A reindexação e o armazenamento em cache têm diferentes finalidades no Commer
 
 >[!IMPORTANT]
 >
->Para armazenamentos que usam o [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=pt-BR) e definiram o Elasticsearch como o indexador de texto completo (`catalogsearch_fulltext`): o índice de texto completo deve ser executado novamente após qualquer alteração de permissões em massa ou quando o indexador &quot;permissões&quot; estiver no modo &quot;Agendado&quot;.
+>Para armazenamentos que usam o [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) e definiram o Elasticsearch como o indexador de texto completo (`catalogsearch_fulltext`): o índice de texto completo deve ser executado novamente após qualquer alteração de permissões em massa ou quando o indexador &quot;permissões&quot; estiver no modo &quot;Agendado&quot;.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -76,7 +77,7 @@ A reindexação e o armazenamento em cache têm diferentes finalidades no Commer
 
 ## Reindexar usando a linha de comando
 
-O Commerce fornece opções adicionais de reindexação usando a linha de comando. Para obter detalhes completos e opções de comando, consulte [Reindexar](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=pt-BR#reindex){:target="blank"} no _Guia de Configuração_.
+O Commerce fornece opções adicionais de reindexação usando a linha de comando. Para obter detalhes completos e opções de comando, consulte [Reindexar](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} no _Guia de Configuração_.
 
 ## Eventos de gatilho de índice
 

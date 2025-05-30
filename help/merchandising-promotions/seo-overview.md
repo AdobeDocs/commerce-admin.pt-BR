@@ -3,9 +3,9 @@ title: Otimização do mecanismo de pesquisa
 description: Saiba mais sobre as ferramentas de otimização de mecanismo de pesquisa (SEO) para sites do Commerce e as práticas recomendadas para SEO ideal.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,27 @@ ht-degree: 0%
 
 A _Otimização do mecanismo de pesquisa_ (SEO) é a prática de ajustar o conteúdo e a apresentação de um site para melhorar a forma como as páginas são indexadas pelos mecanismos de pesquisa. O Commerce inclui vários recursos para dar suporte ao seu esforço contínuo de SEO.
 
+>[!TIP]
+>
+>Para o Adobe Commerce as a Cloud Service, consulte as [diretrizes de SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) na documentação da Commerce Storefront
+
 ## Metadados
+
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Saiba mais sobre como adicionar e aprimorar [metadados](meta-data.md) ricos em palavras-chave para seu site e loja.
 
 ## Uso de um mapa de site
 
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+
 Um [mapa do site](sitemap-xml.md) melhora a forma como o armazenamento é indexado pelos mecanismos de pesquisa e foi projetado para localizar páginas que podem ser ignoradas pelos rastreadores da Web. Um mapa do site pode ser configurado para indexar todas as páginas e imagens.
 
 ## Substituições de URL
 
-A ferramenta [Reescrita de URL](url-rewrite.md) permite alterar qualquer URL associada a um produto, categoria ou página de CMS.
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+
+A ferramenta [Reescrita de URL](url-rewrite.md) permite alterar qualquer URL associada a um produto, categoria ou página do CMS.
 
 ## Robôs do mecanismo de pesquisa
 

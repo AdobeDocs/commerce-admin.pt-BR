@@ -4,9 +4,10 @@ description: Saiba como configurar credenciais do OAuth e redirecionar URL para 
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 role: Admin, Developer
 feature: System, Integration, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ A definição de uma integração no Administrador do Commerce estabelece a loca
 
    - Insira o **[!UICONTROL Callback URL]** para onde as credenciais do OAuth podem ser enviadas ao usar o OAuth para troca de token. É altamente recomendado usar `https://`.
 
-   - Digite o **[!UICONTROL Identity Link URL]** para redirecionar os usuários para uma conta de terceiros com essas credenciais de integração do Adobe Commerce ou Magento Open Source.
+   - Insira o **[!UICONTROL Identity Link URL]** para redirecionar os usuários para uma conta de terceiros com essas credenciais de integração do Adobe Commerce ou do Magento Open Source.
 
    >[!NOTE]
    >
@@ -88,7 +89,7 @@ Para gerar um novo Token de acesso de integração e Segredo do Token de acesso,
 
 ## Alterar a configuração de segurança de acesso de convidado à API
 
-Por padrão, o sistema não permite acesso de convidado anônimo ao CMS, ao catálogo e a outros recursos de armazenamento. Se precisar alterar a configuração, faça o seguinte:
+Por padrão, o sistema não permite acesso de convidado anônimo à CMS, ao catálogo e a outros recursos de armazenamento. Se precisar alterar a configuração, faça o seguinte:
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

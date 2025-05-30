@@ -3,9 +3,10 @@ title: Avaliações de produto moderadas
 description: Saiba como você pode moderar as análises de produtos para garantir que as análises enviadas sejam apropriadas para a exibição pública da sua loja.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Para exibir todas as revisões de um produto específico no Administrador, faça
 
 ## Atualizar status para revisões
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;ou **[!UICONTROL All Reviews]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**ou **[!UICONTROL All Reviews]**.
 
 1. Na lista, clique em uma revisão pendente para exibir os detalhes e editar, se necessário.
 
@@ -36,7 +37,7 @@ Para exibir todas as revisões de um produto específico no Administrador, faça
 
    - Para aprovar uma revisão pendente, selecione `Approved`.
 
-   - Para rejeitar uma revisão, selecione `Not Approved`. Revisões não aprovadas desaparecem da lista de _[!UICONTROL Pending Reviews]_&#x200B;página.
+   - Para rejeitar uma revisão, selecione `Not Approved`. Revisões não aprovadas desaparecem da lista de _[!UICONTROL Pending Reviews]_página.
 
    >[!NOTE]
    >
@@ -60,7 +61,7 @@ Para exibir todas as revisões de um produto específico no Administrador, faça
 
 1. Selecione as revisões que deseja atualizar.
 
-1. Use o seletor _[!UICONTROL Action]_&#x200B;no canto superior esquerdo para aplicar uma ação.
+1. Use o seletor _[!UICONTROL Action]_no canto superior esquerdo para aplicar uma ação.
 
 1. Clique em **[!UICONTROL Submit]**
 

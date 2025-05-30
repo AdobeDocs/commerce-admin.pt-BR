@@ -3,9 +3,10 @@ title: Extensões do Adobe
 description: Revise informações sobre extensões para o Adobe Commerce e o Magento Open Source lançadas pela Adobe.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: e37ca150c72bb46066690524a35de52d6db6d56a
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -99,7 +100,7 @@ O Adobe oferece extensões adicionais que devem ser instaladas separadamente usa
 
 O [!DNL Adobe Commerce B2B] é uma extensão integrada que transforma lojas Commerce padrão em plataformas business-to-business abrangentes. Ele permite que as empresas gerenciem estruturas organizacionais complexas com vários compradores, funções personalizadas e permissões de compra em contas unificadas da empresa. As principais funcionalidades incluem catálogos e preços específicos da empresa, cotações negociáveis, gerenciamento de ordens de compra, listas de requisições e recursos de pedidos rápidos. A solução oferece suporte a modelos B2B e B2C em uma única instância, tornando-a flexível para diversas necessidades de negócios. A extensão requer uma licença separada e integra-se perfeitamente aos principais recursos do Adobe Commerce para fornecer uma solução completa de comércio eletrônico B2B.
 
-Para obter o provisionamento, entre em contato com o representante de conta da Adobe. Para obter detalhes sobre implementação e etapas de configuração, consulte o [[!DNL B2B for Adobe Commerce] Guia do Usuário](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=pt-BR).
+Para obter o provisionamento, entre em contato com o representante de conta da Adobe. Para obter detalhes sobre implementação e etapas de configuração, consulte o [[!DNL B2B for Adobe Commerce] Guia do Usuário](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ### [!DNL AEM Assets Integration for Commerce]
 
@@ -115,7 +116,7 @@ Para obter o provisionamento, entre em contato com o representante de conta da A
 
 O Live Search é um recurso exclusivo da Adobe Commerce que fornece uma solução de pesquisa habilitada por IA com funcionalidade de &quot;pesquisa conforme você digita&quot; em tempo real. Ele fornece resultados rápidos e relevantes com miniaturas de produtos enquanto os compradores digitam, juntamente com facetas inteligentes que ajustam automaticamente os filtros com base no comportamento de compra. A solução inclui recursos de merchandising para impulsionar e enterrar produtos, gerenciamento de sinônimos e análise de pesquisa. Incluído no Adobe Commerce sem custo adicional, o [!DNL Live Search] substitui a funcionalidade de pesquisa padrão por uma experiência de pesquisa mais sofisticada, baseada em SaaS. Requer configuração mínima para começar.
 
-Para obter detalhes sobre a implementação e requisitos técnicos, consulte o [Guia do Usuário do Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=pt-BR).
+Para obter detalhes sobre a implementação e requisitos técnicos, consulte o [Guia do Usuário do Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 ### [!DNL Product Recommendations]
 
@@ -123,15 +124,15 @@ Para obter detalhes sobre a implementação e requisitos técnicos, consulte o [
 
 O [!DNL Product Recommendations] é um recurso exclusivo da Adobe Commerce, desenvolvido pela tecnologia de IA da Adobe Sensei, que fornece sugestões personalizadas de produtos para toda a jornada de compras do cliente. A solução analisa o comportamento do comprador e os relacionamentos de produtos em tempo real para gerar automaticamente recomendações relevantes, não exigindo regras de merchandising manuais. Essa abordagem orientada por IA ajuda a aumentar as taxas de conversão e o potencial de receita, além de criar experiências de descoberta de produtos mais envolventes para os compradores.
 
-Para obter detalhes sobre a implementação e as práticas recomendadas, consulte o [[!DNL Product Recommendations] Guia do Usuário](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=pt-BR).
+Para obter detalhes sobre a implementação e as práticas recomendadas, consulte o [[!DNL Product Recommendations] Guia do Usuário](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html).
 
 ### [!DNL Catalog Service]
 
-[!BADGE Com suporte]{type=Informative tooltip="Compatível"}
+[!BADGE Com suporte]{type=Informative tooltip="Compatível"} instalações do Adobe Commerce e do Magento Open Source
 
 O [!DNL Catalog Service] é uma solução de alto desempenho para o Adobe Commerce e o Magento Open Source que fornece acesso otimizado a dados de catálogo por meio de pontos de extremidade do GraphQL. Ele mantém um banco de dados sincronizado separado para obter detalhes do produto e informações relacionadas, ignorando a comunicação direta do aplicativo para fornecer tempos de carregamento de página mais rápidos. O serviço é particularmente valioso para páginas de detalhes de produtos, listas de categorias e páginas de resultados de pesquisa, tornando-o ideal para implementações de comércio tradicionais e headless.
 
-Para obter instruções de instalação e detalhes técnicos, consulte o [[!DNL Catalog Service] Guia do Usuário](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=pt-BR).
+Para obter instruções de instalação e detalhes técnicos, consulte o [[!DNL Catalog Service] Guia do Usuário](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html).
 
 >[!NOTE]
 >
@@ -139,8 +140,8 @@ Para obter instruções de instalação e detalhes técnicos, consulte o [[!DNL 
 
 ### [!DNL Payment Services]
 
-[!BADGE Com suporte]{type=Informative tooltip="Compatível"}
+[!BADGE Com suporte]{type=Informative tooltip="Compatível"} instalações do Adobe Commerce e do Magento Open Source
 
 O [!DNL Payment Services] é uma solução de pagamento pronta para uso para lojas Adobe Commerce e Magento Open Source que fornece recursos abrangentes de processamento de pagamento. O serviço integra a funcionalidade de gateway de pagamento seguro com proteção contra fraude integrada, ao mesmo tempo em que oferece várias opções de pagamento, incluindo cartões de crédito/débito, PayPal, Venmo (EUA) e planos PayLater. Ele apresenta relatórios de transação unificados e gerenciamento de pedidos por meio da interface do administrador do Commerce, facilitando aos comerciantes o rastreamento de pagamentos, o gerenciamento do fluxo de caixa e a reconciliação de dados financeiros, tudo em um único local.
 
-Para obter etapas de configuração detalhadas e opções de pagamento, consulte o [[!DNL Payment Services] Guia do Usuário](https://experienceleague.adobe.com/pt-br/docs/commerce/payment-services/overview).
+Para obter etapas de configuração detalhadas e opções de pagamento, consulte o [[!DNL Payment Services] Guia do Usuário](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview).

@@ -4,9 +4,9 @@ description: Saiba mais sobre os URLs da Commerce e as credenciais de conta usad
 exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
 feature: System
 role: Admin, Leader
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,6 @@ Enquanto você está aprendendo sobre a loja, certifique-se de configurar uma [c
 
 ## Dados de exemplo
 
-O Adobe fornece um conjunto de dados de exemplo que inclui uma loja de exemplo com mais de 250 produtos (cerca de 200 deles são produtos configuráveis), categorias, regras de preços promocionais, páginas CMS, banners e assim por diante. Os dados de exemplo usam o tema _Luma_ na vitrine. [A instalação destes dados de exemplo](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=pt-BR) é opcional, mas pode ser útil para testar e desenvolver personalizações para seus negócios de comércio eletrônico.
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+
+O Adobe fornece um conjunto de dados de exemplo que inclui uma loja de exemplo com mais de 250 produtos (cerca de 200 deles são produtos configuráveis), categorias, regras de preços promocionais, páginas do CMS, banners e assim por diante. Os dados de exemplo usam o tema _Luma_ na vitrine. [A instalação destes dados de exemplo](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html) é opcional, mas pode ser útil para testar e desenvolver personalizações para seus negócios de comércio eletrônico.

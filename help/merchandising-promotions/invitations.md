@@ -3,9 +3,10 @@ title: Convites de evento
 description: Saiba como os clientes podem enviar e exibir convites para eventos e vendas privadas no painel de suas contas de clientes.
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Quando os convites estão habilitados, os clientes podem enviar e exibir convite
 
 ## Meus convites
 
-A seção _[!UICONTROL My Invitations]_&#x200B;da conta do cliente lista todos os convites enviados pelo cliente. Os clientes podem enviar convites para amigos e familiares para eventos de loja, registros de presentes, listas de desejos e assim por diante.
+A seção _[!UICONTROL My Invitations]_da conta do cliente lista todos os convites enviados pelo cliente. Os clientes podem enviar convites para amigos e familiares para eventos de loja, registros de presentes, listas de desejos e assim por diante.
 
 ![Meus convites](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 

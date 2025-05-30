@@ -3,9 +3,10 @@ title: Configurar eventos
 description: Saiba como concluir a configuração básica para ativar eventos e configurar o bloco de eventos na barra lateral da loja.
 exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
-source-git-commit: 084d2c3381f57a8a4c7e8ffde9da1abd4d8af670
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -88,6 +89,6 @@ O acesso a uma venda, evento ou site privado pode ser limitado a clientes regist
 
 ### Restringir vendas
 
-Por padrão, os produtos que aparecem em eventos futuros ou fechados não estão disponíveis para venda geral e o botão _[!UICONTROL Add to Cart]_&#x200B;não aparece na lista de produtos ou na página de produtos.
+Por padrão, os produtos que aparecem em eventos futuros ou fechados não estão disponíveis para venda geral e o botão _[!UICONTROL Add to Cart]_não aparece na lista de produtos ou na página de produtos.
 
-Para restaurar o botão _[!UICONTROL Add to Cart]_&#x200B;para um evento fechado, o evento deve ser excluído (consulte [Atualizar eventos](event-create.md#update-events)). No entanto, se um produto estiver associado a outra categoria que não tem restrições de venda, o botão estará disponível na página do produto. Da mesma forma, o bloco de ticker não será exibido na página do produto se o produto estiver associado a outra categoria que não tenha restrições de venda.
+Para restaurar o botão _[!UICONTROL Add to Cart]_para um evento fechado, o evento deve ser excluído (consulte [Atualizar eventos](event-create.md#update-events)). No entanto, se um produto estiver associado a outra categoria que não tem restrições de venda, o botão estará disponível na página do produto. Da mesma forma, o bloco de ticker não será exibido na página do produto se o produto estiver associado a outra categoria que não tenha restrições de venda.

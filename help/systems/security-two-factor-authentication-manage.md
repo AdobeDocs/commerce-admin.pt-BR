@@ -4,9 +4,10 @@ description: Saiba como gerenciar a autenticação de dois fatores e redefinir o
 exl-id: 68256214-2d50-4c42-846f-306ffc305f25
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -34,11 +35,11 @@ Para redefinir autenticadores da linha de comando e obter informações mais ava
 
 1. Selecione o usuário e abra a conta no modo de edição.
 
-1. Role para baixo até a seção _[!UICONTROL Current User Identity Verification]_&#x200B;e digite sua senha.
+1. Role para baixo até a seção _[!UICONTROL Current User Identity Verification]_e digite sua senha.
 
 1. No painel esquerdo, clique em **[!UICONTROL 2FA]**.
 
-1. Na seção _[!UICONTROL Configuration reset]_, clique em **[!UICONTROL Reset]**&#x200B;e **[!UICONTROL OK]**&#x200B;para confirmar.
+1. Na seção _[!UICONTROL Configuration reset]_, clique em **[!UICONTROL Reset]**e **[!UICONTROL OK]**para confirmar.
 
    ![Conta de usuário - habilitar 2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

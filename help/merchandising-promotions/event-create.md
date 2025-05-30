@@ -3,9 +3,10 @@ title: Criar e atualizar eventos
 description: Saiba como criar um evento associado a uma categoria do catálogo.
 exl-id: 6c9f6a33-6785-4c3a-add6-dc2a6b16ed88
 feature: Marketing Tools, Promotions/Events
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---

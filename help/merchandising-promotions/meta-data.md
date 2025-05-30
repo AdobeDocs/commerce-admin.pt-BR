@@ -3,14 +3,19 @@ title: Metadados
 description: Saiba mais sobre como o pode inserir metadados ricos em palavras-chave para melhorar a maneira como os mecanismos de pesquisa indexam seu site do Commerce.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
 # Metadados
+
+>[!TIP]
+>
+>Para o Adobe Commerce as a Cloud Service, consulte as [diretrizes de metadados](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) na documentação da Commerce Storefront
 
 Sua loja está carregada com locais onde você pode inserir metadados ricos em palavras-chave para melhorar a maneira como os mecanismos de pesquisa indexam seu site. Ao configurar sua loja, você pode inserir metadados preliminares, com a intenção de terminá-los posteriormente. Com o tempo, você pode ajustar os metadados para direcionar os padrões de compra e as preferências dos clientes.
 
@@ -93,6 +98,6 @@ Você pode evitar ser penalizado por mecanismos de pesquisa omitindo a categoria
 
 Assista a este vídeo para saber mais sobre o gerenciamento de metadados de SEO:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411966?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
 
 [1]: https://schema.org/

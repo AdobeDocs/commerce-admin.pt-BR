@@ -3,9 +3,10 @@ title: Lembretes de email
 description: Saiba mais sobre lembretes de email que podem ser enviados automaticamente para os clientes quando um conjunto específico de condições é atendido.
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Os lembretes de email podem ser acionados depois de um número específico de di
 
 >[!NOTE]
 >
->Se um cliente tiver mais de um carrinho abandonado correspondente, uma lista de desejos ou uma combinação de ambos, o lembrete de email será acionado apenas uma vez para esse cliente. Para acionar o mesmo lembrete de email novamente, use o campo _[!UICONTROL Repeat Schedule]_&#x200B;para definir o número de dias entre os emails.
+>Se um cliente tiver mais de um carrinho abandonado correspondente, uma lista de desejos ou uma combinação de ambos, o lembrete de email será acionado apenas uma vez para esse cliente. Para acionar o mesmo lembrete de email novamente, use o campo _[!UICONTROL Repeat Schedule]_para definir o número de dias entre os emails.
 
 ![Lembretes de email](./assets/email-reminders.png){width="700" zoomable="yes"}
 

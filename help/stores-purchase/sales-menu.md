@@ -2,9 +2,9 @@
 title: Menu [!UICONTROL Sales]
 description: O Administrador do Commerce inclui o menu [!UICONTROL Sales], que fornece acesso a ferramentas para trabalhar com pedidos de acordo com onde eles estão no fluxo de trabalho.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 621b4729e23952ddd720b4dcc49b5341baae64cc
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 O menu Vendas lista as transações de acordo com onde elas estão no workflow da ordem. Você pode pensar em cada opção como um estágio diferente no tempo de vida de um pedido.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+
 ![Menu Vendas](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
+
+![Menu Vendas](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Exibir o menu [!UICONTROL Sales]
 
@@ -26,6 +40,12 @@ Na barra lateral _Admin_, clique em **[!UICONTROL Sales]**.
 ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B)
 
 Os compradores autorizados podem [negociar o preço](../b2b/quotes.md) com o vendedor, enviando uma [solicitação](../b2b/quote-request.md) do carrinho de compras.
+
+### [!UICONTROL Quote Templates]
+
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B)
+
+Permite que compradores e vendedores simplifiquem o processo de cotação criando [modelos de cotação](../b2b/quote-templates-overview.md) reutilizáveis e personalizáveis.
 
 ### [!UICONTROL Orders]
 
@@ -51,6 +71,8 @@ Uma [autorização de mercadoria devolvida](returns.md) (RMA) pode ser concedida
 
 ### [!UICONTROL Billing Agreements]
 
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+
 Um [contrato de cobrança](paypal-billing-agreements.md) é semelhante a uma ordem de compra, exceto que não está limitado a uma única compra. Durante a finalização da compra, o cliente escolhe o Contrato de faturamento como método de pagamento. Um contrato de faturamento simplifica o processo de finalização porque o cliente não precisa inserir informações de pagamento para cada compra.
 
 ### [!UICONTROL Transactions]
@@ -59,7 +81,9 @@ A página [Transações](transactions.md) lista todas as atividades de pagamento
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-Na página do Terminal virtual de Braintree, um usuário administrador pode aceitar o pagamento do valor selecionado. Para disponibilizar o recurso de terminal, um comerciante deve definir as [configurações de Braintree](braintree.md) básicas. O Braintree oferece uma experiência de finalização de compra totalmente personalizável com detecção de fraudes e integração com o PayPal.
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+
+Na página do Terminal virtual do Braintree, um usuário administrador pode aceitar o pagamento do valor selecionado. Para disponibilizar o recurso de terminal, um comerciante deve definir as [configurações básicas do Braintree](braintree.md). O Braintree oferece uma experiência de check-out totalmente personalizável com detecção de fraudes e integração com o PayPal.
 
 ### [!UICONTROL Archive]
 

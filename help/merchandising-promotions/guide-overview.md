@@ -2,9 +2,9 @@
 title: Guia de merchandising e promoções
 description: Explore informações detalhadas sobre merchandising e recursos promocionais no Adobe Commerce, incluindo descontos e eventos direcionados.
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Este guia abrange:
 | ------- | ----------- |
 | [Introdução](introduction.md) | Visão geral das funções de merchandising e promoção com uma instância do Commerce. |
 | [Menu Marketing](marketing-menu.md) | Use o menu [!UICONTROL Marketing] para acessar vários recursos para gerenciar promoções, comunicações, SEO e conteúdo gerado pelo usuário. |
-| [Merchandiser visual](visual-merchandiser.md) | Explore este conjunto de ferramentas avançadas que permitem posicionar produtos e aplicar condições que determinam quais produtos aparecem na lista de categorias. |
+| [Merchandiser visual](visual-merchandiser.md) | [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Explore este conjunto de ferramentas avançadas que permitem posicionar produtos e aplicar condições que determinam quais produtos aparecem na lista de categorias. |
 | [Registros de presentes](gift-registries.md) | Dê aos seus clientes a capacidade de criar registros de presentes para ocasiões especiais e convidar seus amigos e familiares para comprar seus presentes no registro de presentes. |
 | [Programas de recompensas e fidelidade](rewards-loyalty.md) | Implemente programas que impulsionem o engajamento do cliente e promovam a fidelidade do cliente. |
 | [Vendas e eventos privados](events-private-sales.md) | Crie vendas por tempo limitado, limite as vendas para membros específicos ou crie uma página de venda privada independente. |

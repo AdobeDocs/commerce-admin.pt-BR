@@ -99,7 +99,7 @@ As opções para cada tipo de widget variam um pouco, mas o processo é essencia
 
 Para saber mais sobre como criar widgets, assista a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3417364?quality=12&learn=on&captions=por_br)
 
 ## Editar um widget
 

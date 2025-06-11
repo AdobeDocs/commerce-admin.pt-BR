@@ -22,6 +22,6 @@ Você pode criar blocos personalizados de conteúdo sem escrever qualquer códig
 
 Saiba mais sobre [blocos estáticos e ](dynamic-blocks.md) dinâmicos assistindo a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3417365?quality=12&learn=on&captions=por_br)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/

@@ -4,16 +4,29 @@ description: Saiba como executar uma verificação de segurança aprimorada e mo
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 4f46ce0ee4e4d51d178dac04d1493f0d9cffc49b
+source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
 
+
 # Verificação de segurança
 
-Monitore seus sites da Adobe Commerce e da Magento Open Source em busca de riscos de segurança e malware e receba atualizações e notificações de segurança.
+A Ferramenta de verificação de segurança da Adobe Commerce oferece monitoramento de segurança gratuito para seus sites Adobe Commerce e Magento Open Source. A ferramenta funciona como um serviço baseado na Web que você pode acessar por meio da sua conta do Adobe Commerce online em [account.magento.com](https://account.magento.com/customer/account/login).
+
+![Ferramenta de Verificação de Segurança](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>A Adobe fornece esse serviço sem custo, embora os comerciantes devam aceitar os termos que limitam a responsabilidade da Adobe com base nos resultados da verificação e na configuração do site.
+
+## Cobertura da varredura
+
+A Ferramenta de Verificação de Segurança opera por protocolos HTTP e HTTPS para detectar malware, identificar vulnerabilidades de segurança e ajudar a manter a postura de segurança da sua loja. A ferramenta está disponível para todos os comerciantes, desenvolvedores e pessoal designado responsável pela segurança do site.
+
+A Ferramenta de verificação de segurança oferece recursos abrangentes de monitoramento de segurança que ajudam a manter um ambiente de armazenamento seguro:
 
 - Obtenha o insight no status de segurança em tempo real de sua loja.
 - Receba sugestões com base nas práticas recomendadas para ajudar a resolver problemas.
@@ -22,11 +35,25 @@ Monitore seus sites da Adobe Commerce e da Magento Open Source em busca de risco
 - Acesse relatórios históricos de segurança que rastreiam e monitoram o progresso de seus sites.
 - Acesse o relatório de varredura que mostra verificações bem-sucedidas e falhas, com qualquer ação recomendada.
 
-A Ferramenta de Verificação de Segurança está disponível gratuitamente no painel da sua [conta Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) no _Guia de Infraestrutura do Commerce na Nuvem_.
+>[!NOTE]
+>
+>Você não pode excluir testes de segurança específicos das verificações da Ferramenta de verificação de segurança para Adobe Commerce. No entanto, você pode usar o autoatendimento em [ignorando falhas](#manage-scan-failures) como falsos positivos, se aplicável.
 
-![Ferramenta de Verificação de Segurança](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+## Access
 
-## Executar uma verificação de segurança
+A Ferramenta de verificação de segurança mantém controles de acesso rigorosos para proteger as informações do seu site. Somente você pode verificar seu site porque a ferramenta requer a verificação da propriedade do domínio por meio da conta da Adobe Commerce. Cada site se conecta à sua conta por meio de um token exclusivo, impedindo a varredura não autorizada por terceiros.
+
+A ferramenta se concentra especificamente em domínios do Adobe Commerce e suas vulnerabilidades de segurança. Embora sua loja na web possa incluir páginas de outras plataformas, a Ferramenta de verificação de segurança deve verificar somente o conteúdo gerado pela Adobe Commerce para garantir resultados confiáveis. A digitalização de páginas que não são do Adobe Commerce pode gerar avaliações de vulnerabilidade não confiáveis.
+
+## Executar uma verificação
+
+O processo de varredura verifica o site em relação a problemas de segurança conhecidos e identifica patches e atualizações ausentes do Adobe Commerce que podem deixar sua loja vulnerável a ataques.
+
+>[!TIP]
+>
+>Para projetos de infraestrutura em nuvem do Commerce, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+
+Para executar uma varredura:
 
 1. Na página inicial da Commerce, entre na sua [conta Commerce/Magento](../getting-started/commerce-account-create.md).
 
@@ -104,7 +131,7 @@ A Ferramenta de Verificação de Segurança está disponível gratuitamente no p
 
          Depois que o processo de criação for concluído, as alterações serão implantadas na loja da PWA.
 
-1. Retorne à página _[!UICONTROL Security Scan]_&#x200B;na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**&#x200B;para estabelecer a propriedade do domínio.
+1. Retorne à página _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
 
 1. Após uma confirmação bem-sucedida, configure as opções do **[!UICONTROL Set Automatic Security Scan]** para um dos seguintes tipos:
 
@@ -159,7 +186,7 @@ Cenários comuns nos quais você pode querer marcar uma falha de verificação c
 
 Para gerenciar as falhas de varredura identificadas como falsos positivos, siga estas etapas:
 
-1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**&#x200B;para o site que você deseja gerenciar.
+1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**para o site que você deseja gerenciar.
 
 1. Na exibição de relatório, localize a verificação com falha que deseja marcar como falso positivo.
 
@@ -169,7 +196,7 @@ Para gerenciar as falhas de varredura identificadas como falsos positivos, siga 
 
 1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
 
-A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_&#x200B;e é excluída da sua pontuação de risco.
+A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_e é excluída da sua pontuação de risco.
 
 ### Parar de ignorar falhas de verificação
 
@@ -183,7 +210,7 @@ Se precisar restaurar uma falha de varredura ignorada anteriormente para o monit
 
 1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
 
-A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_&#x200B;e é incluída na sua pontuação de risco.
+A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_e é incluída na sua pontuação de risco.
 
 ### Exibir falhas de verificação ignoradas
 

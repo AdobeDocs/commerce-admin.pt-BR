@@ -3,7 +3,7 @@ title: Usar imagens do Adobe Stock
 description: Aprimore as páginas da loja com imagens do Adobe Stock.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '1013'
@@ -119,13 +119,13 @@ Cada imagem tem detalhes disponíveis para visualização. Outras ações espec�
 
 ## Faça logon em sua conta da Adobe
 
-Para obter acesso total a uma imagem e eliminar a marca d&#39;água da Adobe Stock, você deve [entrar com uma conta da Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) e comprar créditos para licenciar direitos para usar uma imagem.
+Para obter acesso total a uma imagem e eliminar a marca d&#39;água da Adobe Stock, você deve [entrar com uma conta da Adobe](https://helpx.adobe.com/br/manage-account/using/access-adobe-id-account.html) e comprar créditos para licenciar direitos para usar uma imagem.
 
 1. [Acesse a grade do Adobe Stock Search](#access-the-adobe-stock-search-grid).
 
 1. Clique em **[!UICONTROL Sign In]** na parte superior direita.
 
-   Uma nova janela de navegador orienta você durante o [processo de entrada no Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Uma nova janela de navegador orienta você durante o [processo de entrada no Adobe](https://helpx.adobe.com/br/manage-account/using/access-adobe-id-account.html).
 
    Após concluir o processo de logon, o estado licenciado das imagens é exibido nos resultados da pesquisa como um rótulo.
 
@@ -179,7 +179,7 @@ Os ativos do Adobe Stock que você deseja usar para suas lojas de produção [!D
 
      >[!NOTE]
      >
-     >Você deve ter [créditos de Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) disponíveis em sua conta para licenciar a imagem.
+     >Você deve ter [créditos de Adobe Stock](https://helpx.adobe.com/br/stock/help/credit-packs.html) disponíveis em sua conta para licenciar a imagem.
 
    Esta ação exibe um prompt para que você especifique um nome de arquivo que seja usado para salvar a imagem no [armazenamento de mídia](media-storage.md). Um nome de arquivo padrão é fornecido, mas você pode personalizar o nome de acordo com suas preferências.
 

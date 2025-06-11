@@ -3,7 +3,7 @@ title: Otimização de imagem da Galeria de mídia
 description: Saiba como usar a otimização de imagens para seus [!DNL Commerce] ativos de mídia.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '191'
@@ -32,6 +32,6 @@ Quando a funcionalidade de otimização de imagem da Galeria de Mídia está hab
 
 Quando os valores de _Largura Máxima_ e _Altura Máxima_ são alterados na configuração, ele atualiza todas as imagens otimizadas existentes que foram inseridas anteriormente.
 
-A Otimização de Imagens da Galeria de Mídia exige que os `media.gallery.renditions.update` consumidores da fila estejam em execução para regenerar imagens otimizadas quando a configuração for alterada. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) no _Guia de Configuração_ para obter mais detalhes.
+A Otimização de Imagens da Galeria de Mídia exige que os `media.gallery.renditions.update` consumidores da fila estejam em execução para regenerar imagens otimizadas quando a configuração for alterada. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=pt-BR) no _Guia de Configuração_ para obter mais detalhes.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

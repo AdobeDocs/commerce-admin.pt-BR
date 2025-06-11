@@ -18,7 +18,7 @@ Crie um conteúdo avançado e interativo que seja orientado pela lógica de [reg
 
 >[!NOTE]
 >
->A opção _[!UICONTROL Banner]_no menu [[!UICONTROL Content] ](content-menu.md) foi descontinuada na versão 2.3.1 e removida na versão 2.4.0. Sua funcionalidade é substituída por Blocos dinâmicos.
+>A opção _[!UICONTROL Banner]_&#x200B;no menu [[!UICONTROL Content] ](content-menu.md) foi descontinuada na versão 2.3.1 e removida na versão 2.4.0. Sua funcionalidade é substituída por Blocos dinâmicos.
 
 ![[!DNL Page Builder] - bloco dinâmico com regra de preço e segmento de cliente](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 

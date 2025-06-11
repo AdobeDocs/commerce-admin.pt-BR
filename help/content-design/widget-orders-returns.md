@@ -58,7 +58,7 @@ O widget _Pedidos e devoluções_ oferece aos convidados a capacidade de verific
 
    - (Opcional) Para **[!UICONTROL Sort Order]**, insira um número para determinar a ordem de exibição deste item com outros na mesma parte da página. (`0` = primeiro, `1` = segundo, `3` = terceiro e assim por diante.)
 
-1. Na seção _[!UICONTROL Layout Updates]_, clique em **[!UICONTROL Add Layout Update]**e faça o seguinte:
+1. Na seção _[!UICONTROL Layout Updates]_, clique em **[!UICONTROL Add Layout Update]**&#x200B;e faça o seguinte:
 
    - Defina **[!UICONTROL Display On]** como o tipo de página em que você deseja que o widget apareça.
 

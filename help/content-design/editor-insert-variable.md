@@ -17,7 +17,7 @@ Seu armazenamento inclui muitas [variáveis](../systems/variables-predefined.md)
 
 1. Abra uma página, um bloco ou um bloco dinâmico no modo de edição.
 
-1. Vá para a seção _[!UICONTROL Content]_e clique em qualquer elemento compatível com o editor.
+1. Vá para a seção _[!UICONTROL Content]_&#x200B;e clique em qualquer elemento compatível com o editor.
 
 1. Posicione o cursor onde deseja que a variável apareça e clique no ícone _Inserir variável_.
 

@@ -140,7 +140,7 @@ As páginas podem ser editadas, desativadas, ativadas e excluídas. Para aplicar
 
 ### Ação única
 
-Use a coluna _[!UICONTROL Action]_na extremidade direita para aplicar qualquer uma das seguintes ações à página individual:
+Use a coluna _[!UICONTROL Action]_&#x200B;na extremidade direita para aplicar qualquer uma das seguintes ações à página individual:
 
 - [!UICONTROL Edit] - abre a página no modo de edição
 - [!UICONTROL Delete] - exclui a página (requer confirmação)
@@ -150,7 +150,7 @@ Use a coluna _[!UICONTROL Action]_na extremidade direita para aplicar qualquer u
 
 ### Ações em massa
 
-Aplique qualquer uma das seguintes ações a várias páginas selecionadas ao mesmo tempo usando o seletor _[!UICONTROL Action]_no canto superior esquerdo:
+Aplique qualquer uma das seguintes ações a várias páginas selecionadas ao mesmo tempo usando o seletor _[!UICONTROL Action]_&#x200B;no canto superior esquerdo:
 
 - [!UICONTROL Delete] - exclui as páginas (requer confirmação)
 - [!UICONTROL Disable] - desabilita as páginas na loja
@@ -209,7 +209,7 @@ Ao configurar agendas para alterações de página e editar campanhas, lembre-se
 
 - Se uma campanha ativa for criada inicialmente sem uma data de término, a campanha não poderá ser editada posteriormente para incluir uma data de término. Nesse caso, é necessário criar uma campanha duplicada e inserir a data final necessária.
 
-- A data de início e a data de término da campanha devem ser definidas usando o fuso horário padrão **_1} do administrador, que é convertido do fuso horário local de cada site._** Considere um exemplo em que você tem vários sites em fusos horários diferentes, mas deseja iniciar uma campanha com base em um fuso horário dos EUA. Nesse caso, você deve agendar uma atualização separada para cada fuso horário local e definir **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** como convertidos de cada fuso horário de site local para o fuso horário padrão do Administrador.
+- A data de início e a data de término da campanha devem ser definidas usando o fuso horário padrão **_1&rbrace; do administrador, que é convertido do fuso horário local de cada site._** Considere um exemplo em que você tem vários sites em fusos horários diferentes, mas deseja iniciar uma campanha com base em um fuso horário dos EUA. Nesse caso, você deve agendar uma atualização separada para cada fuso horário local e definir **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** como convertidos de cada fuso horário de site local para o fuso horário padrão do Administrador.
 
 - Você pode agendar e visualizar alterações para atualizações de produtos. Para obter mais informações, consulte [Agendando uma Atualização](content-staging-scheduled-update.md).
 

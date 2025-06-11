@@ -27,7 +27,7 @@ O painel de pesquisa do Adobe Stock pode ser acessado ao [adicionar ou editar um
 
 1. Clique em **[!UICONTROL Add a New Page]**.
 
-   Se quiser editar uma página existente, use a coluna _[!UICONTROL Action]_para clicar em **[!UICONTROL Select]**e escolher **[!UICONTROL Edit]**.
+   Se quiser editar uma página existente, use a coluna _[!UICONTROL Action]_&#x200B;para clicar em **[!UICONTROL Select]**&#x200B;e escolher **[!UICONTROL Edit]**.
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Content]** e faça o seguinte:
 
@@ -47,7 +47,7 @@ O painel de pesquisa do Adobe Stock pode ser acessado ao [adicionar ou editar um
 
    Se quiser adicionar a imagem a uma categoria existente, clique no nome da categoria na lista à esquerda.
 
-1. Expanda a seção **[!UICONTROL Content]** e em _[!UICONTROL Category Image]_clique em **[!UICONTROL Select from Gallery]**.
+1. Expanda a seção **[!UICONTROL Content]** e em _[!UICONTROL Category Image]_&#x200B;clique em **[!UICONTROL Select from Gallery]**.
 
 1. Clique em **[!UICONTROL Search Adobe Stock]**.
 

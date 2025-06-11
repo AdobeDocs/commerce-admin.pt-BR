@@ -60,7 +60,7 @@ Para vincular a um nó, use a ferramenta [Widget](widgets.md) para criar um link
 
 1. Acima da grade, clique em **[!UICONTROL Add Node...]**.
 
-1. Em _[!UICONTROL Page Properties]_, insira um **[!UICONTROL Title]**para o nó e um **[!UICONTROL URL Key]**adequado.
+1. Em _[!UICONTROL Page Properties]_, insira um **[!UICONTROL Title]**&#x200B;para o nó e um **[!UICONTROL URL Key]**&#x200B;adequado.
 
    A chave do URL fornece um endereço da Web exclusivo para o nó. Deve conter somente caracteres minúsculos, usando hifens para separar palavras, em vez de espaços.
 
@@ -86,7 +86,7 @@ Para vincular a um nó, use a ferramenta [Widget](widgets.md) para criar um link
 
 1. Clique no nó na parte superior da hierarquia.
 
-   A seção _[!UICONTROL Page Properties]_agora exibe informações sobre o nó.
+   A seção _[!UICONTROL Page Properties]_&#x200B;agora exibe informações sobre o nó.
 
 1. Em **[!UICONTROL Render Metadata in HTML Head]**, faça o seguinte:
 

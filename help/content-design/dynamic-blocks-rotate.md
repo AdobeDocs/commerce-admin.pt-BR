@@ -2,9 +2,10 @@
 title: Adicionar um bloco dinâmico giratório
 description: Apresente uma apresentação de slides de conteúdo interativo na loja adicionando vários blocos dinâmicos a um rotador.
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---

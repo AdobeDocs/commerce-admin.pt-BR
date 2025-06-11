@@ -1,11 +1,12 @@
 ---
 title: Inserir uma variável no editor
-description: Adicione variáveis predefinidas ou personalizadas ao seu conteúdo no editor WYSIWYG.
+description: Adicione variáveis predefinidas ou personalizadas ao seu conteúdo no editor do WYSIWYG.
 exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
 feature: Page Content, Variables
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ Seu armazenamento inclui muitas [variáveis](../systems/variables-predefined.md)
 
 1. Abra uma página, um bloco ou um bloco dinâmico no modo de edição.
 
-1. Vá para a seção _[!UICONTROL Content]_&#x200B;e clique em qualquer elemento compatível com o editor.
+1. Vá para a seção _[!UICONTROL Content]_e clique em qualquer elemento compatível com o editor.
 
 1. Posicione o cursor onde deseja que a variável apareça e clique no ícone _Inserir variável_.
 

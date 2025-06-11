@@ -2,16 +2,17 @@
 title: Editor WYSIWYG
 description: Saiba como usar o editor e trabalhar com conteúdo em uma visualização do _What You See Is What You Get_ (WYSIWYG).
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-source-git-commit: 3cc17d79762d1a67c5329bc1971169f0e7cf5090
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
 # Editor WYSIWYG
 
-O editor oferece a capacidade de inserir e formatar o conteúdo durante o trabalho em uma exibição do _What You See Is What You Get_ (WYSIWYG). Se preferir trabalhar diretamente com o código de HTML subjacente, é possível alterar os modos facilmente. O editor pode ser usado para criar conteúdo para [páginas](pages.md), [blocos](blocks.md) e [descrições de produtos](../catalog/product-content.md). Ao trabalhar nos detalhes do produto, acesse o editor clicando em **[!UICONTROL Show / Hide Editor]**.
+O editor oferece a capacidade de inserir e formatar o conteúdo durante o trabalho em uma exibição do _What You See Is What You Get_ (WYSIWYG). Se preferir trabalhar diretamente com o código HTML subjacente, é possível alterar os modos facilmente. O editor pode ser usado para criar conteúdo para [páginas](pages.md), [blocos](blocks.md) e [descrições de produtos](../catalog/product-content.md). Ao trabalhar nos detalhes do produto, acesse o editor clicando em **[!UICONTROL Show / Hide Editor]**.
 
 ![Barra de ferramentas do editor](./assets/editor-toolbar.png){width="700" zoomable="yes"}
 

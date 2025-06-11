@@ -4,16 +4,17 @@ description: Saiba como criar uma versão traduzida de cada página que está di
 exl-id: e8743ea5-0c8e-4970-987d-c9ac7c1e2a66
 feature: Page Content
 topic: Commerce, Localization
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
 
 # Traduzir uma página de conteúdo
 
-Se o armazenamento tiver várias exibições em diferentes [idiomas](../stores-purchase/store-localize.md) e você tiver definido a localidade de cada exibição para um idioma diferente, o resultado será um site parcialmente traduzido. A próxima etapa é criar uma versão traduzida de cada página disponível na exibição de loja específica. A coluna [!UICONTROL Store View] da lista _[!UICONTROL Manage Pages]_&#x200B;mostra cada exibição que tem uma versão traduzida da página.
+Se o armazenamento tiver várias exibições em diferentes [idiomas](../stores-purchase/store-localize.md) e você tiver definido a localidade de cada exibição para um idioma diferente, o resultado será um site parcialmente traduzido. A próxima etapa é criar uma versão traduzida de cada página disponível na exibição de loja específica. A coluna [!UICONTROL Store View] da lista _[!UICONTROL Manage Pages]_mostra cada exibição que tem uma versão traduzida da página.
 
 Para traduzir uma página de conteúdo, é necessário criar outra página que tenha a mesma Chave de URL da original, mas seja atribuída à exibição de loja específica. Em seguida, atualize a página da exibição específica com o texto traduzido. O exemplo a seguir mostra como criar uma versão traduzida da página _Sobre nós_ para a exibição de loja em espanhol.
 
@@ -25,7 +26,7 @@ Para traduzir uma página de conteúdo, é necessário criar outra página que t
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization]** e copie o **[!UICONTROL URL Key]** para a área de transferência.
 
-1. Para retornar à grade _[!UICONTROL Pages]_, clique em **[!UICONTROL Back]**&#x200B;na barra de botões superior.
+1. Para retornar à grade _[!UICONTROL Pages]_, clique em **[!UICONTROL Back]**na barra de botões superior.
 
 ## Etapa 2: adicionar uma página para o conteúdo traduzido
 

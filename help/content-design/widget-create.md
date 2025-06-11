@@ -2,9 +2,10 @@
 title: Criar e gerenciar widgets
 description: Saiba como criar e gerenciar os widgets que atualizam conteúdo automaticamente na sua loja.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -98,7 +99,7 @@ As opções para cada tipo de widget variam um pouco, mas o processo é essencia
 
 Para saber mais sobre como criar widgets, assista a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3417364?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
 
 ## Editar um widget
 

@@ -2,9 +2,10 @@
 title: Adicionar e remover páginas
 description: Saiba como adicionar e remover as páginas de conteúdo usadas na sua loja  [!DNL Commerce] store.
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
@@ -149,9 +150,9 @@ Dependendo da sua [configuração de Ferramentas de Conteúdo Avançadas](../con
 
 1. Para retornar à grade, clique em **[!UICONTROL Back]** no canto superior esquerdo da janela do navegador.
 
-### Etapa 8: Publish na página
+### Etapa 8: publicar a página
 
-1. Selecione **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_&#x200B;da grade.
+1. Selecione **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_da grade.
 
 1. Defina **[!UICONTROL Enable Page]** como `Yes`.
 
@@ -206,7 +207,7 @@ Qualquer página de conteúdo pode ser usada como um modelo e salva como uma dup
 
 ## Excluir uma página
 
-Há duas maneiras de remover uma página criada. Você pode removê-lo da grade _[!UICONTROL Pages]_&#x200B;ou da página&#x200B;_[!UICONTROL Edit]_.
+Há duas maneiras de remover uma página criada. Você pode removê-lo da grade _[!UICONTROL Pages]_ou da página_[!UICONTROL Edit]_.
 
 ### Método 1: remover uma página da grade Páginas
 
@@ -224,7 +225,7 @@ Há duas maneiras de remover uma página criada. Você pode removê-lo da grade 
 
 1. Localizar a página a ser excluída.
 
-1. Na coluna _[!UICONTROL Actions]_&#x200B;da entidade de página, clique em **[!UICONTROL Select]**&#x200B;e escolha **[!UICONTROL Edit]**.
+1. Na coluna _[!UICONTROL Actions]_da entidade de página, clique em **[!UICONTROL Select]**e escolha **[!UICONTROL Edit]**.
 
 1. Na barra de botões, clique em **[!UICONTROL Delete Page]**.
 

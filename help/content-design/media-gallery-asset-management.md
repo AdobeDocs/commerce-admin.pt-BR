@@ -3,9 +3,10 @@ title: Gerenciamento de ativos da Galeria de mídia
 description: Saiba como gerenciar arquivos de mídia carregados e ativos adquiridos por meio de uma integração com o Adobe Stock.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---

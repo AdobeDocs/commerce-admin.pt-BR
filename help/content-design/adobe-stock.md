@@ -3,9 +3,10 @@ title: Integração do Adobe Stock
 description: Integre o Adobe Stock com sua instância  [!DNL Commerce]  para acessar inúmeros ativos de mídia para uso em sua loja.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Essa integração exige:
 
 O licenciamento de imagens do Adobe Stock exige:
 
-- Uma conta [Adobe][adobe-signin]
+- Uma [conta do Adobe][adobe-signin]
 - Um plano pago [Adobe Stock][adobe-stock] associado à conta
 
 ## Integrar o [!DNL Commerce] e o Adobe Stock
@@ -96,6 +97,6 @@ Para definir a configuração do sistema no Administrador [!DNL Commerce], use a
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/br/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

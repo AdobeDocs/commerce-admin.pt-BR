@@ -3,9 +3,10 @@ title: Páginas
 description: Saiba mais sobre as páginas de conteúdo principais incluídas com a  [!DNL Commerce] loja de demonstração e como alterar a configuração de Páginas Padrão.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -73,10 +74,10 @@ A configuração de _Páginas Padrão_ determina a página de aterrissagem assoc
    | Campo | [Escopo](../getting-started/websites-stores-views.md#scope-settings) | Descrição |
    |--- |--- |--- |
    | [!UICONTROL Default Web URL] | Exibição da loja | Indica a landing page associada ao URL base. Por padrão, este campo é definido como `cms` para indicar uma página do sistema de gerenciamento de conteúdo [!DNL Commerce]. Você também pode usar um tipo diferente de página de aterrissagem, como um blog. Por exemplo, se um blog estiver instalado no servidor em `magento/blog`, você poderá inserir o nome da pasta `blog` como um caminho relativo para a seleção de páginas. |
-   | [!UICONTROL CMS Home Page] | Exibição da loja | Para escolher a home page da loja, basta selecionar a página CMS na lista. Por padrão, a Página inicial do CMS lista toda a seleção de páginas do CMS disponíveis para sua loja. |
+   | [!UICONTROL CMS Home Page] | Exibição da loja | Para escolher a página inicial da loja, basta selecionar a página do CMS na lista. Por padrão, a Página inicial do CMS lista toda a seleção de páginas do CMS disponíveis para sua loja. |
    | [!UICONTROL Default No-route URL] | Exibição da loja | Contém a URL da página padrão que você deseja exibir quando ocorrer um erro `404 Page not Found`. O valor padrão é `cms/noroute/index`. |
-   | [!UICONTROL CMS No Route Page] | Exibição da loja | Identifica uma página CMS específica que você deseja que apareça quando ocorrer um erro 404 Página não encontrada. A página padrão é `404 Not Found`. |
-   | [!UICONTROL CMS No Cookies Page] | Exibição da loja | Identifica uma página CMS específica que aparece quando os cookies não estão ativados para o navegador. A página explica por que os cookies são usados e como ativá-los para cada navegador. A página padrão é `Enable Cookies`. |
+   | [!UICONTROL CMS No Route Page] | Exibição da loja | Identifica uma página específica do CMS que deve ser exibida quando ocorrer um erro 404 Página não encontrada. A página padrão é `404 Not Found`. |
+   | [!UICONTROL CMS No Cookies Page] | Exibição da loja | Identifica uma página específica do CMS que aparece quando os cookies não estão ativados para o navegador. A página explica por que os cookies são usados e como ativá-los para cada navegador. A página padrão é `Enable Cookies`. |
    | [!UICONTROL Show Breadcrumbs for CMS Pages] | Exibição da loja | Determina se uma trilha de navegação estrutural aparece em todas as páginas do CMS no catálogo. Opções: `Yes` / `No` |
 
    {style="table-layout:auto"}
@@ -87,7 +88,7 @@ A configuração de _Páginas Padrão_ determina a página de aterrissagem assoc
 
    >[!NOTE]
    >
-   >Para uma exibição de loja específica, desmarque a caixa de seleção **[!UICONTROL Use Default]** ao lado de _[!UICONTROL Default Web URL]_&#x200B;e quaisquer outras configurações padrão a serem alteradas.
+   >Para uma exibição de loja específica, desmarque a caixa de seleção **[!UICONTROL Use Default]** ao lado de _[!UICONTROL Default Web URL]_e quaisquer outras configurações padrão a serem alteradas.
 
 1. Defina **[!UICONTROL CMS Home Page]** para a página do CMS a ser usada como página inicial. Outras páginas criadas podem ser usadas como página inicial, como:
 
@@ -103,7 +104,7 @@ A configuração de _Páginas Padrão_ determina a página de aterrissagem assoc
 
    O valor padrão é `cms/index/noRoute`.
 
-1. Defina **[!UICONTROL CMS No Route Page]** para a página CMS que aparece quando ocorre um erro _404 Página Não Encontrada_.
+1. Defina **[!UICONTROL CMS No Route Page]** para a página do CMS que aparece quando ocorre o erro _Página Não Encontrada_.
 
 1. Defina **[!UICONTROL CMS No Cookies Page]** para a página do CMS que aparece quando os cookies são desabilitados no navegador. A página explica por que os cookies são usados e como ativá-los para cada navegador. A página padrão é `Enable Cookies`.
 

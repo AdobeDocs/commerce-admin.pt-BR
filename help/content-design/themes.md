@@ -3,9 +3,10 @@ title: Temas
 description: Saiba mais sobre  [!DNL Commerce]  temas, que incluem arquivos de layout, arquivos de modelo, arquivos de tradução e capas que definem a aparência da sua loja.
 exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -52,7 +53,7 @@ O tema responsivo `Magento Blank` renderiza a exibição da sua vitrine eletrôn
 
 1. Localize a exibição de armazenamento que você deseja configurar e clique em **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_.
 
-1. Em _[!UICONTROL Default Theme]_, defina **[!UICONTROL Applied Theme]**&#x200B;como aquele que deseja usar para a exibição atual.
+1. Em _[!UICONTROL Default Theme]_, defina **[!UICONTROL Applied Theme]**como aquele que deseja usar para a exibição atual.
 
    ![Tema Aplicado](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 

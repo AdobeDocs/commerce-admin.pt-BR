@@ -4,9 +4,10 @@ description: Saiba como usar um banco de dados de mídia para armazenar seus  [!
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
 feature: Page Content, Media, Configuration
 level: Experienced
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Por padrão, todas as imagens, arquivos CSS compilados e arquivos JavaScript com
 
 ## Fluxo de trabalho do banco de dados
 
-1. **Mídia de solicitações do navegador** - Uma página da loja é aberta no navegador do cliente e o navegador solicita a mídia especificada no HTML.
+1. **Mídia de solicitações do navegador** - Uma página da loja é aberta no navegador do cliente e o navegador solicita a mídia especificada na HTML.
 
 1. **O sistema procura mídia no sistema de arquivos** - O sistema procura a mídia no sistema de arquivos e, se for encontrada, a transmite para o navegador.
 

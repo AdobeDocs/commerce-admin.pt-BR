@@ -2,9 +2,10 @@
 title: Widgets
 description: Saiba mais sobre widgets que fornecem um trecho de código que permite exibir uma grande variedade de conteúdo e colocá-lo em referências de bloco específicas na sua loja.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Ao [criar um widget](widget-create.md), você deve definir o tipo. Este tipo det
 | Tipo | Descrição |
 |--- |--- |
 | [!UICONTROL CMS Hierarchy Node Link] | Use essa opção para exibir um link para um nó específico na hierarquia de páginas que pode ser incorporado a outro conteúdo. |
-| [!UICONTROL CMS Page Link] | Use essa opção para especificar um texto personalizado e um título vinculado a uma página CMS específica. Quando o link é concluído, ele pode ser usado em páginas de conteúdo e blocos. |
+| [!UICONTROL CMS Page Link] | Use essa opção para especificar um texto personalizado e um título vinculado a uma página específica do CMS. Quando o link é concluído, ele pode ser usado em páginas de conteúdo e blocos. |
 | [!UICONTROL CMS Static Block] | Use essa opção para exibir um bloco de conteúdo em um local específico em uma página. |
 | [!UICONTROL Catalog Category Link] | Use essa opção para exibir um link em linha ou em estilo de bloco para uma categoria de catálogo selecionada. Quando o link é concluído, ele pode ser usado em páginas de conteúdo e blocos. |
 | [!UICONTROL Catalog Events Carousel] | Use esta opção para exibir uma lista de eventos de catálogo futuros. |

@@ -3,9 +3,10 @@ title: Novo widget da lista de produtos
 description: Saiba como usar o novo widget lista de produtos para exibir uma lista dos produtos adicionados mais recentemente.
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ A lista de novos produtos é um exemplo de conteúdo dinâmico e consiste em dad
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Para lojas Adobe Commerce, consulte [Agendando uma Atualização](content-staging-scheduled-update.md) e prossiga para a Etapa 2 nesta página.
 
-A configuração de intervalo de datas _[!UICONTROL Set Product as New]_&#x200B;pode ser definida somente em atualizações agendadas.
+A configuração de intervalo de datas _[!UICONTROL Set Product as New]_pode ser definida somente em atualizações agendadas.
 
 Configurar um produto como novo adiciona o produto à lista _Novos produtos_. Você pode alterar a configuração de volta a qualquer momento quando não quiser mais incluí-la na lista.
 

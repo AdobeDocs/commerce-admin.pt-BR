@@ -2,9 +2,10 @@
 title: Atualizações de layout
 description: Saiba como usar atualizações de layout para personalizar o layout de uma página.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ No diagrama a seguir, os nomes que se referem aos contêineres são pretos e os 
 | `page/html_wrapper` | Embora incluído no layout padrão, esse bloco está obsoleto e é incluído apenas para garantir a compatibilidade com versões anteriores. Não use blocos desse tipo. |
 | `page/html_breadcrumbs` | O nome deste bloco é `breadcrumbs` e é filho do bloco de cabeçalho. Esse bloco exibe navegações estruturais para a página atual. Só pode haver um bloco desse tipo por página. |
 | `page/html_footer` | O nome do bloco é `footer` e é filho do bloco raiz. O bloco de rodapé corresponde ao rodapé visual na parte inferior da página e contém vários blocos padrão. Só pode haver um bloco desse tipo por página e ele não deve ser removido. |
-| `page/template_links` | Há dois blocos desse tipo no layout padrão. O bloco `top.links` é filho do bloco de cabeçalho e corresponde ao menu de navegação superior. O bloco `footer_links` é filho do bloco de rodapé e corresponde ao menu de navegação inferior. <br/><br/>**_Observação:_**&#x200B;é possível manipular os links de modelo, conforme mostrado nos exemplos. |
+| `page/template_links` | Há dois blocos desse tipo no layout padrão. O bloco `top.links` é filho do bloco de cabeçalho e corresponde ao menu de navegação superior. O bloco `footer_links` é filho do bloco de rodapé e corresponde ao menu de navegação inferior. <br/><br/>**_Observação:_**é possível manipular os links de modelo, conforme mostrado nos exemplos. |
 | `page/switch` | Há dois blocos desse tipo no layout padrão. O bloco `store_language` é filho do bloco de cabeçalho e corresponde ao alternador de idioma superior. O bloco `store_switcher` é filho do bloco de rodapé e corresponde ao alternador de repositório inferior. |
 | core/messages | Há dois blocos desse tipo no layout padrão. O bloco `global_messages` exibe mensagens globais. O bloco `messages` é usado para exibir todas as outras mensagens. Se você remover esses blocos, o cliente não verá nenhuma mensagem. |
 | `core/text_list` | Esse tipo de bloco é amplamente usado em [!DNL Commerce] como um espaço reservado para renderização de blocos filhos. |
@@ -52,7 +53,7 @@ As etapas a seguir mostram como usar uma atualização de layout para colocar um
 
 ### Etapa 2: compor a atualização do layout em XML
 
-1. Componha as instruções de layout em XML para [Referenciar um Bloco CMS](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
+1. Componha as instruções de layout em XML para [Referenciar um Bloco de CMS](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
 
 1. Salve as [instruções de layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/) no servidor, na pasta de layout onde os arquivos XML são salvos para o tema.
 
@@ -60,7 +61,7 @@ As etapas a seguir mostram como usar uma atualização de layout para colocar um
 
    `<theme_dir>/<Namespace>_<Module>/layout`
 
-   O identificador de layout é o nome de arquivo que começa com `cms_page_view_selectable_`, seguido pela chave de URL da página CMS, a opção de atualização de layout e o sufixo de arquivo `xml`. No exemplo a seguir, `customer-service` é a chave de URL da página e `ChatTool` é a opção selecionada para aplicar a atualização de layout à página.
+   O identificador de layout é o nome de arquivo que começa com `cms_page_view_selectable_`, seguido pela chave de URL da página do CMS, a opção de atualização de layout e o sufixo de arquivo `xml`. No exemplo a seguir, `customer-service` é a chave de URL da página e `ChatTool` é a opção selecionada para aplicar a atualização de layout à página.
 
    `cms_page_view_selectable_`&lt;`customer-service`>`_`&lt;`ChatTool`>`.xml`
 

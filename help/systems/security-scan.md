@@ -4,9 +4,9 @@ description: Saiba como executar uma verificação de segurança aprimorada e mo
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
+source-git-commit: eb226a969397bbfa31f72a4ae4fb61b22a0101bc
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,25 @@ A Ferramenta de verificação de segurança mantém controles de acesso rigoroso
 
 A ferramenta se concentra especificamente em domínios do Adobe Commerce e suas vulnerabilidades de segurança. Embora sua loja na web possa incluir páginas de outras plataformas, a Ferramenta de verificação de segurança deve verificar somente o conteúdo gerado pela Adobe Commerce para garantir resultados confiáveis. A digitalização de páginas que não são do Adobe Commerce pode gerar avaliações de vulnerabilidade não confiáveis.
 
+>[!NOTE]
+>
+>A ferramenta de verificação de segurança usa os seguintes endereços IP públicos:
+>
+>```text
+>52.87.98.44
+>34.196.167.176
+>3.218.25.102
+>```
+>
+>Incluir na lista de permissões Adicione esses endereços IP a uma pesquisa no arquivo de regras de firewall da rede para permitir que a ferramenta verifique seu site. A ferramenta publica solicitações somente para as portas `80` e `443`.
+
 ## Executar uma verificação
 
 O processo de varredura verifica o site em relação a problemas de segurança conhecidos e identifica patches e atualizações ausentes do Adobe Commerce que podem deixar sua loja vulnerável a ataques.
 
 >[!TIP]
 >
->Para projetos de infraestrutura em nuvem do Commerce, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Para projetos de infraestrutura em nuvem do Commerce, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Para executar uma varredura:
 
@@ -131,7 +143,7 @@ Para executar uma varredura:
 
          Depois que o processo de criação for concluído, as alterações serão implantadas na loja da PWA.
 
-1. Retorne à página _[!UICONTROL Security Scan]_&#x200B;na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**&#x200B;para estabelecer a propriedade do domínio.
+1. Retorne à página _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
 
 1. Após uma confirmação bem-sucedida, configure as opções do **[!UICONTROL Set Automatic Security Scan]** para um dos seguintes tipos:
 
@@ -186,7 +198,7 @@ Cenários comuns nos quais você pode querer marcar uma falha de verificação c
 
 Para gerenciar as falhas de varredura identificadas como falsos positivos, siga estas etapas:
 
-1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**&#x200B;para o site que você deseja gerenciar.
+1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**para o site que você deseja gerenciar.
 
 1. Na exibição de relatório, localize a verificação com falha que deseja marcar como falso positivo.
 
@@ -196,7 +208,7 @@ Para gerenciar as falhas de varredura identificadas como falsos positivos, siga 
 
 1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
 
-A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_&#x200B;e é excluída da sua pontuação de risco.
+A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_e é excluída da sua pontuação de risco.
 
 ### Parar de ignorar falhas de verificação
 
@@ -210,7 +222,7 @@ Se precisar restaurar uma falha de varredura ignorada anteriormente para o monit
 
 1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
 
-A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_&#x200B;e é incluída na sua pontuação de risco.
+A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_e é incluída na sua pontuação de risco.
 
 ### Exibir falhas de verificação ignoradas
 

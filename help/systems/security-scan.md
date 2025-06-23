@@ -67,7 +67,7 @@ O processo de varredura verifica o site em relação a problemas de segurança c
 
 >[!TIP]
 >
->Para projetos de infraestrutura em nuvem do Commerce, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Para projetos de infraestrutura em nuvem do Commerce, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Para executar uma varredura:
 

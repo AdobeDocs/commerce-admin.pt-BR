@@ -4,9 +4,9 @@ description: Saiba como executar uma verificação de segurança aprimorada e mo
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 183b8c52c6d8e2ea1afcc74fe4e2ed8e42efb216
+source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,19 @@ A Ferramenta de verificação de segurança oferece recursos abrangentes de moni
 
 >[!NOTE]
 >
->Você não pode excluir testes de segurança específicos das verificações da Ferramenta de verificação de segurança para Adobe Commerce. No entanto, você pode usar o autoatendimento em [ignorando falhas](#manage-scan-failures) como falsos positivos, se aplicável.
+>Você não pode excluir a execução de testes de segurança específicos, mas pode mover as verificações com falha para a categoria **[!UICONTROL Ignored Results]**. Consulte [Gerenciar falhas de verificação](#manage-scan-failures) para obter detalhes.
 
 ## Access
 
 A Ferramenta de verificação de segurança mantém controles de acesso rigorosos para proteger as informações do seu site. Somente você pode verificar seu site porque a ferramenta requer a verificação da propriedade do domínio por meio da conta da Adobe Commerce. Cada site se conecta à sua conta por meio de um token exclusivo, impedindo a varredura não autorizada por terceiros.
 
 A ferramenta se concentra especificamente em domínios do Adobe Commerce e suas vulnerabilidades de segurança. Embora sua loja na web possa incluir páginas de outras plataformas, a Ferramenta de verificação de segurança deve verificar somente o conteúdo gerado pela Adobe Commerce para garantir resultados confiáveis. A digitalização de páginas que não são do Adobe Commerce pode gerar avaliações de vulnerabilidade não confiáveis.
+
+
+## Acesso aos resultados da varredura
+
+Os resultados da verificação só podem ser acessados pelo usuário que a configurou originalmente. Para compartilhar resultados com outras pessoas, o usuário original deve distribuir manualmente o relatório do PDF. Como alternativa, um proprietário de armazenamento pode compartilhar envios com outra MAGEID usando a funcionalidade [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share). Outras pessoas também podem iniciar varreduras usando suas próprias contas. Durante a configuração da varredura, uma lista separada por vírgulas de endereços de e-mail pode ser especificada para receber notificações de varreduras concluídas e nível de risco avaliado.
+
 
 >[!NOTE]
 >
@@ -61,13 +67,14 @@ A ferramenta se concentra especificamente em domínios do Adobe Commerce e suas 
 >
 >Incluir na lista de permissões Adicione esses endereços IP a uma pesquisa no arquivo de regras de firewall da rede para permitir que a ferramenta verifique seu site. A ferramenta publica solicitações somente para as portas `80` e `443`.
 
+
 ## Executar uma verificação
 
 O processo de varredura verifica o site em relação a problemas de segurança conhecidos e identifica patches e atualizações ausentes do Adobe Commerce que podem deixar sua loja vulnerável a ataques.
 
 >[!TIP]
 >
->Para projetos de infraestrutura em nuvem do Commerce, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Para projetos de infraestrutura em nuvem do Commerce, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Para executar uma varredura:
 
@@ -147,7 +154,7 @@ Para executar uma varredura:
 
          Depois que o processo de criação for concluído, as alterações serão implantadas na loja da PWA.
 
-1. Retorne à página _[!UICONTROL Security Scan]_&#x200B;na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**&#x200B;para estabelecer a propriedade do domínio.
+1. Retorne à página _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
 
 1. Após uma confirmação bem-sucedida, configure as opções do **[!UICONTROL Set Automatic Security Scan]** para um dos seguintes tipos:
 
@@ -191,18 +198,20 @@ O gerenciamento de falhas de verificação ajuda você a manter uma visão geral
 - Eliminação da necessidade de entrar em contato com o suporte para falsos positivos conhecidos.
 - Economizando tempo com falhas de varredura autogerenciável que você já tenha investigado.
 
-Cenários comuns nos quais você pode querer marcar uma falha de verificação como falso positivo incluem:
+### Exemplos de cenários válidos para ignorar falhas de verificação
 
 - Quando você já tiver aplicado uma correção de segurança que a ferramenta de varredura não detectou.
-- Quando um problema detectado não é aplicável à configuração de armazenamento específica.
-- Quando tiver implementado uma medida de segurança alternativa que resolva a preocupação.
+- Quando um problema detectado não é aplicável à configuração específica da loja (por exemplo, logon de usuário personalizado e páginas de registro).
+- Quando tiver implementado uma medida de segurança alternativa que atenda à preocupação (por exemplo, Firewall de Aplicativo Web).
 - Quando a falha da verificação se baseia em uma configuração definida intencionalmente para as necessidades da sua empresa.
+- Quando você usa intencionalmente código JavaScript de terceiros que falha na verificação devido a ofuscação e/ou codificação de código.
+
 
 ### Ignorar falhas de verificação
 
 Para gerenciar as falhas de varredura identificadas como falsos positivos, siga estas etapas:
 
-1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**&#x200B;para o site que você deseja gerenciar.
+1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**para o site que você deseja gerenciar.
 
 1. Na exibição de relatório, localize a verificação com falha que deseja marcar como falso positivo.
 
@@ -212,7 +221,7 @@ Para gerenciar as falhas de varredura identificadas como falsos positivos, siga 
 
 1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
 
-A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_&#x200B;e é excluída da sua pontuação de risco.
+A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_e é excluída da sua pontuação de risco.
 
 ### Parar de ignorar falhas de verificação
 
@@ -226,7 +235,7 @@ Se precisar restaurar uma falha de varredura ignorada anteriormente para o monit
 
 1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
 
-A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_&#x200B;e é incluída na sua pontuação de risco.
+A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_e é incluída na sua pontuação de risco.
 
 ### Exibir falhas de verificação ignoradas
 

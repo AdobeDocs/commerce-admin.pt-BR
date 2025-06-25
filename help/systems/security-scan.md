@@ -52,7 +52,7 @@ A ferramenta se concentra especificamente em domínios do Adobe Commerce e suas 
 
 ## Acesso aos resultados da varredura
 
-Os resultados da verificação só podem ser acessados pelo usuário que a configurou originalmente. Para compartilhar resultados com outras pessoas, o usuário original deve distribuir manualmente o relatório do PDF. Como alternativa, um proprietário de armazenamento pode compartilhar envios com outra MAGEID usando a funcionalidade [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share). Outras pessoas também podem iniciar varreduras usando suas próprias contas. Durante a configuração da varredura, uma lista separada por vírgulas de endereços de e-mail pode ser especificada para receber notificações de varreduras concluídas e nível de risco avaliado.
+Os resultados da verificação só podem ser acessados pelo usuário que a configurou originalmente. Para compartilhar resultados com outras pessoas, o usuário original deve distribuir manualmente o relatório do PDF. Como alternativa, um proprietário de armazenamento pode compartilhar envios com outra MAGEID usando a funcionalidade [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/commerce-account/commerce-account-share). Outras pessoas também podem iniciar varreduras usando suas próprias contas. Durante a configuração da varredura, uma lista separada por vírgulas de endereços de e-mail pode ser especificada para receber notificações de varreduras concluídas e nível de risco avaliado.
 
 
 >[!NOTE]
@@ -74,7 +74,7 @@ O processo de varredura verifica o site em relação a problemas de segurança c
 
 >[!TIP]
 >
->Para projetos de infraestrutura em nuvem do Commerce, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Para projetos de infraestrutura em nuvem do Commerce, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 Para executar uma varredura:
 

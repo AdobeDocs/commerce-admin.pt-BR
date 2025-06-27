@@ -21,7 +21,7 @@ Você pode acessar sua conta no site do [!DNL Commerce]. O painel de conta mostr
 
 O logon da conta [!DNL Commerce] é separado do logon de Administrador da loja. Normalmente, você usará credenciais diferentes para cada um, e o acesso a cada sistema é gerenciado de forma independente.
 
-No entanto, um usuário que deseja simplificar seu logon nos produtos Adobe Commerce e Adobe Business poderá configurar seu Adobe ID para fazer logon no Administrador da loja: [Configurar a Integração do Administrador da Commerce com o Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)
+No entanto, um usuário que deseja simplificar seu logon nos produtos Adobe Commerce e Adobe Business poderá configurar seu Adobe ID para fazer logon no Administrador da loja: [Configurar a Integração do Administrador da Commerce com o Adobe ID](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/admin/ims/adobe-ims-config)
 
 Os logons da Commerce e do Administrador da loja são separados, com credenciais diferentes e acesso gerenciado de forma independente. No entanto, você pode simplificar o acesso configurando seu Adobe ID para fazer logon no Administrador da loja. Consulte [Configurar a Integração de Administrador do Commerce com o Adobe ID] no *Guia de Integração do IMS para o Commerce*.
 

@@ -4,88 +4,38 @@ description: Saiba como executar uma verificação de segurança aprimorada e mo
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
+source-git-commit: 8e634311cd84a9e797a36218c29abb4699d72835
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
-
 # Verificação de segurança
 
-A Ferramenta de verificação de segurança da Adobe Commerce oferece monitoramento de segurança gratuito para seus sites Adobe Commerce e Magento Open Source. A ferramenta funciona como um serviço baseado na Web que você pode acessar por meio da sua conta do Adobe Commerce online em [account.magento.com](https://account.magento.com/customer/account/login).
-
-![Ferramenta de Verificação de Segurança](./assets/magento-security-scan.png){width="600" zoomable="yes"}
-
->[!NOTE]
->
->A Adobe fornece esse serviço sem custo, embora os comerciantes devam aceitar os termos que limitam a responsabilidade da Adobe com base nos resultados da verificação e na configuração do site.
-
->[!NOTE]
->
->A Adobe recomenda usar a Ferramenta de verificação de segurança em vez de outras ferramentas de terceiros para garantir a melhor qualidade do serviço durante a investigação de descobertas.
-
-## Cobertura da varredura
-
-A Ferramenta de Verificação de Segurança opera por protocolos HTTP e HTTPS para detectar malware, identificar vulnerabilidades de segurança e ajudar a manter a postura de segurança da sua loja. A ferramenta está disponível para todos os comerciantes, desenvolvedores e pessoal designado responsável pela segurança do site.
-
-A Ferramenta de verificação de segurança oferece recursos abrangentes de monitoramento de segurança que ajudam a manter um ambiente de armazenamento seguro:
+A verificação de segurança aprimorada permite monitorar cada um dos sites da Adobe Commerce e da Magento Open Source, incluindo o PWA, quanto a riscos de segurança conhecidos e malware, e receber atualizações de patches e notificações de segurança.
 
 - Obtenha o insight no status de segurança em tempo real de sua loja.
 - Receba sugestões com base nas práticas recomendadas para ajudar a resolver problemas.
-- Programar uma verificação de segurança para execução semanal, diária ou sob demanda.
+- Programar verificação de segurança para execução semanal, diária ou sob demanda.
 - Executar mais de 21.000 testes de segurança para ajudar a identificar malware em potencial.
 - Acesse relatórios históricos de segurança que rastreiam e monitoram o progresso de seus sites.
 - Acesse o relatório de varredura que mostra verificações bem-sucedidas e falhas, com qualquer ação recomendada.
 
->[!NOTE]
->
->Você não pode excluir a execução de testes de segurança específicos, mas pode mover as verificações com falha para a categoria **[!UICONTROL Ignored Results]**. Consulte [Gerenciar falhas de verificação](#manage-scan-failures) para obter detalhes.
+A ferramenta Security scan está disponível gratuitamente no painel da sua [conta do Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) no _Guia de Infraestrutura do Commerce na Nuvem_.
 
-## Access
+![Ferramenta de verificação de segurança](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
-A Ferramenta de verificação de segurança mantém controles de acesso rigorosos para proteger as informações do seu site. Somente você pode verificar seu site porque a ferramenta requer a verificação da propriedade do domínio por meio da conta da Adobe Commerce. Cada site se conecta à sua conta por meio de um token exclusivo, impedindo a varredura não autorizada por terceiros.
+## Executar uma verificação de segurança
 
-A ferramenta se concentra especificamente em domínios do Adobe Commerce e suas vulnerabilidades de segurança. Embora sua loja na web possa incluir páginas de outras plataformas, a Ferramenta de verificação de segurança deve verificar somente o conteúdo gerado pela Adobe Commerce para garantir resultados confiáveis. A digitalização de páginas que não são do Adobe Commerce pode gerar avaliações de vulnerabilidade não confiáveis.
+1. Entre na sua [conta Commerce/Magento](../getting-started/commerce-account-create.md).
 
+1. No painel esquerdo, clique na guia [!UICONTROL Security Scan]. (Se necessário, revise e aceite quaisquer termos atualizados para usar a ferramenta de verificação de segurança.)
 
-## Acesso aos resultados da varredura
-
-Os resultados da verificação só podem ser acessados pelo usuário que a configurou originalmente. Para compartilhar resultados com outras pessoas, o usuário original deve distribuir manualmente o relatório do PDF. Como alternativa, um proprietário de armazenamento pode compartilhar envios com outra MAGEID usando a funcionalidade [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/commerce-account/commerce-account-share). Outras pessoas também podem iniciar varreduras usando suas próprias contas. Durante a configuração da varredura, uma lista separada por vírgulas de endereços de e-mail pode ser especificada para receber notificações de varreduras concluídas e nível de risco avaliado.
-
-
->[!NOTE]
->
->A ferramenta de verificação de segurança usa os seguintes endereços IP públicos:
->
->```text
->52.87.98.44
->34.196.167.176
->3.218.25.102
->```
->
->Incluir na lista de permissões Adicione esses endereços IP a uma pesquisa no arquivo de regras de firewall da rede para permitir que a ferramenta verifique seu site. A ferramenta publica solicitações somente para as portas `80` e `443`.
-
-
-## Executar uma verificação
-
-O processo de varredura verifica o site em relação a problemas de segurança conhecidos e identifica patches e atualizações ausentes do Adobe Commerce que podem deixar sua loja vulnerável a ataques.
-
->[!TIP]
->
->Para projetos de infraestrutura em nuvem do Commerce, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
-
-Para executar uma varredura:
-
-1. Na página inicial da Commerce, entre na sua [conta Commerce/Magento](../getting-started/commerce-account-create.md).
-
-1. Revise e aceite os termos para usar a Ferramenta de verificação de segurança.
-
-   1. No painel esquerdo, escolha **[!UICONTROL Security Scan]**.
-   1. Clique em **[!UICONTROL Go to Security Scan]**.
-   1. Leia o **[!UICONTROL Terms and Conditions]**.
-   1. Clique em **[!UICONTROL Agree]** para continuar.
+   - No painel esquerdo, escolha **[!UICONTROL Security Scan]**.
+   - Clique em **[!UICONTROL Go to Security Scan]**.
+   - Leia o **[!UICONTROL Terms and Conditions]**.
+   - Clique em **[!UICONTROL Agree]** para continuar.
 
 1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL +Add Site]**.
 
@@ -97,82 +47,80 @@ Para executar uma varredura:
 
    **vitrine da Commerce**:
 
-   1. Insira o **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
-   1. Clique em **[!UICONTROL Generate Confirmation Code]**.
-   1. Clique em **Copiar** para copiar seu código de confirmação para a área de transferência.
+   - Insira o **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
+   - Clique em **[!UICONTROL Generate Confirmation Code]**.
+   - Clique em **Copiar** para copiar seu código de confirmação para a área de transferência.
 
-      ![Gerar Código de Confirmação](./assets/scan-site1.png){width="400" zoomable="yes"}
+     ![Gerar Código de Confirmação](./assets/scan-site1.png){width="400" zoomable="yes"}
 
-   1. Faça logon no Admin da loja como um usuário com privilégios totais de administrador e faça o seguinte:
+   - Faça logon no Admin da loja como um usuário com privilégios totais de administrador e faça o seguinte:
 
-      1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
-      1. Localize seu site na lista e clique em **[!UICONTROL Edit]**.
-      1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL HTML Head]**.
-      1. Role para baixo até **[!UICONTROL Scripts and Style Sheets]** e clique na caixa de texto ao final de qualquer código existente. Cole o código de confirmação na caixa de texto.
+      - Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+      - Localize seu site na lista e clique em **[!UICONTROL Edit]**.
+      - Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL HTML Head]**.
+      - Role para baixo até **[!UICONTROL Scripts and Style Sheets]**, clique na caixa de texto ao final de qualquer código existente e cole o código de confirmação na caixa de texto.
 
-         ![Scripts e Folhas de Estilo](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+        ![Scripts e Folhas de Estilo](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-      1. Quando terminar, clique em **[!UICONTROL Save Configuration]**.
+      - Quando terminar, clique em **[!UICONTROL Save Configuration]**.
 
    **vitrine da PWA**:
 
-   1. Insira o **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
+   - Insira o **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
 
-   1. Para **[!UICONTROL Confirmation Code]**, escolha a opção `META Tag` e clique em **[!UICONTROL Generate Code]**.
+   - Para **[!UICONTROL Confirmation Code]**, escolha a opção `META Tag` e clique em **[!UICONTROL Generate Code]**.
 
-   1. Clique em **[!UICONTROL Copy]** para copiar a marca META do código de confirmação gerado para a área de transferência.
+   - Clique em **[!UICONTROL Copy]** para copiar a marca META do código de confirmação gerado para a área de transferência.
 
-      ![Gerar Código de Confirmação](./assets/scan-site2.png){width="400" zoomable="yes"}
+     ![Gerar Código de Confirmação](./assets/scan-site2.png){width="400" zoomable="yes"}
 
-   1. Vá para o diretório do projeto da loja PWA Studio e faça o seguinte:
+   - Vá para o diretório do projeto da loja PWA Studio e faça o seguinte:
 
-      1. No diretório do projeto PWA Studio, vá para `packages > venia-concept > template.html`.
-      1. Adicione o código de confirmação copiado (a tag META gerada) ao cabeçalho do HTML e salve as alterações.
+      - No diretório do projeto PWA Studio, vá para `packages > venia-concept > template.html`.
+      - Adicione o código de confirmação copiado (a tag META gerada) ao cabeçalho do HTML e salve as alterações.
 
-         ![Copiar Código de Confirmação](./assets/code-pwa.png){width="600" zoomable="yes"}
+        ![Copiar Código de Confirmação](./assets/code-pwa.png){width="600" zoomable="yes"}
 
-      1. Volte para a CLI do PWA Studio e use o fio para instalar dependências de projeto e executar o comando build de projeto.
+      - Volte para a CLI do PWA Studio e use o fio para instalar dependências de projeto e executar o comando build de projeto.
 
-         ```sh
-         yarn install &&
-         yarn build
-         ```
+        ```sh
+        yarn install &&
+        yarn build
+        ```
 
-      1. *No seu projeto na nuvem*, crie uma pasta `pwa` e copie o conteúdo dentro da pasta `dist` do projeto da vitrine.
+      - *No seu projeto na nuvem*, crie uma pasta `pwa` e copie o conteúdo dentro da pasta `dist` do projeto da vitrine.
 
-         ```sh
-         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
-         ```
+        ```sh
+        mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
+        ```
 
-      1. Use a ferramenta Git CLI para preparar, confirmar e enviar essas alterações para o projeto na nuvem.
+      - Use a ferramenta Git CLI para preparar, confirmar e enviar essas alterações para o projeto na nuvem.
 
-         ```sh
-         git add . &&
-         git commit -m "Added storefront file bundles" &&
-         git push origin
-         ```
+        ```sh
+        git add . &&
+        git commit -m "Added storefront file bundles" &&
+        git push origin
+        ```
 
-         Depois que o processo de criação for concluído, as alterações serão implantadas na loja da PWA.
+        Depois que o processo de criação for concluído, as alterações serão implantadas na loja da PWA.
 
-1. Retorne à página _[!UICONTROL Security Scan]_&#x200B;na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**&#x200B;para estabelecer a propriedade do domínio.
+1. Retorne à página _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
 
 1. Após uma confirmação bem-sucedida, configure as opções do **[!UICONTROL Set Automatic Security Scan]** para um dos seguintes tipos:
 
    **Verificar Semanalmente (recomendado)**:
 
-   Escolha os **[!UICONTROL Week Day]**, **[!UICONTROL Time]** e **[!UICONTROL Time Zone]** nos quais a verificação deve ocorrer todas as semanas.
+   - Escolha os **[!UICONTROL Week Day]**, **[!UICONTROL Time]** e **[!UICONTROL Time Zone]** nos quais a verificação deve ocorrer todas as semanas.
+   - Por padrão, a verificação é programada para começar toda semana à meia-noite de sábado, UTC, e continuar até a madrugada de domingo.
 
-   Por padrão, a verificação é programada para começar toda semana à meia-noite de sábado, UTC, e continuar até a madrugada de domingo.
-
-   ![Verificar Semanalmente](./assets/scan-weekly.png){width="500" zoomable="yes"}
+     ![Verificar Semanalmente](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
    **Verificar Diariamente**:
 
-   Escolha as **[!UICONTROL Time]** e **[!UICONTROL Time Zone]** em que a verificação deve ocorrer todos os dias.
+   - Escolha as **[!UICONTROL Time]** e **[!UICONTROL Time Zone]** em que a verificação deve ocorrer todos os dias.
+   - Por padrão, a verificação é agendada para começar todos os dias à meia-noite, UTC.
 
-   Por padrão, a verificação é agendada para começar todos os dias à meia-noite, UTC.
-
-   ![Verificação Diária](./assets/scan-daily.png){width="500" zoomable="yes"}
+     ![Verificação Diária](./assets/scan-daily.png){width="500" zoomable="yes"}
 
 1. Digite o **[!UICONTROL Email Address]** onde deseja receber notificações de verificações concluídas e atualizações de segurança.
 
@@ -184,61 +132,20 @@ Para executar uma varredura:
 
 1. Se você tiver vários sites com domínios diferentes, repita esse processo para configurar uma verificação de segurança para cada um.
 
-## Gerenciar falhas de verificação
+## Excluir uma verificação de segurança
 
-A Ferramenta de verificação de segurança permite gerenciar falhas de verificação diretamente na exibição de relatório. Você pode marcar falhas específicas de verificação como falsos positivos e excluí-las da sua pontuação de risco.
+>[!NOTE]
+>
+>Somente a pessoa que configurou originalmente a verificação pode excluí-la da conta. Se eles não tiverem feito logon em sua [conta](https://account.magento.com) desde agosto de 2022, eles devem primeiro verificar se têm [registrado para uma Adobe ID](https://account.magento.com).
 
-### Benefícios do gerenciamento de falhas de verificação
+**Excluir uma verificação**
 
-O gerenciamento de falhas de verificação ajuda você a manter uma visão geral de segurança mais precisa do armazenamento:
+1. Entre na [conta da Commerce/Magento](../getting-started/commerce-account-create.md).
 
-- Redução de falsos positivos nos relatórios de segurança.
-- Concentrando-se em questões de segurança relevantes que precisam de atenção.
-- Mantendo uma visão mais clara do verdadeiro status de segurança da sua loja.
-- Eliminação da necessidade de entrar em contato com o suporte para falsos positivos conhecidos.
-- Economizando tempo com falhas de varredura autogerenciável que você já tenha investigado.
+1. No painel esquerdo, clique na guia [!UICONTROL Security Scan]. (Se necessário, revise e aceite quaisquer termos atualizados para usar a ferramenta de verificação de segurança.)
 
-### Exemplos de cenários válidos para ignorar falhas de verificação
+   - Clique em **[!UICONTROL Go to Security Scan]**.
+   - Leia o **[!UICONTROL Terms and Conditions]**.
+   - Clique em **[!UICONTROL Agree]** para continuar.
 
-- Quando você já tiver aplicado uma correção de segurança que a ferramenta de varredura não detectou.
-- Quando um problema detectado não é aplicável à configuração específica da loja (por exemplo, logon de usuário personalizado e páginas de registro).
-- Quando tiver implementado uma medida de segurança alternativa que atenda à preocupação (por exemplo, Firewall de Aplicativo Web).
-- Quando a falha da verificação se baseia em uma configuração definida intencionalmente para as necessidades da sua empresa.
-- Quando você usa intencionalmente código JavaScript de terceiros que falha na verificação devido a ofuscação e/ou codificação de código.
-
-
-### Ignorar falhas de verificação
-
-Para gerenciar as falhas de varredura identificadas como falsos positivos, siga estas etapas:
-
-1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**&#x200B;para o site que você deseja gerenciar.
-
-1. Na exibição de relatório, localize a verificação com falha que deseja marcar como falso positivo.
-
-1. Clique em **[!UICONTROL Ignore]** para a falha da verificação específica.
-
-   ![Ignorar falhas de verificação](assets/security-scan-ignore-failure.png){width="600" zoomable="yes"}
-
-1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
-
-A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_&#x200B;e é excluída da sua pontuação de risco.
-
-### Parar de ignorar falhas de verificação
-
-Se precisar restaurar uma falha de varredura ignorada anteriormente para o monitoramento ativo, siga estas etapas:
-
-1. Na exibição de relatório, role até a seção _[!UICONTROL Ignored Results]_.
-
-1. Clique em **[!UICONTROL Stop Ignoring]** para a falha de verificação que você deseja restaurar.
-
-   ![Não ignorar falhas de verificação](assets/security-scan-stop-ignoring-failure.png){width="600" zoomable="yes"}
-
-1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
-
-A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_&#x200B;e é incluída na sua pontuação de risco.
-
-### Exibir falhas de verificação ignoradas
-
-Os resultados ignorados são exibidos em uma seção separada do relatório e a pontuação de risco é atualizada automaticamente para refletir somente as falhas de verificação ativas. Você pode gerenciar várias falhas de varredura de uma só vez, selecionando vários itens antes de aplicar as alterações.
-
-![Exibir falhas de verificação ignoradas](assets/security-scan-view-ignored-failures.png){width="600" zoomable="yes"}
+1. Na página _[!UICONTROL Monitored Websites]_, localize a lista suspensa na coluna [!UICONTROL Actions] e selecione **[!UICONTROL Delete]**para o(s) site(s) apropriado(s).

@@ -20,7 +20,7 @@ Siga estas instruções para aplicar um desconto a produtos específicos sempre 
 
 1. No canto superior direito, clique em **[!UICONTROL Add New Rule]**.
 
-   A seção _[!UICONTROL Rule Information]_inclui seções expansíveis para **[!UICONTROL Conditions]**e **[!UICONTROL Actions]**.
+   A seção _[!UICONTROL Rule Information]_&#x200B;inclui seções expansíveis para **[!UICONTROL Conditions]**&#x200B;e **[!UICONTROL Actions]**.
 
    ![Regra de preço de catálogo - informações](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -242,7 +242,7 @@ Especifica as condições que devem ser atendidas antes que a regra de preço de
 
 | Campo | Descrição |
 |-----|-----------|
-| [!UICONTROL Apply] | Determina o tipo de cálculo aplicado à compra. Opções: <br/>**[!UICONTROL Apply as percentage of original]**- Item de descontos subtraindo uma porcentagem do preço normal.<br/>**[!UICONTROL Apply as fixed amount]** - Descontos subtraindo um valor fixo do preço normal. <br/>**[!UICONTROL Adjust final price to this percentage]**- Ajusta o preço final por uma porcentagem do preço normal.<br/>**[!UICONTROL Adjust final price to discount value]** - Define o preço final como um valor fixo e com desconto. <br/><br/>**_Observação:_**preço normal refere-se ao preço base do produto sem descontos promocionais ou especiais. Preço final refere-se ao preço com desconto que aparece no carrinho de compras. <br/>O preço do produto**_final _**é calculado como o preço relevante de**_mínimo _**, usando a seguinte fórmula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Determina o tipo de cálculo aplicado à compra. Opções: <br/>**[!UICONTROL Apply as percentage of original]**- Item de descontos subtraindo uma porcentagem do preço normal.<br/>**[!UICONTROL Apply as fixed amount]** - Descontos subtraindo um valor fixo do preço normal. <br/>**[!UICONTROL Adjust final price to this percentage]**- Ajusta o preço final por uma porcentagem do preço normal.<br/>**[!UICONTROL Adjust final price to discount value]** - Define o preço final como um valor fixo e com desconto. <br/><br/>**_Observação:_**&#x200B;preço normal refere-se ao preço base do produto sem descontos promocionais ou especiais. Preço final refere-se ao preço com desconto que aparece no carrinho de compras. <br/>O preço do produto&#x200B;**_final _**&#x200B;é calculado como o preço relevante de&#x200B;**_mínimo _**, usando a seguinte fórmula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Obrigatório) A quantia de desconto oferecida. |
 | [!UICONTROL Discard Subsequent Rules] | Determina se regras adicionais podem ser aplicadas a esta compra. Para evitar que vários descontos sejam aplicados à mesma compra, selecione `Yes`. Opções: `Yes` / `No` |
 

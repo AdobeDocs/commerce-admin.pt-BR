@@ -58,7 +58,7 @@ A equipe de suporte do [!DNL Commerce] não tem acesso à conta e não pode conf
 
 1. Clique em **[!UICONTROL Create Shared Access]**.
 
-   As novas informações do usuário aparecem na seção _[!UICONTROL Manage Permissions]_da página Acesso Compartilhado, e um convite por email com instruções para acessar a conta compartilhada é enviado ao novo usuário.
+   As novas informações do usuário aparecem na seção _[!UICONTROL Manage Permissions]_&#x200B;da página Acesso Compartilhado, e um convite por email com instruções para acessar a conta compartilhada é enviado ao novo usuário.
 
    ![Gerenciar permissões para acesso compartilhado](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
@@ -72,7 +72,7 @@ As instruções a seguir são escritas da perspectiva de um usuário compartilha
 
 1. Ao receber um convite para uma conta compartilhada, siga as instruções no email para fazer logon em sua própria conta do [!DNL Commerce].
 
-   O painel de navegação esquerdo de sua conta tem uma nova guia _[!UICONTROL Shared with me]_. O controle_[!UICONTROL Switch Accounts]_ no canto superior direito tem opções para `My Account` e o nome da conta compartilhada.
+   O painel de navegação esquerdo de sua conta tem uma nova guia _[!UICONTROL Shared with me]_. O controle&#x200B;_[!UICONTROL Switch Accounts]_ no canto superior direito tem opções para `My Account` e o nome da conta compartilhada.
 
    ![Compartilhado(s) comigo](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
@@ -105,7 +105,7 @@ As instruções a seguir são escritas da perspectiva de um usuário compartilha
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Shared Access]**.
 
-1. Localize a conta a ser revogada em _[!UICONTROL Managing Users & Permissions]_e clique em **[!UICONTROL Delete]**.
+1. Localize a conta a ser revogada em _[!UICONTROL Managing Users & Permissions]_&#x200B;e clique em **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >

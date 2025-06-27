@@ -211,7 +211,7 @@ Você pode definir uma condição para uma regra de preço do carrinho com base 
    | `Name` | Nome do público, como `Orders over $50` |
    | `Description` | Descrição do público, como `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica a origem do público-alvo, como `Experience Platform`. |
-   | `Website` | Indica qual site você vinculou à sequência de dados que contém os públicos-alvo. Você cria este link ao conectar a instância do Commerce à Experience Platform por meio da extensão [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html). |
+   | `Website` | Indica qual site você vinculou à sequência de dados que contém os públicos-alvo. Você cria este link ao conectar a instância do Commerce à Experience Platform por meio da extensão [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=pt-BR). |
 
    {style="table-layout:auto"}
 

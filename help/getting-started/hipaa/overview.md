@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**Aviso de isenção legal**<br/>
->>Estas informações são destinadas a ajudar os clientes da Adobe a responder às suas perguntas sobre os serviços prontos para a HIPAA da Adobe. Não constitui um aconselhamento jurídico. Os comerciantes devem consultar seu próprio departamento jurídico para entender suas obrigações conforme a HIPAA e o uso e a configuração apropriados dos produtos da Adobe.
+>&#x200B;>Estas informações são destinadas a ajudar os clientes da Adobe a responder às suas perguntas sobre os serviços prontos para a HIPAA da Adobe. Não constitui um aconselhamento jurídico. Os comerciantes devem consultar seu próprio departamento jurídico para entender suas obrigações conforme a HIPAA e o uso e a configuração apropriados dos produtos da Adobe.
 
 >[!BEGINSHADEBOX]
 

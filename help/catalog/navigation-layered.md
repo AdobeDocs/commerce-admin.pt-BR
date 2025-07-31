@@ -3,9 +3,9 @@ title: Navegação em camadas
 description: Saiba como a navegação em camadas facilita a localização de produtos com base na categoria, na faixa de preço ou em qualquer outro atributo disponível.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->A navegação em camadas padrão descrita nesta seção é diferente da navegação filtrada do Live Search com [facetas](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html?lang=pt-BR).
+>A navegação em camadas padrão descrita nesta seção é diferente da navegação filtrada do Live Search com [facetas](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
-A navegação em camadas facilita a localização de produtos com base na categoria, na faixa de preço ou em qualquer outro atributo disponível. A navegação em camadas geralmente aparece na coluna esquerda dos resultados da pesquisa e nas páginas de categoria e, às vezes, na página inicial. A navegação padrão inclui uma lista de categorias e um intervalo de preços _Comprar por_. Você pode configurar a exibição da navegação em camadas, incluindo a contagem de produtos e a faixa de preços.
+A navegação em camadas facilita a localização de produtos com base na categoria, na faixa de preço ou em qualquer outro atributo disponível. A navegação em camadas geralmente é exibida na coluna esquerda dos resultados da pesquisa e nas páginas de categoria e, às vezes, na página inicial. A navegação padrão inclui uma lista de categorias e um intervalo de preços _Comprar por_. Você pode configurar a exibição da navegação em camadas, incluindo a contagem de produtos e a faixa de preços.
 
 ![Navegação em camadas por categoria e preço](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
 
@@ -24,9 +24,9 @@ A navegação em camadas facilita a localização de produtos com base na catego
 
 >[!NOTE]
 >
->Os requisitos de atributo filtráveis descritos neste tópico são diferentes para o [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=pt-BR). Para saber mais, consulte [Facetas](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html?lang=pt-BR).
+>Os requisitos de atributo filtráveis descritos neste tópico são diferentes para o [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview). Para saber mais, consulte [Facetas](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
-A navegação em camadas pode ser usada para procurar produtos por categoria ou por atributo. Por exemplo, quando um comprador escolhe a categoria Mens/Shorts na navegação superior, os resultados iniciais incluem todos os produtos na categoria. A lista pode ser filtrada ainda mais escolhendo um estilo, clima, cor, material, padrão ou preço específico — ou uma combinação de valores. Os atributos filtráveis são exibidos em uma seção de expansão que lista cada valor de atributo. Como opção, a lista de produtos com resultados correspondentes pode ser configurada para incluir produtos com ou sem uma correspondência.
+A navegação em camadas pode ser usada para procurar produtos por categoria ou por atributo. Por exemplo, quando um comprador escolhe a categoria Mens/Shorts na navegação superior, os resultados iniciais incluem todos os produtos na categoria. A lista pode ser filtrada ainda mais escolhendo um estilo, clima, cor, material, padrão ou preço específico (ou uma combinação de valores). Os atributos filtráveis são exibidos em uma seção de expansão que lista cada valor de atributo. Como opção, a lista de produtos com resultados correspondentes pode ser configurada para incluir produtos com ou sem uma correspondência.
 
 As propriedades do atributo, combinadas com o tipo de entrada do produto, determinam quais atributos podem ser usados para a navegação em camadas. A navegação em camadas está disponível somente para as categorias [_âncora_](categories-display-settings.md), mas também pode ser adicionada às páginas de resultados da pesquisa. A propriedade **Tipo de Entrada de Catálogo para o Proprietário do Repositório** de cada atributo deve ser definida como `Yes/No`, `Dropdown`, `Multiple Select` ou `Price`. Para tornar os atributos filtráveis, a propriedade **Usar na Navegação em Camadas** de cada um deve ser definida como `Filterable (with results)` ou `Filterable (no results)`.
 
@@ -50,9 +50,9 @@ As instruções a seguir mostram como configurar a navegação em camadas básic
 
 1. No painel esquerdo, escolha **[!UICONTROL Storefront Properties]** e defina **[!UICONTROL Use In Layered Navigation]** como um dos seguintes:
 
-   - `Filterable (with results)` - A navegação em camadas inclui apenas os filtros para os quais os produtos correspondentes podem ser encontrados. Qualquer valor de atributo que já se aplique a todos os produtos mostrados na lista ainda deve aparecer como um filtro disponível. Valores de atributo com uma contagem de zero (0) correspondências de produto são omitidos da lista de filtros disponíveis. A lista filtrada inclui apenas os produtos que correspondem ao filtro. A lista de produtos é atualizada somente se os filtros selecionados alterarem o que é mostrado.
+   - `Filterable (with results)` - A navegação em camadas inclui apenas os filtros para os quais os produtos correspondentes podem ser encontrados. Qualquer valor de atributo que já se aplique a todos os produtos mostrados na lista ainda deve ser exibido como um filtro disponível. Valores de atributo com uma contagem de zero (0) correspondências de produto são omitidos da lista de filtros disponíveis. A lista filtrada inclui apenas os produtos que correspondem ao filtro. A lista de produtos é atualizada somente se os filtros selecionados alterarem o que é mostrado.
 
-   - `Filterable (no results)` - A navegação em camadas inclui filtros para todos os valores de atributos disponíveis e suas contagens de produtos, incluindo produtos com zero (0) correspondências de produto. Se o valor do atributo for uma amostra, ele será exibido como um filtro, mas riscado. A filtragem em camada de preço não é compatível com essa opção e não afeta os Filtros de preço.
+   - `Filterable (no results)` - A navegação em camadas exibe filtros para todos os valores de atributos disponíveis e suas contagens de produtos, mesmo quando existem produtos com zero (0) correspondências. Se o valor do atributo for uma amostra, o filtro será exibido, mas riscado. Essa opção não é compatível com a filtragem em camada de preço e não afeta os filtros de preço.
 
 1. Defina **[!UICONTROL Use In Search Results Layered Navigation]** como `Yes`.
 
@@ -62,11 +62,9 @@ As instruções a seguir mostram como configurar a navegação em camadas básic
 
 >[!NOTE]
 >
->Quando a configuração _[!UICONTROL Use in Search]_&#x200B;está definida como `No`, a configuração&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ não é exibida e o atributo de produto não é usado na pesquisa com nenhum valor de configuração [!UICONTROL Use in Layered Navigation].
-
->[!NOTE]
+>- Se a configuração _[!UICONTROL Use in Search]_estiver definida como `No`, a configuração_[!UICONTROL Use in Search Results Layered Navigation]_ não será exibida. Nesse caso, o atributo de produto não será usado na pesquisa, independentemente da configuração [!UICONTROL Use in Layered Navigation].
 >
->O campo [!UICONTROL Position] fica esmaecido por padrão, portanto, você deve salvar o atributo antes de modificar essa configuração.
+>- O campo [!UICONTROL Position] está esmaecido por padrão. Você deve salvar o atributo antes de modificar essa configuração.
 
 ## Etapa 2: tornar a categoria uma âncora
 
@@ -112,13 +110,19 @@ Você pode usar as seguintes etapas para remover valores de atributos filtrávei
 
 >[!NOTE]
 >
->A configuração de navegação de preço descrita neste tópico é diferente para o [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=pt-BR).
+>A configuração de navegação de preço descrita nesta seção é diferente da navegação filtrada do Live Search com [facetas](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
 A navegação de preço pode ser usada para distribuir produtos por faixa de preço na navegação em camadas. Também é possível dividir cada intervalo em intervalos. Há algumas maneiras de calcular a navegação de preço:
 
 - Automático (Equalizar Faixas de Preços)
 - Automático (Equalizar Contagens de Produtos)
 - Manual
+
+>[!BEGINSHADEBOX]
+
+Ao filtrar por preço na navegação em camadas, o Adobe Commerce usa o preço mais baixo de itens secundários de um produto configurável. Como resultado, um produto configurável só é exibido na faixa de preço mais baixa de seus produtos derivados, mesmo se alguns produtos derivados tiverem preços mais altos.
+
+>[!ENDSHADEBOX]
 
 Com os dois primeiros métodos, as etapas de navegação são calculadas automaticamente. O método manual permite especificar um limite de divisão para intervalos de preço. O exemplo a seguir mostra a diferença entre etapas de navegação de preço de 10 e 100.
 
@@ -145,7 +149,7 @@ A divisão iterativa fornece a melhor distribuição de produtos entre as faixas
 
 >[!IMPORTANT]
 >
->Para exibir corretamente os produtos e seus preços de acordo com os _filtros de preço_ na navegação em camadas, verifique se as configurações de exibição de preço na [configuração de Imposto](../configuration-reference/sales/tax.md) têm o mesmo valor (`Excluding Tax` **ou** `Including Tax`). Para o _[!UICONTROL Calculation Settings]_, verifique o valor **[!UICONTROL Catalog Prices]**. E para&#x200B;_[!UICONTROL Price Display Settings]_, verifique o valor **[!UICONTROL Display Product Prices in Catalog]**. Se eles tiverem valores diferentes, os filtros de preço na navegação em camadas podem não filtrar e classificar corretamente os produtos por preço.
+>Para exibir corretamente os produtos e seus preços de acordo com os _filtros de preço_ na navegação em camadas, verifique se as configurações de exibição de preço na [configuração de Imposto](../configuration-reference/sales/tax.md) têm o mesmo valor (`Excluding Tax` **ou** `Including Tax`). Para o _[!UICONTROL Calculation Settings]_, verifique o valor **[!UICONTROL Catalog Prices]**. E para_[!UICONTROL Price Display Settings]_, verifique o valor **[!UICONTROL Display Product Prices in Catalog]**. Se eles tiverem valores diferentes, os filtros de preço na navegação em camadas podem não filtrar e classificar corretamente os produtos por preço.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -201,13 +205,13 @@ Deixar **[!UICONTROL Price Navigation Steps Calculation]** definido como `Automa
 
 >[!NOTE]
 >
->A configuração padrão descrita nesta página é diferente para o [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=pt-BR).
+>A navegação em camadas padrão descrita nesta seção é diferente da navegação filtrada do Live Search com [facetas](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
-A configuração de navegação em camadas determina se uma contagem de produtos aparece entre parênteses após cada atributo e o tamanho do cálculo de etapa usado na navegação de preço.
+A configuração de navegação em camadas determina se uma contagem de produtos é exibida entre parênteses após cada atributo e o tamanho do cálculo de etapa usado na navegação de preço.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel esquerdo, expanda a seção _[!UICONTROL Catalog]_&#x200B;e escolha **[!UICONTROL Catalog]**&#x200B;abaixo.
+1. No painel esquerdo, expanda a seção _[!UICONTROL Catalog]_e escolha **[!UICONTROL Catalog]**abaixo.
 
 1. Expanda a seção _[!UICONTROL Layered Navigation]_.
 

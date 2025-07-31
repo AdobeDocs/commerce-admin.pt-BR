@@ -55,7 +55,7 @@ Para iniciar uma sessão de compras assistidas, o cliente deve estar conectado �
    >
    >Para localizar o registro do cliente com pressa, use o controle [Filtros](../getting-started/admin-grid-controls.md).
 
-   No perfil de cliente em _[!UICONTROL Personal Information]_, a data e hora_[!UICONTROL Last Logged In]_ mostra que o cliente está online.
+   No perfil de cliente em _[!UICONTROL Personal Information]_, a data e hora&#x200B;_[!UICONTROL Last Logged In]_ mostra que o cliente está online.
 
    ![Perfil de cliente de um cliente online](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,7 +175,7 @@ Você pode transferir itens da lista de desejos de um cliente para o carrinho e 
 
 1. Clique em **[!UICONTROL Create Order]**.
 
-   A página _[!UICONTROL Create New Order]_mostra os itens do carrinho, seguidos pelas informações de envio e pagamento.
+   A página _[!UICONTROL Create New Order]_&#x200B;mostra os itens do carrinho, seguidos pelas informações de envio e pagamento.
 
 1. Preencha as informações sobre entrega e pagamento.
 

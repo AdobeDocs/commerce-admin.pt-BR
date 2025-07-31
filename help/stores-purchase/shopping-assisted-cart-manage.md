@@ -3,9 +3,9 @@ title: Gerenciar um carrinho de compras
 description: Saiba como ajudar um cliente com seu carrinho de compras diretamente do administrador.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
+source-git-commit: 69cd571b66a81159c2c99e6652907f22142568cb
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Para iniciar uma sessão de compras assistidas, o cliente deve estar conectado �
 
 | Botão | Descrição |
 |--- |--- |
-| [!UICONTROL Clear my shopping cart] | Limpa o carrinho de compras atual de todos os produtos. |
+| [!UICONTROL Clear my shopping cart] | Remove todos os itens do carrinho. |
 | [!UICONTROL Update Items and Quantities|]Insira a quantidade necessária no campo **[!UICONTROL Qty]** e atualize o número de itens no carrinho. |
 | [!UICONTROL Add selections to my cart] | Adiciona produtos de todas as seções ao carrinho. |
 
@@ -55,7 +55,7 @@ Para iniciar uma sessão de compras assistidas, o cliente deve estar conectado �
    >
    >Para localizar o registro do cliente com pressa, use o controle [Filtros](../getting-started/admin-grid-controls.md).
 
-   No perfil de cliente em _[!UICONTROL Personal Information]_, a data e hora&#x200B;_[!UICONTROL Last Logged In]_ mostra que o cliente está online.
+   No perfil de cliente em _[!UICONTROL Personal Information]_, a data e hora_[!UICONTROL Last Logged In]_ mostra que o cliente está online.
 
    ![Perfil de cliente de um cliente online](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,10 +175,26 @@ Você pode transferir itens da lista de desejos de um cliente para o carrinho e 
 
 1. Clique em **[!UICONTROL Create Order]**.
 
-   A página _[!UICONTROL Create New Order]_&#x200B;mostra os itens do carrinho, seguidos pelas informações de envio e pagamento.
+   A página _[!UICONTROL Create New Order]_mostra os itens do carrinho, seguidos pelas informações de envio e pagamento.
 
 1. Preencha as informações sobre entrega e pagamento.
 
 1. Clique em **[!UICONTROL Submit Order]**.
 
 Para saber mais, consulte [Criar um pedido](customer-account-create-order.md).
+
+## Remover todos os itens de um carrinho
+
+Remover todos os itens do carrinho de um cliente no modo de compras assistidas é útil se o cliente quiser começar novamente, tiver adicionado itens incorretos ou precisar limpar o carrinho antes de fazer um novo pedido. Isso ajuda a garantir que o carrinho contenha apenas os produtos que o cliente realmente deseja comprar.
+
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+
+1. Na lista, abra o registro do cliente no modo de edição.
+
+1. Clique em **[!UICONTROL Manage Shopping Cart]** na barra de botões superior.
+
+1. Clique em **[!UICONTROL Clear my shopping cart]**.
+
+   ![Limpar meu carrinho de compras](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+
+1. Clique em **[!UICONTROL OK]** quando solicitado a confirmar a ação.

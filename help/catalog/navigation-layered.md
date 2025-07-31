@@ -62,7 +62,7 @@ As instruções a seguir mostram como configurar a navegação em camadas básic
 
 >[!NOTE]
 >
->- Se a configuração _[!UICONTROL Use in Search]_estiver definida como `No`, a configuração_[!UICONTROL Use in Search Results Layered Navigation]_ não será exibida. Nesse caso, o atributo de produto não será usado na pesquisa, independentemente da configuração [!UICONTROL Use in Layered Navigation].
+>- Se a configuração _[!UICONTROL Use in Search]_&#x200B;estiver definida como `No`, a configuração&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ não será exibida. Nesse caso, o atributo de produto não será usado na pesquisa, independentemente da configuração [!UICONTROL Use in Layered Navigation].
 >
 >- O campo [!UICONTROL Position] está esmaecido por padrão. Você deve salvar o atributo antes de modificar essa configuração.
 
@@ -149,7 +149,7 @@ A divisão iterativa fornece a melhor distribuição de produtos entre as faixas
 
 >[!IMPORTANT]
 >
->Para exibir corretamente os produtos e seus preços de acordo com os _filtros de preço_ na navegação em camadas, verifique se as configurações de exibição de preço na [configuração de Imposto](../configuration-reference/sales/tax.md) têm o mesmo valor (`Excluding Tax` **ou** `Including Tax`). Para o _[!UICONTROL Calculation Settings]_, verifique o valor **[!UICONTROL Catalog Prices]**. E para_[!UICONTROL Price Display Settings]_, verifique o valor **[!UICONTROL Display Product Prices in Catalog]**. Se eles tiverem valores diferentes, os filtros de preço na navegação em camadas podem não filtrar e classificar corretamente os produtos por preço.
+>Para exibir corretamente os produtos e seus preços de acordo com os _filtros de preço_ na navegação em camadas, verifique se as configurações de exibição de preço na [configuração de Imposto](../configuration-reference/sales/tax.md) têm o mesmo valor (`Excluding Tax` **ou** `Including Tax`). Para o _[!UICONTROL Calculation Settings]_, verifique o valor **[!UICONTROL Catalog Prices]**. E para&#x200B;_[!UICONTROL Price Display Settings]_, verifique o valor **[!UICONTROL Display Product Prices in Catalog]**. Se eles tiverem valores diferentes, os filtros de preço na navegação em camadas podem não filtrar e classificar corretamente os produtos por preço.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -211,7 +211,7 @@ A configuração de navegação em camadas determina se uma contagem de produtos
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. No painel esquerdo, expanda a seção _[!UICONTROL Catalog]_e escolha **[!UICONTROL Catalog]**abaixo.
+1. No painel esquerdo, expanda a seção _[!UICONTROL Catalog]_&#x200B;e escolha **[!UICONTROL Catalog]**&#x200B;abaixo.
 
 1. Expanda a seção _[!UICONTROL Layered Navigation]_.
 

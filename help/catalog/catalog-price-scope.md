@@ -3,9 +3,9 @@ title: Escopo de preço
 description: Saiba mais sobre o escopo usado para preços de produtos, que pode ser configurado para ser aplicado no nível global ou do site.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: bc3977f29c8048a1b8578aa21fa55fa1a4d903f2
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ A Commerce não permite a definição de um preço de produto para cada loja. Ma
 
 1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** abaixo de.
 
-1. Na guia **[!UICONTROL Price]**, defina o escopo de preço como `Website` em vez de global.
+1. Na guia **[!UICONTROL Price]**, defina o escopo de preço como `Website` em vez de `Global`.
 
 1. Defina o preço abrindo a página de edição do produto, selecionando o escopo no canto superior esquerdo e inserindo um novo preço por site.
+
+Em casos raros, quando o escopo de preço está definido como `Global`, o banco de dados do Commerce ainda pode ter preços diferentes no nível do site. Isso pode acontecer como resultado de problemas de sincronização fora do Commerce. Nesses casos, o Comerciante deve realizar uma limpeza de preço no nível da loja e executar uma Sincronização de catálogo com os Serviços da Commerce.

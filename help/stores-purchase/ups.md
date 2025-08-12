@@ -3,7 +3,7 @@ title: UPS (United Parcel Service, serviço de encomendas unificado)
 description: Saiba como configurar o UPS como uma transportadora para sua loja.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
+source-git-commit: a925827f2d939eeb9e6b3e57c023792ae358cbfc
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -46,9 +46,9 @@ Ao definir as configurações da UPS no Administrador, use os valores de credenc
 
    - Defina **[!UICONTROL Mode]** como `Live` para enviar dados ao sistema de envio do UPS através de uma conexão segura. (O modo de desenvolvimento não envia dados por uma conexão segura.)
 
-   - Verifique o **[!UICONTROL Gateway URL]** que é necessário para enviar solicitações. Use uma URL de sandbox (`https://wwwcie.ups.com/`) para o modo de teste e uma URL de produção para solicitações ativas (`https://onlinetools.ups.com`). Certifique-se de usar os respectivos endpoints para cada solicitação com o host fornecido.
+   - Verifique o **[!UICONTROL Gateway URL]** que é necessário para enviar solicitações. Use uma URL de sandbox (`https://wwwcie.ups.com/api/rating/`) para o modo de teste e uma URL de produção para solicitações ativas (`https://onlinetools.ups.com/api/rating/`). Certifique-se de usar os respectivos endpoints para cada solicitação com o host fornecido.
 
-   - Verifique o **[!UICONTROL Tracking URL]** que é necessário para obter informações de rastreamento. Use uma URL de sandbox (`https://wwwcie.ups.com/`) para o modo de teste e uma URL de produção para solicitações ativas (`https://onlinetools.ups.com`). Certifique-se de usar os respectivos endpoints para cada solicitação com o host fornecido.
+   - Verifique o **[!UICONTROL Tracking URL]** que é necessário para obter informações de rastreamento. Use uma URL de sandbox (`https://wwwcie.ups.com/api/track/`) para o modo de teste e uma URL de produção para solicitações ativas (`https://onlinetools.ups.com/api/track/`). Certifique-se de usar os respectivos endpoints para cada solicitação com o host fornecido.
 
    - Defina **[!UICONTROL Origin of the Shipment]** para a região de origem da remessa.
 

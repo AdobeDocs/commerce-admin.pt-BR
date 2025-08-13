@@ -3,9 +3,9 @@ title: Ferramentas do site do Google
 description: Saiba mais sobre as integrações das ferramentas do Google que você pode usar para otimizar seu conteúdo, analisar seu tráfego e conectar seu catálogo a agregadores de compras e marketplaces.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 A configuração da sua loja está integrada às seguintes ferramentas do Google para ajudar a otimizar o seu conteúdo, analisar o seu tráfego e conectar o seu catálogo a agregadores de compras e marketplaces.
 
 - [Google Analytics](google-analytics.md) - Use o _Google Universal Analytics_ para definir dimensões e métricas personalizadas adicionais para rastreamento, com suporte para interações offline e de aplicativos móveis e acesso a atualizações contínuas.
-
-- [Experimentos de conteúdo do Google](google-content-experiments.md) - Configure um teste A/B para produtos, categorias ou páginas de conteúdo usando Experimentos de conteúdo do Google Analytics.
 
 - [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Use o Google Tag Manager para gerenciar as várias tags relacionadas aos eventos de campanha de marketing.
 
@@ -30,7 +28,7 @@ Se a sua empresa precisa cumprir com as regras de privacidade, como o [GDPR](../
 
 ### Etapa 1: atualizar configurações do Google
 
-1. [Entrar][1]{: target=&quot;_blank&quot;} na conta Google Analytics da sua empresa.
+1. [Entre][1]{: target="_blank"} na conta da Google Analytics da sua empresa.
 
 1. Na parte inferior da barra lateral esquerda, escolha **[!UICONTROL Admin]** e navegue até a conta que deseja editar (se aplicável).
 
@@ -47,7 +45,7 @@ Se a sua empresa precisa cumprir com as regras de privacidade, como o [GDPR](../
 
 1. Aceite o _Aditamento de Processamento de Dados_.
 
-   Os Termos de processamento de dados do Google Ads descrevem como a Google processa dados e as medidas que ela toma para garantir a segurança dos dados para empresas que estão sujeitas ao GDPR. Um registro de suas entidades legais e informações de contato também é mantido com o aditamento. Para [saber mais][2]{: target=&quot;_blank&quot;}, clique no link na mensagem na parte superior da página.
+   Os Termos de processamento de dados do Google Ads descrevem como a Google processa dados e as medidas que ela toma para garantir a segurança dos dados para empresas que estão sujeitas ao GDPR. Um registro de suas entidades legais e informações de contato também é mantido com o aditamento. Para [saber mais][2]{: target="_blank"}, clique no link da mensagem na parte superior da página.
 
    - Role a página para baixo até **[!UICONTROL Data Processing Amendment]**.
    - Clique em **[!UICONTROL Review Amendment]** para ler os _Termos de processamento de dados do Google Ads_.
@@ -82,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-Para saber mais, consulte a [Referência do campo do Analytics.js][3]{: target=&quot;_blank&quot;} na Ajuda do Google.
+Para saber mais, consulte a [Referência de campo do Analytics.js][3]{: target="_blank"} na Ajuda do Google.
 
 Se você usar a biblioteca herdada `ga.js`, adicione o seguinte trecho:
 
@@ -116,10 +114,10 @@ analytics.js
 
 Atualize sua [política de privacidade](../getting-started/privacy-policy.md) para informar que sua empresa:
 
-- Usa Google Analytics
+- Usa o Google Analytics
 - Mascara endereços IP para ocultar informações pessoais
 - Desativou o Compartilhamento de dados da Google
-- Não usa outros serviços da Google com cookies Google Analytics
+- Não usa outros serviços da Google com cookies da Google Analytics
 
 [1]: https://www.google.com/analytics/
 [2]: https://support.google.com/analytics/answer/3379636

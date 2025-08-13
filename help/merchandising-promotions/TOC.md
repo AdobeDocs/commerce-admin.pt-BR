@@ -4,9 +4,9 @@ user-guide-description: O Adobe Commerce e o Magento Open Source incluem muitas 
 breadcrumb-title: Merchandising e promoções
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
       - [Exemplo: compre isso e ganhe de graça](price-rules-cart-buy-this-get-that.md)
       - [Exemplo: desconto com compra mínima](price-rule-discount-minimum-purchase.md)
       - [Exemplo: desconto com primeira compra](price-rule-discount-first-purchase.md)
-   - Relacionamentos de produto {#product-relationships}
+   - Relacionamentos de produtos {#product-relationships}
       - [Visão geral](product-relationships.md)
       - [Regras e configuração de produtos relacionados](product-related-rules.md)
       - [Criar uma regra de produto relacionada](product-related-rule-create.md)
@@ -74,18 +74,17 @@ ht-degree: 1%
    - [Visão geral e práticas recomendadas da SEO](seo-overview.md)
    - [Metadados](meta-data.md)
    - [Mapas do site](sitemap-xml.md)
-   - A URL reescreve {#url-rewrites}
+   - Substituições de URL {#url-rewrites}
       - [Visão geral e configuração](url-rewrite.md)
       - [Substituições de categoria](url-rewrite-category.md)
       - [Regravações de produto](url-rewrite-product.md)
       - [Substituições de página no CMS](url-rewrite-cms-page.md)
       - [Substituições personalizadas](url-rewrite-custom.md)
       - [Redirecionamentos automáticos](url-redirect-product-automatic.md)
-- Ferramentas do site Google {#google-tools}
+- Ferramentas do site do Google {#google-tools}
    - [Visão geral](google-tools.md)
    - [Google Analytics](google-analytics.md)
    - [Gerenciador de tags da Google](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-   - [Experimentos de conteúdo do Google](google-content-experiments.md)
-- [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
+- [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

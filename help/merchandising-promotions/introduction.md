@@ -2,9 +2,9 @@
 title: Introdução a merchandising e promoções do Commerce
 description: Conheça as ferramentas do Commerce para criar promoções e oportunidades direcionadas ao engajamento de clientes.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Direcione promoções e crie oportunidades para o envolvimento do cliente e tran
 
 _Merchandising_ é um termo usado no varejo para descrever a arte e a ciência do desenvolvimento de plantas baixas e a apresentação de produtos. Você pode pensar na [navegação baseada em categoria](../catalog/navigation-top.md) como a planta baixa da loja, e na apresentação dinâmica de produtos como as condições que você pode aplicar à listagem de produtos na loja. Além disso, você pode implementar programas que impulsionam mais vendas de produtos:
 
-- [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} [Visual Merchandiser](visual-merchandiser.md) - Um conjunto de ferramentas avançadas que permite posicionar produtos e aplicar condições que determinam quais produtos aparecem na lista de categorias.
+- [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} [Visual Merchandiser](visual-merchandiser.md) - Um conjunto de ferramentas avançadas que permite posicionar produtos e aplicar condições que determinam quais produtos aparecem na lista de categorias.
 
 - [Registros de presentes](gift-registries.md) - Dê aos seus clientes a capacidade de criar registros de presentes para ocasiões especiais e de convidar seus amigos e familiares para comprar seus presentes no registro de presentes.
 
@@ -27,7 +27,7 @@ _Merchandising_ é um termo usado no varejo para descrever a arte e a ciência d
 
 >[!TIP]
 >
->Para saber mais sobre as Recomendações de Produtos e como elas podem fornecer a você o controle e a insight necessários para criar a melhor experiência para seus compradores, consulte o [Guia do Usuário das Recomendações de Produtos](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=pt-BR).
+>Para saber mais sobre as Recomendações de Produtos e como elas podem fornecer a você o controle e a insight necessários para criar a melhor experiência para seus compradores, consulte o [Guia do Usuário das Recomendações de Produtos](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promoções
 
@@ -67,8 +67,8 @@ Uma das tarefas a serem concluídas antes de iniciar sua loja é revisar os mode
 >[!NOTE]
 >
 >As versões 2.4.0 a 2.4.3 do Adobe Commerce e do Magento Open Source incluíam a extensão desenvolvida pelo fornecedor dotdigital usada para integrar com a nuvem do Engajamento dotdigital. A partir da versão 2.4.4, essa extensão não é mais fornecida com a versão principal e deve ser instalada e atualizada do Commerce Marketplace. O Marketplace também fornece acesso à documentação atual fornecida pelo desenvolvedor da extensão.
-><br><br>
->Se você tiver a extensão agrupada ativada e configurada, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=pt-BR) no _Guia de Atualização_ para obter mais informações.
+>><br><br>
+>>Se você tiver a extensão agrupada ativada e configurada, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) no _Guia de Atualização_ para obter mais informações.
 
 - [Boletins informativos](newsletters.md) - Produza boletins informativos, gerencie sua lista de assinantes, desenvolva conteúdo e direcione o tráfego para sua loja.
 
@@ -85,8 +85,6 @@ A configuração da sua loja está integrada às seguintes ferramentas do Google
 >A partir da versão 2.4.5, a integração de serviços da Google é atualizada para oferecer suporte ao uso das APIs GTag. O GTag é um mecanismo unificado para integração com a funcionalidade do Google para páginas da Web e oferece suporte aos mais novos recursos e oportunidades para rastreamento e gerenciamento de conteúdo por meio dos Serviços da Google. Para obter mais informações, consulte a [documentação para desenvolvedores do Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
 - [Google Analytics](google-analytics.md) - Use o Google Universal Analytics para definir dimensões e métricas personalizadas adicionais para rastreamento, com suporte para interações offline e de aplicativos móveis e acesso a atualizações contínuas.
-
-- [Experimentos de conteúdo do Google](google-content-experiments.md) - Configure um teste A/B de produtos, categorias ou páginas de conteúdo usando o Conteúdo do Google Analytics
 
 - [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Use o Google Tag Manager para gerenciar as várias tags relacionadas aos eventos de campanha de marketing.
 

@@ -4,9 +4,9 @@ user-guide-description: Informações abrangentes sobre recursos de gerenciament
 breadcrumb-title: Gerenciamento de catálogo
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 5703ca88d085d39c36ab1edca70e4e802b625e7a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
       + [Configuração do ativo de imagem](product-image-config.md)
       + [Gerenciar imagens do produto](product-image.md)
       + [Adicionar vídeos de produtos](product-video.md)
-      + Gerenciar modelos de produto 3D {#product-3d-model}
+      + Gerenciar modelos de produtos 3D {#product-3d-model}
          + [Visão geral do Visualizador de AR](ar-viewer-overview.md)
          + [Configuração do Visualizador de AR](ar-viewer-setup.md)
    + Gerenciar preços {#pricing}
@@ -84,7 +84,6 @@ ht-degree: 1%
       + [Imagens e vídeos](product-images-and-video.md)
       + [Otimização do mecanismo de pesquisa](product-search-engine-optimization.md)
       + [Produtos relacionados, venda adicional e venda cruzada](related-products-up-sells-cross-sells.md)
-      + [Otimização da visualização do produto](product-view-optimization.md)
       + [Opções personalizáveis](settings-advanced-custom-options.md)
       + [Produto em sites](settings-basic-websites.md)
       + [Design](settings-advanced-design.md)
@@ -99,5 +98,5 @@ ht-degree: 1%
       + [Criar e excluir atributos](attribute-product-create.md)
       + [Atualizações em massa](bulk-product-attribute-update.md)
       + [Conjuntos de atributos](attribute-sets.md)
-+ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

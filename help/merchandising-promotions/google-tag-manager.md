@@ -44,7 +44,7 @@ Consulte [Configurar pesquisa de site](https://support.google.com/analytics/answ
 
    - Escolha **[!UICONTROL Property Settings]**.
 
-   - Em _[!UICONTROL Advertising Features]_, defina **[!UICONTROL Enable Demographics and Interest Reports]**como `On`.
+   - Em _[!UICONTROL Advertising Features]_, defina **[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;como `On`.
 
    - **[!UICONTROL Save]** as configurações.
 
@@ -178,7 +178,7 @@ Se você tiver uma conta do Google AdWords, poderá criar uma tag que rastreia c
 
    - Em **[!UICONTROL Choose Product]**, selecione **[!UICONTROL Google AdWords]**.
 
-   - Em _[!UICONTROL Choose a Tag Type]_, selecione **[!UICONTROL AdWords Conversion Tracking]**e clique em **[!UICONTROL Continue]**.
+   - Em _[!UICONTROL Choose a Tag Type]_, selecione **[!UICONTROL AdWords Conversion Tracking]**&#x200B;e clique em **[!UICONTROL Continue]**.
 
 1. Insira o **[!UICONTROL Conversion ID]** e **[!UICONTROL Conversion Label]** da sua conta do AdWords e clique em **[!UICONTROL Continue]**.
 

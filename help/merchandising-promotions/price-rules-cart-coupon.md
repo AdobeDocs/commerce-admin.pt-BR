@@ -3,9 +3,9 @@ title: Códigos de cupom
 description: Saiba como usar códigos de cupons com regras de preço de carrinho para aplicar um desconto quando um conjunto de condições é atendido.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,17 @@ A partir do Commerce 2.4.7, os compradores podem aplicar vários cupons a um car
 >As regras de preço do carrinho com a mesma prioridade não resultam em um desconto combinado. Cada regra (cupom) é aplicada separadamente aos produtos correspondentes, um por um, de acordo com a ID da regra de preço do carrinho no banco de dados. Para controlar a ordem em que os descontos são aplicados, a Adobe recomenda definir uma prioridade diferente para cada regra de preço de carrinho adicionada.
 
 ## Configurar códigos de cupom
+
+>[!BEGINSHADEBOX]
+
+Por padrão, o Commerce suporta dois métodos para criar códigos de cupom:
+
+1. Criação de um único código de cupom específico
+1. Gerando vários códigos de cupom _aleatórios_
+
+Se você já tiver uma lista de códigos de cupom que deseja importar e associar a uma regra de preço de carrinho, considere usar uma extensão do [Commerce Marketplace](https://marketplace.magento.com/).
+
+>[!ENDSHADEBOX]
 
 O comprimento e o formato dos códigos de cupom gerados automaticamente são controlados pela configuração. Os caracteres podem ser definidos como todos os números, todas as letras ou uma combinação. Você pode inserir um traço em intervalos definidos para facilitar a leitura e adicionar um prefixo e um sufixo para associar o código a uma campanha ou iniciativa específica.
 
@@ -62,7 +73,7 @@ O comprimento e o formato dos códigos de cupom gerados automaticamente são con
 
 >[!NOTE]
 >
->[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Antes de criar cupons, use o comando `bin/magento cron:run` para verificar se o cron está em execução. Consulte [Executar cron a partir da linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=pt-BR#run-cron-from-the-command-line) no _Guia de Configuração_ para obter mais informações.
+>[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Antes de criar cupons, use o comando `bin/magento cron:run` para verificar se o cron está em execução. Consulte [Executar cron a partir da linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) no _Guia de Configuração_ para obter mais informações.
 
 ### Método 1: criar um cupom específico
 
@@ -169,10 +180,6 @@ A geração de cupons de desconto é uma operação assíncrona, executada em se
 Você pode exportar códigos de cupom para um arquivo CSV ou XML do Excel selecionando o formato do arquivo e clicando em **[!UICONTROL Export]**.
 
 Para excluir códigos de cupom, selecione um ou mais códigos na lista. Selecione `Delete` no seletor **[!UICONTROL Actions]** e clique em **[!UICONTROL Submit]**.
-
->[!NOTE]
->
->Embora a Commerce permita configurar vários códigos de cupom, um cliente pode usar apenas um código de cupom no carrinho. Para permitir o uso de mais de um código de cupom no carrinho simultaneamente, você pode considerar o uso de uma extensão correspondente do [Commerce Marketplace](https://marketplace.magento.com/).
 
 ## Relatório de cupons
 

@@ -5,10 +5,10 @@ breadcrumb-title: Introdução
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
+source-git-commit: b45824312b02204f1031b04c215ca42c5298d824
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -35,18 +35,13 @@ ht-degree: 1%
       + [Conformidade com o PCI](compliance-pci.md)
       + [Diretiva relativa aos serviços de pagamento](compliance-payment-services-directive.md)
    + [Acessibilidade](navigation-accessibility.md)
-+ O Administrador {#admin}
++ O administrador {#admin}
    + [O que é o administrador?](admin.md)
    + [Sua conta de usuário Admin](admin-signin.md)
    + Integração do Adobe Identity Management Service (IMS) {#ims}
       + [Visão geral da integração do IMS](adobe-ims-integration-overview.md)
       + [Configurar a integração do administrador com o IMS](adobe-ims-config.md)
       + [Desative a integração do administrador com o IMS](adobe-ims-disable.md)
-   + Integração do Adobe Experience Cloud {#unifiedexperience}
-      + [Visão geral](admin-unified-experience-integration-overview.md)
-      + [Configurar a integração](admin-unified-experience-integration-configure.md)
-      + [Gerenciar a integração do Experience Cloud](admin-unified-experience-integration-manage.md)
-      + [Notas de versão](admin-unified-experience-release-notes.md)
    + Ferramentas administrativas e espaço de trabalho {#tools}
       + [Workspace](admin-workspace.md)
       + [A barra lateral de administração](admin-menu.md)
@@ -62,7 +57,7 @@ ht-degree: 1%
    + [Detalhes da loja](store-details.md)
    + [Marca da loja](storefront-branding.md)
    + [Lista de verificação do Pré-lançamento](prelaunch-checklist.md)
-+ Relatório padrão {#reporting}
++ Relatórios padrão  {#reporting}
    + [Menu Relatórios](reports-menu.md)
    + [Relatórios de marketing](marketing-reports.md)
    + [Revisar relatórios](review-reports.md)
@@ -76,5 +71,5 @@ ht-degree: 1%
    + [Ecossistema](resources.md)
    + [Extensões](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

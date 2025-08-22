@@ -3,9 +3,10 @@ title: Revisar relatórios
 description: Se o site usar o recurso de revisão integrado, os Relatórios de revisão fornecerão informações sobre revisões de produtos por cliente e por produto.
 exl-id: f337c0fc-a8fd-43ef-82db-f11741e6dc76
 feature: Reporting, Customers, Products
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---

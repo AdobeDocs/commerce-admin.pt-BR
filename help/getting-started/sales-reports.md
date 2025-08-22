@@ -3,9 +3,10 @@ title: Relatórios de vendas
 description: Os  [!DNL Commerce] relatórios de vendas ajudam você a rastrear pedidos, impostos, faturas, remessa, reembolsos, cupons e liquidação do PayPal.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -117,7 +118,7 @@ Para obter mais informações sobre como usar o [!UICONTROL PayPal Settlement Re
 
 ## [!UICONTROL Braintree Settlement Report]
 
-O Relatório de Liquidação [Braintree](../stores-purchase/braintree.md) pode ser filtrado de acordo com a data de criação, o valor, o status, o tipo de transação, o tipo de pagamento, a ID da transação, a ID da ordem, a ID de pagamento do PayPal, o tipo, a ID da conta do comerciante ou a ID do lote de liquidação. O relatório contém a ID da transação, a ID do pedido, a ID do pagamento do PayPal, o tipo, a data de criação, o valor, o código de liquidação, o status, o texto da resposta da liquidação, as IDs de reembolso, a ID da conta do comerciante, a ID do lote de liquidação e a moeda.
+O Relatório de Liquidação do [Braintree](../stores-purchase/braintree.md) pode ser filtrado de acordo com a data de criação, o valor, o status, o tipo de transação, o tipo de pagamento, a ID da transação, a ID do pedido, a ID de pagamento do PayPal, o tipo, a ID da conta do comerciante ou a ID do lote de liquidação. O relatório contém a ID da transação, a ID do pedido, a ID do pagamento do PayPal, o tipo, a data de criação, o valor, o código de liquidação, o status, o texto da resposta da liquidação, as IDs de reembolso, a ID da conta do comerciante, a ID do lote de liquidação e a moeda.
 
 Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Braintree Settlement]**.
 

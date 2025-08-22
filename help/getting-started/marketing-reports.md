@@ -3,9 +3,10 @@ title: Relatórios de marketing
 description: Os relatórios de marketing fornecem informações sobre o status dos carrinhos de compras, o uso de termos de pesquisa e as transmissões de boletins informativos.
 exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
 feature: Marketing Tools, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

@@ -1,18 +1,19 @@
 ---
 title: '[!DNL Commerce Intelligence] ferramentas'
-description: Saiba como os comerciantes de Adobe Commerce e Magento Open Source podem usar as ferramentas da Commerce Intelligence para obter os insights usados para tomar decisões comerciais sólidas.
+description: Saiba como os comerciantes do Adobe Commerce e do Magento Open Source podem usar as ferramentas do Commerce Intelligence para obter o insight usado para tomar decisões comerciais sólidas.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
 
 # [!DNL Commerce Intelligence] ferramentas
 
-Use as ferramentas do Commerce Intelligence para obter o insight usado para tomar boas decisões de negócios.
+Use as ferramentas do Commerce Intelligence para obter a insight usada para tomar decisões comerciais sólidas.
 
 ## Conta [!DNL Commerce Intelligence]
 
@@ -20,7 +21,7 @@ Ao ativar uma conta do [!DNL Commerce Intelligence] por meio do Adobe, você obt
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] está incluído com Adobe Commerce e Magento Open Source. Esse recurso oferece acesso a um conjunto de relatórios dinâmicos com base em seus produtos, pedidos e dados do cliente, com um painel personalizado adaptado às suas necessidades comerciais. Enquanto [!DNL Advanced Reporting] usa [!DNL Commerce Intelligence] para análise, não é necessário ter uma conta do Commerce Intelligence para usar [!DNL Advanced Reporting].
+[!DNL Advanced Reporting] está incluído no Adobe Commerce e no Magento Open Source. Esse recurso oferece acesso a um conjunto de relatórios dinâmicos com base em seus produtos, pedidos e dados do cliente, com um painel personalizado adaptado às suas necessidades comerciais. Enquanto [!DNL Advanced Reporting] usa [!DNL Commerce Intelligence] para análise, não é necessário ter uma conta do Commerce Intelligence para usar [!DNL Advanced Reporting].
 
 Para obter informações técnicas, consulte o tópico [[!DNL Advanced Reporting]][2]{:target="_blank"} na documentação do desenvolvedor.
 
@@ -59,7 +60,7 @@ Na configuração [!DNL Commerce], [[!DNL Advanced Reporting]](../configuration-
 
    * Verifique se **[!UICONTROL Advanced Reporting Service]** está definido como `Enable` (a configuração padrão).
 
-   * Defina o **[!UICONTROL Time of day to send data]** como hora, minuto e segundo, de acordo com um relógio de 24 horas, que você deseja que o serviço receba dados atualizados do seu armazenamento. Por padrão, os dados são enviados às 2:00.
+   * Defina o **[!UICONTROL Time of day to send data]** como hora, minuto e segundo, de acordo com um relógio de 24 horas, que você deseja que o serviço receba dados atualizados do seu armazenamento. Por padrão, os dados são enviados às 2:00 AM.
 
    * Em **[!UICONTROL Industry Data]**, escolha a **[!UICONTROL Industry]** que melhor descreve sua empresa.
 
@@ -177,6 +178,6 @@ Se você observar que a legenda `Data last updated...` exibe a data de ontem e n
 {style="table-layout:auto"}
 
 
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=pt-BR
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html
 [2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=pt-BR
+[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html

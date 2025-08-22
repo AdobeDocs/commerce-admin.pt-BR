@@ -3,9 +3,10 @@ title: Relatórios de vendas privadas
 description: Os relatórios de vendas privadas disponíveis no Adobe Commerce fornecem informações úteis sobre eventos e vendas privadas.
 exl-id: e1c2b01f-500a-475e-b61e-20f3ccbc0e70
 feature: Promotions/Events, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---

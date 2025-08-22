@@ -1,11 +1,12 @@
 ---
 title: Menu [!UICONTROL Reports]
-description: O Adobe Commerce e o Magento Open Source fornecem uma ampla variedade de relatórios para mantê-lo informado sobre seus esforços de marketing, produtos de vendas e atividade de clientes.
+description: A Adobe Commerce e a Magento Open Source fornecem uma ampla variedade de relatórios para mantê-lo informado sobre seus esforços de marketing, produtos de vendas e atividade do cliente.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-source-git-commit: 35025c69bf9ba3902693cb9694bcf2b4e7882c7f
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ A seleção de [relatórios de vendas](sales-reports.md) inclui relatórios de P
 
 ### [!UICONTROL System Insights]
 
-(Somente Adobe Commerce) O [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=pt-BR) fornece insights do sistema para instalações do Adobe Commerce na infraestrutura em nuvem com monitoramento, relatórios e recomendações de desempenho em tempo real 24 horas por dia, 7 dias por semana.
+(Somente Adobe Commerce) O [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) fornece insights do sistema para instalações do Adobe Commerce na infraestrutura em nuvem com monitoramento, relatórios e recomendações de desempenho em tempo real 24 horas por dia, 7 dias por semana.
 
 ### [!UICONTROL Customers]
 
@@ -56,4 +57,4 @@ A seleção de [relatórios de produtos](product-reports.md) inclui Exibições,
 
 ### [!DNL Commerce Intelligence]
 
-As ferramentas [[!DNL Commerce Intelligence]](business-intelligence.md) integradas fornecem o insight necessário para tomar decisões estratégicas de negócios.
+As ferramentas [[!DNL Commerce Intelligence]](business-intelligence.md) integradas fornecem a insight necessária para tomar decisões comerciais estratégicas.

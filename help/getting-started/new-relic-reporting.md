@@ -257,7 +257,7 @@ Retorna o número médio de eventos de aplicativo por site e armazenamento duran
 
     SELECT average(StoreViewCount), average(WebsiteCount)
     FROM Cron
-    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 minutos
+    WHERE appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 minutos
 
 #### Contagem atual de sites e lojas
 

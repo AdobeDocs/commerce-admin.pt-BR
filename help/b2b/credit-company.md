@@ -74,7 +74,7 @@ A grade exibe as seguintes informações para cada transação:
 | [!UICONTROL Operation] | O tipo de atividade associada à transação. Valores: <br/>**[!UICONTROL Allocated]**- Crédito atribuído à empresa.<br/>**[!UICONTROL Updated]** - Uma alteração foi aplicada a um dos seguintes campos: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- Um pedido foi feito.<br/>**[!UICONTROL Reimbursed]** - O saldo pendente foi reembolsado. <br/>**[!UICONTROL Refunded]**- Valor do memorando de crédito reembolsado.<br/>**[!UICONTROL Reverted]** - O pedido foi cancelado e o valor foi devolvido ao saldo de crédito. |
 | [!UICONTROL Amount] | O valor da transação associado aos seguintes tipos de transação: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Para valores de compra, o valor aparece na moeda de exibição do armazenamento e no formato da configuração de moeda de crédito, seguido da taxa de conversão atual (se aplicável). Por exemplo: <br/>EUR 20.000,00 ($22.400,00) <br/>USD/EUR 0,8928 |
 | [!UICONTROL Outstanding Balance] | O valor reembolsado, menos o total devido de todos os pedidos feitos usando o método Pagamento por Conta. O valor pode aparecer como um valor positivo ou negativo. <br/>**[!UICONTROL Positive value]**- Um pagamento antecipado é representado como um valor positivo.<br/>**[!UICONTROL Negative value]** - Um valor devido é representado como um valor negativo. |
-| [!UICONTROL Available Credit] | A soma de _[!UICONTROL Credit Limit]_e_[!UICONTROL Outstanding Balance]_. Se a empresa excedeu o limite de crédito, o valor aparece como um valor negativo. |
+| [!UICONTROL Available Credit] | A soma de _[!UICONTROL Credit Limit]_&#x200B;e_[!UICONTROL Outstanding Balance]_. Se a empresa excedeu o limite de crédito, o valor aparece como um valor negativo. |
 | [!UICONTROL Credit Limit] | O valor do crédito estendido para a empresa. |
 | [!UICONTROL Updated By] | O nome da pessoa que iniciou a operação. |
 | [!UICONTROL Custom Reference Number] | O número de referência personalizado associado à transação. |
@@ -167,7 +167,7 @@ Ao gerenciar créditos da empresa, implemente medidas de segurança robustas par
 
 ## Práticas recomendadas
 
-* 
+* &#x200B;
    * **Gerenciamento de Política de Crédito**—Ao gerenciar o crédito da empresa, estabeleça políticas claras para definir limites de crédito com base no histórico de pagamento do cliente e nos relacionamentos comerciais. Examine regularmente os saldos pendentes e os padrões de pagamento para avaliar o risco e sempre documente as alterações nas configurações de crédito com motivos detalhados para fins de auditoria.
 
 Processar os pagamentos imediatamente para manter saldos precisos e garantir que as configurações de moeda de crédito se alinhem às operações comerciais principais de cada empresa.

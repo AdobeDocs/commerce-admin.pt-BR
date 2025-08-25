@@ -5,7 +5,7 @@ breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 63585845dc51a0be31102dfe3e4b9074225c490d
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 6%
@@ -36,7 +36,7 @@ ht-degree: 6%
       + [Definir estrutura da empresa](account-company-structure.md)
 + Gerenciamento da empresa {#company-management}
    + [Visão geral](manage-companies.md)
-   + [Gerenciar hierarquia da empresa](manage-company-hierarchy.md)
+   + [Gerenciar hierarquias da empresa](manage-company-hierarchy.md)
 + Catálogos compartilhados {#shared-catalogs}
    + [Visão geral](catalog-shared.md)
    + Definir catálogos compartilhados {#define}
@@ -68,4 +68,4 @@ ht-degree: 6%
 + Referência {#reference}
    + [Alterações incompatíveis com versões anteriores](backward-incompatible-changes.md)
    + [Pacotes](packages.md)
-+ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

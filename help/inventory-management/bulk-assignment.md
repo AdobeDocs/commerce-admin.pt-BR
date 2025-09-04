@@ -3,7 +3,7 @@ title: Atribuição e cancelamento de atribuição de origem de estoque em massa
 description: Saiba como usar a ferramenta Atribuir origens para gerenciar atribuições de origem de produtos.
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -65,3 +65,5 @@ Ao desatribuir uma origem de um produto, você está indicando que o produto nã
 1. Clique em **[!UICONTROL Unassign Sources]**.
 
    ![Remover fontes dos produtos selecionados](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

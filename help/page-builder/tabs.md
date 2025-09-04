@@ -3,7 +3,7 @@ title: Layout - Guias
 description: Saiba mais sobre o tipo de conteúdo de Guias, usado para adicionar um conjunto de guias no estágio  [!DNL Page Builder] .
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: 67bf39e8c09d6169ec5ec5e2f396e973476af56a
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Ao trabalhar com o tipo de conteúdo _Guias_, você adiciona e edita guias indiv
 
 ## Adicionar uma guia individual
 
-1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste o espaço reservado **[!UICONTROL Tabs]**&#x200B;diretamente para o estágio ou para uma linha ou coluna no estágio.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste o espaço reservado **[!UICONTROL Tabs]**diretamente para o estágio ou para uma linha ou coluna no estágio.
 
    ![Arrastando guias para uma linha](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -326,3 +326,5 @@ Você pode adicionar qualquer tipo de conteúdo a uma guia da mesma forma que po
 
 [background]: #background
 [advanced]: #advanced
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

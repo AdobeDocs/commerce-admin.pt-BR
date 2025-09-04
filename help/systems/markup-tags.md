@@ -3,7 +3,7 @@ title: Tags de marcação
 description: Saiba mais sobre tags de marcação que contêm trechos de código para fazer referência a um objeto em seu armazenamento.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Tags de marcação
 
-Uma tag de marcação é uma diretiva que contém um trecho de código com uma referência relativa a um objeto no armazenamento, como uma variável, URL, imagem ou bloco. As marcas de marcação podem ser usadas em qualquer lugar em que o editor estiver disponível e incorporado ao HTML dos modelos de [email](email-templates.md) e [informativo](../merchandising-promotions/newsletter-template.md), bem como a outros tipos de [conteúdo](../content-design/introduction.md#content).
+Uma tag de marcação é uma diretiva que contém um trecho de código com uma referência relativa a um objeto no armazenamento, como uma variável, URL, imagem ou bloco. As marcas de marcação podem ser usadas em qualquer lugar em que o editor estiver disponível e incorporado à HTML de modelos de [email](email-templates.md) e [informativo](../merchandising-promotions/newsletter-template.md), bem como de outros tipos de [conteúdo](../content-design/introduction.md#content).
 
-As tags de marcação são colocadas entre chaves e duplas e podem ser geradas pela ferramenta Widget ou digitadas diretamente no conteúdo HTML. Por exemplo, em vez de codificar o caminho completo para uma página, você pode usar uma tag de marcação para representar a URL de armazenamento. As tags de marcação apresentadas nos exemplos a seguir incluem:
+As tags de marcação são colocadas entre chaves e duplas e podem ser geradas pela ferramenta Widget ou digitadas diretamente no conteúdo do HTML. Por exemplo, em vez de codificar o caminho completo para uma página, você pode usar uma tag de marcação para representar a URL de armazenamento. As tags de marcação apresentadas nos exemplos a seguir incluem:
 
 {{$include /help/_includes/directives-caution.md}}
 
@@ -44,7 +44,7 @@ A tag de marcação de ID de bloco é uma das mais fáceis de usar e pode ser us
 
 ## Tag de modelo
 
-Uma tag de modelo faz referência a um arquivo de modelo PHTML e pode ser usada para exibir o bloco em uma página CMS ou em um bloco estático. O código no exemplo a seguir pode ser adicionado a uma página ou bloco para exibir o formulário Fale Conosco.
+Uma tag de modelo faz referência a um arquivo de modelo PHTML e pode ser usada para exibir o bloco em uma página do CMS ou em um bloco estático. O código no exemplo a seguir pode ser adicionado a uma página ou bloco para exibir o formulário Fale Conosco.
 
 \{\{block class=&quot;Magento\Contact\Block\ContactForm&quot; name=&quot;contactForm&quot; template=&quot;Magento_Contact::form.phtml&quot;}}
 
@@ -66,11 +66,11 @@ O código no próximo exemplo pode ser adicionado a uma página ou bloco para ex
 
 ## Usar tags de marcação em links
 
-É possível usar tags de marcação com tags de âncora HTML e vincular diretamente a qualquer página na loja. O link pode ser incorporado a páginas de conteúdo, blocos ou modelos de email e boletim informativo. Também é possível usar essa técnica para vincular uma imagem a uma página específica.
+É possível usar tags de marcação com tags de âncora do HTML e vincular diretamente a qualquer página na loja. O link pode ser incorporado a páginas de conteúdo, blocos ou modelos de email e boletim informativo. Também é possível usar essa técnica para vincular uma imagem a uma página específica.
 
 ### Etapa 1. Identificar o URL de destino
 
-Se possível, navegue até a página que deseja vincular e copie o URL completo da barra de endereços do seu navegador. A parte da URL necessária vem após `.com/`. Caso contrário, copie a chave do URL da página CMS que você deseja usar como destino do link.
+Se possível, navegue até a página que deseja vincular e copie o URL completo da barra de endereços do seu navegador. A parte da URL necessária vem após `.com/`. Caso contrário, copie a Chave do URL da página do CMS que você deseja usar como destino do link.
 
 #### URL completo da página de categoria
 
@@ -82,7 +82,7 @@ Se possível, navegue até a página que deseja vincular e copie o URL completo 
 `https://mystore.com/apparel/shoes/womens/nine-west-pump`
 `https://mystore.com/apparel/shoes/womens/nine-west-pump.html`
 
-#### URL completo da página CMS
+#### URL completo da página do CMS
 
 `https://mystore.com/about-us`
 
@@ -122,8 +122,10 @@ Envolva a tag de marcação concluída em uma tag de âncora, usando a tag de ma
 
 \&lt;a href=&quot;\{\{a tag de marcação entra aqui}}&quot;>Texto do link\&lt;/a>
 
-Cole a tag âncora preenchida no código de qualquer página, bloco, banner ou modelo de email do CMS onde deseja que o link apareça.
+Cole a tag de âncora preenchida no código de qualquer página, bloco, banner ou modelo de email do CMS em que deseja que o link seja exibido.
 
 ### Link completo com marcação
 
 \&lt;a href=&quot;\{\{store url=&#39;apparel/shoes&#39;}}&quot;>Venda de sapatos\&lt;/a>
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

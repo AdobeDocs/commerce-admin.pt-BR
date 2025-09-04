@@ -3,7 +3,7 @@ title: Produto baixável
 description: Saiba como criar um produto para download que pode ser entregue como um arquivo digital.
 exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -147,7 +147,7 @@ O formulário é atualizado para refletir a alteração.
 
 1. Para incluir o produto na [lista de novos produtos](../content-design/widget-new-products-list.md), marque a caixa de seleção **[!UICONTROL Set Product as New]**.
 
-1. Para atribuir _[!UICONTROL Categories]_&#x200B;ao produto, clique na caixa **[!UICONTROL Select…]**&#x200B;e siga um destes procedimentos:
+1. Para atribuir _[!UICONTROL Categories]_ao produto, clique na caixa **[!UICONTROL Select…]**e siga um destes procedimentos:
 
    **Escolha uma categoria existente**:
 
@@ -178,15 +178,15 @@ O formulário é atualizado para refletir a alteração.
 
 ### Etapa 5: Preencha as informações baixáveis
 
-Role para baixo, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Downloadable Information]_&#x200B;e marque a caixa de seleção **[!UICONTROL Is this downloadable product?]**.
+Role para baixo, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Downloadable Information]_e marque a caixa de seleção **[!UICONTROL Is this downloadable product?]**.
 
-Quando habilitada, a seção _[!UICONTROL Downloadable Information]_&#x200B;tem duas partes. A primeira parte descreve cada link de download e a segunda parte descreve cada arquivo de amostra. O valor padrão para muitas dessas opções pode ser definido na [configuração](#configure-the-download-options).
+Quando habilitada, a seção _[!UICONTROL Downloadable Information]_tem duas partes. A primeira parte descreve cada link de download e a segunda parte descreve cada arquivo de amostra. O valor padrão para muitas dessas opções pode ser definido na [configuração](#configure-the-download-options).
 
 ![Informações para Download](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Complete os links
 
-1. Na seção _[!UICONTROL Links]_, insira o **[!UICONTROL Title]**&#x200B;que deseja usar como cabeçalho para os links de download.
+1. Na seção _[!UICONTROL Links]_, insira o **[!UICONTROL Title]**que deseja usar como cabeçalho para os links de download.
 
 1. Se aplicável, marque a caixa de seleção **[!UICONTROL Links can be purchased separately]**.
 
@@ -201,7 +201,7 @@ Quando habilitada, a seção _[!UICONTROL Downloadable Information]_&#x200B;tem 
 
    >[!NOTE]
    >
-   >Não é possível usar links para recursos externos como produtos baixáveis. Domínios de link válidos são predefinidos programaticamente no arquivo `env.php` (consulte [env.php reference](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=pt-BR) no _Guia de Configuração_).
+   >Não é possível usar links para recursos externos como produtos baixáveis. Domínios de link válidos são predefinidos programaticamente no arquivo `env.php` (consulte [env.php reference](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) no _Guia de Configuração_).
 
    - Defina **[!UICONTROL Shareable]** como um dos seguintes:
 
@@ -222,7 +222,7 @@ Quando habilitada, a seção _[!UICONTROL Downloadable Information]_&#x200B;tem 
 
 #### Complete as amostras
 
-1. Na seção _[!UICONTROL Samples]_, insira o **[!UICONTROL Title]**&#x200B;que você deseja usar como cabeçalho para as amostras.
+1. Na seção _[!UICONTROL Samples]_, insira o **[!UICONTROL Title]**que você deseja usar como cabeçalho para as amostras.
 
 1. Para completar as informações de cada amostra, clique em **[!UICONTROL Add Link]**.
 
@@ -254,7 +254,7 @@ Role para baixo e preencha as informações nas seguintes seções, conforme nec
 - [Design](settings-advanced-design.md)
 - [Opções de presente](product-gift-options.md)
 
-### Etapa 7: Publish do produto
+### Etapa 7: publicar o produto
 
 Se você estiver pronto para publicar o produto no catálogo, defina **[!UICONTROL Enable Product]** como `Yes` e siga um destes procedimentos:
 
@@ -274,7 +274,7 @@ No menu _[!UICONTROL Save]_( ![Seta do menu](../assets/icon-menu-down-arrow-red.
 
 ## Experiência da vitrine
 
-No painel da conta do cliente, a página _[!UICONTROL My Downloadable Products]_&#x200B;é vinculada a cada ordem de produtos baixáveis. Os downloads ficam disponíveis na conta do cliente quando o pedido é concluído.
+No painel da conta do cliente, a página _[!UICONTROL My Downloadable Products]_é vinculada a cada ordem de produtos baixáveis. Os downloads ficam disponíveis na conta do cliente quando o pedido é concluído.
 
 ![Meus Produtos Baixáveis](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ A tabela a seguir descreve os valores de _Meus Produtos para Download_:
 | [!UICONTROL Status] | Status de processamento do pedido. |
 | [!UICONTROL Remaining Downloads] | Número de downloads disponíveis do produto baixado. |
 
-_&#x200B;**Para baixar um arquivo de produto do painel de contas**&#x200B;_
+_**Para baixar um arquivo de produto do painel de contas**_
 
 1. No painel de conta, o cliente escolhe **[!UICONTROL My Downloadable Products]**.
 
@@ -297,3 +297,5 @@ _&#x200B;**Para baixar um arquivo de produto do painel de contas**&#x200B;_
 1. No canto inferior direito da janela de download, clique no ícone _download_.
 
 1. Localiza o arquivo no local de downloads e o salva no local desejado.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

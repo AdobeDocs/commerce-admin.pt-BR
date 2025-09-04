@@ -3,7 +3,7 @@ title: Elementos - Botões
 description: Saiba mais sobre o tipo de conteúdo Botões, usado para adicionar um botão individual ou um conjunto de botões no estágio  [!DNL Page Builder] .
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -103,9 +103,9 @@ Ao trabalhar com o tipo de conteúdo Botões, você adiciona e edita botões ind
 
      ![Escolhendo uma categoria para o link de botão](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Page]** - Insira o nome de uma página CMS (parcial ou completa) ou clique no campo em branco para exibir a lista completa. Em seguida, escolha o nome da página na lista de resultados da pesquisa.
+   - **[!UICONTROL Page]** - Insira o nome de uma página do CMS (parcial ou completa) ou clique no campo em branco para exibir a lista completa. Em seguida, escolha o nome da página na lista de resultados da pesquisa.
 
-     ![Escolher página CMS para link de botão](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
+     ![Escolher página do CMS para link de botão](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
 1. Conclua as [configurações avançadas][advanced-settings] conforme necessário.
 
@@ -210,7 +210,7 @@ As seções a seguir descrevem uma série de etapas para começar com um botão 
      | `URL` | Usa um URL relativo ou totalmente qualificado para identificar a página de destino. |
      | `Product` | Identifica a página de destino com base no nome do produto ou SKU. O nome do produto pode ser pesquisado com base em um nome parcial ou completo. O produto é então escolhido na lista de resultados da pesquisa. |
      | `Category` | Identifica a página de destino como uma categoria ou subcategoria específica na árvore de categorias. |
-     | `Page` | Identifica a página de destino como uma página CMS específica. |
+     | `Page` | Identifica a página de destino como uma página específica do CMS. |
 
      {style="table-layout:auto"}
 
@@ -243,7 +243,7 @@ As seções a seguir descrevem uma série de etapas para começar com um botão 
 
 ## Alterar configurações avançadas
 
-Você pode modificar as configurações de _[!UICONTROL Advanced]_&#x200B;para botões individuais e para o contêiner de botão.
+Você pode modificar as configurações de _[!UICONTROL Advanced]_para botões individuais e para o contêiner de botão.
 
 1. Para controlar o posicionamento no contêiner pai, escolha a **[!UICONTROL Alignment]**:
 
@@ -300,3 +300,5 @@ Você pode modificar as configurações de _[!UICONTROL Advanced]_&#x200B;para b
 
 [advanced-settings]: #change-advanced-settings
 [button-container]: #change-settings-for-a-button-container
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

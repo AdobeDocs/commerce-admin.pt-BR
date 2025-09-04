@@ -3,7 +3,7 @@ title: Mídia - Mapa
 description: Saiba mais sobre o tipo de conteúdo do Mapa, usado para adicionar um mapa da  [!DNL Google Maps] Plataforma ao [!DNL Page Builder] estágio.
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -197,7 +197,7 @@ Use o Assistente de Estilo de Plataforma [!DNL Google Maps] para aplicar um dos 
 
    {style="table-layout:auto"}
 
-1. Modifique as configurações de _[!UICONTROL Advanced]_&#x200B;conforme necessário:
+1. Modifique as configurações de _[!UICONTROL Advanced]_conforme necessário:
 
    - Para controlar o posicionamento horizontal do conteúdo do mapa adicionado ao contêiner, escolha um **[!UICONTROL Alignment]**:
 
@@ -290,3 +290,5 @@ O tamanho da grade determina o tamanho do mapa relacionado a uma [coluna](column
 [4]: https://developers.google.com/maps/documentation/javascript/get-api-key
 [5]: https://www.google.com/maps
 [6]: https://mapstyle.withgoogle.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

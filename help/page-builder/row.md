@@ -3,7 +3,7 @@ title: Layout - Linha
 description: Saiba mais sobre o tipo de conteúdo Linha, usado para adicionar uma linha no estágio  [!DNL Page Builder] .
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -38,7 +38,7 @@ A caixa de ferramentas da linha é exibida quando você passa o mouse sobre o co
 
 ## Adicionar uma linha
 
-1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste uma nova **[!UICONTROL Row]**&#x200B;para o estágio, logo abaixo da primeira linha.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste uma nova **[!UICONTROL Row]**para o estágio, logo abaixo da primeira linha.
 
 1. Para formatar a linha, passe o mouse sobre o contêiner de linha para exibir a caixa de ferramentas e escolha o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -114,7 +114,7 @@ Um tipo de plano de fundo pode ser uma imagem ou um vídeo. O [!DNL Page Builder
 
 ### Configurações de tipo de imagem
 
-Se você definir o _[!UICONTROL Background Type]_&#x200B;como `Image`, use as seguintes configurações para definir a exibição da imagem de fundo.
+Se você definir o _[!UICONTROL Background Type]_como `Image`, use as seguintes configurações para definir a exibição da imagem de fundo.
 
 ![Imagem de plano de fundo](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -258,3 +258,5 @@ Use essas opções para controlar a velocidade de uma imagem ou vídeo de plano 
   {style="table-layout:auto"}
 
   ![Margens e Preenchimento](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

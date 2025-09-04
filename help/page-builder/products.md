@@ -3,7 +3,7 @@ title: Adicionar conteúdo - Produtos
 description: Saiba mais sobre o tipo de conteúdo Produtos, usado para adicionar uma lista de produtos ao estágio  [!DNL Page Builder] .
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 0%
@@ -252,3 +252,5 @@ Se você tiver configurado um carrossel de produtos, ele deverá ser semelhante 
 ![Carrossel de produtos no estágio](./assets/pb-products-admin-carousel.png){width="600"}
 
 Agora você pode usar um [widget](../content-design/widgets.md) para colocar este bloco onde quiser que ele apareça na loja. Ou você pode usar [Adicionar conteúdo - Bloquear](block.md) para adicionar o bloco a uma página, guia ou bloco existente.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

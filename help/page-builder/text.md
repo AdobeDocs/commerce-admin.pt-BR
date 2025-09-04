@@ -3,7 +3,7 @@ title: Elementos - Texto
 description: Saiba mais sobre o tipo de conteúdo Texto, usado para adicionar um contêiner de texto no estágio  [!DNL Page Builder] .
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Elementos - Texto
 
-Use o tipo de conteúdo _Texto_ para adicionar um contêiner de texto com um editor WYSIWYG (&quot;O que você vê é o que você obtém&quot;) no [[!DNL Page Builder] estágio](workspace.md#stage). Além disso, você pode adicionar links, imagens, [variáveis](../systems/variables-predefined.md) e widgets ao texto da barra de ferramentas do editor.
+Use o tipo de conteúdo _Texto_ para adicionar um contêiner de texto com um editor do WYSIWYG (&quot;What You See Is What You Get&quot;) no [[!DNL Page Builder] estágio](workspace.md#stage). Além disso, você pode adicionar links, imagens, [variáveis](../systems/variables-predefined.md) e widgets ao texto da barra de ferramentas do editor.
 
 ![Texto formatado em um banner](./assets/pb-storefont-banner-with-button.png){width="700"}
 
@@ -114,7 +114,7 @@ Para criar um link para um número de telefone ou email, consulte [Adicionando V
 
 1. Atualize o conteúdo conforme necessário.
 
-1. Atualize as configurações de _[!UICONTROL Advanced]_&#x200B;conforme necessário.
+1. Atualize as configurações de _[!UICONTROL Advanced]_conforme necessário.
 
    - Para controlar o posicionamento do texto no contêiner pai, escolha um **[!UICONTROL Alignment]**:
 
@@ -170,3 +170,5 @@ Para criar um link para um número de telefone ou email, consulte [Adicionando V
      {style="table-layout:auto"}
 
 1. Quando terminar, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao espaço de trabalho [!DNL Page Builder].
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: Transferir inventário para origem
 description: Saiba como comerciantes de várias origens podem transferir o estoque de produtos de um local de origem para outro.
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -53,3 +53,5 @@ Também é possível cancelar a atribuição da origem ao transferir quantidades
 1. Clique em **[!UICONTROL Transfer Inventory]**.
 
    Todas as quantidades de produtos são deduzidas da origem e adicionadas à origem de destino. A Quantidade e a Quantidade Venável são atualizadas automaticamente.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

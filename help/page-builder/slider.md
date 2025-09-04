@@ -3,7 +3,7 @@ title: Media - Slider
 description: Saiba mais sobre o tipo de conteúdo do Controle Deslizante, usado para adicionar uma apresentação de slides de imagens ao estágio  [!DNL Page Builder] .
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '3810'
 ht-degree: 0%
@@ -256,7 +256,7 @@ Um tipo de plano de fundo pode ser uma imagem ou um vídeo. O [!DNL Page Builder
 
 ### Configurações de tipo de imagem
 
-Se você definir o _[!UICONTROL Background Type]_&#x200B;como `Image`, use as seguintes configurações para definir a exibição da imagem de fundo.
+Se você definir o _[!UICONTROL Background Type]_como `Image`, use as seguintes configurações para definir a exibição da imagem de fundo.
 
 ![Banner com imagem de plano de fundo](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ Você pode modificar o conteúdo do slide diretamente no palco ou quando estiver
 
 1. Clique no ponto de navegação na parte inferior do controle deslizante para exibir a caixa de ferramentas para o slide individual e escolha o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Na seção _[!UICONTROL Content]_, digite o **[!UICONTROL Message Text]**&#x200B;que você deseja que apareça com o slide.
+1. Na seção _[!UICONTROL Content]_, digite o **[!UICONTROL Message Text]**que você deseja que apareça com o slide.
 
-1. Role para baixo até a seção _[!UICONTROL Content]_&#x200B;e use o editor **[!UICONTROL Message Text]**&#x200B;para inserir e formatar o texto do banner.
+1. Role para baixo até a seção _[!UICONTROL Content]_e use o editor **[!UICONTROL Message Text]**para inserir e formatar o texto do banner.
 
    Você também pode inserir elementos, como links de texto, imagens e widgets.
 
@@ -621,3 +621,5 @@ Se quiser um título acima do controle deslizante, basta adicionar um [Tipo de c
    Ao visualizar o controle deslizante, redimensione a janela para que você possa ver como ela aparece em um dispositivo móvel.
 
    ![Visualização do controle deslizante - exibição móvel](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

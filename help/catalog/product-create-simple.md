@@ -3,7 +3,7 @@ title: Produto simples
 description: Saiba como criar um produto simples que pode ser vendido individualmente ou como parte de um produto agrupado, configurável ou combinado.
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -83,7 +83,7 @@ O formulário é atualizado para refletir a alteração.
 
 1. Aceite a configuração padrão **[!UICONTROL Visibility]** de `Catalog, Search`.
 
-1. Para atribuir _[!UICONTROL Categories]_&#x200B;ao produto, clique na caixa **[!UICONTROL Select…]**&#x200B;e siga um destes procedimentos:
+1. Para atribuir _[!UICONTROL Categories]_ao produto, clique na caixa **[!UICONTROL Select…]**e siga um destes procedimentos:
 
    **Escolha uma categoria existente**:
 
@@ -122,7 +122,7 @@ Role para baixo e preencha as informações nas seguintes seções, conforme nec
 - [Design](settings-advanced-design.md)
 - [Opções de presente](product-gift-options.md)
 
-## Etapa 6: Publish do produto
+## Etapa 6: publicar o produto
 
 1. Se você estiver pronto para publicar o produto no catálogo, defina a opção **[!UICONTROL Enable Product]** como `Yes`.
 
@@ -149,3 +149,5 @@ Role para baixo e preencha as informações nas seguintes seções, conforme nec
 - A configuração simples de um produto substitui as configurações configuráveis de um produto específico.
 
 - Um produto simples pode ter opções personalizadas com vários tipos de entrada, o que permite vender muitas variações de produto de uma única SKU.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

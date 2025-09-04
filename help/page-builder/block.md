@@ -3,7 +3,7 @@ title: Adicionar conteúdo - Bloquear
 description: Saiba mais sobre o tipo de conteúdo Bloco, usado para adicionar um bloco reutilizável ao estágio  [!DNL Page Builder] .
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -146,3 +146,5 @@ Use o tipo de conteúdo _Bloco_ para adicionar um [bloco](../content-design/bloc
 1. Passe o mouse sobre o contêiner de blocos para exibir a caixa de ferramentas e escolha o ícone _Remover_ (![Remover ícone](./assets/pb-icon-remove.png)).
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

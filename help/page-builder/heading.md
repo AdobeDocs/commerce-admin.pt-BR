@@ -3,7 +3,7 @@ title: Elementos - Cabeçalho
 description: Saiba mais sobre o tipo de conteúdo Cabeçalho, usado para adicionar um contêiner de texto com um nível de cabeçalho de H1 a H6 para o estágio  [!DNL Page Builder] .
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Os níveis de cabeçalho estabelecem uma hierarquia que organiza o conteúdo e ajuda os mecanismos de pesquisa a indexarem cada página. Use o tipo de conteúdo _Cabeçalho_ no [[!DNL Page Builder] estágio](workspace.md#stage) para adicionar um contêiner de texto com um nível de cabeçalho de H1 a H6 ao estágio. Os títulos são formatados de acordo com a folha de estilos associada ao tema atual.
 
-O campo [Cabeçalho do Conteúdo](workspace.md) na seção _[!UICONTROL Content]_&#x200B;pode ser usado para adicionar um cabeçalho H1 à parte superior da página. No entanto, o campo é herdado das versões [!DNL Commerce] anteriores e é fornecido para dar suporte a conteúdo mais antigo. Este campo não aproveita os recursos avançados do [!DNL Page Builder]. É recomendável deixar o campo Cabeçalho do Conteúdo em branco e usar o tipo de conteúdo Cabeçalho [!DNL Page Builder] para adicionar cabeçalhos de qualquer nível à página.
+O campo [Cabeçalho do Conteúdo](workspace.md) na seção _[!UICONTROL Content]_pode ser usado para adicionar um cabeçalho H1 à parte superior da página. No entanto, o campo é herdado das versões [!DNL Commerce] anteriores e é fornecido para dar suporte a conteúdo mais antigo. Este campo não aproveita os recursos avançados do [!DNL Page Builder]. É recomendável deixar o campo Cabeçalho do Conteúdo em branco e usar o tipo de conteúdo Cabeçalho [!DNL Page Builder] para adicionar cabeçalhos de qualquer nível à página.
 
 O exemplo a seguir mostra como o Cabeçalho de conteúdo e o tipo de conteúdo Cabeçalho aparecem quando formatados pelo tema Luma.
 
@@ -74,7 +74,7 @@ Como em todos os contêineres de conteúdo, a caixa de ferramentas aparece quand
 
    Você também pode atualizar esse conteúdo no editor de cabeçalho.
 
-1. Atualize as configurações de _[!UICONTROL Advanced]_&#x200B;conforme necessário.
+1. Atualize as configurações de _[!UICONTROL Advanced]_conforme necessário.
 
    - Para controlar o posicionamento do cabeçalho no contêiner pai, escolha um **[!UICONTROL Alignment]**:
 
@@ -154,3 +154,5 @@ Para um cabeçalho formatado com configurações específicas, é mais eficiente
 1. Se quiser alterar o nível do cabeçalho, clique no texto do cabeçalho e escolha o novo nível na barra de ferramentas do editor.
 
    ![Escolhendo um novo nível de cabeçalho](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

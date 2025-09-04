@@ -3,7 +3,7 @@ title: Elementos - Código HTML
 description: Saiba mais sobre o tipo de conteúdo do Código HTML, usado para adicionar trechos de código HTML, CSS e JavaScript no estágio  [!DNL Page Builder] .
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 0%
@@ -16,14 +16,14 @@ Use o tipo de conteúdo _Código HTML_ para adicionar trechos de código HTML, C
 
 ## Caixa de ferramentas Código HTML
 
-![Caixa de ferramentas Código HTML](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
+![Caixa de ferramentas do HTML Code](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
 
 | Ferramenta | Ícone | Descrição |
 | --------- | ---------- | ----------------- |
 | Mover | ![Ícone Mover](./assets/pb-icon-move.png){width="25"} | Move o contêiner do Código HTML para outro local válido na página. |
 | Configurações | ![Ícone de configurações](./assets/pb-icon-settings.png){width="25"} | Abre a página Editar código HTML, onde é possível alterar as propriedades do container. |
 | Ocultar | ![Ícone Ocultar](./assets/pb-icon-hide.png){width="25"} | Oculta o contêiner do Código HTML. |
-| Mostrar | ![Mostrar ícone](./assets/pb-icon-show.png){width="25"} | Mostra o contêiner de Código HTML oculto. |
+| Mostrar | ![Mostrar ícone](./assets/pb-icon-show.png){width="25"} | Mostra o contêiner de código HTML oculto. |
 | Duplicar | ![Ícone duplicado](./assets/pb-icon-duplicate.png){width="25"} | Faz uma cópia do contêiner do Código HTML. |
 | Remover | ![Ícone Remover](./assets/pb-icon-remove.png){width="25"} | Exclui o contêiner do Código HTML e seu conteúdo do estágio. |
 
@@ -66,17 +66,17 @@ O exemplo a seguir demonstra como incorporar o código [Google Font][1] e declar
 
    Use a diretriz vermelha para posicionar o divisor antes ou depois de outro contêiner de conteúdo no conjunto de linhas, colunas ou guias.
 
-   ![Arrastando um espaço reservado para o Código HTML para o estágio](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
+   ![Arrastando um espaço reservado do Código HTML para o estágio](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Passe o mouse sobre o contêiner de HTML para exibir a caixa de ferramentas e escolha o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
+1. Passe o mouse sobre o contêiner HTML para exibir a caixa de ferramentas e escolha o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Na caixa de texto, cole as declarações de código e estilo incorporadas do Google Fonts que você preparou.
 
    Para facilitar a leitura, você pode digitar alguns espaços para recuar o código.
 
-   ![código e estilos de HTML](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+   ![Código e estilos do HTML](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Atualize as configurações restantes conforme necessário (consulte [Alterar configurações de código de HTML](#html-settings) para obter detalhes).
+1. Atualize as configurações restantes conforme necessário (consulte [Alterar configurações de código do HTML](#html-settings) para obter detalhes).
 
 1. No canto superior direito, clique em **[!UICONTROL Save]** para aplicar as configurações e retornar ao espaço de trabalho [!DNL Page Builder].
 
@@ -84,7 +84,7 @@ O exemplo a seguir demonstra como incorporar o código [Google Font][1] e declar
 
 ### Etapa 3: visualizar a página
 
-1. Na seção _[!UICONTROL Currently Active]_, defina **[!UICONTROL Enable Page]**&#x200B;como `Yes`.
+1. Na seção _[!UICONTROL Currently Active]_, defina **[!UICONTROL Enable Page]**como `Yes`.
 
    ![Habilitando a página](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -94,23 +94,23 @@ O exemplo a seguir demonstra como incorporar o código [Google Font][1] e declar
 
    ![Visualizar os cabeçalhos da página com a nova família de fontes](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
-## Alterar configurações de código HTML {#html-settings}
+## Alterar configurações de código do HTML {#html-settings}
 
-1. Passe o mouse sobre o contêiner HTML para exibir a caixa de ferramentas e escolha o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
+1. Passe o mouse sobre o contêiner HTML para exibir a caixa de ferramentas e escolher o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Na caixa de texto, edite o código conforme necessário.
 
-   Há suporte para os códigos HTML, CSS e JavaScript. Os trechos de código que pertencem à seção `<head>` da página podem ser inseridos aqui.
+   Há suporte para código HTML, CSS e JavaScript. Os trechos de código que pertencem à seção `<head>` da página podem ser inseridos aqui.
 
    O editor também fornece botões para inserir elementos especiais no código:
 
    | Botão | Descrição |
    | ------ | ----------- |
-   | Inserir widget... | Clique para inserir um widget na posição do cursor na caixa de texto HTML. |
+   | Inserir widget... | Clique para inserir um widget na posição do cursor na caixa de texto do HTML. |
    | Inserir imagem... | Clique para inserir uma imagem carregada ou uma imagem da Galeria na posição do cursor na caixa de texto HTML. |
-   | Inserir variável... | Clique em para inserir uma variável na posição do cursor na caixa de texto HTML. |
+   | Inserir variável... | Clique em para inserir uma variável na posição do cursor na caixa de texto do HTML. |
 
-1. Atualize as configurações de _[!UICONTROL Advanced]_&#x200B;conforme necessário.
+1. Atualize as configurações de _[!UICONTROL Advanced]_conforme necessário.
 
    - Para controlar o posicionamento do código no contêiner pai, escolha um **[!UICONTROL Alignment]**:
 
@@ -164,3 +164,5 @@ O exemplo a seguir demonstra como incorporar o código [Google Font][1] e declar
      | [!UICONTROL Padding] | A quantidade de espaço em branco aplicada à borda interna de todos os lados do contêiner. Opções: `Top` / `Right` / `Bottom` / `Left` |
 
 [1]: https://fonts.google.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: Adicionar conteúdo - Bloco dinâmico
 description: Saiba mais sobre o tipo de conteúdo Bloco Dinâmico, usado para adicionar um bloco dinâmico reutilizável ao estágio  [!DNL Page Builder] .
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%
@@ -164,3 +164,5 @@ Use o tipo de conteúdo Bloco Dinâmico para adicionar um [bloco dinâmico](../c
 1. Passe o mouse sobre o contêiner de bloco dinâmico para exibir a caixa de ferramentas e escolha o ícone _Remover_ ( ![Remover ícone](./assets/pb-icon-remove.png){width="20"} ).
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

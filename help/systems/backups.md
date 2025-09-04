@@ -3,8 +3,8 @@ title: Backups do sistema
 description: Saiba como criar e agendar backups de sistema, incluindo o sistema de arquivos, o banco de dados e os arquivos de mídia.
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -66,3 +66,5 @@ O Adobe Commerce e o Magento Open Source oferecem a capacidade de fazer backup d
 1. Quando solicitado, confirme a ação.
 
 
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

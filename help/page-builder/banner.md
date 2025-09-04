@@ -3,7 +3,7 @@ title: Mídia - Banner
 description: Saiba mais sobre o tipo de conteúdo Banner usado para adicionar um componente ilustrado e interativo no estágio  [!DNL Page Builder] .
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2302'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Mídia - Banner
 
-Use o tipo de conteúdo _Banner_ para adicionar um componente ilustrado e interativo que envolva os usuários com um plano de ação e um botão no [[!DNL Page Builder] estágio](workspace.md#stage).
+Use o tipo de conteúdo _Banner_ para adicionar um componente ilustrado e interativo que envolva os usuários com uma call to action e um botão no [[!DNL Page Builder] estágio](workspace.md#stage).
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ A caixa de ferramentas do banner é exibida quando você passa o mouse sobre o c
 
    ![Arrastando um tipo de conteúdo de banner para o estágio](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   Os botões _[!UICONTROL Upload Image]_&#x200B;e_[!UICONTROL Select from Gallery]_ são incluídos para que você possa fazer alterações rápidas no conteúdo do banner diretamente do palco. Você também pode alterar o conteúdo na página _[!UICONTROL Edit Banner]_.
+   Os botões _[!UICONTROL Upload Image]_e_[!UICONTROL Select from Gallery]_ são incluídos para que você possa fazer alterações rápidas no conteúdo do banner diretamente do palco. Você também pode alterar o conteúdo na página _[!UICONTROL Edit Banner]_.
 
 1. Clique no espaço reservado do banner para exibir o [editor de texto](../content-design/editor.md) e inserir o conteúdo do banner.
 
@@ -183,7 +183,7 @@ Se você definir o _Tipo de Plano de Fundo_ como `Image`, use as configurações
 
 ### Configurações de tipo de vídeo
 
-Se você definir o _[!UICONTROL Background Type]_&#x200B;como `Video`, use as seguintes configurações para definir a exibição da imagem de fundo.
+Se você definir o _[!UICONTROL Background Type]_como `Video`, use as seguintes configurações para definir a exibição da imagem de fundo.
 
 - **[!UICONTROL Video URL]** - Digite uma URL de vídeo válida. Os URLs válidos do vídeo podem ser links para:
 
@@ -223,7 +223,7 @@ Você pode modificar o conteúdo do banner diretamente no palco ou quando estive
 
 1. Passe o mouse sobre o contêiner de banner para exibir a caixa de ferramentas e escolher o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="25"} ).
 
-1. Role para baixo até a seção _[!UICONTROL Content]_&#x200B;e use o editor **[!UICONTROL Message Text]**&#x200B;para inserir e formatar o texto do banner.
+1. Role para baixo até a seção _[!UICONTROL Content]_e use o editor **[!UICONTROL Message Text]**para inserir e formatar o texto do banner.
 
    Você também pode inserir elementos, como links de texto, imagens e widgets.
 
@@ -240,7 +240,7 @@ Você pode modificar o conteúdo do banner diretamente no palco ou quando estive
 
    >[!NOTE]
    >
-   >A partir da versão 2.4.1, o [!DNL Page Builder] não oferece mais suporte à vinculação do banner e dos links dentro do texto aninhado devido a problemas com a exibição na loja. Se você estiver usando um link no _[!UICONTROL Message Text]_, não poderá configurar a opção&#x200B;_[!UICONTROL Link]_. Se preferir usar um único link para todo o banner, você pode remover todos os links do texto.<br/>
+   >A partir da versão 2.4.1, o [!DNL Page Builder] não oferece mais suporte à vinculação do banner e dos links dentro do texto aninhado devido a problemas com a exibição na loja. Se você estiver usando um link no _[!UICONTROL Message Text]_, não poderá configurar a opção_[!UICONTROL Link]_. Se preferir usar um único link para todo o banner, você pode remover todos os links do texto.<br/>
    >
    >![Configuração de link bloqueada](./assets/pb-nested-link-blocked.png){width="200"}
 
@@ -369,3 +369,5 @@ O texto dessas configurações está visível para mecanismos de pesquisa e melh
    | [!UICONTROL Padding] | A quantidade de espaço em branco aplicada à borda interna de todos os lados do contêiner. |
 
    {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

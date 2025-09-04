@@ -3,7 +3,7 @@ title: Elementos - Divisor
 description: Saiba mais sobre o tipo de conteúdo Divider, usado para adicionar uma regra como uma quebra visual entre seções de conteúdo no estágio  [!DNL Page Builder] .
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Embora a maioria dos contêineres divisores seja invisível, o exemplo a seguir 
 
    ![Definindo a cor, a espessura e a largura da linha](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Atualize as configurações de _[!UICONTROL Advanced]_&#x200B;conforme necessário.
+1. Atualize as configurações de _[!UICONTROL Advanced]_conforme necessário.
 
    - Para controlar o posicionamento do divisor no contêiner pai, escolha o **[!UICONTROL Alignment]**:
 
@@ -157,3 +157,5 @@ Para um divisor formatado com configurações específicas, é mais eficiente fa
    ![Movendo o divisor duplicado para a posição](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
 [1]: https://en.wikipedia.org/wiki/Web_colors
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

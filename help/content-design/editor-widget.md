@@ -2,8 +2,8 @@
 title: Inserir um widget no editor
 description: Adicione vários elementos de conteúdo a uma página usando a ferramenta widget no editor do WYSIWYG.
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Por padrão, os links herdam seu estilo da folha de estilos do tema.
 
 1. Abra uma página, um bloco ou um bloco dinâmico no modo de edição.
 
-1. Vá para a seção _[!UICONTROL Content]_&#x200B;e clique em qualquer elemento compatível com o editor.
+1. Vá para a seção _[!UICONTROL Content]_e clique em qualquer elemento compatível com o editor.
 
 1. Posicione o cursor onde deseja que o widget apareça e clique no ícone _Inserir Widget_.
 
@@ -59,3 +59,5 @@ Por padrão, os links herdam seu estilo da folha de estilos do tema.
    Se você estiver trabalhando com código HTML, uma [marca de marcação](../systems/markup-tags.md) para o link aparecerá na parte superior da página, entre chaves duplas. Se necessário, use _Recortar e Colar_ para posicionar a marca de marcação no código onde deseja que o link apareça.
 
 1. Quando as edições de conteúdo forem concluídas, clique em **[!UICONTROL Save]**.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

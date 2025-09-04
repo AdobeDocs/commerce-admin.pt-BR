@@ -3,7 +3,7 @@ title: Atribuir origens de estoque por produto
 description: Saiba como atribuir uma origem de inventário a um produto.
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -46,3 +46,5 @@ Antes de modificar quantidades e configurações, você deve atribuir [origens](
    - No menu _[!UICONTROL Save]_(![seta de menu](../assets/icon-menu-down-arrow-red.png)), escolha **[!UICONTROL Save & Close]**.
 
 Depois de atribuir origens, atualize a [quantidade em estoque](quantities-assign-per-product.md) para cada origem de produto.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

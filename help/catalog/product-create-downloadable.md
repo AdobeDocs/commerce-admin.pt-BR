@@ -201,7 +201,7 @@ Quando habilitada, a seção _[!UICONTROL Downloadable Information]_&#x200B;tem 
 
    >[!NOTE]
    >
-   >Não é possível usar links para recursos externos como produtos baixáveis. Domínios de link válidos são predefinidos programaticamente no arquivo `env.php` (consulte [env.php reference](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) no _Guia de Configuração_).
+   >Não é possível usar links para recursos externos como produtos baixáveis. Domínios de link válidos são predefinidos programaticamente no arquivo `env.php` (consulte [env.php reference](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=pt-BR) no _Guia de Configuração_).
 
    - Defina **[!UICONTROL Shareable]** como um dos seguintes:
 

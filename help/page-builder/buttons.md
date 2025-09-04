@@ -243,7 +243,7 @@ As seções a seguir descrevem uma série de etapas para começar com um botão 
 
 ## Alterar configurações avançadas
 
-Você pode modificar as configurações de _[!UICONTROL Advanced]_para botões individuais e para o contêiner de botão.
+Você pode modificar as configurações de _[!UICONTROL Advanced]_&#x200B;para botões individuais e para o contêiner de botão.
 
 1. Para controlar o posicionamento no contêiner pai, escolha a **[!UICONTROL Alignment]**:
 

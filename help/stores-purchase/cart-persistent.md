@@ -28,17 +28,17 @@ Para gerenciar o uso da persistência do carrinho de compras para o seu site ou 
 
 Quando o carrinho de compras persistente está [habilitado](#configure-a-persistent-cart), o fluxo de trabalho depende:
 
-- Os valores das configurações _[!UICONTROL Enable Remember Me]_e_[!UICONTROL Clear Persistence on Log Out]_
+- Os valores das configurações _[!UICONTROL Enable Remember Me]_&#x200B;e_[!UICONTROL Clear Persistence on Log Out]_
 - A decisão do cliente de marcar ou desmarcar a caixa de seleção _[!UICONTROL Remember Me]_
 - Quando o cookie persistente é limpo
 
 Quando a sessão do cliente expirar, um link `Not Jane Smith?` será exibido no cabeçalho da página sob as seguintes condições:
-- o cliente conectado selecionou a opção _[!UICONTROL Remember Me]_e um cookie persistente foi aplicado
-- o cliente faz logoff quando o sistema está configurado com _[!UICONTROL Clear Persistence on Sign Out]_definido como `No`.
+- o cliente conectado selecionou a opção _[!UICONTROL Remember Me]_&#x200B;e um cookie persistente foi aplicado
+- o cliente faz logoff quando o sistema está configurado com _[!UICONTROL Clear Persistence on Sign Out]_&#x200B;definido como `No`.
 
 O sistema retém um registro do conteúdo do carrinho de compras no dispositivo atual, mesmo se a sessão conectada expirar. O link `Not Jane Smith?` permite que o cliente encerre a sessão persistente e comece a trabalhar como convidado, ou faça logon como um cliente diferente ou igual.
 
-Se o cliente marcou a caixa de seleção _[!UICONTROL Remember Me]_ao fazer logon, seu armazenamento cria e mantém um cookie persistente separado. Este cookie ajuda a manter o carrinho de compras do cliente acessível, mesmo depois que ele fecha o navegador ou navega para um site diferente e sua sessão conectada expira.
+Se o cliente marcou a caixa de seleção _[!UICONTROL Remember Me]_&#x200B;ao fazer logon, seu armazenamento cria e mantém um cookie persistente separado. Este cookie ajuda a manter o carrinho de compras do cliente acessível, mesmo depois que ele fecha o navegador ou navega para um site diferente e sua sessão conectada expira.
 
 Se esse mesmo cliente visitar sua loja usando vários navegadores enquanto estiver conectado ou enquanto uma sessão persistente estiver ativa, as alterações que o cliente fizer no conteúdo do carrinho de compras em um navegador serão refletidas em outros navegadores quando a página for atualizada.
 
@@ -48,7 +48,7 @@ Se esse mesmo cliente visitar sua loja usando vários navegadores enquanto estiv
 
 ### Comportamento da caixa de seleção &quot;Lembrar-se de mim&quot;
 
-Os clientes podem marcar a caixa de seleção _[!UICONTROL Remember Me]_na página de logon, pop-up de autenticação, check-out de entradas ou ao criar uma nova conta para manter o conteúdo do carrinho de compras acessível no dispositivo atual quando a sessão conectada expirar.
+Os clientes podem marcar a caixa de seleção _[!UICONTROL Remember Me]_&#x200B;na página de logon, pop-up de autenticação, check-out de entradas ou ao criar uma nova conta para manter o conteúdo do carrinho de compras acessível no dispositivo atual quando a sessão conectada expirar.
 
 | Lembra de Mim? | Resultado |
 | ------------ |  ------ |

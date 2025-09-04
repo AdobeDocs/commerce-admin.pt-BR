@@ -197,7 +197,7 @@ Use o Assistente de Estilo de Plataforma [!DNL Google Maps] para aplicar um dos 
 
    {style="table-layout:auto"}
 
-1. Modifique as configurações de _[!UICONTROL Advanced]_conforme necessário:
+1. Modifique as configurações de _[!UICONTROL Advanced]_&#x200B;conforme necessário:
 
    - Para controlar o posicionamento horizontal do conteúdo do mapa adicionado ao contêiner, escolha um **[!UICONTROL Alignment]**:
 

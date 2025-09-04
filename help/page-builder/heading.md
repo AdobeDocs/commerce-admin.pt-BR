@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Os níveis de cabeçalho estabelecem uma hierarquia que organiza o conteúdo e ajuda os mecanismos de pesquisa a indexarem cada página. Use o tipo de conteúdo _Cabeçalho_ no [[!DNL Page Builder] estágio](workspace.md#stage) para adicionar um contêiner de texto com um nível de cabeçalho de H1 a H6 ao estágio. Os títulos são formatados de acordo com a folha de estilos associada ao tema atual.
 
-O campo [Cabeçalho do Conteúdo](workspace.md) na seção _[!UICONTROL Content]_pode ser usado para adicionar um cabeçalho H1 à parte superior da página. No entanto, o campo é herdado das versões [!DNL Commerce] anteriores e é fornecido para dar suporte a conteúdo mais antigo. Este campo não aproveita os recursos avançados do [!DNL Page Builder]. É recomendável deixar o campo Cabeçalho do Conteúdo em branco e usar o tipo de conteúdo Cabeçalho [!DNL Page Builder] para adicionar cabeçalhos de qualquer nível à página.
+O campo [Cabeçalho do Conteúdo](workspace.md) na seção _[!UICONTROL Content]_&#x200B;pode ser usado para adicionar um cabeçalho H1 à parte superior da página. No entanto, o campo é herdado das versões [!DNL Commerce] anteriores e é fornecido para dar suporte a conteúdo mais antigo. Este campo não aproveita os recursos avançados do [!DNL Page Builder]. É recomendável deixar o campo Cabeçalho do Conteúdo em branco e usar o tipo de conteúdo Cabeçalho [!DNL Page Builder] para adicionar cabeçalhos de qualquer nível à página.
 
 O exemplo a seguir mostra como o Cabeçalho de conteúdo e o tipo de conteúdo Cabeçalho aparecem quando formatados pelo tema Luma.
 
@@ -74,7 +74,7 @@ Como em todos os contêineres de conteúdo, a caixa de ferramentas aparece quand
 
    Você também pode atualizar esse conteúdo no editor de cabeçalho.
 
-1. Atualize as configurações de _[!UICONTROL Advanced]_conforme necessário.
+1. Atualize as configurações de _[!UICONTROL Advanced]_&#x200B;conforme necessário.
 
    - Para controlar o posicionamento do cabeçalho no contêiner pai, escolha um **[!UICONTROL Alignment]**:
 

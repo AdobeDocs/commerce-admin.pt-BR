@@ -38,7 +38,7 @@ A caixa de ferramentas da linha é exibida quando você passa o mouse sobre o co
 
 ## Adicionar uma linha
 
-1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste uma nova **[!UICONTROL Row]**para o estágio, logo abaixo da primeira linha.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste uma nova **[!UICONTROL Row]**&#x200B;para o estágio, logo abaixo da primeira linha.
 
 1. Para formatar a linha, passe o mouse sobre o contêiner de linha para exibir a caixa de ferramentas e escolha o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -114,7 +114,7 @@ Um tipo de plano de fundo pode ser uma imagem ou um vídeo. O [!DNL Page Builder
 
 ### Configurações de tipo de imagem
 
-Se você definir o _[!UICONTROL Background Type]_como `Image`, use as seguintes configurações para definir a exibição da imagem de fundo.
+Se você definir o _[!UICONTROL Background Type]_&#x200B;como `Image`, use as seguintes configurações para definir a exibição da imagem de fundo.
 
 ![Imagem de plano de fundo](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 

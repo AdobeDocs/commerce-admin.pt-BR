@@ -3,9 +3,9 @@ title: Experiências aprimoradas da loja
 description: Conheça as várias ferramentas projetadas para ajudar a maximizar o engajamento, a retenção e a fidelidade do cliente.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ Além dos elementos padrão que permitem aos clientes fazer compras em sua loja,
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=pt-BR)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
 ## Atraia novos clientes
 
-O Adobe Commerce e o Magento Open Source são equipados com recursos que facilitam a criação de sites _compatíveis com mecanismos de pesquisa_ e aumentam a probabilidade de trazer os clientes certos para o seu site.
+A Adobe Commerce e a Magento Open Source são equipadas com recursos que facilitam a criação de sites _compatíveis com mecanismos de pesquisa_ e aumentam a probabilidade de trazer os clientes certos para o seu site.
 
 - **Otimização do mecanismo de pesquisa** - [!DNL Commerce] oferece recursos nativos avançados para simplificar as práticas de [Otimização do Mecanismo de Pesquisa (SEO)](../merchandising-promotions/seo-overview.md) para exposição de conteúdo e site integradas ao Administrador e vinculadas diretamente à experiência do usuário.
 
@@ -32,7 +32,7 @@ O Adobe Commerce e o Magento Open Source são equipados com recursos que facilit
 
 - **Mapa do site** - Link para um [mapa do site](../merchandising-promotions/sitemap-xml.md) do rodapé de sua loja para fornecer aos clientes uma visão geral da estrutura do catálogo, com links para todas as categorias e produtos na loja. Fácil integração com o Google Sitemap.
 
-- **Analytics** - Além de monitorar seu site no painel de Administração, você pode integrar ferramentas de análise de terceiros, como [Google Analytics](../merchandising-promotions/google-analytics.md) e [Relatórios do New Relic](new-relic-reporting.md) para obter estatísticas detalhadas sobre tráfego e vendas.
+- **Analytics** - Além de monitorar seu site no painel de Administração, você pode integrar ferramentas de análise de terceiros, como o [Google Analytics](../merchandising-promotions/google-analytics.md), para obter estatísticas detalhadas sobre tráfego e vendas.
 
 ## Envolva seus clientes
 
@@ -84,11 +84,11 @@ O Adobe Commerce e o Magento Open Source fornecem uma variedade de ferramentas p
 
 ## Otimizar os processos de negócios e a lucratividade
 
-- **[!DNL Advanced Reporting]** - Obtenha informações importantes rapidamente com os relatórios dinâmicos de produto, pedido e cliente, viabilizados por [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=pt-BR).
+- **[!DNL Advanced Reporting]** - Obtenha informações importantes rapidamente com os relatórios dinâmicos de produto, pedido e cliente da [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en).
 
 - **Instantâneos de painel** - Saber o que é de interesse no seu site é crucial para maximizar seu orçamento de marketing. Use estas [informações no seu painel](admin-dashboard.md) para determinar o que você deve fazer de venda cruzada e venda adicional para clientes fiéis ou quais produtos colocar à venda.
 
-- **Impostos** - Gerencie seus [impostos](../stores-purchase/taxes.md) com ferramentas nativas ou adicione extensões de terceiros a partir do [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target=&quot;_blank&quot;}.
+- **Impostos** - Gerencie seus [impostos](../stores-purchase/taxes.md) com ferramentas nativas ou adicione extensões de terceiros a partir de [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"}.
 
 - **Regras de negócio automatizadas** - Configure [regras de negócio automatizadas](../merchandising-promotions/price-rules-cart.md) que definam relações de produtos e usem regras de preço que acionem descontos com base em várias condições.
 

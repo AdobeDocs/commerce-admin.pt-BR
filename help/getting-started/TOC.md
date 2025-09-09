@@ -5,9 +5,9 @@ breadcrumb-title: Introdução
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: b45824312b02204f1031b04c215ca42c5298d824
+source-git-commit: 0ea13aa32745f6ba5045c2aeec54926857525836
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -66,10 +66,9 @@ ht-degree: 0%
    + [Relatórios de produto](product-reports.md)
    + [Relatórios de vendas privadas](private-sales-reports.md)
    + [Ferramentas do Commerce Intelligence](business-intelligence.md)
-   + [Relatórios do New Relic](new-relic-reporting.md)
 + Recursos {#resources}
    + [Ecossistema](resources.md)
    + [Extensões](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

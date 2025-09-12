@@ -23,7 +23,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Adição de uma descrição de cada tipo de condição de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create">segmento de cliente</a>.</p>
+      <td><p>Adição de uma descrição de cada tipo de condição de <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/segments/customer-segment-create">segmento de cliente</a>.</p>
 </td>
       <td>
         Técnico
@@ -45,7 +45,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Remoção de documentos de recursos obsoletos do New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting">relatórios</a>.</p>
+      <td><p>Remoção de documentos de recursos obsoletos do New Relic <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/reporting/new-relic-reporting">relatórios</a>.</p>
 </td>
       <td>
         Atualização importante
@@ -67,7 +67,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Esclarecimento dos métodos padrão para <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">criar códigos de cupom</a> e orientação para usar uma extensão para importar uma lista de códigos de cupom personalizados.</p>
+      <td><p>Esclarecimento dos métodos padrão para <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">criar códigos de cupom</a> e orientação para usar uma extensão para importar uma lista de códigos de cupom personalizados.</p>
 </td>
       <td>
         Técnico
@@ -89,7 +89,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Adição das <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">notas de versão</a> do patch de segurança B2B de agosto de 2025.</p>
+      <td><p>Adição das <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/b2b/release-notes">notas de versão</a> do patch de segurança B2B de agosto de 2025.</p>
 </td>
       <td>
         Atualização importante
@@ -111,7 +111,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Esclarecimento do comportamento esperado de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">filtragem de preço</a> para produtos configuráveis na navegação em camadas.</p>
+      <td><p>Esclarecimento do comportamento esperado de <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">filtragem de preço</a> para produtos configuráveis na navegação em camadas.</p>
 </td>
       <td>
         Técnico
@@ -119,7 +119,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">confirmar</a></td>
     </tr>
     <tr>
-      <td><p>Esclarecimento sobre como <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">remover todos os itens</a> do carrinho do cliente no modo de compra assistida.</p>
+      <td><p>Esclarecimento sobre como <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">remover todos os itens</a> do carrinho do cliente no modo de compra assistida.</p>
 </td>
       <td>
         Atualização importante
@@ -141,7 +141,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Atualização dos requisitos do sistema para a <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">extensão HIPAA</a>.</p>
+      <td><p>Atualização dos requisitos do sistema para a <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">extensão HIPAA</a>.</p>
 </td>
       <td>
         Técnico

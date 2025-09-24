@@ -3,16 +3,16 @@ title: Criar um pedido
 description: Saiba como criar um pedido para um cliente no Administrador do Commerce.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 0e2d79f6b716f5d59aa9cd60b096608a6b2dbb98
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # Criar um pedido
 
-Para clientes registrados que precisam de assistência, você pode criar um pedido inteiro diretamente do administrador. O formulário _[!UICONTROL Create New Order]_&#x200B;inclui todas as informações necessárias para o processo normal de check-out, com resumos de atividades do painel de conta do cliente.
+Para clientes registrados que precisam de assistência, você pode criar um pedido inteiro diretamente do administrador. O formulário _[!UICONTROL Create New Order]_inclui todas as informações necessárias para o processo normal de check-out, com resumos de atividades do painel de conta do cliente.
 
 ![Criar um pedido para um cliente](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -95,10 +95,11 @@ Você pode transferir itens para o carrinho da lista de desejos de um cliente ou
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
+   - [!UICONTROL [Atributos da ordem personalizada]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->Consulte o [Guia dos Serviços de Pagamento](https://experienceleague.adobe.com/pt-br/docs/commerce/payment-services/guide-overview) para obter mais informações sobre métodos de pagamento para dar suporte a esta funcionalidade quando a extensão dos Serviços de Pagamento for instalada e configurada.
+>Consulte o [Guia dos Serviços de Pagamento](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) para obter mais informações sobre métodos de pagamento para dar suporte a esta funcionalidade quando a extensão dos Serviços de Pagamento for instalada e configurada.
 
 ## Etapa 3: enviar o pedido
 

@@ -3,9 +3,9 @@ title: Fluxo de trabalho e processamento da ordem
 description: Saiba mais sobre o fluxo de trabalho do pedido, o status que se aplica a cada etapa e como mover pedidos por meio desse processo.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
+source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,26 @@ Somente ordens de venda que não são faturadas, têm um status de `Processing` 
 
 {style="table-layout:auto"}
 
+### Atributos da Ordem Personalizada
+
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+
+Os atributos personalizados do pedido permitem associar informações adicionais específicas às suas necessidades comerciais com o pedido.
+
+![Atributos de Ordem Personalizada](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
+
+Na seção **[!UICONTROL Custom Order Attributes]**, são exibidos todos os atributos de ordem personalizados e seus valores atuais.
+
+Para criar um novo atributo de pedido personalizado, insira um **[!UICONTROL Attribute Code]** e **[!UICONTROL Value]**
+
+Para criar atributos personalizados adicionais de pedido, clique em **[!UICONTROL Add Attribute]**.
+
+Para remover um atributo de pedido personalizado, clique no ícone **[!UICONTROL X]**.
+
+>[!NOTE]
+>
+>Os atributos personalizados da ordem só podem ser editados quando a ordem está no status `Pending`. Para pedidos em outros status, você pode exibir os valores de atributo, mas não pode modificá-los.
+
 ### Revisar itens solicitados
 
 ![Itens ordenados](./assets/order-items-ordered-tee.png){width="600" zoomable="yes"}
@@ -230,4 +250,4 @@ Na seção **[!UICONTROL Order Total]**, faça o seguinte:
 
 Assista a este vídeo e saiba mais sobre o processamento de pedidos e o status:
 
->[!VIDEO](https://video.tv.adobe.com/v/3412501/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Criar um pedido
 
-Para clientes registrados que precisam de assistência, você pode criar um pedido inteiro diretamente do administrador. O formulário _[!UICONTROL Create New Order]_inclui todas as informações necessárias para o processo normal de check-out, com resumos de atividades do painel de conta do cliente.
+Para clientes registrados que precisam de assistência, você pode criar um pedido inteiro diretamente do administrador. O formulário _[!UICONTROL Create New Order]_&#x200B;inclui todas as informações necessárias para o processo normal de check-out, com resumos de atividades do painel de conta do cliente.
 
 ![Criar um pedido para um cliente](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -95,7 +95,7 @@ Você pode transferir itens para o carrinho da lista de desejos de um cliente ou
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [!UICONTROL [Atributos da ordem personalizada]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [[!UICONTROL [Atributos da ordem personalizada]]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >

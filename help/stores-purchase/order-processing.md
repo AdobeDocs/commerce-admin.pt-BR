@@ -169,7 +169,7 @@ Somente ordens de venda que não são faturadas, têm um status de `Processing` 
 
 ### Atributos da Ordem Personalizada
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Os atributos personalizados do pedido permitem associar informações adicionais específicas às suas necessidades comerciais com o pedido.
 

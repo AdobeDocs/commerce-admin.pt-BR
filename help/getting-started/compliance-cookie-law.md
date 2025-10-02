@@ -3,9 +3,9 @@ title: Conformidade com a lei de cookies
 description: Para acompanhar a legislação de muitos países em relação ao uso de cookies, o Adobe Commerce e o Magento Open Source oferecem aos comerciantes uma variedade de métodos para obter o consentimento do cliente.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: abdd70f63ce9ce49ea7e6552951c644480f6024f
+source-git-commit: 3276729b2da1068e7c3d236d568ac745a97d71be
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
@@ -206,15 +206,15 @@ Definido pelo Módulo do Page Builder. Contém um sinalizador que impede que pro
 
 Definido pelo Módulo do Page Builder. Contém um sinalizador que impede que prompts subsequentes solicitem a um administrador que confirme a abertura de uma determinada ação se o administrador os tiver rejeitado explicitamente antes. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores.
 
-#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
+#### `accordion-{VARIABLE}-{VARIABLE}`
 
 Ser usado como parte da implementação da funcionalidade de guias somente em uma área administrativa de uma loja. Não aplicável aos compradores.
 
 ## Cookies de recomendações de produto
 
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir são usados pelas Recomendações de Produto para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir são usados pelas Recomendações de Produto para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: permite [restringir a coleta de dados do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/developer/setting-cookie) se você tiver um código personalizado para gerenciar o consentimento de cookies no site.
+- `mg_dnt`: permite [restringir a coleta de dados do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) se você tiver um código personalizado para gerenciar o consentimento de cookies no site.
 - `user_allowed_save_cookie`: Usado para [modo de restrição de cookies](#cookie-restriction-mode).
 - `authentication_flag`: indica se um comprador entrou ou saiu. Este cookie é atualizado ao mesmo tempo que o cookie `dataservices_customer_id`.
 - `dataservices_customer_id`: indica se um comprador entrou ou saiu. Este cookie contém o identificador exclusivo do cliente no sistema.
@@ -222,9 +222,19 @@ Ser usado como parte da implementação da funcionalidade de guias somente em um
 - `dataservices_cart_id`: identifica as ações do carrinho de um comprador. Esse cookie contém a ID de carrinho exclusiva do cliente no sistema.
 - `dataservices_product_context`: identifica as interações de produto de um comprador. Este cookie contém a ID de cotação exclusiva do cliente no sistema.
 
+### Dados de armazenamento local das recomendações de produtos
+
+Os dados a seguir são salvos no armazenamento local para lojas que usam o tema Luma quando o Live Search ou o Product Recommendations são instalados:
+
+- `ds-cart`: armazena informações do carrinho para a funcionalidade específica do Luma
+- `ds-cart-order`: armazena informações de pedidos para a funcionalidade do carrinho
+- `ds-purchase-history`: rastreia o histórico de compras do cliente
+- `ds-view-history-time-decay`: armazena o histórico de exibições do produto com declínio baseado em tempo
+- `ds-logged-in`: indica o status de logon do cliente. Esses dados só existem quando o cliente está conectado e são armazenados, mesmo quando o modo de restrição de cookie está ativado. Esses são os únicos dados que o Commerce armazena no armazenamento local quando o modo de restrição de cookie está ativado, independentemente do status de consentimento do usuário.
+
 ## Cookies adicionais
 
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir estão definidos para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir estão definidos para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: Definido pelo rastreador Snowplow JavaScript. Mais informações podem ser encontradas na [documentação do Snowplow](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Dado o nome de host da página da Web atual, este é o domínio mais alto que não é um &quot;sufixo público&quot;, conforme descrito em https://publicsuffix.org. Essencialmente, esse é o domínio mais alto que pode aceitar cookies. Este cookie faz parte do [Alloy Web SDK](https://github.com/adobe/alloy).

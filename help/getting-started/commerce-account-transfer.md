@@ -72,7 +72,7 @@ Esse tipo de transferência requer uma Adobe ID vinculada à conta existente do 
 
 1. Clique em **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447664/?learn=on&captions=por_br)
 
 ## Alteração de email
 

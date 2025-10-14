@@ -31,7 +31,7 @@ Para usuários ou funções temporários, também é possível definir uma data 
 
 1. No canto superior direito, clique em **[!UICONTROL Add New User]**.
 
-   Para editar um usuário existente, clique em um nome de usuário na grade. Você pode modificar as seções _[!UICONTROL User Info]_&#x200B;e_[!UICONTROL User Role]_ conforme necessário.
+   Para editar um usuário existente, clique em um nome de usuário na grade. Você pode modificar as seções _[!UICONTROL User Info]_&#x200B;e&#x200B;_[!UICONTROL User Role]_ conforme necessário.
 
 1. Na seção _[!UICONTROL Account Information]_, faça o seguinte:
 

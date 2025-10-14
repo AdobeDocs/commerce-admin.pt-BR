@@ -83,7 +83,7 @@ O componente da interface de dados do produto é adicionado automaticamente com 
 
 1. **[!UICONTROL Create]** um perfil de metadados para a integração com o Commerce.
 
-   ![Administrador do AEM Author Admin adicionou perfis de metadados ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
+   ![Administrador do AEM Author Admin adicionou perfis de metadados &#x200B;](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Adicione uma guia para metadados do Commerce.
 

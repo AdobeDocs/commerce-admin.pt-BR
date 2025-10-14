@@ -49,8 +49,8 @@ As regras de preço do carrinho aplicam descontos aos itens do carrinho de compr
 | [!UICONTROL Status] | Use esta opção para filtrar a lista com base no status da regra (`Active` ou `Inactive`). |
 | [!UICONTROL Web Site] | Use essa opção para filtrar a lista com base nos sites definidos para uma regra. |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Clique em **[!UICONTROL Edit]** para exibir a página _[!UICONTROL Rule Information]_&#x200B;e atualizar as configurações de regra (semelhante à criação de uma regra). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (_[!UICONTROL To:]_&#x200B;e_[!UICONTROL From:]_) para filtrar a lista com base na data de início da regra conforme definido quando a regra foi criada. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (_[!UICONTROL To:]_&#x200B;e_[!UICONTROL From:]_) para filtrar a lista com base na data final da regra conforme definido quando a regra foi criada. |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (_[!UICONTROL To:]_&#x200B;e&#x200B;_[!UICONTROL From:]_) para filtrar a lista com base na data de início da regra conforme definido quando a regra foi criada. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (_[!UICONTROL To:]_&#x200B;e&#x200B;_[!UICONTROL From:]_) para filtrar a lista com base na data final da regra conforme definido quando a regra foi criada. |
 
 {style="table-layout:auto"}
 

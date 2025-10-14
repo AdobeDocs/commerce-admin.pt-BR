@@ -116,7 +116,7 @@ Para restaurar um pedido cancelado, clique no botão **[!UICONTROL Reorder]** e 
 
 ### Anular um pedido
 
-Somente ordens de venda que não são faturadas, têm um status de `Processing` e uma configuração de integração de pagamento [ de `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions) podem ser [anuladas](order-update.md#void-a-processing-order). Depois de anular um pedido, você pode cancelá-lo.
+Somente ordens de venda que não são faturadas, têm um status de `Processing` e uma configuração de integração de pagamento [&#x200B; de `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions) podem ser [anuladas](order-update.md#void-a-processing-order). Depois de anular um pedido, você pode cancelá-lo.
 
 ### [!UICONTROL Order and Account Information]
 

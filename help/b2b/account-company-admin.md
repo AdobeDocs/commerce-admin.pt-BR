@@ -33,7 +33,7 @@ O administrador da empresa é atribuído inicialmente quando a conta da empresa 
 
 1. Insira o **[!UICONTROL Job Title]** do novo administrador de empresa.
 
-   Esta ação limpa o formulário e os campos obrigatórios _[!UICONTROL First Name]_&#x200B;e_[!UICONTROL Last Name]_ estão realçados.
+   Esta ação limpa o formulário e os campos obrigatórios _[!UICONTROL First Name]_&#x200B;e&#x200B;_[!UICONTROL Last Name]_ estão realçados.
 
 1. Digite o endereço **[!UICONTROL Email]** do novo administrador de empresa.
 

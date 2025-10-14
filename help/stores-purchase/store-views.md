@@ -59,7 +59,7 @@ Se sua instalação do Adobe Commerce ou Magento Open Source tiver uma configura
 
 1. Na coluna _[!UICONTROL Store View]_&#x200B;da grade, clique no nome da exibição que deseja editar.
 
-   Ao editar o modo de exibição padrão, os campos _[!UICONTROL Store]_&#x200B;e_[!UICONTROL Status]_ não estão disponíveis.
+   Ao editar o modo de exibição padrão, os campos _[!UICONTROL Store]_&#x200B;e&#x200B;_[!UICONTROL Status]_ não estão disponíveis.
 
    ![Modo de exibição de armazenamento - editar modo de exibição padrão](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

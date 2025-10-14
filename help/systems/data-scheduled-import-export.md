@@ -83,7 +83,7 @@ Após cada trabalho de importação programado, uma operação de reindexação 
 
      >[!NOTE]
      >
-     >Para os tipos de entidade _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;e_[!UICONTROL Stock Sources]_, esses comportamentos de importação são exibidos: `Add/Update`, `Replace` e `Delete`. Para os tipos de entidade _Finanças do Cliente_, _Arquivo Principal do Cliente_ e _Clientes e Endereços_, esses comportamentos de importação são exibidos: `Add/Update Complex Data`, `Delete Entities` e `Custom Action`.
+     >Para os tipos de entidade _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;e&#x200B;_[!UICONTROL Stock Sources]_, esses comportamentos de importação são exibidos: `Add/Update`, `Replace` e `Delete`. Para os tipos de entidade _Finanças do Cliente_, _Arquivo Principal do Cliente_ e _Clientes e Endereços_, esses comportamentos de importação são exibidos: `Add/Update Complex Data`, `Delete Entities` e `Custom Action`.
 
    - **[!UICONTROL Start Time]** — Defina como a hora, os minutos e os segundos em que a importação está agendada para começar.
 

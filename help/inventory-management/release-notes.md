@@ -220,9 +220,9 @@ Há suporte para o [!DNL Inventory Management] 1.1.5 (versão do módulo: `inven
 
 O [!DNL Inventory Management] 1.1.4 (versão do módulo: `inventory-composer-metapackage = 1.1.4`) é compatível com a versão 2.3.4 e com as versões 2.3.3, 2.3.2, 2.3.1 e 2.3.0 do Adobe Commerce, Adobe Commerce na infraestrutura em nuvem e Magento Open Source code base.
 
-![Problema corrigido ](../assets/fix.svg)**Aumento de desempenho.** Lógica de agrupamento introduzida para o comando da CLI de Reservas de Inventário para reduzir o uso de memória e evitar casos em que o processo fica paralisado sem resposta.
+![Problema corrigido &#x200B;](../assets/fix.svg)**Aumento de desempenho.** Lógica de agrupamento introduzida para o comando da CLI de Reservas de Inventário para reduzir o uso de memória e evitar casos em que o processo fica paralisado sem resposta.
 
-![Novo ](../assets/new.svg)**Maior cobertura de teste.** Apresentou vários novos testes funcionais. Quase todos os cenários de inventário manuais são cobertos por testes automatizados.
+![Novo &#x200B;](../assets/new.svg)**Maior cobertura de teste.** Apresentou vários novos testes funcionais. Quase todos os cenários de inventário manuais são cobertos por testes automatizados.
 
 ![Problema conhecido](../assets/bug.svg) Várias correções foram direcionadas para resolver problemas com avisos de crédito, produtos agrupados e ações de origem e de estoque em massa.
 
@@ -230,15 +230,15 @@ O [!DNL Inventory Management] 1.1.4 (versão do módulo: `inventory-composer-met
 
 Há suporte para o [!DNL Inventory Management] 1.1.3 (versão do módulo: `inventory-composer-metapackage = 1.1.3`) na versão 2.3.3 e ele é compatível com as versões 2.3.2, 2.3.1 e 2.3.0 do Adobe Commerce, Adobe Commerce na infraestrutura em nuvem e Magento Open Source code base.
 
-![Problema corrigido ](../assets/fix.svg)**Melhor integração com os recursos Adobe Commerce e B2B.** [!DNL Inventory Management] agora funciona corretamente com os seguintes recursos para sites que usam fontes e estoques de estoque não padrão:
+![Problema corrigido &#x200B;](../assets/fix.svg)**Melhor integração com os recursos Adobe Commerce e B2B.** [!DNL Inventory Management] agora funciona corretamente com os seguintes recursos para sites que usam fontes e estoques de estoque não padrão:
 
 - Fazer pedido por SKU (Adobe Commerce)
 - Ordem rápida (B2B)
 - Listas de requisições (B2B)
 
-![Novo ](../assets/new.svg)**Desempenho melhorado.O desempenho de navegação do catálogo da loja** foi aprimorado para sites que executam o estoque de estoque padrão e a fonte.
+![Novo &#x200B;](../assets/new.svg)**Desempenho melhorado.O desempenho de navegação do catálogo da loja** foi aprimorado para sites que executam o estoque de estoque padrão e a fonte.
 
-![Novo ](../assets/new.svg)**Maior cobertura de teste.** A cobertura do teste funcional e de integração automatizado aumentou significativamente.
+![Novo &#x200B;](../assets/new.svg)**Maior cobertura de teste.** A cobertura do teste funcional e de integração automatizado aumentou significativamente.
 
 ## 1.1.2
 

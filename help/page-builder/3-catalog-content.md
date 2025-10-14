@@ -310,7 +310,7 @@ Nesta etapa, você cria dois novos atributos personalizados para mostrar como os
 
    A posição dos atributos na página do produto é determinada pelo tema. No tema Luma, os novos atributos estão localizados logo após a descrição do produto.
 
-   ![[!DNL Page Builder] e atributos do Editor de Texto na loja ](./assets/pb-storefront-product-attribute.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] e atributos do Editor de Texto na loja &#x200B;](./assets/pb-storefront-product-attribute.png){width="600" zoomable="yes"}
 
 Você concluiu o exercício Conteúdo do Catálogo [!DNL Page Builder]. Manter o trabalho criado para que você possa consultá-lo posteriormente.
 

@@ -156,7 +156,7 @@ O Administrador fornece acesso para gerenciar as funcionalidades de pedidos, cli
 
 1. Clique em **[!UICONTROL Save Config]**.
 
-[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
 ## Manter acesso seguro ao Administrador
 

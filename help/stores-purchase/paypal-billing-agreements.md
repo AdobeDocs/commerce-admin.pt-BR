@@ -35,7 +35,7 @@ A página _[!UICONTROL Billing Agreements]_&#x200B;lista todos os contratos de c
 
 1. Localize o contrato de faturamento na lista e clique nele para abri-lo.
 
-Cada página de contrato de cobrança consiste em duas guias: _[!UICONTROL General Information]_&#x200B;e_[!UICONTROL Related Orders]_.
+Cada página de contrato de cobrança consiste em duas guias: _[!UICONTROL General Information]_&#x200B;e&#x200B;_[!UICONTROL Related Orders]_.
 
 #### Informações gerais
 

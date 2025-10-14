@@ -37,7 +37,7 @@ Com o Adobe Commerce ou o Magento Open Source 2.4, os comerciantes podem usar o 
 
 1. Quando solicitado, clique no link **[!UICONTROL Cache Management]** na mensagem do sistema e atualize o cache inválido.
 
-   O menu [[!UICONTROL Content] ](/help/content-design/content-menu.md) agora exibe a nova opção _[!UICONTROL Media Gallery]_.
+   O menu [[!UICONTROL Content] &#x200B;](/help/content-design/content-menu.md) agora exibe a nova opção _[!UICONTROL Media Gallery]_.
 
 >[!NOTE]
 >

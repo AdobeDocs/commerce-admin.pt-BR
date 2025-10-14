@@ -40,7 +40,7 @@ Lembre-se dos seguintes avisos:
 
 - Se uma campanha que inclui uma regra de preço for criada inicialmente sem uma data final, a campanha não poderá ser editada posteriormente para incluir uma data final. É recomendável adicionar uma data de término ao criar a campanha ou criar uma versão duplicada da campanha existente e adicionar a data de término à duplicação, conforme necessário.
 - Ao usar uma atualização agendada para habilitar uma regra de preço de carrinho com uma data final, defina a regra como desabilitada inicialmente. As regras que já estão ativas não respeitam a data final.
-- Os cupons não estão conectados às regras de preço do carrinho. Uma Atualização Agendada não fornece acesso aos campos _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_&#x200B;e_[!UICONTROL Uses per Customer]_ na guia _[!UICONTROL Rule Information]_. Além disso, todas as configurações da guia&#x200B;_[!UICONTROL Manage Coupon Codes]_ não estão disponíveis.
+- Os cupons não estão conectados às regras de preço do carrinho. Uma Atualização Agendada não fornece acesso aos campos _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_&#x200B;e&#x200B;_[!UICONTROL Uses per Customer]_ na guia _[!UICONTROL Rule Information]_. Além disso, todas as configurações da guia&#x200B;_[!UICONTROL Manage Coupon Codes]_ não estão disponíveis.
 
 >[!IMPORTANT]
 >

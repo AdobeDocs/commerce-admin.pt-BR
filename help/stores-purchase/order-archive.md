@@ -121,7 +121,7 @@ Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de c
 
 1. Defina o controle **[!UICONTROL Actions]** como `Move to Archive` e procure a mensagem de que a ordem foi arquivada.
 
-   ![Movendo ordens selecionadas para o arquivo morto ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
+   ![Movendo ordens selecionadas para o arquivo morto &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >

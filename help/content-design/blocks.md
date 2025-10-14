@@ -20,7 +20,7 @@ Você pode criar blocos personalizados de conteúdo sem escrever qualquer códig
 
 ## Demonstração de blocos estáticos e dinâmicos
 
-Saiba mais sobre [blocos estáticos e ](dynamic-blocks.md) dinâmicos assistindo a este vídeo:
+Saiba mais sobre [blocos estáticos e &#x200B;](dynamic-blocks.md) dinâmicos assistindo a este vídeo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3417365?quality=12&learn=on&captions=por_br)
 

@@ -66,7 +66,7 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
 1. No painel à esquerda, escolha **[!UICONTROL Emails and Labels]**.
 
-   ![Regra de lembrete de email - modelos de emails e rótulos ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Regra de lembrete de email - modelos de emails e rótulos &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. Na seção **[!UICONTROL Email Templates]**, escolha o modelo de email a ser usado para cada site e exibição de loja na sua [hierarquia de loja](../getting-started/websites-stores-views.md).
 

@@ -28,7 +28,7 @@ Para gerenciar o uso da persistência do carrinho de compras para o seu site ou 
 
 Quando o carrinho de compras persistente está [habilitado](#configure-a-persistent-cart), o fluxo de trabalho depende:
 
-- Os valores das configurações _[!UICONTROL Enable Remember Me]_&#x200B;e_[!UICONTROL Clear Persistence on Log Out]_
+- Os valores das configurações _[!UICONTROL Enable Remember Me]_&#x200B;e&#x200B;_[!UICONTROL Clear Persistence on Log Out]_
 - A decisão do cliente de marcar ou desmarcar a caixa de seleção _[!UICONTROL Remember Me]_
 - Quando o cookie persistente é limpo
 

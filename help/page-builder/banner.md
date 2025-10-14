@@ -50,7 +50,7 @@ A caixa de ferramentas do banner é exibida quando você passa o mouse sobre o c
 
    ![Arrastando um tipo de conteúdo de banner para o estágio](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   Os botões _[!UICONTROL Upload Image]_&#x200B;e_[!UICONTROL Select from Gallery]_ são incluídos para que você possa fazer alterações rápidas no conteúdo do banner diretamente do palco. Você também pode alterar o conteúdo na página _[!UICONTROL Edit Banner]_.
+   Os botões _[!UICONTROL Upload Image]_&#x200B;e&#x200B;_[!UICONTROL Select from Gallery]_ são incluídos para que você possa fazer alterações rápidas no conteúdo do banner diretamente do palco. Você também pode alterar o conteúdo na página _[!UICONTROL Edit Banner]_.
 
 1. Clique no espaço reservado do banner para exibir o [editor de texto](../content-design/editor.md) e inserir o conteúdo do banner.
 

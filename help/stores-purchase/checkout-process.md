@@ -144,7 +144,7 @@ Para obter uma descrição detalhada de cada uma dessas configurações, consult
 | Campo | [Escopo](../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enable Onepage Checkout] | Exibição da loja | Determina se [check-out de uma página](checkout-one-page.md) é o formato de check-out padrão. Opções: Sim / Não |
-| [!UICONTROL Allow Guest Checkout] | Exibição da loja | Determina se os convidados podem passar pelo check-out de [ sem se registrarem](checkout-guest.md) em uma conta com sua loja. Opções: `Yes` / `No` |
+| [!UICONTROL Allow Guest Checkout] | Exibição da loja | Determina se os convidados podem passar pelo check-out de [&#x200B; sem se registrarem](checkout-guest.md) em uma conta com sua loja. Opções: `Yes` / `No` |
 | [!UICONTROL Enable Terms and Conditions] | Exibição da loja | Determina se os clientes devem concordar com os [Termos e Condições](terms-and-conditions.md) da venda antes de fazer uma compra. Opções: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Exibição da loja | Determina o local do endereço de cobrança durante a finalização da compra. Opções: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Exibição da loja | Determina o número máximo de itens que podem aparecer no Resumo do pedido durante a finalização da compra. O padrão é `10`. |

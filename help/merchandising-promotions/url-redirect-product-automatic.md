@@ -44,7 +44,7 @@ Sua loja pode ser configurada para gerar automaticamente um redirecionamento per
 
 1. Encontre o produto na lista e clique em para abrir o registro.
 
-1. Expandir ![Seletor de expansão ](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization]**.
+1. Expandir ![Seletor de expansão &#x200B;](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization]**.
 
    ![Otimização do mecanismo de pesquisa do produto - redirecionamento permanente](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

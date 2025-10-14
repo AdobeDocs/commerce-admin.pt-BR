@@ -17,7 +17,7 @@ O conteúdo pode ser visualizado em termos de prazo de validade, como qualquer p
 
 O conteúdo com uma longa vida útil às vezes é chamado de _conteúdo sempre verde_. Exemplos de conteúdo permanente incluem histórias de sucesso de clientes, _como_ instruções e perguntas frequentes. Por outro lado, o conteúdo que é perecível por natureza inclui eventos, notícias do setor e press releases.
 
-![A página Sobre Nós incluída com o armazenamento Luma de exemplo ](./assets/storefront-about-us.png){width="700" zoomable="yes"}
+![A página Sobre Nós incluída com o armazenamento Luma de exemplo &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}
 
 ## Páginas de conteúdo principal
 

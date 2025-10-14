@@ -223,7 +223,7 @@ As ações de regra de preço do carrinho de compras descrevem como os preços s
 
 1. Role para baixo até **[!UICONTROL Actions]** e expanda ![Seletor de expansão](../assets/icon-display-expand.png) na seção.
 
-   ![Regra de preço do carrinho - ações ](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
+   ![Regra de preço do carrinho - ações &#x200B;](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
 
 1. Defina **[!UICONTROL Apply]** com uma das seguintes opções de desconto:
 

@@ -40,4 +40,4 @@ Se você suspeitar que o site do Adobe Commerce ou do Magento Open Source está 
 
 1. **Relatório**: se você acha que encontrou uma vulnerabilidade específica no Commerce, [abra um problema com o Adobe](https://hackerone.com/adobe?type=team) e inclua detalhes técnicos.
 
-1. **Atualização**: para obter mais tranquilidade do suporte 24 horas por dia, 7 dias por semana, planeje sua atualização para o [Adobe Commerce em nossa Arquitetura de Nuvem](https://business.adobe.com/products/magento/cloud-delivery.html) agora.
+1. **Atualização**: para obter mais tranquilidade do suporte 24 horas por dia, 7 dias por semana, planeje sua atualização para o [Adobe Commerce em nossa Arquitetura de Nuvem](https://business.adobe.com/br/products/magento/cloud-delivery.html) agora.

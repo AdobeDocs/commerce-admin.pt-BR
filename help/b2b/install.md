@@ -20,7 +20,7 @@ A extensão B2B do Adobe Commerce `magento/extension-b2b` está disponível para
 
 ## Requisitos
 
-- [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html), todas as versões com suporte
+- [Adobe Commerce](https://business.adobe.com/br/products/magento/magento-commerce.html), todas as versões com suporte
 - PHP 8.1, 8.2 e 8.3 (requer B2B 1.5.0)
 - [!DNL Composer]
 

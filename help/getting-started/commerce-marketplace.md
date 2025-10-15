@@ -109,7 +109,7 @@ Problemas de logon normalmente estão relacionados a uma incompatibilidade entre
 
 ### Perguntas sobre código aberto
 
-A equipe de Suporte do Marketplace resolve problemas relacionados somente aos sites [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envie suas dúvidas sobre o Magento Open Source para o [Fórum da Comunidade](https://community.magento.com/) ou [contate um parceiro](https://business.adobe.com/products/magento/partners.html) que possa ajudar com o Magento Open Source.
+A equipe de Suporte do Marketplace resolve problemas relacionados somente aos sites [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envie suas dúvidas sobre o Magento Open Source para o [Fórum da Comunidade](https://community.magento.com/) ou [contate um parceiro](https://business.adobe.com/br/products/magento/partners.html) que possa ajudar com o Magento Open Source.
 
 ### Solicitações de reembolso
 
@@ -143,4 +143,4 @@ Essas permissões especiais concedem o mesmo nível de acesso ao Adobe Commerce 
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/br/products/magento/magento-commerce.html

@@ -23,7 +23,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Adição das <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">notas de versão</a> do patch de segurança B2B de outubro de 2025.</p>
+      <td><p>Adição das <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/b2b/release-notes">notas de versão</a> do patch de segurança B2B de outubro de 2025.</p>
 </td>
       <td>
         Atualização importante
@@ -45,7 +45,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Foram adicionadas informações sobre como visualizar e editar <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">atributos de pedido personalizados</a> no Admin para Adobe Commerce as a Cloud Service.</p>
+      <td><p>Foram adicionadas informações sobre como visualizar e editar <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">atributos de pedido personalizados</a> no Admin para Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Atualização importante
@@ -67,7 +67,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Removido o atributo Usar para Condições de Regra Promocional da tabela "Requisitos de atributo de variação de produto" no tópico <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">Produtos configuráveis</a>.</p>
+      <td><p>Removido o atributo Usar para Condições de Regra Promocional da tabela "Requisitos de atributo de variação de produto" no tópico <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">Produtos configuráveis</a>.</p>
 </td>
       <td>
         Técnico
@@ -75,7 +75,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/7035acbe2b974ab8bdb4904e769856f0646211ea">confirmar</a></td>
     </tr>
     <tr>
-      <td><p>Adição de uma descrição de cada tipo de condição de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create">segmento de cliente</a>.</p>
+      <td><p>Adição de uma descrição de cada tipo de condição de <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/segments/customer-segment-create">segmento de cliente</a>.</p>
 </td>
       <td>
         Técnico
@@ -97,7 +97,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Remoção de documentos de recursos obsoletos do New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting">relatórios</a>.</p>
+      <td><p>Remoção de documentos de recursos obsoletos do New Relic <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/reporting/new-relic-reporting">relatórios</a>.</p>
 </td>
       <td>
         Atualização importante

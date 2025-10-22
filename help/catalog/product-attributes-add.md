@@ -3,9 +3,9 @@ title: Adicionar atributos a um produto
 description: Saiba como adicionar atributos aos produtos em seu catálogo.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
+source-git-commit: 45d69ccc1a5a6a7b8d072465c19829a76dde826d
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Embora os atributos sejam gerenciados principalmente pelo menu [Lojas](../stores
 
 ![Propriedades do atributo](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. Em _[!UICONTROL Attribute Properties]_, insira um **[!UICONTROL Attribute Label]**&#x200B;para identificar o atributo.
+1. Em _[!UICONTROL Attribute Properties]_, insira um **[!UICONTROL Attribute Label]**para identificar o atributo.
 
 1. Defina **[!UICONTROL Catalog Input Type for Store Owner]** como o tipo de [controle de entrada](attributes-input-types.md) a ser usado para entrada de dados.
 
@@ -85,7 +85,7 @@ Embora os atributos sejam gerenciados principalmente pelo menu [Lojas](../stores
 
 1. Se quiser incluir o atributo como uma coluna na grade Produtos, defina **[!UICONTROL Add to Column Options]** como `Yes`.
 
-1. Se quiser filtrar a grade _[!UICONTROL Products]_&#x200B;por esta coluna, defina **[!UICONTROL Use in Filter Options]**&#x200B;como `Yes`.
+1. Se quiser filtrar a grade _[!UICONTROL Products]_por esta coluna, defina **[!UICONTROL Use in Filter Options]**como `Yes`.
 
 ## Etapa 4: insira o rótulo do campo
 
@@ -96,6 +96,10 @@ Embora os atributos sejam gerenciados principalmente pelo menu [Lojas](../stores
    Se a loja estiver disponível em diferentes idiomas, você poderá inserir um título traduzido para cada exibição.
 
    ![Gerenciar Títulos](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   > Se você planeja usar esse atributo como uma faceta no Live Search, você deve especificar um rótulo específico da loja. Sem ele, o nome do atributo pode não ser exibido corretamente na página de configuração da faceta. Para atualizar a configuração, edite manualmente o rótulo usando a [opção de edição na lista facetada do Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) no _Guia do Live Search_.
 
 ## Etapa 5: descrever as propriedades da loja
 
@@ -115,7 +119,7 @@ Embora os atributos sejam gerenciados principalmente pelo menu [Lojas](../stores
 
    >[!NOTE]
    >
-   >Quando a configuração _[!UICONTROL Use in Search]_&#x200B;está definida como `No`, a configuração&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ não é exibida e o atributo de produto não é usado na pesquisa com nenhum valor de configuração [!UICONTROL Use in Layered Navigation].
+   >Quando a configuração _[!UICONTROL Use in Search]_está definida como `No`, a configuração_[!UICONTROL Use in Search Results Layered Navigation]_ não é exibida e o atributo de produto não é usado na pesquisa com nenhum valor de configuração [!UICONTROL Use in Layered Navigation].
 
 1. Para usar o atributo na navegação em camadas nas páginas de resultados da pesquisa, defina **[!UICONTROL Use in Search Results Layered Navigation]** como `Yes` e insira um número no campo **[!UICONTROL Position]**.
 
@@ -123,13 +127,13 @@ Embora os atributos sejam gerenciados principalmente pelo menu [Lojas](../stores
 
    >[!NOTE]
    >
-   >O campo _[!UICONTROL Position]_&#x200B;está esmaecido por padrão e você deve salvar o atributo antes de modificar essa configuração.
+   >O campo _[!UICONTROL Position]_está esmaecido por padrão e você deve salvar o atributo antes de modificar essa configuração.
 
 1. Para usar o atributo em regras de preço, defina **[!UICONTROL Use for Promo Rule Conditions]** como `Yes`.
 
 1. Para permitir que o texto seja formatado com HTML, defina **[!UICONTROL Allow HTML Tags on Storefront]** como `Yes`.
 
-   Essa configuração disponibiliza o editor WYSIWYG ao editar o campo.
+   Essa configuração disponibiliza o editor do WYSIWYG ao editar o campo.
 
 1. Para incluir o atributo na página do produto, defina **[!UICONTROL Visible on Catalog Pages on Storefront]** como `Yes`.
 

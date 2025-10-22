@@ -99,7 +99,7 @@ Embora os atributos sejam gerenciados principalmente pelo menu [Lojas](../stores
 
    >[!NOTE]
    >
-   > Se você planeja usar esse atributo como uma faceta no Live Search, você deve especificar um rótulo específico da loja. Sem ele, o nome do atributo pode não ser exibido corretamente na página de configuração da faceta. Para atualizar a configuração, edite manualmente o rótulo usando a [opção de edição na lista facetada do Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) no _Guia do Live Search_.
+   > Se você planeja usar esse atributo como uma faceta no Live Search, você deve especificar um rótulo específico da loja. Sem ele, o nome do atributo pode não ser exibido corretamente na página de configuração da faceta. Para atualizar a configuração, edite manualmente o rótulo usando a [opção de edição na lista facetada do Live Search](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) no _Guia do Live Search_.
 
 ## Etapa 5: descrever as propriedades da loja
 

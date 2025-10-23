@@ -5,10 +5,10 @@ breadcrumb-title: Guia de sistemas do administrador
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c200a46a30d51b4844fff24d864b629b8400f33
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 3%
+source-wordcount: '188'
+ht-degree: 4%
 
 ---
 
@@ -48,13 +48,15 @@ ht-degree: 3%
       - [Importar produtos baixáveis](data-transfer-downloadable-products.md)
       - [Importar dados de preço de camada](data-import-price-tier.md)
    - [Importação e exportação programadas](data-scheduled-import-export.md)
-   - [Painel de gerenciamento de dados](data-dashboard.md)
+   - Sincronização de dados para serviços do Commerce {#data-sync}
+      - [Painel de gerenciamento de dados](data-dashboard.md)
+      - [Status de sincronização do feed de dados](data-feed-sync-status.md)
 - Logs de ação {#action-logs}
    - [Visão geral](action-log.md)
    - [Relatório de logs de ação](action-log-report.md)
    - [Arquivamento de log](action-log-archive.md)
    - [Ações em massa](action-log-bulk-actions.md)
-- Ferramentas e configurações do sistema {#tools}
+- Configurações e ferramentas do sistema {#tools}
    - [Gerenciamento de cache](cache-management.md)
    - [Gerenciamento de índice](index-management.md)
    - [Backups do sistema](backups.md)
@@ -77,6 +79,6 @@ ht-degree: 3%
    - [Gerenciamento de sessão](security-session-management.md)
    - [Detecção de recursos do navegador](security-browser-capabilities-detection.md)
    - [Relatórios de problemas de segurança](security-issue-reporting.md)
-- [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
+- [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

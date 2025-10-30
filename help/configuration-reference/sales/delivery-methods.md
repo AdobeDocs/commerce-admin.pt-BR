@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Revise as configurações na página [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] do Administrador do Commerce.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '3792'
+source-wordcount: '4148'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![Taxa Uniforme](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![Envio gratuito](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![Taxas de tabela](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ![Entrega na loja](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![Configurações de Conta XML UPS](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ![Informações do Pacote UPS](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -147,19 +147,19 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | Site | Define o peso mínimo que um pacote pode ter, conforme especificado pelo UPS. Se o peso dos produtos solicitados for menor que o peso mínimo da embalagem, essa opção de envio não estará disponível. Para verificar o peso mínimo, verifique com a transportadora. |
 | [!UICONTROL Calculate Handling Fee] | Site | Define o método de cálculo da taxa de manuseio de material para remessa com taxa de tabela. Opções: <br>**`Fixed`**- A taxa de manuseio é fixa.<br>**`Percent`** - Taxa de manuseio aplicada como porcentagem do valor do pedido. |
 | [!UICONTROL Handling Applied] | Site | Especifica se a taxa de manuseio é aplicada a cada pedido ou a cada pacote dentro de um pedido. |
-| [!UICONTROL Handling Fee] | Site | Define o manuseio incluído com o preço da taxa de remessa. A taxa de manuseio pode ser definida como um valor fixo ou uma porcentagem. <br/><br/>**_Observação:_**&#x200B;se você digitar um valor percentual, use o formato decimal `0.25` para 25%. |
+| [!UICONTROL Handling Fee] | Site | Define o manuseio incluído com o preço da taxa de remessa. A taxa de manuseio pode ser definida como um valor fixo ou uma porcentagem. <br/><br/>**_Nota:_** Se estiver digitando um valor percentual, use o formato decimal `0.25` para 25%. |
 
 {style="table-layout:auto"}
 
 ![Métodos permitidos UPS](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Site | Especifica os métodos permitidos de envio UPS oferecidos aos clientes. As taxas de remessa são calculadas com base no método de remessa selecionado. |
-| [!UICONTROL Free Method] | Site | Identifica o método usado para o método de envio gratuito por meio do UPS. Para desativar o frete grátis, escolha &quot;Nenhum&quot;. <br/><br/>**_Observação:_**&#x200B;este método é semelhante ao [Envio gratuito](../../stores-purchase/shipping-free.md) básico, no entanto, ele aparece como uma opção de envio UPS durante o check-out. |
+| [!UICONTROL Free Method] | Site | Identifica o método usado para o método de envio gratuito por meio do UPS. Para desativar o frete grátis, escolha &quot;Nenhum&quot;. <br/><br/>**_Observação:_** Este método é semelhante ao [Envio gratuito](../../stores-purchase/shipping-free.md) básico, no entanto, ele aparece como uma opção de envio UPS durante o check-out. |
 | [!UICONTROL Free Shipping Amount Threshold] | Site | Determina se o frete gratuito é aplicado quando a quantidade do pedido atinge o limite de frete gratuito. Opções: `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Site | Define o valor total mínimo que um pedido deve atingir para se qualificar para remessa gratuita. |
 | [!UICONTROL Displayed Error Message] | Exibição da loja | A mensagem de erro que é exibida quando este método de envio não está disponível por algum motivo. |
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ![Países e Outras Configurações Aplicáveis ao UPS](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -195,9 +195,26 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
+Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch de qualidade de migração da API REST do USPS](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)&#x200B;(AC-1520). Este patch habilita o suporte para as APIs USPS, uma plataforma baseada em REST que substitui as APIs de Ferramentas da Web. Para obter detalhes, consulte [descontinuação da API de ferramentas da Web do USPS](../../stores-purchase/carriers.md).
+
+| Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
+|--- |--- |--- |
+| [!UICONTROL USPS Type] | Site | Escolha as **APIs Rest USPS** ou a **API Web Tools USPS** com base na qual você usará uma. |
+| [!UICONTROL Consumer Key] | Site | Sua ID de cliente da conta de remessa USPS para REST API. |
+| [!UICONTROL Consumer Secret] | Site | Sua chave secreta do cliente da conta do carregador USPS para a API REST. |
+| [!UICONTROL Account Type] | Site | Tipo de conta de pagamento USPS. Opções: `"EPS"` (Sistema de Pagamento Empresarial) ou `"PERMIT"` (Permitir Impressão) para a API REST. <br/><br/>**_Observação:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL Pricing Options] | Site | Opções de Preços USPS: **Varejo** ou **Comercial**. Afeta a taxa de remessa aplicada. O padrão é **Commercial** para REST API. |
+| [!UICONTROL Account Number] | Site | Seu **número de conta** USPS, usado para pagamento da API REST.  <br/><br/>**_Observação:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL Customer Registration Identifier(CRID)] | Site | Um número de identificação de registro do cliente (CRID) é um código numérico gerado pelo USPS que identifica exclusivamente uma empresa em um local para a API REST.  <br/><br/>**_Observação:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL Mailer Identifier(MID)] | Site | O Mailer Identifier (MID) é um campo dentro do código de barras do Intelligent Mail usado para identificar os remetentes de correio. As MIDs são atribuídas pelo USPS a um Proprietário de email, Agente de mala direta ou outro provedor de serviços que as solicita para API REST.  <br/><br/>**_Observação:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL Manifest MID] | Site | O identificador exclusivo do mensageiro designado para o manifesto da API REST.  <br/><br/>**_Observação:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL AES/ITN] | Site | USPS AES - Sistema de exportação automatizado / ITN - Número de transação interna para API REST. <br/><br/>**_Nota:_** Este campo geralmente é opcional, mas é necessário para habilitar a criação de etiquetas de remessa se: <ul><li>Cada tipo de mercadoria na remessa (conforme definido pelos Códigos de Exportação da Agenda B em <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>) é avaliado em US$ 2.500 ou menos e não requer uma licença de exportação; ou</li><li>A remessa, independentemente do valor, está sendo enviada para o Canadá e não requer uma licença de exportação.</li></ul> |
+
+{style="table-layout:auto"}
+
 ![Configurações de empacotamento da USPS](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -212,26 +229,26 @@ ht-degree: 0%
 
 ![Configurações da Taxa de Manuseio de USPS](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Site | Define o método de cálculo da taxa de manuseio de material para remessa com taxa de tabela. Opções: <br/>**`Fixed`**- A taxa de manuseio é fixa.<br/>**`Percent`** - Taxa de manuseio aplicada como porcentagem do valor do pedido. |
 | [!UICONTROL Handling Applied] | Site | Especifica se a taxa de manuseio é aplicada a cada pedido ou a cada pacote dentro de um pedido. |
-| [!UICONTROL Handling Fee] | Site | Define o manuseio incluído com o preço da taxa de remessa. A taxa de manuseio pode ser definida como um valor fixo ou uma porcentagem. <br/><br/>**_Observação:_**&#x200B;ao digitar um valor percentual, use o formato decimal `0.25` para 25%. |
+| [!UICONTROL Handling Fee] | Site | Define o manuseio incluído com o preço da taxa de remessa. A taxa de manuseio pode ser definida como um valor fixo ou uma porcentagem. <br/><br/>**_Nota:_** Ao digitar um valor percentual, use o formato decimal `0.25` para 25%. |
 
 {style="table-layout:auto"}
 
 ![Métodos permitidos pela USPS](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Site | Especifica os métodos permitidos de envio de USPS oferecidos aos clientes. As taxas de remessa são calculadas com base no método de remessa selecionado. |
-| [!UICONTROL Free Method] | Site | Define o método de envio gratuito por meio do USPS, ou pode ser desativado selecionando `None`. <br/><br/>**_Observação:_**&#x200B;este método de envio é semelhante ao método de envio gratuito de sua loja, no entanto, ele é listado como uma opção de envio USPS e identificado como envio USPS. |
+| [!UICONTROL Free Method] | Site | Define o método de envio gratuito por meio do USPS, ou pode ser desativado selecionando `None`. <br/><br/>**_Nota:_** Este método de envio é semelhante ao método de envio gratuito de sua loja, no entanto, ele é listado como uma opção de envio USPS e identificado como envio USPS. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Site | Define o valor mínimo da ordem que deve ser atendido para se qualificar para remessa gratuita. |
 | [!UICONTROL Displayed Error Message] | Exibição da loja | A mensagem de erro que aparece quando o USPS não está disponível por algum motivo. |
 
@@ -239,7 +256,7 @@ ht-degree: 0%
 
 ![Países Aplicáveis ao USPS](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -253,7 +270,7 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### Configurações de conta do FedEx
 
@@ -291,7 +308,7 @@ ht-degree: 0%
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | Site | Determina o método usado para calcular taxas de manuseio. Opções: `Fixed Fee` / `Percentage` <br/><br/>**_Observação:_**&#x200B;A taxa de tratamento é opcional e aparece como um encargo extra que é adicionado ao custo de envio da FedEx. |
+| [!UICONTROL Calculate Handling Fee] | Site | Determina o método usado para calcular taxas de manuseio. Opções: `Fixed Fee` / `Percentage` <br/><br/>**_Nota:_** A taxa de tratamento é opcional e aparece como um custo extra que é adicionado ao custo de envio da FedEx. |
 | [!UICONTROL Handling Applied] | Site | Determina como as taxas de manuseio são aplicadas. Opções: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Site | Especifica o valor cobrado como uma taxa de manuseio, com base no método usado para calcular o valor. Se o encargo for baseado em uma taxa fixa, insira o valor em formato decimal, como `4.90`. Se a taxa de manuseio for baseada em uma porcentagem do pedido, insira o valor como uma porcentagem. Por exemplo, para cobrar seis por cento do pedido, insira o valor como `.06`. |
 
@@ -306,7 +323,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | Site | Defina como um dos seguintes, dependendo se você vende B2C (Business-to-Consumer) ou B2B (Business-to-Business): <br/>**`Yes`**- Para entregas B2C<br/>**`No`** - Para entregas B2B |
 | [!UICONTROL Allowed Methods] | Site | Na lista, selecione os métodos de entrega que você suporta. Os métodos dependem da sua conta FedEx, da frequência e do tamanho das suas remessas e se você permite remessas internacionais. Como comerciante, você pode decidir oferecer apenas frete terrestre. |
 | [!UICONTROL Hub ID] | Site | Uma ID fornecida pelo FedEx usada com o método [!DNL Smart Post]. |
-| [!UICONTROL Free Method] | Site | Na lista, selecione o método de envio que você prefere usar para ofertas de frete gratuito. <br/><br/>**_Observação:_**&#x200B;este método de envio é semelhante ao método de envio gratuito normal, no entanto, ele está listado nas opções de envio do FedEx e é identificado como envio do FedEx. |
+| [!UICONTROL Free Method] | Site | Na lista, selecione o método de envio que você prefere usar para ofertas de frete gratuito. <br/><br/>**_Observação:_** Este método de envio é semelhante ao método de envio gratuito normal, no entanto, ele está listado nas opções de envio do FedEx e é identificado como envio do FedEx. |
 | [!UICONTROL Free Shipping Amount Threshold] | Site | Determina se um valor de pedido mínimo é necessário para frete grátis. Opções: <br/>**`Enable`**- Habilita o envio gratuito do FedEx para pedidos que atendem ao valor mínimo.<br/>**`Disable`** - Desabilita o envio gratuito do FedEx com pedido mínimo. |
 | [!UICONTROL Free Shipping Amount Threshold] | Site | Especifica o valor mínimo da ordem que é necessário para frete grátis. |
 | [!UICONTROL Displayed Error Message] | Exibição da loja | A mensagem que aparece quando o FedEx não está disponível por algum motivo. Você pode usar a mensagem padrão ou inserir outra. |
@@ -331,7 +348,7 @@ ht-degree: 0%
 
 ![Configurações de conta da DHL](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -347,7 +364,7 @@ ht-degree: 0%
 
 ![Configurações do Pacote DHL](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -363,7 +380,7 @@ ht-degree: 0%
 
 ![Métodos permitidos pela DHL](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -379,7 +396,7 @@ ht-degree: 0%
 
 ![Países aplicáveis da DHL](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |

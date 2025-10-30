@@ -3,9 +3,9 @@ title: Configurar etiquetas de remessa
 description: Saiba como configurar a loja para gerar etiquetas de remessa.
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ As configurações a seguir devem ser feitas no nível do produto e na configura
 
 | [!UICONTROL Carrier] | Requisitos |
 |-------|--------|
-| [USPS](usps.md) | Exige uma conta USPS. A partir de 23 de fevereiro de 2018, a USPS exige que todas as etiquetas de envio incluam a postagem. |
+| [USPS](usps.md) | Exige uma conta USPS para a postagem de etiqueta de remessa. |
 | [UPS](ups.md) | Exige uma conta UPS. As etiquetas de remessa estão disponíveis apenas para remessas originárias dos EUA. Credenciais específicas são necessárias para lojas fora dos EUA. |
 | [FedEx](fedex.md) | Exige uma conta FedEx. Para lojas fora dos EUA, as etiquetas de remessa são suportadas apenas para remessas internacionais. A FedEx não permite remessas domésticas originárias de fora dos EUA |
 | [DHL](dhl.md) | Requer uma conta DHL. As etiquetas de remessa só têm suporte para remessas originárias dos EUA. |

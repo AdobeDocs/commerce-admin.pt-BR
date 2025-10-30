@@ -3,9 +3,9 @@ title: Configuração da transportadora da remessa
 description: Saiba mais sobre o suporte para contas de remessa comercial disponível para sua loja.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Se você tiver uma conta comercial com uma operadora compatível, poderá oferec
 
 >[!NOTE]
 >
->Consulte [Commerce Marketplace](../getting-started/commerce-marketplace.md) para obter serviços de envio adicionais para a sua instalação do Commerce.
+>Consulte o [Commerce Marketplace](../getting-started/commerce-marketplace.md) para obter serviços de envio adicionais para a sua instalação do Commerce.
 
 Antes de oferecer aos clientes uma seleção de transportadoras, você deve concluir as seguintes etapas:
 
@@ -42,3 +42,20 @@ As opções de configuração variam para cada operadora. No entanto, todos exig
 1. Abra uma conta de remessa com a transportadora.
 
 1. Insira o número da conta ou a ID de usuário e o URL do gateway do sistema na configuração da loja.
+
+### Descontinuação da API de ferramentas da Web do USPS
+
+As versões 2.4.6, 2.4.7 e 2.4.8 do Adobe Commerce usam as APIs de ferramentas herdadas da Web para integração de envio pronta para uso com o USPS. A USPS introduziu as APIs USPS, uma plataforma baseada em REST para substituir as APIs herdadas das ferramentas da Web.
+
+Em 25 de janeiro de 2026, o USPS desativará as APIs de ferramentas herdadas da Web. Após essa data, todas as solicitações para as APIs de ferramentas da Web falharão.
+
+Para evitar a interrupção dos serviços de envio do USPS, execute as seguintes ações antes de 25 de janeiro de 2026:
+
+- Aplique o [patch de qualidade da migração da API REST do USPS](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)&#x200B;(AC-1520) para adicionar suporte à integração com as APIs REST do USPS.
+
+- Atualize a configuração do Commerce USPS para usar as APIs REST:
+
+   - [Configuração da Transportadora de Remessa USPS](usps.md)
+
+   - [Configuração da etiqueta de remessa](shipping-label-create.md)
+

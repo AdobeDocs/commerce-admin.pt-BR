@@ -3,9 +3,9 @@ title: 'Criar e acessar sua conta  [!DNL Commerce] '
 description: Saiba mais sobre  [!DNL Commerce] contas, que gerenciam os produtos e serviços que você adquiriu.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
+source-git-commit: 2b0959de64e139d3f652e1cd5edb744c0a8489a3
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Você pode acessar sua conta [!DNL Commerce] do site [!DNL Commerce]. No painel 
 
 O logon da conta [!DNL Commerce] é separado do logon de Administrador da loja. Normalmente, você usará credenciais diferentes para cada um, e o acesso a cada sistema é gerenciado de forma independente.
 
-No entanto, um usuário que deseja simplificar seu logon nos produtos Adobe Commerce e Adobe Business pode configurar seu Adobe ID para fazer logon no Administrador da loja: [Configurar a Integração do Administrador da Commerce com o Adobe ID](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/admin/ims/adobe-ims-config) no *Guia de Integração do IMS para o Commerce*.
+No entanto, um usuário que deseja simplificar seu logon nos produtos Adobe Commerce e Adobe Business pode configurar seu Adobe ID para fazer logon no Administrador da loja: [Configurar a Integração do Administrador da Commerce com o Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) no *Guia de Integração do IMS para o Commerce*.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ No entanto, um usuário que deseja simplificar seu logon nos produtos Adobe Comm
 
 ## Faça logon em sua conta [!DNL Commerce]
 
-Uma Adobe ID é necessária para acessar uma conta do Commerce. Se você já tiver uma conta do [!DNL Commerce], mas não tiver feito logon nessa conta desde agosto de 2022, será necessário criar uma Adobe ID durante o processo de logon.
+Uma Adobe ID é necessária para acessar sua conta da Commerce. Se você tiver uma conta existente do [!DNL Commerce], mas não tiver feito logon desde agosto de 2022, deverá criar uma Adobe ID durante o processo de logon. É necessário concluir esta etapa antes de fazer logon em sua conta.
 
 >[!WARNING]
 >

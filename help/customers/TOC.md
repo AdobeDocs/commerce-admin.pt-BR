@@ -2,10 +2,10 @@
 user-guide-title: Guia de gerenciamento de clientes
 breadcrumb-title: Gerenciamento de clientes
 feature: Customers
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: b58e5e2dc660b58be694bd7896d8596e9ef48c04
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 2%
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 2%
       + [Aplicar crédito da loja](store-credit-using.md)
       + [Armazenar crédito no painel de conta](account-dashboard-store-credit.md)
       + [Reembolsos no painel de contas](refunds-customer-account.md)
-   + Painel de conta do cliente {#storefront}
+   + Painel da conta do cliente {#storefront}
       + [Gerenciar o painel de conta](account-dashboard.md)
       + [[!UICONTROL My Account]](account-dashboard-my-account.md)
       + [[!UICONTROL Address Book]](account-dashboard-address-book.md)
@@ -55,5 +55,4 @@ ht-degree: 2%
    + [Criar e excluir segmentos de clientes](customer-segment-create.md)
    + [Segmentos do cliente em regras de preço](customer-segment-price-rule.md)
    + [Relatório de segmento do cliente](customer-segment-reports.md)
-+ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
 

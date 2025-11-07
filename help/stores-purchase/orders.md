@@ -3,9 +3,9 @@ title: Pedidos
 description: Saiba mais sobre o espaço de trabalho Pedidos e os recursos de pesquisa usados para localizar pedidos no Administrador.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Para aplicar uma ação a pedidos específicos, marque a caixa de seleção na p
 | [!UICONTROL Grand Total (Base)] | O total geral do pedido. |
 | [!UICONTROL Grand Total (Purchased)] | O total geral de produtos comprados no pedido. |
 | [!UICONTROL Status] | O status atual do pedido. |
-| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;abre a ordem no modo de edição. |
+| [!UICONTROL Action] | _[!UICONTROL View]_abre a ordem no modo de edição. |
 | [!UICONTROL Allocated sources] | As origens alocadas para essa ordem específica. |
 
 {style="table-layout:auto"}
@@ -149,7 +149,7 @@ A caixa Pesquisar no canto superior esquerdo da grade Pedidos pode ser usada par
 
 ### Filtrar a pesquisa
 
-1. Para exibir a seleção de filtros de pesquisa, clique na guia _Filtros_ ( ![Ícone de funil](../assets/icon-filter-search.png) ).
+1. Para exibir a seleção de filtros de pesquisa, clique na guia _Filtros_ ( ![ícone do Funnel](../assets/icon-filter-search.png) ).
 
    ![Solicitar Filtros](./assets/order-search-filter.png){width="600" zoomable="yes"}
 
@@ -183,9 +183,3 @@ A caixa Pesquisar no canto superior esquerdo da grade Pedidos pode ser usada par
 
 {style="table-layout:auto"}
 
-## Solução de problemas de recursos
-
-Para obter ajuda com a solução de problemas de pedidos, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
-
-- [Erro de exibição de pedidos](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=pt-BR)
-- [Pedidos não exibidos na grade Pedidos no Administrador](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

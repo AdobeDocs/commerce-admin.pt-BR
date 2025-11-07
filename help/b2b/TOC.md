@@ -5,9 +5,9 @@ breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 63585845dc51a0be31102dfe3e4b9074225c490d
+source-git-commit: 9360b43cf9b4f6d3040b40c27abf2c678a4de7c3
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '156'
 ht-degree: 6%
 
 ---
@@ -68,4 +68,4 @@ ht-degree: 6%
 + Referência {#reference}
    + [Alterações incompatíveis com versões anteriores](backward-incompatible-changes.md)
    + [Pacotes](packages.md)
-+ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
+

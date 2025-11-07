@@ -3,9 +3,9 @@ title: Programas de recompensa e fidelidade
 description: Saiba mais sobre o sistema de pontos de recompensa que você pode usar para impulsionar o engajamento do cliente e promover a fidelidade do cliente.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ O saldo de pontos de premiação pode ser atualizado no Administrador.
 
 1. Clique em **[!UICONTROL Save Customer]**.
 
-Todas as ações relacionadas a pontos de premiação são exibidas no bloco _[!UICONTROL Reward Points History]_&#x200B;do cliente em sua conta na loja.
+Todas as ações relacionadas a pontos de premiação são exibidas no bloco _[!UICONTROL Reward Points History]_do cliente em sua conta na loja.
 
 ## Descrições dos campos
 
@@ -183,8 +183,3 @@ Todas as ações relacionadas a pontos de premiação são exibidas no bloco _[!
 
 {style="table-layout:auto"}
 
-## Solução de problemas de recursos
-
-Para obter ajuda com a solução de problemas de pontos de premiação, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
-
-- Erro [404 - removendo pontos de recompensa no check-out de vários envios](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=pt-BR)

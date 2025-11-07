@@ -111,7 +111,7 @@ Para aplicar uma ação a pedidos específicos, marque a caixa de seleção na p
 | [!UICONTROL Grand Total (Base)] | O total geral do pedido. |
 | [!UICONTROL Grand Total (Purchased)] | O total geral de produtos comprados no pedido. |
 | [!UICONTROL Status] | O status atual do pedido. |
-| [!UICONTROL Action] | _[!UICONTROL View]_abre a ordem no modo de edição. |
+| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;abre a ordem no modo de edição. |
 | [!UICONTROL Allocated sources] | As origens alocadas para essa ordem específica. |
 
 {style="table-layout:auto"}

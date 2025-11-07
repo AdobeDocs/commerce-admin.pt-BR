@@ -164,7 +164,7 @@ O saldo de pontos de premiação pode ser atualizado no Administrador.
 
 1. Clique em **[!UICONTROL Save Customer]**.
 
-Todas as ações relacionadas a pontos de premiação são exibidas no bloco _[!UICONTROL Reward Points History]_do cliente em sua conta na loja.
+Todas as ações relacionadas a pontos de premiação são exibidas no bloco _[!UICONTROL Reward Points History]_&#x200B;do cliente em sua conta na loja.
 
 ## Descrições dos campos
 

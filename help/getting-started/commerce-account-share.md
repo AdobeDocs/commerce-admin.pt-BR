@@ -112,7 +112,7 @@ As instruções a seguir são escritas da perspectiva de um usuário compartilha
    > Se **[!UICONTROL Delete]** não for exibido, verifique se **[!UICONTROL Share Name]** contém o padrão de nomenclatura `Cloud Shared Access from MAG0XYZ`. Se a conta tiver esse [padrão de nomenclatura e não puder ser excluída](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), isso ocorre porque o Acesso Compartilhado foi criado por uma API, e não diretamente da [conta do Commerce](https://account.magento.com/).
    > 
    > Se não puder ser excluído, basta que o Proprietário da conta modifique a conta de Acesso compartilhado e, em Conceder permissões de conta, desmarque todos os itens. Após essa atualização, o usuário não poderá mais acessar recursos da conta.
-   > ![imagem](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > ![imagem](https://git.corp.adobe.com/AdobeDocs/commerce-admin.pt-BR/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
    > Além disso, remova os usuários do projeto para que eles não recebam mais notificações por email: [Os membros antigos da equipe recebem emails de notificação da nuvem do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 

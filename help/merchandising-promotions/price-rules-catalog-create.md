@@ -20,7 +20,7 @@ Siga estas instruções para aplicar um desconto a produtos específicos sempre 
 
 1. No canto superior direito, clique em **[!UICONTROL Add New Rule]**.
 
-   A seção _[!UICONTROL Rule Information]_inclui seções expansíveis para **[!UICONTROL Conditions]**e **[!UICONTROL Actions]**.
+   A seção _[!UICONTROL Rule Information]_&#x200B;inclui seções expansíveis para **[!UICONTROL Conditions]**&#x200B;e **[!UICONTROL Actions]**.
 
    ![Regra de preço de catálogo - informações](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 

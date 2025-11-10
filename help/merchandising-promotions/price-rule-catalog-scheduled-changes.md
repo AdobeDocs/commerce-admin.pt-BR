@@ -58,7 +58,7 @@ Se uma regra de preço ativa tiver sido criada sem uma data final e você precis
 
    >[!NOTE]
    >
-   >Ao atualizar qualquer parâmetro de informação da regra, verifique se _[!UICONTROL Status]_está definido corretamente. Se quiser que a alteração resulte em uma regra aplicada ativamente, defina o status como `Active`.
+   >Ao atualizar qualquer parâmetro de informação da regra, verifique se _[!UICONTROL Status]_&#x200B;está definido corretamente. Se quiser que a alteração resulte em uma regra aplicada ativamente, defina o status como `Active`.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
@@ -112,4 +112,4 @@ Se uma regra de preço ativa tiver sido criada sem uma data final e você precis
 
    Para ver as alterações agendadas para diferentes modos de exibição de armazenamento, clique em **[!UICONTROL Scope]** no cabeçalho da página de Visualização. Escolha o modo de exibição de site, loja ou loja que deseja visualizar.
 
-1. Se necessário, retorne ao calendário e clique em **[!UICONTROL View/Edit]** na coluna _[!UICONTROL Action]_para abrir outra atualização agendada.
+1. Se necessário, retorne ao calendário e clique em **[!UICONTROL View/Edit]** na coluna _[!UICONTROL Action]_&#x200B;para abrir outra atualização agendada.

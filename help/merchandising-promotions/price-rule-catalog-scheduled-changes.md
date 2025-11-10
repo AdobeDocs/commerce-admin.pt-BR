@@ -3,9 +3,9 @@ title: Alterações agendadas para regras de preço de catálogo
 description: Saiba como aplicar regras de preço de catálogo conforme agendado como parte de uma campanha e agrupado com outras alterações de conteúdo.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
+source-git-commit: e4c18621d0607446b48bf2447ac1a978d33ac24a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -16,21 +16,19 @@ ht-degree: 0%
 
 A caixa Alterações programadas aparece na parte superior da página quando uma nova regra de preço é salva ou atualizada. As regras de preço de catálogo podem ser aplicadas de acordo com a programação como parte de uma campanha e agrupadas com outras alterações de conteúdo. Você pode criar uma campanha com base em alterações programadas em uma regra de preço ou aplicar as alterações a uma campanha existente.
 
->[!NOTE]
->
->Os campos [!UICONTROL From] e [!UICONTROL To] foram removidos do Adobe Commerce ![Adobe Commerce](../assets/adobe-logo.svg) e não podem ser modificados diretamente na regra de preço de catálogo. Você deve criar uma atualização agendada para essas ativações.
-
->[!NOTE]
->
->Todas as atualizações programadas são aplicadas consecutivamente. Isso significa que qualquer entidade pode ter apenas uma atualização agendada em um ponto do tempo. Qualquer atualização agendada é aplicada a todas as exibições de loja dentro de seu período de tempo. Como resultado, uma entidade não pode ter atualizações agendadas diferentes para exibições de loja diferentes ao mesmo tempo. Todos os valores de atributo de entidade em todas as exibições de armazenamento, que não são afetados pela atualização agendada atual, são obtidos dos valores padrão, e não da atualização agendada anterior.
-
-Se houver várias regras de preço em execução na mesma campanha, a configuração de Prioridade da regra de preço determinará qual regra tem prioridade. Para saber mais, consulte [Preparo de conteúdo](../content-design/content-staging.md).
-
->[!IMPORTANT]
->
->Se uma campanha ativa for criada inicialmente sem uma data de término, a campanha não poderá ser editada posteriormente para incluir uma data de término. Nesse caso, é necessário criar uma campanha duplicada e inserir a data final necessária.
-
 ![Regra de preço de catálogo - alterações agendadas](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
+
+## Como funcionam as atualizações de regras de preço programadas
+
+- Todas as atualizações programadas são aplicadas consecutivamente. Isso significa que qualquer entidade pode ter apenas uma atualização agendada por vez.
+
+- Qualquer atualização agendada é aplicada a todas as exibições de loja dentro de seu período de tempo. Como resultado, uma entidade não pode ter atualizações agendadas diferentes para exibições de loja diferentes ao mesmo tempo. Todos os valores de atributo de entidade em todas as exibições de armazenamento, que não são afetados pela atualização agendada atual, são obtidos dos valores padrão, e não da atualização agendada anterior.
+
+- Se houver várias regras de preço em execução na mesma campanha, a configuração de Prioridade da regra de preço determinará qual regra tem prioridade. Para saber mais, consulte [Preparo de conteúdo](../content-design/content-staging.md).
+
+## Encerrando uma venda de regra de preço em um horário específico
+
+Se uma regra de preço ativa tiver sido criada sem uma data final e você precisar encerrá-la em um horário específico, não será possível editar a atualização programada existente para adicionar uma data final. Em vez disso, você deve criar uma nova atualização agendada que altere o status da regra para `Inactive`. Defina a data de início desta nova atualização para a data e hora em que deseja que a venda termine.
 
 ## Agendar uma atualização para uma regra de preço de catálogo
 
@@ -60,7 +58,7 @@ Se houver várias regras de preço em execução na mesma campanha, a configura�
 
    >[!NOTE]
    >
-   >Se você alterar para qualquer um dos parâmetros de informações da regra, verifique se _[!UICONTROL Status]_&#x200B;está definido corretamente. Se você quiser que a alteração resulte em uma regra aplicada ativamente, o status deverá ser `Active`.
+   >Ao atualizar qualquer parâmetro de informação da regra, verifique se _[!UICONTROL Status]_está definido corretamente. Se quiser que a alteração resulte em uma regra aplicada ativamente, defina o status como `Active`.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
@@ -68,13 +66,13 @@ Se houver várias regras de preço em execução na mesma campanha, a configura�
 
 ## Editar uma alteração de regra agendada
 
+>[!NOTE]
+>
+>Se uma campanha estiver vinculada a mais de uma regra de preço de catálogo, você só poderá editar a campanha no [Painel de Preparo de Conteúdo](../content-design/content-staging-dashboard.md).
+
 1. Na caixa **[!UICONTROL Scheduled Changes]**, na parte superior da página, clique em **[!UICONTROL View/Edit]**.
 
 1. Faça as alterações necessárias na atualização agendada.
-
-   >[!NOTE]
-   >
-   >Se uma campanha estiver vinculada a mais de uma regra de preço de catálogo, ela só poderá ser editada no [Painel de Preparo de Conteúdo](../content-design/content-staging-dashboard.md).
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -104,14 +102,14 @@ Se houver várias regras de preço em execução na mesma campanha, a configura�
 
    **Compartilhar um Link para a Visualização**
 
-   Para compartilhar um link para a visualização da loja com seus colegas, clique em **[!UICONTROL Share]**. Copie o link para a área de transferência e cole-o no corpo de uma mensagem de email.
+   Para compartilhar um link para a visualização da loja com outros usuários administradores, clique em **[!UICONTROL Share]**. Copie o link para a área de transferência e cole-o no corpo de uma mensagem de email.
 
    >[!NOTE]
    >
-   >É necessário ter uma conta de usuário Administrador para ter uma visualização compartilhada. Se a sua [função tiver acesso](../systems/permissions-user-roles.md) para criar uma conta de usuário Administrador, você deverá criar a conta para um novo usuário antes de compartilhar.
+   >Se a sua [função tiver acesso](../systems/permissions-user-roles.md) para gerenciar contas de usuário Admin, você poderá criar ou atualizar uma conta de usuário existente com permissões de Admin para compartilhar o link de visualização.
 
    **Alterar o Escopo da Visualização**
 
    Para ver as alterações agendadas para diferentes modos de exibição de armazenamento, clique em **[!UICONTROL Scope]** no cabeçalho da página de Visualização. Escolha o modo de exibição de site, loja ou loja que deseja visualizar.
 
-1. Se necessário, retorne ao calendário e clique em **[!UICONTROL View/Edit]** na coluna _[!UICONTROL Action]_&#x200B;para abrir outra atualização agendada.
+1. Se necessário, retorne ao calendário e clique em **[!UICONTROL View/Edit]** na coluna _[!UICONTROL Action]_para abrir outra atualização agendada.

@@ -131,4 +131,4 @@ ht-degree: 3%
       + [Visão geral da etiqueta de remessa](shipping-labels.md)
       + [Configurar etiquetas de remessa](shipping-label-configure.md)
       + [Criar etiquetas de remessa](shipping-label-create.md)
-+ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR)

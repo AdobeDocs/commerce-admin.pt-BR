@@ -219,7 +219,7 @@ A maioria das condições disponíveis é baseada nos valores de atributo existe
 
 Assista a este vídeo para saber mais sobre como criar regras de preço de catálogo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412504?captions=por_br&quality=12&learn=on)
 
 ## Descrições dos campos
 

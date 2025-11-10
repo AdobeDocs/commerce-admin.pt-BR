@@ -49,7 +49,7 @@ Por padrão, os [redirecionamentos automáticos de URL](url-redirect-product-aut
 
 Assista ao vídeo a seguir para saber mais sobre o gerenciamento de regravações de URL:
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411958?captions=por_br&quality=12&learn=on)
 
 ## Criar regravações de URL
 

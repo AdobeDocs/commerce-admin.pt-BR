@@ -4,9 +4,9 @@ description: Saiba como executar uma verificação de segurança aprimorada e mo
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 27c23a24b9435c5f94b483bafe5edb467aa14267
+source-git-commit: 5dd564185975216361918bda4954ed4a6fc8fee4
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -22,91 +22,137 @@ Monitore seus sites da Adobe Commerce e da Magento Open Source em busca de risco
 - Acesse relatórios históricos de segurança que rastreiam e monitoram o progresso de seus sites.
 - Acesse o relatório de varredura que mostra verificações bem-sucedidas e falhas, com qualquer ação recomendada.
 
-A Ferramenta de Verificação de Segurança está disponível gratuitamente no painel da sua [conta Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) no _Guia de Infraestrutura do Commerce na Nuvem_.
+A Ferramenta de Verificação de Segurança está disponível gratuitamente no painel da sua [conta Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) no _Guia de Infraestrutura do Commerce na Nuvem_.
 
 ![Ferramenta de Verificação de Segurança](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
-## Executar uma verificação de segurança
+## Fluxo de trabalho (WRK)
+
+Para configurar a Ferramenta de verificação de segurança no seu site do Adobe Commerce ou Magento Open Source, execute duas etapas:
+
+1. [Configurar o site para verificação de segurança](#step-1-set-up-your-site-for-security-scanning)
+2. [Configurar verificações de segurança automáticas](#step-2-configure-automatic-security-scans)
+
+### Etapa 1: configurar o site para verificação de segurança
 
 1. Na página inicial da Commerce, entre na sua [conta Commerce/Magento](../getting-started/commerce-account-create.md).
 
-1. Revise e aceite os termos para usar a Ferramenta de verificação de segurança.
+2. Revise e aceite os termos para usar a Ferramenta de verificação de segurança.
 
    1. No painel esquerdo, escolha **[!UICONTROL Security Scan]**.
    1. Clique em **[!UICONTROL Go to Security Scan]**.
    1. Leia o **[!UICONTROL Terms and Conditions]**.
    1. Clique em **[!UICONTROL Agree]** para continuar.
 
-1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL +Add Site]**.
+3. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL +Add Site]**.
 
    Se você tiver vários sites com domínios diferentes, configure uma verificação separada para cada domínio.
 
    ![Sites Monitorados](./assets/monitored-website.png){width="600" zoomable="yes"}
 
-1. Para verificar a propriedade do domínio do site adicionando um código de confirmação, siga um destes procedimentos:
+4. Verifique sua propriedade do domínio do site gerando e adicionando um código de confirmação à ferramenta de verificação de segurança.
 
-   **vitrine da Commerce**:
+   O processo para adicionar o código de confirmação varia dependendo do tipo de vitrine eletrônica que você está usando. Siga as etapas para o tipo de vitrine eletrônica.
 
-   1. Insira o **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
-   1. Clique em **[!UICONTROL Generate Confirmation Code]**.
-   1. Clique em **Copiar** para copiar seu código de confirmação para a área de transferência.
+>[!BEGINTABS]
 
-      ![Gerar Código de Confirmação](./assets/scan-site1.png){width="400" zoomable="yes"}
+>[!TAB vitrine da Commerce]
 
-   1. Faça logon no Admin da loja como um usuário com privilégios totais de administrador e faça o seguinte:
+1. Insira o **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
+1. Clique em **[!UICONTROL Generate Confirmation Code]**.
+1. Clique em **Copiar** para copiar seu código de confirmação para a área de transferência.
 
-      1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
-      1. Localize seu site na lista e clique em **[!UICONTROL Edit]**.
-      1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL HTML Head]**.
-      1. Role para baixo até **[!UICONTROL Scripts and Style Sheets]** e clique na caixa de texto ao final de qualquer código existente. Cole o código de confirmação na caixa de texto.
+   ![Gerar Código de Confirmação](./assets/scan-site1.png){width="400" zoomable="yes"}
 
-         ![Scripts e Folhas de Estilo](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+1. Faça logon no Admin da loja como um usuário com privilégios totais de administrador e faça o seguinte:
 
-      1. Quando terminar, clique em **[!UICONTROL Save Configuration]**.
+   1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+   1. Localize seu site na lista e clique em **[!UICONTROL Edit]**.
+   1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL HTML Head]**.
+   1. Role para baixo até **[!UICONTROL Scripts and Style Sheets]** e clique na caixa de texto ao final de qualquer código existente. Cole o código de confirmação na caixa de texto.
 
-   **vitrine da PWA**:
+      ![Scripts e Folhas de Estilo](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-   1. Insira o **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
+   1. Quando terminar, clique em **[!UICONTROL Save Configuration]**.
 
-   1. Para **[!UICONTROL Confirmation Code]**, escolha a opção `META Tag` e clique em **[!UICONTROL Generate Code]**.
+1. Retorne à página _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
 
-   1. Clique em **[!UICONTROL Copy]** para copiar a marca META do código de confirmação gerado para a área de transferência.
+>[!TAB vitrine da PWA]
 
-      ![Gerar Código de Confirmação](./assets/scan-site2.png){width="400" zoomable="yes"}
+1. Insira o **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
 
-   1. Vá para o diretório do projeto da loja PWA Studio e faça o seguinte:
+1. Para **[!UICONTROL Confirmation Code]**, escolha a opção `META Tag` e clique em **[!UICONTROL Generate Code]**.
 
-      1. No diretório do projeto PWA Studio, vá para `packages > venia-concept > template.html`.
-      1. Adicione o código de confirmação copiado (a tag META gerada) ao cabeçalho do HTML e salve as alterações.
+1. Clique em **[!UICONTROL Copy]** para copiar a Marca META do código de confirmação gerado para a área de transferência.
 
-         ![Copiar Código de Confirmação](./assets/code-pwa.png){width="600" zoomable="yes"}
+   ![Gerar Código de Confirmação](./assets/scan-site2.png){width="400" zoomable="yes"}
 
-      1. Volte para a CLI do PWA Studio e use o fio para instalar dependências de projeto e executar o comando build de projeto.
+1. Vá para o diretório do projeto da loja PWA Studio e faça o seguinte:
 
-         ```sh
-         yarn install &&
-         yarn build
-         ```
+   1. No diretório do projeto PWA Studio, vá para `packages > venia-concept > template.html`.
+   1. Adicione o código de confirmação copiado (a tag do META gerada) ao cabeçalho do HTML e salve as alterações.
 
-      1. *No seu projeto na nuvem*, crie uma pasta `pwa` e copie o conteúdo dentro da pasta `dist` do projeto da vitrine.
+      ![Copiar Código de Confirmação](./assets/code-pwa.png){width="600" zoomable="yes"}
 
-         ```sh
-         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
-         ```
+   1. Volte para a CLI do PWA Studio e use o fio para instalar dependências de projeto e executar o comando build de projeto.
 
-      1. Use a ferramenta Git CLI para preparar, confirmar e enviar essas alterações para o projeto na nuvem.
+      ```sh
+      yarn install &&
+      yarn build
+      ```
 
-         ```sh
-         git add . &&
-         git commit -m "Added storefront file bundles" &&
-         git push origin
-         ```
+   1. *No seu projeto na nuvem*, crie uma pasta `pwa` e copie o conteúdo dentro da pasta `dist` do projeto da vitrine.
 
-         Depois que o processo de criação for concluído, as alterações serão implantadas na loja da PWA.
+      ```sh
+      mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
+      ```
 
-1. Retorne à página _[!UICONTROL Security Scan]_&#x200B;na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**&#x200B;para estabelecer a propriedade do domínio.
+   1. Use a ferramenta Git CLI para preparar, confirmar e enviar essas alterações para o projeto na nuvem.
 
-1. Após uma confirmação bem-sucedida, configure as opções do **[!UICONTROL Set Automatic Security Scan]** para um dos seguintes tipos:
+      ```sh
+      git add . &&
+      git commit -m "Added storefront file bundles" &&
+      git push origin
+      ```
+
+      Depois que o processo de criação for concluído, as alterações serão implantadas na loja da PWA.
+
+1. Retorne à página _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
+
+>[!TAB AEM Storefront]
+
+1. Insira o **[!UICONTROL Site URL]** e **[!UICONTROL Site Name]**.
+
+1. Para **[!UICONTROL Confirmation Code]**, escolha a opção `HTML Content` ou `META Tag` e clique em **[!UICONTROL Generate Code]**.
+
+1. Clique em **[!UICONTROL Copy]** para copiar o código de confirmação gerado para a área de transferência.
+
+   ![Gerar Código de Confirmação](./assets/scan-site3.png){width="400" zoomable="yes"}
+
+1. Vá para o diretório do projeto da loja AEM e faça o seguinte:
+
+   1. No diretório do projeto da loja do AEM, vá para `head.html`.
+   1. Adicione o código de confirmação copiado (o Conteúdo do HTML gerado ou a Marca do META) ao arquivo `head.html` e salve as alterações.
+
+   ![Copiar Código de Confirmação](./assets/code-aem.png){width="600" zoomable="yes"}
+
+1. Use a ferramenta Git CLI para preparar, confirmar e enviar essas alterações para o repositório do projeto.
+
+   ```sh
+   git add . &&
+   git commit -m "Added security scan confirmation code" &&
+   git push origin
+   ```
+
+   Depois que o processo de criação for concluído, as alterações serão implantadas na loja da AEM.
+
+1. Retorne à página _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
+
+>[!ENDTABS]
+
+### Etapa 2: configurar verificações de segurança automáticas
+
+1. Após verificar com êxito a propriedade do site, configure as opções **[!UICONTROL Set Automatic Security Scan]** para um dos seguintes tipos:
 
    **Verificar Semanalmente (recomendado)**:
 
@@ -159,7 +205,7 @@ Cenários comuns nos quais você pode querer marcar uma falha de verificação c
 
 Para gerenciar as falhas de varredura identificadas como falsos positivos, siga estas etapas:
 
-1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**&#x200B;para o site que você deseja gerenciar.
+1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**para o site que você deseja gerenciar.
 
 1. Na exibição de relatório, localize a verificação com falha que deseja marcar como falso positivo.
 
@@ -169,7 +215,7 @@ Para gerenciar as falhas de varredura identificadas como falsos positivos, siga 
 
 1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
 
-A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_&#x200B;e é excluída da sua pontuação de risco.
+A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_e é excluída da sua pontuação de risco.
 
 ### Parar de ignorar falhas de verificação
 
@@ -183,7 +229,7 @@ Se precisar restaurar uma falha de varredura ignorada anteriormente para o monit
 
 1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
 
-A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_&#x200B;e é incluída na sua pontuação de risco.
+A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_e é incluída na sua pontuação de risco.
 
 ### Exibir falhas de verificação ignoradas
 

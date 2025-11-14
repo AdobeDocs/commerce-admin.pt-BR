@@ -4,9 +4,9 @@ description: Saiba como executar uma verificação de segurança aprimorada e mo
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 5dd564185975216361918bda4954ed4a6fc8fee4
+source-git-commit: 425004ece49f96fa102e9f46b9c5d15c89233334
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Monitore seus sites da Adobe Commerce e da Magento Open Source em busca de risco
 - Acesse relatórios históricos de segurança que rastreiam e monitoram o progresso de seus sites.
 - Acesse o relatório de varredura que mostra verificações bem-sucedidas e falhas, com qualquer ação recomendada.
 
-A Ferramenta de Verificação de Segurança está disponível gratuitamente no painel da sua [conta Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) no _Guia de Infraestrutura do Commerce na Nuvem_.
+A Ferramenta de Verificação de Segurança está disponível gratuitamente no painel da sua [conta Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) no _Guia de Infraestrutura do Commerce na Nuvem_.
 
 ![Ferramenta de Verificação de Segurança](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
@@ -75,7 +75,7 @@ Para configurar a Ferramenta de verificação de segurança no seu site do Adobe
 
    1. Quando terminar, clique em **[!UICONTROL Save Configuration]**.
 
-1. Retorne à página _[!UICONTROL Security Scan]_&#x200B;na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**&#x200B;para estabelecer a propriedade do domínio.
+1. Retorne à página _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
 
 >[!TAB vitrine da PWA]
 
@@ -117,7 +117,7 @@ Para configurar a Ferramenta de verificação de segurança no seu site do Adobe
 
       Depois que o processo de criação for concluído, as alterações serão implantadas na loja da PWA.
 
-1. Retorne à página _[!UICONTROL Security Scan]_&#x200B;na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**&#x200B;para estabelecer a propriedade do domínio.
+1. Retorne à página _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
 
 >[!TAB AEM Storefront]
 
@@ -134,6 +134,10 @@ Para configurar a Ferramenta de verificação de segurança no seu site do Adobe
    1. No diretório do projeto da loja do AEM, vá para `head.html`.
    1. Adicione o código de confirmação copiado (o Conteúdo do HTML gerado ou a Marca do META) ao arquivo `head.html` e salve as alterações.
 
+   >[!NOTE]
+   >
+   >A verificação da propriedade do site funciona somente se a confirmação for adicionada diretamente ao arquivo `head.html` no diretório do projeto da vitrine AEM. Ele não pode ser adicionado por meio de ferramentas de edição de página da Web, como a Criação de documentos ou o Editor universal.
+
    ![Copiar Código de Confirmação](./assets/code-aem.png){width="600" zoomable="yes"}
 
 1. Use a ferramenta Git CLI para preparar, confirmar e enviar essas alterações para o repositório do projeto.
@@ -146,7 +150,7 @@ Para configurar a Ferramenta de verificação de segurança no seu site do Adobe
 
    Depois que o processo de criação for concluído, as alterações serão implantadas na loja da AEM.
 
-1. Retorne à página _[!UICONTROL Security Scan]_&#x200B;na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**&#x200B;para estabelecer a propriedade do domínio.
+1. Retorne à página _[!UICONTROL Security Scan]_na sua conta do Commerce e clique em **[!UICONTROL Verify Confirmation Code]**para estabelecer a propriedade do domínio.
 
 >[!ENDTABS]
 
@@ -205,7 +209,7 @@ Cenários comuns nos quais você pode querer marcar uma falha de verificação c
 
 Para gerenciar as falhas de varredura identificadas como falsos positivos, siga estas etapas:
 
-1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**&#x200B;para o site que você deseja gerenciar.
+1. Na página _[!UICONTROL Monitored Websites]_, clique em **[!UICONTROL View Report]**para o site que você deseja gerenciar.
 
 1. Na exibição de relatório, localize a verificação com falha que deseja marcar como falso positivo.
 
@@ -215,7 +219,7 @@ Para gerenciar as falhas de varredura identificadas como falsos positivos, siga 
 
 1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
 
-A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_&#x200B;e é excluída da sua pontuação de risco.
+A falha de verificação ignorada é movida para a seção _[!UICONTROL Ignored Results]_e é excluída da sua pontuação de risco.
 
 ### Parar de ignorar falhas de verificação
 
@@ -229,7 +233,7 @@ Se precisar restaurar uma falha de varredura ignorada anteriormente para o monit
 
 1. Clique em **[!UICONTROL Apply Changes]** para salvar sua seleção.
 
-A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_&#x200B;e é incluída na sua pontuação de risco.
+A falha na verificação retorna à seção _[!UICONTROL Failed Scans]_e é incluída na sua pontuação de risco.
 
 ### Exibir falhas de verificação ignoradas
 

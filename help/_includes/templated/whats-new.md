@@ -23,7 +23,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Adição de documentação para a <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">extensão de Status de sincronização do feed de dados</a> para monitorar a sincronização do feed de exportação de dados do Adobe Commerce para o banco de dados SaaS da Commerce para publicação nos serviços conectados da Commerce (Live Search, Recomendações de produto, Serviço de catálogo). A página Status da sincronização de dados está disponível no menu Sistemas, no Commerce Admin.</p>
+      <td><p>Adição de documentação para a <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">extensão de Status de sincronização do feed de dados</a> para monitorar a sincronização do feed de exportação de dados do Adobe Commerce para o banco de dados SaaS da Commerce para publicação nos serviços conectados da Commerce (Live Search, Recomendações de produto, Serviço de catálogo). A página Status da sincronização de dados está disponível no menu Sistemas, no Commerce Admin.</p>
 </td>
       <td>
         Novo tópico
@@ -45,7 +45,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Adição das <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">notas de versão</a> do patch de segurança B2B de outubro de 2025.</p>
+      <td><p>Adição das <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/b2b/release-notes">notas de versão</a> do patch de segurança B2B de outubro de 2025.</p>
 </td>
       <td>
         Atualização importante
@@ -67,7 +67,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Foram adicionadas informações sobre como visualizar e editar <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">atributos de pedido personalizados</a> no Admin para Adobe Commerce as a Cloud Service.</p>
+      <td><p>Foram adicionadas informações sobre como visualizar e editar <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">atributos de pedido personalizados</a> no Admin para Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Atualização importante

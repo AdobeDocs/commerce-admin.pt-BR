@@ -22,7 +22,7 @@ Monitore seus sites da Adobe Commerce e da Magento Open Source em busca de risco
 - Acesse relatórios históricos de segurança que rastreiam e monitoram o progresso de seus sites.
 - Acesse o relatório de varredura que mostra verificações bem-sucedidas e falhas, com qualquer ação recomendada.
 
-A Ferramenta de Verificação de Segurança está disponível gratuitamente no painel da sua [conta Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) no _Guia de Infraestrutura do Commerce na Nuvem_.
+A Ferramenta de Verificação de Segurança está disponível gratuitamente no painel da sua [conta Commerce/Magento](../getting-started/commerce-account-create.md). Para obter informações técnicas, consulte [Configurar a Ferramenta de Verificação de Segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) no _Guia de Infraestrutura do Commerce na Nuvem_.
 
 ![Ferramenta de Verificação de Segurança](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Workspace [!DNL Page Builder]
 
-Quando [[!DNL Page Builder] está habilitado](setup.md), a seção _[!UICONTROL Content]_e o processo de criação de conteúdo são modificados para aproveitar as ferramentas [!DNL Page Builder] avançadas para páginas [do CMS](../content-design/page-add.md), [produtos](../catalog/product-content.md) e [categorias](../catalog/categories-content-settings.md), [blocos](../content-design/block-add.md) e [blocos dinâmicos](../content-design/dynamic-blocks.md). Esta seção inclui um campo_ Cabeçalho do Conteúdo _, uma visualização do conteúdo e acesso fácil ao espaço de trabalho [!DNL Page Builder] em tela cheia.
+Quando [[!DNL Page Builder] está habilitado](setup.md), a seção _[!UICONTROL Content]_&#x200B;e o processo de criação de conteúdo são modificados para aproveitar as ferramentas [!DNL Page Builder] avançadas para páginas [do CMS](../content-design/page-add.md), [produtos](../catalog/product-content.md) e [categorias](../catalog/categories-content-settings.md), [blocos](../content-design/block-add.md) e [blocos dinâmicos](../content-design/dynamic-blocks.md). Esta seção inclui um campo_ Cabeçalho do Conteúdo _, uma visualização do conteúdo e acesso fácil ao espaço de trabalho [!DNL Page Builder] em tela cheia.
 
 ![Seção de conteúdo com [!DNL Page Builder] visualização](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
@@ -22,15 +22,15 @@ Como os mecanismos de pesquisa procuram cabeçalhos de nível um (H1), adicionar
 
 >[!NOTE]
 >
->O campo _[!UICONTROL Content Heading]_exibido na parte superior da página é um campo herdado que oferece suporte ao conteúdo criado com versões anteriores do [!DNL Commerce]. No entanto, ele não faz parte de [!DNL Page Builder]. O [!UICONTROL Content Heading] é formatado como um cabeçalho H1 de acordo com a folha de estilos associada ao tema atual. Ele está posicionado logo acima da área de conteúdo ativa definida pelo estágio [!DNL Page Builder].
+>O campo _[!UICONTROL Content Heading]_&#x200B;exibido na parte superior da página é um campo herdado que oferece suporte ao conteúdo criado com versões anteriores do [!DNL Commerce]. No entanto, ele não faz parte de [!DNL Page Builder]. O [!UICONTROL Content Heading] é formatado como um cabeçalho H1 de acordo com a folha de estilos associada ao tema atual. Ele está posicionado logo acima da área de conteúdo ativa definida pelo estágio [!DNL Page Builder].
 
-Para obter o melhor controle sobre o posicionamento e o formato dos cabeçalhos de todos os níveis, é recomendável deixar o campo _[!UICONTROL Content Heading]_vazio e usar o tipo de conteúdo [!DNL Page Builder] [Cabeçalho](heading.md).
+Para obter o melhor controle sobre o posicionamento e o formato dos cabeçalhos de todos os níveis, é recomendável deixar o campo _[!UICONTROL Content Heading]_&#x200B;vazio e usar o tipo de conteúdo [!DNL Page Builder] [Cabeçalho](heading.md).
 
 ![Cabeçalho do conteúdo e outros cabeçalhos](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
 ## Visualização
 
-Quando você expande a seção _[!UICONTROL Content]_e há conteúdo existente criado com [!DNL Page Builder], ela exibe uma visualização do conteúdo como ele apareceria em uma página. Clique em **[!UICONTROL Edit with Page Builder]**ou dentro da área de visualização de conteúdo para abrir o espaço de trabalho [!DNL Page Builder], onde você pode fazer as atualizações necessárias.
+Quando você expande a seção _[!UICONTROL Content]_&#x200B;e há conteúdo existente criado com [!DNL Page Builder], ela exibe uma visualização do conteúdo como ele apareceria em uma página. Clique em **[!UICONTROL Edit with Page Builder]**&#x200B;ou dentro da área de visualização de conteúdo para abrir o espaço de trabalho [!DNL Page Builder], onde você pode fazer as atualizações necessárias.
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Por padrão, [!DNL Page Builder] fornece duas visualizações de visor:
 
 ### Configurações de ponto de interrupção
 
-Os botões visor também fornecem a opção para aplicar diferentes estilos de ponto de interrupção a tipos de conteúdo com base no visor selecionado. Por padrão, o [!DNL Page Builder] fornece configurações de ponto de interrupção para os campos _[!UICONTROL Minimum Height]_de Linhas, Colunas, Guias, Itens de Guia, Banners, Controles Deslizantes e Slides. Ao selecionar a janela de visualização móvel e abrir o editor para um desses tipos de conteúdo, você pode inserir valores de campo específicos para os pontos de interrupção da janela de visualização móvel. Os campos de tipo de conteúdo que permitem configurações específicas de ponto de interrupção exibem um ícone à direita do campo, semelhante ao exemplo a seguir para uma Linha:
+Os botões visor também fornecem a opção para aplicar diferentes estilos de ponto de interrupção a tipos de conteúdo com base no visor selecionado. Por padrão, o [!DNL Page Builder] fornece configurações de ponto de interrupção para os campos _[!UICONTROL Minimum Height]_&#x200B;de Linhas, Colunas, Guias, Itens de Guia, Banners, Controles Deslizantes e Slides. Ao selecionar a janela de visualização móvel e abrir o editor para um desses tipos de conteúdo, você pode inserir valores de campo específicos para os pontos de interrupção da janela de visualização móvel. Os campos de tipo de conteúdo que permitem configurações específicas de ponto de interrupção exibem um ícone à direita do campo, semelhante ao exemplo a seguir para uma Linha:
 
 ![Indicador de ícone para configuração de ponto de interrupção](./assets/pb-workspace-viewport-field-breakpoint.png){width="400"}
 
@@ -91,7 +91,7 @@ O painel [!DNL Page Builder] está localizado à esquerda do estágio e contém 
 
 ### Layout
 
-A seção _[!UICONTROL Layout]_do painel [!DNL Page Builder] é usada para adicionar linhas, colunas ou guias ao estágio. Ao arrastar um tipo de conteúdo do painel para o estágio, um contêiner é exibido com uma caixa de ferramentas de opções específicas ao tipo de conteúdo.
+A seção _[!UICONTROL Layout]_&#x200B;do painel [!DNL Page Builder] é usada para adicionar linhas, colunas ou guias ao estágio. Ao arrastar um tipo de conteúdo do painel para o estágio, um contêiner é exibido com uma caixa de ferramentas de opções específicas ao tipo de conteúdo.
 
 Por padrão, o estágio [!DNL Page Builder] está vazio. Ao arrastar tipos de conteúdo de layout do painel para o palco, você pode colocá-los acima, abaixo ou dentro de outros contêineres de layout na página. As linhas só podem ser adicionadas diretamente ao estágio.
 
@@ -107,7 +107,7 @@ Painel ![[!DNL Page Builder] com tipos de conteúdo de layout e estágio](./asse
 
 ### Elementos
 
-Use a seção _[!UICONTROL Elements]_do painel [!DNL Page Builder] para adicionar texto, cabeçalhos, botões, divisores e código HTML a qualquer contêiner de layout no [[!DNL Page Builder] estágio](workspace.md#stage). Ao arrastar um tipo de conteúdo do painel para uma linha ou coluna, ou para um conjunto de guias no palco, um container é exibido. Use a caixa de ferramentas de tipo de conteúdo para acessar as configurações específicas do tipo.
+Use a seção _[!UICONTROL Elements]_&#x200B;do painel [!DNL Page Builder] para adicionar texto, cabeçalhos, botões, divisores e código HTML a qualquer contêiner de layout no [[!DNL Page Builder] estágio](workspace.md#stage). Ao arrastar um tipo de conteúdo do painel para uma linha ou coluna, ou para um conjunto de guias no palco, um container é exibido. Use a caixa de ferramentas de tipo de conteúdo para acessar as configurações específicas do tipo.
 
 Painel ![[!DNL Page Builder] com tipos de conteúdo de Elemento](./assets/pb-elements.png){width="600" zoomable="yes"}
 
@@ -123,7 +123,7 @@ Painel ![[!DNL Page Builder] com tipos de conteúdo de Elemento](./assets/pb-ele
 
 ### Mídia
 
-Use a seção _[!UICONTROL Media]_do painel [!DNL Page Builder] para adicionar imagens, vídeo, banners, controles deslizantes e [!DNL Google Maps] a qualquer contêiner de layout no [[!DNL Page Builder] estágio](workspace.md#stage). Quando um tipo de conteúdo de mídia é arrastado do painel para o palco, um container é exibido com uma caixa de ferramentas de opções específicas ao tipo de conteúdo.
+Use a seção _[!UICONTROL Media]_&#x200B;do painel [!DNL Page Builder] para adicionar imagens, vídeo, banners, controles deslizantes e [!DNL Google Maps] a qualquer contêiner de layout no [[!DNL Page Builder] estágio](workspace.md#stage). Quando um tipo de conteúdo de mídia é arrastado do painel para o palco, um container é exibido com uma caixa de ferramentas de opções específicas ao tipo de conteúdo.
 
 Painel ![[!DNL Page Builder] com tipos de conteúdo de mídia](./assets/pb-media-content-types.png){width="600" zoomable="yes"}
 
@@ -139,7 +139,7 @@ Painel ![[!DNL Page Builder] com tipos de conteúdo de mídia](./assets/pb-media
 
 ### Adicionar conteúdo
 
-Use a seção _[!UICONTROL Add Content]_do painel [!DNL Page Builder] para adicionar conteúdo existente ao [[!DNL Page Builder] estágio](workspace.md#stage). Quando você arrasta um tipo de conteúdo de mídia do painel para o palco, um container é exibido. Use a caixa de ferramentas de tipo de conteúdo para acessar as_ Configurações _específicas do tipo.
+Use a seção _[!UICONTROL Add Content]_&#x200B;do painel [!DNL Page Builder] para adicionar conteúdo existente ao [[!DNL Page Builder] estágio](workspace.md#stage). Quando você arrasta um tipo de conteúdo de mídia do painel para o palco, um container é exibido. Use a caixa de ferramentas de tipo de conteúdo para acessar as_ Configurações _específicas do tipo.
 
 Painel ![[!DNL Page Builder] com Adicionar tipos de conteúdo](./assets/pb-add-content.png){width="600" zoomable="yes"}
 

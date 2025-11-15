@@ -2,10 +2,10 @@
 title: Adicionar e remover páginas
 description: Saiba como adicionar e remover as páginas de conteúdo usadas na sua loja  [!DNL Commerce] store.
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ As instruções a seguir orientam você em cada etapa para criar uma página bá
 ### Etapa 2: concluir o conteúdo
 
 Dependendo da sua [configuração de Ferramentas de Conteúdo Avançadas](../configuration-reference/general/content-management.md), adicione o conteúdo da página.
+
+>[!NOTE]
+>
+>O editor de conteúdo do Page Builder não mostra uma pré-visualização dos elementos da Página do CMS que não estão disponíveis para a Exibição de armazenamento padrão. Por exemplo, não é possível visualizar um bloco do CMS que é atribuído apenas a exibições de loja não padrão. Nesse caso, você deve publicar sua página do CMS primeiro. Em seguida, é possível visualizar essa página diretamente na Loja. Como alternativa, você pode exibir a página da grade [!UICONTROL Pages] no Administrador selecionando a página do CMS [!UICONTROL View] na coluna [!UICONTROL Action].
 
 #### Usar as ferramentas de conteúdo do Page Builder
 
@@ -78,7 +82,7 @@ Dependendo da sua [configuração de Ferramentas de Conteúdo Avançadas](../con
 
 1. Insira sua escolha de **[!UICONTROL Meta Keywords]** de alto valor que os mecanismos de pesquisa podem usar para indexar a página.
 
-   Separe várias palavras com uma vírgula. As palavras-chave meta são ignoradas por alguns mecanismos de pesquisa, mas usadas por outros.
+   Separe várias palavras com uma vírgula. As palavras-chave do Meta são ignoradas por alguns mecanismos de pesquisa, mas usadas por outros.
 
 1. Para **[!UICONTROL Meta Description]**, insira uma breve descrição da página para as listagens de resultados da pesquisa.
 
@@ -152,7 +156,7 @@ Dependendo da sua [configuração de Ferramentas de Conteúdo Avançadas](../con
 
 ### Etapa 8: publicar a página
 
-1. Selecione **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_&#x200B;da grade.
+1. Selecione **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_da grade.
 
 1. Defina **[!UICONTROL Enable Page]** como `Yes`.
 
@@ -207,7 +211,7 @@ Qualquer página de conteúdo pode ser usada como um modelo e salva como uma dup
 
 ## Excluir uma página
 
-Há duas maneiras de remover uma página criada. Você pode removê-lo da grade _[!UICONTROL Pages]_&#x200B;ou da página&#x200B;_[!UICONTROL Edit]_.
+Há duas maneiras de remover uma página criada. Você pode removê-lo da grade _[!UICONTROL Pages]_ou da página_[!UICONTROL Edit]_.
 
 ### Método 1: remover uma página da grade Páginas
 
@@ -225,7 +229,7 @@ Há duas maneiras de remover uma página criada. Você pode removê-lo da grade 
 
 1. Localizar a página a ser excluída.
 
-1. Na coluna _[!UICONTROL Actions]_&#x200B;da entidade de página, clique em **[!UICONTROL Select]**&#x200B;e escolha **[!UICONTROL Edit]**.
+1. Na coluna _[!UICONTROL Actions]_da entidade de página, clique em **[!UICONTROL Select]**e escolha **[!UICONTROL Edit]**.
 
 1. Na barra de botões, clique em **[!UICONTROL Delete Page]**.
 

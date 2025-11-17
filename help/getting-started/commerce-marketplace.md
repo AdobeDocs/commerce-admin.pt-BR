@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Saiba mais sobre o  [!DNL Commerce Marketplace], que oferece aos comerciantes uma seleção de soluções com curadoria e fornece aos desenvolvedores qualificados as ferramentas, a plataforma e o local ideal para criar um negócio próspero.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 7b5c331625e4c4dab0e41156722c4a8deb4aa4c0
+source-git-commit: 17ec998812d21ab5815546e0f015965c2d35c853
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Você pode criar várias chaves de acesso para diferentes propósitos e ativá-l
 
    ![Seu [!DNL Marketplace] perfil](./assets/marketplace-profile.png){width="600"}
 
-1. Na guia _[!UICONTROL Marketplace]_, em&#x200B;_[!UICONTROL My Products]_, clique em **[!UICONTROL Access Keys]** e siga um destes procedimentos:
+1. Na guia _[!UICONTROL Marketplace]_, em_[!UICONTROL My Products]_, clique em **[!UICONTROL Access Keys]** e siga um destes procedimentos:
 
    - Verifique se você já tem um conjunto de chaves de acesso para suas compras do Marketplace. É possível criar vários conjuntos de chaves de acesso para diferentes propósitos.
 
@@ -77,7 +77,7 @@ Você pode criar várias chaves de acesso para diferentes propósitos e ativá-l
 
 >[!IMPORTANT]
 >
->A partir do Adobe Commerce e do Magento Open Source 2.4.0, o Assistente de Instalação da Web é removido e você deve usar a linha de comando para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=pt-BR) ou [atualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=pt-BR) sua instância. Este requisito também inclui [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=pt-BR) e [extensões](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=pt-BR).
+>A partir do Adobe Commerce e do Magento Open Source 2.4.0, o Assistente de Instalação da Web é removido e você deve usar a linha de comando para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) ou [atualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) sua instância. Este requisito também inclui [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) e [extensões](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 O processo de instalação das compras do [!DNL Marketplace] é diferente para as instalações _locais_ do Commerce e para as instalações hospedadas na [Arquitetura da Adobe Cloud][4].
 
@@ -87,7 +87,7 @@ O processo de instalação das compras do [!DNL Marketplace] é diferente para a
 
 Se precisar de ajuda com a instalação do ou com o uso de uma extensão, verifique primeiro na documentação que acompanha a extensão. Se não conseguir encontrar a resposta para sua pergunta, use as informações de contato na lista de extensões para entrar em contato diretamente com o desenvolvedor. Se o que você comprar no Marketplace não atender às suas necessidades, você pode [solicitar reembolso](#refund-requests) em 25 dias a partir da data de compra. A Adobe analisa todas as solicitações de reembolso e (se aprovado) emite o reembolso apropriado. Para problemas relacionados ao Commerce Marketplace:
 
-Método 1: vá para o [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), navegue até a parte inferior da página e clique em [!UICONTROL Contact Us], que abrirá um formulário para enviar um tíquete.
+Método 1: envie uma solicitação de suporte do formulário [Adobe Commerce Marketplace - Fale Conosco](https://commercemarketplace.adobe.com/contact-us/).
 
 Método 2: [Suporte por email](mailto:commercemarketplacesupport@adobe.com).
 
@@ -109,7 +109,7 @@ Problemas de logon normalmente estão relacionados a uma incompatibilidade entre
 
 ### Perguntas sobre código aberto
 
-A equipe de Suporte do Marketplace resolve problemas relacionados somente aos sites [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envie suas dúvidas sobre o Magento Open Source para o [Fórum da Comunidade](https://community.magento.com/) ou [contate um parceiro](https://business.adobe.com/br/products/magento/partners.html) que possa ajudar com o Magento Open Source.
+A equipe de Suporte do Marketplace resolve problemas relacionados somente aos sites [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envie suas dúvidas sobre o Magento Open Source para o [Fórum da Comunidade](https://community.magento.com/) ou [contate um parceiro](https://business.adobe.com/products/magento/partners.html) que possa ajudar com o Magento Open Source.
 
 ### Solicitações de reembolso
 
@@ -143,4 +143,4 @@ Essas permissões especiais concedem o mesmo nível de acesso ao Adobe Commerce 
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/br/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/products/magento/magento-commerce.html

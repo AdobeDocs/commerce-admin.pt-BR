@@ -4,7 +4,7 @@ description: Revise as configurações na página [!UICONTROL Advanced] &gt; [!U
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: ac364c1b3cab3988c135ade2c6de799c915cee8c
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Para obter mais informações sobre como alterar essa configuração, consulte [
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Allow IPs (comma separated)] | Exibição da loja | Cria uma inclui na lista de permissões de endereços IP que podem usar ferramentas de desenvolvedor em um site ativo, sem interferir nos clientes da loja. Incluir na lista de permissões Quaisquer alterações no site ao usar uma ferramenta de desenvolvedor, como a _Tradução em linha_, serão visíveis somente nos endereços IP do arquivo de. |
+| [!UICONTROL Allow IPs (comma separated)] | Exibição da loja | Cria um incluo na lista de permissões de endereços IP que podem usar ferramentas de desenvolvedor em um site ativo, sem interferir com os clientes na loja. Quaisquer alterações no site ao usar uma ferramenta de desenvolvedor, como a _Tradução sequencial_, serão visíveis somente nos endereços IP do incluo na lista de permissões. |
 
 {style="table-layout:auto"}
 
@@ -78,7 +78,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Enable for Storefront] | Exibição da loja | Ativa o tradutor em linha para a loja. O texto da interface pode ser editado para cada visualização de loja. Para usar o Conversor em linha sem interferir na loja em tempo real, adicione seu endereço IP à inclui na lista de permissões de Restrições de cliente do desenvolvedor. |
+| [!UICONTROL Enable for Storefront] | Exibição da loja | Ativa o tradutor em linha para a loja. O texto da interface pode ser editado para cada visualização de loja. Para usar o Conversor em linha sem interferir na loja em tempo real, adicione seu endereço IP ao incluo na lista de permissões de Restrições do cliente do desenvolvedor. |
 | [!UICONTROL Enable for Admin] | Global | Ativa o tradutor em linha para o administrador. Ao contrário da loja, o Administrador não pode ser traduzido para vários idiomas. No entanto, os rótulos de campo e outros textos na interface podem ser alterados. |
 
 {style="table-layout:auto"}
@@ -121,7 +121,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | Global | Especifica o adaptador que é usado para renderizar imagens. Depois de alterar a configuração do adaptador, limpe o cache de imagens do catálogo. Opções: `PHP GD2` / `ImageMagick` <br/><br/>**_Observação:_**&#x200B;O tipo de arquivo ICO é suportado somente pelo adaptador ImageMagik. |
+| [!UICONTROL Image Adapter] | Global | Especifica o adaptador que é usado para renderizar imagens. Depois de alterar a configuração do adaptador, limpe o cache de imagens do catálogo. Opções: `PHP GD2` / `ImageMagick` <br/><br/>**_Nota:_** O tipo de arquivo ICO é suportado somente pelo adaptador ImageMagik. |
 
 {style="table-layout:auto"}
 

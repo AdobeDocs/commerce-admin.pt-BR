@@ -3,9 +3,9 @@ title: Configuração da transportadora da remessa
 description: Saiba mais sobre o suporte para contas de remessa comercial disponível para sua loja.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Em 25 de janeiro de 2026, o USPS desativará as APIs de ferramentas herdadas da 
 
 Para evitar a interrupção dos serviços de envio do USPS, execute as seguintes ações antes de 25 de janeiro de 2026:
 
-- Aplique o [patch de qualidade da migração da API REST do USPS](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)&#x200B;(AC-1520) para adicionar suporte à integração com as APIs REST do USPS.
+- Aplique o [patch de qualidade da Migração da API REST do USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) para adicionar suporte à integração com as APIs REST do USPS.
 
 - Atualize a configuração do Commerce USPS para usar as APIs REST:
 

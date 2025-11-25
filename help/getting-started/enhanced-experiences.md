@@ -3,7 +3,7 @@ title: Experiências aprimoradas da loja
 description: Conheça as várias ferramentas projetadas para ajudar a maximizar o engajamento, a retenção e a fidelidade do cliente.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Além dos elementos padrão que permitem aos clientes fazer compras em sua loja,
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=pt-BR)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -28,7 +28,7 @@ A Adobe Commerce e a Magento Open Source são equipadas com recursos que facilit
 
 - **URLs personalizadas** - Especifique [URLs personalizadas](../stores-purchase/store-urls.md) para torná-las curtas, limpas e fáceis de lembrar. Você também pode gerar automaticamente URLs de pesquisa simples para simplificar seu caminho de compra.
 
-- **Metadados** - Melhore as classificações do mecanismo de pesquisa escolhendo critérios específicos que ajudam os mecanismos de pesquisa a localizar e indexar seus produtos com mais facilidade. Você pode inserir [metadados](../merchandising-promotions/meta-data.md) para páginas de produto, categoria e conteúdo.
+- **Dados do Meta** - Melhore as classificações do mecanismo de pesquisa escolhendo critérios específicos que ajudam os mecanismos de pesquisa a localizar e indexar seus produtos com mais facilidade. Você pode inserir [metadados](../merchandising-promotions/meta-data.md) para páginas de produto, categoria e conteúdo.
 
 - **Mapa do site** - Link para um [mapa do site](../merchandising-promotions/sitemap-xml.md) do rodapé de sua loja para fornecer aos clientes uma visão geral da estrutura do catálogo, com links para todas as categorias e produtos na loja. Fácil integração com o Google Sitemap.
 
@@ -84,7 +84,7 @@ O Adobe Commerce e o Magento Open Source fornecem uma variedade de ferramentas p
 
 ## Otimizar os processos de negócios e a lucratividade
 
-- **[!DNL Advanced Reporting]** - Obtenha informações importantes rapidamente com os relatórios dinâmicos de produto, pedido e cliente da [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=pt-BR).
+- **[!DNL Advanced Reporting]** - Obtenha informações importantes rapidamente com os relatórios dinâmicos de produto, pedido e cliente da [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
 
 - **Instantâneos de painel** - Saber o que é de interesse no seu site é crucial para maximizar seu orçamento de marketing. Use estas [informações no seu painel](admin-dashboard.md) para determinar o que você deve fazer de venda cruzada e venda adicional para clientes fiéis ou quais produtos colocar à venda.
 

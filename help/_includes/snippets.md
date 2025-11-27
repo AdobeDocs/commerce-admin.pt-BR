@@ -13,19 +13,19 @@ ht-degree: 0%
 ## Recurso somente EE {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Recurso do Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Recurso exclusivo somente no Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR#product-editions">Saiba mais</a>)</td></tr>
+<tr><td><img alt="Recurso do Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Recurso exclusivo somente no Adobe Commerce (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Saiba mais</a>)</td></tr>
 </table>
 
 ## Recurso somente B2B {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Recurso B2B do Adobe Commerce" src="../assets/b2b.svg" width="20" height="20" /> Recurso exclusivo disponível somente com <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=pt-BR">Adobe Commerce B2B</a></td></tr>
+<tr><td><img alt="Recurso B2B do Adobe Commerce" src="../assets/b2b.svg" width="20" height="20" /> Recurso exclusivo disponível somente com <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## Recurso somente CE {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Recurso do Magento Open Source" src="../assets/open-source.svg" width="20" height="20" /> Método alternativo necessário para o Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR#product-editions">Saiba mais</a>)</td></tr>
+<tr><td><img alt="Recurso do Magento Open Source" src="../assets/open-source.svg" width="20" height="20" /> Método alternativo necessário para o Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Saiba mais</a>)</td></tr>
 </table>
 
 ## Nota de autenticação do administrador do IMS {#ims-admin-note}
@@ -56,11 +56,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->As regras de preço são processadas automaticamente com outras regras do sistema. A frequência de processamento depende da [configuração do cron](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=pt-BR). Ao criar uma regra de preço, aguarde tempo suficiente para ela entrar no sistema. Quando tiver certeza de que está no sistema, teste a regra.
+>As regras de preço são processadas automaticamente com outras regras do sistema. A frequência de processamento depende da [configuração do cron](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html). Ao criar uma regra de preço, aguarde tempo suficiente para ela entrar no sistema. Quando tiver certeza de que está no sistema, teste a regra.
 
 ## Definições de configuração {#config}
 
-Para acessar as definições de configuração de armazenamento, escolha **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;na barra lateral_ Admin _.
+Para acessar as definições de configuração de armazenamento, escolha **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**na barra lateral_ Admin _.
 
 ## Descontinuação da API UPS {#ups-api}
 
@@ -68,7 +68,7 @@ Para acessar as definições de configuração de armazenamento, escolha **[!UIC
 >
 >A partir de junho de 2024, os comerciantes do Adobe Commerce não poderão mais transacionar com a integração atual do UPS. Isso ocorre porque as APIs do United Parcel Service (UPS) usadas pela integração nativa do Adobe Commerce atualmente não oferecem suporte ao modelo de segurança OAuth 2.0 necessário. Para habilitar a integração, [crie um aplicativo na plataforma de desenvolvedor do UPS](https://developer.ups.com/get-started) para obter as credenciais necessárias para o OAuth 2.0. Use as novas credenciais como `username` e `password` na configuração de envio do UPS do Commerce. Para saber mais sobre a alteração no modelo de segurança, consulte o [Guia de Migração da Chave de Acesso ao Portal do Desenvolvedor_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
->Os comerciantes devem [aplicar uma atualização de patch de qualidade](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html?lang=pt-BR) ao seu armazenamento para migrar da API do SOAP para a API RESTful, que oferece suporte aos protocolos de autenticação OAuth 2.0.
+>Os comerciantes devem [aplicar uma atualização de patch de qualidade](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) ao seu armazenamento para migrar da API do SOAP para a API RESTful, que oferece suporte aos protocolos de autenticação OAuth 2.0.
 
 
 ## Documentação disponível {#docs-links}
@@ -76,9 +76,9 @@ Para acessar as definições de configuração de armazenamento, escolha **[!UIC
 | Recurso de documentação | Descrição |
 |----------------------- | ----------- |
 | [Guias do Usuário de Administração do Adobe Commerce 2.4](../landing/home.md) | Documentação e recursos para comerciantes que trabalham como administradores. |
-| [Serviços para a Documentação do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=pt-BR) | Documentação para dar suporte a uma coleção de serviços de merchandising que ajudam os comerciantes a integrar os principais componentes de seus negócios à loja. |
-| [Guia da Infraestrutura do Commerce na Nuvem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html?lang=pt-BR) | Procedimentos passo a passo para implantar o Adobe Commerce em uma plataforma de nuvem de hospedagem gerenciada e automatizada. |
-| [Guias Operacionais do Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=pt-BR) | Documentação de sistemas sobre os conceitos, processos, ferramentas e práticas recomendadas para desenvolver, implantar e manter o Adobe Commerce na nuvem e projetos locais. |
+| [Serviços para a Documentação do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | Documentação para dar suporte a uma coleção de serviços de merchandising que ajudam os comerciantes a integrar os principais componentes de seus negócios à loja. |
+| [Guia da Infraestrutura do Commerce na Nuvem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Procedimentos passo a passo para implantar o Adobe Commerce em uma plataforma de nuvem de hospedagem gerenciada e automatizada. |
+| [Guias Operacionais do Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentação de sistemas sobre os conceitos, processos, ferramentas e práticas recomendadas para desenvolver, implantar e manter o Adobe Commerce na nuvem e projetos locais. |
 | [Documentação do desenvolvedor do Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Documentação focada no desenvolvedor usada para personalizar o Adobe Commerce e integrar-se com sistemas de terceiros. |
 
 {style="table-layout:auto"}
@@ -87,4 +87,4 @@ Para acessar as definições de configuração de armazenamento, escolha **[!UIC
 
 >[!IMPORTANT]
 >
->O Adobe Commerce B2B versão 1.4.2+ é compatível com o PHP 8.2. Se você atualizar a instância do Commerce para a versão 2.4.7+, certifique-se de que a instância usa o PHP versão 8.2 para manter a compatibilidade com a versão B2B do Adobe Commerce. Além disso, a versão B2B 1.4.2+ não oferece suporte ao [GraphQL Application Server](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/performance-best-practices/concepts/application-server).
+>O Adobe Commerce B2B versão 1.4.2+ é compatível com o PHP 8.2. Se você atualizar a instância do Commerce para a versão 2.4.7+, certifique-se de que a instância usa o PHP versão 8.2 para manter a compatibilidade com a versão B2B do Adobe Commerce. Além disso, a versão B2B 1.4.2+ não oferece suporte ao [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).

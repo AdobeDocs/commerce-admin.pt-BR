@@ -51,7 +51,7 @@ Em 25 de janeiro de 2026, o USPS desativará as APIs de ferramentas herdadas da 
 
 Para evitar a interrupção dos serviços de envio do USPS, execute as seguintes ações antes de 25 de janeiro de 2026:
 
-- Aplique o [patch de qualidade da Migração da API REST do USPS](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) para adicionar suporte à integração com as APIs REST do USPS.
+- Aplique o [patch de qualidade da Migração da API REST do USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) para adicionar suporte à integração com as APIs REST do USPS.
 
 - Atualize a configuração do Commerce USPS para usar as APIs REST:
 

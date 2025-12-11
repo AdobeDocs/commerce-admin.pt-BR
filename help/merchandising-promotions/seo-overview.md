@@ -3,9 +3,9 @@ title: Otimização do mecanismo de pesquisa
 description: Saiba mais sobre as ferramentas de otimização de mecanismo de pesquisa (SEO) para sites do Commerce e as práticas recomendadas para SEO ideal.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: c8649d9107a92b15a1c9af8ae5d2ad0e8e34e64e
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -16,23 +16,23 @@ A _Otimização do mecanismo de pesquisa_ (SEO) é a prática de ajustar o conte
 
 >[!TIP]
 >
->Para o Adobe Commerce as a Cloud Service, consulte as [diretrizes de SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=pt-BR) na documentação da Commerce Storefront
+>Para o Adobe Commerce as a Cloud Service, consulte as [diretrizes de SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) na documentação da Commerce Storefront
 
 ## Metadados
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Saiba mais sobre como adicionar e aprimorar [metadados](meta-data.md) ricos em palavras-chave para seu site e loja.
 
 ## Uso de um mapa de site
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Um [mapa do site](sitemap-xml.md) melhora a forma como o armazenamento é indexado pelos mecanismos de pesquisa e foi projetado para localizar páginas que podem ser ignoradas pelos rastreadores da Web. Um mapa do site pode ser configurado para indexar todas as páginas e imagens.
 
 ## Substituições de URL
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 A ferramenta [Reescrita de URL](url-rewrite.md) permite alterar qualquer URL associada a um produto, categoria ou página do CMS.
 
@@ -90,8 +90,8 @@ Por padrão, o arquivo robots.txt gerado pelo Commerce contém instruções para
      |------|------------|
      | `INDEX, FOLLOW` | Instrui os rastreadores da web a indexar o site e verificar novamente mais tarde se há alterações. |
      | `NOINDEX, FOLLOW` | Instrui os rastreadores da Web a evitar a indexação do site, mas a verificar novamente mais tarde se há alterações. |
-     | `INDEX, NOFOLLOW` | Instrui os rastreadores da web a indexar o site uma vez, mas a não verificar novamente mais tarde se há alterações. |
-     | `NOINDEX, NOFOLLOW` | Instrui os rastreadores da web a evitar a indexação do site e a não verificar novamente se há alterações. |
+     | `INDEX, NOFOLLOW` | Instrui os rastreadores da Web a indexar o site uma vez, mas não siga os links na página. |
+     | `NOINDEX, NOFOLLOW` | Instrui os rastreadores da Web a evitar a indexação do site e a não seguir nenhum link na página. |
 
      {style="table-layout:auto"}
 

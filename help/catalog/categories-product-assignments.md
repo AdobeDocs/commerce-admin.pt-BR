@@ -3,16 +3,16 @@ title: Atribuições de produto de categoria
 description: Saiba mais sobre como usar as configurações do [!UICONTROL Products in Category] para controlar quais produtos estão atualmente atribuídos à categoria.
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: eb78c90debf31c8e28b3710584e6865dae1cb6a4
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Atribuições de produto de categoria
 
-Para uma categoria, use a seção _[!UICONTROL Products in Category]_&#x200B;para revisar os produtos que estão atualmente atribuídos à categoria. Os filtros de pesquisa na parte superior de cada coluna são usados para adicionar e remover produtos da categoria. Você também pode usar [regras de categoria](../merchandising-promotions/category-product-rules.md) (somente Adobe Commerce do ![Adobe Commerce](../assets/adobe-logo.svg)) para alterar dinamicamente a seleção de produtos quando um conjunto de condições é atendido. Para saber mais, consulte [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
+Para uma categoria, use a seção _[!UICONTROL Products in Category]_para revisar os produtos que estão atualmente atribuídos à categoria. Os filtros de pesquisa na parte superior de cada coluna são usados para adicionar e remover produtos da categoria. Você também pode usar [regras de categoria](../merchandising-promotions/category-product-rules.md) (somente Adobe Commerce do ![Adobe Commerce](../assets/adobe-logo.svg)) para alterar dinamicamente a seleção de produtos quando um conjunto de condições é atendido. Para saber mais, consulte [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
@@ -26,7 +26,7 @@ Para uma categoria, use a seção _[!UICONTROL Products in Category]_&#x200B;par
 
 >[!NOTE]
 >
->A coluna _Stock_ exibe a quantidade de produtos comercializáveis somente para o _&#x200B;**escopo de categoria selecionado**&#x200B;_. Quando vários estoques são gerenciados para produtos, você deve alternar entre os escopos correspondentes para exibir outros valores de coluna _Estoque_ na grade _Produtos de Categoria_.
+>A coluna _Estoque_ exibe a quantidade de produtos disponível somente para o _**escopo de categoria selecionado**_. Quando vários estoques são gerenciados para produtos, você deve alternar entre os escopos correspondentes para exibir outros valores de coluna _Estoque_ na grade _Produtos de Categoria_.
 
 ## Aplicar uma regra de categoria
 
@@ -80,7 +80,7 @@ Para uma categoria, use a seção _[!UICONTROL Products in Category]_&#x200B;par
 
 | Opção | Descrição |
 |--- |--- |
-| [!UICONTROL Attribute] | Determina o atributo usado como a base da condição. Opções: <br/>**[!UICONTROL Clone Category ID(s)]**- Clona dinamicamente produtos, sem sua classificação e ordem, de várias categorias com base na ID de Categoria.<br/>**[!UICONTROL Color]** - Inclui produtos com base na cor. <br/>**[!UICONTROL Date Created (days ago)]**- Inclui produtos com base no número de dias desde que os produtos foram adicionados ao catálogo.<br/>**[!UICONTROL Date Modified (days ago)]** - Inclui produtos com base no número de dias desde a última modificação dos produtos. <br/>**[!UICONTROL Name]**- Inclui produtos baseados no nome do produto.<br/>**[!UICONTROL Price]** - Inclui produtos com base no preço. <br/>**[!UICONTROL Quantity]**- Inclui produtos com base na quantidade em estoque.<br/>**&#x200B; SKU &#x200B;**- Inclui produtos baseados em SKU. |
+| [!UICONTROL Attribute] | Determina o atributo usado como a base da condição. Opções: <br/>**[!UICONTROL Clone Category ID(s)]**- Clona dinamicamente produtos, sem sua classificação e ordem, de várias categorias com base na ID de Categoria.<br/>**[!UICONTROL Color]** - Inclui produtos com base na cor. <br/>**[!UICONTROL Date Created (days ago)]**- Inclui produtos com base no número de dias desde que os produtos foram adicionados ao catálogo.<br/>**[!UICONTROL Date Modified (days ago)]** - Inclui produtos com base no número de dias desde a última modificação dos produtos. <br/>**[!UICONTROL Name]**- Inclui produtos baseados no nome do produto.<br/>**[!UICONTROL Price]** - Inclui produtos com base no preço. <br/>**[!UICONTROL Quantity]**- Inclui produtos com base na quantidade em estoque.<br/>** SKU **- Inclui produtos baseados em SKU. |
 | [!UICONTROL Operator] | Especifica o operador que é aplicado ao valor do atributo para atender à condição. A menos que um operador seja especificado, `Equal` é usado como padrão. Opções: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | Especifica o valor que o atributo deve ter para atender à condição. |
 | [!UICONTROL Logic] | Usado para definir várias condições e é exibido apenas quando outra condição é adicionada. Opções: `OR` / `AND` |
@@ -89,7 +89,7 @@ Para uma categoria, use a seção _[!UICONTROL Products in Category]_&#x200B;par
 
 >[!NOTE]
 >
->A quantidade de um produto configurável com opções filho é calculada combinando todas as quantidades de produtos filho dimensionáveis. Considere um exemplo de um produto configurável _Tanque de Fitness de Resistência_ com opções de cor roxa, vermelha e amarela e quantidades diferentes de cada uma. Nesse cenário, a quantidade de produto principal é a quantidade de vendas combinada dos produtos secundários de cores roxa, vermelha e amarela.
+>A quantidade de um produto configurável com opções filho é calculada combinando todas as quantidades de produtos filho. Considere um exemplo de um produto configurável _Tanque de Fitness de Resistência_ com opções de cor roxa, vermelha e amarela e quantidades diferentes de cada uma. Nesse cenário, a quantidade do produto principal é a quantidade combinada dos produtos secundários nas cores roxo, vermelho e amarelo.
 
 ## Controles
 

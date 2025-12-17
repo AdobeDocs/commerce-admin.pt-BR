@@ -3,9 +3,9 @@ title: Programas de recompensa e fidelidade
 description: Saiba mais sobre o sistema de pontos de recompensa que você pode usar para impulsionar o engajamento do cliente e promover a fidelidade do cliente.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
+source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ Os saldos de pontos de premiação podem ser gerenciados por usuários administr
 >A configuração [Taxas de Câmbio de Recompensa](reward-exchange-rates.md) é necessária para o resgate de pontos de recompensa por clientes e usuários administradores durante o check-out.
 
 Os pontos podem ser resgatados por usuários administradores e clientes (se ativados) durante o check-out. Na seção Método de Pagamento, uma caixa de seleção Usar meus Pontos de Recompensa aparece acima dos métodos de pagamento ativados. Os pontos e a taxa de câmbio monetários disponíveis estão incluídos. Se o saldo disponível for maior que o total geral do pedido, nenhum método de pagamento adicional será necessário. O número de pontos de premiação aplicado ao pedido é exibido com os totais do pedido, subtraídos do total geral, de modo semelhante a cartões de crédito ou presentes de uma loja. Se os pontos de recompensa forem usados junto com o crédito da loja ou um cartão-presente, os pontos de recompensa serão deduzidos primeiro. O cartão de crédito ou de presente da loja será deduzido se o total do pedido for maior que o número resgatável de pontos de premiação.
+
+>[!NOTE]
+>
+>Os pontos de recompensa e o crédito de armazenamento não reduzem a base tributável do pedido. O imposto é calculado sobre o subtotal antes da aplicação desses descontos. Os pontos ou crédito só reduzem o valor final que o cliente paga.
 
 >[!NOTE]
 >
@@ -164,7 +168,7 @@ O saldo de pontos de premiação pode ser atualizado no Administrador.
 
 1. Clique em **[!UICONTROL Save Customer]**.
 
-Todas as ações relacionadas a pontos de premiação são exibidas no bloco _[!UICONTROL Reward Points History]_&#x200B;do cliente em sua conta na loja.
+Todas as ações relacionadas a pontos de premiação são exibidas no bloco _[!UICONTROL Reward Points History]_do cliente em sua conta na loja.
 
 ## Descrições dos campos
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: e84a4e23702b9e6ed67fa2d7f7055e96d236fc35
+source-git-commit: 2a886a368b849a7921e313ae63a242dffaaed7fa
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ bundle exec rake images:optimize path=../path/to/images
 
 ## Configuração
 
-Os ganchos usam o arquivo de configuração `_jekyll/.image_optim` para personalizar as configurações de otimização:
+Os ganchos usam o arquivo de configuração `_jekyll/.image_optim.yml` para personalizar as configurações de otimização:
 
 - **PNG**: usa `advpng`, `optipng` e `pngquant`
 - **JPEG**: Usa `jhead`, `jpegoptim` e `jpegtran`
@@ -120,12 +120,12 @@ Os ganchos usam o arquivo de configuração `_jekyll/.image_optim` para personal
 ### Falhas de otimização
 
 - Verificar se `bundle install` foi executado no diretório `_jekyll`
-- Verifique se as gems `image_optim` e `image_optim_pack` estão instaladas
-- Revise o arquivo de configuração `.image_optim`
+- Verificar se a gem `adobe-comdox-exl-rake-tasks` está instalada (fornece `image_optim`)
+- Revise o arquivo de configuração `.image_optim.yml`
 
 ### Problemas de desempenho
 
-- Ajustar contagem de threads em `_jekyll/.image_optim`
+- Ajustar contagem de threads em `_jekyll/.image_optim.yml`
 - Defina a variável de ambiente `DEBUG=1` para obter informações detalhadas sobre o erro
 
 ## Como funciona

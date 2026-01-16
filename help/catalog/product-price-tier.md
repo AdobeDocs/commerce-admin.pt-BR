@@ -56,7 +56,7 @@ Os preços na loja têm prioridade da quantidade mais alta para a mais baixa. Se
 
      >[!NOTE]
      >
-     >Para obter o preço com desconto, a porcentagem definida é calculada em relação ao valor definido no campo _[!UICONTROL Price]_, não no campo_[!UICONTROL Special Price]_.
+     >Para obter o preço com desconto, a porcentagem definida é calculada em relação ao valor definido no campo _[!UICONTROL Price]_, não no campo&#x200B;_[!UICONTROL Special Price]_.
 
      ![Preço da camada como uma porcentagem](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 

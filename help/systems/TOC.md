@@ -80,4 +80,4 @@ ht-degree: 4%
    - [Gerenciamento de sessão](security-session-management.md)
    - [Detecção de recursos do navegador](security-browser-capabilities-detection.md)
    - [Relatórios de problemas de segurança](security-issue-reporting.md)
-- [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR)

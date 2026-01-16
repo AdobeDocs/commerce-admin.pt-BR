@@ -3,9 +3,9 @@ title: Nível de preços
 description: Saiba como usar o preço de camada para oferecer um desconto por quantidade de uma lista de produtos ou página de produtos.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Os preços na loja têm prioridade da quantidade mais alta para a mais baixa. Se
 
      >[!NOTE]
      >
-     >Para obter o preço com desconto, a porcentagem definida é calculada em relação ao valor definido no campo _[!UICONTROL Price]_, não no campo&#x200B;_[!UICONTROL Special Price]_.
+     >Para obter o preço com desconto, a porcentagem definida é calculada em relação ao valor definido no campo _[!UICONTROL Price]_, não no campo_[!UICONTROL Special Price]_.
 
      ![Preço da camada como uma porcentagem](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -73,3 +73,46 @@ Os preços na loja têm prioridade da quantidade mais alta para a mais baixa. Se
 >[!NOTE]
 >
 >**_Preço Fixo_** O produto de Opções Personalizáveis _não_ é afetado pelas regras de Preço de Grupo, Preço de Camada, Preço Especial ou Preço de Catálogo.
+
+## Habilitar preço de camada para regras de preço de catálogo
+
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+
+[!BADGE Sandbox]{type=Caution tooltip="Os itens listados estão disponíveis atualmente apenas em ambientes de sandbox. A Adobe disponibiliza novas versões em ambientes de sandbox primeiro para fornecer tempo para que você teste as alterações futuras antes que a versão esteja disponível em ambientes de produção."}
+
+Em versões anteriores do Commerce, o preço por camada não podia ser usado em conjunto com as regras de preço do catálogo. As regras de catálogo ignoraram a configuração de preço de camada e calcularam descontos somente do preço base original. Usando o Adobe Commerce as a Cloud Service, agora é possível optar por incluir preços de camada no cálculo das regras de preço do catálogo.
+
+Para ativar essa funcionalidade:
+
+1. Navegue até **[!UICONTROL Stores]** > *[!UICONTROL Settings]* > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Promotions]** e defina o campo **[!UICONTROL Apply Catalog Price Rule on Grouped Price]** como **[!UICONTROL Yes]**.
+
+   ![Habilitar preços de camada para regras de preço de catálogo](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
+
+1. Defina um preço de camada com uma quantidade de `1` para cada grupo de clientes específico ou catálogo compartilhado (como `Wholesale`, `Retail` ou grupo definido pelo comerciante) que deseja direcionar com as regras de preço de catálogo. O grupo de clientes `ALL GROUPS` e o catálogo compartilhado `Default` não podem ser usados para essa finalidade. A precificação de camada não está habilitada para nenhum grupo que não tenha um preço de camada definido com uma quantidade de `1`.
+
+1. Defina preços de camada adicionais com quantidades maiores que `1`, conforme necessário. Esses preços de nível adicionais serão aplicados como de costume quando o cliente adicionar quantidades adicionais do produto ao carrinho de compras. As regras de preço de catálogo não se aplicam a esses preços de nível adicionais.
+
+Para ilustrar como a precificação por camada funciona com as regras de preço de catálogo ao comprar um único produto, considere o seguinte exemplo:
+
+- O preço base padrão de um produto é US$ 100.
+- Um preço de camada é definido para o grupo de clientes `Wholesale` com uma quantidade de `1` e um preço fixo de US$ 90.
+- Uma regra de preço de catálogo fornece um desconto de 10% para o grupo de clientes `Wholesale`.
+
+Quando a camada de preços está habilitada para regras de preço de catálogo, o sistema usa o seguinte fluxo para calcular o preço final:
+
+1. Antes de o cliente fazer logon, o preço do produto é exibido como US$ 100 (o preço base padrão).
+
+1. Depois que o cliente fizer logon como membro do grupo `Wholesale`, o preço do produto será ajustado para US$ 90 (o preço de camada do grupo `Wholesale`).
+
+1. A regra de preço de catálogo é aplicada, fornecendo um desconto de 10% no preço de camada de 90 USD, resultando em um preço final de 81 USD.
+
+A tabela a seguir resume cálculos de preço quando a precificação por camada está ativada para regras de preço de catálogo e uma regra de preço de catálogo fornece um desconto de 10% para todos os grupos de clientes:
+
+Produto: Preço Padrão US$ 100 (Compra de Item Único)
+
+| Grupo de Clientes | Preço da camada (Qtde.=1) | Novo Preço Base | Preço final |
+|---|---|---|---|
+| TODOS OS GRUPOS | Não configurado | $ 100 | US$ 100 - 10% = US$ 90 |
+| Atacado | Fixo: US$ 85 | $ 85 | US$ 85 a 10% = US$ 76,50 |
+| Retailer | Desconto de 20% | $ 80 | US$ 80 a 10% = US$ 72,00 |
+| VIP | Desconto de 15% | $ 85 | US$ 85 a 10% = US$ 76,50 |

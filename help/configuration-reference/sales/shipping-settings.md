@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
 description: Revise as configurações na página [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] do Administrador do Commerce.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 2%
+source-wordcount: '222'
+ht-degree: 1%
 
 ---
 
@@ -39,5 +39,23 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 |--- |--- |--- |
 | [!UICONTROL Apply Custom Shipping Policy] | Site | Determina se a política de envio aparece durante o check-out. Opções: `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | Exibição da loja | Contém a política de remessa como texto. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Shipment Tracking URLs]
+
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+
+[!BADGE Sandbox]{type=Caution tooltip="Os itens listados estão disponíveis atualmente apenas em ambientes de sandbox. A Adobe disponibiliza novas versões em ambientes de sandbox primeiro para fornecer tempo para que você teste as alterações futuras antes que a versão esteja disponível em ambientes de produção."}
+
+![Parâmetros da Política de Remessa](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
+
+| Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
+|--- |--- |--- |
+| [!UICONTROL Enable Custom Tracking URLs] | Exibição da loja | Determina se os números de rastreamento de remessa enviados em emails do comprador são links ou texto sem formatação. O valor padrão de `No` indica que os números são texto simples. Opções: `Yes` / `No` |
+| [!UICONTROL USPS Tracking URL] | Exibição da loja | O modelo de URL para remessas do Serviço Postal dos Estados Unidos. |
+| [!UICONTROL UPS Tracking URL] | Exibição da loja | O modelo de URL para remessas do United Parcel Service. |
+| [!UICONTROL FedEx Tracking URL] | Exibição da loja | O modelo de URL para remessas do Federal Express. |
+| [!UICONTROL DHL Tracking URL] | Exibição da loja | O modelo de URL para remessas DHL Express. |
 
 {style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront]'
 description: Revise as configurações na página [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront] do Administrador do Commerce.
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Antes de configurar o Google reCAPTCHA, verifique se o arquivo `PHP.ini` inclui a seguinte configuração: `allow_url_fopen = 1`. Isso pode exigir ajuda do desenvolvedor. Consulte [Configurações do PHP](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=pt-BR) no _Guia de Instalação_.
+>Antes de configurar o Google reCAPTCHA, verifique se o arquivo `PHP.ini` inclui a seguinte configuração: `allow_url_fopen = 1`. Isso pode exigir ajuda do desenvolvedor. Consulte [Configurações do PHP](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) no _Guia de Instalação_.
 
 {{config}}
 
@@ -60,6 +60,27 @@ Para obter mais informações sobre como usar o Google reCAPTCHA para proteger s
 | [!UICONTROL Invisible Badge Position] | Site | A posição do selo reCAPTCHA invisível em cada página. Opções: `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | Site | Determina o estilo da caixa do reCAPTCHA do Google. Opções: `Light Theme` (padrão) / `Dark Theme` |
 | [!UICONTROL Language Code] | Exibição de loja | Um [código de dois caracteres](https://developers.google.com/recaptcha/docs/language) que especifica o idioma usado para texto e mensagens do Google reCAPTCHA. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL reCAPTCHA Enterprise]
+
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+
+[!BADGE Sandbox]{type=Caution tooltip="Os itens listados estão disponíveis atualmente apenas em ambientes de sandbox. A Adobe disponibiliza novas versões em ambientes de sandbox primeiro para fornecer tempo para que você teste as alterações futuras antes que a versão esteja disponível em ambientes de produção."}
+
+![reCAPTCHA v3 Empresa](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
+
+| Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
+|--|--|--|
+| [!UICONTROL Site Key] | Site | A chave do site criada quando você registra sua conta do Google reCAPTCHA Enterprise. |
+| [!UICONTROL Google Cloud Project ID] | Site | A ID do projeto é exibida na seção **Informações do projeto** no painel do projeto. |
+| [!UICONTROL Service Account JSON] | Site | Baixe a chave da conta de serviço do console do Google Cloud e cole seu conteúdo nesse campo. |
+| [!UICONTROL Minimum Score Threshold] | Site | A pontuação mínima que identifica uma interação do usuário como um risco potencial, onde 1,0 é uma interação típica do usuário e 0,0 provavelmente é um bot. Padrão: `0.5` |
+| [!UICONTROL Badge Position] | Site | A posição do selo reCAPTCHA invisível em cada página. Opções: `Inline` / `Bottom Right` / `Bottom Left` |
+| [!UICONTROL Theme] | Site | Determina o estilo da caixa do reCAPTCHA do Google. Opções: `Light Theme` (padrão) / `Dark Theme` |
+| [!UICONTROL Language Code] | Exibição de loja | Um [código de dois caracteres](https://developers.google.com/recaptcha/docs/language) que especifica o idioma usado para texto e mensagens do Google reCAPTCHA. Deixe o campo em branco para usar o idioma padrão do navegador do usuário. |
+| [!UICONTROL Validation Failure Message] | Exibição de loja | Uma mensagem a ser exibida quando a validação falhar. |
 
 {style="table-layout:auto"}
 

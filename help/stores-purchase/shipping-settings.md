@@ -3,9 +3,9 @@ title: Configurações de envio
 description: Saiba como definir as configurações de envio que definem o ponto de origem e a política de envio para sua loja.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,7 @@ As opções de entrega de vários endereços permitem que os clientes entreguem 
 
 ## URLs de rastreamento de remessa de email
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
-
-[!BADGE Sandbox]{type=Caution tooltip="Os itens listados estão disponíveis atualmente apenas em ambientes de sandbox. A Adobe disponibiliza novas versões em ambientes de sandbox primeiro para fornecer tempo para que você teste as alterações futuras antes que a versão esteja disponível em ambientes de produção."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Por padrão, os números de rastreamento de remessa enviados em emails do comprador são texto simples. Você pode converter esses números de rastreamento em links clicáveis ativando o recurso de URL de rastreamento personalizado. Esse recurso permite definir um modelo para URLs de rastreamento para várias transportadoras. Cada modelo inclui o URL completo para o site de rastreamento e um espaço reservado para o número de rastreamento. O Commerce substitui o espaço reservado pelo número de rastreamento real no email.
 

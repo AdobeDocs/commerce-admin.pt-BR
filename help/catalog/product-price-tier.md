@@ -76,7 +76,7 @@ Os preços na loja têm prioridade da quantidade mais alta para a mais baixa. Se
 
 ## Habilitar preço de camada para regras de preço de catálogo
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Em versões anteriores do Commerce, o preço por camada não podia ser usado em conjunto com as regras de preço do catálogo. As regras de catálogo ignoraram a configuração de preço de camada e calcularam descontos somente do preço base original. Usando o Adobe Commerce as a Cloud Service, agora é possível optar por incluir preços de camada no cálculo das regras de preço do catálogo.
 

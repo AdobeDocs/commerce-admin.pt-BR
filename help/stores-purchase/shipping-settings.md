@@ -84,7 +84,7 @@ As opções de entrega de vários endereços permitem que os clientes entreguem 
 
 ## URLs de rastreamento de remessa de email
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Por padrão, os números de rastreamento de remessa enviados em emails do comprador são texto simples. Você pode converter esses números de rastreamento em links clicáveis ativando o recurso de URL de rastreamento personalizado. Esse recurso permite definir um modelo para URLs de rastreamento para várias transportadoras. Cada modelo inclui o URL completo para o site de rastreamento e um espaço reservado para o número de rastreamento. O Commerce substitui o espaço reservado pelo número de rastreamento real no email.
 

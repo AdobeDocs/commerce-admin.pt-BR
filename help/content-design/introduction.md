@@ -19,7 +19,7 @@ Seu conteúdo deve refletir a identidade visual de sua loja e ser entregue com s
 
 O Adobe Commerce e o Magento Open Source fornecem muitas opções de design fáceis de usar que você pode usar para fazer alterações simples na sua loja. Há também muitos temas profissionalmente projetados disponíveis no [Commerce Marketplace](../getting-started/commerce-marketplace.md). Como o curativo da janela da loja, você pode alterar o tema da temporada ou de uma promoção.
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Os designers de armazenamento mais avançados apreciam a flexibilidade de trabalhar com um ambiente orientado a objetos que monta páginas de componentes separados. Depois de entender o básico, você vai apreciar trabalhar em um ambiente tão flexível e fluido. Para saber mais, consulte o [Guia do Desenvolvedor de Front-end](https://developer.adobe.com/commerce/frontend-core/guide/).
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Os designers de armazenamento mais avançados apreciam a flexibilidade de trabalhar com um ambiente orientado a objetos que monta páginas de componentes separados. Depois de entender o básico, você vai apreciar trabalhar em um ambiente tão flexível e fluido. Para saber mais, consulte o [Guia do Desenvolvedor de Front-end](https://developer.adobe.com/commerce/frontend-core/guide/).
 
 ### Configuração
 
@@ -31,7 +31,7 @@ O [tema](themes.md) determina a apresentação visual do armazenamento e consist
 
 ### Cronograma
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Os temas podem ser ativados por um período específico, de acordo com um [agendamento](schedule.md). Use a programação para planejar alterações de tema com antecedência para uma temporada ou promoção.
 

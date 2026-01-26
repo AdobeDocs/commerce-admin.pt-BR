@@ -43,7 +43,7 @@ Os seguintes recursos fornecem um ponto de partida para que os novos participant
 
 ## [!DNL Marketplace] credenciais
 
-Antes de instalar uma extensão adquirida do [!DNL Commerce Marketplace], entre na sua conta do [!DNL Commerce] e verifique se você tem uma chave de acesso ativa. Você pode entrar na sua conta do [!DNL Commerce] a partir do cabeçalho do [[!DNL Marketplace]](https://marketplace.magento.com/) ou do [Magento.com](https://business.adobe.com/products/magento/magento-commerce.html).
+Antes de instalar uma extensão adquirida do [!DNL Commerce Marketplace], entre na sua conta do [!DNL Commerce] e verifique se você tem uma chave de acesso ativa. Você pode entrar na sua conta do [!DNL Commerce] a partir do cabeçalho do [[!DNL Marketplace]](https://marketplace.magento.com/) ou do [Magento.com](https://business.adobe.com/br/products/magento/magento-commerce.html).
 
 Sua chave de acesso é um conjunto de chaves públicas e privadas usadas para sincronizar sua instalação do [!DNL Commerce] com sua conta do [!DNL Commerce] e verificar suas credenciais. Depois que sua conta for sincronizada, você deverá inserir sua chave privada sempre que instalar uma extensão ou um módulo do Commerce Marketplace ou atualizar sua instalação do [!DNL Commerce].
 
@@ -77,7 +77,7 @@ Você pode criar várias chaves de acesso para diferentes propósitos e ativá-l
 
 >[!IMPORTANT]
 >
->A partir do Adobe Commerce e do Magento Open Source 2.4.0, o Assistente de Instalação da Web é removido e você deve usar a linha de comando para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) ou [atualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) sua instância. Este requisito também inclui [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) e [extensões](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>A partir do Adobe Commerce e do Magento Open Source 2.4.0, o Assistente de Instalação da Web é removido e você deve usar a linha de comando para [instalar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=pt-BR) ou [atualizar](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=pt-BR) sua instância. Este requisito também inclui [módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=pt-BR) e [extensões](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=pt-BR).
 
 O processo de instalação das compras do [!DNL Marketplace] é diferente para as instalações _locais_ do Commerce e para as instalações hospedadas na [Arquitetura da Adobe Cloud](https://www.adobe.com/commerce/magento/enterprise.html).
 
@@ -109,7 +109,7 @@ Problemas de logon normalmente estão relacionados a uma incompatibilidade entre
 
 ### Perguntas sobre código aberto
 
-A equipe de Suporte do Marketplace resolve problemas relacionados somente aos sites [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envie suas dúvidas sobre o Magento Open Source para o [Fórum da Comunidade](https://community.magento.com/) ou [contate um parceiro](https://business.adobe.com/products/magento/partners.html) que possa ajudar com o Magento Open Source.
+A equipe de Suporte do Marketplace resolve problemas relacionados somente aos sites [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Envie suas dúvidas sobre o Magento Open Source para o [Fórum da Comunidade](https://community.magento.com/) ou [contate um parceiro](https://business.adobe.com/br/products/magento/partners.html) que possa ajudar com o Magento Open Source.
 
 ### Solicitações de reembolso
 

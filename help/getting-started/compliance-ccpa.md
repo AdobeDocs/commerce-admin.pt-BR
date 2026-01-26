@@ -111,8 +111,8 @@ Faça o inventário de suas propriedades digitais, incluindo todas as integraç�
 
 1. Consulte os seguintes tópicos para obter diagramas de fluxo de dados aplicáveis e mapeamentos de entidade de banco de dados para cada versão:
 
-   - [Referência de informações pessoais (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-   - [Referência de informações pessoais (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+   - [Referência de informações pessoais (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=pt-BR)
+   - [Referência de informações pessoais (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=pt-BR)
 
    ![diagrama](./assets/privacy-frontend-diagram.svg)
 

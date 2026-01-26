@@ -40,7 +40,7 @@ O PCI (Payment Card Industry, setor de cartões de crédito e débito) estabelec
 
 ![caixa de seleção](../assets/checkbox.png) - Mantenha uma política que atenda à segurança das informações.
 
-Para saber mais, consulte [Abordagem da Adobe para conformidade com PCI](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
+Para saber mais, consulte [Abordagem da Adobe para conformidade com PCI](https://business.adobe.com/br/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >

@@ -18,7 +18,7 @@ Os pacotes de idiomas podem ser encontrados em [Traduções e localização](htt
 
 ## Etapa 1: instalar um pacote de idiomas
 
-Siga as instruções padrão para instalar a extensão de pacote de idiomas. Para obter informações detalhadas sobre a instalação de uma extensão, consulte [Instalação geral da CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) no _Guia de Extensões_.
+Siga as instruções padrão para instalar a extensão de pacote de idiomas. Para obter informações detalhadas sobre a instalação de uma extensão, consulte [Instalação geral da CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=pt-BR) no _Guia de Extensões_.
 
 ## Etapa 2: criar uma exibição de loja para o idioma
 

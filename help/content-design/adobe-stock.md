@@ -3,7 +3,7 @@ title: Integração do Adobe Stock
 description: Integre o Adobe Stock com sua instância  [!DNL Commerce]  para acessar inúmeros ativos de mídia para uso em sua loja.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
 workflow-type: tm+mt
 source-wordcount: '400'
@@ -28,7 +28,7 @@ Essa integração exige:
 
 O licenciamento de imagens do Adobe Stock exige:
 
-- Uma [conta do Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- Uma [conta do Adobe](https://helpx.adobe.com/br/manage-account/using/access-adobe-id-account.html)
 - Um plano pago [Adobe Stock](https://stock.adobe.com) associado à conta
 
 ## Integrar o [!DNL Commerce] e o Adobe Stock

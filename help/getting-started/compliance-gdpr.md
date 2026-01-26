@@ -3,9 +3,9 @@ title: Conformidade com o GDPR
 description: Saiba mais sobre o Regulamento Geral sobre a Proteção de Dados (GDPR), que é uma legislação que regula a proteção de dados e a privacidade de todos os indivíduos na União Europeia e no Espaço Econômico Europeu.
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Essas informações são um tópico de uma série para ajudar os comerciantes e desenvolvedores da Adobe Commerce e do Magento Open Source a compreender as implicações do Regulamento Geral sobre a Proteção de Dados (GDPR). As informações destinam-se apenas a fins informativos e não devem ser interpretadas como aconselhamento jurídico. Para determinar se e como sua empresa deve cumprir quaisquer obrigações legais, consulte seu advogado.
+>Essas informações são um tópico de uma série para ajudar os comerciantes e desenvolvedores da Adobe Commerce e da Magento Open Source a entender as implicações do Regulamento Geral sobre a Proteção de Dados (GDPR). As informações destinam-se apenas a fins informativos e não devem ser interpretadas como aconselhamento jurídico. Para determinar se e como sua empresa deve cumprir quaisquer obrigações legais, consulte seu advogado.
 
 O Regulamento Geral sobre a Proteção de Dados (GDPR) é uma legislação que regula a proteção de dados e a privacidade de todos os indivíduos na União Europeia e no Espaço Econômico Europeu. A legislação também se aplica à exportação de dados pessoais para fora da UE. O RGPD foi adotado em abril de 2016 e tornou-se aplicável em 25 de maio de 2018. As empresas que não têm sede na UE, mas que exercem uma atividade comercial global, são obrigadas a cumprir o regulamento. O GDPA define **dados pessoais** da seguinte maneira:
 
@@ -37,7 +37,7 @@ Se sua empresa precisa estar em conformidade com o GDPR e a [Lei de Privacidade 
 - A CCPA tem requisitos adicionais de inventário e mapeamento de dados.
 - Os regulamentos têm requisitos de política de privacidade diferentes.
 
-As empresas que estiverem em conformidade com o GDPR podem ter obrigações adicionais nos termos da CCPA. Para saber mais, consulte a [Planilha da CCPA][3]{:target=&quot;_blank&quot;}.
+As empresas que estiverem em conformidade com o GDPR podem ter obrigações adicionais nos termos da CCPA. Para saber mais, consulte a [Planilha da CCPA](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
 
 ## Práticas recomendadas
 
@@ -47,10 +47,6 @@ As empresas que estiverem em conformidade com o GDPR podem ter obrigações adic
 
 - Mantenha a transparência e a documentação completa.
 
-- Para saber como o Adobe ajuda os comerciantes a cumprir as obrigações legais aplicáveis, visite o [site][1]{:target=&quot;_blank&quot;}.
+- Para saber como a Adobe ajuda os comerciantes a cumprir as obrigações legais aplicáveis, visite o [site](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- Para obter diagramas de fluxo de dados e mapeamento de entidades de banco de dados, consulte a [Referência de informações pessoais][2]{: target=&quot;_blank&quot;}.
-
-[1]: https://business.adobe.com/br/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=pt-BR
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
+- Para obter diagramas de fluxo de dados e mapeamento de entidades de banco de dados, consulte a [Referência de informações pessoais](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.

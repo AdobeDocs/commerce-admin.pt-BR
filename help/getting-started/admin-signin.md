@@ -3,7 +3,7 @@ title: Sua conta de usuário Admin
 description: Saiba mais sobre sua conta de administrador e como usar a autenticação de dois fatores para fazer logon no Administrador.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Para maior segurança, você pode determinar quais partes do _Administrador_ cad
 
 ### Etapa 1: configurar autenticação de dois fatores
 
-Antes de entrar no _Admin_ de seu armazenamento, você deve ter uma solução de autenticação de dois fatores configurada e pronta para uso. Para saber mais sobre o processo de autenticação usado por cada solução, consulte [Usando a Autenticação de Dois Fatores](../systems/security-two-factor-authentication-use.md). Por padrão, o [!DNL Commerce] oferece suporte ao [Google Authenticator][1].
+Antes de entrar no _Admin_ de seu armazenamento, você deve ter uma solução de autenticação de dois fatores configurada e pronta para uso. Para saber mais sobre o processo de autenticação usado por cada solução, consulte [Usando a Autenticação de Dois Fatores](../systems/security-two-factor-authentication-use.md). Por padrão, o [!DNL Commerce] oferece suporte ao [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US).
 
 Pergunte ao administrador do sistema do [!DNL Commerce] quais soluções 2FA são compatíveis com o armazenamento. Em seguida, conclua a configuração da solução 2FA de sua preferência, de acordo com as instruções do provedor.
 
@@ -110,7 +110,7 @@ Não é permitida a reutilização das quatro últimas senhas atribuídas à con
 
    ![Sair](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-A página _[!UICONTROL Sign In]_&#x200B;exibe uma mensagem informando que você está desconectado. Saia do_ Admin _sempre que deixar o computador sem supervisão.
+A página _[!UICONTROL Sign In]_exibe uma mensagem informando que você está desconectado. Saia do_ Admin _sempre que deixar o computador sem supervisão.
 
 ## Editar informações da conta
 
@@ -156,13 +156,12 @@ O Administrador fornece acesso para gerenciar as funcionalidades de pedidos, cli
 
 1. Clique em **[!UICONTROL Save Config]**.
 
-[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
 ## Manter acesso seguro ao Administrador
 
 Para garantir a segurança do seu administrador, faça auditorias regulares de usuários e funções com acesso de administrador.
 
-Além disso, considere [atualizar a configuração da URL Base do Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/config/advanced/admin#admin-base-url) para alterar o ponto de extremidade padrão `/admin` para um caminho personalizado. A configuração de um caminho personalizado oferece os seguintes benefícios de segurança:
+Além disso, considere [atualizar a configuração da URL Base do Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) para alterar o ponto de extremidade padrão `/admin` para um caminho personalizado. A configuração de um caminho personalizado oferece os seguintes benefícios de segurança:
 
 **Segurança aprimorada**: o caminho &quot;admin&quot; padrão é amplamente conhecido e frequentemente alvo de ataques à força bruta por parte de agentes mal-intencionados. Ao alterá-lo para um valor único e personalizado, você reduz significativamente o risco de tentativas de acesso não autorizadas.
 
@@ -174,4 +173,4 @@ Além disso, considere [atualizar a configuração da URL Base do Administrador]
 
 >[!NOTE]
 >
->Se houver suspeita de violação, remova todos os usuários administradores desconhecidos, redefina todas as senhas de administradores e examine o [Plano de ação de segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security) para obter mais etapas.
+>Se houver suspeita de violação, remova todos os usuários administradores desconhecidos, redefina todas as senhas de administradores e examine o [Plano de ação de segurança](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) para obter mais etapas.

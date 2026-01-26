@@ -3,9 +3,9 @@ title: Elementos - Código HTML
 description: Saiba mais sobre o tipo de conteúdo do Código HTML, usado para adicionar trechos de código HTML, CSS e JavaScript no estágio  [!DNL Page Builder] .
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Use o tipo de conteúdo _Código HTML_ para adicionar trechos de código HTML, C
 
 ## Adicionar código HTML
 
-O exemplo a seguir demonstra como incorporar o código [Google Font][1] e declarar classes de cabeçalho personalizadas que substituem a folha de estilos atual.
+O exemplo a seguir demonstra como incorporar o código [Google Font](https://fonts.google.com/) e declarar classes de cabeçalho personalizadas que substituem a folha de estilos atual.
 
 ### Etapa 1: Escolher uma fonte do Google
 
-1. Visite o site [Google Fonts][1] e escolha a família de fontes que deseja usar.
+1. Visite o site [Google Fonts](https://fonts.google.com/) e escolha a família de fontes que deseja usar.
 
 1. Copie o código gerado que deve ser incorporado na seção `<head>` da página e cole-o temporariamente em um editor de texto.
 
@@ -84,7 +84,7 @@ O exemplo a seguir demonstra como incorporar o código [Google Font][1] e declar
 
 ### Etapa 3: visualizar a página
 
-1. Na seção _[!UICONTROL Currently Active]_, defina **[!UICONTROL Enable Page]**&#x200B;como `Yes`.
+1. Na seção _[!UICONTROL Currently Active]_, defina **[!UICONTROL Enable Page]**como `Yes`.
 
    ![Habilitando a página](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ O exemplo a seguir demonstra como incorporar o código [Google Font][1] e declar
    | Inserir imagem... | Clique para inserir uma imagem carregada ou uma imagem da Galeria na posição do cursor na caixa de texto HTML. |
    | Inserir variável... | Clique em para inserir uma variável na posição do cursor na caixa de texto do HTML. |
 
-1. Atualize as configurações de _[!UICONTROL Advanced]_&#x200B;conforme necessário.
+1. Atualize as configurações de _[!UICONTROL Advanced]_conforme necessário.
 
    - Para controlar o posicionamento do código no contêiner pai, escolha um **[!UICONTROL Alignment]**:
 
@@ -163,6 +163,5 @@ O exemplo a seguir demonstra como incorporar o código [Google Font][1] e declar
      | [!UICONTROL Margins] | A quantidade de espaço em branco aplicada à borda externa de todos os lados do container. Opções: `Top` / `Right` / `Bottom` / `Left` |
      | [!UICONTROL Padding] | A quantidade de espaço em branco aplicada à borda interna de todos os lados do contêiner. Opções: `Top` / `Right` / `Bottom` / `Left` |
 
-[1]: https://fonts.google.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

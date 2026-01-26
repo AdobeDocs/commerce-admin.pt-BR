@@ -3,7 +3,7 @@ title: Elementos - Divisor
 description: Saiba mais sobre o tipo de conteúdo Divider, usado para adicionar uma regra como uma quebra visual entre seções de conteúdo no estágio  [!DNL Page Builder] .
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Embora a maioria dos contêineres divisores seja invisível, o exemplo a seguir 
 
 1. Altere o divisor **[!UICONTROL Line Color]** usando um dos seguintes métodos:
 
-   - Insira um [nome de cor do HTML][1] válido. Por exemplo, `Teal`.
+   - Insira um [nome de cor do HTML](https://en.wikipedia.org/wiki/Web_colors) válido. Por exemplo, `Teal`.
    - Insira o valor de cor hexadecimal. Por exemplo, `#008080`.
 
    Quando terminar, clique em **[!UICONTROL Apply]**.
@@ -73,7 +73,7 @@ Embora a maioria dos contêineres divisores seja invisível, o exemplo a seguir 
 
    ![Definindo a cor, a espessura e a largura da linha](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Atualize as configurações de _[!UICONTROL Advanced]_&#x200B;conforme necessário.
+1. Atualize as configurações de _[!UICONTROL Advanced]_conforme necessário.
 
    - Para controlar o posicionamento do divisor no contêiner pai, escolha o **[!UICONTROL Alignment]**:
 
@@ -156,6 +156,5 @@ Para um divisor formatado com configurações específicas, é mais eficiente fa
 
    ![Movendo o divisor duplicado para a posição](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
-[1]: https://en.wikipedia.org/wiki/Web_colors
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -2,8 +2,8 @@
 title: Adicionar blocos de conteúdo
 description: Crie blocos personalizados de conteúdo que você pode reutilizar em qualquer página ou em outro bloco.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -91,8 +91,6 @@ Há duas maneiras de remover um bloco personalizado. Você pode removê-lo da gr
 
   ![Controle deslizante do Page Builder](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 
-  Há também uma grande variedade de lightboxes de imagem baseadas em jQuery disponíveis em [[!DNL Commerce Marketplace]][1], e algumas estão livres.
+  Há também uma grande variedade de lightboxes de imagem baseadas em jQuery disponíveis em [[!DNL Commerce Marketplace]](https://marketplace.magento.com/extensions.html?q=lightbox), e algumas estão livres.
 
 - Você também pode baixar uma extensão do [!DNL Commerce Marketplace]. Para obter ajuda adicional, consulte a documentação fornecida pelo desenvolvedor da extensão.
-
-[1]: https://marketplace.magento.com/extensions.html?q=lightbox

@@ -3,10 +3,10 @@ title: PayPal Payflow Pro
 description: Saiba como configurar o PayPal Payflow Pro como uma solução de pagamento online em sua loja.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ O gateway PayPal Payflow Pro, anteriormente conhecido como _Verisign_, está dis
 
 ## Requisitos
 
-- [Conta Comercial do PayPal][1] - O gateway PayPal Payflow Pro vincula a conta do comerciante no PayPal ao site do comerciante, atuando como uma conta de gateway e de comerciante.
+- [Conta Comercial do PayPal](https://www.paypal.com/webapps/mpp/how-to-sell-online) - O gateway PayPal Payflow Pro vincula a conta do comerciante no PayPal ao site do comerciante, atuando como uma conta de gateway e de comerciante.
 
 - Se você gerenciar vários sites do Adobe Commerce e do Magento Open Source, deverá ter uma conta de comerciante do PayPal separada para cada site.
 
@@ -37,7 +37,7 @@ O gateway PayPal Payflow Pro, anteriormente conhecido como _Verisign_, está dis
 ## Fluxo de trabalho de processamento de pedidos online
 
 1. **O administrador envia uma fatura online** - O administrador de loja envia uma fatura online e, como resultado, uma transação e uma fatura correspondentes são criadas.
-1. **PayPal recebe a transação** - As informações da ordem são enviadas para PayPal. Um registro da transação e uma fatura são gerados. Você pode exibir todas as transações do Payflow Pro Gateway em sua [conta de comerciante do PayPal][2].
+1. **PayPal recebe a transação** - As informações da ordem são enviadas para PayPal. Um registro da transação e uma fatura são gerados. Você pode exibir todas as transações do Payflow Pro Gateway em sua [conta de comerciante do PayPal](https://manager.paypal.com/).
 
 >[!NOTE]
 >
@@ -45,9 +45,9 @@ O gateway PayPal Payflow Pro, anteriormente conhecido como _Verisign_, está dis
 
 ## Configurar sua conta do PayPal
 
-1. Faça logon em sua [conta comercial do PayPal][2].
+1. Faça logon em sua [conta comercial do PayPal](https://manager.paypal.com/).
 
-1. Configure as [Páginas de Check-out Hospedadas][4] usando o PayPal Manager com as seguintes configurações:
+1. Configure as [Páginas de Check-out Hospedadas](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager) usando o PayPal Manager com as seguintes configurações:
 
    - Em **[!UICONTROL Choose your settings]**, defina **[!UICONTROL Transaction Process Mode]** como `Live`.
 
@@ -114,7 +114,7 @@ Este método de configuração pressupõe que você tenha uma conta existente do
 
 1. Se a sua instalação do Commerce tiver vários sites, lojas ou modos de exibição, defina **[!UICONTROL Store View]** para o modo de exibição de loja onde deseja aplicar essa configuração.
 
-1. Na seção _[!UICONTROL Merchant Location]_, selecione o **[!UICONTROL Merchant Country]**&#x200B;onde sua empresa está localizada.
+1. Na seção _[!UICONTROL Merchant Location]_, selecione o **[!UICONTROL Merchant Country]**onde sua empresa está localizada.
 
    Esta configuração determina a seleção das Soluções do PayPal que aparecem na configuração.
 
@@ -144,7 +144,7 @@ Este método de configuração pressupõe que você tenha uma conta existente do
 
 1. Para executar transações de teste, defina **[!UICONTROL Test Mode]** como `Yes`.
 
-   Ao testar a configuração em uma sandbox, use apenas [números de cartão de crédito][3] recomendados pelo PayPal. Quando estiver pronto para entrar na produção, volte para a configuração e defina o Modo de Teste como `No`.
+   Ao testar a configuração em uma sandbox, use apenas [números de cartão de crédito](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) recomendados pelo PayPal. Quando estiver pronto para entrar na produção, volte para a configuração e defina o Modo de Teste como `No`.
 
 1. Se o sistema usar um servidor proxy para estabelecer a conexão com o sistema PayPal, defina **[!UICONTROL Use Proxy]** como `Yes` e faça o seguinte:
 
@@ -317,7 +317,7 @@ Defina **[!UICONTROL Enable PayPal PayLater Experience]** como um dos seguintes:
 1. Defina **[!UICONTROL Payment Applicable From]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;é exibida. Mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada país na lista onde os clientes podem fazer compras na sua loja.
+   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_é exibida. Mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada país na lista onde os clientes podem fazer compras na sua loja.
 
 1. Para gravar comunicações com o sistema de pagamento no arquivo de log, defina **[!UICONTROL Debug Mode]** como `Yes`.
 
@@ -449,7 +449,7 @@ Use as Configurações de experiência de front-end para escolher quais logotipo
    - `Authorization` - Aprova a compra e suspende os fundos. O valor não é retirado até ser _capturado_ pelo comerciante.
    - `Sale` - O valor da compra é autorizado e imediatamente retirado da conta do cliente.
 
-1. Para exibir o botão _[!UICONTROL Check out with PayPal]_&#x200B;na página do produto, defina **[!UICONTROL Display on Product Details Page]**&#x200B;como `Yes`.
+1. Para exibir o botão _[!UICONTROL Check out with PayPal]_na página do produto, defina **[!UICONTROL Display on Product Details Page]**como `Yes`.
 
 ### Etapa 7: completar as configurações avançadas para PayPal Express Checkout
 
@@ -462,7 +462,7 @@ Use as Configurações de experiência de front-end para escolher quais logotipo
 1. Defina **[!UICONTROL Payment Applicable From]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os países especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada item.
+   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada item.
 
 1. Para gravar comunicações com o sistema de pagamento no arquivo de log, defina **[!UICONTROL Debug Mode]** como `Yes`.
 
@@ -481,8 +481,3 @@ Use as Configurações de experiência de front-end para escolher quais logotipo
 ### Etapa 8: adicionar o Google reCAPTCHA
 
 Para proteger melhor o checkout do PayPal Payflow Pro, ative o Google reCAPTCHA. Ele inclui opções para executar o reCAPTCHA usando uma interface clicável ou uma verificação invisível para validar o cliente. A opção invisível é recomendada para aumentar a conversão de vendas e proteger sua loja. Para obter detalhes, consulte [Google reCAPTCHA](../systems/security-google-recaptcha.md).
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://manager.paypal.com/
-[3]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[4]: https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager

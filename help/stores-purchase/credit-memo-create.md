@@ -3,7 +3,7 @@ title: Emitir um memorando de crédito
 description: Saiba como gerar e imprimir um aviso de crédito para um pedido faturado.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2132'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Determine o tipo de reembolso que deseja emitir, para uma [compra de crédito](#
 
 1. Localize a ordem na grade e clique em **[!UICONTROL View]**.
 
-1. Se o botão _[!UICONTROL Credit Memo]_&#x200B;estiver visível na barra de botões, siga um destes procedimentos:
+1. Se o botão _[!UICONTROL Credit Memo]_estiver visível na barra de botões, siga um destes procedimentos:
 
    - Para emitir um reembolso de `offline`, vá para a etapa #6.
    - Para emitir um reembolso de `online`, continue com a etapa #4.
@@ -272,7 +272,7 @@ O método de pagamento usado para a ordem determina os botões de restituição 
 
 ## Imprimir um aviso de crédito
 
-Para imprimir ou exibir o aviso de crédito concluído, é necessário ter um leitor de PDF instalado. Você pode baixar o [Adobe Reader][1] gratuitamente.
+Para imprimir ou exibir o aviso de crédito concluído, é necessário ter um leitor PDF instalado. Você pode baixar o [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obter o Adobe Reader") gratuitamente.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
 
@@ -298,7 +298,4 @@ Para imprimir ou exibir o aviso de crédito concluído, é necessário ter um le
 
    - Para salvar o documento, clique em **[!UICONTROL Save]** e siga as instruções para salvar o arquivo no computador. Quando o download estiver concluído, abra o PDF no Adobe Reader e imprima o documento.
 
-   - Para exibir o documento, clique em **[!UICONTROL Open]**. O memorando de crédito de PDF pronto para impressão é aberto no Adobe Reader. Aqui, você pode imprimir o aviso de crédito ou salvá-lo em seu computador.
-
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Obter o Adobe Reader"
+   - Para exibir o documento, clique em **[!UICONTROL Open]**. O memorando de crédito do PDF pronto para impressão é aberto no Adobe Reader. Aqui, você pode imprimir o aviso de crédito ou salvá-lo em seu computador.

@@ -3,7 +3,7 @@ title: Atualizações de [!DNL Commerce]
 description: Saiba como as atualizações do Adobe Commerce e do Magento Open Source afetam o catálogo e as  [!DNL Inventory Management]  configurações.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
-source-git-commit: 392d8550741fe6fca3ea1301575c9ebb5e2483bd
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Se você usou inventário de origem única em uma versão anterior, essas informações fornecem detalhes sobre novos recursos e alterações em suas configurações existentes de catálogo e inventário.
 
-O [!DNL Inventory Management] for Adobe Commerce e Magento Open Source inclui recursos, melhorias e suporte ao desenvolvedor que aprimoram e atualizam todo o gerenciamento do estoque de produtos e adicionam novos recursos. Todos os recursos estão disponíveis prontos para uso, incluindo o Algoritmo de seleção da Source e Finalização simultânea para corresponder as quantidades da ordem às origens e ao atendimento da ordem. Dependendo dos sites, lojas e tipo de comerciante, você pode criar estoque e origens adicionais, atribuir valores de inventário e muito mais. Para obter informações completas, consulte [Inventory management](introduction.md).
+O [!DNL Inventory Management] for Adobe Commerce e Magento Open Source inclui recursos, melhorias e suporte ao desenvolvedor que aprimoram e atualizam todo o gerenciamento de estoque de produtos e adicionam novos recursos. Todos os recursos estão disponíveis prontos para uso, incluindo o Algoritmo de seleção da Source e Finalização simultânea para corresponder as quantidades da ordem às origens e ao atendimento da ordem. Dependendo dos sites, lojas e tipo de comerciante, você pode criar estoque e origens adicionais, atribuir valores de inventário e muito mais. Para obter informações completas, consulte [Inventory management](introduction.md).
 
-Ao instalar o Magento Open Source 2.4.x ou o Adobe Commerce 2.4.x, ocorrem as seguintes alterações iniciais:
+Ao instalar o Magento Open Source 2.4.x ou o Adobe Commerce 2.4.x, as seguintes alterações iniciais ocorrem:
 
 - Habilitar o [Inventory management](enable.md) no nível de loja global ou de produto. A opção Gerenciar Estoque habilita ou desabilita o rastreamento de quantidades de inventário, cálculos de quantidades de vendas agregadas e gerenciamento de reservas para rastrear compras até fatura e remessa. Você pode desativar essa opção para usar um ERP e outros serviços de terceiros para gerenciar estoque, pedidos e remessas. Para obter informações adicionais, consulte [!DNL Inventory Management] Módulos abaixo.
 
@@ -54,9 +54,9 @@ Ao instalar o Magento Open Source 2.4.x ou o Adobe Commerce 2.4.x, ocorrem as se
 
 ## [!DNL Commerce Order Management] e [!DNL Inventory Management]
 
-O [Commerce Order Management (MCOM)][1] não é compatível com o [!DNL Inventory Management]. Quando instalados, os módulos MCOM fornecem todos os recursos de gerenciamento de estoque para [!DNL Commerce], incluindo gerenciamento de uma ou várias origens, estoques, reservas e muito mais. Os módulos [!DNL Inventory Management] são desabilitados por padrão.
+O [Commerce Order Management (MCOM)](https://commerce-docs.github.io/oms-documentation-archive/) não é compatível com o [!DNL Inventory Management]. Quando instalados, os módulos MCOM fornecem todos os recursos de gerenciamento de estoque para [!DNL Commerce], incluindo gerenciamento de uma ou várias origens, estoques, reservas e muito mais. Os módulos [!DNL Inventory Management] são desabilitados por padrão.
 
-O MCOM oferece amplos recursos e serviços para gerenciamento avançado de pedidos omnicanal, inventário global e multi-sourcing, distribuição de armazenamento para depósito e atendimento centralizado ao cliente. Para obter uma lista completa de recursos, consulte a [lista de Recursos do MCOM][2].
+O MCOM oferece amplos recursos e serviços para gerenciamento avançado de pedidos omnicanal, inventário global e multi-sourcing, distribuição de armazenamento para depósito e atendimento centralizado ao cliente. Para obter uma lista completa de recursos, consulte a [lista de Recursos do MCOM](https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/).
 
 O [!DNL Inventory Management] estende os recursos existentes do [!DNL Commerce] com opções adicionais para rastrear pedidos em andamento, estoque disponível, estoque disponível para um estoque e APIs para desenvolvimento de extensão.
 
@@ -64,13 +64,10 @@ O [!DNL Inventory Management] estende os recursos existentes do [!DNL Commerce] 
 
 Talvez você queira desabilitar [!DNL Inventory Management] módulos para:
 
-- Acelere o upgrade dos comerciantes que estão atualmente no Adobe Commerce ou no Magento Open Source 2.0/2.1/2.2/2.3 e migre para a versão 2.4.x.
+- Acelere a atualização de comerciantes atualmente no Adobe Commerce ou Magento Open Source 2.0/2.1/2.2/2.3 e migrando para a versão 2.4.x.
 
 - Use módulos de inventário e gerenciamento de pedidos personalizados ou de terceiros.
 
 - Use [!DNL Order Management System] para gerenciamento de estoque. O conector atual não dá suporte a interfaces [!DNL Inventory Management]. Para os comerciantes do OMS que estão atualizando para o Adobe Commerce 2.4.0, eles devem desativar esses módulos.
 
 Para obter detalhes completos, consulte [Instalar e atualizar](install-update.md).
-
-[1]: https://commerce-docs.github.io/oms-documentation-archive/
-[2]: https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/

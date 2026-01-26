@@ -3,7 +3,7 @@ title: Impostos
 description: Saiba como configurar sua loja para calcular impostos de acordo com os requisitos de sua localidade.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Configure sua loja para calcular impostos de acordo com os requisitos de sua loc
 
 >[!NOTE]
 >
->O Adobe Commerce e o Magento Open Source versões 2.4.0 a 2.4.3 incluíam a extensão desenvolvida pelo fornecedor Vertex usada para integrar com a Vertex Cloud para fornecer gerenciamento de impostos e limpeza de endereços. A partir da versão 2.4.4, essa extensão não será mais fornecida com a versão principal e deverá ser instalada e atualizada do Commerce Marketplace ou diretamente do fornecedor. [Contate a Vertex](https://marketplace.magento.com/partner/vertex_inc) para obter informações sobre a extensão e a documentação.<br><br>
+>As versões 2.4.0 a 2.4.3 do Adobe Commerce e do Magento Open Source incluíam a extensão desenvolvida pelo fornecedor Vertex usada para integrar com a Vertex Cloud a fim de fornecer gerenciamento de impostos e limpeza de endereços. A partir da versão 2.4.4, essa extensão não é mais fornecida com a versão principal e deve ser instalada e atualizada pela Commerce Marketplace ou diretamente do fornecedor. [Contate a Vertex](https://marketplace.magento.com/partner/vertex_inc) para obter informações sobre a extensão e a documentação.<br><br>
 >
->Se você tiver a extensão agrupada ativada e configurada, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=pt-BR) no _Guia de Atualização_.
+>Se você tiver a extensão agrupada ativada e configurada, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) no _Guia de Atualização_.
 
 ## Referência rápida
 
@@ -89,7 +89,7 @@ Os comerciantes auditados para impostos pagos por bens digitais devem fornecer d
 - O endereço de entrega do cliente e um registro de uma transação de pagamento bem-sucedida podem ser usados para estabelecer o local de residência do cliente. (O pagamento é aceito somente se o endereço de entrega corresponder às informações do provedor de serviço de pagamento.)
 - As informações também podem ser capturadas diretamente do armazenamento de dados nas tabelas do banco de dados do Commerce.
 
-_&#x200B;**Para coletar informações de imposto sobre mercadorias digitais:**&#x200B;_
+_**Para coletar informações de imposto sobre mercadorias digitais:**_
 
 1. Carregar as taxas de imposto para todos os países membros da UE.
 
@@ -107,8 +107,5 @@ _&#x200B;**Para coletar informações de imposto sobre mercadorias digitais:**&#
 
 Recursos adicionais:
 
-- [União Aduaneira e Tributação da Comissão Europeia][1]
-- [Alterações no local de fornecimento do EU 1015][2]
-
-[1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
-[2]: https://www2.deloitte.com/global/en/services/tax.html
+- [União Aduaneira e Tributação da Comissão Europeia](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
+- [Alterações no local de fornecimento do EU 1015](https://www2.deloitte.com/global/en/services/tax.html)

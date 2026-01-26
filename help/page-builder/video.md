@@ -3,16 +3,16 @@ title: Mídia - Vídeo
 description: Saiba mais sobre o tipo de conteúdo de vídeo, usado para adicionar um vídeo hospedado no YouTube ou no Vimeo ao estágio  [!DNL Page Builder] .
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
 # Mídia - Vídeo
 
-Use o tipo de conteúdo _Vídeo_ para adicionar um vídeo hospedado no [YouTube][1] ou no [Vimeo][2] ao [[!DNL Page Builder] estágio](workspace.md#stage). É fácil incorporar vídeos em uma página ou bloco ou em descrições de produtos e categorias.
+Use o tipo de conteúdo _Vídeo_ para adicionar um vídeo hospedado no [YouTube](https://www.youtube.com/) ou no [Vimeo](https://vimeo.com/) ao [[!DNL Page Builder] estágio](workspace.md#stage). É fácil incorporar vídeos em uma página ou bloco ou em descrições de produtos e categorias.
 
 ![Vídeo na home page da loja](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
@@ -38,7 +38,7 @@ Use o tipo de conteúdo _Vídeo_ para adicionar um vídeo hospedado no [YouTube]
 
 ## Adicionar um vídeo
 
-1. Antes de começar, navegue até o vídeo [YouTube][1] ou [Vimeo][2] que deseja incorporar e copie o link.
+1. Antes de começar, navegue até o vídeo [YouTube](https://www.youtube.com/) ou [Vimeo](https://vimeo.com/) que deseja incorporar e copie o link.
 
    Como alternativa, você também pode copiar um link direto para um arquivo de vídeo válido. Consulte [Configurações básicas de vídeo](#basic-video-settings) para obter links válidos.
 
@@ -168,7 +168,5 @@ Use o tipo de conteúdo _Vídeo_ para adicionar um vídeo hospedado no [YouTube]
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
-[1]: https://www.youtube.com/
-[2]: https://vimeo.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

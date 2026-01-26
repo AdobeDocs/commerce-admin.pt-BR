@@ -3,7 +3,7 @@ title: Localização da loja
 description: Saiba como localizar uma visualização de loja ou loja.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 A maioria do texto que parece ser codificado nas páginas em toda a loja pode ser alterada instantaneamente para um idioma diferente, alterando o local da exibição. Alterar o local não traduz realmente o texto palavra por palavra, mas simplesmente faz referência a uma tabela de tradução diferente que fornece o texto da interface usado em toda a loja. O texto que pode ser alterado inclui títulos de navegação, rótulos, botões e links como _Meu Carrinho_ e _Minha Conta_. Você também pode usar a ferramenta [Tradução sequencial](../configuration-reference/advanced/developer.md) para retocar o texto na interface.
 
-Os pacotes de idiomas podem ser encontrados em [Traduções e localização][1]{:target="_blank"} no Commerce Marketplace. Novas extensões são adicionadas continuamente ao Marketplace, portanto, verifique com frequência.
+Os pacotes de idiomas podem ser encontrados em [Traduções e localização](https://marketplace.magento.com/extensions/content-customizations/translations-localization.html){:target="_blank"} no Commerce Marketplace. Novas extensões são adicionadas continuamente ao Marketplace, portanto, verifique com frequência.
 
 ## Etapa 1: instalar um pacote de idiomas
 
-Siga as instruções padrão para instalar a extensão de pacote de idiomas. Para obter informações detalhadas sobre a instalação de uma extensão, consulte [Instalação geral da CLI][2] no _Guia de Extensões_.
+Siga as instruções padrão para instalar a extensão de pacote de idiomas. Para obter informações detalhadas sobre a instalação de uma extensão, consulte [Instalação geral da CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) no _Guia de Extensões_.
 
 ## Etapa 2: criar uma exibição de loja para o idioma
 
@@ -104,7 +104,7 @@ Se sua loja tiver várias visualizações em diferentes idiomas, os mesmos produ
 
 1. Para _Informações Básicas_, traduza **[!UICONTROL Category Name]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Content]_&#x200B;e traduzir **[!UICONTROL Description]**.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Content]_e traduzir **[!UICONTROL Description]**.
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization Settings]** e traduza os seguintes campos:
 
@@ -139,7 +139,3 @@ Se sua loja tiver várias visualizações em diferentes idiomas, os mesmos produ
    ![Gerenciar Opções](./assets/manage-option-tab.png){width="600" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Save Attribute]**.
-
-
-[1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=pt-BR

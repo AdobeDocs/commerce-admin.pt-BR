@@ -3,24 +3,24 @@ title: Google AdWords
 description: Saiba como configurar sua loja do Commerce para o rastreamento de conversão do Google AdWords para medir os cliques no anúncio que levam a uma venda ou outra ação valiosa.
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
 # Google AdWords
 
-O [Google AdWords][1] é um serviço que você pode usar para colocar anúncios nos resultados do Google Search e nas páginas de empresas na Rede de Exibição do Google. O painel do AdWords inclui ferramentas para gerenciar campanhas, rastrear respostas e medir resultados.
+O [Google AdWords](https://www.google.com/adwords/) é um serviço que você pode usar para colocar anúncios nos resultados do Google Search e nas páginas de empresas na Rede de Exibição do Google. O painel do AdWords inclui ferramentas para gerenciar campanhas, rastrear respostas e medir resultados.
 
-O rastreamento de conversão mostra o número de cliques em anúncios que resultam em uma venda ou outra ação valiosa. A página _Sucesso_ que aparece para o cliente depois que um pedido é enviado é usada para rastrear conversões porque aparece somente após uma venda. Depois de concluir a configuração do Google AdWords para sua loja, não há necessidade de copiar o script de rastreamento de conversão para a página Sucesso, pois o Commerce já tem as informações necessárias. Para saber mais, consulte a [Ajuda do Google AdWords][2].
+O rastreamento de conversão mostra o número de cliques em anúncios que resultam em uma venda ou outra ação valiosa. A página _Sucesso_ que aparece para o cliente depois que um pedido é enviado é usada para rastrear conversões porque aparece somente após uma venda. Depois de concluir a configuração do Google AdWords para sua loja, não há necessidade de copiar o script de rastreamento de conversão para a página Sucesso, pois o Commerce já tem as informações necessárias. Para saber mais, consulte a [Ajuda do Google AdWords](https://support.google.com/adwords/answer/6095821).
 
-![Anúncio Adobe nos resultados de pesquisa do Google](./assets/google-adwords-adobe-ad.png){width="500"}
+![Anúncio do Adobe nos resultados de pesquisa do Google](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## Etapa 1. Criar uma campanha do Google AdWords
 
-1. Visite o [Google AdWords][3] e inscreva-se para obter uma conta.
+1. Visite o [Google AdWords](https://ads.google.com/) e inscreva-se para obter uma conta.
 
 1. Siga as instruções para criar uma campanha.
 
@@ -90,7 +90,7 @@ O rastreamento de conversão mostra o número de cliques em anúncios que result
       - `2` - Exibe uma notificação em duas linhas com um link para obter mais informações sobre o rastreamento do Google.
       - `3` - Não exibe notificações de clientes.
 
-   - Insira o [código hexadecimal][4]{:target=&quot;_blank&quot;} para o **[!UICONTROL Conversion Color]** que você deseja usar para o rótulo de notificação de Estatísticas de site do Google.
+   - Insira o [código hexadecimal](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} para o **[!UICONTROL Conversion Color]** que você deseja usar para o rótulo de notificação de Estatísticas de Site do Google.
 
    - Insira o texto criptografado para o **[!UICONTROL Conversion Label]** que aparece na notificação de Início de Sites do Google.
 
@@ -125,15 +125,10 @@ O rastreamento de conversão mostra o número de cliques em anúncios que result
    - `Dynamic` - Determina que ocorreu uma conversão com base no valor dinâmico do Valor do pedido.
    - `Constant` - Determina que ocorreu uma conversão com base em um valor específico inserido.
 
-   Para um tipo de valor de conversão _Constante_, insira uma **[!UICONTROL Value]** específica para a _[!UICONTROL Order Amount]_&#x200B;para qualificar como uma conversão.
+   Para um tipo de valor de conversão _Constante_, insira uma **[!UICONTROL Value]** específica para a _[!UICONTROL Order Amount]_para qualificar como uma conversão.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
 ## Etapa 4. Verificar a configuração
 
 Em poucas horas, o status de rastreamento no painel do Google AdWords muda de `Unverified` para `No recent conversions` ou `Recording conversions`. Quando alguém clica em seu anúncio e faz uma compra, a conversão é exibida na página Ações de conversão do painel e do relatório de campanha.
-
-[1]: https://www.google.com/adwords/
-[2]: https://support.google.com/adwords/answer/6095821
-[3]: https://ads.google.com/
-[4]: https://www.w3schools.com/colors/colors_picker.asp

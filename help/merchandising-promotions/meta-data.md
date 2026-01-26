@@ -1,27 +1,27 @@
 ---
-title: Metadados
+title: Dados do Meta
 description: Saiba mais sobre como o pode inserir metadados ricos em palavras-chave para melhorar a maneira como os mecanismos de pesquisa indexam seu site do Commerce.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Metadados
+# Dados do Meta
 
 >[!TIP]
 >
->Para o Adobe Commerce as a Cloud Service, consulte as [diretrizes de metadados](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=pt-BR) na documentação da Commerce Storefront
+>Para o Adobe Commerce as a Cloud Service, consulte as [diretrizes de metadados](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) na documentação da Commerce Storefront
 
 Sua loja está carregada com locais onde você pode inserir metadados ricos em palavras-chave para melhorar a maneira como os mecanismos de pesquisa indexam seu site. Ao configurar sua loja, você pode inserir metadados preliminares, com a intenção de terminá-los posteriormente. Com o tempo, você pode ajustar os metadados para direcionar os padrões de compra e as preferências dos clientes.
 
 ![Configurações de produto - otimização de mecanismo de pesquisa](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
 
-## Metatítulo
+## Título do Meta
 
 O metatítulo é exibido na barra de título e na guia do navegador e nas listagens de resultados de pesquisa. O metatítulo deve ser exclusivo da página e ter menos de 70 caracteres.
 
@@ -33,13 +33,13 @@ Embora alguns mecanismos de pesquisa ignorem metapalavras-chave, outros continua
 
 ![Pesquisa no navegador da Web - meta keywords](./assets/storefront-meta-description.png){width="500"}
 
-## Metadescrição
+## Descrição do Meta
 
-As meta descrições fornecem uma breve visão geral da página para listagens de resultados de pesquisa. Idealmente, uma meta descrição deve ter entre 150 e 160 caracteres de comprimento, embora o campo aceite até 255 caracteres.
+As descrições do Meta fornecem uma breve visão geral da página para listagens de resultados de pesquisa. Idealmente, uma meta descrição deve ter entre 150 e 160 caracteres de comprimento, embora o campo aceite até 255 caracteres.
 
 ## Rich snippets
 
-Os snippets avançados fornecem informações detalhadas para a listagem de resultados de pesquisa e outros aplicativos. Por padrão, a marcação de dados estruturados baseada no padrão [schema.org][1] é adicionada ao modelo de produto da loja. Como resultado, mais informações estão disponíveis para que os mecanismos de pesquisa as incluam como _trechos avançados_ nas listagens de produtos.
+Os snippets avançados fornecem informações detalhadas para a listagem de resultados de pesquisa e outros aplicativos. Por padrão, a marcação de dados estruturados baseada no padrão [schema.org](https://schema.org/) é adicionada ao modelo de produto da loja. Como resultado, mais informações estão disponíveis para que os mecanismos de pesquisa as incluam como _trechos avançados_ nas listagens de produtos.
 
 ## Meta tag canônica
 
@@ -82,22 +82,20 @@ Você pode evitar ser penalizado por mecanismos de pesquisa omitindo a categoria
 
 1. Se você quiser que os mecanismos de pesquisa indexem somente páginas de categoria usando o caminho completo da categoria, faça o seguinte:
 
-   - Definir **Usar marca META de Link Canônico para Categorias** a `Yes`.
+   - Definir **Usar Marca Meta de Link Canônico para Categorias** a `Yes`.
 
-   - Definir **Usar marca META de Link Canônico para Produtos** para `No`.
+   - Definir **Usar Marca Meta de Link Canônico para Produtos** para `No`.
 
 1. Se você quiser que os mecanismos de pesquisa indexem páginas de produtos somente usando o formato nome-do-domínio/chave-do-url-do-produto, faça o seguinte:
 
-   - Definir **Usar marca META de Link Canônico para Produtos** para `Yes`.
+   - Definir **Usar Marca Meta de Link Canônico para Produtos** para `Yes`.
 
-   - Definir **Usar marca META de Link Canônico para Categorias** a `No`.
+   - Definir **Usar Marca Meta de Link Canônico para Categorias** a `No`.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
-## Demonstração de metadados
+## Demonstração de dados do Meta
 
 Assista a este vídeo para saber mais sobre o gerenciamento de metadados de SEO:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411966?quality=12&learn=on&captions=por_br)
-
-[1]: https://schema.org/
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)

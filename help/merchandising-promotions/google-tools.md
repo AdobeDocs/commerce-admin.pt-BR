@@ -3,7 +3,7 @@ title: Ferramentas do site do Google
 description: Saiba mais sobre as integrações das ferramentas do Google que você pode usar para otimizar seu conteúdo, analisar seu tráfego e conectar seu catálogo a agregadores de compras e marketplaces.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Se a sua empresa precisa cumprir com as regras de privacidade, como o [GDPR](../
 
 ### Etapa 1: atualizar configurações do Google
 
-1. [Entre][1]{: target="_blank"} na conta da Google Analytics da sua empresa.
+1. [Entre](https://www.google.com/analytics/){: target="_blank"} na conta da Google Analytics da sua empresa.
 
 1. Na parte inferior da barra lateral esquerda, escolha **[!UICONTROL Admin]** e navegue até a conta que deseja editar (se aplicável).
 
@@ -45,7 +45,7 @@ Se a sua empresa precisa cumprir com as regras de privacidade, como o [GDPR](../
 
 1. Aceite o _Aditamento de Processamento de Dados_.
 
-   Os Termos de processamento de dados do Google Ads descrevem como a Google processa dados e as medidas que ela toma para garantir a segurança dos dados para empresas que estão sujeitas ao GDPR. Um registro de suas entidades legais e informações de contato também é mantido com o aditamento. Para [saber mais][2]{: target="_blank"}, clique no link da mensagem na parte superior da página.
+   Os Termos de processamento de dados do Google Ads descrevem como a Google processa dados e as medidas que ela toma para garantir a segurança dos dados para empresas que estão sujeitas ao GDPR. Um registro de suas entidades legais e informações de contato também é mantido com o aditamento. Para [saber mais](https://support.google.com/analytics/answer/3379636){: target="_blank"}, clique no link da mensagem na parte superior da página.
 
    - Role a página para baixo até **[!UICONTROL Data Processing Amendment]**.
    - Clique em **[!UICONTROL Review Amendment]** para ler os _Termos de processamento de dados do Google Ads_.
@@ -80,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-Para saber mais, consulte a [Referência de campo do Analytics.js][3]{: target="_blank"} na Ajuda do Google.
+Para saber mais, consulte a [Referência de campo do Analytics.js](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"} na Ajuda do Google.
 
 Se você usar a biblioteca herdada `ga.js`, adicione o seguinte trecho:
 
@@ -98,7 +98,7 @@ gtag.js
 : `gtag('event', 'your_event', { 'anonymize_ip': true })`
 ```
 
-Para saber mais, consulte [Anonimização de IP no Analytics][4] na Ajuda do Google.
+Para saber mais, consulte [Anonimização de IP no Analytics](https://support.google.com/analytics/answer/2763052) na Ajuda do Google.
 
 #### Forçar SSL
 
@@ -118,8 +118,3 @@ Atualize sua [política de privacidade](../getting-started/privacy-policy.md) pa
 - Mascara endereços IP para ocultar informações pessoais
 - Desativou o Compartilhamento de dados da Google
 - Não usa outros serviços da Google com cookies da Google Analytics
-
-[1]: https://www.google.com/analytics/
-[2]: https://support.google.com/analytics/answer/3379636
-[3]: https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference
-[4]: https://support.google.com/analytics/answer/2763052

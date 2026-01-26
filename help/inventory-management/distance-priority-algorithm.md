@@ -3,9 +3,9 @@ title: Configurar o algoritmo de prioridade de distância
 description: Defina a configuração para comparar o local do endereço de destino da remessa com os locais de origem para determinar a origem mais próxima para atender às remessas.
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
-source-git-commit: 023716935a6657b0dc2317876debe608e65bf010
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ O Algoritmo de Prioridade de Distância compara o local do endereço de destino 
 
 Você tem duas opções para calcular a distância e o tempo para encontrar a origem mais próxima para o preenchimento de entrega:
 
-- **Google MAP** - Usa os serviços da [Plataforma Google Maps][1] para calcular a distância e o tempo entre o endereço de destino da remessa e os locais de origem. Essa opção usa a latitude e a longitude (coordenadas GPS) da fonte e pode usar o endereço, dependendo do modo de cálculo. Uma chave de API do Google é necessária com a [API de geocodificação][2] e a [API de matriz de distância][3] habilitadas, e você pode incorrer em encargos por meio do Google.
+- **Google MAP** - Usa os serviços da [Plataforma Google Maps](https://cloud.google.com/maps-platform/) para calcular a distância e o tempo entre o endereço de destino da remessa e os locais de origem. Essa opção usa a latitude e a longitude (coordenadas GPS) da fonte e pode usar o endereço, dependendo do modo de cálculo. Uma chave de API do Google é necessária com a [API de geocodificação](https://developers.google.com/maps/documentation/geocoding/start) e a [API de matriz de distância](https://developers.google.com/maps/documentation/distance-matrix/start) habilitadas, e você pode incorrer em encargos por meio do Google.
 
 - **Cálculo Offline** - Calcula a distância usando dados geocodificados baixados e importados usando códigos postais e coordenadas GPS para determinar a origem mais próxima do endereço de destino da remessa. Para configurar essa opção, pode ser necessária a assistência do desenvolvedor para inicialmente baixar e importar geocodes usando as instruções de linha de comando.
 
@@ -35,9 +35,9 @@ No entanto, o algoritmo baseado em distância do Google MAP é recomendado como 
 
 ### Etapa 1: criar a chave de API do Google
 
-A chave é da [Plataforma Google Maps][1] e deve ter a [API de geocodificação][2] e a [API de Matriz de Distância][3] habilitadas. Para obter detalhes, consulte [Configurando o Algoritmo de Prioridade de Distância](distance-priority-algorithm.md).
+A chave é da [Plataforma Google Maps](https://cloud.google.com/maps-platform/) e deve ter a [API de geocodificação](https://developers.google.com/maps/documentation/geocoding/start) e a [API de Matriz de Distância](https://developers.google.com/maps/documentation/distance-matrix/start) habilitadas. Para obter detalhes, consulte [Configurando o Algoritmo de Prioridade de Distância](distance-priority-algorithm.md).
 
-1. Visite a [Plataforma Google Maps][1] e clique em **[!UICONTROL Get Started]**.
+1. Visite a [Plataforma Google Maps](https://cloud.google.com/maps-platform/) e clique em **[!UICONTROL Get Started]**.
 
 1. Para habilitar a plataforma, selecione **[!UICONTROL Maps, Routes, and Places]** e clique em **[!UICONTROL Continue]**.
 
@@ -65,7 +65,7 @@ A chave é da [Plataforma Google Maps][1] e deve ter a [API de geocodificação]
 
      ![Serviços de API da Google](assets/inventory-google-key2.png){width="350" zoomable="yes"}
 
-   - Pesquise por [API de geocodificação][2] e [API de matriz de distância][3]. Selecione e ative cada serviço.
+   - Pesquise por [API de geocodificação](https://developers.google.com/maps/documentation/geocoding/start) e [API de matriz de distância](https://developers.google.com/maps/documentation/distance-matrix/start). Selecione e ative cada serviço.
 
 1. Expanda o menu, clique em **[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]** e copie a Chave de API do Google.
 
@@ -77,11 +77,11 @@ A chave é da [Plataforma Google Maps][1] e deve ter a [API de geocodificação]
 
 1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Inventory]**.
 
-1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;e defina **[!UICONTROL Provider]**&#x200B;como `Google MAP`.
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Distance Provider for Distance Based SSA]_e defina **[!UICONTROL Provider]**como `Google MAP`.
 
    ![Provedores para SSA Baseado em Distância](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Google Distance Provider]_&#x200B;e defina as configurações:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Google Distance Provider]_e defina as configurações:
 
    - Para **[!UICONTROL Google API Key]**, insira a chave copiada da sua conta do Google.
 
@@ -95,7 +95,7 @@ A chave é da [Plataforma Google Maps][1] e deve ter a [API de geocodificação]
      | ----- | ----- |
      | `Driving` | (Padrão) Solicita trajetos de direção padrão usando a rede rodoviária. |
      | `Walking` | Solicita trajetos pedestres usando caminhos e calçadas de pedestres (quando disponíveis). |
-     | `Bicycling` | Solicita trajetos de bicicleta usando caminhos de bicicleta e ruas preferenciais (quando disponível). O [Distance Matrix Service][4] só está disponível nos EUA e em algumas cidades canadenses. |
+     | `Bicycling` | Solicita trajetos de bicicleta usando caminhos de bicicleta e ruas preferenciais (quando disponível). O [Distance Matrix Service](https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes) só está disponível nos EUA e em algumas cidades canadenses. |
 
    - Para **[!UICONTROL Value]**, selecione um tipo de valor:
 
@@ -110,11 +110,11 @@ A chave é da [Plataforma Google Maps][1] e deve ter a [API de geocodificação]
 
 ## Usar cálculo offline
 
-Os cálculos offline usam códigos de país para determinar a distância entre o destino da entrega e os endereços de origem. Esta opção pode exigir a assistência do desenvolvedor para configurar o. Use um comando da CLI [!DNL Inventory Management] para baixar e importar dados de [geonames.org][5].
+Os cálculos offline usam códigos de país para determinar a distância entre o destino da entrega e os endereços de origem. Esta opção pode exigir a assistência do desenvolvedor para configurar o. Use um comando da CLI [!DNL Inventory Management] para baixar e importar dados de [geonames.org](https://www.geonames.org/).
 
 >[!NOTE]
 >
->Os geocodes importados de [geonames.org][5] têm limitações para alguns países, como Canadá e Irlanda. Consulte [Arquivos de código postal de GeoNames][6] para obter mais informações.
+>Os geocodes importados de [geonames.org](https://www.geonames.org/) têm limitações para alguns países, como Canadá e Irlanda. Consulte [Arquivos de código postal de GeoNames](https://download.geonames.org/export/zip/readme.txt) para obter mais informações.
 
 ### Etapa 1: baixar e importar geocodes
 
@@ -135,10 +135,3 @@ Conclua esses comandos sempre que desejar adicionar mais geocódigos.
    ![Provedores de Distância para SSA Baseado em Distância](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
-
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://developers.google.com/maps/documentation/geocoding/start
-[3]: https://developers.google.com/maps/documentation/distance-matrix/start
-[4]: https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes
-[5]: https://www.geonames.org/
-[6]: https://download.geonames.org/export/zip/readme.txt

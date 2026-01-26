@@ -3,16 +3,16 @@ title: Faturas
 description: Saiba como criar e imprimir faturas para dar suporte ao processamento de pedidos e às operações de atendimento ao cliente.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
 # Faturas
 
-Uma fatura é um registro do registro de pagamento de um pedido. Várias faturas podem ser [criadas](#create-an-invoice) para um único pedido e cada uma pode incluir a mesma quantidade ou quantidade de produtos comprados que você especificar. Você também pode criar [faturas de PDF prontas para impressão](#print-invoices) como documentos de vendas para seus clientes.
+Uma fatura é um registro do registro de pagamento de um pedido. Várias faturas podem ser [criadas](#create-an-invoice) para um único pedido e cada uma pode incluir a mesma quantidade ou quantidade de produtos comprados que você especificar. Você também pode criar [faturas do PDF prontas para impressão](#print-invoices) como documentos de vendas para seus clientes.
 
 Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _Operações_ > **Faturas** para abrir a grade _Faturas_ e acessar as faturas criadas.
 
@@ -57,7 +57,7 @@ Quando o estado de novos pedidos é definido como `Processing`, a opção de _Fa
 >
 >As faturas não são criadas automaticamente para pedidos feitos usando `Gift Card`, `Store Credit`, `Reward Points` ou outros métodos de pagamento offline.
 
-Uma fatura para o pedido deve ser gerada antes de ser impressa. Para exibir ou imprimir o PDF, primeiro baixe e instale um leitor de PDF como o [Adobe Acrobat Reader][1].
+Uma fatura para o pedido deve ser gerada antes de ser impressa. Para exibir ou imprimir o PDF, primeiro baixe e instale um leitor do PDF como o [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obter o Adobe Reader").
 
 **_Para faturar um pedido:_**
 
@@ -71,7 +71,7 @@ Uma fatura para o pedido deve ser gerada antes de ser impressa. Para exibir ou i
 
    >[!NOTE]
    >
-   >A opção _[!UICONTROL Invoice]_&#x200B;não aparece quando a [ação de pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) para o seu [método de pagamento](../configuration-reference/sales/payment-methods.md) específico está definida como `Authorize and Capture`, que gera automaticamente uma fatura. Esse também é o caso se o pedido for feito e a ação de pagamento para seu método de pagamento estiver definida como `Authorize` e o pedido for faturado.
+   >A opção _[!UICONTROL Invoice]_não aparece quando a [ação de pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) para o seu [método de pagamento](../configuration-reference/sales/payment-methods.md) específico está definida como `Authorize and Capture`, que gera automaticamente uma fatura. Esse também é o caso se o pedido for feito e a ação de pagamento para seu método de pagamento estiver definida como `Authorize` e o pedido for faturado.
 
    ![Fatura da Ordem de Venda](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -121,17 +121,17 @@ Uma fatura para o pedido deve ser gerada antes de ser impressa. Para exibir ou i
 
 ## Imprimir faturas
 
-As faturas podem ser impressas individualmente ou em lote. No entanto, antes que uma fatura possa ser impressa, ela deve ser gerada primeiro para o pedido. Você pode carregar um logotipo de alta resolução para uma fatura de PDF pronto para impressão e incluir a [ID do pedido](../stores-purchase/sales-documents.md#add-reference-ids) no cabeçalho. Para personalizar o modelo da fatura com seu logotipo e endereço, consulte [Requisitos de logotipo do PDF](../stores-purchase/sales-documents.md#image-formats).
+As faturas podem ser impressas individualmente ou em lote. No entanto, antes que uma fatura possa ser impressa, ela deve ser gerada primeiro para o pedido. Você pode carregar um logotipo de alta resolução para uma fatura do PDF pronta para impressão e incluir a [ID do pedido](../stores-purchase/sales-documents.md#add-reference-ids) no cabeçalho. Para personalizar o modelo de fatura com seu logotipo e endereço, consulte [Requisitos de logotipo do PDF](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >
->Para visualizar ou imprimir o PDF, é necessário ter um leitor de PDF. Você pode baixar o [Adobe Reader][1] gratuitamente.
+>Para visualizar ou imprimir o PDF, você deve ter um leitor PDF. Você pode baixar o [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obter o Adobe Reader") gratuitamente.
 
 ### Imprimir uma única fatura
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Na grade _[!UICONTROL Invoices]_, localize a fatura e clique em **[!UICONTROL View]**&#x200B;na coluna_ Ação _.
+1. Na grade _[!UICONTROL Invoices]_, localize a fatura e clique em **[!UICONTROL View]**na coluna_ Ação _.
 
 1. Na parte superior da fatura, clique em **[!UICONTROL Print]** para gerar uma PDF da fatura.
 
@@ -148,5 +148,3 @@ As faturas podem ser impressas individualmente ou em lote. No entanto, antes que
    ![Imprimir várias faturas](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 As faturas são salvas em um único arquivo PDF que pode ser enviado para uma impressora ou salvo.
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Obter o Adobe Reader"

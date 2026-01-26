@@ -3,9 +3,9 @@ title: Serviço Postal dos Estados Unidos (USPS)
 description: Saiba como configurar o USPS como transportadora de remessa para sua loja.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: c9acf475eeadcd249467e4cc89fe61d37230bd7d
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ O Serviço Postal dos Estados Unidos é o serviço postal independente do govern
 
 ## Etapa 1: abrir uma conta de remessa USPS
 
-Abra uma conta do [USPS Web Tools][1]. Após concluir o processo de registro, você receberá sua ID de usuário e um URL para o servidor de teste USPS.
+Abra uma conta do [USPS Web Tools](https://secure.shippingapis.com/registration/). Após concluir o processo de registro, você receberá sua ID de usuário e um URL para o servidor de teste USPS.
 
-Você também pode abrir uma conta do [USPS Web Tools][1]. Após concluir o processo de registro, você receberá sua ID de usuário e um URL para o servidor de teste USPS. Para saber mais sobre as Ferramentas da Web do USPS, consulte a [Documentação técnica][2].
+Você também pode abrir uma conta do [USPS Web Tools](https://secure.shippingapis.com/registration/). Após concluir o processo de registro, você receberá sua ID de usuário e um URL para o servidor de teste USPS. Para saber mais sobre as Ferramentas da Web do USPS, consulte a [Documentação técnica](https://www.usps.com/business/web-tools-apis/welcome.htm).
 
 ## Etapa 2: Habilitar USPS para sua loja
 
@@ -142,7 +142,5 @@ A taxa de manuseio é opcional e aparece como uma taxa extra que é adicionada a
 
 1. Clique em **[!UICONTROL Save Config]**.
 
-[1]: https://secure.shippingapis.com/registration/
-[2]: https://www.usps.com/business/web-tools-apis/welcome.htm
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->

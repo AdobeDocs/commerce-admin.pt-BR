@@ -3,7 +3,7 @@ title: Detalhes da loja
 description: Saiba como atualizar as informações básicas da sua loja.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: dc07b53c27fd99c2c0dc7ee4602640d551e509cf
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 0%
@@ -18,7 +18,7 @@ As informações básicas da loja incluem o nome e o endereço da loja, o númer
 
 ## [!UICONTROL Store Information]
 
-A seção _[!UICONTROL Store Information]_&#x200B;fornece as informações básicas que aparecem nos documentos de vendas e em outras comunicações.
+A seção _[!UICONTROL Store Information]_fornece as informações básicas que aparecem nos documentos de vendas e em outras comunicações.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -169,11 +169,11 @@ Você também pode configurar o envio para países específicos para cada [méto
 
 Para obter ajuda com a solução de problemas de configuração do país, consulte os seguintes artigos da Base de Dados de Conhecimento de Suporte do [!DNL Commerce]:
 
-- [Como adicionar um país](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=pt-BR)
+- [Como adicionar um país](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 A configuração Localização do Comerciante é usada para configurar [métodos de pagamento](../stores-purchase/payments.md). Se não houver valor para esta configuração, a configuração [País Padrão](#uicontrol-country-options) será usada.
 
@@ -215,7 +215,7 @@ Antes de configurar endereços de email para o armazenamento, cada um deve ser c
 
 ### Etapa 2: definir o URL de base para links gerados
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Alguns emails voltados para o cliente incluem links para a loja, como aqueles que ajudam os clientes a redefinir suas senhas. Para garantir que os links para a loja funcionem, você deve definir a URL base para sua loja.
 
@@ -223,13 +223,13 @@ Alguns emails voltados para o cliente incluem links para a loja, como aqueles qu
 
 1. Em **[!UICONTROL General]**, no painel de navegação esquerdo, escolha **[!UICONTROL Store Email Addresses]**.
 
-1. Na seção **[!UICONTROL General]** do campo **[!UICONTROL Storefront Base URL]**, insira a URL raiz do seu armazenamento, como `https://www.example.com/`. O URL deve terminar com uma barra.
+1. Na seção **[!UICONTROL Storefront Base URL]** do campo **[!UICONTROL General]**, insira a URL raiz do seu armazenamento, como `https://www.example.com/`. O URL deve terminar com uma barra.
 
    ![Configuração geral - Geral](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
 
 ### Etapa 3: configurar os endereços de email da sua loja
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} Endereços de email de remetentes são configurados quando sua instância é provisionada. Se precisar alterar esses endereços, crie um tíquete de Suporte.
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} Endereços de email de remetentes são configurados quando sua instância é provisionada. Se precisar alterar esses endereços, crie um tíquete de Suporte.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -343,6 +343,4 @@ Os dados de amostra do Luma incluem um bloco _Informações para contato_ que po
 >
 >A partir da versão 2.4.0, o formulário de contato não poderá mais chamar dentro de um bloco do CMS ou de uma página do CMS. Toda personalização do formulário de contato deve ser feita usando o xml de layout ou modelos de tema personalizados.
 
-Por padrão, os compradores acessam o formulário de contato usando o _link de contato_ no rodapé das páginas de frente da loja. Para obter mais informações sobre como personalizar a página de contato, consulte o [Guia do Desenvolvedor de Front-end][theme-guide].
-
-[theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/
+Por padrão, os compradores acessam o formulário de contato usando o _link de contato_ no rodapé das páginas de frente da loja. Para obter mais informações sobre como personalizar a página de contato, consulte o [Guia do Desenvolvedor de Front-end](https://developer.adobe.com/commerce/frontend-core/guide/themes/).

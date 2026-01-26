@@ -3,10 +3,10 @@ title: Licenciar uma imagem do Adobe Stock
 description: Para garantir acesso legal e eliminar a marca d'água do Adobe Stock, licencie suas imagens do Adobe Stock.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 9d6dade372d4b931bec9aec9b9bfeedc3107ad1e
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ O novo [[!DNL Media Gallery]](media-gallery.md) fornece uma integração direta 
 
 **Pré-requisitos**
 
-O recurso de licenciamento do Adobe Stock só estará disponível se a [Integração do Adobe Stock](./adobe-stock.md) estiver instalada e configurada. O licenciamento de imagens do [Adobe Stock][adobe-stock] exige um plano Adobe Stock pago e uma [conta Adobe][adobe-signin].
+O recurso de licenciamento do Adobe Stock só estará disponível se a [Integração do Adobe Stock](./adobe-stock.md) estiver instalada e configurada. O licenciamento de imagens do [Adobe Stock](https://stock.adobe.com) exige um plano Adobe Stock pago e uma [conta Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ O recurso de licenciamento do Adobe Stock só estará disponível se a [Integra�
 
    >[!NOTE]
    >
-   >Você deve ter [créditos de Adobe Stock][stock-credits] disponíveis em sua conta para licenciar a imagem.
+   >Você deve ter [créditos de Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) disponíveis em sua conta para licenciar a imagem.
 
 ## Licenciar uma imagem do armazenamento de mídia padrão
 
@@ -63,7 +63,7 @@ O recurso de licenciamento do Adobe Stock só estará disponível se a [Integra�
 
      >[!NOTE]
      >
-     >Você deve ter [créditos de Adobe Stock][stock-credits] disponíveis em sua conta para licenciar a imagem.
+     >Você deve ter [créditos de Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) disponíveis em sua conta para licenciar a imagem.
 
    Esta ação exibe um prompt para que você especifique um nome de arquivo que seja usado para salvar a imagem no [armazenamento de mídia](./media-storage.md). Um nome de arquivo padrão é fornecido, mas você pode personalizar o nome de acordo com suas preferências.
 
@@ -72,9 +72,3 @@ O recurso de licenciamento do Adobe Stock só estará disponível se a [Integra�
 1. Clique em **[!UICONTROL Confirm]**.
 
    A página é redirecionada para o armazenamento de mídia e a visualização salva é exibida.
-
-[access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
-[view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/br/stock/help/credit-packs.html
-[adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/br/manage-account/using/access-adobe-id-account.html

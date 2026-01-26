@@ -3,7 +3,7 @@ title: Configuração de [!DNL Page Builder]
 description: Saiba mais sobre a configuração de recursos do  [!DNL Page Builder]  no Admin para Adobe Commerce e Magento Open Source.
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configuração de [!DNL Page Builder]
 
-Quando habilitada na configuração, [!DNL Page Builder] é a ferramenta de criação de conteúdo padrão para Páginas, Blocos e Blocos Dinâmicos do CMS. Além disso, o botão _[!UICONTROL Enable Advanced CMS]_&#x200B;oferece [!DNL Page Builder] como uma opção para Categorias e Produtos. Você também pode escolher o [layout de página](../content-design/page-layout.md) padrão que deseja usar para produtos, categorias e páginas do CMS. [!DNL Page Builder] não está disponível para o conteúdo do informativo, que usa o [editor](../content-design/editor.md) do WYSIWYG.
+Quando habilitada na configuração, [!DNL Page Builder] é a ferramenta de criação de conteúdo padrão para Páginas, Blocos e Blocos Dinâmicos do CMS. Além disso, o botão _[!UICONTROL Enable Advanced CMS]_oferece [!DNL Page Builder] como uma opção para Categorias e Produtos. Você também pode escolher o [layout de página](../content-design/page-layout.md) padrão que deseja usar para produtos, categorias e páginas do CMS. [!DNL Page Builder] não está disponível para o conteúdo do informativo, que usa o [editor](../content-design/editor.md) do WYSIWYG.
 
 >[!NOTE]
 >
@@ -38,9 +38,9 @@ Para obter mais informações sobre as opções de configuração das Ferramenta
 
 1. Se você estiver pronto para configurar o [!DNL Google Maps], faça o seguinte:
 
-   - Se necessário, siga as instruções de [Obter Chave de API][1] e copie cole seu **[!UICONTROL Google Maps API Key]**.
+   - Se necessário, siga as instruções de [Obter Chave de API](https://developers.google.com/maps/documentation/javascript/get-api-key) e copie cole seu **[!UICONTROL Google Maps API Key]**.
 
-   - Para alterar o **[!UICONTROL Google Maps Style]**, cole o código JSON gerado pelo [[!DNL Google Maps] Assistente de Estilos de APIs][2].
+   - Para alterar o **[!UICONTROL Google Maps Style]**, cole o código JSON gerado pelo [[!DNL Google Maps] Assistente de Estilos de APIs](https://mapstyle.withgoogle.com/).
 
    >[!NOTE]
    >
@@ -95,6 +95,3 @@ Para obter mais informações sobre as opções de configuração das Ferramenta
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
 1. Quando solicitado, [atualize](../systems/cache-management.md) qualquer cache inválido.
-
-[1]: https://developers.google.com/maps/documentation/javascript/get-api-key
-[2]: https://mapstyle.withgoogle.com/

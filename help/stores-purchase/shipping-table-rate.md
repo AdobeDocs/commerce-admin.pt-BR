@@ -34,7 +34,7 @@ A primeira etapa é concluir as configurações padrão para taxas de tabela. Vo
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Na seção _[!UICONTROL Sales]_do painel esquerdo, escolha **[!UICONTROL Delivery Methods]**.
+1. Na seção _[!UICONTROL Sales]_&#x200B;do painel esquerdo, escolha **[!UICONTROL Delivery Methods]**.
 
 1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Table Rates]**.
 
@@ -84,7 +84,7 @@ A primeira etapa é concluir as configurações padrão para taxas de tabela. Vo
 1. Conjunto **[!UICONTROL Ship to Applicable Countries]**:
 
    - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar este método de entrega.
-   - `Specific Countries` - Quando você escolhe esta opção, a lista _[!UICONTROL Ship to Specific Countries]_é exibida. Selecione cada país na lista onde esse método de entrega pode ser usado.
+   - `Specific Countries` - Quando você escolhe esta opção, a lista _[!UICONTROL Ship to Specific Countries]_&#x200B;é exibida. Selecione cada país na lista onde esse método de entrega pode ser usado.
 
 1. Defina **[!UICONTROL Show Method if Not Applicable]** como `Yes` se desejar mostrar as Taxas da tabela o tempo todo
 
@@ -115,10 +115,10 @@ A primeira etapa é concluir as configurações padrão para taxas de tabela. Vo
 1. Preencha a tabela com os valores apropriados para a condição de cálculo de entrega.
 
    - Use um asterisco (*) como um curinga que representa todos os valores possíveis em qualquer categoria.
-   - A coluna _[!UICONTROL Country]_deve conter um [código de três caracteres válido](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) para cada linha.
-   - Classifique os dados por _[!UICONTROL Region/State]_de modo que os locais específicos estejam no topo da lista e os locais curinga na parte inferior. O uso desse método processa as regras com os valores absolutos primeiro e depois os valores curingas.
+   - A coluna _[!UICONTROL Country]_&#x200B;deve conter um [código de três caracteres válido](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) para cada linha.
+   - Classifique os dados por _[!UICONTROL Region/State]_&#x200B;de modo que os locais específicos estejam no topo da lista e os locais curinga na parte inferior. O uso desse método processa as regras com os valores absolutos primeiro e depois os valores curingas.
    - Intervalos de CEP/código postal sem suporte. Use um asterisco (*) para permitir todos os códigos dentro da região/estado ou especifique um único código para um local específico na coluna _[!UICONTROL Zip/Postal Code]_.
-   - Os valores na coluna _[!UICONTROL Weight (and above)]_podem ter no máximo quatro casas decimais (como `2.5075`). Usar mais casas decimais nos dados faz com que a importação falhe.
+   - Os valores na coluna _[!UICONTROL Weight (and above)]_&#x200B;podem ter no máximo quatro casas decimais (como `2.5075`). Usar mais casas decimais nos dados faz com que a importação falhe.
 
    ![Peso vs. Destino (Austrália)](./assets/table-rates-weight-destination-csv.png){width="500"}
 

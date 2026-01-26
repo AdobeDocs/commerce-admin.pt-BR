@@ -84,7 +84,7 @@ O exemplo a seguir demonstra como incorporar o código [Google Font](https://fon
 
 ### Etapa 3: visualizar a página
 
-1. Na seção _[!UICONTROL Currently Active]_, defina **[!UICONTROL Enable Page]**como `Yes`.
+1. Na seção _[!UICONTROL Currently Active]_, defina **[!UICONTROL Enable Page]**&#x200B;como `Yes`.
 
    ![Habilitando a página](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ O exemplo a seguir demonstra como incorporar o código [Google Font](https://fon
    | Inserir imagem... | Clique para inserir uma imagem carregada ou uma imagem da Galeria na posição do cursor na caixa de texto HTML. |
    | Inserir variável... | Clique em para inserir uma variável na posição do cursor na caixa de texto do HTML. |
 
-1. Atualize as configurações de _[!UICONTROL Advanced]_conforme necessário.
+1. Atualize as configurações de _[!UICONTROL Advanced]_&#x200B;conforme necessário.
 
    - Para controlar o posicionamento do código no contêiner pai, escolha um **[!UICONTROL Alignment]**:
 

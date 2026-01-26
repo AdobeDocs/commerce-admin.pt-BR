@@ -73,7 +73,7 @@ Embora a maioria dos contêineres divisores seja invisível, o exemplo a seguir 
 
    ![Definindo a cor, a espessura e a largura da linha](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Atualize as configurações de _[!UICONTROL Advanced]_conforme necessário.
+1. Atualize as configurações de _[!UICONTROL Advanced]_&#x200B;conforme necessário.
 
    - Para controlar o posicionamento do divisor no contêiner pai, escolha o **[!UICONTROL Alignment]**:
 

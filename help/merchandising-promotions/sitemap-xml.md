@@ -3,10 +3,10 @@ title: Mapas do site
 description: Saiba como configurar um mapa do site para indexar todas as páginas e imagens dos sites do Commerce.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: c9af0854f60da74959b5d1d822b342def417b0f9
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para o Adobe Commerce as a Cloud Service, consulte as [diretrizes de SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=pt-BR) na documentação da Commerce Storefront
+>Para o Adobe Commerce as a Cloud Service, consulte as [diretrizes de SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) na documentação da Commerce Storefront
 
 Um mapa de site melhora a maneira como sua loja é indexada por mecanismos de pesquisa e é projetado para encontrar páginas que podem ser ignoradas por rastreadores da Web. Um mapa do site pode ser configurado para indexar todas as páginas e imagens.
 
@@ -23,7 +23,7 @@ Quando habilitado, o Commerce cria um arquivo chamado `sitemap.xml` que é salvo
 
 Enquanto o site estiver em desenvolvimento, você poderá incluir instruções no arquivo `robots.txt` para que os rastreadores da Web evitem indexar o site. Antes do lançamento, é possível alterar as instruções para permitir que o site seja indexado.
 
-Para obter informações técnicas, consulte [Adicionar sitemap e robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=pt-BR) no _Guia do Commerce on Cloud Infrastructure_.
+Para obter informações técnicas, consulte [Adicionar sitemap e robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) no _Guia do Commerce on Cloud Infrastructure_.
 
 ![Grade do mapa do site](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -102,7 +102,7 @@ Para criar mapas de site para uma instância multiarmazenamento, faça o seguint
    
 >[!NOTE]
 >
->Se o site usa o mecanismo de servidor Web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=pt-BR), atualize o arquivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) na raiz do site para direcionar quaisquer outras solicitações de mapa de site para o local adequado.
+>Se o site usa o mecanismo de servidor Web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html), atualize o arquivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) na raiz do site para direcionar quaisquer outras solicitações de mapa de site para o local adequado.
 
 ## Descrições da coluna
 
@@ -227,3 +227,30 @@ O mapa do site deve ser atualizado com a mesma frequência que as alterações d
 1. Se estiver usando um arquivo `robots.txt` para fornecer instruções aos mecanismos de pesquisa que rastreiam seu site, defina **[!UICONTROL Enable Submission to Robots.txt]** como `Yes`.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
+
+## Habilitar a geração de mapas de site em lote para catálogos grandes
+
+Para lojas com catálogos grandes, use o seguinte trabalho cron alternativo para habilitar a geração de mapa de site em lote. Essa abordagem processa dados em incrementos menores, reduzindo significativamente o risco de esgotamento da memória do PHP e garantindo que a geração do mapa de site seja concluída com sucesso, mesmo em sites com dados extensos do produto.
+
+Em `app/code/Magento/Sitemap/etc/config.xml`, substitua:
+
+```xml
+<jobs>
+  <sitemap_generate>
+    <schedule>
+      <cron_expr>0 0 * * *</cron_expr>
+    </schedule>
+  </sitemap_generate>
+</jobs>
+```
+
+com:
+
+```xml
+<jobs>
+  <sitemap_generate_batch>
+    <schedule>
+      <cron_expr>0 0 * * *</cron_expr>
+    </schedule>
+  </sitemap_generate_batch>></jobs>
+```

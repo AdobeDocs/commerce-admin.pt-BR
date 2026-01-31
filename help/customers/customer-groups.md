@@ -111,4 +111,4 @@ Os grupos de clientes determinam quais descontos estão disponíveis e a classe 
 
 Saiba mais sobre como criar grupos de clientes assistindo a esta demonstração:
 
->[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411964/?captions=por_br&quality=12&learn=on)

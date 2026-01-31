@@ -61,7 +61,7 @@ Siga estas etapas gerais para configurar o Google reCAPTCHA Enterprise para sua 
 
 1. Na barra lateral do Adobe Commerce _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Expanda _[!UICONTROL Security]_e escolha **[!UICONTROL Google reCAPTCHA Storefront]**.
+1. Expanda _[!UICONTROL Security]_&#x200B;e escolha **[!UICONTROL Google reCAPTCHA Storefront]**.
 
 1. Role para baixo até a seção **[!UICONTROL reCAPTCHA Enterprise]** e conclua a configuração da seguinte maneira.
 

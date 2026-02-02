@@ -3,9 +3,9 @@ title: Conformidade com a lei de cookies
 description: Para acompanhar a legislação de muitos países em relação ao uso de cookies, o Adobe Commerce e o Magento Open Source oferecem aos comerciantes uma variedade de métodos para obter o consentimento do cliente.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: c68b464025c00acd4aea6a23aef97fb440e2ed05
 workflow-type: tm+mt
-source-wordcount: '2150'
+source-wordcount: '2244'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Os cookies são arquivos pequenos que são salvos no computador de cada visitant
 
 Quando o modo de restrição de cookies está ativado, os visitantes da sua loja são notificados de que os cookies são necessários para operações com recursos completos. Dependendo do tema, a mensagem pode aparecer acima do cabeçalho, abaixo do rodapé ou em outro lugar na página. A mensagem vincula à sua política de privacidade para obter mais informações e incentiva os visitantes a clicar no botão Permitir para conceder o consentimento. Após o consentimento ser concedido, a mensagem desaparece.
 
-Sua [política de privacidade](privacy-policy.md)) deve incluir o nome de sua loja e informações de contato, e explicar a finalidade de cada cookie usado por sua loja. Para saber mais, consulte [Referência de cookie](#default-cookies).
+A [política de privacidade](privacy-policy.md) deve incluir o nome do armazenamento e as informações de contato e explicar a finalidade de cada cookie usado pelo armazenamento. Para saber mais, consulte [Referência de cookie](#default-cookies).
 
 >[!NOTE]
 >
@@ -70,147 +70,51 @@ Alguns desses cookies podem fornecer opções de configuração, incluindo ativa
 
 ### Cookies de funcionalidade solicitados (isentos)
 
-#### `add_to_cart`
-
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Captura a SKU, o nome, o preço e a quantidade do produto removidos do carrinho. Permite que o Google Analytics saiba quando um produto foi adicionado ao carrinho.
-
-#### `guest-view`
-
-Vincula um pedido de convidado a um convidado (porque não há conta para convidado). Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `login_redirect`
-
-Salva o URL de redirecionamento para encaminhar o usuário se o logon e o registro do usuário forem bem-sucedidos. Salva a página em que um usuário estava antes de fazer logon (para determinar o local para o qual ele retornará após fazer logon).
-
-#### `mage-banners-cache-storage`
-
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Armazenamento local para a funcionalidade de banner. Armazena conteúdo de banner localmente para melhorar o desempenho. O conteúdo do banner inclui ativos gerais do site que exibem informações para um comprador. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `mage-messages`
-
-Rastreia mensagens de erro e outras notificações mostradas ao usuário, como a mensagem de consentimento do cookie e várias mensagens de erro. A mensagem é excluída do cookie depois de ser mostrada ao comprador. Não há uma opção para desativar esse cookie. É assim que as informações únicas são comunicadas ao usuário, como mensagens de erro. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `product_data_storage` (armazenamento local)
-
-Armazena a configuração de dados de produtos usados para usar as funções &quot;Visualizado recentemente&quot; e &quot;Comparar produtos&quot;. Armazena as configurações específicas de um usuário (por exemplo, se ele visualizou um produto recentemente ou comparou produtos). Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `recently_compared_product` (armazenamento local)
-
-Armazena IDs de produtos de produtos comparados recentemente. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `recently_compared_product_previous` (armazenamento local)
-
-Armazena IDs de produtos comparados anteriormente para facilitar a navegação. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `recently_viewed_product` (armazenamento local)
-
-Armazena IDs de produtos visualizados recentemente para facilitar a navegação. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `recently_viewed_product_previous` (armazenamento local)
-
-Armazena IDs de produtos visualizados recentemente para facilitar a navegação. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `remove_from_cart`
-
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) permite que a Google Analytics saiba quando um produto foi removido do carrinho.
-
-#### `stf`
-
-Registra as mensagens de hora que são enviadas pelo módulo SendFriend ([Enviar por Email para um Amigo](../stores-purchase/email-a-friend.md)). Quando um comprador envia um link para um produto, esse cookie registra um carimbo de data e hora e mantém uma contagem.
-
-#### `X-Magento-Vary`
-
-Indica quando uma nova versão de uma página precisa ser disponibilizada do cache. Oferece suporte ao desempenho do site. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `form_key`
-
-Um mecanismo de segurança que retém um valor gerado aleatoriamente para impedir ataques de falsificação de solicitação entre sites (CSRF), ajudando a determinar se uma solicitação veio de uma fonte original ou de um ator incorreto. Essa é uma prática padrão do setor para impedir ataques de CSRF. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `mage-cache-sessid`
-
-Útil para determinar quando limpar o armazenamento local no navegador após a expiração da sessão. Isso é usado para determinar se o armazenamento local deve ser limpo. A ausência desse cookie aciona a limpeza do armazenamento local. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `mage-cache-storage`
-
-Armazenamento local de conteúdo específico do visitante que habilita as funções de comércio eletrônico. Não é usado por padrão, mas quando é usado, é usado para agilizar a finalização para que as informações básicas do usuário estejam disponíveis quando alguém sair e retornar. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `mage-cache-storage-section-invalidation`
-
-Armazena informações relacionadas às seções da página que precisam ser invalidadas e removidas. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `persistent_shopping_cart`
-
-Armazena a ID de chave de um carrinho persistente para possibilitar a restauração do carrinho por um comprador anônimo. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `private_content_version`
-
-Acrescenta um número e hora aleatórios e exclusivos às páginas com conteúdo do cliente para impedir que sejam armazenadas em cache no servidor. Ela é definida em vários lugares: no PHP, no JavaScript como um cookie e no JavaScript para armazenamento local. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `section_data_ids`
-
-Armazena informações específicas do cliente relacionadas a ações iniciadas pelo comprador, como exibição de lista de desejos e informações de check-out. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `store`
-
-Rastreia a exibição/localidade de loja específica selecionada pelo comprador. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `PHPSESSID`
-
-Rastreia sessões de usuários na loja. Esses são os compradores que usam os produtos finais. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `admin`
-
-Rastreia as sessões do usuário no lado do Administrador. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `loggedOutReasonCode`
-
-Definido quando um usuário administrador é bloqueado após um determinado número de tentativas de senha malsucedidas.
-
-#### `section_data_clean`
-
-Definido quando um usuário alterna a exibição de armazenamento. A presença desse cookie aciona o JavaScript para recarregar determinadas seções na página para refletir a exibição de armazenamento correta. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `lang`
-
-Definido indiretamente pelo módulo Admin Analytics. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `s_fid`
-
-Definido indiretamente pelo módulo Admin Analytics. Carimbo de data/hora da ID de visitante único de fallback. É usado para identificar um visitante único se o cookie padrão `s_vi` não estiver disponível devido a restrições de cookies de terceiros. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `s_cc`
-
-Definido indiretamente pelo módulo Admin Analytics. Ele é definido e lido pelo código JavaScript para determinar se os cookies estão ativados. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `apt.sid`
-
-Definido pela biblioteca Gainsight PX usada indiretamente pelo módulo Admin Analytics. A finalidade desse cookie é permitir o rastreamento de ID de sessão persistente no domínio de nível superior do produto e ele é usado como ID de referência para a sessão ativa. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `apt.uid`
-
-Definido pela biblioteca Gainsight PX usada indiretamente pelo módulo Admin Analytics. A finalidade desse cookie é permitir o rastreamento de ID persistente no domínio de nível superior do produto e ele é usado como ID de referência para a entidade do usuário. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `s_sq`
-
-Definido indiretamente pelo módulo Admin Analytics. Usado pelo recurso do ClickMap que coleta dados sobre onde os visitantes clicam e no que clicam. Armazena informações de cada clique. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. Para manter a estabilidade do sistema, não desative este cookie.
-
-#### `pagebuilder_modal_dismissed`
-
-Definido pelo Módulo do Page Builder. Contém um sinalizador que impede que prompts subsequentes solicitem a um administrador que confirme a abertura de uma determinada ação se o administrador os tiver rejeitado explicitamente antes. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores.
-
-#### `pagebuilder_template_apply_confirm`
-
-Definido pelo Módulo do Page Builder. Contém um sinalizador que impede que prompts subsequentes solicitem a um administrador que confirme a abertura de uma determinada ação se o administrador os tiver rejeitado explicitamente antes. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores.
-
-#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
-
-Ser usado como parte da implementação da funcionalidade de guias somente em uma área administrativa de uma loja. Não aplicável aos compradores.
+| Nome | Tipo | Descrição |
+| ------ | ------ | ------------- |
+| **`add_to_cart`** | Cookie | ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Captura a SKU, o nome, o preço e a quantidade do produto removidos do carrinho. Permite que o Google Analytics saiba quando um produto foi adicionado ao carrinho. |
+| **`guest-view`** | Cookie | Vincula um pedido de convidado a um convidado (porque não há conta para convidado). Para manter a estabilidade do sistema, não desative este cookie. |
+| **`login_redirect`** | Cookie | Salva o URL de redirecionamento para encaminhar o usuário se o logon e o registro do usuário forem bem-sucedidos. Salva a página em que um usuário estava antes de fazer logon (para determinar o local para o qual ele retornará após fazer logon). |
+| **`mage-banners-cache-storage`** | Armazenamento local | ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Armazenamento local para a funcionalidade de banner. Armazena conteúdo de banner localmente para melhorar o desempenho. O conteúdo do banner inclui ativos gerais do site que exibem informações para um comprador. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`mage-messages`** | Cookie | Rastreia mensagens de erro e outras notificações mostradas ao usuário, como a mensagem de consentimento do cookie e várias mensagens de erro. A mensagem é excluída do cookie depois de ser mostrada ao comprador. Não há uma opção para desativar esse cookie. É assim que as informações únicas são comunicadas ao usuário, como mensagens de erro. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`product_data_storage`** | Armazenamento local | Armazena a configuração de dados de produtos usados para usar as funções &quot;Visualizado recentemente&quot; e &quot;Comparar produtos&quot;. Armazena as configurações específicas de um usuário (por exemplo, se ele visualizou um produto recentemente ou comparou produtos). Para manter a estabilidade do sistema, não desative este cookie. |
+| **`recently_compared_product`** | Armazenamento local | Armazena IDs de produtos de produtos comparados recentemente. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`recently_compared_product_previous`** | Armazenamento local | Armazena IDs de produtos comparados anteriormente para facilitar a navegação. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`recently_viewed_product`** | Armazenamento local | Armazena IDs de produtos visualizados recentemente para facilitar a navegação. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`recently_viewed_product_previous`** | Armazenamento local | Armazena IDs de produtos visualizados recentemente para facilitar a navegação. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`remove_from_cart`** | Cookie | ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) permite que a Google Analytics saiba quando um produto foi removido do carrinho. |
+| **`stf`** | Cookie | Registra as mensagens de hora que são enviadas pelo módulo SendFriend ([Enviar por Email para um Amigo](../stores-purchase/email-a-friend.md)). Quando um comprador envia um link para um produto, esse cookie registra um carimbo de data e hora e mantém uma contagem. |
+| **`X-Magento-Vary`** | Cookie | Indica quando uma nova versão de uma página precisa ser disponibilizada do cache. Oferece suporte ao desempenho do site. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`form_key`** | Cookie | Um mecanismo de segurança que retém um valor gerado aleatoriamente para impedir ataques de falsificação de solicitação entre sites (CSRF), ajudando a determinar se uma solicitação veio de uma fonte original ou de um ator incorreto. Essa é uma prática padrão do setor para impedir ataques de CSRF. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`mage-cache-sessid`** | Cookie | Útil para determinar quando limpar o armazenamento local no navegador após a expiração da sessão. Isso é usado para determinar se o armazenamento local deve ser limpo. A ausência desse cookie aciona a limpeza do armazenamento local. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`mage-cache-storage`** | Armazenamento local | Armazenamento local de conteúdo específico do visitante que habilita as funções de comércio eletrônico. Não é usado por padrão, mas quando é usado, é usado para agilizar a finalização para que as informações básicas do usuário estejam disponíveis quando alguém sair e retornar. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`mage-cache-storage-section-invalidation`** | Armazenamento local | Armazena informações relacionadas às seções da página que precisam ser invalidadas e removidas. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`mage-cache-timeout`** | Armazenamento local | Controla por quanto tempo os dados relacionados ao cliente são armazenados em cache no navegador. Quando o tempo limite expira, o Magento limpa e recarrega as seções de cliente em cache, como o carrinho, a lista de desejos e os dados do cliente. Esse comportamento ajuda a manter a precisão e a privacidade dos dados, equilibrando o desempenho do lado do cliente. O valor de tempo limite se alinha à Vida útil do cookie configurada para manter a consistência com o gerenciamento de sessão do lado do servidor. |
+| **`persistent_shopping_cart`** | Cookie | Armazena a ID de chave de um carrinho persistente para possibilitar a restauração do carrinho por um comprador anônimo. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`private_content_version`** | Cookie | Acrescenta um número e hora aleatórios e exclusivos às páginas com conteúdo do cliente para impedir que sejam armazenadas em cache no servidor. Ela é definida em vários lugares: no PHP, no JavaScript como um cookie e no JavaScript para armazenamento local. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`section_data_ids`** | Cookie | Armazena informações específicas do cliente relacionadas a ações iniciadas pelo comprador, como exibição de lista de desejos e informações de check-out. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`store`** | Cookie | Rastreia a exibição/localidade de loja específica selecionada pelo comprador. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`PHPSESSID`** | Cookie | Rastreia sessões de usuários na loja. Esses são os compradores que usam os produtos finais. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`admin`** | Cookie | Rastreia as sessões do usuário no lado do Administrador. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`loggedOutReasonCode`** | Cookie | Definido quando um usuário administrador é bloqueado após um determinado número de tentativas de senha malsucedidas. |
+| **`section_data_clean`** | Cookie | Definido quando um usuário alterna a exibição de armazenamento. A presença desse cookie aciona o JavaScript para recarregar determinadas seções na página para refletir a exibição de armazenamento correta. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`lang`** | Cookie | Definido indiretamente pelo módulo Admin Analytics. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`s_fid`** | Cookie | Definido indiretamente pelo módulo Admin Analytics. Carimbo de data/hora da ID de visitante único de fallback. É usado para identificar um visitante único se o cookie padrão `s_vi` não estiver disponível devido a restrições de cookies de terceiros. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`s_cc`** | Cookie | Definido indiretamente pelo módulo Admin Analytics. Ele é definido e lido pelo código JavaScript para determinar se os cookies estão ativados. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`apt.sid`** | Cookie | Definido pela biblioteca Gainsight PX usada indiretamente pelo módulo Admin Analytics. A finalidade desse cookie é permitir o rastreamento de ID de sessão persistente no domínio de nível superior do produto e ele é usado como ID de referência para a sessão ativa. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`apt.uid`** | Cookie | Definido pela biblioteca Gainsight PX usada indiretamente pelo módulo Admin Analytics. A finalidade desse cookie é permitir o rastreamento de ID persistente no domínio de nível superior do produto e ele é usado como ID de referência para a entidade do usuário. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`s_sq`** | Cookie | Definido indiretamente pelo módulo Admin Analytics. Usado pelo recurso do ClickMap que coleta dados sobre onde os visitantes clicam e no que clicam. Armazena informações de cada clique. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. Para manter a estabilidade do sistema, não desative este cookie. |
+| **`pagebuilder_modal_dismissed`** | Cookie | Definido pelo Módulo do Page Builder. Contém um sinalizador que impede que prompts subsequentes solicitem a um administrador que confirme a abertura de uma determinada ação se o administrador os tiver rejeitado explicitamente antes. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. |
+| **`pagebuilder_template_apply_confirm`** | Cookie | Definido pelo Módulo do Page Builder. Contém um sinalizador que impede que prompts subsequentes solicitem a um administrador que confirme a abertura de uma determinada ação se o administrador os tiver rejeitado explicitamente antes. Sendo usado somente em uma área administrativa de um armazenamento. Não aplicável aos compradores. |
+| **`accordion-{VARIABLE}-{VARIABLE}`** | Cookie | Ser usado como parte da implementação da funcionalidade de guias somente em uma área administrativa de uma loja. Não aplicável aos compradores. |
+
+{style="table-layout:auto"}
 
 ## Cookies de recomendações de produto
 
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir são usados pelas Recomendações de Produto para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir são usados pelas Recomendações de Produto para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: permite [restringir a coleta de dados do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/developer/setting-cookie) se você tiver um código personalizado para gerenciar o consentimento de cookies no site.
+- `mg_dnt`: permite [restringir a coleta de dados do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) se você tiver um código personalizado para gerenciar o consentimento de cookies no site.
 - `user_allowed_save_cookie`: Usado para [modo de restrição de cookies](#cookie-restriction-mode).
 - `authentication_flag`: indica se um comprador entrou ou saiu. Este cookie é atualizado ao mesmo tempo que o cookie `dataservices_customer_id`.
 - `dataservices_customer_id`: indica se um comprador entrou ou saiu. Este cookie contém o identificador exclusivo do cliente no sistema.
@@ -230,8 +134,8 @@ Os dados a seguir são salvos no armazenamento local para lojas que usam o tema 
 
 ## Cookies adicionais
 
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir estão definidos para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir estão definidos para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: Definido pelo rastreador Snowplow JavaScript. Mais informações podem ser encontradas na [documentação do Snowplow](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Dado o nome de host da página da Web atual, este é o domínio mais alto que não é um &quot;sufixo público&quot;, conforme descrito em https://publicsuffix.org. Essencialmente, esse é o domínio mais alto que pode aceitar cookies. Este cookie faz parte do [Alloy Web SDK](https://github.com/adobe/alloy).
-- `aep-segments-membership`: Contém [informações de público-alvo](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/audience-activation), como a qual segmento um comprador pertence.
+- `aep-segments-membership`: Contém [informações de público-alvo](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), como a qual segmento um comprador pertence.

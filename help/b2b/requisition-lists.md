@@ -3,7 +3,7 @@ title: Listas de requisições
 description: Saiba mais sobre as listas de requisição e como elas são usadas para adicionar facilmente produtos encomendados com frequência ao carrinho de compras.
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-source-git-commit: 7e4eef8a6862667b9ab11cd07f85eb4b5ac9a6e4
+source-git-commit: 5f46c4b29c7ee08faf3785c767d3130a277767df
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Listas de requisições
 
-O uso de uma lista de requisições economiza tempo ao comprar produtos solicitados com frequência, pois os itens são adicionados ao carrinho diretamente da lista. Os compradores podem manter várias listas que se concentram em produtos de diferentes fornecedores, compradores, equipes, campanhas ou qualquer outra coisa que simplifique o fluxo de trabalho. Ele está disponível tanto para usuários conectados quanto para convidados.
+O uso de uma lista de requisições economiza tempo ao comprar produtos solicitados com frequência, pois os itens são adicionados ao carrinho diretamente da lista. Os compradores podem manter várias listas que se concentram em produtos de diferentes fornecedores, compradores, equipes, campanhas ou qualquer outra coisa que simplifique o fluxo de trabalho. O recurso de lista de requisições está disponível para usuários conectados.
 
 >[!NOTE]
 >

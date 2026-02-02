@@ -23,12 +23,12 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Atualização dos <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups">Grupos de clientes</a> no Guia de gerenciamento de clientes para esclarecer que os usuários administradores não podem editar o Grupo de clientes de um cliente depois que ele é atribuído a uma empresa.</p>
+      <td><p>Atualização dos <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/customer-groups">Grupos de clientes</a> no Guia de gerenciamento de clientes para esclarecer que os usuários administradores não podem editar o Grupo de clientes de um cliente depois que ele é atribuído a uma empresa.</p>
 </td>
       <td>
         Técnico
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/pull/81">pull request</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.pt-BR/pull/81">pull request</a></td>
     </tr>
   </tbody>
 </table>
@@ -67,7 +67,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Foi adicionado um esclarecimento quando os emails <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store">Pedido pronto para retirada na loja</a> estão disponíveis.</p>
+      <td><p>Foi adicionado um esclarecimento quando os emails <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store">Pedido pronto para retirada na loja</a> estão disponíveis.</p>
 </td>
       <td>
         Feedback
@@ -89,7 +89,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Adição dos seguintes recursos ao Adobe Commerce as a Cloud Service:<br />- Adição de suporte ao <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>, que fornece proteção de bot avançada com análise de risco adaptável e recursos de aprendizado de máquina.<br />- Transforme os números de rastreamento de remessa incluídos nos emails do comprador de texto sem formatação em links clicáveis ao <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">habilitar as URLs de Rastreamento Personalizado</a>. Esse recurso é compatível com USPS, UPS, FedEx e DHL.<br />- Agora você pode combinar descontos de preços em camadas com descontos de regras de catálogo usando <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">regras de preços de catálogo</a>. Esse aprimoramento permite criar estratégias de preços mais dinâmicas e competitivas.</p>
+      <td><p>Adição dos seguintes recursos ao Adobe Commerce as a Cloud Service:<br />- Adição de suporte ao <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>, que fornece proteção de bot avançada com análise de risco adaptável e recursos de aprendizado de máquina.<br />- Transforme os números de rastreamento de remessa incluídos nos emails do comprador de texto sem formatação em links clicáveis ao <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">habilitar as URLs de Rastreamento Personalizado</a>. Esse recurso é compatível com USPS, UPS, FedEx e DHL.<br />- Agora você pode combinar descontos de preços em camadas com descontos de regras de catálogo usando <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">regras de preços de catálogo</a>. Esse aprimoramento permite criar estratégias de preços mais dinâmicas e competitivas.</p>
 </td>
       <td>
         Atualização importante, novo tópico
@@ -111,7 +111,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Atualização do <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">tópico de recompensas e fidelidade</a> para esclarecer como o imposto é calculado quando os clientes usam pontos de premiação ou armazenam crédito durante o check-out.</p>
+      <td><p>Atualização do <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">tópico de recompensas e fidelidade</a> para esclarecer como o imposto é calculado quando os clientes usam pontos de premiação ou armazenam crédito durante o check-out.</p>
 </td>
       <td>
         Feedback
@@ -133,7 +133,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Atualizadas as descrições das metatecarcas de robôs <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> na <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">documentação de SEO</a>.<br /><em>Corrige o problema <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
+      <td><p>Atualizadas as descrições das metatecarcas de robôs <code class="language-plaintext highlighter-rouge">NOFOLLOW</code> na <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/seo/seo-overview">documentação de SEO</a>.<br /><em>Corrige o problema <a href="https://github.com/AdobeDocs/commerce-admin.pt-BR/issues/82">#82</a>.</em></p>
 </td>
       <td>
         Técnico, feedback

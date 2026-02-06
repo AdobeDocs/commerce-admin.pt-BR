@@ -3,9 +3,9 @@ title: Funções do usuário
 description: Saiba como criar funções de usuário e as permissões associadas para gerenciar o acesso às funções de Administrador.
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: dff29b7c3a95d4a0ae5ce16819c41a4560b477c4
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 ### Etapa 1: adicionar o nome da função
 
-1. Em _[!UICONTROL Role Information]_, insira um **[!UICONTROL Role Name]**&#x200B;descritivo.
+1. Em _[!UICONTROL Role Information]_, insira um **[!UICONTROL Role Name]**descritivo.
 
 1. Em _[!UICONTROL Current User Identity Verification]_, digite sua senha.
 
@@ -49,9 +49,13 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
    >[!NOTE]
    >
-   >Os usuários com escopo de função `Custom` não podem criar sites e categorias, atribuir produtos a categorias ou editar produtos no escopo _[!UICONTROL All Store Views]_&#x200B;quando são atribuídos a lojas restritas. Esses usuários também não podem executar outras ações_ globais _que afetam escopos aos quais não têm acesso.
+   >Os usuários com escopo de função `Custom` não podem criar sites e categorias, atribuir produtos a categorias ou editar produtos no escopo _[!UICONTROL All Store Views]_quando são atribuídos a lojas restritas. Esses usuários também não podem executar outras ações_ globais _que afetam escopos aos quais não têm acesso.
 
-1. Em _[!UICONTROL Roles Resources]_, defina **[!UICONTROL Resource Access]**&#x200B;como `Custom`.
+1. Em _[!UICONTROL Roles Resources]_, defina **[!UICONTROL Resource Access]**como `Custom`.
+
+   >[!NOTE]
+   >
+   >Se a Autenticação de Dois Fatores (2FA) for necessária para fazer logon no Administrador, habilite o Recurso `Permissions` > `Two Factor Auth` para esta função. Caso contrário, os usuários recém-criados com este escopo de função `Custom` não poderão configurar 2FA quando acessarem o Administrador pela primeira vez.
 
 1. Na estrutura de árvore **[!UICONTROL Resource]**, marque a caixa de seleção de cada recurso de Administrador que a função pode acessar.
 
@@ -77,7 +81,7 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 1. No painel esquerdo, escolha **[!UICONTROL Role Users]**.
 
-   A opção _[!UICONTROL Role Users]_&#x200B;aparece somente depois que uma nova função é salva.
+   A opção _[!UICONTROL Role Users]_aparece somente depois que uma nova função é salva.
 
    ![Contas de usuário atribuídas à função](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
@@ -119,7 +123,7 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 Assista a este vídeo para saber mais sobre o gerenciamento de funções de usuário:
 
->[!VIDEO](https://video.tv.adobe.com/v/3443512?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
 
 ## Recursos de função
 
@@ -147,7 +151,7 @@ O acesso aos recursos a seguir pode ser atribuído a uma função personalizada.
 | [`Marketing`](../merchandising-promotions/marketing-menu.md) | [`Promotions`](../merchandising-promotions/marketing-menu.md#uicontrol-promotions) | [`Catalog Price Rule`](../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../merchandising-promotions/price-rules-cart.md) <br/>[`Related Products Rules`](../merchandising-promotions/product-related-rules.md)![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Gift Card Accounts`](../stores-purchase/product-gift-card-accounts.md) ![Adobe Commerce](../assets/adobe-logo.svg) |
 |  | [`Private Sales`](../merchandising-promotions/events-private-sales.md) ![Adobe Commerce](../assets/adobe-logo.svg) | [`Events`](../merchandising-promotions/event-create.md) <br/>[`Invitations`](../merchandising-promotions/invitations.md) |
 |  | `Communications` | [`Email Templates`](email-templates.md) <br/>[`Newsletter Template`](../merchandising-promotions/newsletter-template.md) <br/>[`Newsletter Queue`](../merchandising-promotions/newsletter-queue.md) <br/>[`Newsletter Subscribers`](../merchandising-promotions/newsletter-subscribers.md) <br/>[`Email Reminders`](../merchandising-promotions/email-reminder-rules.md) |
-|  | `Sales Channel` | [`Amazon Sales Channel`](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=pt-BR) |
+|  | `Sales Channel` | [`Amazon Sales Channel`](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html) |
 |  | [`SEO & Search`](../merchandising-promotions/marketing-menu.md#uicontrol-seo--search) | [`Search Terms`](../catalog/search-terms.md) <br/>[`Search Synonyms`](../catalog/search-terms.md#search-synonyms) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`URL Rewrites`](../merchandising-promotions/url-rewrite-custom.md) <br/>[`Site Map`](../merchandising-promotions/sitemap-xml.md) |
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
@@ -156,7 +160,7 @@ O acesso aos recursos a seguir pode ser atribuído a uma função personalizada.
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |
-|  | `System Insights` ![Adobe Commerce](../assets/adobe-logo.svg) | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=pt-BR) |
+|  | `System Insights` ![Adobe Commerce](../assets/adobe-logo.svg) | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) |
 |  | [`Customers`](../getting-started/customer-reports.md)<br/>[`Products`](../getting-started/product-reports.md)<br/>[`Private Sales`](../getting-started/private-sales-reports.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br />[`Statistics`](../getting-started/reports-menu.md#uicontrol-statistics)<br />[`Business Intelligence`](../getting-started/business-intelligence.md) |  |
 | [`Stores`](../stores-purchase/stores.md) | [`Settings`](../stores-purchase/stores-menu.md) | [`All Stores`](../stores-purchase/stores.md)<br/>[`Configuration`](../configuration-reference/guide-overview.md)<br/>[`Terms and Conditions`](../stores-purchase/terms-and-conditions.md)<br/>[`Order Status`](../stores-purchase/order-status.md) |  |
 |  | [`Inventory`](../inventory-management/sources-stocks.md) | [`Sources`](../inventory-management/sources-manage.md)<br/>[`Stocks`](../inventory-management/stocks-manage.md) |  |

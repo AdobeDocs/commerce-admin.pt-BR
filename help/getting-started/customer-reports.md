@@ -3,8 +3,7 @@ title: Relatórios de cliente
 description: Os relatórios do cliente disponíveis no Adobe Commerce e no Magento Open Source fornecem o insight para a atividade do cliente durante um período ou intervalo de datas especificado.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 1%
@@ -109,6 +108,8 @@ Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Custo
 {style="table-layout:auto"}
 
 ## [!UICONTROL Customer Wish List Report]
+
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce)
 

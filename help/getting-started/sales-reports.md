@@ -3,8 +3,7 @@ title: Relatórios de vendas
 description: Os  [!DNL Commerce] relatórios de vendas ajudam você a rastrear pedidos, impostos, faturas, remessa, reembolsos, cupons e liquidação do PayPal.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -131,6 +130,8 @@ Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales
 1. Clique em **[!UICONTROL Export]**.
 
 ## Atualizar estatísticas
+
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Para reduzir o impacto no desempenho da geração de relatórios de vendas, o [!DNL Commerce] calcula e armazena as estatísticas necessárias para cada relatório. Em vez de recalcular as estatísticas sempre que um relatório for gerado, as estatísticas armazenadas serão usadas, a menos que você atualize as estatísticas. Para incluir os dados mais recentes, as estatísticas do relatório devem ser atualizadas antes de um relatório de vendas ser gerado.
 

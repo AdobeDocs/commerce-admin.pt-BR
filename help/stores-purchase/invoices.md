@@ -3,9 +3,9 @@ title: Faturas
 description: Saiba como criar e imprimir faturas para dar suporte ao processamento de pedidos e às operações de atendimento ao cliente.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: 80cc27c4247230eb5e43bca46a34d358f9f0bcea
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Uma fatura para o pedido deve ser gerada antes de ser impressa. Para exibir ou i
 
    >[!NOTE]
    >
-   >A opção _[!UICONTROL Invoice]_&#x200B;não aparece quando a [ação de pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) para o seu [método de pagamento](../configuration-reference/sales/payment-methods.md) específico está definida como `Authorize and Capture`, que gera automaticamente uma fatura. Esse também é o caso se o pedido for feito e a ação de pagamento para seu método de pagamento estiver definida como `Authorize` e o pedido for faturado.
+   >A opção _[!UICONTROL Invoice]_não aparece quando a [ação de pagamento](../configuration-reference/sales/payment-methods.md#payment-actions) para o seu [método de pagamento](../configuration-reference/sales/payment-methods.md) específico está definida como `Authorize and Capture`, que gera automaticamente uma fatura. Esse também é o caso se o pedido for feito e a ação de pagamento para seu método de pagamento estiver definida como `Authorize` e o pedido for faturado.
 
    ![Fatura da Ordem de Venda](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +131,7 @@ As faturas podem ser impressas individualmente ou em lote. No entanto, antes que
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Na grade _[!UICONTROL Invoices]_, localize a fatura e clique em **[!UICONTROL View]**&#x200B;na coluna_ Ação _.
+1. Na grade _[!UICONTROL Invoices]_, localize a fatura e clique em **[!UICONTROL View]**na coluna_ Ação _.
 
 1. Na parte superior da fatura, clique em **[!UICONTROL Print]** para gerar uma PDF da fatura.
 
@@ -148,3 +148,17 @@ As faturas podem ser impressas individualmente ou em lote. No entanto, antes que
    ![Imprimir várias faturas](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 As faturas são salvas em um único arquivo PDF que pode ser enviado para uma impressora ou salvo.
+
+## Valores de captura personalizados
+
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+
+Para fornecer aos comerciantes maior flexibilidade para capturas parciais e cenários de pagamento especializados, a API de NFF suporta quantias de captura personalizadas usando atributos de extensão.
+
+Você pode fazer chamadas REST para capturar um valor personalizado ao criar uma fatura.  Use o ponto de extremidade REST [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) e especifique o valor personalizado no campo `extension_attributes.custom_capture_amount` da carga.
+
+>[!NOTE]
+>
+>Entre em contato com o representante de suporte para ativar esse recurso.
+>
+>Devido a restrições legais, o valor de captura personalizado só está disponível na região da América do Norte (NA) e em outras regiões onde a captura excessiva de pagamento é permitida.

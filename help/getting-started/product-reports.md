@@ -16,7 +16,7 @@ Os relatórios de produtos fornecem informações sobre a insight relacionadas a
 
 ## [!UICONTROL Product Views Report]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 O [!UICONTROL Product Views Report] mostra os produtos que foram exibidos durante um intervalo de tempo ou intervalo de datas. O relatório inclui o nome do produto, o preço e o número de visualizações.
 
@@ -50,7 +50,7 @@ Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Produ
 
 ## [!UICONTROL Downloads Report]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 O [!UICONTROL Downloads Report] lista todos os downloads durante o intervalo de tempo ou intervalo de datas especificado. O relatório inclui o nome do produto, o link de download e a SKU, além do número de compras e downloads.
 

@@ -131,7 +131,7 @@ Na barra lateral _Admin_, vá para **[!UICONTROL Reports]** > _[!UICONTROL Sales
 
 ## Atualizar estatísticas
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Para reduzir o impacto no desempenho da geração de relatórios de vendas, o [!DNL Commerce] calcula e armazena as estatísticas necessárias para cada relatório. Em vez de recalcular as estatísticas sempre que um relatório for gerado, as estatísticas armazenadas serão usadas, a menos que você atualize as estatísticas. Para incluir os dados mais recentes, as estatísticas do relatório devem ser atualizadas antes de um relatório de vendas ser gerado.
 

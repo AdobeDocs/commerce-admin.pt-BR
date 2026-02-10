@@ -22,7 +22,7 @@ O relatório [!UICONTROL Products in Cart] fornece uma lista de todos os produto
 
 ## [!UICONTROL Search Terms Report]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 O relatório de [Termos de Pesquisa](../catalog/search-terms.md#search-terms-report) mostra o que seus clientes estão procurando em cada exibição de loja. O relatório inclui o número de itens correspondentes encontrados no catálogo e quantas vezes o termo de pesquisa foi usado.
 
@@ -36,7 +36,7 @@ O relatório [!UICONTROL Abandoned Carts] lista todos os clientes registrados qu
 
 ## [!UICONTROL Newsletter Problems Report]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 O [!UICONTROL Newsletter Problems Report] inclui informações sobre qualquer fila de informativos que não foi transmitida com êxito. O relatório inclui o nome de cada assinante, a data e o assunto da fila, além das informações sobre o erro.
 

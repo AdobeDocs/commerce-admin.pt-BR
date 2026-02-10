@@ -151,7 +151,7 @@ As faturas são salvas em um único arquivo PDF que pode ser enviado para uma im
 
 ## Valores de captura personalizados
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Para fornecer aos comerciantes maior flexibilidade para capturas parciais e cenários de pagamento especializados, a API de NFF suporta quantias de captura personalizadas usando atributos de extensão.
 

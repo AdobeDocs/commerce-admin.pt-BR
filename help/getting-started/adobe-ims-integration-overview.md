@@ -3,10 +3,10 @@ title: Visão geral da integração do Adobe Identity Management Service (IMS)
 description: Apresenta a integração opcional do logon de administrador do Adobe Commerce com o Adobe IMS
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 484351d7db33139e3339ccea82e7a96f5ea7966e
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,13 @@ Para implementar essa integração, consulte [Configurar a Integração do Admin
 
 ## Alterações nos fluxos de trabalho e na interface do administrador após a integração com o IMS
 
-Quando essa integração é habilitada, os usuários administradores do Commerce experimentam alterações no logon e no fluxo de trabalho de autenticação padrão do administrador do Commerce ao realizar tarefas de rotina no administrador que exigem reautenticação, como criar um usuário administrador. A imposição da autenticação de dois fatores (2FA) no nível da organização da Adobe é necessária para a ativação do módulo. O logon de Administrador padrão e 2FA estão desabilitados, e o botão _[!UICONTROL Sign In with Adobe ID]_&#x200B;substitui o formulário de logon de Administrador padrão. As autorizações ainda são gerenciadas do Administrador.
+Quando essa integração é habilitada, os usuários administradores do Commerce experimentam alterações no logon e no fluxo de trabalho de autenticação padrão do administrador do Commerce ao realizar tarefas de rotina no administrador que exigem reautenticação, como criar um usuário administrador. A imposição da autenticação de dois fatores (2FA) no nível da organização da Adobe é necessária para a ativação do módulo. O logon de Administrador padrão e 2FA estão desabilitados, e o botão _[!UICONTROL Sign In with Adobe ID]_substitui o formulário de logon de Administrador padrão. As autorizações ainda são gerenciadas do Administrador.
+
+>
+>
+>A integração do Adobe Ims é aplicada globalmente. Depois de habilitado, todos os usuários são solicitados a se autenticar por meio do AdobeIms; usuários individuais não podem ser excluídos dessa configuração.
+>
+>**Habilite esta integração somente depois de entender totalmente suas implicações.**
 
 ## Como a integração do administrador com o IMS afeta as senhas do Commerce
 

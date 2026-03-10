@@ -40,7 +40,7 @@ Para obter uma descrição detalhada de cada uma dessas configurações, consult
 
 ## Permitir acesso de pedido de convidado para emails registrados
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Uma configuração opcional no nível da loja, que é desativada por padrão, permite que os compradores convidados rastreiem seus pedidos feitos usando um endereço de email que corresponda a uma conta de cliente registrada.
 

@@ -3,9 +3,9 @@ title: Check-out de convidado
 description: Saiba como habilitar recursos de check-out de convidado em sua loja.
 exl-id: ce25eba3-7503-46aa-a5cd-9b7d5662164b
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 347321ec5b0722f06240780136cb29816aab559f
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Sua loja pode ser configurada para exigir que os compradores abram uma conta ant
 
 ![O armazenamento Luma exibe Fazer Check-out como Convidado](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
 
-**_Para desabilitar o check-out do convidado:_**
+**_Para desabilitar check-out de convidado:_**
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -37,3 +37,13 @@ Para obter uma descrição detalhada de cada uma dessas configurações, consult
    Se necessário, desmarque a caixa de seleção **[!UICONTROL Use system value]** para habilitar alterações nessa configuração.
 
 1. Clique em **[!UICONTROL Save Config]**.
+
+## Permitir acesso de pedido de convidado para emails registrados
+
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+
+Uma configuração opcional no nível da loja, que é desativada por padrão, permite que os compradores convidados rastreiem seus pedidos feitos usando um endereço de email que corresponda a uma conta de cliente registrada.
+
+Quando ativado, os pedidos de check-out de convidado feitos com um email registrado permanecem acessíveis e também aparecem no histórico de pedidos do cliente.
+
+Para habilitar este recurso, navegue até **Lojas** > Configurações > **Configuração** > Vendas > **Vendas** > **Check-out de Convidado** e defina a configuração **Permitir Acesso de Pedido de Convidado para Emails Registrados** como `Yes`.

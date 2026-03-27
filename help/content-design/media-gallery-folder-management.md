@@ -3,10 +3,10 @@ title: Gerenciamento de pastas da Galeria de mídia
 description: Saiba como usar pastas para organizar ativos de mídia.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: c542ab1bf941c8bebcb665b7c29b6a2a80c15790
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,7 @@ Use pastas para organizar imagens na nova [Galeria de Mídia](media-gallery.md).
 
 ## Criar uma pasta
 
->[!NOTE]
->
->Você só pode criar uma pasta nas pastas `pub/media/wysywig` e `pub/media/catalog/category`.
+Você só pode criar uma pasta em `pub/media/wysywig`, `pub/media/catalog/category` ou outras pastas adicionadas por módulos.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 

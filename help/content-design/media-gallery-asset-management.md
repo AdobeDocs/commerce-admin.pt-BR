@@ -3,10 +3,10 @@ title: Gerenciamento de ativos da Galeria de mídia
 description: Saiba como gerenciar arquivos de mídia carregados e ativos adquiridos por meio de uma integração com o Adobe Stock.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Gerenciamento de ativos da Galeria de mídia
 
 A nova [Galeria de Mídia](media-gallery.md) fornece ferramentas para gerenciar arquivos de mídia carregados e ativos adquiridos por meio de uma [integração com o Adobe Stock](adobe-stock.md). Se você tiver salvo uma [visualização de imagem](adobe-stock-save-preview.md) do Adobe Stock, também poderá [licenciar](adobe-stock-license-image.md) a imagem na nova Galeria de Mídia.
+
+O Assets só pode ser carregado para `pub/media/wysywig`, `pub/media/catalog/category` ou outras pastas adicionadas por módulos.
 
 ## Fazer upload de um ativo
 
@@ -23,7 +25,7 @@ A nova [Galeria de Mídia](media-gallery.md) fornece ferramentas para gerenciar 
 
 1. Selecione o arquivo a ser carregado.
 
-   O ativo selecionado é carregado automaticamente na pasta selecionada (ou na raiz de armazenamento se nenhuma pasta for selecionada).
+   O ativo selecionado é carregado automaticamente na pasta selecionada.
 
 ## Exibir detalhes do ativo
 

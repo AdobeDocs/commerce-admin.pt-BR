@@ -59,7 +59,7 @@ Você pode criar várias chaves de acesso para diferentes propósitos e ativá-l
 
    ![Seu [!DNL Marketplace] perfil](./assets/marketplace-profile.png){width="600"}
 
-1. Na guia _[!UICONTROL Marketplace]_, em_[!UICONTROL My Products]_, clique em **[!UICONTROL Access Keys]** e siga um destes procedimentos:
+1. Na guia _[!UICONTROL Marketplace]_, em&#x200B;_[!UICONTROL My Products]_, clique em **[!UICONTROL Access Keys]** e siga um destes procedimentos:
 
    - Verifique se você já tem um conjunto de chaves de acesso para suas compras do Marketplace. É possível criar vários conjuntos de chaves de acesso para diferentes propósitos.
 

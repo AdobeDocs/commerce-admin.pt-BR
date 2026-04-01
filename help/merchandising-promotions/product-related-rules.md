@@ -3,9 +3,9 @@ title: Regras de produto relacionadas
 description: Saiba mais sobre as regras de produtos relacionados e como elas são usadas para apresentar dinamicamente produtos relacionados, vendas adicionais e vendas cruzadas aos clientes.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
+source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Para acessar as regras de produto relacionadas, acesse **[!UICONTROL Marketing]*
 |--- |--- |
 | [!UICONTROL ID] | Um identificador numérico exclusivo atribuído a cada regra de produto relacionada |
 | [!UICONTROL Rule] | O nome da regra de produto relacionada |
-| [!UICONTROL Start] | Use os campos de calendário dinâmico (_[!UICONTROL To:]_&#x200B;e&#x200B;_[!UICONTROL From:]_) para filtrar a lista com base na data de início da regra, conforme definido quando a regra foi criada. |
-| [!UICONTROL End] | Use os campos de calendário dinâmico (_[!UICONTROL To:]_&#x200B;e&#x200B;_[!UICONTROL From:]_) para filtrar a lista com base na data final da regra, conforme definido quando a regra foi criada. |
+| [!UICONTROL Start] | Use os campos de calendário dinâmico (_[!UICONTROL To:]_e_[!UICONTROL From:]_) para filtrar a lista com base na data de início da regra, conforme definido quando a regra foi criada. |
+| [!UICONTROL End] | Use os campos de calendário dinâmico (_[!UICONTROL To:]_e_[!UICONTROL From:]_) para filtrar a lista com base na data final da regra, conforme definido quando a regra foi criada. |
 | [!UICONTROL Priority] | Insira texto neste campo para filtrar a lista com base na prioridade definida para uma regra. |
 | [!UICONTROL Applies To] | Esta opção filtra a lista de regras que se aplicam a `Related Products`, `Up-sells` e `Cross-sells`. |
 | [!UICONTROL Status] | Use esta opção para filtrar a lista com base no status da regra (`Active` ou `Inactive`). |
@@ -47,7 +47,7 @@ O número de IDs de produtos que podem ser incluídas em uma regra de relações
 Por exemplo, suponha que você tenha três regras com prioridade `1`, `2` e `3`.
 
 - Há dois produtos correspondentes retornados para a _Regra 1_, seis produtos correspondentes para a _Regra 2_ e vinte produtos correspondentes para a _Regra 3_.
-- Na configuração, o _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;está definido como `6`.
+- Na configuração, o _[!UICONTROL Maximum Number of Products for Related Products List]_está definido como `6`.
 
   | Regras | Prioridade | Produtos de correspondência |
   |---|---|-----|
@@ -134,10 +134,5 @@ O comportamento das regras de relacionamento do produto e a exibição de produt
 {style="table-layout:auto"}
 
 ## Use os públicos da Real-Time CDP para informar as regras de produto relacionadas
-
->[!NOTE]
->
->Esse recurso está na versão beta. Se você quiser participar do programa beta, envie uma solicitação para [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
-
 
 Saiba como [ativar](../customers/audience-activation.md) públicos-alvo da Real-Time CDP na sua instância do Adobe Commerce para informar regras de produto relacionadas.

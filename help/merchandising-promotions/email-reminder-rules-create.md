@@ -93,7 +93,7 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
      ![Títulos e descrições - exibição de loja](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} Se estiver usando [!DNL Adobe Commerce as a Cloud Service], você poderá habilitar a [repetibilidade de regra](#rule-repeatability) marcando a caixa de seleção [!UICONTROL Rule Repeatability].
+1. [!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} Se estiver usando [!DNL Adobe Commerce as a Cloud Service], você poderá habilitar a [repetibilidade de regra](#rule-repeatability) marcando a caixa de seleção [!UICONTROL Rule Repeatability].
 
    >[!IMPORTANT]
    >
@@ -103,7 +103,7 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
 ## Repetibilidade da regra
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
 
 >[!IMPORTANT]
 >

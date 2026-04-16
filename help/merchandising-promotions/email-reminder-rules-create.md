@@ -3,9 +3,9 @@ title: Criar lembretes de email
 description: Saiba como configurar uma regra de lembrete de email que use uma regra de preço de carrinho existente.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: 43654def3e227127dcf0732962b4f1142a6a3856
+source-git-commit: d605748f04f26952daa467a84431a17bf368dbad
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
 1. No canto superior direito, clique em **[!UICONTROL Add New Rule]**.
 
-1. Conclua o _[!UICONTROL Rule Information]_&#x200B;da seguinte maneira:
+1. Conclua o _[!UICONTROL Rule Information]_da seguinte maneira:
 
    ![Regra de lembrete de email](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -55,9 +55,11 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
    >[!NOTE]
    >
-   >Se um cliente tiver mais de um carrinho abandonado correspondente, uma lista de desejos ou uma combinação de ambos, o lembrete de email será acionado apenas uma vez para esse cliente. Para acionar o mesmo lembrete de email novamente, use o campo _[!UICONTROL Repeat Schedule]_&#x200B;para definir o número de dias entre os emails. <br/>
+   >Se um cliente tiver mais de um carrinho abandonado correspondente, uma lista de desejos ou uma combinação de ambos, o lembrete de email será acionado apenas uma vez para esse cliente. Para acionar o mesmo lembrete de email novamente, use o campo _[!UICONTROL Repeat Schedule]_para definir o número de dias entre os emails. <br/>
    >
-   >O mesmo lembrete de email é **_não acionado novamente_** para o mesmo cliente para os **_novos_** carrinhos abandonados e listas de desejos **_após_** o período _[!UICONTROL Repeat Schedule]_&#x200B;terminou.
+   >O mesmo lembrete de email é **_não acionado novamente_** para o mesmo cliente para os **_novos_** carrinhos abandonados e listas de desejos **_após_** o período _[!UICONTROL Repeat Schedule]_terminou.
+   >
+   >O Adobe Commerce as a Cloud Service tem um recurso experimental que permite que uma única regra seja aplicada várias vezes. Consulte [Repetibilidade de regras](#rule-repeatability) para obter mais informações.
 
    Preencha a condição para descrever o cenário que aciona o lembrete de email.
 
@@ -65,7 +67,7 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
 1. No painel à esquerda, escolha **[!UICONTROL Emails and Labels]**.
 
-   ![Regra de lembrete de email - modelos de emails e rótulos &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![Regra de lembrete de email - modelos de emails e rótulos ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. Na seção **[!UICONTROL Email Templates]**, escolha o modelo de email a ser usado para cada site e exibição de loja na sua [hierarquia de loja](../getting-started/websites-stores-views.md).
 
@@ -83,7 +85,7 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
      ![Lembretes de email - títulos e descrições](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - Na seção _[!UICONTROL Titles and Descriptions Per Store View]_, insira o **[!UICONTROL Rule Title]**&#x200B;e **[!UICONTROL Description]**&#x200B;para a_ Exibição de Loja Padrão _. Para várias exibições de loja, insira o título e a descrição apropriados para cada uma.
+   - Na seção _[!UICONTROL Titles and Descriptions Per Store View]_, insira o **[!UICONTROL Rule Title]**e **[!UICONTROL Description]**para a_ Exibição de Loja Padrão _. Para várias exibições de loja, insira o título e a descrição apropriados para cada uma.
 
      >[!NOTE]
      >
@@ -91,7 +93,38 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
      ![Títulos e descrições - exibição de loja](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
+1. [!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} Se estiver usando [!DNL Adobe Commerce as a Cloud Service], você poderá habilitar a [repetibilidade de regra](#rule-repeatability) marcando a caixa de seleção [!UICONTROL Rule Repeatability].
+
+   >[!IMPORTANT]
+   >
+   >A opção de repetibilidade de regra é um recurso experimental que está desativado por padrão.  Para obter detalhes sobre como habilitar a opção, consulte [Repetibilidade da regra](#rule-repeatabilty).
+
 1. Quando terminar, clique em **[!UICONTROL Save]**.
+
+## Repetibilidade da regra
+
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
+
+>[!IMPORTANT]
+>
+>Este é um recurso experimental e não está habilitado por padrão. Para ativá-lo, entre em contato com o Gerente de sucesso do cliente da Adobe Commerce ou crie um tíquete de suporte. Ele será disponibilizado para todos os clientes do Adobe Commerce as a Cloud Service em uma versão futura.
+
+A repetibilidade de regras permite reutilizar uma única regra para vários lembretes de email. Isso é útil quando você deseja que a regra seja aplicada ao mesmo cliente posteriormente. Sem a repetibilidade de regras, a regra não se aplica mais depois que um cliente limpa o carrinho ou conclui uma compra.
+
+Marcar a caixa de seleção **[!UICONTROL Rule Repeatability]** na guia **[!UICONTROL General Information]** permite que a regra seja aplicada aos usuários novamente depois que o acionador da regra original não se aplicar mais.
+
+![Repetibilidade de regra](./assets/rule-repeatability.png){width="600" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+Considere o exemplo a seguir:
+
+Você tem uma regra de carrinho abandonada que é acionada após 1 dia e acionada novamente 3 e 5 dias depois. Um usuário abandona um carrinho e, um dia depois, recebe um lembrete por email de carrinho abandonado. Após 2 dias, o usuário decide concluir a compra. O carrinho não é mais abandonado. 10 dias depois, o usuário abandona um novo carrinho com itens diferentes.
+
+- Se **[!UICONTROL Rule Repeatability]** estiver habilitado, o usuário receberá um novo lembrete de email de carrinho abandonado.
+- Se **[!UICONTROL Rule Repeatability]** estiver desativado, o usuário **não** receberá lembretes de email adicionais sobre o carrinho abandonado.
+
+>[!ENDSHADEBOX]
 
 ## Condições de acionamento
 

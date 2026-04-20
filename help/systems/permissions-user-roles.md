@@ -26,7 +26,7 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 ### Etapa 1: adicionar o nome da função
 
-1. Em _[!UICONTROL Role Information]_, insira um **[!UICONTROL Role Name]**descritivo.
+1. Em _[!UICONTROL Role Information]_, insira um **[!UICONTROL Role Name]**&#x200B;descritivo.
 
 1. Em _[!UICONTROL Current User Identity Verification]_, digite sua senha.
 
@@ -49,9 +49,9 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
    >[!NOTE]
    >
-   >Os usuários com escopo de função `Custom` não podem criar sites e categorias, atribuir produtos a categorias ou editar produtos no escopo _[!UICONTROL All Store Views]_quando são atribuídos a lojas restritas. Esses usuários também não podem executar outras ações_ globais _que afetam escopos aos quais não têm acesso.
+   >Os usuários com escopo de função `Custom` não podem criar sites e categorias, atribuir produtos a categorias ou editar produtos no escopo _[!UICONTROL All Store Views]_&#x200B;quando são atribuídos a lojas restritas. Esses usuários também não podem executar outras ações_ globais _que afetam escopos aos quais não têm acesso.
 
-1. Em _[!UICONTROL Roles Resources]_, defina **[!UICONTROL Resource Access]**como `Custom`.
+1. Em _[!UICONTROL Roles Resources]_, defina **[!UICONTROL Resource Access]**&#x200B;como `Custom`.
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 1. No painel esquerdo, escolha **[!UICONTROL Role Users]**.
 
-   A opção _[!UICONTROL Role Users]_aparece somente depois que uma nova função é salva.
+   A opção _[!UICONTROL Role Users]_&#x200B;aparece somente depois que uma nova função é salva.
 
    ![Contas de usuário atribuídas à função](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 

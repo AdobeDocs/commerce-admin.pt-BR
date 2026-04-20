@@ -2,7 +2,7 @@
 title: Ferramentas de suporte
 description: Saiba mais sobre as ferramentas de suporte fornecidas que você pode usar para identificar problemas em seu sistema.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
 source-wordcount: '618'

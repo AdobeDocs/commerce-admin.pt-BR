@@ -3,7 +3,7 @@ title: Modelos de email
 description: Saiba mais sobre modelos de email e como usá-los para oferecer suporte às comunicações com seus clientes e reforçar sua marca.
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Os templates de email definem o layout, o conteúdo e a formatação das mensage
 
 O Commerce inclui um conjunto de modelos de email responsivos acionados por vários eventos que ocorrem durante a operação da sua loja. Cada modelo é otimizado para qualquer tamanho de tela e pode ser visualizado no desktop, bem como em tablets e dispositivos móveis. Há vários modelos de email preparados relacionados a atividades do cliente, vendas, alertas de produto, ações de administrador e mensagens do sistema que você pode [personalizar](email-template-custom.md) para refletir sua marca.
 
-Os emails do Commerce podem ser renderizados por clientes de email HTML e de texto simples. Pode haver alguma variação entre clientes na maneira como o email é renderizado.
+Os emails do Commerce podem ser renderizados pelo HTML e por clientes de email de texto simples. Pode haver alguma variação entre clientes na maneira como o email é renderizado.
 
 ## Preparar seu logotipo de email
 
@@ -34,7 +34,7 @@ Para aproveitar o espaço vertical limitado no cabeçalho, recorte a imagem para
 
 Como regra, é possível tornar uma imagem menor que a original, mas não maior sem perder a resolução. Pegar uma imagem pequena e dimensioná-la em um editor de fotos diminui a resolução da imagem. Por exemplo, se as dimensões de exibição do logotipo tiverem 168 pixels de largura por 48 pixels de altura no modelo de cabeçalho, a imagem carregada deverá ter 504 pixels de largura por 144 pixels de altura.
 
-| Dimension do logotipo | 1 x (tamanho da exibição) | 3 x (tamanho da imagem) |
+| Dimensões do logotipo | 1 x (tamanho da exibição) | 3 x (tamanho da imagem) |
 |----------|----|----|
 | Largura | 168 px | 504 px |
 | Altura: | 48 px | 144 px |
@@ -103,7 +103,7 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 | Modelo | Caminho de configuração |
 |--- |--- |
 | `Assign Company Admin` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Seção:** [!UICONTROL Customer-Related Emails]<br/>**Campo:** [!UICONTROL Default 'Assign Company Admin' Email] |
-| `Assign Company to Customer` | **Página:** [!UICONTROL Customers] > [Configuração da Empresa &#x200B;](../configuration-reference/customers/company-configuration.md)<br/>**Seção:** [!UICONTROL Customer-Related Emails] <br/>**Campo:** [!UICONTROL Default 'Assign Company to Customer' Email] |
+| `Assign Company to Customer` | **Página:** [!UICONTROL Customers] > [Configuração da Empresa ](../configuration-reference/customers/company-configuration.md)<br/>**Seção:** [!UICONTROL Customer-Related Emails] <br/>**Campo:** [!UICONTROL Default 'Assign Company to Customer' Email] |
 | `Company Admin Changed to Member` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Seção:** [!UICONTROL Customer-Related Emails]<br/>**Campo:** [!UICONTROL Default 'Company Admin Changed To Member' Email] |
 | `Company Admin Set Inactive` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Seção:** [!UICONTROL Customer-Related Emails]<br/>**Campo:** [!UICONTROL Default 'Customer Status Inactive' Email] |
 | `Company Invite` | n/d |
@@ -208,9 +208,9 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 
 | Modelo | Caminho de configuração |
 |--- |--- |
-| `New Registry` | **Página:** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Seção:** [!UICONTROL Owner Notification]<br/>**Campo:** [!UICONTROL Email Template] |
-| `Registry Sharing` | **Página:** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Seção:** [!UICONTROL Gift Registry Sharing]<br/>**Campo:** [!UICONTROL Email Template] |
-| `Registry Update` | **Página:** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Seção:** [!UICONTROL Gift Registry Update]<br/>**Campo:** [!UICONTROL Email Template] |
+| `New Registry` | **Página:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Seção:** [!UICONTROL Owner Notification]<br/>**Campo:** [!UICONTROL Email Template] |
+| `Registry Sharing` | **Página:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Seção:** [!UICONTROL Gift Registry Sharing]<br/>**Campo:** [!UICONTROL Email Template] |
+| `Registry Update` | **Página:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**Seção:** [!UICONTROL Gift Registry Update]<br/>**Campo:** [!UICONTROL Email Template] |
 
 {style="table-layout:auto"}
 
@@ -218,8 +218,8 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 
 | Modelo | Caminho de configuração |
 |--- |--- |
-| `Order is Ready for Pickup` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Order Ready For Pickup in Store]<br/>**Campo:** [!UICONTROL Order Ready For Pickup Email Template] |
-| `Order is Ready for Pickup For Guest` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Order Ready For Pickup in Store]<br/>**Campo:** [!UICONTROL Order Ready For Pickup Email Template for Guest] |
+| `Order is Ready for Pickup` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Order Ready For Pickup in Store]<br/>**Campo:** [!UICONTROL Order Ready For Pickup Email Template] |
+| `Order is Ready for Pickup For Guest` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Order Ready For Pickup in Store]<br/>**Campo:** [!UICONTROL Order Ready For Pickup Email Template for Guest] |
 
 {style="table-layout:auto"}
 
@@ -237,12 +237,12 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 
 | Modelo | Caminho de configuração |
 |--- |--- |
-| `Declined Quote` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL Declined Quote Template (to Buyer)] |
-| `Expiration Date Reset` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL Expiration Date Reset] | **Página:** [!UICONTROL Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL Order Ready For Pickup Email Template] |
-| `Expiration Warning` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL Quote Expiration (in 48 hrs)] |
-| `Expiration Warning1` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL Quote Expiration (in 24 hrs)] |
-| `New Quote` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL New Quote Template (to Seller)] |
-| `Updated Quote` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL Updated Quote Template (to Seller)] |
+| `Declined Quote` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL Declined Quote Template (to Buyer)] |
+| `Expiration Date Reset` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL Expiration Date Reset]<br/> **Página:** [!UICONTROL Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL Order Ready For Pickup Email Template] |
+| `Expiration Warning` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL Quote Expiration (in 48 hrs)] |
+| `Expiration Warning1` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL Quote Expiration (in 24 hrs)] |
+| `New Quote` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL New Quote Template (to Seller)] |
+| `Updated Quote` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Quote]<br/>**Campo:** [!UICONTROL Updated Quote Template (to Seller)] |
 
 {style="table-layout:auto"}
 
@@ -250,9 +250,9 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 
 | Modelo | Caminho de configuração |
 |--- |--- |
-| `Subscription Confirmation` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Seção:** [!UICONTROL &#x200B; Subscription Options]<br/>**Campo:** [!UICONTROL Confirmation Email Template] |
-| `Subscription Success` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Seção:** [!UICONTROL &#x200B; Subscription Options]<br/>**Campo:** [!UICONTROL Success Email Template] |
-| `Unsubscription Success` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Seção:** [!UICONTROL &#x200B; Subscription Options]<br/>**Campo:** [!UICONTROL Unsubscription Email Template] |
+| `Subscription Confirmation` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Seção:** [!UICONTROL  Subscription Options]<br/>**Campo:** [!UICONTROL Confirmation Email Template] |
+| `Subscription Success` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Seção:** [!UICONTROL  Subscription Options]<br/>**Campo:** [!UICONTROL Success Email Template] |
+| `Unsubscription Success` | **Página:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**Seção:** [!UICONTROL  Subscription Options]<br/>**Campo:** [!UICONTROL Unsubscription Email Template] |
 
 {style="table-layout:auto"}
 
@@ -270,15 +270,15 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 
 | Modelo | Caminho de configuração |
 |--- |--- |
-| `Approved Purchase Order` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Approved Purchase Order] |
-| `Approved, requires payment` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Approved, requires payment details (to Buyer)] |
-| `Comment added to Purchase Order` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Comment added to Purchase Order] |
-| `Created and Auto-approved Purchase Order` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] |
-| `Created and automatically approved, requires payment details` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Created and automatically approved, requires payment details (to Buyer)] |
-| `Created and requires Approval Purchase Order` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] |
-| `Error creating Order from Purchase Order` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Error creating Order from Purchase Order (to Buyer)] |
-| `Purchase Order requires Approval` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Purchase Order requires Approval (to Approver)] |
-| `Rejected Purchase Order` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Rejected Purchase Order (to Buyer)] |
+| `Approved Purchase Order` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Approved Purchase Order] |
+| `Approved, requires payment` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Approved, requires payment details (to Buyer)] |
+| `Comment added to Purchase Order` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Comment added to Purchase Order] |
+| `Created and Auto-approved Purchase Order` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] |
+| `Created and automatically approved, requires payment details` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Created and automatically approved, requires payment details (to Buyer)] |
+| `Created and requires Approval Purchase Order` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] |
+| `Error creating Order from Purchase Order` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Error creating Order from Purchase Order (to Buyer)] |
+| `Purchase Order requires Approval` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Purchase Order requires Approval (to Approver)] |
+| `Rejected Purchase Order` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL Purchase Order Approval]<br/>**Campo:** [!UICONTROL Rejected Purchase Order (to Buyer)] |
 
 {style="table-layout:auto"}
 
@@ -309,13 +309,13 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 
 | Modelo | Caminho de configuração |
 |--- |--- |
-| `New RMA` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL &#x200B; RMA]<br/>**Campo:** [!UICONTROL RMA Email Template] |
-| `New RMA for Guest` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL &#x200B; RMA]<br/>**Campo:** [!UICONTROL RMA Email Template for Guest] |
-| `RMA Admin Comments` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL &#x200B; RMA Admin Comments]<br/>**Campo:** [!UICONTROL RMA Comment Email Template] |
-| `RMA Admin Comments for Guest` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL &#x200B; RMA Admin Comments]<br/>**Campo:** [!UICONTROL RMA Comment Email Template for Guest] |
-| `RMA Authorization` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL &#x200B; RMA Authorization]<br/>**Campo:** [!UICONTROL RMA Authorization Email Template] |
-| `RMA Authorization for Guest` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL &#x200B; RMA Authorization]<br/>**Campo:** [!UICONTROL RMA Authorization Email Template for Guest] |
-| `RMA Customer Comments` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL RMA Customer Comments]<br/>**Campo:** [!DNL RMA Comment Email Template] |
+| `New RMA` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL  RMA]<br/>**Campo:** [!UICONTROL RMA Email Template] |
+| `New RMA for Guest` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL  RMA]<br/>**Campo:** [!UICONTROL RMA Email Template for Guest] |
+| `RMA Admin Comments` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL  RMA Admin Comments]<br/>**Campo:** [!UICONTROL RMA Comment Email Template] |
+| `RMA Admin Comments for Guest` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL  RMA Admin Comments]<br/>**Campo:** [!UICONTROL RMA Comment Email Template for Guest] |
+| `RMA Authorization` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL  RMA Authorization]<br/>**Campo:** [!UICONTROL RMA Authorization Email Template] |
+| `RMA Authorization for Guest` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL  RMA Authorization]<br/>**Campo:** [!UICONTROL RMA Authorization Email Template for Guest] |
+| `RMA Customer Comments` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**Seção:** [!UICONTROL RMA Customer Comments]<br/>**Campo:** [!DNL RMA Comment Email Template] |
 
 {style="table-layout:auto"}
 
@@ -323,38 +323,38 @@ A lista de modelos de email é organizada em ordem alfabética por módulo.
 
 | Modelo | Caminho de configuração |
 |--- |--- |
-| `Credit Memo Update` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo Contents]<br/>**Campo:** [!UICONTROL Credit Memo Comment Email Template] |
-| `Credit Memo Update (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo Comments]<br/>**Campo:** [!UICONTROL Credit Memo Comment Email Template] |
-| `Credit Memo Update for Guest` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo Comments]<br/>**Campo:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
-| `Credit Memo Update for Guest (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo Comments]<br/>**Campo:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
-| `Invoice Update` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice Comments]<br/>**Campo:** [!UICONTROL Invoice Comment Email Template] |
-| `Invoice Update (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice Comments]<br/>**Campo:** [!UICONTROL Invoice Comment Email Template] |
-| `Invoice Update for Guest` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice Comments]<br/>**Campo:** [!UICONTROL Invoice Comment Email Template for Guest] |
-| `Invoice Update for Guest (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice Comments]<br/>**Campo:** [!UICONTROL Invoice Comment Email Template for Guest] |
-| `New Credit Memo` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo]<br/>**Campo:** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]]../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo]<br/>**Campo:** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo for Guest` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo]<br/>**Campo:** [!UICONTROL Credit Memo Email Template for Guest] |
-| `New Credit Memo for Guest (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo]<br/>**Campo:** [!UICONTROL Credit Memo Email Template for Guest] |
-| `New Invoice` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice]<br/>**Campo:** [!UICONTROL Invoice Email Template] |
-| `New Invoice (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice]<br/>**Campo:** [!UICONTROL Invoice Email Template] |
-| `New Invoice for Guest` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice]<br/>**Campo:** [!UICONTROL Invoice Email Template for Guest] |
-| `New Invoice for Guest (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice]<br/>**Campo:** [!UICONTROL Invoice Email Template for Guest] |
-| `New Order` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order]<br/>**Campo:** [!UICONTROL New Order Confirmation Template] |
-| `New Order (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order]<br/>**Campo:** [!UICONTROL New Order Confirmation Template] |
-| `New Order for Guest` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order]<br/>**Campo:** [!UICONTROL New Order Confirmation Template for Guest] |
-| `New Order for Guest (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order]<br/>**Campo:** [!UICONTROL New Order Confirmation Template for Guest] |
-| `New Shipment` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment]<br/>**Campo:** [!UICONTROL Shipment Email Template] |
-| `New Shipment (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment]<br/>**Campo:** [!UICONTROL Shipment Email Template] |
-| `New Shipment for Guest` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment]<br/>**Campo:** [!UICONTROL Shipment Email Template for Guest] |
-| `New Shipment for Guest (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment]<br/>**Campo:** [!UICONTROL Shipment Email Template for Guest] |
-| `Order Update` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order Comments]<br/>**Campo:** [!UICONTROL Order Comment Email Template] |
-| `Order Update (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order Comments]<br/>**Campo:** [!UICONTROL Order Comment Email Template] |
-| `Order Update for Guest` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order Comments]<br/>**Campo:** [!UICONTROL Order Comment Email Template for Guest] |
-| `Order Update for Guest (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order Comments]<br/>**Campo:** [!UICONTROL Order Comment Email Template for Guest] |
-| `Shipment Update` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment Comments]<br/>**Campo:** [!UICONTROL Shipment Comment Email Template] |
-| `Shipment Update (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment Comments]<br/>**Campo:** [!UICONTROL Shipment Comment Email Template] |
-| `Shipment Update for Guest` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment Comments]<br/>**Campo:** [!UICONTROL Shipment Comment Email Template for Guest] |
-| `Shipment Update for Guest (Magento/luma)` | **Página:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment Comments]<br/>**Campo:** [!UICONTROL Shipment Comment Email Template for Guest] |
+| `Credit Memo Update` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo Contents]<br/>**Campo:** [!UICONTROL Credit Memo Comment Email Template] |
+| `Credit Memo Update (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo Comments]<br/>**Campo:** [!UICONTROL Credit Memo Comment Email Template] |
+| `Credit Memo Update for Guest` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo Comments]<br/>**Campo:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
+| `Credit Memo Update for Guest (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo Comments]<br/>**Campo:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
+| `Invoice Update` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice Comments]<br/>**Campo:** [!UICONTROL Invoice Comment Email Template] |
+| `Invoice Update (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice Comments]<br/>**Campo:** [!UICONTROL Invoice Comment Email Template] |
+| `Invoice Update for Guest` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice Comments]<br/>**Campo:** [!UICONTROL Invoice Comment Email Template for Guest] |
+| `Invoice Update for Guest (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice Comments]<br/>**Campo:** [!UICONTROL Invoice Comment Email Template for Guest] |
+| `New Credit Memo` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo]<br/>**Campo:** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]]../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo]<br/>**Campo:** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo for Guest` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo]<br/>**Campo:** [!UICONTROL Credit Memo Email Template for Guest] |
+| `New Credit Memo for Guest (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Credit Memo]<br/>**Campo:** [!UICONTROL Credit Memo Email Template for Guest] |
+| `New Invoice` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice]<br/>**Campo:** [!UICONTROL Invoice Email Template] |
+| `New Invoice (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice]<br/>**Campo:** [!UICONTROL Invoice Email Template] |
+| `New Invoice for Guest` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice]<br/>**Campo:** [!UICONTROL Invoice Email Template for Guest] |
+| `New Invoice for Guest (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Invoice]<br/>**Campo:** [!UICONTROL Invoice Email Template for Guest] |
+| `New Order` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order]<br/>**Campo:** [!UICONTROL New Order Confirmation Template] |
+| `New Order (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order]<br/>**Campo:** [!UICONTROL New Order Confirmation Template] |
+| `New Order for Guest` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order]<br/>**Campo:** [!UICONTROL New Order Confirmation Template for Guest] |
+| `New Order for Guest (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order]<br/>**Campo:** [!UICONTROL New Order Confirmation Template for Guest] |
+| `New Shipment` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment]<br/>**Campo:** [!UICONTROL Shipment Email Template] |
+| `New Shipment (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment]<br/>**Campo:** [!UICONTROL Shipment Email Template] |
+| `New Shipment for Guest` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment]<br/>**Campo:** [!UICONTROL Shipment Email Template for Guest] |
+| `New Shipment for Guest (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment]<br/>**Campo:** [!UICONTROL Shipment Email Template for Guest] |
+| `Order Update` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order Comments]<br/>**Campo:** [!UICONTROL Order Comment Email Template] |
+| `Order Update (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order Comments]<br/>**Campo:** [!UICONTROL Order Comment Email Template] |
+| `Order Update for Guest` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order Comments]<br/>**Campo:** [!UICONTROL Order Comment Email Template for Guest] |
+| `Order Update for Guest (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Order Comments]<br/>**Campo:** [!UICONTROL Order Comment Email Template for Guest] |
+| `Shipment Update` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment Comments]<br/>**Campo:** [!UICONTROL Shipment Comment Email Template] |
+| `Shipment Update (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment Comments]<br/>**Campo:** [!UICONTROL Shipment Comment Email Template] |
+| `Shipment Update for Guest` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment Comments]<br/>**Campo:** [!UICONTROL Shipment Comment Email Template for Guest] |
+| `Shipment Update for Guest (Magento/luma)` | **Página:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**Seção:** [!UICONTROL Shipment Comments]<br/>**Campo:** [!UICONTROL Shipment Comment Email Template for Guest] |
 
 {style="table-layout:auto"}
 

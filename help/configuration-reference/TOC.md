@@ -2,10 +2,9 @@
 user-guide-title: Guia de referência de configuração
 user-guide-description: Este guia fornece informações de referência para todas as configurações de armazenamento acessadas fora da barra lateral _Admin_ em **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 breadcrumb-title: Referência de configuração
-hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 3%
@@ -84,4 +83,4 @@ ht-degree: 3%
    - [Admin](./advanced/admin.md)
    - [Sistema](./advanced/system.md)
    - [Desenvolvedor](./advanced/developer.md)
-- [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR)
+- [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

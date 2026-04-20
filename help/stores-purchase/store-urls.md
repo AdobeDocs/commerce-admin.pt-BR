@@ -3,8 +3,8 @@ title: Armazenar URLs
 description: Saiba mais sobre URLs de loja e como configurar a URL base e os códigos de loja.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 0%
@@ -51,11 +51,11 @@ O Adobe Commerce e o Magento Open Source podem ser configurados para entregar to
 
    - **[!UICONTROL Base URL for Static View Files]** — (Opcional) Especifique um local alternativo para a URL base dos arquivos de exibição estáticos inserindo o caminho que começa com o seguinte espaço reservado:
 
-     \{\{unsecure_base_url}}
+     \{\{unsecure_base_url\}\}
 
    - **[!UICONTROL Base URL for User Media Files]** — (Opcional) Especifique um local alternativo para a URL base dos arquivos de mídia do usuário inserindo o caminho que começa com o seguinte espaço reservado:
 
-     \{\{unsecure_base_url}}
+     \{\{unsecure_base_url\}\}
 
      Para uma instalação típica, não há necessidade de atualizar os caminhos para os arquivos de visualização estáticos ou arquivos de mídia, pois eles são relativos ao URL base.
 
@@ -81,11 +81,11 @@ Se o domínio tiver um certificado de segurança válido, você poderá configur
 
    - **[!UICONTROL Secure Base URL for Static View Files]** — (Opcional) Especifique um local alternativo para a URL base segura para arquivos de exibição estáticos inserindo o caminho que começa com o seguinte espaço reservado:
 
-     \{\{secure_base_url}}
+     \{\{secure_base_url\}\}
 
    - **[!UICONTROL Secure Base URL for User Media Files]** — (Opcional) Especifique um local alternativo para a URL de base segura dos arquivos de mídia do usuário inserindo o caminho que começa com o seguinte espaço reservado:
 
-     \{\{secure_base_url}}
+     \{\{secure_base_url\}\}
 
 1. Para melhorar a segurança, defina as duas opções a seguir como `Yes`.
 
@@ -138,7 +138,7 @@ Se, após seguir as instruções de configuração, algumas páginas continuarem
 
 ## Usar um URL de administração personalizado
 
-Como uma [prática recomendada de segurança](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=pt-BR), a Adobe recomenda que você use uma URL de Administrador exclusiva em vez do _admin_ padrão ou um termo comum, como _backend_. Embora não proteja diretamente o site contra um determinado mau ator, pode reduzir a exposição a scripts que tentam obter acesso não autorizado.
+Como uma [prática recomendada de segurança](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), a Adobe recomenda que você use uma URL de Administrador exclusiva em vez do _admin_ padrão ou um termo comum, como _backend_. Embora não proteja diretamente o site contra um determinado mau ator, pode reduzir a exposição a scripts que tentam obter acesso não autorizado.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Embora seja possível alterar o URL do administrador e o caminho para outro loca
 
 >[!NOTE]
 >
->Como precaução, não tente alterar o URL do administrador sozinho, a menos que você saiba como editar arquivos de configuração no servidor. Para projetos do Adobe Commerce implantados na infraestrutura em nuvem, altere a URL do Administrador seguindo as [instruções](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=pt-BR#admin-url) no *Guia do Adobe Commerce na Infraestrutura em Nuvem*.
+>Como precaução, não tente alterar o URL do administrador sozinho, a menos que você saiba como editar arquivos de configuração no servidor. Para projetos do Adobe Commerce implantados na infraestrutura em nuvem, altere a URL do Administrador seguindo as [instruções](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) no *Guia do Adobe Commerce na Infraestrutura em Nuvem*.
 
 ### Método 1: alterar do Administrador
 
@@ -200,7 +200,7 @@ Embora seja possível alterar o URL do administrador e o caminho para outro loca
 
    >[!TIP]
    >
-   >Para o Adobe Commerce na infraestrutura em nuvem, você pode configurar um caminho de administrador personalizado usando a variável `ADMIN_URL` na interface de usuário da nuvem. Consulte o [tópico sobre variáveis de administrador](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=pt-BR) no _Guia do Commerce na Infraestrutura da Nuvem_.
+   >Para o Adobe Commerce na infraestrutura em nuvem, você pode configurar um caminho de administrador personalizado usando a variável `ADMIN_URL` na interface de usuário da nuvem. Consulte o [tópico sobre variáveis de administrador](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) no _Guia do Commerce na Infraestrutura da Nuvem_.
 
    - **Caminho Padrão do Administrador**
 

@@ -12,7 +12,7 @@ role: Admin, User
 level: Beginner, Intermediate
 topic: Commerce, Administration
 index: true
-source-git-commit: 50e5e33f3f5b88726ee4b468d5d9533c297721cd
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Metadados para uso interno
 
-A variável `metadata.md` o arquivo inclui metadados de nível de repositório que passam para o guia do usuário `TOC.md` arquivos no repositório. Se quiser alterar o conteúdo metadata.md para qualquer guia do usuário, faça isso em qualquer `TOC.md` arquivo.
+O arquivo `metadata.md` inclui metadados em nível de repositório que passam para arquivos `TOC.md` do guia do usuário no repositório. Se quiser alterar o conteúdo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo `TOC.md`.
 
 | metadados | o que faz |
 |--- |--- |

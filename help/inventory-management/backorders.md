@@ -3,7 +3,7 @@ title: Configurar [!DNL Inventory Management] ordens pendentes
 description: Saiba como configurar pedidos pendentes para dar suporte à venda de produtos indisponíveis.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -49,9 +49,11 @@ Quando os clientes compram os 25 produtos disponíveis, os novos pedidos são in
 >
 >Quando um cliente faz um pedido usando _[!UICONTROL backorder qty]_, [!DNL Inventory Management] subtrai automaticamente a quantidade da quantidade vendável. Se uma ordem não for entregue e for cancelada, a quantidade retornará para a quantidade vendida virtual agregada. A **_quantidade da ordem cancelada não está atribuída a nenhuma das origens_**, mas é retornada ao número total de produtos disponíveis para venda (_[!UICONTROL Salable Quantity]_ coluna na grade de produtos).
 
-<!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
+<!--
+### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 
-The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. When it is enabled, the system sends an email notification when the product quantity reaches a level at or below the configured value. For this example, a notification is triggered when the product has a quantity of 10 or less. When backorders are enabled, _Notify for Quantity Below_ is determined by the Salable Quantity (`Salable Quantity = Quantity - (Out-of-Stock Threshold)`). -->
+The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. When it is enabled, the system sends an email notification when the product quantity reaches a level at or below the configured value. For this example, a notification is triggered when the product has a quantity of 10 or less. When backorders are enabled, _Notify for Quantity Below_ is determined by the Salable Quantity (`Salable Quantity = Quantity - (Out-of-Stock Threshold)`). 
+-->
 
 ### Status do estoque
 

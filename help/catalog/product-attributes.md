@@ -3,9 +3,9 @@ title: Visão geral dos atributos do produto
 description: Saiba mais sobre os atributos do produto e como eles são usados para descrever características específicas de um produto.
 exl-id: e15770ee-fb71-43f0-8c26-e8029935799a
 feature: Catalog Management, Products
-source-git-commit: e0468763b2314e69e8ee4922da9bb9cf65578904
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ Os atributos de produto habilitados para a [pesquisa de catálogo](search.md) po
 Remova propriedades de produtos não utilizadas para melhorar a estruturação e a indexação mais rápida.
 
 
->[OBSERVAÇÃO!]
+>[!NOTE]
 >
->Para obter informações sobre como otimizar a configuração do atributo de produto para desempenho, consulte [Práticas recomendadas de gerenciamento de catálogo](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) no _Manual de implementação_.
+>Para obter informações sobre como otimizar a configuração do atributo de produto para desempenho, consulte [Práticas recomendadas de gerenciamento de catálogo](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) no _Manual de implementação_.

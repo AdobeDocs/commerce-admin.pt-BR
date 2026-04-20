@@ -3,7 +3,7 @@ title: Experiências aprimoradas da loja
 description: Conheça as várias ferramentas projetadas para ajudar a maximizar o engajamento, a retenção e a fidelidade do cliente.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -14,11 +14,13 @@ ht-degree: 0%
 
 Além dos elementos padrão que permitem aos clientes fazer compras em sua loja, há muitas ferramentas projetadas para ajudá-lo a maximizar o engajamento, a retenção e a fidelidade do cliente.
 
-<!-- This is not currently working >[!TIP]
+<!-- 
+This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=pt-BR)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
->Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
+>Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. 
+-->
 
 ## Atraia novos clientes
 
@@ -84,7 +86,7 @@ O Adobe Commerce e o Magento Open Source fornecem uma variedade de ferramentas p
 
 ## Otimizar os processos de negócios e a lucratividade
 
-- **[!DNL Advanced Reporting]** - Obtenha informações importantes rapidamente com os relatórios dinâmicos de produto, pedido e cliente da [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=pt-BR).
+- **[!DNL Advanced Reporting]** - Obtenha informações importantes rapidamente com os relatórios dinâmicos de produto, pedido e cliente da [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html).
 
 - **Instantâneos de painel** - Saber o que é de interesse no seu site é crucial para maximizar seu orçamento de marketing. Use estas [informações no seu painel](admin-dashboard.md) para determinar o que você deve fazer de venda cruzada e venda adicional para clientes fiéis ou quais produtos colocar à venda.
 

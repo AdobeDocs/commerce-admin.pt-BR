@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## Definições de configuração {#config}
 
-Para acessar as definições de configuração de armazenamento, escolha **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**na barra lateral_ Admin _.
+Para acessar as definições de configuração de armazenamento, escolha **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;na barra lateral_ Admin _.
 
 ## Descontinuação da API UPS {#ups-api}
 

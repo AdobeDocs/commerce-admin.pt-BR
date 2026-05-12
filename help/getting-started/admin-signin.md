@@ -110,7 +110,7 @@ Não é permitida a reutilização das quatro últimas senhas atribuídas à con
 
    ![Sair](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-A página _[!UICONTROL Sign In]_exibe uma mensagem informando que você está desconectado. Saia do_ Admin _sempre que deixar o computador sem supervisão.
+A página _[!UICONTROL Sign In]_&#x200B;exibe uma mensagem informando que você está desconectado. Saia do_ Admin _sempre que deixar o computador sem supervisão.
 
 ## Editar informações da conta
 

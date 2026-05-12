@@ -44,7 +44,7 @@ Para fazer upload de uma imagem, siga um destes procedimentos:
 
 ### Reorganizar imagens
 
-Para alterar a ordem das imagens na galeria, clique no ícone _[!UICONTROL Sort]_( ![Classificar ícone](./assets/inventory-icon-sort.png) ) na parte inferior do bloco de imagens e arraste a imagem para uma posição diferente na caixa_[!UICONTROL Images And Videos]_.
+Para alterar a ordem das imagens na galeria, clique no ícone _[!UICONTROL Sort]_( ![Classificar ícone](./assets/inventory-icon-sort.png) ) na parte inferior do bloco de imagens e arraste a imagem para uma posição diferente na caixa&#x200B;_[!UICONTROL Images And Videos]_.
 
 ![Ordem de alteração](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -86,7 +86,7 @@ Para excluir uma imagem da galeria de miniaturas, marque a caixa de seleção **
 
 ## Gerenciar imagens e vídeos no nível de visualização da loja
 
-Ao alternar o seletor **[!UICONTROL Store View]** para uma exibição de armazenamento específica (não **[!UICONTROL All Store Views]**), a seção _[!UICONTROL Images and Videos]_fornece controles adicionais para gerenciar como as imagens são exibidas para essa exibição de armazenamento sem afetar o escopo padrão.
+Ao alternar o seletor **[!UICONTROL Store View]** para uma exibição de armazenamento específica (não **[!UICONTROL All Store Views]**), a seção _[!UICONTROL Images and Videos]_&#x200B;fornece controles adicionais para gerenciar como as imagens são exibidas para essa exibição de armazenamento sem afetar o escopo padrão.
 
 ### Reordenar imagens para uma exibição de loja
 

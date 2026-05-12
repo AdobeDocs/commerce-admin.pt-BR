@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL Advanced] &gt; [!UICONTROL Admin]'
-description: Revise as configurações na página [!UICONTROL Advanced] &gt; [!UICONTROL Admin] do Administrador do Commerce.
+title: '[!UICONTROL Advanced] > [!UICONTROL Admin]'
+description: Revise as configurações na página [!UICONTROL Advanced] > [!UICONTROL Admin] do Administrador do Commerce.
 exl-id: 546b8d01-9611-4415-ab2b-29be560316f5
 role: Admin
 feature: Configuration, Admin Workspace
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 093c0841141f3e39afdabf25f7ce96c65db35291
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | `Reports` | [`Marketing`](../../getting-started/marketing-reports.md) | `Products in Cart`<br />`Search Terms`<br />`Abandoned Carts`<br />`Newsletter Problem Reports` |
 |                                                         | [`Reviews`](../../getting-started/review-reports.md) | `By Customer`<br/> `By Products`<br/> |
 |                                                         | [`Sales`](../../getting-started/sales-reports.md) | `Orders`<br/>`Tax`<br/>`Invoiced`<br/>`Shipping`<br/>`Refunds`<br/>`Coupons`<br/>`PayPal Settlement`<br/>`Braintree Settlement` |
-|                                                         | `System Insights` | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=pt-BR) ![Adobe Commerce](../../assets/adobe-logo.svg) |
+|                                                         | `System Insights` | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) ![Adobe Commerce](../../assets/adobe-logo.svg) |
 |                                                         | [`Customers`](../../getting-started/customer-reports.md) | `Order Total`<br/>`Order Count`<br/>`New`<br/>`Wish Lists`<br/>`Segments`<br/> |
 |                                                         | [`Products`](../../getting-started/product-reports.md) | `Views`<br/>`Bestsellers`<br/>`Low Stock`<br/>`Ordered`<br/>`Downloads` |
 |                                                         | [`Private Sales`](../../getting-started/private-sales-reports.md) ![Adobe Commerce](../../assets/adobe-logo.svg) | `Invitations`<br/>`Invited Customers`<br/>`Conversions` |
@@ -95,7 +95,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 | Field        | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Enable       | Global                                                                 | Determines if the Commerce instance uses the Experience Cloud integration. Before enabling this feature, review the [requirements and configuration instructions](../../getting-started/admin-unified-experience-integration-overview.md). Options: Yes/No.                                                                                                                    |
-| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=pt-BR#pro-environment-architecture). |
+| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html#pro-environment-architecture). |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ Para obter mais informações sobre a configuração dessas opções, consulte [
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Use Custom Admin URL] | Global | Determina se um URL personalizado é usado para acessar o Administrador. Opções: `Yes` / `No` |
-| [!UICONTROL Custom Admin URL] | Global | Especifica uma URL personalizada para acessar o Administrador. Por padrão, o URL de administração é igual ao URL de base.<br/>**Importante:** a URL do Administrador deve estar na mesma instalação do Commerce e ter a mesma raiz do documento que a loja. |
+| [!UICONTROL Custom Admin URL] | Global | Especifica uma URL personalizada para acessar o Administrador. Por padrão, a URL do Administrador é igual à URL base.<br/>**Importante:** A URL do Administrador deve estar na mesma instalação do Commerce e ter a mesma raiz do documento que a loja. |
 | [!UICONTROL Use Custom Admin Path] | Global | Determina se um caminho personalizado é usado para acessar o Administrador. O caminho padrão é `admin`. Opções: `Yes` / `No` |
 | [!UICONTROL Custom Admin Path] | Global | Altera o nome do caminho padrão do Administrador para algo difícil de adivinhar. Insira o nome do caminho personalizado em caracteres minúsculos. Por exemplo: `aardvark` |
 
@@ -134,8 +134,9 @@ Para obter mais informações sobre a configuração dessas opções, consulte [
 | [!UICONTROL Admin Session Lifetime (seconds)] | Global | Determina a duração de uma sessão do Administrador em segundos. |
 | [!UICONTROL Maximum Login Failures to Lockout Account] | Global | Determina o número de vezes que os usuários administradores podem tentar fazer logon antes que suas contas sejam bloqueadas. Se o campo estiver vazio, nenhum mínimo será definido. Valor padrão: `6` |
 | [!UICONTROL Lockout Time (minutes)] | Global | Determina por quantos minutos uma conta de Administrador é bloqueada antes que o usuário possa tentar fazer logon novamente. Valor padrão: `30` |
+| [!UICONTROL Minimum Admin Password Length] | Global | Determina o número mínimo de caracteres necessários para senhas de Administrador. O valor padrão é 7 e o valor mínimo permitido é 7. Essa configuração afeta as alterações de senha do Administrador, a criação de novos usuários Administradores pela interface de Administrador e pela CLI, e as operações de redefinição de senha pelo Administrador. |
 | [!UICONTROL Password Lifetime (days)] | Global | Determina o número de dias antes de uma senha de administrador expirar. Se o campo estiver vazio, nenhuma duração será definida. Valor padrão: `90` |
-| [!UICONTROL Password Change] | Global | Determina se usuários administradores precisam alterar suas senhas. Opções: <br/>**`Forced`**- Exige que os usuários Administradores alterem suas senhas após a configuração da conta.<br/>**`Recommended`** - Recomenda que os usuários administradores alterem suas senhas após a configuração da conta. |
+| [!UICONTROL Password Change] | Global | Determina se usuários administradores precisam alterar suas senhas. Opções: <br/>**`Forced`**- Exige que os usuários Administradores alterem suas senhas após a configuração da conta.<br/>**`Recommended`** - Recomenda que os usuários Administradores alterem suas senhas após a configuração da conta. |
 
 {style="table-layout:auto"}
 
@@ -177,7 +178,7 @@ Para obter mais informações sobre a configuração dessas opções, consulte [
 | [!UICONTROL Enable CAPTCHA in Admin] | Global | Habilita CAPTCHA para o logon de Administrador. Opções: `Yes` / `No` |
 | [!UICONTROL Font] | Global | Determina a fonte usada para exibir o CAPTCHA. Para adicionar sua própria fonte, coloque o arquivo de fonte no mesmo diretório da instância do Commerce e adicione a declaração ao arquivo config.xml em `app/code/Magento/Captcha/etc` Fonte padrão:` LinLibertine` |
 | [!UICONTROL Forms] | Global | Determina os formulários em que CAPTCHA é usado. Opções: `Admin Login` / `Admin Forgot Password` |
-| [!UICONTROL Displaying Mode] | Global | Determina quando o CAPTCHA é exibido. Opções: <br/>**`Always`**- CAPTCHA é sempre necessário para fazer logon.<br/>**`After number of attempts to login`** - Exibe o campo [!UICONTROL Number of Unsuccessful Attempts to Login]. Insira o número de tentativas de logon permitidas. Um valor de 0 (zero) é semelhante à definição de Modo de exibição como Sempre. Essa opção não abrange os formulários Esqueceu a senha e Criar usuário. Se CAPTCHA estiver ativado e definido para ser exibido, ele sempre será incluído no formulário.<br />**Observação**: para rastrear o número de tentativas de logon malsucedidas, cada tentativa de logon em um endereço de email e a partir de um endereço IP é contada. O número máximo de tentativas de logon permitidas no mesmo endereço IP é 1.000. Essa limitação se aplica somente quando CAPTCHA está ativado. |
+| [!UICONTROL Displaying Mode] | Global | Determina quando o CAPTCHA é exibido. Opções: <br/>**`Always`**- CAPTCHA é sempre necessário para fazer logon.<br/>**`After number of attempts to login`** - Exibe o campo [!UICONTROL Number of Unsuccessful Attempts to Login]. Insira o número de tentativas de logon permitidas. Um valor de 0 (zero) é semelhante à definição de Modo de exibição como Sempre. Essa opção não abrange os formulários Esqueceu a senha e Criar usuário. Se CAPTCHA estiver habilitado e definido para ser exibido, ele sempre será incluído no formulário.<br />**Observação**: para rastrear o número de tentativas de logon malsucedidas, cada tentativa de logon com um endereço de email é contada. O número máximo de tentativas de logon permitidas no mesmo endereço IP é 1.000. Essa limitação se aplica somente quando CAPTCHA está ativado. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Global | Determina o número de vezes que uma pessoa pode tentar fazer logon antes que a conta seja bloqueada. Para rastrear o número de tentativas de logon malsucedidas, o sistema rastreia as tentativas de um endereço de email a partir de um único endereço IP. O número máximo de tentativas permitidas no mesmo endereço IP é 1.000. Essa limitação se aplica somente se CAPTCHA estiver ativado. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Global | Determina a duração do CAPTCHA atual. Quando o CAPTCHA expira, o usuário deve recarregar a página. |
 | [!UICONTROL Number of Symbols] | Global | Determina o número de símbolos usados no CAPTCHA. O valor máximo permitido é `8`. Você também pode especificar um intervalo, por exemplo, `5-8`. |
@@ -208,6 +209,6 @@ Para obter mais informações sobre a configuração dessas opções, consulte [
 
 | Campo | Escopo | Descrição |
 |------------------------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable Admin Usage Tracking] | Global | Concede permissão para que a Adobe colete dados de uso de Administrador para melhorar a experiência de uso do _Administrador_ e de produtos e serviços relacionados. Permitir a coleta de dados também habilita o _Guia no Produto_, que foi projetado para fornecer conteúdo interativo, como ajuda, dicas de ferramentas, guias passo a passo, informações de integração, anúncios de recursos e muito mais, ao _Administrador_. Os administradores individuais não são identificados nos dados de uso. Opções:<br />**`Yes`**- Permite a coleta de dados e habilita a _Orientação no Produto_.<br />**`No`** - Não permite coleta de dados nem habilita _Orientação no Produto_. |
+| [!UICONTROL Enable Admin Usage Tracking] | Global | Concede permissão para que a Adobe colete dados de uso de Administrador para melhorar a experiência de uso do _Administrador_ e de produtos e serviços relacionados. Permitir a coleta de dados também habilita o _Guia no Produto_, que foi projetado para fornecer conteúdo interativo, como ajuda, dicas de ferramentas, guias passo a passo, informações de integração, anúncios de recursos e muito mais, ao _Administrador_. Os administradores individuais não são identificados nos dados de uso. Opções:<br />**`Yes`**- Permite a coleta de dados e habilita _Orientação no Produto_.<br />**`No`** - Não permite a coleta de dados nem habilita a _Orientação no Produto_. |
 
 {style="table-layout:auto"}

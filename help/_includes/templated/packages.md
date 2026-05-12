@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6023fe9fdffd206f23bed50d247b61859ae59bc9
+source-git-commit: 55b6351ede50583d766d25ea855aaf7bcb0c30ee
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '3945'
 ht-degree: 0%
 
 ---
@@ -27,74 +27,75 @@ O Adobe Commerce B2B usa o Composer para gerenciar pacotes PHP.
 
 O arquivo `composer.json` declara a lista de pacotes, enquanto o arquivo `composer.lock` armazena uma lista completa dos pacotes (uma versão completa de cada pacote e suas dependências) usados para criar uma instalação do Adobe Commerce B2B.
 
-A documentação de referência a seguir é gerada a partir do arquivo `composer.lock`, e ela abrange os pacotes necessários incluídos no Adobe Commerce B2B 1.5.2.
+A documentação de referência a seguir é gerada a partir do arquivo `composer.lock`, e ela abrange os pacotes necessários incluídos no Adobe Commerce B2B 1.5.3.
 
 ## Dependências
 
-`magento/extension-b2b 1.5.2` tem as seguintes dependências:
+`magento/extension-b2b 1.5.3` tem as seguintes dependências:
 
-- magento/framework: >=103.0.6 &lt;103.0.9
-- magento/magento2-b2b-base: 1.5.2
-- [magento/module-b2b](https://developer.adobe.com/commerce/php/module-reference/module-b2b/): 100.5.2
-- [magento/module-bundle-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-bundle-negotiable-quote/): 100.5.1
-- [magento/module-bundle-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list/): 100.5.1
-- [magento/module-bundle-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list-graph-ql/): 1.5.1
-- [magento/module-bundle-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-bundle-shared-catalog/): 100.5.1
-- [magento/module-checkout-address-search-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-checkout-address-search-negotiable-quote/): 100.5.1
-- [magento/module-checkout-agreements-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-negotiable-quote/): 100.5.1
-- [magento/module-checkout-agreements-purchase-order](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-purchase-order/): 1.5.1
-- [magento/module-company](https://developer.adobe.com/commerce/php/module-reference/module-company/): 102.0.2
-- [magento/module-company-asynchronous-operations](https://developer.adobe.com/commerce/php/module-reference/module-company-asynchronous-operations/): 1.5.1
-- [magento/module-company-credit](https://developer.adobe.com/commerce/php/module-reference/module-company-credit/): 100.5.2
-- [magento/module-company-credit-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-company-credit-graph-ql/): 1.5.1
-- [magento/module-company-customer-import-export](https://developer.adobe.com/commerce/php/module-reference/module-company-customer-import-export/): 1.5.0
-- [magento/module-company-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-company-graph-ql/): 1.5.2
-- [magento/module-company-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote/): 1.5.1
-- [magento/module-company-negociable-quote-template](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote-template/): 1.5.1
-- [magento/module-company-payment](https://developer.adobe.com/commerce/php/module-reference/module-company-payment/): 100.5.1
-- [magento/module-company-quote](https://developer.adobe.com/commerce/php/module-reference/module-company-quote/): 1.5.2
-- [magento/module-company-quote-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-company-quote-graph-ql/): 1.5.2
-- [magento/module-company-relation](https://developer.adobe.com/commerce/php/module-reference/module-company-relation/): 1.5.2
-- [magento/module-company-relation-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-company-relation-shared-catalog/): 1.5.1
-- [magento/module-company-shipping](https://developer.adobe.com/commerce/php/module-reference/module-company-shipping/): 1.5.1
-- [magento/module-configurable-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-configurable-negotiable-quote/): 100.5.1
-- [magento/module-configurable-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list/): 100.5.1
-- [magento/module-configurable-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list-graph-ql/): 1.5.1
-- [magento/module-configurable-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-configurable-shared-catalog/): 100.5.1
-- [magento/module-downloadable-company](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-company/): 1.5.1
-- [magento/module-downloadable-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-requisition-list-graph-ql/): 1.5.1
-- [magento/module-vale-presente-negociável-quote](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-negotiable-quote/): 100.5.1
-- [magento/module-dom-card-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list/): 100.5.1
-- [magento/module-dom-card-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list-graph-ql/): 1.5.1
-- [magento/module-vale-presente-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-shared-catalog/): 100.5.1
-- [magento/module-grouped-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-grouped-requisition-list/): 100.5.1
-- [magento/module-grouped-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-grouped-shared-catalog/): 100.5.1
-- [magento/module-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote/): 101.0.2
-- [magento/module-negociable-quote-async-order](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-async-order/): 1.5.1
-- [magento/module-negociable-quote-duplicate](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate/): 1.5.2
-- [magento/module-negociable-quote-duplicate-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate-graph-ql/): 1.5.1
-- [magento/module-negociable-quote-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-graph-ql/): 1.5.1
-- [magento/module-negociable-quote-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list/): 1.5.1
-- [magento/module-negociable-quote-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list-graph-ql/): 1.5.1
-- [magento/module-negociable-quote-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-shared-catalog/): 100.5.1
-- [magento/module-negociable-quote-template](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template/): 1.5.2
-- [magento/module-negociable-quote-template-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-graph-ql/): 1.5.2
-- [magento/module-negociable-quote-template-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-shared-catalog/): 1.5.1
-- [magento/module-negociable-quote-wee](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-weee/): 100.5.1
-- [magento/module-order-history-search](https://developer.adobe.com/commerce/php/module-reference/module-order-history-search/): 100.5.2
-- [magento/module-paypal-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-paypal-negotiable-quote/): 1.5.1
-- [magento/module-paypal-purchase-order](https://developer.adobe.com/commerce/php/module-reference/module-paypal-purchase-order/): 1.5.1
-- [magento/module-purchase-order](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order/): 100.5.2
-- [magento/module-purchase-order-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-graph-ql/): 1.5.1
-- [magento/module-purchase-order-rule](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule/): 100.5.2
-- [magento/module-purchase-order-rule-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule-graph-ql/): 1.5.1
-- [magento/module-quick-order](https://developer.adobe.com/commerce/php/module-reference/module-quick-order/): 100.5.1
-- [magento/module-quick-order-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-quick-order-graph-ql/): 1.5.1
-- [magento/module-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list/): 100.5.2
-- [magento/module-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list-graph-ql/): 1.5.1
-- [magento/module-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog/): 100.5.2
-- [magento/module-shared-catalog-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog-graph-ql/): 1.5.1
-- magento/security-package-b2b: 1.0.6
+- magento/framework: >=103.0.8 &lt;103.0.10
+- magento/magento2-b2b-base: 1.5.3
+- [magento/module-b2b](https://developer.adobe.com/commerce/php/module-reference/module-b2b): 100.5.3
+- [magento/module-bundle-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-bundle-negotiable-quote): 100.5.2
+- [magento/module-bundle-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list): 100.5.2
+- [magento/module-bundle-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list-graph-ql): 1.5.2
+- [magento/module-bundle-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-bundle-shared-catalog): 100.5.2
+- [magento/module-checkout-address-search-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-checkout-address-search-negotiable-quote): 100.5.2
+- [magento/module-checkout-agreements-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-negotiable-quote): 100.5.2
+- [magento/module-checkout-agreements-purchase-order](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-purchase-order): 1.5.2
+- [magento/module-company](https://developer.adobe.com/commerce/php/module-reference/module-company): 102.0.3
+- [magento/module-company-asynchronous-operations](https://developer.adobe.com/commerce/php/module-reference/module-company-asynchronous-operations): 1.5.2
+- [magento/module-company-credit](https://developer.adobe.com/commerce/php/module-reference/module-company-credit): 100.5.3
+- [magento/module-company-credit-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-company-credit-graph-ql): 1.5.2
+- [magento/module-company-customer-import-export](https://developer.adobe.com/commerce/php/module-reference/module-company-customer-import-export): 1.5.1
+- [magento/module-company-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-company-graph-ql): 1.5.3
+- [magento/module-company-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote): 1.5.2
+- [magento/module-company-negociable-quote-template](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote-template): 1.5.2
+- [magento/module-company-payment](https://developer.adobe.com/commerce/php/module-reference/module-company-payment): 100.5.2
+- [magento/module-company-quote](https://developer.adobe.com/commerce/php/module-reference/module-company-quote): 1.5.3
+- [magento/module-company-quote-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-company-quote-graph-ql): 1.5.3
+- [magento/module-company-relation](https://developer.adobe.com/commerce/php/module-reference/module-company-relation): 1.5.3
+- [magento/module-company-relation-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-company-relation-shared-catalog): 1.5.2
+- [magento/module-company-shipping](https://developer.adobe.com/commerce/php/module-reference/module-company-shipping): 1.5.2
+- [magento/module-configurable-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-configurable-negotiable-quote): 100.5.2
+- [magento/module-configurable-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list): 100.5.2
+- [magento/module-configurable-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list-graph-ql): 1.5.2
+- [magento/module-configurable-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-configurable-shared-catalog): 100.5.2
+- [magento/module-downloadable-company](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-company): 1.5.2
+- [magento/module-downloadable-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-negotiable-quote): 1.5.0
+- [magento/module-downloadable-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-requisition-list-graph-ql): 1.5.2
+- [magento/module-vale-presente-negociável-quote](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-negotiable-quote): 100.5.2
+- [magento/module-dom-card-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list): 100.5.2
+- [magento/module-dom-card-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list-graph-ql): 1.5.2
+- [magento/module-vale-presente-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-shared-catalog): 100.5.2
+- [magento/module-grouped-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-grouped-requisition-list): 100.5.2
+- [magento/module-grouped-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-grouped-shared-catalog): 100.5.2
+- [magento/module-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote): 101.0.3
+- [magento/module-negociable-quote-async-order](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-async-order): 1.5.2
+- [magento/module-negociable-quote-duplicate](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate): 1.5.3
+- [magento/module-negociable-quote-duplicate-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate-graph-ql): 1.5.2
+- [magento/module-negociable-quote-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-graph-ql): 1.5.2
+- [magento/module-negociable-quote-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list): 1.5.2
+- [magento/module-negociable-quote-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list-graph-ql): 1.5.2
+- [magento/module-negociable-quote-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-shared-catalog): 100.5.2
+- [magento/module-negociable-quote-template](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template): 1.5.3
+- [magento/module-negociable-quote-template-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-graph-ql): 1.5.3
+- [magento/module-negociable-quote-template-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-shared-catalog): 1.5.2
+- [magento/module-negociable-quote-wee](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-weee): 100.5.2
+- [magento/module-order-history-search](https://developer.adobe.com/commerce/php/module-reference/module-order-history-search): 100.5.3
+- [magento/module-paypal-negociable-quote](https://developer.adobe.com/commerce/php/module-reference/module-paypal-negotiable-quote): 1.5.2
+- [magento/module-paypal-purchase-order](https://developer.adobe.com/commerce/php/module-reference/module-paypal-purchase-order): 1.5.2
+- [magento/module-purchase-order](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order): 100.5.3
+- [magento/module-purchase-order-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-graph-ql): 1.5.2
+- [magento/module-purchase-order-rule](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule): 100.5.3
+- [magento/module-purchase-order-rule-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule-graph-ql): 1.5.2
+- [magento/module-quick-order](https://developer.adobe.com/commerce/php/module-reference/module-quick-order): 100.5.2
+- [magento/module-quick-order-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-quick-order-graph-ql): 1.5.2
+- [magento/module-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list): 100.5.3
+- [magento/module-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list-graph-ql): 1.5.2
+- [magento/module-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog): 100.5.3
+- [magento/module-shared-catalog-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog-graph-ql): 1.5.2
+- magento/security-package-b2b: 1.0.7
 
 ## Licenças de terceiros
 
@@ -153,6 +154,13 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/giggsey/libphonenumber-for-php">giggsey/libphonenumber-for-php</a>
+    </td>
+    <td>Biblioteca</td>
+    <td>Uma biblioteca para analisar, formatar, armazenar e validar números de telefone internacionais, uma porta PHP do libphonenumber da Google.</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/opentelemetry-php/api">abrir-telemetria/api</a>
     </td>
     <td>Biblioteca</td>
@@ -171,6 +179,13 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
     </td>
     <td>Metapackage</td>
     <td>Braintree Magento</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/stomp-php/stomp-php">stomp-php/stomp-php</a>
+    </td>
+    <td>Biblioteca</td>
+    <td>suporte a stomp para PHP</td>
   </tr>
   <tr>
     <td>
@@ -251,7 +266,7 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/firebase/php-jwt">firebase/php-jwt</a>
+      <a href="https://github.com/googleapis/php-jwt">firebase/php-jwt</a>
     </td>
     <td>Biblioteca</td>
     <td>Uma biblioteca simples para codificar e decodificar JSON Web Tokens (JWT) no PHP. Deve estar em conformidade com as especificações atuais.</td>
@@ -349,13 +364,6 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-mvc">laminas/laminas-mvc</a>
-    </td>
-    <td>Biblioteca</td>
-    <td>Camada MVC orientada por eventos do Laminas, incluindo aplicativos MVC, controladores e plug-ins</td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/laminas/laminas-permissions-acl">laminas/laminas-permissions-acl</a>
     </td>
     <td>Biblioteca</td>
@@ -367,13 +375,6 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
     </td>
     <td>Biblioteca</td>
     <td>Invólucro OOP para o serviço Web ReCaptcha</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-router">laminas/laminas-router</a>
-    </td>
-    <td>Biblioteca</td>
-    <td>Sistema de roteamento flexível para aplicativos HTTP e de console</td>
   </tr>
   <tr>
     <td>
@@ -461,6 +462,13 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/php-db/phpdb">php-db/phpdb</a>
+    </td>
+    <td>Biblioteca</td>
+    <td>Camada de abstração de banco de dados, abstração de SQL, abstração do conjunto de resultados e implementações de RowDataGateway e TableDataGateway</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/phpfui/recaptcha">phpfui/recaptcha</a>
     </td>
     <td>Biblioteca</td>
@@ -500,27 +508,6 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
     </td>
     <td>Magento-module</td>
     <td>Infraestrutura Zend_Cache usando Redis com suporte completo para tags.</td>
-  </tr>
-  </tbody>
-</table>
-
-### ISC
-
-<table>
-  <thead>
-    <tr>
-      <th>Nome</th>
-      <th>Tipo</th>
-      <th>Descrição</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>
-      <a href="https://github.com/paragonie/sodium_compat">paragonie/dium_compat</a>
-    </td>
-    <td>Biblioteca</td>
-    <td>Implementação PHP pura de libsódio; usa a extensão PHP se ela existir</td>
   </tr>
   </tbody>
 </table>
@@ -577,6 +564,13 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
     </td>
     <td>Biblioteca</td>
     <td>Biblioteca aritmética de precisão arbitrária</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/brick/phonenumber">brick/phonenumber</a>
+    </td>
+    <td>Biblioteca</td>
+    <td>Biblioteca de números de telefone</td>
   </tr>
   <tr>
     <td>
@@ -706,6 +700,13 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/giggsey/Locale">giggsey/locale</a>
+    </td>
+    <td>Biblioteca</td>
+    <td>Funções locais requeridas por libphonenumber-for-php</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/guzzle/guzzle">guzzlehttp/guzzle</a>
     </td>
     <td>Biblioteca</td>
@@ -818,14 +819,14 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/PhpGt/CssXPath">phpgt/cssxpath</a>
+      <a href="https://github.com/phpgt/CssXPath">phpgt/cssxpath</a>
     </td>
     <td>Biblioteca</td>
     <td>Converta seletores de CSS em consultas XPath.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/PhpGt/Dom">phpgt/dom</a>
+      <a href="https://github.com/phpgt/Dom">phpgt/dom</a>
     </td>
     <td>Biblioteca</td>
     <td>API DOM moderna.</td>
@@ -850,6 +851,13 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
     </td>
     <td>Biblioteca</td>
     <td>Biblioteca de comunicações seguras PHP - implementações de PHP puro de RSA, AES, SSH2, SFTP, X.509 etc.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/predis/predis">predis/predis</a>
+    </td>
+    <td>Biblioteca</td>
+    <td>Um cliente Redis/Valkey flexível e completo para PHP.</td>
   </tr>
   <tr>
     <td>
@@ -986,6 +994,20 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/symfony/cache">symfony/cache</a>
+    </td>
+    <td>Biblioteca</td>
+    <td>Fornece implementações estendidas de PSR-6, PSR-16 (e tags)</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/symfony/cache-contracts">symfony/cache-contracts</a>
+    </td>
+    <td>Biblioteca</td>
+    <td>Abstrações genéricas relacionadas ao armazenamento em cache</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/symfony/config">symfony/config</a>
     </td>
     <td>Biblioteca</td>
@@ -1053,13 +1075,6 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
     </td>
     <td>Biblioteca</td>
     <td>Localiza arquivos e diretórios por meio de uma interface intuitiva e fluente</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/symfony/http-client">symfony/http-client</a>
-    </td>
-    <td>Biblioteca</td>
-    <td>Fornece métodos avançados para buscar recursos HTTP de forma síncrona ou assíncrona</td>
   </tr>
   <tr>
     <td>
@@ -1168,10 +1183,17 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-php83">symfony/polyfill-php83</a>
+      <a href="https://github.com/symfony/polyfill-php84">symfony/polyfill-php84</a>
     </td>
     <td>Biblioteca</td>
-    <td>Symfony polyfill reforçando alguns recursos do PHP 8.3+ para versões mais baixas do PHP</td>
+    <td>Symfony polyfill reforçando alguns recursos do PHP 8.4+ para versões mais baixas do PHP</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/symfony/polyfill-php85">symfony/polyfill-php85</a>
+    </td>
+    <td>Biblioteca</td>
+    <td>Symfony polyfill reforçando alguns recursos do PHP 8.5+ para versões mais baixas do PHP</td>
   </tr>
   <tr>
     <td>
@@ -1214,6 +1236,13 @@ A documentação de referência a seguir é gerada a partir do arquivo `composer
     </td>
     <td>Biblioteca</td>
     <td>Carrega e despeja arquivos YAML</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/thecodingmachine/safe">thecodingmachine/safe</a>
+    </td>
+    <td>Biblioteca</td>
+    <td>Funções principais do PHP que lançam exceções em vez de retornar FALSE no erro</td>
   </tr>
   <tr>
     <td>

@@ -3,9 +3,9 @@ title: '[!UICONTROL My Requisition Lists]'
 description: Saiba mais sobre a experiência do cliente para listas de requisição, que está disponível no painel de contas.
 exl-id: ed1b41aa-9c36-49f8-80f2-ad0eb151b7a5
 feature: B2B, Companies
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 537207b0e72127abaca2e39b27c24c5a0aadf801
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -141,3 +141,21 @@ Um produto na lista de requisições pode ser editado quando:
 | [!UICONTROL Delete Requisition List] | Exclui a lista de requisições da conta do usuário da empresa. |
 
 {style="table-layout:auto"}
+
+## Controles de paginação
+
+Os controles de paginação aparecem na parte inferior da lista quando o número total de itens da lista de requisições excede os itens selecionados por página.
+
+![Lista de Requisições com paginação](./assets/requisition-list-bottom-with-pagination.png){width="700" zoomable="yes"}
+
+>[!NOTE]
+>
+> Os produtos que exigem sua atenção (por exemplo, produtos indisponíveis) são exibidos no topo da lista se se enquadrarem na página atual da paginação. O número de produtos que exigem sua atenção é mostrado acima da lista.
+> ![Itens Exigindo atenção](./assets/requisition-list-product-requiring-attention.png){width="500"}
+
+### Controles de paginação de vitrine eletrônica
+
+| Controle | Descrição |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Mostrar por página](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Determina quantos itens da lista de requisições aparecem por página. Você pode escolher 20, 50, 100, 500 ou 1000 itens da lista de requisições a serem mostrados na página. |
+| ![Links de paginação](./assets/control-pagination.png) | [!UICONTROL Pagination links] - Fornece links de navegação para outras páginas. |

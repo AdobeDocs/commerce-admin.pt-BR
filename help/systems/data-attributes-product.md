@@ -3,9 +3,9 @@ title: Referência de atributos de dados do produto
 description: Use essa referência de atributos de dados do produto ao trabalhar com importações e exportações de dados do produto.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 093c0841141f3e39afdabf25f7ce96c65db35291
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2540'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,16 @@ A instalação usada para exportar esses dados tem os dados de amostra instalado
 | `sku` | (Obrigatório) A unidade de manutenção de estoque é um identificador alfanumérico exclusivo usado para rastrear o inventário. Um SKU pode ter até 64 caracteres. Por exemplo: `sku123`<br/>**_Note:_** Uma SKU com mais de 64 caracteres faz com que a importação falhe. |
 | `store_view_code` | Identifica as exibições de loja específicas em que o produto está disponível. Se estiver em branco, o produto estará disponível na visualização padrão da loja. Por exemplo: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Atribui o produto a um conjunto de atributos ou modelo de produto específico, de acordo com o tipo de produto. Por exemplo: `default`<br><br>Depois que o produto é criado, o conjunto de atributos não pode ser alterado usando a funcionalidade de importação. No entanto, você pode alterar o conjunto de atributos de Admin e reexportar o produto para atualizar o arquivo CSV. |
-| `product_type` | Indica o tipo de produto. Valores:<br/>`simple` — Itens tangíveis que normalmente são vendidos como unidades únicas ou em quantidades fixas.<br/>`grouped` — Um grupo de produtos separados que são vendidos como um conjunto.<br/>`configurable` — Um produto com várias opções que o cliente deve selecionar antes de fazer uma compra. O inventário pode ser gerenciado para cada conjunto de variações porque representam um produto separado com uma SKU distinta. Por exemplo, uma combinação de cor e tamanho para um produto configurável está associada a uma SKU específica no catálogo.<br/>`virtual` — Um produto incorpóreo que não requer remessa e não é mantido em estoque. Os exemplos incluem serviços, associações e assinaturas.<br/>`bundle` — Um conjunto de produtos personalizáveis de produtos simples vendidos em conjunto. |
+| `product_type` | Indica o tipo de produto. Valores:<br/>`simple` — Itens tangíveis que normalmente são vendidos como unidades únicas ou em quantidades fixas.<br/>`grouped` — Um grupo de produtos separados vendidos como um conjunto.<br/>`configurable` — um produto com várias opções que o cliente deve selecionar antes de realizar uma compra. O inventário pode ser gerenciado para cada conjunto de variações porque representam um produto separado com uma SKU distinta. Por exemplo, uma combinação de cor e tamanho para um produto configurável está associada a uma SKU específica no catálogo.<br/>`virtual` — Um produto incorpóreo que não exige remessa e não é mantido em inventário. Os exemplos incluem serviços, associações e assinaturas.<br/>`bundle` — um conjunto de produtos personalizáveis de produtos simples vendidos em conjunto. |
 | `categories` | Indica cada categoria atribuída ao produto. Separe as categorias e subcategorias com uma barra. Para indicar vários caminhos de categoria, separe cada caminho com um símbolo de barra vertical \|. Por exemplo: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | O código de cada site onde o produto está disponível. Um único produto pode ser atribuído a vários sites ou limitado a um. Se especificar vários sites, separe-os com vírgula e sem espaço. Por exemplo: `base` ou `base,website2` |
 | `name` | O nome do produto é exibido em todas as listas de produtos e é o nome que os clientes usam para identificar o produto. |
 | `description` | A descrição do produto fornece informações detalhadas sobre ele e pode incluir tags simples do HTML. |
 | `short_description` | O uso da descrição curta do produto depende do tema. Ele pode aparecer nas listagens de produtos e, às vezes, é usado nas listagens de feed RSS enviadas para sites de compras. |
 | `weight` | O peso do produto individual. O peso real do produto é determinado pela transportadora no momento da remessa. |
-| product_online | Determina se o produto está disponível para venda na loja. Valores:<br/>`1` — (Sim) O produto está habilitado e disponível para venda.<br/>`2` — (Não) O produto está desabilitado e não está disponível para venda. |
+| product_online | Determina se o produto está disponível para venda na loja. Valores:<br/>`1` — (Sim) O produto está habilitado e disponível para venda.<br/>`2` — (Não) O produto está desativado e não está disponível para venda. |
 | `tax_class_name` | O nome da classe de imposto associada a este produto. |
-| `visibility` | Determina se o produto está visível no catálogo e se foi disponibilizado para pesquisa. Valores:<br/>`Not Visible Individually` — O produto não está incluído nas listagens de produtos, embora possa estar disponível como uma variação de outro produto.<br/>`Catalog` — O produto aparece em todas as listagens de catálogos.<br/>`Search` — O produto está disponível para operações de pesquisa.<br/>`Catalog, Search` — O produto está incluído nas listagens do catálogo e também está disponível para pesquisa. |
+| `visibility` | Determina se o produto está visível no catálogo e se foi disponibilizado para pesquisa. Valores:<br/>`Not Visible Individually` — O produto não está incluído nas listagens de produtos, embora possa estar disponível como uma variação de outro produto.<br/>`Catalog` — O produto aparece em todas as listagens de catálogo.<br/>`Search` —O produto está disponível para operações de pesquisa.<br/>`Catalog, Search` — O produto está incluído nas listagens do catálogo e também está disponível para pesquisa. |
 | `price` | O preço que o produto é oferecido para venda em sua loja. |
 | `special_price` | O preço com desconto do produto durante o período especificado. |
 | `special_price_from_date` | A data inicial do período em que o preço especial está em vigor. |
@@ -55,23 +55,23 @@ A instalação usada para exportar esses dados tem os dados de amostra instalado
 | `display_product_options_in` | Se o produto tiver várias opções, o determinará onde elas são exibidas na página do produto. Valores: Coluna Informações do Produto / Bloquear após a Coluna Informações |
 | `map_price` | O preço mínimo anunciado do produto. (Aparece somente se o MAP estiver ativado.) |
 | `msrp_price` | O preço de varejo sugerido pelo fabricante para o produto. (Aparece somente se o MAP estiver ativado.) |
-| `map_enabled` | Determina se o Preço mínimo anunciado está habilitado na configuração. Valores:<br/>`1` — (Sim) MAP está habilitado.<br/>`0` (ou em branco) — (Não) MAP não está habilitado. |
+| `map_enabled` | Determina se o Preço mínimo anunciado está habilitado na configuração. Valores:<br/>`1` — (Sim) MAP habilitado.<br/>`0` (ou em branco) — (Não) MAP não está habilitado. |
 | `gift_message_available` | Determina se uma mensagem de presente pode ser incluída na compra do produto. Valores:<br/>`1` — (Sim) A opção para incluir uma mensagem de presente é apresentada ao cliente.<br/>`0` (ou em branco) — (Não) A opção para incluir uma mensagem de presente não é apresentada ao cliente. |
 | `custom_design` | Lista os temas disponíveis que podem ser aplicados à página do produto. |
 | `custom_design_from` | Especifica a data de início quando o tema selecionado é aplicado à página do produto. |
 | `custom_design_to` | Especifica a data de término quando o tema selecionado é aplicado à página do produto. |
 | `custom_layout_update` | Código XML adicional que é aplicado como uma atualização de layout à página do produto. |
-| `page_layout` | Determina o layout da página do produto. Valores:<br/>`No layout updates` — Não é feita nenhuma alteração no layout da página.<br/>`1 column` — Aplica um layout de uma coluna à página do produto.<br/>`2 columns with left bar` — Aplica um layout de duas colunas com uma barra lateral esquerda à página do produto.<br/>`2 columns with right bar` — Aplica um layout de duas colunas com uma barra lateral direita à página do produto.<br/>`3 columns` — Aplica um layout de três colunas à página do produto.<br/>`empty` — Aplica um layout em branco à página do produto. |
+| `page_layout` | Determina o layout da página do produto. Valores:<br/>`No layout updates` — Nenhuma alteração é feita no layout da página.<br/>`1 column` — Aplica um layout de uma coluna à página do produto.<br/>`2 columns with left bar` — Aplica um layout de duas colunas com uma barra lateral esquerda à página do produto.<br/>`2 columns with right bar` — Aplica um layout de duas colunas com uma barra lateral direita à página do produto.<br/>`3 columns` — Aplica um layout de três colunas à página do produto.<br/>`empty` — Aplica um layout em branco à página do produto. |
 | `product_options_container` | Se o produto tiver várias opções, o determinará onde elas são exibidas na página do produto. Valores: Coluna Informações do Produto / Bloquear após a Coluna Informações |
-| `msrp_display_actual_price_type` | Determina onde o preço real de um produto é visível para o cliente. Valores:<br/>`In Cart` — Exibe o preço real do produto no carrinho de compras.<br/>`Before Order Confirmation` — Exibe o preço real do produto no final do processo de finalização, antes da confirmação do pedido.<br/>`On Gesture` — Exibe o preço real do produto em um pop-up quando o cliente clica em _Clicar para preço_ ou _O que é isso?Link_. |
+| `msrp_display_actual_price_type` | Determina onde o preço real de um produto é visível para o cliente. Valores:<br/>`In Cart` — Exibe o preço real do produto no carrinho de compras.<br/>`Before Order Confirmation` — Exibe o preço real do produto no final do processo de check-out, antes da confirmação do pedido.<br/>`On Gesture` — Exibe o preço real do produto em um pop-up quando o cliente clica em _Clicar para preço_ ou _O que é isso?_ link. |
 | `country_of_manufacture` | Identifica o país onde o produto foi fabricado. |
 | `additional_attributes` | Atributos adicionais criados para o produto. Por exemplo: <br/>`has_options=0,required_options=0color=Black,has_options=0,required_options=0,size_general=XS` |
 | `qty` | A quantidade do produto atualmente em estoque. |
 | `out_of_stock_qty` | O nível de estoque que determina se o produto está indisponível. |
-| `use_config_min_qty` | Determina se o valor padrão da configuração é usado e corresponde à caixa de seleção Usar configurações. Valores:<br/>`1` — (Sim) A definição de configuração padrão é usada para o valor deste atributo.<br/>`0` (ou em branco) — (Não) A configuração padrão pode ser substituída pelo valor deste atributo. |
-| `is_qty_decimal` | Determina se o atributo de quantidade tem um valor decimal. Valores:<br/>`1` — (Sim) O valor do atributo qty é um valor decimal.<br/>`0` (ou em branco) — (Não) O valor do atributo qty é um número inteiro (inteiro). |
+| `use_config_min_qty` | Determina se o valor padrão da configuração é usado e corresponde à caixa de seleção Usar configurações. Valores:<br/>`1` — (Sim) A definição de configuração padrão é usada para o valor deste atributo.<br/>`0` (ou em branco) — (Não) A configuração padrão pode ser sobreposta para o valor desse atributo. |
+| `is_qty_decimal` | Determina se o atributo de quantidade tem um valor decimal. Valores:<br/>`1` — (Sim) O valor do atributo de quantidade é um valor decimal.<br/>`0` (ou em branco) — (Não) O valor do atributo de quantidade é um número inteiro (inteiro). |
 | `allow_backorders` | Determina se a loja permite pedidos pendentes e como eles são gerenciados. |
-| `use_config_backorders` | Determina se a configuração padrão para backorders é usada e corresponde ao estado da caixa de seleção Usar configurações. Valores:<br/>`1` — (Sim) O valor do atributo qty é um valor decimal.<br/>`0` (ou em branco) — (Não) O valor do atributo qty é um número inteiro (inteiro). |
+| `use_config_backorders` | Determina se a configuração padrão para backorders é usada e corresponde ao estado da caixa de seleção Usar configurações. Valores:<br/>`1` — (Sim) O valor do atributo de quantidade é um valor decimal.<br/>`0` (ou em branco) — (Não) O valor do atributo de quantidade é um número inteiro (inteiro). |
 | `min_cart_qty` | Especifica a quantidade mínima do item que pode ser comprado em um único pedido. |
 | `use_config_min_sale_qty` | Determina se a configuração padrão para quantidade mínima é usada e corresponde ao estado da caixa de seleção Usar configurações. Valores:<br/>`1` — (Sim)<br/>`0` (ou em branco) — (Não) |
 | `max_cart_qty` | Especifica a quantidade máxima do produto que pode ser comprado em um único pedido. |
@@ -79,7 +79,7 @@ A instalação usada para exportar esses dados tem os dados de amostra instalado
 | `is_in_stock` | Indica se o produto está em estoque. |
 | `notify_on_stock_below` | Especifica o nível de estoque que aciona uma notificação _de falta de estoque_. |
 | `use_config_notify_stock_qty` | Determina se a configuração padrão é usada para acionar a notificação no nível do estoque e corresponde ao estado da caixa de seleção Usar configurações. Valores:<br/>`1` — (Sim)<br/>`0` (ou em branco) — (Não) |
-| `manage_stock` | Determina se o controle de estoque é usado para gerenciar o produto. Valores:<br/>`1` — (Sim) Ativa o controle de estoque completo para gerenciar os níveis de estoque do produto.<br/>`0` (ou em branco) — (Não) O sistema não rastreia o número de itens que estão atualmente em estoque. |
+| `manage_stock` | Determina se o controle de estoque é usado para gerenciar o produto. Valores:<br/>`1` — (Sim) Ativa o controle de estoque completo para gerenciar os níveis de estoque do produto.<br/>`0` (ou em branco) — (Não) O sistema não rastreia o número de itens atualmente em estoque. |
 | `use_config_manage_stock` | Determina se a configuração padrão para gerenciar o estoque é usada e corresponde ao estado da caixa de seleção Usar configurações. Valores:<br/>`1` — (Sim)<br/>`0` (ou em branco) — (Não) |
 | `use_config_qty_increments` | Determina se a configuração padrão para incrementos de quantidade é usada e corresponde ao estado da caixa de seleção Usar configurações. Valores:<br/>`1` — (Sim)<br/>`0` (ou em branco) — (Não) |
 | `qty_increments` | Estabelece o número de produtos que compõem um incremento de quantidade. |
@@ -149,7 +149,7 @@ Se exportar um produto configurável, você encontrará os atributos padrão que
 | `bundle_price_type` | Determina se o preço de um item do pacote é fixo ou dinâmico. |
 | `bundle_sku_type` | Determina se cada item recebe uma SKU variável, dinâmica, ou se uma SKU fixa é usada para o pacote. Opções: Fixa/Dinâmica |
 | `bundle_weight_type` | Determina se o peso de um item do pacote é variável ou fixo. |
-| `bundle_values` | Descreve o valor de aprendizado associado a uma opção de pacote. Por exemplo: `name=Bundle Option One,type=dropdown; required=1, sku=sku-option2,price=10, price_type=fixed` |
+| `bundle_values` | Descreve cada valor associado a uma opção de pacote. Por exemplo: `name=Bundle Option One,name_store_view_1=Group 1,type=dropdown; required=1,sku=sku-option2,price=10,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0,price_website_website_1=30.000000,price_type_website_website_1=fixed`<br/><br/>Na opção `name_[store-view-code]`, `[store-view-code]` é o nome da exibição de armazenamento.<br/></br>As opções `price_website_[website-code]` e `price_type_website_[website-code]` especificam o preço do produto para o site `[website-code]`. Se o [Escopo do Preço de Catálogo](../catalog/catalog-price-scope.md) estiver definido como *Global*, essas opções não estarão disponíveis. |
 
 {style="table-layout:auto"}
 

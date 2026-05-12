@@ -3,9 +3,9 @@ title: Gerenciar imagens e vídeos de produtos
 description: Saiba mais sobre como gerenciar ativos de imagem e vídeo para suas listas de produtos.
 exl-id: 3cb4ab8a-8966-400f-be94-a517634d1334
 feature: Catalog Management, Products, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 37eb42859700670420d4628d9a90d8d8d7b6c53b
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Para fazer upload de uma imagem, siga um destes procedimentos:
 
 ### Reorganizar imagens
 
-Para alterar a ordem das imagens na galeria, clique no ícone _[!UICONTROL Sort]_( ![Classificar ícone](./assets/inventory-icon-sort.png) ) na parte inferior do bloco de imagens e arraste a imagem para uma posição diferente na caixa&#x200B;_[!UICONTROL Images And Videos]_.
+Para alterar a ordem das imagens na galeria, clique no ícone _[!UICONTROL Sort]_( ![Classificar ícone](./assets/inventory-icon-sort.png) ) na parte inferior do bloco de imagens e arraste a imagem para uma posição diferente na caixa_[!UICONTROL Images And Videos]_.
 
 ![Ordem de alteração](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -84,6 +84,22 @@ Para excluir uma imagem da galeria de miniaturas, marque a caixa de seleção **
 
 ![Imagens ocultas](./assets/product-images-and-videos-hidden.png){width="600" zoomable="yes"}
 
+## Gerenciar imagens e vídeos no nível de visualização da loja
+
+Ao alternar o seletor **[!UICONTROL Store View]** para uma exibição de armazenamento específica (não **[!UICONTROL All Store Views]**), a seção _[!UICONTROL Images and Videos]_fornece controles adicionais para gerenciar como as imagens são exibidas para essa exibição de armazenamento sem afetar o escopo padrão.
+
+### Reordenar imagens para uma exibição de loja
+
+Ao trabalhar em um escopo de exibição de loja, uma caixa de seleção **[!UICONTROL Use Default Order]** aparece abaixo da caixa _[!UICONTROL Images and Videos]_. Marque essa caixa de seleção para reverter a ordem de exibição da imagem para a sequência definida no escopo padrão.
+
+![Imagens E Vídeos - Exibição De Loja](./assets/product-images-and-videos-rearrange-store-scope.png){width="600" zoomable="yes"}
+
+### Definir detalhes da imagem para uma exibição de loja
+
+Quando você abre a exibição de Detalhes da Imagem no escopo de exibição de armazenamento, cada campo — incluindo **[!UICONTROL Alt Text]**, a imagem **[!UICONTROL Role]** atribuições (Base, Pequena, Miniatura, Amostra) e **[!UICONTROL Hide from Product Page]** — exibe uma caixa de seleção **[!UICONTROL Use Default Value]**. Marque esta caixa de seleção para herdar o valor configurado no escopo padrão desse campo.
+
+![Exibição de Detalhes da Imagem - Exibição de Armazenamento](./assets/product-image-detail-store-scope.png){width="600" zoomable="yes"}
+
 ## Funções da imagem
 
 | Função da imagem | Descrição |
@@ -97,7 +113,7 @@ Para excluir uma imagem da galeria de miniaturas, marque a caixa de seleção **
 
 ## Marcas d&#39;água
 
-Se você arcar com as despesas de criar suas próprias imagens originais do produto, não há muito que você possa fazer para impedir que concorrentes sem escrúpulos as roubem com um clique de mouse. No entanto, você pode torná-los um destino menos atraente colocando uma marca d&#39;água em cada imagem para identificá-los como sua propriedade do. Um arquivo de marca d&#39;água pode ser uma imagem JPG (JPEG), GIF ou PNG. Os tipos de arquivo GIF e PNG são compatíveis com camadas transparentes, que podem ser usadas para dar à marca d&#39;água um plano de fundo transparente.
+Se você arcar com as despesas de criar suas próprias imagens originais do produto, não há muito que você possa fazer para impedir que concorrentes sem escrúpulos as roubem com um clique de mouse. No entanto, você pode torná-los um destino menos atraente colocando uma marca d&#39;água em cada imagem para identificá-los como sua propriedade do. Um arquivo de marca d&#39;água pode ser uma imagem JPG (JPEG), GIF ou PNG. Os tipos de arquivo GIF e PNG são compatíveis com camadas transparentes, que podem ser usadas para fornecer à marca d&#39;água um plano de fundo transparente.
 
 A marca d&#39;água usada para a imagem _small_ no exemplo a seguir é um logotipo preto com um plano de fundo transparente e salvo como um arquivo PNG com as seguintes configurações:
 

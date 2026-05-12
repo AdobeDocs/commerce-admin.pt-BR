@@ -3,9 +3,9 @@ title: Sua conta de usuário Admin
 description: Saiba mais sobre sua conta de administrador e como usar a autenticação de dois fatores para fazer logon no Administrador.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Não é permitida a reutilização das quatro últimas senhas atribuídas à con
 
    >[!NOTE]
    >
-   >A senha do _Administrador_ deve ter sete caracteres ou mais e incluir letras e números. Consulte [Configurando a Segurança de _Admin_](../systems/security-admin.md) para obter informações sobre as opções de senha.
+   >Uma senha de _Administrador_ deve ter sete caracteres ou mais (por padrão) e incluir letras e números. O comprimento mínimo da senha pode ser definido nas configurações de segurança de Admin. Consulte [Configurando a Segurança de _Admin_](../systems/security-admin.md) para obter informações sobre as opções de senha.
 
 ## Sair do Administrador
 
@@ -110,7 +110,7 @@ Não é permitida a reutilização das quatro últimas senhas atribuídas à con
 
    ![Sair](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-A página _[!UICONTROL Sign In]_&#x200B;exibe uma mensagem informando que você está desconectado. Saia do_ Admin _sempre que deixar o computador sem supervisão.
+A página _[!UICONTROL Sign In]_exibe uma mensagem informando que você está desconectado. Saia do_ Admin _sempre que deixar o computador sem supervisão.
 
 ## Editar informações da conta
 
@@ -161,7 +161,7 @@ O Administrador fornece acesso para gerenciar as funcionalidades de pedidos, cli
 
 Para garantir a segurança do seu administrador, faça auditorias regulares de usuários e funções com acesso de administrador.
 
-Além disso, considere [atualizar a configuração da URL Base do Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/config/advanced/admin#admin-base-url) para alterar o ponto de extremidade padrão `/admin` para um caminho personalizado. A configuração de um caminho personalizado oferece os seguintes benefícios de segurança:
+Além disso, considere [atualizar a configuração da URL Base do Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) para alterar o ponto de extremidade padrão `/admin` para um caminho personalizado. A configuração de um caminho personalizado oferece os seguintes benefícios de segurança:
 
 **Segurança aprimorada**: o caminho &quot;admin&quot; padrão é amplamente conhecido e frequentemente alvo de ataques à força bruta por parte de agentes mal-intencionados. Ao alterá-lo para um valor único e personalizado, você reduz significativamente o risco de tentativas de acesso não autorizadas.
 
@@ -173,4 +173,4 @@ Além disso, considere [atualizar a configuração da URL Base do Administrador]
 
 >[!NOTE]
 >
->Se houver suspeita de violação, remova todos os usuários administradores desconhecidos, redefina todas as senhas de administradores e examine o [Plano de ação de segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security) para obter mais etapas.
+>Se houver suspeita de violação, remova todos os usuários administradores desconhecidos, redefina todas as senhas de administradores e examine o [Plano de ação de segurança](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) para obter mais etapas.

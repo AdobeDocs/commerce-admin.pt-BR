@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
-description: Revise as configurações na página [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] do Administrador do Commerce.
+title: '[!UICONTROL Sales] > [!UICONTROL Delivery Methods]'
+description: Revise as configurações na página [!UICONTROL Sales] > [!UICONTROL Delivery Methods] do Administrador do Commerce.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: d1e919d9025c3609e0512f26d563cebae325ca0b
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '4160'
+source-wordcount: '4555'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![Taxa Uniforme](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![Envio gratuito](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -51,7 +51,7 @@ ht-degree: 0%
 | [!UICONTROL Title] | Exibição da loja | O nome usado para este método de envio durante o check-out. |
 | Nome do método | Exibição da loja | Um nome que descreve o método de cálculo usado para produzir uma estimativa de entrega. O nome do método aparece ao lado da taxa estimada calculada no carrinho de compras. O valor padrão é `Free`. |
 | Valor Mínimo do Pedido | Site | A compra mínima necessária para aplicar o Frete Gratuito a um pedido. |
-| Incluir Imposto no Valor | Site | Determina se o imposto está incluído no cálculo da Quantia Mínima da Ordem. Opções: <br/>**Sim** - O imposto é incluído ao calcular o valor Mínimo do Pedido (Subtotal + Imposto - Desconto).<br/>**Não** - O imposto não é incluído ao calcular o valor Mínimo da Ordem (Subtotal - Desconto). |
+| Incluir Imposto no Valor | Site | Determina se o imposto está incluído no cálculo da Quantia Mínima da Ordem. Opções: <br/>**Sim** - O imposto é incluído ao calcular o valor Mínimo da Ordem (Subtotal + Imposto - Desconto).<br/>**Não** - O imposto não é incluído ao calcular o valor Mínimo da Ordem (Subtotal - Desconto). |
 | Mensagem de erro exibida | Exibição da loja | Uma mensagem que é exibida se um cliente escolher Frete gratuito, mas por algum motivo o método não estiver disponível. |
 | País de Destino Aplicável | Site | Identifica os países onde você oferece Frete Gratuito. Opções: <br/>**Todos os Países Permitidos** - Os clientes de qualquer país especificado na configuração da loja podem usar a Remessa Gratuita. <br/>**Países Específicos** - Os clientes somente de países específicos podem usar o Frete Gratuito. |
 | Países específicos para envio | Site | Identifica cada país onde os clientes podem usar o Frete gratuito. |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![Taxas de tabela](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ![Entrega na loja](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![Configurações de Conta XML UPS](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -121,7 +121,7 @@ ht-degree: 0%
 | [!UICONTROL Title] | Exibição da loja | O nome usado para este método de envio durante o check-out. |
 | _[!UICONTROL UPS REST Account Settings]_ |  |  |
 | [!UICONTROL Gateway URL] | Site | Para o serviço UPS REST, exibe os seguintes URLs necessários para transmitir dados JSON: URL de gateway, URL de rastreamento, URL de envio. Use os endpoints de Sandbox ou Produção de acordo com a configuração da Conta dinâmica. |
-| [!UICONTROL Mode] | Site | Determina o modo de transmissão usado para os dados enviados para o sistema UPS. Opções: <br/>**`Development`**- O UPS não verifica se os dados recebidos do servidor do Commerce são enviados por SSL.<br/>**`Live`** - O no-break verifica se os dados recebidos do servidor do Commerce são enviados por uma camada de soquete seguro (SSL). |
+| [!UICONTROL Mode] | Site | Determina o modo de transmissão usado para os dados enviados para o sistema UPS. Opções: <br/>**`Development`**- O UPS não verifica se os dados recebidos do servidor do Commerce são enviados por SSL.<br/>**`Live`** - O UPS verifica se os dados recebidos do servidor do Commerce são enviados por uma camada de soquete seguro (SSL). |
 | ID de usuário | Site | ID do cliente da conta do despachante da UPS. |
 | [!UICONTROL Origin of the Shipment] | Site | (Somente no-break REST) O país ou região de onde a entrega do produto é originada. |
 | [!UICONTROL Password] | Exibição da loja | Segredo do cliente da conta do despachante da UPS. |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ![Informações do Pacote UPS](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 ![Métodos permitidos UPS](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ![Países e Outras Configurações Aplicáveis ao UPS](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -182,6 +182,8 @@ ht-degree: 0%
 
 ### [!UICONTROL USPS]
 
+![Configurações de Conta USPS](./assets/delivery-methods-usps.png)<!-- zoom -->
+
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | Ativado para check-out | Site | Determina se o USPS estará disponível aos clientes como um método de envio durante o checkout. Opções: `Yes` / `No` |
@@ -189,13 +191,23 @@ ht-degree: 0%
 | [!UICONTROL Gateway URL] | Site | O URL usado para conectar ao sistema USPS para recuperar dinamicamente as taxas de envio. |
 | [!UICONTROL Secure Gateway URL] | Site | O URL seguro usado para conectar ao sistema USPS em uma SSL (Secure Socket Layer) para recuperar dinamicamente as taxas de envio. |
 | [!UICONTROL Title] | Exibição da loja | O título dessa opção de envio como exibido no checkout do carrinho de compras. |
+| [!UICONTROL USPS Type] | Site | Escolha as **APIs Rest USPS** ou a **API Web Tools USPS** com base na qual você usará uma. |
 | [!UICONTROL User ID] | Site | Sua ID de usuário da conta da transportadora USPS. |
 | [!UICONTROL Password] | Site | Sua senha da conta do carregador USPS. |
 | [!UICONTROL Mode] | Site | Determina o modo de transmissão usado para dados enviados ao sistema USPS. As opções incluem: <br/>**`Development`**- O USPS não verifica se os dados recebidos do servidor do Commerce são enviados por SSL.<br/>**`Live`** - O USPS verifica se os dados recebidos do servidor do Commerce são enviados por uma camada de soquete seguro (SSL). |
+| [!UICONTROL Consumer Key] | Site | Sua ID de cliente da conta de remessa USPS para REST API. |
+| [!UICONTROL Consumer Secret] | Site | Sua chave secreta do cliente da conta do carregador USPS para a API REST. |
+| [!UICONTROL Account Type] | Site | Tipo de conta de pagamento USPS. Opções: `"EPS"` (Sistema de Pagamento Empresarial) ou `"PERMIT"` (Permitir Impressão) para a API REST. <br/><br/>**_Observação:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL Pricing Options] | Site | Opções de Preços USPS: **Varejo** ou **Comercial**. Afeta a taxa de remessa aplicada. O padrão é **Commercial** para REST API. |
+| [!UICONTROL Account Number] | Site | Seu **número de conta** USPS, usado para pagamento da API REST. <br/><br/>**_Nota:_** Este campo é opcional; no entanto, é necessário habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL Customer Registration Identifier(CRID)] | Site | Um CRID (Número de Identificação de Registro do Cliente) é um código numérico gerado pelo USPS que identifica exclusivamente uma empresa em um local para a API REST. <br/><br/>**_Nota:_** Esse campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL Mailer Identifier(MID)] | Site | O Mailer Identifier (MID) é um campo dentro do código de barras do Intelligent Mail usado para identificar os remetentes de correio. As MIDs são atribuídas pelo USPS a um Proprietário de Email, Agente de Mala Direta ou outro provedor de serviços que as solicita para a API REST. <br/><br/>**_Nota:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL Manifest MID] | Site | O identificador exclusivo do mensageiro designado para o manifesto da API REST. <br/><br/>**_Note:_** Este campo é opcional; no entanto, é necessário habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL AES/ITN] | Site | USPS AES - Sistema de exportação automatizado / ITN - Número de transação interna para API REST. <br/><br/>**_Nota:_** Este campo geralmente é opcional, mas é necessário para habilitar a criação de etiquetas de remessa se: <ul><li>Cada tipo de mercadoria na remessa (conforme definido pelos Códigos de Exportação da Agenda B em <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>) é avaliado em US$ 2.500 ou menos e não requer uma licença de exportação; ou</li><li>A remessa, independentemente do valor, está sendo enviada para o Canadá e não requer uma licença de exportação.</li></ul> |
 
 {style="table-layout:auto"}
 
-Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch de qualidade de migração da API REST do USPS](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). Este patch habilita o suporte para as APIs USPS, uma plataforma baseada em REST que substitui as APIs de Ferramentas da Web. Para obter detalhes, consulte [descontinuação da API de ferramentas da Web do USPS](../../stores-purchase/carriers.md).
+Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch de qualidade de migração da API REST do USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210). Este patch habilita o suporte para as APIs USPS, uma plataforma baseada em REST que substitui as APIs de Ferramentas da Web. Para obter detalhes, consulte [descontinuação da API de ferramentas da Web do USPS](../../stores-purchase/carriers.md).
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -204,17 +216,17 @@ Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch
 | [!UICONTROL Consumer Secret] | Site | Sua chave secreta do cliente da conta do carregador USPS para a API REST. |
 | [!UICONTROL Account Type] | Site | Tipo de conta de pagamento USPS. Opções: `"EPS"` (Sistema de Pagamento Empresarial) ou `"PERMIT"` (Permitir Impressão) para a API REST. <br/><br/>**_Observação:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
 | [!UICONTROL Pricing Options] | Site | Opções de Preços USPS: **Varejo** ou **Comercial**. Afeta a taxa de remessa aplicada. O padrão é **Commercial** para REST API. |
-| [!UICONTROL Account Number] | Site | Seu **número de conta** USPS, usado para pagamento da API REST.  <br/><br/>**_Observação:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
-| [!UICONTROL Customer Registration Identifier(CRID)] | Site | Um número de identificação de registro do cliente (CRID) é um código numérico gerado pelo USPS que identifica exclusivamente uma empresa em um local para a API REST.  <br/><br/>**_Observação:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
-| [!UICONTROL Mailer Identifier(MID)] | Site | O Mailer Identifier (MID) é um campo dentro do código de barras do Intelligent Mail usado para identificar os remetentes de correio. As MIDs são atribuídas pelo USPS a um Proprietário de email, Agente de mala direta ou outro provedor de serviços que as solicita para API REST.  <br/><br/>**_Observação:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
-| [!UICONTROL Manifest MID] | Site | O identificador exclusivo do mensageiro designado para o manifesto da API REST.  <br/><br/>**_Observação:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. Para o Magento 2.4.7-p8 com o patch [AC-15210](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) aplicado, [!UICONTROL Manifest MID] é um campo obrigatório. |
+| [!UICONTROL Account Number] | Site | Seu **número de conta** USPS, usado para pagamento da API REST. <br/><br/>**_Nota:_** Este campo é opcional; no entanto, é necessário habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL Customer Registration Identifier(CRID)] | Site | Um CRID (Número de Identificação de Registro do Cliente) é um código numérico gerado pelo USPS que identifica exclusivamente uma empresa em um local para a API REST. <br/><br/>**_Nota:_** Esse campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL Mailer Identifier(MID)] | Site | O Mailer Identifier (MID) é um campo dentro do código de barras do Intelligent Mail usado para identificar os remetentes de correio. As MIDs são atribuídas pelo USPS a um Proprietário de Email, Agente de Mala Direta ou outro provedor de serviços que as solicita para a API REST. <br/><br/>**_Nota:_** Este campo é opcional; no entanto, ele é necessário para habilitar a criação de etiquetas de remessa. |
+| [!UICONTROL Manifest MID] | Site | O identificador exclusivo do mensageiro designado para o manifesto da API REST. <br/><br/>**_Note:_** Este campo é opcional; no entanto, é necessário habilitar a criação de etiquetas de remessa. Para o Magento 2.4.7-p8 com o patch [AC-15210](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) aplicado, [!UICONTROL Manifest MID] é um campo obrigatório. |
 | [!UICONTROL AES/ITN] | Site | USPS AES - Sistema de exportação automatizado / ITN - Número de transação interna para API REST. <br/><br/>**_Nota:_** Este campo geralmente é opcional, mas é necessário para habilitar a criação de etiquetas de remessa se: <ul><li>Cada tipo de mercadoria na remessa (conforme definido pelos Códigos de Exportação da Agenda B em <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>) é avaliado em US$ 2.500 ou menos e não requer uma licença de exportação; ou</li><li>A remessa, independentemente do valor, está sendo enviada para o Canadá e não requer uma licença de exportação.</li></ul> |
 
 {style="table-layout:auto"}
 
 ![Configurações de empacotamento da USPS](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -229,20 +241,20 @@ Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch
 
 ![Configurações da Taxa de Manuseio de USPS](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Site | Define o método de cálculo da taxa de manuseio de material para remessa com taxa de tabela. Opções: <br/>**`Fixed`**- A taxa de manuseio é fixa.<br/>**`Percent`** - Taxa de manuseio aplicada como porcentagem do valor do pedido. |
 | [!UICONTROL Handling Applied] | Site | Especifica se a taxa de manuseio é aplicada a cada pedido ou a cada pacote dentro de um pedido. |
-| [!UICONTROL Handling Fee] | Site | Define o manuseio incluído com o preço da taxa de remessa. A taxa de manuseio pode ser definida como um valor fixo ou uma porcentagem. <br/><br/>**_Nota:_** Ao digitar um valor percentual, use o formato decimal `0.25` para 25%. |
+| [!UICONTROL Handling Fee] | Site | Define o manuseio incluído com o preço da taxa de remessa. A taxa de manuseio pode ser definida como um valor fixo ou uma porcentagem. <br/><br/>**_Nota:_** Ao digitar um valor percentual, use o formato decimal `25` para 25%. |
 
 {style="table-layout:auto"}
 
 ![Métodos permitidos pela USPS](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -256,7 +268,7 @@ Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch
 
 ![Países Aplicáveis ao USPS](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -270,7 +282,7 @@ Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### Configurações de conta do FedEx
 
@@ -294,7 +306,7 @@ Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Pickup Type] | Site | Na lista, selecione o método de retirada: <br/>**`DropOff at Fedex Location`**- (Padrão) Indica que você entrega remessas em sua estação FedEx local.<br/>**`Contact Fedex to Schedule`** - Indica que você contatou o FedEx para solicitar uma retirada. <br/>**`Use Scheduled Pickup`**- Indica que a remessa foi retirada como parte de uma retirada regular agendada.<br/>**`On Call`** - Indica que a coleta está agendada ao chamar FedEx. <br/>**`Package Return Program`**- Indica que a remessa foi recebida pelo Programa de Devoluções de Pacotes Terrestres do FedEx.<br/>**`Regular Stop`** - Indica que a remessa foi retirada na programação de coleta regular. <br/>**`Tag`**- Indica que a retirada da remessa é específica para uma solicitação de retirada de etiqueta expressa ou de chamada em terra. Isso é aplicável somente para uma etiqueta de remessa de devolução. |
+| [!UICONTROL Pickup Type] | Site | Na lista, selecione o método de retirada: <br/>**`DropOff at Fedex Location`**- (Padrão) Indica que você entrega remessas em sua estação FedEx local.<br/>**`Contact Fedex to Schedule`** - Indica que você deve entrar em contato com a FedEx para solicitar uma retirada. <br/>**`Use Scheduled Pickup`**- Indica que a remessa foi retirada como parte de uma retirada regular agendada.<br/>**`On Call`** - Indica que a retirada está agendada ao chamar FedEx. <br/>**`Package Return Program`**- Indica que a remessa foi recebida pelo Programa de Retornos de Pacotes Terrestres da FedEx.<br/>**`Regular Stop`** - Indica que a remessa foi retirada na programação de coleta regular. <br/>**`Tag`**- Indica que a retirada da remessa é específica para uma solicitação de retirada de etiqueta expressa ou de chamada em terra. Isso é aplicável somente para uma etiqueta de remessa de devolução. |
 | [!UICONTROL Packages Request Type] | Site | Determina como o peso é calculado para remessas com vários pacotes. Opções: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
 | [!UICONTROL Packaging] | Site | Na lista, selecione o tipo de contêiner que normalmente é usado para empacotar produtos solicitados da loja. |
 | [!UICONTROL Weight Unit] | Site | A unidade usada para peso do pacote. Opções: `Pounds` (padrão) / `Kilograms` |
@@ -339,7 +351,7 @@ Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch
 | [!UICONTROL Ship to Applicable Countries] | Site | Indica os países para os quais seus clientes podem enviar por FedEx. Opções: <br/>**`All Allowed Countries`**- Clientes de todos os [países](../../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar este método de envio.<br/>**`Specific Countries`** - Depois de escolher esta opção, a lista [!UICONTROL Ship to Specific Countries] é exibida. Selecione cada país na lista onde este método de envio pode ser usado. |
 | [!UICONTROL Ship to Specific Countries] | Site | Indica os países específicos para os quais seus clientes podem enviar por FedEx. |
 | [!UICONTROL Debug] | Site | Determina se um log de transmissões de dados entre seu armazenamento e o FedEx é mantido pelo sistema para depuração. A menos que haja um problema que deva ser rastreado e registrado, esta opção deve ser definida como `No`. |
-| [!UICONTROL Show Method if Not Applicable] | Site | Determina quando o FedEx aparece como um método de envio durante o check-out. Opções: <br/>**`Yes`**- A opção de envio FedEx é exibida na lista de métodos de entrega, independentemente do pedido se qualificar para usá-lo.<br/>**`No`** - A opção de envio FedEx não será exibida na lista de métodos de entrega se não for aplicável ao pedido (por exemplo, se o peso do pedido exceder o valor máximo de peso). |
+| [!UICONTROL Show Method if Not Applicable] | Site | Determina quando o FedEx aparece como um método de envio durante o check-out. Opções: <br/>**`Yes`**- A opção de envio FedEx é exibida na lista de métodos de entrega, independentemente do pedido se qualificar para usá-lo.<br/>**`No`** - A opção de envio FedEx não será exibida na lista de métodos de entrega se não for aplicável ao pedido (por exemplo, se o peso do pedido exceder o valor de peso máximo). |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que o FedEx aparece quando listado com outros métodos de delivery durante o checkout. Digite `0` no início da lista. |
 
 {style="table-layout:auto"}
@@ -348,30 +360,32 @@ Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch
 
 ![Configurações de conta da DHL](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | _[!UICONTROL DHL Account Settings]_ |  |  |
 | [!UICONTROL Enabled for Checkout] | Site | Determina se a DHL está disponível para os clientes como um método de envio durante o checkout. Opções: `Yes` / `No` |
 | [!UICONTROL Title] | Exibição da loja | O título deste método de envio como exibido durante a finalização da compra. |
-| [!UICONTROL Gateway URL] | Site | Normalmente, você pode aceitar o URL do Gateway padrão. No entanto, se a DHL tiver fornecido um URL alternativo, insira o valor nesse campo. |
+| [!UICONTROL DHL Type] | Site | Escolha REST ou XML com base no qual você usará. |
 | [!UICONTROL Access ID] | Site | ID de acesso da sua conta de despachante DHL. |
+| [!UICONTROL API KEY] | Site | Sua CHAVE API DHL para REST API. |
 | [!UICONTROL Password] | Site | Sua senha da conta do carregador da DHL. |
+| [!UICONTROL API Secret] | Site | Sua chave secreta da API DHL para a API REST. |
 | [!UICONTROL Account Number] | Site | Seu número de conta da DHL. |
 
 {style="table-layout:auto"}
 
 ![Configurações do Pacote DHL](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | _[!UICONTROL DHL Package Settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Site | A taxa de manuseio é opcional e aparece como uma taxa extra adicionada ao custo de envio da DHL. Na lista, selecione o método que deseja usar para calcular as taxas de manuseio. Opções: Taxa Fixa / Porcentagem. |
 | [!UICONTROL Handling Applied] | Site | Na lista, selecione como deseja que as taxas de tratamento sejam aplicadas. Opções: `Per Order` / `Per Package` |
-| Taxa de manuseio | Site | Insira o valor a ser cobrado por uma taxa de manuseio, com base no método escolhido para calcular o valor. Por exemplo, se o encargo for baseado em uma taxa fixa, insira o valor como um valor decimal, como `4.90`. No entanto, se a taxa de manuseio se basear em uma porcentagem do pedido, insira o valor como uma porcentagem. Por exemplo, se você estiver cobrando seis por cento do pedido, insira o valor como `.06`. |
+| Taxa de manuseio | Site | Insira o valor a ser cobrado por uma taxa de manuseio, com base no método escolhido para calcular o valor. Por exemplo, se o encargo for baseado em uma taxa fixa, insira o valor como um valor decimal, como `4.90`. No entanto, se a taxa de manuseio se basear em uma porcentagem do pedido, insira o valor como uma porcentagem. Por exemplo, se você estiver cobrando seis por cento do pedido, insira o valor como `6`. |
 | [!UICONTROL Divide Order Weight] | Exibição da loja | Determina se o peso de um pedido acima de 70 kg pode ser dividido em unidades menores para garantir um encargo de envio preciso. Opções: `Yes` / `No` |
 | [!UICONTROL Weight Unit] | Exibição da loja | Determina a unidade de medida do peso usada nos cálculos de remessa. Opções: `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | Exibição da loja | Determina o tamanho do pacote. Opções: <br/>**`Regular`**- Os pacotes enviados estão em conformidade com os métodos de embalagem padrão da DHL. Na lista [!UICONTROL Allowed Methods], selecione cada método de empacotamento usado para enviar produtos da sua loja.<br/>**`Specific`** - Se os pacotes enviados tiverem dimensões personalizadas, conclua o seguinte: [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
@@ -380,7 +394,7 @@ Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch
 
 ![Métodos permitidos pela DHL](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -396,7 +410,7 @@ Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch
 
 ![Países aplicáveis da DHL](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -405,6 +419,7 @@ Os seguintes campos estão disponíveis somente se você tiver aplicado o [patch
 | [!UICONTROL Ship to Specific Countries] | Site | Especifica os países para onde as remessas da DHL podem ser enviadas. A lista de países selecionada será usada se `Specific Countries` for selecionada na opção [!UICONTROL Ship to Applicable Countries]. |
 | [!UICONTROL Show Method if Not Applicable] | Site | Determina quando a DHL aparece como um método de envio durante o check-out. Opções: <br/>**`Yes`**- A DHL sempre aparece como uma opção de envio durante o check-out, mesmo se não for aplicável ao pedido.<br/>**`No`** - A DHL aparece como uma opção de envio durante o check-out somente se aplicável ao pedido (ou seja, o peso do pedido excede a quantidade máxima de peso). |
 | [!UICONTROL Debug] | Site | Cria um arquivo de log com informações de erro. |
+| [!UICONTROL Sandbox Mode] | Site | Defina como `Yes` se estiver usando sandbox. Defina como `No` para o modo Online. |
 | [!UICONTROL Sort Order] | Site | Um número que determina a ordem em que a DHL aparece quando listada com outros métodos de delivery durante o checkout. Para colocá-lo no início da lista, digite `0`. |
 
 {style="table-layout:auto"}

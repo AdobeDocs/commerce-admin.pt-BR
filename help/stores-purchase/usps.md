@@ -3,9 +3,9 @@ title: Serviço Postal dos Estados Unidos (USPS)
 description: Saiba como configurar o USPS como transportadora de remessa para sua loja.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,15 @@ Você também pode abrir uma conta do [USPS Web Tools](https://secure.shippingap
 
 1. Defina **[!UICONTROL Enabled for Checkout]** como `Yes`.
 
-1. Defina **[!UICONTROL USPS Type]** como `USPS Rest APIs` se estiver usando a API REST USPS.
+1. Defina o tipo de API USPS.
 
-   Se você estiver usando a API de Ferramentas da Web do USPS, defina **[!UICONTROL USPS Type]** como `USPS Web Tools API`.
+   - Se você estiver usando a API REST do USPS, defina **[!UICONTROL USPS Type]** como `USPS REST API`.
+
+   - Se você estiver usando a API de Ferramentas da Web do USPS, defina **[!UICONTROL USPS Type]** como `USPS Web Tools API`.
+
+   >[!NOTE]
+   >
+   >As APIs Rest do USPS são o método preferido para a integração com o USPS. A API de ferramentas da Web do USPS está obsoleta e pode ser removida em versões futuras.
 
 1. Se necessário, insira o **[!UICONTROL Gateway URL]** para acessar as taxas de envio do USPS.
 
@@ -48,16 +54,17 @@ Você também pode abrir uma conta do [USPS Web Tools](https://secure.shippingap
 
 1. Use as credenciais fornecidas pelo USPS para preencher os seguintes campos:
 
-   Se você estiver usando as APIs Rest do USPS, deverá fornecer as seguintes credenciais:
+   Se você estiver usando as APIs Rest do USPS, forneça as seguintes credenciais:
 
    - **[!UICONTROL Consumer Key]**
    - **[!UICONTROL Consumer Secret]**
    - **[!UICONTROL Pricing Options]**
 
-   Se você estiver usando a API de ferramentas da Web do USPS, deverá fornecer as seguintes credenciais:
+   Se você estiver usando a API de ferramentas da Web do USPS, forneça as seguintes credenciais:
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
+
 
 1. Defina **[!UICONTROL Mode]** como um dos seguintes:
 
@@ -100,7 +107,7 @@ A taxa de manuseio é opcional e aparece como uma taxa extra que é adicionada a
 
 1. Insira o valor de **[!UICONTROL Handling Fee]** a ser cobrado.
 
-   Para inserir uma porcentagem, use o formato decimal. Por exemplo, digite `0.25` para 25%.
+   Para inserir uma porcentagem, use o formato decimal. Por exemplo, digite `25` para 25%.
 
    ![Taxa de Manuseio de USPS](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 

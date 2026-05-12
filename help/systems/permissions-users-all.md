@@ -4,9 +4,9 @@ description: Saiba como criar contas de usuário administrador e atribuir funç�
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
+source-git-commit: e2644f16f8e8adb77d070ddb66c724c00a15a525
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Se outros membros da equipe ou provedores de serviços precisarem de acesso, voc
 
 >[!NOTE]
 >
->Os comerciantes do Adobe Commerce que têm um Adobe ID e desejam um logon simplificado para produtos Adobe Commerce e Adobe Business podem integrar a autenticação do Commerce ao fluxo de trabalho de autenticação do Adobe IMS. Depois que essa integração for ativada para a loja da Commerce, cada usuário administrador deverá usar suas credenciais da Adobe, e não as credenciais da Commerce, para fazer logon. Consulte [Visão Geral da Integração do Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=pt-BR).
+>Os comerciantes do Adobe Commerce que têm um Adobe ID e desejam um logon simplificado para produtos Adobe Commerce e Adobe Business podem integrar a autenticação do Commerce ao fluxo de trabalho de autenticação do Adobe IMS. Depois que essa integração for ativada para a loja da Commerce, cada usuário administrador deverá usar suas credenciais da Adobe, e não as credenciais da Commerce, para fazer logon. Consulte [Visão Geral da Integração do Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Para usuários ou funções temporários, também é possível definir uma data de expiração para a conta de usuário.
 
@@ -31,7 +31,7 @@ Para usuários ou funções temporários, também é possível definir uma data 
 
 1. No canto superior direito, clique em **[!UICONTROL Add New User]**.
 
-   Para editar um usuário existente, clique em um nome de usuário na grade. Você pode modificar as seções _[!UICONTROL User Info]_&#x200B;e&#x200B;_[!UICONTROL User Role]_ conforme necessário.
+   Para editar um usuário existente, clique em um nome de usuário na grade. Você pode modificar as seções _[!UICONTROL User Info]_e_[!UICONTROL User Role]_ conforme necessário.
 
 1. Na seção _[!UICONTROL Account Information]_, faça o seguinte:
 
@@ -53,7 +53,7 @@ Para usuários ou funções temporários, também é possível definir uma data 
 
      >[!NOTE]
      >
-     >A senha do administrador deve ter sete ou mais caracteres e incluir letras e números. Para obter opções de senha adicionais, consulte [Configurando a Segurança do Administrador](security-admin.md).
+     >A senha do administrador deve ter sete ou mais caracteres (por padrão) e incluir letras e números. O comprimento mínimo da senha pode ser definido nas configurações de segurança de Admin. Para obter opções de senha adicionais, consulte [Configurando a Segurança do Administrador](security-admin.md).
 
    - Para **[!UICONTROL Password Confirmation]**, digite novamente a senha para verificar se ela foi inserida corretamente.
 
@@ -69,13 +69,13 @@ Para usuários ou funções temporários, também é possível definir uma data 
 
 >[!IMPORTANT]
 >
->Com a seção _[!UICONTROL Account Information]_&#x200B;concluída, você pode salvar o usuário. O novo usuário é exibido na grade&#x200B;_[!UICONTROL Users]_, mas o nome de usuário não pode fazer logon até que uma função seja atribuída.
+>Com a seção _[!UICONTROL Account Information]_concluída, você pode salvar o usuário. O novo usuário é exibido na grade_[!UICONTROL Users]_, mas o nome de usuário não pode fazer logon até que uma função seja atribuída.
 
 ## Atribuir uma função de usuário
 
 1. No painel esquerdo, clique em **[!UICONTROL User Role]**.
 
-   A grade lista todas as funções de usuário existentes. Para um novo armazenamento, _[!UICONTROL Administrators]_&#x200B;é a única função disponível.
+   A grade lista todas as funções de usuário existentes. Para um novo armazenamento, _[!UICONTROL Administrators]_é a única função disponível.
 
    ![Administrador - adicionar nova função de usuário](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
@@ -105,7 +105,7 @@ Para usuários ou funções temporários, também é possível definir uma data 
 
 1. Quando solicitado, digite sua senha para confirmar sua identidade e clique novamente em **[!UICONTROL Save User]**.
 
-   A grade _[!UICONTROL Users]_&#x200B;é aberta e lista todos os usuários.
+   A grade _[!UICONTROL Users]_é aberta e lista todos os usuários.
 
 ## Excluir um usuário administrador
 

@@ -4,22 +4,23 @@ description: Saiba como configurar a segurança para o Administrador da loja.
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: ad01f8aaa40f6bda0fe329a0e906915f6034972f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
 # Configurar a segurança do administrador
 
-Recomendamos que você adote uma abordagem multifacetada para proteger a segurança de sua loja. Você pode começar usando uma [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que não é fácil de adivinhar, em vez da óbvia &quot;Admin&quot; ou &quot;Infraestrutura&quot;. Por padrão, as senhas usadas para [fazer logon](../getting-started/admin-signin.md) no Administrador devem ter sete ou mais caracteres e incluir letras e números. Como uma [prática recomendada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=pt-BR), use somente senhas de Administrador fortes que incluam uma combinação de letras, números e símbolos. A Adobe Commerce e a Magento Open Source não permitem a reutilização das quatro últimas senhas atribuídas à conta.
+Recomendamos que você adote uma abordagem multifacetada para proteger a segurança de sua loja. Você pode começar usando uma [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que não é fácil de adivinhar, em vez da óbvia &quot;Admin&quot; ou &quot;Infraestrutura&quot;. Por padrão, as senhas usadas para [fazer logon](../getting-started/admin-signin.md) no Administrador devem ter sete ou mais caracteres e incluir letras e números. Você pode configurar o requisito de comprimento mínimo da senha para melhorar a segurança com base nas necessidades da organização. Como uma [prática recomendada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), use somente senhas de Administrador fortes que incluam uma combinação de letras, números e símbolos. A Adobe Commerce e a Magento Open Source não permitem a reutilização das quatro últimas senhas atribuídas à conta.
 
 A configuração de segurança do Administrador oferece a capacidade de:
 
 - Adicionar uma chave secreta aos URLs
 - Exigir senhas para diferenciar maiúsculas de minúsculas
+- Configurar o requisito de comprimento mínimo da senha
 - Limitar a duração das sessões de Administrador
 - Limitar a duração das senhas
 - Limite o número de tentativas de logon que podem ser feitas antes que a conta de usuário Administrador seja [bloqueada](permissions-users-all.md#locked-users).
@@ -73,6 +74,12 @@ Para obter informações técnicas, consulte [Visão geral sobre segurança](htt
 
 1. Definir opções de senha:
 
+   - Para **[!UICONTROL Minimum Admin Password Length]**, insira o número mínimo de caracteres necessários para senhas de Administrador. O valor padrão é 7 e o valor mínimo permitido é 7.
+
+     >[!WARNING]
+     >
+     >Alterar esse valor do padrão pode causar problemas de compatibilidade com versões anteriores dos serviços existentes. Essa configuração afeta as alterações de senha do Administrador, a criação de novos usuários Administradores pela interface de Administrador e pela CLI, e as operações de redefinição de senha pelo Administrador.
+
    - Para limitar o tempo de vida de senhas de Administrador, digite o número de dias que uma senha é válida por **[!UICONTROL Password Lifetime (days)]**. Por tempo de vida ilimitado, deixe o campo em branco.
 
    - Defina **[!UICONTROL Password Change]** como um dos seguintes:
@@ -84,4 +91,4 @@ Para obter informações técnicas, consulte [Visão geral sobre segurança](htt
 
 ## Requisitos de senha do administrador
 
-Por padrão, a senha do administrador deve ter sete ou mais caracteres e incluir letras e números.
+Por padrão, a senha do administrador deve ter sete ou mais caracteres e incluir letras e números. Você pode usar a configuração **[!UICONTROL Minimum Admin Password Length]** para configurar o requisito de comprimento mínimo da senha de acordo com os padrões de segurança de sua organização. No entanto, o aumento desse valor pode afetar a compatibilidade com os serviços e integrações existentes.

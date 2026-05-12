@@ -3,9 +3,9 @@ title: Adicionar vídeos de produtos
 description: Saiba como configurar vídeos de produtos para sua loja, que requer uma chave de API de dados do YouTube de uma conta do Google, e adicionar um link de vídeo para um produto.
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: d9d964d36a7debebaed327111b5c4d76d0a1a005
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Para adicionar um vídeo de produto, primeiro obtenha uma Chave de API da sua co
 
 1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Catalog]** abaixo de.
 
-1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Product Video]_&#x200B;e cole seu **[!UICONTROL YouTube API key]**.
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Product Video]_e cole seu **[!UICONTROL YouTube API key]**.
 
    ![Configuração de vídeo do produto](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,13 @@ Para adicionar um vídeo de produto, primeiro obtenha uma Chave de API da sua co
 
    >[!NOTE]
    >
-   >Se a opção de configuração _[!UICONTROL Autostart base video]_&#x200B;estiver definida como `Yes`, mas o vídeo não começar a ser reproduzido automaticamente, talvez seja devido às políticas de reprodução automática que são aplicadas pelo navegador e não podem ser controladas pelo Adobe Commerce. Cada navegador compatível tem suas próprias políticas de reprodução automática que podem mudar com o tempo, e o vídeo pode não ser reproduzido automaticamente no futuro. Como prática recomendada, você não deve depender da reprodução automática para a funcionalidade comercial crítica e deve testar o comportamento de reprodução automática de vídeo em sua loja com cada navegador compatível.
+   >Se a opção de configuração _[!UICONTROL Autostart base video]_estiver definida como `Yes`, mas o vídeo não começar a ser reproduzido automaticamente, talvez seja devido às políticas de reprodução automática que são aplicadas pelo navegador e não podem ser controladas pelo Adobe Commerce. Cada navegador compatível tem suas próprias políticas de reprodução automática que podem mudar com o tempo, e o vídeo pode não ser reproduzido automaticamente no futuro. Como prática recomendada, você não deve depender da reprodução automática para a funcionalidade comercial crítica e deve testar o comportamento de reprodução automática de vídeo em sua loja com cada navegador compatível.
+
+## Gerenciar funções de vídeo no nível de exibição da loja
+
+Ao adicionar ou editar um vídeo enquanto trabalha em um escopo de exibição de loja específico (não **[!UICONTROL All Store Views]**), cada opção **[!UICONTROL Role]** na caixa de diálogo de vídeo exibe um botão **[!UICONTROL Use Default Value]**. Clique neste botão para herdar a atribuição de atribuição do escopo default para essa atribuição.
+
+![Novo Vídeo - Exibição da Loja](./assets/product-video-add-store-scope.png){width="600" zoomable="yes"}
 
 ## Manter acesso à API
 

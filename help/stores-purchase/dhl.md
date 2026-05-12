@@ -3,9 +3,9 @@ title: DHL
 description: Saiba como configurar a DHL como transportadora de remessa para sua loja.
 exl-id: 765e5f90-3e93-43cf-a5bc-6132e00b506c
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 616b47e0e760a5f4f8c91b35dd002992a7ae30c0
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,26 @@ A DHL oferece serviços internacionais integrados e soluções personalizadas vo
 
 1. Defina **[!UICONTROL Enabled for Checkout]** como `Yes`.
 
-1. Normalmente, você pode aceitar o **[!UICONTROL Gateway URL]** padrão.
+1. Defina **[!UICONTROL DHL Type]** como `DHL REST` se estiver usando a API REST DHL.
 
-   Se a DHL tiver fornecido um URL alternativo, insira esse valor nesse campo.
+   Se você estiver usando a API DHL XML, defina **[!UICONTROL DHL Type]** como `DHL XML`.
+
+   >[!NOTE]
+   >
+   >A API REST da DHL é o método preferido para a integração com a DHL. A API XML está obsoleta e pode ser removida em versões futuras.
 
 1. Use as credenciais fornecidas pela DHL para preencher os seguintes campos:
 
-   - **[!UICONTROL Access ID]**
-   - **[!UICONTROL Password]**
-   - **[!UICONTROL Account Number]**
+Se você estiver usando a API REST DHL, deverá fornecer as seguintes credenciais:
+
+    - **[!UICONTROL API KEY]**
+    - **[!UICONTROL API SECRET]**
+
+Se você estiver usando a API XML da DHL, forneça as seguintes credenciais:
+
+    - **[!UICONTROL Access ID]**
+    - **[!UICONTROL Password]**
+    - **[!UICONTROL Account Number]**
 
 ![Configurações de conta da DHL](../configuration-reference/sales/assets/delivery-methods-dhl-account-settings.png){width="600" zoomable="yes"}
 
@@ -63,7 +74,7 @@ A DHL oferece serviços internacionais integrados e soluções personalizadas vo
 
    - Para **[!UICONTROL Handling Fee]**, insira o valor a ser cobrado, com base no método escolhido para calcular o valor.
 
-     Por exemplo, se o encargo for baseado em uma taxa fixa, insira o valor como um valor decimal, como `4.90`. No entanto, se a taxa de manuseio se basear em uma porcentagem do pedido, insira o valor como uma porcentagem. Por exemplo, se você estiver cobrando seis por cento do pedido, insira o valor como `.06`.
+     Por exemplo, se o encargo for baseado em uma taxa fixa, insira o valor como um valor decimal, como `4.90`. No entanto, se a taxa de manuseio se basear em uma porcentagem do pedido, insira o valor como uma porcentagem. Por exemplo, se você estiver cobrando seis por cento do pedido, insira o valor como `6`.
 
    - Para permitir que o peso total do pedido seja dividido e garantir um cálculo preciso dos encargos de remessa, defina **[!UICONTROL Divide Order Weight]** como `Yes`.
 
@@ -78,6 +89,10 @@ A DHL oferece serviços internacionais integrados e soluções personalizadas vo
       - `Specific`
 
      Se você escolher `Specific`, insira o **[!UICONTROL Height]**, **[!UICONTROL Depth]** e **[!UICONTROL Width]** do pacote em centímetros.
+
+   >[!NOTE]
+   >
+   >Se nenhuma dimensão for especificada, cada uma assumirá como padrão um valor mínimo de 3.
 
    ![Configurações do Pacote DHL](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png){width="600" zoomable="yes"}
 
@@ -127,6 +142,13 @@ A DHL oferece serviços internacionais integrados e soluções personalizadas vo
    `No` - Mostra a DHL como um método de envio durante o check-out somente se aplicável.
 
 1. Para criar um arquivo de log com os detalhes das remessas DHL feitas de sua loja, defina **[!UICONTROL Debug]** como `Yes`.
+
+1. A DHL fornece uma opção **[!UICONTROL sandbox mode]**. Se você estiver usando o modo de sandbox, defina **[!UICONTROL sandbox mode]** como `Yes`.
+Se você estiver usando o modo Online, defina **[!UICONTROL sandbox mode]** como `No`.
+
+   >[!NOTE]
+   >
+   >O modo Sandbox é usado apenas para fins de teste. Ele permite testar sua integração com a DHL sem afetar sua loja ao vivo.
 
 1. Para **[!UICONTROL Sort Order]**, insira um número para determinar a sequência em que o DHL aparece quando listado com outros métodos de entrega durante o check-out.
 

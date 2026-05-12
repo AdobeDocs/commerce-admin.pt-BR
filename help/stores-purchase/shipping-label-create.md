@@ -3,9 +3,9 @@ title: Criar etiquetas e pacotes de remessa
 description: Saiba como empacotar itens em um pedido e criar etiquetas de remessa.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Siga as instruções fornecidas por cada transportadora para adicionar o suporte
 
 O United Parcel Service envia tanto internamente quanto internacionalmente. No entanto, as etiquetas de remessa podem ser geradas apenas para remessas originárias dos Estados Unidos.
 
-1. Na seção _[!UICONTROL Sales]_&#x200B;do painel esquerdo, escolha **[!UICONTROL Delivery Methods]**.
+1. Na seção _[!UICONTROL Sales]_do painel esquerdo, escolha **[!UICONTROL Delivery Methods]**.
 
 1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL UPS]**.
 
@@ -67,7 +67,22 @@ O [!DNL United States Postal Service] é enviado tanto internamente quanto inter
 
 1. Verifique se o **[!UICONTROL Secure Gateway URL]** está correto.
 
-1. Insira o **[!UICONTROL Password]** fornecido a você pelo USPS.
+1. Verifique se a configuração a seguir foi concluída com base na **[!UICONTROL USPS Type]** selecionada:
+
+   Se você estiver usando a API de ferramentas da Web do USPS:
+   - ID de usuário
+   - Senha
+
+   Se você estiver usando as APIs REST USPS:
+   - Chave do consumidor
+   - Segredo do consumidor
+   - Opções de Preços
+   - Tipo de conta
+   - Número da conta
+   - ID de registro do cliente (CRID)
+   - Identificador de correio (MID)
+   - MID do manifesto
+   - AES/ITN
 
 1. Verifique se a configuração a seguir foi concluída com base na **[!UICONTROL USPS Type]** selecionada:
 
@@ -115,13 +130,15 @@ A DHL presta serviços de transporte internacional.
 
 1. Continuando na configuração **[!UICONTROL Delivery Methods]**, expanda ![Seletor de expansão](../assets/icon-display-expand.png) na seção **[!UICONTROL DHL]**.
 
-1. Verifique se o **[!UICONTROL Gateway URL]** está correto.
+1. Selecione **[!UICONTROL DHL Type]** como `DHL REST` ou `DHL XML`.
 
-1. Verifique se as credenciais a seguir estão completas:
+1. Verifique se as credenciais a seguir estão completas com base na seleção **[!UICONTROL DHL Type]**:
 
    - ID de acesso
    - Senha
    - Número da conta
+   - Chave de API
+   - Segredo da API
 
 1. Clique em **[!UICONTROL Save Config]**.
 
@@ -145,7 +162,7 @@ A DHL presta serviços de transporte internacional.
 
 1. Adicionar ou atualizar produtos no pacote:
 
-   - Para adicionar produtos do pedido ao pacote, clique em **[!UICONTROL Add Products]**. A coluna _[!UICONTROL Quantity]_&#x200B;mostra o número máximo de produtos disponíveis para o pacote.
+   - Para adicionar produtos do pedido ao pacote, clique em **[!UICONTROL Add Products]**. A coluna _[!UICONTROL Quantity]_mostra o número máximo de produtos disponíveis para o pacote.
 
    - Marque a caixa de seleção de cada produto a ser adicionado ao pacote e insira o **[!UICONTROL Quantity]** de cada um. Em seguida, clique em **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -153,7 +170,7 @@ A DHL presta serviços de transporte internacional.
 
    - Para excluir um pacote, clique em **[!UICONTROL Delete Package]**.
 
-   - Para cancelar um pedido, clique em **[!UICONTROL Cancel]**. Um rótulo de remessa não é criado e a caixa de seleção _[!UICONTROL Create Shipping Label]_&#x200B;é desmarcada.
+   - Para cancelar um pedido, clique em **[!UICONTROL Cancel]**. Um rótulo de remessa não é criado e a caixa de seleção _[!UICONTROL Create Shipping Label]_é desmarcada.
 
    >[!NOTE]
    >
@@ -191,11 +208,11 @@ As etiquetas de remessa são geradas no formato PDF e podem ser impressas no Adm
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - Localize a remessa na grade e abra o registro.
 
-1. Para baixar o arquivo PDF, vá para a seção _[!UICONTROL Shipping and Tracking]_&#x200B;do formulário e clique em **[!UICONTROL Print Shipping Label]**.
+1. Para baixar o arquivo PDF, vá para a seção _[!UICONTROL Shipping and Tracking]_do formulário e clique em **[!UICONTROL Print Shipping Label]**.
 
    Dependendo das configurações do navegador, as etiquetas de remessa podem ser visualizadas e impressas diretamente do arquivo PDF.
 
-   O botão _[!UICONTROL Print Shipping Label]_&#x200B;aparece somente depois que a transportadora gera rótulos para a remessa. Se o botão estiver ausente, clique em **[!UICONTROL Create Shipping Label]**. O botão é exibido depois que o Commerce recebe o rótulo da operadora.
+   O botão _[!UICONTROL Print Shipping Label]_aparece somente depois que a transportadora gera rótulos para a remessa. Se o botão estiver ausente, clique em **[!UICONTROL Create Shipping Label]**. O botão é exibido depois que o Commerce recebe o rótulo da operadora.
 
 ### Método 2: imprimir etiquetas para várias ordens
 
@@ -218,13 +235,13 @@ Um conjunto completo de etiquetas de remessa é impresso para cada remessa relac
 | [!UICONTROL Type] | Os tipos de pacote diferem por transportadora e método. O tipo de pacote padrão para cada operadora é selecionado inicialmente. O USPS não exige o tipo de pacote para remessas domésticas. |
 | [!UICONTROL Customs Value] | (Remessas internacionais apenas) O valor declarado ou o preço de venda do conteúdo de uma remessa internacional. |
 | [!UICONTROL Total Weight] | O peso total de todos os produtos adicionados ao pacote é calculado automaticamente. O valor também pode ser alterado manualmente e inserido como libras ou quilogramas. |
-| [!UICONTROL Length, Width, Height] | (Opcional) As dimensões do pacote são usadas somente para pacotes personalizados. Você pode especificar as unidades de medida como polegadas ou centímetros.<br/><br/>**[!UICONTROL Not Required]**: nenhuma confirmação de entrega é enviada ao armazenamento pela transportadora.<br/><br/>**[!UICONTROL No Signature]**: uma confirmação de entrega sem a assinatura do destinatário é enviada ao armazenamento pela transportadora.<br/><br/>**[!UICONTROL Signature Required]**: a transportadora obtém a assinatura do destinatário e fornece ao armazenamento uma cópia impressa.<br/><br/>**[!UICONTROL Direct]**: (Somente FedEx) FedEx obtém uma assinatura de alguém no endereço de entrega. Se ninguém estiver disponível para assinar o pacote, a operadora tentará entregar o pacote em outro momento.<br/><br/>**[!UICONTROL Indirect]**: (Somente Entregas Residenciais FedEx) O FedEx obtém a assinatura de alguém (possivelmente um vizinho ou gerente de construção) no endereço de entrega. O recipient pode deixar uma tag de porta FedEx assinada para autorizar que o pacote seja deixado sem que ninguém presente o assine.<br/><br/>**[!UICONTROL Contents]**: (Somente USPS) Selecione uma das seguintes descrições do pacote:<br/>- Presente<br/>- Documentos<br/>- Amostra Comercial<br/>- Mercadorias Devolvidas<br/>- Mercadoria<br/>- Outros <br/><br/>**[!UICONTROL Explanation]**: (Somente USPS) Uma descrição detalhada do conteúdo do pacote.<br/><br/>**[!UICONTROL Adult Required]**: a transportadora obtém a assinatura de um destinatário adulto e fornece ao armazenamento uma cópia impressa. |
+| [!UICONTROL Length, Width, Height] | (Opcional) As dimensões do pacote são usadas somente para pacotes personalizados. Você pode especificar as unidades de medida em polegadas ou centímetros.<br/><br/>**[!UICONTROL Not Required]**: nenhuma confirmação de entrega é enviada ao armazenamento pela transportadora da remessa.<br/><br/>**[!UICONTROL No Signature]**: uma confirmação de entrega sem a assinatura do destinatário é enviada ao armazenamento pela transportadora da remessa.<br/><br/>**[!UICONTROL Signature Required]**: a transportadora da remessa obtém a assinatura do destinatário e fornece ao armazenamento uma cópia impressa.<br/><br/>**[!UICONTROL Direct]**: (Somente FedEx) A FedEx obtém uma assinatura de alguém no endereço de entrega. Se ninguém estiver disponível para assinar o pacote, a operadora tentará entregar o pacote em outro momento.<br/><br/>**[!UICONTROL Indirect]**: (Somente Entregas Residenciais FedEx) A FedEx obtém a assinatura de alguém (possivelmente um vizinho ou gerente de construção) no endereço de entrega. O destinatário pode deixar uma marca de porta FedEx assinada para autorizar que o pacote seja deixado sem a presença de ninguém para assiná-lo.<br/><br/>**[!UICONTROL Contents]**: (Somente USPS) Selecione uma das seguintes descrições do pacote:<br/>- Presente<br/>- Documentos<br/>- Amostra Comercial<br/>- Mercadorias Devolvidas<br/>- Mercadorias<br/>- Outras <br/><br/>**[!UICONTROL Explanation]**: (Somente USPS) Uma descrição detalhada do conteúdo do pacote.<br/><br/>**[!UICONTROL Adult Required]**: a transportadora obtém a assinatura de um destinatário adulto e fornece à loja uma cópia impressa. |
 
 {style="table-layout:auto"}
 
 ## Criar pacotes
 
-A janela _[!UICONTROL Create Packages]_&#x200B;é exibida quando você opta por criar um rótulo de remessa. Você pode começar a configurar o primeiro pacote imediatamente.
+A janela _[!UICONTROL Create Packages]_é exibida quando você opta por criar um rótulo de remessa. Você pode começar a configurar o primeiro pacote imediatamente.
 
 ### Configurar um pacote
 
@@ -236,7 +253,7 @@ A janela _[!UICONTROL Create Packages]_&#x200B;é exibida quando você opta por 
 
    - Especifique os produtos e as quantidades.
 
-     A coluna _[!UICONTROL Qty]_&#x200B;mostra a quantidade máxima disponível para adição. Para o primeiro pacote, o número é a quantidade total do produto a ser enviado.
+     A coluna _[!UICONTROL Qty]_mostra a quantidade máxima disponível para adição. Para o primeiro pacote, o número é a quantidade total do produto a ser enviado.
 
    - Para adicionar os produtos ao pacote, clique em **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -281,7 +298,7 @@ Você pode clicar em **[!UICONTROL Cancel]** para interromper o processo, se nec
 | [!UICONTROL Length] | O comprimento de um pacote, número inteiro e números de ponto flutuante. O campo é ativado se o tipo de pacote personalizado for usado. A unidade de medida pode ser definida como polegadas ou centímetros. |
 | [!UICONTROL Width] | A largura de um pacote, número inteiro e números de ponto flutuante. O campo é ativado se o tipo de pacote personalizado for usado. As unidades de medida podem ser especificadas por meio do menu suspenso ao lado do campo Height; selecione entre polegadas e centímetros. |
 | [!UICONTROL Height] | A altura de um pacote, número inteiro e números de ponto flutuante. O campo é ativado se o tipo de pacote personalizado for usado. As unidades de medida podem ser especificadas por meio do menu suspenso ao lado do campo Height; selecione entre polegadas e centímetros. |
-| [!UICONTROL Signature] | Define a confirmação da entrega. Opções:<br/><br/>**[!UICONTROL Not Required]**: nenhuma carta de confirmação de entrega é enviada a você.<br/><br/>**[!UICONTROL No Signature]**: uma carta de confirmação de entrega sem a assinatura de um destinatário é enviada a você.<br/><br/>**[!UICONTROL Signature Required]**: a transportadora obtém a assinatura do destinatário e fornece a cópia impressa.<br/><br/>**[!UICONTROL Adult Required]**: a transportadora obtém a assinatura do destinatário adulto e fornece a cópia impressa.<br/><br/>**[!UICONTROL Direct (FedEx only)]**: FedEx obtém uma assinatura de alguém no endereço de entrega e tenta a entrega novamente se ninguém estiver disponível para assinar o pacote.<br/><br/>**[!UICONTROL Indirect (FedEx only)]**: o FedEx obtém uma assinatura de uma das três formas a seguir: <br/>(1) de alguém no endereço de entrega; <br/>(2) de um vizinho, gerente de construção ou outra pessoa no endereço; ou <br/>(3) o destinatário pode deixar uma Marca de Porta FedEx assinada autorizando o lançamento do pacote sem a presença de ninguém. Disponível somente para entregas residenciais. As opções podem variar um pouco de acordo com os diferentes métodos de envio. Para obter as informações mais recentes, consulte os recursos da transportadora. |
+| [!UICONTROL Signature] | Define a confirmação da entrega. Opções:<br/><br/>**[!UICONTROL Not Required]**: nenhuma carta de confirmação de entrega é enviada a você.<br/><br/>**[!UICONTROL No Signature]**: uma carta de confirmação de entrega sem a assinatura de um destinatário é enviada a você.<br/><br/>**[!UICONTROL Signature Required]**: a transportadora obtém a assinatura do destinatário e fornece a cópia impressa.<br/><br/>**[!UICONTROL Adult Required]**: a transportadora obtém a assinatura do destinatário adulto e fornece a cópia impressa.<br/><br/>**[!UICONTROL Direct (FedEx only)]**: a FedEx obtém a assinatura de alguém no endereço de entrega e tenta novamente a entrega se ninguém estiver disponível para assinar o pacote.<br/><br/>**[!UICONTROL Indirect (FedEx only)]**: a FedEx obtém a assinatura de uma das três formas a seguir:<br/>(1) de alguém na endereço de entrega; <br/>(2) de um vizinho, gerente de construção ou outra pessoa no endereço; ou <br/>(3) o destinatário pode deixar uma Marca de Porta FedEx assinada autorizando o lançamento do pacote sem a presença de ninguém. Disponível somente para entregas residenciais. As opções podem variar um pouco de acordo com os diferentes métodos de envio. Para obter as informações mais recentes, consulte os recursos da transportadora. |
 | [!UICONTROL Contents] | (Disponível somente para remessas USPS) Descrição do conteúdo do pacote. Opções: `Gift` / `Documents` / `Commercial Sample` / `Returned Goods` / `Merchandise` / `Other` |
 | [!UICONTROL Explanation] | (Somente remessas USPS) Descrição detalhada do conteúdo do pacote. |
 

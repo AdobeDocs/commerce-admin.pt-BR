@@ -2,10 +2,10 @@
 title: Editor WYSIWYG
 description: Saiba como usar o editor e trabalhar com conteúdo em uma visualização do _What You See Is What You Get_ (WYSIWYG).
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+source-git-commit: f7d2ab41318119fc0f3eed32b3619f0b9071c15d
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ Os tópicos a seguir fornecem informações detalhadas sobre o uso do editor:
 
 O editor do WYSIWYG é ativado por padrão e pode ser usado para editar conteúdo em páginas e blocos do CMS e em produtos e categorias. Na configuração, você pode ativar ou desativar o editor e optar por usar URLs estáticos, em vez de [dinâmicos](../catalog/catalog-urls.md#dynamic-url), para conteúdo de mídia nas descrições de produto e categoria.
 
-![Opções do WYSIWYG](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+![Opções do WYSIWYG](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>O TinyMCE foi substituído pelo Hugerte como editor padrão do WYSIWYG no Magento 2.4.6 e versões posteriores.
 
 Para obter uma descrição detalhada de todas as opções do WYSIWYG, consulte [Gerenciamento de Conteúdo](../configuration-reference/general/content-management.md) na _Referência de Configuração_.
 

@@ -3,9 +3,9 @@ title: Configuração da transportadora da remessa
 description: Saiba mais sobre o suporte para contas de remessa comercial disponível para sua loja.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ As opções de configuração variam para cada operadora. No entanto, todos exig
 
 As versões 2.4.6, 2.4.7 e 2.4.8 do Adobe Commerce usam as APIs de ferramentas herdadas da Web para integração de envio pronta para uso com o USPS. A USPS introduziu as APIs USPS, uma plataforma baseada em REST para substituir as APIs herdadas das ferramentas da Web.
 
-Em 25 de janeiro de 2026, o USPS desativará as APIs de ferramentas herdadas da Web. Após essa data, todas as solicitações para as APIs de ferramentas da Web falharão.
+A partir de 25 de janeiro de 2026, o USPS desativou as APIs de ferramentas herdadas da Web. Após essa data, todas as solicitações para as APIs de ferramentas da Web falharão.
 
-Para evitar a interrupção dos serviços de envio do USPS, execute as seguintes ações antes de 25 de janeiro de 2026:
+Para evitar a interrupção dos serviços de envio do USPS, atualize para a versão mais recente do Adobe Commerce ou execute as seguintes ações:
 
-- Aplique o [patch de qualidade da Migração da API REST do USPS](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) para adicionar suporte à integração com as APIs REST do USPS.
+- Aplique o [patch de qualidade da Migração da API REST do USPS](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) para adicionar suporte à integração com as APIs REST do USPS.
 
 - Atualize a configuração do Commerce USPS para usar as APIs REST:
 

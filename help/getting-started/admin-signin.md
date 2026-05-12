@@ -161,7 +161,7 @@ O Administrador fornece acesso para gerenciar as funcionalidades de pedidos, cli
 
 Para garantir a segurança do seu administrador, faça auditorias regulares de usuários e funções com acesso de administrador.
 
-Além disso, considere [atualizar a configuração da URL Base do Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) para alterar o ponto de extremidade padrão `/admin` para um caminho personalizado. A configuração de um caminho personalizado oferece os seguintes benefícios de segurança:
+Além disso, considere [atualizar a configuração da URL Base do Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/config/advanced/admin#admin-base-url) para alterar o ponto de extremidade padrão `/admin` para um caminho personalizado. A configuração de um caminho personalizado oferece os seguintes benefícios de segurança:
 
 **Segurança aprimorada**: o caminho &quot;admin&quot; padrão é amplamente conhecido e frequentemente alvo de ataques à força bruta por parte de agentes mal-intencionados. Ao alterá-lo para um valor único e personalizado, você reduz significativamente o risco de tentativas de acesso não autorizadas.
 
@@ -173,4 +173,4 @@ Além disso, considere [atualizar a configuração da URL Base do Administrador]
 
 >[!NOTE]
 >
->Se houver suspeita de violação, remova todos os usuários administradores desconhecidos, redefina todas as senhas de administradores e examine o [Plano de ação de segurança](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) para obter mais etapas.
+>Se houver suspeita de violação, remova todos os usuários administradores desconhecidos, redefina todas as senhas de administradores e examine o [Plano de ação de segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security) para obter mais etapas.

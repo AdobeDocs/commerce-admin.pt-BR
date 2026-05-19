@@ -4,9 +4,9 @@ description: Saiba como adicionar a extensão do Adobe Commerce pronta para HIPA
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 04c8676c4fe1e055d5b6e89db6fe1b38c1a5d2cf
+source-git-commit: ce54e0bdb361f51e7d6218692178bfb18f9aba3c
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2619'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,8 @@ A tabela a seguir mostra a compatibilidade entre as versões do Adobe Commerce e
 
 | Adobe Commerce | Compatível | Notas |
 |----------------|-----------|-------|
-| 2.4.7-p4 e versões posteriores -p | 1.2.0 | O suporte para 2.4.7-p4 requer um [hotfix](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2.4.8-p5 | 1.3.0 | O suporte para 2.4.8-p5 requer um [patch de compatibilidade](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-30555) |
+| 2.4.7-p4 e versões posteriores -p | 1.2.0 | O suporte para 2.4.7-p4 requer um [patch de compatibilidade](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | O suporte para [serviços de dados](#adobe-commerce-services) foi introduzido na versão 1.1.0 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -69,7 +70,7 @@ A tabela a seguir mostra a compatibilidade entre as versões do Adobe Commerce e
 
 >[!ENDSHADEBOX]
 
-Instale a versão mais recente da extensão HIPAA-Ready Services da Adobe (`magento/hipaa-ee`) em uma instância que esteja executando o Adobe Commerce versão 2.4.7-p5 ou 2.4.6-p3 a 2.4.6-p8. A extensão é entregue como um metapackage de compositor do [repositório.magento.com](https://repo.magento.com). O metapackage inclui a coleção de módulos que habilitam os recursos HIPAA para uma instância do Adobe Commerce.
+Instale a última versão da extensão HIPAA-Ready Services da Adobe (`magento/hipaa-ee`) em uma instância que esteja executando uma versão do Adobe Commerce com suporte (consulte [Requisitos do sistema](#system-requirements)). A extensão é entregue como um metapackage de compositor do [repositório.magento.com](https://repo.magento.com). O metapackage inclui a coleção de módulos que habilitam os recursos HIPAA para uma instância do Adobe Commerce.
 
 >[!NOTE]
 >
@@ -164,7 +165,7 @@ A grade de relatório _Logs de Ação_ (**[!UICONTROL System]** > Logs de Ação
    - ***Source***: mostra onde a ação foi executada.
 Valores: `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***Tipo de Cliente***: exibe o tipo de cliente.
-Valores: Cliente | Admin | Integração
+Valores: Cliente | Administrador Integração do |
 
 2. A coluna ***Nome de Usuário*** foi renomeada para ***Identificador de Cliente***
    - ***Identificador do Cliente***: Exibe a ID de logon do usuário que executou a ação.

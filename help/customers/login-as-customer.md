@@ -3,9 +3,9 @@ title: Fornecer assistência ao comprador
 description: Ao usar o recurso Fazer logon como cliente, você pode ver o que os clientes veem e fazer atualizações em seu nome.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-source-git-commit: 29f3a8bb019d464e6d7646e0ebc7a4fa2ed0dd74
+source-git-commit: 5afc6801ccc55488ce6c209a71ec2ee67958ef5c
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -159,13 +159,13 @@ Para definir essa permissão com o GraphQL para uma conta de cliente existente, 
 
 1. Navegue até **[!UICONTROL Customers]** e selecione um cliente para abrir a página de edição.
 
-1. Na página Editar Cliente, clique em **[!UICONTROL Get Customer Login OTC]**.
+1. Na página Editar Cliente, clique em **[!UICONTROL Generate Login Code]**.
 
-   ![Botão Obter Logon OTC do Cliente na página Editar Cliente](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+   ![Botão Obter Logon OTC do Cliente na página Editar Cliente](assets/get-customer-login-otc-button-new.png){width="600" zoomable="yes"}
 
 1. Insira um **[!UICONTROL Reason]** (obrigatório) e clique em **[!UICONTROL Request]**.
 
-   ![Solicitação OTC modal com campo Motivo](assets/otc-reason-modal.png){width="600" zoomable="yes"}
+   ![Solicitação OTC modal com campo Motivo](assets/otc-reason-modal-new.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -173,11 +173,11 @@ Para definir essa permissão com o GraphQL para uma conta de cliente existente, 
 
 1. O OTC gerado é exibido na modal. Use este código com a mutação do GraphQL `generateCustomerToken` ou `exchangeOtpForCustomerToken` para autorização do cliente.
 
-   ![OTC gerado exibido no modal](assets/otc-generated-code.png){width="300" zoomable="yes"}
+   ![OTC gerado exibido no modal](assets/otc-generated-code-new.png){width="300" zoomable="yes"}
 
 >[!IMPORTANT]
 >
->O OTC de código único gerado é válido por 30 segundos por padrão e é invalidado após um único uso. O TTL pode ser configurado enviando um [tíquete de suporte](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support).
+>O OTC de código único gerado é válido por 60 segundos por padrão e é invalidado após um único uso. O TTL pode ser configurado enviando um [tíquete de suporte](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support).
 
 Depois que o código único é gerado, é possível usá-lo navegando até a loja e fazendo logon com as seguintes credenciais:
 
@@ -194,7 +194,7 @@ Depois que o código único é gerado, é possível usá-lo navegando até a loj
 
 _Fazer logon como Cliente_ permite que você veja o site da mesma maneira que o cliente, e permite que você solucione problemas e execute outras ações para o cliente. Se você tiver uma função de usuário atribuída com as permissões necessárias:
 
-1. Você pode clicar em **[!UICONTROL Login as Customer]** nas páginas listadas na seção anterior.
+1. Você pode clicar em **[!UICONTROL Login as Customer]** ou **[!UICONTROL Generate Login Code]** nas páginas listadas na seção anterior.
 1. As ações Fazer logon como cliente estão disponíveis no Relatório de ações.
 
 >[!WARNING]

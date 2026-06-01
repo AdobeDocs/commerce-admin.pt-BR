@@ -23,7 +23,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Atualização de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> e páginas relacionadas da transportadora para refletir que a API de Ferramentas da Web do USPS foi desativada em 25 de janeiro de 2026 e que as APIs REST do USPS agora são o único método de integração com suporte.</p>
+      <td><p>Atualização de <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> e páginas relacionadas da transportadora para refletir que a API de Ferramentas da Web do USPS foi desativada em 25 de janeiro de 2026 e que as APIs REST do USPS agora são o único método de integração com suporte.</p>
 </td>
       <td>
         Atualização importante, feedback
@@ -31,7 +31,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">confirmar</a></td>
     </tr>
     <tr>
-      <td><p>Publicadas as <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v153">notas de versão do Adobe Commerce B2B v1.5.3</a>, que abrangem a importação e exportação de novos clientes de empresas B2B, correções em cotações negociáveis, ordens de compra, listas de requisições, catálogos compartilhados, gerenciamento da empresa, carrinho e check-out, estrutura e GraphQL, além da alteração do caminho de exportação da lista de requisições para <code>var/export/requisition_lists/</code>.</p>
+      <td><p>Publicadas as <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/b2b/release-notes#b2b-v153">notas de versão do Adobe Commerce B2B v1.5.3</a>, que abrangem a importação e exportação de novos clientes de empresas B2B, correções em cotações negociáveis, ordens de compra, listas de requisições, catálogos compartilhados, gerenciamento da empresa, carrinho e check-out, estrutura e GraphQL, além da alteração do caminho de exportação da lista de requisições para <code>var/export/requisition_lists/</code>.</p>
 </td>
       <td>
         Atualização importante

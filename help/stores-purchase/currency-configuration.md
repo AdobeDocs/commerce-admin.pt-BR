@@ -3,20 +3,20 @@ title: Configuração de moeda
 description: Saiba mais sobre como definir o escopo da moeda base e como especificar as moedas que você aceita e a moeda que deseja usar para exibição de preço.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
 # Configuração de moeda
 
-Antes de configurar taxas de câmbio individuais, você deve primeiro definir o escopo da [moeda base](../configuration-reference/general/currency-setup.md). Está definida como global por padrão, o que aplica a configuração da moeda base a toda a [hierarquia de armazenamento](../getting-started/websites-stores-views.md). Se você tiver uma instalação de Adobe Commerce ou Magento Open Source multissite, poderá gerenciar várias moedas base definindo o escopo para o nível do site.
+Antes de configurar taxas de câmbio individuais, você deve primeiro definir o escopo da [moeda base](../configuration-reference/general/currency-setup.md). Está definida como global por padrão, o que aplica a configuração da moeda base a toda a [hierarquia de armazenamento](../getting-started/websites-stores-views.md). Se você tiver uma instalação de vários sites do Adobe Commerce ou Magento Open Source, poderá gerenciar várias moedas base definindo o escopo para o nível do site.
 
 Você também especifica as moedas que aceita e qual moeda deseja usar para a exibição de [preços](../catalog/catalog-price-scope.md) em sua loja. No diagrama a seguir, o escopo da moeda base é definido no nível do site, para que cada site possa ter uma moeda base diferente.
 
-![Diagrama de escopo de moeda](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
+![Diagrama de escopo de moeda](./assets/scope-currency-config.png){width="600" zoomable="yes"}
 
 ## Fase 1: Escolher as moedas aceitas
 
@@ -68,7 +68,7 @@ Você também especifica as moedas que aceita e qual moeda deseja usar para a ex
    >
    >A partir da versão 2.4.6, o serviço [[!DNL Fixer.io]](https://fixer.io/) será substituído pelo serviço [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api). É altamente recomendável usar uma conta APILayer em vez de uma conta [!DNL Fixer.io] obsoleta.
 
-   - _Para se conectar ao [serviço fixer.io](https://fixer.io/):_
+   - _Para conectar ao [serviço fixer.io](https://fixer.io/):_
 
       - Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Fixer.io]**.
 

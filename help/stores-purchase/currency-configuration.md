@@ -150,7 +150,7 @@ O Gerenciamento de Símbolos de Moeda oferece a capacidade de personalizar o sí
 
    - Insira um símbolo personalizado para cada moeda que deseja usar ou marque a caixa de seleção **[!UICONTROL Use Standard]** para cada moeda.
 
-   - Para substituir o símbolo padrão, desmarque a caixa de seleção _[!UICONTROL Use Standard]_e insira o símbolo que deseja usar.
+   - Para substituir o símbolo padrão, desmarque a caixa de seleção _[!UICONTROL Use Standard]_&#x200B;e insira o símbolo que deseja usar.
 
    >[!NOTE]
    >

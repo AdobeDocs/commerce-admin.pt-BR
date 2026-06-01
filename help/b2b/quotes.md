@@ -142,7 +142,7 @@ Somente solicitações de cotação com status `Open` podem ser recusadas.
 
 1. Selecione cada solicitação de cotação em aberto que você deseja recusar.
 
-1. Defina o controle _[!UICONTROL Actions]_como `Declined`.
+1. Defina o controle _[!UICONTROL Actions]_&#x200B;como `Declined`.
 
 1. Quando solicitado, insira o motivo da recusa da cotação e clique em **[!UICONTROL Confirm]**.
 

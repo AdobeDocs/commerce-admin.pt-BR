@@ -3,9 +3,9 @@ title: Cotações Negociáveis
 description: Saiba mais sobre os fluxos de trabalho de cotação e como você pode fornecer esse serviço para as contas da sua empresa.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ As cotações podem ser iniciadas pelo comprador ou pelo vendedor.
 
 Este diagrama mostra os status da cota de um comprador e vendedor (Admin) nas diferentes etapas quando você inicia uma cota.
 
-![Fluxo de trabalho de status das cotações](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
+![Fluxo de trabalho de status das cotações](./assets/quote-status-workflow.png){width="700" zoomable="yes"}
 
 **Etapa 1: Criação da cotação (Nova)**
 
@@ -142,7 +142,7 @@ Somente solicitações de cotação com status `Open` podem ser recusadas.
 
 1. Selecione cada solicitação de cotação em aberto que você deseja recusar.
 
-1. Defina o controle _[!UICONTROL Actions]_&#x200B;como `Declined`.
+1. Defina o controle _[!UICONTROL Actions]_como `Declined`.
 
 1. Quando solicitado, insira o motivo da recusa da cotação e clique em **[!UICONTROL Confirm]**.
 

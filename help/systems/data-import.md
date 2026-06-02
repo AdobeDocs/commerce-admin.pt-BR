@@ -149,7 +149,7 @@ Ao importar dados de produtos, novos dados de produtos são adicionados às entr
 
    >[!NOTE]
    >
-   >Começando com a versão `2.3.2` do Adobe Commerce e do Magento Open Source, o caminho especificado em _[!UICONTROL Images File Directory]_concatena para importação no diretório base de imagens: `<Magento-root-folder>/var/import/images`. Por exemplo, coloque os arquivos `product_images` na pasta `<Magento-root-directory>/var/import/images/product_images`. O diretório base de imagens de importação pode ser configurado no arquivo `\Magento\ImportExport\etc\config.xml`. Se o módulo de Armazenamento remoto estiver habilitado, importe os arquivos para a pasta `<remote-storage-root-directory>/var/import/images/product_images`.
+   >Começando com a versão `2.3.2` do Adobe Commerce e do Magento Open Source, o caminho especificado em _[!UICONTROL Images File Directory]_&#x200B;concatena para importação no diretório base de imagens: `<Magento-root-folder>/var/import/images`. Por exemplo, coloque os arquivos `product_images` na pasta `<Magento-root-directory>/var/import/images/product_images`. O diretório base de imagens de importação pode ser configurado no arquivo `\Magento\ImportExport\etc\config.xml`. Se o módulo de Armazenamento remoto estiver habilitado, importe os arquivos para a pasta `<remote-storage-root-directory>/var/import/images/product_images`.
 
    Para saber mais sobre como importar imagens de produtos, consulte [Importar imagens de produtos](data-import-product-images.md).
 

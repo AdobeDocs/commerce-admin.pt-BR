@@ -3,7 +3,7 @@ title: Tags de marcação
 description: Saiba mais sobre tags de marcação que contêm trechos de código para fazer referência a um objeto em seu armazenamento.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 29e8d3eddc335f6d0027d0b2a146430fbfc03fde
+source-git-commit: 4a4333fcc8425123fd6a4d17bbccf54534017a7d
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -120,12 +120,12 @@ Envolva a tag de marcação concluída em uma tag de âncora, usando a tag de ma
 
 #### Marcação na tag de âncora
 
-`<a href="{{markup tag goes here}}">Link Text\</a>`
+`<a href="{{markup tag goes here}}">Link Text</a>`
 
 Cole a tag de âncora preenchida no código de qualquer página, bloco, banner ou modelo de email do CMS em que deseja que o link seja exibido.
 
 ### Link completo com marcação
 
-`<a href="{{store url='apparel/shoes'}}">Shoe Sale\</a>`
+`<a href="{{store url='apparel/shoes'}}">Shoe Sale</a>`
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->

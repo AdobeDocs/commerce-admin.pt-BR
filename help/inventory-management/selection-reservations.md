@@ -3,9 +3,9 @@ title: Algoritmos e reservas do Source
 description: Saiba mais sobre os sistemas Source Selection Algorithm and Reservations executados em segundo plano para manter atualizadas suas quantidades comercializáveis.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: a8e9389ee2b94f816915de3e61516004d2b32e9d
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,18 @@ O Source Selection Algorithm (SSA) analisa e determina a melhor correspondência
 
 Com vários locais de origem, clientes globais e transportadoras com várias opções de envio e taxas, conhecer seu inventário real disponível e encontrar a melhor opção de envio pode ser difícil. O SSA faz o trabalho para você, desde rastrear quantidades de inventário comercializáveis em todas as origens até calcular e fazer recomendações para entregas.
 
-**Rastrear Estoque** - Usando estoques e origens, o SSA verifica o canal de vendas das solicitações de produtos recebidas e determina o estoque disponível:
+### Rastrear inventário
+
+Usando estoques e origens, o SSA verifica o canal de vendas das solicitações de produtos recebidas e determina o estoque disponível:
 
 - Calcula a quantidade venável virtual agregada de todas as origens atribuídas por estoque: agrega Quantidade - Limite esgotado por origem
 - Subtrai o valor do Limite esgotado da quantidade vendável para proteger contra venda excessiva
 - Reserva quantidades de estoque no envio da ordem, deduzindo do estoque no processamento e na entrega da ordem
 - Oferece suporte a backorders com opções aprimoradas para limites negativos
 
-**Gerenciar Remessas** - O algoritmo ajuda quando você processa e envia pedidos. Você pode executar o algoritmo para obter recomendações sobre as melhores fontes para o envio do produto ou substituir as seleções para:
+### Gerenciar remessas
+
+O algoritmo ajuda quando você processa e entrega ordens. Você pode executar o algoritmo para obter recomendações sobre as melhores fontes para o envio do produto ou substituir as seleções para:
 
 - Entregar entregas parciais, enviar somente alguns produtos de locais específicos e concluir o pedido completo posteriormente
 - Entregar toda a ordem de uma origem
@@ -43,7 +47,7 @@ O SSA é extensível para suporte de terceiros e algoritmos personalizados para 
 >
 >O SSA funciona de forma diferente para produtos virtuais e baixáveis, o que pode não incorrer em custos de envio. Nesses casos, o sistema executa o algoritmo implicitamente ao criar NFFs e sempre usa os resultados sugeridos. Não é possível ajustar esses resultados para produtos Virtuais e para Produtos Baixáveis.
 
-### Algoritmo de prioridade do Source
+### algoritmo de prioridade do Source
 
 Os estoques personalizados incluem uma lista atribuída de fontes para vender e enviar o inventário de produtos disponível por meio de sua loja. O Algoritmo de prioridade do Source usa a ordem das origens atribuídas no estoque para recomendar deduções de produto por origem ao faturar e enviar o pedido.
 
@@ -54,7 +58,7 @@ Quando executado, o algoritmo:
 - Continua na lista até que a remessa do pedido seja preenchida
 - Ignora fontes desabilitadas se encontradas na lista
 
-Para configurar, atribuir e solicitar origens a um estoque personalizado. Consulte [Priorizando fontes para um estoque](stocks-prioritize-sources.md).
+Para configurar, atribuir e ordenar origens a um estoque personalizado, consulte [Priorizando origens para um estoque](stocks-prioritize-sources.md).
 
 O exemplo a seguir detalha as origens mapeadas em ordem, a quantidade disponível e a origem e a quantia recomendadas para dedução e entrega. A fonte superior é um Drop Shipper no Reino Unido com uma quantidade disponível de 240.
 
@@ -62,13 +66,13 @@ O exemplo a seguir detalha as origens mapeadas em ordem, a quantidade disponíve
 
 ### Algoritmo de prioridade de distância
 
-O Algoritmo de Prioridade de Distância compara o local do endereço de destino da entrega com os locais de origem para determinar a origem mais próxima para atender às entregas. A distância pode ser determinada pela distância física ou pelo tempo gasto viajando de um local para outro, usando locais de bancos de dados importados ou direções do Google (dirigir, caminhar ou andar de bicicleta).
+O algoritmo de prioridade de distância compara o local do endereço de destino da entrega com os locais de origem para determinar a origem mais próxima para atender às entregas. A distância pode ser determinada pela distância física ou pelo tempo gasto viajando de um local para outro, usando locais de bancos de dados importados ou direções do Google (dirigir, caminhar ou andar de bicicleta).
 
 Você tem duas opções para calcular a distância e o tempo para encontrar a origem mais próxima para o preenchimento de entrega:
 
-- **Google MAP** - Usa os serviços do [Google Maps Platform](https://cloud.google.com/maps-platform/) para calcular a distância e o tempo entre o endereço de destino da remessa e os locais de origem (endereço e coordenadas GPS). Essa opção usa a latitude e a longitude da origem. Uma chave da API do Google é necessária com a [API de geocodificação](https://developers.google.com/maps/documentation/geocoding/start) e a [API de matriz de distância](https://developers.google.com/maps/documentation/distance-matrix/start) habilitadas. Essa opção requer um plano de faturamento da Google e pode gerar cobranças por meio do Google.
+- [!UICONTROL Google MAP] — Usa os serviços do [Google Maps Platform](https://cloud.google.com/maps-platform/) para calcular a distância e o tempo entre o endereço de destino da remessa e os locais de origem (endereço e coordenadas GPS). Essa opção usa a latitude e a longitude da origem. Uma chave da API do Google é necessária com a [API de geocodificação](https://developers.google.com/maps/documentation/geocoding/start) e a [API de matriz de distância](https://developers.google.com/maps/documentation/distance-matrix/start) habilitadas. Essa opção requer um plano de faturamento da Google e pode gerar cobranças por meio do Google.
 
-- **Cálculo Offline** - Calcula a distância usando dados geocode baixados e importados para determinar a origem mais próxima do endereço de destino da remessa. Essa opção usa os códigos de país do endereço e da origem da entrega. Para configurar essa opção, pode ser necessária a assistência do desenvolvedor para inicialmente baixar e importar geocodes usando uma linha de comando.
+- [!UICONTROL Offline Calculation] — Calcula a distância usando dados geocode baixados e importados para determinar a origem mais próxima do endereço de destino da remessa. Essa opção usa os códigos de país do endereço e da origem da entrega. Para configurar essa opção, pode ser necessária a assistência do desenvolvedor para inicialmente baixar e importar geocodes usando uma linha de comando.
 
 Para configurar, selecione as configurações e conclua as etapas adicionais, como a chave da API do Google ou o download dos dados de envio. Consulte [Configurar o algoritmo de prioridade de distância](distance-priority-algorithm.md).
 
@@ -82,7 +86,7 @@ Em vez de deduzir ou adicionar imediatamente quantidades de inventário de produ
 
 >[!NOTE]
 >
->[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} O recurso de reserva requer que o consumidor da fila de mensagens `inventory.reservations.updateSalabilityStatus` seja executado continuamente. Para verificar se está em execução, use o comando `bin/magento queue:consumers:list`. Se o consumidor da fila de mensagens não estiver listado, inicie-o: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} O recurso de reserva requer que o consumidor da fila de mensagens `inventory.reservations.updateSalabilityStatus` seja executado continuamente. Para verificar se está em execução, use o comando `bin/magento queue:consumers:list`. Se o consumidor da fila de mensagens não estiver listado, inicie-o: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Reservas de ordem
 
@@ -112,9 +116,9 @@ Antes de emitir uma reserva em resposta a um novo pedido, o sistema determina se
 
 - **Quantidade de StockItem**. A quantidade StockItem é a quantidade agregada de estoque de todas as fontes físicas do canal de vendas atual. Considere um exemplo em que a fonte de Baltimore tem 20 unidades de um produto, a fonte de Austin tem 25 unidades do mesmo produto e a fonte de Reno tem 10. Quando todas essas origens estiverem vinculadas ao Estoque A, a contagem de Itens de Estoque para esse produto será 55 (20 + 25 + 10). (Quando os itens são entregues, o Indexador de inventário atualiza as quantidades disponíveis em cada origem.)
 
-- **Reservas pendentes**. O sistema totaliza todas as reservas iniciais que não foram compensadas. Esse número é sempre negativo. Se o cliente A tiver uma reserva para dez itens e o cliente B tiver uma reserva 5 para itens, as reservas pendentes para o produto totalizam -15.
+- **Reservas pendentes**. O sistema totaliza todas as reservas iniciais que não foram compensadas. Esse número é sempre negativo. Se o cliente A tiver uma reserva para dez itens e o cliente B tiver uma reserva para cinco itens, as reservas pendentes para o produto totalizam -15.
 
-Portanto, o comerciante pode atender a um pedido recebido, desde que o cliente solicite menos de 40 (55 + -15) unidades.
+Portanto, o comerciante pode atender a um pedido recebido desde que o cliente solicite menos de 40 (55 + -15) unidades.
 
 Quando você concluir o processamento de um pedido (Concluído, Cancelado, Fechado), todas as reservas no escopo desse pedido deverão ser resolvidas como `0`. Isso limpa todas as retenções de quantidade vendável.
 
@@ -140,13 +144,12 @@ Os metadados `event_type` podem ter os seguintes valores:
 
 - `order_placed`
 - `order_canceled`
+- `order_place_failed`
 - `shipment_created`
 - `creditmemo_created`
 - `invoice_created`
 
-Atualmente, o tipo de objeto de metadados deve ser `order`, e a ID do objeto é a ID da ordem.
-
-Em versões futuras, pode ser possível criar uma reserva quando um cliente adicionar um item a um carrinho de compras. Cada item pode ser reservado por um período fixo, como 15 minutos, permitindo que o cliente reserve itens enquanto continua a comprar. Quando esse tipo de reserva é ativado, os metadados podem conter tipos adicionais de informações.
+Os metadados `object_type` devem ser `order`, e `object_id` é a ID do pedido.
 
 ## Ciclo de vida da reserva
 
@@ -162,7 +165,7 @@ O exemplo a seguir mostra a sequência de reservas geradas para uma ordem simple
    event_type = order_placed
    ```
 
-1. O cliente envia uma fatura referente a 20 itens, cancelando essencialmente 5 das unidades encomendadas.
+1. O cliente envia uma fatura referente a 20 itens, cancelando essencialmente cinco das unidades encomendadas.
 
    ```text
    reservation_id = 2
@@ -188,7 +191,7 @@ Os três valores `quantity` somam até 0 (-25 + 5 + 20). O sistema não modifica
 
 O trabalho cron `inventory_cleanup_reservations` executa consultas SQL para limpar a tabela de banco de dados de reservas. Por padrão, ele é executado diariamente à meia-noite, mas você pode configurar os horários e a frequência. O trabalho cron executa um script que consulta o banco de dados para localizar sequências de reserva completas nas quais a soma dos valores de quantidade é 0. Quando todas as reservas de um determinado produto originadas no mesmo dia (ou outro horário configurado) forem compensadas, o trabalho cron excluirá as reservas de uma só vez.
 
-O trabalho cron `inventory_reservations_cleanup` não é o mesmo que o consumidor da fila de mensagens `inventory.reservations.cleanup`. O consumidor exclui de forma assíncrona as reservas por SKU de produto depois que um produto é removido, enquanto o trabalho cron apaga toda a tabela de reservas. O consumidor é necessário ao habilitar a opção de estoque [**Sincronizar com Catálogo**](../configuration-reference/catalog/inventory.md) na configuração do armazenamento. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=pt-BR) no _Guia de Configuração_.
+O trabalho cron `inventory_reservations_cleanup` não é o mesmo que o consumidor da fila de mensagens `inventory.reservations.cleanup`. O consumidor exclui de forma assíncrona as reservas por SKU de produto depois que um produto é removido, enquanto o trabalho cron apaga toda a tabela de reservas. O consumidor é necessário ao habilitar a opção de estoque [**Sincronizar com Catálogo**](../configuration-reference/catalog/inventory.md) na configuração do armazenamento. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html){target="_blank"} no _Guia de Configuração_.
 
 Muitas vezes, todas as reservas iniciais produzidas em um único dia não podem ser compensadas nesse mesmo dia. Essa situação pode ocorrer quando um cliente faz um pedido antes do início da tarefa cron ou realiza a compra com um método de pagamento offline, como uma transferência bancária. As sequências de reserva compensadas permanecem no banco de dados até que todas sejam compensadas. Essa prática não interfere nos cálculos de reserva, pois o total de cada reserva é 0.
 
@@ -202,11 +205,11 @@ Muitas vezes, todas as reservas iniciais produzidas em um único dia não podem 
 
 Elas funcionam da seguinte forma:
 
-- **Pedido enviado** - Quando um pedido é enviado para vários produtos, é inserida uma reserva para esse valor. Por exemplo, pedir cinco mochilas de um site dos EUA insere uma reserva de `-5` para esse SKU e estoque. A quantidade vendável é reduzida em 5.
+- *Pedido enviado* — Quando um pedido é enviado para vários produtos, uma reserva é inserida para esse valor. Por exemplo, pedir cinco mochilas de um site dos EUA insere uma reserva de `-5` para esse SKU e estoque. A quantidade vendável é reduzida em 5.
 
-- **Pedido cancelado** - Quando um pedido é cancelado (total ou parcialmente), uma reserva de compensação entra para limpar esse valor. Por exemplo, cancelar três mochilas insere uma reserva +3 para esse SKU e estoque, limpando a suspensão. A quantidade comercializável é aumentada em 3.
+- *Pedido cancelado* — Quando um pedido é cancelado (total ou parcialmente), uma reserva de compensação entra para limpar esse valor. Por exemplo, cancelar três mochilas insere uma reserva +3 para esse SKU e estoque, limpando a suspensão. A quantidade comercializável é aumentada em 3.
 
-- **Pedido Enviado** - Quando um pedido é enviado (total ou parcialmente), uma reserva de compensação entra para limpar esse valor. Por exemplo, o envio de duas mochilas insere uma reserva +2 para esse SKU e estoque, limpando a suspensão. A quantidade do produto é diretamente reduzida em 2 para a remessa. A quantidade vendável calculada também é atualizada para o valor de estoque reduzido, mas não é mais afetada pela reserva.
+- *Pedido enviado* — Quando um pedido é enviado (total ou parcialmente), uma reserva de compensação entra para limpar esse valor. Por exemplo, o envio de duas mochilas insere uma reserva +2 para esse SKU e estoque, limpando a suspensão. A quantidade do produto é diretamente reduzida em 2 para a remessa. A quantidade vendável calculada também é atualizada para o valor de estoque reduzido, mas não é mais afetada pela reserva.
 
 ![Atualizações de reserva](assets/diagram-reservation.png){width="600" zoomable="yes"}
 
@@ -219,6 +222,5 @@ Todas as reservas devem ser compensadas por compensações quando os pedidos for
 Se você remover todas as origens de um produto para um estoque com pedidos pendentes, é possível que haja reservas interrompidas.
 
 {{$include /help/_includes/unassign-source.md}}
-
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->

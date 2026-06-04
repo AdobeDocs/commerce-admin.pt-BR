@@ -3,7 +3,7 @@ title: Códigos de cupom
 description: Saiba como usar códigos de cupons com regras de preço de carrinho para aplicar um desconto quando um conjunto de condições é atendido.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
+source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Se você tiver uma lista de códigos de cupom predefinidos, poderá anexá-los �
    O arquivo CSV deve atender aos seguintes requisitos:
 
    | Requisito | Valor |
-   | ------------- | ------- |
+   |-------------|-------|
    | Máximo de códigos por arquivo | 1,000 |
    | Tamanho máximo do arquivo | 512 KB |
    | Comprimento máximo do código | 255 caracteres por código |

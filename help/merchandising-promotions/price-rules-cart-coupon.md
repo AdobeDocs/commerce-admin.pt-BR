@@ -187,7 +187,7 @@ Para excluir códigos de cupom, selecione um ou mais códigos na lista. Selecion
 
 Depois de criar uma [regra de preço do carrinho](price-rules-cart.md), você pode adicionar manualmente códigos de cupom personalizados à regra.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**e selecione a regra à qual deseja adicionar códigos de cupom personalizados.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;e selecione a regra à qual deseja adicionar códigos de cupom personalizados.
 
 1. Expanda a seção **[!UICONTROL Manage Coupon Codes]** e clique em **[!UICONTROL Add Coupon Code]**.
 
@@ -203,7 +203,7 @@ Para excluir códigos de cupom personalizados, selecione os códigos a serem exc
 
 Para editar códigos de cupom personalizados ou ver detalhes de uso, clique em **[!UICONTROL Edit]** na coluna **[!UICONTROL Actions]**.
 
-<InlineAlert variant="info" slots="text"/>
+&lt;InlineAlert variant="info" slots="text"/>
 
 O código do cupom principal que pertence à regra de preço do carrinho não pode ser editado ou excluído.
 
@@ -213,7 +213,7 @@ O código do cupom principal que pertence à regra de preço do carrinho não po
 
 Se você tiver uma lista de códigos de cupom predefinidos, poderá anexá-los à regra de preço do carrinho de um arquivo CSV em vez de adicionar cada código individualmente. O arquivo CSV deve consistir em uma única coluna com os códigos do cupom.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**e selecione a regra para a qual deseja importar códigos de cupom personalizados.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;e selecione a regra para a qual deseja importar códigos de cupom personalizados.
 
 1. Expanda a seção **[!UICONTROL Manage Coupon Codes]** e clique em **[!UICONTROL Import]**.
 
@@ -242,7 +242,7 @@ Se você tiver uma lista de códigos de cupom predefinidos, poderá anexá-los �
 
    ![Resultado da importação de cupons](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-Para monitorar o progresso e os resultados detalhados da importação, clique em **[!UICONTROL View progress in Bulk Actions Log]** ou vá para **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Cada importação aparece como uma única entrada no **[!UICONTROL Bulk Actions]**e selecione uma entrada.
+Para monitorar o progresso e os resultados detalhados da importação, clique em **[!UICONTROL View progress in Bulk Actions Log]** ou vá para **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Cada importação aparece como uma única entrada no **[!UICONTROL Bulk Actions]**&#x200B;e selecione uma entrada.
 
 ## Relatório de cupons
 

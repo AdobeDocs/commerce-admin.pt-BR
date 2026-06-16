@@ -101,4 +101,4 @@ A grade _Aplicar Modelo_ e a grade de páginas _Modelos_ fornecem duas maneiras 
 
 Assista a este vídeo para saber mais sobre os modelos de conteúdo do Page Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412503?captions=por_br&quality=12&learn=on)

@@ -218,4 +218,4 @@ Grade _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
 
 Assista a este vídeo para obter uma demonstração da criação de segmentos de clientes:
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411975/?captions=por_br&quality=12&learn=on)

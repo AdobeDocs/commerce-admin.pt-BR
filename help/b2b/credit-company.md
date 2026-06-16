@@ -173,7 +173,7 @@ Os administradores da empresa podem exibir suas informações de crédito no pai
 
 Saiba mais sobre como gerenciar o crédito da empresa assistindo a este vídeo de demonstração:
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412495?captions=por_br&quality=12&learn=on)
 
 ## Considerações de segurança
 

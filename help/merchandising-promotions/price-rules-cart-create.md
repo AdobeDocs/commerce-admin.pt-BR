@@ -345,7 +345,7 @@ O rótulo aparece na seção totais do pedido para identificar o desconto. O tex
 
 Assista a este vídeo para saber mais sobre como criar regras de preço de carrinho:
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412502?captions=por_br&quality=12&learn=on)
 
 ## Descrições dos campos
 

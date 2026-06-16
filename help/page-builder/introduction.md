@@ -48,4 +48,4 @@ Se você é novo no [!DNL Commerce] ou um usuário experiente, realize os [!DNL 
 
 Veja este vídeo para saber mais sobre os recursos do Page Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/343781?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447897?captions=por_br&quality=12&learn=on)

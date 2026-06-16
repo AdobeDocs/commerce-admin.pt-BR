@@ -128,7 +128,7 @@ Depois de criar um novo catálogo compartilhado, ele deve ser configurado com a 
 
 Para ver uma demonstração do gerenciamento de catálogo compartilhado, assista a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3412494?captions=por_br&quality=12&learn=on)
 
 ## Referência de página do catálogo compartilhado
 

@@ -107,4 +107,4 @@ As regras de imposto incorporam uma combinação de classe de produto, classe de
 
 Saiba mais sobre como gerenciar regras de moeda e impostos assistindo a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411983/?captions=por_br&quality=12&learn=on)

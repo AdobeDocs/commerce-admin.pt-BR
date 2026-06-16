@@ -3,18 +3,25 @@ title: Lista de produtos
 description: Saiba mais sobre a página _[!UICONTROL Products]_ no Admin, onde você pode criar produtos e editar os existentes.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 8bb91b80f8ba957676c654e984deb5704b777612
+TQID: https://experienceleague.adobe.com/tCvjmMlTzn0ejytHyuLPIKKpHn7CGiVkrAwJWmvN-Ro
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: 836
 ht-degree: 0%
 
 ---
 
 # Lista de produtos
 
-Todos os produtos no catálogo podem ser acessados na página _[!UICONTROL Products]_&#x200B;do Administrador, onde você pode criar produtos e editar os existentes. Para uma instalação em vários sites, cada site pode oferecer uma seleção diferente de produtos para venda no mesmo catálogo.
+Todos os produtos no catálogo podem ser acessados na página _[!UICONTROL Products]_do Administrador, onde você pode criar produtos e editar os existentes. Para uma instalação em vários sites, cada site pode oferecer uma seleção diferente de produtos para venda no mesmo catálogo.
 
-A lista _[!UICONTROL Products]_&#x200B;inclui todos os produtos no catálogo, indica os sites em que eles estão disponíveis e se estão habilitados para venda no momento. Em instalações B2B do Adobe Commerce com [catálogos compartilhados](../b2b/catalog-shared.md) habilitados, a grade inclui uma coluna que indica quais produtos têm preços de desconto alternativos em um catálogo compartilhado.
+A lista _[!UICONTROL Products]_inclui todos os produtos no catálogo, indica os sites em que eles estão disponíveis e se estão habilitados para venda no momento. Em instalações B2B do Adobe Commerce com [catálogos compartilhados](../b2b/catalog-shared.md) habilitados, a grade inclui uma coluna que indica quais produtos têm preços de desconto alternativos em um catálogo compartilhado.
 
 Você pode navegar pela página da lista por página ou pesquisar por produtos específicos. Use os [controles](../getting-started/admin-grid-controls.md) padrão para classificar e filtrar a lista e aplicar [ações](../getting-started/admin-actions-control.md) aos produtos selecionados.
 
@@ -97,7 +104,7 @@ Essa configuração da limitação de exibição do produto é desabilitada por 
 | [!UICONTROL Special Price To Date] | A última data da promoção de preço especial. |
 | [!UICONTROL Cost] | O custo real do item. |
 | [!UICONTROL Manufacturer] | O fabricante do produto. |
-| [!UICONTROL Meta Keywords] | Metapalavras-chave do produto. |
+| [!UICONTROL Meta Keywords] | Palavras-chave do Meta para o produto. |
 | [!UICONTROL Color] | A cor do produto. |
 | [!UICONTROL Set Product as New from Date] | A primeira data do produto definido como uma nova promoção. |
 | [!UICONTROL Set Product as New to Date] | A última data do produto definido como uma nova promoção. |
@@ -107,7 +114,7 @@ Essa configuração da limitação de exibição do produto é desabilitada por 
 | [!UICONTROL Allow Gift Message] | A mensagem de presente para clientes que compram um cartão-presente. |
 | [!UICONTROL Special Price] | Preço especial do produto. |
 | [!UICONTROL Weight] | O peso do produto. |
-| [!UICONTROL Meta Title] | Metatítulo do produto. |
+| [!UICONTROL Meta Title] | Título do Meta do produto. |
 | [!UICONTROL Meta Description] | A descrição dos metadados do produto. |
 | [!UICONTROL Country of Manufacture] | O país de fabricação. |
 | [!UICONTROL New Theme] | Tema personalizado aplicado ao produto. |

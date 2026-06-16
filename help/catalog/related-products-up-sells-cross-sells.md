@@ -3,16 +3,22 @@ title: Configurações do produto - [!UICONTROL Related Products, Up-Sells, and 
 description: Para um produto, as configurações do [!UICONTROL Related Products, Up-Sells, and Cross-Sells] definem blocos promocionais simples na página do produto que destacam uma seleção de produtos adicionais.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/J3CJ88ZZGgyukX9EwMHPtkdygTOAhbd41So4GurqEvA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 602
 ht-degree: 0%
 
 ---
 
 # Configurações do produto - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-Use a seção _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;para configurar blocos promocionais simples que apresentam uma seleção de produtos adicionais que podem ser de interesse do cliente. Para obter mais informações, consulte [Relações de Produto](../merchandising-promotions/product-relationships.md).
+Use a seção _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_para configurar blocos promocionais simples que apresentam uma seleção de produtos adicionais que podem ser de interesse do cliente. Para obter mais informações, consulte [Relações de Produto](../merchandising-promotions/product-relationships.md).
 
 ![Produtos relacionados, venda adicional e venda cruzada](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -34,8 +40,7 @@ Cada bloco consiste em uma lista de produtos que pertencem a uma opção especí
 >[!TIP]
 >
 >O ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) **Product Recommendations viabilizadas pelo Adobe AI** simplifica o processo de definição de relações de produtos utilizando inteligência artificial e algoritmos de aprendizado de máquina para executar uma análise detalhada de dados de visitantes agregados. Esses dados, quando combinados com seu catálogo do Adobe Commerce, resultam em experiências altamente envolventes, relevantes e personalizadas para o comprador.
-><br/>
->Para obter mais informações sobre como usar esta extensão desenvolvida pela Adobe como uma alternativa para recomendações de produto e vendas adicionais configuradas manualmente, consulte o _[Guia de Recomendações de Produto](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=pt-BR)_.
+><br/>>Para obter mais informações sobre como usar esta extensão desenvolvida pela Adobe como uma alternativa para recomendações de produto e vendas adicionais configuradas manualmente, consulte o _[Guia de Recomendações de Produto](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
 
 ## Produtos relacionados
 
@@ -91,7 +96,7 @@ Os itens de venda cruzada são semelhantes às compras por impulso posicionadas 
 
 >[!NOTE]
 >
->Para mostrar ou ocultar itens de venda cruzada por exibição de loja, consulte a opção [Check-out > Carrinho de Compras](../configuration-reference/sales/checkout.md) chamada _[!UICONTROL Show Cross-sell Items]_&#x200B;no Carrinho de Compras. Talvez você queira ocultar as vendas cruzadas durante vendas específicas ou para testes A/B em uma exibição de loja.
+>Para mostrar ou ocultar itens de venda cruzada por exibição de loja, consulte a opção [Check-out > Carrinho de Compras](../configuration-reference/sales/checkout.md) chamada _[!UICONTROL Show Cross-sell Items]_no Carrinho de Compras. Talvez você queira ocultar as vendas cruzadas durante vendas específicas ou para testes A/B em uma exibição de loja.
 
 ![Vendas cruzadas no carrinho de compras](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 

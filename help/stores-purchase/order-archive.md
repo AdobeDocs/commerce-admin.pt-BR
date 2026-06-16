@@ -3,9 +3,15 @@ title: Arquivar ordens
 description: Saiba como configurar o arquivo de pedidos para melhorar o desempenho e simplificar o Commerce para sua organização.
 exl-id: 12025591-bfe2-4f44-9358-a38ea4493b5c
 feature: Orders, Configuration
-source-git-commit: 47f170f1a1dd1c236b99c2e7139bb119368abf47
+TQID: https://experienceleague.adobe.com/Zl8qJPnr8JcSSyIHewPH-GFKBkweyAmh7So9u7vHDSk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: 750
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ O arquivamento de pedidos melhora regularmente o desempenho e mantém seu espaç
 
 >[!NOTE]
 >
->A opção _[!UICONTROL Archive]_&#x200B;aparece no menu [[!UICONTROL Sales]](sales-menu.md) somente quando o arquivamento está [habilitado](../configuration-reference/sales/sales.md).
+>A opção _[!UICONTROL Archive]_aparece no menu [[!UICONTROL Sales]](sales-menu.md) somente quando o arquivamento está [habilitado](../configuration-reference/sales/sales.md).
 
 ## Configurar o arquivo de pedidos
 
@@ -52,7 +58,7 @@ Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de c
 
 ## Visualizar documentos arquivados
 
-1. No menu _[!UICONTROL Sales]_, em&#x200B;_[!UICONTROL Archive]_, escolha uma das opções a seguir:
+1. No menu _[!UICONTROL Sales]_, em_[!UICONTROL Archive]_, escolha uma das opções a seguir:
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -111,7 +117,7 @@ Selecione cada documento para ser o destino da ação e escolha um dos seguintes
 
 1. Clique em **[!UICONTROL Export]**.
 
-Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de crédito após um número definido de dias. Você pode mover pedidos e seus documentos associados para o arquivo morto ou restaurá-los ao estado anterior. Os pedidos arquivados não são excluídos e permanecem disponíveis no Administrador. Os dados arquivados podem ser exportados para um arquivo CSV e abertos em uma planilha. Quando habilitado, o comando _[!UICONTROL Archive]_&#x200B;aparece na parte superior do espaço de trabalho.
+Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de crédito após um número definido de dias. Você pode mover pedidos e seus documentos associados para o arquivo morto ou restaurá-los ao estado anterior. Os pedidos arquivados não são excluídos e permanecem disponíveis no Administrador. Os dados arquivados podem ser exportados para um arquivo CSV e abertos em uma planilha. Quando habilitado, o comando _[!UICONTROL Archive]_aparece na parte superior do espaço de trabalho.
 
 ## Arquivar ordens manualmente
 
@@ -121,7 +127,7 @@ Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de c
 
 1. Defina o controle **[!UICONTROL Actions]** como `Move to Archive` e procure a mensagem de que a ordem foi arquivada.
 
-   ![Movendo ordens selecionadas para o arquivo morto &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
+   ![Movendo ordens selecionadas para o arquivo morto ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
@@ -137,7 +143,7 @@ Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de c
 
    >[!NOTE]
    >
-   >Assim como a página Pedidos, o título da página de pedidos arquivados é _[!UICONTROL Orders]_. A única diferença visível é a opção na barra de botões para&#x200B;_[!UICONTROL Return to Orders Management]_. O URL da página também indica que você está na ordem de arquivamento.
+   >Assim como a página Pedidos, o título da página de pedidos arquivados é _[!UICONTROL Orders]_. A única diferença visível é a opção na barra de botões para_[!UICONTROL Return to Orders Management]_. O URL da página também indica que você está na ordem de arquivamento.
 
 1. Na coluna _Ação_, clique em **[!UICONTROL View]**.
 

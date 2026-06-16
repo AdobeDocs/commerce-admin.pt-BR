@@ -4,17 +4,24 @@ description: Saiba como configurar a segurança para o Administrador da loja.
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: ad01f8aaa40f6bda0fe329a0e906915f6034972f
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: 864
 ht-degree: 0%
 
 ---
 
 # Configurar a segurança do administrador
 
-Recomendamos que você adote uma abordagem multifacetada para proteger a segurança de sua loja. Você pode começar usando uma [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que não é fácil de adivinhar, em vez da óbvia &quot;Admin&quot; ou &quot;Infraestrutura&quot;. Por padrão, as senhas usadas para [fazer logon](../getting-started/admin-signin.md) no Administrador devem ter sete ou mais caracteres e incluir letras e números. Você pode configurar o requisito de comprimento mínimo da senha para melhorar a segurança com base nas necessidades da organização. Como uma [prática recomendada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=pt-BR), use somente senhas de Administrador fortes que incluam uma combinação de letras, números e símbolos. A Adobe Commerce e a Magento Open Source não permitem a reutilização das quatro últimas senhas atribuídas à conta.
+Recomendamos que você adote uma abordagem multifacetada para proteger a segurança de sua loja. Você pode começar usando uma [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que não é fácil de adivinhar, em vez da óbvia &quot;Admin&quot; ou &quot;Infraestrutura&quot;. Por padrão, as senhas usadas para [fazer logon](../getting-started/admin-signin.md) no Administrador devem ter sete ou mais caracteres e incluir letras e números. Você pode configurar o requisito de comprimento mínimo da senha para melhorar a segurança com base nas necessidades da organização. Como uma [prática recomendada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), use somente senhas de Administrador fortes que incluam uma combinação de letras, números e símbolos. A Adobe Commerce e a Magento Open Source não permitem a reutilização das quatro últimas senhas atribuídas à conta.
 
 A configuração de segurança do Administrador oferece a capacidade de:
 

@@ -1,21 +1,27 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL PayPal Express Checkout]'
-description: Revise as configurações na seção [!UICONTROL PayPal Express Checkout] na página [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] do Administrador do Commerce.
+title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Express Checkout]'
+description: Revise as configurações na seção [!UICONTROL PayPal Express Checkout] na página [!UICONTROL Sales] > [!UICONTROL Payment Methods] do Administrador do Commerce.
 exl-id: aae5b1d9-f47e-447a-b40c-924f8d2ee824
 feature: Configuration, Payments
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+TQID: https://experienceleague.adobe.com/SEtCXXuq1AkwIoH-0aHjwmWIRnMqzhrf3ojo2xa2jBs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: 1682
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Express Checkout]
+# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Express Checkout]
 
 >[!IMPORTANT]
 >
->Requisitos de **PSD2:** <br/>
->A partir de 14 de setembro de 2019, os bancos europeus poderão recusar pagamentos que não atendam aos requisitos de [PSD2](../../getting-started/compliance-payment-services-directive.md). Nenhuma ação é necessária para que o Check-out do PayPal Express esteja em conformidade com o PSD2, pois todos os requisitos são tratados pelo PayPal.
+>Requisitos do **PSD2:** <br/>
+>A partir de 14 de setembro de 2019, os bancos europeus poderão recusar pagamentos que não atendam aos requisitos da [PSD2](../../getting-started/compliance-payment-services-directive.md). Nenhuma ação é necessária para que o Check-out do PayPal Express esteja em conformidade com a PSD2, pois todos os requisitos são tratados pelo PayPal.
 
 {{config}}
 
@@ -38,7 +44,7 @@ ht-degree: 0%
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Site | Especifica o endereço de email especificado quando sua conta de comerciante do PayPal foi estabelecida. O endereço de email diferencia maiúsculas de minúsculas e deve corresponder exatamente ao seu endereço de email no sistema PayPal. |
-| [!UICONTROL API Authentication Methods] | Site | Determina o método usado para autenticação da API. Opções: <br/>**`API Signature`**- Exibe o campo _[!UICONTROL API Signature]_&#x200B;no formulário.<br/>**`API Certificate`**- Exibe o campo&#x200B;_[!UICONTROL API Certificate]_ no formulário. |
+| [!UICONTROL API Authentication Methods] | Site | Determina o método usado para autenticação da API. Opções: <br/>**`API Signature`**- Exibe o campo _[!UICONTROL API Signature]_no formulário.<br/>**`API Certificate`**- Exibe o campo_[!UICONTROL API Certificate]_ no formulário. |
 | [!UICONTROL API Username] | Site | O nome de usuário da API associado à sua conta de comerciante do PayPal. |
 | [!UICONTROL API Password] | Site | A senha da API associada à sua conta de comerciante do PayPal. |
 | [!UICONTROL API Signature] | Site | A assinatura da API associada à sua conta de comerciante do PayPal. |
@@ -89,7 +95,7 @@ ht-degree: 0%
 | [!UICONTROL Display on Shopping Cart] | Exibição da loja | Determina se o Check-out do PayPal Express é exibido como uma opção de pagamento no carrinho de compras. Opções: `Yes` (PayPal recomendado) / `No` |
 | [!UICONTROL Payment Action Applicable From] | Site | Determina o intervalo da seleção de país aplicável. Opções: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Countries Payment Applicable From] | Site | Identifica cada país do qual o pagamento é aceito. Somente os clientes com um endereço de cobrança em um país selecionado podem fazer compras com este método de pagamento. |
-| [!UICONTROL Debug Mode] | Site | Registra mensagens enviadas entre sua loja e o sistema de pagamento em um arquivo de log. Opções: `Yes` / `No` <br/><br/>**_Observação:_**&#x200B;O arquivo de log está armazenado no servidor e pode ser acessado apenas por desenvolvedores. De acordo com os padrões de segurança de dados do PCI, as informações de cartão de crédito não são gravadas no arquivo de registro. |
+| [!UICONTROL Debug Mode] | Site | Registra mensagens enviadas entre sua loja e o sistema de pagamento em um arquivo de log. Opções: `Yes` / `No` <br/><br/>**_Nota:_** O arquivo de log está armazenado no servidor e pode ser acessado apenas por desenvolvedores. De acordo com os padrões de segurança de dados do PCI, as informações de cartão de crédito não são gravadas no arquivo de registro. |
 | [!UICONTROL Enable SSL Verification] | Site | Habilita a verificação do certificado de segurança do host. Opções: `Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | Site | Exibe um resumo completo dos itens de linha do carrinho de compras do cliente no site do PayPal. Opções: `Yes` / `No` |
 | [!UICONTROL Transfer Shipping Options] | Site | Inclui até dez opções de envio no site do PayPal. Opções: `Yes` / `No` |
@@ -113,7 +119,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | Site | Determina como o PayPal gerencia a transação: Opções: <br/>**Autorização** - Aprova a compra, mas bloqueia os fundos. A quantidade não é retirada até que seja &quot;capturada&quot; pelo comerciante. <br/>**Venda** - O valor da compra é autorizado e imediatamente retirado da conta do cliente. |
 | [!UICONTROL Payment Applicable From] | Site | Determina o intervalo da seleção de país aplicável. Opções: Todos os Países Permitidos/Países Específicos |
 | [!UICONTROL Countries Payment Applicable From] | Site | Identifica cada país do qual o pagamento é aceito. Somente os clientes com um endereço de cobrança em um país selecionado podem fazer compras com este método de pagamento. |
-| [!UICONTROL Debug Mode] | Site | Registra a comunicação com o sistema de pagamento em um arquivo de log. Opções: `Yes` / `No` <br/><br/>**_Observação:_**&#x200B;O arquivo de log está armazenado no servidor e pode ser acessado apenas por desenvolvedores. De acordo com os padrões de segurança de dados do PCI, as informações de cartão de crédito não são gravadas no arquivo de registro. |
+| [!UICONTROL Debug Mode] | Site | Registra a comunicação com o sistema de pagamento em um arquivo de log. Opções: `Yes` / `No` <br/><br/>**_Nota:_** O arquivo de log está armazenado no servidor e pode ser acessado apenas por desenvolvedores. De acordo com os padrões de segurança de dados do PCI, as informações de cartão de crédito não são gravadas no arquivo de registro. |
 | [!UICONTROL Enable SSL Verification] | Site | Habilita uma etapa de verificação para garantir que a transação ocorra em um canal SSL criptografado. Opções: `Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | Site | Quando ativado, exibe um resumo dos itens de linha do carrinho de compras na página de pagamentos do PayPal. Opções: `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | Site | Quando ativado, os clientes podem iniciar um contrato de faturamento no painel da conta do cliente. |
@@ -148,7 +154,7 @@ ht-degree: 0%
 | [!UICONTROL PayPal Product Logo] | Exibição da loja | Determina o logotipo do PayPal que aparece em sua loja. Há quatro estilos básicos em dois tamanhos. Opções: `No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
 | **[!UICONTROL PayPal Merchant Pages Style]** |  |  |
 | [!UICONTROL Page Style] | Exibição da loja | Determina a aparência da página do comerciante do PayPal. Valores permitidos: **`paypal`** - Usa o estilo de página do PayPal. <br/>**`primary`**- Usa o estilo de página identificado como &quot;primário&quot; no perfil da conta.<br/>**`your_custom_value`** - Usa um estilo de página de pagamento personalizado, que é especificado no perfil da conta. |
-| [!UICONTROL Header Image URL] | Exibição da loja | O URL da imagem que aparece no canto superior esquerdo da página de check-out. O tamanho máximo é 750 x 90 pixels. <br/><br/>**_Observação:_**&#x200B;o PayPal recomenda que a imagem seja armazenada em um servidor seguro (https). Caso contrário, o navegador do cliente poderá avisar que &quot;a página contém itens seguros e não seguros&quot;. |
+| [!UICONTROL Header Image URL] | Exibição da loja | O URL da imagem que aparece no canto superior esquerdo da página de check-out. O tamanho máximo é 750 x 90 pixels. <br/><br/>**_Observação:_** O PayPal recomenda que a imagem seja armazenada em um servidor seguro (https). Caso contrário, o navegador do cliente poderá avisar que &quot;a página contém itens seguros e não seguros&quot;. |
 | [!UICONTROL Header Image Background Color] | Exibição da loja | O código de [cor hexadecimal](https://en.wikipedia.org/wiki/Web_colors) de seis caracteres para a cor de plano de fundo do cabeçalho na página de check-out. Você pode inserir o código em caracteres maiúsculos e minúsculos. |
 | [!UICONTROL Header Image Border Color] | Exibição da loja | O código [de cor hexadecimal](https://en.wikipedia.org/wiki/Web_colors) de seis caracteres para a borda de dois pixels ao redor do cabeçalho. |
 | [!UICONTROL Page Background Color] | Exibição da loja | O código [hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) de seis caracteres para a cor de fundo da página de check-out que aparece atrás do cabeçalho e do formulário de pagamento. |

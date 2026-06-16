@@ -1,12 +1,18 @@
 ---
-title: '[!UICONTROL Advanced] &gt; [!UICONTROL System]'
-description: Revise as configurações na página [!UICONTROL Advanced] &gt; [!UICONTROL System] do Administrador do Commerce.
+title: '[!UICONTROL Advanced] > [!UICONTROL System]'
+description: Revise as configurações na página [!UICONTROL Advanced] > [!UICONTROL System] do Administrador do Commerce.
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: 1682
 ht-degree: 1%
 
 ---
@@ -153,11 +159,11 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Global | Determina se a instância do Commerce permite backups. Opções: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Global | (Exibido quando _[!UICONTROL Enable Backup]_&#x200B;está definido como `Yes`.) Determina se o backup da instância do Commerce é feito automaticamente em uma programação regular. Opções: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Global | (Exibido quando _[!UICONTROL Enable Scheduled Backup]_&#x200B;está definido como `Yes`.) Determina os elementos da instância do Commerce que estão incluídos no backup. Opções: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definido como `Yes`.) Especifica a hora, o minuto e o segundo em que o backup agendado começa. |
-| [!UICONTROL Frequency] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definido como `Yes`.) Determina com que frequência o backup agendado ocorre. Opções: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definido como `Yes`.) Determina se o armazenamento é colocado em modo de manutenção durante o backup agendado. Opções: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Exibido quando _[!UICONTROL Enable Backup]_está definido como `Yes`.) Determina se o backup da instância do Commerce é feito automaticamente em uma programação regular. Opções: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Exibido quando _[!UICONTROL Enable Scheduled Backup]_está definido como `Yes`.) Determina os elementos da instância do Commerce incluídos no backup. Opções: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definido como `Yes`.) Especifica a hora, os minutos e o segundo em que o backup agendado começa. |
+| [!UICONTROL Frequency] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definido como `Yes`.) Determina com que frequência o backup programado ocorre. Opções: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definido como `Yes`.) Determina se o armazenamento é colocado em modo de manutenção durante o backup programado. Opções: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -188,7 +194,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Determina o aplicativo usado para gerenciar o cache de página inteira. Opções: <br/>**`Built-in Application`**- Não recomendado para o ambiente de produção.<br/>**`Varnish Caching`** - Recomendado para o ambiente de produção. |
 | [!UICONTROL TTL for public content] | Global | Determina a duração do cache de conteúdo público em segundos. Valor padrão: `120` |
-| [!UICONTROL Handles param size] | global | Especifica o número máximo de [identificadores de layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) para processar no ponto de extremidade HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=pt-BR). Restringir o tamanho pode melhorar a segurança e o desempenho. Valor padrão: `100` |
+| [!UICONTROL Handles param size] | global | Especifica o número máximo de [identificadores de layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) para processar no ponto de extremidade HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). Restringir o tamanho pode melhorar a segurança e o desempenho. Valor padrão: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Especifica os endereços IP que podem limpar a configuração de verniz para gerar um arquivo de configuração. Separe várias entradas com uma vírgula. Valor padrão: `localhost` |
 | [!UICONTROL Backend host] | Global | Especifica o host de back-end que gera arquivos de configuração. Valor padrão: `localhost` |
@@ -268,7 +274,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 ![Configuração avançada - Configuração de Carregamento de Imagem](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |

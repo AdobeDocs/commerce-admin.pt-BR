@@ -2,9 +2,15 @@
 title: Catálogos simples
 description: Saiba mais sobre como criar um catálogo simples, em que cada linha contém todos os dados necessários sobre um produto ou categoria.
 exl-id: f67bd2e0-3902-41eb-b26f-c772a7692cef
-source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
+TQID: https://experienceleague.adobe.com/7D7lHMHFVKh2J35S1Mpr5eudyLyicbpL4xqkvu-KatA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: 704
 ht-degree: 0%
 
 ---
@@ -13,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O uso de um catálogo simples não é mais recomendado como prática recomendada. O uso continuado desse recurso é conhecido por causar degradação de desempenho e outros problemas de indexação. Uma descrição detalhada e uma solução estão disponíveis na [Central de Ajuda](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=pt-BR).<br/><br/>As versões afetadas incluem: <br/>- Adobe Commerce na infraestrutura de nuvem, 2.3.x e superior<br/>- Adobe Commerce (No local), 2.3.x e superior<br/>- Magento Open Source, 2.3.x e superior <br/><br/>Em qualquer versão de lançamento, algumas extensões funcionam somente com tabelas simples, criando um risco se você desabilitar tabelas simples. Se você souber que tem algumas extensões que usam indexadores de Catálogo Simples, deverá estar ciente desse risco ao definir esses valores como `No`.
+>O uso de um catálogo simples não é mais recomendado como prática recomendada. O uso continuado desse recurso é conhecido por causar degradação de desempenho e outros problemas de indexação. Uma descrição detalhada e uma solução estão disponíveis na [Central de Ajuda](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html).<br/><br/>As versões afetadas incluem: <br/>- Adobe Commerce na infraestrutura de nuvem, 2.3.x e superior<br/>- Adobe Commerce (No Local), 2.3.x e superior<br/>- Magento Open Source, 2.3.x e superior <br/><br/>Em qualquer versão de lançamento, algumas extensões funcionam apenas com tabelas simples, criando um risco se você desabilitar tabelas simples. Se você souber que tem algumas extensões que usam indexadores de Catálogo Simples, deverá estar ciente desse risco ao definir esses valores como `No`.
 
 O Commerce geralmente armazena dados de catálogo em várias tabelas, com base no modelo Entity-Attribute-Value (EAV). Como os atributos do produto são armazenados em muitas tabelas, as consultas SQL às vezes são longas e complexas.
 

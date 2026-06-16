@@ -1,16 +1,23 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration]'
-description: Revise as configurações na página [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] do Administrador do Commerce.
+title: '[!UICONTROL Customers]  > [!UICONTROL Customer Configuration]'
+description: Revise as configurações na página [!UICONTROL Customers] > [!UICONTROL Customer Configuration] do Administrador do Commerce.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/eZF-dmYG4p8BwVNA5SWtj-3y2flfLP1H9CRcPsd1tFI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: 1908
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Customers] > [!UICONTROL Customer Configuration]
+# [!UICONTROL Customers]  > [!UICONTROL Customer Configuration]
 
 {{config}}
 
@@ -18,7 +25,7 @@ ht-degree: 0%
 
 ![Opções de Compartilhamento de Conta](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
-<!-- [Account Sharing Options](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
+<!-- [Account Sharing Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -30,7 +37,7 @@ ht-degree: 0%
 
 ![Opções de Clientes Online](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
-<!-- [Online Customers Options](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/customers-menu/now-online) -->
+<!-- [Online Customers Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/now-online) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -45,19 +52,19 @@ ht-degree: 0%
 
 ![Criar Novas Opções de Conta (Campos de IVA)](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
-<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enable Automatic Assignment to Customer Group] | Exibição da loja | Determina se os clientes são atribuídos automaticamente ao grupo de clientes padrão. Para mostrar o número IVA na loja, defina Mostrar Número IVA na vitrine, selecione `Yes`. Opções: <br/>**`Yes`**- O sistema não valida automaticamente as IDs de IVA do cliente nem altera os grupos de clientes.<br/>**`No`** - O comportamento do sistema é o usual e o grupo de clientes padrão pode ser definido no campo Grupo padrão. |
 | [!UICONTROL Default Group] | Exibição da loja | Identifica o grupo de clientes inicial atribuído quando uma conta é criada. |
-| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | Global | (Disponível somente se o escopo da configuração atual estiver definido como `Default Group`.) Escolha se a alteração automática do grupo de clientes com base na ID de IVA está habilitada ou desabilitada por padrão. A configuração pode ser substituída no nível do produto. A configuração influencia o comportamento do sistema nas seguintes situações: <br/> - A ID de IVA do endereço padrão do cliente ou todo o endereço padrão é alterado. <br/> - A alteração de grupo de clientes foi emulada durante o check-out para um cliente registrado que não tinha nenhum endereço salvo anteriormente ou para um cliente que se registrou durante o check-out. <br/>Se a alteração automática do grupo estiver habilitada, no primeiro caso o grupo de clientes será alterado automaticamente e, no segundo caso, o grupo de clientes emulado temporariamente será atribuído ao cliente. Se a alteração automática de grupo estiver desativada, o grupo de clientes atribuído nunca será alterado, a menos que um administrador altere-o manualmente. |
+| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | Global | (Disponível somente se o escopo da configuração atual estiver definido como `Default Group`.) Escolha se a alteração automática do grupo de clientes com base na ID de IVA está habilitada ou desabilitada por padrão. A configuração pode ser substituída no nível do produto. A configuração influencia o comportamento do sistema nas seguintes situações: <br/> - A ID de IVA do endereço padrão do cliente ou todo o endereço padrão é alterado. <br/> - Alteração de grupo de clientes emulada durante o check-out para um cliente registrado que não tinha nenhum endereço salvo anteriormente ou para um cliente que se registrou durante o check-out. <br/>Se a alteração automática do grupo estiver habilitada, no primeiro caso o grupo de clientes será alterado automaticamente e, no segundo caso, o grupo de clientes emulado temporariamente será atribuído ao cliente. Se a alteração automática de grupo estiver desativada, o grupo de clientes atribuído nunca será alterado, a menos que um administrador altere-o manualmente. |
 | [!UICONTROL Show VAT Number on Storefront] | Site | Determina se o número de IVA é visível para clientes no armazenamento. Opções: `Yes` / `No` <br/> Afeta somente contas de clientes não B2B comuns. As contas da empresa têm seu próprio campo de Número IVA separado. |
 | [!UICONTROL Default Email Domain] | Exibição da loja | Identifica o domínio de email padrão da loja. Por exemplo: `mystore.com` |
 | [!UICONTROL Default Welcome Email] | Exibição da loja | Identifica o modelo de email usado para o email padrão _Boas-vindas_. |
 | [!UICONTROL Default Welcome Email Without Password] | Exibição da loja | Um modelo alternativo de email de boas-vindas usado para novas contas de clientes criadas pelo Administrador que ainda não têm uma senha atribuída. |
 | [!UICONTROL Email Sender] | Exibição da loja | Identifica o contato de armazenamento que aparece como remetente do email de boas-vindas. |
-| [!UICONTROL Require Emails Confirmation] | Site | Determina se uma solicitação para criar uma conta requer a confirmação do cliente. Opções: `Yes` / `No`. <br/><br/> _&#x200B;**Observação:**&#x200B;_ a partir da versão 2.4.7, os clientes devem reinserir seus emails e senhas para fazer logon em suas contas após a confirmação por email, independentemente do navegador. |
+| [!UICONTROL Require Emails Confirmation] | Site | Determina se uma solicitação para criar uma conta requer a confirmação do cliente. Opções: `Yes` / `No`. <br/><br/> _**Observação:**_ a partir da versão 2.4.7, os clientes devem reinserir seus emails e senhas para fazer logon em suas contas após a confirmação por email, independentemente do navegador. |
 | [!UICONTROL Confirmation Link Email] | Exibição da loja | Identifica o modelo de email usado para o email de confirmação. Modelo padrão: `New account confirmation key` |
 | [!UICONTROL Welcome Email] | Exibição da loja | Identifica o modelo de email usado para a mensagem de boas-vindas enviada depois que a conta é confirmada. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Global | Determina se o campo usado para inserir e armazenar o número da ID de IVA está visível na loja. Opções: `Yes` / `No` |
@@ -68,11 +75,11 @@ ht-degree: 0%
 
 ![Opções de senha](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
-<!-- [Password Options](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
+<!-- [Password Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Password Reset Protection Type] | Exibição da loja | Determina o método usado para redefinir a senha de uma conta de cliente. Opções: <br/>**`By IP and Email`**- A senha pode ser redefinida online depois que uma resposta é recebida de uma notificação de redefinição enviada para o endereço de email associado à conta de Administrador.<br/>**`By IP`** - A senha pode ser redefinida online. <br/>**`By Email`**- A senha pode ser redefinida respondendo a uma notificação por email enviada para o endereço de email associado à conta de Administrador.<br/>**`None`** - A senha pode ser redefinida somente pelo administrador de armazenamento. |
+| [!UICONTROL Password Reset Protection Type] | Exibição da loja | Determina o método usado para redefinir a senha de uma conta de cliente. Opções: <br/>**`By IP and Email`**- A senha pode ser redefinida online depois que uma resposta é recebida de uma notificação de redefinição enviada para o endereço de email associado à conta de Administrador.<br/>**`By IP`** - A senha pode ser redefinida online. <br/>**`By Email`**- A senha pode ser redefinida respondendo a uma notificação por email enviada ao endereço de email associado à conta de Administrador.<br/>**`None`** - A senha pode ser redefinida somente pelo administrador de armazenamento. |
 | [!UICONTROL Max Number of Password Reset Requests] | Exibição da loja | Limita o número de solicitações de redefinição de senha por hora. Para solicitações ilimitadas, insira zero (0). |
 | [!UICONTROL Min Time Between Password Reset Requests] | Exibição da loja | Determina o número de minutos entre as solicitações de redefinição de senha. Para que não haja atraso entre as solicitações, digite zero (0). |
 | [!UICONTROL Forgot Email Template] | Exibição da loja | Identifica o template de email usado quando os clientes esquecem suas senhas. Modelo padrão: `Forgot Password` |
@@ -101,13 +108,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Name and Address Options]
 
-### opções de Magento Open Source
+### Opções do Magento Open Source
 
 {{ce-feature}}
 
 ![Opções de Nome e Endereço - Abrir Source](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -117,7 +124,7 @@ ht-degree: 0%
 | [!UICONTROL Show Middle Name (initial)] | Site | Determina se a inicial do meio está incluída como parte do nome do cliente. Se usado, a inicial do meio é um campo opcional. Opções: `Yes` / `No` |
 | [!UICONTROL Show Suffix] | Site | Determina se o nome do cliente inclui um sufixo no final, como Jr., Sr. e III. Opções: `No` / `Optional` / `Required` |
 | [!UICONTROL Suffix Dropdown Options] | Site | Define a lista de opções de sufixo. Separe os valores com um ponto e vírgula. Coloque um ponto e vírgula antes do primeiro valor para exibir um valor vazio na parte superior da lista. |
-| [!UICONTROL Show Date of Birth] | Site | Determina se a data de nascimento do cliente está incluída no formulário de nome e endereço. Opções: `No` / `Optional` / `Required` <br><br>**_Importante:_**&#x200B;Ao manter as práticas recomendadas atuais de segurança e privacidade, esteja ciente de todos os possíveis riscos legais e de segurança associados ao armazenamento da data de nascimento completa dos clientes (mês, dia, ano) com outros identificadores pessoais. É recomendável limitar o armazenamento das datas de nascimento completas dos clientes e sugerir o uso do ano de nascimento do cliente como alternativa. |
+| [!UICONTROL Show Date of Birth] | Site | Determina se a data de nascimento do cliente está incluída no formulário de nome e endereço. Opções: `No` / `Optional` / `Required` <br><br>**_Importante:_** Ao manter as práticas recomendadas atuais de segurança e privacidade, esteja ciente de todos os possíveis riscos legais e de segurança associados ao armazenamento da data de nascimento completa dos clientes (mês, dia, ano) com outros identificadores pessoais. É recomendável limitar o armazenamento das datas de nascimento completas dos clientes e sugerir o uso do ano de nascimento do cliente como alternativa. |
 | [!UICONTROL Show Tax/VAT Number] | Site | Determina se o Imposto ou o [Número de IVA](../../stores-purchase/vat.md) está incluído no formulário de nome e endereço. Opções: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Gender] | Site | Determina se o gênero está incluído no formulário de nome e endereço. Opções: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Telephone] | Site | Determina se o número de telefone do cliente está incluído no formulário de nome e endereço. Opções: `No` / `Optional` / `Required` |
@@ -132,7 +139,7 @@ ht-degree: 0%
 
 ![Opções de Nome e Endereço - Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -150,7 +157,7 @@ ht-degree: 0%
 
 ![Opções de Crédito da Loja](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
-<!-- [Store Credit Options](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
+<!-- [Store Credit Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -166,7 +173,7 @@ ht-degree: 0%
 
 ![Opções de Logon](./assets/customer-configuration-login-options.png)<!-- zoom -->
 
-<!-- [Login Options](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Login Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -178,7 +185,7 @@ ht-degree: 0%
 
 ![Modelos de Endereço](./assets/customer-configuration-address-templates.png)<!-- zoom -->
 
-<!-- [Address Templates](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
+<!-- [Address Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
 | Modelo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -195,7 +202,7 @@ ht-degree: 0%
 
 ![Segmentos de clientes](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
-<!-- [Customer Segments](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/segments/customer-segments) -->
+<!-- [Customer Segments](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) -->
 
 | Modelo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -208,14 +215,14 @@ ht-degree: 0%
 
 ![CAPTCHA](./assets/customer-configuration-captcha.png)<!-- zoom -->
 
-<!-- [CAPTCHA](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/captcha/security-captcha) -->
+<!-- [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | Site | Habilita o CAPTCHA nas lojas associadas ao site da Commerce. Opções: `Yes` / `No` |
 | [!UICONTROL Font] | Site | Determina a fonte usada para exibir o CAPTCHA. Para adicionar sua própria fonte, coloque o arquivo de fonte no mesmo diretório da instalação do Commerce e adicione a declaração ao arquivo `config.xml` em `app/code/Magento/Captcha/etc`. |
-| [!UICONTROL Forms] | Site | Determina os formulários em que CAPTCHA é usado. Opções: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (consulte [patch de segurança](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=pt-BR)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**Observação:**&#x200B;_ Os formulários Criar Usuário, Esqueci Senha e Payflow Pro sempre estão habilitados quando selecionados. |
-| [!UICONTROL Displaying Mode] | Site | Determina quando o CAPTCHA é exibido. Opções: <br/>**`Always`**- CAPTCHA é sempre necessário para fazer logon.<br/>**`After number of attempts to login`** - Esta opção aplica-se somente ao formulário de Entrada do Administrador. Quando selecionado, o campo _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;é exibido. Insira o número de tentativas de logon que deseja permitir. Um valor de `0` (zero) é semelhante à configuração [!UICONTROL Displaying Mode] para `Always`.<br/>_&#x200B;**Observação:**&#x200B;_para rastrear o número de tentativas de logon malsucedidas, cada tentativa de logon em um endereço de email e a partir de um endereço IP é contada. O número máximo de tentativas de logon permitidas no mesmo endereço IP é 1.000. Essa limitação se aplica somente quando CAPTCHA está ativado. |
+| [!UICONTROL Forms] | Site | Determina os formulários em que CAPTCHA é usado. Opções: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (consulte [patch de segurança](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_**Observação:**_ Os formulários Criar Usuário, Esqueci Senha e Payflow Pro sempre estão habilitados quando selecionados. |
+| [!UICONTROL Displaying Mode] | Site | Determina quando o CAPTCHA é exibido. Opções: <br/>**`Always`**- CAPTCHA é sempre necessário para fazer logon.<br/>**`After number of attempts to login`** - Esta opção aplica-se somente ao formulário de Entrada do Administrador. Quando selecionado, o campo _[!UICONTROL Number of Unsuccessful Attempts to Login]_é exibido. Insira o número de tentativas de logon que deseja permitir. Um valor de `0` (zero) é semelhante à configuração [!UICONTROL Displaying Mode] de `Always`.<br/>_**Observação:**_Para rastrear o número de tentativas de logon malsucedidas, cada tentativa de logon com um endereço de email é contada. O número máximo de tentativas de logon permitidas no mesmo endereço IP é 1.000. Essa limitação se aplica somente quando CAPTCHA está ativado. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Site | Especifica o número de vezes que um cliente pode tentar fazer logon antes que a conta seja bloqueada. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Site | Determina a duração do CAPTCHA atual. Quando o CAPTCHA expira, o usuário deve recarregar a página. |
 | [!UICONTROL Number of Symbols] | Site | Determina o número de símbolos que aparecem no CAPTCHA, com um máximo de 8. Você também pode especificar um intervalo, por exemplo, 5-8. |

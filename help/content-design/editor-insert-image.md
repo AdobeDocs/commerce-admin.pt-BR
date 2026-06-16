@@ -2,10 +2,15 @@
 title: Inserir uma imagem no editor
 description: O editor do WYSIWYG oferece uma maneira fácil de inserir uma imagem do armazenamento de mídia, vincular a uma imagem que reside em outro servidor ou usar os ativos do Adobe Stock.
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: https://experienceleague.adobe.com/0SlAN-Ija-mUYhkTfmC4QEfuGPw73szU5-7dqwcFKtc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: 374
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ No editor, é possível inserir uma imagem usando três tipos de origem:
 
 1. Abra uma página, um bloco ou um bloco dinâmico no modo de edição.
 
-1. Vá para a seção _[!UICONTROL Content]_&#x200B;e clique em qualquer elemento compatível com o editor.
+1. Vá para a seção _[!UICONTROL Content]_e clique em qualquer elemento compatível com o editor.
 
 1. Posicione o cursor onde deseja que a imagem apareça.
 

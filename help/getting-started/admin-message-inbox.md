@@ -2,9 +2,15 @@
 title: Caixa de entrada de mensagens do administrador
 description: Saiba mais sobre a caixa de entrada de mensagens do administrador, que fornece mensagens importantes e úteis do Adobe e do sistema  [!DNL Commerce] .
 exl-id: c53bb0e4-9f18-4d40-8cc4-8c3b485f8d68
-source-git-commit: 7b6d70e2f3052af69075790cec1f396e2505bf8b
+TQID: https://experienceleague.adobe.com/3RgVAR8efVGsjazQsH8-3Ohfw1h8SDuqLyCDzMYAAng
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -15,7 +21,7 @@ Sua loja recebe mensagens do Adobe regularmente. As mensagens são classificadas
 
 ![Administrador - mensagens de entrada](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-A página _[!UICONTROL Notifications]_&#x200B;lista todas as mensagens classificadas por data. Os comandos&#x200B;_[!UICONTROL Action]_ podem ser usados para marcar mensagens individuais como lidas, exibir informações mais detalhadas ou remover a mensagem da caixa de entrada.
+A página _[!UICONTROL Notifications]_lista todas as mensagens classificadas por data. Os comandos_[!UICONTROL Action]_ podem ser usados para marcar mensagens individuais como lidas, exibir informações mais detalhadas ou remover a mensagem da caixa de entrada.
 
 A configuração determina com que frequência a caixa de entrada é atualizada e como as mensagens são entregues. Se o administrador da loja tiver um URL seguro, as notificações deverão ser entregues por HTTPS.
 

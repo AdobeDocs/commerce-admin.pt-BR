@@ -3,9 +3,15 @@ title: Taxa de tabela de remessa
 description: Saiba como configurar uma opção de envio com taxa de tabela para sua loja.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: 1044
 ht-degree: 3%
 
 ---
@@ -16,7 +22,7 @@ O método de envio _table rate_ faz referência a uma tabela de dados para calcu
 
 - Peso v. Destino
 - Preço v. Destino
-- Número de itens v. destino
+- Número de itens v. Destino
 
 Por exemplo, se seu armazém está em Los Angeles, custa menos para enviar para San Diego do que para Vermont. Você pode usar a taxa de tabela de envio para repassar a economia para seus clientes.
 
@@ -34,7 +40,7 @@ A primeira etapa é concluir as configurações padrão para taxas de tabela. Vo
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Na seção _[!UICONTROL Sales]_&#x200B;do painel esquerdo, escolha **[!UICONTROL Delivery Methods]**.
+1. Na seção _[!UICONTROL Sales]_do painel esquerdo, escolha **[!UICONTROL Delivery Methods]**.
 
 1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Table Rates]**.
 
@@ -62,7 +68,7 @@ A primeira etapa é concluir as configurações padrão para taxas de tabela. Vo
 
    >[!NOTE]
    >
-   >Como os produtos virtuais — como serviços — não têm peso, eles não podem alterar o resultado de um cálculo que é baseado no Peso v. Condição de destino. No entanto, os produtos virtuais podem alterar o resultado de um cálculo baseado no Preço v. Destino ou no Número de itens vs. Destino.
+   >Como os produtos virtuais — como serviços — não têm peso, eles não podem alterar o resultado de um cálculo baseado no Peso v. Condição de destino. No entanto, os produtos virtuais podem alterar o resultado de um cálculo baseado no Preço v. Destino ou número de itens vs condição de destino.
 
 1. Configure as opções de taxa de manuseio de acordo com suas necessidades.
 
@@ -84,7 +90,7 @@ A primeira etapa é concluir as configurações padrão para taxas de tabela. Vo
 1. Conjunto **[!UICONTROL Ship to Applicable Countries]**:
 
    - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar este método de entrega.
-   - `Specific Countries` - Quando você escolhe esta opção, a lista _[!UICONTROL Ship to Specific Countries]_&#x200B;é exibida. Selecione cada país na lista onde esse método de entrega pode ser usado.
+   - `Specific Countries` - Quando você escolhe esta opção, a lista _[!UICONTROL Ship to Specific Countries]_é exibida. Selecione cada país na lista onde esse método de entrega pode ser usado.
 
 1. Defina **[!UICONTROL Show Method if Not Applicable]** como `Yes` se desejar mostrar as Taxas da tabela o tempo todo
 
@@ -115,10 +121,10 @@ A primeira etapa é concluir as configurações padrão para taxas de tabela. Vo
 1. Preencha a tabela com os valores apropriados para a condição de cálculo de entrega.
 
    - Use um asterisco (*) como um curinga que representa todos os valores possíveis em qualquer categoria.
-   - A coluna _[!UICONTROL Country]_&#x200B;deve conter um [código de três caracteres válido](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) para cada linha.
-   - Classifique os dados por _[!UICONTROL Region/State]_&#x200B;de modo que os locais específicos estejam no topo da lista e os locais curinga na parte inferior. O uso desse método processa as regras com os valores absolutos primeiro e depois os valores curingas.
+   - A coluna _[!UICONTROL Country]_deve conter um [código de três caracteres válido](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) para cada linha.
+   - Classifique os dados por _[!UICONTROL Region/State]_de modo que os locais específicos estejam no topo da lista e os locais curinga na parte inferior. O uso desse método processa as regras com os valores absolutos primeiro e depois os valores curingas.
    - Intervalos de CEP/código postal sem suporte. Use um asterisco (*) para permitir todos os códigos dentro da região/estado ou especifique um único código para um local específico na coluna _[!UICONTROL Zip/Postal Code]_.
-   - Os valores na coluna _[!UICONTROL Weight (and above)]_&#x200B;podem ter no máximo quatro casas decimais (como `2.5075`). Usar mais casas decimais nos dados faz com que a importação falhe.
+   - Os valores na coluna _[!UICONTROL Weight (and above)]_podem ter no máximo quatro casas decimais (como `2.5075`). Usar mais casas decimais nos dados faz com que a importação falhe.
 
    ![Peso vs. Destino (Austrália)](./assets/table-rates-weight-destination-csv.png){width="500"}
 
@@ -142,7 +148,7 @@ Para garantir que os dados da taxa de tabela estejam corretos, passe pelo proces
 
 ### Exemplo 1: Preço e destino
 
-Esse exemplo usa a condição Preço v. Destino para criar um conjunto de três taxas de entrega diferentes com base na quantia do subtotal da ordem para os Estados Unidos continentais, Alasca e Havaí. O asterisco (*) é um curinga que representa todos os valores.
+Esse exemplo usa o Preço v. Condição de destino para criar um conjunto de três taxas de envio diferentes com base no valor do subtotal do pedido para os Estados Unidos continentais, Alasca e Havaí. O asterisco (*) é um curinga que representa todos os valores.
 
 | PAÍS | REGIÃO / ESTADO | CEP | SUBTOTAL DO PEDIDO (e acima) | PREÇO DE ENVIO |
 |--- |--- |--- |--- |--- |
@@ -160,7 +166,7 @@ Esse exemplo usa a condição Preço v. Destino para criar um conjunto de três 
 
 ### Exemplo 2: peso e destino
 
-Este exemplo usa a condição Peso v. Destino para criar diferentes taxas de entrega com base no peso da ordem.
+Este exemplo usa Peso v. Condição de destino para criar taxas de remessa diferentes com base no peso da ordem.
 
 | PAÍS | REGIÃO / ESTADO | CEP | PESO (e acima) | PREÇO DE ENVIO |
 |--- |--- |--- |--- |--- |

@@ -3,10 +3,15 @@ title: Preparo de conteúdo
 description: O armazenamento temporário de conteúdo oferece à sua equipe de negócios a capacidade de criar, visualizar e agendar facilmente uma grande variedade de atualizações de conteúdo para sua loja diretamente do administrador.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -27,7 +32,7 @@ Os campos relacionados à Data inicial e à Data final foram removidos do Adobe 
 
 Todas as atualizações programadas são aplicadas consecutivamente, o que significa que qualquer entidade pode ter apenas uma atualização programada de cada vez. Qualquer atualização agendada é aplicada a todas as exibições de loja dentro de seu período de tempo. Como resultado, uma entidade não pode ter uma atualização agendada diferente para diferentes exibições de loja ao mesmo tempo. Todos os valores de atributo de entidade em todas as exibições de armazenamento, que não são afetados pela atualização agendada atual, são obtidos dos valores padrão, e não da atualização agendada anterior.
 
-Quando uma nova atualização agendada é criada para qualquer um dos seguintes objetos, uma campanha correspondente é criada como um espaço reservado e a caixa _[!UICONTROL Scheduled Changes]_&#x200B;é exibida na parte superior da página. A campanha de espaço reservado tem uma data inicial, mas não uma data final. Você pode agendar atualizações no conteúdo como parte de uma campanha, bem como pré-visualizar e compartilhar as alterações por data, hora ou exibição de loja. Depois que uma nova campanha é criada para um objeto, você pode atribuí-la como uma atualização programada para outros objetos.
+Quando uma nova atualização agendada é criada para qualquer um dos seguintes objetos, uma campanha correspondente é criada como um espaço reservado e a caixa _[!UICONTROL Scheduled Changes]_é exibida na parte superior da página. A campanha de espaço reservado tem uma data inicial, mas não uma data final. Você pode agendar atualizações no conteúdo como parte de uma campanha, bem como pré-visualizar e compartilhar as alterações por data, hora ou exibição de loja. Depois que uma nova campanha é criada para um objeto, você pode atribuí-la como uma atualização programada para outros objetos.
 
 - [Produtos](../catalog/product-scheduled-changes.md)
 - [Categorias](../catalog/category-scheduled-changes.md)
@@ -40,13 +45,13 @@ Quando uma nova atualização agendada é criada para qualquer um dos seguintes 
 
 1. **Criar o conteúdo da linha de base**
 
-   A linha de base é o conteúdo de um ativo sem uma campanha e inclui tudo abaixo da seção _[!UICONTROL Scheduled Changes]_&#x200B;na parte superior da página. O conteúdo da linha de base é sempre usado, a menos que haja uma campanha ativa com alterações programadas para esse local na linha do tempo.
+   A linha de base é o conteúdo de um ativo sem uma campanha e inclui tudo abaixo da seção _[!UICONTROL Scheduled Changes]_na parte superior da página. O conteúdo da linha de base é sempre usado, a menos que haja uma campanha ativa com alterações programadas para esse local na linha do tempo.
 
 1. **Criar a primeira campanha**
 
    Crie sua primeira campanha com as datas de início e término conforme necessário. Para tornar a campanha aberta, deixe a data final em branco. Quando a primeira campanha terminar, o conteúdo original da linha de base será restaurado.
 
-   A data de início e a data de término da campanha devem ser definidas usando o fuso horário padrão **_1&rbrace; do administrador, que é convertido do fuso horário local de cada site._** Considere um exemplo em que você tem vários sites em fusos horários diferentes, mas deseja iniciar uma campanha com base em um fuso horário dos EUA. Nesse caso, você deve agendar uma atualização separada para cada fuso horário local e definir **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** como convertidos de cada fuso horário de site local para o fuso horário padrão do Administrador.
+   A data de início e a data de término da campanha devem ser definidas usando o fuso horário padrão **_1} do administrador, que é convertido do fuso horário local de cada site._** Considere um exemplo em que você tem vários sites em fusos horários diferentes, mas deseja iniciar uma campanha com base em um fuso horário dos EUA. Nesse caso, você deve agendar uma atualização separada para cada fuso horário local e definir **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** como convertidos de cada fuso horário de site local para o fuso horário padrão do Administrador.
 
 1. **Adicionar uma segunda campanha**
 
@@ -80,12 +85,12 @@ O [!UICONTROL Content Staging] [painel](content-staging-dashboard.md) oferece vi
 
 Para saber mais sobre o preparo de conteúdo, assista a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3412505?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## Solução de problemas de recursos
 
 Para obter ajuda com a solução de problemas de preparo de conteúdo, consulte os seguintes artigos da Base de Dados de Conhecimento de Suporte do [!DNL Commerce]:
 
-- [Erro 404 em todas as páginas devido ao problema de preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=pt-BR)
-- [Atualizações agendadas de preparo de conteúdo não exibidas com o cache obsoleto do Fastly](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=pt-BR)
-- [Posso agendar atualizações de Armazenamento Temporário de Conteúdo para preços em um catálogo compartilhado?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=pt-BR)
+- [Erro 404 em todas as páginas devido ao problema de preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
+- [Atualizações programadas do armazenamento temporário de conteúdo não são exibidas com o cache obsoleto do Fastly](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
+- [Posso programar atualizações de Armazenamento temporário de conteúdo para preços em um catálogo compartilhado?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)

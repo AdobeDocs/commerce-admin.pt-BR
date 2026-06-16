@@ -3,9 +3,15 @@ title: Códigos de cupom
 description: Saiba como usar códigos de cupons com regras de preço de carrinho para aplicar um desconto quando um conjunto de condições é atendido.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
+TQID: https://experienceleague.adobe.com/axmELQfcYT3VH7GBKMh-Z3xdN1v6eROpIp9FDYb6zBg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: 2338
 ht-degree: 0%
 
 ---
@@ -73,7 +79,7 @@ O comprimento e o formato dos códigos de cupom gerados automaticamente são con
 
 >[!NOTE]
 >
->[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Antes de criar cupons, use o comando `bin/magento cron:run` para verificar se o cron está em execução. Consulte [Executar cron a partir da linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=pt-BR#run-cron-from-the-command-line) no _Guia de Configuração_ para obter mais informações.
+>[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Antes de criar cupons, use o comando `bin/magento cron:run` para verificar se o cron está em execução. Consulte [Executar cron a partir da linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) no _Guia de Configuração_ para obter mais informações.
 
 ### Método 1: criar um cupom específico
 
@@ -183,11 +189,11 @@ Para excluir códigos de cupom, selecione um ou mais códigos na lista. Selecion
 
 ### Método 3: códigos de cupom personalizados
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Depois de criar uma [regra de preço do carrinho](price-rules-cart.md), você pode adicionar manualmente códigos de cupom personalizados à regra.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;e selecione a regra à qual deseja adicionar códigos de cupom personalizados.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**e selecione a regra à qual deseja adicionar códigos de cupom personalizados.
 
 1. Expanda a seção **[!UICONTROL Manage Coupon Codes]** e clique em **[!UICONTROL Add Coupon Code]**.
 
@@ -203,7 +209,7 @@ Para excluir códigos de cupom personalizados, selecione os códigos a serem exc
 
 Para editar códigos de cupom personalizados ou ver detalhes de uso, clique em **[!UICONTROL Edit]** na coluna **[!UICONTROL Actions]**.
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 O código do cupom principal que pertence à regra de preço do carrinho não pode ser editado ou excluído.
 
@@ -213,7 +219,7 @@ O código do cupom principal que pertence à regra de preço do carrinho não po
 
 Se você tiver uma lista de códigos de cupom predefinidos, poderá anexá-los à regra de preço do carrinho de um arquivo CSV em vez de adicionar cada código individualmente. O arquivo CSV deve consistir em uma única coluna com os códigos do cupom.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;e selecione a regra para a qual deseja importar códigos de cupom personalizados.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**e selecione a regra para a qual deseja importar códigos de cupom personalizados.
 
 1. Expanda a seção **[!UICONTROL Manage Coupon Codes]** e clique em **[!UICONTROL Import]**.
 
@@ -242,7 +248,7 @@ Se você tiver uma lista de códigos de cupom predefinidos, poderá anexá-los �
 
    ![Resultado da importação de cupons](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-Para monitorar o progresso e os resultados detalhados da importação, clique em **[!UICONTROL View progress in Bulk Actions Log]** ou vá para **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Cada importação aparece como uma única entrada no **[!UICONTROL Bulk Actions]**&#x200B;e selecione uma entrada.
+Para monitorar o progresso e os resultados detalhados da importação, clique em **[!UICONTROL View progress in Bulk Actions Log]** ou vá para **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Cada importação aparece como uma única entrada no **[!UICONTROL Bulk Actions]**e selecione uma entrada.
 
 ## Relatório de cupons
 

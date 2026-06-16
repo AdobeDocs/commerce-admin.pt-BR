@@ -3,17 +3,23 @@ title: Ferramentas do desenvolvedor
 description: Saiba mais sobre as ferramentas avançadas de desenvolvedor disponíveis para oferecer suporte a desenvolvedores que trabalham em projetos de personalização.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: 1709
 ht-degree: 0%
 
 ---
 
 # Ferramentas do desenvolvedor
 
-Use as ferramentas avançadas de desenvolvedor para determinar o modo de compilação durante o desenvolvimento de front-end, criar uma nova inclui na lista de permissões de endereços IP e exibir dicas de caminho de modelo. Também há ferramentas para fazer facilmente alterações pontuais no texto na interface da loja e do administrador.
+Use as ferramentas avançadas de desenvolvedor para determinar o modo de compilação durante o desenvolvimento de front-end, criar um incluo na lista de permissões de endereços IP e exibir dicas de caminho de modelo. Também há ferramentas para fazer facilmente alterações pontuais no texto na interface da loja e do administrador.
 
 - [Logs de Ação](action-log.md) ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce)
 - [Fluxo de trabalho de desenvolvimento de front-end](#frontend-development-workflow)
@@ -27,7 +33,7 @@ Use as ferramentas avançadas de desenvolvedor para determinar o modo de compila
 
 Sua instância do Adobe Commerce ou do Magento Open Source pode ser implantada para execução no _modo de produção_ ou no _modo de desenvolvedor_. As ferramentas e definições de configuração criadas especificamente para desenvolvedores só podem ser acessadas enquanto o armazenamento estiver em execução no _modo de desenvolvedor_.
 
-O modo de operação pode ser alterado somente a partir da linha de comando do servidor por um usuário com permissões apropriadas. Consulte [Definir o modo de operação](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=pt-BR) no _Guia de Configuração_ para obter mais informações.
+O modo de operação pode ser alterado somente a partir da linha de comando do servidor por um usuário com permissões apropriadas. Consulte [Definir o modo de operação](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) no _Guia de Configuração_ para obter mais informações.
 
 A maioria dos tópicos na documentação do comerciante se aplica a uma instância do Commerce em execução no modo de produção. No entanto, as definições e ferramentas de configuração a seguir podem ser usadas apenas quando a instalação estiver sendo executada no modo de desenvolvedor.
 
@@ -59,7 +65,7 @@ Consulte [Compilação MENOS do lado do cliente vs. do lado do servidor](https:/
 
 Adicionar uma assinatura digital ao URL de arquivos estáticos permite que os navegadores detectem quando uma versão mais recente do arquivo estiver disponível. Os arquivos estáticos que podem ser rastreados com assinaturas digitais incluem JavaScript, CSS, imagens e fontes. A assinatura é anexada ao caminho diretamente após o URL base. Se a assinatura de um arquivo for diferente do que está armazenado no cache do navegador, a versão mais recente do arquivo será usada.
 
-Consulte [Assinatura de conteúdo estático](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=pt-BR){:target="_blank"} na documentação do desenvolvedor do Commerce.
+Consulte [Assinatura de conteúdo estático](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} na documentação do desenvolvedor do Commerce.
 
 >[!NOTE]
 >
@@ -91,7 +97,7 @@ O tempo necessário para carregar arquivos de recursos pode ser reduzido com a m
 
 Por padrão, o Adobe Commerce e o Magento Open Source não mesclam, agrupam ou minimizam arquivos, e o desenvolvedor do projeto deve determinar quais métodos de otimização de arquivo devem ser usados.
 
-Consulte [Práticas recomendadas de desempenho](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=pt-BR) para obter mais informações.
+Consulte [Práticas recomendadas de desempenho](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html) para obter mais informações.
 
 >[!NOTE]
 >
@@ -118,7 +124,7 @@ Consulte [Práticas recomendadas de desempenho](https://experienceleague.adobe.c
 
    ![Configuração avançada - Configurações de CSS](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
 
-[_Configurações CSS_](../configuration-reference/advanced/developer.md)
+   [_Configurações de CSS_](../configuration-reference/advanced/developer.md)
 
 1. Para otimizar arquivos JavaScript, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL JavaScript Settings]** e faça o seguinte:
 
@@ -135,15 +141,15 @@ Consulte [Práticas recomendadas de desempenho](https://experienceleague.adobe.c
 
 ## Restrições do cliente
 
-Antes de usar uma ferramenta como [dicas de caminho de modelo](#template-path-hints), adicione seu endereço IP à inclui na lista de permissões de Restrições de Cliente de Desenvolvedor para evitar interromper a experiência de compra dos clientes na loja. Se você não souber seu endereço IP, poderá pesquisá-lo online.
+Antes de usar uma ferramenta como [dicas de caminho de modelo](#template-path-hints), adicione seu endereço IP ao incluo na lista de permissões de Restrições de Cliente de Desenvolvedor para evitar interromper a experiência de compra dos clientes na loja. Se você não souber seu endereço IP, poderá pesquisá-lo online.
 
 >[!NOTE]
 >
 >As Restrições de Cliente de Desenvolvedor podem ser definidas somente no [Modo de Desenvolvedor](../systems/developer-tools.md#operation-modes).
 
-Para obter informações técnicas, consulte [VCL personalizado para permitir solicitações](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=pt-BR) no _Guia do Commerce na Infraestrutura da Nuvem_.
+Para obter informações técnicas, consulte [VCL personalizado para permitir solicitações](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) no _Guia do Commerce na Infraestrutura da Nuvem_.
 
-incluir na lista de permissões **_Para adicionar seu endereço IP ao arquivo:_**
+**_Para adicionar seu endereço IP ao incluo na lista de permissões:_**
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -173,9 +179,9 @@ Consulte [Localizar modelos, layouts e estilos](https://developer.adobe.com/comm
 
 ![Exemplo de vitrine - dicas do caminho do modelo](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 
-### Etapa 1: adicionar o endereço IP ao arquivo de inclui na lista de permissões
+### Etapa 1: adicionar o endereço IP ao incluo na lista de permissões
 
-Antes de usar as dicas do caminho de modelo, adicione seu endereço IP ao [incluir na lista de permissões](#client-restrictions) para evitar interferência com os clientes que estão fazendo compras na loja. Quando terminar, limpe o cache do Commerce para remover todas as dicas do armazenamento.
+Antes de usar as dicas de caminho de modelo, adicione seu endereço IP ao [incluo na lista de permissões](#client-restrictions) para evitar interferência com os clientes que estão comprando na loja. Quando terminar, limpe o cache do Commerce para remover todas as dicas do armazenamento.
 
 ![Configuração avançada - restrições de cliente desenvolvedor](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 
@@ -247,7 +253,7 @@ Se a loja estiver disponível em vários idiomas, você poderá fazer ajustes no
 
    Desmarque a caixa de seleção **[!UICONTROL Use Website]** conforme necessário para modificar essas configurações.
 
-   A opção _[!UICONTROL Enabled for Admin]_&#x200B;não está disponível ao editar um modo de exibição de loja específico.
+   A opção _[!UICONTROL Enabled for Admin]_não está disponível ao editar um modo de exibição de loja específico.
 
    ![Configuração avançada - traduzir em linha](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

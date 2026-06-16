@@ -4,17 +4,23 @@ description: Saiba como criar uma versão traduzida de cada página que está di
 exl-id: e8743ea5-0c8e-4970-987d-c9ac7c1e2a66
 feature: Page Content
 topic: Commerce, Localization
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: https://experienceleague.adobe.com/9jox-v5fCEhPsaex70yQod--qH-Xnp9dkgmuxJGTZd0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: 368
 ht-degree: 0%
 
 ---
 
 # Traduzir uma página de conteúdo
 
-Se o armazenamento tiver várias exibições em diferentes [idiomas](../stores-purchase/store-localize.md) e você tiver definido a localidade de cada exibição para um idioma diferente, o resultado será um site parcialmente traduzido. A próxima etapa é criar uma versão traduzida de cada página disponível na exibição de loja específica. A coluna [!UICONTROL Store View] da lista _[!UICONTROL Manage Pages]_&#x200B;mostra cada exibição que tem uma versão traduzida da página.
+Se o armazenamento tiver várias exibições em diferentes [idiomas](../stores-purchase/store-localize.md) e você tiver definido a localidade de cada exibição para um idioma diferente, o resultado será um site parcialmente traduzido. A próxima etapa é criar uma versão traduzida de cada página disponível na exibição de loja específica. A coluna [!UICONTROL Store View] da lista _[!UICONTROL Manage Pages]_mostra cada exibição que tem uma versão traduzida da página.
 
 Para traduzir uma página de conteúdo, é necessário criar outra página que tenha a mesma Chave de URL da original, mas seja atribuída à exibição de loja específica. Em seguida, atualize a página da exibição específica com o texto traduzido. O exemplo a seguir mostra como criar uma versão traduzida da página _Sobre nós_ para a exibição de loja em espanhol.
 
@@ -26,7 +32,7 @@ Para traduzir uma página de conteúdo, é necessário criar outra página que t
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization]** e copie o **[!UICONTROL URL Key]** para a área de transferência.
 
-1. Para retornar à grade _[!UICONTROL Pages]_, clique em **[!UICONTROL Back]**&#x200B;na barra de botões superior.
+1. Para retornar à grade _[!UICONTROL Pages]_, clique em **[!UICONTROL Back]**na barra de botões superior.
 
 ## Etapa 2: adicionar uma página para o conteúdo traduzido
 

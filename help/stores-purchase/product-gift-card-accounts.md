@@ -3,9 +3,16 @@ title: Contas de cartão-presente
 description: Saiba mais sobre contas de cartão-presente e como definir as configurações padrão para o gerenciamento de pool de códigos.
 exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 feature: Products, Gift, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/Yc9uWjM1Je77Cw1BO5PJVjg05icRtI4Ehhytr5mTCBI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: d9ced453-36f4-4eb5-b2f3-1d593e32476b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: 935
 ht-degree: 0%
 
 ---
@@ -26,7 +33,7 @@ A configuração de cartão-presente estabelece as configurações padrão para 
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Gift Cards]**.
 
-1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Gift Card Email Settings]_&#x200B;e faça o seguinte:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Gift Card Email Settings]_e faça o seguinte:
 
    - Defina **[!UICONTROL Gift Card Notification Email Sender]** para a identidade da loja que aparece como remetente de notificações de cartão-presente.
 
@@ -34,7 +41,7 @@ A configuração de cartão-presente estabelece as configurações padrão para 
 
    ![Configurações de email de cartão-presente](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Email Sent from Gift Card Account Management]_&#x200B;e faça o seguinte:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Email Sent from Gift Card Account Management]_e faça o seguinte:
 
    - Defina **[!UICONTROL Gift Card Email Sender]** para que a identidade da loja apareça como o remetente dos cartões-presente.
 
@@ -67,7 +74,7 @@ Consulte [Armazenar endereços de email](../configuration-reference/general/stor
 
 ### Etapa 3: estabelecer o conjunto de códigos de cartão-presente
 
-1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Gift Card Account General Settings]_&#x200B;e faça o seguinte:
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Gift Card Account General Settings]_e faça o seguinte:
 
    ![Configurações Gerais da Conta de Cartão-Presente](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
@@ -115,7 +122,7 @@ Consulte [Armazenar endereços de email](../configuration-reference/general/stor
 
 1. No canto superior direito, clique em **[!UICONTROL Add Gift Card Account]**.
 
-1. Na seção _[!UICONTROL Information]_, defina **[!UICONTROL Active]**&#x200B;como `Yes` e faça o seguinte:
+1. Na seção _[!UICONTROL Information]_, defina **[!UICONTROL Active]**como `Yes` e faça o seguinte:
 
    - Para tornar o saldo do cartão resgatável no check-out ou transferido para o crédito da loja do cliente, defina **[!UICONTROL Redeemable]** como `Yes`.
 

@@ -2,9 +2,15 @@
 title: Introdução aos sistemas de administração
 description: Saiba mais sobre as ferramentas e funções do sistema que o administrador da loja pode usar para gerenciar com eficiência os sites, dados, integrações e usuários administradores.
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 5517bb16a8f7c8aa2f9f057df773f142302a69c7
+TQID: https://experienceleague.adobe.com/E-6P-9RyoWsRXfdnU-nT4sEMLd3Pmlkynvd1q2Dqpms
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: cc250cf1-34eb-4863-80d0-d170d45ea067id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 471
 ht-degree: 0%
 
 ---
@@ -28,8 +34,8 @@ O Administrador também oferece suporte a várias tarefas para que os administra
 
 - **Permissões e contas de usuário administrador** - Gerenciar [contas de usuário](permissions-users-all.md) do Administrador, bem como as [funções e permissões](permissions-user-roles.md) associadas que controlam seu acesso a sites e áreas funcionais no Administrador.
 - **Sessões de administrador e restrições de site** - Examine as práticas recomendadas de [segurança](security.md) e saiba como gerenciar sessões de administrador e credenciais, implementar o CAPTCHA e gerenciar restrições de site.
-- [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} **Ferramentas do sistema** - Executar operações de gerenciamento de rotina [índice](index-management.md) e [cache](cache-management.md), [fazer backup](backups.md) do sistema, gerenciar [operações agendadas](data-scheduled-import-export.md) e usar uma variedade de [ferramentas de desenvolvedor](developer-tools.md).
+- [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} **Ferramentas do sistema** - Executar operações de gerenciamento de rotina [índice](index-management.md) e [cache](cache-management.md), [fazer backup](backups.md) do sistema, gerenciar [operações agendadas](data-scheduled-import-export.md) e usar uma variedade de [ferramentas de desenvolvedor](developer-tools.md).
 - **Transferência de Dados** - Use as ferramentas de [transferência de dados](data-transfer.md) para importar e exportar dados, bem como gerenciar dados de produto, preço, cliente e alíquota do imposto.
 - **Integrações** - Estabeleça o local das credenciais do OAuth e a URL de redirecionamento para [integrações de terceiros](integrations.md) e identifique os recursos de API disponíveis.
 - **Logs de ação** - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Acesse os registros ([logs de ação](action-log.md)) das alterações feitas pelos usuários administradores que trabalham no seu armazenamento.
-- [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} **Ferramentas de suporte** - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) [Relatórios do Sistema](support.md#access-system-reports)) foram projetadas para identificar problemas conhecidos em seu sistema. Eles podem ser usados como um recurso durante os processos de desenvolvimento e otimização e como uma ferramenta de diagnóstico para ajudar nossa equipe de suporte a identificar e resolver problemas.
+- [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} **Ferramentas de suporte** - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) [Relatórios do Sistema](support.md#access-system-reports)) foram projetadas para identificar problemas conhecidos em seu sistema. Eles podem ser usados como um recurso durante os processos de desenvolvimento e otimização e como uma ferramenta de diagnóstico para ajudar nossa equipe de suporte a identificar e resolver problemas.

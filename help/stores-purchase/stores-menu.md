@@ -2,28 +2,34 @@
 title: Menu [!UICONTROL Stores]
 description: O Administrador do Commerce inclui o menu [!UICONTROL Stores], que fornece acesso às ferramentas para configurar a hierarquia da loja, a configuração, o inventário, os impostos e os atributos.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
-source-git-commit: 48d47b7dfe4ab1162b74d650083e7b1a66456d4f
+TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: 329
 ht-degree: 0%
 
 ---
 
 # Menu [!UICONTROL Stores]
 
-O menu _[!UICONTROL Stores]_&#x200B;fornece acesso a configurações usadas com menos frequência, mas referenciadas durante a instalação do Adobe Commerce ou do Magento Open Source. Essas funções incluem a definição da hierarquia da loja, a configuração, as configurações de vendas e pedidos, os impostos e a moeda, os atributos do produto, as classificações de revisão do produto e os grupos de clientes.
+O menu _[!UICONTROL Stores]_fornece acesso a configurações usadas com menos frequência, mas referenciadas durante a instalação do Adobe Commerce ou do Magento Open Source. Essas funções incluem a definição da hierarquia da loja, a configuração, as configurações de vendas e pedidos, os impostos e a moeda, os atributos do produto, as classificações de revisão do produto e os grupos de clientes.
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 ![Administrador - Menu Lojas](./assets/stores-menu.png){width="500" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
 
 ![Administrador - Menu Lojas](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
 

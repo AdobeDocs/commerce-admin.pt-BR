@@ -3,9 +3,16 @@ title: Trilhas da navegação estrutural
 description: Saiba mais sobre os diferentes padrões de trilha de navegação estrutural e como configurá-los para aparecer nas páginas de conteúdo e catálogo.
 exl-id: 2f60d48e-960f-437c-8f8f-a3d06cc0840a
 feature: Catalog Management, Categories, Site Navigation, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/v1hA4y0MmxxTtH3WbspqosZM1JMk4PMyhK1xeLxALOE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: 394
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 Uma _trilha de navegação estrutural_ é um conjunto de links que mostra ao cliente onde eles estão em relação a outras páginas na loja. Eles podem clicar em qualquer link na trilha de navegação estrutural para retornar à página anterior.
 
-A trilha de navegação estrutural pode ser configurada para aparecer nas páginas de conteúdo e nas páginas do catálogo. O formato e a posição da trilha de navegação estrutural variam de acordo com o tema, mas normalmente ficam logo abaixo do cabeçalho. Por padrão, a trilha de navegação estrutural aparece nas páginas CMS.
+A trilha de navegação estrutural pode ser configurada para aparecer nas páginas de conteúdo e nas páginas do catálogo. O formato e a posição da trilha de navegação estrutural variam de acordo com o tema, mas normalmente ficam logo abaixo do cabeçalho. Por padrão, a trilha de navegação estrutural aparece nas páginas do CMS.
 
 ![Trilha de navegação estrutural exibida na loja](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
 
@@ -44,13 +51,13 @@ Esse tipo de navegação estrutural exibe os atributos selecionados na página d
 
 Exemplo: `Home > Suits > All Suits > Refined by > Slim Fit`
 
-## Adicionar/Remover as navegações estruturais das páginas CMS
+## Adicionar/remover as navegações estruturais das páginas do CMS
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, em _[!UICONTROL General]_, escolha **[!UICONTROL Web]**.
 
-   ![Mostrar navegações estruturais para páginas CMS](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
+   ![Mostrar navegações estruturais para páginas do CMS](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
 1. Expanda a seção _[!UICONTROL Default Pages]_.
 

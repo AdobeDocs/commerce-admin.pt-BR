@@ -2,9 +2,15 @@
 title: Menu [!UICONTROL Sales]
 description: O Administrador do Commerce inclui o menu [!UICONTROL Sales], que fornece acesso a ferramentas para trabalhar com pedidos de acordo com onde eles estão no fluxo de trabalho.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: 621b4729e23952ddd720b4dcc49b5341baae64cc
+TQID: https://experienceleague.adobe.com/mliJ1Q1-DEkR5rAoIRLQ9qBxQopBytjicPiqzWTg7ac
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: 579
 ht-degree: 0%
 
 ---
@@ -17,13 +23,13 @@ O menu Vendas lista as transações de acordo com onde elas estão no workflow d
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 ![Menu Vendas](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
 
 ![Menu Vendas](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
 
@@ -71,7 +77,7 @@ Uma [autorização de mercadoria devolvida](returns.md) (RMA) pode ser concedida
 
 ### [!UICONTROL Billing Agreements]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Um [contrato de cobrança](paypal-billing-agreements.md) é semelhante a uma ordem de compra, exceto que não está limitado a uma única compra. Durante a finalização da compra, o cliente escolhe o Contrato de faturamento como método de pagamento. Um contrato de faturamento simplifica o processo de finalização porque o cliente não precisa inserir informações de pagamento para cada compra.
 
@@ -81,7 +87,7 @@ A página [Transações](transactions.md) lista todas as atividades de pagamento
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Na página do Terminal virtual do Braintree, um usuário administrador pode aceitar o pagamento do valor selecionado. Para disponibilizar o recurso de terminal, um comerciante deve definir as [configurações básicas do Braintree](braintree.md). O Braintree oferece uma experiência de check-out totalmente personalizável com detecção de fraudes e integração com o PayPal.
 

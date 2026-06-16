@@ -2,14 +2,20 @@
 title: Monitoramento do status de sincronização do feed de dados
 description: Monitore a sincronização da exportação de dados e identifique problemas ou atrasos no processamento do feed para  [!DNL Catalog Service], [!DNL Live Search] e [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 3079ee3fe394a73d5ab4168e9e40815c340e386c
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
+TQID: https://experienceleague.adobe.com/Y8vYxKS-8iX-bCLSJpAiJOItWlJk348bSMWfk1Cgpbg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: 1689
 ht-degree: 0%
 
 ---
-
 
 # Monitoramento do status de sincronização do feed de dados
 
@@ -41,33 +47,33 @@ O status é rastreado para os seguintes feeds:
 Use os métodos a seguir para verificar se os dados foram sincronizados com êxito com os serviços conectados da Commerce:
 
 * Para o Adobe Commerce na nuvem ou no local, ou para implantações do Adobe Commerce as a Cloud Service, verifique o [painel de gerenciamento de dados](data-dashboard.md).
-* Para implantações do Adobe Commerce na nuvem ou locais configuradas com o [Conector do Adobe Commerce Optimizer](https://experienceleague.adobe.com/pt-br/docs/commerce/aco-optimizer-connector/overview), verifique a [página Sincronização de Dados](https://experienceleague.adobe.com/pt-br/docs/commerce/optimizer/setup/data-sync) no Commerce Optimizer Studio.
+* Para implantações do Adobe Commerce na nuvem ou locais configuradas com o [Conector do Adobe Commerce Optimizer](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview), verifique a [página Sincronização de Dados](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) no Commerce Optimizer Studio.
 
 >[!TIP]
 >
->Para saber mais sobre o processo de sincronização de dados, consulte [Sincronizar dados com a exportação de dados SaaS](https://experienceleague.adobe.com/pt-br/docs/commerce/saas-data-export/data-synchronization)no *Guia de Exportação de Dados SaaS*.
+>Para saber mais sobre o processo de sincronização de dados, consulte [Sincronizar dados com a exportação de dados SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization)no *Guia de Exportação de Dados SaaS*.
 
 ## Instalar a extensão
 
 A página Status do feed de dados está disponível para todos os comerciantes da Commerce com licenças ativas para os seguintes serviços da Commerce:
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/pt-br/docs/commerce/catalog-service/guide-overview) com uma licença ativa
+* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
+* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) com uma licença ativa
 
 >[!NOTE]
 >
->Não é necessário instalar a extensão Status do Feed de Dados em [[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/pt-br/docs/commerce/cloud-service/overview) instâncias.
+>Não é necessário instalar a extensão Status do Feed de Dados em [[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) instâncias.
 >A extensão estará disponível por padrão se pelo menos um dos seguintes serviços estiver habilitado na implantação do Commerce: Product Recommendations v6+, Live Search v4.1+ ou Catalog Service v1.17+.
 
 **Requisitos**
 
 * PHP 8.1, 8.2, 8.3 ou 8.4
 * Adobe Commerce 2.4.4+
-* [Extensão de Exportação de Dados do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce/saas-data-export/manage-extension), versão 103.4.15 ou posterior
+* [Extensão de Exportação de Dados do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), versão 103.4.15 ou posterior
 * Acesso ao [repo.magento.com](https://repo.magento.com)
 
-  Para gerar chaves e obter os direitos necessários, consulte [Obter suas chaves de autenticação](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Para instalações na nuvem, consulte o [Guia de Infraestrutura do Commerce na Nuvem](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+  Para gerar chaves e obter os direitos necessários, consulte [Obter suas chaves de autenticação](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Para instalações na nuvem, consulte o [Guia de Infraestrutura do Commerce na Nuvem](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 
 * Acesso à linha de comando do servidor de aplicativos do Adobe Commerce.
 
@@ -81,9 +87,9 @@ composer require magento/module-data-exporter-status
 
 Para ver as etapas detalhadas de instalação, consulte os guias a seguir:
 
-* [Instalar extensão no Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [Instalar extensão no Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 
-* [Instalar extensão do Adobe Commerce no local](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [Instalar extensão do Adobe Commerce no local](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## Acessar a página Status do feed de dados
 
@@ -145,7 +151,7 @@ Na parte superior de cada página de detalhes do feed, os indicadores críticos 
 
 >[!TIP]
 >
->Para saber mais sobre o processamento de índice, consulte o tópico [Gerenciamento de índice](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/tools/index-management).
+>Para saber mais sobre o processamento de índice, consulte o tópico [Gerenciamento de índice](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management).
 
 #### Backlog de log de alterações
 
@@ -177,7 +183,7 @@ Quando o número de registros enviados com êxito corresponde ao número de regi
 
 >[!NOTE]
 >
->O Adobe também fornece ferramentas de interface de linha de comando e registros do sistema que desenvolvedores e integradores de sistemas podem usar para gerenciar e rastrear operações de sincronização. Para obter detalhes, consulte o [Guia de Exportação de Dados SaaS](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/saas-data-export/overview).
+>O Adobe também fornece ferramentas de interface de linha de comando e registros do sistema que desenvolvedores e integradores de sistemas podem usar para gerenciar e rastrear operações de sincronização. Para obter detalhes, consulte o [Guia de Exportação de Dados SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### Gerenciamento de exportações com falha
 
@@ -277,5 +283,5 @@ Se precisar ressincronizar itens específicos do feed:
 
 >[!MORELIKETHIS]
 >
->* [Painel de gerenciamento de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
->* [Guia De Exportação De Dados SaaS](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/saas-data-export/overview)
+>* [Painel de gerenciamento de dados](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
+>* [Guia De Exportação De Dados SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)

@@ -3,9 +3,15 @@ title: Política de privacidade da loja
 description: Sua política de privacidade deve descrever o tipo de informações coletadas por sua empresa e como elas são usadas.
 exl-id: d8eaa946-2a12-4a36-8f7e-025778ffa7dd
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+TQID: https://experienceleague.adobe.com/643rt9zfz1cfPwuZs9ZFPXmb5Hgi-5lV8zmDqWlZBeA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: 427
 ht-degree: 0%
 
 ---
@@ -36,7 +42,7 @@ Qualquer representação da informação que permita determinar a identidade de 
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Na grade, localize **[!UICONTROL Privacy Policy]**. Em seguida, na coluna _[!UICONTROL Action]_, clique em **[!UICONTROL Select]**&#x200B;e escolha **[!UICONTROL Edit]**.
+1. Na grade, localize **[!UICONTROL Privacy Policy]**. Em seguida, na coluna _[!UICONTROL Action]_, clique em **[!UICONTROL Select]**e escolha **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >

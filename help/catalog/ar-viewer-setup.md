@@ -2,9 +2,15 @@
 title: '[!DNL AR Viewer] para configuração do Adobe Commerce'
 description: Saiba mais sobre como gerenciar ativos de modelo 3D usando a extensão  [!DNL AR Viewer]  para suas listas de produtos.
 exl-id: e3f081ff-b994-4842-a1f3-613012d33a9c
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+TQID: https://experienceleague.adobe.com/6OlcZ4Psm3INgVm7f-Y9JvqfUdmR6Rg48tcigLAHiaE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 313
 ht-degree: 0%
 
 ---
@@ -19,7 +25,7 @@ O [!DNL AR Viewer] dá suporte apenas a `.USDZ` arquivos.
 
 [!DNL AR Viewer] está instalado como uma extensão do [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target=_blank}.
 
-Consulte o [_Guia de Instalação_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=pt-BR) para obter mais informações sobre o processo de instalação da extensão.
+Consulte o [_Guia de Instalação_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) para obter mais informações sobre o processo de instalação da extensão.
 
 Depois que a extensão [!DNL AR Viewer] for instalada e configurada, os usuários administradores poderão configurar, personalizar e gerenciar listas de produtos para incluir modelos 3D.
 
@@ -61,4 +67,4 @@ Quando os detalhes do produto forem atualizados com o modelo 3D:
 
 >[!NOTE]
 >
-> Para uma série de vídeos de demonstração de um usuário que adiciona um modelo 3d a um produto, consulte a página [Visualizador de AR para Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=pt-BR) em _Vídeos e Tutorials do Commerce_.
+> Para obter uma série de vídeos de demonstração de um usuário que adiciona um modelo 3d a um produto, consulte a página [Visualizador de AR para Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html) em _Vídeos e tutoriais do Commerce_.

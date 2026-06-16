@@ -3,10 +3,16 @@ title: Gerenciamento de cache
 description: Saiba como usar as ferramentas de gerenciamento de cache, que fornecem uma maneira fácil de melhorar o desempenho do seu site.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: https://experienceleague.adobe.com/eVeStZTLha9hm3LWPqckl5GgfYBY4cyrlz2sqbzdXS0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: 1975
 ht-degree: 0%
 
 ---
@@ -17,17 +23,17 @@ O sistema de gerenciamento de cache do Adobe Commerce e do Magento Open Source o
 
 ![Salvar atributo de produto - Mensagem de atualização do cache](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-A página _[!UICONTROL Cache Management]_&#x200B;mostra o status de cada cache primário e sua marca associada. Os botões grandes no canto superior direito podem ser usados para liberar o cache ou o Armazenamento de cache completo. Na parte inferior da página, botões adicionais permitem liberar o cache de imagens do produto de catálogo e o cache do JavaScript/CSS.
+A página _[!UICONTROL Cache Management]_mostra o status de cada cache primário e sua marca associada. Os botões grandes no canto superior direito podem ser usados para liberar o cache ou o Armazenamento de cache completo. Na parte inferior da página, botões adicionais permitem liberar o cache de imagens do produto de catálogo e o cache do JavaScript/CSS.
 
 >[!IMPORTANT]
 >
->Quando entidades de catálogo são alteradas, isso pode afetar outras páginas e invalidar vários caches simultaneamente. Ao revisar a página de gerenciamento de cache, você pode ver itens inválidos que exigem atualização quando _&#x200B;**não foram editados diretamente**&#x200B;_. Por exemplo, essa invalidação ocorre ao editar qualquer produto no catálogo atribuído a qualquer categoria ou ao alterar qualquer regra de produto relacionada.
+>Quando entidades de catálogo são alteradas, isso pode afetar outras páginas e invalidar vários caches simultaneamente. Ao revisar a página de gerenciamento de cache, você pode ver itens inválidos que exigem atualização quando _**não foram editados diretamente**_. Por exemplo, essa invalidação ocorre ao editar qualquer produto no catálogo atribuído a qualquer categoria ou ao alterar qualquer regra de produto relacionada.
 
 Depois de limpar um cache, sempre atualize o navegador para garantir que você possa ver os arquivos mais recentes. Limpar o cache do Commerce não limpa o cache do navegador da Web. Talvez seja necessário limpar o cache do navegador para ver o conteúdo atualizado.
 
 Informações técnicas adicionais sobre o cache do Adobe Commerce estão disponíveis na [Visão geral do cache](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"} no _Guia de Desenvolvimento de Front-end do Commerce_.
 
-Acesse a página _[!UICONTROL Cache Management]_&#x200B;seguindo um destes procedimentos:
+Acesse a página _[!UICONTROL Cache Management]_seguindo um destes procedimentos:
 
 - Clique no link **[!UICONTROL Cache Management]** na mensagem acima do espaço de trabalho.
 - Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
@@ -87,7 +93,7 @@ Para obter informações sobre como atribuir recursos para conceder acesso a con
 
 ## Liberar o cache de imagem do produto
 
-1. Em _[!UICONTROL Additional Cache Management]_, clique em **[!UICONTROL Flush Catalog Images Cache]**&#x200B;para limpar os arquivos de imagem de produto pré-gerados.
+1. Em _[!UICONTROL Additional Cache Management]_, clique em **[!UICONTROL Flush Catalog Images Cache]**para limpar os arquivos de imagem de produto pré-gerados.
 
    A mensagem `Image cache was cleaned` aparece na parte superior do espaço de trabalho.
 
@@ -103,13 +109,13 @@ Para obter informações sobre como atribuir recursos para conceder acesso a con
 
 ## Liberar usando a linha de comando
 
-Os administradores de sistema e desenvolvedores com acesso ao servidor de aplicativos do Commerce também podem gerenciar a configuração de cache e cache a partir da linha de comando usando a CLI do Commerce. Consulte [Gerenciar o cache](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} no _Guia de Configuração_.
+Os administradores de sistema e desenvolvedores com acesso ao servidor de aplicativos do Commerce também podem gerenciar a configuração de cache e cache a partir da linha de comando usando a CLI do Commerce. Consulte [Gerenciar o cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} no _Guia de Configuração_.
 
 ## Controles
 
 | Controle | Descrição |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Mass Actions] | Marca a caixa de seleção de vários caches. Opções: <br/>**[!UICONTROL Select All]**— Marca a caixa de seleção de todos os caches.<br/>**&#x200B; Desmarcar Tudo &#x200B;**— Limpa a caixa de seleção de todos os caches.<br/>**[!UICONTROL Select Visible]** — Marca a caixa de seleção de todos os caches visíveis. <br/>**[!UICONTROL Unselect Visible]**— Limpa a caixa de seleção de todos os caches visíveis. |
+| [!UICONTROL Mass Actions] | Marca a caixa de seleção de vários caches. Opções: <br/>**[!UICONTROL Select All]**— Marca a caixa de seleção de todos os caches.<br/>** Desmarcar Tudo **— Limpa a caixa de seleção de todos os caches.<br/>**[!UICONTROL Select Visible]** — Marca a caixa de seleção de todos os caches visíveis. <br/>**[!UICONTROL Unselect Visible]**— Limpa a caixa de seleção de todos os caches visíveis. |
 | [!UICONTROL Actions] | Determina a ação a ser aplicada a todos os caches selecionados. Opções: <br/>**[!UICONTROL Enable]**— Habilita todos os caches selecionados.<br/>**[!UICONTROL Disable]** — Desabilita todos os caches selecionados. <br/>**[!UICONTROL Refresh]**— Atualiza todos os caches selecionados. |
 | [!UICONTROL Submit] | Aplica a ação a todos os caches selecionados. |
 
@@ -137,11 +143,11 @@ A página [!UICONTROL Cache Management] lista os tipos de cache que você pode g
 
 Desenvolvedores e integradores de sistema usam esses valores para configurar e gerenciar o armazenamento em cache ao personalizar ou integrar com o Adobe Commerce, por exemplo, desenvolvendo integrações usando APIs do GraphQL.
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} O `cache_type_id` também é usado para gerenciamento de cache a partir da linha de comando do servidor de aplicativos usando a CLI do Commerce. Por exemplo, ` bin/magento cache:status config` exibe o status atual do cache de Configuração.
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} O `cache_type_id` também é usado para gerenciamento de cache a partir da linha de comando do servidor de aplicativos usando a CLI do Commerce. Por exemplo, ` bin/magento cache:status config` exibe o status atual do cache de Configuração.
 
 >[!NOTE]
 >
->Desenvolvedores e integradores de sistemas podem personalizar e estender o sistema de gerenciamento de cache do Commerce para suportar módulos e integrações personalizados. Para obter detalhes, consulte [Configurar o armazenamento em cache](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cache/caching-overview) no _Guia de Configuração do Adobe Commerce_.
+>Desenvolvedores e integradores de sistemas podem personalizar e estender o sistema de gerenciamento de cache do Commerce para suportar módulos e integrações personalizados. Para obter detalhes, consulte [Configurar o armazenamento em cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) no _Guia de Configuração do Adobe Commerce_.
 
 <!-- prettier-ignore -->
 
@@ -184,7 +190,7 @@ O conteúdo em cache pode ser usado para processar as solicitações de tipos se
 - `Sessioned` - Durante uma visita em sessão, os compradores que interagem com o armazenamento recebem uma ID de sessão. As interações incluem atividades como comparar produtos ou adicionar produtos ao carrinho. As páginas em cache geradas durante a sessão são usadas somente por esse comprador durante a sessão.
 - `Customer` - Sessões de clientes são criadas para clientes que fazem login e fazem compras usando suas contas registradas. Durante a sessão, os clientes podem receber ofertas especiais, promoções e preços com base no grupo de clientes atribuído.
 
-Para obter informações técnicas, consulte [Configurar e Usar Verniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=pt-BR){:target="_blank"} e [Usar Redis para a página do Commerce e o cache padrão](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=pt-BR){:target="_blank"} no _Guia de Configuração_.
+Para obter informações técnicas, consulte [Configurar e Usar Verniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} e [Usar Redis para a página do Commerce e o cache padrão](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target="_blank"} no _Guia de Configuração_.
 
 **_Para configurar o cache de página inteira:_**
 
@@ -203,7 +209,7 @@ Para obter informações técnicas, consulte [Configurar e Usar Verniz](https://
 
 1. Para definir o tempo limite do cache de páginas, insira o **[!UICONTROL TTL for public content]**. (O valor padrão é `86400`)
 
-1. Para especificar o número máximo de [identificadores de layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) a serem processados no ponto de extremidade HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=pt-BR), digite o **[!UICONTROL Handles param size]**. Restringir o tamanho pode melhorar a segurança e o desempenho. (O valor padrão é `100`)
+1. Para especificar o número máximo de [identificadores de layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) a serem processados no ponto de extremidade HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html), digite o **[!UICONTROL Handles param size]**. Restringir o tamanho pode melhorar a segurança e o desempenho. (O valor padrão é `100`)
 
 1. Se estiver usando verniz, conclua a seção **[!UICONTROL Varnish Configuration]** da seguinte maneira:
 
@@ -213,7 +219,7 @@ Para obter informações técnicas, consulte [Configurar e Usar Verniz](https://
 
    - **[!UICONTROL Backend port]** - Identifique a porta de back-end usada para gerar arquivos de configuração. Valor padrão: `8080`.
 
-   - **[!UICONTROL Grace period]** - Especifique o número de segundos a ser usado como um período de carência para gerar arquivos de configuração. Consulte [Configuração avançada de verniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=pt-BR) no _Guia de Configuração_.
+   - **[!UICONTROL Grace period]** - Especifique o número de segundos a ser usado como um período de carência para gerar arquivos de configuração. Consulte [Configuração avançada de verniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) no _Guia de Configuração_.
 
    - Para exportar a configuração como um arquivo `varnish.vcl`, clique no botão da versão de Verniz que você usa.
 

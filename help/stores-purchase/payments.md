@@ -3,9 +3,16 @@ title: Visão geral de pagamentos
 description: Saiba mais sobre os métodos e serviços de pagamento compatíveis nativamente com o Adobe Commerce e o Magento Open Source.
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/nu9qbRkc1OWOxkg-eERyZKuGwj0oc8wXDdSCMqGxe1I
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c32adafa-ed01-4b31-997e-2413013911b0
+subfeature_v2: id: f2261633-201d-46c5-8a66-999e70527a83
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: 900
 ht-degree: 0%
 
 ---
@@ -16,7 +23,7 @@ O Adobe Commerce e o Magento Open Source são compatíveis com uma grande varied
 
 >[!TIP]
 >
->Os Payment Services for Adobe Commerce and Magento Open Source fornecem uma solução de autoatendimento pronta para uso, incluindo teste de sandbox e uma configuração simples, para fornecer um processamento de pagamento robusto e seguro. Para saber mais sobre este poderoso conjunto de ferramentas e como ele pode fornecer a você o controle e a insight necessários para criar a melhor experiência para seus compradores, consulte o [Guia do Usuário dos Serviços de Pagamento](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=pt-BR). Esta é a solução de pagamentos padrão no [Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/pt-br/docs/commerce/cloud-service/overview).
+>Os Payment Services for Adobe Commerce and Magento Open Source fornecem uma solução de autoatendimento pronta para uso, incluindo teste de sandbox e uma configuração simples, para fornecer um processamento de pagamento robusto e seguro. Para saber mais sobre este poderoso conjunto de ferramentas e como ele pode fornecer a você o controle e a insight necessários para criar a melhor experiência para seus compradores, consulte o [Guia do Usuário dos Serviços de Pagamento](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html). Esta é a solução de pagamentos padrão no [Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview).
 
 >[!NOTE]
 >
@@ -24,13 +31,13 @@ O Adobe Commerce e o Magento Open Source são compatíveis com uma grande varied
 
 ## Alterações no ponto 2.4
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Algumas integrações de pagamento e extensões agrupadas foram removidas nas versões 2.4.x e movidas para a Commerce Marketplace. Você pode encontrar as últimas extensões oficiais de integração de pagamento no [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
 
 - **Pagamento do Amazon** e **Klarna**: as versões 2.4.0 a 2.4.3 da Adobe Commerce e do Magento Open Source incluíam essas extensões desenvolvidas pelo fornecedor. A partir da versão 2.4.4, essas extensões não serão mais agrupadas com a versão principal e deverão ser instaladas e atualizadas do Commerce Marketplace. O Marketplace também fornece acesso à documentação atual fornecida pelo desenvolvedor da extensão.
 
-  Se você tiver uma dessas extensões agrupadas ativadas e configuradas, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=pt-BR) no _Guia de Atualização_ para obter mais informações.
+  Se você tiver uma dessas extensões agrupadas ativadas e configuradas, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) no _Guia de Atualização_ para obter mais informações.
 
 - **Worldpay**, **Eway**, **CyberSource** e **Authorize.Net**: para obter detalhes sobre como fazer uma transição segura dessas integrações de pagamento, consulte o [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
@@ -51,19 +58,19 @@ A Adobe Commerce e a Magento Open Source oferecem suporte a várias soluções d
 
 ### Soluções recomendadas
 
-- [Serviços de pagamento](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=pt-BR)
-- [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} [Check-out do PayPal Express](paypal-express-checkout.md)
-- [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} [Braintree](braintree.md)
+- [Payment Services](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} [Check-out do PayPal Express](paypal-express-checkout.md)
+- [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} [Braintree](braintree.md)
 
 ### Outras soluções de pagamento PayPal
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Consulte [Soluções de pagamento do PayPal](paypal.md) para obter mais informações sobre as opções de método de pagamento do PayPal.
 
 #### Soluções PayPal completas
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 - [Pagamentos do PayPal Avançados](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
@@ -71,20 +78,20 @@ Consulte [Soluções de pagamento do PayPal](paypal.md) para obter mais informa�
 
 #### Gateways de pagamento do PayPal
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md)
 - [Link do fluxo de pagamento do PayPal](paypal-payflow-link.md)
 
 ## Proteção contra fraude
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Os serviços e filtros de proteção contra fraude examinam os pedidos enviados antes que a transação seja processada para detectar pedidos fraudulentos e protegê-lo contra as despesas de cobranças retroativas. A Adobe Commerce e a Magento Open Source oferecem suporte às seguintes soluções de proteção contra fraudes:
 
 - [Filtro de Gerenciamento de Fraude do PayPal](paypal.md#paypal-fraud-management-filters)
 
-- [Soluções de Proteção contra Fraude no Marketplace](https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection)
+- [Soluções de proteção contra fraudes no Marketplace](https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection)
 
 >[!NOTE]
 >
@@ -92,6 +99,6 @@ Os serviços e filtros de proteção contra fraude examinam os pedidos enviados 
 
 ## Solução de problemas de recursos
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
-Para obter ajuda com a solução de problemas de pagamento, consulte a [Base de Dados de Conhecimento de Suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=pt-BR).
+Para obter ajuda com a solução de problemas de pagamento, consulte a [Base de Dados de Conhecimento de Suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html).

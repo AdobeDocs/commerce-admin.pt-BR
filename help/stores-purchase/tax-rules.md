@@ -3,9 +3,14 @@ title: Regras de imposto
 description: Saiba como definir as regras de imposto usando a classe do produto, a classe do cliente e a alíquota do imposto.
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
 feature: Taxes, Currency
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/ik-dbYrFRZQ9EvgjFCx6pv5WBnPtk6AHBe2oB4GPn8I
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: 439
 ht-degree: 0%
 
 ---
@@ -96,4 +101,4 @@ As regras de imposto incorporam uma combinação de classe de produto, classe de
 
 Saiba mais sobre como gerenciar regras de moeda e impostos assistindo a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411983/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)

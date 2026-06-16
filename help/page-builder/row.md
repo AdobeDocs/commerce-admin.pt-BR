@@ -3,9 +3,15 @@ title: Layout - Linha
 description: Saiba mais sobre o tipo de conteúdo Linha, usado para adicionar uma linha no estágio  [!DNL Page Builder] .
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/69IYa3jE6VTO6PXToXkDhfu8B4-KJw9sv0cO-NgUBOM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: 1620
 ht-degree: 0%
 
 ---
@@ -38,7 +44,7 @@ A caixa de ferramentas da linha é exibida quando você passa o mouse sobre o co
 
 ## Adicionar uma linha
 
-1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste uma nova **[!UICONTROL Row]**&#x200B;para o estágio, logo abaixo da primeira linha.
+1. No painel [!DNL Page Builder], em _[!UICONTROL Layout]_, arraste uma nova **[!UICONTROL Row]**para o estágio, logo abaixo da primeira linha.
 
 1. Para formatar a linha, passe o mouse sobre o contêiner de linha para exibir a caixa de ferramentas e escolha o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -114,7 +120,7 @@ Um tipo de plano de fundo pode ser uma imagem ou um vídeo. O [!DNL Page Builder
 
 ### Configurações de tipo de imagem
 
-Se você definir o _[!UICONTROL Background Type]_&#x200B;como `Image`, use as seguintes configurações para definir a exibição da imagem de fundo.
+Se você definir o _[!UICONTROL Background Type]_como `Image`, use as seguintes configurações para definir a exibição da imagem de fundo.
 
 ![Imagem de plano de fundo](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 

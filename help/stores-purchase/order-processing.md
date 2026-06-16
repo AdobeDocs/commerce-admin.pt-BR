@@ -3,9 +3,16 @@ title: Fluxo de trabalho e processamento da ordem
 description: Saiba mais sobre o fluxo de trabalho do pedido, o status que se aplica a cada etapa e como mover pedidos por meio desse processo.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
+TQID: https://experienceleague.adobe.com/GSPZ5Z-3WpnZ-dPRnSqD4ud--cX78Q7lSHGQDuapg4U
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: 1834
 ht-degree: 0%
 
 ---
@@ -116,7 +123,7 @@ Para restaurar um pedido cancelado, clique no botão **[!UICONTROL Reorder]** e 
 
 ### Anular um pedido
 
-Somente ordens de venda que não são faturadas, têm um status de `Processing` e uma configuração de integração de pagamento [&#x200B; de `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions) podem ser [anuladas](order-update.md#void-a-processing-order). Depois de anular um pedido, você pode cancelá-lo.
+Somente ordens de venda que não são faturadas, têm um status de `Processing` e uma configuração de integração de pagamento [ de `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions) podem ser [anuladas](order-update.md#void-a-processing-order). Depois de anular um pedido, você pode cancelá-lo.
 
 ### [!UICONTROL Order and Account Information]
 
@@ -169,7 +176,7 @@ Somente ordens de venda que não são faturadas, têm um status de `Processing` 
 
 ### Atributos da Ordem Personalizada
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Os atributos personalizados do pedido permitem associar informações adicionais específicas às suas necessidades comerciais com o pedido.
 
@@ -250,4 +257,4 @@ Na seção **[!UICONTROL Order Total]**, faça o seguinte:
 
 Assista a este vídeo e saiba mais sobre o processamento de pedidos e o status:
 
->[!VIDEO](https://video.tv.adobe.com/v/3412501/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

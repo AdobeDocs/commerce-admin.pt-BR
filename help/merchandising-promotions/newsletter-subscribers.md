@@ -3,9 +3,15 @@ title: Gerenciar assinantes do informativo
 description: Saiba como gerenciar os assinantes do boletim informativo usando uma lista simples de assinaturas ativas.
 exl-id: c7e8e642-e3fd-4979-9ea3-2d96839730b2
 feature: Customers, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/l4Kmwm62UeLYZva-SCsVHPmf4IbKQhgoyN9N7zo4O0g
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: 509
 ht-degree: 0%
 
 ---
@@ -58,7 +64,7 @@ Se quiser usar um serviço de terceiros para enviar informativos, é possível e
    >
    >Para um cancelamento de subscrição em massa, marque a caixa de seleção de cada assinante que deseja cancelar.
 
-1. Defina o controle _[!UICONTROL Action]_&#x200B;como **[!UICONTROL Unsubscribe]**&#x200B;e clique em **[!UICONTROL Submit]**.
+1. Defina o controle _[!UICONTROL Action]_como **[!UICONTROL Unsubscribe]**e clique em **[!UICONTROL Submit]**.
 
    ![Cancelar assinatura do informativo](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -83,6 +89,6 @@ Se quiser usar um serviço de terceiros para enviar informativos, é possível e
 
 1. Localize o assinante na grade e marque a caixa de seleção na primeira coluna.
 
-1. Defina o controle _[!UICONTROL Action]_&#x200B;como **[!UICONTROL Delete]**&#x200B;e clique em **[!UICONTROL Submit]**.
+1. Defina o controle _[!UICONTROL Action]_como **[!UICONTROL Delete]**e clique em **[!UICONTROL Submit]**.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.

@@ -3,16 +3,22 @@ title: Criar um pedido
 description: Saiba como criar um pedido para um cliente no Administrador do Commerce.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 0e2d79f6b716f5d59aa9cd60b096608a6b2dbb98
+TQID: https://experienceleague.adobe.com/0TUx-cDuonSkm4G0zWaU95ZKDuB-yhPb0aaEW57K-3g
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: 376
 ht-degree: 0%
 
 ---
 
 # Criar um pedido
 
-Para clientes registrados que precisam de assistência, você pode criar um pedido inteiro diretamente do administrador. O formulário _[!UICONTROL Create New Order]_&#x200B;inclui todas as informações necessárias para o processo normal de check-out, com resumos de atividades do painel de conta do cliente.
+Para clientes registrados que precisam de assistência, você pode criar um pedido inteiro diretamente do administrador. O formulário _[!UICONTROL Create New Order]_inclui todas as informações necessárias para o processo normal de check-out, com resumos de atividades do painel de conta do cliente.
 
 ![Criar um pedido para um cliente](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -95,11 +101,11 @@ Você pode transferir itens para o carrinho da lista de desejos de um cliente ou
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [[!UICONTROL [Atributos da ordem personalizada]]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [!UICONTROL [Atributos da ordem personalizada]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->Consulte o [Guia dos Serviços de Pagamento](https://experienceleague.adobe.com/pt-br/docs/commerce/payment-services/guide-overview) para obter mais informações sobre métodos de pagamento para dar suporte a esta funcionalidade quando a extensão dos Serviços de Pagamento for instalada e configurada.
+>Consulte o [Guia dos Serviços de Pagamento](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) para obter mais informações sobre métodos de pagamento para dar suporte a esta funcionalidade quando a extensão dos Serviços de Pagamento for instalada e configurada.
 
 ## Etapa 3: enviar o pedido
 

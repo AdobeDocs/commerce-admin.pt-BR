@@ -4,10 +4,17 @@ description: Saiba como configurar o CAPTCHA para acesso de Administrador e vár
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: https://experienceleague.adobe.com/w7DLKLlK4MsGrK9kOw3-dsgEUqsGhszgjiZ7F9Vr0ak
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: 992
 ht-degree: 0%
 
 ---
@@ -52,7 +59,7 @@ Para obter um nível extra de segurança, você pode adicionar um CAPTCHA à pá
    - Defina **[!UICONTROL Displaying Modes]** como um dos seguintes:
 
       - `Always` — CAPTCHA é sempre necessário para fazer logon no Admin.
-      - `After number of attempts to login` — Esta opção aplica-se somente ao formulário Login do Administrador. Quando selecionado, o campo _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;é exibido. Insira o número de tentativas de logon que deseja permitir. Um valor de 0 (zero) é semelhante a configurar o Modo de Exibição como `Always`.
+      - `After number of attempts to login` — Esta opção aplica-se somente ao formulário Login do Administrador. Quando selecionado, o campo _[!UICONTROL Number of Unsuccessful Attempts to Login]_é exibido. Insira o número de tentativas de logon que deseja permitir. Um valor de 0 (zero) é semelhante a configurar o Modo de Exibição como `Always`.
 
      Para rastrear o número de tentativas de logon malsucedidas, cada tentativa de logon com um endereço de email e a partir de um endereço IP é contada. O número máximo de tentativas de logon permitidas no mesmo endereço IP é 1.000. Essa limitação se aplica somente quando CAPTCHA está ativado.
 
@@ -98,7 +105,7 @@ Os clientes podem ser solicitados a inserir um CAPTCHA sempre que fizerem logon 
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` (consulte o artigo [patch de segurança](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=pt-BR) _Base de Dados de Conhecimento_)
+      - `Payflow Pro` (consulte o artigo [patch de segurança](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _Base de Dados de Conhecimento_)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce)
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com Adobe Commerce B2B)

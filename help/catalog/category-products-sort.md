@@ -3,9 +3,16 @@ title: Classificar produtos da categoria
 description: Saiba como definir o posicionamento de produtos em uma categoria manualmente ou aplicando uma ordem de classificação predefinida.
 exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
 feature: Catalog Management, Categories, Products
-source-git-commit: 5aea3aa13ab0eb74866fc0cbcbfe08b5099abe95
+TQID: https://experienceleague.adobe.com/Co2sHVc4YaLqjVrc-Varq9-ssecBB-C2mL3MTAPuQbU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 424
 ht-degree: 0%
 
 ---
@@ -24,7 +31,7 @@ Você pode configurar as opções de categoria separadamente para cada [exibiç�
 
 1. Se necessário, escolha a **[!UICONTROL Store View]** à qual as configurações se aplicam.
 
-   Para uma instalação com vários armazenamentos, a configuração _[!UICONTROL Store View]_&#x200B;aplica a ordem de classificação a todas as exibições disponíveis no armazenamento.
+   Para uma instalação com vários armazenamentos, a configuração _[!UICONTROL Store View]_aplica a ordem de classificação a todas as exibições disponíveis no armazenamento.
 
 1. Na árvore de categorias à esquerda, escolha a categoria que deseja editar.
 
@@ -34,7 +41,7 @@ Você pode configurar as opções de categoria separadamente para cada [exibiç�
 
 >[!NOTE]
 >
->Ao classificar uma categoria por um atributo de produto, os produtos com os mesmos valores de atributo também são classificados por seu _[!UICONTROL Product ID]_&#x200B;na ordem crescente.
+>Ao classificar uma categoria por um atributo de produto, os produtos com os mesmos valores de atributo também são classificados por seu _[!UICONTROL Product ID]_na ordem crescente.
 
 Na seção _[!UICONTROL Products in Category]_, clique no ícone de blocos ( ![Exibir blocos](../assets/icon-view-tiles.png) ) para mostrar os blocos de produtos em uma grade. Use o método manual ou automático para classificar os produtos.
 

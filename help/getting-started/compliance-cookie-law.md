@@ -3,9 +3,16 @@ title: Conformidade com a lei de cookies
 description: Para acompanhar a legislação de muitos países em relação ao uso de cookies, o Adobe Commerce e o Magento Open Source oferecem aos comerciantes uma variedade de métodos para obter o consentimento do cliente.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: c68b464025c00acd4aea6a23aef97fb440e2ed05
+TQID: https://experienceleague.adobe.com/rc1dM34EmsdcQn1gZYxuk1umalquicEvruNlFyRldLI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: 2322
 ht-degree: 0%
 
 ---
@@ -112,9 +119,9 @@ Alguns desses cookies podem fornecer opções de configuração, incluindo ativa
 
 ## Cookies de recomendações de produto
 
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir são usados pelas Recomendações de Produto para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir são usados pelas Recomendações de Produto para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: permite [restringir a coleta de dados do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/developer/setting-cookie) se você tiver um código personalizado para gerenciar o consentimento de cookies no site.
+- `mg_dnt`: permite [restringir a coleta de dados do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) se você tiver um código personalizado para gerenciar o consentimento de cookies no site.
 - `user_allowed_save_cookie`: Usado para [modo de restrição de cookies](#cookie-restriction-mode).
 - `authentication_flag`: indica se um comprador entrou ou saiu. Este cookie é atualizado ao mesmo tempo que o cookie `dataservices_customer_id`.
 - `dataservices_customer_id`: indica se um comprador entrou ou saiu. Este cookie contém o identificador exclusivo do cliente no sistema.
@@ -134,8 +141,8 @@ Os dados a seguir são salvos no armazenamento local para lojas que usam o tema 
 
 ## Cookies adicionais
 
-![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir estão definidos para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir estão definidos para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: Definido pelo rastreador Snowplow JavaScript. Mais informações podem ser encontradas na [documentação do Snowplow](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Dado o nome de host da página da Web atual, este é o domínio mais alto que não é um &quot;sufixo público&quot;, conforme descrito em https://publicsuffix.org. Essencialmente, esse é o domínio mais alto que pode aceitar cookies. Este cookie faz parte do [Alloy Web SDK](https://github.com/adobe/alloy).
-- `aep-segments-membership`: Contém [informações de público-alvo](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/audience-activation), como a qual segmento um comprador pertence.
+- `aep-segments-membership`: Contém [informações de público-alvo](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation), como a qual segmento um comprador pertence.

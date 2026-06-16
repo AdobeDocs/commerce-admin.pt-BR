@@ -3,9 +3,15 @@ title: '[!DNL Google Analytics]'
 description: Saiba como você pode usar o [!DNL Google Analytics] para coletar métricas úteis para seus sites do Commerce.
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/3YXwPB-1yDciblELQDGHXfnv1hwPJAW4Us0iG6vCf0k
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: 766
 ht-degree: 0%
 
 ---
@@ -31,7 +37,7 @@ O [!DNL Google Analytics] oferece a capacidade de definir dimensões e métricas
 Se você ainda não tiver uma configuração do [!DNL Google Analytics] 4 para o seu site, siga um destes métodos:
 
 - [Configurar a coleta de dados do Analytics pela primeira vez](https://support.google.com/analytics/answer/9304153)
-- [Adicionar o Google Analytics 4 a um site com [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
+- [Adicionar o Google Analytics 4 a um site com o  [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
 
 ### Etapa 2: concluir a configuração do Commerce
 

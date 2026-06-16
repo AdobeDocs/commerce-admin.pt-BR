@@ -3,9 +3,15 @@ title: Regras de preço de catálogo
 description: Saiba mais sobre as regras de preço de catálogo que podem ser usadas para oferecer produtos a compradores por um preço com desconto com base em um conjunto de condições definidas.
 exl-id: 8da95076-d724-41f6-b3ca-e61ff1906b72
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+TQID: https://experienceleague.adobe.com/JZE2DF0tp-XOsKjxo-WaQiwA3Y-FrM4TI5qq-Nze-qo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: 468
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ Por exemplo, você pode definir e definir as condições para uma regra de preç
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Também é possível vincular uma regra definida a um [bloco dinâmico](../content-design/dynamic-blocks.md) para ajudar a promover o evento ou produto em sua loja.
 
-- ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Para promoções recorrentes, é possível definir manualmente uma regra salva como status _Ativo_ ou _Inativo_ sempre que desejar executar a promoção.
+- ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Para promoções recorrentes, você pode definir manualmente uma regra salva para o status _Ativo_ ou _Inativo_ sempre que desejar executar a promoção.
 
 ## Acessar regras de preço de catálogo
 
@@ -30,7 +36,7 @@ Por exemplo, você pode definir e definir as condições para uma regra de preç
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Clique em **[!UICONTROL Edit]** para exibir a página _Informações da Regra_.
 
-   - ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Clique na regra da lista para exibir a página Informações da Regra.
+   - ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Clique na regra na lista para exibir a página Informações da Regra.
 
    Você pode alterar as configurações da regra (semelhante a [criando uma regra](price-rules-catalog-create.md)).
 
@@ -43,8 +49,8 @@ Por exemplo, você pode definir e definir as condições para uma regra de preç
 | [!UICONTROL Priority] | ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Digite texto neste campo para filtrar a lista com base na prioridade definida para uma regra. |
 | [!UICONTROL Web Site] | ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Use essa opção para filtrar a lista com base nos sites definidos para uma regra. |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Clique em **[!UICONTROL Edit]** para exibir as Informações da Regra e atualizar as configurações da regra (semelhante à criação de uma regra). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (Para: e De:) para filtrar a lista com base na data de início da regra conforme definido quando a regra foi criada. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (Para: e De:) para filtrar a lista com base na data final da regra conforme definido quando a regra foi criada. |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (Para: e De:) para filtrar a lista com base na data de início da regra, conforme definido quando a regra foi criada. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (Para: e De:) para filtrar a lista com base na data de término da regra, conforme definido quando a regra foi criada. |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use esta opção para filtrar a lista com base no status da regra (`Active` ou `Inactive`). |
 
 {style="table-layout:auto"}

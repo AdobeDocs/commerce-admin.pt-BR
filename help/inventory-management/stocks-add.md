@@ -2,9 +2,15 @@
 title: Adicionar um estoque de estoque
 description: Saiba como adicionar um estoque e mapear fontes para canais de vendas (sites), fornecendo um link direto para quantidades comercializáveis e inventários de produtos.
 exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/oP-H4hvUmNunTl-hThx4ytzC6qOXa1PhK4P1omwFBUg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: 409
 ht-degree: 0%
 
 ---
@@ -35,9 +41,9 @@ Depois de adicionar origens, você deve priorizar a ordem das origens de cima (p
 
    >[!NOTE]
    >
-   >Se você selecionar um site ou canal de vendas atribuído a outro estoque, ele será desatribuído desse estoque. Qualquer Sales Channel não atribuído a um estoque personalizado é atribuído ao Estoque padrão.
+   >Se você selecionar um site ou canal de vendas atribuído a outro estoque, ele será desatribuído desse estoque. Todos os Canais de vendas não atribuídos a um estoque personalizado são atribuídos ao Estoque padrão.
 
-   ![opções de Sales Channel para ações](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
+   ![Opções de canais de vendas para estoques](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Sources]** e faça o seguinte para qualquer estoque diferente do padrão:
 
@@ -75,4 +81,4 @@ Depois de adicionar origens, você deve priorizar a ordem das origens de cima (p
 | [!UICONTROL Websites] | Define o [escopo](../getting-started/websites-stores-views.md#scope-settings) do estoque atribuindo o estoque a sites específicos como _canais de vendas_. Selecione um ou mais sites por estoque. Cada site só pode ser atribuído a um estoque. |
 | **[!UICONTROL Sources]** | |
 | [!UICONTROL Assign Sources] | Atribui origens de estoque a esse estoque. As fontes personalizadas não podem ser atribuídas ao Estoque padrão. |
-| [!UICONTROL Assigned Sources] | Lista de fontes atribuídas. Arraste e solte as fontes usando o ![Ícone Classificar](assets/icon-sort.png) em uma ordem priorizada para atendimento e remessa de pedidos.<br/><br/>**[!UICONTROL Code]**- Identificação de código exclusivo para a origem.<br/>**[!UICONTROL Name]** - Descrição de nome da origem.<br/>**[!UICONTROL Unassign]**- Remover a origem atribuída do estoque usando o ![ícone Lixeira](../assets/icon-delete-trashcan-solid.png). |
+| [!UICONTROL Assigned Sources] | Lista de fontes atribuídas. Arraste e solte as fontes usando o ![Ícone Classificar](assets/icon-sort.png) em uma ordem priorizada para atendimento e remessa de pedidos.<br/><br/>**[!UICONTROL Code]**- Identificação de código exclusivo para a origem.<br/>**[!UICONTROL Name]** - Descrição de nome da origem.<br/>**[!UICONTROL Unassign]**- Remova a origem atribuída do estoque usando o ![ícone Lixeira](../assets/icon-delete-trashcan-solid.png). |

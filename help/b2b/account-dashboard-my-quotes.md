@@ -3,17 +3,22 @@ title: '[!UICONTROL My Quotes]'
 description: Saiba mais sobre a experiência do cliente para cotações, que está disponível no painel de conta.
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
-source-git-commit: 6cf53c7caf37c24be473afecfba829595c14cb8c
+TQID: https://experienceleague.adobe.com/GaasaCrnKreiLSyt2QJp8rffloiC0LJ0-bvdZZ8F5aQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: 1221
 ht-degree: 0%
 
 ---
 
-
 # [!UICONTROL My Quotes]
 
-Se as cotações estiverem habilitadas, a seção _[!UICONTROL My Quotes]_&#x200B;do painel da conta do cliente listará todas as cotações enviadas pelo cliente. Dependendo das permissões, somente os compradores que fazem compras em nome de uma empresa podem enviar solicitações para negociar o preço de uma compra.
+Se as cotações estiverem habilitadas, a seção _[!UICONTROL My Quotes]_do painel da conta do cliente listará todas as cotações enviadas pelo cliente. Dependendo das permissões, somente os compradores que fazem compras em nome de uma empresa podem enviar solicitações para negociar o preço de uma compra.
 
 ![Minhas Cotações](./assets/account-dashboard-my-quotes.png){width="700" zoomable="yes"}
 
@@ -158,13 +163,13 @@ Quando o comprador adiciona o endereço, o vendedor fornece as opções de envio
 
 1. Na aspa aberta logo acima da seção Itens entre Aspas, clique em **[!UICONTROL Close quote]**.
 
-   A solicitação foi cancelada e o status da cotação muda para `Closed`. A cotação fechada permanece na lista de cotações e permanece listada na grade _[!UICONTROL Quotes]_&#x200B;do Administrador.
+   A solicitação foi cancelada e o status da cotação muda para `Closed`. A cotação fechada permanece na lista de cotações e permanece listada na grade _[!UICONTROL Quotes]_do Administrador.
 
 1. Para remover a cotação cancelada da lista de cotações, clique em **[!UICONTROL Delete]**.
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL OK]**.
 
-   A cotação fechada é removida da lista de cotações. No entanto, ela permanece listada na grade _[!UICONTROL Quotes]_&#x200B;no Administrador, com o status `Closed`.
+   A cotação fechada é removida da lista de cotações. No entanto, ela permanece listada na grade _[!UICONTROL Quotes]_no Administrador, com o status `Closed`.
 
 ## Ações da Cotação
 
@@ -184,6 +189,6 @@ Quando o comprador adiciona o endereço, o vendedor fornece as opções de envio
 | [!UICONTROL Quote Name] | O nome atribuído à solicitação de cotação pelo comprador. |
 | [!UICONTROL Created] | A data em que a solicitação de cotação foi enviada pela primeira vez. |
 | [!UICONTROL Created By] | O nome e sobrenome do comprador que submeteu a solicitação de cotação. |
-| [!UICONTROL Status] | Indica o status da cotação. O status de uma cotação só pode ser alterado por ação por parte do comprador ou do vendedor. <br/>**[!UICONTROL Submitted]**- A solicitação de cotação do comprador ainda não foi aberta pelo vendedor. Enquanto estiver nesse estado, o comprador ainda poderá modificar a solicitação de uma cotação. Ações disponíveis: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - O vendedor abriu a solicitação e está em processo de analisá-la e preparar uma resposta. Ações disponíveis: `View` / `Close` <br/>**[!UICONTROL Updated]**- O vendedor enviou uma resposta ao comprador e o botão _[!UICONTROL Proceed to Checkout]_&#x200B;está habilitado. Enquanto estiver nesse estado, o comprador poderá continuar modificando a cotação. Ações disponíveis: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- O comprador ainda está atualizando a cotação e o botão&#x200B;_[!UICONTROL Proceed to Checkout]_ está desabilitado. Ações disponíveis: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- O comprador enviou um pedido com base na cotação negociada. A cotação está bloqueada e não pode ser editada. Ação disponível: Exibição<br/>**[!UICONTROL Closed]** - O comprador finalizou a negociação e cancela a cotação. A cotação está bloqueada e não pode ser editada pelo comprador ou vendedor. Ações disponíveis: `View` / `Delete` <br/>**[!UICONTROL Declined]**- O vendedor recusou a solicitação de cotação ou fez uma alteração proposta durante o processo de negociação. Uma cotação pode ser recusada em qualquer estágio do workflow. Qualquer preço personalizado é removido da cotação. O comprador pode continuar editando a cota e ressubmetê-la, ou fazer a compra com preços de catálogo padrão. Ações disponíveis: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - O tempo de vida da cotação expirou. Os preços propostos são redefinidos. O comprador pode concluir a compra com base nos preços de catálogo padrão ou iniciar outra rodada de negociações. Ações disponíveis: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
+| [!UICONTROL Status] | Indica o status da cotação. O status de uma cotação só pode ser alterado por ação por parte do comprador ou do vendedor. <br/>**[!UICONTROL Submitted]**- A solicitação de cotação do comprador ainda não foi aberta pelo vendedor. Enquanto estiver nesse estado, o comprador ainda poderá modificar a solicitação de uma cotação. Ações disponíveis: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - O vendedor abriu a solicitação e está em processo de analisá-la e preparar uma resposta. Ações disponíveis: `View` / `Close` <br/>**[!UICONTROL Updated]**- O vendedor enviou uma resposta ao comprador e o botão _[!UICONTROL Proceed to Checkout]_está habilitado. Enquanto estiver nesse estado, o comprador poderá continuar modificando a cotação. Ações disponíveis: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- O comprador ainda está atualizando a cotação e o botão_[!UICONTROL Proceed to Checkout]_ está desabilitado. Ações disponíveis: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- O comprador enviou um pedido com base na cotação negociada. A cotação está bloqueada e não pode ser editada. Ação disponível: Exibição<br/>**[!UICONTROL Closed]** - O comprador finalizou a negociação e cancela a cotação. A cotação está bloqueada e não pode ser editada pelo comprador ou vendedor. Ações disponíveis: `View` / `Delete` <br/>**[!UICONTROL Declined]**- O vendedor recusou a solicitação de cotação ou fez uma alteração proposta durante o processo de negociação. Uma cotação pode ser recusada em qualquer estágio do workflow. Qualquer preço personalizado é removido da cotação. O comprador pode continuar editando a cota e ressubmetê-la, ou fazer a compra com preços de catálogo padrão. Ações disponíveis: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - O tempo de vida da cotação expirou. Os preços propostos são redefinidos. O comprador pode concluir a compra com base nos preços de catálogo padrão ou iniciar outra rodada de negociações. Ações disponíveis: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
 
 {style="table-layout:auto"}

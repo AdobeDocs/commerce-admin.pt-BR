@@ -3,16 +3,22 @@ title: Criar e excluir atributos de produto
 description: Saiba mais sobre como criar e remover atributos de produtos, que são usados para descrever características específicas dos produtos em seu catálogo.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: ab91c19cda6a89219fc8946dad4a0a70d0991b38
+TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: 1273
 ht-degree: 0%
 
 ---
 
 # Criar e excluir atributos de produto
 
-Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL Product Attributes]_. As etapas a seguir mostram como criar atributos no menu&#x200B;_[!UICONTROL Stores]_.
+Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL Product Attributes]_. As etapas a seguir mostram como criar atributos no menu_[!UICONTROL Stores]_.
 
 ## Etapa 1: Descrever as propriedades básicas do atributo
 
@@ -31,7 +37,7 @@ Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL
    | `Text Field` | Um campo de entrada de linha única para texto. |
    | `Text Area` | Um campo de entrada de várias linhas para inserir parágrafos de texto, como uma descrição do produto. Você pode usar o Editor WYSIWYG para formatar o texto com tags HTML ou inserir as tags diretamente no texto. |
    | `Text Editor` | Um editor de texto totalmente funcional no local do atributo. |
-   | Data | Exibe um valor de data no [formato preferido](attributes-input-types.md#date-and-time-options) e [fuso horário](../getting-started/store-details.md#locale-options). Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_** Dependendo da configuração do seu sistema, os usuários do _Administrador_ podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](attributes-input-types.md#date-and-time-options). |
+   | Data | Exibe um valor de data no [formato preferido](attributes-input-types.md#date-and-time-options) e [fuso horário](../getting-started/store-details.md#locale-options). Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**Dependendo da configuração do seu sistema, os usuários do_ Administrador_ podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Exibe uma lista suspensa com opções predefinidas de `Yes` e `No`. |
    | `Dropdown` | Exibe uma lista suspensa de valores que aceitam apenas uma única seleção. O tipo de entrada suspensa é um componente chave de [produtos configuráveis](product-create-configurable.md). |
    | `Multiple Select` | Exibe uma lista suspensa de valores que aceitam várias seleções. |
@@ -106,7 +112,7 @@ Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL
 
    >[!NOTE]
    >
-   > Se você planeja usar esse atributo como uma faceta no Live Search, você deve especificar um rótulo específico da loja. Sem ele, o nome do atributo pode não ser exibido corretamente na página de configuração da faceta. Para atualizar a configuração, edite manualmente o rótulo usando a [opção de edição na lista facetada do Live Search](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) no _Guia do Live Search_.
+   > Se você planeja usar esse atributo como uma faceta no Live Search, você deve especificar um rótulo específico da loja. Sem ele, o nome do atributo pode não ser exibido corretamente na página de configuração da faceta. Para atualizar a configuração, edite manualmente o rótulo usando a [opção de edição na lista facetada do Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) no _Guia do Live Search_.
 
 ## Etapa 4: descrever as propriedades da loja
 

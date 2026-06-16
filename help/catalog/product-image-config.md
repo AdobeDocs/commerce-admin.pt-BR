@@ -3,9 +3,15 @@ title: Configuração da imagem do produto
 description: Saiba como definir um tamanho máximo de pixel (largura e altura) e redimensionar automaticamente arquivos de imagem do produto durante o upload.
 exl-id: d8fce5f8-eddf-4335-9a72-24036db077db
 feature: Catalog Management, Products, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/uzQtOoAoycyE31-ttim6LGwFldrn-5TDq-u5JDlAxNM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: 711
 ht-degree: 0%
 
 ---
@@ -22,9 +28,9 @@ Ao carregar imagens de produtos, você pode adicionar imagens maiores com tamanh
 >
 >Para melhor compatibilidade, é recomendável carregar todas as imagens de produtos com o perfil de cores `sRGB`. Todos os outros perfis de cores são convertidos automaticamente para o perfil de cores `sRGB` durante o carregamento da imagem do produto, o que pode causar inconsistência de cores na imagem carregada.
 
-A definição de uma largura e uma altura máximas de pixel redimensiona a imagem para as dimensões físicas por pixel. O Commerce redimensiona a imagem de acordo com a maior quantidade de largura ou altura, mantendo as proporções. A redução da quantidade de qualidade de imagens JPG de reduz o tamanho do arquivo.
+A definição de uma largura e uma altura máximas de pixel redimensiona a imagem para as dimensões físicas por pixel. O Commerce redimensiona a imagem de acordo com a maior quantidade de largura ou altura, mantendo as proporções. A redução da quantidade de qualidade de imagens JPG reduz o tamanho do arquivo.
 
-Por exemplo, um JPG de 3000 x 2100 pixels com um de 100% pode ser um arquivo de imagem de 5 mb ou maior. O redimensionamento dessa imagem reduziria a largura para 1920 pixels, mantendo proporções e a qualidade para 80%, a fim de fornecer um tamanho de arquivo muito menor com alta qualidade.
+Por exemplo, um JPG de 3000 x 2100 pixels a 100% pode ser um arquivo de imagem de 5 mb ou maior. O redimensionamento dessa imagem reduziria a largura para 1920 pixels, mantendo proporções e a qualidade para 80%, a fim de fornecer um tamanho de arquivo muito menor com alta qualidade.
 
 ### Ativar redimensionamento de imagem
 
@@ -60,7 +66,7 @@ Por exemplo, um JPG de 3000 x 2100 pixels com um de 100% pode ser um arquivo de 
 
 | Campo | [Escopo](../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Quality] | Global | Determina a qualidade de JPG da imagem redimensionada. Uma qualidade inferior reduz o tamanho do arquivo. Recomenda-se de 80 a 90% para ajudar a reduzir o tamanho do arquivo com alta qualidade. Padrão: 80 |
+| [!UICONTROL Quality] | Global | Determina a qualidade do JPG para a imagem redimensionada. Uma qualidade inferior reduz o tamanho do arquivo. Recomenda-se de 80 a 90% para ajudar a reduzir o tamanho do arquivo com alta qualidade. Padrão: 80 |
 | [!UICONTROL Enable Frontend Resize] | Global | Permite que o Commerce redimensione imagens grandes demais que você pode carregar para a página _[!UICONTROL Product Details]_. O Commerce redimensiona os arquivos de imagem usando o JavaScript ao fazer upload do arquivo. Quando a imagem é redimensionada, ela mantém as proporções exatas, para atender e não exceder o maior tamanho para Largura máxima ou Altura máxima. Padrão: `Yes` |
 | [!UICONTROL Maximum Width] | Global | Determina a largura máxima em pixels para a imagem. Quando a imagem é redimensionada, ela não excede essa largura. Padrão: `1920` |
 | [!UICONTROL Maximum Height] | Global | Determina a altura máxima em pixels para a imagem. Quando a imagem é redimensionada, ela não excede essa altura. Padrão: `1200` |

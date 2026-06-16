@@ -3,9 +3,16 @@ title: Criar categorias
 description: É possível criar quantas subcategorias adicionais forem necessárias, de acordo com a profundidade máxima do menu definida na configuração.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/BZwvDT-VCy2JS9RpQT-IdG9s22genACydrfHcyWmCls
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: 1165
 ht-degree: 0%
 
 ---
@@ -114,9 +121,9 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
    - `Static Block Only`
    - `Static Block and Products`
 
-1. Se desejar que a página de categoria inclua a seção _`Filter by Attribute`_da navegação em camadas, defina **[!UICONTROL Anchor]**&#x200B;como `Yes`.
+1. Se desejar que a página de categoria inclua a seção _`Filter by Attribute`_da navegação em camadas, defina **[!UICONTROL Anchor]**como `Yes`.
 
-1. Para as opções **[!UICONTROL Available Product Listing Sort By]**, selecione um ou mais dos valores disponíveis que estarão disponíveis para que os clientes classifiquem a lista. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Para as opções **[!UICONTROL Available Product Listing Sort By]**, selecione um ou mais dos valores disponíveis que estarão disponíveis para que os clientes classifiquem a lista. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    Por padrão, todos os valores disponíveis são incluídos. Desmarque a caixa de seleção **[!UICONTROL Use All]** para alterar as seleções. Por exemplo, os valores podem incluir:
 
@@ -124,7 +131,7 @@ Além disso, defina quaisquer palavras-chave e atributos associados, como:
    - `Product Name`
    - `Price`
 
-1. Para definir a ordem de classificação padrão da categoria, escolha o valor **[!UICONTROL Default Product Listing Sort By]**. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Para definir a ordem de classificação padrão da categoria, escolha o valor **[!UICONTROL Default Product Listing Sort By]**. Esta configuração não se aplica ao [!DNL Live Search] [Widget de página de listagem de produtos](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Para alterar a configuração padrão de navegação em camada [etapa de preço](navigation-layered.md#configure-price-navigation), faça o seguinte:
 

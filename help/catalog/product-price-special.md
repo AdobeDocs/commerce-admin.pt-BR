@@ -3,9 +3,15 @@ title: Preços especiais
 description: Saiba como oferecer preços especiais por um período de tempo designado.
 exl-id: 4a1e2045-f0a8-4bae-a5a3-8ce8b258b217
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: 855
 ht-degree: 0%
 
 ---
@@ -50,7 +56,7 @@ O Adobe Commerce inclui suporte para [atualizações agendadas](../content-desig
 
    Na loja, o preço especial deve aparecer na listagem do catálogo e na página do produto.
 
-   O _[!UICONTROL Scheduled Change]_&#x200B;aparece na parte superior da página.
+   O _[!UICONTROL Scheduled Change]_aparece na parte superior da página.
 
    ![Alteração agendada](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -58,15 +64,15 @@ O Adobe Commerce inclui suporte para [atualizações agendadas](../content-desig
 
 {{ce-feature}}
 
-Magento Open Source inclui opções de data inicial e final simples nas opções de Advanced Pricing.
+O Magento Open Source inclui opções simples de data inicial e final nas opções de Advanced Pricing.
 
 1. Abra o produto no modo de edição.
 
-1. Role para baixo até o campo _[!UICONTROL Price]_, clique em **[!UICONTROL Advanced Pricing]**&#x200B;e insira o valor de **[!UICONTROL Special Price]**.
+1. Role para baixo até o campo _[!UICONTROL Price]_, clique em **[!UICONTROL Advanced Pricing]**e insira o valor de **[!UICONTROL Special Price]**.
 
 1. Use o ícone _Calendário_ ( ![Ícone de calendário](../assets/icon-calendar.png) ) para escolher o **[!UICONTROL Start Date]** e o **[!UICONTROL End Date]** para a promoção de preço especial.
 
-   O preço especial entra em vigor imediatamente após a meia-noite no início da data de início (00:01) e continua até pouco antes da meia-noite (23:59) no dia anterior à data de término.
+   O preço especial entra em vigor imediatamente após a meia-noite no início da data de início (00:01) e continua até pouco antes da meia-noite (23:59) no dia antes da data de término.
 
    ![Alteração agendada](./assets/product-special-price-from-ce.png){width="600" zoomable="yes"}
 
@@ -84,7 +90,7 @@ Você também pode atribuir um preço especial a vários produtos, como várias 
 
 O exemplo a seguir mostra como atribuir o mesmo preço especial a várias variações de produto de um produto configurável no Adobe Commerce.
 
-1. Na página _[!UICONTROL Products]_, clique em **[!UICONTROL Filters]**&#x200B;e insira o **[!UICONTROL Name]**&#x200B;do produto configurável.
+1. Na página _[!UICONTROL Products]_, clique em **[!UICONTROL Filters]**e insira o **[!UICONTROL Name]**do produto configurável.
 
 1. Defina **[!UICONTROL Type]** como `Configurable Product` e clique em **[!UICONTROL Apply Filters]**.
 
@@ -94,7 +100,7 @@ O exemplo a seguir mostra como atribuir o mesmo preço especial a várias varia�
 
 1. Defina o controle **[!UICONTROL Actions]** como `Update attributes`.
 
-1. Role para baixo até o campo _[!UICONTROL Special Price]_, marque a caixa de seleção **[!UICONTROL Change]**&#x200B;abaixo do campo&#x200B;_[!UICONTROL Special Price]_ e insira o preço especial que deseja oferecer.
+1. Role para baixo até o campo _[!UICONTROL Special Price]_, marque a caixa de seleção **[!UICONTROL Change]**abaixo do campo_[!UICONTROL Special Price]_ e insira o preço especial que deseja oferecer.
 
    ![Campos de preços especiais](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
@@ -136,7 +142,7 @@ O exemplo a seguir mostra como atribuir o mesmo preço especial a várias varia�
 
    - Marque a caixa de seleção **[!UICONTROL Change]** abaixo do campo _Preço especial a partir da data_, clique no _Calendário_ ( ![ícone de Calendário](../assets/icon-calendar.png) ) e escolha a primeira data da promoção de preço especial.
 
-     O preço especial entra em vigor imediatamente após a meia-noite no início da data de início (00:01) e continua até pouco antes da meia-noite (23:59) no dia anterior à data de término.
+     O preço especial entra em vigor imediatamente após a meia-noite no início da data de início (00:01) e continua até pouco antes da meia-noite (23:59) no dia antes da data de término.
 
    - Marque a caixa de seleção **[!UICONTROL Change]** abaixo do campo _Preço Especial Até a Data_, clique no _Calendário_ ( ![ícone de Calendário](../assets/icon-calendar.png) ) e escolha a última data da promoção de preço especial.
 

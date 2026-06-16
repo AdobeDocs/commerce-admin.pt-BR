@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
-description: Revise as configurações na página [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] do Administrador do Commerce.
+title: '[!UICONTROL Catalog] > [!UICONTROL Inventory]'
+description: Revise as configurações na página [!UICONTROL Catalog] > [!UICONTROL Inventory] do Administrador do Commerce.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: 1225
 ht-degree: 0%
 
 ---
@@ -16,13 +22,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->O [!DNL Inventory Management] for Adobe Commerce e Magento Open Source fornece as ferramentas para gerenciar o inventário de produtos. Comerciantes com uma única loja para vários depósitos, lojas, locais de retirada, entregadores diretos e muito mais podem usar esses recursos para manter quantidades para vendas e controlar entregas para ordens completas. Para obter mais informações sobre esses recursos e como usá-los para gerenciar estoque em vários locais, consulte o [_[!DNL Inventory Management] Guia do Usuário _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=pt-BR).
+>O [!DNL Inventory Management] for Adobe Commerce e Magento Open Source fornece as ferramentas para gerenciar o inventário de produtos. Comerciantes com uma única loja para vários depósitos, lojas, locais de retirada, entregadores diretos e muito mais podem usar esses recursos para manter quantidades para vendas e controlar entregas para ordens completas. Para obter mais informações sobre esses recursos e como usá-los para gerenciar estoque em vários locais, consulte o [_[!DNL Inventory Management] Guia do Usuário _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html).
 
 ## [!UICONTROL Stock Options]
 
 ![Opções do Stock](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
-<!-- [Stock Options](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -40,13 +46,13 @@ ht-degree: 0%
 
 ![Opções de Estoque de Produtos](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-<!-- [Product Stock Options](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Manage Stock] | Global | Determina se você usa o controle de inventário completo para gerenciar os itens do catálogo. Opções: <br/>**Sim** - Ativa o controle de estoque completo para rastrear o número de itens atualmente em estoque. <br/>**Não** - Não rastreia o número de itens atualmente em estoque. |
 | [!UICONTROL Backorders] | Global | Determina como a loja gerencia ordens pendentes. Uma ordem pendente não altera o status de processamento da ordem. Os fundos ainda são autorizados ou capturados imediatamente quando o pedido é feito, independentemente do produto estar em estoque. Quando o produto estiver disponível, ele será enviado. Opções: <br/>**Sem Backorders** - Não aceita backorders quando o produto estiver indisponível. <br/>**Permitir Qtd. Abaixo de 0** - Aceita ordens pendentes quando a quantidade cai abaixo de zero. <br/>**Permitir Qtd. Abaixo de 0 e Notificar Cliente** - Aceita ordens pendentes quando a quantidade cai abaixo de zero, mas notifica os clientes que as ordens ainda podem ser feitas. |
-| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (somente Adobe Commerce) Determina se a atualização de estoque deve ser adiada se pedidos pendentes forem permitidos (a opção _Pedidos pendentes_ está definida como qualquer coisa além do valor padrão `No backorders`). Ele funciona para um único produto ou para um site inteiro e usa o mecanismo _Fila de trabalhos_ para permitir que os indicadores de quantidade de estoque sejam atualizados de forma assíncrona após a realização dos pedidos. Esta opção também funciona com [Posicionamento assíncrono de pedido](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html?lang=pt-BR#asynchronous-order-placement) em combinação com [Inventory management](../../inventory-management/introduction.md). |
+| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (somente Adobe Commerce) Determina se a atualização de estoque deve ser adiada se pedidos pendentes forem permitidos (a opção _Pedidos pendentes_ está definida como qualquer coisa além do valor padrão `No backorders`). Ele funciona para um único produto ou para um site inteiro e usa o mecanismo _Fila de trabalhos_ para permitir que os indicadores de quantidade de estoque sejam atualizados de forma assíncrona após a realização dos pedidos. Esta opção também funciona com [Posicionamento assíncrono de pedido](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html#asynchronous-order-placement) em combinação com [Inventory management](../../inventory-management/introduction.md). |
 | Quantidade Máxima Permitida no Carrinho de Compras | Global | Determina o número máximo de um produto que pode ser comprado em um único pedido. Por padrão, a quantidade máxima é definida como 10.000. |
 | [!UICONTROL Out-of-Stock Threshold] | Global | Determina o nível de estoque no qual um produto é considerado indisponível. Opções: <br/>**Valor positivo** - Com _Pedidos pendentes_ desabilitados, insira um valor positivo. Com ordens pendentes ativadas, esse valor é ignorado. <br/>**Zero** - Com _Ordens pendentes_ habilitadas, inserir `0` permite ordens pendentes infinitas. <br/>**Valor negativo** - Com _Pedidos pendentes_ habilitados, recomendamos inserir um valor negativo. O valor é adicionado à Quantidade Venável. Por exemplo, insira -50 para permitir pedidos até esse valor. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Global | Determina a quantidade mínima de um item que está disponível para compra de acordo com o grupo de clientes. Por padrão, a quantidade mínima é definida como 1. Clique em **[!UICONTROL Add Minimum Qty]** para inserir um valor diferente para um grupo de clientes específico. |
@@ -61,15 +67,15 @@ ht-degree: 0%
 
 ![Operações em massa do administrador](./assets/catalog-inventory-admin-bulk-operations.png)<!-- zoom -->
 
-<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
 >[!NOTE]
 >
->Para configurar e suportar **gerenciadores de fila assíncronos**, você deve usar a linha de comando. Isso pode exigir ajuda do desenvolvedor. Consulte [Iniciar consumidores da fila de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=pt-BR) no _Guia de Configuração_.
+>Para configurar e suportar **gerenciadores de fila assíncronos**, você deve usar a linha de comando. Isso pode exigir ajuda do desenvolvedor. Consulte [Iniciar consumidores da fila de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) no _Guia de Configuração_.
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Run asynchronously] | Global | Determina se você executa operações em massa de forma assíncrona para ações de produtos em massa, incluindo [fontes de atribuição em massa](../../inventory-management/bulk-assignment.md), fontes de cancelamento de atribuição e [transferir inventário para a origem](../../inventory-management/inventory-transfer.md). Ele coleta ações em massa até _[!UICONTROL Asynchronous batch size]_&#x200B;e, em seguida, executa essas ações. Esse recurso está desativado por padrão. Recomendamos analisar seu desempenho com ações em massa antes de habilitar. Opções:<br/>**`Yes`**- Executa todas as operações em massa para [!DNL Inventory Management] de forma assíncrona. Para habilitar, você deve configurar um gerenciador de filas assíncrono.<br/>**`No`**- Padrão. Não executa operações em massa de forma assíncrona. |
+| [!UICONTROL Run asynchronously] | Global | Determina se você executa operações em massa de forma assíncrona para ações de produtos em massa, incluindo [fontes de atribuição em massa](../../inventory-management/bulk-assignment.md), fontes de cancelamento de atribuição e [transferir inventário para a origem](../../inventory-management/inventory-transfer.md). Ele coleta ações em massa até _[!UICONTROL Asynchronous batch size]_e, em seguida, executa essas ações. Esse recurso está desativado por padrão. Recomendamos analisar seu desempenho com ações em massa antes de habilitar. Opções:<br/>**`Yes`**- Executa todas as operações em massa para [!DNL Inventory Management] de forma assíncrona. Para habilitar, você deve configurar um gerenciador de filas assíncrono.<br/>**`No`**- Padrão. Não executa operações em massa de forma assíncrona. |
 | [!UICONTROL Asynchronous batch size] | Global | Defina **[!UICONTROL Run asynchronously]** como `Yes` para inserir um valor para o campo _[!UICONTROL Asynchronous batch size]_. <br/>O tamanho de lote padrão é 100. Quando os processos em massa atingem essa quantidade, eles são executados. |
 
 {style="table-layout:auto"}
@@ -91,7 +97,7 @@ ht-degree: 0%
 
 ![Provedores de Distância para SSA Baseado em Distância](./assets/catalog-inventory-distance-provider.png)<!-- zoom -->
 
-<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -103,12 +109,12 @@ ht-degree: 0%
 
 ![Provedor de Distância Google](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
 
-<!-- [Google Distance Provider](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Google Distance Provider](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Google API key] | Global | Insira a chave da API do Google para o provedor do Google MAP. A chave é de [!DNL Google Maps Platform] e deve ter [!DNL Geocoding API] e [!DNL Distance Matrix API] habilitados. Para obter detalhes, consulte [Configurar o Algoritmo de Prioridade de Distância](../../inventory-management/distance-priority-algorithm.md#configure-the-distance-priority-algorithm) no _Guia do Inventory management_. |
-| [!UICONTROL Computation mode] | Global | Determina as direções e os caminhos para calcular a distância do endereço de entrega e de todas as fontes atribuídas ao estoque. Por padrão, os cálculos usam o modo de direção. Opções: <br/>**`Driving`**- Configuração padrão, solicita trajetos de direção padrão usando a rede rodoviária.<br/>**`Walking`** - Solicita trajetos de caminhada usando caminhos e calçadas de pedestres (quando disponíveis). <br/>**`Bicycling`**- Solicita trajetos de bicicleta usando ciclovias e ruas preferidas (atualmente apenas disponível nos EUA e em algumas cidades canadenses). |
+| [!UICONTROL Computation mode] | Global | Determina as direções e os caminhos para calcular a distância do endereço de entrega e de todas as fontes atribuídas ao estoque. Por padrão, os cálculos usam o modo de direção. Opções: <br/>**`Driving`**- Configuração padrão, solicita trajetos de direção padrão usando a rede rodoviária.<br/>**`Walking`** - Solicita trajetos de caminhada usando caminhos e calçadas de pedestres (quando disponíveis). <br/>**`Bicycling`**- Solicita trajetos de bicicleta usando ciclovias e ruas preferenciais (atualmente apenas disponível nos EUA e em algumas cidades canadenses). |
 | [!UICONTROL Value] | Global | Indica o que calcular e retornar para a distância e a hora dos locais de origem para o endereço de destino da entrega. O Algoritmo de Prioridade de Distância recomenda a origem com a distância ou o tempo mais curto para o endereço de destino da entrega, que fornece entregas mais rápidas e possivelmente mais baratas para serem atendidas. Opções: <br/>**`Distance`**- Retorna a distância entre pontos em métricas (quilômetros e metros) ou imperiais (milhas e pés).<br/>**`Time to Destination`** - Retorna em horas e minutos o tempo necessário para viajar dos locais de origem ao endereço para entrega. |
 
 {style="table-layout:auto"}

@@ -3,9 +3,15 @@ title: Regras de preço do carrinho
 description: Saiba mais sobre as regras de preço do carrinho que aplicam descontos aos itens do carrinho com base em um conjunto de condições.
 exl-id: f3038f2a-9d34-4696-a39e-f87fbb1294a2
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/i3G3iGuomU0cjy3aX9eynyzAtpCgQxeEFAyRUdUUu44
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: 451
 ht-degree: 0%
 
 ---
@@ -34,7 +40,7 @@ As regras de preço do carrinho aplicam descontos aos itens do carrinho de compr
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Clique em **[!UICONTROL Edit]** para exibir a página Informações da Regra.
 
-   - ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Clique na regra da lista para exibir a página Informações da Regra.
+   - ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Clique na regra na lista para exibir a página Informações da Regra.
 
    Lá, é possível alterar as configurações da regra (semelhante à criação de uma regra).
 
@@ -48,9 +54,9 @@ As regras de preço do carrinho aplicam descontos aos itens do carrinho de compr
 | [!UICONTROL Priority] | Campo de texto livre que filtra a lista com base na prioridade definida para uma regra. |
 | [!UICONTROL Status] | Use esta opção para filtrar a lista com base no status da regra (`Active` ou `Inactive`). |
 | [!UICONTROL Web Site] | Use essa opção para filtrar a lista com base nos sites definidos para uma regra. |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Clique em **[!UICONTROL Edit]** para exibir a página _[!UICONTROL Rule Information]_&#x200B;e atualizar as configurações de regra (semelhante à criação de uma regra). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (_[!UICONTROL To:]_&#x200B;e&#x200B;_[!UICONTROL From:]_) para filtrar a lista com base na data de início da regra conforme definido quando a regra foi criada. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (_[!UICONTROL To:]_&#x200B;e&#x200B;_[!UICONTROL From:]_) para filtrar a lista com base na data final da regra conforme definido quando a regra foi criada. |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Clique em **[!UICONTROL Edit]** para exibir a página _[!UICONTROL Rule Information]_e atualizar as configurações de regra (semelhante à criação de uma regra). |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (_[!UICONTROL To:]_e_[!UICONTROL From:]_) para filtrar a lista com base na data de início da regra, conforme definido quando a regra foi criada. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Use os campos de calendário dinâmico (_[!UICONTROL To:]_e_[!UICONTROL From:]_) para filtrar a lista com base na data de término da regra, conforme definido quando a regra foi criada. |
 
 {style="table-layout:auto"}
 

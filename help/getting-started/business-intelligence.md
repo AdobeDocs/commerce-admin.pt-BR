@@ -3,10 +3,17 @@ title: '[!DNL Commerce Intelligence] ferramentas'
 description: Saiba como os comerciantes do Adobe Commerce e do Magento Open Source podem usar as ferramentas do Commerce Intelligence para obter o insight usado para tomar decisões comerciais sólidas.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: https://experienceleague.adobe.com/fXuvq380YffN-gCcGRcpwN5x-bc1EHcyrUaDFctaLKo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: ae1249e3-cd01-42c9-8377-4223879bf9deid: bd0aa680-a881-4f35-9dcf-843b0574bc5f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: 1221
 ht-degree: 0%
 
 ---
@@ -17,7 +24,7 @@ Use as ferramentas do Commerce Intelligence para obter a insight usada para toma
 
 ## Conta [!DNL Commerce Intelligence]
 
-Ao ativar uma conta do [!DNL Commerce Intelligence] por meio do Adobe, você obtém acesso a cinco painéis com aproximadamente 70 relatórios. Esses relatórios foram projetados para fornecer insights sobre seus dados e responder a perguntas como &quot;Como meus pedidos estão crescendo mês a mês?&quot;, &quot;Quem são meus clientes mais fiéis?&quot; e &quot;Minha estratégia de cupom está funcionando?&quot; Para obter informações detalhadas sobre este conjunto de ferramentas, consulte o [Guia do Usuário do Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=pt-BR).
+Ao ativar uma conta do [!DNL Commerce Intelligence] por meio do Adobe, você obtém acesso a cinco painéis com aproximadamente 70 relatórios. Esses relatórios foram projetados para fornecer insights sobre seus dados e responder a perguntas como &quot;Como meus pedidos estão crescendo mês a mês?&quot;, &quot;Quem são meus clientes mais fiéis?&quot; e &quot;Minha estratégia de cupom está funcionando?&quot; Para obter informações detalhadas sobre este conjunto de ferramentas, consulte o [Guia do Usuário do Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html).
 
 ## [!DNL Advanced Reporting]
 
@@ -43,7 +50,7 @@ Para obter informações técnicas, consulte o tópico [[!DNL Advanced Reporting
 
 * Na configuração [!DNL Commerce] das URLs de armazenamento, **[!UICONTROL Use Secure URLs on Storefront]** e **[!UICONTROL Use Secure URLs in Admin]** devem ser definidos como `Yes`.
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=pt-BR) foi criado e os trabalhos cron estão em execução no servidor instalado.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) foi criado e os trabalhos cron estão em execução no servidor instalado.
 
 >[!NOTE]
 >

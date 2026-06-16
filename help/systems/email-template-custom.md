@@ -3,9 +3,15 @@ title: Personalizar modelos de email
 description: Saiba como personalizar modelos de email para cada visualização de site, loja ou loja.
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
+TQID: https://experienceleague.adobe.com/JsYtRQoLNKrCjd9DSPB3z6sgm1ApQA5G-tun03tXX7A
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: 1314
 ht-degree: 0%
 
 ---
@@ -31,14 +37,14 @@ Os templates padrão incluem o logotipo e informações da loja e podem ser usad
 | [!UICONTROL Template Name] | O nome do seu modelo personalizado. |
 | [!UICONTROL Insert Variable] | Insere uma variável no modelo na posição do cursor. |
 | [!UICONTROL Template Subject] | O Assunto do modelo aparece na coluna Assunto e pode ser usado para classificar e filtrar os modelos na lista. |
-| [!UICONTROL Template Content] | O conteúdo do template no HTML. |
+| [!UICONTROL Template Content] | O conteúdo do modelo no HTML. |
 | [!UICONTROL Template Styles] | Qualquer declaração de estilo CSS necessária para formatar o modelo pode ser inserida na caixa _[!UICONTROL Template Styles]_. |
 
 {style="table-layout:auto"}
 
 ## Modelo do cabeçalho
 
-Após concluir a [configuração](email-templates.md#configure-email-templates), o modelo de cabeçalho de email inclui seu logotipo vinculado à sua loja. Se você tem um conhecimento básico de HTML, pode facilmente usar [variáveis predefinidas](variables-predefined.md) para adicionar informações de contato de armazenamento ao cabeçalho.
+Após concluir a [configuração](email-templates.md#configure-email-templates), o modelo de cabeçalho de email inclui seu logotipo vinculado à sua loja. Se você tem um conhecimento básico sobre o HTML, pode facilmente usar [variáveis predefinidas](variables-predefined.md) para adicionar informações de contato da loja ao cabeçalho.
 
 ### Etapa 1. Carregar o modelo padrão
 
@@ -64,7 +70,7 @@ Após concluir a [configuração](email-templates.md#configure-email-templates),
 
    ![Informações de cabeçalho do modelo de email](./assets/email-template-information.png){width="600" zoomable="yes"}
 
-1. Na caixa **[!UICONTROL Template Content]**, modifique o HTML conforme necessário.
+1. Na caixa **[!UICONTROL Template Content]**, modifique a HTML conforme necessário.
 
    >[!NOTE]
    >
@@ -130,7 +136,7 @@ O rodapé do modelo de email contém a linha de fechamento e assinatura da mensa
 
    ![Rodapé do modelo de email - informações](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
 
-1. Na caixa **[!UICONTROL Template Content]**, modifique o HTML conforme necessário.
+1. Na caixa **[!UICONTROL Template Content]**, modifique a HTML conforme necessário.
 
    >[!NOTE]
    >
@@ -190,7 +196,7 @@ O processo de personalização do corpo de cada mensagem é o mesmo que personal
 
    ![Modelos de email - informações do modelo](./assets/email-template-message-information.png){width="600" zoomable="yes"}
 
-1. Na caixa **[!UICONTROL Template Content]**, modifique o HTML conforme necessário.
+1. Na caixa **[!UICONTROL Template Content]**, modifique a HTML conforme necessário.
 
    O conteúdo consiste em uma combinação de tags HTML, diretivas CSS, variáveis e texto.
 
@@ -218,7 +224,7 @@ O processo de personalização do corpo de cada mensagem é o mesmo que personal
 
 ### Etapa 3. Atualizar a configuração
 
-A trilha de navegação estrutural _[!UICONTROL Currently Used For]_&#x200B;mostra onde o modelo é usado. Neste exemplo, a configuração do modelo está na página&#x200B;_[!UICONTROL Customer Configuration]_, na seção _[!UICONTROL Create New Account Options]_&#x200B;e no campo&#x200B;_[!UICONTROL Default Welcome Email]_.
+A trilha de navegação estrutural _[!UICONTROL Currently Used For]_mostra onde o modelo é usado. Neste exemplo, a configuração do modelo está na página_[!UICONTROL Customer Configuration]_, na seção _[!UICONTROL Create New Account Options]_e no campo_[!UICONTROL Default Welcome Email]_.
 
 - Página - [!UICONTROL Customer Configuration]
 - Seção - [!UICONTROL Create New Account Options]

@@ -4,9 +4,16 @@ description: Saiba como um vendedor pode criar uma cota para um comprador espec�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
+TQID: https://experienceleague.adobe.com/CbwUuAqkrVxLcqdbz-gV-x1i-mRHM6y62KPaBeA3sds
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -27,7 +34,7 @@ Um Representante de Vendas pode criar uma cota a partir da Grade de Cotas ou Cli
 
 >[!NOTE]
 >
->Para ver uma demonstração em vídeo de um vendedor criando uma cotação para um comprador, consulte [O Representante de Vendas inicia a cotação](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=pt-BR) em _Vídeos e Tutorials do Commerce_.
+>Para ver uma demonstração em vídeo de um vendedor criando uma cotação para um comprador, consulte [O Representante de Vendas inicia a cotação](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) em _Vídeos e Tutoriais do Commerce_.
 
 ### Criar uma cotação na grade Cotação
 
@@ -79,7 +86,7 @@ Depois de criar a cotação preliminar, adicione itens de produto, aplique desco
 
    >[!NOTE]
    >
-   >Para ver uma demonstração em vídeo de como funcionam os descontos no item de linha, consulte [O Representante de Vendas aplica desconto a um item de linha de cotação](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=pt-BR) em _Vídeos e Tutorials do Commerce_.
+   >Para ver uma demonstração em vídeo sobre como funcionam os descontos no item de linha, consulte [O Representante de Vendas aplica desconto a um item de linha de cotação](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) em _Vídeos e Tutoriais do Commerce_.
 
 1. Aplique um desconto em nível de cotação conforme necessário:
 

@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
-description: Revise as configurações na página [!UICONTROL General] &gt; [!UICONTROL Web] do Administrador do Commerce.
+title: '[!UICONTROL General] > [!UICONTROL Web]'
+description: Revise as configurações na página [!UICONTROL General] > [!UICONTROL Web] do Administrador do Commerce.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/31ifTtUvNwjEouPwT5N2cQyr6CUrEblmMULOolo6Amw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: 1809
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 ![Web > Opções Gerais](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | Escopo | Descrição |
 |  ---  |  ---  |  ---  |
@@ -32,7 +38,7 @@ ht-degree: 0%
 
 ![Web > Otimização do mecanismo de pesquisa](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -44,7 +50,7 @@ ht-degree: 0%
 
 ![Web > URLs de base](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -59,7 +65,7 @@ ht-degree: 0%
 
 ![Web > URLs de Base (Seguro)](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -68,7 +74,7 @@ ht-degree: 0%
 | [!UICONTROL Secure Base URL for Static View Files] | Exibição da loja | Uma tag de marcação que aponta para o local de arquivos estáticos, como CSS, fontes, imagens e JavaScript, usados pelo tema. Os arquivos podem estar em um canal não seguro ou seguro. Se a sua instalação do Commerce tiver vários sites com a mesma estrutura de pastas, você poderá ter uma pasta diferente para cada site. Defina o escopo de configuração para o site correto antes de inserir o URL base para arquivos de visualização estáticos. Você também pode especificar uma pasta fora da sua instalação do Commerce. |
 | [!UICONTROL Secure Base URL for User Media Files] | Exibição da loja | Um caminho que aponta para o local de imagens de catálogo e outros arquivos de mídia. Os arquivos podem estar em um canal não seguro ou seguro. Um espaço reservado é usado para representar o URL base. Se a sua instalação do Commerce tiver vários sites com a mesma estrutura de pastas, você poderá ter uma pasta de mídia diferente para cada um. Isso lhe dá a capacidade de fazer backup e reverter cada pasta de mídia separadamente. Você também pode especificar uma pasta de mídia fora da sua instalação do Commerce. |
 | [!UICONTROL Use Secure URLs on Storefront] | Exibição da loja | Se o domínio tiver um certificado de segurança, você pode optar por executar a loja com ou sem criptografia SSL. Opções:<br />**`Yes`**- Armazenar URLs começa com `https` para indicar que a página é entregue com protocolo criptografado e seguro.<br />**`No`** - As URLs de armazenamento começam com `http` para indicar que a página é entregue sem protocolo seguro. |
-| [!UICONTROL Use Secure URLs in Admin] | Global | Se o domínio tiver um certificado de segurança, você poderá optar por executar o Administrador da loja, com ou sem criptografia SSL. Opções: <br />**`Yes`**- URLs de administradores começam com `https` para indicar que a página é entregue com protocolo criptografado e seguro.<br />**`No`** - URLs de administrador começam com `http` para indicar que a página é entregue sem protocolo seguro.<br /> Quando as URLs seguras estão habilitadas para o armazenamento e para o Administrador, dois campos adicionais parecem habilitar e configurar `HSTS`. |
+| [!UICONTROL Use Secure URLs in Admin] | Global | Se o domínio tiver um certificado de segurança, você poderá optar por executar o Administrador da loja, com ou sem criptografia SSL. Opções: <br />**`Yes`**- As URLs de Administrador começam com `https` para indicar que a página é entregue com protocolo criptografado e seguro.<br />**`No`** - As URLs de administrador começam com `http` para indicar que a página é entregue sem protocolo seguro.<br /> Quando as URLs seguras são habilitadas para o armazenamento e para o Administrador, dois campos adicionais aparecem para habilitar e configurar `HSTS`. |
 | [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | Exibição da loja | Quando habilitado, o [`HSTS`](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html) fornece uma medida de segurança contra ataques do tipo &quot;man in the middle&quot; e impede que os usuários substituam a mensagem de &quot;certificado inválido&quot;. Opções: `Yes` / `No` |
 | [!UICONTROL Upgrade Insecure Requests] | Exibição da loja | Quando habilitado, converte solicitações não seguras (`HTTP`) recebidas do navegador para o protocolo seguro (`HTTPS`). Opções: `Yes` / `No` |
 | [!UICONTROL Offloader Header] | Global | Especifica o valor `offloader_header` na configuração do servidor para identificar o protocolo entre o cliente e o balanceador de carga. A maioria das instalações do Commerce usa o valor padrão, `X-Forwarded-Proto` (XFP) para identificar o protocolo como `HTTP` ou `HTTPS`. |
@@ -79,7 +85,7 @@ ht-degree: 0%
 
 ![Web > Páginas Padrão](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -96,13 +102,13 @@ ht-degree: 0%
 
 ![Layouts padrão](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/content-design/design/layout/page-layout) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Default Product Layout] | Global | Determina o [layout](../../content-design/page-layout.md) usado por padrão para páginas de produto. Opções: <br/>**`No layout updates`**- Por padrão, as atualizações de layout não estão disponíveis para páginas de produtos.<br/>**`Empty`** - Por padrão, usa um layout em branco para páginas de produto. <br/>**`1 column`**- Por padrão, usa um layout de coluna única para páginas de produtos.<br/>**`2 columns with left bar`** - Por padrão, usa um layout de duas colunas com a barra lateral à esquerda para páginas de produtos. <br/>**`2 columns with right bar`**- Por padrão, usa um layout de duas colunas com a barra lateral à direita para páginas de produtos.<br/>**`3 columns`** - Por padrão, o usa um layout de três colunas com barras laterais à esquerda e à direita para páginas de produtos.<br/>**`Page -- Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Página — Largura total para páginas de produto.<br/>**`Category - Full Width`** - (Requer [!DNL Page Builder]) Por padrão, usa o layout Categoria - Largura total para páginas de produto. <br/>**`Product - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Produto - Largura Total para páginas de produto. |
-| [!UICONTROL Default Category Layout] | Global | Determina o [layout](../../content-design/page-layout.md) usado por padrão para páginas de categoria. Opções: <br/>**`No layout updates`**- Por padrão, as atualizações de layout não estão disponíveis para páginas de categoria.<br/>**`Empty`** - Por padrão, usa um layout em branco para páginas de categoria. <br/>**`1 column`**- Por padrão, usa um layout de coluna única para páginas de categoria.<br/>**`2 columns with left bar`** - Por padrão, usa um layout de duas colunas com a barra lateral à esquerda para páginas de categoria. <br/>**`2 columns with right bar`**- Por padrão, usa um layout de duas colunas com a barra lateral à direita para páginas de categoria.<br/>**`3 columns`** - Por padrão, usa um layout de três colunas com barras laterais à esquerda e à direita para páginas de categoria.<br/>**`Page - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Página - Largura Total para páginas de categoria.<br/>**`Category - Full Width`** - (Requer [!DNL Page Builder]) Por padrão, usa o layout Categoria - Largura Total para páginas de categoria. <br/>**`Product - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Produto - Largura Total para páginas de categoria. |
-| Layout de página padrão | Global | Determina o [layout](../../content-design/page-layout.md) usado por padrão para páginas do CMS. Opções: <br/>**`No layout updates`**- Por padrão, as atualizações de layout não estão disponíveis para páginas do CMS.<br/>**`Empty`** - Por padrão, usa um layout em branco para páginas do CMS. <br/>**`1 column`**- Por padrão, usa um layout de coluna única para páginas do CMS.<br/>**`2 columns with left bar`** - Por padrão, usa um layout de duas colunas com a barra lateral à esquerda para páginas do CMS.<br/>**`2 columns with right bar`**- Por padrão, usa um layout de duas colunas com a barra lateral à direita para páginas do CMS.<br/>**`3 columns`** - Por padrão, o usa um layout de três colunas com barras laterais à esquerda e à direita para páginas do CMS.<br/>**`Page - Full Width`**- (Requer [!UICONTROL Page Builder]) Por padrão, usa o layout Página - Largura Total para páginas do CMS.<br/>**`Category - Full Width`** - (Requer [!UICONTROL Page Builder]) Por padrão, usa o layout Categoria - Largura total para páginas do CMS. <br/>**`Product - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Produto - Largura Total para páginas do CMS. |
+| [!UICONTROL Default Product Layout] | Global | Determina o [layout](../../content-design/page-layout.md) usado por padrão para páginas de produto. Opções: <br/>**`No layout updates`**- Por padrão, as atualizações de layout não estão disponíveis para páginas de produtos.<br/>**`Empty`** - Por padrão, o usa um layout em branco para páginas de produto. <br/>**`1 column`**- Por padrão, o usa um layout de coluna única para páginas de produtos.<br/>**`2 columns with left bar`** - Por padrão, o usa um layout de duas colunas com a barra lateral à esquerda para páginas de produtos. <br/>**`2 columns with right bar`**- Por padrão, o usa um layout de duas colunas com a barra lateral à direita para páginas de produtos.<br/>**`3 columns`** - Por padrão, usa um layout de três colunas com barras laterais à esquerda e à direita para páginas de produtos.<br/>**`Page -- Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Página — Largura total para páginas de produto.<br/>**`Category - Full Width`** - (Requer [!DNL Page Builder]) Por padrão, usa o layout Categoria - Largura total para páginas de produto. <br/>**`Product - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Produto - Largura Total para páginas de produto. |
+| [!UICONTROL Default Category Layout] | Global | Determina o [layout](../../content-design/page-layout.md) usado por padrão para páginas de categoria. Opções: <br/>**`No layout updates`**- Por padrão, as atualizações de layout não estão disponíveis para páginas de categoria.<br/>**`Empty`** - Por padrão, usa um layout em branco para páginas de categoria. <br/>**`1 column`**- Por padrão, usa um layout de coluna única para páginas de categoria.<br/>**`2 columns with left bar`** - Por padrão, usa um layout de duas colunas com a barra lateral à esquerda para páginas de categoria. <br/>**`2 columns with right bar`**- Por padrão, usa um layout de duas colunas com a barra lateral à direita para páginas de categoria.<br/>**`3 columns`** - Por padrão, usa um layout de três colunas com barras laterais à esquerda e à direita para páginas de categoria.<br/>**`Page - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Página - Largura total para páginas de categoria.<br/>**`Category - Full Width`** - (Requer [!DNL Page Builder]) Por padrão, usa o layout Categoria - Largura Total para páginas de categoria. <br/>**`Product - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Produto - Largura Total para páginas de categoria. |
+| Layout de página padrão | Global | Determina o [layout](../../content-design/page-layout.md) usado por padrão para páginas do CMS. Opções: <br/>**`No layout updates`**- Por padrão, as atualizações de layout não estão disponíveis para páginas do CMS.<br/>**`Empty`** - Por padrão, o usa um layout em branco para páginas do CMS. <br/>**`1 column`**- Por padrão, usa um layout de coluna única para páginas do CMS.<br/>**`2 columns with left bar`** - Por padrão, usa um layout de duas colunas com a barra lateral à esquerda para páginas do CMS.<br/>**`2 columns with right bar`**- Por padrão, o usa um layout de duas colunas com a barra lateral à direita para páginas do CMS.<br/>**`3 columns`** - Por padrão, usa um layout de três colunas com barras laterais à esquerda e à direita para páginas do CMS.<br/>**`Page - Full Width`**- (Requer [!UICONTROL Page Builder]) Por padrão, usa o layout Página - Largura total para páginas do CMS.<br/>**`Category - Full Width`** - (Requer [!UICONTROL Page Builder]) Por padrão, usa o layout Categoria - Largura total para páginas do CMS. <br/>**`Product - Full Width`**- (Requer [!DNL Page Builder]) Por padrão, usa o layout Produto - Largura Total para páginas do CMS. |
 
 {style="table-layout:auto"}
 
@@ -110,7 +116,7 @@ ht-degree: 0%
 
 ![Web > Configurações de cookie padrão](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -126,7 +132,7 @@ ht-degree: 0%
 
 ![Web > Validação de Sessão](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -141,7 +147,7 @@ ht-degree: 0%
 
 ![Web > Detecção de Recursos de Navegador](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |

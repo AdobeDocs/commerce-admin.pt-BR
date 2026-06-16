@@ -3,9 +3,15 @@ title: Enviar um pedido
 description: Saiba como preencher as informações de remessa de uma ordem de processamento e visualizar as informações de remessa e rastreamento.
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
+TQID: https://experienceleague.adobe.com/w1MPvqsRVfsRwEcRB5uClGM3vnwAda3sOtkZzuLBKAA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 453
 ht-degree: 0%
 
 ---
@@ -26,7 +32,7 @@ Um pedido que foi pago, mas está aguardando remessa, tem o status `Processing`.
 
 1. Para que a transportadora gere um rótulo de remessa, marque a caixa de seleção **[!UICONTROL Create Shipping Label]** e defina as opções:
 
-   - Para adicionar um número de rastreamento, role até a seção _[!UICONTROL Shipping Information]_&#x200B;e clique em **[!UICONTROL Add Tracking Number]**.
+   - Para adicionar um número de rastreamento, role até a seção _[!UICONTROL Shipping Information]_e clique em **[!UICONTROL Add Tracking Number]**.
 
    - Siga um destes procedimentos:
 
@@ -62,7 +68,7 @@ Um pedido que foi pago, mas está aguardando remessa, tem o status `Processing`.
 
 1. Localize a remessa na lista e clique em para abrir o registro.
 
-1. Se quiser adicionar um comentário à ordem, role até a seção _[!UICONTROL Comments History]_&#x200B;e insira o comentário na caixa.
+1. Se quiser adicionar um comentário à ordem, role até a seção _[!UICONTROL Comments History]_e insira o comentário na caixa.
 
    - Para enviar o comentário ao cliente por email, marque a caixa de seleção **[!UICONTROL Notify Customer by Email]**.
 
@@ -78,7 +84,7 @@ Um pedido que foi pago, mas está aguardando remessa, tem o status `Processing`.
 
 1. Localize a ordem de remessa na grade e clique em **[!UICONTROL View]**.
 
-1. Role para baixo até a seção _[!UICONTROL Shipping & Handling Information]_&#x200B;e clique em **[!UICONTROL Track Order]**.
+1. Role para baixo até a seção _[!UICONTROL Shipping & Handling Information]_e clique em **[!UICONTROL Track Order]**.
 
    Todas as informações de rastreamento disponíveis são exibidas em uma janela pop-up.
 

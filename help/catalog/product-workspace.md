@@ -3,16 +3,22 @@ title: Espaço de trabalho do produto
 description: Saiba mais sobre as configurações e os controles disponíveis no espaço de trabalho do produto.
 exl-id: 8258b117-56d2-4d5f-9413-80d51fd5eae6
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/O9e0Z-bHxbokLZd4RbT1puWWAGWnF7SDqvGcc4Bteco
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: 467
 ht-degree: 0%
 
 ---
 
 # Espaço de trabalho do produto
 
-O espaço de trabalho do produto é basicamente o mesmo para todos os tipos de produto, embora a seleção de campos mude dependendo do conjunto de atributos usado. Os atributos do produto estão na parte superior do formulário, seguidos por seções expansíveis de informações do produto. Quando um novo produto é salvo pela primeira vez, o seletor _[!UICONTROL Store View]_&#x200B;aparece no canto superior esquerdo do formulário.
+O espaço de trabalho do produto é basicamente o mesmo para todos os tipos de produto, embora a seleção de campos mude dependendo do conjunto de atributos usado. Os atributos do produto estão na parte superior do formulário, seguidos por seções expansíveis de informações do produto. Quando um novo produto é salvo pela primeira vez, o seletor _[!UICONTROL Store View]_aparece no canto superior esquerdo do formulário.
 
 ![Espaço de trabalho do produto](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
@@ -39,7 +45,7 @@ Para expandir ou recolher uma seção, clique no ícone expandir ![Seletor de ex
 
 ## Menu [!UICONTROL Save]
 
-O menu _[!UICONTROL Save]_&#x200B;inclui várias opções que permitem salvar e continuar, salvar e criar um produto, salvar e duplicar o produto ou salvar e fechar.
+O menu _[!UICONTROL Save]_inclui várias opções que permitem salvar e continuar, salvar e criar um produto, salvar e duplicar o produto ou salvar e fechar.
 
 ![Salvar menu](./assets/product-save-menu.png){width="600" zoomable="yes"}
 

@@ -3,9 +3,15 @@ title: Visão geral da pesquisa no catálogo
 description: Saiba mais sobre as ferramentas de Pesquisa rápida e Pesquisa avançada que os clientes podem usar para localizar produtos na loja.
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/PV3ZrkqHaUZw-2LFHCNKUeDcvJmkvFcuoR3ZxxURP54
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: 541
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->O [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=pt-BR) fornece uma experiência de pesquisa rápida, relevante e intuitiva e está disponível para o Adobe Commerce sem custo adicional. Esta seção descreve a funcionalidade de pesquisa padrão que pode ser diferente de [!DNL Live Search].
+>O [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) fornece uma experiência de pesquisa rápida, relevante e intuitiva e está disponível para o Adobe Commerce sem custo adicional. Esta seção descreve a funcionalidade de pesquisa padrão que pode ser diferente de [!DNL Live Search].
 
 Pesquisas mostram que as pessoas que usam a pesquisa têm mais probabilidade de fazer uma compra do que os clientes que dependem apenas da navegação. Na verdade, de acordo com alguns estudos, as pessoas que usam a pesquisa têm quase duas vezes mais chances de fazer uma compra.
 
@@ -32,7 +38,7 @@ As seções a seguir descrevem os recursos básicos de pesquisa do catálogo. Pa
 
 >[!NOTE]
 >
->Quando o [[!DNL Live Search]](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview) está instalado e o widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-storefront/storefront-popover) está habilitado, a caixa de pesquisa retorna o resultado &quot;pesquisar ao digitar&quot; em um pop-over.
+>Quando o [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) está instalado e o widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover) está habilitado, a caixa de pesquisa retorna o resultado &quot;pesquisar ao digitar&quot; em um pop-over.
 
 A caixa de pesquisa no cabeçalho da loja ajuda os visitantes a encontrar produtos no catálogo. O texto da pesquisa pode ser o nome completo ou parcial do produto ou qualquer outra palavra ou frase que descreva o produto. Os termos de pesquisa que as pessoas usam para encontrar produtos podem ser gerenciados no Administrador.
 
@@ -48,7 +54,7 @@ A caixa de pesquisa no cabeçalho da loja ajuda os visitantes a encontrar produt
 
 >[!NOTE]
 >
->A funcionalidade de pesquisa avançada de formulário descrita aqui não se aplica a [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=pt-BR).
+>A funcionalidade de pesquisa avançada de formulário descrita aqui não se aplica a [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 A Pesquisa avançada permite que os compradores pesquisem no catálogo com base nos valores inseridos em um formulário. Como o formulário contém vários campos, uma única pesquisa pode incluir vários parâmetros. O resultado é uma lista de todos os produtos no catálogo que correspondem aos critérios. Um link para Pesquisa avançada está no rodapé da loja.
 

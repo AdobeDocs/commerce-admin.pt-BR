@@ -3,9 +3,15 @@ title: Mídia - Imagem
 description: Saiba mais sobre o tipo de conteúdo de Imagem, usado para adicionar uma imagem JPG, GIF ou PNG ao estágio  [!DNL Page Builder] .
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/qU9r1m9lM6jjA7VGreeThc9NilLdfWjWdqNfu7mShBc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: 1540
 ht-degree: 0%
 
 ---
@@ -58,7 +64,7 @@ A caixa de ferramentas da imagem é exibida ao passar o mouse sobre o container 
    >
    >O tamanho máximo do arquivo é 4 MB. Os tipos de arquivos compatíveis são JPG, GIF e PNG.
 
-   - _&#x200B;**Carregar uma nova imagem**&#x200B;_: use este método para carregar um novo arquivo de imagem do seu sistema.
+   - _**Carregar uma nova imagem**_: use este método para carregar um novo arquivo de imagem do seu sistema.
 
       - Clique em **[!UICONTROL Upload Image]**.
 
@@ -66,7 +72,7 @@ A caixa de ferramentas da imagem é exibida ao passar o mouse sobre o container 
 
      Como alternativa, você também pode arrastar um arquivo de imagem de seu sistema e soltá-lo no ícone da _Câmera_ ( ![Ícone de Câmera](./assets/pb-icon-camera.png){width="20"} ).
 
-   - _&#x200B;**Selecionar um ativo existente**&#x200B;_: use este método para selecionar um ativo de imagem existente do armazenamento de mídia/galeria.
+   - _**Selecionar um ativo existente**_: use este método para selecionar um ativo de imagem existente do armazenamento de mídia/galeria.
 
       - Clique em **[!UICONTROL Select from Gallery]**.
 
@@ -76,7 +82,7 @@ A caixa de ferramentas da imagem é exibida ao passar o mouse sobre o container 
 
         ![Adicionando uma imagem selecionada](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**Pesquise e selecione uma imagem do Adobe Stock**&#x200B;_: use este método para localizar uma imagem do Adobe Stock.
+   - _**Pesquise e selecione uma imagem do Adobe Stock**_: use este método para localizar uma imagem do Adobe Stock.
 
      >[!NOTE]
      >
@@ -107,13 +113,13 @@ O nome do arquivo, as dimensões e o tamanho do arquivo aparecem abaixo da image
 
 1. Para alterar o **[!UICONTROL Image]** atual, siga um destes procedimentos:
 
-   - _&#x200B;**Carregar uma nova imagem**&#x200B;_: use este método para carregar um novo arquivo de imagem do seu sistema.
+   - _**Carregar uma nova imagem**_: use este método para carregar um novo arquivo de imagem do seu sistema.
 
       - Clique em **[!UICONTROL Upload Image]**.
 
       - Localize e escolha a imagem para adicioná-la à galeria e ao container de destino.
 
-   - _&#x200B;**Selecionar um ativo existente**&#x200B;_: use este método para selecionar um ativo de imagem existente do armazenamento de mídia/galeria.
+   - _**Selecionar um ativo existente**_: use este método para selecionar um ativo de imagem existente do armazenamento de mídia/galeria.
 
       - Clique em **[!UICONTROL Select from Gallery]**.
 

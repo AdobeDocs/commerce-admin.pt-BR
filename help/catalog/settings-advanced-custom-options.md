@@ -3,9 +3,24 @@ title: Configurações do produto - [!UICONTROL Customizable Options]
 description: Para um produto, as configurações de [!UICONTROL Customizable Options] permitem oferecer uma seleção de opções com tipos de entrada de texto, seleção e data.
 exl-id: 7d23c5c5-2b2a-4f2a-b843-9c27b851be5f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -88,9 +103,9 @@ Se uma regra de preço do carrinho for acionada pela compra, o cálculo inicial 
 
 | Tipo | Descrição |
 |---------------------|---------------|
-| [!UICONTROL Text] | Uma linha ou caixa de texto de entrada onde o cliente pode inserir as informações necessárias. Opções:<br />**[!UICONTROL Field]**- Um campo de entrada de linha única para texto.<br />**[!UICONTROL Area]** - Um campo de entrada de várias linhas. Este tipo não suporta formatação avançada como HTML. Use Max Characters para limitar o comprimento do texto que pode ser inserido e garantir a representação correta do texto inserido no Admin. |
+| [!UICONTROL Text] | Uma linha ou caixa de texto de entrada onde o cliente pode inserir as informações necessárias. Opções:<br />**[!UICONTROL Field]**- Um campo de entrada de linha única para texto.<br />**[!UICONTROL Area]** - Um campo de entrada de várias linhas. Este tipo não suporta formatação avançada como o HTML. Use Max Characters para limitar o comprimento do texto que pode ser inserido e garantir a representação correta do texto inserido no Admin. |
 | [!UICONTROL File] | Permite que o cliente carregue um arquivo. |
-| [!UICONTROL Select] | Permite que o cliente selecione uma ou várias opções, dependendo do tipo de entrada usado. Opções:<br />**[!UICONTROL Drop-down]**- Uma lista suspensa de opções que permite apenas uma seleção.<br />**[!UICONTROL Radio Buttons]** - Um conjunto de opções que permite somente uma seleção.<br />**[!UICONTROL Checkbox]**- Uma caixa de seleção é uma variação de uma opção sim/não. Se o produto tiver mais de uma caixa de seleção, várias seleções poderão ser feitas.<br />**[!UICONTROL Multiple Select]** - Uma caixa de listagem suspensa de opções que aceita várias seleções. Para escolher várias opções, mantenha pressionada a tecla Ctrl (PC) ou Command (Mac) e clique em cada opção. |
+| [!UICONTROL Select] | Permite que o cliente selecione uma ou várias opções, dependendo do tipo de entrada usado. Opções:<br />**[!UICONTROL Drop-down]**- Uma lista suspensa de opções que permite somente uma seleção.<br />**[!UICONTROL Radio Buttons]** - Um conjunto de opções que permite somente uma seleção.<br />**[!UICONTROL Checkbox]**- Uma caixa de seleção é uma variação de uma opção sim/não. Se o produto tiver mais de uma caixa de seleção, várias seleções poderão ser feitas.<br />**[!UICONTROL Multiple Select]** - Uma caixa de lista suspensa de opções que aceita várias seleções. Para escolher várias opções, mantenha pressionada a tecla Ctrl (PC) ou Command (Mac) e clique em cada opção. |
 | [!UICONTROL Date] | Permite que o cliente informe uma data ou hora ou escolha o valor de um calendário. Opções: <br />**[!UICONTROL Date]**- Um campo de entrada para um valor de data. A data pode ser digitada diretamente no campo ou selecionada em uma lista ou calendário. O método e o formato de entrada são determinados pela configuração das [opções de data e hora](attributes-input-types.md#date-and-time-options).<br />**[!UICONTROL Date & Time]** - Um campo de entrada para um valor de data e hora.<br />**[!UICONTROL Time]**- Um campo de entrada para um valor de tempo. |
 
 {style="table-layout:auto"}

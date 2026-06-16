@@ -1,11 +1,28 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL General]'
-description: Revise as configurações na página [!UICONTROL General] &gt; [!UICONTROL General] do Administrador do Commerce.
+title: '[!UICONTROL General] > [!UICONTROL General]'
+description: Revise as configurações na página [!UICONTROL General] > [!UICONTROL General] do Administrador do Commerce.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: 1028
 ht-degree: 0%
 
 ---
@@ -69,11 +86,11 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Access Restriction] | Site | Determina se o site está operando no modo restrito.<br /> <br />**`Yes`**- O acesso ao site é restrito da maneira definida nos campos abaixo.<br />**`No`** - As restrições estão desabilitadas e as configurações a seguir não têm efeito. |
-| [!UICONTROL Restriction Mode] | Site | Determina o tipo de restrição de acesso que se aplica ao site.<br /> <br />**`Website Closed`**- Todo o acesso à loja é restrito, e as URLs da loja são temporariamente redirecionadas para a página de aterrissagem. Essa configuração pode ser útil durante a manutenção do site ou antes da inicialização.<br />**`Private Sales: Login Only`** - Somente clientes registrados podem fazer logon para acessar a loja. Todos os URLs de vitrine são temporariamente redirecionados para a landing page especificada ou para o formulário de logon. Os usuários não podem criar uma conta neste modo.<br />**`Private Sales: Login and Register`**- Os usuários devem fazer logon para acessar a loja. Todas as URLs da loja são temporariamente redirecionadas para o formulário de logon até que o usuário faça logon. Os usuários podem se registrar para uma conta enquanto o site estiver nesse modo. |
-| [!UICONTROL Startup Page] | Exibição da loja | Quando o site está no modo de Vendas Particulares, esta configuração determina a página que aparece até que o cliente faça logon.<br />  <br />**`To login form`**- Os usuários são redirecionados para o formulário de logon até que façam logon.<br />**`To landing page`** - Os usuários são redirecionados para a página estática especificada abaixo até que façam logon.<br /> <br />**_Importante!_**&#x200B;Inclua um link para a página de logon da página de aterrissagem especificada, para que os clientes possam fazer logon para acessar o site completo. |
+| [!UICONTROL Access Restriction] | Site | Determina se o site está operando no modo restrito.<br /> <br />**`Yes`**- O acesso ao site é restrito da maneira definida nos campos abaixo.<br />**`No`** - As restrições estão desativadas e as configurações a seguir não têm efeito. |
+| [!UICONTROL Restriction Mode] | Site | Determina o tipo de restrição de acesso que se aplica ao site.<br /> <br />**`Website Closed`**- Todo o acesso à loja é restrito, e as URLs da loja são temporariamente redirecionadas para a página de aterrissagem. Essa configuração pode ser útil durante a manutenção do site ou antes da inicialização.<br />**`Private Sales: Login Only`** - Somente clientes registrados podem fazer logon para acessar a loja. Todos os URLs de vitrine são temporariamente redirecionados para a landing page especificada ou para o formulário de logon. Usuários não podem criar uma conta neste modo.<br />**`Private Sales: Login and Register`**- Os usuários devem fazer logon para acessar a loja. Todas as URLs da loja são temporariamente redirecionadas para o formulário de logon até que o usuário faça logon. Os usuários podem se registrar para uma conta enquanto o site estiver nesse modo. |
+| [!UICONTROL Startup Page] | Exibição da loja | Quando o site está no modo de Vendas Particulares, esta configuração determina a página que aparece até que o cliente faça logon.<br />  <br />**`To login form`**- Os usuários são redirecionados para o formulário de logon até que façam logon.<br />**`To landing page`** - Os usuários são redirecionados para a página estática especificada abaixo até que façam logon.<br /> <br />**_Importante!_**&#x200B;Certifique-se de incluir um link para a página de logon da página de destino especificada, para que os clientes possam fazer logon e acessar o site completo. |
 | [!UICONTROL Landing Page] | Exibição da loja | Determina a primeira página que aparece quando o site está no modo de Vendas privadas. |
-| [!UICONTROL HTTP Response] | Site | Determina a resposta HTTP que é enviada quando o site é fechado e uma conexão é tentada por um bot, crawler ou spider.<br /> <br />**`503 Service unavailable`**- A página não está disponível, mas a aranha não deve atualizar o índice.<br />**`200 OK`** - A página de aterrissagem está correta e deve ser tratada pela aranha como a única página do site. |
+| [!UICONTROL HTTP Response] | Site | Determina a resposta HTTP que é enviada quando o site é fechado e uma conexão é tentada por um bot, rastreador ou aranha.<br /> <br />**`503 Service unavailable`**- A página não está disponível, mas a aranha não deve atualizar o índice.<br />**`200 OK`** - A página de aterrissagem está correta e deve ser tratada pela aranha como a única página no site. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | Site | Determina se os campos nos formulários _Logon_ e _Esqueceu a senha_ são preenchidos automaticamente a partir de entradas anteriores. Opções: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -107,7 +124,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | Global | Quando habilitado para instalações de repositório único, oculta a caixa Escopo de configuração e os rótulos de campo relacionados Opções: `Yes` / `No` <br/>**_Observação:_**&#x200B;O modo de repositório único é ignorado para armazenamentos com mais de um modo de exibição.<br/> Habilitar o modo de armazenamento único copiará todos os dados específicos do catálogo e do armazenamento de produtos da exibição de armazenamento padrão para o escopo de todas as exibições de armazenamento. Ele só copiará os dados do catálogo e do produto se a loja tiver apenas uma loja. Se a loja tiver uma loja desativada e uma loja ativada, ela não copiará o catálogo e os dados do produto.<br/> A habilitação do modo de repositório único ignora as definições de configuração específicas do repositório para dados específicos do conteúdo. Em vez disso, ele usa as definições de configuração definidas no escopo de nível global para garantir a consistência entre a interface de usuário do administrador e a loja. |
+| [!UICONTROL Enable Single-Store Mode] | Global | Quando habilitado para instalações de repositório único, oculta a caixa Escopo de configuração e os rótulos de campo relacionados Opções: `Yes` / `No` <br/>**_Nota:_** O modo de repositório único é ignorado para armazenamentos com mais de um modo de exibição.<br/> Habilitar o modo de armazenamento único copiará todos os dados específicos do catálogo e do armazenamento de produtos da exibição de armazenamento padrão para todo o escopo de exibição de armazenamento. Ele só copiará os dados do catálogo e do produto se a loja tiver apenas uma loja. Se a loja tiver uma loja desabilitada e uma loja habilitada, ela não copiará os dados do catálogo e do produto.<br/> A ativação do modo de armazenamento único ignora as configurações específicas de armazenamento para dados específicos de conteúdo. Em vez disso, ele usa as definições de configuração definidas no escopo de nível global para garantir a consistência entre a interface de usuário do administrador e a loja. |
 
 {style="table-layout:auto"}
 

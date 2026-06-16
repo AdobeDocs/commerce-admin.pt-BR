@@ -4,9 +4,24 @@ description: Saiba como você pode oferecer suporte a contratos de faturamento d
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+TQID: https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -35,7 +50,7 @@ A página _[!UICONTROL Billing Agreements]_&#x200B;lista todos os contratos de c
 
 1. Localize o contrato de faturamento na lista e clique nele para abri-lo.
 
-Cada página de contrato de cobrança consiste em duas guias: _[!UICONTROL General Information]_&#x200B;e&#x200B;_[!UICONTROL Related Orders]_.
+Cada página de contrato de cobrança consiste em duas guias: _[!UICONTROL General Information]_&#x200B;e_[!UICONTROL Related Orders]_.
 
 #### Informações gerais
 

@@ -3,9 +3,25 @@ title: Configurar [!DNL Inventory Management]
 description: Saiba mais sobre a configuração de  [!DNL Inventory Management]  opções que determinam a disponibilidade de origem, os produtos da loja e a remessa do pedido.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
+TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -34,12 +50,12 @@ As lojas e os produtos do [!DNL Commerce] oferecem suporte às seguintes configu
 |--|--|
 | [!UICONTROL Manage Stock] | Habilita [!DNL Commerce] para gerenciar todo o estoque. Defina se o controle de estoque é usado para este produto ou todos os produtos em [!DNL Commerce]. Exibe mais opções quando definido como `Yes`. |
 | [!UICONTROL Only X left Threshold] | Define uma quantidade a ser notificada quando um valor específico ficar disponível para compra. Esse valor é rastreado no nível do estoque. |
-| [!UICONTROL Out-of-Stock Threshold] | Seu Estoque de Segurança, Quantidade para acionar uma notificação de Ausência de Estoque e reduzir o risco de falta de estoque. Esse valor afeta ordens pendentes. Opções:<br />**[!UICONTROL No Backorders]**: não aceita pedidos pendentes quando o produto está esgotado.<br />**[!UICONTROL Allow Qty Below 0]**: aceita ordens pendentes quando a quantidade cai abaixo de zero.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: aceita ordens pendentes quando a quantidade cai abaixo de zero, mas notifica os clientes que as ordens ainda podem ser feitas.<br /><br />**[!UICONTROL Backorders disabled]**: é recomendável inserir um valor positivo acima de 0, como 5 ou 25. <br/>**[!UICONTROL Backorders enabled]**: insira um limite negativo para a quantidade máxima de ordens pendentes permitidas, como -5 ou -25. Um valor de 0 atua como estoque infinito. Um valor positivo é ignorado e tratado como 0. |
+| [!UICONTROL Out-of-Stock Threshold] | Seu Estoque de Segurança, Quantidade para acionar uma notificação de Ausência de Estoque e reduzir o risco de falta de estoque. Esse valor afeta ordens pendentes. Opções:<br />**[!UICONTROL No Backorders]**: não aceita backorders quando o produto está esgotado.<br />**[!UICONTROL Allow Qty Below 0]**: Aceita backorders quando a quantidade cai abaixo de zero.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: Aceita backorders quando a quantidade cai abaixo de zero, mas notifica os clientes que os pedidos ainda podem ser feitos.<br /><br />**[!UICONTROL Backorders disabled]**: é recomendável inserir um valor positivo acima de 0, como 5 ou 25. <br/>**[!UICONTROL Backorders enabled]**: insira um limite negativo para a quantidade máxima de ordens pendentes permitidas, como -5 ou -25. Um valor de 0 atua como estoque infinito. Um valor positivo é ignorado e tratado como 0. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Define a quantidade mínima do produto que pode ser comprado em um único pedido. |
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | Define a quantidade máxima do produto que pode ser comprado em um único pedido. |
 | [!UICONTROL Qty Uses Decimals] | Permite valores decimais para a quantidade de um produto, em vez de números inteiros. Essa configuração é útil para produtos vendidos por peso, volume ou comprimento. Especificado no nível do Source, calculado no nível do Estoque com base nas Fontes atribuídas. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Determina se as peças de um produto podem ser enviadas separadamente. Esta opção fica visível quando **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
-| [!UICONTROL Backorders] | Indica se Backorders são permitidos. Especificado no nível do Source, calculado no nível do Estoque com base nas Fontes atribuídas. Se habilitado para permitir backorders, é recomendado definir um valor negativo para o Limite de Falta de Estoque (consulte [Configurando Backorders](backorders.md)). Opções:<br />**[!UICONTROL No Backorders]**: não aceita pedidos pendentes quando o produto está esgotado.<br />**[!UICONTROL Allow Qty Below 0]**: aceita ordens pendentes quando a quantidade cai abaixo de zero.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: aceita ordens pendentes quando a quantidade cai abaixo de zero, mas notifica os clientes que as ordens ainda podem ser feitas. |
+| [!UICONTROL Backorders] | Indica se Backorders são permitidos. Especificado no nível do Source, calculado no nível do Estoque com base nas Fontes atribuídas. Se habilitado para permitir backorders, é recomendado definir um valor negativo para o Limite de Falta de Estoque (consulte [Configurando Backorders](backorders.md)). Opções:<br />**[!UICONTROL No Backorders]**: não aceita backorders quando o produto está esgotado.<br />**[!UICONTROL Allow Qty Below 0]**: Aceita backorders quando a quantidade cai abaixo de zero.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: Aceita backorders quando a quantidade cai abaixo de zero, mas notifica os clientes que os pedidos ainda podem ser feitos. |
 | [!UICONTROL Notify for Quantity Below] | Define a quantidade que aciona uma notificação de Quantidade Abaixo, aviso de baixo estoque. Esse valor é deduzido da Quantidade Venável, não da Quantidade do inventário. |
 | [!UICONTROL Enable Qty Increments] | Determina se o produto pode ser vendido em incrementos de quantidade. Se habilitado, insira a quantidade de produtos que devem ser comprados em uma etapa incremental. Os incrementos definem quantos itens de produto devem ser comprados como um único produto e como um filho de produtos configuráveis, agrupados e agrupados. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] não usa este valor. Quando você conclui uma devolução ou um aviso de crédito, a quantidade do produto é automaticamente retornada à quantidade de origem afetada. Consulte [Configurando Opções de Produto](product-options.md). |
@@ -58,6 +74,6 @@ Quando o [!DNL Commerce] procura configurações personalizadas a serem aplicada
 
 Por exemplo, você pode configurar ordens pendentes de forma diferente na loja com uma configuração semelhante à seguinte:
 
-- _Globalmente:_ Habilitar ordens pendentes para o armazenamento, definir o Limite de Indisponibilidade como `-50`
+- _Globalmente :_Habilite ordens pendentes para o armazenamento, defina o Limite de Indisponibilidade como `-50`
 
-- _Produto:_ Desabilitar ordens pendentes para um produto específico, definir Limite de Produto Indisponível como `10`
+- _Produto :_Desabilita ordens pendentes para um produto específico, definindo Limite de Produto Indisponível para `10`

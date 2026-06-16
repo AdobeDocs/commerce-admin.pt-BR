@@ -3,9 +3,22 @@ title: Persistência do carrinho
 description: Saiba como um carrinho de compras persistente rastreia itens de carrinho não comprados e salva as informações da próxima visita do cliente.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/CZFFzI8KEfpQQAEHB46wW6Bk4BK-4zbdkvZ9h9nROr0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: 1050
 ht-degree: 0%
 
 ---
@@ -28,7 +41,7 @@ Para gerenciar o uso da persistência do carrinho de compras para o seu site ou 
 
 Quando o carrinho de compras persistente está [habilitado](#configure-a-persistent-cart), o fluxo de trabalho depende:
 
-- Os valores das configurações _[!UICONTROL Enable Remember Me]_&#x200B;e&#x200B;_[!UICONTROL Clear Persistence on Log Out]_
+- Os valores das configurações _[!UICONTROL Enable Remember Me]_&#x200B;e_[!UICONTROL Clear Persistence on Log Out]_
 - A decisão do cliente de marcar ou desmarcar a caixa de seleção _[!UICONTROL Remember Me]_
 - Quando o cookie persistente é limpo
 
@@ -57,9 +70,9 @@ Os clientes podem marcar a caixa de seleção _[!UICONTROL Remember Me]_&#x200B;
 
 {style="table-layout:auto"}
 
-![Logon de cliente do Lembre-se de Mim](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
+![Lembrar-me do Logon do Cliente](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
 ![Pop-up de Autenticação Lembrar-me](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
-![Lembrar minhas entradas no Check-out](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
+![Entradas com Check-out para Lembrar-se de Mim](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### Limpar Persistência no Comportamento de Saída
 

@@ -3,9 +3,28 @@ title: URLs de catálogo e produto
 description: Saiba mais sobre os tipos de formato de URL para seus produtos de catálogo e como configurá-los.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 1edab49fd8d52a1b7414eb207a21c5c03200e75e
+TQID: https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: 918
 ht-degree: 0%
 
 ---
@@ -113,7 +132,7 @@ Para impedir que mecanismos de pesquisa indexem vários URLs que levam ao mesmo 
 | Campo | [Escopo](../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Global | Se as substituições do servidor Web estiverem ativadas, habilitar essa configuração inserirá o Código de armazenamento da exibição atual no URL. Opções: `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | Global | (Para configurações de loja única) Se houver um link quebrado em seu site, isso redirecionará o tráfego para o URL base em vez de para uma página com uma mensagem &quot;Página 404 não encontrada&quot;. Opções: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Importante!_**&#x200B;Não use o redirecionamento automático para a URL de base para configurações de várias lojas. |
-| [!UICONTROL Catalog media URL format] | Global | Define o formato de URL atribuído aos produtos e categorias. Opções: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Define o nome de arquivo convertido como um valor de hash exclusivo.<br />**[!UICONTROL Image optimization based on query parameters]** - Define o processo [otimização de imagem](../content-design/media-gallery-image-optimization.md), dependendo dos parâmetros de consulta. |
+| [!UICONTROL Auto-redirect to Base URL] | Global | (Para configurações de loja única) Se houver um link quebrado em seu site, isso redirecionará o tráfego para o URL base em vez de para uma página com uma mensagem &quot;Página 404 não encontrada&quot;. Opções: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Importante!_**&#x200B;Não use o redirecionamento automático para o URL de base para configurações de várias lojas. |
+| [!UICONTROL Catalog media URL format] | Global | Define o formato de URL atribuído aos produtos e categorias. Opções: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Define o nome de arquivo convertido como um valor de hash exclusivo.<br />**[!UICONTROL Image optimization based on query parameters]** - Define o processo de [otimização de imagem](../content-design/media-gallery-image-optimization.md) dependendo dos parâmetros de consulta. |
 
 {style="table-layout:auto"}

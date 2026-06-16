@@ -1,11 +1,31 @@
 ---
-title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront]'
-description: Revise as configurações na página [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront] do Administrador do Commerce.
+title: '[!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Storefront]'
+description: Revise as configurações na página [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Storefront] do Administrador do Commerce.
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/Hl5Ivzg-z8tu96TaZN45UFCMMJ4g05fU5t-Jwok1jZE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: 1480
 ht-degree: 0%
 
 ---
@@ -14,7 +34,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Antes de configurar o Google reCAPTCHA, verifique se o arquivo `PHP.ini` inclui a seguinte configuração: `allow_url_fopen = 1`. Isso pode exigir ajuda do desenvolvedor. Consulte [Configurações do PHP](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=pt-BR) no _Guia de Instalação_.
+>Antes de configurar o Google reCAPTCHA, verifique se o arquivo `PHP.ini` inclui a seguinte configuração: `allow_url_fopen = 1`. Isso pode exigir ajuda do desenvolvedor. Consulte [Configurações do PHP](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) no _Guia de Instalação_.
 
 {{config}}
 
@@ -65,7 +85,7 @@ Para obter mais informações sobre como usar o Google reCAPTCHA para proteger s
 
 ## [!UICONTROL reCAPTCHA Enterprise]
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 ![reCAPTCHA v3 Empresa](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
 
@@ -113,10 +133,10 @@ Para obter mais informações sobre como usar o Google reCAPTCHA para proteger s
 | [!UICONTROL Enable for Edit Customer Account] | Site | Especifica o tipo de reCAPTCHA que é usado quando o cliente altera suas [informações de conta](../../customers/account-dashboard-account-information.md). Opções:<br/>**`No`**- (padrão) Não valida a solicitação de conta.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
 | [!UICONTROL Enable for Create New Company Account] | Site | ![Adobe Commerce B2B](../../assets/b2b.svg) (Disponível somente com Adobe Commerce B2B) Especifica o tipo de reCAPTCHA usado quando uma nova [conta da empresa](../../b2b/account-company-create.md) é criada. Opções:<br/>**`No`**- (padrão) Não valida a solicitação de conta.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
 | [!UICONTROL Enable for Contact Us] | Site | Especifica o tipo de reCAPTCHA usado para enviar uma mensagem da página [Fale Conosco](../../getting-started/store-details.md#contact-us-form) de seu armazenamento. Opções:<br/>**`No`**- (padrão) Não valida a solicitação de mensagem.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
-| [!UICONTROL Enable for Product Review] | Site | Especifica o tipo de reCAPTCHA que é usado quando os clientes enviam uma [avaliação do produto](../../merchandising-promotions/product-reviews.md). Opções:<br/>**`No`**- (padrão) não valida a solicitação de revisão do produto.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
-| [!UICONTROL Enable for Newsletter Subscription] | Site | Especifica o tipo de reCAPTCHA invisível que é usado quando os clientes se inscrevem em uma [assinatura de boletim informativo](../../merchandising-promotions/newsletter-subscribers.md). Opções:<br/>**`No`**- (padrão) não valida a solicitação de assinatura do boletim informativo.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
+| [!UICONTROL Enable for Product Review] | Site | Especifica o tipo de reCAPTCHA que é usado quando os clientes enviam uma [avaliação do produto](../../merchandising-promotions/product-reviews.md). Opções:<br/>**`No`**- (padrão) Não valida a solicitação de revisão do produto.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
+| [!UICONTROL Enable for Newsletter Subscription] | Site | Especifica o tipo de reCAPTCHA invisível que é usado quando os clientes se inscrevem em uma [assinatura de boletim informativo](../../merchandising-promotions/newsletter-subscribers.md). Opções:<br/>**`No`**- (padrão) Não valida a solicitação de assinatura do boletim informativo.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
 | [!UICONTROL Enable for Gift Card] | Site | ![Adobe Commerce](../../assets/adobe-logo.svg) (somente Adobe Commerce) Especifica o tipo de reCAPTCHA que é usado quando os clientes inserem um código de [cartão-presente](../../catalog/product-gift-card-create.md). Opções:<br/>**`No`**- (padrão) Não valida o envio do código de cartão-presente.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
-| [!UICONTROL Enable for Invitation Create Account] | Site | Especifica o tipo de reCAPTCHA que é usado quando os clientes enviam um código de [convite](../../merchandising-promotions/invitations.md) de criação de conta. Opções:<br/>**`No`**- (padrão) Não valida o envio de email de convite.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
+| [!UICONTROL Enable for Invitation Create Account] | Site | Especifica o tipo de reCAPTCHA que é usado quando os clientes enviam um código de [convite](../../merchandising-promotions/invitations.md) de criação de conta. Opções:<br/>**`No`**- (padrão) Não valida o envio do email de convite.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
 | [!UICONTROL Enable for Send to Friend] | Site | Especifica o tipo de reCAPTCHA que é usado quando os clientes [compartilham um produto](../../stores-purchase/email-a-friend.md) com um amigo. Opções:<br/>**`No`**- (padrão) Não valida o envio de email.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
 | [!UICONTROL Enable for Wishlist Sharing] | Site | Especifica o tipo de reCAPTCHA usado quando os clientes [compartilham uma lista de desejos](../../stores-purchase/wishlist-storefront.md#share-the-wish-list). Opções:<br/>**`No`**- (padrão) Não valida a mensagem e o envio de email.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |
 | [!UICONTROL Enable for Coupon Codes] | Site | Especifica o tipo de reCAPTCHA que é usado quando os clientes inserem um [código de cupom](../../merchandising-promotions/price-rules-cart-coupon.md). Opções:<br/>**`No`**- (padrão) Não valida o envio do código do cupom.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Exige que o usuário marque a caixa de seleção _Não sou um robô_.<br />**`Invisible reCAPTCHA v2`**- Valida o comportamento do usuário em segundo plano sem exigir interações com base na pontuação.<br/>**`Invisible reCAPTCHA v3`** - (Recomendado) Valida o comportamento do usuário em segundo plano com base na pontuação de interação. |

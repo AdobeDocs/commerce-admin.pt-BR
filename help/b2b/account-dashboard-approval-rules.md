@@ -4,9 +4,22 @@ description: Saiba mais sobre as regras de aprovação de ordem de compra e como
 exl-id: e8d8bbc9-41cf-4024-85cc-92f0b0ce32d6
 feature: B2B, Companies, Configuration
 role: Admin
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/Mep8kjARPn7loGZozPrDurwWZ2312PNXOqqJNxEEpuE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: 658
 ht-degree: 0%
 
 ---
@@ -18,7 +31,7 @@ A maioria das empresas exige aprovação de pedidos para pedidos de compra. Ao a
 * Qualquer OC menor que o valor X é automaticamente aprovada.
 * OCs acima do valor X, mas menor que Q, devem ser aprovadas por Y.
 * Qualquer OC acima do valor X deve ser aprovada por Y e Z.
-* Uma OC criada por qualquer pessoa no nível da Director ou superior é automaticamente aprovada.
+* Uma OC criada por qualquer pessoa no nível Diretor ou superior é automaticamente aprovada.
 
 Dependendo da função e das permissões da empresa, os usuários podem criar, editar, excluir ou exibir regras de aprovação.
 
@@ -31,7 +44,7 @@ Dependendo da função e das permissões da empresa, os usuários podem criar, e
 Os fluxos de aprovação de ordem de compra oferecem suporte aos métodos de pagamento online e offline. Todos os métodos de pagamento off-line padrão são suportados para aprovações de ordens de compra. Para pagamentos on-line, os seguintes métodos são compatíveis:
 
 * PayPal Express
-* pagamentos Braintree
+* Pagamentos do Braintree
 
 
 ## Configuração da regra de aprovação
@@ -150,4 +163,4 @@ Para remover uma regra de aprovação existente, um cliente pode concluir as seg
 
 Assista a este vídeo para saber mais sobre aprovações de ordens de compra:
 
->[!VIDEO](https://video.tv.adobe.com/v/3412496?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3412496?captions=por_br&quality=12&learn=on)

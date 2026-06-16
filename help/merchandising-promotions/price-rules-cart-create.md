@@ -3,9 +3,26 @@ title: Criar uma regra de preço de carrinho
 description: Saiba como criar uma regra de preço de carrinho com base nos atributos de carrinho ou produto.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: d981a0365cc7768394ca03f4352be45caef87a73
+TQID: https://experienceleague.adobe.com/wCXMFRIybcV59Hj3WwLoseT-IzxdfVCiS96rZv0enTY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3382'
+source-wordcount: 3399
 ht-degree: 0%
 
 ---
@@ -115,7 +132,7 @@ Nesta etapa, são descritas as condições que devem ser atendidas para que um p
 
 1. Quando a próxima parte da condição for exibida, clique nos elementos da instrução para que você possa ver onde cada link com valores de variável está localizado.
 
-1. Clique no link &quot;mais&quot; (...) e digite `100`.
+1. Clique no link &quot;mais&quot; (...) e insira `100`.
 
    Essa condição requer que a quantidade total do carrinho seja `101` ou maior.
 
@@ -125,7 +142,7 @@ Nesta etapa, são descritas as condições que devem ser atendidas para que um p
 
    ![Condição de regra de preço do carrinho - categoria de atributo de produto](./assets/condition-products-subselection4.png){width="600" zoomable="yes"}
 
-1. Na próxima parte da condição, clique no link _mais_ (**...**) para exibir o campo de entrada e abra o _Seletor_ (![ícone de Lista](../assets/icon-list-chooser.png)) para exibir a árvore de categorias.
+1. Na próxima parte da condição, clique em _mais_ (**...**) link para exibir o campo de entrada e, em seguida, abra o _Seletor_ (![ícone de Lista](../assets/icon-list-chooser.png)) para exibir a árvore de categorias.
 
 1. Marque a caixa de seleção da categoria que você deseja usar como condição para a regra de preço e clique no ícone ![Adicionar](../assets/icon-checkmark-green-circle.png) para aceitar as seleções de categoria.
 
@@ -198,7 +215,7 @@ Você pode definir uma condição para uma regra de preço do carrinho com base 
 
    ![Selecionar Condição de Público-Alvo do Real-Time CDP](./assets/rtcdp-conditions.png){width="300"}
 
-1. Selecione o ícone _Mais_ (**...**), clique em **[!UICONTROL Open Chooser]** e exiba todos os públicos-alvo da Real-Time CDP disponíveis.
+1. Selecione o _Mais_ (**...**) clique em **[!UICONTROL Open Chooser]** e exiba todos os públicos-alvo disponíveis do Real-Time CDP.
 
    ![Exibir Públicos-Alvo Do Real-Time CDP](./assets/rtcdp-conditions-chooser.png){width="600" zoomable="yes"}
 
@@ -211,7 +228,7 @@ Você pode definir uma condição para uma regra de preço do carrinho com base 
    | `Name` | Nome do público, como `Orders over $50` |
    | `Description` | Descrição do público, como `People who placed an order over $50 in the last month.`. |
    | `Source` | Indica a origem do público-alvo, como `Experience Platform`. |
-   | `Website` | Indica qual site você vinculou à sequência de dados que contém os públicos-alvo. Você cria este link ao conectar a instância do Commerce à Experience Platform por meio da extensão [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=pt-BR). |
+   | `Website` | Indica qual site você vinculou à sequência de dados que contém os públicos-alvo. Você cria este link ao conectar a instância do Commerce à Experience Platform por meio da extensão [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html). |
 
    {style="table-layout:auto"}
 
@@ -232,7 +249,7 @@ As ações de regra de preço do carrinho de compras descrevem como os preços s
    | `Percent of product price discount` | Descontos, subtraindo uma porcentagem do preço original. O desconto se aplica a cada item qualificado no carrinho. Por exemplo: insira `10` em [!UICONTROL Discount Amount] para um preço atualizado 10% menor que o preço original. |
    | `Fixed amount discount` | Descontos subtraindo um valor fixo do preço original de cada item qualificado do carrinho. Por exemplo: insira `10` em [!UICONTROL Discount Amount] para um preço atualizado que seja US$ 10 a menos do que o preço original. |
    | Desconto de valor fixo para o carrinho inteiro | Desconta o carrinho inteiro subtraindo um valor fixo do total do carrinho. Por exemplo: digite 10 em [!UICONTROL Discount Amount] para subtrair $10 do total do carrinho. Por padrão, o desconto se aplica somente ao subtotal do carrinho. Para aplicar o desconto ao subtotal e enviar separadamente, use a opção _[!UICONTROL Apply to Shipping Amount]_. |
-   | `Buy X get Y free` | Define uma quantidade X que o cliente deve comprar para receber uma quantidade Y **do mesmo produto/variação** gratuitamente. (O [!UICONTROL Discount Amount] é Y.) Uma quantidade total de X+Y do mesmo item deve estar presente/adicionado ao carrinho para que o desconto seja aplicado. |
+   | `Buy X get Y free` | Define uma quantidade X que o cliente deve comprar para receber uma quantidade Y **do mesmo produto/variação** gratuitamente. (O [!UICONTROL Discount Amount] é Y.) Uma quantidade total de X+Y do mesmo item deve estar presente/adicionada ao carrinho para que o desconto seja aplicado. |
 
    {style="table-layout:auto"}
 
@@ -328,7 +345,7 @@ O rótulo aparece na seção totais do pedido para identificar o desconto. O tex
 
 Assista a este vídeo para saber mais sobre como criar regras de preço de carrinho:
 
->[!VIDEO](https://video.tv.adobe.com/v/3412502?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3412502?captions=por_br&quality=12&learn=on)
 
 ## Descrições dos campos
 
@@ -341,11 +358,11 @@ Assista a este vídeo para saber mais sobre como criar regras de preço de carri
 | [!UICONTROL Active] | (Obrigatório) Determina se a regra está ativa no armazenamento. Opções: `Yes` / `No` |
 | [!UICONTROL Websites] | (Obrigatório) Identifica os sites nos quais a regra pode ser usada. |
 | [!UICONTROL Customer Groups] | (Obrigatório) Identifica os grupos de clientes aos quais a regra se aplica. |
-| [!UICONTROL Coupon] | (Obrigatório) Indica se um cupom está associado à regra. Opções: <br/>**[!UICONTROL No Coupon]**- Nenhum cupom está associado à regra.<br/>**[!UICONTROL Specific Coupon]** - Cupom específico associado à regra. <br/>**[!UICONTROL Coupon Code]**- Quando solicitado, insira o Código do Cupom que o cliente deve inserir para aproveitar a promoção.<br/>**[!UICONTROL Use Auto Generation]** - Marque a caixa de seleção para gerar automaticamente vários códigos de cupom que podem ser usados com a promoção. <br/>**[!UICONTROL Auto]**- Exibe a seção _[!UICONTROL Manage Coupon Codes]_&#x200B;para definir o formato dos códigos de cupom a serem gerados. |
+| [!UICONTROL Coupon] | (Obrigatório) Indica se um cupom está associado à regra. Opções: <br/>**[!UICONTROL No Coupon]**- Nenhum cupom está associado à regra.<br/>**[!UICONTROL Specific Coupon]** - Um cupom específico está associado à regra. <br/>**[!UICONTROL Coupon Code]**- Quando solicitado, insira o Código do Cupom que o cliente deve inserir para aproveitar a promoção.<br/>**[!UICONTROL Use Auto Generation]** - Marque a caixa de seleção para gerar automaticamente vários códigos de cupom que podem ser usados com a promoção. <br/>**[!UICONTROL Auto]**- Exibe a seção _[!UICONTROL Manage Coupon Codes]_&#x200B;para definir o formato dos códigos de cupom a serem gerados. |
 | [!UICONTROL Uses per Coupon] | Determina quantas vezes o código do cupom pode ser usado. Se não houver limite, deixe o campo em branco. |
 | [!UICONTROL Uses per Customer] | Determina quantas vezes a regra de preço do carrinho pode ser usada pelo mesmo cliente registrado que pertence a qualquer grupo de clientes selecionado. Não se aplica a compradores de convidados que são membros do grupo de clientes NÃO CONECTADOS, ou a clientes que compram sem fazer logon em suas contas. Para sem limite, deixe em branco. |
 | [!UICONTROL Priority] | Um número que indica a prioridade dessa regra em relação a outras. As prioridades da mais alta para a mais baixa são `0,1,2,3...` |
-| [!UICONTROL Public in RSS Feed] | Determina se a promoção está incluída no RSS feed público da loja. Opções:  `Yes` / `No` |
+| [!UICONTROL Public in RSS Feed] | Determina se a promoção está incluída no RSS feed público da loja. Opções: `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) A primeira data em que o cupom pode ser usado. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) A última data em que o cupom pode ser usado. |
 
@@ -384,7 +401,7 @@ Especifica as condições que devem ser atendidas antes que a regra de preço do
 
 | Campo | Descrição |
 |--- |--- |
-| [!UICONTROL Apply] | Determina o tipo de cálculo aplicado à compra. Opções: <br/>**[!UICONTROL Percent of product price discount]**- Item de descontos subtraindo uma porcentagem do preço original. Por exemplo: insira `10` em _[!UICONTROL Discount Amount]_&#x200B;para um preço atualizado 10% menor que o preço original.<br/>**[!UICONTROL Fixed amount discount]**- Descontos subtraindo um valor fixo do preço original de cada item qualificado do carrinho. Por exemplo: insira `10` em&#x200B;_[!UICONTROL Discount Amount]_ para um preço atualizado que seja US$ 10 a menos do que o preço original. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Desconta o carrinho inteiro subtraindo um valor fixo do subtotal do carrinho. Por exemplo: digite `10` em _[!UICONTROL Discount Amount]_&#x200B;para subtrair $10 do subtotal do carrinho. Por padrão, o desconto se aplica somente ao subtotal do carrinho. Para aplicar o desconto ao subtotal e enviar separadamente, consulte_Aplicar ao Valor do Envio _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Define uma quantidade que o cliente deve comprar para receber uma quantidade gratuitamente. (O&#x200B;_[!UICONTROL Discount Amount]_ é Y.) |
+| [!UICONTROL Apply] | Determina o tipo de cálculo aplicado à compra. Opções: <br/>**[!UICONTROL Percent of product price discount]**- Item de descontos subtraindo uma porcentagem do preço original. Por exemplo: insira `10` em _[!UICONTROL Discount Amount]_&#x200B;para um preço atualizado 10% menor que o preço original.<br/>**[!UICONTROL Fixed amount discount]**- Descontos subtraindo um valor fixo do preço original de cada item qualificado do carrinho. Por exemplo: insira `10` em&#x200B;_[!UICONTROL Discount Amount]_ para um preço atualizado que seja US$ 10 a menos do que o preço original. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Desconta o carrinho inteiro subtraindo um valor fixo do subtotal do carrinho. Por exemplo: digite `10` em _[!UICONTROL Discount Amount]_&#x200B;para subtrair $10 do subtotal do carrinho. Por padrão, o desconto se aplica somente ao subtotal do carrinho. Para aplicar o desconto ao subtotal e enviar separadamente, consulte_Aplicar ao Valor da Remessa _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Define uma quantidade que o cliente deve comprar para receber uma quantidade gratuitamente. (O&#x200B;_[!UICONTROL Discount Amount]_ é Y.) |
 | [!UICONTROL Discount Amount] | (Obrigatório) A quantia de desconto oferecida. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Define o número máximo de produtos aos quais o desconto pode ser aplicado na mesma compra. |
 | [!UICONTROL Discount Qty Step (Buy X)] | Define o número de produtos representados por `X` em uma promoção de `Buy X Get Y Free`. Além disso, define quantos produtos devem ser adicionados ao carrinho juntos em lotes para aplicar promoções de `Fixed amount discount` e `Percent of product price discount`. |

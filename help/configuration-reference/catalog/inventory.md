@@ -1,11 +1,26 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
-description: Revise as configurações na página [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] do Administrador do Commerce.
+title: '[!UICONTROL Catalog] > [!UICONTROL Inventory]'
+description: Revise as configurações na página [!UICONTROL Catalog] > [!UICONTROL Inventory] do Administrador do Commerce.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: 1225
 ht-degree: 0%
 
 ---
@@ -108,7 +123,7 @@ ht-degree: 0%
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Google API key] | Global | Insira a chave da API do Google para o provedor do Google MAP. A chave é de [!DNL Google Maps Platform] e deve ter [!DNL Geocoding API] e [!DNL Distance Matrix API] habilitados. Para obter detalhes, consulte [Configurar o Algoritmo de Prioridade de Distância](../../inventory-management/distance-priority-algorithm.md#configure-the-distance-priority-algorithm) no _Guia do Inventory management_. |
-| [!UICONTROL Computation mode] | Global | Determina as direções e os caminhos para calcular a distância do endereço de entrega e de todas as fontes atribuídas ao estoque. Por padrão, os cálculos usam o modo de direção. Opções: <br/>**`Driving`**- Configuração padrão, solicita trajetos de direção padrão usando a rede rodoviária.<br/>**`Walking`** - Solicita trajetos de caminhada usando caminhos e calçadas de pedestres (quando disponíveis). <br/>**`Bicycling`**- Solicita trajetos de bicicleta usando ciclovias e ruas preferidas (atualmente apenas disponível nos EUA e em algumas cidades canadenses). |
+| [!UICONTROL Computation mode] | Global | Determina as direções e os caminhos para calcular a distância do endereço de entrega e de todas as fontes atribuídas ao estoque. Por padrão, os cálculos usam o modo de direção. Opções: <br/>**`Driving`**- Configuração padrão, solicita trajetos de direção padrão usando a rede rodoviária.<br/>**`Walking`** - Solicita trajetos de caminhada usando caminhos e calçadas de pedestres (quando disponíveis). <br/>**`Bicycling`**- Solicita trajetos de bicicleta usando ciclovias e ruas preferenciais (atualmente apenas disponível nos EUA e em algumas cidades canadenses). |
 | [!UICONTROL Value] | Global | Indica o que calcular e retornar para a distância e a hora dos locais de origem para o endereço de destino da entrega. O Algoritmo de Prioridade de Distância recomenda a origem com a distância ou o tempo mais curto para o endereço de destino da entrega, que fornece entregas mais rápidas e possivelmente mais baratas para serem atendidas. Opções: <br/>**`Distance`**- Retorna a distância entre pontos em métricas (quilômetros e metros) ou imperiais (milhas e pés).<br/>**`Time to Destination`** - Retorna em horas e minutos o tempo necessário para viajar dos locais de origem ao endereço para entrega. |
 
 {style="table-layout:auto"}

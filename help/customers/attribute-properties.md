@@ -3,9 +3,27 @@ title: Propriedades do atributo do cliente
 description: Saiba como configurar propriedades de atributos do cliente.
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/87E8bc4M62TbP-gRdn-LoRzpZY7sd1o9SbMswZW0ueY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: 1820
 ht-degree: 0%
 
 ---
@@ -45,9 +63,9 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
      | Tipo | Descrição |
      |----|-----------|
      | `Text Field` | Um campo de texto de linha única. |
-     | `Text Area` | Um campo de entrada de várias linhas para inserir parágrafos de texto, como uma descrição do produto. Você pode usar o editor WYSIWYG para formatar o texto com tags HTML ou inserir as tags diretamente no texto. |
+     | `Text Area` | Um campo de entrada de várias linhas para inserir parágrafos de texto, como uma descrição do produto. Você pode usar o editor do WYSIWYG para formatar o texto com tags do HTML ou inserir as tags diretamente no texto. |
      | `Multiple Line` | Cria várias linhas de texto para o atributo, de modo semelhante a um endereço de várias linhas. O número de linhas de entrada de dados separadas pode ser de dois a 20. Use o `Default Value` para especificar o valor inicial do campo. |
-     | `Date` | Exibe um valor de data no formato de data e fuso horário preferidos. Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**&#x200B;Dependendo da configuração do seu sistema, os usuários do_Administrador _podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Exibe um valor de data no formato de data e fuso horário preferidos. Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**&#x200B;Dependendo da configuração do seu sistema, os usuários do_ Administrador_ podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Exibe uma lista suspensa com opções predefinidas de `Yes` e `No`. |
      | `Dropdown` | Exibe uma lista suspensa de valores que aceitam apenas uma única seleção. O tipo de entrada suspensa é um componente chave de [produtos configuráveis](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Uma lista suspensa que aceita vários valores a serem selecionados. |
@@ -63,7 +81,7 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
      | Valor | Descrição |
      |-----|-----------|
      | `None` | O campo não tem validação de entrada durante a entrada de dados. |
-     | `Alphanumeric` | Aceita qualquer combinação de números (0-9) e caracteres alfabéticos (a-z, A-Z) durante a entrada dos dados. Para incluir caracteres especiais, consulte _Entidades HTML de escape_. |
+     | `Alphanumeric` | Aceita qualquer combinação de números (0-9) e caracteres alfabéticos (a-z, A-Z) durante a entrada dos dados. Para incluir caracteres especiais, consulte _Evitar Entidades do HTML_. |
      | `Alphanumeric with Space` | Aceita qualquer combinação de números (0-9), caracteres alfabéticos (a-z, A-Z) e espaços durante a entrada de dados. |
      | `Numeric Only` | Aceita apenas números (0-9) durante a entrada de dados. |
      | `Alpha Only` | Aceita somente caracteres alfabéticos (a-z, A-Z) durante a entrada de dados. |
@@ -78,8 +96,8 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
      | Valor | Descrição |
      |-----|-----------|
      | `None` | Não aplica um filtro ao texto inserido no campo. |
-     | `Strip HTML Tags` | Remove tags HTML do texto. Esse filtro pode ajudar a limpar dados que estão colados em um campo de outra fonte que inclui tags HTML. |
-     | `Escape  HTML Entities` | Converte caracteres especiais encontrados no texto em uma sequência de HTML de escape válida, como `&;`. As sequências de escape são delimitadas entre um E comercial e um ponto e vírgula, e são frequentemente usadas para aspas inteligentes, direitos autorais e símbolos de marca comercial do tipógrafo. As sequências de escape também são usadas para identificar caracteres como os símbolos menor que (`<`) e maior que (`>`) e o caractere E comercial (&amp;) que também são usados no código. Este filtro pode ajudar a limpar os caracteres especiais que às vezes são colados nos campos do banco de dados a partir de processadores de texto. |
+     | `Strip HTML Tags` | Remove tags HTML do texto. Esse filtro pode ajudar a limpar dados que estão colados em um campo de outra fonte que inclui tags do HTML. |
+     | `Escape  HTML Entities` | Converte caracteres especiais encontrados no texto em uma sequência de escape válida do HTML, como `&;`. As sequências de escape são delimitadas entre um E comercial e um ponto e vírgula, e são frequentemente usadas para aspas inteligentes, direitos autorais e símbolos de marca comercial do tipógrafo. As sequências de escape também são usadas para identificar caracteres como os símbolos menor que (`<`) e maior que (`>`) e o caractere E comercial (&amp;) que também são usados no código. Este filtro pode ajudar a limpar os caracteres especiais que às vezes são colados nos campos do banco de dados a partir de processadores de texto. |
 
 1. Complete as propriedades da grade e do segmento do cliente:
 
@@ -105,9 +123,9 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
 
 1. Defina **[!UICONTROL Forms to Use]** para cada formulário que deverá incluir o atributo. Para escolher várias opções, mantenha pressionada a tecla Ctrl e clique em cada formulário.
 
-   - [&quot;Registro do cliente&quot;](customer-sign-in.md)
-   - [&quot;Customer Account Edit&quot;](account-create.md)
-   - [&quot;Check-out do administrador&quot;](../stores-purchase/checkout-process.md)
+   - [`Customer Registration`](customer-sign-in.md)
+   - [`Customer Account Edit`](account-create.md)
+   - [`Admin Checkout`](../stores-purchase/checkout-process.md)
 
 ## Etapa 3: preencha o rótulo e salve
 
@@ -131,7 +149,7 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
 | [!UICONTROL Values Required] | Determina se um valor deve ser inserido no campo. Opções: `Yes` / `No` |
 | [!UICONTROL Default Value] | Especifica o valor inicial do atributo. |
 | [!UICONTROL Input Validation] | A seleção de opções é determinada pelo tipo de entrada. Opções: <br/>**`None`**- O campo não tem validação de entrada durante a entrada de dados.<br/>**`Alphanumeric`** - Aceita qualquer combinação de números (0-9) e caracteres alfabéticos (a-z, A-Z) durante a entrada de dados. <br/>**`Alphanumeric with Space`**- Permite que espaços no endereço cumpram com os requisitos de comprimento máximo da transportadora. Durante a finalização da compra, o cliente pode inserir qualquer combinação de números (0-9), caracteres alfabéticos (a-z, A-Z) e espaços no endereço do recipient e do remetente. Quaisquer espaços extras são cortados quando o endereço é salvo.<br/>**`Numeric Only`** - Aceita somente números (0-9) durante a entrada de dados. <br/>**`Alpha Only`**- Aceita somente caracteres alfabéticos (a-z, A-Z) durante a entrada de dados.<br/>**`URL`** - Aceita apenas uma URL durante a entrada de dados. <br/>**`Email`**- Aceita apenas um endereço de email durante a entrada de dados.<br/>**`Length Only`** - Valida a entrada com base no comprimento dos dados inseridos no campo. |
-| [!UICONTROL Input/Output Filter] | Aplica um filtro de pré-processamento aos valores inseridos em um campo de texto, área de texto ou tipo de entrada de várias linhas antes de o registro ser salvo. Opções: <br/>**`None`**- Não aplica um filtro ao texto inserido no campo.<br/>**`Strip HTML Tags`** - Remove marcas de HTML do texto. Esse filtro pode ajudar a limpar dados que estão colados em um campo de outra fonte que inclui tags HTML. <br/>**`Escape HTML Entities`**- Converte caracteres especiais encontrados no texto em uma sequência de HTML de escape válida, como `amp;`. As sequências de escape são delimitadas entre um E comercial e um ponto e vírgula, e são frequentemente usadas para aspas inteligentes do tipógrafo, símbolos de direitos autorais e símbolos de marca comercial. As sequências de escape também são usadas para identificar caracteres como os símbolos menor que (`<`) e maior que (`>`) e o caractere E comercial (&amp;) que também são usados no código. Este filtro pode ajudar a limpar os caracteres especiais que às vezes são colados nos campos do banco de dados a partir de processadores de texto. |
+| [!UICONTROL Input/Output Filter] | Aplica um filtro de pré-processamento aos valores inseridos em um campo de texto, área de texto ou tipo de entrada de várias linhas antes de o registro ser salvo. Opções: <br/>**`None`**- Não aplica um filtro ao texto inserido no campo.<br/>**`Strip HTML Tags`** - Remove as marcas HTML do texto. Esse filtro pode ajudar a limpar dados que estão colados em um campo de outra fonte que inclui tags do HTML. <br/>**`Escape HTML Entities`**- Converte caracteres especiais encontrados no texto em uma sequência de escape válida do HTML, como `amp;`. As sequências de escape são delimitadas entre um E comercial e um ponto e vírgula, e são frequentemente usadas para aspas inteligentes do tipógrafo, símbolos de direitos autorais e símbolos de marca comercial. As sequências de escape também são usadas para identificar caracteres como os símbolos menor que (`<`) e maior que (`>`) e o caractere E comercial (&amp;) que também são usados no código. Este filtro pode ajudar a limpar os caracteres especiais que às vezes são colados nos campos do banco de dados a partir de processadores de texto. |
 | [!UICONTROL Add to Column Options] | Especifica se o atributo está incluído como uma coluna na grade [Clientes](customers-all.md). Opções: `Yes` / `No` |
 | [!UICONTROL Use in Filter Options] | Especifica se o atributo pode ser usado como filtro para operações de pesquisa na grade. Opções: `Yes` / `No` |
 | [!UICONTROL Grid Filter Condition Type] | Especifica as condições de correspondência de filtro para atributos para operações de pesquisa da grade. Isso não afeta o campo _Pesquisar por palavra-chave_ da grade. Opções: `Partial Match` / `Prefix Match` / `Full Match` |
@@ -163,7 +181,7 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
 | `lastname` | O sobrenome do cliente. |
 | `suffix` | Qualquer sufixo usado com o nome do cliente. (como Jr., Sr. ou Esquire) |
 | `email` | O endereço de email do cliente. |
-| `dob` | A data de nascimento do cliente.  <br><br>**_Importante:_**&#x200B;de acordo com as práticas recomendadas atuais de segurança e privacidade, esteja ciente de todos os possíveis riscos legais e de segurança associados ao armazenamento da data de nascimento completa do cliente (mês, dia, ano) com outros identificadores pessoais. É recomendável limitar o armazenamento das datas de nascimento completas dos clientes e sugerir o uso do ano de nascimento do cliente como alternativa. |
+| `dob` | A data de nascimento do cliente.  <br><br>**_Importante:_** Ao manter as práticas recomendadas atuais de segurança e privacidade, esteja ciente de todos os possíveis riscos legais e de segurança associados ao armazenamento da data de nascimento completa do cliente (mês, dia, ano) com outros identificadores pessoais. É recomendável limitar o armazenamento das datas de nascimento completas dos clientes e sugerir o uso do ano de nascimento do cliente como alternativa. |
 | `taxvat` | A ID do IVA (Imposto sobre Valor Agregado) atribuída ao cliente. O rótulo padrão deste atributo é `VAT Number`. O campo VAT number está sempre presente em todos os endereços de cliente de remessa e faturamento quando visualizado do administrador, mas não é um campo obrigatório. |
 | `gender` | O sexo do cliente. |
 
@@ -171,4 +189,4 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
 
 Para obter uma demonstração sobre como criar atributos do cliente, assista a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411970?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3411970?captions=por_br&quality=12&learn=on)

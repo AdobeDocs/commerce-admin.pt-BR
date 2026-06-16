@@ -4,9 +4,26 @@ description: Saiba mais sobre o gerenciamento de índice, incluindo as ações q
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: a3737a3fef2e275f110b8858123ea722b4449da3
+TQID: https://experienceleague.adobe.com/0SKv03rtjLWNP0xXDqRh202Pvtw9XPkfkDiPCsGKgeE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: 1350
 ht-degree: 0%
 
 ---
@@ -73,14 +90,14 @@ A reindexação e o armazenamento em cache têm diferentes finalidades no Commer
    | [!UICONTROL Description] | Uma descrição do indexador. |
    | [!UICONTROL Mode] | Indica o modo de atualização atual de cada indexador. Opções: <br/>**[!UICONTROL Update on Save]**- O índice é definido para atualização sempre que uma alteração de entidade é salva. Essas entidades incluem produtos, categorias e clientes. Quando a ação de salvamento for concluída, uma série de etapas começará a capturar as alterações e a atualizar o índice. A página Gerenciamento de índice atualiza e libera a mensagem de reindexação em um ou dois minutos.<br/>**[!UICONTROL Update on Schedule]** - O índice está definido para ser atualizado de acordo com a agenda, de acordo com um [trabalho do cron](cron.md). O trabalho cron inclui o intervalo de agendamento para reindexação, gravando atualizações no índice quando executado. |
    | [!UICONTROL Schedule Status] | Exibe as atualizações de status do agendamento. |
-   | [!UICONTROL Status] | Exibe um dos seguintes: <br/>**[!UICONTROL Ready]**— O índice está atualizado.<br/>**[!UICONTROL Suspended]** - Reindexação em pausa. <br/>**[!UICONTROL Processing]**- Reindexação em execução no momento.<br/>**[!UICONTROL Reindex Required]** - Foi feita uma alteração que requer reindexação, mas os indexadores não podem ser atualizados automaticamente. Verifique se [cron](cron.md) está disponível e configurado corretamente. |
+   | [!UICONTROL Status] | Exibe um dos seguintes: <br/>**[!UICONTROL Ready]**— O índice está atualizado.<br/>**[!UICONTROL Suspended]** - Reindexação pausada. <br/>**[!UICONTROL Processing]**- Reindexação em execução no momento.<br/>**[!UICONTROL Reindex Required]** - Foi feita uma alteração que requer reindexação, mas os indexadores não podem ser atualizados automaticamente. Verifique se [cron](cron.md) está disponível e configurado corretamente. |
    | [!UICONTROL Updated] | Indica a data e a hora em que um índice foi atualizado pela última vez. |
 
    {style="table-layout:auto"}
 
 ## Reindexar usando a linha de comando
 
-O Commerce fornece opções adicionais de reindexação usando a linha de comando. Para obter detalhes completos e opções de comando, consulte [Reindexar](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=pt-BR#reindex){:target="blank"} no _Guia de Configuração_.
+O Commerce fornece opções adicionais de reindexação usando a linha de comando. Para obter detalhes completos e opções de comando, consulte [Reindexar](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} no _Guia de Configuração_.
 
 ## Eventos de gatilho de índice
 

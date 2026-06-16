@@ -3,9 +3,25 @@ title: Resultados da pesquisa
 description: Saiba como configurar como seus produtos correspondem aos critérios de pesquisa inseridos na caixa Pesquisa rápida ou no formulário Pesquisa avançada.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/66fWLxfEO03dyaOfxN0M-JlUPqupTY4txCRybKxF4n8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: 913
 ht-degree: 0%
 
 ---
@@ -14,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Esta página descreve a funcionalidade de pesquisa padrão que pode ser diferente do [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=pt-BR).
+>Esta página descreve a funcionalidade de pesquisa padrão que pode ser diferente do [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 A lista _Resultados da Pesquisa_ inclui todos os produtos que correspondem aos critérios de pesquisa inseridos na caixa Pesquisa Rápida ou no formulário Pesquisa Avançada. Cada lista de produtos no catálogo tem essencialmente os mesmos controles. A única diferença é que um é o resultado de uma consulta de pesquisa, e a outra diferença é o resultado da [navegação](navigation.md).
 
@@ -52,7 +68,7 @@ O exemplo a seguir usa o mapeamento de palavra-chave com base no SKU. Quando um 
 
    **[!UICONTROL Attribute Properties]**
 
-   - [!UICONTROL Attribute Label] - `Search Keywords`
+   - [!UICONTROL Attribute Label]  - `Search Keywords`
    - [!UICONTROL Catalog Input Type for Store Owner] - `Text Field`
 
    **[!UICONTROL Advanced Attribute Properties]**
@@ -103,7 +119,7 @@ Os atributos de produto ativados para pesquisa no catálogo podem receber um pes
 >
 >A classificação por relevância é afetada por **_vários_** critérios e relações entre eles **_ao mesmo tempo_**. [!UICONTROL Search Weight] é apenas um desses critérios. Isso significa que, às vezes, os atributos com menor peso de pesquisa ainda podem ter mais relevância do que os atributos com maior peso de pesquisa. Outros critérios podem incluir o número de correspondências em um determinado atributo, a posição do termo de pesquisa encontrado e a estrutura geral do texto antes e depois de um termo de pesquisa.
 
-**_Para definir as propriedades de peso de pesquisa de um atributo:_**
+**_Para definir as propriedades de peso da pesquisa de um atributo:_**
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 

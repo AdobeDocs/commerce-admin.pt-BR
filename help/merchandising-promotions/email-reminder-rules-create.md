@@ -3,9 +3,22 @@ title: Criar lembretes de email
 description: Saiba como configurar uma regra de lembrete de email que use uma regra de preço de carrinho existente.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: d605748f04f26952daa467a84431a17bf368dbad
+TQID: https://experienceleague.adobe.com/p7WUWpQFlu2gUeyTU6ZrIHkRJzw8XTp2Mxkvi9Vu-eU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: 1035
 ht-degree: 0%
 
 ---
@@ -93,7 +106,7 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
      ![Títulos e descrições - exibição de loja](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} Se estiver usando [!DNL Adobe Commerce as a Cloud Service], você poderá habilitar a [repetibilidade de regra](#rule-repeatability) marcando a caixa de seleção [!UICONTROL Rule Repeatability].
+1. [!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} Se estiver usando [!DNL Adobe Commerce as a Cloud Service], você poderá habilitar a [repetibilidade de regra](#rule-repeatability) marcando a caixa de seleção [!UICONTROL Rule Repeatability].
 
    >[!IMPORTANT]
    >
@@ -103,7 +116,7 @@ Antes de configurar uma regra de lembrete de email, primeiro [configure uma regr
 
 ## Repetibilidade da regra
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
 
 >[!IMPORTANT]
 >

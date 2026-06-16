@@ -3,9 +3,24 @@ title: Atributos de endereço do cliente
 description: Saiba mais sobre os atributos de endereço do cliente e como configurar essas propriedades de atributo.
 exl-id: 637a0f81-4d8f-40cb-a1b6-537229b2ce5b
 feature: Customers, Configuration
-source-git-commit: 40c4e6ea44e73b0c5e471f415dafbafe8afddc56
+TQID: https://experienceleague.adobe.com/3u6Rg6pbR1cexQ4gokhMnafNKKR9aL2PAWj9PfP-ZSg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: 1615
 ht-degree: 0%
 
 ---
@@ -132,7 +147,7 @@ Os atributos de endereço do cliente são usados nos seguintes formulários:
 | [!UICONTROL Input Type] | Determina o [controle de entrada](../catalog/attributes-input-types.md) usado para entrada de dados. Opções: <br/>**`Text Field`**- Um campo de texto de linha única.<br/>**`Text Area`** - Uma área de texto multilinha. <br/>**`Multiple Line`**- Cria várias linhas de texto para o atributo, semelhantes a um endereço de várias linhas. O número de linhas de entrada de dados separadas pode ser de 2 a 20.<br/>**`Date`** - Exibe um campo de data com um calendário pop-up.<br/>**`Dropdown`**- Uma lista suspensa que aceita apenas um valor a ser selecionado.<br/>**`Multiple Select`** - Uma lista suspensa que aceita vários valores a serem selecionados. <br/>**`Yes/No`**- Um campo que oferece apenas uma opção de `Yes` ou `No` valores.<br/>**`File (attachment)`** - Um campo que permite que um arquivo seja carregado e associado ao atributo do cliente como um anexo. <br/>**`Image File`**- Um campo que permite que uma imagem seja carregada na galeria e associada ao atributo do cliente. |
 | [!UICONTROL Values Required] | Determina se um valor deve ser inserido no campo. Opções: `Yes` / `No` |
 | [!UICONTROL Default Value] | Especifica o valor inicial do atributo. |
-| [!UICONTROL Input Validation] | A seleção de opções é determinada pelo tipo de entrada. Opções: <br/>**`None`**- O campo não tem validação de entrada durante a entrada de dados.<br/>**`Alphanumeric`** - Aceita qualquer combinação de números (0-9) e caracteres alfabéticos (a-z, A-Z) durante a entrada de dados. <br/>**`Alphanumeric with Space`**- Permite que espaços no endereço atendam aos requisitos de comprimento máximo da transportadora. Durante o check-out, os clientes podem inserir letras (a-z, A-Z), números (0-9) e espaços. Espaços extras são cortados quando o endereço é salvo.<br/>**`Numeric Only`** - Aceita somente números (0-9) durante a entrada de dados. <br/>**`Alpha Only`**- Aceita somente caracteres alfabéticos (a-z, A-Z) durante a entrada de dados.<br/>**&#x200B; URL &#x200B;**- Aceita apenas uma URL durante a entrada de dados.<br/>**`Email`** - Aceita apenas um endereço de email durante a entrada de dados. <br/>**`Length Only`**- Valida a entrada com base no comprimento dos dados inseridos no campo.<br/><br/>**&#x200B; Observação:**&#x200B;para atributos definidos pelo sistema, como _Telefone_, _Cidade_ e _Rua_, a validação interna do lado do servidor é sempre imposta além de qualquer configuração **[!UICONTROL Input Validation]**. Essas regras padrão restringem os caracteres permitidos para cada campo e não podem ser substituídas. A configuração **[!UICONTROL Input Validation]**&#x200B;adiciona apenas restrições adicionais. |
+| [!UICONTROL Input Validation] | A seleção de opções é determinada pelo tipo de entrada. Opções: <br/>**`None`**- O campo não tem validação de entrada durante a entrada de dados.<br/>**`Alphanumeric`** - Aceita qualquer combinação de números (0-9) e caracteres alfabéticos (a-z, A-Z) durante a entrada de dados. <br/>**`Alphanumeric with Space`**- Permite que espaços no endereço atendam aos requisitos de comprimento máximo da transportadora. Durante o check-out, os clientes podem inserir letras (a-z, A-Z), números (0-9) e espaços. Espaços extras são cortados quando o endereço é salvo.<br/>**`Numeric Only`** - Aceita apenas números (0-9) durante a entrada de dados. <br/>**`Alpha Only`**- Aceita somente caracteres alfabéticos (a-z, A-Z) durante a entrada de dados.<br/>**&#x200B; URL &#x200B;**- Aceita apenas uma URL durante a entrada de dados.<br/>**`Email`** - Aceita apenas um endereço de email durante a entrada de dados. <br/>**`Length Only`**- Valida a entrada com base no comprimento dos dados inseridos no campo.<br/><br/>**&#x200B; Observação:**&#x200B;para atributos definidos pelo sistema, como _Telefone_, _Cidade_ e _Rua_, a validação interna do lado do servidor é sempre imposta além de qualquer configuração **[!UICONTROL Input Validation]**. Essas regras padrão restringem os caracteres permitidos para cada campo e não podem ser substituídas. A configuração **[!UICONTROL Input Validation]**&#x200B;adiciona apenas restrições adicionais. |
 | [!UICONTROL Input/Output Filter] | Aplica um filtro de pré-processamento aos valores inseridos em um campo de texto, área de texto ou tipo de entrada de várias linhas antes de o registro ser salvo. Opções: <br/>**`None`**- Não aplica um filtro ao texto inserido no campo.<br/>**`Strip HTML Tags`** - Remove as marcas HTML do texto. Esse filtro pode ajudar a limpar dados que estão colados em um campo de outra fonte que inclui tags do HTML. <br/>**`Escape HTML Entities`**- Converte caracteres especiais encontrados no texto em uma sequência de escape válida do HTML, como `amp;`. As sequências de escape são delimitadas entre um E comercial e um ponto e vírgula, e são frequentemente usadas para aspas inteligentes do tipógrafo, símbolos de direitos autorais e símbolos de marca comercial. As sequências de escape também são usadas para identificar caracteres como os símbolos menor que (`<`) e maior que (`>`) e o caractere E comercial (&amp;) que também são usados no código. Este filtro pode ajudar a limpar os caracteres especiais que às vezes são colados nos campos do banco de dados a partir de processadores de texto. |
 | [!UICONTROL Add to Column Options] | Especifica se o atributo está incluído como uma coluna na grade [Clientes](./customers-all.md). Opções: `Yes` / `No` |
 | Usar em Opções de Filtro | Especifica se o atributo pode ser usado como filtro para operações de pesquisa na grade. Opções: `Yes` / `No` |

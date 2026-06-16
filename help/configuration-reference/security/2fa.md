@@ -1,11 +1,28 @@
 ---
 title: '[!UICONTROL Security] > [!UICONTROL 2FA]'
-description: Revise as configurações na [!UICONTROL Security] página > [!UICONTROL 2FA] do administrador do Comércio.
+description: Revise as configurações na página [!UICONTROL Security] > [!UICONTROL 2FA] do Administrador do Commerce.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: 22bfff98a9189f3020de21b31705351510dcf1be
+TQID: https://experienceleague.adobe.com/-5t8bTj14iB---88TotUNefATWwE80LTswPO3xVWU70
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: 338
 ht-degree: 1%
 
 ---
@@ -14,17 +31,17 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Lojas que habilitaram a autenticação Adobe Systems Identity Management Services (IMS) têm nativo Adobe Systems Comércio e Magento Open Source autenticação de dois fatores (2FA) desativados. Os usuários administradores que fazem logon em suas Adobe Systems Comércio instância com suas credenciais Adobe Systems não precisam reauttenticar para muitas tarefas de administrador. Authentication é tratado por Adobe Systems IMS quando o administrador usuário faz logon em sua sessão atual. Consulte [Integração de Adobe Systems Comércio com Adobe Systems visão geral](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=pt-BR) do IMS.
+>As lojas que ativaram a autenticação do Adobe Identity Management Services (IMS) têm a Adobe Commerce nativa e a autenticação de dois fatores (2FA) da Magento Open Source desativadas. Os usuários administradores que estão conectados à instância do Adobe Commerce com suas credenciais do Adobe não precisam se autenticar novamente para muitas tarefas administrativas. A autenticação é tratada pelo Adobe IMS quando o usuário administrador faz logon em sua sessão atual. Consulte [Visão geral da integração do Adobe Commerce com o Adobe IMS](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=pt-BR).
 
 {{config}}
 
-Para obter mais informações sobre como alterar essas configurações, consulte [Autenticação de dois fatores (2FA)](../../systems/security-two-factor-authentication.md) no Guia _de_ sistemas de administração.
+Para obter mais informações sobre como alterar essas configurações, consulte [Autenticação de dois fatores (2FA)](../../systems/security-two-factor-authentication.md) no _Guia de Sistemas de Administração_.
 
 ## [!UICONTROL General]
 
 ![Geral](./assets/2fa-general.png)<!-- zoom -->
 
-| Campo | [Âmbito](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
+| Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | Global | Indica os métodos de autenticação de dois fatores necessários. Se você selecionar mais de um provedor, cada usuário deverá configurar cada método 2FA na próxima vez que fizer logon. |
 | [!UICONTROL Configuration Email URL for Web API] | Global | Para implementações personalizadas, a URL para um link alternativo de configuração de email que é enviado aos usuários _Administrador_ no primeiro logon. No modelo de email, use o espaço reservado `:tfat` para indicar onde o token é inserido. |
@@ -37,17 +54,17 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 ![Google](./assets/2fa-google.png)<!-- zoom -->
 
-| Campo | [Âmbito](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
+| Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | Global | Determina por quanto tempo (em segundos) o sistema aceita os dados de [!DNL one-time-password (OTP)] um administrador depois de expirar. Não pode ser maior do que a tempo de vida de um único OTP (geralmente 30 segundos). Inadimplência: `29` |
+| [!UICONTROL OTP Window] | Global | Determina quanto tempo (em segundos) o sistema aceita o [!DNL one-time-password (OTP)] de um administrador após a expiração. Não pode ser maior do que o tempo de vida de um único OTP (geralmente 30 segundos). Padrão: `29` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Duo Security]
 
-![Segurança de dupla](./assets/2fa-duo-security.png)<!-- zoom -->
+![Dupla de Segurança](./assets/2fa-duo-security.png)<!-- zoom -->
 
-| Campo | [Âmbito](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
+| Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Client Id] | Global | A ID do cliente da sua conta [!DNL Duo Security]. |
 | [!UICONTROL Client Secret] | Global | O Segredo do Cliente da sua conta [!DNL Duo Security]. |
@@ -61,7 +78,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 ![Authy](./assets/2fa-authy.png)<!-- zoom -->
 
-| Campo | [Âmbito](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
+| Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL API Key] | Global | A chave de API da sua conta [!DNL Authy]. |
 | [!UICONTROL OneTouch Message] | Global | A mensagem que aparece no autenticador [!DNL Authy] no logon. Padrão: `Login request to your Magento Admin` |

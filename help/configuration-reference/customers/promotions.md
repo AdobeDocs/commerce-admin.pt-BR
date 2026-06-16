@@ -1,11 +1,25 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
-description: Revise as configurações na página [!UICONTROL Customers] &gt; [!UICONTROL Promotions] do Administrador do Commerce.
+title: '[!UICONTROL Customers] > [!UICONTROL Promotions]'
+description: Revise as configurações na página [!UICONTROL Customers] > [!UICONTROL Promotions] do Administrador do Commerce.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/Sc1-Wacd9emNUOl9GabUK-J3OLH-eNX2hvk6m8oyjYc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: 330
 ht-degree: 0%
 
 ---
@@ -25,7 +39,7 @@ ht-degree: 0%
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enable Reminder Emails] | Global | Habilita lembretes de email automatizados. Se estiver definido como Não, as configurações restantes serão ignoradas. Opções: `Yes` / `No` |
-| [!UICONTROL Frequency] | Global | Indica a frequência com que a Commerce deve verificar se há novos clientes qualificados para os lembretes de email automatizados. Opções: <br/>**`Minute Intervals`**- Envia o email de acordo com o intervalo selecionado. (5 minutos, 10 minutos, 15 minutos, 20 minutos ou 30 minutos)<br/>**`Hourly`** - Envia emails de hora em hora, no minuto após a hora especificada. Insira um valor entre 0-59. <br/>**`Daily`**- Envia emails diariamente, a partir da Hora de Início. |
+| [!UICONTROL Frequency] | Global | Indica a frequência com que a Commerce deve verificar se há novos clientes qualificados para os lembretes de email automatizados. Opções: <br/>**`Minute Intervals`**- Envia o email de acordo com o intervalo selecionado. (5 minutos, 10 minutos, 15 minutos, 20 minutos ou 30 minutos)<br/>**`Hourly`** - Envia emails de hora em hora, no minuto após a hora especificada. Insira um valor entre 0 e 59. <br/>**`Daily`**- Envia emails diariamente, a partir da Hora de Início. |
 | [!UICONTROL Interval] | Global | O intervalo deve ser igual ou maior que o período de inicialização do cron.php. Opções: `5 minutes` / `10 minutes` / `15 minutes` / `20 minutes` / `30 minutes` |
 | [!UICONTROL Start Time] | Global | Define o dia, o minuto e o segundo em que o email é enviado. Especificado no formato de 24 horas, com base na hora do sistema no servidor. |
 | [!UICONTROL Maximum Emails per One Run] | Global | Limita o número de emails enviados em um bloco agendado. |

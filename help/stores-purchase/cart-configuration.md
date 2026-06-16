@@ -3,9 +3,24 @@ title: Configuração do carrinho
 description: Saiba mais sobre os recursos do carrinho de compras que você pode configurar para oferecer suporte à experiência de compra em sua loja.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: 2417
 ht-degree: 0%
 
 ---
@@ -143,7 +158,7 @@ A configuração permite especificar um valor mínimo, após a aplicação de de
 
 ![O carrinho de compras exibe uma mensagem de pedido mínima](./assets/storefront-cart-minimum-order-amount.png){width="700" zoomable="yes"}
 
-**_Para configurar um valor de pedido mínimo:_**
+**_Para configurar um valor de ordem mínimo:_**
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -291,7 +306,7 @@ A configuração de Opções de presente se aplica a todo o site, mas pode ser s
 
 O invólucro do presente está disponível para qualquer produto que possa ser enviado e pode ser oferecido para itens individuais ou para o pedido inteiro. Você pode cobrar um preço separado para cada design de invólucro de presente e fazer upload de uma imagem em miniatura para cada design que aparece como uma opção para um produto no carrinho. Quando um cliente clica na miniatura do invólucro do presente, uma imagem em tamanho normal é exibida. Durante a revisão do check-out, o encargo do invólucro do presente é exibido com os outros [totais de check-out](checkout-totals-sort-order.md) na seção _Resumo de Pedidos_.
 
-A imagem do invólucro do presente deve ser uma amostra que mostre o padrão de repetição e também pode incluir uma amostra da faixa de opções a ser usada. Você pode escanear o papel ou tirar uma fotografia de um pacote embrulhado. A imagem carregada pode ser um GIF, JPG ou PNG e deve ser quadrada. No exemplo a seguir, a imagem de invólucro do presente carregada é de 230 x 230 pixels.
+A imagem do invólucro do presente deve ser uma amostra que mostre o padrão de repetição e também pode incluir uma amostra da faixa de opções a ser usada. Você pode escanear o papel ou tirar uma fotografia de um pacote embrulhado. A imagem carregada pode ser uma imagem GIF, JPG ou PNG e deve ser quadrada. No exemplo a seguir, a imagem de invólucro do presente carregada é de 230 x 230 pixels.
 
 ![Opções de presentes no carrinho](./assets/storefront-cart-gift-options-gift-wrap.png){width="700" zoomable="yes"}
 

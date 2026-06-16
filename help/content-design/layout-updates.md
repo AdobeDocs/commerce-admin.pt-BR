@@ -2,10 +2,23 @@
 title: Atualizações de layout
 description: Saiba como usar atualizações de layout para personalizar o layout de uma página.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: https://experienceleague.adobe.com/PjeNmdtN39seTDCdzbt8K7DhoRZgFB3PksoKTJaFLsk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: 1044
 ht-degree: 0%
 
 ---
@@ -31,7 +44,7 @@ No diagrama a seguir, os nomes que se referem aos contêineres são pretos e os 
 | `page/html_wrapper` | Embora incluído no layout padrão, esse bloco está obsoleto e é incluído apenas para garantir a compatibilidade com versões anteriores. Não use blocos desse tipo. |
 | `page/html_breadcrumbs` | O nome deste bloco é `breadcrumbs` e é filho do bloco de cabeçalho. Esse bloco exibe navegações estruturais para a página atual. Só pode haver um bloco desse tipo por página. |
 | `page/html_footer` | O nome do bloco é `footer` e é filho do bloco raiz. O bloco de rodapé corresponde ao rodapé visual na parte inferior da página e contém vários blocos padrão. Só pode haver um bloco desse tipo por página e ele não deve ser removido. |
-| `page/template_links` | Há dois blocos desse tipo no layout padrão. O bloco `top.links` é filho do bloco de cabeçalho e corresponde ao menu de navegação superior. O bloco `footer_links` é filho do bloco de rodapé e corresponde ao menu de navegação inferior. <br/><br/>**_Observação:_**&#x200B;é possível manipular os links de modelo, conforme mostrado nos exemplos. |
+| `page/template_links` | Há dois blocos desse tipo no layout padrão. O bloco `top.links` é filho do bloco de cabeçalho e corresponde ao menu de navegação superior. O bloco `footer_links` é filho do bloco de rodapé e corresponde ao menu de navegação inferior. <br/><br/>**_Nota:_** É possível manipular os links do modelo, como mostrado nos exemplos. |
 | `page/switch` | Há dois blocos desse tipo no layout padrão. O bloco `store_language` é filho do bloco de cabeçalho e corresponde ao alternador de idioma superior. O bloco `store_switcher` é filho do bloco de rodapé e corresponde ao alternador de repositório inferior. |
 | core/messages | Há dois blocos desse tipo no layout padrão. O bloco `global_messages` exibe mensagens globais. O bloco `messages` é usado para exibir todas as outras mensagens. Se você remover esses blocos, o cliente não verá nenhuma mensagem. |
 | `core/text_list` | Esse tipo de bloco é amplamente usado em [!DNL Commerce] como um espaço reservado para renderização de blocos filhos. |

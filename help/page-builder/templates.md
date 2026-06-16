@@ -3,9 +3,19 @@ title: '[!DNL Page Builder] Modelos'
 description: Saiba como salvar seu conteúdo [!DNL Page Builder] existente como um modelo e, em seguida, aplicar esse modelo a outra área.
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/P61L0tgCPw78m-241VFZrlTugCZT3sRlHhHRyr-ARNs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: 477
 ht-degree: 0%
 
 ---
@@ -91,4 +101,4 @@ A grade _Aplicar Modelo_ e a grade de páginas _Modelos_ fornecem duas maneiras 
 
 Assista a este vídeo para saber mais sobre os modelos de conteúdo do Page Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/3412503?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3412503?captions=por_br&quality=12&learn=on)

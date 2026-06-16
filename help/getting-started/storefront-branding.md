@@ -3,9 +3,24 @@ title: Marca da loja
 description: Saiba mais sobre como alterar os elementos que definem a identidade da marca da sua loja.
 exl-id: 91630717-9da7-4d2f-a0d8-adb794a30ee1
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+TQID: https://experienceleague.adobe.com/2IjLVK33ITjn-eFJ0VpmDmlp8SNy-vZ0365An0lm1cA
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: 1313
 ht-degree: 0%
 
 ---
@@ -32,14 +47,14 @@ Se você não souber o tamanho do logotipo ou de outras imagens usadas no tema, 
 
 >[!NOTE]
 >
->Além do logotipo no cabeçalho, seu logotipo também aparece em [modelos de email](../systems/email-templates.md#prepare-your-email-logo) e em [faturas de PDF](../stores-purchase/sales-documents.md) e outros documentos de vendas. Os logotipos usados para modelos de email e faturas têm requisitos de tamanho diferentes e devem ser carregados separadamente.
+>Além do logotipo no cabeçalho, seu logotipo também aparece em [modelos de email](../systems/email-templates.md#prepare-your-email-logo) e em [faturas do PDF](../stores-purchase/sales-documents.md) e outros documentos de vendas. Os logotipos usados para modelos de email e faturas têm requisitos de tamanho diferentes e devem ser carregados separadamente.
 
 Formatos de arquivo de logotipo suportados:
 
 | Formato de arquivo | Descrição |
 |--- |--- |
-| PNG | (Portable Network Graphics) Essa alternativa mais recente para o formato GIF suporta até 16 milhões de cores (24 bits). O formato de compactação sem perdas produz uma imagem bitmap de alta qualidade com texto nítido, mas um tamanho de arquivo maior do que alguns formatos. O formato PNG é compatível com camadas transparentes e foi projetado para visualização e transmissão online. |
-| GIF | (Graphics Interchange Format) Um formato de bitmap antigo e amplamente compatível que é limitado a 256 cores (8 bits). O formato GIF suporta animações simples e camadas transparentes. |
+| PNG | (Portable Network Graphics) Essa alternativa mais recente ao formato GIF suporta até 16 milhões de cores (24 bits). O formato de compactação sem perdas produz uma imagem bitmap de alta qualidade com texto nítido, mas um tamanho de arquivo maior do que alguns formatos. O formato PNG é compatível com camadas transparentes e foi projetado para visualização e transmissão online. |
+| GIF | (Graphics Interchange Format) Um formato de bitmap antigo e amplamente compatível que é limitado a 256 cores (8 bits). O formato GIF é compatível com animações simples e camadas transparentes. |
 | JPG (JPEG) | (Joint Photographic Expert Group) Um formato de bitmap compactado usado pela maioria das câmeras digitais. A compactação com perdas causa alguma perda de dados, que às vezes é perceptível como pontos embaçados no texto. |
 
 {style="table-layout:auto"}
@@ -66,7 +81,7 @@ Formatos de arquivo de logotipo suportados:
 
 _Favicon_ é a abreviação de _ícone favorito_ e se refere ao pequeno ícone na guia de cada página do navegador. Dependendo do navegador, o favicon também aparece na barra de endereços, antes do URL.
 
-Um favicon geralmente tem 16 x 16 pixels ou 32 x 32 pixels de tamanho. [!DNL Commerce] aceita os tipos de arquivos ICO, PNG, APNG, GIF e JPG (JPEG), embora nem todos os navegadores sejam compatíveis com esses formatos. O formato de arquivo mais amplamente suportado para usar em um favicon é ICO. Você pode usar outros tipos de arquivo de imagem, mas o formato pode não ser compatível com todos os navegadores. Há muitas ferramentas gratuitas disponíveis on-line que você pode usar para gerar uma imagem ICO ou converter uma imagem para esse formato.
+Um favicon geralmente tem 16 x 16 pixels ou 32 x 32 pixels de tamanho. [!DNL Commerce] aceita os tipos de arquivo ICO, PNG, APNG, GIF e JPG (JPEG), embora nem todos os navegadores sejam compatíveis com esses formatos. O formato de arquivo mais amplamente suportado para usar em um favicon é ICO. Você pode usar outros tipos de arquivo de imagem, mas o formato pode não ser compatível com todos os navegadores. Há muitas ferramentas gratuitas disponíveis on-line que você pode usar para gerar uma imagem ICO ou converter uma imagem para esse formato.
 
 ![Favicon na guia do navegador](./assets/storefront-favicon.png){width="600"}
 
@@ -75,9 +90,9 @@ Um favicon geralmente tem 16 x 16 pixels ou 32 x 32 pixels de tamanho. [!DNL Com
 | Formato de arquivo | Descrição |
 |--- |--- |
 | ICO | Este formato de arquivo de imagem foi projetado para imagens de ícones de computadores de pequeno porte. Usado principalmente no sistema operacional Microsoft® Windows, o formato ICO pode conter imagens de até 256 x 256 pixels e 16 milhões de cores (24 bits) com 8 bits de transparência. |
-| PNG | (Portable Network Graphics) Essa alternativa mais recente para o formato GIF suporta até 16 milhões de cores (24 bits). O formato de compactação sem perdas produz uma imagem bitmap de alta qualidade com texto nítido, mas um tamanho de arquivo maior do que alguns formatos. O formato PNG é compatível com camadas transparentes e foi projetado para visualização e transmissão online. |
+| PNG | (Portable Network Graphics) Essa alternativa mais recente ao formato GIF suporta até 16 milhões de cores (24 bits). O formato de compactação sem perdas produz uma imagem bitmap de alta qualidade com texto nítido, mas um tamanho de arquivo maior do que alguns formatos. O formato PNG é compatível com camadas transparentes e foi projetado para visualização e transmissão online. |
 | APNG | (Animated Portable Network Graphics) Um formato de arquivo semelhante ao PNG que suporta animação simples. |
-| GIF | (Graphics Interchange Format) Um formato de bitmap antigo e amplamente compatível que é limitado a 256 cores (8 bits). O formato GIF suporta animações simples e camadas transparentes. |
+| GIF | (Graphics Interchange Format) Um formato de bitmap antigo e amplamente compatível que é limitado a 256 cores (8 bits). O formato GIF é compatível com animações simples e camadas transparentes. |
 | JPG (JPEG) | (Joint Photographic Expert Group) Um formato de bitmap compactado usado pela maioria das câmeras digitais. A compactação com perdas causa alguma perda de dados, que às vezes é perceptível como pontos embaçados no texto. |
 
 {style="table-layout:auto"}
@@ -96,7 +111,7 @@ Um favicon geralmente tem 16 x 16 pixels ou 32 x 32 pixels de tamanho. [!DNL Com
 
 1. Em _[!UICONTROL Other Settings]_, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL HTML Head]**.
 
-   ![Configurações do Cabeçalho de HTML](./assets/configuration-html-head.png){width="600"}
+   ![Configurações do HTML Head](./assets/configuration-html-head.png){width="600"}
 
 1. Para remover o favicon atual, clique no ícone _Excluir_ (![Lixeira](../assets/icon-delete-trashcan.png)) no canto inferior esquerdo da imagem.
 
@@ -152,7 +167,7 @@ O código de caractere `&copy;` é usado para inserir o símbolo de copyright, c
 
   `&copy; 2021 Luma, Inc. All rights reserved.`
 
-**_Para atualizar o aviso de direitos autorais:_**
+**_Para atualizar o aviso de copyright:_**
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 

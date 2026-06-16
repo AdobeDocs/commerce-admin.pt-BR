@@ -2,9 +2,24 @@
 title: Gerenciar estoque de estoque
 description: Saiba como o estoque é usado para representar um inventário agregado virtual de produtos para fontes de seus canais de vendas.
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 524
 ht-degree: 0%
 
 ---
@@ -15,13 +30,13 @@ O Stock representa um inventário agregado virtual de produtos para fontes de se
 
 Você começa com um Estoque padrão que não pode ser removido ou desativado. Você pode adicionar outros canais de vendas somente ao estoque. A única origem atribuída é o Source padrão. Esse estoque é usado por comerciantes de origem única, integrações de terceiros e produtos importados.
 
-Sales Channel representam entidades que vendem seu inventário. Por padrão, o [!DNL Commerce] fornece os sites da loja como canais de vendas. Os canais de vendas podem ser estendidos para oferecer suporte a canais adicionais, como grupos de clientes B2B e visualizações de loja. Cada canal de vendas pode ser associado a apenas um Stock.
+Os Canais de vendas representam entidades que vendem seu inventário. Por padrão, o [!DNL Commerce] fornece os sites da loja como canais de vendas. Os canais de vendas podem ser estendidos para oferecer suporte a canais adicionais, como grupos de clientes B2B e visualizações de loja. Cada canal de vendas pode ser associado a apenas um Stock.
 
-- **Suporte para Sales Channel** - Os canais de vendas atualmente incluem sites prontos para uso. Você pode estender canais de vendas para incluir opções personalizadas, como grupos de clientes B2B e exibições de loja. Cada canal de vendas só pode ter um único estoque atribuído a ele. Um único estoque pode ser atribuído a vários canais de vendas.
+- **Suporte da Sales Channel** - Os canais de vendas atualmente incluem sites prontos para uso. Você pode estender canais de vendas para incluir opções personalizadas, como grupos de clientes B2B e exibições de loja. Cada canal de vendas só pode ter um único estoque atribuído a ele. Um único estoque pode ser atribuído a vários canais de vendas.
 - **Mapear para Fontes** - Cada estoque pode ter uma ou mais fontes habilitadas ou desabilitadas atribuídas, calculando o estoque agregado virtual por produto.
 - **Atendimento de pedidos por prioridade** - O algoritmo de prioridade pronto para uso do algoritmo de seleção Source usa a lista de origem do estoque de cima para baixo ao atender pedidos.
 
-O diagrama a seguir ajuda a definir como um Stock funciona em relação às Origens e Sales Channel para um comerciante de uma Loja de Bicicletas.
+O diagrama a seguir ajuda a definir como um Stock funciona em relação a Origens e Canais de Vendas para um comerciante de uma Loja de Bicicletas.
 
 ![Diagrama para exemplo de ações para um armazenamento](assets/diagram-stock.png){width="600" zoomable="yes"}
 

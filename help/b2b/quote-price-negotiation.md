@@ -3,9 +3,26 @@ title: Negociar uma cotação
 description: Saiba mais sobre os workflows de negociação de cotações e como trabalhar com compradores para compras.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-source-git-commit: ec00288f33af2abb785d1b37dd67aaf1ebe35c06
+TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: 2249
 ht-degree: 0%
 
 ---
@@ -234,7 +251,7 @@ As informações de cotação e funções no Administrador estão organizadas na
 
 | Campo | Descrição |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Comments] | A guia Comentários da seção Negociação é usada para informar uma mensagem ao comprador sobre a cota. <br/>**[!UICONTROL Add your comment]**- Os comentários são usados para se comunicar com o comprador durante o processo de negociação. Use os comentários para explicar quaisquer descontos oferecidos na cotação ou o motivo pelo qual uma solicitação de cotação foi recusada.<br/>**[!UICONTROL Attach file]** - O tamanho máximo de arquivo e os tipos de arquivo com suporte para [arquivos anexados](configure-quotes.md) são determinados pela configuração. Por padrão, um arquivo anexado pode ter até 2 MB e qualquer um dos seguintes tipos de arquivos: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG ou JPEG, PNG. |
+| [!UICONTROL Comments] | A guia Comentários da seção Negociação é usada para informar uma mensagem ao comprador sobre a cota. <br/>**[!UICONTROL Add your comment]**- Os comentários são usados para se comunicar com o comprador durante o processo de negociação. Use os comentários para explicar quaisquer descontos oferecidos na cotação ou o motivo pelo qual uma solicitação de cotação foi recusada.<br/>**[!UICONTROL Attach file]** - O tamanho máximo de arquivo e os tipos de arquivo com suporte para [arquivos anexados](configure-quotes.md) são determinados pela configuração. Por padrão, um arquivo anexado pode ter até 2 MB e qualquer um dos seguintes tipos de arquivo: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG ou JPEG, PNG. |
 | [!UICONTROL History Log] | Essa guia exibe um histórico completo da cotação com datas, status da cotação e comentários. |
 
 {style="table-layout:auto"}

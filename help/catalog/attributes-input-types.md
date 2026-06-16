@@ -3,9 +3,25 @@ title: Tipos de entrada de atributo
 description: Saiba mais sobre os tipos de entrada disponíveis para atributos de produto, que determinam o tipo de dados que podem ser inseridos e o formato do campo ou do controle de entrada.
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
 feature: Catalog Management, Products
-source-git-commit: 5398555aa025db6ff0eafd758d8e930b81c5e771
+TQID: https://experienceleague.adobe.com/8WwqU3ZSqmORqSD2061Pa5MTRqYbH71dOxouz-nLwbo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -21,7 +37,7 @@ Quando visualizados pelo Admin, os atributos são os campos que você preenche a
 | [!UICONTROL Text Field] | Um campo de entrada de linha única para texto. |
 | [!UICONTROL Text Area] | Um campo de entrada de várias linhas para inserir parágrafos de texto, como uma descrição do produto. Você pode usar o Editor WYSIWYG para formatar o texto com tags HTML ou inserir as tags diretamente no texto. |
 | [!UICONTROL Text Editor] | Um editor de texto totalmente funcional no local do atributo. |
-| [!UICONTROL Date] | Exibe um valor de data no [formato preferido](#date-and-time-options) e [fuso horário](../getting-started/store-details.md#locale-options). Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_** Dependendo da configuração do seu sistema, os usuários do _Administrador_ podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](#date-and-time-options). |
+| [!UICONTROL Date] | Exibe um valor de data no [formato preferido](#date-and-time-options) e [fuso horário](../getting-started/store-details.md#locale-options). Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**&#x200B;Dependendo da configuração do seu sistema, os usuários do_ Administrador_ podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](#date-and-time-options). |
 | [!UICONTROL Date and Time] | Exibe um valor de data e hora no [formato preferido](#date-and-time-options) e [fuso horário](../getting-started/store-details.md#locale-options). A data e a hora podem ser inseridas manualmente ou selecionadas em um calendário. Exemplo de formato: DD/MM/AAAA HH:MM |
 | [!UICONTROL Yes/No] | Exibe uma lista suspensa com opções predefinidas de `Yes` e `No`. |
 | Lista suspensa | Exibe uma lista suspensa de valores que aceitam apenas uma única seleção. O tipo de entrada suspensa é um componente chave de [produtos configuráveis](../catalog/product-create-configurable.md). |

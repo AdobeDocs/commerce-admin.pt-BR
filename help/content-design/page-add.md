@@ -4,11 +4,20 @@ description: Saiba como adicionar e remover as páginas de conteúdo usadas na s
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/NUP56gvdWU0EMfq9HSMD9GG1YcZhFgYaEIXVQqtxl4U
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1216
@@ -162,7 +171,7 @@ Dependendo da sua [configuração de Ferramentas de Conteúdo Avançadas](../con
 
 ### Etapa 8: publicar a página
 
-1. Selecione **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_da grade.
+1. Selecione **[!UICONTROL Edit]** na coluna _[!UICONTROL Action]_&#x200B;da grade.
 
 1. Defina **[!UICONTROL Enable Page]** como `Yes`.
 
@@ -217,7 +226,7 @@ Qualquer página de conteúdo pode ser usada como um modelo e salva como uma dup
 
 ## Excluir uma página
 
-Há duas maneiras de remover uma página criada. Você pode removê-lo da grade _[!UICONTROL Pages]_ou da página_[!UICONTROL Edit]_.
+Há duas maneiras de remover uma página criada. Você pode removê-lo da grade _[!UICONTROL Pages]_&#x200B;ou da página&#x200B;_[!UICONTROL Edit]_.
 
 ### Método 1: remover uma página da grade Páginas
 
@@ -235,7 +244,7 @@ Há duas maneiras de remover uma página criada. Você pode removê-lo da grade 
 
 1. Localizar a página a ser excluída.
 
-1. Na coluna _[!UICONTROL Actions]_da entidade de página, clique em **[!UICONTROL Select]**e escolha **[!UICONTROL Edit]**.
+1. Na coluna _[!UICONTROL Actions]_&#x200B;da entidade de página, clique em **[!UICONTROL Select]**&#x200B;e escolha **[!UICONTROL Edit]**.
 
 1. Na barra de botões, clique em **[!UICONTROL Delete Page]**.
 

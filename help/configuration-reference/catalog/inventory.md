@@ -4,11 +4,20 @@ description: Revise as configurações na página [!UICONTROL Catalog] > [!UICON
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
 TQID: https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1225
@@ -75,7 +84,7 @@ ht-degree: 0%
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Run asynchronously] | Global | Determina se você executa operações em massa de forma assíncrona para ações de produtos em massa, incluindo [fontes de atribuição em massa](../../inventory-management/bulk-assignment.md), fontes de cancelamento de atribuição e [transferir inventário para a origem](../../inventory-management/inventory-transfer.md). Ele coleta ações em massa até _[!UICONTROL Asynchronous batch size]_e, em seguida, executa essas ações. Esse recurso está desativado por padrão. Recomendamos analisar seu desempenho com ações em massa antes de habilitar. Opções:<br/>**`Yes`**- Executa todas as operações em massa para [!DNL Inventory Management] de forma assíncrona. Para habilitar, você deve configurar um gerenciador de filas assíncrono.<br/>**`No`**- Padrão. Não executa operações em massa de forma assíncrona. |
+| [!UICONTROL Run asynchronously] | Global | Determina se você executa operações em massa de forma assíncrona para ações de produtos em massa, incluindo [fontes de atribuição em massa](../../inventory-management/bulk-assignment.md), fontes de cancelamento de atribuição e [transferir inventário para a origem](../../inventory-management/inventory-transfer.md). Ele coleta ações em massa até _[!UICONTROL Asynchronous batch size]_&#x200B;e, em seguida, executa essas ações. Esse recurso está desativado por padrão. Recomendamos analisar seu desempenho com ações em massa antes de habilitar. Opções:<br/>**`Yes`**- Executa todas as operações em massa para [!DNL Inventory Management] de forma assíncrona. Para habilitar, você deve configurar um gerenciador de filas assíncrono.<br/>**`No`**- Padrão. Não executa operações em massa de forma assíncrona. |
 | [!UICONTROL Asynchronous batch size] | Global | Defina **[!UICONTROL Run asynchronously]** como `Yes` para inserir um valor para o campo _[!UICONTROL Asynchronous batch size]_. <br/>O tamanho de lote padrão é 100. Quando os processos em massa atingem essa quantidade, eles são executados. |
 
 {style="table-layout:auto"}

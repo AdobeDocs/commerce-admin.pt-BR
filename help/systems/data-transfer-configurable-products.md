@@ -4,11 +4,20 @@ description: Veja um exemplo de importação de dados de produtos para um produt
 exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 feature: Products, Data Import/Export
 TQID: https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 950
@@ -74,7 +83,7 @@ No exemplo a seguir, é possível adicionar um conjunto de variações de produt
 
    - Defina **[!UICONTROL Export File Format]** como `CSV`.
 
-1. Em _[!UICONTROL Entity Attributes]_, role para baixo ou use o filtro de rótulo de atributo para localizar o atributo **[!UICONTROL SKU]**e faça o seguinte:
+1. Em _[!UICONTROL Entity Attributes]_, role para baixo ou use o filtro de rótulo de atributo para localizar o atributo **[!UICONTROL SKU]**&#x200B;e faça o seguinte:
 
    - Insira o SKU do produto configurável que você escolheu exportar e clique em **[!UICONTROL Continue]**.
 
@@ -158,9 +167,9 @@ No exemplo a seguir, o conjunto de tamanhos XL é copiado e colado na planilha p
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. Em _[!UICONTROL Import Settings]_, defina **[!UICONTROL Entity Type]**como `Products`.
+1. Em _[!UICONTROL Import Settings]_, defina **[!UICONTROL Entity Type]**&#x200B;como `Products`.
 
-1. Em _[!UICONTROL Import Behavior]_, defina **[!UICONTROL Import Behavior]**como `Add/Update`.
+1. Em _[!UICONTROL Import Behavior]_, defina **[!UICONTROL Import Behavior]**&#x200B;como `Add/Update`.
 
    ![Comportamento de importação de dados](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 

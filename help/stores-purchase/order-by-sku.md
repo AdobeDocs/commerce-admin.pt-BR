@@ -4,11 +4,20 @@ description: Saiba como configurar sua loja para aceitar pedidos feitos pelo SKU
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
 TQID: https://experienceleague.adobe.com/zMI6ElJA6t8IL8tRqYAPvM7YwCdTCC-u-BVWMV0ZmWQ
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 592
@@ -49,7 +58,7 @@ _Pedir por SKU_ é um [widget](../content-design/widgets.md) que pode ser exibid
 
 1. Clique em **[!UICONTROL Save Config]**.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (somente Adobe Commerce B2B) _**Para habilitar a função Ordenar por SKU, desabilite a função Ordem Rápida:**_
+![Adobe Commerce B2B](../assets/b2b.svg) (somente Adobe Commerce B2B) _&#x200B;**Para habilitar a função Ordenar por SKU, desabilite a função Ordem Rápida:**&#x200B;_
 
 1. Vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -81,7 +90,7 @@ Quando a funcionalidade é configurada para a loja, os clientes podem fazer pedi
 
 1. Adiciona itens individuais de acordo com a preferência:
 
-   _**Adiciona cada item por SKU:**_
+   _&#x200B;**Adiciona cada item por SKU:**&#x200B;_
 
    - Insira os **[!UICONTROL SKU]** e **[!UICONTROL Qty]** do item a ser ordenado.
 
@@ -89,7 +98,7 @@ Quando a funcionalidade é configurada para a loja, os clientes podem fazer pedi
 
    - Cliques **[!UICONTROL Add to Cart]**.
 
-   _**Carrega um arquivo CSV de vários itens:**_
+   _&#x200B;**Carrega um arquivo CSV de vários itens:**&#x200B;_
 
    - Prepara um [arquivo CSV de dados de importação](../systems/data-csv.md) (Valor Separado por Vírgula) que inclui colunas para `SKU` e `Qty`.
 

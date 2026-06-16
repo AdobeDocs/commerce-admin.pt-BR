@@ -5,12 +5,22 @@ exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
 TQID: https://experienceleague.adobe.com/DLTxCkTvqUobFaP-0ccPFIrqbaObTto08EPLn1li3TA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1041
@@ -38,7 +48,7 @@ Para usuários ou funções temporários, também é possível definir uma data 
 
 1. No canto superior direito, clique em **[!UICONTROL Add New User]**.
 
-   Para editar um usuário existente, clique em um nome de usuário na grade. Você pode modificar as seções _[!UICONTROL User Info]_e_[!UICONTROL User Role]_ conforme necessário.
+   Para editar um usuário existente, clique em um nome de usuário na grade. Você pode modificar as seções _[!UICONTROL User Info]_&#x200B;e_[!UICONTROL User Role]_ conforme necessário.
 
 1. Na seção _[!UICONTROL Account Information]_, faça o seguinte:
 
@@ -76,13 +86,13 @@ Para usuários ou funções temporários, também é possível definir uma data 
 
 >[!IMPORTANT]
 >
->Com a seção _[!UICONTROL Account Information]_concluída, você pode salvar o usuário. O novo usuário é exibido na grade_[!UICONTROL Users]_, mas o nome de usuário não pode fazer logon até que uma função seja atribuída.
+>Com a seção _[!UICONTROL Account Information]_&#x200B;concluída, você pode salvar o usuário. O novo usuário é exibido na grade&#x200B;_[!UICONTROL Users]_, mas o nome de usuário não pode fazer logon até que uma função seja atribuída.
 
 ## Atribuir uma função de usuário
 
 1. No painel esquerdo, clique em **[!UICONTROL User Role]**.
 
-   A grade lista todas as funções de usuário existentes. Para um novo armazenamento, _[!UICONTROL Administrators]_é a única função disponível.
+   A grade lista todas as funções de usuário existentes. Para um novo armazenamento, _[!UICONTROL Administrators]_&#x200B;é a única função disponível.
 
    ![Administrador - adicionar nova função de usuário](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
@@ -112,7 +122,7 @@ Para usuários ou funções temporários, também é possível definir uma data 
 
 1. Quando solicitado, digite sua senha para confirmar sua identidade e clique novamente em **[!UICONTROL Save User]**.
 
-   A grade _[!UICONTROL Users]_é aberta e lista todos os usuários.
+   A grade _[!UICONTROL Users]_&#x200B;é aberta e lista todos os usuários.
 
 ## Excluir um usuário administrador
 

@@ -3,11 +3,22 @@ title: Painel de administração
 description: Saiba mais sobre o Painel de administração, que geralmente é a primeira página exibida ao fazer logon.
 exl-id: 56957c0a-1618-444b-a37a-ecf0d7b27eae
 TQID: https://experienceleague.adobe.com/wC9e6bsTF6P9zt1biyWq1IJQUPQ01c940OcZNMw-AdQ
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 725
@@ -29,7 +40,7 @@ Se você tiver uma quantidade significativa de dados para processar, o gráfico 
 
 ## Configurar o painel
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**e conclua qualquer uma das configurações a seguir.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;e conclua qualquer uma das configurações a seguir.
 
 1. Quando a configuração estiver concluída, clique em **[!UICONTROL Save Config]**.
 
@@ -55,7 +66,7 @@ Para obter mais informações sobre as opções de configuração de Admin, cons
 
 O painel é a [página de inicialização](../configuration-reference/advanced/admin.md) padrão para o Administrador, embora você possa configurar uma página de inicialização diferente.
 
-1. Se você ainda não tiver as opções de Configuração de administrador abertas, escolha **[!UICONTROL Admin]** em _[!UICONTROL Advanced]_no painel de navegação esquerdo.
+1. Se você ainda não tiver as opções de Configuração de administrador abertas, escolha **[!UICONTROL Admin]** em _[!UICONTROL Advanced]_&#x200B;no painel de navegação esquerdo.
 
 1. Clique para expandir a seção **Página de Inicialização**.
 

@@ -4,11 +4,20 @@ description: Saiba mais sobre as regras de produtos relacionados e como elas sã
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
 TQID: https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 879
@@ -34,8 +43,8 @@ Para acessar as regras de produto relacionadas, acesse **[!UICONTROL Marketing]*
 |--- |--- |
 | [!UICONTROL ID] | Um identificador numérico exclusivo atribuído a cada regra de produto relacionada |
 | [!UICONTROL Rule] | O nome da regra de produto relacionada |
-| [!UICONTROL Start] | Use os campos de calendário dinâmico (_[!UICONTROL To:]_e_[!UICONTROL From:]_) para filtrar a lista com base na data de início da regra, conforme definido quando a regra foi criada. |
-| [!UICONTROL End] | Use os campos de calendário dinâmico (_[!UICONTROL To:]_e_[!UICONTROL From:]_) para filtrar a lista com base na data final da regra, conforme definido quando a regra foi criada. |
+| [!UICONTROL Start] | Use os campos de calendário dinâmico (_[!UICONTROL To:]_&#x200B;e_[!UICONTROL From:]_) para filtrar a lista com base na data de início da regra, conforme definido quando a regra foi criada. |
+| [!UICONTROL End] | Use os campos de calendário dinâmico (_[!UICONTROL To:]_&#x200B;e_[!UICONTROL From:]_) para filtrar a lista com base na data final da regra, conforme definido quando a regra foi criada. |
 | [!UICONTROL Priority] | Insira texto neste campo para filtrar a lista com base na prioridade definida para uma regra. |
 | [!UICONTROL Applies To] | Esta opção filtra a lista de regras que se aplicam a `Related Products`, `Up-sells` e `Cross-sells`. |
 | [!UICONTROL Status] | Use esta opção para filtrar a lista com base no status da regra (`Active` ou `Inactive`). |
@@ -53,7 +62,7 @@ O número de IDs de produtos que podem ser incluídas em uma regra de relações
 Por exemplo, suponha que você tenha três regras com prioridade `1`, `2` e `3`.
 
 - Há dois produtos correspondentes retornados para a _Regra 1_, seis produtos correspondentes para a _Regra 2_ e vinte produtos correspondentes para a _Regra 3_.
-- Na configuração, o _[!UICONTROL Maximum Number of Products for Related Products List]_está definido como `6`.
+- Na configuração, o _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;está definido como `6`.
 
   | Regras | Prioridade | Produtos de correspondência |
   |---|---|-----|

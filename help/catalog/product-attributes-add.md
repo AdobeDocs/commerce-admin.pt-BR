@@ -4,11 +4,21 @@ description: Saiba como adicionar atributos aos produtos em seu catálogo.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/UjUC1RvGmumw8smkucJTNMYlrnQ43uurysnPdD48eog
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 867
@@ -42,7 +52,7 @@ Embora os atributos sejam gerenciados principalmente pelo menu [Lojas](../stores
 
 ![Propriedades do atributo](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. Em _[!UICONTROL Attribute Properties]_, insira um **[!UICONTROL Attribute Label]**para identificar o atributo.
+1. Em _[!UICONTROL Attribute Properties]_, insira um **[!UICONTROL Attribute Label]**&#x200B;para identificar o atributo.
 
 1. Defina **[!UICONTROL Catalog Input Type for Store Owner]** como o tipo de [controle de entrada](attributes-input-types.md) a ser usado para entrada de dados.
 
@@ -91,7 +101,7 @@ Embora os atributos sejam gerenciados principalmente pelo menu [Lojas](../stores
 
 1. Se quiser incluir o atributo como uma coluna na grade Produtos, defina **[!UICONTROL Add to Column Options]** como `Yes`.
 
-1. Se quiser filtrar a grade _[!UICONTROL Products]_por esta coluna, defina **[!UICONTROL Use in Filter Options]**como `Yes`.
+1. Se quiser filtrar a grade _[!UICONTROL Products]_&#x200B;por esta coluna, defina **[!UICONTROL Use in Filter Options]**&#x200B;como `Yes`.
 
 ## Etapa 4: insira o rótulo do campo
 
@@ -125,7 +135,7 @@ Embora os atributos sejam gerenciados principalmente pelo menu [Lojas](../stores
 
    >[!NOTE]
    >
-   >Quando a configuração _[!UICONTROL Use in Search]_está definida como `No`, a configuração_[!UICONTROL Use in Search Results Layered Navigation]_ não é exibida e o atributo de produto não é usado na pesquisa com nenhum valor de configuração [!UICONTROL Use in Layered Navigation].
+   >Quando a configuração _[!UICONTROL Use in Search]_&#x200B;está definida como `No`, a configuração&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ não é exibida e o atributo de produto não é usado na pesquisa com nenhum valor de configuração [!UICONTROL Use in Layered Navigation].
 
 1. Para usar o atributo na navegação em camadas nas páginas de resultados da pesquisa, defina **[!UICONTROL Use in Search Results Layered Navigation]** como `Yes` e insira um número no campo **[!UICONTROL Position]**.
 
@@ -133,7 +143,7 @@ Embora os atributos sejam gerenciados principalmente pelo menu [Lojas](../stores
 
    >[!NOTE]
    >
-   >O campo _[!UICONTROL Position]_está esmaecido por padrão e você deve salvar o atributo antes de modificar essa configuração.
+   >O campo _[!UICONTROL Position]_&#x200B;está esmaecido por padrão e você deve salvar o atributo antes de modificar essa configuração.
 
 1. Para usar o atributo em regras de preço, defina **[!UICONTROL Use for Promo Rule Conditions]** como `Yes`.
 

@@ -4,11 +4,20 @@ description: Revise as configurações na página [!UICONTROL Sales] > [!UICONTR
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
 TQID: https://experienceleague.adobe.com/HbW4SJ4D2ktIp2wPFx5Bd1flvKdU6fqayMqjwzWorXE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1231
@@ -46,7 +55,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | Site | Determina o método usado para calcular o imposto de um pedido. Opções:<br/>**`Unit Price`**- Os cálculos de imposto são baseados no preço unitário de cada produto.<br/>**`Row Total`** - Cálculos de impostos baseados no total do item de linha. <br/>**`Total`**- Cálculos de impostos baseados no total do pedido.<br/><br/>_** Observação:**_se uma extensão de cálculo de imposto for instalada do Marketplace, como a _Vertex Cloud_, o serviço de extensão será listado como uma opção. |
+| [!UICONTROL Tax Calculation Method Based On] | Site | Determina o método usado para calcular o imposto de um pedido. Opções:<br/>**`Unit Price`**- Os cálculos de imposto são baseados no preço unitário de cada produto.<br/>**`Row Total`** - Cálculos de impostos baseados no total do item de linha. <br/>**`Total`**- Cálculos de impostos baseados no total do pedido.<br/><br/>_ **&#x200B; Observação:**&#x200B;_se uma extensão de cálculo de imposto for instalada do Marketplace, como a _Vertex Cloud_, o serviço de extensão será listado como uma opção. |
 | [!UICONTROL Tax Calculation Based On] | Site | Determina se o cálculo do imposto é baseado no endereço de entrega, endereço de cobrança ou origem da remessa. Opções: `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | Site | Determina se os preços de catálogo incluem ou excluem imposto. Opções: `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | Site | Determina nos preços de envio se o imposto é incluído ou excluído. Opções: `Excluding Tax` / `Including Tax` |
@@ -130,7 +139,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | [!UICONTROL Display Prices in Product Lists] | Site | Controla a exibição de FPT em listas de produtos. Opções:<br/> **`Including FPT Only`** - Os preços exibidos incluem impostos fixos sobre o produto. O valor FPT não é exibido separadamente.<br/>**`Including FPT and FPT description`**- Os preços exibidos incluem impostos fixos sobre o produto. O valor de FPT é exibido separadamente.<br/>**`Excluding FPT. Including FPT description and final price`** - Os preços exibidos não incluem impostos fixos sobre o produto. O valor de FPT é exibido separadamente.<br/>**`Excluding FPT`**- Os preços exibidos não incluem impostos fixos sobre o produto. O valor FPT não é exibido separadamente. |
 | [!UICONTROL Display Prices On Product View Page] | Site | Controla a exibição de FPT na página do produto. Opções:<br/> **`Including FPT Only`** - Os preços exibidos incluem impostos fixos sobre o produto. O valor FPT não é exibido separadamente.<br/>**`Including FPT and FPT description`**- Os preços exibidos incluem impostos fixos sobre o produto. O valor de FPT é exibido separadamente.<br/>**`Excluding FPT. Including FPT description and final price`** - Os preços exibidos não incluem impostos fixos sobre o produto. O valor de FPT é exibido separadamente.<br/>**`Excluding FPT`**- Os preços exibidos não incluem impostos fixos sobre o produto. O valor FPT não é exibido separadamente. |
 | [!UICONTROL Display Prices in Sales Modules] | Site | Controla a exibição de FPT no carrinho de compras e durante o check-out. Opções:<br/> **`Including FPT Only`** - Os preços exibidos incluem impostos fixos sobre o produto. O valor FPT não é exibido separadamente.<br/>**`Including FPT and FPT description`**- Os preços exibidos incluem impostos fixos sobre o produto. O valor de FPT é exibido separadamente.<br/>**`Excluding FPT. Including FPT description and final price`** - Os preços exibidos não incluem impostos fixos sobre o produto. O valor de FPT é exibido separadamente.<br/>**`Excluding FPT`**- Os preços exibidos não incluem impostos fixos sobre o produto. O valor FPT não é exibido separadamente. |
-| [!UICONTROL Display Prices in Emails] | Site | Controla a exibição de FPT no email. Opções:<br/> **`Including FPT Only`** - Os preços exibidos incluem impostos fixos sobre o produto. O valor FPT não é exibido separadamente.<br/>**`Including FPT and FPT description`**- Os preços exibidos incluem impostos fixos sobre o produto. O valor de FPT é exibido separadamente.<br/>** Excluindo FPT. Incluindo descrição FPT e preço final **- Os preços exibidos não incluem impostos fixos do produto. O valor de FPT é exibido separadamente.<br/>**`Excluding FPT`** - Os preços exibidos não incluem impostos fixos sobre o produto. O valor FPT não é exibido separadamente. |
+| [!UICONTROL Display Prices in Emails] | Site | Controla a exibição de FPT no email. Opções:<br/> **`Including FPT Only`** - Os preços exibidos incluem impostos fixos sobre o produto. O valor FPT não é exibido separadamente.<br/>**`Including FPT and FPT description`**- Os preços exibidos incluem impostos fixos sobre o produto. O valor de FPT é exibido separadamente.<br/>**&#x200B; Excluindo FPT. Incluindo descrição FPT e preço final &#x200B;**- Os preços exibidos não incluem impostos fixos do produto. O valor de FPT é exibido separadamente.<br/>**`Excluding FPT`** - Os preços exibidos não incluem impostos fixos sobre o produto. O valor FPT não é exibido separadamente. |
 | [!UICONTROL Apply Tax to FPT] | Site | Determina se o imposto é aplicado ao valor FPT. Opções: `Yes` / `No` |
 | [!UICONTROL Include FPT in Subtotal] | Site | Determina se o FPT é incluído no subtotal do carrinho de compras. Opções: <br/>**`Yes`**- Inclui FPT no subtotal do carrinho de compras.<br/>**`No`** - O FPT não está incluído no subtotal e é colocado depois do subtotal no carrinho de compras. |
 

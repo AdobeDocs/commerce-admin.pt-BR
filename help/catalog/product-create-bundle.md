@@ -4,11 +4,21 @@ description: Saiba como criar um pacote de produtos que permita aos compradores 
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1616
@@ -121,7 +131,7 @@ O formulário é atualizado para refletir a alteração.
 
 1. Aceite a configuração padrão **[!UICONTROL Visibility]** de `Catalog, Search`.
 
-1. Para atribuir _[!UICONTROL Categories]_ao produto, clique na caixa **[!UICONTROL Select…]**e siga um destes procedimentos:
+1. Para atribuir _[!UICONTROL Categories]_&#x200B;ao produto, clique na caixa **[!UICONTROL Select…]**&#x200B;e siga um destes procedimentos:
 
    **Escolha uma categoria existente:**
 
@@ -145,7 +155,7 @@ O formulário é atualizado para refletir a alteração.
 
 ## Etapa 5: adicionar os itens do pacote
 
-A seção _[!UICONTROL Bundle Items]_é usada para adicionar itens a um tipo de produto Pacote e editar a seleção atual de itens.
+A seção _[!UICONTROL Bundle Items]_&#x200B;é usada para adicionar itens a um tipo de produto Pacote e editar a seleção atual de itens.
 
 ![Itens do pacote definidos para um produto](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -186,7 +196,7 @@ A seção _[!UICONTROL Bundle Items]_é usada para adicionar itens a um tipo de 
 
      >[!NOTE]
      >
-     >A quantidade pode ser um valor predefinido ou definido pelo usuário. No entanto, não atribua a propriedade _[!UICONTROL User Defined]_a caixas de seleção nem selecione vários tipos de entrada.
+     >A quantidade pode ser um valor predefinido ou definido pelo usuário. No entanto, não atribua a propriedade _[!UICONTROL User Defined]_&#x200B;a caixas de seleção nem selecione vários tipos de entrada.
 
      Por padrão, a Quantidade padrão incluída em um item de pacote não pode ser alterada pelo cliente. No entanto, o cliente pode inserir a quantidade do item que deve ser incluída no pacote.
 
@@ -289,7 +299,7 @@ O status do estoque de produtos do pacote é **_não alterado automaticamente pa
 
 ![Caixa de seleção](../assets/checkbox.png) SKU e Peso podem ser `Fixed` ou `Dynamic`.
 
-![Caixa de seleção](../assets/checkbox.png) A quantidade pode ser uma predefinição ou um valor definido pelo usuário. No entanto, não atribua a propriedade _[!UICONTROL User Defined]_a caixas de seleção nem selecione vários tipos de entrada.
+![Caixa de seleção](../assets/checkbox.png) A quantidade pode ser uma predefinição ou um valor definido pelo usuário. No entanto, não atribua a propriedade _[!UICONTROL User Defined]_&#x200B;a caixas de seleção nem selecione vários tipos de entrada.
 
 ![Caixa de seleção](../assets/checkbox.png) Os itens do pacote podem ser enviados juntos ou separadamente.
 

@@ -4,11 +4,24 @@ description: Saiba como criar um produto para download que pode ser entregue com
 exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/vGS-R3Ns1D1Y2jL1TTmbH-DAOurBoFMRA9-RrthoR-8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1638
@@ -153,7 +166,7 @@ O formulário é atualizado para refletir a alteração.
 
 1. Para incluir o produto na [lista de novos produtos](../content-design/widget-new-products-list.md), marque a caixa de seleção **[!UICONTROL Set Product as New]**.
 
-1. Para atribuir _[!UICONTROL Categories]_ao produto, clique na caixa **[!UICONTROL Select…]**e siga um destes procedimentos:
+1. Para atribuir _[!UICONTROL Categories]_&#x200B;ao produto, clique na caixa **[!UICONTROL Select…]**&#x200B;e siga um destes procedimentos:
 
    **Escolha uma categoria existente**:
 
@@ -184,15 +197,15 @@ O formulário é atualizado para refletir a alteração.
 
 ### Etapa 5: Preencha as informações baixáveis
 
-Role para baixo, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Downloadable Information]_e marque a caixa de seleção **[!UICONTROL Is this downloadable product?]**.
+Role para baixo, expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Downloadable Information]_&#x200B;e marque a caixa de seleção **[!UICONTROL Is this downloadable product?]**.
 
-Quando habilitada, a seção _[!UICONTROL Downloadable Information]_tem duas partes. A primeira parte descreve cada link de download e a segunda parte descreve cada arquivo de amostra. O valor padrão para muitas dessas opções pode ser definido na [configuração](#configure-the-download-options).
+Quando habilitada, a seção _[!UICONTROL Downloadable Information]_&#x200B;tem duas partes. A primeira parte descreve cada link de download e a segunda parte descreve cada arquivo de amostra. O valor padrão para muitas dessas opções pode ser definido na [configuração](#configure-the-download-options).
 
 ![Informações para Download](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Complete os links
 
-1. Na seção _[!UICONTROL Links]_, insira o **[!UICONTROL Title]**que deseja usar como cabeçalho para os links de download.
+1. Na seção _[!UICONTROL Links]_, insira o **[!UICONTROL Title]**&#x200B;que deseja usar como cabeçalho para os links de download.
 
 1. Se aplicável, marque a caixa de seleção **[!UICONTROL Links can be purchased separately]**.
 
@@ -228,7 +241,7 @@ Quando habilitada, a seção _[!UICONTROL Downloadable Information]_tem duas par
 
 #### Complete as amostras
 
-1. Na seção _[!UICONTROL Samples]_, insira o **[!UICONTROL Title]**que você deseja usar como cabeçalho para as amostras.
+1. Na seção _[!UICONTROL Samples]_, insira o **[!UICONTROL Title]**&#x200B;que você deseja usar como cabeçalho para as amostras.
 
 1. Para completar as informações de cada amostra, clique em **[!UICONTROL Add Link]**.
 
@@ -280,7 +293,7 @@ No menu _[!UICONTROL Save]_( ![Seta do menu](../assets/icon-menu-down-arrow-red.
 
 ## Experiência da vitrine
 
-No painel da conta do cliente, a página _[!UICONTROL My Downloadable Products]_é vinculada a cada ordem de produtos baixáveis. Os downloads ficam disponíveis na conta do cliente quando o pedido é concluído.
+No painel da conta do cliente, a página _[!UICONTROL My Downloadable Products]_&#x200B;é vinculada a cada ordem de produtos baixáveis. Os downloads ficam disponíveis na conta do cliente quando o pedido é concluído.
 
 ![Meus Produtos Baixáveis](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -294,7 +307,7 @@ A tabela a seguir descreve os valores de _Meus Produtos para Download_:
 | [!UICONTROL Status] | Status de processamento do pedido. |
 | [!UICONTROL Remaining Downloads] | Número de downloads disponíveis do produto baixado. |
 
-_**Para baixar um arquivo de produto do painel de contas**_
+_&#x200B;**Para baixar um arquivo de produto do painel de contas**&#x200B;_
 
 1. No painel de conta, o cliente escolhe **[!UICONTROL My Downloadable Products]**.
 

@@ -4,11 +4,21 @@ description: Saiba como configurar as taxas de câmbio de premiação que determ
 exl-id: 4850d853-fb86-4f64-bfee-47915ea028e2
 feature: Rewards, Promotions/Events, Customers
 TQID: https://experienceleague.adobe.com/Iwr92ju0R1z6DFP-5n4O4bqIBYnYWtdn18ImbHJhoHU
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 571
@@ -61,8 +71,8 @@ Ao converter a moeda em pontos, o número de pontos não pode ser dividido. O re
 
    | Direção | Configurações de taxa |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | No primeiro campo _[!UICONTROL Rate]_, insira o número de pontos. No segundo campo_[!UICONTROL Rate]_, insira o valor monetário dos pontos. |
-   | [!UICONTROL Currency to Points] | No primeiro campo _[!UICONTROL Rate]_, insira o valor monetário. No segundo campo_[!UICONTROL Rate]_, insira o número de pontos que é representado pelo valor monetário. |
+   | [!UICONTROL Points to Currency] | No primeiro campo _[!UICONTROL Rate]_, insira o número de pontos. No segundo campo&#x200B;_[!UICONTROL Rate]_, insira o valor monetário dos pontos. |
+   | [!UICONTROL Currency to Points] | No primeiro campo _[!UICONTROL Rate]_, insira o valor monetário. No segundo campo&#x200B;_[!UICONTROL Rate]_, insira o número de pontos que é representado pelo valor monetário. |
 
    Ao converter pontos em moeda, o número de pontos não pode ser dividido. Por exemplo, se dez pontos forem convertidos em US$ 2,00, os pontos deverão ser resgatados em grupos de dez. Portanto, 25 pontos seriam resgatados por US$ 4,00, com 5 pontos restantes no saldo do cliente.
 
@@ -86,4 +96,4 @@ Ao converter a moeda em pontos, o número de pontos não pode ser dividido. O re
 |--- |--- |
 | [!UICONTROL Website] | Os sites nos quais as taxas de recompensa se aplicam. |
 | [!UICONTROL Customer Group] | Os grupos de clientes aos quais as taxas de premiação se aplicam. |
-| [!UICONTROL Direction] | Determina o tipo de transação definido pela taxa de câmbio. Opções: <br/>**[!UICONTROL Points to Currency]**- Define o número de pontos que podem ser aplicados como crédito ao valor de um pedido. No primeiro campo _[!UICONTROL Rate]_, insira o número de pontos. No segundo campo_[!UICONTROL Rate]_, insira o valor monetário dos pontos.<br/>**[!UICONTROL Currency to Points]** - Define a quantidade de um pedido que pode ganhar pontos do cliente. No primeiro campo _[!UICONTROL Rate]_, insira o valor monetário. No segundo campo_[!UICONTROL Rate]_, insira o número de pontos que é representado pelo valor monetário. |
+| [!UICONTROL Direction] | Determina o tipo de transação definido pela taxa de câmbio. Opções: <br/>**[!UICONTROL Points to Currency]**- Define o número de pontos que podem ser aplicados como crédito ao valor de um pedido. No primeiro campo _[!UICONTROL Rate]_, insira o número de pontos. No segundo campo&#x200B;_[!UICONTROL Rate]_, insira o valor monetário dos pontos.<br/>**[!UICONTROL Currency to Points]** - Define a quantidade de um pedido que pode ganhar pontos do cliente. No primeiro campo _[!UICONTROL Rate]_, insira o valor monetário. No segundo campo&#x200B;_[!UICONTROL Rate]_, insira o número de pontos que é representado pelo valor monetário. |

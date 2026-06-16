@@ -4,12 +4,23 @@ description: Saiba mais sobre os controles avançados de preços disponíveis no
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/HyKkLwxHzBuyvh-YhjsMec9cMua9owWF--r-DShKnj8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 886
@@ -23,7 +34,7 @@ O Adobe Commerce e o Magento Open Source suportam várias opções de preço que
 
 Gerencie os preços de seus produtos com preços avançados para oferecer aos clientes melhores taxas que incentivam os consumidores a gastar mais, direcionar o tráfego para o seu site e limpar o estoque antigo.
 
-As configurações de _[!UICONTROL Advanced Pricing]_definem as condições necessárias para preços especiais disponíveis para um grupo de clientes ou catálogo compartilhado específico. Os preços avançados podem ser aplicados a produtos simples, virtuais, para download e de pacotes. Para aplicar preços com desconto a outros tipos de produtos, use uma [regra de preço de catálogo](../merchandising-promotions/price-rules-catalog.md). Para obter mais informações, consulte [Escopo de Preço](catalog-price-scope.md).
+As configurações de _[!UICONTROL Advanced Pricing]_&#x200B;definem as condições necessárias para preços especiais disponíveis para um grupo de clientes ou catálogo compartilhado específico. Os preços avançados podem ser aplicados a produtos simples, virtuais, para download e de pacotes. Para aplicar preços com desconto a outros tipos de produtos, use uma [regra de preço de catálogo](../merchandising-promotions/price-rules-catalog.md). Para obter mais informações, consulte [Escopo de Preço](catalog-price-scope.md).
 
 Os dados de preços avançados são sincronizados com as páginas do produto. Por exemplo, se você atualizar uma quantidade de preço da camada, o sistema atualizará o valor na página do produto.
 
@@ -95,7 +106,7 @@ Configura preços promocionais e de camada para catálogos compartilhados e grup
 
 | Item | Descrição |
 |----|-----------|
-| [!UICONTROL Website] | Identifica o site onde a regra de preço de grupo se aplica. Essa opção será exibida somente se a instalação tiver vários sites. <br>**_Importante:_**Portanto, selecione_ Site_ na configuração [Escopo do Preço de Catálogo](catalog-price-scope.md); caso contrário, os preços avançados definidos serão exibidos para **todos** sites. |
+| [!UICONTROL Website] | Identifica o site onde a regra de preço de grupo se aplica. Essa opção será exibida somente se a instalação tiver vários sites. <br>**_Importante:_**&#x200B;Portanto, selecione_ Site_ na configuração [Escopo do Preço de Catálogo](catalog-price-scope.md); caso contrário, os preços avançados definidos serão exibidos para **todos** sites. |
 | [!UICONTROL Group or Catalog] | (Obrigatório) Identifica o grupo de clientes ou catálogo compartilhado que se qualifica para receber o preço com desconto. Quando um valor em um campo de grupo ou catálogo é alterado, a linha de preço personalizada correspondente à configuração anterior é excluída do catálogo compartilhado. <br/>**[!UICONTROL ALL GROUPS]**- Aplica a regra a todos os grupos de clientes. O valor não é aplicado ao catálogo compartilhado e as alterações nos dados de preço avançado não são sincronizadas com o catálogo compartilhado.<br/>**[!UICONTROL NOT LOGGED IN]** - Aplica os convidados e clientes da regra que não estão conectados às suas contas.<br/>**[!UICONTROL Shared Catalogs]**- Aplica a regra a um catálogo compartilhado específico. |
 | Quantidade | Especifica a quantidade necessária para receber um preço de camada. |
 | [!UICONTROL Price] | (Obrigatório) Especifica um preço de produto fixo ou com desconto para membros do grupo de clientes, dentro do site específico. Opções: <br/>**[!UICONTROL Fixed]**- (Padrão) O preço com desconto é inserido como um valor decimal fixo. Por exemplo, insira `9.99` como o preço com desconto.<br/>**[!UICONTROL Discount]** - O preço com desconto é inserido como uma porcentagem (%) do preço base do produto. Por exemplo, insira `10` para um desconto de 10%. |

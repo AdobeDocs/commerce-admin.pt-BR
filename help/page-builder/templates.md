@@ -4,10 +4,15 @@ description: Saiba como salvar seu conteúdo [!DNL Page Builder] existente como 
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/P61L0tgCPw78m-241VFZrlTugCZT3sRlHhHRyr-ARNs
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 477
@@ -61,7 +66,7 @@ Você pode aplicar um modelo a uma área de conteúdo [!DNL Page Builder] (pági
 
    ![[!DNL Page Builder] Botão Aplicar modelo](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. Escolha um modelo na grade _[!UICONTROL Apply Template]_e clique em **[!UICONTROL Apply]**no final da linha.
+1. Escolha um modelo na grade _[!UICONTROL Apply Template]_&#x200B;e clique em **[!UICONTROL Apply]**&#x200B;no final da linha.
 
    Para ver todo o modelo, você pode clicar na imagem em miniatura do modelo. Essa ação expande a imagem para que você possa visualizar todo o modelo conforme necessário.
 

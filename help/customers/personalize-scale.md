@@ -4,11 +4,25 @@ description: Saiba quais recursos do Adobe [!DNL Commerce] permitem criar uma ex
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
 TQID: https://experienceleague.adobe.com/-0DU5NwX3wJZO91Z4jDmIGAXGZGCbtOqy1xJPpIom88
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2334
@@ -112,7 +126,7 @@ Os clientes do Adobe [!DNL Commerce] estão usando recursos prontos para uso e c
 
 | Caso de uso | Solução |
 |---|---|
-| **Conteúdo do Site Personalizado** - Personalize banners de sites e outros conteúdos de página com base nas ações do comprador, como navegação de produtos e afinidades de categorias. Implante conteúdo de melhor ajuste com base nos resultados de testes A/B ou metas comerciais. | **Somente [!DNL Commerce] do Adobe**:<br>Implantar [blocos de conteúdo dinâmico](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) específicos de segmento<br>**[!DNL Commerce]. com o Real-Time CDP **:<br>Use o [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) para implantar blocos de conteúdo dinâmico específicos de público-alvo que respondam a ações em tempo real e dados unificados de perfil do cliente, enquanto gerencia perfis e públicos-alvo de forma centralizada no Real-Time CDP.<br>**[!DNL Commerce] com[!DNL Target]**:<br>Personalize todas as partes da experiência do site, incluindo conteúdo, itens de navegação, layouts de página completos e muito mais, usando os dados do Adobe [!DNL Commerce] no Adobe [!DNL Target]. Teste A/B do conteúdo, selecione e implante automaticamente o conteúdo vencedor para cada cliente.<br>**[!DNL Commerce] com o AEM Assets **:<br>Armazene todo o seu conteúdo no Adobe Experience Manager Assets. Acesse nativamente esse conteúdo no Adobe Commerce. Use a IA gerativa para criar variações de conteúdo para personalizar diferentes segmentos ou públicos. |
+| **Conteúdo do Site Personalizado** - Personalize banners de sites e outros conteúdos de página com base nas ações do comprador, como navegação de produtos e afinidades de categorias. Implante conteúdo de melhor ajuste com base nos resultados de testes A/B ou metas comerciais. | **Somente [!DNL Commerce] do Adobe**:<br>Implantar [blocos de conteúdo dinâmico](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) específicos de segmento<br>**[!DNL Commerce]. com o Real-Time CDP &#x200B;**:<br>Use o [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) para implantar blocos de conteúdo dinâmico específicos de público-alvo que respondam a ações em tempo real e dados unificados de perfil do cliente, enquanto gerencia perfis e públicos-alvo de forma centralizada no Real-Time CDP.<br>**[!DNL Commerce] com[!DNL Target]**:<br>Personalize todas as partes da experiência do site, incluindo conteúdo, itens de navegação, layouts de página completos e muito mais, usando os dados do Adobe [!DNL Commerce] no Adobe [!DNL Target]. Teste A/B do conteúdo, selecione e implante automaticamente o conteúdo vencedor para cada cliente.<br>**[!DNL Commerce] com o AEM Assets &#x200B;**:<br>Armazene todo o seu conteúdo no Adobe Experience Manager Assets. Acesse nativamente esse conteúdo no Adobe Commerce. Use a IA gerativa para criar variações de conteúdo para personalizar diferentes segmentos ou públicos. |
 | **Oferta personalizada no site com base no comportamento** - Personalize promoções com base nas ações do comprador, como navegação de produtos e afinidades de categorias. Implante a próxima melhor oferta com base nos resultados de testes A/B ou metas de negócios. | **Somente [!DNL Commerce] do Adobe**:<br>Implantar catálogo específico de segmento e [regras de preço do carrinho](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] com Real-Time CDP**:<br>Use o [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) para implantar ofertas específicas de público-alvo, enquanto gerencia de forma centralizada perfis/públicos no Real-Time CDP.<br>**Commerce com[!DNL Target]**: use o Offer Decisioning para determinar qual oferta implantar, teste A/B ou defina metas comerciais para orientar as ofertas implantadas no Adobe Commerce. |
 
 ### Analytics e Insights

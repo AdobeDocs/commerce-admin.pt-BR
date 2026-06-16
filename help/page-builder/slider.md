@@ -4,11 +4,22 @@ description: Saiba mais sobre o tipo de conteúdo do Controle Deslizante, usado 
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/P-1NgnGbb02-KXlx2hK0utD569y4Zdk6c1azxTJGzZ0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3813
@@ -262,7 +273,7 @@ Um tipo de plano de fundo pode ser uma imagem ou um vídeo. O [!DNL Page Builder
 
 ### Configurações de tipo de imagem
 
-Se você definir o _[!UICONTROL Background Type]_como `Image`, use as seguintes configurações para definir a exibição da imagem de fundo.
+Se você definir o _[!UICONTROL Background Type]_&#x200B;como `Image`, use as seguintes configurações para definir a exibição da imagem de fundo.
 
 ![Banner com imagem de plano de fundo](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -344,9 +355,9 @@ Você pode modificar o conteúdo do slide diretamente no palco ou quando estiver
 
 1. Clique no ponto de navegação na parte inferior do controle deslizante para exibir a caixa de ferramentas para o slide individual e escolha o ícone _Configurações_ ( ![Ícone Configurações](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Na seção _[!UICONTROL Content]_, digite o **[!UICONTROL Message Text]**que você deseja que apareça com o slide.
+1. Na seção _[!UICONTROL Content]_, digite o **[!UICONTROL Message Text]**&#x200B;que você deseja que apareça com o slide.
 
-1. Role para baixo até a seção _[!UICONTROL Content]_e use o editor **[!UICONTROL Message Text]**para inserir e formatar o texto do banner.
+1. Role para baixo até a seção _[!UICONTROL Content]_&#x200B;e use o editor **[!UICONTROL Message Text]**&#x200B;para inserir e formatar o texto do banner.
 
    Você também pode inserir elementos, como links de texto, imagens e widgets.
 

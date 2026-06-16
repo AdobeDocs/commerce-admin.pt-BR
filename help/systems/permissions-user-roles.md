@@ -4,12 +4,27 @@ description: Saiba como criar funções de usuário e as permissões associadas 
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
 TQID: https://experienceleague.adobe.com/0Uw-HzqI-FwyKM5-OPmPFUjQYzReftmDsO6j-KeO7Eo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 702
@@ -33,7 +48,7 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 ### Etapa 1: adicionar o nome da função
 
-1. Em _[!UICONTROL Role Information]_, insira um **[!UICONTROL Role Name]**descritivo.
+1. Em _[!UICONTROL Role Information]_, insira um **[!UICONTROL Role Name]**&#x200B;descritivo.
 
 1. Em _[!UICONTROL Current User Identity Verification]_, digite sua senha.
 
@@ -56,9 +71,9 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
    >[!NOTE]
    >
-   >Os usuários com escopo de função `Custom` não podem criar sites e categorias, atribuir produtos a categorias ou editar produtos no escopo _[!UICONTROL All Store Views]_quando são atribuídos a lojas restritas. Esses usuários também não podem executar outras ações_ globais _que afetam escopos aos quais não têm acesso.
+   >Os usuários com escopo de função `Custom` não podem criar sites e categorias, atribuir produtos a categorias ou editar produtos no escopo _[!UICONTROL All Store Views]_&#x200B;quando são atribuídos a lojas restritas. Esses usuários também não podem executar outras ações_ globais _que afetam escopos aos quais não têm acesso.
 
-1. Em _[!UICONTROL Roles Resources]_, defina **[!UICONTROL Resource Access]**como `Custom`.
+1. Em _[!UICONTROL Roles Resources]_, defina **[!UICONTROL Resource Access]**&#x200B;como `Custom`.
 
    >[!NOTE]
    >
@@ -88,7 +103,7 @@ Para conceder a alguém acesso restrito ao Administrador, a primeira etapa é cr
 
 1. No painel esquerdo, escolha **[!UICONTROL Role Users]**.
 
-   A opção _[!UICONTROL Role Users]_aparece somente depois que uma nova função é salva.
+   A opção _[!UICONTROL Role Users]_&#x200B;aparece somente depois que uma nova função é salva.
 
    ![Contas de usuário atribuídas à função](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 

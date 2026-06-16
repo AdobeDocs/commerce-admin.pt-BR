@@ -4,11 +4,17 @@ description: Saiba mais sobre o tipo de conteúdo do Código HTML, usado para ad
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/ik99YngYtSz14nSTu5-aXkKyJlm20oixkNIVn-O1UyM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 985
@@ -90,7 +96,7 @@ O exemplo a seguir demonstra como incorporar o código [Google Font](https://fon
 
 ### Etapa 3: visualizar a página
 
-1. Na seção _[!UICONTROL Currently Active]_, defina **[!UICONTROL Enable Page]**como `Yes`.
+1. Na seção _[!UICONTROL Currently Active]_, defina **[!UICONTROL Enable Page]**&#x200B;como `Yes`.
 
    ![Habilitando a página](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -116,7 +122,7 @@ O exemplo a seguir demonstra como incorporar o código [Google Font](https://fon
    | Inserir imagem... | Clique para inserir uma imagem carregada ou uma imagem da Galeria na posição do cursor na caixa de texto HTML. |
    | Inserir variável... | Clique em para inserir uma variável na posição do cursor na caixa de texto do HTML. |
 
-1. Atualize as configurações de _[!UICONTROL Advanced]_conforme necessário.
+1. Atualize as configurações de _[!UICONTROL Advanced]_&#x200B;conforme necessário.
 
    - Para controlar o posicionamento do código no contêiner pai, escolha um **[!UICONTROL Alignment]**:
 

@@ -3,7 +3,7 @@ title: Ferramentas do desenvolvedor
 description: Saiba mais sobre as ferramentas avançadas de desenvolvedor disponíveis para oferecer suporte a desenvolvedores que trabalham em projetos de personalização.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -45,7 +45,7 @@ Use as ferramentas avançadas de desenvolvedor para determinar o modo de compila
 
 Sua instância do Adobe Commerce ou do Magento Open Source pode ser implantada para execução no _modo de produção_ ou no _modo de desenvolvedor_. As ferramentas e definições de configuração criadas especificamente para desenvolvedores só podem ser acessadas enquanto o armazenamento estiver em execução no _modo de desenvolvedor_.
 
-O modo de operação pode ser alterado somente a partir da linha de comando do servidor por um usuário com permissões apropriadas. Consulte [Definir o modo de operação](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) no _Guia de Configuração_ para obter mais informações.
+O modo de operação pode ser alterado somente a partir da linha de comando do servidor por um usuário com permissões apropriadas. Consulte [Definir o modo de operação](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=pt-BR) no _Guia de Configuração_ para obter mais informações.
 
 A maioria dos tópicos na documentação do comerciante se aplica a uma instância do Commerce em execução no modo de produção. No entanto, as definições e ferramentas de configuração a seguir podem ser usadas apenas quando a instalação estiver sendo executada no modo de desenvolvedor.
 
@@ -109,7 +109,7 @@ O tempo necessário para carregar arquivos de recursos pode ser reduzido com a m
 
 Por padrão, o Adobe Commerce e o Magento Open Source não mesclam, agrupam ou minimizam arquivos, e o desenvolvedor do projeto deve determinar quais métodos de otimização de arquivo devem ser usados.
 
-Consulte [Práticas recomendadas de desempenho](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html) para obter mais informações.
+Consulte [Práticas recomendadas de desempenho](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=pt-BR) para obter mais informações.
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ Antes de usar uma ferramenta como [dicas de caminho de modelo](#template-path-hi
 >
 >As Restrições de Cliente de Desenvolvedor podem ser definidas somente no [Modo de Desenvolvedor](../systems/developer-tools.md#operation-modes).
 
-Para obter informações técnicas, consulte [VCL personalizado para permitir solicitações](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) no _Guia do Commerce na Infraestrutura da Nuvem_.
+Para obter informações técnicas, consulte [VCL personalizado para permitir solicitações](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=pt-BR) no _Guia do Commerce na Infraestrutura da Nuvem_.
 
 **_Para adicionar seu endereço IP ao incluo na lista de permissões:_**
 

@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ![Pontos de premiação](./assets/reward-points-reward-points.png)<!-- zoom -->
 
-<!-- [Reward Points](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
+<!-- [Reward Points](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ![Ações para Adquirir Pontos de Recompensa por Clientes](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
-<!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
+<!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ![Configurações de Notificação por Email](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
 
-<!-- [Email Notification Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
+<!-- [Email Notification Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |

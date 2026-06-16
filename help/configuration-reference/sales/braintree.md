@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Se precisar de ajuda com cobranças inesperadas em seu cartão, acesse a página [cancelar assinatura](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) para obter assistência.
+>Se precisar de ajuda com cobranças inesperadas em seu cartão, acesse a página [cancelar assinatura](https://helpx.adobe.com/br/manage-account/using/cancel-subscription.html) para obter assistência.
 
 ## [!UICONTROL Basic Braintree Settings]
 

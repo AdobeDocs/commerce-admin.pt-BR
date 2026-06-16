@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para o Adobe Commerce as a Cloud Service, consulte as [diretrizes de SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) na documentação da Commerce Storefront
+>Para o Adobe Commerce as a Cloud Service, consulte as [diretrizes de SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=pt-BR) na documentação da Commerce Storefront
 
 A ferramenta de regravação de URL permite alterar qualquer URL associado a um produto, categoria ou página do CMS. Ao criar uma regravação de URL, o Commerce cria automaticamente um redirecionamento permanente (301) para que todos os links que apontem para o URL antigo sejam redirecionados para o novo endereço.
 

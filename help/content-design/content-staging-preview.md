@@ -3,7 +3,7 @@ title: Visualizar uma campanha
 description: Crie uma visualização para qualquer dia ou período de tempo durante uma campanha e compartilhe-a com membros da equipe.
 exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 feature: Page Content, Staging
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/oX0wqWTv3MiA6-nMLngP2di0o9JmC-WNkAOm4TOpv74
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

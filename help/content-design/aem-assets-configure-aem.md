@@ -52,7 +52,7 @@ Você precisa dos seguintes recursos e permissões para usar este projeto do AEM
 
 - [Acesso ao Programa e aos ambientes do AEM Assets Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) com as funções de Gerente de Programa e de Implantação.
 
-- Um [ambiente de desenvolvimento local do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) e familiaridade com o processo de desenvolvimento local do AEM.
+- Um [ambiente de desenvolvimento local do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) e familiaridade com o processo de desenvolvimento local do AEM.
 
 - Entenda a [estrutura do projeto do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) e como implantar pacotes de conteúdo personalizados usando o Cloud Manager.
 
@@ -64,7 +64,7 @@ Você precisa dos seguintes recursos e permissões para usar este projeto do AEM
 
 1. No GitHub, baixe o código do modelo do [projeto Commerce-Assets AEM](https://github.com/ankumalh/assets-commerce).
 
-1. A partir do seu [ambiente de desenvolvimento local do AEM](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), instale o código personalizado na sua configuração de ambiente do AEM Assets como um pacote Maven ou copiando manualmente o código na configuração de projeto existente.
+1. A partir do seu [ambiente de desenvolvimento local do AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), instale o código personalizado na sua configuração de ambiente do AEM Assets como um pacote Maven ou copiando manualmente o código na configuração de projeto existente.
 
 1. Confirme as alterações e envie a ramificação de desenvolvimento local para o repositório Git do Cloud Manager.
 

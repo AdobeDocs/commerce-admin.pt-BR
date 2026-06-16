@@ -3,7 +3,7 @@ title: Backups do sistema
 description: Saiba como criar e agendar backups de sistema, incluindo o sistema de arquivos, o banco de dados e os arquivos de mídia.
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/kx2acbOSrWMJGv3ST6qKAXjLPgL2Lsh16wWvOxNO7FE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

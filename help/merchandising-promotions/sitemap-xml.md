@@ -3,7 +3,7 @@ title: Mapas do site
 description: Saiba como configurar um mapa do site para indexar todas as páginas e imagens dos sites do Commerce.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/1IQk0p0-ZGNEXYKT-BIe-7b4l06psXTCapt6hPDMjzQ
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

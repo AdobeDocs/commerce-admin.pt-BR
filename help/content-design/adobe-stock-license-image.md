@@ -32,7 +32,7 @@ O novo [[!DNL Media Gallery]](media-gallery.md) fornece uma integração direta 
 
 **Pré-requisitos**
 
-O recurso de licenciamento do Adobe Stock só estará disponível se a [Integração do Adobe Stock](./adobe-stock.md) estiver instalada e configurada. O licenciamento de imagens do [Adobe Stock](https://stock.adobe.com) exige um plano Adobe Stock pago e uma [conta Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+O recurso de licenciamento do Adobe Stock só estará disponível se a [Integração do Adobe Stock](./adobe-stock.md) estiver instalada e configurada. O licenciamento de imagens do [Adobe Stock](https://stock.adobe.com) exige um plano Adobe Stock pago e uma [conta Adobe](https://helpx.adobe.com/br/manage-account/using/access-adobe-id-account.html).
 
 >[!ENDSHADEBOX]
 

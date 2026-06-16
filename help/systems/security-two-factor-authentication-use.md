@@ -4,7 +4,7 @@ description: Saiba como configurar a autenticação de dois fatores durante o lo
 exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 role: Admin, User
 feature: Configuration, Security, User Account
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/hLZcsjOdn1Pwx70nFCUIKe5RShnzyHaEciVyxmVpGK0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

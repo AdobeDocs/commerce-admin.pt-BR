@@ -44,7 +44,7 @@ Um Representante de Vendas pode criar uma cota a partir da Grade de Cotas ou Cli
 
 >[!NOTE]
 >
->Para ver uma demonstração em vídeo de um vendedor criando uma cotação para um comprador, consulte [O Representante de Vendas inicia a cotação](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) em _Vídeos e Tutoriais do Commerce_.
+>Para ver uma demonstração em vídeo de um vendedor criando uma cotação para um comprador, consulte [O Representante de Vendas inicia a cotação](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=pt-BR) em _Vídeos e Tutoriais do Commerce_.
 
 ### Criar uma cotação na grade Cotação
 
@@ -96,7 +96,7 @@ Depois de criar a cotação preliminar, adicione itens de produto, aplique desco
 
    >[!NOTE]
    >
-   >Para ver uma demonstração em vídeo sobre como funcionam os descontos no item de linha, consulte [O Representante de Vendas aplica desconto a um item de linha de cotação](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) em _Vídeos e Tutoriais do Commerce_.
+   >Para ver uma demonstração em vídeo sobre como funcionam os descontos no item de linha, consulte [O Representante de Vendas aplica desconto a um item de linha de cotação](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=pt-BR) em _Vídeos e Tutoriais do Commerce_.
 
 1. Aplique um desconto em nível de cotação conforme necessário:
 

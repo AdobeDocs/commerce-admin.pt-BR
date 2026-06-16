@@ -3,7 +3,7 @@ title: Gerenciamento de cache
 description: Saiba como usar as ferramentas de gerenciamento de cache, que fornecem uma maneira fácil de melhorar o desempenho do seu site.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/eVeStZTLha9hm3LWPqckl5GgfYBY4cyrlz2sqbzdXS0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -121,7 +121,7 @@ Para obter informações sobre como atribuir recursos para conceder acesso a con
 
 ## Liberar usando a linha de comando
 
-Os administradores de sistema e desenvolvedores com acesso ao servidor de aplicativos do Commerce também podem gerenciar a configuração de cache e cache a partir da linha de comando usando a CLI do Commerce. Consulte [Gerenciar o cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} no _Guia de Configuração_.
+Os administradores de sistema e desenvolvedores com acesso ao servidor de aplicativos do Commerce também podem gerenciar a configuração de cache e cache a partir da linha de comando usando a CLI do Commerce. Consulte [Gerenciar o cache](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} no _Guia de Configuração_.
 
 ## Controles
 
@@ -155,11 +155,11 @@ A página [!UICONTROL Cache Management] lista os tipos de cache que você pode g
 
 Desenvolvedores e integradores de sistema usam esses valores para configurar e gerenciar o armazenamento em cache ao personalizar ou integrar com o Adobe Commerce, por exemplo, desenvolvendo integrações usando APIs do GraphQL.
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} O `cache_type_id` também é usado para gerenciamento de cache a partir da linha de comando do servidor de aplicativos usando a CLI do Commerce. Por exemplo, ` bin/magento cache:status config` exibe o status atual do cache de Configuração.
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} O `cache_type_id` também é usado para gerenciamento de cache a partir da linha de comando do servidor de aplicativos usando a CLI do Commerce. Por exemplo, ` bin/magento cache:status config` exibe o status atual do cache de Configuração.
 
 >[!NOTE]
 >
->Desenvolvedores e integradores de sistemas podem personalizar e estender o sistema de gerenciamento de cache do Commerce para suportar módulos e integrações personalizados. Para obter detalhes, consulte [Configurar o armazenamento em cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) no _Guia de Configuração do Adobe Commerce_.
+>Desenvolvedores e integradores de sistemas podem personalizar e estender o sistema de gerenciamento de cache do Commerce para suportar módulos e integrações personalizados. Para obter detalhes, consulte [Configurar o armazenamento em cache](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cache/caching-overview) no _Guia de Configuração do Adobe Commerce_.
 
 <!-- prettier-ignore -->
 
@@ -202,7 +202,7 @@ O conteúdo em cache pode ser usado para processar as solicitações de tipos se
 - `Sessioned` - Durante uma visita em sessão, os compradores que interagem com o armazenamento recebem uma ID de sessão. As interações incluem atividades como comparar produtos ou adicionar produtos ao carrinho. As páginas em cache geradas durante a sessão são usadas somente por esse comprador durante a sessão.
 - `Customer` - Sessões de clientes são criadas para clientes que fazem login e fazem compras usando suas contas registradas. Durante a sessão, os clientes podem receber ofertas especiais, promoções e preços com base no grupo de clientes atribuído.
 
-Para obter informações técnicas, consulte [Configurar e Usar Verniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} e [Usar Redis para a página do Commerce e o cache padrão](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target="_blank"} no _Guia de Configuração_.
+Para obter informações técnicas, consulte [Configurar e Usar Verniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=pt-BR){:target="_blank"} e [Usar Redis para a página do Commerce e o cache padrão](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=pt-BR){:target="_blank"} no _Guia de Configuração_.
 
 **_Para configurar o cache de página inteira:_**
 

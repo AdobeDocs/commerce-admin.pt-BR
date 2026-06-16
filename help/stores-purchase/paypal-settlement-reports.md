@@ -3,7 +3,7 @@ title: Relatório de liquidação do PayPal
 description: Saiba mais sobre o relatório de Liquidação do PayPal como uma ferramenta para gerenciar transações do PayPal.
 exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 feature: Payments
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/c7v5oSsVPmD6r6obfGEoxPiGkMI4KMWAmfJAW0-CCJk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

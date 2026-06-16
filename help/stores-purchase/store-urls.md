@@ -3,7 +3,7 @@ title: Armazenar URLs
 description: Saiba mais sobre URLs de loja e como configurar a URL base e os códigos de loja.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -156,7 +156,7 @@ Se, após seguir as instruções de configuração, algumas páginas continuarem
 
 ## Usar um URL de administração personalizado
 
-Como uma [prática recomendada de segurança](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), a Adobe recomenda que você use uma URL de Administrador exclusiva em vez do _admin_ padrão ou um termo comum, como _backend_. Embora não proteja diretamente o site contra um determinado mau ator, pode reduzir a exposição a scripts que tentam obter acesso não autorizado.
+Como uma [prática recomendada de segurança](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=pt-BR), a Adobe recomenda que você use uma URL de Administrador exclusiva em vez do _admin_ padrão ou um termo comum, como _backend_. Embora não proteja diretamente o site contra um determinado mau ator, pode reduzir a exposição a scripts que tentam obter acesso não autorizado.
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ Embora seja possível alterar o URL do administrador e o caminho para outro loca
 
 >[!NOTE]
 >
->Como precaução, não tente alterar o URL do administrador sozinho, a menos que você saiba como editar arquivos de configuração no servidor. Para projetos do Adobe Commerce implantados na infraestrutura em nuvem, altere a URL do Administrador seguindo as [instruções](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) no *Guia do Adobe Commerce na Infraestrutura em Nuvem*.
+>Como precaução, não tente alterar o URL do administrador sozinho, a menos que você saiba como editar arquivos de configuração no servidor. Para projetos do Adobe Commerce implantados na infraestrutura em nuvem, altere a URL do Administrador seguindo as [instruções](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=pt-BR#admin-url) no *Guia do Adobe Commerce na Infraestrutura em Nuvem*.
 
 ### Método 1: alterar do Administrador
 

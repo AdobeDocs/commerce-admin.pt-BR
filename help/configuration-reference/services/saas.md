@@ -27,7 +27,7 @@ ht-degree: 2%
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Para saber como conectar sua loja aos serviços da Adobe Commerce, consulte [Serviços da Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html).
+Para saber como conectar sua loja aos serviços da Adobe Commerce, consulte [Serviços da Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=pt-BR).
 
 {{config}}
 
@@ -60,7 +60,7 @@ Para saber como conectar sua loja aos serviços da Adobe Commerce, consulte [Ser
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Project] | Global | Nome do projeto SaaS que agrupa todos os espaços de dados SaaS. O botão _Criar projeto_ será exibido se não houver nenhum projeto SaaS. |
-| [!UICONTROL Data Space] | Global | Lista os espaços de dados SaaS no projeto SaaS especificado. O número de espaços de dados SaaS depende da sua [licença do Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html):<br />Adobe Commerce - Um espaço de dados de produção; dois espaços de dados de teste;<br />Magento Open Source - Um espaço de dados de produção; sem espaços de dados de teste |
+| [!UICONTROL Data Space] | Global | Lista os espaços de dados SaaS no projeto SaaS especificado. O número de espaços de dados SaaS depende da sua [licença do Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=pt-BR):<br />Adobe Commerce - Um espaço de dados de produção; dois espaços de dados de teste;<br />Magento Open Source - Um espaço de dados de produção; sem espaços de dados de teste |
 
 {style="table-layout:auto"}
 

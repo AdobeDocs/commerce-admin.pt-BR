@@ -71,7 +71,7 @@ Você pode usar a Compra instantânea com o Braintree ou os Serviços de pagamen
 Saiba como configurar o método de pagamento e habilitar a compartimentação para Braintree ou Serviços de pagamento:
 
 - [Braintree](braintree.md)
-- [Documentação dos serviços de pagamento](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [Documentação dos serviços de pagamento](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=pt-BR)
 
 ### Etapa 3: Habilitar Compra Instantânea
 

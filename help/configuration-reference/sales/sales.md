@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ![Ordem de classificação dos totais de check-out](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
-<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
+<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 ![Reordenar](./assets/sales-reorder.png)<!-- zoom -->
 
-<!-- [Reorder](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
+<!-- [Reorder](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 ![Valor Mínimo do Pedido](./assets/sales-minimum-order-amount.png)<!-- zoom -->
 
-<!-- [Minimum Order Amount](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
+<!-- [Minimum Order Amount](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -117,7 +117,7 @@ ht-degree: 1%
 
 ![Painel](./assets/sales-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -129,7 +129,7 @@ ht-degree: 1%
 
 ![Configurações do Cron de Pedidos](./assets/sales-orders-cron-settings.png)<!-- zoom -->
 
-<!-- [Orders Cron Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
+<!-- [Orders Cron Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/tools/cron) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -169,7 +169,7 @@ ht-degree: 1%
 
 ![Preço Mínimo Anunciado](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
 
-<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
+<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -199,7 +199,7 @@ ht-degree: 1%
 
 ![Solicitar por Configurações de SKU](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
-<!-- [Order by SKU Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
+<!-- [Order by SKU Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
 
 ![Solicitar por Configurações de SKU para Grupo de Clientes](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
@@ -214,7 +214,7 @@ ht-degree: 1%
 
 ![Compra instantânea](./assets/sales-instant-purchase.png)<!-- zoom -->
 
-<!-- [Instant Purchase](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
+<!-- [Instant Purchase](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |

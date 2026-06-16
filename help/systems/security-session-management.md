@@ -4,7 +4,7 @@ description: Saiba como configurar o gerenciamento de sessão para proteger o Ad
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/0-D87Vrfu7OXkukQCye10VIpN-TLoANPAzb-5CVcf2w
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -81,7 +81,7 @@ Se você exceder o tamanho máximo de sessão, nenhum erro será exibido, mas o 
 
 O Adobe Commerce e o Magento Open Source permitem validar variáveis de sessão como uma medida de proteção contra possíveis ataques de fixação de sessão ou tentativas de envenenar ou sequestrar sessões de usuário. As Configurações de validação de sessão determinam como as variáveis de sessão são validadas durante cada visita de armazenamento e se a ID da sessão é incluída no URL do armazenamento.
 
-Para obter informações técnicas, consulte [Usar Redis para armazenamento de sessão](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) no _Guia de Configuração_.
+Para obter informações técnicas, consulte [Usar Redis para armazenamento de sessão](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=pt-BR) no _Guia de Configuração_.
 
 ![Configuração geral - Validação de sessão da Web](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

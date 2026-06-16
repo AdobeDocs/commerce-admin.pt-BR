@@ -138,7 +138,7 @@ Alguns desses cookies podem fornecer opções de configuração, incluindo ativa
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Os cookies a seguir são usados pelas Recomendações de Produto para clientes do Adobe Commerce. Estes cookies são instalados com o [módulo DataServices](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: permite [restringir a coleta de dados do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) se você tiver um código personalizado para gerenciar o consentimento de cookies no site.
+- `mg_dnt`: permite [restringir a coleta de dados do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/developer/setting-cookie) se você tiver um código personalizado para gerenciar o consentimento de cookies no site.
 - `user_allowed_save_cookie`: Usado para [modo de restrição de cookies](#cookie-restriction-mode).
 - `authentication_flag`: indica se um comprador entrou ou saiu. Este cookie é atualizado ao mesmo tempo que o cookie `dataservices_customer_id`.
 - `dataservices_customer_id`: indica se um comprador entrou ou saiu. Este cookie contém o identificador exclusivo do cliente no sistema.

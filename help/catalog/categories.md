@@ -51,5 +51,5 @@ Antes de adicionar produtos ao catálogo, você deve estabelecer a estrutura bá
 
 Para obter ajuda com a solução de problemas de categoria, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
 
-- [As alterações nas categorias não estão sendo salvas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- [O menu principal (Categorias) não é exibido em subpáginas com o recurso Fastly ativado](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [As alterações nas categorias não estão sendo salvas](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=pt-BR)
+- [O menu principal (Categorias) não é exibido em subpáginas com o recurso Fastly ativado](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=pt-BR)

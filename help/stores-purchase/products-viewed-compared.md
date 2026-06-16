@@ -3,7 +3,7 @@ title: Produtos visualizados ou comparados recentemente
 description: Saiba como configurar os blocos de conteúdo de vitrine para produtos visualizados e comparados recentemente.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/YeayJ1RkE6Muq0wNnd6KAQmmZcyjTQrSZOqEltlj8T8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

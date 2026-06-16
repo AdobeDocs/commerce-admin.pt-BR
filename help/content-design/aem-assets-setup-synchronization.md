@@ -49,7 +49,7 @@ Para a configuração inicial, use a regra padrão *Corresponder por SKU de prod
 
 ## Configurar a conexão
 
-1. Obtenha o [Ambiente de Criação do AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) e a ID do ambiente.
+1. Obtenha o [Ambiente de Criação do AEM Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) e a ID do ambiente.
 
    1. Abra o console AEM Sites e selecione **[!UICONTROL Assets]**.
 

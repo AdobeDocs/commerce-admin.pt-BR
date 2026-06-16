@@ -131,13 +131,13 @@ Cada imagem tem detalhes disponíveis para visualização. Outras ações espec�
 
 ## Faça logon em sua conta da Adobe
 
-Para obter acesso total a uma imagem e eliminar a marca d&#39;água da Adobe Stock, você deve [entrar com uma conta da Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) e comprar créditos para licenciar direitos para usar uma imagem.
+Para obter acesso total a uma imagem e eliminar a marca d&#39;água da Adobe Stock, você deve [entrar com uma conta da Adobe](https://helpx.adobe.com/br/manage-account/using/access-adobe-id-account.html) e comprar créditos para licenciar direitos para usar uma imagem.
 
 1. [Acesse a grade do Adobe Stock Search](#access-the-adobe-stock-search-grid).
 
 1. Clique em **[!UICONTROL Sign In]** na parte superior direita.
 
-   Uma nova janela de navegador orienta você durante o [processo de entrada no Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Uma nova janela de navegador orienta você durante o [processo de entrada no Adobe](https://helpx.adobe.com/br/manage-account/using/access-adobe-id-account.html).
 
    Após concluir o processo de logon, o estado licenciado das imagens é exibido nos resultados da pesquisa como um rótulo.
 

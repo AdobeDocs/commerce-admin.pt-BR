@@ -3,7 +3,7 @@ title: Programar uma atualização de conteúdo
 description: Revise este exemplo de campanha usado para agendar uma alteração de preço temporária para um produto.
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

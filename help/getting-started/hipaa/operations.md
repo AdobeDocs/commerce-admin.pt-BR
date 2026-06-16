@@ -64,4 +64,4 @@ Os clientes devem garantir que o ambiente `staging_for_support`:
 
 - **Serviço de Catálogo** — por design, o [Serviço de Catálogo](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/overview) não processa PHI, portanto, está fora do escopo para a auditoria de preparação e conformidade HIPAA. Os clientes são responsáveis por garantir que usem esse serviço com base em sua própria avaliação de casos de uso e em consulta com o departamento jurídico. Os clientes também não devem usar o Serviço de catálogo por meio do serviço federado para evitar o risco de transmitir PHI para serviços prontos que não sejam da HIPAA.
 
-- **Exportação de dados SaaS**—O serviço [Exportação de dados SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) deve ser configurado para enviar dados somente para componentes prontos para HIPAA na Adobe Commerce.
+- **Exportação de dados SaaS**—O serviço [Exportação de dados SaaS](https://experienceleague.adobe.com/pt-br/docs/commerce/saas-data-export/overview) deve ser configurado para enviar dados somente para componentes prontos para HIPAA na Adobe Commerce.

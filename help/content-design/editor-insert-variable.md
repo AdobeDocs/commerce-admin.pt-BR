@@ -3,7 +3,7 @@ title: Inserir uma variável no editor
 description: Adicione variáveis predefinidas ou personalizadas ao seu conteúdo no editor do WYSIWYG.
 exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
 feature: Page Content, Variables
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/5tz40-9rojeIQhgPHQTQlA0YHIp-Hpio1qkxjWU4Ig0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

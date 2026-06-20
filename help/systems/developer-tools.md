@@ -77,7 +77,7 @@ Consulte [Compilação MENOS do lado do cliente vs. do lado do servidor](https:/
 
 Adicionar uma assinatura digital ao URL de arquivos estáticos permite que os navegadores detectem quando uma versão mais recente do arquivo estiver disponível. Os arquivos estáticos que podem ser rastreados com assinaturas digitais incluem JavaScript, CSS, imagens e fontes. A assinatura é anexada ao caminho diretamente após o URL base. Se a assinatura de um arquivo for diferente do que está armazenado no cache do navegador, a versão mais recente do arquivo será usada.
 
-Consulte [Assinatura de conteúdo estático](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} na documentação do desenvolvedor do Commerce.
+Consulte [Assinatura de conteúdo estático](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=pt-BR){:target="_blank"} na documentação do desenvolvedor do Commerce.
 
 >[!NOTE]
 >

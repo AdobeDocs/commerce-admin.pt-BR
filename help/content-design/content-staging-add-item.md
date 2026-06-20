@@ -3,7 +3,7 @@ title: Adicionar um item a uma campanha
 description: Revise este exemplo de campanha usado para adicionar uma imagem promocional à página da categoria durante a campanha.
 exl-id: cd46b657-2586-46dd-beab-42f42d3476b6
 feature: Page Content, Staging
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/Fa-FT3C-j2-1xR9Jx4DRsqwTOEn3AEc-sXXbjXuqn-A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

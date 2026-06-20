@@ -3,7 +3,7 @@ title: Usar imagens do Adobe Stock
 description: Aprimore as páginas da loja com imagens do Adobe Stock.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/itiuGqPqSJAuYHf84wspWxkarrQ1npYIb-i20Xvkzh0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -191,7 +191,7 @@ Os ativos do Adobe Stock que você deseja usar para suas lojas de produção [!D
 
      >[!NOTE]
      >
-     >Você deve ter [créditos de Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) disponíveis em sua conta para licenciar a imagem.
+     >Você deve ter [créditos de Adobe Stock](https://helpx.adobe.com/br/stock/help/credit-packs.html) disponíveis em sua conta para licenciar a imagem.
 
    Esta ação exibe um prompt para que você especifique um nome de arquivo que seja usado para salvar a imagem no [armazenamento de mídia](media-storage.md). Um nome de arquivo padrão é fornecido, mas você pode personalizar o nome de acordo com suas preferências.
 

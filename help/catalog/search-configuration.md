@@ -28,7 +28,7 @@ ht-degree: 0%
 
 # Configurar pesquisa no catálogo
 
-Há duas variações da configuração da Pesquisa no catálogo. O primeiro método descreve as configurações disponíveis quando o [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=pt-BR) é instalado. O segundo método descreve as definições de configuração do Adobe Commerce nativo com [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}.
+Há duas variações da configuração da Pesquisa no catálogo. O primeiro método descreve as configurações disponíveis quando o [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=pt-BR) é instalado. O segundo método descreve as definições de configuração do Adobe Commerce nativo com [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=pt-BR){:target="_blank"}.
 
 >[!NOTE]
 >

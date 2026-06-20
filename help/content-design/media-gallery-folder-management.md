@@ -3,7 +3,7 @@ title: Gerenciamento de pastas da Galeria de mídia
 description: Saiba como usar pastas para organizar ativos de mídia.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/g9HhgLLc0FmOZM-Zgxb8231yf8D1TW7X-McoWCQAvKs
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

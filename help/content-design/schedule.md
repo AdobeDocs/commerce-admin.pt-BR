@@ -2,7 +2,7 @@
 title: Agendar alterações de design
 description: Saiba como agendar alterações no design do tema com antecedência
 exl-id: 0a214fd5-77a6-4ad4-9740-5138d40ad0a1
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/Pf9Yp54AoZbC86HdHlN76zrE6qzjV2R0hoJWs8u-BEA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

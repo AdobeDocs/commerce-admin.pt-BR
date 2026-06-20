@@ -3,7 +3,7 @@ title: Salvar uma visualização de imagem do Adobe Stock
 description: As visualizações de imagem são gratuitas e são uma boa maneira de experimentar com diferentes imagens do Adobe Stock antes de decidir comprar uma licença.
 exl-id: 148d8445-fbbb-4f27-8de8-d8c1943d2afe
 feature: CMS, Media
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/AsWG5XAAHFaj5L1I-gpUimcbVGgxZ1SFPeHA2zzNlrw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

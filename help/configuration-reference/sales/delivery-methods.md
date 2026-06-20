@@ -301,7 +301,7 @@ Se os campos a seguir não forem exibidos, você deverá aplicar o [patch de qua
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### Configurações de conta do FedEx
 

@@ -191,7 +191,7 @@ Para obter ajuda com a solução de problemas de configuração do país, consul
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 A configuração Localização do Comerciante é usada para configurar [métodos de pagamento](../stores-purchase/payments.md). Se não houver valor para esta configuração, a configuração [País Padrão](#uicontrol-country-options) será usada.
 
@@ -233,7 +233,7 @@ Antes de configurar endereços de email para o armazenamento, cada um deve ser c
 
 ### Etapa 2: definir o URL de base para links gerados
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Alguns emails voltados para o cliente incluem links para a loja, como aqueles que ajudam os clientes a redefinir suas senhas. Para garantir que os links para a loja funcionem, você deve definir a URL base para sua loja.
 
@@ -247,7 +247,7 @@ Alguns emails voltados para o cliente incluem links para a loja, como aqueles qu
 
 ### Etapa 3: configurar os endereços de email da sua loja
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} Endereços de email de remetentes são configurados quando sua instância é provisionada. Se precisar alterar esses endereços, crie um tíquete de Suporte.
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} Endereços de email de remetentes são configurados quando sua instância é provisionada. Se precisar alterar esses endereços, crie um tíquete de Suporte.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

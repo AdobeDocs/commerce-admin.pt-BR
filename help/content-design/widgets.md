@@ -2,7 +2,7 @@
 title: Widgets
 description: Saiba mais sobre widgets que fornecem um trecho de código que permite exibir uma grande variedade de conteúdo e colocá-lo em referências de bloco específicas na sua loja.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/ov5Wt8dIf--1UoXqFtv-NiAaEVL97UaQodxU4bGe8zo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

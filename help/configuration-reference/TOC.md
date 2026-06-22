@@ -4,10 +4,11 @@ user-guide-description: Este guia fornece informações de referência para toda
 breadcrumb-title: Referência de configuração
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 3%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +39,7 @@ ht-degree: 3%
    - [2FA](./security/2fa.md)
    - [Painel de administração do Google reCAPTCHA](./security/google-recaptcha-admin.md)
    - [Loja Google reCAPTCHA](./security/google-recaptcha-storefront.md)
-   - [Security.txt](./security/security-txt.md)
+   - [Segurança.txt](./security/security-txt.md)
 - Clientes {#customers}
    - [Fazer logon como cliente](./customers/login-as-customer.md)
    - [Informativo](./customers/newsletter.md)
@@ -83,4 +84,4 @@ ht-degree: 3%
    - [Admin](./advanced/admin.md)
    - [Sistema](./advanced/system.md)
    - [Desenvolvedor](./advanced/developer.md)
-- [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR)
+- [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

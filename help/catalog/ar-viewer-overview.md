@@ -17,7 +17,7 @@ level_v2:
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 247
 ht-degree: 0%
@@ -57,3 +57,4 @@ Para usar [!DNL AR Viewer], você deve ter o seguinte disponível para sua inst�
 * Somente `.USDZ`: este recurso dá suporte apenas a `.USDZ` arquivos.
 * `qr-code`: Exige `endroid/qr-code` versão 4.5.
 * `Catalog module`: Exige `magento/module-catalog` versão 104.0.0.
+

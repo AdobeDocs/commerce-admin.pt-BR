@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 834
 ht-degree: 0%
@@ -146,3 +146,4 @@ Há duas variações da configuração da Pesquisa no catálogo. O primeiro mét
 Para controlar o número mínimo de termos da sua consulta que os resultados da pesquisa devem corresponder para retorno, especifique um valor para **[!UICONTROL Minimum Terms to Match]**. Especificar esse valor garante a relevância ideal dos resultados para os compradores. Para obter uma lista de valores aceitos, consulte o [parâmetro minimum_should_match](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) na documentação do OpenSearch.
 
 Quando terminar, clique em **[!UICONTROL Save Config]**.
+

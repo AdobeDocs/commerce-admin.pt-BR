@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 0%
@@ -109,3 +109,4 @@ Se uma regra de preço do carrinho for acionada pela compra, o cálculo inicial 
 | [!UICONTROL Date] | Permite que o cliente informe uma data ou hora ou escolha o valor de um calendário. Opções: <br />**[!UICONTROL Date]**- Um campo de entrada para um valor de data. A data pode ser digitada diretamente no campo ou selecionada em uma lista ou calendário. O método e o formato de entrada são determinados pela configuração das [opções de data e hora](attributes-input-types.md#date-and-time-options).<br />**[!UICONTROL Date & Time]** - Um campo de entrada para um valor de data e hora.<br />**[!UICONTROL Time]**- Um campo de entrada para um valor de tempo. |
 
 {style="table-layout:auto"}
+

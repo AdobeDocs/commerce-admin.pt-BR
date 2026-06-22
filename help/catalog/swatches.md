@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 1175
 ht-degree: 0%
@@ -186,3 +186,4 @@ Use um dos métodos a seguir para criar amostras para seus produtos.
 1. Quando a configuração de imagens, preço e quantidade estiver concluída, clique em **[!UICONTROL Next]** no canto superior direito.
 
    As variações de produto atuais aparecem na parte inferior da seção Configuração. Se você estiver satisfeito com as configurações, clique em **[!UICONTROL Generate Products]**.
+

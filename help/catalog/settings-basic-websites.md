@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 168
 ht-degree: 0%
@@ -53,3 +53,4 @@ A seção _[!UICONTROL Product in Websites]_&#x200B;identifica cada site onde o 
    Como o escopo da moeda base está definido como `website`, é possível vender o produto por um preço diferente em cada site.
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
+

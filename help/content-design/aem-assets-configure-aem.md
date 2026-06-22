@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 42029ed6d13cd4203c4a5d8300297315aac1abf5
 workflow-type: tm+mt
 source-wordcount: 866
 ht-degree: 1%
@@ -46,6 +46,7 @@ O modelo adiciona os seguintes recursos ao ambiente de criação do AEM Assets.
 - Um [ativo de Commerce marcado e aprovado](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg` de amostra para oferecer suporte à sincronização de ativos inicial. Somente ativos aprovados do Commerce podem ser sincronizados do AEM Assets para o Adobe Commerce.
 
 >[!NOTE]
+>
 >Para obter informações adicionais sobre o modelo de projeto do AEM `commerce-assets`, consulte o [Leiame](https://github.com/ankumalh/assets-commerce).
 
 Você precisa dos seguintes recursos e permissões para usar este projeto do AEM para atualizar a configuração do ambiente:
@@ -132,9 +133,7 @@ O componente da interface de dados do produto é adicionado automaticamente com 
 #### Aplicar o perfil de metadados à pasta de origem dos ativos do Commerce
 
 1. Na página [!UICONTROL &#x200B; Metadata Profiles], selecione o perfil de integração do Commerce.
-
 1. No menu de ações, selecione **[!UICONTROL Apply Metadata Profiles to Folders]**.
-
 1. Selecione a pasta que contém os ativos do Commerce.
 
    Crie uma pasta do Commerce se ela não existir.

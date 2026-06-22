@@ -4,21 +4,12 @@ description: Saiba como definir amostras para suas listas de produtos configurá
 exl-id: 6163cec4-5d84-4e2c-ba5c-3c22ac4e3f28
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/RB77PDf2GytxFg3OXgYJB68pwKl4BfERcC5xn4bPSso
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 1175
 ht-degree: 0%
@@ -35,7 +26,7 @@ Para [produtos configuráveis](product-create-configurable.md), a cor pode ser i
 
 >[!NOTE]
 >
->Os atributos de amostra podem ser configurados para não exibir imagens de produtos simples correspondentes quando a amostra é selecionada ao definir o valor da opção _[!UICONTROL Update Product Preview Image]_&#x200B;como `No` na página [!UICONTROL Attribute Edit] no Administrador.
+>Os atributos de amostra podem ser configurados para não exibir imagens de produtos simples correspondentes quando a amostra é selecionada ao definir o valor da opção _[!UICONTROL Update Product Preview Image]_como `No` na página [!UICONTROL Attribute Edit] no Administrador.
 
 ## Amostras baseadas em texto
 
@@ -45,7 +36,7 @@ Se uma imagem não estiver disponível para uma amostra, o valor do atributo ser
 
 ## Amostras em navegação em camadas
 
-As amostras também podem ser usadas na navegação em camadas, se a propriedade _[!UICONTROL Use in Layered Navigation]_&#x200B;do atributo color estiver definida como `Yes`. O exemplo a seguir mostra amostras de imagens coloridas e baseadas em texto na navegação em camadas.
+As amostras também podem ser usadas na navegação em camadas, se a propriedade _[!UICONTROL Use in Layered Navigation]_do atributo color estiver definida como `Yes`. O exemplo a seguir mostra amostras de imagens coloridas e baseadas em texto na navegação em camadas.
 
 ![Amostras exibidas na navegação em camadas](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -73,7 +64,7 @@ Use um dos métodos a seguir para criar amostras para seus produtos.
 
 1. Se preferir não exibir imagens do produto simples correspondentes quando a amostra for selecionada na página de exibição do produto, defina **[!UICONTROL Update Product Preview Image]** como `No`.
 
-1. Em _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, clique em **[!UICONTROL Add Swatch]**&#x200B;e faça o seguinte:
+1. Em _[!UICONTROL Manage Swatch (Values of Your Attribute)]_, clique em **[!UICONTROL Add Swatch]**e faça o seguinte:
 
    ![Gerenciar Valores de Amostra](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -121,7 +112,7 @@ Use um dos métodos a seguir para criar amostras para seus produtos.
 
 1. Se preferir não exibir imagens do produto simples correspondentes quando a amostra for selecionada na página de exibição do produto, defina **[!UICONTROL Update Product Preview Image]** como `No`.
 
-1. Em _[!UICONTROL Manage Swatch]_(valores do seu atributo), clique em **[!UICONTROL Add Swatch]**&#x200B;e faça o seguinte:
+1. Em _[!UICONTROL Manage Swatch]_(valores do seu atributo), clique em **[!UICONTROL Add Swatch]**e faça o seguinte:
 
    - Na coluna _[!UICONTROL Swatch]_, clique na nova amostra para exibir o menu e escolha **[!UICONTROL Upload a file]**.
 
@@ -186,3 +177,4 @@ Use um dos métodos a seguir para criar amostras para seus produtos.
 1. Quando a configuração de imagens, preço e quantidade estiver concluída, clique em **[!UICONTROL Next]** no canto superior direito.
 
    As variações de produto atuais aparecem na parte inferior da seção Configuração. Se você estiver satisfeito com as configurações, clique em **[!UICONTROL Generate Products]**.
+

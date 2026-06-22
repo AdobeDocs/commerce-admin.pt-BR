@@ -4,22 +4,12 @@ description: Saiba mais sobre os tipos de entrada disponíveis para atributos de
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/8WwqU3ZSqmORqSD2061Pa5MTRqYbH71dOxouz-nLwbo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 780
 ht-degree: 0%
@@ -37,15 +27,15 @@ Quando visualizados pelo Admin, os atributos são os campos que você preenche a
 | [!UICONTROL Text Field] | Um campo de entrada de linha única para texto. |
 | [!UICONTROL Text Area] | Um campo de entrada de várias linhas para inserir parágrafos de texto, como uma descrição do produto. Você pode usar o Editor WYSIWYG para formatar o texto com tags HTML ou inserir as tags diretamente no texto. |
 | [!UICONTROL Text Editor] | Um editor de texto totalmente funcional no local do atributo. |
-| [!UICONTROL Date] | Exibe um valor de data no [formato preferido](#date-and-time-options) e [fuso horário](../getting-started/store-details.md#locale-options). Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**&#x200B;Dependendo da configuração do seu sistema, os usuários do_ Administrador_ podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](#date-and-time-options). |
+| [!UICONTROL Date] | Exibe um valor de data no [formato preferido](#date-and-time-options) e [fuso horário](../getting-started/store-details.md#locale-options). Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**Dependendo da configuração do seu sistema, os usuários do_ Administrador_ podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](#date-and-time-options). |
 | [!UICONTROL Date and Time] | Exibe um valor de data e hora no [formato preferido](#date-and-time-options) e [fuso horário](../getting-started/store-details.md#locale-options). A data e a hora podem ser inseridas manualmente ou selecionadas em um calendário. Exemplo de formato: DD/MM/AAAA HH:MM |
 | [!UICONTROL Yes/No] | Exibe uma lista suspensa com opções predefinidas de `Yes` e `No`. |
 | Lista suspensa | Exibe uma lista suspensa de valores que aceitam apenas uma única seleção. O tipo de entrada suspensa é um componente chave de [produtos configuráveis](../catalog/product-create-configurable.md). |
 | [!UICONTROL Multiple Select] | Exibe uma lista suspensa de valores que aceitam várias seleções. |
-| [!UICONTROL Number] [!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} | Um campo de entrada numérico que armazena valores decimais. Ao contrário do tipo de entrada **Price**, ele não aplica formatação de moeda e aceita valores negativos. Use esse tipo de entrada para medidas, dimensões ou especificações técnicas, como intervalos de temperatura. |
+| [!UICONTROL Number] [!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} | Um campo de entrada numérico que armazena valores decimais. Ao contrário do tipo de entrada **Price**, ele não aplica formatação de moeda e aceita valores negativos. Use esse tipo de entrada para medidas, dimensões ou especificações técnicas, como intervalos de temperatura. |
 | [!UICONTROL Price] | Este tipo de entrada é usado para criar campos de preço que estão além dos atributos predefinidos: `Price`, `Special Price`, `Tier Price` e `Cost`. A moeda usada é determinada pela configuração do sistema. |
 | [!UICONTROL Media Image] | Associa uma imagem extra a um produto, como um logotipo do produto, instruções de cuidados ou ingredientes de um rótulo de alimentos. Quando você adiciona um atributo de imagem de mídia ao conjunto de atributos de um produto, ele se torna um tipo de imagem extra, juntamente com Base, Pequeno e Miniatura. O atributo de imagem de mídia pode ser excluído do [navegador de mídia de vitrine](catalog-images-video.md#storefront-media-browser). |
-| [!UICONTROL File] [!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} | Permite que um arquivo seja carregado e associado a um atributo de produto. Os tipos de arquivo com suporte e o tamanho máximo de arquivo estão configurados em [Atributos de Arquivo do Produto](../configuration-reference/catalog/product-file-attributes.md). Use esse tipo de entrada para documentos como manuais de produtos, folhas de especificações ou certificados. |
+| [!UICONTROL File] [!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} | Permite que um arquivo seja carregado e associado a um atributo de produto. Os tipos de arquivo com suporte e o tamanho máximo de arquivo estão configurados em [Atributos de Arquivo do Produto](../configuration-reference/catalog/product-file-attributes.md). Use esse tipo de entrada para documentos como manuais de produtos, folhas de especificações ou certificados. |
 | [!UICONTROL Fixed Product Tax] | Permite definir [taxas FPT](../stores-purchase/fixed-product-tax.md) com base nos requisitos da sua localidade. |
 | [!UICONTROL Visual Swatch] | Exibe uma amostra que representa a cor, a textura ou o padrão de um produto configurável. Uma [amostra visual](swatches.md) pode ser preenchida com um valor de cor hexadecimal ou exibir uma imagem carregada que represente a cor, o material, a textura ou o padrão da opção. |
 | [!UICONTROL Text Swatch] | Uma representação baseada em texto de uma opção de produto configurável que é frequentemente usada para o tamanho. [Amostras de texto](swatches.md) também podem incluir valores de cor hexadecimais. |
@@ -89,3 +79,4 @@ Quando visualizados pelo Admin, os atributos são os campos que você preenche a
    Se estiver em branco, o campo assumirá como padrão o ano atual.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
+

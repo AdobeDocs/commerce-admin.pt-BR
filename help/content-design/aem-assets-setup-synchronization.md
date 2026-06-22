@@ -4,21 +4,12 @@ description: Saiba como conectar seus projetos do Adobe Commerce e do Experience
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
 TQID: https://experienceleague.adobe.com/c31KPRTUtXyMBCFiOEMPS7erhR3d-dQoxdB5ScgN1tk
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 571
 ht-degree: 3%
@@ -31,7 +22,7 @@ Configure a integração conectando o Commerce à instância do AEM Assets e sel
 
 Depois de identificar o projeto do AEM Assets, selecione a regra de correspondência para sincronizar ativos entre o Adobe Commerce e o AEM Assets.
 
-- **[!UICONTROL Match by product SKU]** — Regra padrão que corresponde ao SKU nos metadados do ativo com o [SKU do produto Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/glossary#sku) para garantir que os ativos estejam associados aos produtos corretos.
+- **[!UICONTROL Match by product SKU]** — Regra padrão que corresponde ao SKU nos metadados do ativo com o [SKU do produto Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku) para garantir que os ativos estejam associados aos produtos corretos.
 
 - **[!UICONTROL Custom match]** — Regra de correspondência para cenários mais complexos ou requisitos de negócios específicos que exigem lógica de correspondência personalizada. A implementação da correspondência personalizada requer o desenvolvimento de código personalizado no Adobe Developer App Builder para definir como os ativos são correspondidos aos produtos. Mais detalhes em breve...
 
@@ -45,11 +36,11 @@ Para a configuração inicial, use a regra padrão *Corresponder por SKU de prod
 
 - Crie um tíquete de suporte para solicitar a ativação da integração do AEM Assets para Commerce. No tíquete, inclua o **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** e **[!UICONTROL IMS Org ID]** para o ambiente de criação do AEM Assets que você deseja conectar ao Commerce.
 
-- Forneça o **[!UICONTROL Asset Selector IMS Client ID]**. Consulte [ImsAuthProps](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) na documentação do *Seletor de AEM Assets*.
+- Forneça o **[!UICONTROL Asset Selector IMS Client ID]**. Consulte [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) na documentação do *Seletor de AEM Assets*.
 
 ## Configurar a conexão
 
-1. Obtenha o [Ambiente de Criação do AEM Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) e a ID do ambiente.
+1. Obtenha o [Ambiente de Criação do AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) e a ID do ambiente.
 
    1. Abra o console AEM Sites e selecione **[!UICONTROL Assets]**.
 
@@ -66,7 +57,7 @@ Para a configuração inicial, use a regra padrão *Corresponder por SKU de prod
 
 1. Insira o **[!UICONTROL Asset Selector IMS Client ID]**.
 
-   A [ID do Cliente IMS do Seletor de Ativos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) é exigida pelo [!UICONTROL Assets Selector], um recurso do AEM Assets que permite que os usuários incorporem ativos visuais diretamente nas páginas de produto do Commerce.
+   A [ID do Cliente IMS do Seletor de Ativos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) é exigida pelo [!UICONTROL Assets Selector], um recurso do AEM Assets que permite que os usuários incorporem ativos visuais diretamente nas páginas de produto do Commerce.
 
 1. Selecione o [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) para solicitações de autenticação entre o Commerce e o serviço de correspondência de ativos.
 
@@ -99,3 +90,4 @@ Se um comerciante definir um [Nome de domínio personalizado](https://experience
 ## Próxima etapa
 
 [Usar o AEM Assets com o Commerce](aem-assets-manage.md)
+

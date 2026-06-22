@@ -5,9 +5,10 @@ breadcrumb-title: Lojas e experiência de compra
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+nudge: true
+source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '329'
 ht-degree: 3%
 
 ---
@@ -131,4 +132,4 @@ ht-degree: 3%
       + [Visão geral da etiqueta de remessa](shipping-labels.md)
       + [Configurar etiquetas de remessa](shipping-label-configure.md)
       + [Criar etiquetas de remessa](shipping-label-create.md)
-+ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR)
++ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

@@ -5,11 +5,12 @@ breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+nudge: true
+source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 8%
+source-wordcount: '115'
+ht-degree: 6%
 
 ---
 
@@ -47,4 +48,4 @@ ht-degree: 8%
    - [Produtos](products.md)
    - [Recomendações de produto](recommendations.md)
 - [Modelos](templates.md)
-- [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR)
+- [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

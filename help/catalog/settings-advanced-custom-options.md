@@ -4,11 +4,20 @@ description: Para um produto, as configurações de [!UICONTROL Customizable Opt
 exl-id: 7d23c5c5-2b2a-4f2a-b843-9c27b851be5f
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 821
@@ -63,7 +72,7 @@ Se uma regra de preço do carrinho for acionada pela compra, o cálculo inicial 
 
    - (Opcional) Digite um **[!UICONTROL SKU]** para a opção. O SKU de opção é um sufixo adicionado ao SKU do produto.
 
-   - Se o _[!UICONTROL Option Type]_for `File`, defina os parâmetros do arquivo. Para **[!UICONTROL Compatible File Extensions]**, insira as extensões válidas como valores separados por vírgula (como `png, jpg, gif`). Para **[!UICONTROL Maximum Image Size]**, insira o tamanho máximo da imagem em pixels. Se for uma entrada de texto, insira o valor máximo para **[!UICONTROL Maximum Characters]**.
+   - Se o _[!UICONTROL Option Type]_&#x200B;for `File`, defina os parâmetros do arquivo. Para **[!UICONTROL Compatible File Extensions]**, insira as extensões válidas como valores separados por vírgula (como `png, jpg, gif`). Para **[!UICONTROL Maximum Image Size]**, insira o tamanho máximo da imagem em pixels. Se for uma entrada de texto, insira o valor máximo para **[!UICONTROL Maximum Characters]**.
 
    ![Adicionar Valores para opção de personalização](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
 

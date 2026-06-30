@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Somente um Administrador do sistema atual pode atribuir, alterar ou remover a função de Administrador do sistema no Adobe Admin Console para produtos e serviços da Adobe diferentes do Adobe Commerce.
 
-Para atribuir um novo Administrador do sistema ou alterar uma função de administrador existente para outros produtos e serviços da Adobe, incluindo o App Builder, um administrador existente deve fazer logon na Adobe Admin Console e atualizar as funções administrativas da organização. Consulte [Funções de administrador](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles).
+Para atribuir um novo Administrador do sistema ou alterar uma função de administrador existente para outros produtos e serviços da Adobe, incluindo o App Builder, um administrador existente deve fazer logon na Adobe Admin Console e atualizar as funções administrativas da organização. Consulte [Funções de administrador](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles).
 
 ## Atribuir um novo Administrador de Sistema
 

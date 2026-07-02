@@ -1,7 +1,7 @@
 ---
 title: Trechos
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: 35147f5ec256445d4cb1dfb2d48d9cfcdc1ff47e
+source-git-commit: df2920f654bf932385e78f8cc894bae0daee017a
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -13,19 +13,19 @@ ht-degree: 0%
 ## Recurso somente EE {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Recurso do Adobe Commerce" src="../assets/adobe-logo.svg" width="20" height="20" /> Esse é um recurso exclusivo que está disponível somente no Adobe Commerce e não está disponível no Magento Open Source. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR#product-editions">Saiba mais</a>)</td></tr>
+<tr><td><img alt="Recurso do Adobe Commerce" src="/help/assets/adobe-logo.svg" width="20" height="20" /> Esse é um recurso exclusivo que está disponível somente no Adobe Commerce e não está disponível no Magento Open Source. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR#product-editions">Saiba mais</a>)</td></tr>
 </table>
 
 ## Recurso somente B2B {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Recurso B2B do Adobe Commerce" src="../assets/b2b.svg" width="20" height="20" /> Recurso exclusivo disponível somente com <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=pt-BR">Adobe Commerce B2B</a></td></tr>
+<tr><td><img alt="Recurso B2B do Adobe Commerce" src="/help/assets/b2b.svg" width="20" height="20" /> Recurso exclusivo disponível somente com <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=pt-BR">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## Recurso somente CE {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Recurso do Magento Open Source" src="../assets/open-source.svg" width="20" height="20" /> Método alternativo necessário para o Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR#product-editions">Saiba mais</a>)</td></tr>
+<tr><td><img alt="Recurso do Magento Open Source" src="/help/assets/open-source.svg" width="20" height="20" /> Método alternativo necessário para o Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR#product-editions">Saiba mais</a>)</td></tr>
 </table>
 
 ## Nota de autenticação do administrador do IMS {#ims-admin-note}
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->No processo de redirecionamento, todos os parâmetros do GET especificados no URL são removidos por motivos de segurança.
+>No processo de redirecionamento, todos os parâmetros GET especificados no URL são removidos por motivos de segurança.
 
 ## Nova regra de preço {#new-price-rule}
 
@@ -75,7 +75,7 @@ Para acessar as definições de configuração de armazenamento, escolha **[!UIC
 
 | Recurso de documentação | Descrição |
 |----------------------- | ----------- |
-| [Guias do Usuário de Administração do Adobe Commerce 2.4](../landing/home.md) | Documentação e recursos para comerciantes que trabalham como administradores. |
+| [Guias do Usuário de Administração do Adobe Commerce 2.4](/help/landing/home.md) | Documentação e recursos para comerciantes que trabalham como administradores. |
 | [Serviços para a Documentação do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=pt-BR) | Documentação para dar suporte a uma coleção de serviços de merchandising que ajudam os comerciantes a integrar os principais componentes de seus negócios à loja. |
 | [Guia da Infraestrutura do Commerce na Nuvem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html?lang=pt-BR) | Procedimentos passo a passo para implantar o Adobe Commerce em uma plataforma de nuvem de hospedagem gerenciada e automatizada. |
 | [Guias Operacionais do Adobe Commerce 2.4](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=pt-BR) | Documentação de sistemas sobre os conceitos, processos, ferramentas e práticas recomendadas para desenvolver, implantar e manter o Adobe Commerce na nuvem e projetos locais. |
@@ -95,14 +95,14 @@ Para acessar as definições de configuração de armazenamento, escolha **[!UIC
 - [!UICONTROL Enable for Forgot Password]
 - [!UICONTROL Enable for Create New Customer Account]
 - [!UICONTROL Enable for Edit Customer Account]
-- [!UICONTROL Enable for Create New Company Account] (Available with Adobe Commerce B2B only)
+- [!UICONTROL Enable for Create New Company Account] (Disponível somente com Adobe Commerce B2B)
 - [!UICONTROL Enable for Contact Us]
 - [!UICONTROL Enable for Product Review]
 - [!UICONTROL Enable for Newsletter Subscription]
-- [!UICONTROL Enable for Gift Card] (Adobe Commerce only)
+- [!UICONTROL Enable for Gift Card] (somente Adobe Commerce)
 - [!UICONTROL Enable for Invitation Create Account]
-- [!UICONTROL Enable for Send To Friend] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+- [!UICONTROL Enable for Send To Friend] - [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 - [!UICONTROL Enable for Checkout/Placing Order]
 - [!UICONTROL Enable for Wishlist Sharing]
 - [!UICONTROL Enable for Coupon Codes]
-- [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+- [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}

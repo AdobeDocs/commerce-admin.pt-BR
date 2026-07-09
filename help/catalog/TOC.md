@@ -4,9 +4,9 @@ user-guide-description: Informações abrangentes sobre recursos de gerenciament
 breadcrumb-title: Gerenciamento de catálogo
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: 9f782ec5412555c9a2cdfaa92c3fd4c05620fc0d
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -89,6 +89,7 @@ ht-degree: 1%
       + [Design](settings-advanced-design.md)
       + [Configurações Automáticas](product-autosettings.md)
       + [Opções de presente](product-gift-options.md)
+   + {hide-from-toc}[Enriquecimento do catálogo](catalog-enrichment.md)
 + Atributos do produto {#product-attributes}
    + [Visão geral dos atributos](product-attributes.md)
    + [Tipo de entrada de atributo](attributes-input-types.md)
@@ -98,4 +99,4 @@ ht-degree: 1%
       + [Criar e excluir atributos](attribute-product-create.md)
       + [Atualizações em massa](bulk-product-attribute-update.md)
       + [Conjuntos de atributos](attribute-sets.md)
-+ [Retornar aos Guias do Usuário do Administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR)
++ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ A _Otimização do mecanismo de pesquisa_ (SEO) é a prática de ajustar o conte
 As configurações de _[!UICONTROL Search Engine Optimization]_&#x200B;para um produto especificam os campos [Chave de URL](catalog-urls.md) e [metadados](../merchandising-promotions/meta-data.md) usados pelos mecanismos de pesquisa para indexar o produto. Embora alguns mecanismos de pesquisa ignorem metapalavras-chave, outros mecanismos de pesquisa continuam a usá-las. A [prática recomendada da SEO](../merchandising-promotions/seo-overview.md) atual é incorporar palavras-chave de alto valor no metatítulo e na metadescrição.
 
 O valor padrão para cada campo de metadados pode ser gerado automaticamente com base nos valores especificados na configuração. Cada campo contém um espaço reservado que é substituído por um valor real. Para obter mais informações, consulte [Geração automática de campos de produto](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
+
+>[!NOTE]
+>
+>O enriquecimento do catálogo ajuda a melhorar os nomes e as descrições dos produtos para detecção assistida por LLM e AI. Ele não substitui metacampos de SEO. Para obter mais informações, consulte [Enriquecimento do catálogo](catalog-enrichment.md).
 
 ## Preencha os campos de SEO
 

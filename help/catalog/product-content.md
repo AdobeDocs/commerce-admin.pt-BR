@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 4bd199ede56ca5a34da513beb305cdba02dfe80d
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: 325
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 # Configurações do produto - [!UICONTROL Content]
 
 A seção _[!UICONTROL Content]_&#x200B;é usada para inserir e editar a descrição principal do produto que aparece na página do produto. A descrição curta pode ser usada na maioria dos feeds RSS e também pode aparecer em listagens de catálogo, dependendo do [tema](../content-design/themes.md).
+
+>[!NOTE]
+>
+>O enriquecimento do catálogo pode aplicar as atualizações sugeridas pela IA ao nome do produto e à descrição longa nesta seção. Para obter mais informações, consulte [Enriquecimento do catálogo](catalog-enrichment.md).
 
 ## Adicionar a descrição do produto em [!DNL Page Builder]
 

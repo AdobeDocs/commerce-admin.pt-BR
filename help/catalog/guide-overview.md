@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: 329
 ht-degree: 5%
 
 ---
@@ -44,6 +44,7 @@ Este guia abrange:
 | [Pesquisa no catálogo](search.md) | Revise as ferramentas que os clientes podem usar para localizar produtos na loja e configure a experiência de pesquisa de acordo com seu catálogo de produtos. |
 | [Categorias](categories.md) | Estabeleça a estrutura básica de categorias do catálogo de uma forma que otimize a experiência do comprador em sua loja. |
 | [Produtos](products-list.md) | Crie produtos simples a complexos com várias opções, amostras e pacotes personalizáveis. Crie produtos para download e produtos virtuais para serviços e outros itens não tangíveis. |
+| [Enriquecimento do catálogo](catalog-enrichment.md) | Revise e aplique as melhorias sugeridas por IA aos nomes e descrições dos produtos para que seu catálogo seja representado com precisão na descoberta assistida por LLM e IA. |
 | [Atributos do produto](product-attributes.md) | Crie atributos com controles de entrada para opções de produto e para fornecer informações adicionais em páginas de produto. |
 
 {style="table-layout:auto"}

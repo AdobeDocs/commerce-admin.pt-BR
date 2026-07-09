@@ -16,16 +16,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 8a65689c36ccc2e7cced2b13d0cddbfdf5046a02
 workflow-type: tm+mt
-source-wordcount: 178
+source-wordcount: 241
 ht-degree: 0%
 
 ---
 
 # Menu [!UICONTROL Catalog]
 
-O menu [!UICONTROL Catalog] fornece acesso fácil às ferramentas de criação de produtos, categoria e gerenciamento de estoque, além de catálogos compartilhados para preços personalizados em [lojas B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=pt-BR).
+O menu [!UICONTROL Catalog] fornece acesso fácil a ferramentas de criação de produtos, categoria e gerenciamento de estoque, catálogos compartilhados para preços personalizados em [lojas B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=pt-BR) e enriquecimento de catálogo para descoberta assistida por IA.
 
 >[!BEGINTABS]
 
@@ -62,3 +62,11 @@ Crie a estrutura de [categoria](categories.md) que é a base da navegação do a
 Para lojas com o Adobe Commerce B2B instalado e habilitado, os [catálogos compartilhados](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=pt-BR) oferecem a capacidade de disponibilizar preços personalizados para diferentes empresas.
 
 ![Produtos do catálogo compartilhado](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
+
+## [!UICONTROL Catalog enrichment]
+
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+
+Use o [enriquecimento do catálogo](catalog-enrichment.md) para revisar e aplicar as melhorias sugeridas pela IA aos nomes de produtos e descrições longas, de modo que seu catálogo seja representado com precisão na descoberta assistida por LLM e IA.
+
+![Enriquecimento do catálogo](./assets/agentic-opportunities.png)

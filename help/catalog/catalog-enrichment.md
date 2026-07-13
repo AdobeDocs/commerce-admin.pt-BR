@@ -4,24 +4,15 @@ description: Use o recurso de enriquecimento do catálogo nativo no Adobe Commer
 role: Admin, User, Leader
 recommendations: noCatalog
 hide: true
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 389b8a74eca24e33e2421920ad9d4231ecd9b001
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1649
 ht-degree: 0%
 
 ---
@@ -32,11 +23,11 @@ O enriquecimento do catálogo é um recurso nativo do [!DNL Adobe Commerce] que 
 
 >[!NOTE]
 >
->O enriquecimento do catálogo é viabilizado por [!DNL Adobe LLM Optimizer] nos bastidores. O enriquecimento é usado como parte do fluxo de trabalho do catálogo do Commerce. Você não gerencia uma integração do LLM Optimizer separada para aplicar atualizações de nome e descrição aprovadas. Para um monitoramento e otimização mais amplos do LLM fora do Commerce, consulte a [documentação do produto do LLM Optimizer](https://experienceleague.adobe.com/pt-br/docs/llm-optimizer/using/home).
+>O enriquecimento do catálogo é viabilizado por [!DNL Commerce Catalog Agent] e [!DNL Adobe LLM Optimizer] nos bastidores. O enriquecimento é usado como parte do fluxo de trabalho do catálogo do Commerce. Você não gerencia uma integração do LLM Optimizer separada para aplicar atualizações de nome e descrição aprovadas. Para um monitoramento e otimização mais amplos do LLM fora do Commerce, consulte a [documentação do produto do LLM Optimizer](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home).
 
 ## Como funciona {#how-it-works}
 
-O catálogo de produtos do [!DNL Adobe Commerce] é o sistema de registro de dados de produtos: nomes, descrições, atributos, preços e estoque. O MCP da Adobe Commerce Storefront (Model Context Protocol) conecta dados de catálogo em tempo real às experiências do Adobe AI. A partir daí, o Agente de Catálogo usa essa interface para que o [!DNL Adobe LLM Optimizer] possa identificar lacunas nos nomes de produtos e descrições longas, propor melhorias e gravar alterações aprovadas no Commerce para que você possa analisá-las no Administrador do Commerce.
+O catálogo de produtos do [!DNL Adobe Commerce] é o sistema de registro de dados de produtos: nomes, descrições, atributos, preços e estoque. [!DNL Adobe Commerce] O MCP da loja (Model Context Protocol) conecta dados de catálogo em tempo real às experiências do Adobe AI. A partir daí, o Catalog Agent pode identificar lacunas em nomes de produtos e descrições longas, propor melhorias e gravar alterações aprovadas no Commerce para que você possa analisá-las no Commerce Admin.
 
 Com o enriquecimento do catálogo, você pode:
 
@@ -63,8 +54,8 @@ Os seguintes pré-requisitos se aplicam quando você tem acesso ao enriqueciment
 
 - Sua loja pode ser rastreada por bots orientados a LLM e de agente, nos quais a cobertura do rastreo é necessária para sugestões com reconhecimento de catálogo.
 - Os serviços Commerce necessários e a conectividade de catálogo estão ativados e íntegros. Consulte [Habilitar enriquecimento do catálogo](#enable-catalog-enrichment) para saber mais.
-- [O IMS está configurado)](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/administration/organizations).
-- Você tem acesso ao [Adobe Admin Console](https://helpx.adobe.com/br/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- [IMS configurado](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
+- Você tem acesso ao [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 
 > Se você não tiver uma organização IMS, entre em contato com a equipe de conta da Adobe para provisionar uma.
 
@@ -81,7 +72,7 @@ Trabalhe com o administrador do Commerce ou parceiro de implementação para gar
    composer update magento/module-catalog-enrichment
    ```
 
-1. Se você ainda não tiver instalado os Serviços de catálogo, [faça isso](https://experienceleague.adobe.com/pt-br/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. Se você ainda não tiver instalado os Serviços de catálogo, [faça isso](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    **[!UICONTROL Catalog enrichment]** agora está disponível na sua instância do Commerce.
 
@@ -93,7 +84,7 @@ Após instalar as extensões de enriquecimento do catálogo e serviços de catá
 
 ### Configurar enriquecimento do catálogo
 
-Configure o enriquecimento do catálogo na guia **[!UICONTROL Settings]** para que o Adobe LLM Optimizer possa se conectar ao seu ambiente [!DNL Adobe Commerce] e fornecer sugestões de superfície no Administrador do Commerce.
+Configure o enriquecimento do catálogo na guia **[!UICONTROL Settings]** para que o [!DNL Commerce Catalog Agent] possa se conectar ao seu ambiente [!DNL Adobe Commerce] e sugerir a superfície no Administrador do Commerce.
 
 1. No Admin, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
 1. Na lista **[!UICONTROL Scope]** na parte superior da página, selecione o modo de exibição de loja que deseja configurar ou deixe **[!UICONTROL All Store Views]** para gerenciar as configurações entre os modos de exibição de loja.
@@ -107,14 +98,13 @@ Configure o enriquecimento do catálogo na guia **[!UICONTROL Settings]** para q
 1. Insira os detalhes da conexão necessários para a exibição da loja.
 
    - **[!UICONTROL Store View URL]**: URL correspondente à exibição de armazenamento (por exemplo, `https://brand.example.com/fr/`).
-   - **[!UICONTROL Environment ID]**: Identificador exclusivo do ambiente Adobe Commerce que a conexão acessa.
+   - **[!UICONTROL Environment ID]**: Identificador exclusivo do ambiente [!DNL Adobe Commerce] que a conexão acessa.
    - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]** e **[!UICONTROL Store View Code]**: Códigos de exibição de site, loja e loja do site da Commerce. Esses valores devem corresponder aos códigos no Administrador do Commerce.
 
 1. Opcional: insira **[!UICONTROL Host Name]** e **[!UICONTROL API Key]** se o ambiente exigi-los.
 
-   - **[!UICONTROL Host Name]**: Nome do host da sua instância do Adobe Commerce.
-   - **[!UICONTROL Adobe Commerce Endpoint]**: Este campo não é usado.
-   - **[!UICONTROL API Key]**: chave de autenticação usada para acessar com segurança as APIs do Adobe Commerce. Clique em **[!UICONTROL Copy]** ao lado do campo se precisar copiar a chave em outro lugar.
+   - **[!UICONTROL Host Name]**: Nome do host da sua instância [!DNL Adobe Commerce].
+   - **[!UICONTROL API Key]**: Chave de autenticação usada para acessar com segurança [!DNL Adobe Commerce] APIs. Clique em **[!UICONTROL Copy]** ao lado do campo se precisar copiar a chave em outro lugar.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -129,13 +119,12 @@ Os campos obrigatórios estão marcados com um asterisco (*) no formulário **[!
 | Campo | Obrigatório | Descrição |
 | --- | --- | --- |
 | Armazenar URL de exibição | Sim | URL correspondente à exibição de armazenamento (por exemplo, `https://brand.example.com/fr/`). |
-| ID do ambiente | Sim | Identificador exclusivo do ambiente Adobe Commerce que a conexão acessa. |
+| ID do ambiente | Sim | Identificador exclusivo do ambiente [!DNL Adobe Commerce] que a conexão acessa. |
 | Código do site | Sim | Código do site da Commerce. |
 | Armazenar código | Sim | Código de armazenamento do site da Commerce. |
 | Código de exibição da loja | Sim | Exibição de loja do site da Commerce. |
-| Nome do host | Não | Nome do host da instância do Adobe Commerce. |
-| Endpoint do Adobe Commerce | Não | Este campo não é usado. |
-| Chave de API | Não | Chave de autenticação usada para acessar com segurança as APIs do Adobe Commerce. Trate-a como qualquer credencial de produção. |
+| Nome do host | Não | Nome do host da instância [!DNL Adobe Commerce]. |
+| Chave de API | Não | Chave de autenticação usada para acessar com segurança as APIs do [!DNL Adobe Commerce]. Trate-a como qualquer credencial de produção. |
 
 ### Revisar e aplicar enriquecimento do catálogo {#review-and-apply}
 
@@ -183,7 +172,7 @@ Depois de aplicar uma atualização, as sugestões serão movidas para **[!UICON
 
    ![Nome de Produto Enriquecido](./assets/enriched-product-name.png)
 
-1. Opcional: selecione **[!UICONTROL Override LLM Optimizer provided Product Name]** se quiser manter um nome inserido manualmente.
+1. Opcional: selecione **[!UICONTROL Override Catalog Agent provided Product Name]** se quiser manter um nome inserido manualmente.
 
    As substituições manuais afetam como as sugestões permanecem sincronizadas com o catálogo. Para obter mais informações, consulte [Substituição manual no Admin](#manual-override-in-the-admin).
 
@@ -193,7 +182,7 @@ Depois de aplicar uma atualização, as sugestões serão movidas para **[!UICON
 
    ![Enriquecer Descrição Do Produto](./assets/enrich-product-description.png)
 
-1. Opcional: selecione **[!UICONTROL Override LLM Optimizer provided Description]** se quiser manter uma descrição inserida manualmente.
+1. Opcional: selecione **[!UICONTROL Override Catalog Agent provided Description]** se quiser manter uma descrição inserida manualmente.
 
 As substituições manuais afetam como as sugestões permanecem sincronizadas com o catálogo. Para obter mais informações, consulte [Substituição manual no Admin](#manual-override-in-the-admin).
 

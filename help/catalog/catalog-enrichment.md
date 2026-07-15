@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
+source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
 workflow-type: tm+mt
-source-wordcount: 1649
+source-wordcount: 1697
 ht-degree: 0%
 
 ---
@@ -65,8 +65,11 @@ Os seguintes pré-requisitos se aplicam quando você tem acesso ao enriqueciment
 - Os serviços Commerce necessários e a conectividade de catálogo estão ativados e íntegros. Consulte [Habilitar enriquecimento do catálogo](#enable-catalog-enrichment) para saber mais.
 - [IMS configurado](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/administration/organizations).
 - Você tem acesso ao [Adobe Admin Console](https://helpx.adobe.com/br/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Sua organização assinou o GenAI Rider, ou recusou explicitamente, os serviços de IA subjacentes.
 
-> Se você não tiver uma organização IMS, entre em contato com a equipe de conta da Adobe para provisionar uma.
+>[!NOTE]
+>
+>Como parte da configuração, a Commerce verifica se sua organização assinou o GenAI Rider que cobre os serviços de IA por trás do enriquecimento de catálogo. Se você ainda não tiver assinado o piloto ou optado por não participar, será solicitado que assine ou atualize o piloto antes de poder usar o enriquecimento do catálogo.
 
 ## Ativar enriquecimento do catálogo {#enable-catalog-enrichment}
 

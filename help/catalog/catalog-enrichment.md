@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
+source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1653
 ht-degree: 0%
 
 ---
@@ -112,11 +112,7 @@ Configure o enriquecimento do catálogo na guia **[!UICONTROL Settings]** para q
    - **[!UICONTROL Store View URL]**: URL correspondente à exibição de armazenamento (por exemplo, `https://brand.example.com/fr/`).
    - **[!UICONTROL Environment ID]**: Identificador exclusivo do ambiente [!DNL Adobe Commerce] que a conexão acessa.
    - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]** e **[!UICONTROL Store View Code]**: Códigos de exibição de site, loja e loja do site da Commerce. Esses valores devem corresponder aos códigos no Administrador do Commerce.
-
-1. Opcional: insira **[!UICONTROL Host Name]** e **[!UICONTROL API Key]** se o ambiente exigi-los.
-
    - **[!UICONTROL Host Name]**: Nome do host da sua instância [!DNL Adobe Commerce].
-   - **[!UICONTROL API Key]**: Chave de autenticação usada para acessar com segurança [!DNL Adobe Commerce] APIs. Clique em **[!UICONTROL Copy]** ao lado do campo se precisar copiar a chave em outro lugar.
 
 1. Clique em **[!UICONTROL Save]**.
 
@@ -135,8 +131,7 @@ Os campos obrigatórios estão marcados com um asterisco (*) no formulário **[!
 | Código do site | Sim | Código do site da Commerce. |
 | Armazenar código | Sim | Código de armazenamento do site da Commerce. |
 | Código de exibição da loja | Sim | Exibição de loja do site da Commerce. |
-| Nome do host | Não | Nome do host da instância [!DNL Adobe Commerce]. |
-| Chave de API | Não | Chave de autenticação usada para acessar com segurança as APIs do [!DNL Adobe Commerce]. Trate-a como qualquer credencial de produção. |
+| Nome do host | Sim | Nome do host da instância [!DNL Adobe Commerce]. |
 
 ### Revisar e aplicar enriquecimento do catálogo {#review-and-apply}
 

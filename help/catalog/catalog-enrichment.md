@@ -4,7 +4,7 @@ description: Use o recurso de enriquecimento do catálogo nativo no Adobe Commer
 role: Admin, User, Leader
 recommendations: noCatalog
 hide: true
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -32,7 +32,7 @@ O enriquecimento do catálogo é um recurso nativo do [!DNL Adobe Commerce] que 
 
 >[!NOTE]
 >
->O enriquecimento do catálogo é viabilizado por [!DNL Commerce Catalog Agent] e [!DNL Adobe LLM Optimizer] nos bastidores. O enriquecimento é usado como parte do fluxo de trabalho do catálogo do Commerce. Você não gerencia uma integração do LLM Optimizer separada para aplicar atualizações de nome e descrição aprovadas. Para um monitoramento e otimização mais amplos do LLM fora do Commerce, consulte a [documentação do produto do LLM Optimizer](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home).
+>O enriquecimento do catálogo é viabilizado por [!DNL Commerce Catalog Agent] e [!DNL Adobe LLM Optimizer] nos bastidores. O enriquecimento é usado como parte do fluxo de trabalho do catálogo do Commerce. Você não gerencia uma integração do LLM Optimizer separada para aplicar atualizações de nome e descrição aprovadas. Para um monitoramento e otimização mais amplos do LLM fora do Commerce, consulte a [documentação do produto do LLM Optimizer](https://experienceleague.adobe.com/pt-br/docs/llm-optimizer/using/home).
 
 ## Como funciona {#how-it-works}
 
@@ -63,8 +63,8 @@ Os seguintes pré-requisitos se aplicam quando você tem acesso ao enriqueciment
 
 - Sua loja pode ser rastreada por bots orientados a LLM e de agente, nos quais a cobertura do rastreo é necessária para sugestões com reconhecimento de catálogo.
 - Os serviços Commerce necessários e a conectividade de catálogo estão ativados e íntegros. Consulte [Habilitar enriquecimento do catálogo](#enable-catalog-enrichment) para saber mais.
-- [IMS configurado](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
-- Você tem acesso ao [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- [IMS configurado](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/administration/organizations).
+- Você tem acesso ao [Adobe Admin Console](https://helpx.adobe.com/br/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Sua organização assinou o GenAI Rider, ou recusou explicitamente, os serviços de IA subjacentes.
 
 >[!NOTE]
@@ -84,7 +84,7 @@ Trabalhe com o administrador do Commerce ou parceiro de implementação para gar
    composer update magento/module-catalog-enrichment
    ```
 
-1. Se você ainda não tiver instalado os Serviços de catálogo, [faça isso](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. Se você ainda não tiver instalado os Serviços de catálogo, [faça isso](https://experienceleague.adobe.com/pt-br/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    **[!UICONTROL Catalog enrichment]** agora está disponível na sua instância do Commerce.
 

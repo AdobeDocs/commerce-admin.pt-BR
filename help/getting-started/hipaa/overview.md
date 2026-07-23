@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 2567
+source-wordcount: 2612
 ht-degree: 1%
 
 ---
@@ -185,23 +185,23 @@ A grade de relatório _Logs de Ação_ (**[!UICONTROL System]** > Logs de Ação
 
 1. Adição de duas colunas:
    - ***Source***: mostra onde a ação foi executada.
-Valores: `Admin UI` | `Customer UI` | `REST API` |5&rbrace; | `GraphQL API`&#x200B;`SOAP API`
+     Valores: `Admin UI` | `Customer UI` | `REST API` |5&rbrace; | `GraphQL API`&#x200B;`SOAP API`
    - ***Tipo de Cliente***: exibe o tipo de cliente.
-Valores: Cliente | Administrador Integração do |
+     Valores: Cliente | Administrador Integração do |
 
 2. A coluna ***Nome de Usuário*** foi renomeada para ***Identificador de Cliente***
    - ***Identificador do Cliente***: Exibe a ID de logon do usuário que executou a ação.
-Valores:
-      - um email se o Tipo de cliente for Cliente
-      - um nome de usuário se o tipo de cliente for Admin
-      - um nome se o Tipo de cliente for Integração
+     Valores:
+     - um email se o Tipo de cliente for Cliente
+     - um nome de usuário se o tipo de cliente for Admin
+     - um nome se o Tipo de cliente for Integração
 
 3. A coluna ***Nome da Ação Completa*** foi renomeada para ***Destino***
    - ***Destino***: exibe o nome da ação.
-Valores:
-      - um endpoint se o Source for uma API REST ou uma API SOAP
-      - um nome de consulta ou mutação se uma API do GraphQL
-      - um nome de ação se for uma interface do usuário do administrador ou do cliente.
+     Valores:
+     - um endpoint se o Source for uma API REST ou uma API SOAP
+     - um nome de consulta ou mutação se uma API do GraphQL
+     - um nome de ação se for uma interface do usuário do administrador ou do cliente.
 
 #### Configurar ações do administrador para fazer logon
 
@@ -337,3 +337,5 @@ Os recursos a seguir são desativados por padrão no módulo de preparação par
 - **[Recurso de boletim informativo](../../merchandising-promotions/newsletters.md)** — esse recurso está desabilitado para impedir que o PHI seja usado em um contexto de marketing.
 
 - **[Configuração do serviço Relatórios Avançados](../../getting-started/business-intelligence.md)**—Esta configuração está desabilitada para impedir que o PHI seja usado para análise e relatórios.
+
+- **[Enriquecimento do catálogo](../../catalog/catalog-enrichment.md)** — este recurso está desabilitado porque depende de serviços de IA não prontos para HIPAA ([!DNL Commerce Catalog Agent] e [!DNL Adobe LLM Optimizer]) que analisam sinais de vitrine e catálogo fora do limite pronto para HIPAA. A ativação desse recurso poderia expor as PHI a sistemas que não estão cobertos pelos serviços prontos para HIPAA da Adobe.

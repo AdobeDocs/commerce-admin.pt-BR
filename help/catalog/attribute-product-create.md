@@ -4,31 +4,21 @@ description: Saiba mais sobre como criar e remover atributos de produtos, que s�
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 922
 ht-degree: 0%
 
 ---
 
 # Criar e excluir atributos de produto
 
-Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL Product Attributes]_. As etapas a seguir mostram como criar atributos no menu&#x200B;_[!UICONTROL Stores]_.
+Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL Product Attributes]_. As etapas a seguir mostram como criar atributos no menu_[!UICONTROL Stores]_.
 
 ## Etapa 1: Descrever as propriedades básicas do atributo
 
@@ -40,25 +30,9 @@ Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL
 
 1. Para **[!UICONTROL Default Label]**, insira um rótulo que identifique o atributo.
 
-1. Para determinar o tipo de controle de entrada usado para entrada de dados, defina **[!UICONTROL Catalog Input Type for Store Owner]** como um dos seguintes:
+1. Defina **[!UICONTROL Catalog Input Type for Store Owner]** como o tipo de [controle de entrada](attributes-input-types.md) a ser usado para entrada de dados.
 
-   | Propriedade | Descrição |
-   |--- |--- |
-   | `Text Field` | Um campo de entrada de linha única para texto. |
-   | `Text Area` | Um campo de entrada de várias linhas para inserir parágrafos de texto, como uma descrição do produto. Você pode usar o Editor WYSIWYG para formatar o texto com tags HTML ou inserir as tags diretamente no texto. |
-   | `Text Editor` | Um editor de texto totalmente funcional no local do atributo. |
-   | Data | Exibe um valor de data no [formato preferido](attributes-input-types.md#date-and-time-options) e [fuso horário](../getting-started/store-details.md#locale-options). Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**&#x200B;Dependendo da configuração do seu sistema, os usuários do_ Administrador_ podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](attributes-input-types.md#date-and-time-options). |
-   | `Yes/No` | Exibe uma lista suspensa com opções predefinidas de `Yes` e `No`. |
-   | `Dropdown` | Exibe uma lista suspensa de valores que aceitam apenas uma única seleção. O tipo de entrada suspensa é um componente chave de [produtos configuráveis](product-create-configurable.md). |
-   | `Multiple Select` | Exibe uma lista suspensa de valores que aceitam várias seleções. |
-   | `Price` | Esse tipo de entrada é usado para criar campos de preço que estão além dos atributos predefinidos: Preço, Preço Especial, Preço da Camada e Custo. A moeda usada é determinada pela configuração do sistema. |
-   | `Media Image` | Associa uma imagem extra a um produto, como um logotipo do produto, instruções de cuidados ou ingredientes de um rótulo de alimentos. Quando você adiciona um atributo de imagem de mídia ao conjunto de atributos de um produto, ele se torna um tipo de imagem extra, juntamente com Base, Pequeno e Miniatura. O atributo de imagem de mídia pode ser excluído do [navegador de mídia de vitrine](catalog-images-video.md#storefront-media-browser). |
-   | `Fixed Product Tax` | Permite definir [taxas FPT](../stores-purchase/fixed-product-tax.md) com base nos requisitos da sua localidade. |
-   | `Visual Swatch` | Exibe uma amostra que representa a cor, a textura ou o padrão de um produto configurável. Uma [amostra visual](swatches.md) pode ser preenchida com um valor de cor hexadecimal ou exibir uma imagem carregada que represente a cor, o material, a textura ou o padrão da opção. |
-   | `Text Swatch` | Uma representação baseada em texto de uma opção de produto configurável que é frequentemente usada para o tamanho. [Amostras de texto](swatches.md#text-based-swatches) também podem incluir valores de cor hexadecimais. |
-   | `Page Builder` | Um espaço de trabalho [Page Builder](../page-builder/introduction.md) totalmente funcional no local do atributo que facilita a adição de conteúdo envolvente à página do produto. |
-
-   {style="table-layout:auto"}
+   Se o atributo for usado para um [produto configurável](product-create-configurable.md), escolha `Dropdown`. Em seguida, defina **[!UICONTROL Required]** como `Yes`.
 
 1. Se você quiser que uma opção seja selecionada antes que o cliente possa comprar o produto, defina **[!UICONTROL Values Required]** como `Yes`.
 
@@ -88,7 +62,7 @@ Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL
 
    As opções disponíveis dependem da configuração _[!UICONTROL Catalog Input Type for Store Owner]_.
 
-1. Defina **[!UICONTROL Scope]** para indicar onde na [hierarquia de armazenamento](../getting-started/websites-stores-views.md) o atributo pode ser usado.
+1. Para indicar onde a [hierarquia de armazenamento](../getting-started/websites-stores-views.md) pode usar o atributo, defina **[!UICONTROL Scope]**.
 
 1. Se você quiser impedir qualquer entrada de valor duplicada, defina **[!UICONTROL Unique Value]** como `Yes`.
 
@@ -122,7 +96,7 @@ Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL
 
    >[!NOTE]
    >
-   > Se você planeja usar esse atributo como uma faceta no Live Search, você deve especificar um rótulo específico da loja. Sem ele, o nome do atributo pode não ser exibido corretamente na página de configuração da faceta. Para atualizar a configuração, edite manualmente o rótulo usando a [opção de edição na lista facetada do Live Search](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) no _Guia do Live Search_.
+   > Se você planeja usar esse atributo como uma faceta no Live Search, você deve especificar um rótulo específico da loja. Sem ele, o nome do atributo pode não ser exibido corretamente na página de configuração da faceta. Para atualizar a configuração, edite manualmente o rótulo usando a [opção de edição na lista facetada do Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) no _Guia do Live Search_.
 
 ## Etapa 4: descrever as propriedades da loja
 
@@ -134,7 +108,7 @@ Você pode criar atributos ao trabalhar em um produto ou na página _[!UICONTROL
 
 1. Se o atributo deve estar disponível para pesquisa, defina **[!UICONTROL Use in Search]** como `Yes`.
 
-   - Defina o valor **[!UICONTROL Search Weight]** para controlar onde o item aparece nos resultados da pesquisa: 1 (peso mais baixo) para 10 (peso mais alto).
+   - Para controlar onde o item aparece nos resultados da pesquisa, defina o valor **[!UICONTROL Search Weight]**: 1 (peso mais baixo) como 10 (peso mais alto).
 
    - Defina o **[!UICONTROL Visible in Advanced Search]** conforme necessário. Saiba mais em [Pesquisa avançada](search.md#advanced-search).
 
@@ -191,7 +165,7 @@ Qualquer atributo usado como uma lista suspensa de opções de um [produto confi
 
 Quando um atributo é excluído, ele é removido de todos os produtos e conjuntos de atributos relacionados. Os atributos do sistema fazem parte da funcionalidade principal do armazenamento e não podem ser excluídos.
 
-Antes de excluir um atributo, verifique se ele não está sendo usado por nenhum produto em seu catálogo. Uma maneira fácil de determinar se um atributo está em uso é usar a ferramenta [Export](../systems/data-export.md) para verificar a lista de Atributos de Entidade do produto. Se o atributo não estiver incluído na lista, ele não será usado por nenhum produto no catálogo.
+Antes de excluir um atributo, verifique se nenhum produto do catálogo o usa no momento. Uma maneira fácil de determinar se um atributo está em uso é usar a ferramenta [Export](../systems/data-export.md) para verificar a lista de Atributos de Entidade do produto. Se a lista não incluir o atributo, nenhum produto no catálogo o usará.
 
 **_Para excluir um atributo:_**
 

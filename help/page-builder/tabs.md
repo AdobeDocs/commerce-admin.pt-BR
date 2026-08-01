@@ -17,7 +17,8 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2026-01-26
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 2041
 ht-degree: 0%
@@ -153,11 +154,11 @@ Você pode adicionar qualquer tipo de conteúdo a uma guia da mesma forma que po
 
   Você pode inserir um valor de três maneiras:
 
-   - Um nome de cor predefinido, como `White`
+  - Um nome de cor predefinido, como `White`
 
-   - O valor de cor hexadecimal da cor, como `#ffffff`
+  - O valor de cor hexadecimal da cor, como `#ffffff`
 
-   - O valor rgba da cor, com porcentagem de opacidade, como `rgba(255, 255, 255, 0.75)`
+  - O valor rgba da cor, com porcentagem de opacidade, como `rgba(255, 255, 255, 0.75)`
 
   Se quiser escolher uma cor, clique na amostra à esquerda da caixa _Sem cor_.
 

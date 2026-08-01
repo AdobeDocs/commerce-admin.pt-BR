@@ -4,9 +4,10 @@ description: Saiba como gerenciar arquivos de mídia carregados e ativos adquiri
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
+last-update: 2026-03-27T00:00:00Z
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---

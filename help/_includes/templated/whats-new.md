@@ -1,7 +1,7 @@
 ---
-source-git-commit: cb1485f26f63f12c825258706c68080c30f15b75
+source-git-commit: acc04085de45edfcd956971aa09732ca91cf5f1a
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '298'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## Novidades
 
 Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos todas as atualizações secundárias, como a edição de cópia, desta lista.
+
+### 29 de julho de 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrição</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Saiba como suprimir categorias específicas de emails do sistema automatizado, como notificações de pedidos ou de marketing, diretamente do Administrador em <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">Supressão de email</a>.</p>
+</td>
+      <td>
+        Atualização importante, novo tópico
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">confirmar</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 9 de julho de 2026
 
@@ -23,7 +45,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Adição do <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/products/catalog-enrichment">Enriquecimento do catálogo</a> com orientação para revisar e aplicar atualizações de nome e descrição do produto sugeridas pela IA no Administrador, e vinculação do tópico a partir do <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/catalog-menu">menu Catálogo</a>, da <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/guide-overview">visão geral do guia</a> e dos tópicos relacionados de configurações do produto.</p>
+      <td><p>Adição do <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Enriquecimento do catálogo</a> com orientação para revisar e aplicar atualizações de nome e descrição do produto sugeridas pela IA no Administrador, e vinculação do tópico a partir do <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">menu Catálogo</a>, da <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">visão geral do guia</a> e dos tópicos relacionados de configurações do produto.</p>
 </td>
       <td>
         Novo tópico
@@ -45,7 +67,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Adicionado <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Atualizar acesso do Administrador do Sistema</a> com orientação para gerenciar atribuições do Administrador do Sistema no Adobe Admin Console.</p>
+      <td><p>Adicionado <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Atualizar acesso do Administrador do Sistema</a> com orientação para gerenciar atribuições do Administrador do Sistema no Adobe Admin Console.</p>
 </td>
       <td>
         Feedback
@@ -67,7 +89,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Adicionada a capacidade de <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">criar códigos de cupom personalizados</a> no Adobe Commerce as a Cloud Service.</p>
+      <td><p>Adicionada a capacidade de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">criar códigos de cupom personalizados</a> no Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Atualização importante
@@ -89,7 +111,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Atualização da documentação de <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/import/data-import">importação de dados</a> do Commerce com orientações sobre como evitar a geração de regravação de URL desnecessária durante as operações de importação.</p>
+      <td><p>Atualização da documentação de <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import">importação de dados</a> do Commerce com orientações sobre como evitar a geração de regravação de URL desnecessária durante as operações de importação.</p>
 </td>
       <td>
         Feedback, técnico

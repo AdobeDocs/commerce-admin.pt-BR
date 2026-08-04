@@ -21,10 +21,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e819869f53e1a349be081510b8ab69a260072de1
+source-git-commit: a43dbb4a703f497e496c63f2886832d44e8c7cab
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 1%
+source-wordcount: 916
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-Essa integração oferece suporte aos comerciantes do Commerce com usuários administradores que têm uma Adobe ID e que desejam simplificar o logon nos produtos Adobe Commerce e Adobe Business. É opcional e é ativado com base na instância. Somente os workflows de usuário Admin são afetados quando habilitados.
+Essa integração oferece suporte aos comerciantes do Commerce com usuários administradores que têm uma Adobe ID e que desejam simplificar o logon nos produtos Adobe Commerce e Adobe Business. É opcional e é ativado com base na instância. Somente os workflows de usuário Admin são afetados quando habilitados. 
 
 >[!IMPORTANT]
 >
@@ -47,12 +47,12 @@ Essa integração oferece suporte aos comerciantes do Commerce com usuários adm
 
   >[!NOTE]
   >
-  >Se você não tiver acesso ao Admin Console do Adobe Commerce, envie uma solicitação para que sua equipe de conta provisione o acesso.
+  >Se você não tiver acesso à Adobe Admin Console, envie uma solicitação para que sua equipe de conta provisione o acesso.
 
 O administrador que configura essa integração precisa das seguintes credenciais durante a ativação do módulo:
 
-* ID da organização (obtida de [Adobe Admin Console](https://adminconsole.adobe.com/)), que deve ter pelo menos 24 caracteres. O usuário autenticado deve pertencer a esta organização IMS. Para obter informações sobre como encontrar sua ID da organização, consulte [Organizações na Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR).
-* 2FA deve ser aplicado no nível da Organização no Adobe Admin Console para ativar o módulo. Verificar [Configurações de autenticação](https://helpx.adobe.com/br/enterprise/using/authentication-settings.html#two-step-verification).
+* ID da organização (obtida de [Adobe Admin Console](https://adminconsole.adobe.com/)), que deve ter pelo menos 24 caracteres. O usuário autenticado deve pertencer a esta organização IMS. Para obter informações sobre como encontrar sua ID da organização, consulte [Organizações na Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/administration/organizations).
+* 2FA deve ser aplicado no nível da Organização no Adobe Admin Console para ativar o módulo. Verificar [Configurações de autenticação](https://helpx.adobe.com/br/business/enterprise/manage-your-organization-setup/authentication-settings.html#two-step-verification).
 * ID do cliente
 * Client secret
 * A ID do cliente e o segredo do cliente estão disponíveis após recuperar chaves de API da [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials).
@@ -70,11 +70,11 @@ Uma integração bem-sucedida requer que todos os usuários do Adobe Commerce te
 
 ## Configurar a integração
 
-Depois que as etapas a seguir forem concluídas por um administrador ou desenvolvedor com acesso ao sistema, o botão _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;será exibido na página de logon do Commerce Admin para todos os usuários administradores.
+Depois que um administrador ou desenvolvedor com acesso ao sistema concluir as etapas a seguir, o botão _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;será exibido na página de logon do Commerce Admin para todos os usuários Administradores.
 
 ### Etapa 1: obter a ID da organização da Adobe
 
-A associação em pelo menos uma organização IMS é necessária para habilitar esse recurso. Se você tiver uma Adobe ID, pertencerá a pelo menos uma organização da Adobe por padrão. Faça logon no [Adobe Admin Console](https://adminconsole.adobe.com/) para recuperar a ID da organização.
+A associação em pelo menos uma organização IMS é necessária para habilitar esse recurso. Se você tiver uma Adobe ID, pertencerá a pelo menos uma organização da Adobe por padrão. Para recuperar a ID da organização, faça logon no [Adobe Admin Console](https://adminconsole.adobe.com/).
 
 ### Etapa 2: gerar um novo projeto, chaves de API IMS e segredo
 
@@ -85,10 +85,10 @@ Para criar projetos para uma organização, a conta de administrador do Adobe da
 1. Clique em **[!UICONTROL Add API]** na página recém-criada do projeto.
 1. Selecione **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**.
 1. Selecione **[!UICONTROL Oauth 2.0 Web]**.
-1. Especifique o **[!UICONTROL Redirect URI]**: `https://<admin_base_url>/adobe_ims_auth/oauth/imscallback`
-1. Especifique o **[!UICONTROL Redirect URI pattern]**: `https://mcstaging\.example\.com/<admin_path>/adobe_ims_auth/oauth/imscallback.*`
+1. Especifique o **[!UICONTROL Redirect URI]**: `https://<commerce_base_url>/`
+1. Especifique o **[!UICONTROL Redirect URI pattern]**: `https://<commerce_base_url>/.*`
 
-   Evite qualquer ponto no nome do host precedendo os pontos com `\\`. Adicionar um curinga ao final do URL é compatível com a chave secreta de administrador do Adobe Commerce.
+   Evite qualquer ponto no nome do host precedendo os pontos com `\\`. Adicionar um curinga ao final do padrão de URI de redirecionamento é compatível com a chave secreta de administrador do Adobe Commerce.
 
 1. Clique em **[!UICONTROL Save configured API]**.
 1. Copie as chaves [!UICONTROL Client ID] e [!UICONTROL Client Secret] do projeto criado.
@@ -99,9 +99,9 @@ Antes de habilitar a integração, verifique se cada conta de usuário de admini
 
 >[!TIP]
 >
->Você pode criar várias contas de usuário fazendo upload das informações do usuário de um arquivo CSV. Consulte [Gerenciar vários usuários](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html).
+>Você pode criar várias contas de usuário fazendo upload das informações do usuário de um arquivo CSV. Consulte [Gerenciar vários usuários](https://helpx.adobe.com/br/business/enterprise/manage-users/user-management-strategies/bulk-upload-users.html).
 
-1. No [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html), navegue até **[!UICONTROL Users]** > **[!UICONTROL Users]**.
+1. No [Adobe Admin Console](https://helpx.adobe.com/br/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html), navegue até **[!UICONTROL Users]** > **[!UICONTROL Users]**.
 
 1. Clique em **[!UICONTROL Add User]**.
 
@@ -132,4 +132,4 @@ Após ativar esse recurso com êxito, é possível fazer a transição de outras
 
 ## Identidade e logon único
 
-Para obter informações sobre opções de configuração de identidade, incluindo Adobe ID, Enterprise ID e Federated ID, e instruções para configurar o Logon Único (SSO) para acesso seguro a aplicativos Adobe, consulte [Configurar identidade e logon único](https://helpx.adobe.com/br/enterprise/using/set-up-identity.html) na documentação do *Enterprise Admin Console*.
+Consulte [Configurar identidade e logon único](https://helpx.adobe.com/br/business/enterprise/set-up-your-organization/set-up-identity.html) na documentação do *Enterprise Admin Console* para obter instruções sobre configuração de identidade e configuração de SSO.

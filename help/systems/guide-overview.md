@@ -22,7 +22,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 07a65f4f5eefdc4e146272eca98010c6e9ba1f7f
 workflow-type: tm+mt
 source-wordcount: 430
 ht-degree: 6%
@@ -42,7 +42,7 @@ Este guia abrange:
 | [Contas e permissões de administrador](permissions.md) | Gerencie as contas de usuário Admin e as funções usadas para conceder acesso às funções de armazenamento. |
 | [Variáveis](variables-predefined.md) | As variáveis facilitam a personalização de modelos de email e de boletins informativos, além de outros tipos de conteúdo que oferecem suporte ao seu site e à experiência do cliente. |
 | [Modelos de email](email-templates.md) | Os templates de email definem o layout, o conteúdo e a formatação das mensagens automatizadas enviadas pela loja. Eles são chamados de emails transacionais porque cada um está associado a um tipo específico de transação ou evento. |
-| [Transferência de dados](data-transfer.md) | <ul><li>As ferramentas de importação e exportação permitem gerenciar vários registros em uma única operação. Você não pode apenas importar novos itens, mas também atualizar, substituir e excluir conjuntos existentes de produtos.</li><li>Exibir o status de sincronização de dados das entidades transferidas para os serviços conectados da Commerce a partir de [[!UICONTROL Data Management Dashboard]](data-dashboard.md).</li><li>Monitore o status de sincronização da exportação de feed de dados para os serviços SaaS da Commerce na página [[!UICONTROL Data Export Feed Sync Status]](data-feed-sync-status.md).</li></ul> |
+| [Transferência de dados](data-transfer.md) | <ul><li>As ferramentas de importação e exportação permitem gerenciar vários registros em uma única operação. Você não pode apenas importar novos itens, mas também atualizar, substituir e excluir conjuntos existentes de produtos.</li><li>Exibir o status de sincronização de dados de entidades entregues aos serviços conectados da Commerce a partir de [[!UICONTROL Data Management Dashboard]](data-dashboard.md).</li><li>Monitore o status de sincronização da exportação de feed de dados para os serviços SaaS da Commerce na página [[!UICONTROL Data Feed Sync Status]](data-feed-sync-status.md).</li></ul> |
 | [Logs de ação](action-log.md) | Para o Adobe Commerce, os logs de ação capturam todas as alterações feitas por um usuário administrador que trabalha na sua loja. Isso permite rastrear todas as alterações feitas em sua loja. |
 | Ferramentas | [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} administradores do sistema têm uma coleção de ferramentas disponíveis: as [ferramentas de suporte](support.md) foram projetadas para identificar problemas conhecidos em seu sistema. As ferramentas do sistema fornecem suporte operacional para executar o gerenciamento de rotina do [índice](index-management.md) e do [cache](cache-management.md), [fazer backup do sistema](backups.md), gerenciar [operações agendadas](data-scheduled-import-export.md) e usar uma variedade de [ferramentas de desenvolvedor](developer-tools.md). |
 | [Integrações](integrations.md) | Estabeleça a localização das credenciais do OAuth e forneça os URLs de redirecionamento para integrações de terceiros. |

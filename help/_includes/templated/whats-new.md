@@ -1,7 +1,7 @@
 ---
-source-git-commit: acc04085de45edfcd956971aa09732ca91cf5f1a
+source-git-commit: ddb16ac856b75e3a4fcc1bd620b6e5b1dab321d5
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '264'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## Novidades
 
 Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos todas as atualizações secundárias, como a edição de cópia, desta lista.
+
+### 4 de agosto de 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrição</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>O tópico <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Status de sincronização do feed de dados</a> foi atualizado para corresponder à experiência de administrador atual, esclarecer que a página relata somente o status de exportação e documentar quando o recurso está disponível nas licenças de serviço da Commerce.</p>
+</td>
+      <td>
+        Atualização importante
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">confirmar</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 29 de julho de 2026
 
@@ -23,7 +45,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Saiba como suprimir categorias específicas de emails do sistema automatizado, como notificações de pedidos ou de marketing, diretamente do Administrador em <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/config/services/email-suppression">Supressão de email</a>.</p>
+      <td><p>Saiba como suprimir categorias específicas de emails do sistema automatizado, como notificações de pedidos ou de marketing, diretamente do Administrador em <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">Supressão de email</a>.</p>
 </td>
       <td>
         Atualização importante, novo tópico
@@ -45,7 +67,7 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Adição do <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/products/catalog-enrichment">Enriquecimento do catálogo</a> com orientação para revisar e aplicar atualizações de nome e descrição do produto sugeridas pela IA no Administrador, e vinculação do tópico a partir do <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/catalog-menu">menu Catálogo</a>, da <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/guide-overview">visão geral do guia</a> e dos tópicos relacionados de configurações do produto.</p>
+      <td><p>Adição do <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Enriquecimento do catálogo</a> com orientação para revisar e aplicar atualizações de nome e descrição do produto sugeridas pela IA no Administrador, e vinculação do tópico a partir do <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">menu Catálogo</a>, da <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">visão geral do guia</a> e dos tópicos relacionados de configurações do produto.</p>
 </td>
       <td>
         Novo tópico
@@ -67,56 +89,12 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
   </thead>
   <tbody>
     <tr>
-      <td><p>Adicionado <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Atualizar acesso do Administrador do Sistema</a> com orientação para gerenciar atribuições do Administrador do Sistema no Adobe Admin Console.</p>
+      <td><p>Adicionado <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Atualizar acesso do Administrador do Sistema</a> com orientação para gerenciar atribuições do Administrador do Sistema no Adobe Admin Console.</p>
 </td>
       <td>
         Feedback
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">confirmar</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 3 de junho de 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrição</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adicionada a capacidade de <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">criar códigos de cupom personalizados</a> no Adobe Commerce as a Cloud Service.</p>
-</td>
-      <td>
-        Atualização importante
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4b59525dc5d2d9a8ec1fe4271bf4c9dee8e02c15">confirmar</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2 de junho de 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrição</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Atualização da documentação de <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/import/data-import">importação de dados</a> do Commerce com orientações sobre como evitar a geração de regravação de URL desnecessária durante as operações de importação.</p>
-</td>
-      <td>
-        Feedback, técnico
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">confirmar</a></td>
     </tr>
   </tbody>
 </table>

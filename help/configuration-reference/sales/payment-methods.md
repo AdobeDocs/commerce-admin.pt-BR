@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
 workflow-type: tm+mt
-source-wordcount: 1746
+source-wordcount: 1850
 ht-degree: 0%
 
 ---
@@ -64,9 +64,10 @@ As seguintes soluções de pagamento são recomendadas como uma maneira fácil p
 >[!NOTE]
 >
 >Algumas integrações de pagamento e extensões agrupadas foram removidas nas versões 2.4.x e movidas para o Commerce Marketplace. Você pode encontrar as últimas extensões oficiais de integração de pagamento no [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
-><br/>>**Amazon Pay** e **Klarna**: as versões 2.4.0 a 2.4.3 da Adobe Commerce e do Magento Open Source incluíam essas extensões desenvolvidas pelo fornecedor. A partir da versão 2.4.4, essas extensões não serão mais agrupadas com a versão principal e deverão ser instaladas e atualizadas do Commerce Marketplace. O Marketplace também fornece acesso à documentação atual fornecida pelo desenvolvedor da extensão.
-><br/>>Se uma dessas extensões agrupadas estiver habilitada e configurada, você deverá atualizar seu arquivo `composer.json` como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=pt-BR) no _Guia de Atualização_ para obter mais informações.<br/>
-><br/>>**Worldpay**, **Eway**, **CyberSource** e **Authorize.Net**: para obter detalhes sobre como fazer uma transição segura dessas integrações de pagamento, consulte o [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
+><br/>
+>**Amazon Pay** e **Klarna**: as versões 2.4.0 a 2.4.3 da Adobe Commerce e do Magento Open Source incluíam essas extensões desenvolvidas pelo fornecedor. A partir da versão 2.4.4, essas extensões não serão mais agrupadas com a versão principal e deverão ser instaladas e atualizadas do Commerce Marketplace. O Marketplace também fornece acesso à documentação atual fornecida pelo desenvolvedor da extensão.
+><br/>
+>Se você tiver uma dessas extensões agrupadas habilitadas e configuradas, atualize o arquivo `composer.json` como parte do processo de atualização 2.4.4 e gerencie as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=pt-BR) no _Guia de Atualização_ para obter mais informações.<br/>
 
 ## Outros métodos do PayPal
 

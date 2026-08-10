@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: 2710
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -34,8 +34,10 @@ ht-degree: 0%
 >
 >**Migração para o Commerce 2.4:**<br/>
 >Para versões do Adobe Commerce e do Magento Open Source anteriores à 2.4.0, foi recomendado que os comerciantes instalassem e configurassem a extensão oficial de integração de pagamento do Braintree do [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree) para substituir a integração principal. A partir da versão 2.4.0, a extensão será incluída na versão principal.
-><br/><br/>>Ao migrar para o Commerce 2.4, os comerciantes precisam desinstalar a extensão distribuída no Marketplace (`paypal/module-braintree` ou `gene/module-braintree`) e atualizar todas as personalizações de código para usar o namespace `PayPal_Braintree` em vez de `Magento_Braintree`. As configurações da extensão fornecida para o Commerce e a extensão distribuída no Commerce Marketplace são mantidas. Os pagamentos feitos com essas versões da extensão são capturados, anulados ou reembolsados normalmente.
-><br/><br/>>Se você estiver atualizando para o Commerce 2.4.0 e não usar a extensão do Commerce Marketplace recomendada em sua versão 2.3.x anterior, o recurso de vários endereços não funcionará com a versão 2.4.0 do Braintree. Quando um comprador seleciona _entregar em vários endereços_ , o método de pagamento do Braintree não é exibido. A extensão do Commerce Marketplace recomendada anteriormente para a versão 2.3.x tem esse problema de endereço múltiplo.
+><br/><br/>
+>Ao migrar para o Commerce 2.4, os comerciantes precisam desinstalar a extensão distribuída no Marketplace (`paypal/module-braintree` ou `gene/module-braintree`) e atualizar todas as personalizações de código para usar o namespace `PayPal_Braintree` em vez de `Magento_Braintree`. As configurações da extensão fornecida para o Commerce e a extensão distribuída no Commerce Marketplace são mantidas. Os pagamentos feitos com essas versões da extensão são capturados, anulados ou reembolsados normalmente.
+><br/><br/>
+>Se você estiver atualizando para o Commerce 2.4.0 e não usar a extensão do Commerce Marketplace recomendada na versão 2.3.x anterior, o recurso de vários endereços não funcionará com a versão 2.4.0 do Braintree. Quando um comprador seleciona _entregar em vários endereços_ , o método de pagamento do Braintree não é exibido. A extensão do Commerce Marketplace recomendada anteriormente para a versão 2.3.x tem esse problema de endereço múltiplo.
 
 {{config}}
 

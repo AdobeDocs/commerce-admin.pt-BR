@@ -31,7 +31,7 @@ ht-degree: 0%
 
 O arquivo morto Admin [actions](action-log.md) lista os arquivos de log CSV armazenados no servidor.
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Na configuração, você pode especificar quanto tempo as entradas de log são armazenadas e com que frequência elas são arquivadas. Por padrão, o nome de arquivo inclui a data atual no formato ISO: `yyyyMMddHH`
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Na configuração, você pode especificar quanto tempo as entradas de log são armazenadas e com que frequência elas são arquivadas. Por padrão, o nome de arquivo inclui a data atual no formato ISO: `yyyyMMddHH`
 
 >[!NOTE]
 >

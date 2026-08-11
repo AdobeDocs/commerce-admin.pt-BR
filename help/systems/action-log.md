@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 207d5fac67567c7f83c88d5a430bf24cf3e97828
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: 318
 ht-degree: 0%
 
 ---
@@ -41,6 +41,10 @@ Exiba o [Relatório de Logs de Ação](action-log-report.md) para examinar as a�
 ![Configuração avançada - registro de ações do administrador](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
 Para obter uma lista detalhada das definições de configuração, consulte [Arquivamento do Log de Ações do Administrador](../configuration-reference/advanced/system.md) na _Referência de Configuração_.
+
+>[!NOTE]
+>
+>Na plataforma [!DNL Adobe Commerce as a Cloud Service], não é possível configurar o relatório de Log de ações, o arquivo de log de ações e o log de ações em massa, mas você pode revisar a saída do relatório no menu **[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;em Admin.
 
 ## Configurar ações do administrador para fazer logon
 

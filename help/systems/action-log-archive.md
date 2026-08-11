@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 756e3b7f8c70e0b3fc6f30691a15bd7e20517655
 workflow-type: tm+mt
-source-wordcount: 160
+source-wordcount: 220
 ht-degree: 0%
 
 ---
@@ -29,13 +29,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-O arquivo morto Admin [actions](action-log.md) lista os arquivos de log CSV armazenados no servidor. Na configuração, você pode especificar por quanto tempo as entradas de log são armazenadas e com que frequência elas são arquivadas. Por padrão, o nome de arquivo inclui a data atual no formato ISO: `yyyyMMddHH`
+O arquivo morto Admin [actions](action-log.md) lista os arquivos de log CSV armazenados no servidor.
+
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Na configuração, você pode especificar quanto tempo as entradas de log são armazenadas e com que frequência elas são arquivadas. Por padrão, o nome de arquivo inclui a data atual no formato ISO: `yyyyMMddHH`
 
 >[!NOTE]
 >
 >O arquivamento de logs requer a configuração de um [trabalho do cron](cron.md).
 
 ## Configurar o arquivo de log
+
+badgePaas: label=&quot;PaaS only&quot; type=&quot;Informative&quot; url=&quot;https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions&quot; tooltip=&quot;Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura PaaS gerenciada pela Adobe) e a projetos locais.&quot;
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

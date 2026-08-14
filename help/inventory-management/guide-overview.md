@@ -70,5 +70,5 @@ Use artigos de suporte e sistemas de tíquetes para resolver problemas de invent
 
 Se você precisar de informações ou tiver dúvidas que não são abordadas neste guia, use os seguintes recursos:
 
-- [Status do estoque incorreto após a instalação do inventário](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
-- [Tíquetes de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)—Envie um tíquete para receber ajuda adicional.
+- [Status do estoque incorreto após a instalação do inventário](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=pt-BR)
+- [Tíquetes de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=pt-BR#submit-ticket)—Envie um tíquete para receber ajuda adicional.

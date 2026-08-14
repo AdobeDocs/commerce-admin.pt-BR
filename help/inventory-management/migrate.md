@@ -1,26 +1,17 @@
 ---
 title: Atualizações de [!DNL Commerce]
-description: Saiba como as atualizações do Adobe Commerce e do Magento Open Source afetam o catálogo e as  [!DNL Inventory Management]  configurações.
+description: Saiba como a atualização para o Adobe Commerce 2.4.x afeta o comportamento do inventário de catálogo, estoques e  [!DNL Inventory Management]  módulos.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
 TQID: https://experienceleague.adobe.com/rAnH5pJjtg4ujbQdHow-B6urN090iTTt19mv4sadVnc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ee163e043412ee9719458f2660e116050afa0d1f
 workflow-type: tm+mt
-source-wordcount: 749
+source-wordcount: 754
 ht-degree: 0%
 
 ---
@@ -41,21 +32,21 @@ Ao instalar o Magento Open Source 2.4.x ou o Adobe Commerce 2.4.x, as seguintes 
   >
   >O uso do Estoque padrão e do Source padrão é altamente desencorajado porque fazem parte do módulo `CatalogInventory`, que foi descontinuado. Em vez disso, é recomendável criar e usar estoques e fontes personalizados.
 
-   - Os estoques fornecem uma Quantidade Venável virtual agregada com reservas para rastrear carrinhos de compras e pedidos, garantindo check-out simultâneo.
+  - Os estoques fornecem uma Quantidade Venável virtual agregada com reservas para rastrear carrinhos de compras e pedidos, garantindo check-out simultâneo.
 
-   - Todos os produtos existentes no catálogo são atribuídos ao Source padrão. Até que você adicione novas origens, a interface do produto não será alterada. Se você entregar produtos apenas de um local, não haverá outras diferenças para origens. Você pode criar [fontes](sources-add.md) e [atribuir quantidades](quantities-manage.md) personalizadas por local de remessa.
+  - Todos os produtos existentes no catálogo são atribuídos ao Source padrão. Até que você adicione novas origens, a interface do produto não será alterada. Se você entregar produtos apenas de um local, não haverá outras diferenças para origens. Você pode criar [fontes](sources-add.md) e [atribuir quantidades](quantities-manage.md) personalizadas por local de remessa.
 
-   - Você pode configurar uma origem como um Local de Retirada e [atribuir quantidades](quantities-manage.md) para essa origem.
+  - Você pode configurar uma origem como um Local de Retirada e [atribuir quantidades](quantities-manage.md) para essa origem.
 
-   - Seu site atribui ao Estoque padrão. Você pode criar [estoques](stocks-add.md) personalizados para conectar canais de vendas (sites) e fontes (locais).
+  - Seu site atribui ao Estoque padrão. Você pode criar [estoques](stocks-add.md) personalizados para conectar canais de vendas (sites) e fontes (locais).
 
 - As [opções de configuração](configuration.md) adicionais são adicionadas aos seus produtos e à loja global. Algumas opções de configurações existentes recebem opções e comportamentos atualizados:
 
-   - Notificar para Quantidade Abaixo envia notificações e deduções da Quantidade Venável.
+  - Notificar para Quantidade Abaixo envia notificações e deduções da Quantidade Venável.
 
-   - O Limite esgotado suporta valores positivos, zero e negativos. Com Backorders ativados, os valores positivos são ignorados, considerados zero (ou infinitos).
+  - O Limite esgotado suporta valores positivos, zero e negativos. Com Backorders ativados, os valores positivos são ignorados, considerados zero (ou infinitos).
 
-   - As ordens pendentes suportam valores zero (infinitos) e negativos. Quando ativado, a opção Notificar para Quantidade Abaixo não deduz da Quantidade Vendível.
+  - As ordens pendentes suportam valores zero (infinitos) e negativos. Quando ativado, a opção Notificar para Quantidade Abaixo não deduz da Quantidade Vendível.
 
 - Novas Reservas rastreiam vendas potenciais, convertendo em deduções de quantidade quando a ordem é enviada. Você nunca acessa ou cria reservas diretamente. [!DNL Commerce] cria e gerencia reservas nos bastidores por meio de pedidos, remessas e avisos de crédito.
 

@@ -1,38 +1,29 @@
 ---
 title: Estoques e fontes
-description: Saiba mais sobre as relações entre produtos, fontes e estoques.
+description: Saiba como os estoques e as fontes se relacionam [!DNL Inventory Management] em quantidades tão comercializáveis no [!DNL Commerce] estoque físico correspondente.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: 788
 ht-degree: 0%
 
 ---
 
 # Estoques e fontes
 
-Gerencie o estoque, independentemente do local do depósito, do tipo de produto ou serviço ou do canal de vendas. Atenda a pedidos e entregue produtos de vários depósitos, lojas tradicionais, centros de distribuição e entrega direta para concluir ordens com foco no inventário balanceado, custos de entrega e muito mais.
+Gerencie o estoque, independentemente do local do depósito, do tipo de produto ou serviço ou do canal de vendas. Atenda a ordens e entregue produtos de vários locais para completar ordens com foco no inventário balanceado, custos de entrega e muito mais.
 
 Essas descrições incluem produtos, fontes e estoques para uma empresa de bicicletas com vários locais de remessa e sites nos Estados Unidos e na Europa.
 
 ## Origens
 
-[Fontes](sources-manage.md) são os locais físicos onde o inventário de produtos é gerenciado e enviado para atendimento de pedidos ou onde os serviços estão disponíveis. Esses locais podem incluir depósitos, lojas tradicionais, centros de distribuição e carregadores. O [!DNL Commerce] usa as quantidades e as quantidades comercializáveis por estoque e gerencia automaticamente os valores de estoque dos produtos e pedidos gerenciados. Se você tiver uma origem, será considerado no modo _fonte única_. Se você tiver várias origens, será considerado no modo _várias origens_.
+Uma [origem](sources-manage.md) é um local físico onde o inventário de produtos é gerenciado e enviado para atendimento de pedidos ou onde os serviços estão disponíveis. O [!DNL Commerce] usa as quantidades e as quantidades comercializáveis por estoque e gerencia automaticamente os valores de estoque dos produtos e pedidos gerenciados. Se você tiver uma origem, será considerado no modo _fonte única_. Se você tiver várias origens, será considerado no modo _várias origens_.
 
 Uma origem pode ter prioridade no escopo de estoque em um depósito, mas não necessariamente em todos os depósitos, pois a origem pode ser reutilizada em diferentes estoques. O número de estoques e fontes aumenta a complexidade para determinar o melhor depósito ou loja para atender a um pedido. Por exemplo, você pode ter um número limitado de produtos disponíveis em seus locais tradicionais com um inventário extenso em seus depósitos e serviços em locais-chave com disponibilidade limitada.
 
@@ -54,8 +45,8 @@ Você começa com um Estoque padrão atribuído com o Source padrão e seu site,
 
 Quantidade é o número de produtos no inventário ativo que estão disponíveis para compra. A quantidade de produtos aumenta e diminui quando você conclui remessas ou ajusta o inventário. A adição de produtos ao carrinho não afeta essa quantidade. A Quantidade Venável rastreia a disponibilidade do produto para um canal de vendas e também usa esse valor para determinar o estoque disponível para compra. Dependendo do número de origens, você verá e gerenciará a quantidade do produto para uma das seguintes opções:
 
-- **Quantidade** - Para comerciantes de origem única, a coluna e o valor _[!UICONTROL Quantity]_&#x200B;controlam a quantidade de estoque disponível.
-- **Quantidade por Source** - Para comerciantes de várias origens, a coluna e os valores _[!UICONTROL Quantity per Source]_&#x200B;controlam o estoque disponível por localização. Se você adicionar várias origens, esse valor substituirá a Quantidade e listará cada origem e quantidade atribuída.
+- **Quantidade** - Para comerciantes de origem única, a coluna e o valor _[!UICONTROL Quantity]_controlam a quantidade de estoque disponível.
+- **Quantidade por Source** - Para comerciantes de várias origens, a coluna e os valores _[!UICONTROL Quantity per Source]_controlam o estoque disponível por localização. Se você adicionar várias origens, esse valor substituirá a Quantidade e listará cada origem e quantidade atribuída.
 
 As reservas rastreiam solicitações de estoque para todo o processo de compras — adicionar produtos ao carrinho, concluir o check-out e gerenciar reembolsos. Para estoque e estoque disponíveis, as reservas reservam valores de estoque por ordem por meio do processo de finalização, subtraídos da quantidade vendável. As reservas são convertidas em deduções de quantidade ao faturar e enviar produtos.
 
@@ -76,8 +67,8 @@ Estas são opções importantes a serem compreendidas para [!DNL Inventory Manag
 >
 >O valor de Limite esgotado suporta valores negativos e positivos. Se você habilitar Backorders, defina esse valor como um valor negativo para o número máximo de produtos que podem ter backorder antes que o produto seja realmente considerado indisponível.
 
-## Demonstração do Inventory management
+## Demonstração
 
-Assista a este vídeo para saber mais sobre fontes e ações da Inventory management:
+Assista a este vídeo para saber mais sobre [!DNL Inventory Management] fontes e ações:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411977?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

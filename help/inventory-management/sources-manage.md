@@ -1,32 +1,23 @@
 ---
 title: Gerenciar fontes de inventário
-description: Saiba mais sobre as origens e como elas definem os locais físicos onde o inventário de produtos é gerenciado e enviado para o atendimento de pedidos ou onde os serviços estão disponíveis.
+description: Visão geral das tarefas de Administrador para adicionar, editar, habilitar e desabilitar [!DNL Inventory Management] fontes que armazenam e enviam inventário de produtos.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 623
 ht-degree: 0%
 
 ---
 
 # Gerenciar fontes
 
-As origens são os locais físicos onde o inventário de produtos é gerenciado e entregue para atendimento de pedidos ou onde os serviços estão disponíveis. Esses locais podem incluir depósitos, lojas tradicionais, centros de distribuição, locais de coleta e entregadores. Você aloca quantidades de estoque para essas fontes e o [!DNL Commerce] agrega automaticamente o total de produtos comercializáveis para seus estoques. Para grandes empresas, adicione várias fontes para todos os seus locais: em diferentes localizações geográficas por país e continente, localizações em uma cidade, com base no tipo de inventário, até mesmo com base em serviços.
+Use este tópico para adicionar, editar, ativar e desativar fontes. Para saber como as origens se relacionam com estoques e quantidade comercializável, consulte [Estoques e origens](sources-stocks.md).
 
 É recomendável fornecer localizações geográficas físicas específicas ao criar uma origem. Isso permite que o _Algoritmo de Prioridade de Distância_ compare a localização do endereço de destino da remessa com as localizações de origem disponíveis para determinar a origem mais próxima a ser atendida nas remessas. Você pode usar o Google Maps ou cálculos offline, que usam geocódigos. Para obter mais informações sobre este _Algoritmo de Prioridade de Distância_, consulte [Configurar Algoritmo de Prioridade de Distância](distance-priority-algorithm.md).
 
@@ -51,7 +42,7 @@ Você pode atualizar o nome, o endereço, a localização no GPS e as informaç�
 
 Se estiver editando o Source padrão, você poderá editar todas as configurações, exceto o nome e o código. Recomenda-se que os comerciantes de origem única adicionem informações correspondentes à sua localização.
 
-A página _[!UICONTROL Manage Sources]_&#x200B;lista todos os locais de estoque e recursos de preenchimento disponíveis. Você pode adicionar novas origens de inventário e editar locais existentes.
+A página _[!UICONTROL Manage Sources]_lista todos os locais de estoque e recursos de preenchimento disponíveis. Você pode adicionar novas origens de inventário e editar locais existentes.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 

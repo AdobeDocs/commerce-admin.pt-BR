@@ -1,6 +1,6 @@
 ---
 title: Tipos de fornecimento de comerciante
-description: Saiba mais sobre os dois tipos de seleção de fornecedor com base no número de locais, ou origens, em sua empresa.
+description: Compare os modos de comerciante de origem única e de várias origens para escolher como você atribui origens, estoques e quantidades em  [!DNL Inventory Management].
 exl-id: ec928929-5826-4504-9fd0-84256b37cb39
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/-ABDMLnAibksuQGkdEM683g8JwcUSt2DQERC0WJnQiM
@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 486
+source-wordcount: 487
 ht-degree: 0%
 
 ---

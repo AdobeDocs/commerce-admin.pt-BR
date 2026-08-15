@@ -1,6 +1,6 @@
 ---
 title: Habilitar [!DNL Inventory Management]
-description: Saiba como habilitar [!DNL Inventory Management] no nível de loja global ou de produto.
+description: Habilite ou desabilite [!DNL Inventory Management] e gerencie estoque no nível da loja ou do produto para controlar a quantidade vendável e o rastreamento de preenchimento.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/evCX34nY-m7WQnZt3xw7ng6-It7Xlf5DTanjKbP1fCk
@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: 309
 ht-degree: 0%
 
 ---
@@ -31,7 +31,12 @@ ht-degree: 0%
 
 Para gerenciar o inventário de produtos, habilite o [!DNL Inventory Management] na loja global ou no nível do produto. Quando a opção _Gerenciar Estoque_ está habilitada, o [!DNL Inventory Management] rastreia automaticamente as quantidades de produtos disponíveis para o site por meio de estoques e fontes configuradas. Cada recurso e opção inicia o rastreamento e os relatórios quando ativados, sem configuração adicional.
 
-Sua empresa executa e faz atualizações de inventário na velocidade das vendas. À medida que os clientes fazem compras, você recebe informações exatas e atualizadas sobre as ações disponíveis por canal e fonte de vendas. As Quantidades Venáveis Disponíveis são atualizadas por estoque quando os clientes adicionam produtos ao carrinho e concluem compras e quando e quando você gerencia pedidos, cria remessas e emite reembolsos. Chegadas de atualizações de estoque novas ou transferidas para suas fontes, imediatamente disponíveis para vendas online. Backorders são concluídos até os limites especificados sem ordens infinitas ou configurações adicionais. E você informa e conclui entregas parciais ou completas através de uma ou mais origens com recomendações, fornecendo controle total sobre o preenchimento da ordem e o inventário em estoque.
+Quando [!DNL Inventory Management] estiver habilitado, atualizações de estoque com sua atividade de vendas:
+
+- As quantidades comercializáveis são atualizadas por estoque quando os clientes adicionam produtos aos carrinhos, concluem a finalização da compra e quando você entrega ou reembolsa ordens.
+- O estoque novo ou transferido em uma origem fica disponível para vendas online após a atualização das quantidades.
+- Os backorders respeitam os limites configurados sem configuração extra.
+- Você pode criar entregas parciais ou completas de uma ou mais origens usando recomendações de algoritmo ou seleção manual de origem.
 
 >[!NOTE]
 >

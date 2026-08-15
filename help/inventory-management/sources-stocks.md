@@ -1,6 +1,6 @@
 ---
 title: Estoques e fontes
-description: Saiba mais sobre as relações entre produtos, fontes e estoques.
+description: Saiba como os estoques e as fontes se relacionam [!DNL Inventory Management] em quantidades tão comercializáveis no [!DNL Commerce] estoque físico correspondente.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
 product_v2:
@@ -17,22 +17,22 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: 788
 ht-degree: 0%
 
 ---
 
 # Estoques e fontes
 
-Gerencie o estoque, independentemente do local do depósito, do tipo de produto ou serviço ou do canal de vendas. Atenda a pedidos e entregue produtos de vários depósitos, lojas tradicionais, centros de distribuição e entrega direta para concluir ordens com foco no inventário balanceado, custos de entrega e muito mais.
+Gerencie o estoque, independentemente do local do depósito, do tipo de produto ou serviço ou do canal de vendas. Atenda a ordens e entregue produtos de vários locais para completar ordens com foco no inventário balanceado, custos de entrega e muito mais.
 
 Essas descrições incluem produtos, fontes e estoques para uma empresa de bicicletas com vários locais de remessa e sites nos Estados Unidos e na Europa.
 
 ## Origens
 
-[Fontes](sources-manage.md) são os locais físicos onde o inventário de produtos é gerenciado e enviado para atendimento de pedidos ou onde os serviços estão disponíveis. Esses locais podem incluir depósitos, lojas tradicionais, centros de distribuição e carregadores. O [!DNL Commerce] usa as quantidades e as quantidades comercializáveis por estoque e gerencia automaticamente os valores de estoque dos produtos e pedidos gerenciados. Se você tiver uma origem, será considerado no modo _fonte única_. Se você tiver várias origens, será considerado no modo _várias origens_.
+Uma [origem](sources-manage.md) é um local físico onde o inventário de produtos é gerenciado e enviado para atendimento de pedidos ou onde os serviços estão disponíveis. O [!DNL Commerce] usa as quantidades e as quantidades comercializáveis por estoque e gerencia automaticamente os valores de estoque dos produtos e pedidos gerenciados. Se você tiver uma origem, será considerado no modo _fonte única_. Se você tiver várias origens, será considerado no modo _várias origens_.
 
 Uma origem pode ter prioridade no escopo de estoque em um depósito, mas não necessariamente em todos os depósitos, pois a origem pode ser reutilizada em diferentes estoques. O número de estoques e fontes aumenta a complexidade para determinar o melhor depósito ou loja para atender a um pedido. Por exemplo, você pode ter um número limitado de produtos disponíveis em seus locais tradicionais com um inventário extenso em seus depósitos e serviços em locais-chave com disponibilidade limitada.
 
@@ -76,8 +76,8 @@ Estas são opções importantes a serem compreendidas para [!DNL Inventory Manag
 >
 >O valor de Limite esgotado suporta valores negativos e positivos. Se você habilitar Backorders, defina esse valor como um valor negativo para o número máximo de produtos que podem ter backorder antes que o produto seja realmente considerado indisponível.
 
-## Demonstração do Inventory management
+## Demonstração
 
-Assista a este vídeo para saber mais sobre fontes e ações da Inventory management:
+Assista a este vídeo para saber mais sobre [!DNL Inventory Management] fontes e ações:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3411977?captions=por_br&quality=12&learn=on)

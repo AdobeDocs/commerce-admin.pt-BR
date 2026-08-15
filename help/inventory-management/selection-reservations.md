@@ -1,6 +1,6 @@
 ---
 title: Algoritmos e reservas do Source
-description: Saiba mais sobre os sistemas Source Selection Algorithm and Reservations executados em segundo plano para manter atualizadas suas quantidades comercializáveis.
+description: Saiba como o Algoritmo de Seleção da Source e as reservas mantêm a precisão da quantidade comercializável durante o check-out e a remessa em  [!DNL Inventory Management].
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/x3UFGWtRSiodcnEF4Di3yFmR8GY8xoHSvVVsDg-J-qY
@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2026-06-03
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 2181
+source-wordcount: 2178
 ht-degree: 0%
 
 ---

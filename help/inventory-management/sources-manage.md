@@ -1,6 +1,6 @@
 ---
 title: Gerenciar fontes de inventário
-description: Saiba mais sobre as origens e como elas definem os locais físicos onde o inventário de produtos é gerenciado e enviado para o atendimento de pedidos ou onde os serviços estão disponíveis.
+description: Visão geral das tarefas de Administrador para adicionar, editar, habilitar e desabilitar [!DNL Inventory Management] fontes que armazenam e enviam inventário de produtos.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
 product_v2:
@@ -17,16 +17,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 623
 ht-degree: 0%
 
 ---
 
 # Gerenciar fontes
 
-As origens são os locais físicos onde o inventário de produtos é gerenciado e entregue para atendimento de pedidos ou onde os serviços estão disponíveis. Esses locais podem incluir depósitos, lojas tradicionais, centros de distribuição, locais de coleta e entregadores. Você aloca quantidades de estoque para essas fontes e o [!DNL Commerce] agrega automaticamente o total de produtos comercializáveis para seus estoques. Para grandes empresas, adicione várias fontes para todos os seus locais: em diferentes localizações geográficas por país e continente, localizações em uma cidade, com base no tipo de inventário, até mesmo com base em serviços.
+Use este tópico para adicionar, editar, ativar e desativar fontes. Para saber como as origens se relacionam com estoques e quantidade comercializável, consulte [Estoques e origens](sources-stocks.md).
 
 É recomendável fornecer localizações geográficas físicas específicas ao criar uma origem. Isso permite que o _Algoritmo de Prioridade de Distância_ compare a localização do endereço de destino da remessa com as localizações de origem disponíveis para determinar a origem mais próxima a ser atendida nas remessas. Você pode usar o Google Maps ou cálculos offline, que usam geocódigos. Para obter mais informações sobre este _Algoritmo de Prioridade de Distância_, consulte [Configurar Algoritmo de Prioridade de Distância](distance-priority-algorithm.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Adicionar uma origem de inventário
-description: Saiba como criar uma origem para um local, como um depósito, uma loja física, um centro de distribuição ou um entregador.
+description: Adicione uma fonte  [!DNL Inventory Management]  no Administrador para um depósito, armazenamento, centro de distribuição ou outro local de preenchimento.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: 858
 ht-degree: 0%
 
 ---
 
 # Adicionar uma origem
 
-Gerencie o inventário e o atendimento de pedidos de vários locais com origens personalizadas. Crie uma origem para cada local, como depósitos, lojas tradicionais, centros de distribuição e entregadores. Atribuir origens e atualizar quantidades por produto
+Gerencie o inventário e o atendimento de pedidos de vários locais com origens personalizadas. Crie uma origem para cada local, como depósitos, lojas tradicionais, centros de distribuição e entregadores. Atribuir origens e atualizar quantidades por produto.
 
 Se estiver editando o Source padrão, você poderá editar todas as configurações, exceto o nome e o código. Recomenda-se que os comerciantes de origem única adicionem informações correspondentes à sua localização.
 

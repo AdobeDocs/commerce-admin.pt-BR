@@ -1,6 +1,6 @@
 ---
 title: Atribuição e cancelamento de atribuição de origem de estoque em massa
-description: Saiba como usar a ferramenta Atribuir origens para gerenciar atribuições de origem de produtos.
+description: Use a ação de atribuição de fontes em massa no Administrador para atribuir ou cancelar a atribuição de  [!DNL Inventory Management]  fontes para muitos produtos de uma só vez.
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/H8UQh7quyOeDq6-hSmf83fzUuJkuSLv0i2dezX-GKRA
@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-06-28
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: 332
 ht-degree: 0%
 
 ---

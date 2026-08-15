@@ -1,6 +1,6 @@
 ---
 title: Configurar  [!DNL Inventory Management] opções do produto
-description: Saiba como definir as  [!DNL Inventory Management] opções de configuração do produto.
+description: Configure as opções por produto [!DNL Inventory Management]  e Inventário avançado que substituem as configurações globais de estoque e origem.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: 916
 ht-degree: 0%
 
 ---

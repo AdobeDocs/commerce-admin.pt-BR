@@ -1,13 +1,13 @@
 ---
 user-guide-title: Guia do Usuário do [!DNL Inventory Management]
-user-guide-description: Saiba como usar  [!DNL Inventory Management] recursos para manter quantidades para vendas e manipular remessas a serem concluídas [!DNL Commerce] pedidos.
+user-guide-description: Saiba como usar o [!DNL Inventory Management] para gerenciar estoques, fontes e quantidades; definir configurações na interface de administração ou de linha de comando; e manipular pedidos e remessas para sua loja [!DNL Commerce] de.
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
 nudge: true
-source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '154'
 ht-degree: 6%
 
 ---
@@ -19,44 +19,44 @@ ht-degree: 6%
 - [Introdução a  [!DNL Inventory Management]](introduction.md)
 - [Notas de versão](release-notes.md)
 - Noções básicas de inventário {#basics}
-   - [Fontes e estoques](sources-stocks.md)
-   - [Seleção e reservas do Source](selection-reservations.md)
-   - [Status da ordem e da reserva](order-status.md)
-   - [Tipos de produto](product-types.md)
+  - [Fontes e estoques](sources-stocks.md)
+  - [Seleção e reservas do Source](selection-reservations.md)
+  - [Status da ordem e da reserva](order-status.md)
+  - [Tipos de produto](product-types.md)
 - Introdução {#get-started}
-   - [Atualizações do Commerce](migrate.md)
-   - [Instalar e atualizar](install-update.md)
-   - [Fornecimento de comerciante](merchant-sourcing.md)
-   - [Expandir e reestruturar estoque](expand-restructure.md)
+  - [Atualizações do Commerce](migrate.md)
+  - [Instalar e atualizar](install-update.md)
+  - [Fornecimento de comerciante](merchant-sourcing.md)
+  - [Expandir e reestruturar estoque](expand-restructure.md)
 - Configuração {#configuration}
-   - [Visão geral](configuration.md)
-   - [Habilitar [!DNL Inventory Management]](enable.md)
-   - [Configurar opções globais](global-options.md)
-   - [Configurar opções do produto](product-options.md)
-   - [Configurar backorders](backorders.md)
-   - [Configurar prioridade de origem](source-priority-algorithm.md)
-   - [Configurar prioridade de distância](distance-priority-algorithm.md)
-   - Alertas de produto {#product-alerts}
-      - [Configurar alertas do produto](alert-setup.md)
-      - [Cenários de mensagem de estoque](stock-messages.md)
+  - [Visão geral](configuration.md)
+  - [Habilitar [!DNL Inventory Management]](enable.md)
+  - [Configurar opções globais](global-options.md)
+  - [Configurar opções do produto](product-options.md)
+  - [Configurar backorders](backorders.md)
+  - [Configurar prioridade de origem](source-priority-algorithm.md)
+  - [Configurar prioridade de distância](distance-priority-algorithm.md)
+  - Alertas de produto {#product-alerts}
+    - [Configurar alertas do produto](alert-setup.md)
+    - [Cenários de mensagem de estoque](stock-messages.md)
 - Gerenciar fontes {#sources}
-   - [Visão geral](sources-manage.md)
-   - [Adicionar fontes](sources-add.md)
-   - [Desabilitar fontes](sources-disable.md)
+  - [Visão geral](sources-manage.md)
+  - [Adicionar fontes](sources-add.md)
+  - [Desabilitar fontes](sources-disable.md)
 - Gerenciar estoques {#stocks}
-   - [Visão geral](stocks-manage.md)
-   - [Adicionar ações](stocks-add.md)
-   - [Priorizar fontes para estoques](stocks-prioritize-sources.md)
-   - [Excluir estoques](stocks-delete.md)
+  - [Visão geral](stocks-manage.md)
+  - [Adicionar ações](stocks-add.md)
+  - [Priorizar fontes para estoques](stocks-prioritize-sources.md)
+  - [Excluir estoques](stocks-delete.md)
 - Gerenciar quantidades de estoque {#quantities}
-   - [Visão geral](quantities-manage.md)
-   - [Atribuir fontes por produto](sources-assign-per-product.md)
-   - [Atribuir quantidades por produto](quantities-assign-per-product.md)
-   - [Atribuição e cancelamento de atribuição em massa](bulk-assignment.md)
-   - [Transferir inventário para origem](inventory-transfer.md)
-   - [Importar e exportar estoque](inventory-import-export.md)
+  - [Visão geral](quantities-manage.md)
+  - [Atribuir fontes por produto](sources-assign-per-product.md)
+  - [Atribuir quantidades por produto](quantities-assign-per-product.md)
+  - [Atribuição e cancelamento de atribuição em massa](bulk-assignment.md)
+  - [Transferir inventário para origem](inventory-transfer.md)
+  - [Importar e exportar estoque](inventory-import-export.md)
 - Gerenciar pedidos e remessas {#orders}
-   - [Visão geral](shipments.md)
-   - [Criar remessas](shipments-create.md)
+  - [Visão geral](shipments.md)
+  - [Criar remessas](shipments-create.md)
 - [Referência da CLI](cli.md)
 - [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR)

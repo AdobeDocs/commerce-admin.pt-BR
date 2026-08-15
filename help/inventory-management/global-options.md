@@ -1,6 +1,6 @@
 ---
 title: Configurar  [!DNL Inventory Management] opções globais
-description: Saiba como definir as  [!DNL Inventory Management] opções de configuração padrão para o produto e o estoque de seus sites.
+description: Defina as configurações globais do catálogo  [!DNL Inventory Management]  para opções de estoque de produtos, limites e exibição de vitrine eletrônica em todos os sites.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
@@ -18,14 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 657
 ht-degree: 1%
 
 ---
 
 # Configurar opções globais do [!DNL Inventory Management]
+
+Essas configurações globais se aplicam a todo o catálogo em **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**.
 
 Configure as opções de configuração padrão de produto e estoque para seus sites. Algumas dessas configurações podem ser substituídas por produto por meio de [Configurando Opções de Produto](product-options.md). Para configurar a Prioridade de Distância, consulte [Configurando o Algoritmo de Prioridade de Distância](distance-priority-algorithm.md).
 

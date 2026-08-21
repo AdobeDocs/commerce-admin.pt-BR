@@ -57,7 +57,7 @@ A Adobe Commerce e a Magento Open Source reduzem os erros de pedido verificando 
 
 Saiba mais sobre compras assistidas por vendedores assistindo a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411979/?captions=por_br&quality=12&learn=on)
 
 ## Gerenciamento de pedidos e operações
 

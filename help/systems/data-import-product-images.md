@@ -4,11 +4,20 @@ description: Saiba como importar imagens de produtos usando o caminho e o nome d
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
 TQID: https://experienceleague.adobe.com/xqaM2qAUDV1yKXS5-90b7aQJUgEW-ZHg03UFo-dfKME
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 846
@@ -64,7 +73,7 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
    >[!TIP]
    >
-   >Deixe _[!UICONTROL Images File Directory]_em branco para usar o diretório `<Magento-root-folder>/var/import/images`. A partir do Adobe Commerce e do Magento Open Source versão 2.3.2, esse é o diretório base de imagens de importação padrão.
+   >Deixe _[!UICONTROL Images File Directory]_&#x200B;em branco para usar o diretório `<Magento-root-folder>/var/import/images`. A partir do Adobe Commerce e do Magento Open Source versão 2.3.2, esse é o diretório base de imagens de importação padrão.
 
    Se estiver importando várias imagens para uma única `sku`, insira as imagens em uma coluna chamada `additional_images` (adicione a coluna caso ainda não tenha sido adicionada), separadas por vírgulas. Exemplo: `image02.jpg,image03.jpg`
 
@@ -90,7 +99,7 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
    >[!NOTE]
    >
-   >Começando com a versão `2.3.2` do Adobe Commerce e do Magento Open Source, o caminho especificado nos concatenados _[!UICONTROL Images File Directory]_para importação no diretório base de imagens: `<remote-storage-root-folder>/var/import/images`. Para versões anteriores do Adobe Commerce e do Magento Open Source, é possível usar uma pasta diferente no servidor do Commerce, desde que o caminho para a pasta seja especificado durante o processo de importação.
+   >Começando com a versão `2.3.2` do Adobe Commerce e do Magento Open Source, o caminho especificado nos concatenados _[!UICONTROL Images File Directory]_&#x200B;para importação no diretório base de imagens: `<remote-storage-root-folder>/var/import/images`. Para versões anteriores do Adobe Commerce e do Magento Open Source, é possível usar uma pasta diferente no servidor do Commerce, desde que o caminho para a pasta seja especificado durante o processo de importação.
 
 1. Nos dados CSV, insira o nome de cada arquivo de imagem a ser importado na linha correta, por `sku`, e na coluna correta, de acordo com o tipo de imagem (`base_image`, `small_image`, `thumbnail_image` ou `additional_images`).
 
@@ -112,7 +121,7 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
    >[!TIP]
    >
-   >Deixe o _[!UICONTROL Images File Directory]_em branco para usar o diretório `<Magento-root-folder>/var/import/images`. A partir do Adobe Commerce e do Magento Open Source versão 2.3.2, esse é o diretório base de imagens de importação padrão.
+   >Deixe o _[!UICONTROL Images File Directory]_&#x200B;em branco para usar o diretório `<Magento-root-folder>/var/import/images`. A partir do Adobe Commerce e do Magento Open Source versão 2.3.2, esse é o diretório base de imagens de importação padrão.
 
    Se estiver importando várias imagens para uma única `sku`, insira as imagens em uma coluna chamada `additional_images` (adicione a coluna caso ainda não tenha sido adicionada), separadas por vírgulas: `image02.jpg,image03.jpg`
 

@@ -69,4 +69,4 @@ ht-degree: 5%
 + Referência {#reference}
   + [Alterações incompatíveis com versões anteriores](backward-incompatible-changes.md)
   + [Pacotes](packages.md)
-+ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)

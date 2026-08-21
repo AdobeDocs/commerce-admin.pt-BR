@@ -70,5 +70,5 @@ Use artigos de suporte e sistemas de tíquetes para resolver problemas de invent
 
 Se você precisar de informações ou tiver dúvidas que não são abordadas neste guia, use os seguintes recursos:
 
-- [Status do estoque incorreto após a instalação do inventário](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29910)
-- [Tíquetes de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)—Envie um tíquete para receber ajuda adicional.
+- [Status do estoque incorreto após a instalação do inventário](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-29910)
+- [Tíquetes de suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)—Envie um tíquete para receber ajuda adicional.

@@ -56,5 +56,5 @@ Há muitas caixas de luz e controles deslizantes de terceiros que você pode usa
 
 Para obter ajuda com a solução de problemas de imagem e vídeo, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
 
-- [As imagens do produto não são exibidas apesar das funções de imagem Edição de produto](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26859)
-- [Imagens de armazenamento não exibidas após a implantação](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)
+- [As imagens do produto não são exibidas apesar das funções de imagem Edição de produto](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [Imagens de armazenamento não exibidas após a implantação](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)

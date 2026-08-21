@@ -28,11 +28,11 @@ ht-degree: 0%
 
 # Configurar pesquisa no catálogo
 
-Há duas variações da configuração da Pesquisa no catálogo. O primeiro método descreve as configurações disponíveis quando o [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) é instalado. O segundo método descreve as definições de configuração do Adobe Commerce nativo com [OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview){:target="_blank"}.
+Há duas variações da configuração da Pesquisa no catálogo. O primeiro método descreve as configurações disponíveis quando o [Live Search](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview) é instalado. O segundo método descreve as definições de configuração do Adobe Commerce nativo com [OpenSearch](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview){:target="_blank"}.
 
 >[!NOTE]
 >
->Para projetos de infraestrutura em nuvem, consulte instruções adicionais no [_Guia do Commerce on Cloud Infrastructure_](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/opensearch).
+>Para projetos de infraestrutura em nuvem, consulte instruções adicionais no [_Guia do Commerce on Cloud Infrastructure_](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/configure/service/opensearch).
 
 ## Método 1: Adobe Commerce com [!DNL Live Search]
 
@@ -52,7 +52,7 @@ Há duas variações da configuração da Pesquisa no catálogo. O primeiro mét
 
    O valor padrão é `100`. Inserir um valor de `0` armazena em cache todos os termos e resultados da pesquisa quando inseridos uma segunda vez.
 
-1. Para alterar o número máximo de linhas disponíveis para os resultados retornados no [pop-up da vitrine](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview), digite um valor **[!UICONTROL Autocomplete Limit]** diferente.
+1. Para alterar o número máximo de linhas disponíveis para os resultados retornados no [pop-up da vitrine](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview), digite um valor **[!UICONTROL Autocomplete Limit]** diferente.
 
    A restrição do número de linhas melhora o desempenho das pesquisas e reduz o tamanho da lista retornada. O valor padrão é `8` linhas.
 
@@ -60,7 +60,7 @@ Há duas variações da configuração da Pesquisa no catálogo. O primeiro mét
 
 >[!IMPORTANT]
 >
->- Devido ao anúncio do fim do suporte do [!DNL Elasticsearch 7] para agosto de 2023, é recomendável que todos os clientes do Adobe Commerce migrem para o mecanismo de pesquisa OpenSearch 2.x. Para obter informações sobre como migrar o mecanismo de pesquisa durante a atualização do produto, consulte [Migrando para o OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) no _Guia de Atualização_.
+>- Devido ao anúncio do fim do suporte do [!DNL Elasticsearch 7] para agosto de 2023, é recomendável que todos os clientes do Adobe Commerce migrem para o mecanismo de pesquisa OpenSearch 2.x. Para obter informações sobre como migrar o mecanismo de pesquisa durante a atualização do produto, consulte [Migrando para o OpenSearch](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) no _Guia de Atualização_.
 >- Nas versões 2.4.4 e 2.4.3-p2, todos os campos rotulados como Elasticsearch também se aplicam ao OpenSearch. Quando o suporte para o Elasticsearch 8.x foi introduzido na versão 2.4.6, novos rótulos foram criados para distinguir entre as configurações do Elasticsearch e do OpenSearch. No entanto, as opções de configuração de ambos são as mesmas.
 
 ### Etapa 1: configurar opções gerais de pesquisa

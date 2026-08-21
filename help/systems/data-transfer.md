@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: 520
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Por exemplo, você pode adicionar novos produtos ao inventário, atualizar dados
 
 >[!NOTE]
 >
->A Adobe Commerce também oferece suporte à exportação de dados SaaS para transferir dados do produto do servidor Commerce para os serviços SaaS. A exportação de dados SaaS está integrada aos Serviços SaaS da Commerce, incluindo [Recomendações de Produto](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=pt-BR), [Live Search](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview) e [Serviço de Catálogo](https://experienceleague.adobe.com/pt-br/docs/commerce/catalog-service/guide-overview). Para obter detalhes, consulte o [Guia de Exportação de Dados SaaS](https://experienceleague.adobe.com/pt-br/docs/commerce/saas-data-export/overview).
+>A Adobe Commerce também oferece suporte à exportação de dados SaaS para transferir dados do produto do servidor Commerce para os serviços SaaS. A exportação de dados SaaS está integrada aos Serviços SaaS da Commerce, incluindo [Recomendações de Produto](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/overview), [Live Search](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview) e [Serviço de Catálogo](https://experienceleague.adobe.com/pt-br/docs/commerce/catalog-service/guide-overview). Para obter detalhes, consulte o [Guia de Exportação de Dados SaaS](https://experienceleague.adobe.com/pt-br/docs/commerce/saas-data-export/overview).
 
 ## Validação de dados
 

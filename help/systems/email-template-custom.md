@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1314
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 # Personalizar modelos de email
 
-O Commerce inclui um template de email padrão para a seção do corpo de cada mensagem enviada pelo sistema. O modelo para o conteúdo do corpo é combinado com os modelos de cabeçalho e rodapé para criar a mensagem completa. O conteúdo é formatado com HTML e CSS, e pode ser facilmente editado e personalizado adicionando [variáveis](variables-predefined.md). Os modelos de email podem ser personalizados para cada visualização de site, loja ou loja. Se estiver usando modelos personalizados, atualize a [configuração do sistema](email-templates.md#configure-email-templates) para garantir que o modelo correto seja usado. Para saber como você pode usar declarações condicionais ao personalizar o modelo de email, consulte a [documentação do desenvolvedor](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1).
+O Commerce inclui um template de email padrão para a seção do corpo de cada mensagem enviada pelo sistema. O modelo para o conteúdo do corpo é combinado com os modelos de cabeçalho e rodapé para criar a mensagem completa. O conteúdo é formatado com HTML e CSS, e pode ser facilmente editado e personalizado adicionando [variáveis](variables-predefined.md). Os modelos de email podem ser personalizados para cada visualização de site, loja ou loja. Se estiver usando modelos personalizados, atualize a [configuração do sistema](email-templates.md#configure-email-templates) para garantir que o modelo correto seja usado. Para saber como você pode usar declarações condicionais ao personalizar o modelo de email, consulte a [documentação do desenvolvedor](https://developer.adobe.com/commerce/frontend-core/guide/templates/email#theme-based-customizations-1).
 
 ![Exemplo - visualização do email de boas-vindas](./assets/email-template-preview.png){width="500" zoomable="yes"}
 

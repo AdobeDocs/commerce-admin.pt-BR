@@ -23,7 +23,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 0%
@@ -41,7 +41,7 @@ Se você tiver problemas para fazer logon com 2FA, considere o seguinte:
 - Limpar o cache da Web e os cookies para a instalação do Adobe Commerce ou do Magento Open Source também pode ajudar. Os autenticadores, como o Google, usam cookies gerados para salvar o acesso e a duração. Limpe os cookies do navegador específico e armazene o domínio.
 - O bloqueio de cookies impede que alguns autenticadores, como o [!DNL Google Authenticator], concluam o processo de verificação. Adicione uma regra ao navegador que permita cookies para a instalação do Adobe Commerce.
 
-Para redefinir autenticadores da linha de comando e obter informações mais avançadas sobre solução de problemas, consulte [Autenticação de Dois Fatores](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/) na documentação do desenvolvedor.
+Para redefinir autenticadores da linha de comando e obter informações mais avançadas sobre solução de problemas, consulte [Autenticação de Dois Fatores](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication) na documentação do desenvolvedor.
 
 **_Para redefinir autenticadores para uma conta de usuário:_**
 

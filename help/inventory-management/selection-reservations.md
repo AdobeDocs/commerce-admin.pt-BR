@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2026-06-03
-source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2178
+source-wordcount: 2179
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ Os três valores `quantity` somam até 0 (-25 + 5 + 20). O sistema não modifica
 
 O trabalho cron `inventory_cleanup_reservations` executa consultas SQL para limpar a tabela de banco de dados de reservas. Por padrão, ele é executado diariamente à meia-noite, mas você pode configurar os horários e a frequência. O trabalho cron executa um script que consulta o banco de dados para localizar sequências de reserva completas nas quais a soma dos valores de quantidade é 0. Quando todas as reservas de um determinado produto originadas no mesmo dia (ou outro horário configurado) forem compensadas, o trabalho cron excluirá as reservas de uma só vez.
 
-O trabalho cron `inventory_reservations_cleanup` não é o mesmo que o consumidor da fila de mensagens `inventory.reservations.cleanup`. O consumidor exclui de forma assíncrona as reservas por SKU de produto depois que um produto é removido, enquanto o trabalho cron apaga toda a tabela de reservas. O consumidor é necessário ao habilitar a opção de estoque [**Sincronizar com Catálogo**](../configuration-reference/catalog/inventory.md) na configuração do armazenamento. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=pt-BR){target="_blank"} no _Guia de Configuração_.
+O trabalho cron `inventory_reservations_cleanup` não é o mesmo que o consumidor da fila de mensagens `inventory.reservations.cleanup`. O consumidor exclui de forma assíncrona as reservas por SKU de produto depois que um produto é removido, enquanto o trabalho cron apaga toda a tabela de reservas. O consumidor é necessário ao habilitar a opção de estoque [**Sincronizar com Catálogo**](../configuration-reference/catalog/inventory.md) na configuração do armazenamento. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues){target="_blank"} no _Guia de Configuração_.
 
 Muitas vezes, todas as reservas iniciais produzidas em um único dia não podem ser compensadas nesse mesmo dia. Essa situação pode ocorrer quando um cliente faz um pedido antes do início da tarefa cron ou realiza a compra com um método de pagamento offline, como uma transferência bancária. As sequências de reserva compensadas permanecem no banco de dados até que todas sejam compensadas. Essa prática não interfere nos cálculos de reserva, pois o total de cada reserva é 0.
 

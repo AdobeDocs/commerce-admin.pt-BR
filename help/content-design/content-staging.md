@@ -16,9 +16,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1005
 ht-degree: 0%
 
 ---
@@ -98,6 +98,6 @@ Para saber mais sobre o preparo de conteúdo, assista a este vídeo:
 
 Para obter ajuda com a solução de problemas de preparo de conteúdo, consulte os seguintes artigos da Base de Dados de Conhecimento de Suporte do [!DNL Commerce]:
 
-- [Erro 404 em todas as páginas devido ao problema de preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=pt-BR)
-- [Atualizações programadas do armazenamento temporário de conteúdo não são exibidas com o cache obsoleto do Fastly](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=pt-BR)
-- [Posso programar atualizações de Armazenamento temporário de conteúdo para preços em um catálogo compartilhado?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=pt-BR)
+- [Erro 404 em todas as páginas devido ao problema de preparo de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-27785)
+- [Atualizações programadas do armazenamento temporário de conteúdo não são exibidas com o cache obsoleto do Fastly](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
+- [Posso programar atualizações de Armazenamento temporário de conteúdo para preços em um catálogo compartilhado?](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)

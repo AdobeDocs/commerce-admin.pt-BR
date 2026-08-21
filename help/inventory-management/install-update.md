@@ -17,9 +17,9 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: 681
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Esses recursos e extensões foram desenvolvidos como parte do [Projeto de invent
 
 O [!DNL Inventory Management] é instalado nas versões 2.3.x e 2.4.x do Adobe Commerce e do Magento Open Source, com todos os recursos habilitados por padrão. Não são necessárias etapas adicionais para habilitar esses recursos de inventário. As atualizações da versão 2.1.x ou 2.2.x podem exigir etapas adicionais. Consulte [Atualizar Inventory management](#upgrade-inventory-management).
 
-É recomendável a instalação de acordo com a [Instalação rápida local](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=pt-BR){target="_blank"}. Instale com um metapackage para receber todos os [!DNL Inventory Management] módulos.
+É recomendável a instalação de acordo com a [Instalação rápida local](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/composer){target="_blank"}. Instale com um metapackage para receber todos os [!DNL Inventory Management] módulos.
 
 A seguinte linha no metapackage `composer.json` instala [!DNL Inventory Management]:
 
@@ -111,7 +111,7 @@ Talvez você queira desabilitar [!DNL Inventory Management] módulos para:
 * Acelere o processo de upgrade para comerciantes que migram do 2.0.x, 2.1.x, 2.2.x ou 2.3.x para o 2.4.x.
 * Use módulos de sistema de gerenciamento de pedidos e inventário personalizados ou de terceiros.
 
-Consulte a página [Habilitar ou desabilitar módulos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=pt-BR) no _Guia de Instalação_ para obter informações sobre como desabilitar os módulos aplicáveis.
+Consulte a página [Habilitar ou desabilitar módulos](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/manage-modules) no _Guia de Instalação_ para obter informações sobre como desabilitar os módulos aplicáveis.
 
 Quando concluído, o sistema fornece uma lista de módulos e valores em `<Magento_installation_directory>/app/etc/config.php`, começando com:
 
@@ -253,5 +253,5 @@ Para obter a versão mais recente, atualize a versão do metapackage:
 
 Consulte os guias a seguir para obter mais informações sobre atualizações do Commerce:
 
-* [Guia de atualização do Commerce](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=pt-BR){target="_blank"}
-* [Ativar ou desativar módulos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=pt-BR){target="_blank"}
+* [Guia de atualização do Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/overview){target="_blank"}
+* [Ativar ou desativar módulos](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/manage-modules){target="_blank"}

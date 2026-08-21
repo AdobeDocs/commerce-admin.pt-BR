@@ -1,9 +1,9 @@
 ---
 title: Nota sobre backups
 description: Nota reutilizada sobre backups
-source-git-commit: 5ade2f23132e634db5e611a5ccfcbc4d6816cf92
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Recurso desabilitado:** o backup está desabilitado por padrão. Ativar essa função pode exigir ajuda do desenvolvedor. Consulte o seguinte tópico do _Guia de Instalação_ para habilitar backups: [Fazer backup e reverter o sistema de arquivos, a mídia e o banco de dados](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=pt-BR).
+>**Recurso desabilitado:** o backup está desabilitado por padrão. Ativar essa função pode exigir ajuda do desenvolvedor. Consulte o seguinte tópico do _Guia de Instalação_ para habilitar backups: [Fazer backup e reverter o sistema de arquivos, a mídia e o banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/backup).
 
 >[!NOTE]
 >

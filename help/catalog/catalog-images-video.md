@@ -21,9 +21,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: 476
 ht-degree: 0%
 
 ---
@@ -56,5 +56,5 @@ Há muitas caixas de luz e controles deslizantes de terceiros que você pode usa
 
 Para obter ajuda com a solução de problemas de imagem e vídeo, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
 
-- [As imagens do produto não são exibidas apesar das funções de imagem Edição de produto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=pt-BR)
-- [Imagens de armazenamento não exibidas após a implantação](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=pt-BR)
+- [As imagens do produto não são exibidas apesar das funções de imagem Edição de produto](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [Imagens de armazenamento não exibidas após a implantação](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)

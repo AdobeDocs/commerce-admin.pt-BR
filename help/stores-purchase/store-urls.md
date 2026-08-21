@@ -22,10 +22,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1584
-ht-degree: 0%
+source-wordcount: 1611
+ht-degree: 1%
 
 ---
 
@@ -156,7 +156,7 @@ Se, após seguir as instruções de configuração, algumas páginas continuarem
 
 ## Usar um URL de administração personalizado
 
-Como uma [prática recomendada de segurança](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=pt-BR), a Adobe recomenda que você use uma URL de Administrador exclusiva em vez do _admin_ padrão ou um termo comum, como _backend_. Embora não proteja diretamente o site contra um determinado mau ator, pode reduzir a exposição a scripts que tentam obter acesso não autorizado.
+Como uma [prática recomendada de segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), a Adobe recomenda que você use uma URL de Administrador exclusiva em vez do _admin_ padrão ou um termo comum, como _backend_. Embora não proteja diretamente o site contra um determinado mau ator, pode reduzir a exposição a scripts que tentam obter acesso não autorizado.
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ Embora seja possível alterar o URL do administrador e o caminho para outro loca
 
 >[!NOTE]
 >
->Como precaução, não tente alterar o URL do administrador sozinho, a menos que você saiba como editar arquivos de configuração no servidor. Para projetos do Adobe Commerce implantados na infraestrutura em nuvem, altere a URL do Administrador seguindo as [instruções](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=pt-BR#admin-url) no *Guia do Adobe Commerce na Infraestrutura em Nuvem*.
+>Como precaução, não tente alterar o URL do administrador sozinho, a menos que você saiba como editar arquivos de configuração no servidor. Para projetos do Adobe Commerce implantados na infraestrutura em nuvem, altere a URL do Administrador seguindo as [instruções](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) no *Guia do Adobe Commerce na Infraestrutura em Nuvem*.
 
 ### Método 1: alterar do Administrador
 
@@ -218,7 +218,7 @@ Embora seja possível alterar o URL do administrador e o caminho para outro loca
 
    >[!TIP]
    >
-   >Para o Adobe Commerce na infraestrutura em nuvem, você pode configurar um caminho de administrador personalizado usando a variável `ADMIN_URL` na interface de usuário da nuvem. Consulte o [tópico sobre variáveis de administrador](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=pt-BR) no _Guia do Commerce na Infraestrutura da Nuvem_.
+   >Para o Adobe Commerce na infraestrutura em nuvem, você pode configurar um caminho de administrador personalizado usando a variável `ADMIN_URL` na interface de usuário da nuvem. Consulte o [tópico sobre variáveis de administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) no _Guia do Commerce na Infraestrutura da Nuvem_.
 
    - **Caminho Padrão do Administrador**
 

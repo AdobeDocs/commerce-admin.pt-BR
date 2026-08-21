@@ -24,16 +24,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 865
 ht-degree: 0%
 
 ---
 
 # Configurar a segurança do administrador
 
-Recomendamos que você adote uma abordagem multifacetada para proteger a segurança de sua loja. Você pode começar usando uma [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que não é fácil de adivinhar, em vez da óbvia &quot;Admin&quot; ou &quot;Infraestrutura&quot;. Por padrão, as senhas usadas para [fazer logon](../getting-started/admin-signin.md) no Administrador devem ter sete ou mais caracteres e incluir letras e números. Você pode configurar o requisito de comprimento mínimo da senha para melhorar a segurança com base nas necessidades da organização. Como uma [prática recomendada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=pt-BR), use somente senhas de Administrador fortes que incluam uma combinação de letras, números e símbolos. A Adobe Commerce e a Magento Open Source não permitem a reutilização das quatro últimas senhas atribuídas à conta.
+Recomendamos que você adote uma abordagem multifacetada para proteger a segurança de sua loja. Você pode começar usando uma [URL de administrador personalizada](../stores-purchase/store-urls.md#use-a-custom-admin-url) que não é fácil de adivinhar, em vez da óbvia &quot;Admin&quot; ou &quot;Infraestrutura&quot;. Por padrão, as senhas usadas para [fazer logon](../getting-started/admin-signin.md) no Administrador devem ter sete ou mais caracteres e incluir letras e números. Você pode configurar o requisito de comprimento mínimo da senha para melhorar a segurança com base nas necessidades da organização. Como uma [prática recomendada](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), use somente senhas de Administrador fortes que incluam uma combinação de letras, números e símbolos. A Adobe Commerce e a Magento Open Source não permitem a reutilização das quatro últimas senhas atribuídas à conta.
 
 A configuração de segurança do Administrador oferece a capacidade de:
 
@@ -52,7 +52,7 @@ Além das configurações de segurança desta seção, a [autenticação de dois
 >
 >Os armazenamentos que habilitaram a autenticação [!DNL Adobe Identity Management Services] (IMS) têm o Adobe Commerce nativo e o Magento Open Source 2FA desabilitados. Os usuários administradores que estão conectados à instância do Commerce com suas credenciais do Adobe não precisam se autenticar novamente para muitas tarefas administrativas. A autenticação é tratada pelo Adobe IMS quando o usuário administrador faz logon em sua sessão atual. Consulte [[!DNL Adobe Identity Management Service] (IMS) Visão geral da integração](../getting-started/adobe-ims-integration-overview.md).
 
-Para obter informações técnicas, consulte [Visão geral sobre segurança](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} na documentação do desenvolvedor.
+Para obter informações técnicas, consulte [Visão geral sobre segurança](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"} na documentação do desenvolvedor.
 
 ![Segurança do administrador](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
@@ -103,8 +103,8 @@ Para obter informações técnicas, consulte [Visão geral sobre segurança](htt
 
    - Defina **[!UICONTROL Password Change]** como um dos seguintes:
 
-      - `Forced` — Requer que os usuários Administradores alterem suas senhas após a configuração da conta.
-      - `Recommended` — Recomenda que os usuários administradores alterem suas senhas após a configuração da conta.
+     - `Forced` — Requer que os usuários Administradores alterem suas senhas após a configuração da conta.
+     - `Recommended` — Recomenda que os usuários administradores alterem suas senhas após a configuração da conta.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 

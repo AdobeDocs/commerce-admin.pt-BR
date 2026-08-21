@@ -1,6 +1,6 @@
 ---
 title: Localização da loja
-description: Saiba como localizar uma visualização de loja ou loja.
+description: Saiba como localizar uma visualização de loja ou loja alterando a localidade, que troca a tabela de tradução usada para navegação, rótulos, botões e links.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Os pacotes de idiomas podem ser encontrados em [Traduções e localização](htt
 
 ## Etapa 1: instalar um pacote de idiomas
 
-Siga as instruções padrão para instalar a extensão de pacote de idiomas. Para obter informações detalhadas sobre a instalação de uma extensão, consulte [Instalação geral da CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=pt-BR) no _Guia de Extensões_.
+Siga as instruções padrão para instalar a extensão de pacote de idiomas. Para obter informações detalhadas sobre a instalação de uma extensão, consulte [Instalação geral da CLI](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/extensions) no _Guia de Extensões_.
 
 ## Etapa 2: criar uma exibição de loja para o idioma
 

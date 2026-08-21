@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -34,7 +34,7 @@ Os clientes geralmente redefinem suas senhas da loja clicando em _[!UICONTROL Fo
 | Função | Descrição |
 | --- | --- |
 | Redefinir senha | Um email de redefinição de senha é enviado diretamente para a conta de email do cliente. O administrador da loja não pode obter acesso à senha do cliente. |
-| Forçar Entrada | Revoga os tokens de acesso OAuth associados à conta do cliente. Isso pode ser usado somente com contas de clientes que receberam tokens OAuth, como parte de uma [integração](../systems/integrations.md) da API da Web. Para saber mais, consulte [autenticação baseada em OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) na documentação do desenvolvedor. <br/><br/>As contas de clientes padrão criadas na loja ou do Administrador não têm tokens OAuth. |
+| Forçar Entrada | Revoga os tokens de acesso OAuth associados à conta do cliente. Isso pode ser usado somente com contas de clientes que receberam tokens OAuth, como parte de uma [integração](../systems/integrations.md) da API da Web. Para saber mais, consulte [autenticação baseada em OAuth](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) na documentação do desenvolvedor. <br/><br/>As contas de clientes padrão criadas na loja ou do Administrador não têm tokens OAuth. |
 
 {style="table-layout:auto"}
 

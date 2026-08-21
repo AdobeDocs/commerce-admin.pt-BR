@@ -19,9 +19,9 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 649
 ht-degree: 0%
 
 ---
@@ -50,7 +50,8 @@ Cada bloco consiste em uma lista de produtos que pertencem a uma opção especí
 >[!TIP]
 >
 >O ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) **Product Recommendations viabilizadas pelo Adobe AI** simplifica o processo de definição de relações de produtos utilizando inteligência artificial e algoritmos de aprendizado de máquina para executar uma análise detalhada de dados de visitantes agregados. Esses dados, quando combinados com seu catálogo do Adobe Commerce, resultam em experiências altamente envolventes, relevantes e personalizadas para o comprador.
-><br/>>Para obter mais informações sobre como usar esta extensão desenvolvida pela Adobe como uma alternativa para recomendações de produto e vendas adicionais configuradas manualmente, consulte o _[Guia de Recomendações de Produto](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=pt-BR)_.
+><br/>
+>Para obter mais informações sobre como usar esta extensão desenvolvida pela Adobe como uma alternativa para recomendações de produto e vendas adicionais configuradas manualmente, consulte o _[Guia de Recomendações de Produto](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/guide-overview)_.
 
 ## Produtos relacionados
 

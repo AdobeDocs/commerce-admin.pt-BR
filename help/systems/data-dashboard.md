@@ -21,9 +21,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 802
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ O painel contém os seguintes campos:
 | Campo | Descrição |
 |--- |--- |
 | Escopo | Site específico para os dados sincronizados. |
-| [!DNL Product Recommendations] | Exibe o status da sincronização, o número de produtos sincronizados e uma tabela dos [exibíveis](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/config/catalog/inventory#stock-options) produtos sincronizados para [!DNL Product Recommendations]. |
-| [!DNL Live Search] | Exibe o status da sincronização, o número de produtos sincronizados e uma tabela dos [exibíveis](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/config/catalog/inventory#stock-options) produtos sincronizados para [!DNL Live Search]. |
+| [!DNL Product Recommendations] | Exibe o status da sincronização, o número de produtos sincronizados e uma tabela dos [exibíveis](/help/configuration-reference/catalog/inventory.md#stock-options) produtos sincronizados para [!DNL Product Recommendations]. |
+| [!DNL Live Search] | Exibe o status da sincronização, o número de produtos sincronizados e uma tabela dos [exibíveis](/help/configuration-reference/catalog/inventory.md#stock-options) produtos sincronizados para [!DNL Live Search]. |
 | [!DNL Catalog Service] | Exibe o status da sincronização, o número de produtos sincronizados e uma tabela dos produtos sincronizados para [!DNL Catalog Service]. |
 | Configurações | Abre uma caixa de diálogo onde você pode [ressincronizar manualmente os dados do catálogo](#resync-catalog-data). |
 | Status de sincronização | Exibe o número de produtos que foram transferidos do banco de dados do Commerce para qualquer um dos serviços SaaS nas últimas três horas. Se você fizer atualizações pouco frequentes no catálogo, esse valor será frequentemente zero. Se uma sincronização estiver em andamento, clique em **[!UICONTROL Refresh]** para obter uma contagem atualizada. |

@@ -7,9 +7,9 @@ feature: Page Builder
 role: User
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 nudge: true
-source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '116'
 ht-degree: 6%
 
 ---
@@ -22,30 +22,30 @@ ht-degree: 6%
 - [Notas de versão](release-notes.md)
 - [Configuração e instalação](setup.md)
 - Apresentação {#walkthrough}
-   - [Parte 1: página simples](1-simple-page.md)
-   - [Parte 2: blocos](2-blocks.md)
-   - [Parte 3: conteúdo do catálogo](3-catalog-content.md)
+  - [Parte 1: página simples](1-simple-page.md)
+  - [Parte 2: blocos](2-blocks.md)
+  - [Parte 3: conteúdo do catálogo](3-catalog-content.md)
 - [Workspace](workspace.md)
 - Layout {#layout}
-   - [Linhas](row.md)
-   - [Colunas](column.md)
-   - [Guias](tabs.md)
+  - [Linhas](row.md)
+  - [Colunas](column.md)
+  - [Guias](tabs.md)
 - Elementos {#elements}
-   - [Texto](text.md)
-   - [Cabeçalho](heading.md)
-   - [Botões](buttons.md)
-   - [Divisor](divider.md)
-   - [Código HTML](html-code.md)
+  - [Texto](text.md)
+  - [Cabeçalho](heading.md)
+  - [Botões](buttons.md)
+  - [Divisor](divider.md)
+  - [Código HTML](html-code.md)
 - Mídia {#media}
-   - [Imagem](image.md)
-   - [Vídeo](video.md)
-   - [Banner](banner.md)
-   - [Controle deslizante](slider.md)
-   - [Mapa](map.md)
+  - [Imagem](image.md)
+  - [Vídeo](video.md)
+  - [Banner](banner.md)
+  - [Controle deslizante](slider.md)
+  - [Mapa](map.md)
 - Adicionar conteúdo {#add-content}
-   - [Bloquear](block.md)
-   - [Bloco dinâmico](dynamic-block.md)
-   - [Produtos](products.md)
-   - [Recomendações de produto](recommendations.md)
+  - [Bloquear](block.md)
+  - [Bloco dinâmico](dynamic-block.md)
+  - [Produtos](products.md)
+  - [Recomendações de produto](recommendations.md)
 - [Modelos](templates.md)
-- [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR)
+- [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)

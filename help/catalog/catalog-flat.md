@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 704
+source-wordcount: 705
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O uso de um catálogo simples não é mais recomendado como prática recomendada. O uso continuado desse recurso é conhecido por causar degradação de desempenho e outros problemas de indexação. Uma descrição detalhada e uma solução estão disponíveis na [Central de Ajuda](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=pt-BR).<br/><br/>As versões afetadas incluem: <br/>- Adobe Commerce na infraestrutura de nuvem, 2.3.x e superior<br/>- Adobe Commerce (No Local), 2.3.x e superior<br/>- Magento Open Source, 2.3.x e superior <br/><br/>Em qualquer versão de lançamento, algumas extensões funcionam apenas com tabelas simples, criando um risco se você desabilitar tabelas simples. Se você souber que tem algumas extensões que usam indexadores de Catálogo Simples, deverá estar ciente desse risco ao definir esses valores como `No`.
+>O uso de um catálogo simples não é mais recomendado como prática recomendada. O uso continuado desse recurso é conhecido por causar degradação de desempenho e outros problemas de indexação. Uma descrição detalhada e uma solução estão disponíveis na [Central de Ajuda](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons).<br/><br/>As versões afetadas incluem: <br/>- Adobe Commerce na infraestrutura de nuvem, 2.3.x e superior<br/>- Adobe Commerce (No Local), 2.3.x e superior<br/>- Magento Open Source, 2.3.x e superior <br/><br/>Em qualquer versão de lançamento, algumas extensões funcionam apenas com tabelas simples, criando um risco se você desabilitar tabelas simples. Se você souber que tem algumas extensões que usam indexadores de Catálogo Simples, deverá estar ciente desse risco ao definir esses valores como `No`.
 
 O Commerce geralmente armazena dados de catálogo em várias tabelas, com base no modelo Entity-Attribute-Value (EAV). Como os atributos do produto são armazenados em muitas tabelas, as consultas SQL às vezes são longas e complexas.
 

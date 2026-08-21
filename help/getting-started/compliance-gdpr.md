@@ -22,7 +22,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 518
 ht-degree: 0%
@@ -68,4 +68,4 @@ As empresas que estiverem em conformidade com o GDPR podem ter obrigações adic
 
 - Para saber como a Adobe ajuda os comerciantes a cumprir as obrigações legais aplicáveis, visite o [site](https://business.adobe.com/br/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- Para obter diagramas de fluxo de dados e mapeamento de entidades de banco de dados, consulte a [Referência de informações pessoais](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=pt-BR){: target="_blank"}.
+- Para obter diagramas de fluxo de dados e mapeamento de entidades de banco de dados, consulte a [Referência de informações pessoais](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/security-and-compliance/reference/data-m2){: target="_blank"}.

@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1500
+source-wordcount: 1504
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Consulte [Configurar pesquisa de site](https://support.google.com/analytics/answ
 
 ## Etapa 2. Configurar sua conta do [!DNL Google Tag Manager]
 
-As instruções a seguir mostram como configurar um novo container com as configurações básicas. Um exemplo de arquivo de configuração (.json) do [Composer](https://developer.adobe.com/commerce/php/development/composer/) é usado para simplificar o processo, importando para gerar uma marca em um novo contêiner. Para este exemplo, é recomendável criar um contêiner, em vez de modificar um contêiner existente.
+As instruções a seguir mostram como configurar um novo container com as configurações básicas. Um exemplo de arquivo de configuração (.json) do [Composer](https://developer.adobe.com/commerce/php/development/composer) é usado para simplificar o processo, importando para gerar uma marca em um novo contêiner. Para este exemplo, é recomendável criar um contêiner, em vez de modificar um contêiner existente.
 
 >[!NOTE]
 >

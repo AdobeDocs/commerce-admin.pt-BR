@@ -4,9 +4,9 @@ user-guide-description: Informações abrangentes sobre recursos de gerenciament
 breadcrumb-title: Gerenciamento de clientes
 feature: Customers
 nudge: true
-source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -17,44 +17,44 @@ ht-degree: 0%
 + [Guia de gerenciamento de clientes](guide-overview.md)
 + [Introdução ao gerenciamento de clientes](customers-introduction.md)
 + Ferramentas de gerenciamento de clientes {#customers-menu}
-   + [Lista de clientes](customers-all.md)
-   + [Agora online](now-online.md)
-   + [Personalization em escala](personalize-scale.md)
+  + [Lista de clientes](customers-all.md)
+  + [Agora online](now-online.md)
+  + [Personalization em escala](personalize-scale.md)
 + Contas do cliente {#customer-accounts}
-   + [Escopo da conta](customer-account-scope.md)
-   + Opções de conta {#configure}
-      + [Página de aterrissagem de logon](login-landing-page.md)
-      + [Novas opções de conta](account-options-new.md)
-      + [Opções de nome e endereço](name-address-options.md)
-      + [Opções de senha](password-options.md)
-      + [Tempo de vida da sessão do cliente](customer-online-options.md)
-      + [Logon do cliente](customer-sign-in.md)
-      + [Redefinições de senha](password-reset.md)
-   + [Criar uma conta individual](account-create.md)
-   + Gerenciar contas {#manage}
-      + [Contas do cliente](manage-account.md)
-      + [Atualizar um perfil de cliente](update-account.md)
-      + [Fornecer assistência ao comprador](login-as-customer.md)
-   + Atributos do cliente {#attributes}
-      + [Propriedades do atributo](attribute-properties.md)
-      + [Atributos de endereço](address-attributes.md)
-      + [Modelos de endereço](address-templates.md)
-   + Crédito da loja {#store-credit}
-      + [Fluxo de trabalho de crédito da loja](store-credit.md)
-      + [Configurar crédito da loja](credit-configure.md)
-      + [Aplicar crédito da loja](store-credit-using.md)
-      + [Armazenar crédito no painel de conta](account-dashboard-store-credit.md)
-      + [Reembolsos no painel de contas](refunds-customer-account.md)
-   + Painel da conta do cliente {#storefront}
-      + [Gerenciar o painel de conta](account-dashboard.md)
-      + [[!UICONTROL My Account]](account-dashboard-my-account.md)
-      + [[!UICONTROL Address Book]](account-dashboard-address-book.md)
-      + [[!UICONTROL Account Information]](account-dashboard-account-information.md)
+  + [Escopo da conta](customer-account-scope.md)
+  + Opções de conta {#configure}
+    + [Página de aterrissagem de logon](login-landing-page.md)
+    + [Novas opções de conta](account-options-new.md)
+    + [Opções de nome e endereço](name-address-options.md)
+    + [Opções de senha](password-options.md)
+    + [Tempo de vida da sessão do cliente](customer-online-options.md)
+    + [Logon do cliente](customer-sign-in.md)
+    + [Redefinições de senha](password-reset.md)
+  + [Criar uma conta individual](account-create.md)
+  + Gerenciar contas {#manage}
+    + [Contas do cliente](manage-account.md)
+    + [Atualizar um perfil de cliente](update-account.md)
+    + [Fornecer assistência ao comprador](login-as-customer.md)
+  + Atributos do cliente {#attributes}
+    + [Propriedades do atributo](attribute-properties.md)
+    + [Atributos de endereço](address-attributes.md)
+    + [Modelos de endereço](address-templates.md)
+  + Crédito da loja {#store-credit}
+    + [Fluxo de trabalho de crédito da loja](store-credit.md)
+    + [Configurar crédito da loja](credit-configure.md)
+    + [Aplicar crédito da loja](store-credit-using.md)
+    + [Armazenar crédito no painel de conta](account-dashboard-store-credit.md)
+    + [Reembolsos no painel de contas](refunds-customer-account.md)
+  + Painel da conta do cliente {#storefront}
+    + [Gerenciar o painel de conta](account-dashboard.md)
+    + [[!UICONTROL My Account]](account-dashboard-my-account.md)
+    + [[!UICONTROL Address Book]](account-dashboard-address-book.md)
+    + [[!UICONTROL Account Information]](account-dashboard-account-information.md)
 + [Audience Activation](audience-activation.md)
 + [Grupos de clientes](customer-groups.md)
 + Segmentos de clientes {#segments}
-   + [Visão geral](customer-segments.md)
-   + [Criar e excluir segmentos de clientes](customer-segment-create.md)
-   + [Segmentos do cliente em regras de preço](customer-segment-price-rule.md)
-   + [Relatório de segmento do cliente](customer-segment-reports.md)
-+ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR)
+  + [Visão geral](customer-segments.md)
+  + [Criar e excluir segmentos de clientes](customer-segment-create.md)
+  + [Segmentos do cliente em regras de preço](customer-segment-price-rule.md)
+  + [Relatório de segmento do cliente](customer-segment-reports.md)
++ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)

@@ -6,9 +6,9 @@ role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 nudge: true
-source-git-commit: da318a9bf0a2be406aee9f539ca46b443f811188
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '171'
 ht-degree: 5%
 
 ---
@@ -22,51 +22,51 @@ ht-degree: 5%
 + [Instalação](install.md)
 + [Habilitar recursos B2B](enable-basic-features.md)
 + Contas da empresa {#companies}
-   + [Visão geral](account-companies.md)
-   + [Configurar opções de email da empresa](email-company-configuration.md)
-   + [Criar uma conta de empresa](account-company-create.md)
-   + [Aprovações de contas da empresa](account-company-approve.md)
-   + [Atribuir um administrador de empresa](account-company-admin.md)
-   + [Gerenciar contas da empresa](account-company-manage.md)
-   + [Atribuição de um grupo de clientes a uma empresa](account-company-customer-group.md)
-   + [Adicionar clientes a uma empresa](customer-assign-company.md)
-   + [Gerenciar crédito da empresa](credit-company.md)
-   + Usuários e estrutura da empresa {#users}
-      + [Contas de usuário da empresa](account-company-users.md)
-      + [Funções e permissões da empresa](account-company-roles-permissions.md)
-      + [Definir estrutura da empresa](account-company-structure.md)
+  + [Visão geral](account-companies.md)
+  + [Configurar opções de email da empresa](email-company-configuration.md)
+  + [Criar uma conta de empresa](account-company-create.md)
+  + [Aprovações de contas da empresa](account-company-approve.md)
+  + [Atribuir um administrador de empresa](account-company-admin.md)
+  + [Gerenciar contas da empresa](account-company-manage.md)
+  + [Atribuição de um grupo de clientes a uma empresa](account-company-customer-group.md)
+  + [Adicionar clientes a uma empresa](customer-assign-company.md)
+  + [Gerenciar crédito da empresa](credit-company.md)
+  + Usuários e estrutura da empresa {#users}
+    + [Contas de usuário da empresa](account-company-users.md)
+    + [Funções e permissões da empresa](account-company-roles-permissions.md)
+    + [Definir estrutura da empresa](account-company-structure.md)
 + Gerenciamento da empresa {#company-management}
-   + [Visão geral](manage-companies.md)
-   + [Gerenciar hierarquias da empresa](manage-company-hierarchy.md)
+  + [Visão geral](manage-companies.md)
+  + [Gerenciar hierarquias da empresa](manage-company-hierarchy.md)
 + Catálogos compartilhados {#shared-catalogs}
-   + [Visão geral](catalog-shared.md)
-   + Definir catálogos compartilhados {#define}
-      + [Criar um catálogo compartilhado](catalog-shared-create.md)
-      + [Adicionar produtos a um catálogo compartilhado](catalog-shared-product-add.md)
-      + [Definir preço e estrutura do catálogo](catalog-shared-pricing-structure.md)
-      + [Atribuir empresas a um catálogo](catalog-shared-assign-companies.md)
-   + [Gerenciar catálogos compartilhados](catalog-shared-manage.md)
+  + [Visão geral](catalog-shared.md)
+  + Definir catálogos compartilhados {#define}
+    + [Criar um catálogo compartilhado](catalog-shared-create.md)
+    + [Adicionar produtos a um catálogo compartilhado](catalog-shared-product-add.md)
+    + [Definir preço e estrutura do catálogo](catalog-shared-pricing-structure.md)
+    + [Atribuir empresas a um catálogo](catalog-shared-assign-companies.md)
+  + [Gerenciar catálogos compartilhados](catalog-shared-manage.md)
 + [Pedidos rápidos](quick-order.md)
 + Ordens de compra {#purchase-orders}
-   + [Ordens de compra para empresas](purchase-order-flow.md)
-   + [Regras de aprovação](account-dashboard-approval-rules.md)
-   + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)
+  + [Ordens de compra para empresas](purchase-order-flow.md)
+  + [Regras de aprovação](account-dashboard-approval-rules.md)
+  + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)
 + Aspas {#quotes}
-   + [Visão geral](quotes.md)
-   + [Configurar cotações](configure-quotes.md)
-   + [Solicitação de cotação](quote-request.md)
-   + [Iniciar cotação para um comprador](sales-rep-initiates-quote.md)
-   + [Negociar uma cotação](quote-price-negotiation.md)
-   + [Criar um modelo de cotação](quote-templates.md)
-   + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
+  + [Visão geral](quotes.md)
+  + [Configurar cotações](configure-quotes.md)
+  + [Solicitação de cotação](quote-request.md)
+  + [Iniciar cotação para um comprador](sales-rep-initiates-quote.md)
+  + [Negociar uma cotação](quote-price-negotiation.md)
+  + [Criar um modelo de cotação](quote-templates.md)
+  + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
 + Modelos de Cotação {#templates}
-   + [Caso de uso e fluxo de trabalho](quote-templates-overview.md)
-   + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
+  + [Caso de uso e fluxo de trabalho](quote-templates-overview.md)
+  + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
 + Listas de requisições {#requisition-lists}
-   + [Visão geral](requisition-lists.md)
-   + [Configurar o máximo da lista](configure-requisition-lists.md)
-   + [[!UICONTROL My Requisition Lists]](account-dashboard-requisition-lists-manage.md)
+  + [Visão geral](requisition-lists.md)
+  + [Configurar o máximo da lista](configure-requisition-lists.md)
+  + [[!UICONTROL My Requisition Lists]](account-dashboard-requisition-lists-manage.md)
 + Referência {#reference}
-   + [Alterações incompatíveis com versões anteriores](backward-incompatible-changes.md)
-   + [Pacotes](packages.md)
-+ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR)
+  + [Alterações incompatíveis com versões anteriores](backward-incompatible-changes.md)
+  + [Pacotes](packages.md)
++ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)

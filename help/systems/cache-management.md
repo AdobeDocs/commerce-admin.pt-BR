@@ -22,9 +22,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1975
+source-wordcount: 1981
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ A página _[!UICONTROL Cache Management]_&#x200B;mostra o status de cada cache p
 
 Depois de limpar um cache, sempre atualize o navegador para garantir que você possa ver os arquivos mais recentes. Limpar o cache do Commerce não limpa o cache do navegador da Web. Talvez seja necessário limpar o cache do navegador para ver o conteúdo atualizado.
 
-Informações técnicas adicionais sobre o cache do Adobe Commerce estão disponíveis na [Visão geral do cache](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"} no _Guia de Desenvolvimento de Front-end do Commerce_.
+Informações técnicas adicionais sobre o cache do Adobe Commerce estão disponíveis na [Visão geral do cache](https://developer.adobe.com/commerce/frontend-core/guide/caching){:target="_blank"} no _Guia de Desenvolvimento de Front-end do Commerce_.
 
 Acesse a página _[!UICONTROL Cache Management]_&#x200B;seguindo um destes procedimentos:
 
@@ -72,19 +72,19 @@ Para obter informações sobre como atribuir recursos para conceder acesso a con
 
 - [!UICONTROL Clean Cache Actions]
 
-   - [!UICONTROL Flush Cache Storage]
-   - [!UICONTROL Flush Magento Cache]
+  - [!UICONTROL Flush Cache Storage]
+  - [!UICONTROL Flush Magento Cache]
 
 - [!UICONTROL Cache Type Management]
 
-   - [!UICONTROL Toggle Cache Type]
-   - [!UICONTROL Refresh Cache Type]
+  - [!UICONTROL Toggle Cache Type]
+  - [!UICONTROL Refresh Cache Type]
 
 - [!UICONTROL Additional Cache Management]
 
-   - [!UICONTROL Catalog Images Cache]
-   - [!UICONTROL Flush Js/Css]
-   - [!UICONTROL Flush Static Files]
+  - [!UICONTROL Catalog Images Cache]
+  - [!UICONTROL Flush Js/Css]
+  - [!UICONTROL Flush Static Files]
 
 ## Atualizar caches específicos
 
@@ -174,13 +174,13 @@ Desenvolvedores e integradores de sistema usam esses valores para configurar e g
 | [!UICONTROL Reflections] | Limpa os dados de reflexão da interface da API, que normalmente são gerados durante o tempo de execução. | `REFLECTION` | `reflection` |
 | `Database DDL operations` | Esquema de banco de dados. Se necessário, o Commerce limpa esse cache automaticamente, mas desenvolvedores de terceiros podem colocar quaisquer dados em qualquer segmento do cache. Limpe ou limpe esse tipo de cache depois de fazer alterações personalizadas no esquema do banco de dados. (Em outras palavras, essas são atualizações que o Commerce não cria.) Uma maneira de atualizar o esquema do banco de dados automaticamente é usando o comando de atualização setup:db-schema:do magento. | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | Resultados da compilação de código. | `COMPILED_CONFIG` | `compiled_config` |
-| [!UICONTROL Webhooks Response Cache] | Armazena em cache respostas a solicitações de webhook. Para obter mais informações, consulte o [Guia do Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) na documentação do desenvolvedor do Commerce. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
+| [!UICONTROL Webhooks Response Cache] | Armazena em cache respostas a solicitações de webhook. Para obter mais informações, consulte o [Guia do Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes#enhancements-2) na documentação do desenvolvedor do Commerce. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
 | [!UICONTROL EAV types and attributes] | Armazena em cache a declaração de tipos de entidade para metadados relacionados a atributos de valor de atributo de entidade (EAV). Os atributos incluem rótulos de loja, links para código PHP relacionado, renderização de atributo, configurações de pesquisa e assim por diante. Normalmente, não é necessário limpar ou liberar esse tipo de cache. | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | Notificações temporárias exibidas na interface do usuário. | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | Armazena em cache os resultados dos resolvedores de consultas do GraphQL para entidades da galeria de mídia de clientes, páginas do CMS, blocos do CMS e produtos. Mantenha esse cache ativado para melhorar o desempenho do GraphQL. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | Arquivo de configuração de integração. Limpe ou limpe esse cache após alterar ou adicionar integrações. | `INTEGRATION` | `config_integration` |
 | [!UICONTROL Integrations API Configuration] | Configuração de APIs de integração compilada para integrações de loja. | `INTEGRATION_API_CONFIG` | `config_integration_api` |
-| [!UICONTROL Admin UI SDK Cache] | Armazena personalizações em cache para o Administrador. Consulte [Configuração e teste de administrador](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/) no _Guia do SDK da interface do usuário do administrador_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
+| [!UICONTROL Admin UI SDK Cache] | Armazena personalizações em cache para o Administrador. Consulte [Configuração e teste de administrador](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration) no _Guia do SDK da interface do usuário do administrador_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
 | [!UICONTROL Page Cache] | Armazenamento em cache de página inteira. | `FPC` | `full_page` |
 | [!UICONTROL Target Rule] | Índice de regras de destino | `TARGET_RULE` | `target_rule` |
 | [!UICONTROL Web Services Configuration] | Armazenamento em cache da estrutura da API da Web. | `WEBSERVICE` | `config_webservice` |
@@ -202,7 +202,7 @@ O conteúdo em cache pode ser usado para processar as solicitações de tipos se
 - `Sessioned` - Durante uma visita em sessão, os compradores que interagem com o armazenamento recebem uma ID de sessão. As interações incluem atividades como comparar produtos ou adicionar produtos ao carrinho. As páginas em cache geradas durante a sessão são usadas somente por esse comprador durante a sessão.
 - `Customer` - Sessões de clientes são criadas para clientes que fazem login e fazem compras usando suas contas registradas. Durante a sessão, os clientes podem receber ofertas especiais, promoções e preços com base no grupo de clientes atribuído.
 
-Para obter informações técnicas, consulte [Configurar e Usar Verniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=pt-BR){:target="_blank"} e [Usar Redis para a página do Commerce e o cache padrão](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=pt-BR){:target="_blank"} no _Guia de Configuração_.
+Para obter informações técnicas, consulte [Configurar e Usar Verniz](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish){:target="_blank"} e [Usar Redis para a página do Commerce e o cache padrão](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache){:target="_blank"} no _Guia de Configuração_.
 
 **_Para configurar o cache de página inteira:_**
 
@@ -221,7 +221,7 @@ Para obter informações técnicas, consulte [Configurar e Usar Verniz](https://
 
 1. Para definir o tempo limite do cache de páginas, insira o **[!UICONTROL TTL for public content]**. (O valor padrão é `86400`)
 
-1. Para especificar o número máximo de [identificadores de layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) a serem processados no ponto de extremidade HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html), digite o **[!UICONTROL Handles param size]**. Restringir o tamanho pode melhorar a segurança e o desempenho. (O valor padrão é `100`)
+1. Para especificar o número máximo de [identificadores de layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) a serem processados no ponto de extremidade HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi), digite o **[!UICONTROL Handles param size]**. Restringir o tamanho pode melhorar a segurança e o desempenho. (O valor padrão é `100`)
 
 1. Se estiver usando verniz, conclua a seção **[!UICONTROL Varnish Configuration]** da seguinte maneira:
 
@@ -231,7 +231,7 @@ Para obter informações técnicas, consulte [Configurar e Usar Verniz](https://
 
    - **[!UICONTROL Backend port]** - Identifique a porta de back-end usada para gerar arquivos de configuração. Valor padrão: `8080`.
 
-   - **[!UICONTROL Grace period]** - Especifique o número de segundos a ser usado como um período de carência para gerar arquivos de configuração. Consulte [Configuração avançada de verniz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) no _Guia de Configuração_.
+   - **[!UICONTROL Grace period]** - Especifique o número de segundos a ser usado como um período de carência para gerar arquivos de configuração. Consulte [Configuração avançada de verniz](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish-advanced) no _Guia de Configuração_.
 
    - Para exportar a configuração como um arquivo `varnish.vcl`, clique no botão da versão de Verniz que você usa.
 

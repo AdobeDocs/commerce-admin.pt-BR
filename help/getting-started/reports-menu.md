@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 397
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ A seleção de [relatórios de vendas](sales-reports.md) inclui relatórios de P
 
 [!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
-(Somente Adobe Commerce) O [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=pt-BR) fornece insights do sistema para instalações do Adobe Commerce na infraestrutura em nuvem com monitoramento, relatórios e recomendações de desempenho em tempo real 24 horas por dia, 7 dias por semana.
+(Somente Adobe Commerce) O [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/site-wide-analysis-tool/access) fornece insights do sistema para instalações do Adobe Commerce na infraestrutura em nuvem com monitoramento, relatórios e recomendações de desempenho em tempo real 24 horas por dia, 7 dias por semana.
 
 ### [!UICONTROL Customers]
 

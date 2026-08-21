@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2338
+source-wordcount: 2339
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ O comprimento e o formato dos códigos de cupom gerados automaticamente são con
 
 >[!NOTE]
 >
->[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Antes de criar cupons, use o comando `bin/magento cron:run` para verificar se o cron está em execução. Consulte [Executar cron a partir da linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=pt-BR#run-cron-from-the-command-line) no _Guia de Configuração_ para obter mais informações.
+>[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} Antes de criar cupons, use o comando `bin/magento cron:run` para verificar se o cron está em execução. Consulte [Executar cron a partir da linha de comando](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line) no _Guia de Configuração_ para obter mais informações.
 
 ### Método 1: criar um cupom específico
 
@@ -124,23 +124,23 @@ O comprimento e o formato dos códigos de cupom gerados automaticamente são con
 
      **Opção 1:** agendar uma nova atualização
 
-      - Clique em **[!UICONTROL Schedule New Update]** no canto superior direito da página.
+     - Clique em **[!UICONTROL Schedule New Update]** no canto superior direito da página.
 
-        ![Atualização do Calendário](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+       ![Atualização do Calendário](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
-      - Insira o **[!UICONTROL Update Name]** e **[!UICONTROL Description]**.
+     - Insira o **[!UICONTROL Update Name]** e **[!UICONTROL Description]**.
 
-      - Escolha a **Data de Início** e **[!UICONTROL End Date]** no Calendário ( ![Ícone de Calendário](../assets/icon-calendar.png) ). Se você deixar o intervalo de datas vazio, a regra não expirará.
+     - Escolha a **Data de Início** e **[!UICONTROL End Date]** no Calendário ( ![Ícone de Calendário](../assets/icon-calendar.png) ). Se você deixar o intervalo de datas vazio, a regra não expirará.
 
-      - Quando terminar, clique em **[!UICONTROL Save]**.
+     - Quando terminar, clique em **[!UICONTROL Save]**.
 
-        ![Regra de preço do carrinho - alteração agendada](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+       ![Regra de preço do carrinho - alteração agendada](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **Opção 2:** Atribuir a uma atualização existente:
 
-      - Selecione **[!UICONTROL Assign to Another Update]**.
+     - Selecione **[!UICONTROL Assign to Another Update]**.
 
-      - Localize a atualização na lista e clique em **[!UICONTROL Select]**.
+     - Localize a atualização na lista e clique em **[!UICONTROL Select]**.
 
 1. Conclua a [regra de preço do carrinho](price-rules-cart.md) conforme necessário.
 
@@ -170,9 +170,9 @@ A geração de cupons de desconto é uma operação assíncrona, executada em se
 
    - Defina o **[!UICONTROL Code Format]** como um dos seguintes:
 
-      - `Alphanumeric`
-      - `Alphabetical`
-      - `Numeric`
+     - `Alphanumeric`
+     - `Alphabetical`
+     - `Numeric`
 
    - (Opcional) Digite um **[!UICONTROL Code Prefix]** para ser adicionado ao início do código.
 
@@ -221,7 +221,7 @@ Para excluir códigos de cupom personalizados, selecione os códigos a serem exc
 
 Para editar códigos de cupom personalizados ou ver detalhes de uso, clique em **[!UICONTROL Edit]** na coluna **[!UICONTROL Actions]**.
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 O código do cupom principal que pertence à regra de preço do carrinho não pode ser editado ou excluído.
 
@@ -288,16 +288,16 @@ No exemplo a seguir, o código de cupom &quot;H20&quot; foi usado por dois clien
 
    - Defina **[!UICONTROL Date Used]** como um dos seguintes:
 
-      - `Order Created`
-      - `Order Updated`
+     - `Order Created`
+     - `Order Updated`
 
      O relatório _Pedido atualizado_ é criado em tempo real e não requer atualização.
 
    - Para definir o período coberto pelo relatório, defina **[!UICONTROL Period]** como um dos seguintes:
 
-      - `Day`
-      - `Month`
-      - `Year`
+     - `Day`
+     - `Month`
+     - `Year`
 
    - Para definir o intervalo de datas do relatório, insira as datas **De** e **Até** no formato D/M/AA.
 
@@ -307,8 +307,8 @@ No exemplo a seguir, o código de cupom &quot;H20&quot; foi usado por dois clien
 
    - Para definir a atividade de cupom incluída no relatório, siga um destes procedimentos:
 
-      - Para incluir todas as atividades de cupom de todas as regras de preço, defina **[!UICONTROL Cart Price Rule]** como `Any`.
-      - Para incluir apenas a atividade relacionada a uma regra de preço específica, defina **[!UICONTROL Cart Price Rule]** como `Specified` e selecione a regra de preço do carrinho na lista.
+     - Para incluir todas as atividades de cupom de todas as regras de preço, defina **[!UICONTROL Cart Price Rule]** como `Any`.
+     - Para incluir apenas a atividade relacionada a uma regra de preço específica, defina **[!UICONTROL Cart Price Rule]** como `Specified` e selecione a regra de preço do carrinho na lista.
 
 1. Quando estiver pronto para executar o relatório, clique em **[!UICONTROL Show Report]**.
 

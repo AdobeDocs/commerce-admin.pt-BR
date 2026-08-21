@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 541
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->O [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=pt-BR) fornece uma experiência de pesquisa rápida, relevante e intuitiva e está disponível para o Adobe Commerce sem custo adicional. Esta seção descreve a funcionalidade de pesquisa padrão que pode ser diferente de [!DNL Live Search].
+>O [[!DNL Live Search]](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview) fornece uma experiência de pesquisa rápida, relevante e intuitiva e está disponível para o Adobe Commerce sem custo adicional. Esta seção descreve a funcionalidade de pesquisa padrão que pode ser diferente de [!DNL Live Search].
 
 Pesquisas mostram que as pessoas que usam a pesquisa têm mais probabilidade de fazer uma compra do que os clientes que dependem apenas da navegação. Na verdade, de acordo com alguns estudos, as pessoas que usam a pesquisa têm quase duas vezes mais chances de fazer uma compra.
 
@@ -64,7 +64,7 @@ A caixa de pesquisa no cabeçalho da loja ajuda os visitantes a encontrar produt
 
 >[!NOTE]
 >
->A funcionalidade de pesquisa avançada de formulário descrita aqui não se aplica a [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=pt-BR).
+>A funcionalidade de pesquisa avançada de formulário descrita aqui não se aplica a [[!DNL Live Search]](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview).
 
 A Pesquisa avançada permite que os compradores pesquisem no catálogo com base nos valores inseridos em um formulário. Como o formulário contém vários campos, uma única pesquisa pode incluir vários parâmetros. O resultado é uma lista de todos os produtos no catálogo que correspondem aos critérios. Um link para Pesquisa avançada está no rodapé da loja.
 

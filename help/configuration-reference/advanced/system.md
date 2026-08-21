@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2024-04-09
-source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1713
+source-wordcount: 1715
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Determina o aplicativo usado para gerenciar o cache de página inteira. Opções: <br/>**`Built-in Application`**- Não recomendado para o ambiente de produção.<br/>**`Varnish Caching`** - Recomendado para o ambiente de produção. |
 | [!UICONTROL TTL for public content] | Global | Determina a duração do cache de conteúdo público em segundos. Valor padrão: `120` |
-| [!UICONTROL Handles param size] | global | Especifica o número máximo de [identificadores de layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) para processar no ponto de extremidade HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html). Restringir o tamanho pode melhorar a segurança e o desempenho. Valor padrão: `100` |
+| [!UICONTROL Handles param size] | global | Especifica o número máximo de [identificadores de layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) para processar no ponto de extremidade HTTP [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi). Restringir o tamanho pode melhorar a segurança e o desempenho. Valor padrão: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Especifica os endereços IP que podem limpar a configuração de verniz para gerar um arquivo de configuração. Separe várias entradas com uma vírgula. Valor padrão: `localhost` |
 | [!UICONTROL Backend host] | Global | Especifica o host de back-end que gera arquivos de configuração. Valor padrão: `localhost` |

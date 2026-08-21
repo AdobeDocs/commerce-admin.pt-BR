@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: 1193
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ O Administrador fornece acesso para gerenciar as funcionalidades de pedidos, cli
 
 Para garantir a segurança do seu administrador, faça auditorias regulares de usuários e funções com acesso de administrador.
 
-Além disso, considere [atualizar a configuração da URL Base do Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/config/advanced/admin#admin-base-url) para alterar o ponto de extremidade padrão `/admin` para um caminho personalizado. A configuração de um caminho personalizado oferece os seguintes benefícios de segurança:
+Além disso, considere [atualizar a configuração da URL Base do Administrador](/help/configuration-reference/advanced/admin.md#admin-base-url) para alterar o ponto de extremidade padrão `/admin` para um caminho personalizado. A configuração de um caminho personalizado oferece os seguintes benefícios de segurança:
 
 **Segurança aprimorada**: o caminho &quot;admin&quot; padrão é amplamente conhecido e frequentemente alvo de ataques à força bruta por parte de agentes mal-intencionados. Ao alterá-lo para um valor único e personalizado, você reduz significativamente o risco de tentativas de acesso não autorizadas.
 
@@ -196,4 +196,4 @@ Além disso, considere [atualizar a configuração da URL Base do Administrador]
 
 >[!NOTE]
 >
->Se houver suspeita de violação, remova todos os usuários administradores desconhecidos, redefina todas as senhas de administradores e examine o [Plano de ação de segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security) para obter mais etapas.
+>Se houver suspeita de violação, remova todos os usuários administradores desconhecidos, redefina todas as senhas de administradores e examine o [Plano de ação de segurança](/help/systems/security.md) para obter mais etapas.

@@ -20,9 +20,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: 1131
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Uma conta do [!DNL Commerce] é seu ponto de acesso central para gerenciar serviços da Adobe Commerce para projetos da Adobe Commerce implantados na infraestrutura em nuvem ou no local. No painel de conta, é possível exibir assinaturas, gerenciar chaves de API de serviços da Commerce, revisar informações históricas de faturamento e colaborar com outros usuários em sua organização.
 
-Se precisar [enviar seu primeiro tíquete](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) ou gerenciar sua relação com o Adobe Commerce, em vez de trabalhar em uma vitrine específica, comece criando ou acessando sua conta do [!DNL Commerce].
+Se precisar [enviar seu primeiro tíquete](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) ou gerenciar sua relação com o Adobe Commerce, em vez de trabalhar em uma vitrine específica, comece criando ou acessando sua conta do [!DNL Commerce].
 
 Você pode acessar sua conta [!DNL Commerce] do site [!DNL Commerce]. No painel de conta, você pode exibir informações relacionadas aos produtos e serviços que adquiriu e fornecer o [Acesso Compartilhado](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) a outros usuários. Algumas informações, como chaves da API de serviços da Commerce, estão visíveis somente para proprietários de licenças.
 
@@ -45,7 +45,7 @@ Você pode acessar sua conta [!DNL Commerce] do site [!DNL Commerce]. No painel 
 
 O logon da conta [!DNL Commerce] é separado do logon de Administrador da loja. Normalmente, você usará credenciais diferentes para cada um, e o acesso a cada sistema é gerenciado de forma independente.
 
-No entanto, um usuário que deseja simplificar seu logon nos produtos Adobe Commerce e Adobe Business pode configurar seu Adobe ID para fazer logon no Administrador da loja: [Configurar a Integração do Administrador da Commerce com o Adobe ID](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/admin/ims/adobe-ims-config) no *Guia de Integração do IMS para o Commerce*.
+No entanto, um usuário que deseja simplificar seu logon nos produtos Adobe Commerce e Adobe Business pode configurar seu Adobe ID para fazer logon no Administrador da loja: [Configurar a Integração do Administrador da Commerce com o Adobe ID](/help/getting-started/adobe-ims-config.md) no *Guia de Integração do IMS para o Commerce*.
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ Qualquer pessoa pode criar uma conta gratuita do [!DNL Commerce]. O endereço de
 
 O Acesso Compartilhado permite que você conceda a usuários confiáveis, como colegas, parceiros ou administradores, permissão para gerenciar seu relacionamento com a Adobe Commerce em seu nome sem usar seu logon pessoal. Isso inclui permitir que outras pessoas abram e rastreiem casos de suporte.
 
-Consulte a seção [Compartilhar uma conta do Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) do Guia de Introdução do Adobe Commerce para obter as etapas detalhadas sobre como configurar uma conta compartilhada.
+Consulte a seção [Compartilhar uma conta do Commerce](/help/getting-started/commerce-account-share.md) do Guia de Introdução do Adobe Commerce para obter as etapas detalhadas sobre como configurar uma conta compartilhada.
 
 Para obter instruções detalhadas sobre como enviar um caso de suporte do Commerce, consulte o [guia do usuário da Central de Ajuda da Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
 

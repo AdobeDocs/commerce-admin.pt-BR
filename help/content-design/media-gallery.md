@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 352
+source-wordcount: 353
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Com o Adobe Commerce ou o Magento Open Source 2.4, os comerciantes podem usar o 
 
 >[!NOTE]
 >
->A funcionalidade completa para o novo [!DNL Media Gallery] requer que os consumidores de fila `media.gallery.synchronization` e `media.content.synchronization` sejam iniciados para sincronização inicial. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=pt-BR) no _Guia de Configuração_ para obter mais detalhes.
+>A funcionalidade completa para o novo [!DNL Media Gallery] requer que os consumidores de fila `media.gallery.synchronization` e `media.content.synchronization` sejam iniciados para sincronização inicial. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) no _Guia de Configuração_ para obter mais detalhes.
 
 ## Acessar o novo [!DNL Media Gallery]
 

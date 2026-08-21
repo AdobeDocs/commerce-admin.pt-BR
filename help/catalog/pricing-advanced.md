@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: 873
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ As configurações de _[!UICONTROL Advanced Pricing]_&#x200B;definem as condiç�
 
 Os dados de preços avançados são sincronizados com as páginas do produto. Por exemplo, se você atualizar uma quantidade de preço da camada, o sistema atualizará o valor na página do produto.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com o [Adobe Commerce B2B](./b2b/../introduction.md)) Se você estiver usando catálogos compartilhados, os dados de preço avançado serão sincronizados com as páginas de produto e os catálogos compartilhados. Por exemplo, se você atualizar uma quantidade de preço da camada, o sistema atualizará o valor no catálogo compartilhado e na página do produto. Qualquer preço personalizado indicado no catálogo compartilhado tem prioridade sobre o preço do grupo de clientes. Consulte também [Definir preços e estrutura de catálogo compartilhado](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=pt-BR) no _Guia B2B do Adobe Commerce_.
+![Adobe Commerce B2B](../assets/b2b.svg) (Disponível somente com o [Adobe Commerce B2B](./b2b/../introduction.md)) Se você estiver usando catálogos compartilhados, os dados de preço avançado serão sincronizados com as páginas de produto e os catálogos compartilhados. Por exemplo, se você atualizar uma quantidade de preço da camada, o sistema atualizará o valor no catálogo compartilhado e na página do produto. Qualquer preço personalizado indicado no catálogo compartilhado tem prioridade sobre o preço do grupo de clientes. Consulte também [Definir preços e estrutura de catálogo compartilhado](/help/b2b/catalog-shared-pricing-structure.md) no _Guia B2B do Adobe Commerce_.
 
 ![Preços Avançados](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

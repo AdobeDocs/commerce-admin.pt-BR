@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1208
 ht-degree: 0%
@@ -100,17 +100,17 @@ Uma fatura para o pedido deve ser gerada antes de ser impressa. Para exibir ou i
 
    - Incluir um número de rastreamento:
 
-      - Clique em **[!UICONTROL Add Tracking Number]**.
-      - Insira as informações de rastreamento: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ e _[!UICONTROL Number]_
+     - Clique em **[!UICONTROL Add Tracking Number]**.
+     - Insira as informações de rastreamento: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ e _[!UICONTROL Number]_
 
      ![Criar uma remessa do Fedex](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - Opcionalmente, gere uma NFF parcial:
 
-      - Na seção _Itens a faturar_, atualize a coluna **[!UICONTROL Qty to Invoice]** para incluir somente itens específicos na fatura.
-      - Em seguida, clique em **[!UICONTROL Update Qty's]**.
+     - Na seção _Itens a faturar_, atualize a coluna **[!UICONTROL Qty to Invoice]** para incluir somente itens específicos na fatura.
+     - Em seguida, clique em **[!UICONTROL Update Qty's]**.
 
-        ![Itens a serem faturados](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+       ![Itens a serem faturados](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
 1. Se um método de pagamento online foi usado para o pedido, defina **[!UICONTROL Amount]** para a opção apropriada.
 
@@ -170,7 +170,7 @@ As faturas são salvas em um único arquivo PDF que pode ser enviado para uma im
 
 Para fornecer aos comerciantes maior flexibilidade para capturas parciais e cenários de pagamento especializados, a API de NFF suporta quantias de captura personalizadas usando atributos de extensão.
 
-Você pode fazer chamadas REST para capturar um valor personalizado ao criar uma fatura.  Use o ponto de extremidade REST [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) e especifique o valor personalizado no campo `extension_attributes.custom_capture_amount` da carga.
+Você pode fazer chamadas REST para capturar um valor personalizado ao criar uma fatura.  Use o ponto de extremidade REST [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas) e especifique o valor personalizado no campo `extension_attributes.custom_capture_amount` da carga.
 
 >[!NOTE]
 >

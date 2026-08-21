@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 2322
+source-wordcount: 2313
 ht-degree: 0%
 
 ---
@@ -162,4 +162,4 @@ Os dados a seguir são salvos no armazenamento local para lojas que usam o tema 
 
 - `mg`: Definido pelo rastreador Snowplow JavaScript. Mais informações podem ser encontradas na [documentação do Snowplow](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Dado o nome de host da página da Web atual, este é o domínio mais alto que não é um &quot;sufixo público&quot;, conforme descrito em https://publicsuffix.org. Essencialmente, esse é o domínio mais alto que pode aceitar cookies. Este cookie faz parte do [Alloy Web SDK](https://github.com/adobe/alloy).
-- `aep-segments-membership`: Contém [informações de público-alvo](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/customers/audience-activation), como a qual segmento um comprador pertence.
+- `aep-segments-membership`: Contém [informações de público-alvo](/help/customers/audience-activation.md), como a qual segmento um comprador pertence.

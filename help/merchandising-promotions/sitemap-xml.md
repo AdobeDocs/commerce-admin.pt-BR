@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1345
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Quando habilitado, o Commerce cria um arquivo chamado `sitemap.xml` que é salvo
 
 Enquanto o site estiver em desenvolvimento, você poderá incluir instruções no arquivo `robots.txt` para que os rastreadores da Web evitem indexar o site. Antes do lançamento, é possível alterar as instruções para permitir que o site seja indexado.
 
-Para obter informações técnicas, consulte [Adicionar sitemap e robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=pt-BR) no _Guia do Commerce on Cloud Infrastructure_.
+Para obter informações técnicas, consulte [Adicionar sitemap e robots.txt](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap) no _Guia do Commerce on Cloud Infrastructure_.
 
 ![Grade do mapa do site](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -118,7 +118,7 @@ Para criar mapas de site para uma instância multiarmazenamento, faça o seguint
    
 >[!NOTE]
 >
->Se o site usa o mecanismo de servidor Web [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=pt-BR), atualize o arquivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) na raiz do site para direcionar quaisquer outras solicitações de mapa de site para o local adequado.
+>Se o site usa o mecanismo de servidor Web [Apache](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/web-server/apache), atualize o arquivo [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) na raiz do site para direcionar quaisquer outras solicitações de mapa de site para o local adequado.
 
 ## Descrições da coluna
 
@@ -152,13 +152,13 @@ O mapa do site deve ser atualizado com a mesma frequência que as alterações d
 
    - Defina **[!UICONTROL Frequency]** como um dos seguintes:
 
-      - `Always`
-      - `Hourly`
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
-      - `Yearly`
-      - `Never`
+     - `Always`
+     - `Hourly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
+     - `Yearly`
+     - `Never`
 
    - Para **[!UICONTROL Priority]**, insira um valor entre `0.0` e `1.0`. Zero tem a prioridade mais baixa.
 
@@ -206,16 +206,16 @@ O mapa do site deve ser atualizado com a mesma frequência que as alterações d
 
    - Defina **[!UICONTROL Generation Method]** como um dos seguintes:
 
-      - `Standard` - Processa todos os dados na memória.
-      - `Batch` - Usa processamento com otimização de memória para catálogos grandes. Essa opção está disponível a partir da versão 2.4.9.
+     - `Standard` - Processa todos os dados na memória.
+     - `Batch` - Usa processamento com otimização de memória para catálogos grandes. Essa opção está disponível a partir da versão 2.4.9.
 
    - Defina **[!UICONTROL Start Time]** como a hora, os minutos e o segundo em que deseja que o mapa do site seja atualizado.
 
    - Defina **[!UICONTROL Frequency]** como um dos seguintes:
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - Para **[!UICONTROL Error Email Recipient]**, insira o endereço de email da pessoa que receberá a notificação se ocorrer um erro durante uma atualização do mapa de site.
 

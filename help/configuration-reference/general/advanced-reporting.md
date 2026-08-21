@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 137
-ht-degree: 1%
+source-wordcount: 132
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_&#x200B;é um serviço baseado em nuvem da plataforma [Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=pt-BR){:target="_blank"}. Para obter mais informações, consulte [Relatórios Avançados](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html?lang=pt-BR#advanced-reporting){:target="_blank"} no_ Guia de Introdução _.
+_[!DNL Advanced Reporting]_&#x200B;é um serviço baseado em nuvem da plataforma [Adobe Commerce Intelligence](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/getting-started){:target="_blank"}. Para obter mais informações, consulte [Relatórios Avançados](/help/getting-started/business-intelligence.md#advanced-reporting){:target="_blank"} no_ Guia de Introdução _.
 
 ![Relatórios avançados](./assets/advanced-reporting.png)<!-- zoom -->
 

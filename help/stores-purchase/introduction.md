@@ -20,9 +20,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 673
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ A Adobe Commerce e a Magento Open Source reduzem os erros de pedido verificando 
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) Com a instalação e a habilitação do Adobe Commerce B2B, você pode configurar o _Pedido rápido_ para clientes associados a uma conta de empresa. Essa função reduz o processo de pedido a vários cliques quando o cliente souber o nome ou a SKU dos produtos que deseja solicitar. Você também pode configurar o suporte para Cotações Negociáveis para suas contas da empresa. Para obter mais informações sobre os recursos B2B, consulte o [Guia do Usuário B2B do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=pt-BR).
+>![Adobe Commerce B2B](../assets/b2b.svg) Com a instalação e a habilitação do Adobe Commerce B2B, você pode configurar o _Pedido rápido_ para clientes associados a uma conta de empresa. Essa função reduz o processo de pedido a vários cliques quando o cliente souber o nome ou a SKU dos produtos que deseja solicitar. Você também pode configurar o suporte para Cotações Negociáveis para suas contas da empresa. Para obter mais informações sobre os recursos B2B, consulte o [Guia do Usuário B2B do Adobe Commerce](/help/b2b/introduction.md).
 
 ## Assistência para compras
 

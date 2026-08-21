@@ -14,9 +14,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: 280
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ _23 de abril, 2025_
 
 [!BADGE Com Suporte]{type=Informative tooltip="Compatível"} no Adobe Commerce versão 2.4.5 e posteriores.
 
-![Novo problema](../assets/new.svg)<!-- Issue ACAP-955 --> Agora, um [URL de Domínio Personalizado](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization#configure-the-custom-domain-url) pode ser usado em vez do URL de Entrega do AEM. Se um comerciante definir um **Nome de domínio personalizado** no painel do AEM, será necessário adicionar este **URL de domínio personalizado** no Commerce.
+![Novo problema](../assets/new.svg)<!-- Issue ACAP-955 --> Agora, um [URL de Domínio Personalizado](/help/content-design/aem-assets-setup-synchronization.md#configure-the-custom-domain-url) pode ser usado em vez do URL de Entrega do AEM. Se um comerciante definir um **Nome de domínio personalizado** no painel do AEM, será necessário adicionar este **URL de domínio personalizado** no Commerce.
 
 ![Correção de um problema](../assets/fix.svg)<!-- Issue ACAP-987 --> Melhoria nos logs gerais dos processos de sincronização do AEM Assets.
 
@@ -61,7 +61,7 @@ _12 de março de 2025_
 
 [!BADGE Com Suporte]{type=Informative tooltip="Compatível"} no Adobe Commerce versão 2.4.5 e posteriores.
 
-![Novo problema](../assets/new.svg)<!-- Issue ACAP-xx --> Agora, a [ID do Cliente IMS do seletor do Assets](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization) é exigida pelo Seletor do Assets para habilitar o mapeamento de imagens do AEM Assets com categorias de produto e conteúdo gerado pelo Page Builder.
+![Novo problema](../assets/new.svg)<!-- Issue ACAP-xx --> Agora, a [ID do Cliente IMS do seletor do Assets](/help/content-design/aem-assets-setup-synchronization.md) é exigida pelo Seletor do Assets para habilitar o mapeamento de imagens do AEM Assets com categorias de produto e conteúdo gerado pelo Page Builder.
 
 ## v1.0.20
 

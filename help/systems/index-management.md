@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1350
+source-wordcount: 1344
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ A reindexação e o armazenamento em cache têm diferentes finalidades no Commer
 
 >[!IMPORTANT]
 >
->Para armazenamentos que usam o [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=pt-BR) e definiram o Elasticsearch como o indexador de texto completo (`catalogsearch_fulltext`): o índice de texto completo deve ser executado novamente após qualquer alteração de permissões em massa ou quando o indexador &quot;permissões&quot; estiver no modo &quot;Agendado&quot;.
+>Para armazenamentos que usam o [Adobe Commerce B2B](/help/b2b/introduction.md) e definiram o Elasticsearch como o indexador de texto completo (`catalogsearch_fulltext`): o índice de texto completo deve ser executado novamente após qualquer alteração de permissões em massa ou quando o indexador &quot;permissões&quot; estiver no modo &quot;Agendado&quot;.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -97,7 +97,7 @@ A reindexação e o armazenamento em cache têm diferentes finalidades no Commer
 
 ## Reindexar usando a linha de comando
 
-O Commerce fornece opções adicionais de reindexação usando a linha de comando. Para obter detalhes completos e opções de comando, consulte [Reindexar](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=pt-BR#reindex){:target="blank"} no _Guia de Configuração_.
+O Commerce fornece opções adicionais de reindexação usando a linha de comando. Para obter detalhes completos e opções de comando, consulte [Reindexar](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){:target="blank"} no _Guia de Configuração_.
 
 ## Eventos de gatilho de índice
 

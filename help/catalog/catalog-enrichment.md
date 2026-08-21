@@ -18,7 +18,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
 source-wordcount: 2182
 ht-degree: 0%
@@ -31,7 +31,7 @@ O enriquecimento do catálogo é um recurso nativo do [!DNL Adobe Commerce] que 
 
 >[!NOTE]
 >
->O enriquecimento do catálogo é viabilizado por [!DNL Commerce Catalog Agent] e [!DNL Adobe LLM Optimizer] nos bastidores. O enriquecimento é usado como parte do fluxo de trabalho do catálogo do Commerce. Você não gerencia uma integração do LLM Optimizer separada para aplicar atualizações de nome e descrição aprovadas. Para um monitoramento e otimização mais amplos do LLM fora do Commerce, consulte a [documentação do produto do LLM Optimizer](https://experienceleague.adobe.com/pt-br/docs/llm-optimizer/using/home).
+>O enriquecimento do catálogo é viabilizado por [!DNL Commerce Catalog Agent] e [!DNL Adobe LLM Optimizer] nos bastidores. O enriquecimento é usado como parte do fluxo de trabalho do catálogo do Commerce. Você não gerencia uma integração do LLM Optimizer separada para aplicar atualizações de nome e descrição aprovadas. Para um monitoramento e otimização mais amplos do LLM fora do Commerce, consulte a [documentação do produto do LLM Optimizer](https://experienceleague.adobe.com/pt-br/docs/brand-visibility/using/home).
 
 ## Como funciona {#how-it-works}
 
@@ -63,7 +63,7 @@ Os seguintes pré-requisitos se aplicam quando você tem acesso ao enriqueciment
 - Sua loja pode ser rastreada por bots orientados a LLM e de agente, nos quais a cobertura do rastreo é necessária para sugestões com reconhecimento de catálogo.
 - Os serviços Commerce necessários e a conectividade de catálogo estão ativados e íntegros. Consulte [Habilitar enriquecimento do catálogo](#enable-catalog-enrichment) para saber mais.
 - [IMS configurado](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/administration/organizations).
-- Você tem acesso ao [Adobe Admin Console](https://helpx.adobe.com/br/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Você tem acesso ao [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Sua organização assinou o GenAI Rider, ou recusou explicitamente, os serviços de IA subjacentes.
 
 >[!NOTE]

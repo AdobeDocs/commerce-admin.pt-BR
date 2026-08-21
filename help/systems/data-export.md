@@ -19,9 +19,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ A caixa de seleção na primeira coluna é usada para excluir atributos do arqui
 
 1. Role para baixo e clique em **[!UICONTROL Continue]** no canto inferior direito da página.
 
-   Após a conclusão da tarefa, o arquivo é processado por meio de uma fila de mensagens (verifique se o trabalho cron está em execução). O arquivo exportado é salvo no `var/export/ folder`. Para obter mais informações sobre a fila de mensagens, consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=pt-BR) no _Guia de Configuração_.
+   Após a conclusão da tarefa, o arquivo é processado por meio de uma fila de mensagens (verifique se o trabalho cron está em execução). O arquivo exportado é salvo no `var/export/ folder`. Para obter mais informações sobre a fila de mensagens, consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) no _Guia de Configuração_.
 
    Você pode salvar ou abrir o arquivo CSV exportado como uma planilha, editar os dados e importá-los de volta para o armazenamento.
 
@@ -108,4 +108,4 @@ A caixa de seleção na primeira coluna é usada para excluir atributos do arqui
 
 Para obter ajuda com a solução de problemas de exportação de dados, consulte os seguintes artigos da Base de conhecimento de suporte da Commerce:
 
-- [O arquivo .csv de produtos exportados não é exibido](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=pt-BR)
+- [O arquivo .csv de produtos exportados não é exibido](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear)

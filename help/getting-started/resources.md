@@ -25,9 +25,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 67cbbb1d57e1306bd250237a9f767e5dbca335e6
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ A Adobe oferece uma grande variedade de recursos técnicos e comerciais, ferrame
 
 | Recurso do ecossistema | Descrição |
 | ------------------ | ----------- |
-| [Documentação do produto](https://experienceleague.adobe.com/docs/commerce.html?lang=pt-BR) | Comerciantes, designers e desenvolvedores podem usar a documentação para obter uma insight mais profunda sobre como podem aplicar o poder do [!DNL Commerce] para expandir seus negócios. |
+| [Documentação do produto](https://experienceleague.adobe.com/pt-br/docs/commerce) | Comerciantes, designers e desenvolvedores podem usar a documentação para obter uma insight mais profunda sobre como podem aplicar o poder do [!DNL Commerce] para expandir seus negócios. |
 | [Biblioteca de Recursos da Commerce](https://business.adobe.com/resources/commerce.html) | Acesse Ebooks, whitepapers e webinários do Commerce para obter recursos especializados de insight e de negócios online para ajudar a desenvolver e melhorar sua loja. |
 | [Resposta de Incidente de Segurança de Produto do Adobe](https://helpx.adobe.com/br/security.html) | Associe-se ao Registro de Alertas de Segurança para obter as informações mais recentes sobre vulnerabilidades potenciais e [Práticas Recomendadas de Segurança](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf). |
 | [Blog](https://business.adobe.com/blog/?ch_Products=Commerce) | Confira o blog para obter as informações mais recentes sobre novos recursos, tendências, práticas recomendadas, eventos futuros e muito mais. |

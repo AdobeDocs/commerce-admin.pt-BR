@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 846
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Antes de tentar importar muitas imagens, revise as etapas no método de importa�
 
    Se estiver importando várias imagens para uma única `sku`, insira as imagens em uma coluna chamada `additional_images` (adicione a coluna caso ainda não tenha sido adicionada), separadas por vírgulas: `image02.jpg,image03.jpg`
 
-Para obter mais informações sobre como habilitar e gerenciar o módulo de Armazenamento remoto, consulte [Configurar armazenamento remoto](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=pt-BR) no _Guia de configuração_.
+Para obter mais informações sobre como habilitar e gerenciar o módulo de Armazenamento remoto, consulte [Configurar armazenamento remoto](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage) no _Guia de configuração_.
 
 >[!NOTE]
 >

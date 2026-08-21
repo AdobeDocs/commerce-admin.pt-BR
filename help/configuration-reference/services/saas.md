@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 238
-ht-degree: 2%
+source-wordcount: 246
+ht-degree: 4%
 
 ---
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Para saber como conectar sua loja aos serviços da Adobe Commerce, consulte [Serviços da Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=pt-BR).
+Para saber como conectar sua loja aos serviços da Adobe Commerce, consulte [Serviços da Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/integration-services/saas).
 
 {{config}}
 
@@ -60,7 +60,7 @@ Para saber como conectar sua loja aos serviços da Adobe Commerce, consulte [Ser
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Project] | Global | Nome do projeto SaaS que agrupa todos os espaços de dados SaaS. O botão _Criar projeto_ será exibido se não houver nenhum projeto SaaS. |
-| [!UICONTROL Data Space] | Global | Lista os espaços de dados SaaS no projeto SaaS especificado. O número de espaços de dados SaaS depende da sua [licença do Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=pt-BR):<br />Adobe Commerce - Um espaço de dados de produção; dois espaços de dados de teste;<br />Magento Open Source - Um espaço de dados de produção; sem espaços de dados de teste |
+| [!UICONTROL Data Space] | Global | Lista os espaços de dados SaaS no projeto SaaS especificado. O número de espaços de dados SaaS depende da sua [licença do Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/integration-services/saas):<br />Adobe Commerce - Um espaço de dados de produção; dois espaços de dados de teste;<br />Magento Open Source - Um espaço de dados de produção; sem espaços de dados de teste |
 
 {style="table-layout:auto"}
 

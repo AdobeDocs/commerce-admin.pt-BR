@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1041
+source-wordcount: 1029
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Se outros membros da equipe ou provedores de serviços precisarem de acesso, voc
 
 >[!NOTE]
 >
->Os comerciantes do Adobe Commerce que têm um Adobe ID e desejam um logon simplificado para produtos Adobe Commerce e Adobe Business podem integrar a autenticação do Commerce ao fluxo de trabalho de autenticação do Adobe IMS. Depois que essa integração for ativada para a loja da Commerce, cada usuário administrador deverá usar suas credenciais da Adobe, e não as credenciais da Commerce, para fazer logon. Consulte [Visão Geral da Integração do Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=pt-BR).
+>Os comerciantes do Adobe Commerce que têm um Adobe ID e desejam um logon simplificado para produtos Adobe Commerce e Adobe Business podem integrar a autenticação do Commerce ao fluxo de trabalho de autenticação do Adobe IMS. Depois que essa integração for ativada para a loja da Commerce, cada usuário administrador deverá usar suas credenciais da Adobe, e não as credenciais da Commerce, para fazer logon. Consulte [Visão Geral da Integração do Adobe Identity Management Service (IMS)](/help/getting-started/adobe-ims-integration-overview.md).
 
 Para usuários ou funções temporários, também é possível definir uma data de expiração para a conta de usuário.
 
@@ -60,9 +60,9 @@ Para usuários ou funções temporários, também é possível definir uma data 
 
    - Preencha as seguintes informações:
 
-      - **[!UICONTROL First Name]**
-      - **[!UICONTROL Last Name]**
-      - **[!UICONTROL Email address]**
+     - **[!UICONTROL First Name]**
+     - **[!UICONTROL Last Name]**
+     - **[!UICONTROL Email address]**
 
      Cada conta de usuário deve ter um endereço de email exclusivo.
 

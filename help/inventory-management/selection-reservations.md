@@ -4,26 +4,15 @@ description: Saiba como o Algoritmo de Seleção da Source e as reservas mantêm
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/x3UFGWtRSiodcnEF4Di3yFmR8GY8xoHSvVVsDg-J-qY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2026-06-03
-source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2178
+source-wordcount: 2179
 ht-degree: 0%
 
 ---
@@ -104,7 +93,7 @@ Em vez de deduzir ou adicionar imediatamente quantidades de inventário de produ
 
 >[!NOTE]
 >
->[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} O recurso de reserva requer que o consumidor da fila de mensagens `inventory.reservations.updateSalabilityStatus` seja executado continuamente. Para verificar se está em execução, use o comando `bin/magento queue:consumers:list`. Se o consumidor da fila de mensagens não estiver listado, inicie-o: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."} O recurso de reserva requer que o consumidor da fila de mensagens `inventory.reservations.updateSalabilityStatus` seja executado continuamente. Para verificar se está em execução, use o comando `bin/magento queue:consumers:list`. Se o consumidor da fila de mensagens não estiver listado, inicie-o: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Reservas de ordem
 
@@ -209,7 +198,7 @@ Os três valores `quantity` somam até 0 (-25 + 5 + 20). O sistema não modifica
 
 O trabalho cron `inventory_cleanup_reservations` executa consultas SQL para limpar a tabela de banco de dados de reservas. Por padrão, ele é executado diariamente à meia-noite, mas você pode configurar os horários e a frequência. O trabalho cron executa um script que consulta o banco de dados para localizar sequências de reserva completas nas quais a soma dos valores de quantidade é 0. Quando todas as reservas de um determinado produto originadas no mesmo dia (ou outro horário configurado) forem compensadas, o trabalho cron excluirá as reservas de uma só vez.
 
-O trabalho cron `inventory_reservations_cleanup` não é o mesmo que o consumidor da fila de mensagens `inventory.reservations.cleanup`. O consumidor exclui de forma assíncrona as reservas por SKU de produto depois que um produto é removido, enquanto o trabalho cron apaga toda a tabela de reservas. O consumidor é necessário ao habilitar a opção de estoque [**Sincronizar com Catálogo**](../configuration-reference/catalog/inventory.md) na configuração do armazenamento. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=pt-BR){target="_blank"} no _Guia de Configuração_.
+O trabalho cron `inventory_reservations_cleanup` não é o mesmo que o consumidor da fila de mensagens `inventory.reservations.cleanup`. O consumidor exclui de forma assíncrona as reservas por SKU de produto depois que um produto é removido, enquanto o trabalho cron apaga toda a tabela de reservas. O consumidor é necessário ao habilitar a opção de estoque [**Sincronizar com Catálogo**](../configuration-reference/catalog/inventory.md) na configuração do armazenamento. Consulte [Gerenciar filas de mensagens](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues){target="_blank"} no _Guia de Configuração_.
 
 Muitas vezes, todas as reservas iniciais produzidas em um único dia não podem ser compensadas nesse mesmo dia. Essa situação pode ocorrer quando um cliente faz um pedido antes do início da tarefa cron ou realiza a compra com um método de pagamento offline, como uma transferência bancária. As sequências de reserva compensadas permanecem no banco de dados até que todas sejam compensadas. Essa prática não interfere nos cálculos de reserva, pois o total de cada reserva é 0.
 

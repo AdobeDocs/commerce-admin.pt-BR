@@ -5,9 +5,9 @@ breadcrumb-title: Guia de sistemas do administrador
 role: Admin, Leader
 feature: System
 nudge: true
-source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '204'
 ht-degree: 4%
 
 ---
@@ -19,65 +19,65 @@ ht-degree: 4%
 - [Introdução aos sistemas de administração](introduction.md)
 - [Menu [!UICONTROL System]](system-menu.md)
 - Contas de usuário administrador {#user-accounts}
-   - [Permissões de administrador](permissions.md)
-   - [Gerenciar contas de usuário](permissions-users-all.md)
-   - [Funções do usuário](permissions-user-roles.md)
+  - [Permissões de administrador](permissions.md)
+  - [Gerenciar contas de usuário](permissions-users-all.md)
+  - [Funções do usuário](permissions-user-roles.md)
 - [Notificações do sistema](notifications.md)
 - Variáveis {#variables}
-   - [Variáveis predefinidas](variables-predefined.md)
-   - [Variáveis personalizadas](variables-custom.md)
-   - [Referência de variáveis](variables-reference.md)
-   - [Tags de marcação](markup-tags.md)
+  - [Variáveis predefinidas](variables-predefined.md)
+  - [Variáveis personalizadas](variables-custom.md)
+  - [Referência de variáveis](variables-reference.md)
+  - [Tags de marcação](markup-tags.md)
 - Comunicações {#communications}
-   - [Modelos de email](email-templates.md)
-   - [Personalizar modelos de email](email-template-custom.md)
-   - [Configurar email](email-communications.md)
+  - [Modelos de email](email-templates.md)
+  - [Personalizar modelos de email](email-template-custom.md)
+  - [Configurar email](email-communications.md)
 - Transferência de dados {#data-transfer}
-   - [Visão geral](data-transfer.md)
-   - [Arquivos CSV](data-csv.md)
-   - Importar {#import}
-      - [Processo de importação](data-import.md)
-      - [Imagens do produto](data-import-product-images.md)
-   - [Exportar](data-export.md)
-   - [Referência de atributos de dados do produto](data-attributes-product.md)
-   - [Referência de atributos de dados do cliente](data-attributes-customer.md)
-   - [Atualizar dados de alíquota de imposto](data-transfer-tax-rates.md)
-   - Exemplos {#examples}
-      - [Importar produtos do pacote](data-transfer-bundle-products.md)
-      - [Importar produtos configuráveis](data-transfer-configurable-products.md)
-      - [Importar produtos baixáveis](data-transfer-downloadable-products.md)
-      - [Importar dados de preço de camada](data-import-price-tier.md)
-   - [Importação e exportação programadas](data-scheduled-import-export.md)
-   - Sincronização de dados para serviços do Commerce {#data-sync}
-      - [Painel de gerenciamento de dados](data-dashboard.md)
-      - [Status de sincronização do feed de dados](data-feed-sync-status.md)
+  - [Visão geral](data-transfer.md)
+  - [Arquivos CSV](data-csv.md)
+  - Importar {#import}
+    - [Processo de importação](data-import.md)
+    - [Imagens do produto](data-import-product-images.md)
+  - [Exportar](data-export.md)
+  - [Referência de atributos de dados do produto](data-attributes-product.md)
+  - [Referência de atributos de dados do cliente](data-attributes-customer.md)
+  - [Atualizar dados de alíquota de imposto](data-transfer-tax-rates.md)
+  - Exemplos {#examples}
+    - [Importar produtos do pacote](data-transfer-bundle-products.md)
+    - [Importar produtos configuráveis](data-transfer-configurable-products.md)
+    - [Importar produtos baixáveis](data-transfer-downloadable-products.md)
+    - [Importar dados de preço de camada](data-import-price-tier.md)
+  - [Importação e exportação programadas](data-scheduled-import-export.md)
+  - Sincronização de dados para serviços do Commerce {#data-sync}
+    - [Painel de gerenciamento de dados](data-dashboard.md)
+    - [Status de sincronização do feed de dados](data-feed-sync-status.md)
 - Logs de ação {#action-logs}
-   - [Visão geral](action-log.md)
-   - [Relatório de logs de ação](action-log-report.md)
-   - [Arquivamento de log](action-log-archive.md)
-   - [Ações em massa](action-log-bulk-actions.md)
+  - [Visão geral](action-log.md)
+  - [Relatório de logs de ação](action-log-report.md)
+  - [Arquivamento de log](action-log-archive.md)
+  - [Ações em massa](action-log-bulk-actions.md)
 - Configurações e ferramentas do sistema {#tools}
-   - [Gerenciamento de cache](cache-management.md)
-   - [Gerenciamento de índice](index-management.md)
-   - [Backups do sistema](backups.md)
-   - [Cron (tarefas agendadas)](cron.md)
-   - [Ferramentas do desenvolvedor](developer-tools.md)
-   - [Ferramentas de suporte](support.md)
+  - [Gerenciamento de cache](cache-management.md)
+  - [Gerenciamento de índice](index-management.md)
+  - [Backups do sistema](backups.md)
+  - [Cron (tarefas agendadas)](cron.md)
+  - [Ferramentas do desenvolvedor](developer-tools.md)
+  - [Ferramentas de suporte](support.md)
 - [Integrações](integrations.md)
 - Segurança {#security}
-   - [Visão geral](security.md)
-   - [Chave de criptografia](encryption-key.md)
-   - [Verificação de segurança](security-scan.md)
-   - [Configurar a segurança do administrador](security-admin.md)
-   - CAPTCHA {#captcha}
-      - [CAPTCHA padrão](security-captcha.md)
-      - [Google reCAPTCHA V3 e V2](security-google-recaptcha.md)
-      - [Google reCAPTCHA Enterprise](security-google-recaptcha-enterprise.md)
-   - Autenticação de dois fatores (2FA) {#tfa}
-      - [Visão geral](security-two-factor-authentication.md)
-      - [Configuração de conta de usuário para 2FA](security-two-factor-authentication-use.md)
-      - [Gerenciar 2FA](security-two-factor-authentication-manage.md)
-   - [Gerenciamento de sessão](security-session-management.md)
-   - [Detecção de recursos do navegador](security-browser-capabilities-detection.md)
-   - [Relatórios de problemas de segurança](security-issue-reporting.md)
-- [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR)
+  - [Visão geral](security.md)
+  - [Chave de criptografia](encryption-key.md)
+  - [Verificação de segurança](security-scan.md)
+  - [Configurar a segurança do administrador](security-admin.md)
+  - CAPTCHA {#captcha}
+    - [CAPTCHA padrão](security-captcha.md)
+    - [Google reCAPTCHA V3 e V2](security-google-recaptcha.md)
+    - [Google reCAPTCHA Enterprise](security-google-recaptcha-enterprise.md)
+  - Autenticação de dois fatores (2FA) {#tfa}
+    - [Visão geral](security-two-factor-authentication.md)
+    - [Configuração de conta de usuário para 2FA](security-two-factor-authentication-use.md)
+    - [Gerenciar 2FA](security-two-factor-authentication-manage.md)
+  - [Gerenciamento de sessão](security-session-management.md)
+  - [Detecção de recursos do navegador](security-browser-capabilities-detection.md)
+  - [Relatórios de problemas de segurança](security-issue-reporting.md)
+- [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

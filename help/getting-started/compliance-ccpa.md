@@ -4,29 +4,13 @@ description: Saiba mais sobre a California Consumer Privacy Act (CCPA), que ampl
 exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
 TQID: https://experienceleague.adobe.com/pqTJ5J1--DNbzAWJkZsc1mM9QTFr39kIJ7cxZrjD9eo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-subfeature_v2:
-  - id: ac9e9756-fd8b-40d8-b18a-f0b36d83b5ac
-  - id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0
+subfeature_v2: id: ac9e9756-fd8b-40d8-b18a-f0b36d83b5acid: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 2309
 ht-degree: 0%
@@ -134,8 +118,8 @@ Faça o inventário de suas propriedades digitais, incluindo todas as integraç�
 
 1. Consulte os seguintes tópicos para obter diagramas de fluxo de dados aplicáveis e mapeamentos de entidade de banco de dados para cada versão:
 
-   - [Referência de informações pessoais (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=pt-BR)
-   - [Referência de informações pessoais (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=pt-BR)
+   - [Referência de informações pessoais (2.x)](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m2)
+   - [Referência de informações pessoais (1.x)](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m1)
 
    ![diagrama](./assets/privacy-frontend-diagram.svg)
 
@@ -169,8 +153,8 @@ Os comerciantes são responsáveis por fazer o seguinte:
 
    - **Solicitações para excluir**
 
-      - Os comerciantes cujas lojas estão hospedadas na Adobe Commerce Cloud devem entrar em contato com o Suporte da Adobe para obter assistência na exclusão de informações pessoais. Entre em contato com o Gerente técnico de conta da Adobe ou com o Suporte ao cliente para obter mais informações.
-      - Os comerciantes que executam instalações do Adobe Commerce ou Magento Open Source no local devem implementar seu próprio processo e script para excluir informações pessoais, mediante solicitação.
+     - Os comerciantes cujas lojas estão hospedadas na Adobe Commerce Cloud devem entrar em contato com o Suporte da Adobe para obter assistência na exclusão de informações pessoais. Entre em contato com o Gerente técnico de conta da Adobe ou com o Suporte ao cliente para obter mais informações.
+     - Os comerciantes que executam instalações do Adobe Commerce ou Magento Open Source no local devem implementar seu próprio processo e script para excluir informações pessoais, mediante solicitação.
 
 #### Etapa 5: gravar o conteúdo para as notificações do cliente necessárias
 
@@ -186,12 +170,12 @@ Os comerciantes são responsáveis por fazer o seguinte:
 
    - **Como Enviar uma Solicitação para Coleta e Uso de Informações Pessoais**: instruções para pessoas físicas enviarem uma solicitação para que você divulgue as informações pessoais coletadas sobre elas, incluindo:
 
-      - Partes específicas de informações pessoais que você coletou sobre o consumidor
-      - Categorias de informações pessoais que você coletou sobre o consumidor
-      - Categorias de fontes de onde as informações pessoais são coletadas
-      - Categorias de informações pessoais sobre o consumidor que você vendeu ou divulgou para um objetivo comercial
-      - Categorias de terceiros a quem as informações pessoais foram vendidas ou divulgadas para fins comerciais
-      - Os motivos pelos quais sua empresa coleta e/ou vende informações pessoais
+     - Partes específicas de informações pessoais que você coletou sobre o consumidor
+     - Categorias de informações pessoais que você coletou sobre o consumidor
+     - Categorias de fontes de onde as informações pessoais são coletadas
+     - Categorias de informações pessoais sobre o consumidor que você vendeu ou divulgou para um objetivo comercial
+     - Categorias de terceiros a quem as informações pessoais foram vendidas ou divulgadas para fins comerciais
+     - Os motivos pelos quais sua empresa coleta e/ou vende informações pessoais
 
 1. Envie o conteúdo para a equipe e, se possível, seu advogado para análise.
 
@@ -215,9 +199,9 @@ Analise sua política de privacidade atual e considere se alguma divulgação ad
 
 - **Idade de Consentimento**: se você coletar ou usar informações pessoais sobre menores, poderá estar sujeito aos seguintes requisitos:
 
-   - **Menores &lt; 13**: é necessária autorização dos pais para que menores de 13 anos aceitem a venda de suas informações pessoais.
+  - **Menores &lt; 13**: é necessária autorização dos pais para que menores de 13 anos aceitem a venda de suas informações pessoais.
 
-   - **Menores de 13 anos a &lt; 16**: menores de 13 anos e menos de 16 anos podem optar pela venda de suas informações pessoais, desde que a empresa estabeleça um processo razoável para documentar a ação. O processo deve ser descrito na [política de privacidade](privacy-policy.md) da empresa. Quando uma empresa recebe pedidos de menores nesta faixa etária, deve informá-los do seu direito de opt out posteriormente e explicar como fazê-lo.
+  - **Menores de 13 anos a &lt; 16**: menores de 13 anos e menos de 16 anos podem optar pela venda de suas informações pessoais, desde que a empresa estabeleça um processo razoável para documentar a ação. O processo deve ser descrito na [política de privacidade](privacy-policy.md) da empresa. Quando uma empresa recebe pedidos de menores nesta faixa etária, deve informá-los do seu direito de opt out posteriormente e explicar como fazê-lo.
 
   >[!IMPORTANT]
   >

@@ -4,22 +4,12 @@ description: Saiba como configurar a pesquisa no catálogo para sua loja.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
 TQID: https://experienceleague.adobe.com/8--7GCHftJl4i1oLVSQqII9Odv-mOXOqrdIyyXmGwrE
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
 source-wordcount: 834
 ht-degree: 0%
@@ -28,11 +18,11 @@ ht-degree: 0%
 
 # Configurar pesquisa no catálogo
 
-Há duas variações da configuração da Pesquisa no catálogo. O primeiro método descreve as configurações disponíveis quando o [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=pt-BR) é instalado. O segundo método descreve as definições de configuração do Adobe Commerce nativo com [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=pt-BR){:target="_blank"}.
+Há duas variações da configuração da Pesquisa no catálogo. O primeiro método descreve as configurações disponíveis quando o [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) é instalado. O segundo método descreve as definições de configuração do Adobe Commerce nativo com [OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview){:target="_blank"}.
 
 >[!NOTE]
 >
->Para projetos de infraestrutura em nuvem, consulte instruções adicionais no [_Guia do Commerce on Cloud Infrastructure_](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/service/opensearch).
+>Para projetos de infraestrutura em nuvem, consulte instruções adicionais no [_Guia do Commerce on Cloud Infrastructure_](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/opensearch).
 
 ## Método 1: Adobe Commerce com [!DNL Live Search]
 
@@ -52,7 +42,7 @@ Há duas variações da configuração da Pesquisa no catálogo. O primeiro mét
 
    O valor padrão é `100`. Inserir um valor de `0` armazena em cache todos os termos e resultados da pesquisa quando inseridos uma segunda vez.
 
-1. Para alterar o número máximo de linhas disponíveis para os resultados retornados no [pop-up da vitrine](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=pt-BR), digite um valor **[!UICONTROL Autocomplete Limit]** diferente.
+1. Para alterar o número máximo de linhas disponíveis para os resultados retornados no [pop-up da vitrine](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview), digite um valor **[!UICONTROL Autocomplete Limit]** diferente.
 
    A restrição do número de linhas melhora o desempenho das pesquisas e reduz o tamanho da lista retornada. O valor padrão é `8` linhas.
 
@@ -60,7 +50,7 @@ Há duas variações da configuração da Pesquisa no catálogo. O primeiro mét
 
 >[!IMPORTANT]
 >
->- Devido ao anúncio do fim do suporte do [!DNL Elasticsearch 7] para agosto de 2023, é recomendável que todos os clientes do Adobe Commerce migrem para o mecanismo de pesquisa OpenSearch 2.x. Para obter informações sobre como migrar o mecanismo de pesquisa durante a atualização do produto, consulte [Migrando para o OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=pt-BR) no _Guia de Atualização_.
+>- Devido ao anúncio do fim do suporte do [!DNL Elasticsearch 7] para agosto de 2023, é recomendável que todos os clientes do Adobe Commerce migrem para o mecanismo de pesquisa OpenSearch 2.x. Para obter informações sobre como migrar o mecanismo de pesquisa durante a atualização do produto, consulte [Migrando para o OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) no _Guia de Atualização_.
 >- Nas versões 2.4.4 e 2.4.3-p2, todos os campos rotulados como Elasticsearch também se aplicam ao OpenSearch. Quando o suporte para o Elasticsearch 8.x foi introduzido na versão 2.4.6, novos rótulos foram criados para distinguir entre as configurações do Elasticsearch e do OpenSearch. No entanto, as opções de configuração de ambos são as mesmas.
 
 ### Etapa 1: configurar opções gerais de pesquisa

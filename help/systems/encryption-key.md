@@ -4,25 +4,16 @@ description: Saiba como alterar sua própria chave de criptografia, o que deve s
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/jC0eV49rzff4ZZ0idMG4ChWZh80Yz43ZTmZ9CjYFhnk
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 536
 ht-degree: 0%
 
 ---
@@ -31,13 +22,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Se você tentou concluir essas etapas e está com problemas, consulte o artigo da Base de Dados de Conhecimento [Solução de Problemas de Rotação de Chaves de Criptografia: CVE-2024-34102](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102).
+>Se você tentou concluir essas etapas e está com problemas, consulte o artigo da Base de Dados de Conhecimento [Solução de Problemas de Rotação de Chaves de Criptografia: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27134).
 
 A Adobe Commerce e a Magento Open Source usam uma chave de criptografia para proteger senhas e outros dados confidenciais. Um algoritmo [!DNL ChaCha20-Poly1305] padrão do setor é usado com uma chave de 256 bits para criptografar todos os dados que exigem criptografia. Isso inclui dados de cartão de crédito e senhas de integração (módulo de pagamento e envio). Além disso, um algoritmo de hash seguro forte (SHA-256) é usado para executar o hash de todos os dados que não exigem descriptografia.
 
 Durante a instalação inicial, você será solicitado a permitir que o Commerce gere uma chave de criptografia ou a inserir uma de sua preferência. A ferramenta encryption key permite alterar a chave conforme necessário. A chave de criptografia deve ser alterada regularmente para melhorar a segurança e, a qualquer momento, a chave original pode ser comprometida.
 
-Para obter informações técnicas, consulte [Instalação avançada local](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=pt-BR) no _Guia de Instalação_ e [Nova criptografia de dados](https://developer.adobe.com/commerce/php/development/security/data-encryption/) no _Guia do Desenvolvedor do PHP_.
+Para obter informações técnicas, consulte [Instalação avançada local](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced) no _Guia de Instalação_ e [Nova criptografia de dados](https://developer.adobe.com/commerce/php/development/security/data-encryption) no _Guia do Desenvolvedor do PHP_.
 
 >[!IMPORTANT]
 >
@@ -49,7 +40,7 @@ Para obter informações técnicas, consulte [Instalação avançada local](http
 
 As instruções a seguir exigem acesso a um terminal.
 
-1. Habilitar [modo de manutenção](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
+1. Habilitar [modo de manutenção](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
 
    ```bash
    bin/magento maintenance:enable
@@ -85,7 +76,7 @@ As instruções a seguir exigem acesso a um terminal.
    encryption:key:change Change the encryption key inside the env.php file.
    ```
 
-   Se você vir essa saída, execute o seguinte comando da CLI e verifique se ele foi concluído sem erros. Se você precisar criptografar novamente determinados valores de configuração do sistema ou campos de pagamento, consulte o [guia detalhado sobre criptografia](https://developer.adobe.com/commerce/php/development/security/data-encryption/) no _Guia de Desenvolvimento do PHP_.
+   Se você vir essa saída, execute o seguinte comando da CLI e verifique se ele foi concluído sem erros. Se você precisar criptografar novamente determinados valores de configuração do sistema ou campos de pagamento, consulte o [guia detalhado sobre criptografia](https://developer.adobe.com/commerce/php/development/security/data-encryption) no _Guia de Desenvolvimento do PHP_.
 
    ```bash
    bin/magento encryption:key:change

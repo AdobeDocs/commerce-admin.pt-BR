@@ -6,7 +6,7 @@ role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: c67474ee4b72744766421090e30c56c85d687495
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 5%
@@ -69,4 +69,4 @@ ht-degree: 5%
 + Referência {#reference}
   + [Alterações incompatíveis com versões anteriores](backward-incompatible-changes.md)
   + [Pacotes](packages.md)
-+ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

@@ -4,7 +4,7 @@ user-guide-description: Informações abrangentes sobre recursos de gerenciament
 breadcrumb-title: Gerenciamento de catálogo
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: c67474ee4b72744766421090e30c56c85d687495
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -99,4 +99,4 @@ ht-degree: 1%
     + [Criar e excluir atributos](attribute-product-create.md)
     + [Atualizações em massa](bulk-product-attribute-update.md)
     + [Conjuntos de atributos](attribute-sets.md)
-+ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

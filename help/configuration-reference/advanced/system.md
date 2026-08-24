@@ -6,11 +6,21 @@ role: Admin, Developer
 feature: Configuration, System
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2026-08-20
 source-git-commit: b121ee17ac10cfc992f8797d161ec06764322ea1
 workflow-type: tm+mt
@@ -161,8 +171,8 @@ Para obter mais informações sobre como alterar essas configurações, consulte
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Global | Determina se a instância do Commerce permite backups. Opções: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Global | (Exibido quando _[!UICONTROL Enable Backup]_está definido como `Yes`.) Determina se o backup da instância do Commerce é feito automaticamente em uma programação regular. Opções: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Global | (Exibido quando _[!UICONTROL Enable Scheduled Backup]_está definido como `Yes`.) Determina os elementos da instância do Commerce incluídos no backup. Opções: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Exibido quando _[!UICONTROL Enable Backup]_&#x200B;está definido como `Yes`.) Determina se o backup da instância do Commerce é feito automaticamente em uma programação regular. Opções: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Exibido quando _[!UICONTROL Enable Scheduled Backup]_&#x200B;está definido como `Yes`.) Determina os elementos da instância do Commerce incluídos no backup. Opções: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definido como `Yes`.) Especifica a hora, os minutos e o segundo em que o backup agendado começa. |
 | [!UICONTROL Frequency] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definido como `Yes`.) Determina com que frequência o backup programado ocorre. Opções: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | Global | (Exibido quando [!UICONTROL Enable Scheduled Backup] está definido como `Yes`.) Determina se o armazenamento é colocado em modo de manutenção durante o backup programado. Opções: `Yes` / `No` |

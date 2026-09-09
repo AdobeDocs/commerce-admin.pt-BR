@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: efbe6e4f07ff66b2deb91127b4f69eca5e4015f1
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1168
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ As regras de produto de categoria podem acelerar o processo de atribuição de p
   >A quantidade de um produto configurável com opções filho é calculada combinando todas as quantidades de produtos filho dimensionáveis. Considere um exemplo em que você tem um produto configurável _Repositório Básico_ com opções de cor roxa, vermelha e amarela e quantidades diferentes de cada um. Nesse caso, a quantidade do produto principal (Tanque de condicionamento básico) é a quantidade comercializável combinada dos produtos secundários de cor roxa, vermelha e amarela.
 
 - **[!UICONTROL Operator]** - Especifica o operador que é aplicado ao valor do atributo para atender à condição. A menos que um operador seja especificado, `Equal` é usado como padrão. Opções: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to` e `Contains`
+
+  O operador **[!UICONTROL Contains]** aceita vários valores separados por vírgula e corresponde se o valor do atributo contém pelo menos um deles, semelhante a uma operação OR lógica. Por exemplo, **[!UICONTROL Contains]**: `casual, party` corresponde a qualquer valor que contenha `casual` ou `party`.
+
+  Use esse operador para combinar vários termos em uma linha de regra, em vez de criar uma linha separada para cada termo.
 
 - **[!UICONTROL Value]** - Especifica o valor que o atributo deve ter para atender à condição.
 

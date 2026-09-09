@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 757
 ht-degree: 1%
 
 ---
@@ -92,6 +92,13 @@ Configure as opções de configuração padrão de produto e estoque para seus s
      Por exemplo, um item vendido em incrementos de seis pode ser comprado em quantidades de `6`, `12`, `18` e assim por diante.
 
    - Para [!DNL Inventory Management], **[!UICONTROL Automatically Return Credit Memo Item to Stock]** está definido como `No`. Ao submeter um aviso de crédito, você informa e seleciona para retornar o estoque às origens.
+
+1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Per-Source Availability (Storefront)]** e defina **[!UICONTROL Enable sourceAvailability GraphQL Query]** como `Yes` para permitir a consulta de vitrine por dados de estoque de origem usando a consulta de GraphQL [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"}. Esta configuração tem escopo por exibição de loja.
+
+   >[!NOTE]
+   >
+   >A consulta `sourceAvailability` está desabilitada por padrão porque ela revela quais fontes estocam um SKU. Quantidades exatas permanecem mascaradas até que a quantidade de origem atinja o **[!UICONTROL Only X left Threshold]** definido na seção _[!UICONTROL Stock Options]_. Cada origem de estoque tem um sinalizador **[!UICONTROL Visible on Storefront]**&#x200B;que está desativado por padrão. O estoque de uma origem nunca é devolvido até que um comerciante o habilite. Para defini-lo, vá para **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, edite uma origem e ative o **[!UICONTROL Visible on Storefront]**.
+
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Admin bulk operations]** e defina as opções:
 

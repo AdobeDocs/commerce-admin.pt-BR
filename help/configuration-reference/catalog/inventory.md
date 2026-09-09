@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: 449593264c88c9090b26ffbc8e87a8d70d4cbfe9
 workflow-type: tm+mt
-source-wordcount: 1224
+source-wordcount: 1296
 ht-degree: 0%
 
 ---
@@ -69,6 +69,18 @@ ht-degree: 0%
 | [!UICONTROL Enable Qty Increments] | Global | Determina se os itens podem ser vendidos em incrementos de quantidade. Opções: `Yes` / `No` |
 | [!UICONTROL Qty Increments] | Global | Estabelece o número de produtos que compõem um incremento de quantidade. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | Global | Determina se os itens incluídos nos avisos de crédito são automaticamente devolvidos ao inventário. Opções: `Yes` / `No` |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Per-Source Availability (Storefront)]
+
+![Disponibilidade Por Source (Storefront)](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
+
+<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/configuration/global-options) -->
+
+| Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
+|--- |--- |--- |
+| [!UICONTROL Enable sourceAvailability GraphQL Query] | Exibição da loja | Se definida como `Yes`, a consulta de [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} da loja retorna o estoque por origem para o canal de vendas da loja. Opções: `Yes` / `No`. Padrão: `No`, pois a consulta revela quais fontes estocam um SKU. Quando desabilitada, a consulta retorna um erro. Quantidades exatas retornadas pela consulta permanecem mascaradas até que a quantidade de origem atinja o **[!UICONTROL Only X left Threshold]** definido na seção [Opções de Ações](#stock-options). |
 
 {style="table-layout:auto"}
 

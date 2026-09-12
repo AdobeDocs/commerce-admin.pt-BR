@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5de2260c4c7324a509aa0f4154220b7ff8bedd73
+source-git-commit: 7023d4aafdb2e44da3b5b00a66f0bf6285ea8890
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
@@ -73,28 +73,6 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
         Atualização importante, novo tópico
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">confirmar</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 9 de julho de 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrição</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adição do <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/products/catalog-enrichment">Enriquecimento do catálogo</a> com orientação para revisar e aplicar atualizações de nome e descrição do produto sugeridas pela IA no Administrador, e vinculação do tópico a partir do <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/catalog-menu">menu Catálogo</a>, da <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/guide-overview">visão geral do guia</a> e dos tópicos relacionados de configurações do produto.</p>
-</td>
-      <td>
-        Novo tópico
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">confirmar</a></td>
     </tr>
   </tbody>
 </table>

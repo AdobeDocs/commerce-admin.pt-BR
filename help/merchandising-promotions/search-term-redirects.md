@@ -46,7 +46,7 @@ Use a orientação a seguir para identificar o recurso que corresponde aos seus 
 | Requisito | Capacidade recomendada |
 | --- | --- |
 | Enviar uma consulta específica da pesquisa padrão [!DNL Adobe Commerce] para uma página | Configure um termo de pesquisa em [Gerenciar termos de pesquisa](../catalog/search-terms.md), onde houver suporte. |
-| Alterar a classificação ou a visibilidade do produto nos resultados da pesquisa | Use [!DNL Live Search] [sinônimos](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms) ou [regras de comercialização](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add). |
+| Alterar a classificação ou a visibilidade do produto nos resultados da pesquisa | Use [!DNL Live Search] [sinônimos](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-admin/synonyms/synonyms) ou [regras de comercialização](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-admin/rules/rules-add). |
 | Redirecionar um produto, categoria ou URL do CMS antigo | Use a ferramenta [Reescrita de URL](url-rewrite.md) do Commerce quando ela se aplicar à sua implantação. |
 | Redirecionar um caminho [!DNL Edge Delivery Services] | Use o roteamento de vitrine ou CDN. |
 | Preservar URLs herdados após a migração de uma loja | Crie e teste um mapa de redirecionamento de URL herdado para novo. |
@@ -83,13 +83,13 @@ Para implantações que oferecem suporte à ferramenta de Reescrita de URL, vá 
 
 Use o [!DNL Live Search] quando precisar alterar a relevância da pesquisa, a classificação do produto ou a visibilidade do produto. Use sinônimos quando palavras diferentes devem retornar produtos semelhantes. Use as regras de merchandising quando os produtos precisarem ser promovidos, enterrados ou classificados de forma diferente.
 
-O comportamento de pesquisa [!DNL Live Search] não deve ser tratado como uma substituição de menu suspenso para cada configuração de termo de pesquisa nativa do Commerce. Quando um query deve navegar para uma página de conteúdo ou campanha, implemente o redirecionamento na camada da vitrine ou do roteamento de borda que recebe a solicitação. Para obter mais informações, consulte a [[!DNL Live Search] documentação](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+O comportamento de pesquisa [!DNL Live Search] não deve ser tratado como uma substituição de menu suspenso para cada configuração de termo de pesquisa nativa do Commerce. Quando um query deve navegar para uma página de conteúdo ou campanha, implemente o redirecionamento na camada da vitrine ou do roteamento de borda que recebe a solicitação. Para obter mais informações, consulte a [[!DNL Live Search] documentação](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview).
 
 ## Edge Delivery Services
 
 Para uma vitrine fornecida por [!DNL Edge Delivery Services], gerencie redirecionamentos na camada de vitrine ou de roteamento de borda. Não suponha que a URL de administrador [!DNL Adobe Commerce] reescreva o controle de cada solicitação.
 
-Ao usar a criação de documentos, mantenha os mapeamentos de redirecionamento na configuração de redirecionamento do site. Para redirecionamentos que devem ser executados antes que uma solicitação atinja a origem, use a configuração apropriada de CDN ou borda. Para obter orientações de SEO relacionadas, consulte [diretrizes de SEO para a Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/).
+Ao usar a criação de documentos, mantenha os mapeamentos de redirecionamento na configuração de redirecionamento do site. Para redirecionamentos que devem ser executados antes que uma solicitação atinja a origem, use a configuração apropriada de CDN ou borda. Para obter orientações de SEO relacionadas, consulte [diretrizes de SEO para a Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=pt-BR).
 
 ## Migrar do Luma
 

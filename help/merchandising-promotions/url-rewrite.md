@@ -3,7 +3,7 @@ title: Substituições de URL
 description: Saiba mais sobre substituições de URL e sobre como usar a ferramenta de regravação de URL do Commerce para alterar URLs associados a um produto, categoria ou página do CMS.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: https://experienceleague.adobe.com/fuILlBHCevV6rfQT-PUiuBPBgWkFXDbFofgde8O5BCM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para o Adobe Commerce as a Cloud Service, consulte as [diretrizes de SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) na documentação da Commerce Storefront
+>Para o Adobe Commerce as a Cloud Service, consulte as [diretrizes de SEO](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=pt-BR) na documentação da Commerce Storefront
 
 A ferramenta de regravação de URL permite alterar qualquer URL associado a um produto, categoria ou página do CMS. Ao criar uma regravação de URL, o Commerce cria automaticamente um redirecionamento permanente (301) para que todos os links que apontem para o URL antigo sejam redirecionados para o novo endereço.
 

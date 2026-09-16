@@ -6,29 +6,40 @@ feature: Storefront
 TQID: https://experienceleague.adobe.com/b8JEobTQ3fDladcIZj5Bt7eaYPN7-p7PsB-siKLITCw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Content reuse
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: 1223
+source-wordcount: '1347'
 ht-degree: 0%
-
 ---
-
 # O que é vitrine eletrônica?
 
 Na implementação do Adobe Commerce ou do Magento Open Source, a loja é a parte externa voltada para o público da loja. Ele fornece o conteúdo e os componentes funcionais que seus clientes usam para comprar e comprar.
@@ -51,7 +62,7 @@ Com a introdução da [!DNL **Commerce Storefront viabilizada pelo Edge Delivery
 
 A Commerce Storefront baseada na Edge Delivery Services oferece vários recursos principais que beneficiam comerciantes e desenvolvedores. Esses recursos permitem que as empresas criem experiências de compra envolventes, mantendo a flexibilidade para personalizar e dimensionar suas vitrines de acordo com suas necessidades.
 
-Para obter informações e orientações mais detalhadas sobre a configuração e otimização da sua Commerce Storefront, consulte a [Documentação da Adobe Commerce Storefront](https://experienceleague.adobe.com/pt-br/docs/commerce).
+Para obter informações e orientações mais detalhadas sobre a configuração e otimização da sua Commerce Storefront, consulte a [Documentação da Adobe Commerce Storefront](https://experienceleague.adobe.com/en/docs/commerce).
 
 >[!BEGINTABS]
 
@@ -100,13 +111,15 @@ Você sabia que as pessoas que usam a pesquisa têm quase duas vezes mais chance
 
 ### [!DNL Live Search]
 
-Com o [[!DNL Live Search]](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview) for Adobe Commerce, sua loja oferece uma experiência de pesquisa rápida, super relevante e intuitiva, e está disponível para o Adobe Commerce sem custo adicional.
+Com o [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) for Adobe Commerce, sua loja oferece uma experiência de pesquisa rápida, super relevante e intuitiva, e está disponível para o Adobe Commerce sem custo adicional.
 
 ![Exemplo do Live Search - pesquisar à medida que você digita](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### Pesquisa de catálogo padrão
 
 Com a [pesquisa de catálogo padrão](../catalog/search.md), sua loja inclui uma caixa Pesquisar no canto superior direito e um link para a Pesquisa avançada no rodapé. Todos os termos de pesquisa enviados pelos compradores são salvos para que você possa ver exatamente o que eles estão procurando. Você pode oferecer sugestões e inserir sinônimos e erros ortográficos comuns. Em seguida, exiba uma página específica quando um termo de pesquisa for inserido.
+
+Para obter orientação sobre redirecionamentos de termos de pesquisa, regravações de URL e roteamento para [!DNL Live Search] ou [!DNL Edge Delivery Services], consulte [Redirecionamentos de termos de pesquisa e roteamento de vitrine](../merchandising-promotions/search-term-redirects.md).
 
 ![Exemplo de resultados de pesquisa de catálogo padrão](./assets/storefront-search-results-page-full.png){width="700"}
 
@@ -129,7 +142,7 @@ O processo de finalização consiste em duas etapas:
 1. Informações de envio
 
    A primeira etapa do processo de finalização da compra é para o cliente completar as informações de endereço de entrega e escolher o método de entrega. Se o cliente tiver uma conta, o endereço de entrega será inserido automaticamente, mas poderá ser alterado se necessário.
-Se um cliente convidado inserir um endereço de email reconhecido como registrado anteriormente, o prompt de entrada será exibido se o campo [!UICONTROL Enable Guest Checkout Login] na configuração de armazenamento estiver definido como `Yes` (consulte [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) no _Guia de Referência de Configuração_). No entanto, essa configuração pode expor as informações do cliente a usuários não autenticados.
+   Se um cliente convidado inserir um endereço de email reconhecido como registrado anteriormente, o prompt de entrada será exibido se o campo [!UICONTROL Enable Guest Checkout Login] na configuração de armazenamento estiver definido como `Yes` (consulte [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) no _Guia de Referência de Configuração_). No entanto, essa configuração pode expor as informações do cliente a usuários não autenticados.
 
    ![Exemplo de página de check-out de vitrine](./assets/storefront-checkout-shipping-full.png){width="700"}
 

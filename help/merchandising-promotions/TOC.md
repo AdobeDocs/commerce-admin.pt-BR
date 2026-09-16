@@ -5,13 +5,11 @@ breadcrumb-title: Merchandising e promoções
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: ef07733f89af030f047576770655f6599b370351
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '282'
 ht-degree: 1%
-
 ---
-
 
 # Guia de merchandising e promoções da Adobe Commerce {#marketing}
 
@@ -74,6 +72,7 @@ ht-degree: 1%
     - [Criar lembretes de email](email-reminder-rules-create.md)
 - Otimização do mecanismo de pesquisa {#seo}
   - [Visão geral e práticas recomendadas da SEO](seo-overview.md)
+  - [Redirecionamentos de termo de pesquisa e roteamento de vitrine eletrônica](search-term-redirects.md)
   - [Dados do Meta](meta-data.md)
   - [Mapas do site](sitemap-xml.md)
   - Substituições de URL {#url-rewrites}
@@ -88,4 +87,4 @@ ht-degree: 1%
   - [Google Analytics](google-analytics.md)
   - [Gerenciador de tags da Google](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
-- [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
+- [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

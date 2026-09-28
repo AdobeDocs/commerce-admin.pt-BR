@@ -1,15 +1,36 @@
 ---
-source-git-commit: 7023d4aafdb2e44da3b5b00a66f0bf6285ea8890
+source-git-commit: 8dae6d26d1c63c95388b082a931361b580eeaf22
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '202'
 ht-degree: 2%
-
 ---
 # Modelo de novidades
 
 ## Novidades
 
 Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos todas as atualizações secundárias, como a edição de cópia, desta lista.
+
+### 23 de setembro de 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrição</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Atualização de <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/sources/sources-add">Adicionar uma origem</a> para incluir o novo botão Visível na vitrine para o Adobe Commerce as a Cloud Service. Cada origem de inventário agora pode ser sinalizada individualmente para visibilidade da loja. As fontes estão ocultas por padrão.</p>
+</td>
+      <td>
+        Atualização importante
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1b3beb5c914dae4c07dd591e9b975c0f35bb23cd">confirmar</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 31 de agosto de 2026
 
@@ -51,28 +72,6 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
         Atualização importante
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">confirmar</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 29 de julho de 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrição</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Saiba como suprimir categorias específicas de emails do sistema automatizado, como notificações de pedidos ou de marketing, diretamente do Administrador em <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/config/services/email-suppression">Supressão de email</a>.</p>
-</td>
-      <td>
-        Atualização importante, novo tópico
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">confirmar</a></td>
     </tr>
   </tbody>
 </table>

@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
+source-git-commit: 9bd9d0a3b3c991236b98b464f8e2be2df37272ac
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%
@@ -144,7 +144,7 @@ Como comerciante, você pode criar uma conta de cliente no Administrador.
 
    >[!INFO]
    >
-   >Depois que a conta do cliente é salva, o conjunto completo de opções é exibido no painel esquerdo e no menu na parte superior da página. A guia _[!UICONTROL Customer View]_&#x200B;exibe um resumo da conta.
+   >Depois que a conta do cliente é salva, o conjunto completo de opções é exibido no painel esquerdo e no menu na parte superior da página. A guia _[!UICONTROL Customer View]_exibe um resumo da conta.
 
    ![Visualização de Cliente](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -175,7 +175,7 @@ Como comerciante, você pode criar uma conta de cliente no Administrador.
 
    Caso contrário, clique em **[!UICONTROL Save and Continue Edit]** e repita as etapas anteriores para adicionar mais endereços.
 
-   O novo endereço é exibido na página [!UICONTROL Addresses] com os endereços _[!UICONTROL Default Billing]_&#x200B;e_[!UICONTROL Default Shipping]_ selecionados acima da lista completa.
+   O novo endereço é exibido na página [!UICONTROL Addresses] com os endereços _[!UICONTROL Default Billing]_e_[!UICONTROL Default Shipping]_ selecionados acima da lista completa.
 
    ![Exibição de endereços](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -197,7 +197,7 @@ Botões adicionais ficam disponíveis quando o perfil é salvo pela primeira vez
 
 | Botão | Descrição |
 |--- |--- |
-| **[!UICONTROL Back]** | Retorna à página _[!UICONTROL Customers]_&#x200B;sem salvar as alterações. |
+| **[!UICONTROL Back]** | Retorna à página _[!UICONTROL Customers]_sem salvar as alterações. |
 | **[!UICONTROL Delete Customer]** | Exclui o cliente atual. Os pedidos concluídos associados ao cliente não são removidos. |
 | **[!UICONTROL Reset]** | Redefine quaisquer alterações não salvas no formulário do cliente para seus valores anteriores. |
 | **[!UICONTROL Create Order]** | Cria um pedido para o cliente. |

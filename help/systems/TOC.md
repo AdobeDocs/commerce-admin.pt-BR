@@ -5,13 +5,11 @@ breadcrumb-title: Guia de sistemas do administrador
 role: Admin, Leader
 feature: System
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: af5848a2337563c3d57109b0bd93495a3ab7def0
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '217'
 ht-degree: 4%
-
 ---
-
 
 # Guia de sistemas do administrador {#systems}
 
@@ -51,6 +49,9 @@ ht-degree: 4%
   - Sincronização de dados para serviços do Commerce {#data-sync}
     - [Painel de gerenciamento de dados](data-dashboard.md)
     - [Status de sincronização do feed de dados](data-feed-sync-status.md)
+    - Sincronização de visualização de catálogo e chaves de acesso {#catalog-view-sync}
+      - [Status de Sincronização da Exibição de Catálogo](catalog-view-sync-status.md)
+      - [Teclas de acesso restrito](restricted-access-keys.md)
 - Logs de ação {#action-logs}
   - [Visão geral](action-log.md)
   - [Relatório de logs de ação](action-log-report.md)
@@ -80,4 +81,4 @@ ht-degree: 4%
   - [Gerenciamento de sessão](security-session-management.md)
   - [Detecção de recursos do navegador](security-browser-capabilities-detection.md)
   - [Relatórios de problemas de segurança](security-issue-reporting.md)
-- [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
+- [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

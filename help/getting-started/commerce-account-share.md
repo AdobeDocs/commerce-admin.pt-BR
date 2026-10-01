@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
+source-git-commit: f9f21f675d5c608547db790f33d1aa9be90a36eb
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -89,7 +89,7 @@ A seção Histórico de cobrança mostra apenas as faturas mais antigas que fora
 
 1. Clique em **[!UICONTROL Create Shared Access]**.
 
-   As novas informações do usuário aparecem na seção _[!UICONTROL Manage Permissions]_&#x200B;da página Acesso Compartilhado, e um convite por email com instruções para acessar a conta compartilhada é enviado ao novo usuário.
+   As novas informações do usuário aparecem na seção _[!UICONTROL Manage Permissions]_da página Acesso Compartilhado, e um convite por email com instruções para acessar a conta compartilhada é enviado ao novo usuário.
 
    ![Gerenciar permissões para acesso compartilhado](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
@@ -103,7 +103,7 @@ As instruções a seguir são escritas da perspectiva de um usuário compartilha
 
 1. Ao receber um convite para uma conta compartilhada, siga as instruções no email para fazer logon em sua própria conta do [!DNL Commerce].
 
-   O painel de navegação esquerdo de sua conta tem uma nova guia _[!UICONTROL Shared with me]_. O controle&#x200B;_[!UICONTROL Switch Accounts]_ no canto superior direito tem opções para `My Account` e o nome da conta compartilhada.
+   O painel de navegação esquerdo de sua conta tem uma nova guia _[!UICONTROL Shared with me]_. O controle_[!UICONTROL Switch Accounts]_ no canto superior direito tem opções para `My Account` e o nome da conta compartilhada.
 
    ![Compartilhado(s) comigo](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
@@ -122,11 +122,11 @@ As instruções a seguir são escritas da perspectiva de um usuário compartilha
 
    ![Suporte](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   Você pode usar a [Central de Ajuda do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/overview) da conta compartilhada para procurar artigos e informações de solução de problemas, encontrar patches para problemas conhecidos e criar tíquetes de suporte.
+   Você pode usar a [Central de Ajuda do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) da conta compartilhada para procurar artigos e informações de solução de problemas, encontrar patches para problemas conhecidos e criar tíquetes de suporte.
 
    >[!NOTE]
    >
-   >Após receber o acesso compartilhado, para [enviar um Caso de suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) no Experience League, selecione primeiro o nome da Organização que termina em &quot;([!DNL Commerce])&quot; na coluna esquerda.
+   >Após receber o acesso compartilhado, para [enviar um Caso de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) no Experience League, selecione primeiro o nome da Organização que termina em &quot;([!DNL Commerce])&quot; na coluna esquerda.
 
 1. Para retornar à sua própria conta, clique em **Voltar** nos controles do navegador e defina **[!UICONTROL Switch Accounts]** como `My Account`.
 
@@ -136,25 +136,24 @@ As instruções a seguir são escritas da perspectiva de um usuário compartilha
 
 1. No painel de navegação esquerdo, clique em **[!UICONTROL Shared Access]**.
 
-1. Localize a conta a ser revogada em _[!UICONTROL Managing Users & Permissions]_&#x200B;e clique em **[!UICONTROL Delete]**.
+1. Localize a conta a ser revogada em _[!UICONTROL Managing Users & Permissions]_e clique em **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
-   > Se **[!UICONTROL Delete]** não for exibido, verifique se **[!UICONTROL Share Name]** contém o padrão de nomenclatura `Cloud Shared Access from MAG0XYZ`. Se a conta tiver esse [padrão de nomenclatura e não puder ser excluída](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users), isso ocorre porque o Acesso Compartilhado foi criado por uma API, e não diretamente da [conta do Commerce](https://account.magento.com/).
-   > 
+   > Se **[!UICONTROL Delete]** não for exibido, verifique se **[!UICONTROL Share Name]** contém o padrão de nomenclatura `Cloud Shared Access from MAG0XYZ`. Se a conta tiver esse [padrão de nomenclatura e não puder ser excluída](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users), isso ocorre porque o Acesso Compartilhado foi criado por uma API, e não diretamente da [conta do Commerce](https://account.magento.com/).
+   >
    > Se não puder ser excluído, basta que o Proprietário da conta modifique a conta de Acesso compartilhado e, em Conceder permissões de conta, desmarque todos os itens. Após essa atualização, o usuário não poderá mais acessar recursos da conta.
    > ![imagem](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
-   > Além disso, remova os usuários do projeto para que eles não recebam mais notificações por email: [Os membros antigos da equipe recebem emails de notificação da nuvem do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > Além disso, remova os usuários do projeto para que eles não recebam mais notificações por email: [Os membros antigos da equipe recebem emails de notificação da nuvem do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. Quando for solicitada a confirmação, clique em **[!UICONTROL Delete User]**.
 
->[!NOTE]
->
->Não é possível excluir usuários com o Nome de Compartilhamento do _Acesso Compartilhado na Nuvem da MAG[XYZ]_ nesta interface. Consulte [Como excluir usuários que receberam acesso compartilhado por meio de um projeto na nuvem?](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
+   >[!NOTE]
+   >
+   >Não é possível excluir usuários com o Nome de Compartilhamento do _Acesso Compartilhado na Nuvem da MAG[XYZ]_ nesta interface. Consulte [Como excluir usuários que receberam acesso compartilhado por meio de um projeto na nuvem?](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
 
 ## Leitura relacionada
 
-[Solução de problemas de Acesso Compartilhado](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
-
+[Solução de problemas de Acesso Compartilhado](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)

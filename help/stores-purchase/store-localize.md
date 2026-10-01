@@ -6,23 +6,28 @@ topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
+    internal-label: Optimization
+source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: '808'
 ht-degree: 0%
-
 ---
-
 # Localização da loja
 
 A maioria do texto que parece ser codificado nas páginas em toda a loja pode ser alterada instantaneamente para um idioma diferente, alterando o local da exibição. Alterar o local não traduz realmente o texto palavra por palavra, mas simplesmente faz referência a uma tabela de tradução diferente que fornece o texto da interface usado em toda a loja. O texto que pode ser alterado inclui títulos de navegação, rótulos, botões e links como _Meu Carrinho_ e _Minha Conta_. Você também pode usar a ferramenta [Tradução sequencial](../configuration-reference/advanced/developer.md) para retocar o texto na interface.
@@ -68,6 +73,8 @@ Siga as instruções padrão para instalar a extensão de pacote de idiomas. Par
    Se houver várias variações do idioma disponível, escolha uma para a região ou dialeto específico.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
+
+   Se o [!DNL Adobe Commerce Optimizer Connector for B2B] estiver instalado, salvar uma alteração de local de exibição invalidará o indexador de sincronização de Exibição de Catálogo. O indexador agendado reprojeta as exibições de catálogo afetadas em [!DNL Adobe Commerce Optimizer] mais tarde. A carga do Modo de Exibição de Catálogo sempre usa o código do Modo de Exibição de Armazenamento para `sources[].locale`, não a localidade de exibição configurada em `general/locale/code`. Consulte [Gerenciar exibições do catálogo](../b2b/catalog-views-manage.md).
 
    Depois de alterar o idioma da localidade, o conteúdo restante que você criou, incluindo nomes de produtos e descrições, categorias, páginas do [CMS](../content-design/page-translate.md) e blocos, deve ser traduzido separadamente para cada exibição da loja.
 

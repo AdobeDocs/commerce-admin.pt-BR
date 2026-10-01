@@ -1,13 +1,11 @@
 ---
 title: Trechos
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
-
 ---
-
 # Trechos
 
 ## Recurso somente EE {#ee-feature}
@@ -69,7 +67,6 @@ Para acessar as definições de configuração de armazenamento, escolha **[!UIC
 >A partir de junho de 2024, os comerciantes do Adobe Commerce não poderão mais transacionar com a integração atual do UPS. Isso ocorre porque as APIs do United Parcel Service (UPS) usadas pela integração nativa do Adobe Commerce atualmente não oferecem suporte ao modelo de segurança OAuth 2.0 necessário. Para habilitar a integração, [crie um aplicativo na plataforma de desenvolvedor do UPS](https://developer.ups.com/get-started) para obter as credenciais necessárias para o OAuth 2.0. Use as novas credenciais como `username` e `password` na configuração de envio do UPS do Commerce. Para saber mais sobre a alteração no modelo de segurança, consulte o [Guia de Migração da Chave de Acesso ao Portal do Desenvolvedor_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
 >Os comerciantes devem [aplicar uma atualização de patch de qualidade](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-27146) ao seu armazenamento para migrar da API do SOAP para a API RESTful, que oferece suporte aos protocolos de autenticação OAuth 2.0.
-
 
 ## Documentação disponível {#docs-links}
 

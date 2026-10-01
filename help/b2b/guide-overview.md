@@ -1,6 +1,6 @@
 ---
 title: Guia do [!DNL Adobe Commerce B2B]
-description: Informações abrangentes para  [!DNL Adobe Commerce B2B]  administradores, incluindo instalação e configuração.
+description: Informações abrangentes para administradores do [!DNL Adobe Commerce B2B], incluindo instalação e configuração.
 breadcrumb-title: Visão geral do Guia
 seo-title: "[!DNL Adobe Commerce B2B] Guide"
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
@@ -9,32 +9,45 @@ feature: B2B
 TQID: https://experienceleague.adobe.com/DmVKfLqoxDuPtYvrvZ7a8Mkt2hz4eCFALej-ie2tafk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: 9ce6906c107bd91a980e9e522e454452b7fca6f8
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: '450'
 ht-degree: 0%
-
 ---
-
 # Guia B2B do Adobe Commerce
 
 Este guia destina-se aos administradores que trabalham no Adobe Commerce Admin. Ela fornece informações detalhadas sobre a instalação e habilitação deste módulo, incluindo a configuração e o gerenciamento de seus recursos. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do [!DNL Commerce].
@@ -54,7 +67,7 @@ Este guia abrange:
 | [Habilitar Recursos Básicos B2B](enable-basic-features.md) | Depois de instalar o [!DNL Adobe Commerce B2B], você deve habilitar os recursos que deseja ativar para sua loja. |
 | [Contas da empresa](account-companies.md) | Saiba mais sobre as contas da empresa e como elas fornecem o elemento principal para fornecer suporte a compradores B2B em sua loja. |
 | [Gerenciamento da Empresa](manage-companies.md) | Saiba como os administradores de site do Commerce B2B podem criar hierarquias de empresa para simplificar o gerenciamento de várias empresas que pertencem à mesma empresa. |
-| [Catálogos compartilhados](catalog-shared.md) | Saiba mais sobre como usar catálogos compartilhados para manter catálogos fechados com preços personalizados para diferentes empresas. |
+| [Catálogos compartilhados](catalog-shared.md) | Saiba mais sobre como usar catálogos compartilhados para manter catálogos privados com preços personalizados para diferentes empresas. Para clientes com o [!DNL Adobe Commerce Optimizer Connector for B2B], saiba como sincronizar catálogos compartilhados B2B para [!DNL Adobe Commerce Optimizer] como exibições de catálogo privado para potencializar experiências de vitrine usando recursos avançados de merchandising. |
 | [Pedidos rápidos](quick-order.md) | Saiba mais sobre a funcionalidade de pedidos rápidos e como habilitá-la para seus clientes. |
 | [Ordens de Compra](purchase-order-flow.md) | Saiba mais sobre os fluxos de trabalho de ordem de compra que permitem que as empresas rastreiem e controlem seus gastos. |
 | [Cotas](quotes.md) | Saiba mais sobre os fluxos de trabalho de cotação e como você pode fornecer esse serviço para as contas da sua empresa. |

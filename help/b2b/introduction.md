@@ -67,10 +67,10 @@ Para obter mais informações, consulte [Gerenciamento da Empresa](manage-compan
 
 Os serviços da Adobe Commerce são serviços hospedados que fornecem recursos estendidos para a Adobe Commerce e a Magento Open Source. Os serviços que oferecem suporte a fluxos de trabalho B2B são:
 
-* [Serviço de catálogo](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-* [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-* [Recomendações de produto](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-* [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+* [Serviço de catálogo](https://experienceleague.adobe.com/pt-br/docs/commerce/catalog-service/guide-overview)
+* [Live Search](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview)
+* [Recomendações de produto](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/guide-overview)
+* [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/pt-br/docs/commerce/aco-optimizer-connector/overview)
 
 O [!DNL Adobe Commerce Optimizer Connector] sincroniza dados de catálogo e preço do Adobe Commerce no [!DNL Adobe Commerce Optimizer] para potencializar a descoberta de produtos orientada por IA, recomendações e lojas headless, enquanto o Adobe Commerce permanece o sistema de registro.
 
@@ -78,7 +78,7 @@ O [!DNL Adobe Commerce Optimizer Connector] sincroniza dados de catálogo e pre�
 >
 >Para comerciantes B2B, o [!DNL Adobe Commerce Optimizer Connector for B2B] sincroniza automaticamente seus catálogos compartilhados no [!DNL Adobe Commerce Optimizer] como exibições de catálogo protegidas, protegidas por chaves de acesso restritas, de modo que a variedade e o preço do produto específico do contrato permaneçam sincronizados entre os dois sistemas.
 
-Para obter mais informações, consulte o [[!DNL Adobe Commerce Optimizer Connector] Guia de Integração](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview).
+Para obter mais informações, consulte o [[!DNL Adobe Commerce Optimizer Connector] Guia de Integração](https://experienceleague.adobe.com/pt-br/docs/commerce/aco-optimizer-connector/overview).
 
 ## Catálogos compartilhados
 

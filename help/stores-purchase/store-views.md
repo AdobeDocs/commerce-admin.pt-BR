@@ -72,7 +72,7 @@ Para habilitar ou desabilitar a sincronização, edite o **[!UICONTROL Adobe Com
 
    ![Criar exibição de repositório - Configurações do exportador do Adobe Commerce Optimizer](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
 
-   A alteração dessa configuração após a sincronização inicial aciona uma reindexação completa. Consulte [Personalizar a configuração de exportação de escopos do Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) no *Guia do Adobe Commerce Optimizer Connector*.
+   A alteração dessa configuração após a sincronização inicial aciona uma reindexação completa. Consulte [Personalizar a configuração de exportação de escopos do Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) no *Guia do Adobe Commerce Optimizer Connector*.
 
 1. Clique em **[!UICONTROL Save Store View]**.
 

@@ -49,7 +49,7 @@ Use a página Status da Sincronização da View de Catálogo para monitorar a si
 
 ## Público e disponibilidade {#audience}
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente ao Adobe Commerce na infraestrutura em nuvem e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente ao Adobe Commerce na infraestrutura em nuvem e a projetos locais."}
 
 A página [!UICONTROL Catalog View Sync Status] está disponível para o Adobe Commerce na Infraestrutura em Nuvem e comerciantes locais que usam catálogos compartilhados B2B com a integração [!DNL Adobe Commerce Optimizer Connector for B2B]. A página é instalada e ativada automaticamente quando a extensão do conector é instalada.
 
@@ -191,5 +191,5 @@ As linhas nesta guia são limpas automaticamente após 90 dias.
 > - [Serviços > Sincronização de Exibição do Catálogo ACO](../configuration-reference/services/aco-catalog-view-sync.md) — Configure os períodos de cortesia de exclusão e criação e o reconciliador de descompasso
 > - [Gerenciamento de Chaves de Acesso Restrito](restricted-access-keys.md) — Gerencie as chaves cuja expiração esta página supera
 > - [Monitorar sincronização de exibição de catálogo para catálogos compartilhados B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) no *Guia do Adobe Commerce Optimizer Connector*
-> - [Exibições de catálogo privado](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
-> - [Chaves de acesso restrito](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)
+> - [Exibições de catálogo privado](https://experienceleague.adobe.com/pt-br/docs/commerce/optimizer/setup/private-catalog-view)
+> - [Chaves de acesso restrito](https://experienceleague.adobe.com/pt-br/docs/commerce/optimizer/setup/restricted-access-keys)

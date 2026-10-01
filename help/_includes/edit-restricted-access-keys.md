@@ -8,11 +8,11 @@ ht-degree: 0%
 ---
 # Editar chaves de acesso restrito
 
-Atribuir ou cancelar atribuição de chaves de uma exibição de catálogo, não da grade [!UICONTROL Restricted Access Keys] principal. Você pode fazer essa alteração na guia _[!UICONTROL Catalog Views]_do catálogo compartilhado ou na seção_[!UICONTROL Catalog Views]_ da empresa associada — ambas listam as mesmas exibições de catálogo e atribuições de chave atuais.
+Atribuir ou cancelar atribuição de chaves de uma exibição de catálogo, não da grade [!UICONTROL Restricted Access Keys] principal. Você pode fazer essa alteração na guia _[!UICONTROL Catalog Views]_&#x200B;do catálogo compartilhado ou na seção&#x200B;_[!UICONTROL Catalog Views]_ da empresa associada — ambas listam as mesmas exibições de catálogo e atribuições de chave atuais.
 
 Uma exibição de catálogo deve ter pelo menos uma chave e pode ter no máximo três. Se você tentar atribuir uma quarta chave, o salvamento falhará, com uma mensagem informando que você remova uma primeiro.
 
-1. Abra a grade _[!UICONTROL Catalog Views]_da exibição de catálogo que deseja atualizar, usando um dos seguintes caminhos:
+1. Abra a grade _[!UICONTROL Catalog Views]_&#x200B;da exibição de catálogo que deseja atualizar, usando um dos seguintes caminhos:
 
    - _No catálogo compartilhado_ — Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**. Para o catálogo compartilhado, selecione **[!UICONTROL General Settings]** na coluna **[!UICONTROL Action]**. No painel _[!UICONTROL Shared Catalog Information]_, selecione **[!UICONTROL Catalog Views]**.
    - _Da empresa_ — Na barra lateral _Administrador_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**. Para a empresa, selecione **[!UICONTROL Edit]** na coluna **[!UICONTROL Action]**. Expanda a seção **[!UICONTROL Catalog Views]**.

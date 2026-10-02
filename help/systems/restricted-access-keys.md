@@ -29,7 +29,8 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+last-update: 2026-10-01
+source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%
@@ -119,5 +120,5 @@ Para alterar o período de expiração padrão aplicado às chaves recém-criada
 > - [Monitoramento do Status de Sincronização da Exibição de Catálogo](catalog-view-sync-status.md) — Monitore e reconcilie as exibições de catálogo protegidas por essas chaves
 > - [Serviços > Chaves de acesso restrito ACO](../configuration-reference/services/aco-restricted-access-keys.md) — Configurar o período de expiração de chave padrão
 > - [Serviços > Exibição do Catálogo ACO](../configuration-reference/services/aco-catalog-view.md) — Configure o tempo de vida do token de acesso de vitrine e habilite ou desabilite a emissão
-> - [Gerenciar chaves de acesso restrito](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} no *Guia do Conector do Adobe Commerce Optimizer* — Saiba como essas chaves se encaixam na sincronização do catálogo compartilhado B2B
+> - [Gerenciar chaves de acesso restrito](https://experienceleague.adobe.com/pt-br/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} no *Guia do Conector do Adobe Commerce Optimizer* — Saiba como essas chaves se encaixam na sincronização do catálogo compartilhado B2B
 > - [Chaves de acesso restrito](https://experienceleague.adobe.com/pt-br/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} no *Guia do Adobe Commerce Optimizer* — o fluxo de chaves manual baseado no ACO Studio para casos de uso não B2B

@@ -1,14 +1,36 @@
 ---
-source-git-commit: 8dae6d26d1c63c95388b082a931361b580eeaf22
+source-git-commit: 95b00d779518fffb4346403f2849ab9dd3d6053d
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 2%
+source-wordcount: '389'
+ht-degree: 1%
 ---
 # Modelo de novidades
 
 ## Novidades
 
 Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos todas as atualizações secundárias, como a edição de cópia, desta lista.
+
+### 1 de outubro de 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrição</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adição de documentação para o Conector do Adobe Commerce Optimizer para B2B:<br />- Adição das <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status">Chaves de acesso restrito</a> e <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys">Páginas de administrador para monitorar e reparar a sincronização do catálogo compartilhado B2B com o Adobe Commerce Optimizer.<br />- Adição da <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/config/services/aco-restricted-access-keys">Chaves de acesso restrito ACO</a> na página de referência de configuração.<br />- Adição da <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage">Configuração de exibição de catálogo restrito</a>, vinculada a <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage">Gerenciar catálogos compartilhados</a> e <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/b2b/companies/account-company-manage">Gerenciar contas da empresa</a>.<br />- Documentação documentada uma localidade de exibição de repositório em <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/site-store/store-localize">Localização de repositório</a> agora aciona uma reindexação de exibição de catálogo para catálogos compartilhados B2B conectados.</a></p>
+</td>
+      <td>
+        Atualização importante
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/df7cf0481d74403bb4baaaf48e0ccc735ac3af2c">confirmar</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 23 de setembro de 2026
 

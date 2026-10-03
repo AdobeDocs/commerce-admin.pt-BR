@@ -190,6 +190,6 @@ As linhas nesta guia são limpas automaticamente após 90 dias.
 > - [Status de sincronização do feed de dados](data-feed-sync-status.md)
 > - [Serviços > Sincronização de Exibição do Catálogo ACO](../configuration-reference/services/aco-catalog-view-sync.md) — Configure os períodos de cortesia de exclusão e criação e o reconciliador de descompasso
 > - [Gerenciamento de Chaves de Acesso Restrito](restricted-access-keys.md) — Gerencie as chaves cuja expiração esta página supera
-> - [Monitorar sincronização de exibição de catálogo para catálogos compartilhados B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) no *Guia do Adobe Commerce Optimizer Connector*
+> - [Monitorar sincronização de exibição de catálogo para catálogos compartilhados B2B](https://experienceleague.adobe.com/pt-br/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status) no *Guia do Adobe Commerce Optimizer Connector*
 > - [Exibições de catálogo privado](https://experienceleague.adobe.com/pt-br/docs/commerce/optimizer/setup/private-catalog-view)
 > - [Chaves de acesso restrito](https://experienceleague.adobe.com/pt-br/docs/commerce/optimizer/setup/restricted-access-keys)

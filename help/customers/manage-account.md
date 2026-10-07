@@ -4,11 +4,9 @@ description: Use a grade [!UICONTROL Customers] para localizar qualquer conta de
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
 source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '888'
 ht-degree: 0%
-
 ---
-
 # Gerenciar contas de clientes
 
 Use a grade _[!UICONTROL Customers]_&#x200B;para localizar qualquer conta de cliente. Você pode usar os [controles do local de trabalho](../getting-started/admin-workspace.md) padrão para filtrar a lista, alterar o [layout da coluna](../getting-started/admin-grid-controls.md), salvar exibições e exportar dados. O [Controle de ações](../getting-started/admin-actions-control.md) acima da grade pode ser usado para aplicar uma operação a vários registros de clientes.
@@ -108,7 +106,7 @@ A instrução acima exporta todas as contas de clientes. Se desejar exportar um 
 | **[!UICONTROL Confirmed Email]** | Indica se um email de confirmação é necessário. |
 | **[!UICONTROL Account Created In]** | Indica a exibição da loja a partir da qual a conta do cliente foi criada. |
 | **[!UICONTROL Date of Birth]** | A data de nascimento do cliente. De acordo com as práticas recomendadas atuais de segurança e privacidade, esteja ciente de possíveis riscos legais e de segurança associados ao armazenamento da data de nascimento completa do cliente (mês, dia, ano) com outros identificadores pessoais. É recomendável limitar o armazenamento das datas de nascimento completas dos clientes e sugerir o uso do ano de nascimento do cliente como alternativa. |
-| **[!UICONTROL Tax / VAT Number]** | Se aplicável, o número do imposto ou o número do [imposto sobre valor agregado](../stores-purchase/vat.md) atribuído ao cliente. <br/><br/> Este campo não é o mesmo que o número IVA. |
+| **[!UICONTROL Tax / VAT Number]** | Se aplicável, o número do imposto ou o número do [imposto sobre valor agregado](../stores-purchase/vat.md) atribuído ao cliente. <br/><br/> Este campo não é o mesmo que o Número IVA. |
 | **[!UICONTROL Gender]** | O sexo do cliente. |
 | **[!UICONTROL Action]** | Editar - abre a conta da empresa no modo de edição. |
 
@@ -128,7 +126,7 @@ Estas colunas estão disponíveis ao alterar o [layout da coluna](../getting-sta
 | **[!UICONTROL Billing Lastname]** | O sobrenome no endereço de cobrança do cliente. |
 | **[!UICONTROL Billing Address]** | O endereço para onde as informações de cobrança devem ser enviadas. |
 | **[!UICONTROL Shipping Address]** | O endereço para onde os pedidos devem ser enviados. |
-| **[!UICONTROL VAT Number]** | O número de imposto sobre valor agregado associado ao endereço do cliente. Para [bens digitais](../stores-purchase/taxes.md) vendidos na UE, o IVA é baseado no endereço de cobrança do cliente. <br/><br/> Este campo não é o mesmo que o Número de Imposto/IVA. |
+| **[!UICONTROL VAT Number]** | O número de imposto sobre valor agregado associado ao endereço do cliente. Para [bens digitais](../stores-purchase/taxes.md) vendidos na UE, o IVA é baseado no endereço de cobrança do cliente. <br/><br/> Este campo não é igual ao Número do Imposto/IVA. |
 | **[!UICONTROL Account Lock]** | Indica o status da conta. Como medida de segurança, as contas de cliente podem ser [bloqueadas](../customers/password-options.md) após muitas tentativas de logon. Valores: `Locked` / `Unlocked` |
 | **[!UICONTROL Status]** | O status atual do usuário. Opções: `Active` / `Inactive` |
 | **[!UICONTROL Customer Type]** | Classificação do cliente. Opções: `Individual user` / `Company admin` / `Company user` |

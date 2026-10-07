@@ -8,23 +8,30 @@ autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Administration
+source-git-commit: 5764bcc6545c1696353ac445716061b009a7c106
 workflow-type: tm+mt
-source-wordcount: 2182
+source-wordcount: '2182'
 ht-degree: 0%
-
 ---
-
 # Enriquecimento do catálogo
 
 O enriquecimento do catálogo é um recurso nativo do [!DNL Adobe Commerce] que ajuda a melhorar os nomes de produtos e as descrições longas, para que seu catálogo seja representado com mais precisão quando os compradores usarem LLMs e assistentes de IA para pesquisa e descoberta de produtos.
@@ -91,7 +98,7 @@ Trabalhe com o administrador do Commerce ou parceiro de implementação para gar
 
 Após instalar as extensões de enriquecimento do catálogo e serviços de catálogo, o recurso de enriquecimento do catálogo estará disponível no Administrador em **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
 
-![Enriquecimento do catálogo](./assets/catalog-enrichment-menu.png)
+![Enriquecimento do catálogo](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
 ### Configurar enriquecimento do catálogo
 
@@ -104,7 +111,7 @@ Configure o enriquecimento do catálogo na guia **[!UICONTROL Settings]** para q
 
    Forneça os detalhes do ambiente [!DNL Adobe Commerce] para habilitar o Serviço de Catálogo do LLM Optimizer e os fluxos de trabalho de auditoria.
 
-   ![Configuração do Commerce na guia Configurações de Enriquecimento do Catálogo](./assets/catalog-enrichment-commerce-config.png)
+   ![Configuração do Commerce na guia Configurações de Enriquecimento do Catálogo](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Insira os detalhes da conexão necessários para a exibição da loja.
 
@@ -142,7 +149,7 @@ O enriquecimento do catálogo usa as seguintes exibições de fluxo de trabalho:
 - **[!UICONTROL Fixed Suggestions]**: itens que você já aplicou ou resolveu.
 - **[!UICONTROL Ignored Suggestions]**: itens que você excluiu intencionalmente da ação.
 
-![Enriquecimento do catálogo](./assets/agentic-opportunities.png)
+![Enriquecimento do catálogo](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### Implantar sugestões aprovadas {#review-deploy-catalog}
 
@@ -176,7 +183,7 @@ Depois de aplicar uma atualização, as sugestões serão movidas para **[!UICON
 
    O formulário do produto mostra o nome e/ou a descrição do produto enriquecido.
 
-   ![Nome de Produto Enriquecido](./assets/enriched-product-name.png)
+   ![Nome de Produto Enriquecido](./assets/enriched-product-name.png){zoomable="yes"}
 
 1. Opcional: selecione **[!UICONTROL Override Catalog Agent provided Product Name]** se quiser manter um nome inserido manualmente.
 
@@ -186,7 +193,7 @@ Depois de aplicar uma atualização, as sugestões serão movidas para **[!UICON
 
    A descrição enriquecida é exibida quando você aplica as alterações de descrição.
 
-   ![Enriquecer Descrição Do Produto](./assets/enrich-product-description.png)
+   ![Enriquecer Descrição Do Produto](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. Opcional: selecione **[!UICONTROL Override Catalog Agent provided Description]** se quiser manter uma descrição inserida manualmente.
 

@@ -6,27 +6,36 @@ feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
 workflow-type: tm+mt
-source-wordcount: 1730
+source-wordcount: '1807'
 ht-degree: 0%
-
 ---
-
 # Criar uma regra de preço de catálogo
 
 Siga estas instruções para aplicar um desconto a produtos específicos sempre que um conjunto de condições for atendido. Os descontos da regra de preço de catálogo entram em vigor antes de o produto ser colocado no carrinho de compras.
@@ -37,7 +46,7 @@ Siga estas instruções para aplicar um desconto a produtos específicos sempre 
 
 1. No canto superior direito, clique em **[!UICONTROL Add New Rule]**.
 
-   A seção _[!UICONTROL Rule Information]_&#x200B;inclui seções expansíveis para **[!UICONTROL Conditions]**&#x200B;e **[!UICONTROL Actions]**.
+   A seção _[!UICONTROL Rule Information]_inclui seções expansíveis para **[!UICONTROL Conditions]**e **[!UICONTROL Actions]**.
 
    ![Regra de preço de catálogo - informações](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -58,13 +67,17 @@ Siga estas instruções para aplicar um desconto a produtos específicos sempre 
    - As opções disponíveis para seleção dependem dos grupos de clientes criados e gerenciados em _Clientes_ > _Grupos de Clientes_.
    - Para escolher vários grupos, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção.
 
-1. ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Insira as datas **[!UICONTROL From]** e **[!UICONTROL To]** para determinar quando a regra de preço está em vigor.
+1. Defina o agendamento para a regra de preço:
 
-   Você pode inserir as datas ou usar o **[!UICONTROL Calendar]** (![ícone de Calendário](../assets/icon-calendar.png)) para escolher as datas. Se você deixar as datas em branco, a regra será ativada quando a regra de preço for salva.
+   - ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Insira as datas **[!UICONTROL From]** e **[!UICONTROL To]** para determinar quando a regra de preço está em vigor.
+
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (somente [!DNL Adobe Commerce as a Cloud Service]) Insira as datas e horas **[!UICONTROL From]** e **[!UICONTROL To]** para determinar quando a regra de preço começa e termina.
+
+   Você pode inserir os valores ou usar o **[!UICONTROL Calendar]** (![ícone de Calendário](../assets/icon-calendar.png)) para escolhê-los.
 
    >[!NOTE]
    >
-   >Os campos `From` e `To` foram removidos da página de configuração Regra de preço de catálogo no Adobe Commerce e não podem ser modificados diretamente na regra de preço de catálogo. Você deve criar uma atualização agendada para definir o agendamento para ativação de regra de preço.
+   >Para projetos do Adobe Commerce na nuvem e locais, os campos `From` e `To` não estão disponíveis na página de configuração da regra de preço de catálogo. Você deve criar uma [atualização agendada](#step-5-schedule-the-rule) para definir o agendamento para ativação de regra de preço.
 
 1. Insira um número para estabelecer o **[!UICONTROL Priority]** desta regra em relação a outras regras.
 
@@ -232,11 +245,13 @@ A maioria das condições disponíveis é baseada nos valores de atributo existe
 
    As regras de preço são processadas automaticamente com outras regras do sistema todas as noites. Ao criar uma regra de preço, aguarde tempo suficiente para que ela entre no sistema antes de testar a regra para verificar se ela funciona corretamente. À medida que novas regras são adicionadas, o Commerce recalcula os preços e as prioridades de acordo.
 
+   No [!DNL Adobe Commerce as a Cloud Service], a Commerce verifica a cada minuto se há regras ativas que atingiram sua hora de início ou término e atualiza os preços dos produtos afetados.
+
 ## Demonstração da regra de preço de catálogo
 
 Assista a este vídeo para saber mais sobre como criar regras de preço de catálogo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3412504?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Descrições dos campos
 
@@ -250,8 +265,8 @@ Assista a este vídeo para saber mais sobre como criar regras de preço de catá
 | [!UICONTROL Customer Groups] | (Obrigatório) Identifica os grupos de clientes aos quais a regra se aplica. |
 | [!UICONTROL Priority] | Um número que indica a prioridade dessa regra em relação a outras. As prioridades da mais alta para a mais baixa são `0,1,2,3...` |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Determina se a regra está ativa no armazenamento. Opções: `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Especifica o primeiro dia em que a regra de preço está em vigor. Se deixado em branco, a regra de preço entra em vigor quando é salva. |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Especifica o último dia em que a regra de preço está em vigor. Se deixado em branco, a regra de preço continuará indefinidamente. |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Especifica o primeiro dia em que a regra de preço está em vigor. Se deixado em branco, a regra de preço entra em vigor quando é salva.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] somente) Especifica a data e a hora em que a regra de preço entra em vigor. Se deixado em branco, a regra de preço entra em vigor quando é salva. |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (somente Magento Open Source) Especifica o último dia em que a regra de preço está em vigor. Se deixado em branco, a regra de preço continuará indefinidamente.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] somente) Especifica a data e a hora em que a regra de preço termina. Se deixado em branco, a regra de preço continuará indefinidamente. |
 
 {style="table-layout:auto"}
 

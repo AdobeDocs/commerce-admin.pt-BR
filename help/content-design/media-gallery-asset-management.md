@@ -4,14 +4,30 @@ description: Saiba como gerenciar arquivos de mídia carregados e ativos adquiri
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-last-update: 2026-03-27T00:00:00Z
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+last-update: 2026-03-27
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # Gerenciamento de ativos da Galeria de mídia
 
 A nova [Galeria de Mídia](media-gallery.md) fornece ferramentas para gerenciar arquivos de mídia carregados e ativos adquiridos por meio de uma [integração com o Adobe Stock](adobe-stock.md). Se você tiver salvo uma [visualização de imagem](adobe-stock-save-preview.md) do Adobe Stock, também poderá [licenciar](adobe-stock-license-image.md) a imagem na nova Galeria de Mídia.

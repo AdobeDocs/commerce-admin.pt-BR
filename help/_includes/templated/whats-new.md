@@ -1,7 +1,7 @@
 ---
-source-git-commit: 95b00d779518fffb4346403f2849ab9dd3d6053d
+source-git-commit: 104cd926fa6ec987613694d0960b66cfc30dfc1b
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '448'
 ht-degree: 1%
 ---
 # Modelo de novidades
@@ -9,6 +9,28 @@ ht-degree: 1%
 ## Novidades
 
 Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos todas as atualizações secundárias, como a edição de cópia, desta lista.
+
+### 8 de outubro de 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Descrição</th>
+      <th>Tipo</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Atualização da documentação do Adobe Commerce Admin para a versão de outubro do Adobe Commerce as a Cloud Service:<br />- Adição de um campo Máximo de Entidades por Solicitação em Massa não configurável à <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/config/general/bulk-api">Referência de Configuração</a> para o Adobe Commerce as a Cloud Service.<br />- Agora é possível exigir a validação do Google reCAPTCHA na <a href="https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload"><code>initiateUpload</code> mutação do GraphQL</a> para proteger os uploads de arquivos pré-assinados.<br />- Agora é possível definir a hora do dia para uma <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog">regra de preço de catálogo</a> para iniciar ou terminar no Commerce Admin.</p>
+</td>
+      <td>
+        Atualização importante
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/377fcad60d7772ec0da69d8ee1c0c1875a567e9b">confirmar</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 1 de outubro de 2026
 
@@ -72,28 +94,6 @@ Esta seção contém as alterações feitas nos últimos 60 dias. Excluímos tod
         Técnico
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/fab7dc8f780fa68c147a06752dc96bd7b03444a2">confirmar</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 4 de agosto de 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Descrição</th>
-      <th>Tipo</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>O tópico <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Status de sincronização do feed de dados</a> foi atualizado para corresponder à experiência de administrador atual, esclarecer que a página relata somente o status de exportação e documentar quando o recurso está disponível nas licenças de serviço da Commerce.</p>
-</td>
-      <td>
-        Atualização importante
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">confirmar</a></td>
     </tr>
   </tbody>
 </table>

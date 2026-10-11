@@ -5,9 +5,7 @@ source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
-
 ---
-
 
 # [!UICONTROL General Options]
 
@@ -28,6 +26,6 @@ ht-degree: 0%
 | [!UICONTROL Persist Currently Compared Products] | Site | ![Adobe Commerce](/help/assets/adobe-logo.svg) (somente Adobe Commerce) Determina se o estado dos produtos comparados atualmente é mantido quando a sessão termina. Opções: <br/>**`Yes`**&#x200B;ou **`No`**. |
 | [!UICONTROL Persist Comparison History] | Site | ![Adobe Commerce](/help/assets/adobe-logo.svg) (somente Adobe Commerce) Determina se o estado do histórico de comparação é retido quando a sessão termina. Opções: <br/>**`Yes`**&#x200B;ou **`No`**. |
 | [!UICONTROL Persist Recently Viewed Products] | Site | ![Adobe Commerce](/help/assets/adobe-logo.svg) (somente Adobe Commerce) Determina se o estado dos produtos visualizados recentemente será mantido quando a sessão terminar. Opções: <br/>**`Yes`**&#x200B;ou **`No`**. |
-| [!UICONTROL Persist Customer Group Membership and Segmentation] | Site | ![Adobe Commerce](/help/assets/adobe-logo.svg) (somente Adobe Commerce) Determina se o estado dos critérios de associação de grupo e segmentação dos clientes é mantido quando a sessão termina. Opções: <br/>**`Yes`**- O estado dos dados de segmentação e associação de grupo do cliente é salvo quando a sessão termina.<br/>**`No`** - O estado dos dados de segmentação e associação de grupo do cliente não é salvo quando a sessão termina. |
+| [!UICONTROL Persist Customer Group Membership and Segmentation] | Site | ![Adobe Commerce](/help/assets/adobe-logo.svg) (somente Adobe Commerce) Determina se o estado dos critérios de associação de grupo e segmentação dos clientes é mantido quando a sessão termina. Opções: <br/>**`Yes`**- O estado dos dados de segmentação e associação de grupo do cliente é salvo quando a sessão termina.<br/>**`No`** - O estado dos dados de associação de grupo e segmentação do cliente não é salvo quando a sessão termina. |
 
 {style="table-layout:auto"}

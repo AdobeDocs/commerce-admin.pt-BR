@@ -66,7 +66,7 @@ Quando o recurso Empresa estiver ativado, campos adicionais estarão disponívei
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | Site | Quando habilitado, permite criar catálogos com curadoria e preços personalizados disponíveis globalmente ou limitados a empresas específicas. Opções: `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | Site | Quando o campo _[!UICONTROL Enable Shared Catalog]_estiver definido como `Yes`, essa opção estará disponível. Quando habilitado, somente os produtos atribuídos a um catálogo compartilhado são armazenados no índice de preços. Os produtos que não estão atribuídos ao catálogo compartilhado não são exibidos na loja. Opções: `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | Site | Quando o campo _[!UICONTROL Enable Shared Catalog]_&#x200B;estiver definido como `Yes`, essa opção estará disponível. Quando habilitado, somente os produtos atribuídos a um catálogo compartilhado são armazenados no índice de preços. Os produtos que não estão atribuídos ao catálogo compartilhado não são exibidos na loja. Opções: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Site | Quando ativado, permite que os compradores da empresa enviem uma solicitação de cotação do carrinho de compras. Opções: `Yes` / `No` |
 
 {style="table-layout:auto"}

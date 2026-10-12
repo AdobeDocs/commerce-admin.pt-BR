@@ -41,7 +41,7 @@ O conteúdo pode ser visualizado em termos de prazo de validade, como qualquer p
 
 O conteúdo com uma longa vida útil às vezes é chamado de _conteúdo sempre verde_. Exemplos de conteúdo permanente incluem histórias de sucesso de clientes, _como_ instruções e perguntas frequentes. Por outro lado, o conteúdo que é perecível por natureza inclui eventos, notícias do setor e press releases.
 
-![A página Sobre Nós incluída com o armazenamento Luma de exemplo ](./assets/storefront-about-us.png){width="700" zoomable="yes"}
+![A página Sobre Nós incluída com o armazenamento Luma de exemplo &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}
 
 ## Páginas de conteúdo principal
 
@@ -112,7 +112,7 @@ A configuração de _Páginas Padrão_ determina a página de aterrissagem assoc
 
    >[!NOTE]
    >
-   >Para uma exibição de loja específica, desmarque a caixa de seleção **[!UICONTROL Use Default]** ao lado de _[!UICONTROL Default Web URL]_e quaisquer outras configurações padrão a serem alteradas.
+   >Para uma exibição de loja específica, desmarque a caixa de seleção **[!UICONTROL Use Default]** ao lado de _[!UICONTROL Default Web URL]_&#x200B;e quaisquer outras configurações padrão a serem alteradas.
 
 1. Defina **[!UICONTROL CMS Home Page]** para a página do CMS a ser usada como página inicial. Outras páginas criadas podem ser usadas como página inicial, como:
 

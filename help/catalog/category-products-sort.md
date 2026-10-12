@@ -51,7 +51,7 @@ Você pode configurar as opções de categoria separadamente para cada [exibiç�
 
 1. Se necessário, escolha a **[!UICONTROL Store View]** à qual as configurações se aplicam.
 
-   Para uma instalação com vários armazenamentos, a configuração _[!UICONTROL Store View]_aplica a ordem de classificação a todas as exibições disponíveis no armazenamento.
+   Para uma instalação com vários armazenamentos, a configuração _[!UICONTROL Store View]_&#x200B;aplica a ordem de classificação a todas as exibições disponíveis no armazenamento.
 
 1. Na árvore de categorias à esquerda, escolha a categoria que deseja editar.
 
@@ -61,7 +61,7 @@ Você pode configurar as opções de categoria separadamente para cada [exibiç�
 
 >[!NOTE]
 >
->Ao classificar uma categoria por um atributo de produto, os produtos com os mesmos valores de atributo também são classificados por seu _[!UICONTROL Product ID]_na ordem crescente.
+>Ao classificar uma categoria por um atributo de produto, os produtos com os mesmos valores de atributo também são classificados por seu _[!UICONTROL Product ID]_&#x200B;na ordem crescente.
 
 Na seção _[!UICONTROL Products in Category]_, clique no ícone de blocos ( ![Exibir blocos](../assets/icon-view-tiles.png) ) para mostrar os blocos de produtos em uma grade. Use o método manual ou automático para classificar os produtos.
 

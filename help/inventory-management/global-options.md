@@ -106,7 +106,7 @@ Configure as opções de configuração padrão de produto e estoque para seus s
 
    >[!NOTE]
    >
-   >A consulta `sourceAvailability` está desabilitada por padrão porque ela revela quais fontes estocam um SKU. Quantidades exatas permanecem mascaradas até que a quantidade de origem atinja o **[!UICONTROL Only X left Threshold]** definido na seção _[!UICONTROL Stock Options]_. Cada origem de estoque tem um sinalizador **[!UICONTROL Visible on Storefront]**que está desativado por padrão. O estoque de uma origem nunca é devolvido até que um comerciante o habilite. Para defini-lo, vá para **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, edite uma origem e ative o **[!UICONTROL Visible on Storefront]**.
+   >A consulta `sourceAvailability` está desabilitada por padrão porque ela revela quais fontes estocam um SKU. Quantidades exatas permanecem mascaradas até que a quantidade de origem atinja o **[!UICONTROL Only X left Threshold]** definido na seção _[!UICONTROL Stock Options]_. Cada origem de estoque tem um sinalizador **[!UICONTROL Visible on Storefront]**&#x200B;que está desativado por padrão. O estoque de uma origem nunca é devolvido até que um comerciante o habilite. Para defini-lo, vá para **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, edite uma origem e ative o **[!UICONTROL Visible on Storefront]**.
 
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Admin bulk operations]** e defina as opções:

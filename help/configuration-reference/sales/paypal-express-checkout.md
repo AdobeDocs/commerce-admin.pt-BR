@@ -66,7 +66,7 @@ ht-degree: 1%
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Site | Especifica o endereço de email especificado quando sua conta de comerciante do PayPal foi estabelecida. O endereço de email diferencia maiúsculas de minúsculas e deve corresponder exatamente ao seu endereço de email no sistema PayPal. |
-| [!UICONTROL API Authentication Methods] | Site | Determina o método usado para autenticação da API. Opções: <br/>**`API Signature`**- Exibe o campo _[!UICONTROL API Signature]_no formulário.<br/>**`API Certificate`**- Exibe o campo_[!UICONTROL API Certificate]_ no formulário. |
+| [!UICONTROL API Authentication Methods] | Site | Determina o método usado para autenticação da API. Opções: <br/>**`API Signature`**- Exibe o campo _[!UICONTROL API Signature]_&#x200B;no formulário.<br/>**`API Certificate`**- Exibe o campo&#x200B;_[!UICONTROL API Certificate]_ no formulário. |
 | [!UICONTROL API Username] | Site | O nome de usuário da API associado à sua conta de comerciante do PayPal. |
 | [!UICONTROL API Password] | Site | A senha da API associada à sua conta de comerciante do PayPal. |
 | [!UICONTROL API Signature] | Site | A assinatura da API associada à sua conta de comerciante do PayPal. |

@@ -66,7 +66,7 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
 
    >[!TIP]
    >
-   >**Atalho:** Para preencher apenas os campos obrigatórios, role até _[!UICONTROL Storefront Properties]_, digite o_[!UICONTROL Sort Order]_ e salve.
+   >**Atalho:** Para preencher apenas os campos obrigatórios, role até _[!UICONTROL Storefront Properties]_, digite o&#x200B;_[!UICONTROL Sort Order]_ e salve.
 
 1. Complete as propriedades de entrada de dados:
 
@@ -77,7 +77,7 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
      | `Text Field` | Um campo de texto de linha única. |
      | `Text Area` | Um campo de entrada de várias linhas para inserir parágrafos de texto, como uma descrição do produto. Você pode usar o editor do WYSIWYG para formatar o texto com tags do HTML ou inserir as tags diretamente no texto. |
      | `Multiple Line` | Cria várias linhas de texto para o atributo, de modo semelhante a um endereço de várias linhas. O número de linhas de entrada de dados separadas pode ser de dois a 20. Use o `Default Value` para especificar o valor inicial do campo. |
-     | `Date` | Exibe um valor de data no formato de data e fuso horário preferidos. Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**Dependendo da configuração do seu sistema, os usuários do_ Administrador_ podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Exibe um valor de data no formato de data e fuso horário preferidos. Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**&#x200B;Dependendo da configuração do seu sistema, os usuários do_ Administrador_ podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Exibe uma lista suspensa com opções predefinidas de `Yes` e `No`. |
      | `Dropdown` | Exibe uma lista suspensa de valores que aceitam apenas uma única seleção. O tipo de entrada suspensa é um componente chave de [produtos configuráveis](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Uma lista suspensa que aceita vários valores a serem selecionados. |

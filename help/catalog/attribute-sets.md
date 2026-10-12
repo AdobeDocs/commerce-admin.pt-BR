@@ -72,7 +72,7 @@ Os atributos são organizados em grupos que determinam onde eles aparecem no reg
 
 ## Criar um grupo de atributos
 
-1. Na coluna _[!UICONTROL Groups]_do conjunto de atributos, clique em **[!UICONTROL Add New]**.
+1. Na coluna _[!UICONTROL Groups]_&#x200B;do conjunto de atributos, clique em **[!UICONTROL Add New]**.
 
 1. Insira um **[!UICONTROL Name]** para o novo grupo e clique em **[!UICONTROL OK]**.
 

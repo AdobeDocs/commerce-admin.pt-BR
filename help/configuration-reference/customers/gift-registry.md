@@ -44,7 +44,7 @@ Para obter informações detalhadas sobre como usar essas configurações para h
 
 ![Opções gerais](./assets/gift-registry-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [General Options](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -57,7 +57,7 @@ Para obter informações detalhadas sobre como usar essas configurações para h
 
 ![Notificação do Proprietário](./assets/gift-registry-owner-notification.png)<!-- zoom -->
 
-<!-- [Owner Notification](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [Owner Notification](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -70,7 +70,7 @@ Para obter informações detalhadas sobre como usar essas configurações para h
 
 ![Compartilhamento do Registro de Presentes](./assets/gift-registry-gift-registry-sharing.png)<!-- zoom -->
 
-<!-- Gift Registry Sharing](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- Gift Registry Sharing](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
@@ -84,7 +84,7 @@ Para obter informações detalhadas sobre como usar essas configurações para h
 
 ![Atualização do Registro de presentes](./assets/gift-registry-gift-registry-update.png)<!-- zoom -->
 
-<!-- [Gift Registry Update](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [Gift Registry Update](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |

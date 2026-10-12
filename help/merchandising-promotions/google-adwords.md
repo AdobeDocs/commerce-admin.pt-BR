@@ -3,32 +3,47 @@ title: Google AdWords
 description: Saiba como configurar sua loja do Commerce para o rastreamento de conversão do Google AdWords para medir os cliques no anúncio que levam a uma venda ou outra ação valiosa.
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-TQID: https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs
+TQID: 'https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 659
+source-wordcount: '659'
 ht-degree: 0%
-
 ---
-
 # Google AdWords
 
 O [Google AdWords](https://www.google.com/adwords/) é um serviço que você pode usar para colocar anúncios nos resultados do Google Search e nas páginas de empresas na Rede de Exibição do Google. O painel do AdWords inclui ferramentas para gerenciar campanhas, rastrear respostas e medir resultados.
@@ -53,8 +68,8 @@ O rastreamento de conversão mostra o número de cliques em anúncios que result
 
    - Clique em **[!UICONTROL Value]** e, se aplicável, atribua um valor à conversão. Por exemplo:
 
-      - Se você fizer $5 em cada venda, escolha `Each time it happens` e atribua um valor de `$5`.
-      - Se o valor de cada venda variar, deixe o valor em branco.
+     - Se você fizer $5 em cada venda, escolha `Each time it happens` e atribua um valor de `$5`.
+     - Se o valor de cada venda variar, deixe o valor em branco.
 
      Para concluir, clique em **[!UICONTROL Done]**.
 
@@ -105,9 +120,9 @@ O rastreamento de conversão mostra o número de cliques em anúncios que result
 
    - Insira o **[!UICONTROL Conversion Format]** a ser usado para a notificação de Início de Sites do Google na página de conversão.
 
-      - `1` - Exibe uma notificação em uma linha com um link para obter mais informações sobre o rastreamento do Google.
-      - `2` - Exibe uma notificação em duas linhas com um link para obter mais informações sobre o rastreamento do Google.
-      - `3` - Não exibe notificações de clientes.
+     - `1` - Exibe uma notificação em uma linha com um link para obter mais informações sobre o rastreamento do Google.
+     - `2` - Exibe uma notificação em duas linhas com um link para obter mais informações sobre o rastreamento do Google.
+     - `3` - Não exibe notificações de clientes.
 
    - Insira o [código hexadecimal](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} para o **[!UICONTROL Conversion Color]** que você deseja usar para o rótulo de notificação de Estatísticas de Site do Google.
 

@@ -4,24 +4,33 @@ description: Para garantir acesso legal e eliminar a marca d'água do Adobe Stoc
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-TQID: https://experienceleague.adobe.com/xtEpqNy5Nrv8la7SUXpM0Dg-v1rRAxLOGoTcmsQ0jmY
+TQID: 'https://experienceleague.adobe.com/xtEpqNy5Nrv8la7SUXpM0Dg-v1rRAxLOGoTcmsQ0jmY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 419
+source-wordcount: '419'
 ht-degree: 0%
-
 ---
-
 # Licenciar uma imagem do Adobe Stock
 
 Os ativos do Adobe Stock que você deseja usar para suas lojas de produção da Adobe Commerce e da Magento Open Source devem ser licenciados. Essa licença garante que você tenha acesso legal à imagem e elimina a marca d&#39;água do Adobe Stock presente em todas as [visualizações de imagem](./adobe-stock-save-preview.md). Para licenciar imagens ou salvar imagens já licenciadas, você deve estar conectado à sua conta da Adobe.

@@ -6,29 +6,45 @@ feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-TQID: https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84
+TQID: 'https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Personalization
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1976
+source-wordcount: '1976'
 ht-degree: 1%
-
 ---
-
 # [!DNL Audience Activation]
 
 A extensão [!DNL Audience Activation] permite ativar públicos-alvo da Real-Time CDP no Adobe Commerce para criar ofertas exclusivas no carrinho. Essas ofertas e incentivos incluem técnicas comuns de merchandising de comércio eletrônico, como _comprar 2 obter 1 grátis_, banners ilustrados voltados para esse cliente e preços de produtos modificados por meio de várias ofertas. Os públicos-alvo criados no Real-Time CDP são baseados em dados de vários sistemas corporativos, como ERP (Enterprise Resource Planning, planejamento de recursos corporativos), CRM (Customer Relationship Management, gerenciamento de relacionamento com o cliente), ponto de venda e sistemas de marketing. Como as informações de segmento do cliente são constantemente atualizadas, os clientes podem se tornar associados e desassociados de um segmento à medida que fazem compras em sua loja.
@@ -259,7 +275,7 @@ Você pode ativar públicos-alvo em uma instância do Adobe Commerce headless, c
 
 ### Regras de preço do carrinho e regras de produto relacionadas
 
-Para regras de preço do carrinho e regras de produto relacionadas, uma loja headless se comunica com a Experience Platform por meio da [Commerce integration framework (CIF)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/magento). A estrutura fornece uma API do lado do servidor que é implementada usando o GraphQL. As informações de público, como o segmento de um comprador, são transmitidas para o Commerce por meio de um parâmetro de cabeçalho do GraphQL chamado: `aep-segments-membership`.
+Para regras de preço do carrinho e regras de produto relacionadas, uma loja headless se comunica com a Experience Platform por meio da [Commerce integration framework (CIF)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/magento). A estrutura fornece uma API do lado do servidor que é implementada usando o GraphQL. As informações de público, como o segmento de um comprador, são transmitidas para o Commerce por meio de um parâmetro de cabeçalho do GraphQL chamado: `aep-segments-membership`.
 
 A arquitetura geral é a seguinte:
 

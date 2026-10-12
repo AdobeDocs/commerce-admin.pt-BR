@@ -3,10 +3,15 @@ title: Visualizações da loja
 description: Saiba como adicionar e editar uma visualização de loja no Adobe Commerce, que permite aos compradores alternar localidades usando o seletor de idioma no cabeçalho da loja.
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 feature: Site Management, System
-TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
+TQID: 'https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -20,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -72,7 +77,7 @@ Para habilitar ou desabilitar a sincronização, edite o **[!UICONTROL Adobe Com
 
    ![Criar exibição de repositório - Configurações do exportador do Adobe Commerce Optimizer](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
 
-   A alteração dessa configuração após a sincronização inicial aciona uma reindexação completa. Consulte [Personalizar a configuração de exportação de escopos do Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) no *Guia do Adobe Commerce Optimizer Connector*.
+   A alteração dessa configuração após a sincronização inicial aciona uma reindexação completa. Consulte [Personalizar a configuração de exportação de escopos do Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) no *Guia do Adobe Commerce Optimizer Connector*.
 
 1. Clique em **[!UICONTROL Save Store View]**.
 

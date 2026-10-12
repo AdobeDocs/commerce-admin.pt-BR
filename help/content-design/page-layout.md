@@ -3,13 +3,24 @@ title: Layouts de página
 description: Saiba mais sobre as seções de layout da página e como configurar layouts padrão.
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '906'
 ht-degree: 0%
-
 ---
-
 # Layouts de página
 
 O layout de cada página na loja consiste em seções distintas, ou contêineres, que definem as áreas de cabeçalho, rodapé e conteúdo da página. Dependendo do layout, cada página pode ter uma, duas, três colunas ou mais. Pense no layout como a _planta baixa_ da página e atribua um layout específico a ser usado como padrão para as páginas de CMS, produto e categoria.

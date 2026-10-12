@@ -3,13 +3,24 @@ title: Inserir um link no editor
 description: Usar o editor do WYSIWYG para adicionar um link ao seu conteúdo
 exl-id: c9930a4f-a082-4bd8-b0c4-9d86b59a2365
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '185'
 ht-degree: 0%
-
 ---
-
 # Inserir um link no editor
 
 Uma maneira fácil de inserir um link é usar o botão _Link_ na barra de ferramentas do [editor](editor.md). Não requer conhecimento sobre o HTML e o resultado é o mesmo.

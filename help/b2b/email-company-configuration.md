@@ -4,28 +4,36 @@ description: Saiba mais sobre as opções de email e modelos usados para enviar 
 exl-id: fd61c0c6-0887-4ff2-8002-906ff615bad9
 feature: B2B, Companies, Configuration
 role: Admin
-TQID: https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ
+TQID: 'https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 0%
-
+source-wordcount: '676'
+ht-degree: 3%
 ---
-
 # Configurar opções de email da empresa
 
 O [representante de vendas](account-company-manage.md) que é atribuído como o contato principal de uma empresa é configurado por padrão como o remetente de muitas mensagens de email automatizadas enviadas para a empresa.
@@ -44,12 +52,12 @@ O [representante de vendas](account-company-manage.md) que é atribuído como o 
 
    - Defina **[!UICONTROL Company Registration Email Recipient]** como [contato da loja](../getting-started/store-details.md#store-email-addresses) que deverá ser notificado quando uma nova solicitação de registro da empresa for recebida.
 
-   - No campo **[!UICONTROL Send Company Registration Email Copy To]**, insira o endereço de email de cada pessoa que receberá uma cópia da notificação de registro. Separe vários endereços de email com vírgula.
+   - No campo **[!UICONTROL Send Company Registration Email Copy To]**, insira o endereço de email de cada pessoa que receberá uma cópia da notificação de registro. Separe vários endereços de email com vírgulas.
 
    - Para determinar como a cópia da notificação é enviada, defina **[!UICONTROL Send Email Copy Method]** como um dos seguintes:
 
-      - `Bcc` - Envia uma _cópia de cortesia oculta_ ao incluir o destinatário no cabeçalho do mesmo email enviado ao cliente. O destinatário CCO não está visível para o cliente.
-      - `Separate Email` - Envia a cópia como um email separado.
+     - `Bcc` - Envia uma _cópia de cortesia oculta_ ao incluir o destinatário no cabeçalho do mesmo email enviado ao cliente. O destinatário CCO não está visível para o cliente.
+     - `Separate Email` - Envia a cópia como um email separado.
 
    - Se você preparou um modelo de email que deve ser usado em vez do padrão, defina **[!UICONTROL Default Company Registration Email]** como o nome do modelo. Por padrão, o modelo `Company Registration Request` é usado.
 
@@ -73,12 +81,12 @@ O [representante de vendas](account-company-manage.md) que é atribuído como o 
 
    - Defina **[!UICONTROL Company Status Change for Email Recipient]** como [contato da loja](../getting-started/store-details.md#store-email-addresses) que deverá ser notificado quando o status de uma empresa for alterado.
 
-   - No campo **[!UICONTROL Send Company Status Change Email Copy To]**, insira o endereço de email de cada pessoa que receberá uma cópia da notificação de alteração de status. Separe vários endereços de email com vírgula.
+   - No campo **[!UICONTROL Send Company Status Change Email Copy To]**, insira o endereço de email de cada pessoa que receberá uma cópia da notificação de alteração de status. Separe vários endereços de email com vírgulas.
 
    - Para determinar como a cópia da notificação é enviada, defina **[!UICONTROL Send Email Copy Method]** como um dos seguintes:
 
-      - `Bcc` - Envia uma _cópia de cortesia oculta_ ao incluir o destinatário no cabeçalho do mesmo email enviado ao cliente. O destinatário CCO não está visível para o cliente.
-      - `Separate Email` - Envia a cópia como um email separado.
+     - `Bcc` - Envia uma _cópia de cortesia oculta_ ao incluir o destinatário no cabeçalho do mesmo email enviado ao cliente. O destinatário CCO não está visível para o cliente.
+     - `Separate Email` - Envia a cópia como um email separado.
 
    - Se você tiver um modelo de email preparado para ser usado em vez do padrão quando o status da empresa mudar de `Pending Approval` para `Active`, defina **[!UICONTROL Default 'Company Status Change to Active 1' Email]** para esse modelo. Por padrão, o modelo `Company Status Active 1` é usado.
 
@@ -96,20 +104,20 @@ O [representante de vendas](account-company-manage.md) que é atribuído como o 
 
    - Defina **[!UICONTROL Company Credit Change Email Sender]** como [contato da loja](../getting-started/store-details.md#store-email-addresses) que deverá ser notificado quando for feita uma alteração no limite de crédito atribuído a uma empresa. Por padrão, a notificação é enviada para o _Representante de vendas_.
 
-   - No campo **[!UICONTROL Send Company Credit Change Email Copy To]**, insira o endereço de email de cada pessoa que receberá uma cópia da notificação de alteração de crédito. Separe vários endereços de email com vírgula.
+   - No campo **[!UICONTROL Send Company Credit Change Email Copy To]**, insira o endereço de email de cada pessoa que receberá uma cópia da notificação de alteração de crédito. Separe vários endereços de email com vírgulas.
 
    - Para determinar como a cópia da notificação é enviada, defina **[!UICONTROL Send Email Copy Method]** como um dos seguintes:
 
-      - `Bcc` - Envia uma _cópia de cortesia oculta_ ao incluir o destinatário no cabeçalho do mesmo email enviado ao cliente. O destinatário CCO não está visível para o cliente.
-      - `Separate Email` - Envia a cópia como um email separado.
+     - `Bcc` - Envia uma _cópia de cortesia oculta_ ao incluir o destinatário no cabeçalho do mesmo email enviado ao cliente. O destinatário CCO não está visível para o cliente.
+     - `Separate Email` - Envia a cópia como um email separado.
 
    - Se você preparou modelos de e-mail a serem usados em vez dos padrões, escolha o modelo para cada uma das notificações a seguir enviadas ao administrador da empresa.
 
-      - **[!UICONTROL Allocated Email Template]**
-      - **[!UICONTROL Updated Email Template]**
-      - **[!UICONTROL Reimbursed Email Template]**
-      - **[!UICONTROL Refunded Email Template]**
-      - **[!UICONTROL Reverted Email Template]**
+     - **[!UICONTROL Allocated Email Template]**
+     - **[!UICONTROL Updated Email Template]**
+     - **[!UICONTROL Reimbursed Email Template]**
+     - **[!UICONTROL Refunded Email Template]**
+     - **[!UICONTROL Reverted Email Template]**
 
    ![Configuração dos clientes - emails de crédito da empresa](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 

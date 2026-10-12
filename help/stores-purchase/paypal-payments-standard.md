@@ -4,30 +4,41 @@ description: Saiba como configurar o PayPal Payments Standard como uma solução
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-TQID: https://experienceleague.adobe.com/Cn4Fx-2iPKw828MK2lH8lFDsUX4fC7rsYDx6V8L-6Mw
+TQID: 'https://experienceleague.adobe.com/Cn4Fx-2iPKw828MK2lH8lFDsUX4fC7rsYDx6V8L-6Mw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2089
+source-wordcount: '2130'
 ht-degree: 0%
-
 ---
-
 # PayPal Payments Standard
 
 O [PayPal Payments Standard](https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/) é a maneira mais fácil de aceitar pagamentos online. Você pode oferecer aos seus clientes a conveniência de pagamento, tanto por cartão de crédito e PayPal simplesmente adicionando um botão de check-out à sua loja.
@@ -40,8 +51,8 @@ Com PayPal Payments Standard, você pode deslizar os cartões de crédito em dis
 
 >[!IMPORTANT]
 >
->Requisitos do **PSD2:** <br/>
->A partir de 14 de setembro de 2019, os bancos europeus poderão recusar pagamentos que não atendam aos requisitos da [PSD2](../getting-started/compliance-payment-services-directive.md). Nenhuma ação é necessária para que o PayPal Payments Standard esteja em conformidade com a PSD2, pois todos os requisitos são tratados pelo PayPal.
+>**Requisitos do PSD2:** <br/>
+>A partir de 14 de setembro de 2019, os bancos europeus poderão recusar pagamentos que não atendam aos requisitos do [PSD2](../getting-started/compliance-payment-services-directive.md). Nenhuma ação é necessária para que o PayPal Payments Standard esteja em conformidade com a PSD2, pois todos os requisitos são tratados pelo PayPal.
 
 ## Requisitos do comerciante
 
@@ -382,8 +393,8 @@ Um [contrato de cobrança](paypal-billing-agreements.md) é um contrato de venda
 
    - Se você se inscreveu no servidor FTP seguro do PayPal, insira as seguintes credenciais de logon SFTP:
 
-      - Logon
-      - Senha
+     - Logon
+     - Senha
 
    - Para executar relatórios de teste antes de entrar em funcionamento com o Check-out expresso no site, defina **[!UICONTROL Sandbox Mode]** como `Yes`.
 
@@ -401,13 +412,13 @@ Um [contrato de cobrança](paypal-billing-agreements.md) é um contrato de venda
 
    - Defina **[!UICONTROL Schedule]** como um dos seguintes:
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      O PayPal retém cada relatório por 45 dias.
 
@@ -435,9 +446,9 @@ Use o _[!UICONTROL Frontend Experience Settings]_&#x200B;para escolher quais log
 
    - Digite o nome da **[!UICONTROL Page Style]** que você deseja aplicar às páginas de comerciante do PayPal:
 
-      - `paypal` - Usa o estilo de página do PayPal.
-      - `primary` - Usa o estilo de página identificado como _primário_ no perfil da conta.
-      - `your_custom_value` - Usa um estilo de página de pagamento personalizado, que é especificado no perfil da conta.
+     - `paypal` - Usa o estilo de página do PayPal.
+     - `primary` - Usa o estilo de página identificado como _primário_ no perfil da conta.
+     - `your_custom_value` - Usa um estilo de página de pagamento personalizado, que é especificado no perfil da conta.
 
    - Para **[!UICONTROL Header Image URL]**, insira a URL da imagem que você deseja que apareça no canto superior esquerdo da página de pagamento. O tamanho máximo do arquivo é de 750 pixels de largura por 90 pixels de altura.
 
@@ -447,6 +458,6 @@ Use o _[!UICONTROL Frontend Experience Settings]_&#x200B;para escolher quais log
 
    - Para definir a cor das páginas, insira o código hexadecimal de seis caracteres, sem o símbolo `#`, para cada um dos seguintes itens:
 
-      - **[!UICONTROL Header Background Color]** - Cor de fundo do cabeçalho da página de check-out.
-      - **[!UICONTROL Header Border Color]** - Cor da borda de dois pixels ao redor do cabeçalho.
-      - **[!UICONTROL Page Background Color]** - Cor de fundo da página de check-out e ao redor do cabeçalho e do formulário de pagamento.
+     - **[!UICONTROL Header Background Color]** - Cor de fundo do cabeçalho da página de check-out.
+     - **[!UICONTROL Header Border Color]** - Cor da borda de dois pixels ao redor do cabeçalho.
+     - **[!UICONTROL Page Background Color]** - Cor de fundo da página de check-out e ao redor do cabeçalho e do formulário de pagamento.

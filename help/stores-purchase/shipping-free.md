@@ -3,26 +3,33 @@ title: Frete gratuito
 description: Saiba como configurar uma opção de envio gratuito para sua loja.
 exl-id: 3ce69583-0f7f-4c23-b3e3-7d2502bc1bca
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/bLvgCzOtiYjpSdTm7f0Te5fjWbiaL3mfC4DN8ONbOLs
+TQID: 'https://experienceleague.adobe.com/bLvgCzOtiYjpSdTm7f0Te5fjWbiaL3mfC4DN8ONbOLs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '395'
 ht-degree: 0%
-
 ---
-
 # Frete gratuito
 
 _Remessa gratuita_ é uma das promoções mais eficazes que você pode oferecer. Ela pode ser baseada em uma compra mínima ou configurada como uma [regra de preço do carrinho](../merchandising-promotions/price-rules-cart.md) que é aplicada quando um conjunto de condições é atendido. Se ambos se aplicarem à mesma ordem, a definição de configuração terá prioridade sobre a regra do carrinho.

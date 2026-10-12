@@ -3,26 +3,33 @@ title: Zonas e alíquotas de imposto
 description: Saiba como definir alíquotas de imposto para cada área geográfica em que você coleta e remete impostos.
 exl-id: d8eb0743-d277-438d-91ed-fc711a6ba3ae
 feature: Taxes
-TQID: https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY
+TQID: 'https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 380
+source-wordcount: '380'
 ht-degree: 0%
-
 ---
-
 # Zonas e alíquotas de imposto
 
 As taxas de imposto geralmente se aplicam a transações que ocorrem dentro de uma área geográfica específica. Use a ferramenta _Taxas e zonas de imposto_ para especificar a alíquota de imposto para cada área geográfica da qual você coleta e envia impostos. Como cada zona e alíquota de imposto tem um identificador exclusivo, é possível ter várias alíquotas de imposto para uma determinada área geográfica (como locais que não cobram impostos de alimentos ou remédios, mas cobram impostos de outros itens).

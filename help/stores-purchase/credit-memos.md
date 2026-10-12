@@ -3,30 +3,44 @@ title: Avisos de crédito
 description: Saiba mais sobre avisos de crédito e como eles são usados para emitir um reembolso parcial ou total.
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-TQID: https://experienceleague.adobe.com/-G3nrlvCcdrsFJFxGWKZB7j3LsmhBTzNdncuNzsFuE4
+TQID: 'https://experienceleague.adobe.com/-G3nrlvCcdrsFJFxGWKZB7j3LsmhBTzNdncuNzsFuE4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 0%
-
 ---
-
 # Avisos de crédito
 
 Um _memorando de crédito_ é um documento que mostra o valor devido pelo cliente para um reembolso total ou parcial. O valor pode ser aplicado a uma compra ou reembolsado ao cliente. Você pode imprimir um aviso de crédito para uma única ordem ou para várias ordens como um lote. Antes de imprimir um aviso de crédito, ele deve ser gerado para a ordem. A página _Avisos de Crédito_ lista os avisos de crédito que foram emitidos para clientes.
@@ -40,9 +54,9 @@ O [método de pagamento](payments.md) para o pedido determina, em certa medida, 
 Você pode reembolsar pedidos de três maneiras:
 
 - Crédito da conta — As ordens pagas usando uma conta de crédito podem ser reembolsadas como um crédito de conta:
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) [Crédito da Loja](../customers/store-credit-using.md)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) [Pagamento na Conta](../b2b/enable-basic-features.md#configure-payment-on-account) (método offline)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) [Crédito da Empresa](../b2b/credit-company.md)
+  - ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) [Crédito da Loja](../customers/store-credit-using.md)
+  - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) [Pagamento na Conta](../b2b/enable-basic-features.md#configure-payment-on-account) (método offline)
+  - ![Adobe Commerce B2B](../assets/b2b.svg) (Disponível com Adobe Commerce B2B) [Crédito da Empresa](../b2b/credit-company.md)
 - [Reembolso online](payments.md#online-payment-methods)—Pedidos pagos com cartão de crédito através de um gateway de pagamento, como PayPal ou Braintree, são reembolsados online através do processador de pagamento.
 - [Reembolso offline](payments.md#offline-payment-methods)—Os pedidos pagos com Dinheiro na Entrega ([CQO](cash-on-delivery.md)) ou por [cheque ou ordem de pagamento](check-money-order.md) são reembolsados offline.
 

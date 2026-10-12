@@ -3,32 +3,47 @@ title: Ferramentas do site do Google
 description: Saiba mais sobre as integrações das ferramentas do Google que você pode usar para otimizar seu conteúdo, analisar seu tráfego e conectar seu catálogo a agregadores de compras e marketplaces.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-TQID: https://experienceleague.adobe.com/P-IniOyLDfDk8oe1v9ysmRV6yC7IWpxUBaFF--2YMCg
+TQID: 'https://experienceleague.adobe.com/P-IniOyLDfDk8oe1v9ysmRV6yC7IWpxUBaFF--2YMCg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: '662'
 ht-degree: 0%
-
 ---
-
 # Ferramentas do site do Google
 
 A configuração da sua loja está integrada às seguintes ferramentas do Google para ajudar a otimizar o seu conteúdo, analisar o seu tráfego e conectar o seu catálogo a agregadores de compras e marketplaces.
@@ -79,9 +94,9 @@ Se a sua empresa precisa cumprir com as regras de privacidade, como o [GDPR](../
 
    - Na seção **Contatos**, clique no ícone _Adicionar_ ( ![ícone de adição do Google](./assets/google-icon-add.png) ) e insira as informações do primeiro contato. Em seguida, marque a caixa de seleção de cada função aplicável e clique em **[!UICONTROL Add]**.
 
-      - Contato Principal - (Endereço de Email de Notificação) O contato para o qual os avisos são enviados.
-      - Responsável pela proteção de dados - (se aplicável) A pessoa designada para facilitar a conformidade com o regulamento de privacidade.
-      - Representante do Espaço Econômico Europeu (EEA) - (se aplicável) A pessoa que representa clientes fora da EU em relação às obrigações do GDPR.
+     - Contato Principal - (Endereço de Email de Notificação) O contato para o qual os avisos são enviados.
+     - Responsável pela proteção de dados - (se aplicável) A pessoa designada para facilitar a conformidade com o regulamento de privacidade.
+     - Representante do Espaço Econômico Europeu (EEA) - (se aplicável) A pessoa que representa clientes fora da EU em relação às obrigações do GDPR.
 
      Repita para adicionar outro contato, se aplicável.
 

@@ -4,28 +4,37 @@ description: Saiba como você pode oferecer suporte a contratos de faturamento d
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-TQID: https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M
+TQID: 'https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: '821'
 ht-degree: 0%
-
 ---
-
 # Contratos de cobrança do PayPal
 
 Para simplificar o processo de finalização, os clientes podem celebrar um contrato de faturamento com o PayPal como provedor de serviços de pagamento. Durante o checkout, o cliente escolhe o contrato de faturamento como método de pagamento. O sistema de pagamento verifica o contrato de faturamento por seu número exclusivo e cobra a conta do cliente. Com um contrato de faturamento em vigor, não é mais necessário que o cliente insira informações de pagamento para cada compra. Os clientes podem gerenciar seus contratos de cobrança no painel da conta do cliente, onde o status de cada um é mostrado como _Ativo_ ou _Cancelado_. Quando um contrato de faturamento é cancelado, ele não pode ser reativado.

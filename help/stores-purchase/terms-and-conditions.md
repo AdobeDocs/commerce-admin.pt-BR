@@ -3,26 +3,35 @@ title: Termos e condições para finalização da compra
 description: Saiba mais sobre a funcionalidade de termos e condições que pode ser configurada para sua loja.
 exl-id: 59ba6385-3cc6-43e8-b984-5c26516bba88
 feature: Checkout, Compliance
-TQID: https://experienceleague.adobe.com/xHlKdFJPVInadvAyFbs6jFYz4AECWJdkbV8FRoHxE8U
+TQID: 'https://experienceleague.adobe.com/xHlKdFJPVInadvAyFbs6jFYz4AECWJdkbV8FRoHxE8U'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 325
+source-wordcount: '325'
 ht-degree: 0%
-
 ---
-
 # Termos e condições para finalização da compra
 
 Quando a funcionalidade manual dos _Termos e Condições_ estiver habilitada, os clientes deverão concordar com os termos e condições da venda antes da finalização da compra. Os Termos e condições da venda geralmente incluem informações de divulgação que podem ser exigidas por lei para sites B2C ou B2B, e descreve os direitos do comprador e do vendedor. A mensagem dos Termos e Condições é exibida após as informações de pagamento, antes do botão _Fazer pedido_.

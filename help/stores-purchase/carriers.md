@@ -3,27 +3,35 @@ title: Configuração da transportadora da remessa
 description: Saiba mais sobre o suporte para contas de remessa comercial disponível para sua loja.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg
+TQID: 'https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: '496'
 ht-degree: 0%
-
 ---
-
 # Configuração da transportadora da remessa
 
 Se você tiver uma conta comercial com uma operadora compatível, poderá oferecer aos clientes a conveniência de escolher essa operadora durante o check-out. As taxas são baixadas automaticamente para que você não precise pesquisar as informações.
@@ -38,10 +46,10 @@ Antes de oferecer aos clientes uma seleção de transportadoras, você deve conc
 
 - Defina as configurações para cada serviço de operadora que deseja oferecer.
 
-   - [**UPS**](ups.md) - O United Parcel Service (UPS) oferece serviços de envio doméstico e internacional por terra e ar para mais de 220 países.
-   - [**USPS**](usps.md) - O Serviço Postal dos Estados Unidos (USPS) é o serviço postal independente do governo dos Estados Unidos. O USPS oferece serviços de transporte nacional e internacional por terra e ar.
-   - [**FedEx**](fedex.md) - A FedEx oferece serviços de envio doméstico e internacional por terra e ar para mais de 220 países.
-   - [**DHL**](dhl.md) - A DHL oferece serviços internacionais integrados e soluções personalizadas voltadas para o cliente, para gerenciamento e transporte de cartas, mercadorias e informações.
+  - [**UPS**](ups.md) - O United Parcel Service (UPS) oferece serviços de envio doméstico e internacional por terra e ar para mais de 220 países.
+  - [**USPS**](usps.md) - O Serviço Postal dos Estados Unidos (USPS) é o serviço postal independente do governo dos Estados Unidos. O USPS oferece serviços de transporte nacional e internacional por terra e ar.
+  - [**FedEx**](fedex.md) - A FedEx oferece serviços de envio doméstico e internacional por terra e ar para mais de 220 países.
+  - [**DHL**](dhl.md) - A DHL oferece serviços internacionais integrados e soluções personalizadas voltadas para o cliente, para gerenciamento e transporte de cartas, mercadorias e informações.
 
 ## Peso dimensional
 
@@ -69,7 +77,7 @@ Para evitar a interrupção dos serviços de envio do USPS, atualize para a vers
 
 - Atualize a configuração do Commerce USPS para usar as APIs REST:
 
-   - [Configuração da Transportadora de Remessa USPS](usps.md)
+  - [Configuração da Transportadora de Remessa USPS](usps.md)
 
-   - [Configuração da etiqueta de remessa](shipping-label-create.md)
+  - [Configuração da etiqueta de remessa](shipping-label-create.md)
 

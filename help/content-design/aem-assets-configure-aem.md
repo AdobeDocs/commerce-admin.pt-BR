@@ -110,7 +110,7 @@ O componente da interface de dados do produto é adicionado automaticamente com 
 
 1. **[!UICONTROL Create]** um perfil de metadados para a integração com o Commerce.
 
-   ![Administrador do AEM Author Admin adicionou perfis de metadados ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
+   ![Administrador do AEM Author Admin adicionou perfis de metadados &#x200B;](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Adicione uma guia para metadados do Commerce.
 
@@ -138,13 +138,13 @@ O componente da interface de dados do produto é adicionado automaticamente com 
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. Opcional. Para sincronizar automaticamente ativos aprovados do Commerce à medida que forem carregados no ambiente AEM Assets, defina o valor padrão do campo _[!UICONTROL Review Status]_na guia `Basic` como `approved`.
+1. Opcional. Para sincronizar automaticamente ativos aprovados do Commerce à medida que forem carregados no ambiente AEM Assets, defina o valor padrão do campo _[!UICONTROL Review Status]_&#x200B;na guia `Basic` como `approved`.
 
 1. Salve a atualização.
 
 #### Aplicar o perfil de metadados à pasta de origem dos ativos do Commerce
 
-1. Na página [!UICONTROL  Metadata Profiles], selecione o perfil de integração do Commerce.
+1. Na página [!UICONTROL &#x200B; Metadata Profiles], selecione o perfil de integração do Commerce.
 1. No menu de ações, selecione **[!UICONTROL Apply Metadata Profiles to Folders]**.
 1. Selecione a pasta que contém os ativos do Commerce.
 

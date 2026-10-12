@@ -157,11 +157,11 @@ O Inventory management 1.2.4 (versão do módulo: `magento/inventory-metapackage
 
 ![Problema corrigido](../assets/fix.svg) O gerenciamento do estoque de estoque que excede 10.000 itens foi aprimorado. Anteriormente, problemas de desempenho às vezes impediam os comerciantes de editar estoque no Admin antes de iniciar seu site. <!--- MC-42643-->
 
-![Problema corrigido](../assets/fix.svg) A página **[!UICONTROL User Roles]** no Administrador é atualizada para fornecer aos administradores permissões restritas acesso à configuração de métodos de entrega. A seção _Métodos de remessa_ foi renomeada para _[!UICONTROL Delivery methods]_, e_[!UICONTROL In-Store Pickup]_ foi movido para a seção _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![Problema corrigido](../assets/fix.svg) A página **[!UICONTROL User Roles]** no Administrador é atualizada para fornecer aos administradores permissões restritas acesso à configuração de métodos de entrega. A seção _Métodos de remessa_ foi renomeada para _[!UICONTROL Delivery methods]_, e&#x200B;_[!UICONTROL In-Store Pickup]_ foi movido para a seção _[!UICONTROL Delivery methods]_. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![Problema corrigido](../assets/fix.svg) O Adobe Commerce não cria mais uma reserva de produto duplicada depois que um memorando de crédito é atualizado pela API. <!--- MC-41757-->
 
-![Correção do problema](../assets/fix.svg) Ao alternar da guia _[!UICONTROL Pick up in Store]_para a guia_[!UICONTROL Shipping]_ no fluxo de trabalho de check-out, o erro JavaScript não será mais disparado quando somente a Entrega de retirada na loja estiver disponível. <!--- MC-42808-->
+![Correção do problema](../assets/fix.svg) Ao alternar da guia _[!UICONTROL Pick up in Store]_&#x200B;para a guia&#x200B;_[!UICONTROL Shipping]_ no fluxo de trabalho de check-out, o erro JavaScript não será mais disparado quando somente a Entrega de retirada na loja estiver disponível. <!--- MC-42808-->
 
 ![Problema corrigido](../assets/fix.svg) A quantidade de produtos comercializáveis e a quantidade de produtos em estoque agora estão sincronizadas corretamente. Anteriormente, a compensação da reserva de estoque não era recriada para pedidos cancelados. <!--- MC-42485-->
 
@@ -250,9 +250,9 @@ Há suporte para o [!DNL Inventory Management] 1.1.5 (versão do módulo: `inven
 
 O [!DNL Inventory Management] 1.1.4 (versão do módulo: `inventory-composer-metapackage = 1.1.4`) é compatível com a versão 2.3.4 e com as versões 2.3.3, 2.3.2, 2.3.1 e 2.3.0 do Adobe Commerce, Adobe Commerce na infraestrutura em nuvem e Magento Open Source code base.
 
-![Problema corrigido ](../assets/fix.svg)**Maior desempenho.** Introdução da lógica de agrupamento para o comando da CLI de Reservas de Inventário para reduzir o uso de memória e evitar casos em que o processo trava sem nenhuma resposta.
+![Problema corrigido &#x200B;](../assets/fix.svg)**Maior desempenho.** Introdução da lógica de agrupamento para o comando da CLI de Reservas de Inventário para reduzir o uso de memória e evitar casos em que o processo trava sem nenhuma resposta.
 
-![Novo ](../assets/new.svg)**Maior cobertura de teste.** Introdução de vários novos testes funcionais. Quase todos os cenários de inventário manuais são cobertos por testes automatizados.
+![Novo &#x200B;](../assets/new.svg)**Maior cobertura de teste.** Introdução de vários novos testes funcionais. Quase todos os cenários de inventário manuais são cobertos por testes automatizados.
 
 ![Problema conhecido](../assets/bug.svg) Várias correções foram direcionadas para resolver problemas com avisos de crédito, produtos agrupados e ações de origem e de estoque em massa.
 
@@ -260,15 +260,15 @@ O [!DNL Inventory Management] 1.1.4 (versão do módulo: `inventory-composer-met
 
 Há suporte para o [!DNL Inventory Management] 1.1.3 (versão do módulo: `inventory-composer-metapackage = 1.1.3`) na versão 2.3.3 e ele é compatível com as versões 2.3.2, 2.3.1 e 2.3.0 do Adobe Commerce, Adobe Commerce na infraestrutura em nuvem e Magento Open Source code base.
 
-![Problema corrigido ](../assets/fix.svg)**Melhor integração com os recursos Adobe Commerce e B2B.** O [!DNL Inventory Management] agora funciona corretamente com os seguintes recursos para sites que usam fontes e estoques de estoque não padrão:
+![Problema corrigido &#x200B;](../assets/fix.svg)**Melhor integração com os recursos Adobe Commerce e B2B.** O [!DNL Inventory Management] agora funciona corretamente com os seguintes recursos para sites que usam fontes e estoques de estoque não padrão:
 
 - Fazer pedido por SKU (Adobe Commerce)
 - Ordem rápida (B2B)
 - Listas de requisições (B2B)
 
-![Novo ](../assets/new.svg)**Desempenho melhorado.** O desempenho de navegação do catálogo da loja é aprimorado para sites que executam o estoque de inventário padrão e a origem.
+![Novo &#x200B;](../assets/new.svg)**Desempenho melhorado.** O desempenho de navegação do catálogo da loja é aprimorado para sites que executam o estoque de inventário padrão e a origem.
 
-![Novo ](../assets/new.svg)**Maior cobertura de teste.** A cobertura de teste funcional e de integração automatizada aumentou significativamente.
+![Novo &#x200B;](../assets/new.svg)**Maior cobertura de teste.** A cobertura de teste funcional e de integração automatizada aumentou significativamente.
 
 ## 1.1.2
 

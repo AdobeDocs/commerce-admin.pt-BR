@@ -55,7 +55,7 @@ Para obter uma lista detalhada das definições de configuração, consulte [Arq
 
 >[!NOTE]
 >
->Na plataforma [!DNL Adobe Commerce as a Cloud Service], não é possível configurar o relatório de Log de ações, o arquivo de log de ações e o log de ações em massa, mas você pode revisar a saída do relatório no menu **[!UICONTROL System]** > _[!UICONTROL Action Logs]_em Admin.
+>Na plataforma [!DNL Adobe Commerce as a Cloud Service], não é possível configurar o relatório de Log de ações, o arquivo de log de ações e o log de ações em massa, mas você pode revisar a saída do relatório no menu **[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;em Admin.
 
 ## Configurar ações do administrador para fazer logon
 

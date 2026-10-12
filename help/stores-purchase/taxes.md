@@ -3,27 +3,35 @@ title: Impostos
 description: Saiba como configurar sua loja para calcular impostos de acordo com os requisitos de sua localidade.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+TQID: 'https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 0%
-
 ---
-
 # Impostos
 
 Configure sua loja para calcular impostos de acordo com os requisitos de sua localidade. Você pode configurar [classes de imposto](tax-class.md) para produtos e grupos de clientes e criar [regras de imposto](tax-rules.md) que combinam classes de produto e de cliente, zonas de imposto e alíquotas. O Commerce também fornece definições de configuração para impostos fixos de produtos, impostos compostos e exibição para preços entre fronteiras internacionais. Se você precisar coletar um [imposto sobre valor agregado](vat.md), poderá configurar seu armazenamento para calcular automaticamente o valor apropriado com a validação.
@@ -32,7 +40,7 @@ Configure sua loja para calcular impostos de acordo com os requisitos de sua loc
 >
 >As versões 2.4.0 a 2.4.3 do Adobe Commerce e do Magento Open Source incluíam a extensão desenvolvida pelo fornecedor Vertex usada para integrar com a Vertex Cloud a fim de fornecer gerenciamento de impostos e limpeza de endereços. A partir da versão 2.4.4, essa extensão não é mais fornecida com a versão principal e deve ser instalada e atualizada pela Commerce Marketplace ou diretamente do fornecedor. [Contate a Vertex](https://marketplace.magento.com/partner/vertex_inc) para obter informações sobre a extensão e a documentação.<br><br>
 >
->Se você tiver a extensão agrupada ativada e configurada, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/modules/upgrade) no _Guia de Atualização_.
+>Se você tiver a extensão agrupada ativada e configurada, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) no _Guia de Atualização_.
 
 ## Referência rápida
 
@@ -103,7 +111,7 @@ Os comerciantes auditados para impostos pagos por bens digitais devem fornecer d
 - O endereço de entrega do cliente e um registro de uma transação de pagamento bem-sucedida podem ser usados para estabelecer o local de residência do cliente. (O pagamento é aceito somente se o endereço de entrega corresponder às informações do provedor de serviço de pagamento.)
 - As informações também podem ser capturadas diretamente do armazenamento de dados nas tabelas do banco de dados do Commerce.
 
-_&#x200B;**Para coletar informações de imposto sobre mercadorias digitais:**&#x200B;_
+_**Para coletar informações de imposto sobre mercadorias digitais:**_
 
 1. Carregar as taxas de imposto para todos os países membros da UE.
 

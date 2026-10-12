@@ -3,35 +3,44 @@ title: Configurar comunicações por email
 description: Saiba como configurar comunicações por email, incluindo o roteamento de emails retornados ou respostas a um endereço de email específico.
 exl-id: 7e62e9c5-f214-4fd5-becc-99dcb093cd5c
 feature: Communications, Configuration
-TQID: https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww
+TQID: 'https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 # Configurar comunicações por email
 
 As _Configurações de Envio de Emails_ oferecem a capacidade de encaminhar emails retornados ou respostas a emails para um endereço específico. Se o armazenamento estiver sendo executado em um servidor SMTP ou Windows, você poderá verificar as configurações do host e da porta.
 
 >[!IMPORTANT]
 >
->**Aviso de segurança** Todos os comerciantes devem definir imediatamente sua configuração de envio de email para proteger contra uma possível exploração de execução remota de código recentemente identificada. Até que esse problema seja resolvido, é altamente recomendável que você evite usar o [!DNL Sendmail] para comunicações por email. Em _[!UICONTROL Mail Sending Settings]_, verifique se&#x200B;_[!UICONTROL Set Return Path]_ está definido como `No`.
+>**Aviso de segurança** Todos os comerciantes devem definir imediatamente sua configuração de envio de email para proteger contra uma possível exploração de execução remota de código recentemente identificada. Até que esse problema seja resolvido, é altamente recomendável que você evite usar o [!DNL Sendmail] para comunicações por email. Em _[!UICONTROL Mail Sending Settings]_, verifique se_[!UICONTROL Set Return Path]_ está definido como `No`.
 
 Para obter uma lista detalhada das definições de configuração, consulte [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) na _Referência de Configuração_.
 
@@ -51,22 +60,22 @@ Para obter uma lista detalhada das definições de configuração, consulte [_[!
 
    - Se estiver executando em um servidor SMTP ou Windows, verifique as seguintes configurações:
 
-      - **[!UICONTROL Host]** - `localhost` ou outro
+     - **[!UICONTROL Host]** - `localhost` ou outro
 
-      - **[!UICONTROL Port (25)]** - `25` ou outro
+     - **[!UICONTROL Port (25)]** - `25` ou outro
 
    - Para **[!UICONTROL Set Return Path]**, escolha uma das seguintes opções:
 
-      - `No` - (Medida de segurança recomendada) Roteia emails retornados ao endereço de email de armazenamento padrão.
-      - `Yes` - Roteia o email retornado para o endereço de email de armazenamento padrão.
-      - `Specified` - Roteia o email retornado para o endereço de email especificado em **[!UICONTROL Return Path Email]**.
+     - `No` - (Medida de segurança recomendada) Roteia emails retornados ao endereço de email de armazenamento padrão.
+     - `Yes` - Roteia o email retornado para o endereço de email de armazenamento padrão.
+     - `Specified` - Roteia o email retornado para o endereço de email especificado em **[!UICONTROL Return Path Email]**.
 
    - Se estiver executando em um servidor SMTP, configure a conexão:
 
-      - **[!UICONTROL Username]** - Digite o nome de usuário de logon do servidor SMTP.
-      - **[!UICONTROL Password]** - Digite a senha para fazer logon no servidor SMTP.
-      - **[!UICONTROL Auth]** - Escolha o tipo de autenticação para a conexão do servidor SMTP: `NONE`, `PLAIN` ou `LOGIN`
-      - **[!UICONTROL SSL]** - Escolha o tipo de verificação para o certificado de segurança do servidor: `SSL` ou `TLS`
+     - **[!UICONTROL Username]** - Digite o nome de usuário de logon do servidor SMTP.
+     - **[!UICONTROL Password]** - Digite a senha para fazer logon no servidor SMTP.
+     - **[!UICONTROL Auth]** - Escolha o tipo de autenticação para a conexão do servidor SMTP: `NONE`, `PLAIN` ou `LOGIN`
+     - **[!UICONTROL SSL]** - Escolha o tipo de verificação para o certificado de segurança do servidor: `SSL` ou `TLS`
 
      ![Configuração avançada - configurações de envio de email](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 

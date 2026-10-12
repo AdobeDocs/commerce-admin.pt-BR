@@ -3,28 +3,37 @@ title: Gerenciamento de pedidos de vitrine eletrônica
 description: Saiba como os clientes podem visualizar e gerenciar seu histórico de pedidos na loja da Commerce.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-TQID: https://experienceleague.adobe.com/FGexEy3ZXcnDUoHOiGc3B24ri2AuP4vX-vX7q3tcbRA
+TQID: 'https://experienceleague.adobe.com/FGexEy3ZXcnDUoHOiGc3B24ri2AuP4vX-vX7q3tcbRA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 0%
-
 ---
-
 # Gerenciamento de pedidos de vitrine eletrônica
 
 Os clientes têm acesso a todos os seus pedidos por meio de sua conta. Os pedidos podem ser visualizados, filtrados, rastreados e reenviados como novos pedidos. Dependendo do status da ordem, os clientes podem imprimir suas ordens, NFFs, entregas e registros de restituição.
@@ -33,7 +42,7 @@ Os clientes têm acesso a todos os seus pedidos por meio de sua conta. Os pedido
 
 {{b2b-feature}}
 
-Os resultados iniciais de _[!UICONTROL My Orders]_&#x200B;também contêm pedidos correspondentes de usuários subordinados de todos os sites na instância de comércio. Um cliente associado a uma conta de empresa pode filtrar a lista de pedidos para localizar registros rapidamente nos resultados. Para mostrar as opções de filtro, o cliente clica em **[!UICONTROL Filter]**&#x200B;e em **[!UICONTROL Close]**&#x200B;para ocultar os filtros.
+Os resultados iniciais de _[!UICONTROL My Orders]_também contêm pedidos correspondentes de usuários subordinados de todos os sites na instância de comércio. Um cliente associado a uma conta de empresa pode filtrar a lista de pedidos para localizar registros rapidamente nos resultados. Para mostrar as opções de filtro, o cliente clica em **[!UICONTROL Filter]**e em **[!UICONTROL Close]**para ocultar os filtros.
 
 ![Meus Pedidos](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -57,7 +66,7 @@ Um cliente encontra o pedido na lista e clica em **[!UICONTROL View Order]**. N
 
 O bloco **[!UICONTROL Recent Orders]** é exibido na barra lateral e na página **[!UICONTROL My Account]** para clientes que estão conectados após fazerem um pedido. Ele exibe cinco produtos da última compra.
 
-O cliente pode ler os produtos no carrinho selecionando os produtos e clicando em **[!UICONTROL Add to Cart]**. Eles também podem exibir a última ordem clicando em **[!UICONTROL View all]**, que redireciona para a página _[!UICONTROL My Account]_&#x200B;e o bloco **[!UICONTROL Recent Orders]**.
+O cliente pode ler os produtos no carrinho selecionando os produtos e clicando em **[!UICONTROL Add to Cart]**. Eles também podem exibir a última ordem clicando em **[!UICONTROL View all]**, que redireciona para a página _[!UICONTROL My Account]_e o bloco **[!UICONTROL Recent Orders]**.
 
 ### Imprimir ordem
 
@@ -118,7 +127,7 @@ Um cliente pode iniciar a funcionalidade de reordenação para um pedido especí
 
 ## Reordenações
 
-O link _[!UICONTROL Reorder]_&#x200B;é exibido na lista com pedidos próximos ao link&#x200B;_[!UICONTROL View]_.
+O link _[!UICONTROL Reorder]_é exibido na lista com pedidos próximos ao link_[!UICONTROL View]_.
 
 ![Reordenar link na página Meu Pedido](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -132,7 +141,7 @@ O cliente é redirecionado ao carrinho de compras e todos os produtos são adici
 >
 >É possível reordenar `Not Visible Individually` produtos.
 
-O link _[!UICONTROL Reorder]_&#x200B;não aparece nas páginas&#x200B;_[!UICONTROL My Orders]_ e _[!UICONTROL View Order]_.
+O link _[!UICONTROL Reorder]_não aparece nas páginas_[!UICONTROL My Orders]_ e _[!UICONTROL View Order]_.
 
 ![Página Meu Pedido](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -150,7 +159,7 @@ Um cliente pode iniciar a funcionalidade de cancelamento para um pedido específ
 - Página de exibição de pedidos
 - Página Minha conta
 
-O link _[!UICONTROL Cancel Order]_&#x200B;é exibido próximo ao link&#x200B;_[!UICONTROL Reorder]_. Se a ordem não puder ser cancelada, o link não será exibido.
+O link _[!UICONTROL Cancel Order]_é exibido próximo ao link_[!UICONTROL Reorder]_. Se a ordem não puder ser cancelada, o link não será exibido.
 
 ![Cancelar link na página Meu Pedido](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -168,7 +177,7 @@ Para executar o cancelamento, o cliente:
 
    ![Cancelar na página Meu Pedido](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Após o cancelamento, os pedidos que estavam no status _[!UICONTROL Pending]_, mudam para o status&#x200B;_[!UICONTROL Canceled]_, os pedidos que estavam no status _[!UICONTROL Processing]_, mudam para o status&#x200B;_[!UICONTROL Closed]_ e um reembolso será processado.
+   Após o cancelamento, os pedidos que estavam no status _[!UICONTROL Pending]_, mudam para o status_[!UICONTROL Canceled]_, os pedidos que estavam no status _[!UICONTROL Processing]_, mudam para o status_[!UICONTROL Closed]_ e um reembolso será processado.
 
    Quando o cancelamento for concluído, um email será enviado ao cliente.
 

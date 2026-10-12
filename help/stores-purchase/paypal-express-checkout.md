@@ -3,39 +3,50 @@ title: Check-out do PayPal Express
 description: Saiba como configurar o Check-out expresso do PayPal como uma solução de pagamento online em sua loja.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-TQID: https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: 'https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 3148
+source-wordcount: '3201'
 ht-degree: 0%
-
 ---
-
 # Check-out do PayPal Express
 
 O Check-out expresso do PayPal ajuda a impulsionar as vendas, oferecendo aos seus clientes a capacidade de pagar com cartão de crédito ou com a segurança de suas contas pessoais do PayPal. Durante a finalização da compra, o cliente é redirecionado para o site seguro do PayPal para preencher as informações de pagamento. O cliente é retornado à sua loja para concluir o restante do processo de finalização. Escolher o Check-out expresso adiciona o familiar botão PayPal à sua loja, que tem sido relatado para aumentar as vendas.
 
 >[!IMPORTANT]
 >
->Requisitos do **PSD2:** <br/>
->A partir de 14 de setembro de 2019, os bancos europeus poderão recusar pagamentos que não atendam aos requisitos da [PSD2](../getting-started/compliance-payment-services-directive.md). Nenhuma ação é necessária para que o Check-out do PayPal Express esteja em conformidade com a PSD2, pois todos os requisitos são tratados pelo PayPal.
+>**Requisitos do PSD2:** <br/>
+>A partir de 14 de setembro de 2019, os bancos europeus poderão recusar pagamentos que não atendam aos requisitos do [PSD2](../getting-started/compliance-payment-services-directive.md). Nenhuma ação é necessária para que o Check-out do PayPal Express esteja em conformidade com a PSD2, pois todos os requisitos são tratados pelo PayPal.
 
 Os clientes com contas atuais do PayPal podem fazer uma compra em uma única etapa clicando no botão _[!UICONTROL Check out with PayPal]_. O Check-out expresso pode ser usado como um aplicativo independente ou com uma das soluções PayPal all-in-one. Se você já aceita cartões de crédito on-line, você pode oferecer o Check-out expresso como uma opção extra para atrair novos clientes que preferem pagar com PayPal.
 
@@ -111,13 +122,13 @@ Você pode ter duas soluções PayPal ativas ao mesmo tempo: Check-out do PayPal
 
 1. Se a sua instalação tiver vários sites, lojas ou modos de exibição, defina **[!UICONTROL Store View]** como o modo de exibição de loja ao qual deseja aplicar essa configuração.
 
-1. Na seção _[!UICONTROL Merchant Location]_, selecione o **[!UICONTROL Merchant Country]**&#x200B;onde sua empresa está localizada.
+1. Na seção _[!UICONTROL Merchant Location]_, selecione o **[!UICONTROL Merchant Country]**onde sua empresa está localizada.
 
    Esta configuração determina a seleção das Soluções do PayPal que aparecem na configuração.
 
    ![País do comerciante](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. Em _[!UICONTROL Recommended Solutions]_, clique em **[!UICONTROL Configure]**&#x200B;para **[!UICONTROL PayPal Express Checkout]**.
+1. Em _[!UICONTROL Recommended Solutions]_, clique em **[!UICONTROL Configure]**para **[!UICONTROL PayPal Express Checkout]**.
 
    ![Configurar Check-out do PayPal Express](./assets/paypal-express-checkout.png){width="600"}
 
@@ -329,11 +340,11 @@ Defina **[!UICONTROL Enable PayPal PayLater Experience]** como um dos seguintes:
    - `Sale` - O valor da compra é autorizado e imediatamente retirado da conta do cliente.
    - `Order` - O valor do pedido não é capturado ou autorizado no saldo do cliente, na conta bancária ou no cartão de crédito no PayPal. A ação Solicitar pagamento representa um acordo entre o sistema de pagamento do PayPal e o comerciante. Ele permite que o comerciante capture uma ou mais quantias até o total solicitado da conta do comprador do cliente por um período de até 29 dias. Depois que os fundos são solicitados, o comerciante pode capturá-los a qualquer momento durante o período de 29 dias seguinte. A captura do valor do pedido só pode ser feita pelo administrador do Commerce, criando uma ou mais faturas.
 
-1. Para exibir o botão _[!UICONTROL Check out with PayPal]_&#x200B;na página do produto, defina **[!UICONTROL Display on Product Details Page]**&#x200B;como `Yes`.
+1. Para exibir o botão _[!UICONTROL Check out with PayPal]_na página do produto, defina **[!UICONTROL Display on Product Details Page]**como `Yes`.
 
 1. Se a ação de pagamento estiver definida como `Order`, conclua o seguinte
 
-   - **[!UICONTROL Authorization Honor Period (days)]** - Determina por quanto tempo a autorização primária permanece válida. O valor deve ser igual ao valor correspondente na sua conta de comerciante do PayPal. O valor padrão em sua conta de comerciante do PayPal é `3`. Para aumentar esse número, você deve entrar em contato com o PayPal. A autorização se torna inválida às 23h00, Horário do Pacífico dos EUA, do último dia.:49
+   - **[!UICONTROL Authorization Honor Period (days)]** - Determina por quanto tempo a autorização primária permanece válida. O valor deve ser igual ao valor correspondente na sua conta de comerciante do PayPal. O valor padrão em sua conta de comerciante do PayPal é `3`. Para aumentar esse número, você deve entrar em contato com o PayPal. A autorização se torna inválida às 23h49, Horário do Pacífico dos EUA, do último dia.
 
    - **[!UICONTROL Order Valid Period (days)]** - Determina por quanto tempo o pedido permanece válido. Quando a ordem se tornar inválida, você não poderá mais criar faturas para ela. Especifique o valor igual ao valor do Período Válido do Pedido na conta de comerciante do PayPal. O valor padrão em sua conta de comerciante do PayPal é `29`. Para alterar esse número, você deve entrar em contato com o PayPal.
 
@@ -350,7 +361,7 @@ Defina **[!UICONTROL Enable PayPal PayLater Experience]** como um dos seguintes:
 1. Defina **[!UICONTROL Payment Applicable From]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os países especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada item.
+   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada item.
 
 1. Para gravar comunicações com o sistema de pagamento no arquivo de log, defina **[!UICONTROL Debug Mode]** como `Yes`.
 
@@ -427,7 +438,7 @@ Um [contrato de cobrança](paypal-billing-agreements.md) é um contrato de venda
 1. Defina **[!UICONTROL Payment Applicable From]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os países especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada um.
+   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada um.
 
 1. Para registrar comunicações com o sistema de pagamento no arquivo de log, defina **[!UICONTROL Debug Mode]** como `Yes`.
 
@@ -451,8 +462,8 @@ Um [contrato de cobrança](paypal-billing-agreements.md) é um contrato de venda
 
    - Se você se inscreveu no servidor FTP seguro do PayPal, insira as seguintes credenciais de logon SFTP:
 
-      - Logon
-      - Senha
+     - Logon
+     - Senha
 
    - Para executar relatórios de teste antes de _entrar em funcionamento_ com o Check-out Expresso no site, defina **[!UICONTROL Sandbox Mode]** como `Yes`.
 
@@ -470,13 +481,13 @@ Um [contrato de cobrança](paypal-billing-agreements.md) é um contrato de venda
 
    - Defina **[!UICONTROL Schedule]** como um dos seguintes:
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      O PayPal retém cada relatório por 45 dias.
 
@@ -504,9 +515,9 @@ Use as Configurações de experiência de front-end para escolher quais logotipo
 
    - Digite o nome da **[!UICONTROL Page Style]** que você deseja aplicar às páginas de comerciante do PayPal:
 
-      - `paypal` - Usa o estilo de página do PayPal.
-      - `primary` - Usa o estilo de página identificado como _primário_ no perfil da conta.
-      - `your_custom_value` - Usa um estilo de página de pagamento personalizado, que é especificado no perfil da conta.
+     - `paypal` - Usa o estilo de página do PayPal.
+     - `primary` - Usa o estilo de página identificado como _primário_ no perfil da conta.
+     - `your_custom_value` - Usa um estilo de página de pagamento personalizado, que é especificado no perfil da conta.
 
    - Para **[!UICONTROL Header Image URL]**, insira a URL da imagem que você deseja que apareça no canto superior esquerdo da página de pagamento. O tamanho máximo do arquivo é de 750 pixels de largura por 90 pixels de altura.
 
@@ -516,9 +527,9 @@ Use as Configurações de experiência de front-end para escolher quais logotipo
 
    - Para definir a cor das páginas, insira o código hexadecimal de seis caracteres, sem o símbolo `#`, para cada um dos seguintes itens:
 
-      - **[!UICONTROL Header Background Color]** - Cor de fundo do cabeçalho da página de check-out.
-      - **[!UICONTROL Header Border Color]** - Cor da borda de dois pixels ao redor do cabeçalho.
-      - **[!UICONTROL Page Background Color]** - Cor de fundo da página de check-out e ao redor do cabeçalho e do formulário de pagamento.
+     - **[!UICONTROL Header Background Color]** - Cor de fundo do cabeçalho da página de check-out.
+     - **[!UICONTROL Header Border Color]** - Cor da borda de dois pixels ao redor do cabeçalho.
+     - **[!UICONTROL Page Background Color]** - Cor de fundo da página de check-out e ao redor do cabeçalho e do formulário de pagamento.
 
 #### Personalizar botões inteligentes
 

@@ -3,30 +3,40 @@ title: Processo e opções de check-out
 description: Saiba como o processo de finalização da Adobe Commerce e do Magento Open Source coleta as informações necessárias para concluir a transação e a página Finalização da compra guia o cliente em cada etapa do processo.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-TQID: https://experienceleague.adobe.com/pBCZkoYfSX-cqBu-wsS8eFynW3NUfT56MOWwuxpCGrc
+TQID: 'https://experienceleague.adobe.com/pBCZkoYfSX-cqBu-wsS8eFynW3NUfT56MOWwuxpCGrc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1098
+source-wordcount: '1098'
 ht-degree: 0%
-
 ---
-
 # Processo e opções de check-out
 
 Quando o processo de finalização começa, a transação é transferida para um canal seguro e criptografado. Um símbolo de cadeado é exibido na barra de endereços do navegador, e a URL muda de `http` para `https`.
@@ -161,11 +171,11 @@ Para obter uma descrição detalhada de cada uma dessas configurações, consult
 | Campo | [Escopo](../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enable Onepage Checkout] | Exibição da loja | Determina se [check-out de uma página](checkout-one-page.md) é o formato de check-out padrão. Opções: Sim / Não |
-| [!UICONTROL Allow Guest Checkout] | Exibição da loja | Determina se os convidados podem passar pelo check-out de [&#x200B; sem se registrarem](checkout-guest.md) em uma conta com sua loja. Opções: `Yes` / `No` |
+| [!UICONTROL Allow Guest Checkout] | Exibição da loja | Determina se os convidados podem passar pelo check-out de [ sem se registrarem](checkout-guest.md) em uma conta com sua loja. Opções: `Yes` / `No` |
 | [!UICONTROL Enable Terms and Conditions] | Exibição da loja | Determina se os clientes devem concordar com os [Termos e Condições](terms-and-conditions.md) da venda antes de fazer uma compra. Opções: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Exibição da loja | Determina o local do endereço de cobrança durante a finalização da compra. Opções: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Exibição da loja | Determina o número máximo de itens que podem aparecer no Resumo do pedido durante a finalização da compra. O padrão é `10`. |
-| [!UICONTROL Enable Address Search] | Site | O ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Determina se os clientes podem usar a funcionalidade [pesquisa de endereço](checkout-address-search.md) para o _Envio_ e as etapas _Revisão e Pagamentos_. Quando esta função estiver habilitada, use o _[!UICONTROL Number of Customer Addresses Limit]_&#x200B;para definir o número de endereços salvos necessários para ativar esta funcionalidade durante o check-out. Opções: `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | Site | O ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Determina se os clientes podem usar a funcionalidade [pesquisa de endereço](checkout-address-search.md) para o _Envio_ e as etapas _Revisão e Pagamentos_. Quando esta função estiver habilitada, use o _[!UICONTROL Number of Customer Addresses Limit]_para definir o número de endereços salvos necessários para ativar esta funcionalidade durante o check-out. Opções: `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | Site | ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Quando a pesquisa de endereço é **[!UICONTROL Enabled]**, determina o número de endereços salvos necessários para ativar esta funcionalidade durante o check-out. Quando o número de endereços salvos do cliente atingir ou exceder esse número, somente o endereço padrão será renderizado nas etapas _Remessa_ e _Revisão e Pagamentos_. O cliente pode usar uma função de pesquisa para alterar o endereço selecionado. O padrão é 10. |
 
 {style="table-layout:auto"}

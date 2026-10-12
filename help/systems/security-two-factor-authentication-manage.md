@@ -4,32 +4,43 @@ description: Saiba como gerenciar a autenticação de dois fatores e redefinir o
 exl-id: 68256214-2d50-4c42-846f-306ffc305f25
 role: Admin
 feature: Configuration, Security, User Account
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-TQID: https://experienceleague.adobe.com/aE-36667-f0E4GSXDjZZmFUkS3wa-xTLUMbVtjwS6qk
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: 'https://experienceleague.adobe.com/aE-36667-f0E4GSXDjZZmFUkS3wa-xTLUMbVtjwS6qk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: '336'
 ht-degree: 0%
-
 ---
-
 # Gerenciar autenticação de dois fatores
 
 Os usuários que não conseguem entrar no _Admin_ com autenticação de dois fatores (2FA) podem tentar sincronizar ou solucionar o problema. Também é possível redefinir os autenticadores associados à conta. Quando redefinido, o usuário deve fazer logon novamente e reconfigurar os autenticadores necessários.
@@ -53,11 +64,11 @@ Para redefinir autenticadores da linha de comando e obter informações mais ava
 
 1. Selecione o usuário e abra a conta no modo de edição.
 
-1. Role para baixo até a seção _[!UICONTROL Current User Identity Verification]_&#x200B;e digite sua senha.
+1. Role para baixo até a seção _[!UICONTROL Current User Identity Verification]_e digite sua senha.
 
 1. No painel esquerdo, clique em **[!UICONTROL 2FA]**.
 
-1. Na seção _[!UICONTROL Configuration reset]_, clique em **[!UICONTROL Reset]**&#x200B;e **[!UICONTROL OK]**&#x200B;para confirmar.
+1. Na seção _[!UICONTROL Configuration reset]_, clique em **[!UICONTROL Reset]**e **[!UICONTROL OK]**para confirmar.
 
    ![Conta de usuário - habilitar 2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

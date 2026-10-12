@@ -3,7 +3,7 @@ title: Criar uma regra de preço de catálogo
 description: Saiba como criar uma regra de preço de catálogo que aplica um desconto a produtos específicos sempre que um conjunto de condições é atendido.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
+TQID: 'https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -31,7 +35,7 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 0%
@@ -46,7 +50,7 @@ Siga estas instruções para aplicar um desconto a produtos específicos sempre 
 
 1. No canto superior direito, clique em **[!UICONTROL Add New Rule]**.
 
-   A seção _[!UICONTROL Rule Information]_&#x200B;inclui seções expansíveis para **[!UICONTROL Conditions]**&#x200B;e **[!UICONTROL Actions]**.
+   A seção _[!UICONTROL Rule Information]_inclui seções expansíveis para **[!UICONTROL Conditions]**e **[!UICONTROL Actions]**.
 
    ![Regra de preço de catálogo - informações](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -251,7 +255,7 @@ A maioria das condições disponíveis é baseada nos valores de atributo existe
 
 Assista a este vídeo para saber mais sobre como criar regras de preço de catálogo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3412504?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Descrições dos campos
 

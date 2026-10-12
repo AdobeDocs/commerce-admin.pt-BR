@@ -3,26 +3,35 @@ title: Configuração de moeda
 description: Saiba mais sobre como definir o escopo da moeda base e como especificar as moedas que você aceita e a moeda que deseja usar para exibição de preço.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-TQID: https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE
+TQID: 'https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '826'
 ht-degree: 0%
-
 ---
-
 # Configuração de moeda
 
 Antes de configurar taxas de câmbio individuais, você deve primeiro definir o escopo da [moeda base](../configuration-reference/general/currency-setup.md). Está definida como global por padrão, o que aplica a configuração da moeda base a toda a [hierarquia de armazenamento](../getting-started/websites-stores-views.md). Se você tiver uma instalação de vários sites do Adobe Commerce ou Magento Open Source, poderá gerenciar várias moedas base definindo o escopo para o nível do site.
@@ -83,31 +92,31 @@ Você também especifica as moedas que aceita e qual moeda deseja usar para a ex
 
    - _Para conectar ao [serviço fixer.io](https://fixer.io/):_
 
-      - Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Fixer.io]**.
+     - Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Fixer.io]**.
 
-      - Insira seu fixer.io **[!UICONTROL API key]**.
+     - Insira seu fixer.io **[!UICONTROL API key]**.
 
-      - Para **[!UICONTROL Connection Timeout in Seconds]**, insira o número de segundos de inatividade permitidos antes que a conexão expire.
+     - Para **[!UICONTROL Connection Timeout in Seconds]**, insira o número de segundos de inatividade permitidos antes que a conexão expire.
 
      ![Configuração geral - configuração de moeda - Opções de Fixer.io](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
    - _Para se conectar ao [[!DNL Fixer Api (APILayer)] serviço](https://apilayer.com/):_
 
-      - Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Fixer Api (APILayer)]**.
+     - Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Fixer Api (APILayer)]**.
 
-      - Insira seu [!DNL APILayer] **[!UICONTROL API key]**.
+     - Insira seu [!DNL APILayer] **[!UICONTROL API key]**.
 
-      - Para **[!UICONTROL Connection Timeout in Seconds]**, insira o número de segundos de inatividade permitidos antes que a conexão expire.
+     - Para **[!UICONTROL Connection Timeout in Seconds]**, insira o número de segundos de inatividade permitidos antes que a conexão expire.
 
      ![Configuração geral - configuração de moeda - Opções de API de Correção (APILayer)](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
    - _Para se conectar ao [[!DNL Currency Convertor API] serviço](https://free.currencyconverterapi.com/):_
 
-      - Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Currency Convertor API]**.
+     - Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Currency Convertor API]**.
 
-      - Insira seu Conversor de Moeda **[!UICONTROL API key]**.
+     - Insira seu Conversor de Moeda **[!UICONTROL API key]**.
 
-      - Para **[!UICONTROL Connection Timeout in Seconds]**, insira o número de segundos de inatividade permitidos antes que a conexão expire.
+     - Para **[!UICONTROL Connection Timeout in Seconds]**, insira o número de segundos de inatividade permitidos antes que a conexão expire.
 
      ![Configuração geral - configuração de moeda - Opções da API do Conversor de Moeda](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
@@ -127,9 +136,9 @@ Você também especifica as moedas que aceita e qual moeda deseja usar para a ex
 
    - **[!UICONTROL Frequency]** — Para determinar com que frequência as taxas são atualizadas, defina como uma das seguintes opções:
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - **[!UICONTROL Error Email Recipient]** — Digite o endereço de email da pessoa que receberá a notificação por email se ocorrer um erro durante o processo de importação.
 
@@ -163,7 +172,7 @@ O Gerenciamento de Símbolos de Moeda oferece a capacidade de personalizar o sí
 
    - Insira um símbolo personalizado para cada moeda que deseja usar ou marque a caixa de seleção **[!UICONTROL Use Standard]** para cada moeda.
 
-   - Para substituir o símbolo padrão, desmarque a caixa de seleção _[!UICONTROL Use Standard]_&#x200B;e insira o símbolo que deseja usar.
+   - Para substituir o símbolo padrão, desmarque a caixa de seleção _[!UICONTROL Use Standard]_e insira o símbolo que deseja usar.
 
    >[!NOTE]
    >

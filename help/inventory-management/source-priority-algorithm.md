@@ -3,28 +3,39 @@ title: Configurar o algoritmo de prioridade do Source
 description: Configure a ordem de prioridade de origem em um estoque para que o algoritmo Prioridade do Source recomende origens para remessas e deduções.
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/TB4THYjkzbNvEbsjNzOewNtYS6JoRvLDiQQCovSMkbI
+TQID: 'https://experienceleague.adobe.com/TB4THYjkzbNvEbsjNzOewNtYS6JoRvLDiQQCovSMkbI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 269
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # Configurar o algoritmo de prioridade do Source
 
 Os estoques personalizados incluem uma lista atribuída de fontes para vender e enviar o inventário de produtos disponível por meio de sua loja. Esse algoritmo usa a ordem das fontes atribuídas no estoque para fazer recomendações.
@@ -49,7 +60,7 @@ Para configurar, organize essas origens de cima para baixo em prioridade para at
 
 1. Clique em **[!UICONTROL Assign Sources]**.
 
-1. Na exibição _[!UICONTROL Assign Sources]_, marque a caixa de seleção da origem necessária e clique em **[!UICONTROL Done]**&#x200B;para atribuir uma origem ao estoque.
+1. Na exibição _[!UICONTROL Assign Sources]_, marque a caixa de seleção da origem necessária e clique em **[!UICONTROL Done]**para atribuir uma origem ao estoque.
 
 >[!NOTE]
 >

@@ -15,10 +15,23 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 67a00b294f1946da5795cd8fb7ea9fac1c80edcd
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -46,7 +59,7 @@ Use a orientação a seguir para identificar o recurso que corresponde aos seus 
 | Requisito | Capacidade recomendada |
 | --- | --- |
 | Enviar uma consulta específica da pesquisa padrão [!DNL Adobe Commerce] para uma página | Configure um termo de pesquisa em [Gerenciar termos de pesquisa](../catalog/search-terms.md), onde houver suporte. |
-| Alterar a classificação ou a visibilidade do produto nos resultados da pesquisa | Use [!DNL Live Search] [sinônimos](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-admin/synonyms/synonyms) ou [regras de comercialização](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-admin/rules/rules-add). |
+| Alterar a classificação ou a visibilidade do produto nos resultados da pesquisa | Use [!DNL Live Search] [sinônimos](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms) ou [regras de comercialização](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add). |
 | Redirecionar um produto, categoria ou URL do CMS antigo | Use a ferramenta [Reescrita de URL](url-rewrite.md) do Commerce quando ela se aplicar à sua implantação. |
 | Redirecionar um caminho [!DNL Edge Delivery Services] | Use o roteamento de vitrine ou CDN. |
 | Preservar URLs herdados após a migração de uma loja | Crie e teste um mapa de redirecionamento de URL herdado para novo. |
@@ -83,13 +96,13 @@ Para implantações que oferecem suporte à ferramenta de Reescrita de URL, vá 
 
 Use o [!DNL Live Search] quando precisar alterar a relevância da pesquisa, a classificação do produto ou a visibilidade do produto. Use sinônimos quando palavras diferentes devem retornar produtos semelhantes. Use as regras de merchandising quando os produtos precisarem ser promovidos, enterrados ou classificados de forma diferente.
 
-O comportamento de pesquisa [!DNL Live Search] não deve ser tratado como uma substituição de menu suspenso para cada configuração de termo de pesquisa nativa do Commerce. Quando um query deve navegar para uma página de conteúdo ou campanha, implemente o redirecionamento na camada da vitrine ou do roteamento de borda que recebe a solicitação. Para obter mais informações, consulte a [[!DNL Live Search] documentação](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview).
+O comportamento de pesquisa [!DNL Live Search] não deve ser tratado como uma substituição de menu suspenso para cada configuração de termo de pesquisa nativa do Commerce. Quando um query deve navegar para uma página de conteúdo ou campanha, implemente o redirecionamento na camada da vitrine ou do roteamento de borda que recebe a solicitação. Para obter mais informações, consulte a [[!DNL Live Search] documentação](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
 ## Edge Delivery Services
 
 Para uma vitrine fornecida por [!DNL Edge Delivery Services], gerencie redirecionamentos na camada de vitrine ou de roteamento de borda. Não suponha que a URL de administrador [!DNL Adobe Commerce] reescreva o controle de cada solicitação.
 
-Ao usar a criação de documentos, mantenha os mapeamentos de redirecionamento na configuração de redirecionamento do site. Para redirecionamentos que devem ser executados antes que uma solicitação atinja a origem, use a configuração apropriada de CDN ou borda. Para obter orientações de SEO relacionadas, consulte [diretrizes de SEO para a Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=pt-BR).
+Ao usar a criação de documentos, mantenha os mapeamentos de redirecionamento na configuração de redirecionamento do site. Para redirecionamentos que devem ser executados antes que uma solicitação atinja a origem, use a configuração apropriada de CDN ou borda. Para obter orientações de SEO relacionadas, consulte [diretrizes de SEO para a Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/).
 
 ## Migrar do Luma
 

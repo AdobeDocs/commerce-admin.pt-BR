@@ -3,29 +3,43 @@ title: Taxas de câmbio de recompensa
 description: Saiba como configurar as taxas de câmbio de premiação que determinam o número de pontos de premiação ganhos.
 exl-id: 4850d853-fb86-4f64-bfee-47915ea028e2
 feature: Rewards, Promotions/Events, Customers
-TQID: https://experienceleague.adobe.com/Iwr92ju0R1z6DFP-5n4O4bqIBYnYWtdn18ImbHJhoHU
+TQID: 'https://experienceleague.adobe.com/Iwr92ju0R1z6DFP-5n4O4bqIBYnYWtdn18ImbHJhoHU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4069cee6-4dc8-5a83-81de-232af6a7c9e9
+    internal-label: Rewards
+  - id: 19d9b313-1a3c-5bed-9da7-4364f71c3a28
+    internal-label: Promotions/Events
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: '571'
 ht-degree: 0%
-
 ---
-
 # Taxas de câmbio de recompensa
 
 {{ee-feature}}
@@ -62,8 +76,8 @@ Ao converter a moeda em pontos, o número de pontos não pode ser dividido. O re
 
    - Defina **[!UICONTROL Direction]** como um dos seguintes:
 
-      - `Points to Currency`
-      - `Currency to Points`
+     - `Points to Currency`
+     - `Currency to Points`
 
    Para qualquer configuração de Direção, o valor é representado na moeda base do site.
 
@@ -71,8 +85,8 @@ Ao converter a moeda em pontos, o número de pontos não pode ser dividido. O re
 
    | Direção | Configurações de taxa |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | No primeiro campo _[!UICONTROL Rate]_, insira o número de pontos. No segundo campo&#x200B;_[!UICONTROL Rate]_, insira o valor monetário dos pontos. |
-   | [!UICONTROL Currency to Points] | No primeiro campo _[!UICONTROL Rate]_, insira o valor monetário. No segundo campo&#x200B;_[!UICONTROL Rate]_, insira o número de pontos que é representado pelo valor monetário. |
+   | [!UICONTROL Points to Currency] | No primeiro campo _[!UICONTROL Rate]_, insira o número de pontos. No segundo campo_[!UICONTROL Rate]_, insira o valor monetário dos pontos. |
+   | [!UICONTROL Currency to Points] | No primeiro campo _[!UICONTROL Rate]_, insira o valor monetário. No segundo campo_[!UICONTROL Rate]_, insira o número de pontos que é representado pelo valor monetário. |
 
    Ao converter pontos em moeda, o número de pontos não pode ser dividido. Por exemplo, se dez pontos forem convertidos em US$ 2,00, os pontos deverão ser resgatados em grupos de dez. Portanto, 25 pontos seriam resgatados por US$ 4,00, com 5 pontos restantes no saldo do cliente.
 
@@ -96,4 +110,4 @@ Ao converter a moeda em pontos, o número de pontos não pode ser dividido. O re
 |--- |--- |
 | [!UICONTROL Website] | Os sites nos quais as taxas de recompensa se aplicam. |
 | [!UICONTROL Customer Group] | Os grupos de clientes aos quais as taxas de premiação se aplicam. |
-| [!UICONTROL Direction] | Determina o tipo de transação definido pela taxa de câmbio. Opções: <br/>**[!UICONTROL Points to Currency]**- Define o número de pontos que podem ser aplicados como crédito ao valor de um pedido. No primeiro campo _[!UICONTROL Rate]_, insira o número de pontos. No segundo campo&#x200B;_[!UICONTROL Rate]_, insira o valor monetário dos pontos.<br/>**[!UICONTROL Currency to Points]** - Define a quantidade de um pedido que pode ganhar pontos do cliente. No primeiro campo _[!UICONTROL Rate]_, insira o valor monetário. No segundo campo&#x200B;_[!UICONTROL Rate]_, insira o número de pontos que é representado pelo valor monetário. |
+| [!UICONTROL Direction] | Determina o tipo de transação definido pela taxa de câmbio. Opções: <br/>**[!UICONTROL Points to Currency]**- Define o número de pontos que podem ser aplicados como crédito ao valor de um pedido. No primeiro campo _[!UICONTROL Rate]_, insira o número de pontos. No segundo campo_[!UICONTROL Rate]_, insira o valor monetário dos pontos.<br/>**[!UICONTROL Currency to Points]** - Define a quantidade de um pedido que pode ganhar pontos do cliente. No primeiro campo _[!UICONTROL Rate]_, insira o valor monetário. No segundo campo_[!UICONTROL Rate]_, insira o número de pontos que é representado pelo valor monetário. |

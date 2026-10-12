@@ -3,27 +3,35 @@ title: Entrega na loja
 description: Saiba como configurar uma opção de entrega na loja.
 exl-id: bd64b110-5c39-41c6-8a0c-38561b2a5bf4
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/9pETzHXJvXmnJKhRbS7maASWBuMtbTbhJtCRKHekGTo
+TQID: 'https://experienceleague.adobe.com/9pETzHXJvXmnJKhRbS7maASWBuMtbTbhJtCRKHekGTo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: '645'
 ht-degree: 0%
-
 ---
-
 # Entrega na loja
 
 Com o método de entrega na loja, o cliente pode selecionar uma origem a ser usada como um local de retirada durante a finalização da compra.
@@ -33,19 +41,19 @@ Com o método de entrega na loja, o cliente pode selecionar uma origem a ser usa
 Durante o check-out na loja:
 
 1. O cliente clica em **[!UICONTROL Pick In Store]** ou seleciona o método de envio _[!UICONTROL In-Store Pickup Delivery]_.
-1. A guia de check-out _[!UICONTROL Pick In Store]_&#x200B;é aberta.
+1. A guia de check-out _[!UICONTROL Pick In Store]_é aberta.
 
 Quando o cliente tiver um endereço ou tiver preenchido anteriormente o formulário de endereço de entrega antes de alternar para a guia _[!UICONTROL Pick In Store]_:
 
 - A origem mais próxima do endereço do cliente dentro do raio configurado é automaticamente pré-selecionada como uma loja de retirada.
-- Quando o cliente clicar em **[!UICONTROL Select Other]**, o formulário de pesquisa _[!UICONTROL Select Store]_&#x200B;será aberto. Somente os armazenamentos dentro da distância configurada (raio) do armazenamento pré-selecionado são exibidos na lista. Todos os armazenamentos na lista são classificados pela distância até o armazenamento pré-selecionado.
+- Quando o cliente clicar em **[!UICONTROL Select Other]**, o formulário de pesquisa _[!UICONTROL Select Store]_será aberto. Somente os armazenamentos dentro da distância configurada (raio) do armazenamento pré-selecionado são exibidos na lista. Todos os armazenamentos na lista são classificados pela distância até o armazenamento pré-selecionado.
 - Quando o cliente informa um código postal ou o nome da cidade no campo de pesquisa, somente as lojas dentro da distância configurada (raio) para o local pesquisado são exibidas na lista. Todos os armazenamentos na lista são classificados pela distância até o local pesquisado.
 - Quando o cliente apaga o código postal ou o nome da cidade do campo de pesquisa, todas as lojas de retirada atribuídas aos produtos no carrinho de compras são mostradas ao cliente. Todos os armazenamentos na lista são classificados em ordem crescente dos códigos-fonte, sem qualquer limitação de distância (raio).
 
 Se o cliente não tiver um endereço ou não tiver preenchido o formulário de endereço de entrega antes de alternar para a guia _[!UICONTROL Pick In Store]_:
 
 - A página exibe a mensagem _Não foi possível pré-selecionar o local da retirada com base nas informações disponíveis_.
-- Quando o cliente clicar em **[!UICONTROL Select Store]**, o formulário de pesquisa _[!UICONTROL Select Store]_&#x200B;será aberto.
+- Quando o cliente clicar em **[!UICONTROL Select Store]**, o formulário de pesquisa _[!UICONTROL Select Store]_será aberto.
 - Todas as lojas de retirada atribuídas aos produtos no carrinho de compras são exibidas em ordem crescente dos códigos-fonte, sem qualquer limitação de distância (raio).
 - Quando o cliente informa um código postal ou o nome da cidade no campo de pesquisa, somente as lojas dentro da distância configurada (raio) para o local pesquisado são exibidas na lista. Todos os armazenamentos na lista são classificados pela distância até o local pesquisado.
 
@@ -59,7 +67,7 @@ Se o cliente não tiver um endereço ou não tiver preenchido o formulário de e
 >[!IMPORTANT]
 >
 >**Na loja, os resultados da pesquisa são filtrados por distância (raio) para mostrar resultados relevantes:**<br><br>
->Se o cliente tiver um endereço de entrega, o local base para calcular a distância (raio) será obtido do endereço de entrega.<br><br>
+>Se o cliente tiver um endereço de entrega, o local base para calcular a distância (raio) será retirado do endereço de entrega.<br><br>
 >Se o cliente não tiver um endereço de entrega, o local base para calcular a distância será obtido das configurações de [Cálculo de Destino de Imposto Padrão](../configuration-reference/sales/tax.md#default-tax-destination-calculation). Essas configurações são definidas por exibição de loja e você deve definir as configurações de Cálculo de Destino de Imposto Padrão para garantir que a pesquisa de loja de retirada funcione corretamente.
 
 ## Configurar entrega na loja

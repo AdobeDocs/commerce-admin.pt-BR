@@ -1,35 +1,50 @@
 ---
 title: '[!DNL Adobe Commerce Marketplace]'
-description: Saiba mais sobre o  [!DNL Commerce Marketplace], que oferece aos comerciantes uma seleção de soluções com curadoria e fornece aos desenvolvedores qualificados as ferramentas, a plataforma e o local ideal para criar um negócio próspero.
+description: Saiba mais sobre o [!DNL Commerce Marketplace], que oferece aos comerciantes uma seleção de soluções com curadoria e fornece aos desenvolvedores qualificados as ferramentas, a plataforma e o local ideal para criar um negócio próspero.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-TQID: https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk
+TQID: 'https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
 subfeature_v2:
   - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+    internal-label: Cloud architecture
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: '1438'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce Marketplace
 
 O [Adobe Commerce Marketplace](https://marketplace.magento.com/) é a loja de aplicativos que oferece aos comerciantes uma seleção de soluções com curadoria e fornece aos desenvolvedores qualificados as ferramentas, a plataforma e o local ideal para criar um negócio próspero. O [!DNL Commerce Marketplace] oferece uma seleção de extensões que estão disponíveis gratuitamente e outras que estão à venda. As compras podem ser pagas com cartão de crédito ou [PayPal](https://www.paypal.com/us/home).
@@ -63,7 +78,7 @@ Os seguintes recursos fornecem um ponto de partida para que os novos participant
 
 ## [!DNL Marketplace] credenciais
 
-Antes de instalar uma extensão adquirida do [!DNL Commerce Marketplace], entre na sua conta do [!DNL Commerce] e verifique se você tem uma chave de acesso ativa. Você pode entrar na sua conta do [!DNL Commerce] a partir do cabeçalho do [[!DNL Marketplace]](https://marketplace.magento.com/) ou do [Magento.com](https://business.adobe.com/br/products/magento/magento-commerce.html).
+Antes de instalar uma extensão adquirida do [!DNL Commerce Marketplace], entre na sua conta do [!DNL Commerce] e verifique se você tem uma chave de acesso ativa. Você pode entrar na sua conta do [!DNL Commerce] a partir do cabeçalho do [[!DNL Marketplace]](https://marketplace.magento.com/) ou [Magento.com](https://business.adobe.com/products/magento/magento-commerce.html).
 
 Sua chave de acesso é um conjunto de chaves públicas e privadas usadas para sincronizar sua instalação do [!DNL Commerce] com sua conta do [!DNL Commerce] e verificar suas credenciais. Depois que sua conta for sincronizada, você deverá inserir sua chave privada sempre que instalar uma extensão ou um módulo do Commerce Marketplace ou atualizar sua instalação do [!DNL Commerce].
 
@@ -79,7 +94,7 @@ Você pode criar várias chaves de acesso para diferentes propósitos e ativá-l
 
    ![Seu [!DNL Marketplace] perfil](./assets/marketplace-profile.png){width="600"}
 
-1. Na guia _[!UICONTROL Marketplace]_, em&#x200B;_[!UICONTROL My Products]_, clique em **[!UICONTROL Access Keys]** e siga um destes procedimentos:
+1. Na guia _[!UICONTROL Marketplace]_, em_[!UICONTROL My Products]_, clique em **[!UICONTROL Access Keys]** e siga um destes procedimentos:
 
    - Verifique se você já tem um conjunto de chaves de acesso para suas compras do Marketplace. É possível criar vários conjuntos de chaves de acesso para diferentes propósitos.
 
@@ -97,7 +112,7 @@ Você pode criar várias chaves de acesso para diferentes propósitos e ativá-l
 
 >[!IMPORTANT]
 >
->A partir do Adobe Commerce e do Magento Open Source 2.4.0, o Assistente de Instalação da Web é removido e você deve usar a linha de comando para [instalar](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/advanced) ou [atualizar](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) sua instância. Este requisito também inclui [módulos](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/modules/upgrade) e [extensões](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/extensions).
+>A partir do Adobe Commerce e do Magento Open Source 2.4.0, o Assistente de Instalação da Web é removido e você deve usar a linha de comando para [instalar](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced) ou [atualizar](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) sua instância. Este requisito também inclui [módulos](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) e [extensões](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions).
 
 O processo de instalação das compras do [!DNL Marketplace] é diferente para as instalações _locais_ do Commerce e para as instalações hospedadas na [Arquitetura da Adobe Cloud](https://www.adobe.com/commerce/magento/enterprise.html).
 
@@ -129,7 +144,7 @@ Problemas de logon normalmente estão relacionados a uma incompatibilidade entre
 
 ### Perguntas sobre código aberto
 
-A equipe de Suporte do Marketplace resolve problemas relacionados somente aos sites [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Faça perguntas sobre o Magento Open Source diretamente para um [parceiro](https://business.adobe.com/br/products/magento/partners.html) que possa ajudá-lo com o Magento Open Source.
+A equipe de Suporte do Marketplace resolve problemas relacionados somente aos sites [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) e [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/). Faça perguntas sobre o Magento Open Source diretamente para um [parceiro](https://business.adobe.com/products/magento/partners.html) que possa ajudá-lo com o Magento Open Source.
 
 ### Solicitações de reembolso
 

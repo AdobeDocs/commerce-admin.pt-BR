@@ -3,27 +3,36 @@ title: Visualizar uma campanha
 description: Crie uma visualização para qualquer dia ou período de tempo durante uma campanha e compartilhe-a com membros da equipe.
 exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 feature: Page Content, Staging
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-TQID: https://experienceleague.adobe.com/oX0wqWTv3MiA6-nMLngP2di0o9JmC-WNkAOm4TOpv74
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: 'https://experienceleague.adobe.com/oX0wqWTv3MiA6-nMLngP2di0o9JmC-WNkAOm4TOpv74'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 331
+source-wordcount: '331'
 ht-degree: 0%
-
 ---
-
 # Visualizar uma campanha
 
 {{ee-feature}}
@@ -34,13 +43,13 @@ Qualquer dia ou período durante uma campanha pode ser visualizado e compartilha
 
    - _No Painel de Preparo de Conteúdo_
 
-      - Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
-      - Clique em qualquer item da página e, em seguida, clique em **[!UICONTROL Preview]** nas informações resumidas exibidas para a campanha.
+     - Na barra lateral _Admin_, vá para **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+     - Clique em qualquer item da página e, em seguida, clique em **[!UICONTROL Preview]** nas informações resumidas exibidas para a campanha.
 
    - _De qualquer página com alterações agendadas_
 
-      - Abra qualquer página com uma caixa _[!UICONTROL Scheduled Changes]_&#x200B;na parte superior.
-      - Clique em **[!UICONTROL Preview]**.
+     - Abra qualquer página com uma caixa _[!UICONTROL Scheduled Changes]_na parte superior.
+     - Clique em **[!UICONTROL Preview]**.
 
    A visualização é aberta em uma nova guia do navegador e mostra como o produto aparece durante a campanha agendada.
 

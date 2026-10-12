@@ -3,25 +3,37 @@ title: Controles do espaço de trabalho de página
 description: Saiba mais sobre as ferramentas do espaço de trabalho usadas para localizar e atualizar páginas de conteúdo.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-TQID: https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: 'https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1385
+source-wordcount: '1385'
 ht-degree: 0%
-
 ---
-
 # Controles do espaço de trabalho de página
 
 O espaço de trabalho da página inclui ferramentas que ajudam a localizar rapidamente as páginas necessárias e comandos para executar a manutenção de rotina em páginas individuais ou múltiplas. Você também pode atualizar rapidamente as propriedades de página na grade.
@@ -151,7 +163,7 @@ As páginas podem ser editadas, desativadas, ativadas e excluídas. Para aplicar
 
 ### Ação única
 
-Use a coluna _[!UICONTROL Action]_&#x200B;na extremidade direita para aplicar qualquer uma das seguintes ações à página individual:
+Use a coluna _[!UICONTROL Action]_na extremidade direita para aplicar qualquer uma das seguintes ações à página individual:
 
 - [!UICONTROL Edit] - abre a página no modo de edição
 - [!UICONTROL Delete] - exclui a página (requer confirmação)
@@ -161,7 +173,7 @@ Use a coluna _[!UICONTROL Action]_&#x200B;na extremidade direita para aplicar qu
 
 ### Ações em massa
 
-Aplique qualquer uma das seguintes ações a várias páginas selecionadas ao mesmo tempo usando o seletor _[!UICONTROL Action]_&#x200B;no canto superior esquerdo:
+Aplique qualquer uma das seguintes ações a várias páginas selecionadas ao mesmo tempo usando o seletor _[!UICONTROL Action]_no canto superior esquerdo:
 
 - [!UICONTROL Delete] - exclui as páginas (requer confirmação)
 - [!UICONTROL Disable] - desabilita as páginas na loja
@@ -220,7 +232,7 @@ Ao configurar agendas para alterações de página e editar campanhas, lembre-se
 
 - Se uma campanha ativa for criada inicialmente sem uma data de término, a campanha não poderá ser editada posteriormente para incluir uma data de término. Nesse caso, é necessário criar uma campanha duplicada e inserir a data final necessária.
 
-- A data de início e a data de término da campanha devem ser definidas usando o fuso horário padrão **_1&rbrace; do administrador, que é convertido do fuso horário local de cada site._** Considere um exemplo em que você tem vários sites em fusos horários diferentes, mas deseja iniciar uma campanha com base em um fuso horário dos EUA. Nesse caso, você deve agendar uma atualização separada para cada fuso horário local e definir **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** como convertidos de cada fuso horário de site local para o fuso horário padrão do Administrador.
+- A data de início e a data de término da campanha devem ser definidas usando o fuso horário padrão **_1} do administrador, que é convertido do fuso horário local de cada site._** Considere um exemplo em que você tem vários sites em fusos horários diferentes, mas deseja iniciar uma campanha com base em um fuso horário dos EUA. Nesse caso, você deve agendar uma atualização separada para cada fuso horário local e definir **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** como convertidos de cada fuso horário de site local para o fuso horário padrão do Administrador.
 
 - Você pode agendar e visualizar alterações para atualizações de produtos. Para obter mais informações, consulte [Agendando uma Atualização](content-staging-scheduled-update.md).
 

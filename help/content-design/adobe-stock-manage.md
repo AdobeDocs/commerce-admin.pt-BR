@@ -3,26 +3,36 @@ title: Usar imagens do Adobe Stock
 description: Aprimore as páginas da loja com imagens do Adobe Stock.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-TQID: https://experienceleague.adobe.com/itiuGqPqSJAuYHf84wspWxkarrQ1npYIb-i20Xvkzh0
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: 'https://experienceleague.adobe.com/itiuGqPqSJAuYHf84wspWxkarrQ1npYIb-i20Xvkzh0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: '1051'
 ht-degree: 0%
-
 ---
-
 # Usar imagens do Adobe Stock
 
 Imagens do [Adobe Stock](https://stock.adobe.com) podem ser usadas no local de carregar seu próprio conteúdo de imagem. Um caso de uso comum é fazer upload e inserir conteúdo de imagem ao criar uma página.
@@ -39,7 +49,7 @@ O painel de pesquisa do Adobe Stock pode ser acessado ao [adicionar ou editar um
 
 1. Clique em **[!UICONTROL Add a New Page]**.
 
-   Se quiser editar uma página existente, use a coluna _[!UICONTROL Action]_&#x200B;para clicar em **[!UICONTROL Select]**&#x200B;e escolher **[!UICONTROL Edit]**.
+   Se quiser editar uma página existente, use a coluna _[!UICONTROL Action]_para clicar em **[!UICONTROL Select]**e escolher **[!UICONTROL Edit]**.
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Content]** e faça o seguinte:
 
@@ -59,7 +69,7 @@ O painel de pesquisa do Adobe Stock pode ser acessado ao [adicionar ou editar um
 
    Se quiser adicionar a imagem a uma categoria existente, clique no nome da categoria na lista à esquerda.
 
-1. Expanda a seção **[!UICONTROL Content]** e em _[!UICONTROL Category Image]_&#x200B;clique em **[!UICONTROL Select from Gallery]**.
+1. Expanda a seção **[!UICONTROL Content]** e em _[!UICONTROL Category Image]_clique em **[!UICONTROL Select from Gallery]**.
 
 1. Clique em **[!UICONTROL Search Adobe Stock]**.
 
@@ -131,13 +141,13 @@ Cada imagem tem detalhes disponíveis para visualização. Outras ações espec�
 
 ## Faça logon em sua conta da Adobe
 
-Para obter acesso total a uma imagem e eliminar a marca d&#39;água da Adobe Stock, você deve [entrar com uma conta da Adobe](https://helpx.adobe.com/br/manage-account/using/access-adobe-id-account.html) e comprar créditos para licenciar direitos para usar uma imagem.
+Para obter acesso total a uma imagem e eliminar a marca d&#39;água da Adobe Stock, você deve [entrar com uma conta da Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) e comprar créditos para licenciar direitos para usar uma imagem.
 
 1. [Acesse a grade do Adobe Stock Search](#access-the-adobe-stock-search-grid).
 
 1. Clique em **[!UICONTROL Sign In]** na parte superior direita.
 
-   Uma nova janela de navegador orienta você durante o [processo de entrada no Adobe](https://helpx.adobe.com/br/manage-account/using/access-adobe-id-account.html).
+   Uma nova janela de navegador orienta você durante o [processo de entrada no Adobe](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
    Após concluir o processo de logon, o estado licenciado das imagens é exibido nos resultados da pesquisa como um rótulo.
 
@@ -191,7 +201,7 @@ Os ativos do Adobe Stock que você deseja usar para suas lojas de produção [!D
 
      >[!NOTE]
      >
-     >Você deve ter [créditos de Adobe Stock](https://helpx.adobe.com/br/stock/help/credit-packs.html) disponíveis em sua conta para licenciar a imagem.
+     >Você deve ter [créditos de Adobe Stock](https://helpx.adobe.com/stock/help/credit-packs.html) disponíveis em sua conta para licenciar a imagem.
 
    Esta ação exibe um prompt para que você especifique um nome de arquivo que seja usado para salvar a imagem no [armazenamento de mídia](media-storage.md). Um nome de arquivo padrão é fornecido, mas você pode personalizar o nome de acordo com suas preferências.
 

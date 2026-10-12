@@ -1,30 +1,39 @@
 ---
-title: Configurar  [!DNL Inventory Management] opções globais
-description: Defina as configurações globais do catálogo  [!DNL Inventory Management]  para opções de estoque de produtos, limites e exibição de vitrine eletrônica em todos os sites.
+title: Configurar opções globais do [!DNL Inventory Management]
+description: Defina as configurações globais do catálogo do [!DNL Inventory Management] para opções de estoque de produtos, limites e exibição de vitrine em todos os sites.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
-TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
+TQID: 'https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: '759'
 ht-degree: 1%
-
 ---
-
 # Configurar opções globais do [!DNL Inventory Management]
 
 Essas configurações globais se aplicam a todo o catálogo em **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**.
@@ -97,7 +106,7 @@ Configure as opções de configuração padrão de produto e estoque para seus s
 
    >[!NOTE]
    >
-   >A consulta `sourceAvailability` está desabilitada por padrão porque ela revela quais fontes estocam um SKU. Quantidades exatas permanecem mascaradas até que a quantidade de origem atinja o **[!UICONTROL Only X left Threshold]** definido na seção _[!UICONTROL Stock Options]_. Cada origem de estoque tem um sinalizador **[!UICONTROL Visible on Storefront]**&#x200B;que está desativado por padrão. O estoque de uma origem nunca é devolvido até que um comerciante o habilite. Para defini-lo, vá para **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, edite uma origem e ative o **[!UICONTROL Visible on Storefront]**.
+   >A consulta `sourceAvailability` está desabilitada por padrão porque ela revela quais fontes estocam um SKU. Quantidades exatas permanecem mascaradas até que a quantidade de origem atinja o **[!UICONTROL Only X left Threshold]** definido na seção _[!UICONTROL Stock Options]_. Cada origem de estoque tem um sinalizador **[!UICONTROL Visible on Storefront]**que está desativado por padrão. O estoque de uma origem nunca é devolvido até que um comerciante o habilite. Para defini-lo, vá para **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, edite uma origem e ative o **[!UICONTROL Visible on Storefront]**.
 
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Admin bulk operations]** e defina as opções:
@@ -110,7 +119,7 @@ Configure as opções de configuração padrão de produto e estoque para seus s
 
      >[!NOTE]
      >
-     >Para configurar e suportar _gerenciadores de fila assíncronos_, você deve emitir um comando usando a linha de comando. Esta etapa pode exigir ajuda do desenvolvedor. Consulte [Iniciar consumidores da fila de mensagens](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/start-message-queues) no _Guia de Configuração_.
+     >Para configurar e suportar _gerenciadores de fila assíncronos_, você deve emitir um comando usando a linha de comando. Esta etapa pode exigir ajuda do desenvolvedor. Consulte [Iniciar consumidores da fila de mensagens](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues) no _Guia de Configuração_.
 
    - Se habilitado, defina o **[!UICONTROL Asynchronous batch size]**. O tamanho padrão do lote é 100. Quando os processos em massa atingem essa quantidade, o sistema a aciona.
 

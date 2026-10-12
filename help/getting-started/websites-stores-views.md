@@ -3,34 +3,44 @@ title: Site, loja e escopo de exibição
 description: Saiba mais sobre a hierarquia de sites, lojas e visualizações de loja que você pode usar para fornecer experiências de compra para seus clientes.
 exl-id: 80fc1b73-c869-4f1c-b1a1-d61823b91d83
 feature: System, Site Management
-TQID: https://experienceleague.adobe.com/S8E0BsK2lZqb82QMhyXOIEVUrXWy1X2h943tvF3sMzM
+TQID: 'https://experienceleague.adobe.com/S8E0BsK2lZqb82QMhyXOIEVUrXWy1X2h943tvF3sMzM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 688
+source-wordcount: '688'
 ht-degree: 0%
-
 ---
-
 # Site, loja e escopo de exibição
 
 Cada instalação do Adobe Commerce e do Magento Open Source tem uma [hierarquia](../stores-purchase/stores.md) de sites, lojas e exibições de loja. O termo _escopo_ determina onde na hierarquia se aplica uma entidade de banco de dados (como um produto, atributo ou categoria), elemento de conteúdo ou definição de configuração. Sites, lojas e visualizações de loja têm relacionamentos pai/filho de um para muitos. Uma única instalação pode ter vários sites, e cada site pode ter várias lojas e visualizações de loja.
 
 >[!NOTE]
 >
->Para saber mais, consulte [Vários sites ou lojas](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) na documentação para desenvolvedores do [!DNL Commerce].
+>Para saber mais, consulte [Vários sites ou lojas](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) na documentação para desenvolvedores do [!DNL Commerce].
 
 ## Sites
 

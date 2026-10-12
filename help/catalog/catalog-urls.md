@@ -3,32 +3,46 @@ title: URLs de catálogo e produto
 description: Saiba mais sobre os tipos de formato de URL para seus produtos de catálogo e como configurá-los.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-TQID: https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w
+TQID: 'https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # URLs de catálogo e produto
 
 Os URLs atribuídos a produtos e categorias desempenham um papel importante para determinar o desempenho de indexação do site por mecanismos de pesquisa. Antes de começar a criar seu catálogo, considere as opções disponíveis. Para exibir o formato de URL atual, vá para a loja e navegue para qualquer produto no catálogo. O formato do URL depende das definições de configuração atuais e do método usado para localizar a página.
@@ -56,7 +70,7 @@ A chave do URL é a parte de um URL estático que descreve o produto ou categori
 
 >[!NOTE]
 >
->Por padrão, caracteres especiais acentuados são substituídos automaticamente por suas versões regulares sem acentos na chave do URL. Por exemplo, `ñ` é automaticamente substituído por `n`. Este comportamento pode ser desabilitado definindo a opção de configuração _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;como `No`. Consulte [Configurar URLs de catálogo](#configure-catalog-urls).
+>Por padrão, caracteres especiais acentuados são substituídos automaticamente por suas versões regulares sem acentos na chave do URL. Por exemplo, `ñ` é automaticamente substituído por `n`. Este comportamento pode ser desabilitado definindo a opção de configuração _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_como `No`. Consulte [Configurar URLs de catálogo](#configure-catalog-urls).
 
 A chave do URL deve consistir em caracteres minúsculos com hifens não à direita entre esses caracteres para separar palavras. Não são permitidos hifens no início ou no final da chave de URL. Uma chave de URL bem projetada e &quot;compatível com mecanismo de pesquisa&quot; pode incluir o nome do produto e palavras-chave para melhorar a maneira como é indexada por mecanismos de pesquisa. A chave do URL pode ser configurada para criar um redirecionamento automático se a chave do URL mudar.
 
@@ -132,7 +146,7 @@ Para impedir que mecanismos de pesquisa indexem vários URLs que levam ao mesmo 
 | Campo | [Escopo](../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Global | Se as substituições do servidor Web estiverem ativadas, habilitar essa configuração inserirá o Código de armazenamento da exibição atual no URL. Opções: `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | Global | (Para configurações de loja única) Se houver um link quebrado em seu site, isso redirecionará o tráfego para o URL base em vez de para uma página com uma mensagem &quot;Página 404 não encontrada&quot;. Opções: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Importante!_**&#x200B;Não use o redirecionamento automático para o URL de base para configurações de várias lojas. |
+| [!UICONTROL Auto-redirect to Base URL] | Global | (Para configurações de loja única) Se houver um link quebrado em seu site, isso redirecionará o tráfego para o URL base em vez de para uma página com uma mensagem &quot;Página 404 não encontrada&quot;. Opções: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_Importante!_**Não use o redirecionamento automático para o URL de base para configurações de várias lojas. |
 | [!UICONTROL Catalog media URL format] | Global | Define o formato de URL atribuído aos produtos e categorias. Opções: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Define o nome de arquivo convertido como um valor de hash exclusivo.<br />**[!UICONTROL Image optimization based on query parameters]** - Define o processo de [otimização de imagem](../content-design/media-gallery-image-optimization.md) dependendo dos parâmetros de consulta. |
 
 {style="table-layout:auto"}

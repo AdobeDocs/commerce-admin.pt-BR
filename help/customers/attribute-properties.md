@@ -3,31 +3,43 @@ title: Propriedades do atributo do cliente
 description: Saiba como configurar propriedades de atributos do cliente.
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
-TQID: https://experienceleague.adobe.com/87E8bc4M62TbP-gRdn-LoRzpZY7sd1o9SbMswZW0ueY
+TQID: 'https://experienceleague.adobe.com/87E8bc4M62TbP-gRdn-LoRzpZY7sd1o9SbMswZW0ueY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1820
+source-wordcount: '1820'
 ht-degree: 0%
-
 ---
-
 # Propriedades do atributo do cliente
 
 {{ee-feature}}
@@ -54,7 +66,7 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
 
    >[!TIP]
    >
-   >**Atalho:** Para preencher apenas os campos obrigatórios, role até _[!UICONTROL Storefront Properties]_, digite o&#x200B;_[!UICONTROL Sort Order]_ e salve.
+   >**Atalho:** Para preencher apenas os campos obrigatórios, role até _[!UICONTROL Storefront Properties]_, digite o_[!UICONTROL Sort Order]_ e salve.
 
 1. Complete as propriedades de entrada de dados:
 
@@ -65,7 +77,7 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
      | `Text Field` | Um campo de texto de linha única. |
      | `Text Area` | Um campo de entrada de várias linhas para inserir parágrafos de texto, como uma descrição do produto. Você pode usar o editor do WYSIWYG para formatar o texto com tags do HTML ou inserir as tags diretamente no texto. |
      | `Multiple Line` | Cria várias linhas de texto para o atributo, de modo semelhante a um endereço de várias linhas. O número de linhas de entrada de dados separadas pode ser de dois a 20. Use o `Default Value` para especificar o valor inicial do campo. |
-     | `Date` | Exibe um valor de data no formato de data e fuso horário preferidos. Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**&#x200B;Dependendo da configuração do seu sistema, os usuários do_ Administrador_ podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Exibe um valor de data no formato de data e fuso horário preferidos. Os valores de data podem ser selecionados de uma lista ou de um calendário ( ![Ícone de calendário](../assets/icon-calendar.png) ). <br/><br/>**_Observação:_**Dependendo da configuração do seu sistema, os usuários do_ Administrador_ podem inserir datas diretamente em um campo ou selecionar uma data no calendário ou na lista. Para obter informações sobre como especificar valores de data e hora, consulte [Opções de data e hora](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Exibe uma lista suspensa com opções predefinidas de `Yes` e `No`. |
      | `Dropdown` | Exibe uma lista suspensa de valores que aceitam apenas uma única seleção. O tipo de entrada suspensa é um componente chave de [produtos configuráveis](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Uma lista suspensa que aceita vários valores a serem selecionados. |
@@ -189,4 +201,4 @@ Os atributos do cliente fornecem as informações necessárias para dar suporte 
 
 Para obter uma demonstração sobre como criar atributos do cliente, assista a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411970?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)

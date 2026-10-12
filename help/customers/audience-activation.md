@@ -5,30 +5,46 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-TQID: https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: 'https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Personalization
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1976
+source-wordcount: '1976'
 ht-degree: 1%
-
 ---
-
 # [!DNL Audience Activation]
 
 A extensão [!DNL Audience Activation] permite ativar públicos-alvo da Real-Time CDP no Adobe Commerce para criar ofertas exclusivas no carrinho. Essas ofertas e incentivos incluem técnicas comuns de merchandising de comércio eletrônico, como _comprar 2 obter 1 grátis_, banners ilustrados voltados para esse cliente e preços de produtos modificados por meio de várias ofertas. Os públicos-alvo criados no Real-Time CDP são baseados em dados de vários sistemas corporativos, como ERP (Enterprise Resource Planning, planejamento de recursos corporativos), CRM (Customer Relationship Management, gerenciamento de relacionamento com o cliente), ponto de venda e sistemas de marketing. Como as informações de segmento do cliente são constantemente atualizadas, os clientes podem se tornar associados e desassociados de um segmento à medida que fazem compras em sua loja.
@@ -43,9 +59,9 @@ Esta seção contém informações sobre atualizações na extensão do Audience
 ![Correção](../assets/fix.svg) - Correções e melhorias
 ![Bug](../assets/bug.svg) - Problemas conhecidos
 
-Consulte [Versões futuras](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/release/planning/schedule) para saber mais sobre os cronogramas de lançamento e o suporte.
+Consulte [Versões futuras](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) para saber mais sobre os cronogramas de lançamento e o suporte.
 
-Consulte a documentação do desenvolvedor para [saber mais sobre compatibilidade de produto](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/release/product-availability).
+Consulte a documentação do desenvolvedor para [saber mais sobre compatibilidade de produto](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability).
 
 ## Atualizações de serviço compatíveis
 
@@ -179,7 +195,7 @@ _31 de março de 2023_
 As tarefas a seguir se aplicam às implementações do Luma e da loja headless. Para ativar públicos no Adobe Commerce, você deve:
 
 - Instalar o Adobe Commerce versão 2.4.4 ou superior
-- [Ativar](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/adobe-commerce) o Adobe Commerce como destino no Real-Time CDP
+- [Ativar](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce) o Adobe Commerce como destino no Real-Time CDP
 - [Instalar](#install-the-extension) a extensão [!DNL Audience Activation] no Administrador
 - [Configurar](#configure-the-extension) a extensão [!DNL Audience Activation] no Administrador
 
@@ -197,23 +213,23 @@ Depois de instalar a extensão [!DNL Audience Activation], faça logon no Commer
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
-1. [Entre](https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/integration-services/saas#organizationid) com sua conta da Adobe e selecione sua ID da organização.
+1. [Entre](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid) com sua conta da Adobe e selecione sua ID da organização.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**.
 
-1. No campo **[!UICONTROL Datastream ID]**, cole a ID da sequência de dados criada quando você [ativou](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/adobe-commerce#parameters) o Adobe Commerce como destino no Real-Time CDP.
+1. No campo **[!UICONTROL Datastream ID]**, cole a ID da sequência de dados criada quando você [ativou](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce#parameters) o Adobe Commerce como destino no Real-Time CDP.
 
-   Essa sequência de dados envia dados do seu site da Commerce para a Real-Time CDP a fim de determinar se um comprador pertence a um público-alvo. Se você ainda não criou uma sequência de dados, [crie](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure#create) no Experience Platform, [adicione](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/adobe-commerce) ao destino do Commerce no Real-Time CDP e à extensão [[!DNL Data Connection]](https://experienceleague.adobe.com/pt-br/docs/commerce/data-connection/fundamentals/connect-data#data-collection) no Administrador.
+   Essa sequência de dados envia dados do seu site da Commerce para a Real-Time CDP a fim de determinar se um comprador pertence a um público-alvo. Se você ainda não criou uma sequência de dados, [crie](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#create) no Experience Platform, [adicione](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce) ao destino do Commerce no Real-Time CDP e à extensão [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#data-collection) no Administrador.
 
    >[!NOTE]
    >
-   >Ao especificar uma ID de sequência de dados, você [associa a um site específico](https://experienceleague.adobe.com/pt-br/docs/commerce/data-connection/fundamentals/connect-data#data-collection) na extensão [!DNL Data Connection]. Se o seu armazenamento do Commerce tiver vários sites, [crie um destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/connect-destination) para cada site no Real-Time CDP e use uma ID de sequência de dados diferente para cada um.
+   >Ao especificar uma ID de sequência de dados, você [associa a um site específico](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#data-collection) na extensão [!DNL Data Connection]. Se o seu armazenamento do Commerce tiver vários sites, [crie um destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination) para cada site no Real-Time CDP e use uma ID de sequência de dados diferente para cada um.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Expanda **[!UICONTROL Services]** e selecione **[!UICONTROL [!DNL Data Connection]]**.
 
-1. [Adicionar](https://experienceleague.adobe.com/pt-br/docs/commerce/data-connection/fundamentals/connect-data#add-service-account-and-credential-details) conta de serviço e detalhes da credencial.
+1. [Adicionar](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#add-service-account-and-credential-details) conta de serviço e detalhes da credencial.
 
 ## Onde usar os públicos-alvo da Real-Time CDP no Commerce
 
@@ -225,11 +241,11 @@ Com a extensão [!DNL Audience Activation] habilitada, você pode:
 
 >[!TIP]
 >
->Para obter um caso de uso completo sobre como exportar dados do [!DNL Commerce] para o Real-Time CDP, criar um público-alvo e depois ativá-lo para [!DNL Commerce], consulte [Criar um público-alvo no Real-Time CDP usando [!DNL Commerce] dados de eventos](https://experienceleague.adobe.com/pt-br/docs/commerce/data-connection/use-cases/create-audience).
+>Para obter um caso de uso completo sobre como exportar dados do [!DNL Commerce] para o Real-Time CDP, criar um público-alvo e depois ativá-lo para [!DNL Commerce], consulte [Criar um público-alvo no Real-Time CDP usando [!DNL Commerce] dados de eventos](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience).
 
 ## painel de públicos-alvo da Real-Time CDP
 
-Você pode exibir todos os [públicos-alvo ativos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations) que estão disponíveis para personalização na sua instância do Adobe Commerce usando o painel **Públicos-alvo da Real-Time CDP**.
+Você pode exibir todos os [públicos-alvo ativos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations) que estão disponíveis para personalização na sua instância do Adobe Commerce usando o painel **Públicos-alvo da Real-Time CDP**.
 
 Para acessar o painel **Públicos-alvo do Real-Time CDP**, vá para a barra lateral _Admin_ e, em seguida, vá para **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
 
@@ -259,7 +275,7 @@ Você pode ativar públicos-alvo em uma instância do Adobe Commerce headless, c
 
 ### Regras de preço do carrinho e regras de produto relacionadas
 
-Para regras de preço do carrinho e regras de produto relacionadas, uma loja headless se comunica com a Experience Platform por meio da [Commerce integration framework (CIF)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/magento). A estrutura fornece uma API do lado do servidor que é implementada usando o GraphQL. As informações de público, como o segmento de um comprador, são transmitidas para o Commerce por meio de um parâmetro de cabeçalho do GraphQL chamado: `aep-segments-membership`.
+Para regras de preço do carrinho e regras de produto relacionadas, uma loja headless se comunica com a Experience Platform por meio da [Commerce integration framework (CIF)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/magento). A estrutura fornece uma API do lado do servidor que é implementada usando o GraphQL. As informações de público, como o segmento de um comprador, são transmitidas para o Commerce por meio de um parâmetro de cabeçalho do GraphQL chamado: `aep-segments-membership`.
 
 A arquitetura geral é a seguinte:
 
@@ -267,7 +283,7 @@ A arquitetura geral é a seguinte:
 
 Depois de [instalar](#install-the-extension) e [configurar](#configure-the-extension) a extensão, o Experience Platform Web SDK conterá as informações do público-alvo na forma de associação de segmento.
 
-Para capturar essas associações de segmento da SDK, veja este [trecho de código](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/custom-personalization#example-response-for-custom-personalization-with-attributes).
+Para capturar essas associações de segmento da SDK, veja este [trecho de código](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization#example-response-for-custom-personalization-with-attributes).
 
 Depois de recuperá-lo, você pode passar esses segmentos para o Commerce no cabeçalho do GraphQL. Por exemplo:
 
@@ -360,7 +376,7 @@ Saiba mais sobre a consulta do GraphQL `dynamicBlocks` na [documentação para d
 Você pode recuperar públicos da Real-Time CDP usando o Adobe Experience Platform Mobile SDK.
 
 1. [Instalar](#install-the-extension) a extensão do Audience Activation.
-1. [instale e configure o SDK para seu site do Commerce móvel](https://experienceleague.adobe.com/pt-br/docs/commerce/data-connection/fundamentals/mobile-sdk-epc).
+1. [instale e configure o SDK para seu site do Commerce móvel](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/mobile-sdk-epc).
 
 >[!IMPORTANT]
 >
@@ -434,7 +450,7 @@ Por exemplo:
 1. Abra a instância do Commerce.
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 1. Expanda **[!UICONTROL Services]** e selecione **[!UICONTROL [!DNL Data Connection]]**.
-1. Verifique se o método de autorização servidor para servidor especificado no campo **[!UICONTROL Authentication Type]** está correto. A Adobe recomenda usar **OAuth**. [O JWT foi descontinuado](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), com todos os certificados atuais expirando em 1º de março de 2026.
+1. Verifique se o método de autorização servidor para servidor especificado no campo **[!UICONTROL Authentication Type]** está correto. A Adobe recomenda usar **OAuth**. [O JWT foi descontinuado](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), com todos os certificados atuais expirando em 1º de março de 2026.
 
 ### Privilégios insuficientes no token gerado
 
@@ -448,5 +464,5 @@ Esse problema pode ser causado por privilégios insuficientes de API para o toke
 1. Abra as credenciais e selecione **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
 1. Adicione a função que contém a permissão **[!UICONTROL Manage destinations]**.
 1. Clique em **[!UICONTROL Save]**.
-1. [Regenerar](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/platform-apis/api-authentication#generate-access-token) o token de acesso no Console.
+1. [Regenerar](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#generate-access-token) o token de acesso no Console.
 1. Verifique se o token fornece uma resposta válida usando a [API de Conexões de Destino](https://developer.adobe.com/experience-platform-apis/references/destinations#tag/Target-connections/operation/getTargetConnections).

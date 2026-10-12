@@ -4,33 +4,48 @@ description: Saiba mais sobre as linhas de crédito da empresa, definição de p
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
-TQID: https://experienceleague.adobe.com/JKyFAE5sOsIyOsM-L73i8fMt8nEeoY2-ZcE321jXjSc
+TQID: 'https://experienceleague.adobe.com/JKyFAE5sOsIyOsM-L73i8fMt8nEeoY2-ZcE321jXjSc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1228
+source-wordcount: '1228'
 ht-degree: 0%
-
 ---
-
 # Gerenciar crédito da empresa
 
 O crédito da empresa permite que empresas B2B façam compras com uma linha de crédito pré-aprovada, em vez de exigir pagamento imediato. Quando o [Pagamento na Conta](../b2b/enable-basic-features.md#configure-payment-on-account) está habilitado, as empresas podem comprar até o limite de crédito e exibir seu status de crédito no painel de contas.
@@ -94,7 +109,7 @@ A grade exibe as seguintes informações para cada transação:
 | [!UICONTROL Operation] | O tipo de atividade associada à transação. Valores: <br/>**[!UICONTROL Allocated]**- Crédito atribuído à empresa.<br/>**[!UICONTROL Updated]** - Uma alteração foi aplicada a um dos seguintes campos: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- Um pedido foi feito.<br/>**[!UICONTROL Reimbursed]** - O saldo pendente foi reembolsado. <br/>**[!UICONTROL Refunded]**- Valor do memorando de crédito reembolsado.<br/>**[!UICONTROL Reverted]** - O pedido foi cancelado e o valor foi devolvido ao saldo de crédito. |
 | [!UICONTROL Amount] | O valor da transação associado aos seguintes tipos de transação: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Para valores de compra, o valor aparece na moeda de exibição do armazenamento e no formato da configuração de moeda de crédito, seguido da taxa de conversão atual (se aplicável). Por exemplo: <br/>EUR 20.000,00 ($22.400,00) <br/>USD/EUR 0,8928 |
 | [!UICONTROL Outstanding Balance] | O valor reembolsado, menos o total devido de todos os pedidos feitos usando o método Pagamento por Conta. O valor pode aparecer como um valor positivo ou negativo. <br/>**[!UICONTROL Positive value]**- Um pagamento antecipado é representado como um valor positivo.<br/>**[!UICONTROL Negative value]** - Um valor devido é representado como um valor negativo. |
-| [!UICONTROL Available Credit] | A soma de _[!UICONTROL Credit Limit]_&#x200B;e_[!UICONTROL Outstanding Balance]_. Se a empresa excedeu o limite de crédito, o valor aparece como um valor negativo. |
+| [!UICONTROL Available Credit] | A soma de _[!UICONTROL Credit Limit]_e_[!UICONTROL Outstanding Balance]_. Se a empresa excedeu o limite de crédito, o valor aparece como um valor negativo. |
 | [!UICONTROL Credit Limit] | O valor do crédito estendido para a empresa. |
 | [!UICONTROL Updated By] | O nome da pessoa que iniciou a operação. |
 | [!UICONTROL Custom Reference Number] | O número de referência personalizado associado à transação. |
@@ -173,7 +188,7 @@ Os administradores da empresa podem exibir suas informações de crédito no pai
 
 Saiba mais sobre como gerenciar o crédito da empresa assistindo a este vídeo de demonstração:
 
->[!VIDEO](https://video.tv.adobe.com/v/3412495?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
 
 ## Considerações de segurança
 
@@ -187,8 +202,8 @@ Ao gerenciar créditos da empresa, implemente medidas de segurança robustas par
 
 ## Práticas recomendadas
 
-* &#x200B;
-   * **Gerenciamento de Política de Crédito**—Ao gerenciar o crédito da empresa, estabeleça políticas claras para definir limites de crédito com base no histórico de pagamento do cliente e nos relacionamentos comerciais. Examine regularmente os saldos pendentes e os padrões de pagamento para avaliar o risco e sempre documente as alterações nas configurações de crédito com motivos detalhados para fins de auditoria.
+* 
+  * **Gerenciamento de Política de Crédito**—Ao gerenciar o crédito da empresa, estabeleça políticas claras para definir limites de crédito com base no histórico de pagamento do cliente e nos relacionamentos comerciais. Examine regularmente os saldos pendentes e os padrões de pagamento para avaliar o risco e sempre documente as alterações nas configurações de crédito com motivos detalhados para fins de auditoria.
 
 Processar os pagamentos imediatamente para manter saldos precisos e garantir que as configurações de moeda de crédito se alinhem às operações comerciais principais de cada empresa.
 

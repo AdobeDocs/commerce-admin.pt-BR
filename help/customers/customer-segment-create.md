@@ -3,27 +3,35 @@ title: Criar e excluir segmentos de clientes
 description: Os clientes podem exibir as informações de reembolso associadas ao pedido no Painel de Controle da Conta do Cliente.
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-TQID: https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0
+TQID: 'https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 978
+source-wordcount: '978'
 ht-degree: 0%
-
 ---
-
 # Criar e excluir segmentos de clientes
 
 {{ee-feature}}
@@ -32,13 +40,13 @@ A criação de um segmento de cliente é semelhante à criação de uma [regra d
 
 ![Lista de segmentos do cliente](assets/customer-segments.png){width="700" zoomable="yes"}
 
-Grade _&#x200B;**[!UICONTROL Customer Segments]**&#x200B;_
+Grade _**[!UICONTROL Customer Segments]**_
 
 | Coluna | Descrição |
 |--- |--- |
 | **[!UICONTROL ID]** | A ID exclusiva do segmento do cliente. |
 | **[!UICONTROL Segment]** | O nome do segmento do cliente. |
-| **[!UICONTROL Status]** | Indica se o segmento de cliente é _[!UICONTROL Active]_&#x200B;ou&#x200B;_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Indica se o segmento de cliente é _[!UICONTROL Active]_ou_[!UICONTROL Inactive]_. |
 | **[!UICONTROL Website]** | Indica o site ao qual o segmento do cliente pertence. |
 
 {style="table-layout:auto"}
@@ -129,7 +137,7 @@ As condições possíveis são organizadas nos seguintes grupos:
 
 1. No painel esquerdo, clique em **[!UICONTROL Conditions]**.
 
-   A condição padrão começa com _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;na página.
+   A condição padrão começa com _[!UICONTROL If ALL of these conditions are TRUE:]_na página.
 
    ![Condições](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -175,7 +183,7 @@ As condições possíveis são organizadas nos seguintes grupos:
 
 1. O segmento de cliente agora pode ser usado para direcionar promoções, conteúdo e correspondências.
 
-Grade _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
+Grade _**[!UICONTROL Matched Customers]**_
 
 | Coluna | Descrição |
 |--- |--- |
@@ -205,7 +213,7 @@ Grade _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
 
 | Botão | Descrição |
 |--- |--- |
-| **[!UICONTROL Back]** | Retorna à página _[!UICONTROL Customer Segments]_&#x200B;sem salvar as alterações. |
+| **[!UICONTROL Back]** | Retorna à página _[!UICONTROL Customer Segments]_sem salvar as alterações. |
 | **[!UICONTROL Delete]** | Exclui o segmento de cliente atual. Os clientes ou ordens concluídas associadas ao cliente no segmento não são removidos. |
 | **[!UICONTROL Reset]** | Redefine quaisquer alterações não salvas no formulário de segmento do cliente para seus valores anteriores. |
 | **[!UICONTROL Refresh Segment Data]** | Atualiza os dados do segmento para os valores salvos mais recentemente. Relevante se algum dado de segmento estiver indisponível ou desatualizado. |
@@ -218,4 +226,4 @@ Grade _&#x200B;**[!UICONTROL Matched Customers]**&#x200B;_
 
 Assista a este vídeo para obter uma demonstração da criação de segmentos de clientes:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411975/?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

@@ -4,31 +4,44 @@ description: Simplifique a administração e o gerenciamento de organizações B
 feature: B2B, Companies, Storefront
 role: Admin
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-TQID: https://experienceleague.adobe.com/po8afDr-Q2XR9pkbzJDdX-9tDvf6FsLVHnP-YzGYrDI
+TQID: 'https://experienceleague.adobe.com/po8afDr-Q2XR9pkbzJDdX-9tDvf6FsLVHnP-YzGYrDI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: '778'
 ht-degree: 0%
-
 ---
-
 # Gerenciamento da empresa
 
 O gerenciamento de empresas no Adobe Commerce fornece ferramentas abrangentes para administradores organizarem, configurarem e supervisionarem relações comerciais B2B. Esse recurso é essencial para empresas que trabalham com vários clientes corporativos, subsidiárias ou estruturas organizacionais complexas.
@@ -75,18 +88,18 @@ A hierarquia da empresa estrutura os relacionamentos comerciais organizando vár
 A coluna *[!UICONTROL Company Type]* na grade Empresas mostra como cada empresa se encaixa na sua organização B2B:
 
 * **Pai** — hub central com uma ou mais empresas atribuídas
-   * Controla várias empresas filhas, mas não pode ser atribuído a outro pai
-   * **Caso de uso**—Matriz corporativa, principal organização de franquias ou empresa controladora
+  * Controla várias empresas filhas, mas não pode ser atribuído a outro pai
+  * **Caso de uso**—Matriz corporativa, principal organização de franquias ou empresa controladora
 
 * **Filho** — Empresa atribuída a uma organização pai
-   * Opera sob governança principal e pode herdar configurações
-   * Só pode pertencer a um pai por vez
-   * **Caso de uso**—Escritórios subsidiários, franquias ou divisões regionais
+  * Opera sob governança principal e pode herdar configurações
+  * Só pode pertencer a um pai por vez
+  * **Caso de uso**—Escritórios subsidiários, franquias ou divisões regionais
 
 * **Empresa**—Empresa individual independente
-   * Opera independentemente sem relações de hierarquia
-   * Pode converter em pai (atribuindo empresas) ou filho (atribuindo ao pai)
-   * **Caso de uso** — clientes empresariais individuais ou clientes independentes
+  * Opera independentemente sem relações de hierarquia
+  * Pode converter em pai (atribuindo empresas) ou filho (atribuindo ao pai)
+  * **Caso de uso** — clientes empresariais individuais ou clientes independentes
 
 ### Conversão de tipos de empresas
 
@@ -108,24 +121,24 @@ Para obter instruções detalhadas, consulte [Gerenciar a Hierarquia da Empresa]
 Ao gerenciar empresas na grade da empresa, os administradores podem executar as seguintes tarefas na grade *[!UICONTROL Company Hierarchy]*:
 
 * **Exibir e gerenciar relações de empresa**
-   * **Exibir Empresas Associadas** — Veja todas as empresas vinculadas a uma organização principal em uma exibição centralizada
-   * **Monitorar Status da Empresa** — Rastreie empresas ativas, pendentes e inativas na hierarquia
-   * **Acessar Detalhes da Empresa**—Navegue diretamente para páginas de configuração da empresa individual
+  * **Exibir Empresas Associadas** — Veja todas as empresas vinculadas a uma organização principal em uma exibição centralizada
+  * **Monitorar Status da Empresa** — Rastreie empresas ativas, pendentes e inativas na hierarquia
+  * **Acessar Detalhes da Empresa**—Navegue diretamente para páginas de configuração da empresa individual
 
 * **Criar e modificar hierarquias**
-   * **Atribuir empresas** — Adicione empresas existentes a uma organização principal na página de detalhes da empresa
-   * **Criar relações pai-filho** — Estruturar empresas para refletir relações comerciais reais
-   * **Reorganizar estruturas**—Mova empresas entre diferentes organizações pai à medida que as necessidades comerciais mudam
+  * **Atribuir empresas** — Adicione empresas existentes a uma organização principal na página de detalhes da empresa
+  * **Criar relações pai-filho** — Estruturar empresas para refletir relações comerciais reais
+  * **Reorganizar estruturas**—Mova empresas entre diferentes organizações pai à medida que as necessidades comerciais mudam
 
 * **Gerenciamento de configuração em massa**
-   * **Aplicar configurações entre empresas**—Atualizar configurações avançadas para várias empresas simultaneamente usando o controle [!UICONTROL Actions] na grade Empresa
-   * **Padronizar configurações**—Garanta políticas consistentes entre organizações relacionadas
-   * **Substituir configurações individuais** — Envia as configurações da empresa pai para as empresas filho selecionadas
+  * **Aplicar configurações entre empresas**—Atualizar configurações avançadas para várias empresas simultaneamente usando o controle [!UICONTROL Actions] na grade Empresa
+  * **Padronizar configurações**—Garanta políticas consistentes entre organizações relacionadas
+  * **Substituir configurações individuais** — Envia as configurações da empresa pai para as empresas filho selecionadas
 
 * **Ações administrativas**
-   * **Remover relações de empresa**—Use a ação *[!UICONTROL Unassign from parent]* para dissolver as relações organizacionais
-   * **Gerenciar acesso à empresa** — Controla quais administradores podem exibir e modificar relacionamentos entre empresas
-   * **Monitorar alterações de hierarquia** — Rastrear modificações nas estruturas organizacionais
+  * **Remover relações de empresa**—Use a ação *[!UICONTROL Unassign from parent]* para dissolver as relações organizacionais
+  * **Gerenciar acesso à empresa** — Controla quais administradores podem exibir e modificar relacionamentos entre empresas
+  * **Monitorar alterações de hierarquia** — Rastrear modificações nas estruturas organizacionais
 
 ## Práticas recomendadas
 

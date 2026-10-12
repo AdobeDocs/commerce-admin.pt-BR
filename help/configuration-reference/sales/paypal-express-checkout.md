@@ -3,36 +3,47 @@ title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal 
 description: Revise as configurações na seção [!UICONTROL PayPal Express Checkout] na página [!UICONTROL Sales] > [!UICONTROL Payment Methods] do Administrador do Commerce.
 exl-id: aae5b1d9-f47e-447a-b40c-924f8d2ee824
 feature: Configuration, Payments
-TQID: https://experienceleague.adobe.com/SEtCXXuq1AkwIoH-0aHjwmWIRnMqzhrf3ojo2xa2jBs
+TQID: 'https://experienceleague.adobe.com/SEtCXXuq1AkwIoH-0aHjwmWIRnMqzhrf3ojo2xa2jBs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1682
-ht-degree: 0%
-
+source-wordcount: '1732'
+ht-degree: 1%
 ---
-
 # [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Express Checkout]
 
 >[!IMPORTANT]
 >
->Requisitos do **PSD2:** <br/>
->A partir de 14 de setembro de 2019, os bancos europeus poderão recusar pagamentos que não atendam aos requisitos da [PSD2](../../getting-started/compliance-payment-services-directive.md). Nenhuma ação é necessária para que o Check-out do PayPal Express esteja em conformidade com a PSD2, pois todos os requisitos são tratados pelo PayPal.
+>**Requisitos do PSD2:** <br/>
+>A partir de 14 de setembro de 2019, os bancos europeus poderão recusar pagamentos que não atendam aos requisitos do [PSD2](../../getting-started/compliance-payment-services-directive.md). Nenhuma ação é necessária para que o Check-out do PayPal Express esteja em conformidade com a PSD2, pois todos os requisitos são tratados pelo PayPal.
 
 {{config}}
 
@@ -55,7 +66,7 @@ ht-degree: 0%
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Site | Especifica o endereço de email especificado quando sua conta de comerciante do PayPal foi estabelecida. O endereço de email diferencia maiúsculas de minúsculas e deve corresponder exatamente ao seu endereço de email no sistema PayPal. |
-| [!UICONTROL API Authentication Methods] | Site | Determina o método usado para autenticação da API. Opções: <br/>**`API Signature`**- Exibe o campo _[!UICONTROL API Signature]_&#x200B;no formulário.<br/>**`API Certificate`**- Exibe o campo&#x200B;_[!UICONTROL API Certificate]_ no formulário. |
+| [!UICONTROL API Authentication Methods] | Site | Determina o método usado para autenticação da API. Opções: <br/>**`API Signature`**- Exibe o campo _[!UICONTROL API Signature]_no formulário.<br/>**`API Certificate`**- Exibe o campo_[!UICONTROL API Certificate]_ no formulário. |
 | [!UICONTROL API Username] | Site | O nome de usuário da API associado à sua conta de comerciante do PayPal. |
 | [!UICONTROL API Password] | Site | A senha da API associada à sua conta de comerciante do PayPal. |
 | [!UICONTROL API Signature] | Site | A assinatura da API associada à sua conta de comerciante do PayPal. |

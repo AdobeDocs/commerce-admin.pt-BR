@@ -3,25 +3,34 @@ title: Programar uma atualização de conteúdo
 description: Revise este exemplo de campanha usado para agendar uma alteração de preço temporária para um produto.
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
-TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+TQID: 'https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 667
+source-wordcount: '668'
 ht-degree: 0%
-
 ---
-
 # Programar uma atualização de conteúdo
 
 {{ee-feature}}
@@ -49,7 +58,7 @@ O exemplo a seguir mostra como programar uma alteração de preço temporária p
 
    - Use a ferramenta Calendário (![Ícone de calendário](../assets/icon-calendar.png)) para escolher a **Data de Início** e a **Data de Término** para a campanha.
 
-     Para criar uma campanha aberta, não especifique uma data final (deixe em branco). Para este exemplo, a campanha está agendada para começar à meia-noite do ano novo, 1º de janeiro de 2021 às 12:00 AM PST.
+     Para criar uma campanha aberta, não especifique uma data final (deixe em branco). Para este exemplo, a campanha está programada para começar na meia-noite do ano novo, 1º de janeiro de 2021 às 12h PST.
 
 
      Para uma campanha de regra de preço criada sem uma data final, uma data final não pode ser adicionada posteriormente. Nesse caso, é necessário criar uma campanha e definir a data de início como a data em que deseja que a campanha antiga termine e a nova comece. Nessa data de início, a campanha antiga termina e a nova campanha começa conforme definido.
@@ -58,9 +67,9 @@ O exemplo a seguir mostra como programar uma alteração de preço temporária p
 
      >[!NOTE]
      >
-     >A data de início e a data de término da campanha devem ser definidas usando o fuso horário padrão **_1&rbrace; do Administrador, que é convertido do fuso horário local de cada site._** Por exemplo, quando você tem vários sites em fusos horários diferentes, mas deseja iniciar uma campanha com base em um fuso horário dos EUA (padrão), é necessário agendar uma atualização separada para cada fuso horário local. Nesse caso, defina **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** como convertidos de cada fuso horário do site local para o fuso horário padrão do Administrador.
+     >A data de início e a data de término da campanha devem ser definidas usando o fuso horário padrão **_1} do Administrador, que é convertido do fuso horário local de cada site._** Por exemplo, quando você tem vários sites em fusos horários diferentes, mas deseja iniciar uma campanha com base em um fuso horário dos EUA (padrão), é necessário agendar uma atualização separada para cada fuso horário local. Nesse caso, defina **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** como convertidos de cada fuso horário do site local para o fuso horário padrão do Administrador.
 
-1. Role para baixo até _[!UICONTROL Price]_&#x200B;e clique em **[!UICONTROL Advanced Pricing]**.
+1. Role para baixo até _[!UICONTROL Price]_e clique em **[!UICONTROL Advanced Pricing]**.
 
 1. Insira um **[!UICONTROL Special Price]** para o produto durante a campanha agendada e clique em **[!UICONTROL Done]**.
 

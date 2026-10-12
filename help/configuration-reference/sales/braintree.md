@@ -3,31 +3,43 @@ title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL Braintre
 description: Revise as configurações para a seção [!UICONTROL Braintree] na página [!UICONTROL Sales] > [!UICONTROL Payment Methods] do Administrador do Commerce.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-TQID: https://experienceleague.adobe.com/nYlyPsbZ5YhBI6C6pzOk9Ns-6pA6VME3uzKfRhJ5HLo
+TQID: 'https://experienceleague.adobe.com/nYlyPsbZ5YhBI6C6pzOk9Ns-6pA6VME3uzKfRhJ5HLo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2904
+source-wordcount: '2904'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL Braintree]
 
 >[!IMPORTANT]
@@ -43,7 +55,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Se precisar de ajuda com cobranças inesperadas em seu cartão, acesse a página [cancelar assinatura](https://helpx.adobe.com/br/manage-account/using/cancel-subscription.html) para obter assistência.
+>Se precisar de ajuda com cobranças inesperadas em seu cartão, acesse a página [cancelar assinatura](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) para obter assistência.
 
 ## [!UICONTROL Basic Braintree Settings]
 
@@ -54,12 +66,12 @@ ht-degree: 0%
 | [!UICONTROL Title] | Exibição da loja | Valor padrão: `Credit Card` (Braintree) |
 | [!UICONTROL Environment] | Exibição da loja | Opções: `Sandbox` / `Production` |
 | [!UICONTROL Payment Action] | Exibição da loja | Determina a ação tomada pelo Braintree quando um pagamento é processado. Opções: <br/>**`Authorize`**- Os fundos no cartão de crédito do cliente estão autorizados, mas não foram transferidos da conta. Um pedido é criado no Administrador da loja. Posteriormente, você pode capturar a venda e criar uma fatura.<br/>**`Intent Sale`** (anteriormente `Authorize and Capture` em versões anteriores) - Os fundos no cartão de crédito do cliente são autorizados e capturados pela Braintree, e um pedido e uma fatura são criados no Admin da loja. |
-| [!UICONTROL Sandbox Merchant ID] | Exibição da loja | Esse é o identificador exclusivo de toda a sua conta de gateway de sandbox. Também conhecida como _ID pública_ ou _ID de produção_, sua ID de comerciante é diferente para seus gateways de produção e sandbox. Este campo aparece quando o campo _[!UICONTROL Environment]_&#x200B;está definido como `Sandbox`. |
-| [!UICONTROL Sandbox Public Key] | Exibição da loja | Esse é o identificador público específico do usuário que restringe o acesso a dados criptografados. Cada usuário associado ao seu gateway do Braintree de sandbox tem sua própria chave pública de sandbox. Este campo aparece quando o campo _[!UICONTROL Environment]_&#x200B;está definido como `Sandbox`. |
-| [!UICONTROL Sandbox Private Key] | Exibição da loja | Esse é o identificador privado específico do usuário que restringe o acesso a dados criptografados. Cada usuário associado ao seu gateway do Braintree de sandbox tem sua própria chave privada para a sandbox. Este campo aparece quando o campo _[!UICONTROL Environment]_&#x200B;está definido como `Sandbox`. |
-| [!UICONTROL Merchant ID] | Exibição da loja | Esse é o identificador exclusivo de toda a conta do gateway, incluindo as várias contas de comerciante que podem estar no gateway. Também conhecida como _ID pública_ ou _ID de produção_, sua ID de comerciante é diferente para seus gateways de produção e sandbox. Este campo aparece quando o campo _[!UICONTROL Environment]_&#x200B;está definido como `Production`. |
-| [!UICONTROL Public Key] | Exibição da loja | Esse é o identificador público específico do usuário que restringe o acesso a dados criptografados. Cada usuário associado ao seu gateway do Braintree tem sua própria chave pública. Este campo aparece quando o campo _[!UICONTROL Environment]_&#x200B;está definido como `Production`. |
-| [!UICONTROL Private Key] | Exibição da loja | Esse é o identificador privado específico do usuário que restringe o acesso a dados criptografados. Cada usuário associado ao seu gateway do Braintree tem sua própria chave privada. Este campo aparece quando o campo _[!UICONTROL Environment]_&#x200B;está definido como `Production`. |
+| [!UICONTROL Sandbox Merchant ID] | Exibição da loja | Esse é o identificador exclusivo de toda a sua conta de gateway de sandbox. Também conhecida como _ID pública_ ou _ID de produção_, sua ID de comerciante é diferente para seus gateways de produção e sandbox. Este campo aparece quando o campo _[!UICONTROL Environment]_está definido como `Sandbox`. |
+| [!UICONTROL Sandbox Public Key] | Exibição da loja | Esse é o identificador público específico do usuário que restringe o acesso a dados criptografados. Cada usuário associado ao seu gateway do Braintree de sandbox tem sua própria chave pública de sandbox. Este campo aparece quando o campo _[!UICONTROL Environment]_está definido como `Sandbox`. |
+| [!UICONTROL Sandbox Private Key] | Exibição da loja | Esse é o identificador privado específico do usuário que restringe o acesso a dados criptografados. Cada usuário associado ao seu gateway do Braintree de sandbox tem sua própria chave privada para a sandbox. Este campo aparece quando o campo _[!UICONTROL Environment]_está definido como `Sandbox`. |
+| [!UICONTROL Merchant ID] | Exibição da loja | Esse é o identificador exclusivo de toda a conta do gateway, incluindo as várias contas de comerciante que podem estar no gateway. Também conhecida como _ID pública_ ou _ID de produção_, sua ID de comerciante é diferente para seus gateways de produção e sandbox. Este campo aparece quando o campo _[!UICONTROL Environment]_está definido como `Production`. |
+| [!UICONTROL Public Key] | Exibição da loja | Esse é o identificador público específico do usuário que restringe o acesso a dados criptografados. Cada usuário associado ao seu gateway do Braintree tem sua própria chave pública. Este campo aparece quando o campo _[!UICONTROL Environment]_está definido como `Production`. |
+| [!UICONTROL Private Key] | Exibição da loja | Esse é o identificador privado específico do usuário que restringe o acesso a dados criptografados. Cada usuário associado ao seu gateway do Braintree tem sua própria chave privada. Este campo aparece quando o campo _[!UICONTROL Environment]_está definido como `Production`. |
 | [!UICONTROL Enable Card Payments] | Site | Determina se o método de pagamento por cartão de crédito do Braintree está disponível para seus clientes como um método de pagamento. Opções: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | Site | Quando ativado, o fornece armazenamento seguro para informações de pagamento do cliente, de modo que os clientes não precisam inserir novamente as informações de cartão de crédito para cada compra. Opções: `Yes` / `No` |
 | [!UICONTROL Enable Vault CVV Re-verification] | Site | Quando ativada, a validação é feita para a configuração de regras CVV na sua conta do Braintree. Opções: `Yes` / `No` |
@@ -177,7 +189,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | Site | Determina se [!DNL Venmo] está incluído como um método de pagamento por meio do Braintree. Opções: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Venmo] | Site | Os clientes podem arquivar/armazenar seu método de pagamento Venmo para uso futuro. Depois que os detalhes do pagamento forem salvos, o cliente poderá usar o método de pagamento Venmo sem inserir os dados novamente ou autenticar novamente suas informações de pagamento. Opções: `Yes` / `No` |
-| [!UICONTROL Payment Action] | Site | Determina a ação tomada pelo Braintree quando um pagamento é processado. Opções: <br/>**`Authorize`**- Os fundos no cartão do cliente são autorizados, mas não transferidos da conta do cliente. Um pedido é criado no Administrador da loja. Posteriormente, você pode capturar a venda e criar uma fatura.<br/>**`Intent Sale`** - Os fundos no cartão do cliente são autorizados e capturados pela Braintree, e um pedido e uma fatura são criados no Administrador da loja. **_Observação:_**&#x200B;Isso era_ Autorizar e Capturar_ na versão 2.3.x e em versões anteriores. |
+| [!UICONTROL Payment Action] | Site | Determina a ação tomada pelo Braintree quando um pagamento é processado. Opções: <br/>**`Authorize`**- Os fundos no cartão do cliente são autorizados, mas não transferidos da conta do cliente. Um pedido é criado no Administrador da loja. Posteriormente, você pode capturar a venda e criar uma fatura.<br/>**`Intent Sale`** - Os fundos no cartão do cliente são autorizados e capturados pela Braintree, e um pedido e uma fatura são criados no Administrador da loja. **_Observação:_**Isso era_ Autorizar e Capturar_ na versão 2.3.x e em versões anteriores. |
 | [!UICONTROL Sort Order] | Site | Determina o pedido de listagem do Venmo com outros métodos de pagamento durante o check-out. |
 
 {style="table-layout:auto"}

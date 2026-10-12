@@ -3,7 +3,7 @@ title: Criar uma conta de cliente individual
 description: Os visitantes podem criar facilmente uma conta de cliente individual para gerenciar suas compras.
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs
+TQID: 'https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +16,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,7 +37,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9bd9d0a3b3c991236b98b464f8e2be2df37272ac
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%
@@ -144,7 +148,7 @@ Como comerciante, você pode criar uma conta de cliente no Administrador.
 
    >[!INFO]
    >
-   >Depois que a conta do cliente é salva, o conjunto completo de opções é exibido no painel esquerdo e no menu na parte superior da página. A guia _[!UICONTROL Customer View]_&#x200B;exibe um resumo da conta.
+   >Depois que a conta do cliente é salva, o conjunto completo de opções é exibido no painel esquerdo e no menu na parte superior da página. A guia _[!UICONTROL Customer View]_exibe um resumo da conta.
 
    ![Visualização de Cliente](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -175,7 +179,7 @@ Como comerciante, você pode criar uma conta de cliente no Administrador.
 
    Caso contrário, clique em **[!UICONTROL Save and Continue Edit]** e repita as etapas anteriores para adicionar mais endereços.
 
-   O novo endereço é exibido na página [!UICONTROL Addresses] com os endereços _[!UICONTROL Default Billing]_&#x200B;e_[!UICONTROL Default Shipping]_ selecionados acima da lista completa.
+   O novo endereço é exibido na página [!UICONTROL Addresses] com os endereços _[!UICONTROL Default Billing]_e_[!UICONTROL Default Shipping]_ selecionados acima da lista completa.
 
    ![Exibição de endereços](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -197,7 +201,7 @@ Botões adicionais ficam disponíveis quando o perfil é salvo pela primeira vez
 
 | Botão | Descrição |
 |--- |--- |
-| **[!UICONTROL Back]** | Retorna à página _[!UICONTROL Customers]_&#x200B;sem salvar as alterações. |
+| **[!UICONTROL Back]** | Retorna à página _[!UICONTROL Customers]_sem salvar as alterações. |
 | **[!UICONTROL Delete Customer]** | Exclui o cliente atual. Os pedidos concluídos associados ao cliente não são removidos. |
 | **[!UICONTROL Reset]** | Redefine quaisquer alterações não salvas no formulário do cliente para seus valores anteriores. |
 | **[!UICONTROL Create Order]** | Cria um pedido para o cliente. |

@@ -3,11 +3,9 @@ title: Inventário - atribuir origens e quantidades
 description: Seção reutilizada sobre atribuição de origens e quantidades ao criar produtos de catálogo.
 source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 # Inventário - atribuir origens e quantidades
 
 Para comerciantes de várias origens que usam [[!DNL Inventory Management]](../inventory-management/introduction.md), role para baixo até a seção **Origens** e atribua origens e quantidades:

@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -64,7 +64,7 @@ O conector protege as exibições de catálogo com chaves de acesso restritas. A
 
 Para configurar a duração do token ou desabilitar a emissão de token, consulte [Serviços > Exibição do Catálogo ACO](/help/configuration-reference/services/aco-catalog-view.md).
 
-Você pode revisar essas exibições de catálogo e gerenciar suas chaves atribuídas a partir da guia _[!UICONTROL Catalog Views]_&#x200B;do catálogo compartilhado ou da seção&#x200B;_[!UICONTROL Catalog Views]_ da empresa associada - ambas listam as mesmas exibições de catálogo e atribuições de chave atuais. Consulte [Editar chaves de acesso restrito](#edit-restricted-access-keys) para obter o caminho de navegação exato de cada local.
+Você pode revisar essas exibições de catálogo e gerenciar suas chaves atribuídas a partir da guia _[!UICONTROL Catalog Views]_do catálogo compartilhado ou da seção_[!UICONTROL Catalog Views]_ da empresa associada - ambas listam as mesmas exibições de catálogo e atribuições de chave atuais. Consulte [Editar chaves de acesso restrito](#edit-restricted-access-keys) para obter o caminho de navegação exato de cada local.
 
 Para monitorar a sincronização de dados do catálogo compartilhado com [!DNL Adobe Commerce Optimizer], consulte [Monitoramento do status de sincronização da exibição do catálogo](/help/systems/catalog-view-sync-status.md).
 
@@ -85,3 +85,5 @@ Para obter detalhes adicionais, consulte [Gerenciar chaves de acesso restrito](/
 > - [Monitoramento do Status de Sincronização da Exibição de Catálogo](/help/systems/catalog-view-sync-status.md)
 > - [Gerenciar seus catálogos compartilhados](catalog-shared-manage.md)
 > - [Gerenciar contas da empresa](account-company-manage.md)
+
+<!-- Last updated from includes: 2026-10-01 08:33:41 -->

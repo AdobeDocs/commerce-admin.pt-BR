@@ -45,24 +45,24 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '2804'
 ht-degree: 0%
 ---
 # Gerenciar contas da empresa
 
-A página _[!UICONTROL Companies]_&#x200B;lista todas as contas da empresa atual, independentemente do status. Todas as solicitações pendentes de aprovação são exibidas na parte superior da lista.
+A página _[!UICONTROL Companies]_lista todas as contas da empresa atual, independentemente do status. Todas as solicitações pendentes de aprovação são exibidas na parte superior da lista.
 
 ![Grade de Empresas](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Use o controle *[!UICONTROL Columns]* para personalizar as colunas exibidas na grade. Personalize as empresas exibidas na visualização usando os recursos de pesquisa e filtro.
 
-- Localize empresas na grade **Empresas** usando _[!UICONTROL Search]_. A pesquisa indexa as colunas **Nome da Empresa**&#x200B;e **Pai**.
+- Localize empresas na grade **Empresas** usando _[!UICONTROL Search]_. A pesquisa indexa as colunas **Nome da Empresa**e **Pai**.
 
 - Personalize a exibição para incluir registros que atendam a critérios específicos usando o [!UICONTROL Filter]. Por exemplo, se o site B2B estiver configurado para gerenciar contas de empresa únicas e [hierarquias de empresa](manage-companies.md), você poderá filtrar por `[!UICONTROL Company Type - Company]` para exibir apenas empresas únicas, ou por `[!UICONTROL Company Type - Parent]` para mostrar apenas a empresa principal de cada hierarquia.
 
-Aplique uma ação a vários registros da empresa usando o controle _[!UICONTROL Actions]_&#x200B;acima da grade. Por exemplo, em vez de aprovar cada solicitação individual de empresa, você pode selecionar várias solicitações para ativar as contas em uma única ação. As ações disponíveis dependem das [permissões](../systems/permissions.md) para a função atribuída à sua conta de usuário administrador.
+Aplique uma ação a vários registros da empresa usando o controle _[!UICONTROL Actions]_acima da grade. Por exemplo, em vez de aprovar cada solicitação individual de empresa, você pode selecionar várias solicitações para ativar as contas em uma única ação. As ações disponíveis dependem das [permissões](../systems/permissions.md) para a função atribuída à sua conta de usuário administrador.
 
 ## Recursos de função da empresa
 
@@ -248,7 +248,7 @@ O perfil da empresa pode ser mantido na vitrine pelo administrador da empresa, e
 
 Você pode aprender sobre como gerenciar contas da empresa assistindo a este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3412497?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Gerenciamento da empresa
 
@@ -260,7 +260,7 @@ Consulte [Gerenciar hierarquia da empresa](manage-company-hierarchy.md) para obt
 
 ## Gerenciar configuração de exibição de catálogo
 
-Com a extensão [!DNL Adobe Commerce Optimizer Connector for B2B] instalada, a seção _[!UICONTROL Catalog Views]_&#x200B;de uma conta da empresa lista as exibições de catálogo [!DNL Adobe Commerce Optimizer] projetadas do catálogo compartilhado atribuído à empresa e permite gerenciar as chaves de acesso restrito que as protegem.
+Com a extensão [!DNL Adobe Commerce Optimizer Connector for B2B] instalada, a seção _[!UICONTROL Catalog Views]_de uma conta da empresa lista as exibições de catálogo [!DNL Adobe Commerce Optimizer] projetadas do catálogo compartilhado atribuído à empresa e permite gerenciar as chaves de acesso restrito que as protegem.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -441,3 +441,5 @@ As seguintes colunas estão disponíveis alterando o [layout da coluna](../getti
 | [!UICONTROL Payment Methods] | (Somente administrador) Fica ativo se métodos de pagamento específicos forem indicados. Para selecionar vários métodos de pagamento, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2026-09-22 10:00:25 -->

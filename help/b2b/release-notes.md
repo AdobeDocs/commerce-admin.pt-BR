@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: bb5da9eea16601303b62ccc06327c6a832062c49
 workflow-type: tm+mt
 source-wordcount: '11211'
 ht-degree: 0%
@@ -60,6 +60,8 @@ Essas notas de versão para a extensão B2B capturam adições e correções que
 >[!NOTE]
 >
 >Consulte [Disponibilidade do produto](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/release/product-availability) para obter informações sobre versões da extensão B2B do Commerce com suporte para versões disponíveis do Adobe Commerce.
+
+{{$include /help/_includes/templated/release-notes-v1-5-4.md}}
 
 ## B2B v1.5.3
 
@@ -1160,3 +1162,5 @@ Esta versão inclui melhorias nas aprovações de pedidos, métodos de envio, ca
 - O Adobe Commerce lança uma exceção durante a atualização para B2B 1.2.0 em uma implantação de vários sites. Quando `setup:upgrade` é executado, este erro ocorre no módulo `PurchaseOrder`: `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **Solução alternativa**: instale a interface `B2B-716 Add NonTransactionableInterface` para o hotfix de patch de dados `InitPurchaseOrderSalesSequence`, que agora está disponível na seção **Minha Conta** > **Downloads** de `magento.com`.
 - Se um código de desconto expirar antes de uma Ordem de Compra (OC) ser aprovada, a OC continuará a exibir o valor descontado, mas uma vez aprovada a OC, a ordem será colocada no total não descontado. **Solução alternativa**: instale o hotfix `B2B-709 Purchase Order Discount patch` para esse problema, que agora está disponível na seção **Minha Conta** > **Downloads** de `magento.com`.
 - Se os itens em uma ordem de compra estiverem esgotados ou em quantidade insuficiente quando a ordem de compra for convertida em uma ordem real, ocorrerá um erro. Se as ordens pendentes estiverem ativadas, a ordem será processada normalmente.
+
+<!-- Last updated from includes: 2026-10-09 17:06:14 -->

@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '2804'
 ht-degree: 0%
@@ -441,3 +441,5 @@ As seguintes colunas estão disponíveis alterando o [layout da coluna](../getti
 | [!UICONTROL Payment Methods] | (Somente administrador) Fica ativo se métodos de pagamento específicos forem indicados. Para selecionar vários métodos de pagamento, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada opção. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2026-09-22 10:00:25 -->

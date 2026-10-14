@@ -6,28 +6,38 @@ feature: Configuration
 TQID: https://experienceleague.adobe.com/i-PFNNoS-Ke-sJqZLrxF0PIdTsm8OXfYNI0kS2scHSk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: 1990
+source-wordcount: '1990'
 ht-degree: 0%
-
 ---
-
 # Detalhes da loja
 
 As informações básicas da loja incluem o nome e o endereço da loja, o número de telefone e o endereço de email que aparecem nas mensagens de email, faturas e outras comunicações enviadas aos clientes.
@@ -36,7 +46,7 @@ As informações básicas da loja incluem o nome e o endereço da loja, o númer
 
 ## [!UICONTROL Store Information]
 
-A seção _[!UICONTROL Store Information]_&#x200B;fornece as informações básicas que aparecem nos documentos de vendas e em outras comunicações.
+A seção _[!UICONTROL Store Information]_fornece as informações básicas que aparecem nos documentos de vendas e em outras comunicações.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -191,7 +201,7 @@ Para obter ajuda com a solução de problemas de configuração do país, consul
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 A configuração Localização do Comerciante é usada para configurar [métodos de pagamento](../stores-purchase/payments.md). Se não houver valor para esta configuração, a configuração [País Padrão](#uicontrol-country-options) será usada.
 
@@ -233,7 +243,7 @@ Antes de configurar endereços de email para o armazenamento, cada um deve ser c
 
 ### Etapa 2: definir o URL de base para links gerados
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Alguns emails voltados para o cliente incluem links para a loja, como aqueles que ajudam os clientes a redefinir suas senhas. Para garantir que os links para a loja funcionem, você deve definir a URL base para sua loja.
 
@@ -247,7 +257,7 @@ Alguns emails voltados para o cliente incluem links para a loja, como aqueles qu
 
 ### Etapa 3: configurar os endereços de email da sua loja
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} Endereços de email de remetentes são configurados quando sua instância é provisionada. Se precisar alterar esses endereços, crie um tíquete de Suporte.
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} Endereços de email de remetentes são configurados quando sua instância é provisionada. Se precisar alterar esses endereços, crie um tíquete de Suporte.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

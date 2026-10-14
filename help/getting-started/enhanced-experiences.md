@@ -127,7 +127,7 @@ O Adobe Commerce e o Magento Open Source fornecem uma variedade de ferramentas p
 
 ## Otimizar os processos de negócios e a lucratividade
 
-- **[!DNL Advanced Reporting]** - Obtenha informações importantes rapidamente com os relatórios dinâmicos de produto, pedido e cliente da [Business Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started).
+- **[!DNL Advanced Reporting]** - Obtenha informações importantes rapidamente com os relatórios dinâmicos de produto, pedido e cliente da [Business Intelligence](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/getting-started).
 
 - **Instantâneos de painel** - Saber o que é de interesse no seu site é crucial para maximizar seu orçamento de marketing. Use estas [informações no seu painel](admin-dashboard.md) para determinar o que você deve fazer de venda cruzada e venda adicional para clientes fiéis ou quais produtos colocar à venda.
 

@@ -275,7 +275,7 @@ Você pode ativar públicos-alvo em uma instância do Adobe Commerce headless, c
 
 ### Regras de preço do carrinho e regras de produto relacionadas
 
-Para regras de preço do carrinho e regras de produto relacionadas, uma loja headless se comunica com a Experience Platform por meio da [Commerce integration framework (CIF)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/magento). A estrutura fornece uma API do lado do servidor que é implementada usando o GraphQL. As informações de público, como o segmento de um comprador, são transmitidas para o Commerce por meio de um parâmetro de cabeçalho do GraphQL chamado: `aep-segments-membership`.
+Para regras de preço do carrinho e regras de produto relacionadas, uma loja headless se comunica com a Experience Platform por meio da [Commerce integration framework (CIF)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/magento). A estrutura fornece uma API do lado do servidor que é implementada usando o GraphQL. As informações de público, como o segmento de um comprador, são transmitidas para o Commerce por meio de um parâmetro de cabeçalho do GraphQL chamado: `aep-segments-membership`.
 
 A arquitetura geral é a seguinte:
 

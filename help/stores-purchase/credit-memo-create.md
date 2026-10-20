@@ -305,7 +305,7 @@ O método de pagamento usado para a ordem determina os botões de restituição 
 
 ## Imprimir um aviso de crédito
 
-Para imprimir ou exibir o aviso de crédito concluído, é necessário ter um leitor PDF instalado. Você pode baixar o [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obter o Adobe Reader") gratuitamente.
+Para imprimir ou exibir o aviso de crédito concluído, é necessário ter um leitor PDF instalado. Você pode baixar o [Adobe Reader](https://www.adobe.com/br/acrobat/pdf-reader.html "Obter o Adobe Reader") gratuitamente.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
 

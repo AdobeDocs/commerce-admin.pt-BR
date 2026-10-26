@@ -48,12 +48,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1270'
 ht-degree: 0%
 ---
 # Sua conta de administrador
+
+>[!NOTE]
+>
+>Para o Adobe Commerce as a Cloud Service, faça logon por meio da Adobe Experience Cloud e abra uma instância do Commerce Cloud Manager. Consulte [Administrador do Commerce na Experiência unificada do Adobe](admin-unified-experience.md#open-the-commerce-admin) para obter informações de acesso e [Gerenciamento de usuários](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management) para gerenciar usuários e funções do Adobe Commerce as a Cloud Service. A conta baseada na instalação e as instruções de logon local abaixo não descrevem o fluxo de logon do Adobe Commerce as a Cloud Service.
 
 A conta Admin primária foi configurada inicialmente durante a instalação e pode conter informações iniciais de espaço reservado ou informações de dados de amostra. O proprietário designado desta conta pode personalizar o nome de usuário e a senha e atualizar o nome, sobrenome e endereço de email a qualquer momento. Esta conta, um _superusuário_ com todas as permissões por padrão, normalmente cria as contas de usuário Administrador necessárias para os negócios.
 
@@ -153,7 +157,7 @@ Não é permitida a reutilização das quatro últimas senhas atribuídas à con
 
    ![Sair](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-A página _[!UICONTROL Sign In]_&#x200B;exibe uma mensagem informando que você está desconectado. Saia do_ Admin _sempre que deixar o computador sem supervisão.
+A página _[!UICONTROL Sign In]_exibe uma mensagem informando que você está desconectado. Saia do_ Admin _sempre que deixar o computador sem supervisão.
 
 ## Editar informações da conta
 

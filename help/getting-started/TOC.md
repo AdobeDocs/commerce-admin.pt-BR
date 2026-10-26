@@ -1,19 +1,17 @@
 ---
 user-guide-title: Guia de introdução ao Adobe Commerce Admin
-user-guide-description: Se você é novo no administrador do Adobe Commerce ou do Magento Open Source, descubra recursos do  [!DNL Commerce] ecossistema, siga a jornada do cliente para explorar sua loja e saiba mais sobre os principais recursos do administrador.
+user-guide-description: Se você é novo no Administrador do Adobe Commerce ou do Magento Open Source, descubra recursos do ecossistema do [!DNL Commerce], siga a jornada do cliente para explorar sua loja e saiba mais sobre os principais recursos do Administrador.
 breadcrumb-title: Introdução
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
 color: red
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 0%
-
 ---
-
 
 # Guia de introdução ao Adobe Commerce Admin {#start}
 
@@ -40,6 +38,7 @@ ht-degree: 0%
   + [Acessibilidade](navigation-accessibility.md)
 + O administrador {#admin}
   + [O que é o administrador?](admin.md)
+  + [Administrador de experiência unificada](admin-unified-experience.md)
   + [Sua conta de usuário Admin](admin-signin.md)
   + Integração do Adobe Identity Management Service (IMS) {#ims}
     + [Visão geral da integração do IMS](adobe-ims-integration-overview.md)
@@ -73,4 +72,4 @@ ht-degree: 0%
   + [Ecossistema](resources.md)
   + [Extensões](extensions.md)
   + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
++ [Retornar aos Guias do usuário do administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

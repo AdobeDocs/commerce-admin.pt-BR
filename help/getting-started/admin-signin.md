@@ -57,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Para o Adobe Commerce as a Cloud Service, faça logon por meio da Adobe Experience Cloud e abra uma instância do Commerce Cloud Manager. Consulte [Administrador do Commerce na Experiência unificada do Adobe](admin-unified-experience.md#open-the-commerce-admin) para obter informações de acesso e [Gerenciamento de usuários](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management) para gerenciar usuários e funções do Adobe Commerce as a Cloud Service. A conta baseada na instalação e as instruções de logon local abaixo não descrevem o fluxo de logon do Adobe Commerce as a Cloud Service.
+>Para o Adobe Commerce as a Cloud Service, faça logon por meio da Adobe Experience Cloud e abra uma instância do Commerce Cloud Manager. Consulte [Administrador do Commerce na Experiência unificada do Adobe](admin-unified-experience.md#open-the-commerce-admin) para obter informações de acesso e [Gerenciamento de usuários](https://experienceleague.adobe.com/pt-br/docs/commerce/cloud-service/user-management) para gerenciar usuários e funções do Adobe Commerce as a Cloud Service. A conta baseada na instalação e as instruções de logon local abaixo não descrevem o fluxo de logon do Adobe Commerce as a Cloud Service.
 
 A conta Admin primária foi configurada inicialmente durante a instalação e pode conter informações iniciais de espaço reservado ou informações de dados de amostra. O proprietário designado desta conta pode personalizar o nome de usuário e a senha e atualizar o nome, sobrenome e endereço de email a qualquer momento. Esta conta, um _superusuário_ com todas as permissões por padrão, normalmente cria as contas de usuário Administrador necessárias para os negócios.
 

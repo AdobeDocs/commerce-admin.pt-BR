@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -40,7 +40,7 @@ _Remessa gratuita_ é uma das promoções mais eficazes que você pode oferecer.
 
 ## Etapa 1: configurar frete grátis
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Delivery Methods]**.
 
@@ -58,7 +58,7 @@ _Remessa gratuita_ é uma das promoções mais eficazes que você pode oferecer.
 
    >[!TIP]
    >
-   >Para usar frete grátis com [taxas de tabela](shipping-table-rate.md), torne o _[!UICONTROL Minimum Order Amount]_&#x200B;tão alto que nunca será atendido. O uso desse valor alto impede que o frete grátis entre em vigor, a menos que seja acionado por uma regra de preço.
+   >Para usar frete grátis com [taxas de tabela](shipping-table-rate.md), torne o _[!UICONTROL Minimum Order Amount]_tão alto que nunca será atendido. O uso desse valor alto impede que o frete grátis entre em vigor, a menos que seja acionado por uma regra de preço.
 
 1. Conjunto **[!UICONTROL Include Tax to Amount]**:
 
@@ -73,7 +73,7 @@ _Remessa gratuita_ é uma das promoções mais eficazes que você pode oferecer.
 
    - `All Allowed Countries` - Clientes de todos os [países](../getting-started/store-details.md#country-options) especificados na sua configuração de loja podem usar frete grátis.
 
-   - `Specific Countries` - Depois de escolher este valor, a lista _[!UICONTROL Ship to Specific Countries]_&#x200B;é exibida. Selecione cada país na lista onde a remessa gratuita pode ser usada.
+   - `Specific Countries` - Depois de escolher este valor, a lista _[!UICONTROL Ship to Specific Countries]_é exibida. Selecione cada país na lista onde a remessa gratuita pode ser usada.
 
 1. Conjunto **[!UICONTROL Show Method if Not Applicable]**:
 

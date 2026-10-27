@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Para habilitar ou desabilitar a sincronização, edite o **[!UICONTROL Adobe Com
 
 ## Adicionar uma exibição de loja
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
    ![Todas as lojas](./assets/stores-all.png){width="700" zoomable="yes"}
 
@@ -94,11 +94,11 @@ Se sua instalação do Adobe Commerce ou Magento Open Source tiver uma configura
 
 {style="table-layout:auto"}
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
-1. Na coluna _[!UICONTROL Store View]_&#x200B;da grade, clique no nome da exibição que deseja editar.
+1. Na coluna _[!UICONTROL Store View]_da grade, clique no nome da exibição que deseja editar.
 
-   Ao editar o modo de exibição padrão, os campos _[!UICONTROL Store]_&#x200B;e_[!UICONTROL Status]_ não estão disponíveis.
+   Ao editar o modo de exibição padrão, os campos _[!UICONTROL Store]_e_[!UICONTROL Status]_ não estão disponíveis.
 
    ![Modo de exibição de armazenamento - editar modo de exibição padrão](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

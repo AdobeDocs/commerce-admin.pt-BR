@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -70,7 +70,7 @@ A _Compra instantânea_ permite que os clientes acelerem o processo de finaliza�
 
 ### Etapa 1: abrir a página de configuração
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 ### Etapa 2: configurar o cofre do método de pagamento
 
@@ -79,7 +79,7 @@ Você pode usar a Compra instantânea com o Braintree ou os Serviços de pagamen
 Saiba como configurar o método de pagamento e habilitar a compartimentação para Braintree ou Serviços de pagamento:
 
 - [Braintree](braintree.md)
-- [Documentação dos serviços de pagamento](https://experienceleague.adobe.com/pt-br/docs/commerce/payment-services/guide-overview)
+- [Documentação dos serviços de pagamento](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
 
 ### Etapa 3: Habilitar Compra Instantânea
 

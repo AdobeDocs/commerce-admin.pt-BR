@@ -29,14 +29,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
 ---
 # Entregas
 
-A grade _[!UICONTROL Shipments]_&#x200B;lista o registro de remessa de todas as faturas que foram preparadas para remessa. Um registro de remessa pode ser gerado quando um pedido é [faturado](invoices.md) ou posterior.
+A grade _[!UICONTROL Shipments]_lista o registro de remessa de todas as faturas que foram preparadas para remessa. Um registro de remessa pode ser gerado quando um pedido é [faturado](invoices.md) ou posterior.
 
 A Adobe Commerce e a Magento Open Source oferecem suporte ao envio parcial e completo do pedido, com opções adicionais disponíveis na [Inventory management](../inventory-management/introduction.md) e em extensões de terceiros.
 
@@ -101,7 +101,7 @@ Para cada item de linha na ordem, modifique o **[!UICONTROL Qty to Ship]** confo
 
 1. Clique em **[!UICONTROL Ship]**.
 
-1. Role para baixo até o bloco _[!UICONTROL Payment & Shipping Method]_&#x200B;e clique em **[!UICONTROL Add Tracking Number]**.
+1. Role para baixo até o bloco _[!UICONTROL Payment & Shipping Method]_e clique em **[!UICONTROL Add Tracking Number]**.
 
 1. Conjunto **[!UICONTROL Carrier]**:
 
@@ -156,7 +156,7 @@ Você pode modificar as informações de remessa e rastreamento conforme necess�
 
 ## Configurar comentários para remessas
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Em _[!UICONTROL Sales]_, selecione **[!UICONTROL Sales Email]**.
 
@@ -190,7 +190,7 @@ Antes de uma remessa ser despachada para uma transportadora, ela pode ser cancel
 
 1. No painel esquerdo, escolha **[!UICONTROL Shipments]**.
 
-   Se a remessa puder ser cancelada, _[!UICONTROL Cancel Shipment]_&#x200B;aparecerá como uma opção na barra de botões superior.
+   Se a remessa puder ser cancelada, _[!UICONTROL Cancel Shipment]_aparecerá como uma opção na barra de botões superior.
 
 1. Clique em **[!UICONTROL Cancel Shipment]**.
 

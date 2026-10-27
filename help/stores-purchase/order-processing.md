@@ -38,7 +38,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1838'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Quando um cliente coloca um pedido, uma ordem de venda é criada como um registr
 
 ## Exibir um pedido
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Localize a ordem na grade.
 
@@ -149,7 +149,7 @@ Para restaurar um pedido cancelado, clique no botão **[!UICONTROL Reorder]** e 
 
 ### Anular um pedido
 
-Somente ordens de venda que não são faturadas, têm um status de `Processing` e uma configuração de integração de pagamento [&#x200B; de `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions) podem ser [anuladas](order-update.md#void-a-processing-order). Depois de anular um pedido, você pode cancelá-lo.
+Somente ordens de venda que não são faturadas, têm um status de `Processing` e uma configuração de integração de pagamento [ de `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions) podem ser [anuladas](order-update.md#void-a-processing-order). Depois de anular um pedido, você pode cancelá-lo.
 
 ### [!UICONTROL Order and Account Information]
 
@@ -202,7 +202,7 @@ Somente ordens de venda que não são faturadas, têm um status de `Processing` 
 
 ### Atributos da Ordem Personalizada
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Os atributos personalizados do pedido permitem associar informações adicionais específicas às suas necessidades comerciais com o pedido.
 
@@ -283,4 +283,4 @@ Na seção **[!UICONTROL Order Total]**, faça o seguinte:
 
 Assista a este vídeo e saiba mais sobre o processamento de pedidos e o status:
 
->[!VIDEO](https://video.tv.adobe.com/v/3412501/?captions=por_br&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

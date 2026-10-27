@@ -3,7 +3,7 @@ title: Armazenar URLs
 description: Saiba mais sobre URLs de loja e como configurar a URL base e os códigos de loja.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: 'https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 1%
@@ -69,7 +69,7 @@ O Adobe Commerce e o Magento Open Source podem ser configurados para entregar to
 
 ## Configurar o URL de base
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Em _Geral_, no painel esquerdo, escolha **[!UICONTROL Web]**.
 
@@ -142,7 +142,7 @@ Se o domínio tiver um certificado de segurança válido, você poderá configur
 >
 >Quando a opção _Adicionar código de armazenamento a URLs_ estiver definida como `Yes`, você deverá incluir códigos de armazenamento nas URLs do navegador. Essa configuração garante que as regravações de URL sejam mapeadas corretamente e que todas as páginas sejam abertas com êxito, sem erros _&quot;Página 404 Não Encontrada&quot;_.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Em _[!UICONTROL General]_, no painel esquerdo, escolha **[!UICONTROL Web]**.
 
@@ -170,7 +170,7 @@ Se, após seguir as instruções de configuração, algumas páginas continuarem
 
 ## Usar um URL de administração personalizado
 
-Como uma [prática recomendada de segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), a Adobe recomenda que você use uma URL de Administrador exclusiva em vez do _admin_ padrão ou um termo comum, como _backend_. Embora não proteja diretamente o site contra um determinado mau ator, pode reduzir a exposição a scripts que tentam obter acesso não autorizado.
+Como uma [prática recomendada de segurança](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices), a Adobe recomenda que você use uma URL de Administrador exclusiva em vez do _admin_ padrão ou um termo comum, como _backend_. Embora não proteja diretamente o site contra um determinado mau ator, pode reduzir a exposição a scripts que tentam obter acesso não autorizado.
 
 >[!NOTE]
 >
@@ -186,11 +186,11 @@ Embora seja possível alterar o URL do administrador e o caminho para outro loca
 
 >[!NOTE]
 >
->Como precaução, não tente alterar o URL do administrador sozinho, a menos que você saiba como editar arquivos de configuração no servidor. Para projetos do Adobe Commerce implantados na infraestrutura em nuvem, altere a URL do Administrador seguindo as [instruções](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) no *Guia do Adobe Commerce na Infraestrutura em Nuvem*.
+>Como precaução, não tente alterar o URL do administrador sozinho, a menos que você saiba como editar arquivos de configuração no servidor. Para projetos do Adobe Commerce implantados na infraestrutura em nuvem, altere a URL do Administrador seguindo as [instruções](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) no *Guia do Adobe Commerce na Infraestrutura em Nuvem*.
 
 ### Método 1: alterar do Administrador
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Advanced]** e escolha **[!UICONTROL Admin]**.
 
@@ -232,7 +232,7 @@ Embora seja possível alterar o URL do administrador e o caminho para outro loca
 
    >[!TIP]
    >
-   >Para o Adobe Commerce na infraestrutura em nuvem, você pode configurar um caminho de administrador personalizado usando a variável `ADMIN_URL` na interface de usuário da nuvem. Consulte o [tópico sobre variáveis de administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) no _Guia do Commerce na Infraestrutura da Nuvem_.
+   >Para o Adobe Commerce na infraestrutura em nuvem, você pode configurar um caminho de administrador personalizado usando a variável `ADMIN_URL` na interface de usuário da nuvem. Consulte o [tópico sobre variáveis de administrador](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) no _Guia do Commerce na Infraestrutura da Nuvem_.
 
    - **Caminho Padrão do Administrador**
 

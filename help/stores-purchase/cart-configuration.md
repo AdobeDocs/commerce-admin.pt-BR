@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -71,7 +71,7 @@ O link pode ser configurado para exibir o número de produtos diferentes (ou SKU
 
 ### Configurar o minicarrinho
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Checkout]**.
 
@@ -97,7 +97,7 @@ O link pode ser configurado para exibir o número de produtos diferentes (ou SKU
 
 ### Configurar o link do carrinho
 
-1. Na barra lateral _Administrador_, foi possível **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Administrador_, foi possível **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Checkout]**.
 
@@ -118,7 +118,7 @@ A página do carrinho de compras pode ser configurada para aparecer sempre que u
 
 **_Para configurar quando o carrinho aparece:_**
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Checkout]**.
 
@@ -145,7 +145,7 @@ Você pode determinar por quanto tempo um preço é válido definindo o tempo de
 
 **_Para configurar o tempo de vida da cotação:_**
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Checkout]**.
 
@@ -169,7 +169,7 @@ A configuração permite especificar um valor mínimo, após a aplicação de de
 
 **_Para configurar um valor de ordem mínimo:_**
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Sales]** abaixo de.
 
@@ -219,7 +219,7 @@ A configuração permite especificar um valor mínimo, após a aplicação de de
 
 Você pode definir a quantidade mínima permitida para um pedido. A quantidade mínima também pode ser configurada de acordo com cada grupo de clientes.
 
-1. Vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL Inventory]**.
 
@@ -251,7 +251,7 @@ A imagem em miniatura de produtos agrupados e configuráveis pode ser definida p
 
 **_Para configurar as miniaturas do carrinho:_**
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Checkout]**.
 
@@ -281,7 +281,7 @@ A configuração de Opções de presente se aplica a todo o site, mas pode ser s
 
 ### Ativar opções de presente
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Sales]** abaixo de.
 
@@ -321,7 +321,7 @@ A imagem do invólucro do presente deve ser uma amostra que mostre o padrão de 
 
 #### Adicionar um design de invólucro de presente
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
    ![Grade de Encapsulamento de Presentes](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
@@ -345,13 +345,13 @@ A imagem do invólucro do presente deve ser uma amostra que mostre o padrão de 
 
 1. Para carregar uma miniatura **[!UICONTROL Image]** do invólucro do presente, clique em **[!UICONTROL Choose File]** e selecione o arquivo a ser carregado do seu diretório.
 
-   Uma miniatura da imagem aparece no _[!UICONTROL Gift Wrapping Information]_&#x200B;depois que o registro é salvo.
+   Uma miniatura da imagem aparece no _[!UICONTROL Gift Wrapping Information]_depois que o registro é salvo.
 
 1. Clique em **[!UICONTROL Save]**.
 
 #### Editar um design de invólucro de presente
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
 1. Localize o registro de invólucro do presente na lista.
 
@@ -391,7 +391,7 @@ Os preços de embalagem de presentes e cartão-presente impresso podem ser confi
 
 **_Para configurar impostos de opções de presente:_**
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Tax]**.
 

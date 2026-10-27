@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '320'
 ht-degree: 0%
 ---
 # Aplicar crédito da loja
@@ -50,13 +50,13 @@ Os administradores de loja podem exibir o saldo e o histórico de crédito da co
 
 1. Na coluna _Ação_, clique em **[!UICONTROL Edit]**.
 
-1. Role a página _[!UICONTROL Customer View]_&#x200B;e exiba **[!UICONTROL Store Credit Balance]**&#x200B;na parte inferior.
+1. Role a página _[!UICONTROL Customer View]_e exiba **[!UICONTROL Store Credit Balance]**na parte inferior.
 
 ![Armazenar Saldo de Crédito](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
 ## Atualizar saldo de crédito da loja
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > _Operações_ > **[!UICONTROL All Customers]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Encontre o cliente na grade.
 

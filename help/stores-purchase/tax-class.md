@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Classes de imposto podem ser atribuídas a clientes, produtos e entregas. A Comm
 
 A classe de imposto usada para remessa e as classes de imposto padrão para [produtos e clientes](#add-a-product-tax-class) estão definidas na configuração _[!UICONTROL Sales]_.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Tax]**.
 
@@ -65,7 +65,7 @@ A classe de imposto usada para remessa e as classes de imposto padrão para [pro
 
 Classes de imposto para clientes e produtos podem ser facilmente adicionadas, atribuídas a clientes e produtos individuais e usadas em regras de imposto.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Clique em **[!UICONTROL Add New Tax Rule]**.
 
@@ -99,7 +99,7 @@ As configurações padrão de destino do imposto determinam o país, o estado e 
 
 **_Para configurar o destino de imposto padrão para cálculos:_**
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Tax]**.
 

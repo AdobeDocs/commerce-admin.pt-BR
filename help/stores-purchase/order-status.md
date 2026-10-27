@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Além das configurações de status de pedido predefinidas, você pode criar sua
 
 ### Criar um status de pedido personalizado
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Order Status]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Create New Status]**.
 
@@ -158,7 +158,7 @@ Além das configurações de status de pedido predefinidas, você pode criar sua
 
 >[!NOTE]
 >
->Se o status de pedido padrão não for atribuído do estado de pedido, _&#x200B;**outro**&#x200B;_ status de pedido será _&#x200B;**definido automaticamente**&#x200B;_ como padrão para este estado de pedido.
+>Se o status de pedido padrão não for atribuído do estado de pedido, _**outro**_ status de pedido será _**definido automaticamente**_ como padrão para este estado de pedido.
 
 ## Notificação
 
@@ -166,7 +166,7 @@ Os clientes poderão acompanhar o status de seus pedidos por [RSS feed](../merch
 
 ### Ativar notificação de status do pedido
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Catalog]** e escolha **[!UICONTROL RSS Feeds]** abaixo de.
 
@@ -180,7 +180,7 @@ Os clientes poderão acompanhar o status de seus pedidos por [RSS feed](../merch
 
 ### Configurar novas notificações por email de pedidos
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Sales Emails]** abaixo de.
 

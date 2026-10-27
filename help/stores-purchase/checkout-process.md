@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Os usuários administradores podem alterar o número máximo de itens exibidos n
 
 ![Número de itens exibidos no Resumo de Pedidos](./assets/order-summary.png){width="700" zoomable="yes"}
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Checkout]**.
 
@@ -151,7 +151,7 @@ Para obter uma descrição detalhada de cada uma dessas configurações, consult
 
 ### Alterar as opções de check-out
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Checkout]**.
 1. Defina qualquer uma das opções necessárias.
 1. Clique em **[!UICONTROL Save Config]**.
@@ -171,11 +171,11 @@ Para obter uma descrição detalhada de cada uma dessas configurações, consult
 | Campo | [Escopo](../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Enable Onepage Checkout] | Exibição da loja | Determina se [check-out de uma página](checkout-one-page.md) é o formato de check-out padrão. Opções: Sim / Não |
-| [!UICONTROL Allow Guest Checkout] | Exibição da loja | Determina se os convidados podem passar pelo check-out de [&#x200B; sem se registrarem](checkout-guest.md) em uma conta com sua loja. Opções: `Yes` / `No` |
+| [!UICONTROL Allow Guest Checkout] | Exibição da loja | Determina se os convidados podem passar pelo check-out de [ sem se registrarem](checkout-guest.md) em uma conta com sua loja. Opções: `Yes` / `No` |
 | [!UICONTROL Enable Terms and Conditions] | Exibição da loja | Determina se os clientes devem concordar com os [Termos e Condições](terms-and-conditions.md) da venda antes de fazer uma compra. Opções: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Exibição da loja | Determina o local do endereço de cobrança durante a finalização da compra. Opções: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Exibição da loja | Determina o número máximo de itens que podem aparecer no Resumo do pedido durante a finalização da compra. O padrão é `10`. |
-| [!UICONTROL Enable Address Search] | Site | O ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Determina se os clientes podem usar a funcionalidade [pesquisa de endereço](checkout-address-search.md) para o _Envio_ e as etapas _Revisão e Pagamentos_. Quando esta função estiver habilitada, use o _[!UICONTROL Number of Customer Addresses Limit]_&#x200B;para definir o número de endereços salvos necessários para ativar esta funcionalidade durante o check-out. Opções: `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | Site | O ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Determina se os clientes podem usar a funcionalidade [pesquisa de endereço](checkout-address-search.md) para o _Envio_ e as etapas _Revisão e Pagamentos_. Quando esta função estiver habilitada, use o _[!UICONTROL Number of Customer Addresses Limit]_para definir o número de endereços salvos necessários para ativar esta funcionalidade durante o check-out. Opções: `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | Site | ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) Quando a pesquisa de endereço é **[!UICONTROL Enabled]**, determina o número de endereços salvos necessários para ativar esta funcionalidade durante o check-out. Quando o número de endereços salvos do cliente atingir ou exceder esse número, somente o endereço padrão será renderizado nas etapas _Remessa_ e _Revisão e Pagamentos_. O cliente pode usar uma função de pesquisa para alterar o endereço selecionado. O padrão é 10. |
 
 {style="table-layout:auto"}

@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Quando a funcionalidade manual dos _Termos e Condições_ estiver habilitada, os
 
 ## Etapa 1: Ativar termos e condições para check-out
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Checkout]**.
 
@@ -56,7 +56,7 @@ Quando a funcionalidade manual dos _Termos e Condições_ estiver habilitada, os
 
 ## Etapa 2: adicionar suas próprias informações de termos e condições
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Terms and Conditions]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Terms and Conditions]**.
 
    ![Grade de Termos e Condições](./assets/terms-conditions.png){width="600" zoomable="yes"}
 

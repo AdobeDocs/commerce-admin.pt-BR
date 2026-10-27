@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 0%
@@ -36,11 +36,11 @@ Os pacotes de idiomas podem ser encontrados em [Traduções e localização](htt
 
 ## Etapa 1: instalar um pacote de idiomas
 
-Siga as instruções padrão para instalar a extensão de pacote de idiomas. Para obter informações detalhadas sobre a instalação de uma extensão, consulte [Instalação geral da CLI](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/extensions) no _Guia de Extensões_.
+Siga as instruções padrão para instalar a extensão de pacote de idiomas. Para obter informações detalhadas sobre a instalação de uma extensão, consulte [Instalação geral da CLI](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions) no _Guia de Extensões_.
 
 ## Etapa 2: criar uma exibição de loja para o idioma
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Clique em **[!UICONTROL Create Store View]**.
 
@@ -62,7 +62,7 @@ Siga as instruções padrão para instalar a extensão de pacote de idiomas. Par
 
 ## Etapa 3: alterar o local da exibição de loja
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Na lista suspensa **[!UICONTROL Scope]**, selecione o modo de exibição de armazenamento a ser configurado e clique em **[!UICONTROL OK]** quando solicitado.
 
@@ -102,7 +102,7 @@ Se sua loja tiver várias visualizações em diferentes idiomas, os mesmos produ
 
 ### Etapa 2: Traduzir rótulos de campo
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Na lista, localize o atributo a ser traduzido e aberto no modo de edição.
 
@@ -124,7 +124,7 @@ Se sua loja tiver várias visualizações em diferentes idiomas, os mesmos produ
 
 1. Para _Informações Básicas_, traduza **[!UICONTROL Category Name]**.
 
-1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Content]_&#x200B;e traduzir **[!UICONTROL Description]**.
+1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção _[!UICONTROL Content]_e traduzir **[!UICONTROL Description]**.
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Search Engine Optimization Settings]** e traduza os seguintes campos:
 
@@ -148,7 +148,7 @@ Se sua loja tiver várias visualizações em diferentes idiomas, os mesmos produ
 
 ### Etapa 4: Traduzir atributos do produto e opções de atributos
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Selecione o atributo a ser traduzido.
 

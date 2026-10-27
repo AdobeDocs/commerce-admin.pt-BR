@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 3%
@@ -48,7 +48,7 @@ Atualize o modelo [cabeçalho de email](../systems/email-template-custom.md#head
 
 ## Etapa 2. Escolha o tipo de transmissão
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Sales Emails]**.
 
@@ -61,7 +61,7 @@ Atualize o modelo [cabeçalho de email](../systems/email-template-custom.md#head
    - `Disable` - Envia email de vendas quando acionado por um evento.
    - `Enable` - Envia emails de vendas em intervalos regulares predeterminados.
 
-   O Suporte da Adobe Commerce recomenda ativar o envio assíncrono para melhorar o desempenho do posicionamento de pedidos. Consulte [Práticas recomendadas de configuração para processamento de pedidos](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) na Base de Dados de Conhecimento de Suporte da Adobe Commerce.
+   O Suporte da Adobe Commerce recomenda ativar o envio assíncrono para melhorar o desempenho do posicionamento de pedidos. Consulte [Práticas recomendadas de configuração para processamento de pedidos](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration) na Base de Dados de Conhecimento de Suporte da Adobe Commerce.
 
 ## Etapa 3. Preencha os detalhes de cada mensagem de email de vendas
 

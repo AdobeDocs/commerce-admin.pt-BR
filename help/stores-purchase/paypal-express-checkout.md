@@ -3,7 +3,7 @@ title: Check-out do PayPal Express
 description: Saiba como configurar o Check-out expresso do PayPal como uma solução de pagamento online em sua loja.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: 'https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '3201'
 ht-degree: 0%
@@ -116,19 +116,19 @@ Você pode ter duas soluções PayPal ativas ao mesmo tempo: Check-out do PayPal
 
 ### Etapa 1: iniciar a configuração
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Payment Methods]**.
 
 1. Se a sua instalação tiver vários sites, lojas ou modos de exibição, defina **[!UICONTROL Store View]** como o modo de exibição de loja ao qual deseja aplicar essa configuração.
 
-1. Na seção _[!UICONTROL Merchant Location]_, selecione o **[!UICONTROL Merchant Country]**&#x200B;onde sua empresa está localizada.
+1. Na seção _[!UICONTROL Merchant Location]_, selecione o **[!UICONTROL Merchant Country]**onde sua empresa está localizada.
 
    Esta configuração determina a seleção das Soluções do PayPal que aparecem na configuração.
 
    ![País do comerciante](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. Em _[!UICONTROL Recommended Solutions]_, clique em **[!UICONTROL Configure]**&#x200B;para **[!UICONTROL PayPal Express Checkout]**.
+1. Em _[!UICONTROL Recommended Solutions]_, clique em **[!UICONTROL Configure]**para **[!UICONTROL PayPal Express Checkout]**.
 
    ![Configurar Check-out do PayPal Express](./assets/paypal-express-checkout.png){width="600"}
 
@@ -340,7 +340,7 @@ Defina **[!UICONTROL Enable PayPal PayLater Experience]** como um dos seguintes:
    - `Sale` - O valor da compra é autorizado e imediatamente retirado da conta do cliente.
    - `Order` - O valor do pedido não é capturado ou autorizado no saldo do cliente, na conta bancária ou no cartão de crédito no PayPal. A ação Solicitar pagamento representa um acordo entre o sistema de pagamento do PayPal e o comerciante. Ele permite que o comerciante capture uma ou mais quantias até o total solicitado da conta do comprador do cliente por um período de até 29 dias. Depois que os fundos são solicitados, o comerciante pode capturá-los a qualquer momento durante o período de 29 dias seguinte. A captura do valor do pedido só pode ser feita pelo administrador do Commerce, criando uma ou mais faturas.
 
-1. Para exibir o botão _[!UICONTROL Check out with PayPal]_&#x200B;na página do produto, defina **[!UICONTROL Display on Product Details Page]**&#x200B;como `Yes`.
+1. Para exibir o botão _[!UICONTROL Check out with PayPal]_na página do produto, defina **[!UICONTROL Display on Product Details Page]**como `Yes`.
 
 1. Se a ação de pagamento estiver definida como `Order`, conclua o seguinte
 
@@ -361,7 +361,7 @@ Defina **[!UICONTROL Enable PayPal PayLater Experience]** como um dos seguintes:
 1. Defina **[!UICONTROL Payment Applicable From]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os países especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada item.
+   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada item.
 
 1. Para gravar comunicações com o sistema de pagamento no arquivo de log, defina **[!UICONTROL Debug Mode]** como `Yes`.
 
@@ -438,7 +438,7 @@ Um [contrato de cobrança](paypal-billing-agreements.md) é um contrato de venda
 1. Defina **[!UICONTROL Payment Applicable From]** como um dos seguintes:
 
    - `All Allowed Countries` - Clientes de todos os países especificados na sua configuração de loja podem usar esta forma de pagamento.
-   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_&#x200B;é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada um.
+   - `Specific Countries` - Depois de escolher esta opção, a lista _[!UICONTROL Payment from Specific Countries]_é exibida. Para selecionar vários países, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e clique em cada um.
 
 1. Para registrar comunicações com o sistema de pagamento no arquivo de log, defina **[!UICONTROL Debug Mode]** como `Yes`.
 

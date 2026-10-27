@@ -86,7 +86,7 @@ Quando o estado de novos pedidos é definido como `Processing`, a opção de _Fa
 >
 >As faturas não são criadas automaticamente para pedidos feitos usando `Gift Card`, `Store Credit`, `Reward Points` ou outros métodos de pagamento offline.
 
-Uma fatura para o pedido deve ser gerada antes de ser impressa. Para exibir ou imprimir o PDF, primeiro baixe e instale um leitor do PDF como o [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obter o Adobe Reader").
+Uma fatura para o pedido deve ser gerada antes de ser impressa. Para exibir ou imprimir o PDF, primeiro baixe e instale um leitor do PDF como o [Adobe Acrobat Reader](https://www.adobe.com/br/acrobat/pdf-reader.html "Obter o Adobe Reader").
 
 **_Para faturar um pedido:_**
 
@@ -154,7 +154,7 @@ As faturas podem ser impressas individualmente ou em lote. No entanto, antes que
 
 >[!NOTE]
 >
->Para visualizar ou imprimir o PDF, você deve ter um leitor PDF. Você pode baixar o [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Obter o Adobe Reader") gratuitamente.
+>Para visualizar ou imprimir o PDF, você deve ter um leitor PDF. Você pode baixar o [Adobe Reader](https://www.adobe.com/br/acrobat/pdf-reader.html "Obter o Adobe Reader") gratuitamente.
 
 ### Imprimir uma única fatura
 
@@ -180,7 +180,7 @@ As faturas são salvas em um único arquivo PDF que pode ser enviado para uma im
 
 ## Valores de captura personalizados
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Para fornecer aos comerciantes maior flexibilidade para capturas parciais e cenários de pagamento especializados, a API de NFF suporta quantias de captura personalizadas usando atributos de extensão.
 

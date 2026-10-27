@@ -3,7 +3,7 @@ title: Criar etiquetas e pacotes de remessa
 description: Saiba como empacotar itens em um pedido e criar etiquetas de remessa.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-last-update: 2026-05-12
+last-update: 2026-10-26
 TQID: 'https://experienceleague.adobe.com/eKOA-A1xmw29l51ADFwl6X6Ctbdd6cBCZ0gnKOm1a8s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
+source-git-commit: 4cfd19db9b6689cf05be301b0c68018a42b8f7ec
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Siga as instruções fornecidas por cada transportadora para adicionar o suporte
 
 O United Parcel Service envia tanto internamente quanto internacionalmente. No entanto, as etiquetas de remessa podem ser geradas apenas para remessas originárias dos Estados Unidos.
 
-1. Na seção _[!UICONTROL Sales]_&#x200B;do painel esquerdo, escolha **[!UICONTROL Delivery Methods]**.
+1. Na seção _[!UICONTROL Sales]_do painel esquerdo, escolha **[!UICONTROL Delivery Methods]**.
 
 1. Expandir ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL UPS]**.
 
@@ -178,7 +178,7 @@ A DHL presta serviços de transporte internacional.
 
 1. Adicionar ou atualizar produtos no pacote:
 
-   - Para adicionar produtos do pedido ao pacote, clique em **[!UICONTROL Add Products]**. A coluna _[!UICONTROL Quantity]_&#x200B;mostra o número máximo de produtos disponíveis para o pacote.
+   - Para adicionar produtos do pedido ao pacote, clique em **[!UICONTROL Add Products]**. A coluna _[!UICONTROL Quantity]_mostra o número máximo de produtos disponíveis para o pacote.
 
    - Marque a caixa de seleção de cada produto a ser adicionado ao pacote e insira o **[!UICONTROL Quantity]** de cada um. Em seguida, clique em **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -186,7 +186,7 @@ A DHL presta serviços de transporte internacional.
 
    - Para excluir um pacote, clique em **[!UICONTROL Delete Package]**.
 
-   - Para cancelar um pedido, clique em **[!UICONTROL Cancel]**. Um rótulo de remessa não é criado e a caixa de seleção _[!UICONTROL Create Shipping Label]_&#x200B;é desmarcada.
+   - Para cancelar um pedido, clique em **[!UICONTROL Cancel]**. Um rótulo de remessa não é criado e a caixa de seleção _[!UICONTROL Create Shipping Label]_é desmarcada.
 
    >[!NOTE]
    >
@@ -224,11 +224,11 @@ As etiquetas de remessa são geradas no formato PDF e podem ser impressas no Adm
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - Localize a remessa na grade e abra o registro.
 
-1. Para baixar o arquivo PDF, vá para a seção _[!UICONTROL Shipping and Tracking]_&#x200B;do formulário e clique em **[!UICONTROL Print Shipping Label]**.
+1. Para baixar o arquivo PDF, vá para a seção _[!UICONTROL Shipping and Tracking]_do formulário e clique em **[!UICONTROL Print Shipping Label]**.
 
    Dependendo das configurações do navegador, as etiquetas de remessa podem ser visualizadas e impressas diretamente do arquivo PDF.
 
-   O botão _[!UICONTROL Print Shipping Label]_&#x200B;aparece somente depois que a transportadora gera rótulos para a remessa. Se o botão estiver ausente, clique em **[!UICONTROL Create Shipping Label]**. O botão é exibido depois que o Commerce recebe o rótulo da operadora.
+   O botão _[!UICONTROL Print Shipping Label]_aparece somente depois que a transportadora gera rótulos para a remessa. Se o botão estiver ausente, clique em **[!UICONTROL Create Shipping Label]**. O botão é exibido depois que o Commerce recebe o rótulo da operadora.
 
 ### Método 2: imprimir etiquetas para várias ordens
 
@@ -257,7 +257,7 @@ Um conjunto completo de etiquetas de remessa é impresso para cada remessa relac
 
 ## Criar pacotes
 
-A janela _[!UICONTROL Create Packages]_&#x200B;é exibida quando você opta por criar um rótulo de remessa. Você pode começar a configurar o primeiro pacote imediatamente.
+A janela _[!UICONTROL Create Packages]_é exibida quando você opta por criar um rótulo de remessa. Você pode começar a configurar o primeiro pacote imediatamente.
 
 ### Configurar um pacote
 
@@ -269,7 +269,7 @@ A janela _[!UICONTROL Create Packages]_&#x200B;é exibida quando você opta por 
 
    - Especifique os produtos e as quantidades.
 
-     A coluna _[!UICONTROL Qty]_&#x200B;mostra a quantidade máxima disponível para adição. Para o primeiro pacote, o número é a quantidade total do produto a ser enviado.
+     A coluna _[!UICONTROL Qty]_mostra a quantidade máxima disponível para adição. Para o primeiro pacote, o número é a quantidade total do produto a ser enviado.
 
    - Para adicionar os produtos ao pacote, clique em **[!UICONTROL Add Selected Product(s) to Package]**.
 

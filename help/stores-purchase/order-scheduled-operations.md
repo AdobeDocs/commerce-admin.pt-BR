@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Use os trabalhos [Cron](../systems/cron.md) para agendar as seguintes tarefas de
 
 A duração de pedidos com pagamentos pendentes é determinada pela configuração _Configurações de Cron de Pedidos_. O valor padrão é definido como 480 minutos, que são oito horas.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda a seção **[!UICONTROL Sales]** e escolha **[!UICONTROL Sales]** abaixo.
 
@@ -73,7 +73,7 @@ Ao programar essas tarefas, é possível evitar os bloqueios que ocorrem quando 
 
 Quando o [Modo padrão](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode) estiver habilitado, conclua as seguintes etapas:
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda a seção **[!UICONTROL Advanced]** e escolha **[!UICONTROL Developer]**.
 

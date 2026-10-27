@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -42,7 +42,7 @@ As regras de imposto incorporam uma combinação de classe de produto, classe de
 
 ## Fase 1: Preencher as informações da regra de imposto
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Add New Tax Rule]**.
 

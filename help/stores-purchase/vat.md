@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Em certas transações entre empresas, o IVA não é avaliado. A Commerce pode v
 
 O processo de criação de uma regra de imposto começa com a adição de uma alíquota de imposto.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    ![Configurar classes de imposto do cliente](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -95,7 +95,7 @@ Com base na alíquota de imposto enviada, você pode criar regras de imposto sub
 
 ### Fase 2: Configurar classes de imposto do produto
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Clique em **[!UICONTROL Add New Tax Rule]**.
 
@@ -117,7 +117,7 @@ Com base na alíquota de imposto enviada, você pode criar regras de imposto sub
 
 ### Fase 3: Configurar zonas e alíquotas de imposto
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    Neste exemplo, você pode remover as taxas de imposto dos EUA ou deixá-las como estão.
 
@@ -145,7 +145,7 @@ Com base na alíquota de imposto enviada, você pode criar regras de imposto sub
 
 Uma regra de imposto é uma combinação de uma classe de imposto do cliente, uma classe de imposto do produto e uma alíquota do imposto.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Adicione novas regras de imposto da seguinte maneira:
 
@@ -167,7 +167,7 @@ Uma regra de imposto é uma combinação de uma classe de imposto do cliente, um
 
 ### Fase 5: Aplicar classes de imposto a produtos
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Abra um produto no catálogo no modo de edição.
 
@@ -308,7 +308,7 @@ Crie as [regras de imposto](tax-rules.md) para usar a Validação de ID de IVA d
 
 #### Etapa 3: habilitar e configurar a validação da ID de IVA
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Se necessário, defina o **[!UICONTROL Store View]** para a configuração.
 

@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -55,7 +55,7 @@ A página _[!UICONTROL Billing Agreements]_&#x200B;lista todos os contratos de c
 
 ### Exibir um contrato de faturamento
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Localize o contrato de faturamento na lista e clique nele para abri-lo.
 
@@ -81,7 +81,7 @@ Esta guia exibe a lista dos pedidos feitos usando o contrato de faturamento atua
 
 ### Cancelar um contrato de faturamento
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Localize o contrato de faturamento na lista e clique nele para abri-lo.
 
@@ -91,7 +91,7 @@ Esta guia exibe a lista dos pedidos feitos usando o contrato de faturamento atua
 
 ### Excluir um contrato de cobrança
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Localize o contrato de faturamento na lista e clique nele para abri-lo.
 

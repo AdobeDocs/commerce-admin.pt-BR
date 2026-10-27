@@ -34,7 +34,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
@@ -51,7 +51,7 @@ A configuração de cartão-presente estabelece as configurações padrão para 
 
 ### Etapa 1: configurar notificações por email
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Gift Cards]**.
 
@@ -122,7 +122,7 @@ Consulte [Armazenar endereços de email](../configuration-reference/general/stor
 
 1. Para localizar o número da conta de cartão-presente de uma ordem atual, faça o seguinte:
 
-   - Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+   - Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
    - Localize a ordem na lista e clique em **[!UICONTROL View]** na coluna _[!UICONTROL Action]_.
 
@@ -130,7 +130,7 @@ Consulte [Armazenar endereços de email](../configuration-reference/general/stor
 
    O número está na coluna _[!UICONTROL Product]_, em **[!UICONTROL Gift Card Accounts]**.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Localize a conta de cartão-presente na grade e abra-a no modo de edição.
 
@@ -140,7 +140,7 @@ Consulte [Armazenar endereços de email](../configuration-reference/general/stor
 
 ## Criar uma conta de cartão-presente
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Add Gift Card Account]**.
 
@@ -176,7 +176,7 @@ Consulte [Armazenar endereços de email](../configuration-reference/general/stor
 
 ## Exibir histórico de conta de cartão-presente
 
-1. Vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Vá para **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Abra o cartão-presente no modo de edição.
 
@@ -197,7 +197,7 @@ Consulte [Armazenar endereços de email](../configuration-reference/general/stor
 
 ## Excluir uma conta de cartão-presente
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Selecione a conta de cartão-presente a ser excluída e abra-a no modo de edição.
 

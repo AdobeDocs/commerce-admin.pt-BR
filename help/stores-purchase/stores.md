@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 0%
@@ -71,7 +71,7 @@ O primeiro passo é escolher como você deseja posicionar a loja. Os armazenamen
 
 ### Etapa 2: criar o armazenamento
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Clique em **[!UICONTROL Create Store]** e defina as opções para o novo armazenamento:
 
@@ -109,7 +109,7 @@ O primeiro passo é escolher como você deseja posicionar a loja. Os armazenamen
 
 ### Etapa 4: configurar o URL de armazenamento
 
-1. Na barra lateral _Admin_, clique em **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, clique em **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Em _[!UICONTROL General]_, no painel esquerdo à esquerda, escolha **[!UICONTROL Web]**.
 
@@ -150,7 +150,7 @@ As instalações em vários sites do Adobe Commerce ou Magento Open Source devem
 
 ### Etapa 1: criar um site
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. No canto superior direito, clique em **[!UICONTROL Create Website]**.
 

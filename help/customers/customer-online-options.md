@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -55,7 +55,7 @@ No servidor, a duração da sessão é controlada pelo arquivo `php.ini` e por v
 
 ## Configurar o tempo de vida do cookie
 
-1. Na barra lateral _Admin_, vá para [!UICONTROL **Lojas**] > _[!UICONTROL Settings]_>[!UICONTROL **Configuração**].
+1. Na barra lateral _Admin_, vá para [!UICONTROL **Lojas**] > [!UICONTROL **Configuração**].
 
 1. Se você tiver vários armazenamentos, defina o seletor de **[!UICONTROL Store View]** no canto superior direito para o armazenamento onde a configuração se aplica.
 
@@ -73,7 +73,7 @@ No servidor, a duração da sessão é controlada pelo arquivo `php.ini` e por v
 
 Para facilitar o logon, a função **[!UICONTROL Remember Me]** permite que os titulares de contas de usuários evitem inserir suas credenciais sempre que entrarem na loja. Por motivos de segurança, o recurso de persistência é desativado por padrão.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Customers]** e escolha **[!UICONTROL Persistent Shopping Cart]**.
 

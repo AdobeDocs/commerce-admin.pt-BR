@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Você também especifica as moedas que aceita e qual moeda deseja usar para a ex
 
 ## Fase 1: Escolher as moedas aceitas
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No canto superior esquerdo, defina **[!UICONTROL Scope]** para a exibição de loja onde a configuração se aplica.
 
@@ -164,7 +164,7 @@ O Gerenciamento de Símbolos de Moeda oferece a capacidade de personalizar o sí
 
 ![Símbolos de moeda](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Currency Symbols]**.
 
    Cada moeda habilitada para sua loja aparece na lista _[!UICONTROL Currency]_.
 

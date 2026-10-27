@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 1%
@@ -225,7 +225,7 @@ Depois de instalar a extensão [!DNL Audience Activation], faça logon no Commer
    >
    >Ao especificar uma ID de sequência de dados, você [associa a um site específico](https://experienceleague.adobe.com/pt-br/docs/commerce/data-connection/fundamentals/connect-data#data-collection) na extensão [!DNL Data Connection]. Se o seu armazenamento do Commerce tiver vários sites, [crie um destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/connect-destination) para cada site no Real-Time CDP e use uma ID de sequência de dados diferente para cada um.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Expanda **[!UICONTROL Services]** e selecione **[!UICONTROL [!DNL Data Connection]]**.
 
@@ -448,7 +448,7 @@ Por exemplo:
 ### Tipo de autenticação incorreto selecionado na configuração
 
 1. Abra a instância do Commerce.
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 1. Expanda **[!UICONTROL Services]** e selecione **[!UICONTROL [!DNL Data Connection]]**.
 1. Verifique se o método de autorização servidor para servidor especificado no campo **[!UICONTROL Authentication Type]** está correto. A Adobe recomenda usar **OAuth**. [O JWT foi descontinuado](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), com todos os certificados atuais expirando em 1º de março de 2026.
 

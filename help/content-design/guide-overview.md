@@ -4,7 +4,6 @@ description: Informações abrangentes sobre os recursos de Conteúdo e Design p
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,14 +17,16 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: fdb0968c8d6caf4917e8658a2a8b3432f60909dc
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 6%
 ---
 # Guia de design e conteúdo do Adobe Commerce
 
-Este guia destina-se a designers de conteúdo e comerciantes que trabalham com o administrador do Adobe Commerce e do Magento Open Source. Ele fornece informações detalhadas sobre conteúdo e recursos de design, incluindo a criação de componentes básicos de conteúdo. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do [!DNL Commerce].
+Este guia destina-se principalmente a designers de conteúdo e comerciantes que trabalham em projetos Adobe Commerce e Magento Open Source. Ele fornece informações detalhadas sobre conteúdo e recursos de design, incluindo a criação de componentes básicos de conteúdo. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do [!DNL Commerce].
+
+No Adobe Commerce as a Cloud Service, as considerações de design são integradas à [loja](https://experienceleague.adobe.com/en/tools/commerce-storefront/). No entanto, os administradores ainda podem configurar marcas d&#39;água de imagens de produtos e emails transacionais.
 
 Este guia abrange:
 

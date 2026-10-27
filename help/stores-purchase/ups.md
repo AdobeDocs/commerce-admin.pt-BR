@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Ao definir as configurações da UPS no Administrador, use os valores de credenc
 
 ## Etapa 3: Habilitar UPS para sua loja
 
-1. Na _barra lateral do administrador_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na _barra lateral do Administrador_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel à esquerda, em **[!UICONTROL Sales]**, escolha **[!UICONTROL Delivery Methods]**.
 
@@ -210,7 +210,7 @@ A taxa de manuseio é opcional e aparece como um custo extra que é adicionado a
 
 1. Verifique se as [Informações da Loja](../getting-started/store-details.md#store-information) foram concluídas.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e selecione **[!UICONTROL Shipping Settings]**.
 

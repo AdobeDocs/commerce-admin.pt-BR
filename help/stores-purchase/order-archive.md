@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -48,7 +48,7 @@ O arquivamento de pedidos melhora regularmente o desempenho e mantém seu espaç
 
 Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de crédito após um número definido de dias. Você pode mover pedidos e seus documentos associados para o arquivo morto ou restaurá-los ao estado anterior. Os pedidos arquivados não são excluídos e permanecem disponíveis no Administrador. Os dados arquivados podem ser exportados para um arquivo CSV e abertos em uma planilha. Quando habilitada, a ação _Arquivar_ aparece na parte superior do espaço de trabalho.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda a seção **[!UICONTROL Sales]** e escolha **[!UICONTROL Sales]** abaixo.
 
@@ -139,7 +139,7 @@ Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de c
 
 ## Arquivar ordens manualmente
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Para selecionar a ordem na grade, marque a caixa de seleção na primeira coluna.
 
@@ -157,7 +157,7 @@ Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de c
 
    - Na barra de botões acima da grade _[!UICONTROL Orders]_, clique em **[!UICONTROL Go to Archive]**.
 
-   - Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**.
+   - Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ Sua loja pode ser configurada para arquivar ordens, NFFs, entregas e avisos de c
 >
 >Uma ordem restaurada a partir de uma ordem arquivada é arquivada novamente de acordo com o número de dias configurado na configuração [!UICONTROL Archive Orders Purchased] (consulte [Configurar o arquivo de ordem](#configure-the-order-archive)). O número de dias é calculado em relação à data [!UICONTROL Updated At] do pedido, que é alterada quando o pedido é movido do arquivo.
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Na barra de botões, clique em **[!UICONTROL Go to Archive]**.
 
@@ -187,6 +187,6 @@ Procure a mensagem informando que a ordem arquivada foi removida do arquivamento
 
 ## Exportar ordem arquivada
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. No menu de ações, clique em **[!UICONTROL Export]** e selecione o formato desejado.

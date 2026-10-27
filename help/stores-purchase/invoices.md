@@ -34,16 +34,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1206'
 ht-degree: 0%
 ---
 # Faturas
 
 Uma fatura é um registro do registro de pagamento de um pedido. Várias faturas podem ser [criadas](#create-an-invoice) para um único pedido e cada uma pode incluir a mesma quantidade ou quantidade de produtos comprados que você especificar. Você também pode criar [faturas do PDF prontas para impressão](#print-invoices) como documentos de vendas para seus clientes.
 
-Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _Operações_ > **Faturas** para abrir a grade _Faturas_ e acessar as faturas criadas.
+Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Invoices]** para abrir a grade _Faturas_ e acessar suas faturas criadas.
 
 ![Grade de faturas](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ Uma fatura para o pedido deve ser gerada antes de ser impressa. Para exibir ou i
 
 **_Para faturar um pedido:_**
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Localizar a ordem de venda com o status `Processing` na grade. Em seguida, faça o seguinte:
 
@@ -158,7 +158,7 @@ As faturas podem ser impressas individualmente ou em lote. No entanto, antes que
 
 ### Imprimir uma única fatura
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
 1. Na grade _[!UICONTROL Invoices]_, localize a fatura e clique em **[!UICONTROL View]**&#x200B;na coluna_ Ação _.
 
@@ -168,7 +168,7 @@ As faturas podem ser impressas individualmente ou em lote. No entanto, antes que
 
 ### Imprimir várias faturas
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
 1. Na grade _[!UICONTROL Invoices]_, marque a caixa de seleção de cada fatura a ser impressa.
 

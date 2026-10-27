@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '233'
 ht-degree: 0%
 ---
 # Check-out de convidado
@@ -38,7 +38,7 @@ Sua loja pode ser configurada para exigir que os compradores abram uma conta ant
 
 **_Para desabilitar check-out de convidado:_**
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales]** e escolha **[!UICONTROL Checkout]**.
 
@@ -66,4 +66,4 @@ Uma configuração opcional no nível da loja, que é desativada por padrão, pe
 
 Quando ativado, os pedidos de check-out de convidado feitos com um email registrado permanecem acessíveis e também aparecem no histórico de pedidos do cliente.
 
-Para habilitar este recurso, navegue até **Lojas** > Configurações > **Configuração** > Vendas > **Vendas** > **Check-out de Convidado** e defina a configuração **Permitir Acesso de Pedido de Convidado para Emails Registrados** como `Yes`.
+Para habilitar este recurso, navegue até **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Guest Checkout]** e defina a configuração **[!UICONTROL Allow Guest Order Access for Registered Emails]** como `Yes`.

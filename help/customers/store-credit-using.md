@@ -62,7 +62,7 @@ Os usuários administradores e as integrações que usam a REST API precisam do 
 
 1. Na coluna _Ação_, clique em **[!UICONTROL Edit]**.
 
-1. Role a página _[!UICONTROL Customer View]_e exiba **[!UICONTROL Store Credit Balance]**na parte inferior.
+1. Role a página _[!UICONTROL Customer View]_&#x200B;e exiba **[!UICONTROL Store Credit Balance]**&#x200B;na parte inferior.
 
 ![Armazenar Saldo de Crédito](assets/store-credit-balance.png){width="600" zoomable="yes"}
 

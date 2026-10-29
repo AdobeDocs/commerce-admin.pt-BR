@@ -44,7 +44,7 @@ Os administradores de loja podem exibir o saldo e o histórico de crédito da co
 
 ## Armazenar recursos de função de crédito
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
 
 Os recursos a seguir determinam quais usuários Administradores podem alterar o saldo de crédito de armazenamento de um cliente e quais usuários podem aplicar crédito de armazenamento a um pedido. Para obter informações sobre como atribuir recursos a uma função de usuário, consulte [Recursos de função](../systems/permissions-user-roles.md#role-resources).
 
@@ -94,7 +94,7 @@ Como administrador de loja, você pode fazer várias coisas em nome de um client
 
 ![Aplicar o saldo de crédito da loja à ordem](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."} A caixa de seleção **[!UICONTROL Use Store Credit]** só será exibida quando a função de usuário incluir o recurso **[!UICONTROL Can Spend Store Credit]**. Consulte [Armazenar recursos de função de crédito](#store-credit-role-resources).
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."} A caixa de seleção **[!UICONTROL Use Store Credit]** só será exibida quando a função de usuário incluir o recurso **[!UICONTROL Can Spend Store Credit]**. Consulte [Armazenar recursos de função de crédito](#store-credit-role-resources).
 
 ## Aplicar crédito de armazenamento durante o check-out
 

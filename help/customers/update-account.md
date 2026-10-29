@@ -121,7 +121,7 @@ A seção [Registro de presentes](../merchandising-promotions/gift-registry-stor
 
 A guia [Crédito da loja](../customers/store-credit.md) exibe um valor restaurado para uma conta de cliente; o administrador pode gerenciar esse valor.
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."} A guia [!UICONTROL Store Credit] e o **[!UICONTROL Store Credit Balance]** na guia **[!UICONTROL Customer View]** só aparecem quando a função de usuário inclui o recurso **[!UICONTROL Manage Store Credit Balances]**. Consulte [Armazenar recursos de função de crédito](../customers/store-credit-using.md#store-credit-role-resources).
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."} A guia [!UICONTROL Store Credit] e o **[!UICONTROL Store Credit Balance]** na guia **[!UICONTROL Customer View]** só aparecem quando a função de usuário inclui o recurso **[!UICONTROL Manage Store Credit Balances]**. Consulte [Armazenar recursos de função de crédito](../customers/store-credit-using.md#store-credit-role-resources).
 
 ### [!UICONTROL Newsletter]
 

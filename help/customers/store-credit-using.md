@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
+source-git-commit: b2b09a49ecd0c585d6ea456f0c00e05d813e324d
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '521'
 ht-degree: 0%
 ---
 # Aplicar crédito da loja
@@ -41,6 +41,18 @@ ht-degree: 0%
 Os administradores de loja podem exibir o saldo e o histórico de crédito da conta do cliente e também aplicar crédito de loja a uma compra.
 
 ![Histórico e saldo de crédito do cliente](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
+
+## Armazenar recursos de função de crédito
+
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."}
+
+Os recursos a seguir determinam quais usuários Administradores podem alterar o saldo de crédito de armazenamento de um cliente e quais usuários podem aplicar crédito de armazenamento a um pedido. Para obter informações sobre como atribuir recursos a uma função de usuário, consulte [Recursos de função](../systems/permissions-user-roles.md#role-resources).
+
+- **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]** permite que os usuários exibam e atualizem saldos de crédito de armazenamento. Sem ele, a guia **[!UICONTROL Store Credit]** e o **[!UICONTROL Store Credit Balance]** na guia **[!UICONTROL Customer View]** não ficam visíveis. O usuário ainda pode fazer outras edições nas contas do cliente.
+
+- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]** permite que os usuários apliquem crédito de armazenamento ao [criar um pedido](../stores-purchase/customer-account-create-order.md). Sem ela, a caixa de seleção **[!UICONTROL Use Store Credit]** não fica visível.
+
+Os usuários administradores e as integrações que usam a REST API precisam do recurso **[!UICONTROL Can Spend Store Credit]** para aplicar crédito de armazenamento a um carrinho ou para fazer um pedido de um carrinho que já tenha crédito de armazenamento aplicado. Para obter mais informações, consulte [Crédito da loja](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/).
 
 ## Exibir o saldo de crédito
 
@@ -81,6 +93,8 @@ O saldo atualizado deve ser exibido em **[!UICONTROL Balance History]**.
 Como administrador de loja, você pode fazer várias coisas em nome de um cliente, incluindo o envio de pedidos. Ao [criar um pedido](../stores-purchase/customer-account-create-order.md), você pode aplicar um saldo de Crédito da Loja que é devido ao cliente. O saldo disponível é exibido na seção _Informações de Pagamento e Envio_. Marque a caixa de seleção **[!UICONTROL Use Store Credit]** para aplicar o saldo ou uma parte do saldo se o total do pedido for menor.
 
 ![Aplicar o saldo de crédito da loja à ordem](assets/store-credit-apply.png){width="500" zoomable="yes"}
+
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."} A caixa de seleção **[!UICONTROL Use Store Credit]** só será exibida quando a função de usuário incluir o recurso **[!UICONTROL Can Spend Store Credit]**. Consulte [Armazenar recursos de função de crédito](#store-credit-role-resources).
 
 ## Aplicar crédito de armazenamento durante o check-out
 

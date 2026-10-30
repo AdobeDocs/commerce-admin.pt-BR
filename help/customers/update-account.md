@@ -24,13 +24,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: be637291b09661637cdefefd79fd81157b6e76b2
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Atualizar um perfil de cliente
 
 O painel esquerdo da página _[!UICONTROL Customer Information]_&#x200B;inclui informações sobre atividades do cliente, endereços, estatísticas de pedidos, pedidos recentes, conteúdo do carrinho de compras, análises de produtos e assinaturas de boletim informativo.
@@ -122,6 +120,8 @@ A seção [Registro de presentes](../merchandising-promotions/gift-registry-stor
 {{ee-feature}}
 
 A guia [Crédito da loja](../customers/store-credit.md) exibe um valor restaurado para uma conta de cliente; o administrador pode gerenciar esse valor.
+
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service (infraestrutura SaaS gerenciada pela Adobe)."} A guia [!UICONTROL Store Credit] e o **[!UICONTROL Store Credit Balance]** na guia **[!UICONTROL Customer View]** só aparecem quando a função de usuário inclui o recurso **[!UICONTROL Manage Store Credit Balances]**. Consulte [Armazenar recursos de função de crédito](../customers/store-credit-using.md#store-credit-role-resources).
 
 ### [!UICONTROL Newsletter]
 

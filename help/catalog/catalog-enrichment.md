@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
+source-git-commit: c073327e16e3738b5c92f79e442489572046f739
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2437'
 ht-degree: 0%
 ---
 # Enriquecimento do catálogo
@@ -263,6 +263,7 @@ Essas regras ajudam você a saber se o enriquecimento do catálogo, os feeds de 
 
 ## Limites e considerações {#limits}
 
+- Atualmente, o enriquecimento é compatível apenas com conteúdo de produto em inglês.
 - O enriquecimento aplica-se apenas a nomes de produtos e descrições longas. Isso não altera o layout PDP, widgets ou outro conteúdo de vitrine no nível da página.
 - Catálogos grandes e contagens altas de URL podem afetar a rapidez com que a análise é concluída e quantas sugestões são exibidas de uma só vez.
 - Sugestões significativas presumem que os bots relevantes para o LLM possam acessar os URLs de produto importantes para você. As regras de robôs, a autenticação, o bloqueio geográfico e a personalização pesada podem reduzir a cobertura.

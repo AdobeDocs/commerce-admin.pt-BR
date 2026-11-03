@@ -41,7 +41,7 @@ Os comerciantes podem usar o [!DNL Media Gallery] para organizar e gerenciar seu
 
 >[!NOTE]
 >
->Imagens de produtos adicionadas à seção de produtos [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) não são gerenciadas pelo [!DNL Media Gallery]. Somente imagens usadas nos campos da seção do produto_[!UICONTROL Content]_ são exibidas e filtradas no novo [!DNL Media Gallery].
+>Imagens de produtos adicionadas à seção de produtos [_[!UICONTROL Images and Videos]_](../catalog/product-image.md#upload-an-image) não são gerenciadas pelo [!DNL Media Gallery]. Somente imagens usadas nos campos da seção do produto&#x200B;_[!UICONTROL Content]_ são exibidas e filtradas no novo [!DNL Media Gallery].
 
 ## Verificar a configuração [!DNL Media Gallery] {#enable-the-new-media-gallery}
 
@@ -63,7 +63,7 @@ Os comerciantes podem usar o [!DNL Media Gallery] para organizar e gerenciar seu
 
 1. Quando solicitado, clique no link **[!UICONTROL Cache Management]** na mensagem do sistema e atualize o cache inválido.
 
-   O menu [[!UICONTROL Content] ](/help/content-design/content-menu.md) agora exibe a nova opção _[!UICONTROL Media Gallery]_.
+   O menu [[!UICONTROL Content] &#x200B;](/help/content-design/content-menu.md) agora exibe a nova opção _[!UICONTROL Media Gallery]_.
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ Para acessar a nova Galeria de mídia ao adicionar ou editar uma página:
 
 1. Clique em **[!UICONTROL Add a New Page]**.
 
-   Se quiser editar uma página existente, use a coluna _[!UICONTROL Action]_para clicar em **[!UICONTROL Select]**e escolher **[!UICONTROL Edit]**.
+   Se quiser editar uma página existente, use a coluna _[!UICONTROL Action]_&#x200B;para clicar em **[!UICONTROL Select]**&#x200B;e escolher **[!UICONTROL Edit]**.
 
 1. Expanda ![Seletor de expansão](../assets/icon-display-expand.png) a seção **[!UICONTROL Content]** e faça o seguinte:
 

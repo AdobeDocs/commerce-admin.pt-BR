@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Quando o [[!DNL Media Gallery]](media-gallery.md) está habilitado, a seção _[!UICONTROL Media]_aparece com uma única opção para acessar o [!DNL Media Gallery]. Se você não vir esta opção, verifique se a opção **[!UICONTROL Enable Old Media Gallery]**está definida como `No`. Para obter detalhes, consulte [Verificar a [!DNL Media Gallery] configuração](media-gallery.md#enable-the-new-media-gallery).
+>Quando o [[!DNL Media Gallery]](media-gallery.md) está habilitado, a seção _[!UICONTROL Media]_&#x200B;aparece com uma única opção para acessar o [!DNL Media Gallery]. Se você não vir esta opção, verifique se a opção **[!UICONTROL Enable Old Media Gallery]**&#x200B;está definida como `No`. Para obter detalhes, consulte [Verificar a [!DNL Media Gallery] configuração](media-gallery.md#enable-the-new-media-gallery).
 
 >[!BEGINTABS]
 
@@ -64,7 +64,7 @@ Na barra lateral _Admin_, escolha **[!UICONTROL Content]**.
 
 >[!NOTE]
 >
->A opção _[!UICONTROL Banners]_neste menu foi descontinuada na versão 2.3.1 e agora foi removida. Sua funcionalidade é substituída por Blocos dinâmicos.
+>A opção _[!UICONTROL Banners]_&#x200B;neste menu foi descontinuada na versão 2.3.1 e agora foi removida. Sua funcionalidade é substituída por Blocos dinâmicos.
 
 ## [!UICONTROL Design] {#design-features}
 

@@ -53,7 +53,7 @@ Você pode alterar o layout do contêiner [!DNL Columns] arrastando uma coluna a
 
 Assista a este vídeo para obter uma demonstração de como o contêiner [!DNL Columns] pode ser usado para refinar seus layouts de página:
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507531?captions=por_br&quality=12&learn=on)
 
 ## Caixa de ferramentas Coluna
 

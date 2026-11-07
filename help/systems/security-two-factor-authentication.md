@@ -63,7 +63,7 @@ Na primeira vez que um usuário entrar no _Admin_, ele deverá configurar cada m
 >
 >As lojas que habilitaram a autenticação do Adobe Identity Management Services (IMS) têm o Adobe Commerce nativo e o Magento Open Source 2FA desabilitado. Os usuários administradores que estão conectados à instância do Commerce com suas credenciais do Adobe não precisam se autenticar novamente para muitas tarefas administrativas. A autenticação é tratada pelo Adobe IMS quando o usuário administrador faz logon em sua sessão atual. Consulte [Visão Geral da Integração do Adobe Identity Management Service (IMS)](/help/getting-started/adobe-ims-integration-overview.md).
 
-Você pode assistir a esta [demonstração em vídeo](https://video.tv.adobe.com/v/339104?quality=12&learn=on) para obter uma visão geral da autenticação de dois fatores no Administrador.
+Você pode assistir a esta [demonstração em vídeo](https://video.tv.adobe.com/v/3507683?captions=por_br&quality=12&learn=on) para obter uma visão geral da autenticação de dois fatores no Administrador.
 
 ## Configure os provedores 2FA necessários
 

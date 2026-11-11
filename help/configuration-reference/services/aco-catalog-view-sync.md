@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '333'
 ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
 Use essas configurações para controlar como o [!DNL Adobe Commerce Optimizer Connector for B2B] sincroniza configurações de catálogo compartilhado B2B (exibição de catálogo, política, catálogo de preços e chave) no [!DNL Adobe Commerce Optimizer] e como ele resolve as diferenças de configuração entre os dois sistemas. Consulte [Monitoramento do Status de Sincronização da Exibição de Catálogo](../../systems/catalog-view-sync-status.md) para monitorar os resultados dessas configurações.
+
+>[!NOTE]
+>
+>Esta página se aplica ao conector. As instâncias provisionadas com o Composable Catalog Data Model (CCDM) sincronizam dados nativamente e não usam o conector. Consulte [Serviços de merchandising com CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

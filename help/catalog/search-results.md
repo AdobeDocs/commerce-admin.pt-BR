@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # Resultados da pesquisa
@@ -42,6 +42,8 @@ ht-degree: 3%
 >[!NOTE]
 >
 >Esta página descreve a funcionalidade de pesquisa padrão que pode ser diferente do [Live Search](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview).
+>
+>Para instâncias provisionadas com o Modelo de dados de catálogo combinável (CCDM), consulte [Pesquisar correspondência e classificação](/help/optimizer/manage-results/search-relevance-matching.md) em Serviços de merchandising.
 
 A lista _Resultados da Pesquisa_ inclui todos os produtos que correspondem aos critérios de pesquisa inseridos na caixa Pesquisa Rápida ou no formulário Pesquisa Avançada. Cada lista de produtos no catálogo tem essencialmente os mesmos controles. A única diferença é que um é o resultado de uma consulta de pesquisa, e a outra diferença é o resultado da [navegação](navigation.md).
 

@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1132'
 ht-degree: 0%
 ---
 # Gerenciar seus catálogos compartilhados
 
 A página _[!UICONTROL Shared Catalogs]_&#x200B;fornece acesso às ferramentas necessárias para gerenciar seus catálogos compartilhados, incluindo seleção de produtos, preços personalizados, permissões de categoria e detalhes de catálogo. A página é semelhante ao espaço de trabalho padrão de Administração, com filtros e controles de ação. A grade lista todos os catálogos compartilhados, incluindo o catálogo público compartilhado padrão e todos os catálogos personalizados que você configurou.
 
-Se a extensão [!DNL Adobe Commerce Optimizer Connector for B2B] estiver instalada, a página também fornecerá acesso às [!DNL Adobe Commerce Optimizer] exibições de catálogo criadas quando o conector sincroniza dados de cada catálogo compartilhado para [!DNL Adobe Commerce Optimizer], e às chaves de acesso restritas que protegem as exibições de catálogo para experiências da loja B2B.
+Se a extensão [!DNL Adobe Commerce Optimizer Connector for B2B] estiver instalada, a página também fornecerá acesso às [!DNL Adobe Commerce Optimizer] exibições de catálogo criadas quando o conector sincroniza dados de cada catálogo compartilhado para [!DNL Adobe Commerce Optimizer], e às chaves de acesso restritas que protegem as exibições de catálogo para experiências da loja B2B. Para instâncias provisionadas com o Composable Catalog Data Model (CCDM), a sincronização nativa gera exibições de catálogo dos catálogos compartilhados. Consulte [Exibições de catálogo B2B](/help/optimizer/setup/catalog-view.md#b2b-catalog-views).
 
 ## Atualizar a seleção de produtos
 

@@ -1,9 +1,9 @@
 ---
 title: Trechos
 description: Notas e elementos visuais reutilizados para observar um recurso ou página que se aplica a uma edição específica
-source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 ---
 # Trechos
@@ -85,6 +85,12 @@ Para acessar as definições de configuração de armazenamento, escolha **[!UIC
 >[!IMPORTANT]
 >
 >O Adobe Commerce B2B versão 1.4.2+ é compatível com o PHP 8.2. Se você atualizar a instância do Commerce para a versão 2.4.7+, certifique-se de que a instância usa o PHP versão 8.2 para manter a compatibilidade com a versão B2B do Adobe Commerce. Além disso, a versão B2B 1.4.2+ não oferece suporte ao [GraphQL Application Server](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+## Observação sobre serviços de merchandising do CCDM {#ccdm-merchandising-note}
+
+>[!NOTE]
+>
+>Se sua instância do Adobe Commerce as a Cloud Service for provisionada com o Composable Catalog Data Model (CCDM), você gerencia exibições de catálogo, políticas, merchandising e relatórios nos Serviços de merchandising. Consulte [Serviços de merchandising com CCDM](/help/optimizer/overview.md).
 
 ## Lista de formulários reCAPTCHA {#recaptcha-forms-list}
 

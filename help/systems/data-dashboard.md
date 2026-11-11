@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '797'
 ht-degree: 0%
 ---
 # Painel de gerenciamento de dados
@@ -51,6 +51,8 @@ O Painel de gerenciamento de dados oferece uma visão geral do status de sincron
 >[!NOTE]
 >
 >Se você instalou o [Conector do Adobe Commerce Optimizer](https://experienceleague.adobe.com/pt-br/docs/commerce/aco-optimizer-connector/overview) para exportar dados de catálogo para o Adobe Commerce Optimizer, use a [página Sincronização de Dados](https://experienceleague.adobe.com/pt-br/docs/commerce/optimizer/setup/data-sync) no Commerce Optimizer Studio para verificar se a sincronização de dados foi bem-sucedida, em vez do Painel de Gerenciamento de Dados.
+>
+>Para instâncias provisionadas com o Modelo de dados de catálogo combinável (CCDM), consulte [Sincronização de catálogo](/help/optimizer/setup/data-sync.md) em Serviços de merchandising.
 
 ## Público-alvo
 

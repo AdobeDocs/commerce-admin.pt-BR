@@ -24,13 +24,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: 224
+source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 # Menu [!UICONTROL Catalog]
 
 O menu [!UICONTROL Catalog] fornece acesso fácil a ferramentas de criação de produtos, categoria e gerenciamento de estoque, catálogos compartilhados para preços personalizados em [lojas B2B](/help/b2b/introduction.md) e enriquecimento de catálogo para descoberta assistida por IA.
@@ -50,6 +48,8 @@ O menu [!UICONTROL Catalog] fornece acesso fácil a ferramentas de criação de 
 ![Menu Catálogo](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 Na barra lateral _Admin_, clique em **[!UICONTROL Catalog]**.
 

@@ -1,6 +1,6 @@
 ---
 title: Menu [!UICONTROL Stores]
-description: O Administrador do Commerce inclui o menu [!UICONTROL Stores], que fornece acesso às ferramentas para configurar a hierarquia da loja, a configuração, o inventário, os impostos e os atributos.
+description: O menu [!UICONTROL Stores] fornece acesso às ferramentas para configurar a hierarquia de armazenamento, a configuração, o estoque, os impostos e os atributos.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
 product_v2:
@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # Menu [!UICONTROL Stores]
@@ -85,6 +85,8 @@ Gerencie configurações adicionais para [taxas de câmbio de premiação](../me
 
 Quando o [!DNL Adobe Commerce Optimizer Connector] estiver instalado, você poderá sincronizar o site e armazenar dados de exibição para [!DNL Adobe Commerce Optimizer]. Controles de escopo de site [sincronização de preços](stores.md#step-1-create-a-website) (preços e catálogos de preços). Controles de escopo de exibição de armazenamento [sincronização de produto](store-views.md#add-a-store-view) (produtos e atributos de produto).
 
-Para obter os indicadores de status de sincronização mostrados na grade [!UICONTROL All Stores], consulte [status de sincronização do Adobe Commerce Optimizer](store-views.md#optimizer-sync-status). Para conhecer os comportamentos de instalação e configuração do conector, consulte [Personalizar a configuração de exportação de escopos do Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) no *Guia do Adobe Commerce Optimizer Connector*.
+Para obter os indicadores de status de sincronização mostrados na grade [!UICONTROL All Stores], consulte [status de sincronização do Adobe Commerce Optimizer](store-views.md#optimizer-sync-status). Para conhecer os comportamentos de instalação e configuração do conector, consulte [Personalizar a configuração de exportação de escopos do Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) no *Guia do Adobe Commerce Optimizer Connector*.
 
 Se o [!DNL Adobe Commerce Optimizer Connector for B2B] estiver instalado, os dados também serão sincronizados para os catálogos compartilhados B2B disponíveis. Consulte [Gerenciar exibições do catálogo](../b2b/catalog-views-manage.md).
+
+As instâncias provisionadas com o Composable Catalog Data Model (CCDM) sincronizam dados do site, da exibição de armazenamento e de preço nativamente e não usam o conector. Consulte [Serviços de merchandising com CCDM](/help/optimizer/overview.md).

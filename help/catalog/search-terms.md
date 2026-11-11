@@ -36,12 +36,14 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
 ---
 # Gerenciar termos de pesquisa
+
+{{ccdm-merchandising-note}}
 
 A [página de aterrissagem](../content-design/pages.md) de um termo de pesquisa pode ser uma página de conteúdo, uma página de categoria, uma página de detalhes do produto ou até mesmo uma página em um site diferente.
 

@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 2b2cbba1005638bccfd8c4f14075cf98475f05f4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -175,7 +175,7 @@ Para que um atributo fique visível na página de criação do produto, adicione
 Qualquer atributo usado como uma lista suspensa de opções de um [produto configurável](product-create-configurable.md) deve ter as seguintes propriedades:
 
 | Propriedade | Valor |
-|----------|------ |
+| ---------- | ------ |
 | Tipo de Entrada de Catálogo para o Proprietário da Loja | Lista suspensa |
 | Escopo | Global |
 

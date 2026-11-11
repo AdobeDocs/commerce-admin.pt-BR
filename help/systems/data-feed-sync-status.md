@@ -1,6 +1,6 @@
 ---
 title: Monitorar o status de sincronização do feed de dados no Commerce
-description: Rastrear exportações. Diagnosticar problemas de sincronização para [!DNL Catalog Service], [!DNL Live Search], [!DNL Product Recommendations] e [!DNL Adobe Commerce Optimizer Connector].
+description: Rastrear exportações e problemas de sincronização para [!DNL Catalog Service], [!DNL Live Search], [!DNL Product Recommendations] e [!DNL Adobe Commerce Optimizer Connector].
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Beginner
@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1683'
 ht-degree: 0%
 ---
 
@@ -179,9 +179,10 @@ Ressincronizar manualmente nestes casos:
 
 ### Confirmar dados em serviços conectados {#confirm-data-in-connected-services}
 
-Para verificar a sincronização de ponta a ponta após a conclusão das exportações, use um dos métodos a seguir. Para os limites do status de exportação nesta página, consulte a [observação acima](#export-status-scope).
+Para verificar a sincronização de ponta a ponta após a conclusão das exportações, use um dos métodos a seguir. Para os limites do status de exportação nesta página, consulte a [observação acima](#access-data-feed-sync-status-page).
 
 - **[!DNL Adobe Commerce as a Cloud Service]com serviços da Commerce:** Verifique o [Painel de Gerenciamento de Dados](data-dashboard.md) aplicável para confirmar a disponibilidade downstream.
+- **[!DNL Adobe Commerce as a Cloud Service]provisionado com CCDM:** O produto e os dados de preço sincronizam nativamente. Use a [Sincronização do catálogo](/help/optimizer/setup/data-sync.md) nos Serviços de merchandising para confirmar a disponibilidade dos dados.
 - **Adobe Commerce na Nuvem ou no Local com o Adobe Commerce Optimizer Connector**: verifique primeiro o status de exportação do Commerce Admin e, em seguida, verifique a [página Sincronização de Dados](https://experienceleague.adobe.com/pt-br/docs/commerce/optimizer/setup/data-sync) em [!DNL Commerce Optimizer Studio]
 - **[!DNL Adobe Commerce Optimizer] (independente):** Os dados não são exportados do back-end do Commerce. Use a [página de Sincronização de Dados](https://experienceleague.adobe.com/pt-br/docs/commerce/optimizer/setup/data-sync) em [!DNL Commerce Optimizer Studio] para confirmar a disponibilidade dos dados.
 

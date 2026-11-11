@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # Visão geral da pesquisa no catálogo
@@ -42,6 +42,8 @@ ht-degree: 0%
 >[!TIP]
 >
 >O [[!DNL Live Search]](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview) fornece uma experiência de pesquisa rápida, relevante e intuitiva e está disponível para o Adobe Commerce sem custo adicional. Esta seção descreve a funcionalidade de pesquisa padrão que pode ser diferente de [!DNL Live Search].
+>
+>Se sua instância do Adobe Commerce as a Cloud Service for provisionada com o Modelo de Dados de Catálogo Compositível (CCDM), você definirá configurações de pesquisa, aspectos, sinônimos e regras de merchandising em [Serviços de merchandising com o CCDM](/help/optimizer/overview.md).
 
 Pesquisas mostram que as pessoas que usam a pesquisa têm mais probabilidade de fazer uma compra do que os clientes que dependem apenas da navegação. Na verdade, de acordo com alguns estudos, as pessoas que usam a pesquisa têm quase duas vezes mais chances de fazer uma compra.
 

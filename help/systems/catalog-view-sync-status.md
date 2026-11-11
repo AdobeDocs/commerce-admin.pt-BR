@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1358'
 ht-degree: 0%
 ---
 
@@ -52,6 +52,8 @@ Use a página Status da Sincronização da View de Catálogo para monitorar a si
 >[!NOTE]
 >
 >Para acompanhar o status de sincronização dos feeds de dados de catálogo, use a página [[!UICONTROL Data Feed Sync Status]](data-feed-sync-status.md).
+>
+>Esta página se aplica às exibições de catálogo criadas pelo conector. Para instâncias provisionadas com o Modelo de dados de catálogo combinável (CCDM), consulte [Sincronização de catálogo](/help/optimizer/setup/data-sync.md) em Serviços de merchandising.
 
 ## Público e disponibilidade {#audience}
 

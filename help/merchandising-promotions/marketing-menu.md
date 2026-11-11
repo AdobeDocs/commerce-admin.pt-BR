@@ -1,6 +1,6 @@
 ---
 title: Menu [!UICONTROL Marketing]
-description: O Administrador do Commerce inclui o menu [!UICONTROL Marketing], que fornece ferramentas de acesso para gerenciar promoções, comunicações, SEO e conteúdo gerado pelo usuário.
+description: O Administrador do Commerce inclui o menu [!UICONTROL Marketing], que fornece ferramentas para gerenciar promoções, comunicações, SEO e conteúdo gerado pelo usuário.
 exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
 TQID: https://experienceleague.adobe.com/UZFSZIsLZvPv50Cg8xmpJ0oW7WEfYvcHEiedDhO2qc0
 product_v2:
@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 # Menu [!UICONTROL Marketing]
 
 O menu [!UICONTROL Marketing] fornece ferramentas de acesso para gerenciar promoções, comunicações, SEO e conteúdo gerado pelo usuário.
@@ -52,6 +50,8 @@ O menu [!UICONTROL Marketing] fornece ferramentas de acesso para gerenciar promo
 ![Administrador do Commerce - Menu Marketing](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 ## Exibir o menu [!UICONTROL Marketing]
 

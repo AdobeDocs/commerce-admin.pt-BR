@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # Navegação em camadas
@@ -44,6 +44,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >A navegação em camadas padrão descrita nesta seção é diferente da navegação filtrada do Live Search com [facetas](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-admin/facets/facets).
+>
+>Para instâncias provisionadas com o Composable Catalog Data Model (CCDM), consulte [Facets](/help/optimizer/merchandising/facets/overview.md) nos Serviços de merchandising.
 
 A navegação em camadas facilita a localização de produtos com base na categoria, na faixa de preço ou em qualquer outro atributo disponível. A navegação em camadas geralmente é exibida na coluna esquerda dos resultados da pesquisa e nas páginas de categoria e, às vezes, na página inicial. A navegação padrão inclui uma lista de categorias e um intervalo de preços _Comprar por_. Você pode configurar a exibição da navegação em camadas, incluindo a contagem de produtos e a faixa de preços.
 

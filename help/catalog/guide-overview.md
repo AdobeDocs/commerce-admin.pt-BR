@@ -33,13 +33,11 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: 329
-ht-degree: 5%
-
+source-wordcount: '498'
+ht-degree: 3%
 ---
-
 # Guia de gerenciamento do catálogo Adobe Commerce
 
 Este guia destina-se a merchandisers de produtos e gerentes de inventário que trabalham na Adobe Commerce e no administrador do Magento Open Source. Ela fornece informações detalhadas sobre os recursos do catálogo de produtos, incluindo a criação das estruturas de navegação de um catálogo. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do [!DNL Commerce].
@@ -55,8 +53,11 @@ Este guia abrange:
 | [Pesquisa no catálogo](search.md) | Revise as ferramentas que os clientes podem usar para localizar produtos na loja e configure a experiência de pesquisa de acordo com seu catálogo de produtos. |
 | [Categorias](categories.md) | Estabeleça a estrutura básica de categorias do catálogo de uma forma que otimize a experiência do comprador em sua loja. |
 | [Produtos](products-list.md) | Crie produtos simples a complexos com várias opções, amostras e pacotes personalizáveis. Crie produtos para download e produtos virtuais para serviços e outros itens não tangíveis. |
+| [Catálogos compartilhados](../b2b/enable-basic-features.md) | Os catálogos compartilhados permitem que os comerciantes ofereçam diferentes empresas com curadoria em sortimentos de produtos e preços personalizados. Requer licenciamento e configuração B2B do Adobe Commerce, incluindo contas da empresa e os recursos do Catálogo compartilhado. |
 | [Enriquecimento do catálogo](catalog-enrichment.md) | Revise e aplique as melhorias sugeridas por IA aos nomes e descrições dos produtos para que seu catálogo seja representado com precisão na descoberta assistida por LLM e IA. |
 | [Atributos do produto](product-attributes.md) | Crie atributos com controles de entrada para opções de produto e para fornecer informações adicionais em páginas de produto. |
+| [Exibições de catálogo](../optimizer/setup/catalog-view.md) [!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} | Para implantações do Commerce usando os Serviços de merchandising com o modelo de dados de catálogo combinável (CCDM), defina os produtos e os preços que um cliente pode recuperar combinando fontes de catálogo, camadas de catálogo, políticas e catálogos de preços para cada marca, região, unidade de negócios ou canal. Opcionalmente, restrinja uma exibição de catálogo para torná-la privada. |
+| [Políticas](../optimizer/setup/policies.md) [!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."} | Para implantações do Commerce que usam o CCDM, defina os filtros de acesso aos dados que controlam quais produtos cada exibição de catálogo fornece, para que o conteúdo correto seja enviado ao destino correto. |
 
 {style="table-layout:auto"}
 

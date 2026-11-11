@@ -33,12 +33,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '412'
 ht-degree: 0%
 ---
 # Gerenciar configuração de exibição de catálogo
+
+>[!NOTE]
+>
+>Este tópico descreve a implementação da exibição de catálogo para implantações do Commerce usando o Adobe Commerce Optimizer Connector para B2B. Se você estiver usando o Adobe Commerce as a Cloud Service com os Serviços de merchandising e o modelo de dados de catálogo combinável (CCDM), consulte a configuração [Exibições de catálogo](../optimizer/setup/catalog-view.md) no _Guia dos Serviços de merchandising com o CCDM_.
 
 Com a extensão [!DNL Adobe Commerce Optimizer Connector for B2B] instalada, a página Exibições de Catálogo lista as [!DNL Adobe Commerce Optimizer] [projeções de exibição de catálogo](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"} criadas para o catálogo compartilhado personalizado.  Uma _projeção_ é a exibição de catálogo criada quando o conector sincroniza os dados de catálogo compartilhado com [!DNL Adobe Commerce Optimizer]. O conector cria uma projeção separada para cada exibição de loja no catálogo compartilhado, de modo que um catálogo compartilhado pode ter várias exibições de catálogo. Nas experiências da loja, essas exibições de catálogo são acessíveis somente para empresas atribuídas ao catálogo compartilhado associado.
 

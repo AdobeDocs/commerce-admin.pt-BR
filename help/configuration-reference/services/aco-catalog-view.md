@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Services] > Exibição do catálogo de ACO'
-description: Revise e atualize as definições de configuração do Adobe Commerce Optimizer na página [!UICONTROL Services] > [!UICONTROL ACO Catalog View] do Administrador do Commerce.
+description: Revise e atualize as configurações do Adobe Commerce Optimizer na página [!UICONTROL Services] > [!UICONTROL ACO Catalog View] do Administrador do Commerce.
 feature: Configuration, Security
 badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 product_v2:
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 2%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View]
 
 Use essas configurações para controlar os tokens de acesso emitidos pelo [!DNL Adobe Commerce Optimizer Connector for B2B]. As vitrines usam esses tokens para autenticar em exibições de catálogo privado do Commerce Optimizer preenchidas com dados sincronizados de catálogos compartilhados personalizados configurados no Administrador.
+
+>[!NOTE]
+>
+>Esta página se aplica ao conector. As instâncias provisionadas com o Composable Catalog Data Model (CCDM) sincronizam dados nativamente e não usam o conector. Consulte [Serviços de merchandising com CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

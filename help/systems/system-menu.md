@@ -1,6 +1,6 @@
 ---
 title: Menu [!UICONTROL System]
-description: O Administrador do Commerce inclui o menu [!UICONTROL System], que fornece acesso a ferramentas para importação e exportação de dados, gerenciamento de índice e cache do sistema, gerenciamento de permissões e acesso de Administrador, backups, notificações do sistema e variáveis personalizadas.
+description: O menu [!UICONTROL System] fornece acesso a ferramentas para importação e exportação de dados, gerenciamento de cache e índice, permissões, backups e notificações.
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
 TQID: https://experienceleague.adobe.com/fNQyGiTfJuHW-AuspIq122m0mqxzaLXP63AFHWIT2lo
 product_v2:
@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # Menu [!UICONTROL System]
 
 O menu [!UICONTROL System] inclui ferramentas para importar e exportar dados, gerenciar caches e índices do sistema, gerenciar permissões, backups, notificações do sistema e variáveis personalizadas.
@@ -54,6 +52,8 @@ O menu [!UICONTROL System] inclui ferramentas para importar e exportar dados, ge
 ![Menu do sistema](./assets/system-menu-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 **_Para exibir o menu [!UICONTROL System]:_**
 

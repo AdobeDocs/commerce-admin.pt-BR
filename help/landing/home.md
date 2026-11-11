@@ -48,12 +48,12 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-03
-source-git-commit: 007b6b960a2b17a082d3397c703f9f8375a23a9f
+source-git-commit: 837bdd15f7c690be65e72cce8b888d5c2b981fe6
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '801'
 ht-degree: 0%
 ---
-# &#x200B;<!-- use banner as heading -->![Documentação do administrador](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![Documentação do administrador](./assets/banner-user-home.png) {#documentation}
 
 Bem-vindo à próxima geração da plataforma de comércio digital líder mundial. O Adobe Commerce fornece aos comerciantes online flexibilidade e controle inigualáveis sobre a aparência, o conteúdo e a funcionalidade de suas lojas online. O Administrador apresenta ferramentas eficientes de marketing, otimização de mecanismo de pesquisa e gerenciamento de produtos que permitem criar sites adaptados às suas necessidades comerciais exclusivas.
 
@@ -63,7 +63,7 @@ As informações nos Guias do usuário de administração foram projetadas para 
 
 O Adobe Commerce é uma plataforma de comércio B2B e B2C ágil que permite que comerciantes e marcas acelerem a receita por meio de experiências de comércio digital centradas no cliente em espaços online e físicos. É a melhor opção para organizações de médio porte e corporativas, pois oferece os modelos de implantação mais flexíveis, desde a nuvem local até a gerenciada, com SLAs garantidos. O Adobe Commerce permite integrações de APIs e extensões totalmente personalizáveis, além do conjunto mais avançado de recursos de experiência comercial de nível empresarial, desde marketing até merchandising e realização. O Adobe Commerce é construído em uma base de código aberto para oferecer flexibilidade e extensibilidade como nenhuma outra plataforma de comércio.
 
-Para obter uma lista dos recursos avançados incluídos no Adobe Commerce, consulte [Recursos do Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/release/features) nas _Informações da Versão_.
+Para obter uma lista dos recursos avançados incluídos no Adobe Commerce, consulte [Recursos do Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/release/features) nas _Informações da Versão_.
 
 ## Base de código Magento Open Source
 
@@ -85,7 +85,7 @@ O Magento Open Source é a base de código para a qual a Adobe contribui oficial
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se a projetos do Adobe Commerce na nuvem (infraestrutura PaaS gerenciada pela Adobe) e somente a projetos locais."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a>
     <div><em>Este conjunto de recursos foi criado para atender às necessidades de vendedores (comerciantes) cujos clientes são principalmente empresas, possivelmente com estruturas organizacionais complexas e vários membros da equipe com várias funções e níveis de permissão de compra.</em>
     <br></div>
   </td>
@@ -106,6 +106,15 @@ O Magento Open Source é a base de código para a qual a Adobe contribui oficial
   </td>
 </tr>
 <tr>
+  <td valign="top">
+    <img alt="Serviços de merchandising" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/>
+  </td>
+  <td valign="top">
+    <a href="../optimizer/overview.md"><strong>Serviços de merchandising com o CCDM (Composable Catalog Data Model)</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se às instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."}
+    <div><em>Configure políticas e exibições de catálogo, gerencie recomendações e regras de merchandising, revise o desempenho da loja e monitore a sincronização de catálogo no Administrador do Commerce.</em></div>
+  </td>
+</tr>
+<tr>
     <td valign="top">
        <img alt="Merchandising e promoções" src="./assets/icon-labels.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../merchandising-promotions/guide-overview.md"> <strong>Merchandising e promoções</strong></a>
@@ -122,7 +131,7 @@ O Magento Open Source é a base de código para a qual a Adobe contribui oficial
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se a projetos do Adobe Commerce na Nuvem (infraestrutura PaaS gerenciada pela Adobe) e somente a projetos locais."}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se a projetos do Adobe Commerce na Nuvem (infraestrutura PaaS gerenciada pela Adobe) e somente a projetos locais."}
     <div>O <em>[!DNL Page Builder] facilita a criação de páginas ricas em conteúdo com layouts personalizados. Esses recursos foram projetados para melhorar a qualidade e reduzir o tempo e o custo de produção de páginas personalizadas.</em></div>
   </td>
 </tr>

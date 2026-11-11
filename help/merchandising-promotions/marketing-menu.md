@@ -1,6 +1,6 @@
 ---
 title: Menu [!UICONTROL Marketing]
-description: O Administrador do Commerce inclui o menu [!UICONTROL Marketing], que fornece ferramentas de acesso para gerenciar promoções, comunicações, SEO e conteúdo gerado pelo usuário.
+description: O Administrador do Commerce inclui o menu [!UICONTROL Marketing], que fornece ferramentas para gerenciar promoções, comunicações, SEO e conteúdo gerado pelo usuário.
 exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
 TQID: https://experienceleague.adobe.com/UZFSZIsLZvPv50Cg8xmpJ0oW7WEfYvcHEiedDhO2qc0
 product_v2:
@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 # Menu [!UICONTROL Marketing]
 
 O menu [!UICONTROL Marketing] fornece ferramentas de acesso para gerenciar promoções, comunicações, SEO e conteúdo gerado pelo usuário.
@@ -41,17 +39,19 @@ O menu [!UICONTROL Marketing] fornece ferramentas de acesso para gerenciar promo
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 ![Administrador do Commerce - Menu Marketing](./assets/admin-menu-marketing-ee.png){width="600" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
 
 ![Administrador do Commerce - Menu Marketing](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 ## Exibir o menu [!UICONTROL Marketing]
 
@@ -67,7 +67,7 @@ Crie regras de preço do [catálogo](price-rules-catalog.md) e do [carrinho](pri
 
 ### [!UICONTROL Private Sales]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 {{ee-feature}}
 
@@ -85,6 +85,6 @@ Analise os [termos de pesquisa](../catalog/search-terms.md) e os [sinônimos](..
 
 ### [!UICONTROL User Content]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Incorpore [análises de produtos](product-reviews.md) geradas por usuários para criar um senso de comunidade e aumentar as vendas.

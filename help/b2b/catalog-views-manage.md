@@ -33,12 +33,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '412'
 ht-degree: 0%
 ---
 # Gerenciar configuração de exibição de catálogo
+
+>[!NOTE]
+>
+>Este tópico descreve a implementação da exibição de catálogo para implantações do Commerce usando o Adobe Commerce Optimizer Connector para B2B. Se você estiver usando o Adobe Commerce as a Cloud Service com os Serviços de merchandising e o modelo de dados de catálogo combinável (CCDM), consulte a configuração [Exibições de catálogo](../optimizer/setup/catalog-view.md) no _Guia dos Serviços de merchandising com o CCDM_.
 
 Com a extensão [!DNL Adobe Commerce Optimizer Connector for B2B] instalada, a página Exibições de Catálogo lista as [!DNL Adobe Commerce Optimizer] [projeções de exibição de catálogo](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"} criadas para o catálogo compartilhado personalizado.  Uma _projeção_ é a exibição de catálogo criada quando o conector sincroniza os dados de catálogo compartilhado com [!DNL Adobe Commerce Optimizer]. O conector cria uma projeção separada para cada exibição de loja no catálogo compartilhado, de modo que um catálogo compartilhado pode ter várias exibições de catálogo. Nas experiências da loja, essas exibições de catálogo são acessíveis somente para empresas atribuídas ao catálogo compartilhado associado.
 
@@ -64,7 +68,7 @@ O conector protege as exibições de catálogo com chaves de acesso restritas. A
 
 Para configurar a duração do token ou desabilitar a emissão de token, consulte [Serviços > Exibição do Catálogo ACO](/help/configuration-reference/services/aco-catalog-view.md).
 
-Você pode revisar essas exibições de catálogo e gerenciar suas chaves atribuídas a partir da guia _[!UICONTROL Catalog Views]_&#x200B;do catálogo compartilhado ou da seção&#x200B;_[!UICONTROL Catalog Views]_ da empresa associada - ambas listam as mesmas exibições de catálogo e atribuições de chave atuais. Consulte [Editar chaves de acesso restrito](#edit-restricted-access-keys) para obter o caminho de navegação exato de cada local.
+Você pode revisar essas exibições de catálogo e gerenciar suas chaves atribuídas a partir da guia _[!UICONTROL Catalog Views]_do catálogo compartilhado ou da seção_[!UICONTROL Catalog Views]_ da empresa associada - ambas listam as mesmas exibições de catálogo e atribuições de chave atuais. Consulte [Editar chaves de acesso restrito](#edit-restricted-access-keys) para obter o caminho de navegação exato de cada local.
 
 Para monitorar a sincronização de dados do catálogo compartilhado com [!DNL Adobe Commerce Optimizer], consulte [Monitoramento do status de sincronização da exibição do catálogo](/help/systems/catalog-view-sync-status.md).
 

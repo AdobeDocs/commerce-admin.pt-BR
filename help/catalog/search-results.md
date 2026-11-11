@@ -32,16 +32,18 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # Resultados da pesquisa
 
 >[!NOTE]
 >
->Esta página descreve a funcionalidade de pesquisa padrão que pode ser diferente do [Live Search](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview).
+>Esta página descreve a funcionalidade de pesquisa padrão que pode ser diferente do [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+>
+>Para instâncias provisionadas com o Modelo de dados de catálogo combinável (CCDM), consulte [Pesquisar correspondência e classificação](/help/optimizer/manage-results/search-relevance-matching.md) em Serviços de merchandising.
 
 A lista _Resultados da Pesquisa_ inclui todos os produtos que correspondem aos critérios de pesquisa inseridos na caixa Pesquisa Rápida ou no formulário Pesquisa Avançada. Cada lista de produtos no catálogo tem essencialmente os mesmos controles. A única diferença é que um é o resultado de uma consulta de pesquisa, e a outra diferença é o resultado da [navegação](navigation.md).
 
@@ -57,7 +59,7 @@ Com **Elasticsearch**:
 
 >[!IMPORTANT]
 >
->Devido ao anúncio do fim do suporte do Elasticsearch 7 para agosto de 2023, é recomendável que todos os clientes do Adobe Commerce migrem para o mecanismo de pesquisa OpenSearch 2.x. Para obter informações sobre como migrar o mecanismo de pesquisa durante a atualização do produto, consulte [Migrando para o OpenSearch](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) no _Guia de Atualização_.
+>Devido ao anúncio do fim do suporte do Elasticsearch 7 para agosto de 2023, é recomendável que todos os clientes do Adobe Commerce migrem para o mecanismo de pesquisa OpenSearch 2.x. Para obter informações sobre como migrar o mecanismo de pesquisa durante a atualização do produto, consulte [Migrando para o OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) no _Guia de Atualização_.
 
 ## Mapeamento de palavras-chave para estender os resultados da pesquisa
 
@@ -107,7 +109,7 @@ O exemplo a seguir usa o mapeamento de palavra-chave com base no SKU. Quando um 
    ![Seção de atributos com palavra-chave de pesquisa](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
-1. Vá para **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;e atualize o **[!UICONTROL Page Cache]**.
+1. Vá para **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**e atualize o **[!UICONTROL Page Cache]**.
 
 ### Etapa 3: Mapear o segundo produto
 
@@ -115,7 +117,7 @@ O exemplo a seguir usa o mapeamento de palavra-chave com base no SKU. Quando um 
 1. Role para baixo e expanda a seção **[!UICONTROL Attributes]**.
 1. No campo **[!UICONTROL Search Keywords]**, insira o SKU do outro produto, `MJ03`.
 1. Clique em **[!UICONTROL Save]**.
-1. Vá para **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;e atualize o **[!UICONTROL Page Cache]**.
+1. Vá para **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**e atualize o **[!UICONTROL Page Cache]**.
 
 ### Etapa 4: teste-o na loja
 

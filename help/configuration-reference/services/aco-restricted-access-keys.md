@@ -1,8 +1,8 @@
 ---
-title: '[!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]'
+title: '[!UICONTROL Services] > Teclas de Acesso Restrito de ACO'
 description: Revise as configurações na página [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys] do Administrador do Commerce.
 feature: Configuration, Security
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '215'
+ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]
 
 Use essa configuração para controlar o período de expiração padrão que o [!DNL Adobe Commerce Optimizer Connector for B2B] aplica às chaves de acesso restritas que ele provisiona para exibições de catálogo compartilhado B2B. Para criar, atribuir e excluir essas chaves, consulte [Gerenciamento de Chaves de Acesso Restrito](../../systems/restricted-access-keys.md).
+
+>[!NOTE]
+>
+>Esta página se aplica ao conector. As instâncias provisionadas com o Composable Catalog Data Model (CCDM) sincronizam dados nativamente e não usam o conector. Consulte [Serviços de merchandising com CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

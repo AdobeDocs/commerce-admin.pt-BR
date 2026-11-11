@@ -2,7 +2,7 @@
 title: '[!UICONTROL Services] > Sincronização de Exibição de Catálogo ACO'
 description: Revise as configurações na página [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync] do Administrador do Commerce.
 feature: Configuration, Security
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '333'
 ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
 Use essas configurações para controlar como o [!DNL Adobe Commerce Optimizer Connector for B2B] sincroniza configurações de catálogo compartilhado B2B (exibição de catálogo, política, catálogo de preços e chave) no [!DNL Adobe Commerce Optimizer] e como ele resolve as diferenças de configuração entre os dois sistemas. Consulte [Monitoramento do Status de Sincronização da Exibição de Catálogo](../../systems/catalog-view-sync-status.md) para monitorar os resultados dessas configurações.
+
+>[!NOTE]
+>
+>Esta página se aplica ao conector. As instâncias provisionadas com o Composable Catalog Data Model (CCDM) sincronizam dados nativamente e não usam o conector. Consulte [Serviços de merchandising com CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

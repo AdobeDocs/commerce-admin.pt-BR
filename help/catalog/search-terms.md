@@ -36,12 +36,14 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
 ---
 # Gerenciar termos de pesquisa
+
+{{ccdm-merchandising-note}}
 
 A [página de aterrissagem](../content-design/pages.md) de um termo de pesquisa pode ser uma página de conteúdo, uma página de categoria, uma página de detalhes do produto ou até mesmo uma página em um site diferente.
 
@@ -155,7 +157,7 @@ Uma maneira de melhorar a eficácia da [pesquisa de catálogo](search-configurat
 
 A Adobe Commerce oferece suporte a duas soluções diferentes de gerenciamento de sinônimos:
 
-- O recurso [Sinônimos](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/live-search-admin/synonyms/synonyms) do Live Search está disponível para instalações do Adobe Commerce com o Live Search instalado.
+- O recurso [Sinônimos](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms) do Live Search está disponível para instalações do Adobe Commerce com o Live Search instalado.
 - O recurso Pesquisar sinônimos padrão (descrito nesta página) está disponível e pronto para uso para todas as instalações do Adobe Commerce.
 
 >[!NOTE]
@@ -172,7 +174,7 @@ A Adobe Commerce oferece suporte a duas soluções diferentes de gerenciamento d
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**.
 
-   A grade _[!UICONTROL Search Synonyms]_&#x200B;é exibida. Se for a primeira vez que você usa sinônimos de pesquisa, a grade estará vazia.
+   A grade _[!UICONTROL Search Synonyms]_é exibida. Se for a primeira vez que você usa sinônimos de pesquisa, a grade estará vazia.
 
    ![Pesquisar grade de sinônimos](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 

@@ -1,6 +1,6 @@
 ---
 title: Menu [!UICONTROL System]
-description: O Administrador do Commerce inclui o menu [!UICONTROL System], que fornece acesso a ferramentas para importação e exportação de dados, gerenciamento de índice e cache do sistema, gerenciamento de permissões e acesso de Administrador, backups, notificações do sistema e variáveis personalizadas.
+description: O menu [!UICONTROL System] fornece acesso a ferramentas para importação e exportação de dados, gerenciamento de cache e índice, permissões, backups e notificações.
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
 TQID: https://experienceleague.adobe.com/fNQyGiTfJuHW-AuspIq122m0mqxzaLXP63AFHWIT2lo
 product_v2:
@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # Menu [!UICONTROL System]
 
 O menu [!UICONTROL System] inclui ferramentas para importar e exportar dados, gerenciar caches e índices do sistema, gerenciar permissões, backups, notificações do sistema e variáveis personalizadas.
@@ -43,17 +41,19 @@ O menu [!UICONTROL System] inclui ferramentas para importar e exportar dados, ge
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 ![Menu do sistema](./assets/system-menu.png){width="600" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
+[!BADGE Somente SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável somente a projetos do Adobe Commerce as a Cloud Service e do Adobe Commerce Optimizer (infraestrutura SaaS gerenciada pela Adobe)."}
 
 ![Menu do sistema](./assets/system-menu-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 **_Para exibir o menu [!UICONTROL System]:_**
 
@@ -65,19 +65,19 @@ Essas [ferramentas](data-transfer.md) oferecem a você a capacidade de gerenciar
 
 ## [!UICONTROL Extensions]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Gerencie [integrações de terceiros](integrations.md) e extensões da sua loja.
 
 ## [!UICONTROL Tools]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Use esta coleção de ferramentas para gerenciar os recursos do sistema, incluindo o gerenciamento do [cache](cache-management.md) e do [índice](index-management.md), os [backups](backups.md) e as configurações de instalação.
 
 ## [!UICONTROL Support]
 
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce)
 

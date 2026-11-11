@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -41,6 +41,8 @@ ht-degree: 0%
 # Relacionamentos de produtos
 
 Os produtos do catálogo podem ser promovidos em outras páginas definindo a natureza da relação entre os produtos. Esses relacionamentos ajudam a direcionar os compradores de acordo com seu interesse em um produto semelhante ou relacionado.
+
+{{ccdm-merchandising-note}}
 
 ## Definido nas configurações do produto
 
@@ -64,4 +66,4 @@ Quando você cria ou atualiza um produto, as [configurações do produto](../cat
 
 ## Recomendações de produto viabilizadas pelo Adobe AI
 
-O ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) [Product Recommendations](https://experienceleague.adobe.com/pt-br/docs/commerce/product-recommendations/overview) da Adobe AI simplifica o processo de definição de relações de produtos utilizando inteligência artificial e algoritmos de aprendizado de máquina para executar uma análise detalhada de dados de visitantes agregados. Esses dados, quando combinados com seu catálogo do Adobe Commerce, resultam em experiências altamente envolventes, relevantes e personalizadas para o comprador.
+O ![Adobe Commerce](../assets/adobe-logo.svg) (somente Adobe Commerce) [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) da Adobe AI simplifica o processo de definição de relações de produtos utilizando inteligência artificial e algoritmos de aprendizado de máquina para executar uma análise detalhada de dados de visitantes agregados. Esses dados, quando combinados com seu catálogo do Adobe Commerce, resultam em experiências altamente envolventes, relevantes e personalizadas para o comprador.

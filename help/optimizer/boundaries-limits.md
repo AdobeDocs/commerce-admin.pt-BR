@@ -3,7 +3,7 @@ title: Limites e limites dos serviços de merchandising
 description: Saiba mais sobre limites de licença e limites do sistema do Adobe Commerce Optimizer. Planeje a capacidade, rastreie o uso e evite a latência e a limitação quando exceder os limites.
 role: Admin, Developer
 hide: true
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T18:48:38.168Z'
 TQID: 'https://experienceleague.adobe.com/KoRp--G2sMvv-Hr7KiHriZrFmtEm0BhGoGWVQQK-ofE'
 product_v2:
@@ -37,7 +37,7 @@ Sua utilização deve permanecer dentro desses limites. Excedê-los pode causar 
 
 Os limites de licença podem ser aumentados adquirindo os pacotes de licença descritos na seção [Limites de licença e limites do sistema](#license-limits-and-system-boundaries) ou negociando o licenciamento personalizado para casos de uso exclusivos. Entre em contato com seu representante de conta da Adobe para discutir suas necessidades.
 
-Em caso de dúvidas sobre os limites do sistema, contate o [Suporte da Adobe](https://experienceleague.adobe.com/home?lang=en#support).
+Em caso de dúvidas sobre os limites do sistema, contate o [Suporte da Adobe](https://experienceleague.adobe.com/home?lang=pt-BR#support).
 
 ## Evitar problemas de desempenho
 

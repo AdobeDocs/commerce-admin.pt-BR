@@ -1,7 +1,7 @@
 ---
 title: Criar e gerenciar recomendações
 description: Saiba como criar e gerenciar recomendações.
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:20:38.902Z'
 TQID: 'https://experienceleague.adobe.com/kbGOl78JRNYcqONXFHiwXfDjphi6rLmpD5oC6iFUH34'
 product_v2:

@@ -2,7 +2,7 @@
 title: Merchandising com modelo de dados de catálogo combinável
 description: Saiba mais sobre os recursos de merchandising do [!DNL Adobe Commerce Optimizer].
 recommendations: noCatalog
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:18:09.501Z'
 TQID: 'https://experienceleague.adobe.com/LMKEDmMUyq3PHXG-xoCeBrkbN9yX71fE3ZkstDKTHjw'
 product_v2:

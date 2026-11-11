@@ -4,7 +4,7 @@ description: Saiba como usar as políticas e exibições de catálogo do [!DNL A
 role: Admin, Developer
 feature: Personalization, Integration
 hide: true
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:39:05.356Z'
 TQID: 'https://experienceleague.adobe.com/5YIe-yCWxOcc56mi2p1QS9mIqaJxVsUvaN-AOF7Khi8'
 product_v2:

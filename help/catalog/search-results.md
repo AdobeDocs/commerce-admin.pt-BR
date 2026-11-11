@@ -41,7 +41,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Esta página descreve a funcionalidade de pesquisa padrão que pode ser diferente do [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+>Esta página descreve a funcionalidade de pesquisa padrão que pode ser diferente do [Live Search](https://experienceleague.adobe.com/pt-br/docs/commerce/live-search/overview).
 >
 >Para instâncias provisionadas com o Modelo de dados de catálogo combinável (CCDM), consulte [Pesquisar correspondência e classificação](/help/optimizer/manage-results/search-relevance-matching.md) em Serviços de merchandising.
 
@@ -59,7 +59,7 @@ Com **Elasticsearch**:
 
 >[!IMPORTANT]
 >
->Devido ao anúncio do fim do suporte do Elasticsearch 7 para agosto de 2023, é recomendável que todos os clientes do Adobe Commerce migrem para o mecanismo de pesquisa OpenSearch 2.x. Para obter informações sobre como migrar o mecanismo de pesquisa durante a atualização do produto, consulte [Migrando para o OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) no _Guia de Atualização_.
+>Devido ao anúncio do fim do suporte do Elasticsearch 7 para agosto de 2023, é recomendável que todos os clientes do Adobe Commerce migrem para o mecanismo de pesquisa OpenSearch 2.x. Para obter informações sobre como migrar o mecanismo de pesquisa durante a atualização do produto, consulte [Migrando para o OpenSearch](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) no _Guia de Atualização_.
 
 ## Mapeamento de palavras-chave para estender os resultados da pesquisa
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 293f07bf3a6a4de70ac8ababffa6334b5c319e97
+source-git-commit: 94c7929de24bee75e72927fb81692f4a2145c487
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1633'
 ht-degree: 0%
 ---
 # Chaves de acesso restrito
@@ -58,11 +58,11 @@ Selecione a guia da ferramenta usada para gerenciar chaves: Commerce Admin ou Ad
 
 >[!BEGINTABS]
 
->[!TAB &quot;Administrador do Adobe Commerce&quot;]
+>[!TAB Administrador do Adobe Commerce]
 
 Os clientes que usam o Adobe Commerce as a Cloud Service com CCDM ou o Adobe Commerce Optimizer conectado ao Adobe Commerce por meio do conector podem gerar pares de chaves RSA do administrador do Commerce. Consulte [Gerenciar chaves de acesso restrito](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys).
 
->[!TAB &quot;Adobe Commerce Optimizer Studio (gerenciamento manual de chaves)&quot;]
+>[!TAB Adobe Commerce Optimizer Studio]
 
 Os clientes que usam o Adobe Commerce Optimizer Studio devem gerar e gerenciar seus próprios pares de chaves RSA e, em seguida, adicionar a chave pública ao sistema. Esse é o fluxo de trabalho necessário para o Adobe Commerce Optimizer com um back-end de terceiros. Os clientes que usam o conector também podem usar esse fluxo de trabalho em vez do Administrador do Commerce.
 
@@ -132,11 +132,11 @@ Selecione a guia da ferramenta usada para gerenciar chaves: Commerce Admin ou Ad
 
 >[!BEGINTABS]
 
->[!TAB &quot;Administrador do Adobe Commerce&quot;]
+>[!TAB Administrador do Adobe Commerce]
 
 Consulte [Seleção e rotação de chaves](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys#key-selection-and-rotation). Isso se aplica ao Adobe Commerce as a Cloud Service com CCDM e a projetos do Adobe Commerce integrados ao Adobe Commerce Optimizer por meio do conector do Adobe Commerce Optimizer.
 
->[!TAB &quot;Adobe Commerce Optimizer Studio (gerenciamento manual de chaves)&quot;]
+>[!TAB Adobe Commerce Optimizer Studio]
 
 Esse procedimento é necessário para o Adobe Commerce Optimizer com back-end de terceiros. Os clientes que usam o conector também podem usá-lo no lugar do administrador do Commerce.
 

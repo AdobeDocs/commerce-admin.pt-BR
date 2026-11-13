@@ -2,7 +2,7 @@
 title: Introdução ao Recommendations
 description: O Recommendations é uma poderosa ferramenta de marketing que pode ser usada para aumentar as conversões, aumentar a receita e estimular o engajamento do comprador.
 recommendations: noCatalog
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:21:22.115Z'
 TQID: 'https://experienceleague.adobe.com/vCY1Q8UFKsJwYhr9WfAiPhvWyYYDMQv1A5QwlifywZ0'
 product_v2:

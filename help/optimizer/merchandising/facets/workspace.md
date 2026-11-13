@@ -1,7 +1,7 @@
 ---
 title: Facets Workspace
 description: Saiba como usar o espaço de trabalho de facetas em [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:19:49.443Z'
 TQID: 'https://experienceleague.adobe.com/BBH-f9rcblf7TIycqyizEf4GBdqlJ1p-gqAgs9fy7mQ'
 product_v2:

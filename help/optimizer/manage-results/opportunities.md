@@ -1,7 +1,7 @@
 ---
 title: Oportunidades
 description: Identifique oportunidades para impulsionar o tráfego, o envolvimento e as conversões por meio da integração com o Adobe Sites Optimizer para melhorias inteligentes no site orientadas por dados.
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:11:55.167Z'
 TQID: 'https://experienceleague.adobe.com/suVqMbKCBqrvBTt-WDcxmjkgB9bWmXMQzpp0Ek-1TS8'
 product_v2:

@@ -3,7 +3,7 @@ title: Visão geral de eventos
 description: Saiba mais sobre os eventos que o [!DNL Adobe Commerce Optimizer] usa para melhorar a pesquisa e as recomendações.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:38:31.330Z'
 TQID: 'https://experienceleague.adobe.com/2549A2tz6zEy7541P1TOxbAnWCehwhIjNbnblC1PRdY'
 product_v2:

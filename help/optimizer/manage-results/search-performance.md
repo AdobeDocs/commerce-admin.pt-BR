@@ -1,7 +1,7 @@
 ---
 title: Desempenho da pesquisa
 description: A página Desempenho da pesquisa fornece o insight para os termos de pesquisa que os compradores usam.
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:16:39.256Z'
 TQID: 'https://experienceleague.adobe.com/qFCpLYVsDln6yO5zUB4LoumG0JuI1njkxt-cAYrTvxI'
 product_v2:

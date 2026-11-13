@@ -1,7 +1,7 @@
 ---
 title: Métricas de sucesso
 description: Métricas de sucesso fornecem o insight para as métricas principais de desempenho do seu armazenamento [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:17:26.674Z'
 TQID: 'https://experienceleague.adobe.com/qWHF3u721-Ub1gqbW-QXDUW78ZtSxo6U6R0P0OMxpyc'
 product_v2:

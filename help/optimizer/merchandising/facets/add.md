@@ -1,7 +1,7 @@
 ---
 title: Criar e gerenciar facetas
 description: Saiba como adicionar e gerenciar facetas no [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:18:42.471Z'
 TQID: 'https://experienceleague.adobe.com/AXIGruJgD-JFBGr4jDUscJ2vSBOBcu-TaskyIECQ-b8'
 product_v2:

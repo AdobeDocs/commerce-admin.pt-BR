@@ -37,13 +37,11 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6a7e2a6f32d89c269a6d767c5d98b46c2c25aa83
 workflow-type: tm+mt
-source-wordcount: 3358
+source-wordcount: '3381'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Catalog] > [!UICONTROL Catalog]
 
 {{config}}
@@ -71,7 +69,7 @@ ht-degree: 0%
 
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | Exibição da loja | Habilita análises de produtos. Opções: `Yes` / `No` |
+| [!UICONTROL Enabled] | Exibição da loja | Habilita análises de produtos. Opções: `Yes` / `No`<br/>O valor padrão é `Yes` no Adobe Commerce na infraestrutura de nuvem e no Adobe Commerce no local, e `No` no Adobe Commerce as a Cloud Service. |
 | [!UICONTROL Allow Guests to Write Reviews] | Site | Determina se os clientes devem abrir uma conta na loja para poderem escrever análises do produto. |
 
 {style="table-layout:auto"}

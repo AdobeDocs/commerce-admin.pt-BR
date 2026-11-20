@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
+source-git-commit: 5fe6a09753399a171e55ad8b0bbd8b5ebd385be7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '291'
 ht-degree: 0%
 ---
 # Menu [!UICONTROL Marketing]
@@ -84,7 +84,5 @@ Personalize todas as notificações enviadas do seu armazenamento. Criar [boleti
 Analise os [termos de pesquisa](../catalog/search-terms.md) e os [sinônimos](../catalog/search-terms.md#search-synonyms) para ajudar os clientes a encontrar produtos no armazenamento, gerenciar os [metadados](meta-data.md) e criar um [mapa de sites](sitemap-xml.md). Use [redirecionamentos](url-rewrite.md) para gerenciar alterações de URL e evitar links com falha.
 
 ### [!UICONTROL User Content]
-
-[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
 
 Incorpore [análises de produtos](product-reviews.md) geradas por usuários para criar um senso de comunidade e aumentar as vendas.

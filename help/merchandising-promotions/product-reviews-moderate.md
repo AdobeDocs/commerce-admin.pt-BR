@@ -3,7 +3,6 @@ title: Avaliações de produto moderadas
 description: Saiba como você pode moderar as análises de produtos para garantir que as análises enviadas sejam apropriadas para a exibição pública da sua loja.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: 'https://experienceleague.adobe.com/DGRJr-P9TUQ1TFh4Da1Z4VwrKfWe2rw5wmbwq9IlAFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -30,9 +29,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 6a7e2a6f32d89c269a6d767c5d98b46c2c25aa83
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '392'
 ht-degree: 0%
 ---
 # Avaliações de produto moderadas

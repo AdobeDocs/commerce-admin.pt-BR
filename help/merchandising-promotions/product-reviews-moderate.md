@@ -3,7 +3,6 @@ title: Avaliações de produto moderadas
 description: Saiba como você pode moderar as análises de produtos para garantir que as análises enviadas sejam apropriadas para a exibição pública da sua loja.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: 'https://experienceleague.adobe.com/DGRJr-P9TUQ1TFh4Da1Z4VwrKfWe2rw5wmbwq9IlAFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -30,9 +29,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 6a7e2a6f32d89c269a6d767c5d98b46c2c25aa83
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '392'
 ht-degree: 0%
 ---
 # Avaliações de produto moderadas
@@ -53,7 +52,7 @@ Para exibir todas as revisões de um produto específico no Administrador, faça
 
 ## Atualizar status para revisões
 
-1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;ou **[!UICONTROL All Reviews]**.
+1. Na barra lateral _Admin_, vá para **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**ou **[!UICONTROL All Reviews]**.
 
 1. Na lista, clique em uma revisão pendente para exibir os detalhes e editar, se necessário.
 
@@ -61,7 +60,7 @@ Para exibir todas as revisões de um produto específico no Administrador, faça
 
    - Para aprovar uma revisão pendente, selecione `Approved`.
 
-   - Para rejeitar uma revisão, selecione `Not Approved`. Revisões não aprovadas desaparecem da lista de _[!UICONTROL Pending Reviews]_&#x200B;página.
+   - Para rejeitar uma revisão, selecione `Not Approved`. Revisões não aprovadas desaparecem da lista de _[!UICONTROL Pending Reviews]_página.
 
    >[!NOTE]
    >
@@ -85,7 +84,7 @@ Para exibir todas as revisões de um produto específico no Administrador, faça
 
 1. Selecione as revisões que deseja atualizar.
 
-1. Use o seletor _[!UICONTROL Action]_&#x200B;no canto superior esquerdo para aplicar uma ação.
+1. Use o seletor _[!UICONTROL Action]_no canto superior esquerdo para aplicar uma ação.
 
 1. Clique em **[!UICONTROL Submit]**
 

@@ -3,7 +3,6 @@ title: Resenhas do produto
 description: Saiba como as análises de produtos podem aprimorar sua loja e dar mais credibilidade aos seus produtos.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 560b0b1584040e8d840645328cdea5e51bdca640
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '866'
 ht-degree: 0%
 ---
 # Resenhas do produto
@@ -49,9 +48,15 @@ O Commerce inclui um recurso nativo de análises de produtos que pode ser gerenc
 >
 >As versões 2.4.0 a 2.4.3 do Adobe Commerce e do Magento Open Source incluíam a extensão desenvolvida pelo fornecedor do Yotpo. A partir da versão 2.4.4, essa extensão não é mais fornecida com a versão principal e deve ser instalada e atualizada do Commerce Marketplace. O Marketplace também fornece acesso à documentação atual fornecida pelo desenvolvedor da extensão.
 ><br><br>
->Se você tiver a extensão agrupada ativada e configurada, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/modules/upgrade) no _Guia de Atualização_ para obter mais informações.
+>Se você tiver a extensão agrupada ativada e configurada, deverá atualizar o arquivo composer.json como parte do processo de atualização 2.4.4 e gerenciar as atualizações de extensão a partir de agora. Consulte [Atualizar módulos](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) no _Guia de Atualização_ para obter mais informações.
 
 ## Resenhas de produtos na loja
+
+[!BADGE Somente PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."}
+
+>[!NOTE]
+>
+>Esta seção descreve as análises de produto da loja Luma no Adobe Commerce na infraestrutura em nuvem e no Adobe Commerce no local. O Adobe Commerce as a Cloud Service não inclui a loja Luma, portanto, ativar revisões de produtos no Administrador não adiciona recursos de revisão à sua loja. Em vez disso, você precisa usar a consulta do GraphQL [`reviews`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/reviews) para recuperar revisões e a mutação [`createProductReview`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/mutations/create-review) para criar revisões.
 
 Quando a função Nativa Revisões de produto estiver ativada, os clientes poderão escrever revisões para qualquer produto em seu catálogo. As análises podem ser escritas na página do produto clicando em:
 
@@ -71,7 +76,7 @@ O número de estrelas indica o índice de satisfação do produto. Os visitantes
 
 ### [!UICONTROL My Product Reviews]
 
-A seção _[!UICONTROL My Product Reviews]_&#x200B;do painel da conta do cliente lista todas as revisões enviadas pelo cliente e aprovadas para publicação. Cada resumo de revisão inclui a data em que a revisão foi enviada, links para a página do produto e detalhes da revisão.
+A seção _[!UICONTROL My Product Reviews]_do painel da conta do cliente lista todas as revisões enviadas pelo cliente e aprovadas para publicação. Cada resumo de revisão inclui a data em que a revisão foi enviada, links para a página do produto e detalhes da revisão.
 
 ![Minhas análises de produto](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -83,11 +88,11 @@ A seção _[!UICONTROL My Product Reviews]_&#x200B;do painel da conta do cliente
 
 ## Habilitar recursos de análise do produto
 
-A função Revisões de produto do Commerce é ativada por padrão.
+A função de Revisões de produto do Commerce é habilitada por padrão no Adobe Commerce na infraestrutura de nuvem e no Adobe Commerce no local. Ela é desativada por padrão no Adobe Commerce as a Cloud Service.
 
 >[!NOTE]
 >
->Para definir esses campos como `No` e desabilitar as Revisões de Produtos do Commerce, desmarque as caixas de seleção **Usar valor do sistema**.
+>Para alterar esses campos de seus valores padrão, primeiro desmarque as caixas de seleção **[!UICONTROL Use system value]**.
 
 1. Na barra lateral _Admin_, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -99,11 +104,11 @@ A função Revisões de produto do Commerce é ativada por padrão.
 
 1. Defina **[!UICONTROL Enabled]** como `Yes`.
 
-   Essa é a configuração padrão que permite revisões de produtos.
+   Esta configuração permite revisões de produtos.
 
 1. Defina **[!UICONTROL Allow Guests to Write Reviews]** como `Yes`.
 
-   Essa é a configuração padrão que determina se os clientes devem abrir uma conta na loja para poderem escrever análises de produtos.
+   Essa configuração determina se os clientes devem abrir uma conta na loja para poderem escrever análises de produtos.
 
 1. Quando terminar, clique em **[!UICONTROL Save Config]**.
 
@@ -119,7 +124,7 @@ Com as Revisões de produto do Commerce, os clientes podem atribuir classificaç
 
    ![Administrador - Classificações](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Na seção _[!UICONTROL Rating Title]_, digite o **[!UICONTROL Default Value]**&#x200B;para a nova classificação.
+1. Na seção _[!UICONTROL Rating Title]_, digite o **[!UICONTROL Default Value]**para a nova classificação.
 
    Se aplicável, insira também a tradução para cada exibição de loja.
 

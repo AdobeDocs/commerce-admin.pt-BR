@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '917'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/manage-results/recommendation-performance.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Desempenho do Recommendations
 
 A página Desempenho do Recommendations exibe uma lista de recomendações configuradas, juntamente com as métricas principais, para ajudá-lo a avaliar sua eficácia. Você pode configurar a exibição para exibir métricas do dia, semana ou mês passado. Esses insights mostram a frequência com que cada unidade de recomendação é visualizada ou clicada, ajudando a avaliar o desempenho e identificar oportunidades de otimização.
@@ -102,5 +112,5 @@ A disponibilidade do produto é imposta por exibição de catálogo, mesmo para 
 **Exemplo: recomendação com filtros de inclusão na seleção Todas as exibições**
 
 - **Todas as exibições** recomendadas incluem SKUs: SKU_ABC, SKU_CDE, SKU_XYZ.
-- **Exibição de catálogo: Kingsbluff** não pode vender SKU_ABC ou SKU_CDE. **Exibido:** Somente SKU_XYZ, desde que satisfaça a todos os outros filtros habilitados.
-- **Exibição de catálogo: a Arkbridge** não pode vender nenhuma das SKUs incluídas. **Mostrado:** nenhuma unidade de recomendação, porque nenhum SKU satisfaz o filtro de inclusão e a disponibilidade de exibição de catálogo.
+- **Exibição de catálogo: Kingsbluff** não pode vender SKU_ABC ou SKU_CDE. **Exibido:** SKU_XYZ mais quaisquer outras SKUs válidas para Kingsbluff.
+- **Exibição de catálogo: a Arkbridge** não pode vender nenhuma das SKUs incluídas. **Mostrado:** somente SKUs permitidas pela Arkbridge. Se não houver nenhuma disponível, a unidade de recomendação não aparecerá nessa vitrine.

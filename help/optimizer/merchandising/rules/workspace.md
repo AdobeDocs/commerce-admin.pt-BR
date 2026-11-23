@@ -1,7 +1,7 @@
 ---
 title: Workspace de regras de merchandising
 description: Conheça o espaço de trabalho Regras de merchandising.
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:36:59.995Z'
 TQID: 'https://experienceleague.adobe.com/3RTLoE1KCCXWChJeDftEpbhYHCQi3gPEMmgs92D1JTc'
 product_v2:
@@ -21,8 +21,8 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-last-update: 2026-11-11
-source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
+last-update: 2026-11-20
+source-git-commit: cf5a7bc3eb73bd404deb72fe67842543bf7b0931
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 0%

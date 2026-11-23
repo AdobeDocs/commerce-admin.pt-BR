@@ -1,7 +1,7 @@
 ---
 title: Criar e gerenciar regras
 description: Saiba como criar e gerenciar regras de merchandising para páginas de pesquisa, listas de produtos padrão e de categoria.
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:36:19.490Z'
 TQID: 'https://experienceleague.adobe.com/n7WvI0yju-qRiFtTxaCxr5xp3xzNUn-ywytltWiTveM'
 product_v2:

@@ -3,7 +3,7 @@ title: Pesquisar correspondência e classificação
 description: Saiba como [!DNL Adobe Commerce Optimizer] está classificado em correspondências exatas, próximas, de mesmo campo e entre campos e como a classificação funciona com pesos e regras de merchandising.
 role: Admin, Leader, User
 recommendations: noCatalog
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 hide: true
 autotag-review: '2026-11-02T19:17:14.019Z'
 TQID: 'https://experienceleague.adobe.com/9pCrz4vA-A9qR8NpuhylRBFmBc1-wIgi3yG1w-dybTg'

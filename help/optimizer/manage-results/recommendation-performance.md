@@ -1,7 +1,7 @@
 ---
 title: Desempenho do Recommendations
 description: A página de desempenho do Recommendations fornece informações sobre o desempenho das recomendações de produtos do insight.
-badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
+badgeSaas: label="Somente SaaS" type="Positive" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplicável a instâncias do Adobe Commerce as a Cloud Service provisionadas apenas com CCDM (infraestrutura SaaS gerenciada pela Adobe)."
 autotag-review: '2026-11-02T19:12:08.536Z'
 TQID: 'https://experienceleague.adobe.com/kz7MdvZBW-55Wg9EtKduG33jvzgEl93zWfs30hFe1YY'
 product_v2:

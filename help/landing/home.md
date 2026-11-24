@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-20
-source-git-commit: cf5a7bc3eb73bd404deb72fe67842543bf7b0931
+source-git-commit: 2baac8054363a312720e9c30637ed556912d51ff
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '828'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![Documentação do administrador](./assets/banner-user-home.png) {#documentation}
@@ -119,6 +119,13 @@ O Magento Open Source é a base de código para a qual a Adobe contribui oficial
        <img alt="Merchandising e promoções" src="./assets/icon-labels.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../merchandising-promotions/guide-overview.md"> <strong>Merchandising e promoções</strong></a>
     <div><em>Crie promoções e oportunidades direcionadas para o engajamento do cliente que transformem compradores. Gerencie o relacionamento com o cliente apoiando atividades pós-compra e oferecendo descontos especiais aos clientes recorrentes. Conheça as práticas recomendadas e técnicas que apoiam suas iniciativas de SEO.</em></div>
+  </td>
+</tr>
+<tr>
+    <td valign="top">
+       <img alt="Descoberta de produto de IA" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="../ai-product-discovery/guide-overview.md"> <strong>Descoberta de Produto de IA</strong></a>
+    <div><em>Saiba como o enriquecimento do catálogo [!DNL Adobe Commerce] e o enriquecimento de PDP solucionam lacunas em dados de produtos estruturados e em cópia focada no comprador para descoberta de produtos de IA.</em></div>
   </td>
 </tr>
 <tr>

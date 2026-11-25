@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '878'
 ht-degree: 3%
 ---
 # [!UICONTROL Customers] > [!UICONTROL Company Configuration]
@@ -60,6 +60,7 @@ Para obter mais informações sobre como definir essas configurações, consulte
 | Campo | [Escopo](../../getting-started/websites-stores-views.md#scope-settings) | Descrição |
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | Site | Determina se os visitantes do seu armazenamento têm a opção de [registrar](../../customers/customer-sign-in.md) para uma conta da empresa ou para uma conta individual. Opções: `Yes` / `No` |
+| [!UICONTROL Allow Company Configuration on Storefront Registration] | Site | Determina se a mutação do GraphQL `createCompany` aceita a configuração da empresa durante o registro da loja, incluindo as configurações do catálogo de endereços da empresa. Esta opção está disponível quando **[!UICONTROL Allow Company Registration from the Storefront]** está definido como `Yes`. Ele não habilita o catálogo de endereços de cada empresa. Opções: `Yes` / `No` (padrão) |
 
 {style="table-layout:auto"}
 

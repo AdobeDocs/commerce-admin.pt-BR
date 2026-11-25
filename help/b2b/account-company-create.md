@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '2455'
+source-wordcount: '2640'
 ht-degree: 0%
 ---
 # Criar uma conta de empresa
@@ -96,6 +96,8 @@ O sistema atribui a função de [administrador de empresa](account-company-admin
 >[!IMPORTANT]
 >
 >Para dar suporte a este método (permitindo que os clientes registrem sua empresa na loja), verifique se os [Recursos B2B](enable-basic-features.md) estão habilitados.
+
+Para vitrines que usam a mutação do GraphQL `createCompany`, as configurações do catálogo de endereços da empresa podem ser enviadas durante o registro quando **[!UICONTROL Allow Company Configuration on Storefront Registration]** estiver habilitado na [Configuração da Empresa](../configuration-reference/customers/company-configuration.md#general). Essa configuração é desativada por padrão e não ativa o catálogo de endereços de uma empresa.
 
 1. No canto superior direito do cabeçalho da loja, o cliente clica em **[!UICONTROL Create an Account]** e escolhe **[!UICONTROL Create New Company Account]**.
 
@@ -197,7 +199,7 @@ O processo de criação de uma empresa pelo Administrador é essencialmente o me
 
    ![Informações da conta](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. Ao criar uma empresa inicialmente, a grade _[!UICONTROL Company Hierarchy]_&#x200B;aparece vazia quando você a expande. Depois de salvar a empresa, você pode incluí-la em uma hierarquia de empresa. Consulte [Gerenciamento da Empresa](manage-companies.md).
+1. Ao criar uma empresa inicialmente, a grade _[!UICONTROL Company Hierarchy]_aparece vazia quando você a expande. Depois de salvar a empresa, você pode incluí-la em uma hierarquia de empresa. Consulte [Gerenciamento da Empresa](manage-companies.md).
 
 1. Na seção _[!UICONTROL Legal Address]_, preencha estes campos obrigatórios:
 
@@ -254,6 +256,10 @@ O processo de criação de uma empresa pelo Administrador é essencialmente o me
 
    * Se você quiser permitir que os funcionários da empresa criem e usem ordens de compra a partir de suas contas, defina **[!UICONTROL Enable Purchase Orders]** como `Yes`.
 
+   * Para habilitar um catálogo de endereços de empresa compartilhado, defina **[!UICONTROL Enable Company Address Book]** como `Yes`. Esta configuração é `No` por padrão.
+
+   * Para permitir um endereço de remessa temporário no check-out quando o catálogo de endereços da empresa estiver habilitado, defina **[!UICONTROL Allow Custom Shipping Address]** como `Yes`. Esta configuração é `No` por padrão.
+
    * Para alterar os **[!UICONTROL Applicable Payment Methods]** que estão disponíveis para a empresa, desmarque a caixa de seleção **[!UICONTROL Use config settings]** e escolha uma das seguintes opções:
 
      | Opção | Descrição |
@@ -304,6 +310,8 @@ Após a ativação, os administradores da empresa devem:
 * **[Gerenciar Usuários da Empresa](account-company-users.md)** — Adicione funcionários e atribua funções
 * **[Configurar Ordens de Compra](purchase-order-flow.md)** — Configurar fluxos de trabalho de aprovação, se necessário
 * **[Revisar Configurações de Crédito](credit-company.md)**—Compreender e gerenciar o crédito da empresa (se habilitado)
+
+Quando o catálogo de endereços da empresa está habilitado para uma loja compatível, os usuários da empresa podem usar endereços da empresa no check-out em vez do catálogo particular de endereços. O faturamento requer um endereço de empresa existente. O envio exige um endereço de empresa, a menos que endereços de envio personalizados sejam permitidos; locais de retirada são isentos. As funções da empresa podem receber permissões separadas para adicionar, editar, excluir e definir endereços de empresa padrão. Uma empresa pode ter endereços de entrega e cobrança padrão separados.
 
 ## Problemas comuns e solução de problemas
 
@@ -377,7 +385,7 @@ Ao criar e gerenciar contas da empresa:
 | Campo | Descrição |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | O nome da empresa é inserido quando a conta da empresa é criada pela primeira vez e pode ser uma versão reduzida do nome legal completo. |
-| [!UICONTROL Status] | (Somente administrador) Indica o estado atual da conta da empresa. Opções: <br/>**[!UICONTROL Active]**- A conta da empresa foi aprovada pelo administrador de armazenamento. O administrador da empresa e os membros associados podem fazer logon na conta da loja e fazer compras.<br/>**[!UICONTROL Pending Approval]** - Uma solicitação para abrir uma conta da empresa foi enviada, mas ainda não foi aprovada pelo administrador de armazenamento. <br/>**[!UICONTROL Rejected]**- Uma solicitação para abrir uma conta da empresa foi enviada, mas não foi aprovada pelo administrador de armazenamento. As credenciais de logon iniciais usadas para enviar a solicitação estão bloqueadas.<br/>**&#x200B; Bloqueado &#x200B;**- Os membros da empresa podem fazer logon e acessar o catálogo, mas não podem fazer compras. O administrador de armazenamento pode bloquear uma conta da empresa que não esteja em boa posição. O bloqueio na conta pode ser removido pelo administrador de armazenamento a qualquer momento. |
+| [!UICONTROL Status] | (Somente administrador) Indica o estado atual da conta da empresa. Opções: <br/>**[!UICONTROL Active]**- A conta da empresa foi aprovada pelo administrador de armazenamento. O administrador da empresa e os membros associados podem fazer logon na conta da loja e fazer compras.<br/>**[!UICONTROL Pending Approval]** - Uma solicitação para abrir uma conta da empresa foi enviada, mas ainda não foi aprovada pelo administrador de armazenamento. <br/>**[!UICONTROL Rejected]**- Uma solicitação para abrir uma conta da empresa foi enviada, mas não foi aprovada pelo administrador de armazenamento. As credenciais de logon iniciais usadas para enviar a solicitação estão bloqueadas.<br/>** Bloqueado **- Os membros da empresa podem fazer logon e acessar o catálogo, mas não podem fazer compras. O administrador de armazenamento pode bloquear uma conta da empresa que não esteja em boa posição. O bloqueio na conta pode ser removido pelo administrador de armazenamento a qualquer momento. |
 | [!UICONTROL Company Email] | O endereço de email associado à conta da empresa. |
 | [!UICONTROL Sales Representative] | (Somente administrador) O usuário administrador que é o contato principal da conta da empresa. |
 
@@ -462,6 +470,8 @@ Você pode definir configurações avançadas para empresas individuais. Se voc�
 | [!UICONTROL Customer Group] | (Somente Administrador) Mostra o [grupo de clientes](../customers/customer-groups.md) ou o [catálogo compartilhado](catalog-shared.md) atribuído à empresa. |
 | [!UICONTROL Allow Quotes] | (Somente Administrador) Determina se os membros da empresa podem preparar e enviar cotações negociáveis em nome da empresa. |
 | [!UICONTROL Enable Purchase Orders] | (Somente Administrador) Determina se os membros da empresa podem enviar pedidos como [ordens de compra](account-dashboard-my-purchase-orders.md) em nome da empresa. |
+| [!UICONTROL Enable Company Address Book] | (Somente administrador) Habilita endereços de empresa para a empresa em fluxos de vitrine compatíveis. Opções: `Yes` / `No` (padrão). |
+| [!UICONTROL Allow Custom Shipping Address] | (Somente administrador) Permite endereços de envio temporários no check-out quando o catálogo de endereços da empresa está habilitado. A cobrança ainda requer um endereço de empresa existente. Opções: `Yes` / `No` (padrão). |
 | Métodos de pagamento aplicáveis | (Somente Administrador) Indica os métodos de pagamento disponíveis para compras da empresa. Opções: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | (Somente Administrador) Fica ativo se você ativar métodos de pagamento específicos. Para disponibilizar vários métodos de pagamento para a conta da empresa, mantenha pressionada a tecla Ctrl (PC) ou a tecla Command (Mac) e selecione cada opção. |
 | [!UICONTROL Applicable Shipping Methods] | (Somente Administrador) Indica os métodos de envio disponíveis para compras da empresa. Opções: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
